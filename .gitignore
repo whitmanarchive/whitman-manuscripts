@@ -1,0 +1,9 @@
+# ignore config files except examples
+**/*.yml
+!**/*.example.yml
+
+# ignore html-generated
+html-generated/**
+!html-generated/.keep
+
+.DS_Store
