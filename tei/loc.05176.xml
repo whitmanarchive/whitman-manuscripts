@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.05176">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main" rend="bracketed">The analogy</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="kc">Kirsten Clawson</persName>
+                    <persName xml:id="jc">Janel Cayer</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+<persName xml:id="nhg">Nicole Gray</persName>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.05176</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">Based on the handwriting, Edward Grier dates this manuscript to 1855 or earlier (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:176).</note>             
+            </notesStmt>
+            <sourceDesc>
+                
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title rend="bracketed">The analogy</title>                  
+                    <idno type="callno">MSS45443, Box 1, Reel 1</idno>
+                    <date xml:id="dat1" cert="medium" notBefore="1845" notAfter="1855">1855 or earlier</date>
+                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
+                    <note type="project">Transcribed from digital images of the original.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="h1" scribeRef="#ww" medium="brown-ink"/>
+                <handNote xml:id="h2" scribeRef="#ww" medium="pencil"/>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+<change when="2016-05-12" who="#nhg">checked, corrected</change>
+            <change when="2016-05-04" who="#km">checked</change>
+            <change when="2015-01-29" who="#jc">checked; revised repository information in header</change>
+            <change when="2014-09-24" who="#kc">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="manuscript">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_af.00118.jpg" type="recto"/>
+            
+            <p><handShift new="#h1"/>The analogy holds in this way&#8212;that the soul <del rend="overstrike">or Spirit</del> of the Universe is the <subst><del rend="overstrike" seq="1">Father</del> <add rend="unmarked" place="supralinear" seq="2">Male and <add rend="unmarked" place="infralinear" seq="3"><handShift new="#h2"/>genital</add> <subst><del rend="overstrike" seq="1" hand="#h2">Lord</del> <add rend="unmarked" place="inline" seq="2"><handShift new="#h2"/>master, and</add></subst></add></subst> the <del rend="overstrike"><unclear reason="illegible" cert="medium" resp="#kc">animating and</unclear></del> impregnating and animating spirit.&#8212;<del rend="overstrike">The Female</del> <del rend="overstrike">All</del> <add rend="insertion" place="supralinear"><subst><del rend="overstrike" seq="1">Universal</del> <add rend="unmarked" place="inline" seq="2">Physical</add></subst></add> matter is <del rend="overstrike">the</del> Female <add rend="insertion" place="supralinear">and Mother,</add> and waits barren and bloomless, the jets of life from the masculine vigor, the undermost first cause of all <del rend="overstrike">vigor and motion</del> that is not what Death is.&#8212;</p>
+            
+            <pb xml:id="leaf001v" facs="loc_af.00119.jpg" type="verso"/>
+            
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+ 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00019">
+    <relations>
+        <work ref="xxx.00120" cert="low">
+            <p>The ideas expressed in this manuscript thematically relate to Whitman's poem "A Song
+                of the Rolling Earth," which was published first in the <date when="1856">1856</date> edition of <hi rend="italic">Leaves of Grass</hi> as "Poem of The
+                Sayers of The Words of The Earth."</p>
+        </work>
+    </relations>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main" rend="bracketed">This is the Earths word</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="aj">Andrew Jewell</persName>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
+                    <persName xml:id="nk">Nick Krauter</persName>
+                    <persName xml:id="zb">Zach Bajaber</persName>
+                </respStmt>
+                <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <sponsor>University of Nebraska-Lincoln</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+                <funder>The United States Department of Education</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2004</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>duk.00019</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+<addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
+<addrLine>Alderman Library</addrLine>
+<addrLine>University of Virginia</addrLine>
+<addrLine>P.O. Box 400115</addrLine>
+<addrLine>Charlottesville, VA 22904-4115</addrLine>
+<addrLine>whitman@jefferson.village.virginia.edu</addrLine>
+</address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">This manuscript was probably written in the <date notBefore="1852" notAfter="1856">mid-1850s</date>. Some of the ideas expressed in this manuscript thematically relate to Whitman's poem "A Song
+                    of the Rolling Earth," which was published first in the <date when="1856">1856</date> edition of <hi rend="italic">Leaves of Grass</hi> as "Poem of The
+                    Sayers of The Words of The Earth."</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>This is the Earths word</title>
+                    <date xml:id="dat1" cert="low" notBefore="1851" notAfter="1861">About 1856</date>
+                    <orgName xml:id="duk">The Trent Collection of Walt Whitman Manuscripts, Duke University Rare
+                        Book, Manuscript, and Special Collections Library</orgName>
+                    <note type="project">Transcribed from digital images of the original.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2016-09-22" who="#nhg">proofed</change>
+            <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
+            <change when="2006-08-02" who="#nk">Added third digit to leaf numbers</change>
+            <change when="2005-05-06" who="#bb">Blessed</change>
+            <change when="2004-05-21" who="#kmp">Edited</change>
+            <change when="2004-05-13" who="#aj">Checked, revised</change>
+            <change when="2002-08-09" who="#zb">Encoded, transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="manuscript">
+        <body>
+            <pb facs="duk.00019.001.jpg" xml:id="leaf001r" type="recto"/>
+            <div1 type="poemNotes">
+                <note type="authorial" place="inline">
+                    <gap reason="illegible" extent="about one character"/>
+                </note>
+                <head type="main">&#8212;This is the Earths word&#8212;</head>
+                <milestone unit="undeclared" rend="horbar-short-left"/>
+                <ab>the pervading sentiment or lesson is to be that the only good of learning the
+                    theory <subst>
+                        
+                            <del rend="overstrike" seq="1">and</del>
+                                                
+                            <add place="supralinear" rend="unmarked" seq="2">of the</add>
+                                            </subst>
+
+                            <seg xml:id="alt01">fluency</seg>
+                                <del rend="overstrike"><add place="supralinear" rend="unmarked" xml:id="alt02">largeness, exa</add></del><alt target="#alt01 #alt02" weights="0.75 0.25"/>
+                                            and generosity and unpartiality, largeness and exactitude of the earth is
+                    to use all those toward <add place="supralinear" rend="insertion">the theory
+                        of</add> character&#8212;human character </ab>
+                <milestone unit="undeclared" rend="horbar-full"/>
+            </div1>
+            <pb facs="duk_am.00293_large.jpg" xml:id="leaf001v" type="verso"/>
+        </body>
+    </text>
+</TEI>

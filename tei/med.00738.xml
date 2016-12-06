@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00738">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main" rend="bracketed">Literature it is certain</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="jc">Janel Cayer</persName>
+                    <persName xml:id="es">Jeannette Schollaert</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>med.00738</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2014 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">Because the manuscript has not been located it is difficult to speculate on the circumstances or date of its composition. Edward Grier believed that it "probably was written in the 1850s."</note>             
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Walt Whitman</author>
+                        <editor>Edward F. Grier</editor>
+                        <title xml:id="nupm">Notebooks and Unpublished Prose Manuscripts</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date when="1984">1984</date>
+                            <biblScope type="page">1557</biblScope>
+                            <biblScope type="volume">4</biblScope>
+                        </imprint>
+                    </monogr>
+                    <note type="project">Grier derives this text from <hi rend="italic">Notes &#038; Fragments</hi>, ed. Richard Maurice Bucke (London, Ontario: A. Talbot &amp; Co., printers, 1899), 143.</note>
+                </biblStruct>
+
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title rend="bracketed">Literature It Is Certain</title>                  
+                    <date xml:id="dat1" notBefore="1845" notAfter="1892" cert="low">Between 1845 and 1892</date>
+                    <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2016-12-05" who="#bb">reconciled with description in EAD</change>
+            <change when="2016-09-08" who="#nhg">proofed</change>
+            <change when="2016-08-16" who="#km">checked</change>
+            <change when="2016-02-16" who="#es">checked</change>
+            <change when="2014-10-29" who="#jc">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="manuscript">
+        <body>
+            <ab>Literature it is certain would be fuller of vigor and sanity if authors were in the habit of composing in the forenoon&#8212;and never at night.</ab>
+        </body>
+    </text>
+</TEI>

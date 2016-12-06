@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+ 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="yal.00049">
+    <relations>
+        <work ref="xxx.00335" cert="high">
+            <p>This manuscript is a draft of the poem "And Yet Not You Alone," first published in
+                the "Fancies at Navesink" sequence of poems in the <date when="1885-08">August
+                    1885</date> issue of <hi rend="italic">Nineteenth Century</hi>.</p>
+        </work>
+    </relations>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main" rend="bracketed">Nor you alone</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="nk">Nick Krauter</persName>
+                    <persName xml:id="lr">Lisa Renfro</persName>
+                    <persName xml:id="ap">Ashley Price</persName>
+                    <persName xml:id="aj">Andy Jewell</persName>
+                    <persName xml:id="kmp">Kenneth Price</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
+                </respStmt>
+                <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <sponsor>University of Nebraska-Lincoln</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+                <funder>The United States Department of Education</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2003</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>yal.00049</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+<addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
+<addrLine>Alderman Library</addrLine>
+<addrLine>University of Virginia</addrLine>
+<addrLine>P.O. Box 400115</addrLine>
+<addrLine>Charlottesville, VA 22904-4115</addrLine>
+<addrLine>whitman@jefferson.village.virginia.edu</addrLine>
+</address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">This manuscript is a draft of the poem "And Yet Not You Alone," first published in
+                    the "Fancies at Navesink" sequence of poems in the <date when="1885-08">August
+                        1885</date> issue of <hi rend="italic">Nineteenth Century</hi>. Whitman probably composed this manuscript shortly
+                    before its publication.</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>[Nor you alone]</title>
+                    <date xml:id="dat1" cert="high" notBefore="1882" notAfter="1885">About 1885</date>
+                    <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and
+                        Manuscript Library</orgName>
+                    <note type="project">Transcribed from digital images of the original.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="h1" scribeRef="#unk"><persName xml:id="unk">Unknown</persName></handNote>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-09-05" who="#nhg">proofed</change>
+            <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
+            <change when="2006-08-04" who="#nk">added third digit to leaf numbers</change>
+            <change when="2006-02-09" who="#lr">added missing period</change>
+            <change when="2004-08-19" who="#bb">corrected unicodes for printer hyphens; re-blessed</change>
+            <change when="2004-07-29" who="#aj">added date and work markup</change>
+            <change when="2004-04-23" who="#bb">changed "rhythmns" to "rhythmus" in the last line</change>
+            <change when="2004-04-09" who="#bb">blessed</change>
+            <change when="2003-12-08" who="#kmp">edited</change>
+            <change when="2003-11-24" who="#aj">revised, checked</change>
+            <change when="2003-05-28" who="#ap">encoded</change>
+            <change when="2003-05-28" who="#ap">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="manuscript">
+        <body>
+            <pb facs="yal.00049.001.jpg" xml:id="leaf001r" type="recto"/>
+            <note type="archival" place="top" resp="#h1">14</note>
+            <note type="authorial" place="top">3</note>
+            <lg type="poem">
+                <l>
+                    <damage agent="water">N</damage>
+                </l>
+                <l>
+                    Nor <subst>
+                            
+                                <del rend="overstrike" seq="1">yours</del>
+                                                        
+                                <add rend="unmarked" place="supralinear" seq="2">you</add>
+                                                    </subst> alone, twilight and <subst>
+                            
+                                <del rend="overstrike" seq="1">hurrying</del>
+                                                        
+                                <del rend="overstrike" seq="3"><add rend="unmarked" place="supralinear" seq="2">poured-out</add></del>
+                                                        
+                                <add rend="unmarked" place="supralinear" seq="4">burying</add>
+                                                    </subst>
+
+                    <lb/>ebb,
+                </l>
+                <l>Nor you, ye lost designs, alone&#8212;nor <choice>
+<orig>fail-<lb/>ures</orig><reg>failures</reg></choice>, aspirations;
+                </l>
+                <l>I know, <del rend="overstrike">din</del> divine, deceitful <del rend="overstrike">f</del>
+                        <subst>
+                            
+                                <del rend="overstrike" seq="1">ones</del>
+                                                        
+                                <add rend="unmarked" place="supralinear" seq="2">one<del rend="overstrike">,</del><add rend="unmarked" place="inline">s<del rend="overstrike">,</del>
+</add>
+</add>
+                                                        
+                                <del rend="overstrike" seq="4"><add rend="unmarked" place="supralinear" seq="3"><note type="authorial" place="inline">?</note> show</add></del></subst>, your
+                    <lb/>
+<subst>
+                            
+                                <del rend="overstrike" seq="1"><add rend="unmarked" place="inline">hurried</add></del>
+                                                        
+                                <del rend="overstrike" seq="3"><add rend="unmarked" place="supralinear" seq="2">needed</add></del>
+                                                    </subst> glamour's seeming,
+                </l>
+                <l>Duly from you the inborne tide<add rend="unmarked" place="inline">s</add>
+                        <add rend="insertion" place="supralinear">again</add>&#8212;duly
+                    <lb/>the hinge<add rend="unmarked" place="inline">s</add>
+                        <del rend="overstrike">a&#8209;</del>turning
+                </l>
+                <l>Duly the needed blending discord&#8209;parts offsetting</l>
+                <l>
+<subst>
+                        
+                            <del rend="overstrike" seq="1">From you,</del>
+                                                
+                            <add rend="insertion" place="supralinear" seq="2">Weaving from you,</add>
+                                            </subst> from <subst>
+                        
+                            <del rend="overwrite" seq="1">s</del><add rend="overwrite" place="over" seq="2">S</add></subst>leep and Night, from Death itself,</l>
+                <l>
+<subst>
+                        
+                            <del rend="overstrike" seq="1">The</del>
+                                                
+                            <del rend="overstrike" seq="3"><add rend="unmarked" place="supralinear" seq="2">A</add></del>
+                                                
+                            <add rend="unmarked" place="infralinear" seq="4">The</add>
+                                            </subst>
+<choice>
+<orig>rhythmus</orig>
+<reg>rhythms</reg>
+</choice> of <subst>
+                        
+                            <del rend="overstrike" seq="1">Life</del>
+                                                
+                            <add rend="unmarked" place="supralinear" seq="2">Birth</add>
+                                            </subst> eternal.</l>
+            </lg>
+            <ab type="title">Proudly the flood comes in</ab>
+            <note type="authorial" place="bottom">3</note>
+            <pb facs="yal.00072.033.jpg" xml:id="leaf001v" type="verso"/>
+        </body>
+    </text>
+</TEI>

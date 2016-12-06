@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00131">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main" rend="bracketed">America needs her own poems</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="jc">Janel Cayer</persName>
+                    <persName xml:id="es">Jeannette Schollaert</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>duk.00131</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">Edward Grier writes that the handwriting of this manuscript is "similar to that of early notebooks," probably indicating a date "in the 1850s or earlier" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 4:1587). </note>             
+            </notesStmt>
+            <sourceDesc>                
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>"America needs her own poems, in her own body and spirit"</title>
+                    <date xml:id="dat1" cert="medium" notBefore="1840" notAfter="1860">1850s or earlier</date>
+                    <idno type="callno">MS 12mo 61</idno>
+                    <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+                    <note type="project">Transcribed from digital images of the original.</note>
+                    <relatedItem type="text" xml:id="rel01" target="duk.00795"/>
+                    <relatedItem type="document" target="wwa.00025"/>
+                    <note type="project" target="#rel01">On the back of the manuscript are draft lines that contributed both to the poem ultimately titled "Thoughts [Of these years I sing...]" and to "Apostroph," the opening section of "Chants Democratic and Native American." Both poems first appeared in the 1860&#8211;1861 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+            <change when="2016-04-25" who="#nhg">corrected editorial note</change>
+            <change when="2016-04-01" who="#nhg">checked, corrected</change>
+            <change when="2016-03-16" who="#km">added date info to bibl</change>
+            <change when="2016-02-24" who="#km">checked</change>
+            <change when="2016-02-09" who="#es">checked, changed two add insertions to add lassos, changed from ab to paragraph</change>
+            <change when="2014-09-30" who="#jc">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="manuscript">
+        <body>
+            <pb xml:id="leaf001r" facs="Pa080580.jpg" type="recto"/>
+            
+            <p>America needs her own poems, <add rend="lasso" place="supralinear">in her own <del rend="overstrike">spirit</del> body and spirit,</add> different from all <subst><del rend="overstrike" seq="1">the rest</del> <add rend="unmarked" place="supralinear" seq="2">hitherto&#8212;freer,</add></subst>, more muscular, <del rend="overstrike" seq="2"><add rend="unmarked" place="supralinear" seq="1">than <subst><del rend="overstrike" seq="1">the</del> <add rend="unmarked" place="inline" seq="2">any</add></subst> hitherto</add></del> <add rend="insertion" place="supralinear">comprehending more,</add> and unspeakably grander.&#8212;Not <del rend="overstrike">the</del> importations, <add rend="lasso" place="supralinear">or any thing in the spirit of the importations</add> aloof and in These States exiles;&#8212;not the superb<del rend="overstrike">,</del> chronicles, faultless, <del rend="overstrike">and</del> rich, perennial <del rend="overstrike"><add rend="insertion" place="supralinear"></add></del> as they are <add rend="lasso" place="supralinear">and deserve to be in their native lands</add> <subst><del rend="overstrike" seq="1">from</del> <add rend="insertion" place="supralinear" seq="2">of the past events and characters of</add></subst> Europe&#8212;<del rend="overstrike">nothing f</del> not the current products of imaginative persons, with tropes, likenesses, piano music, and smooth rhymes<del rend="erasure">&#8212;<unclear reason="erasure" resp="#nhg" cert="low">nor</unclear> of</del></p>
+            
+            <pb xml:id="leaf001v" facs="Pa080581.jpg" type="verso"/>
+            
+        </body>
+    </text>
+</TEI>

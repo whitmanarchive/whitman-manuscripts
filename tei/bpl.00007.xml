@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+ 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="bpl.00007">
+    <relations>
+        <work ref="xxx.00030" cert="high">
+            <p>This manuscript is a draft of "Eid&#243;lons," a poem published first in the New
+                York <hi rend="italic">Tribune</hi> on <date when="1876-02-19">February 19,
+                    1876</date>, and again in <date when="1876">1876</date> in the volume <hi rend="italic">Two Rivulets</hi>.</p>
+        </work>
+    </relations>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Eid&#243;lons</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="kc">Kirsten Clawson</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="aj">Andrew Jewell</persName>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
+                    <persName xml:id="nk">Nick Krauter</persName>
+                    <persName xml:id="lr">Lisa Renfro</persName>
+                    <persName xml:id="jro">Jennifer R. Overkamp</persName>
+                </respStmt>
+                <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <sponsor>University of Nebraska-Lincoln</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+                <funder>The United States Department of Education</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2004</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>bpl.00007</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
+                    <addrLine>Alderman Library</addrLine>
+                    <addrLine>University of Virginia</addrLine>
+                    <addrLine>P.O. Box 400115</addrLine>
+                    <addrLine>Charlottesville, VA 22904-4115</addrLine>
+                    <addrLine>whitman@jefferson.village.virginia.edu</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">This manuscript is a draft of "Eid&#243;lons," a poem published first in the New
+                    York <hi rend="italic">Tribune</hi> on <date when="1876-02-19">February 19,
+                        1876</date>, and again in <date when="1876">1876</date> in the volume <hi rend="italic">Two Rivulets</hi>. The manuscript was likely composed in <date notBefore="1875" notAfter="1876">1875 or early 1876</date>. The order of the manuscript has been established based in part
+                    upon the order of linegroups in the poem as initially published, though not
+                    every linegroup is represented in this draft. Almost every linegroup is on a
+                    separate scrap of paper, which, together with the evidence that he cut through
+                    one leaf in order to move a group of lines, indicates that Whitman was
+                    experimenting with multiple arrangements as he cut scraps and pasted them to
+                    other scraps.</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Eid&#243;lons</title>
+                    <date xml:id="dat1" cert="high" notBefore="1875" notAfter="1876">1875 or early 1876</date>
+                    <orgName xml:id="bpl">The Walt Whitman Collection, Boston Public Library</orgName>
+                    <note type="project">Transcribed from digital images of the original.</note>
+                    <relatedItem type="document" target="wwa.00195"/>
+                    <relatedItem type="text" xml:id="rel01" target="bpl.00035"/>
+                    <note type="project" target="#rel01 #rel02">On the back of the fourth leaf is part of a faded
+                        letter in a hand other than Whitman's.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="h1" scribeRef="#unk"><persName xml:id="unk">Unknown</persName></handNote>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-09-26" who="#nhg">corrected</change>
+            <change when="2016-07-20" who="#nhg">checked, corrected</change>
+            <change when="2016-01-29" who="#nhg">changed image names</change>
+            <change when="2016-01-07" who="#nhg">incorporated 2014 changes, removed extra line breaks</change>
+            <change when="2015-05-07" who="#kc">converted, checked</change>
+            <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
+            <change when="2014-09-24" who="#nhg">Corrected image names and pbs</change>
+            <change when="2006-08-02" who="#nk"> Added third digit to leaf numbers</change>
+            <change when="2006-08-02" who="#lr"> Added a missing space</change>
+            <change when="2005-03-11" who="#aj"> Addition of Date Markup</change>
+            <change when="2005-03-11" who="#kmp"> Addition of Date Markup</change>
+            <change when="2004-06-15" who="#bb"> Blessed</change>
+            <change when="2004-03-08" who="#kmp"> Edited</change>
+            <change when="2004-02-27" who="#aj"> Checked, revised</change>
+            <change when="2002-11-06" who="#jro"> Transcribed; encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="manuscript">
+        <body>
+            <pb facs="bpl.00007.001.jpg" xml:id="leaf001r" type="recto"/>
+            <note type="editorial" place="top" resp="#unk">3</note>
+            <lg type="poem">
+                <head type="main" rend="underline">Eid&#243;lons.</head>
+                <note type="authorial" place="top">(printed in <hi rend="underline">Two
+                        Rivulets</hi> 1876)</note>
+                <lg type="linegroup">
+                    <l>I met a Seer,</l>
+                    <l>Passing the hues and objects of the
+                        <lb/>world,
+                    </l>
+                    <l>The <note place="inline" type="authorial">?</note><subst>
+                                    <del rend="overstrike" seq="1">sweets</del>
+                                                                
+                                    <del rend="overstrike" seq="3"><add rend="unmarked" place="supralinear" seq="2"><note place="inline" type="authorial">?</note> fruits</add></del>
+                                                                
+                                    <del rend="overstrike" seq="5"><add rend="unmarked" place="supralinear" seq="4"><note place="inline" type="authorial">?</note> joys</add></del>
+                                                                
+                                    <add rend="unmarked" place="infralinear" seq="6"><del rend="overstrike"><note place="inline" type="authorial">?</note></del> fields</add>
+                                                                
+                                    <del rend="overstrike" seq="8"><add rend="unmarked" place="infralinear" seq="7"><note place="inline" type="authorial">?</note> fruits</add></del>
+                        </subst> of art <subst>
+                                
+                                    <del rend="overstrike" seq="1">, material joys</del>
+                                                                
+                                    <add rend="unmarked" place="supralinear" seq="2">&amp; learning, pleasure,</add>
+                        </subst>
+
+                        <lb/><del rend="overstrike">&amp;</del> sense 
+                    </l>
+                    
+                    <l>To glean Eid&#243;lons</l>
+                </lg>
+                
+                <lg type="linegroup">
+                    <l>Put in thy chant, said he.</l>
+                    <l>No more the <subst>
+                                
+                                    <del rend="overstrike" seq="1">visible human</del>
+                                                                
+                                    <add rend="unmarked" place="supralinear" seq="2">fleeting,
+                                        fractional</add>
+                                                            </subst> face
+                        <lb/>or limb,
+                    </l>
+                    
+                    <l>Nor hour, nor day&#8212;no <add rend="insertion" place="supralinear">segments,</add> parts put in,
+                        <lb/>Put in Eid&#243;lons only.
+                    </l>
+                </lg>
+                
+                <lg type="linegroup">
+                    <l>Lo! I or you,</l>
+                    <l>Or <add rend="insertion" place="supralinear">Woman,</add> Man <subst><del rend="overstrike" seq="1"><add rend="insertion" place="supralinear" seq="2">of us,</add></del></subst> or State, known or unknown</l>
+                    <l>
+                        <subst>
+                                
+                                    <del rend="overstrike" seq="1">While</del>
+                                                                
+                                    <add rend="insertion" place="supralinear" seq="2">We</add>
+                        </subst> seeming solid <subst><del rend="overstrike" seq="1"><add rend="insertion" place="supralinear" seq="2">beauty,</add></del></subst> wealth, <del rend="overstrike">or</del>
+
+                        <lb/>strength <add place="supralinear" rend="insertion"><del rend="overstrike">or</del> beauty</add>
+                            <del rend="overstrike">we</del> build, <del rend="overstrike"><add rend="unmarked" place="inline">we <note place="supralinear" type="authorial">?</note> better build,</add></del>
+
+                    </l>
+                    <l>
+                        <subst>
+                            
+                                <del rend="overstrike" seq="1">We</del>
+                                                        
+                                <add rend="insertion" place="supralinear" seq="2">But really</add>
+                                                    </subst> build Eid&#243;lons.</l>
+                </lg>
+                <pb facs="bpl.00007.002.jpg" xml:id="leaf001v" type="verso"/>
+                <pb facs="bpl.00007.009.jpg" xml:id="leaf002r" type="recto"/>
+                <note type="editorial" place="top" resp="#unk">10</note>
+                <lg type="linegroup">
+                    <l>
+                        <gap reason="cut away" extent="several words"/>
+                        <unclear reason="cut away" cert="medium" resp="#aj">or man, woman,</unclear>
+                    </l>
+                    <l rend="indented1">
+                        <subst>
+                            
+                                <del rend="overstrike" seq="1">Its due Eidolon</del>
+                                                        
+                                <add rend="unmarked" place="supralinear" seq="2">Out of each shape of
+                                    life,</add>
+                                                    </subst>
+                    </l>
+                    <l>
+                        <del rend="overstrike"><add rend="unmarked" place="supralinear">For</add></del>
+                        <del rend="overstrike"><add rend="unmarked" place="supralinear">From</add></del>
+                        <del rend="overstrike">Of each <subst><del rend="overstrike" seq="1">corporeal</del>
+                            <add rend="unmarked" place="supralinear" seq="2">bodily</add></subst>                             
+                            life,</del>
+                        
+                    </l>
+                    
+                    <l>Each atom <subst><del rend="overstrike" seq="2"><add rend="insertion" place="supralinear" seq="1">duly</add></del>
+                                <add rend="unmarked" place="supralinear" seq="3">surely</add></subst>
+                        gathered<del rend="overstrike">,</del>&#8212;not a thought,</l>
+                    <l>Emotion, deed, left out&#8212;issues at last,
+                        <lb/>to last.
+                    </l>
+                    <del rend="overstrike"><l rend="indented1">
+                       <subst>
+                            <add rend="unmarked" place="inline" seq="4">Its</add>
+                                <del rend="overstrike" seq="3"><add rend="unmarked" place="supralinear" seq="2">The</add></del>
+                            <del rend="overstrike" seq="1">Its</del></subst>
+                        due Eidolon.</l></del>
+                                                        
+                                <add rend="unmarked" place="infralinear">
+                                    
+                                    <l rend="indented1"><note place="inline" type="authorial">?</note> <subst><del rend="overstrike" seq="1">The</del> <del rend="overstrke" seq="3"><add rend="unmarked" place="supralinear" seq="2">Its</add></del>
+                                    <add rend="insertion" place="supralinear" seq="4">Its</add></subst> full
+                                    Eidolon
+
+                                    </l></add>
+                </lg>
+                <milestone unit="glued"/>
+                
+                <lg type="linegroup">
+                    <l>The ostent evanescent,</l>
+                    <del rend="overstrike"><l>The ostent is the dream;</l></del>
+                    <del rend="overstrike"><l>Known or unknown,</l></del>
+                    <l>The <subst>
+                                
+                                    <del rend="overstrike" seq="1">end</del>
+                                                                
+                                    <add rend="insertion" place="supralinear" seq="2">summon</add>
+                        </subst> of <del rend="overstrike">all</del>
+                            <subst>
+                                
+                                    <del rend="overstrike" seq="1">the poet's</del>
+                                                                
+                                    <add rend="unmarked" place="supralinear" seq="2">an artist's</add>
+                                                            </subst> moods, or
+                        <lb/>
+                        <note place="supralinear" type="authorial">?</note> savan's studies
+                            long,
+                    </l>
+                    <l>
+                        <subst>
+                            
+                                <del rend="overstrike" seq="1">The</del>
+                                                        
+                                <add rend="unmarked" place="supralinear" seq="2">Or</add>
+                        </subst> warrior's, martyr's, hero's 
+                        <subst>
+                            
+                                <del rend="overstrike" seq="1">life</del>
+                                                        
+                                <add rend="unmarked" place="supralinear" seq="2">toils</add>
+                                                    </subst>
+                    </l>
+                    <l>To fashion his Eidolon.</l>
+                </lg>
+                <pb facs="bpl.00007.010.jpg" xml:id="leaf002v" type="verso"/>
+                <delSpan rend="hashmark" spanTo="#d1"/>
+                <lg type="linegroup">
+                    <l><gap reason="cut away"/> what means it?</l>
+                    <l>The savan&#8212;recks he <gap reason="cut away"/></l>
+                </lg><anchor xml:id="d1"/>
+                <pb facs="bpl.00007.007.jpg" xml:id="leaf003r" type="recto"/>
+                <note type="editorial" place="top" resp="#unk">7</note>
+                <lg type="linegroup">
+                    <l rend="indented1">The old, old urge,</l>
+                    <l><del rend="overstrike"><add rend="insertion" place="supralinear"><choice><reg>Today</reg><orig>To-day</orig></choice></add></del> Based on the ancient, <del rend="overstrike">higher</del>
+
+                        <lb/>pinnacles<subst><del rend="overwrite" seq="1">,</del><add rend="overwrite" place="over" seq="2">;</add></subst>
+                        <subst>
+                                
+                                    <del rend="overstrike" seq="1">rise</del>
+                                                                
+                                    <add rend="unmarked" place="supralinear" seq="2">lo!</add>
+                        </subst>
+                        <del rend="overstrike"><add rend="unmarked" place="supralinear">on</add></del>
+                         higher pinnacles
+                    </l>
+                    
+                    <l>From Science &amp; the modern <add rend="insertion" place="supralinear">still</add>
+                        <choice>
+                            <reg>impelled</reg>
+                            <orig>impell'd</orig>
+                        </choice>
+                    </l>
+                    <l rend="indented1">The old, old urge, Eidolons</l>
+                </lg>
+                <milestone unit="glued"/>
+                
+                <lg type="linegroup">
+                    <l rend="indented1">
+                        <subst>
+                            <add place="supralinear" rend="unmarked" seq="2">The present now &amp;
+                                here</add>    
+                            <del rend="overstrike" seq="1">Of current hours, &amp; days,</del>  
+                        </subst>
+                    </l>
+                    
+                    <l>
+                        <subst>
+                        <del rend="overstrike" seq="1"><add rend="insertion" place="supralinear" seq="2"><choice><reg>Today's</reg><orig >To-day's</orig></choice></add> <add rend="unmarked" place="supralinear" seq="3">Present</add></del>
+                        </subst> Americas, <del rend="overstrike"><add rend="insertion" place="supralinear">now &amp; here,</add></del>
+                        <del rend="overstrike">a</del> busy, <add rend="insertion" place="supralinear">teeming,</add> intricate whirl,</l>
+                    <l>Of aggregate &amp; segregate, <del rend="overstrike">&amp;</del>
+                        <subst>
+                            <del rend="overstrike" seq="2"><add rend="insertion" place="supralinear" seq="1">duly</add></del>
+                            <add rend="unmarked" place="supralinear" seq="3">for <del rend="overstrike">over</del> duly</add>
+
+                        </subst> thence releasing,</l>
+                    <l rend="indented1">
+                        <subst>
+                            
+                                <del rend="overstrike" seq="1">Present</del>
+                                                        
+                                <add rend="unmarked" place="supralinear" seq="2">
+                                    <choice>
+                                        <reg>Today's</reg>
+                                        <orig>To-day's</orig>
+                                    </choice>
+                                </add>
+                        </subst> Eidolons
+                    </l>
+                </lg>
+                <pb facs="bpl.00007.008.jpg" xml:id="leaf003v" type="verso"/>
+                <pb facs="bpl.00007.005.jpg" xml:id="leaf004r" type="recto"/>
+                <note type="editorial" place="top" resp="#unk">6</note>
+                <lg type="linegroup">
+                    <l rend="indented1">
+                        <del rend="overstrike">Myriads &amp;</del>
+                    </l>
+                    
+                    <l rend="indented1">The <subst>
+                            
+                                <del rend="overstrike" seq="1">noiseless</del>
+                                                        
+                                <add rend="unmarked" place="supralinear" seq="2">mystic</add>
+                    </subst> myriads!
+                    </l>
+                    
+                    <l>The infinite oceans where the
+                        <lb/>rivers empty!
+                    </l>
+                    <l>The <subst>
+                                
+                                    <del rend="overstrike" seq="1">vital free existences,</del>
+                                                                
+                                    <add rend="unmarked" place="supralinear" seq="2">separate countless free
+                                        identities</add>
+                        </subst> like eyesight!
+                    </l>
+                    
+                    <l rend="indented1">
+                        <subst>
+                            
+                                <del rend="overwrite" seq="1"><unclear reason="illegible" resp="#nhg" cert="low">Spaces</unclear></del>
+                                                        
+                                <del rend="overstrike" seq="3"><add place="supralinear" rend="unmarked" seq="2">Reality's</add></del>
+                                                        
+                                <del rend="overstrike" seq="5"><add rend="unmarked" place="infralinear" seq="4">Mystic</add></del>
+                                                        
+                                <add rend="unmarked" place="supralinear" seq="6">Noiseless</add>
+                        </subst> Eidolons! </l>
+                </lg>
+                <milestone unit="glued"/>
+                
+                <lg type="linegroup">
+                    <del rend="overstrike"><l rend="indented1">Not these</l></del>
+                    <l rend="indented1">Not this the World,</l>
+                    <l>Nor these the Universes&#8212;they the Universes,</l>
+                    <l>Purport and end&#8212;ever the <add rend="insertion" place="supralinear">permanent</add> life of life</l>
+                        <l rend="indented1">Eidolons, Eidolons</l>
+                </lg>
+                <milestone unit="glued"/>
+                
+                <lg type="linegroup">
+                    <l>Beyond thy lectures, 
+                        <choice>
+                            <reg>learned</reg>
+                            <orig>learn'd</orig> 
+                        </choice> professor,</l>
+                    
+                    <del rend="overstrike"><l><del rend="overstrike"><add rend="insertion" place="supralinear">Beyond</add></del> Thy telescope, or microscope,</l></del>
+                    
+                    <del rend="overstrike"><l>Thy ch<subst><del rend="overwrite" seq="1">y</del><add rend="overwrite" place="over" seq="2">e</add></subst>mistry, savan&#8212;<unclear reason="deletion, illegible" resp="#aj" cert="medium">thy sur</unclear></l></del>
+                    
+                    <del rend="overstrike"><l>Beyond the doctor's surgery, anatomy</l></del>
+                    
+                    <l>Beyond thy <subst>
+                                
+                                    <del rend="overstrike" seq="1">microscope or telescope</del> <add rend="unknown" place="supralinear" seq="2">telescope or spectroscope</add></subst>,
+                        <lb/>
+                        <del rend="overstrike">savan</del>
+                        <del rend="overstrike">&#8212;</del>observer keen,
+                    </l>
+                    
+                    <l>Beyond the doctor's surgery, anatomy&#8212;
+                        <lb/>beyond all chemistry,
+                    </l>
+                    
+                    <l rend="indented1">
+                        <note type="authorial" place="inline">?</note>
+                        <subst>
+                            <del rend="overstrike" seq="1">Real, as they, <unclear reason="deletion, illegible" cert="medium" resp="#bb">as all</unclear></del>
+                                                        
+                                <del rend="overstrike" seq="3"><add place="supralinear" rend="unmarked" seq="2">Viewless</add></del>
+                                                        
+                                <del rend="overstrike" seq="5"><add place="supralinear" rend="unmarked" seq="4">at least, <add rend="insertion" place="supralinear">
+                                        <subst><del rend="overwrite" seq="1">r</del><add place="over" rend="overwrite" seq="2">R</add></subst>eal</add>
+                                        Identities&#8212;</add>
+                                </del>
+                                                        
+                                <add place="infralinear" rend="unmarked" seq="6">The real entities</add></subst>&#8212;Eidolons.
+                    </l>
+                </lg>
+                <pb facs="bpl.00007.006.jpg" xml:id="leaf004v" type="verso"/>
+                    <delSpan spanTo="#d2" rend="hashmark"/>
+                    <lg type="linegroup">
+                        <l>Of <add place="supralinear" rend="insertion">visible</add> forms and</l>
+                        <l>Forms <space dim="horizontal" extent="about 15 letters"/> disappear</l>
+                        <l>Rocks, mountains, crumbling
+                            <lb/>lost in time,
+                        </l>
+                        <l>Eidolons everlasting.</l>
+                    </lg>
+                    <lg type="linegroup">
+                        <l>The object of the past <gap reason="cut away"/></l>
+                        <l>The <gap reason="cut away" extent="at least one word"/></l>
+                    </lg>
+                    <anchor xml:id="d2"/>
+                 
+                <pb facs="bpl.00007.003.jpg" xml:id="leaf005r" type="recto"/>
+                <note type="editorial" place="top" resp="#unk">4</note>
+                <lg type="linegroup">
+                    <del rend="overstrike"><l>Tallies of Time</l></del>
+                    <l rend="indented1">
+                        <subst>
+                            
+                                <del rend="overstrike" seq="1">The <subst><del rend="overwrite" seq="1">v</del><add place="over" rend="overwrite" seq="2">V</add></subst>aried, infinite</del>
+                                                        
+                                <add place="supralinear" rend="unmarked" seq="2">
+                                    <del rend="overstrike">&amp;</del> Unfixed, yet fixed,</add>
+                        </subst>
+                    </l>
+                    
+                    <l>
+                        <subst>
+                            
+                                <del rend="overwrite" seq="1">So</del>
+                            <add rend="overwrite" place="over" seq="2">Ever</add>
+                        </subst>
+                        
+                        <subst>
+                            
+                                <del rend="overstrike" seq="1">have been,</del>
+                                                        
+                                <add rend="unmarked" place="supralinear" seq="2">to be,&#8212;</add>
+                        </subst> ever 
+                        <subst>
+                            
+                                <del rend="overstrike" seq="1">shall be,</del>
+                                                        
+                                <add place="supralinear" rend="unmarked" seq="2">have been,</add>
+                        </subst> and are,
+                    </l>
+                    <l>Boundless <subst>
+                            
+                                <del rend="overstrike" seq="1">with</del>
+                                                        
+                                <add place="supralinear" rend="unmarked" seq="2">as</add>
+                    </subst>
+                        <subst>
+                            
+                                <del rend="overwrite" seq="1">t</del><add rend="overwrite" place="over" seq="2">T</add></subst>ime <note place="supralinear" type="authorial">?</note> &amp; 
+                        <subst>
+                            
+                                <del rend="overstrike" seq="1">tallying</del>
+                                                        
+                                <add place="supralinear" rend="unmarked" seq="2">filling</add>
+                        </subst> space,</l>
+                    <l>Eidolons, Eidolons.</l>
+                </lg>
+                <milestone unit="glued"/>
+                
+                <lg type="linegroup">
+                    <l rend="indented1">The prophet &amp; the bard,</l>
+                    <l>
+                        <subst>
+                            
+                                <del rend="overstrike" seq="1">Sh</del>
+                                                        
+                                <del rend="overstrike" seq="3"><add place="inline" rend="unmarked" seq="2" >Yet,</add></del>
+                                                        
+                                <add place="supralinear" rend="unmarked" seq="4">Shall</add>
+                        </subst> yet maintain themselves&#8212;<subst><add place="supralinear" rend="insertion" seq="1">&#8212;in higher stages yet <del rend="overstrike" seq="2">or new or old,</del>
+                        </add></subst>
+                    </l>
+                    <l>
+                        <subst>
+                            
+                                <del rend="overstrike" seq="1">Yet</del>
+                                                        
+                                <add place="supralinear" rend="unmarked" seq="2">Shall <del rend="overstrike">only</del></add>
+                        </subst>
+                         mediate 
+                        <add place="supralinear" rend="insertion">to Democracy,</add>
+                        <del rend="overstrike" seq="1">at the</del> <del rend="overstrike"><add place="supralinear" rend="insertion">last</add></del>&#8212;
+                        <add rend="insertion" place="supralinear"><subst><add place="supralinear" rend="insertion" seq="2">to the Modern&#8212;</add> <del rend="overstrike" seq="1">to its</del></subst></add> interpret yet to them</l>
+                    <l rend="indented1">God and Eidolons.</l>
+                    <milestone unit="glued"/>
+                    
+                    <l>
+                        <subst>
+                            
+                                <del rend="overstrike" seq="1">For</del>
+                                                        
+                                <add place="supralinear" rend="insertion" seq="2">And thee, for</add>
+                        </subst> thee, O Soul,
+                    </l>
+                    <l>Joys, ceaseless exercises exaltations</l>
+                    <l>Thy yearnings <add place="supralinear" rend="insertion">amply</add> met
+                            at last&#8212;<add place="supralinear" rend="insertion">
+                                <subst>
+                                    
+                                        <del rend="overstrike" seq="1">thy</del>
+                                                                        
+                                    <del rend="overstrike"><add rend="unmarked" place="supralinear" seq="2">with</add></del>
+                                </subst> due prepared</add>
+                            <del rend="overstrike">mystic</del>
+
+                        <lb/>companions,
+                    </l>
+                    
+                    <l rend="indented1">Thy <add place="supralinear" rend="insertion">
+                            <subst>
+                                
+                                    <del rend="overstrike" seq="1">prepared</del>
+                                                                
+                                    <del rend="overstrike"><add place="supralinear" rend="unmarked" seq="2">mystic</add></del>
+                            </subst>
+                        </add> mates, Eidolons.
+                    </l>
+                </lg>
+                <milestone unit="glued"/>
+                
+                <lg type="linegroup">
+                    <l rend="indented1">While of thy varied songs,</l>
+                    <l>No special strains thou sing'st&#8212;
+                        <lb/>&#8212;or this, or that,
+                    </l>
+                    <l>None for itself&#8212;but from the Whole
+                        <lb/>to rise and float <del rend="overstrike"><add place="supralinear" rend="insertion"><choice><reg>forever</reg><orig>fore'er</orig></choice></add></del> in space,
+                    </l>
+                    
+                    <l rend="indented1">A round full-orb'd Eidolon.</l>
+                </lg>
+            </lg>
+            
+            
+            <pb facs="bpl.00007.004.jpg" xml:id="leaf005v" type="verso"/>
+            
+        </body>
+    </text>
+</TEI>

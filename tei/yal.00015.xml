@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="yal.00015">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main" rend="bracketed">names the Niam-Niams</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>yal.00015</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">Based on the handwriting, Edward Grier dates the notes about names of various tribes of people to the 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 5:1663). The name and address written in pencil were added later, likely in 1881, when Whitman visited Boston several times, first to deliver a lecture and then to oversee the production of the 1881 edition of <hi rend="italic">Leaves of Grass</hi>. Although Whitman also visited Boston in 1860, John Soule's photography studio did not move to 338 Washington Street, the address that Whitman lists, until the 1870s.</note>             
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Untitled holograph manuscripts and fragments</title>                  
+                    <idno type="callno">MSS 202, Box 3, Folder 140</idno>
+                    <date xml:id="dat1" notBefore="1850" notAfter="1881" cert="low">Between 1850 and 1881</date>
+                    <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
+                    <note type="project">Transcribed from digital images of the original.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="h1" scribeRef="#ww" medium="black-ink"/>
+                <handNote xml:id="h2" scribeRef="#ww" medium="pencil"/>
+                <handNote xml:id="h3" scribeRef="#unk" medium="pencil"><persName>Unknown</persName></handNote>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-08-02" who="#nhg">checked, corrected</change>
+            <change when="2016-07-22" who="#km">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text type="manuscript">
+        <body>
+            <pb xml:id="leaf001r" facs="Whitman13.jpg" type="recto"/>
+            
+            <ab><handShift new="#h1"/>names</ab>
+            
+            <note type="editorial" resp="#h3" place="top">564</note>
+            
+            <ab>the Niam-Niams, <add rend="unmarked" place="supralinear">the</add> Battas <del rend="overstrike"><add rend="unmarked" place="supralinear">and</add></del> <add rend="unmarked" place="supralinear">the</add> Tonga-Taboos, the Quichuas, (<del rend="overstrike">the</del> ancient Peruvians) <del rend="overstrike">ar</del> or the Aleuts of our own <del rend="overstrike">N</del> far north-west</ab>
+            
+            <ab><address><addrLine><handShift new="#h2"/>John P Soule</addrLine> <addrLine>photographer &amp; publisher</addrLine> <addrLine>338 Washington</addrLine> <addrLine>Boston</addrLine></address></ab>
+            
+            <pb xml:id="leaf001v" facs="Whitman14.jpg" type="verso"/>           
+        </body>
+    </text>
+</TEI>

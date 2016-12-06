@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00524">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main" rend="bracketed">tainting the best</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="kc">Kirsten Clawson</persName>
+                    <persName xml:id="jc">Janel Cayer</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>nyp.00524</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">On the back of this leaf, Whitman drafted trial lines of the poem that was eventually titled "Song of Myself." It seems likely that the lines on front and back were written around the same time, dating this manuscript to before or early in 1855.</note> 
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>tainting the best of the rich orchard...</title>                  
+                    <idno type="callno">MssCol 1767, UUID faac8ca0-c5d8-012f-eb0f-58d385a7bc34</idno>
+                    <date xml:id="dat1" notBefore="1850" notAfter="1855" cert="high">Between 1850 and 1855</date>
+                    <orgName xml:id="nyp">The Oscar Lion Papers, 1914&#8211;1955, New York Public Library, New York, N.Y.</orgName>
+                    <note type="project">Transcribed from our own digital image of orginal manuscript.</note>
+                    <relatedItem type="text" target="nyp.00079"/>
+                    <relatedItem type="text" target="nyp.00523"/>
+                    <relatedItem type="document" xml:id="rel01" target="www.00004"/>
+                    <note type="project" target="#rel01">This manuscript is glued to another manuscript that also features lines of prose. On the back of the leaf are draft lines of the poem that would eventually be titled "Song of Myself."</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2016-09-12" who="#nhg">corrected</change>
+            <change when="2016-07-20" who="#nhg">checked, corrected</change>
+            <change when="2016-07-07" who="#km">checked</change>
+            <change when="2015-01-17" who="#jc">checked; revised repository information in header</change>
+            <change when="2014-10-27" who="#kc">updated subst tags</change>
+            <change when="2014-09-18" who="#kc">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="manuscript">
+        <body>
+            <pb xml:id="leaf001r" facs="nyp.00079.002.jpg" type="recto"/>
+            
+            <ab>tainting the best of the rich orchard of himself . . . . and he who anyway does not respect his own organs and cherish them and strengthen them, and keep himself clean <del rend="overstrike">not only on his face but</del> outside and inside&#8212;<del rend="overstrike">need not</del> let that man young or old never <del rend="overstrike">de</del> deceive himself with the folly that the <subst><del rend="overstrike" seq="1">bad</del> <add rend="unmarked" place="supralinear" seq="2">sore</add></subst> stuff <subst><del rend="overstrike" seq="1">and the under</del> <add rend="umarked" place="supralinear" seq="2">is hid by</add></subst> the cloth he wears and <del rend="overstrike">his</del> makes no avowal.&#8212;Though the secret is well hid, though the eye does not see, nor the hand touch, nor the nose smell, the rank odor strikes out</ab>
+            
+            <pb xml:id="leaf001v" facs="nyp.00079.001.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

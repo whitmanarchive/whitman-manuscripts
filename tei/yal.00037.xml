@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+ 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="yal.00037">
+    <relations>
+        <work ref="xxx.00400" cert="high">
+            <p>"Osceola" was published first in <hi rend="italic">Munyon's Illustrated World</hi> in
+                    <date when="1890-04">April 1890</date>.</p>
+        </work>
+    </relations>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Osceola</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="nk">Nick Krauter</persName>
+                    <persName xml:id="stb">Stephen Boykewich</persName>
+                    <persName xml:id="aj">Andy Jewell</persName>
+                    <persName xml:id="kmp">Kenneth Price</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
+                </respStmt>
+                <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <sponsor>University of Nebraska-Lincoln</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+                <funder>The United States Department of Education</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2004</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>yal.00037</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+<addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
+<addrLine>Alderman Library</addrLine>
+<addrLine>University of Virginia</addrLine>
+<addrLine>P.O. Box 400115</addrLine>
+<addrLine>Charlottesville, VA 22904-4115</addrLine>
+<addrLine>whitman@jefferson.village.virginia.edu</addrLine>
+</address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">"Osceola" was published first in <hi rend="italic">Munyon's Illustrated World</hi> in
+                    <date when="1890-04">April 1890</date>. This manuscript, apparently printer's copy, was
+                    probably written in <date notBefore="1889" notAfter="1890">1889 or 1890</date>, shortly before
+                    the poem's publication. The manuscript is mounted in a book, so the verso image is not available.</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Osceola</title>
+                    <date xml:id="dat1" cert="high" notBefore="1889" notAfter="1890">About 1889-1890</date>
+                    <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and
+                        Manuscript Library</orgName>
+                    <note type="project">Transcribed from digital images of the original.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+<profileDesc>
+    <handNotes>
+        <handNote xml:id="h1" scribeRef="#unk"><persName xml:id="unk">Unknown</persName></handNote>
+    </handNotes>
+</profileDesc>
+        <revisionDesc>
+            <change when="2016-09-08" who="#nhg">proofed</change>
+            <change when="2016-01-13" who="#bb">updated list of staff in titleStmt; corrected miscellaneous attribute errors</change>
+            <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
+            <change when="2006-08-04" who="#nk">Added third digit to leaf numbers</change>
+            <change when="2006-03-03" who="#bb">Removed unnecessary p tag from note. Again!</change>
+            <change when="2005-01-26" who="#aj">Addition of Date and Work Markup</change>
+            <change when="2005-01-26" who="#kmp">Addition of Date and Work Markup</change>
+            <change when="2004-07-09" who="#bb">Removed unnecessary p tags from notes</change>
+            <change when="2003-02-16" who="#bb">Blessed</change>
+            <change when="2003-08-07" who="#kmp">Edited</change>
+            <change when="2003-07-31" who="#aj">Checked; revised</change>
+            <change when="2003-03-15" who="#stb">Transcribed; encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="manuscript">
+        <body>
+            <pb facs="yal.00037.001.jpg" xml:id="leaf001r" type="recto"/>
+            <note type="authorial" place="top">
+                <del rend="erasure">
+                    <gap reason="illegible" extent="several words"/>
+                </del>
+            </note>
+            <lg type="poem">
+                <head rend="underline" type="main">Osceola</head>
+                <byline>
+                    <hi rend="underline">By Walt Whitman</hi>
+                </byline>
+                <note type="authorial" place="interlinear">
+                    <del rend="erasure">
+                        <unclear reason="deletion, illegible" resp="#bb" cert="high">Sent to the
+                            Editors</unclear>
+                    </del>
+                </note>
+                <note type="authorial" place="interlinear">[When <subst>
+                        
+                            <del rend="overstrike" seq="1">I was</del>
+                                                
+                            <add place="supralinear" rend="unmarked" seq="2">I was</add>
+                                            </subst> nearly grown to manhood in Brooklyn New York, <add place="supralinear" rend="insertion">(middle of 1838)</add> met one of the returned US Marines
+                    from Fort Moultrie S.C. and had long talks with him.&#8212;learn'd the
+                    occurrence <subst>
+                        
+                            <del rend="overstrike" seq="1">here</del>
+                                                
+                            <add place="supralinear" rend="unmarked" seq="2">below</add>
+                                            </subst> described&#8212;the death of Osceol<subst><del rend="overwrite" seq="1"><unclear reason="deletion, illegible" resp="#aj" cert="medium">o</unclear></del><add rend="overwrite" place="over" seq="2">a</add>
+                                            </subst> The latter was a <add place="supralinear" rend="insertion">young,
+                        brave,</add> leading Seminole in the Florida war of that time,&#8212;was
+                    surrender'd to our troops,&#8212;<del rend="overstrike">was</del> imprison'd
+                    and <add place="supralinear" rend="insertion">literally</add> died of "a broken
+                    heart" at Fort Moultrie. He sicken'd of <add place="supralinear" rend="insertion">his</add> confinement&#8212;the doctor and officers
+                        <del rend="overstrike">w</del> made every allowance <add place="supralinear" rend="insertion">and kindness</add> possible for him; <del rend="overstrike">but his life's-end</del> then the close:]
+</note>
+                <l>When his hour for death had come,</l>
+                <l>
+                    He slowly rais'd himself from the bed on
+                    <lb/>the floor,
+                </l>
+                <l>Drew on his war-dress, shirt, <del rend="overstrike">and</del>
+                        leggings,
+                    <lb/>and girdled the belt around his waist;
+                </l>
+                <l>Call'd for <choice>
+<orig>vermilion</orig>
+<reg>vermillion</reg>
+</choice> paint (his
+                        looking-glass
+                    <lb/>was held before him,)
+                </l>
+                <l>Painted <del rend="overstrike">the</del> half his face and neck, his
+                        wrists,
+                    <lb/>and <del rend="overstrike">the</del> back-hands,
+                </l>
+                <l>Put the scalp-knife carefully in his belt&#8212;
+                    <lb/>then lying down, resting a moment,
+                </l>
+                <l>Rose again<add rend="unmarked" place="inline">,</add> half sitting, smiled,
+                        gave in silence
+                    <lb/>his extended to each and all,
+                </l>
+                <l>Sank faintly low to the floor, tightly grasp'd
+                    <lb/>the tomahawk handle,
+                </l>
+                <l>Fix'd his look on wife and little children&#8212;the
+                    <lb/>last:
+                </l>
+                <l>(And here a line in memory of his
+                    <lb/>name and death.)
+                </l>
+            </lg>
+            <note type="authorial" place="bottom">
+                <del rend="erasure">P<gap reason="deletion, illegible"/>d</del>
+            </note>
+            <note type="archival" resp="#h1" place="bottom">For photostat of ms of earlier notes for this poem see overleaf. <unclear reason="illegible" resp="#nhg" cert="low">deq</unclear></note>
+        </body>
+    </text>
+</TEI>

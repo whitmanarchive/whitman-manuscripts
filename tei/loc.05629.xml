@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.05629">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main" rend="bracketed">for lect on Literature</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="jc">Janel Cayer</persName>
+                    <persName xml:id="es">Jeannette Schollaert</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.05629</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">Based on the handwriting, Edward Grier dates this manuscript to the 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 4:1591).</note>             
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title rend="bracketed">for lect on Literature</title>                  
+                    <idno type="callno">MSS45443, Box 1, Reel 1</idno>
+                    <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1860">1850s</date>
+                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
+                    <note type="project">Transcribed from digital images of the original.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+            <change when="2016-05-13" who="#nhg">checked, corrected</change>
+            <change when="2016-05-06" who="#km">checked</change>
+            <change when="2016-02-15" who="#es">checked, added schematron, updated pb</change>
+            <change when="2014-09-30" who="#jc">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="manuscript">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_nk.00544.jpg" type="recto"/>
+            
+            <delSpan rend="hashmark" spanTo="#d01"/>
+                <ab>for lect. on Literature: or (Democracy)</ab>
+            
+            <ab>What are these, called our literary men, poets &amp;c</ab> 
+            
+            <milestone unit="undeclared" rend="horbar-short-left"/>
+            
+            <ab>scintillations <subst><del rend="overstrike" seq="1">at</del> <add rend="unmarked" place="supralinear" seq="2">at best</add></subst> of other <del rend="overstrike">lands' literary men</del> the literary men &#038; literary needs of other lands&#8212;exiles here, &amp;</ab>
+            
+            <anchor xml:id="d01"/>
+            
+            <pb xml:id="leaf001v" facs="loc_nk.00545.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

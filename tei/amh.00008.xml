@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="amh.00008">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main" rend="bracketed">to enjoy the Panorama</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author xml:id="ww">Walt Whitman</author>
+            <editor>Kenneth M. Price</editor>
+            <editor>Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="kmp">Kenneth Price</persName>
+               <persName xml:id="awj">Andrew Jewell</persName>
+               <persName xml:id="zb">Zach Bajaber</persName>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="km">Kevin McMullen</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2014</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>amh.00008</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+                  <note type="project" target="#dat1">The repository's catalog card for this manuscript estimates the date of composition as "ca. 1880." This estimate seems to be based on the manuscript's mention of "Neversink," which was tied to Whitman's poem cluster "Fancies at Navesink," first published in the magazine <hi rend="italic">Nineteenth Century</hi> in August 1885. However, the handwriting in the manuscript would seem to indicate a much earlier date, probably before the publication of <hi rend="italic">Leaves of Grass</hi> in 1855. Most of the fragment describes a moving panorama, a popular form of entertainment during the antebellum period, and it is possible that this manuscript is part of a review that Whitman wrote while working as a newspaper editor. No published version of the manuscript has been located.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title rend="bracketed">Walt Whitman unidentified prose</title>
+               <date xml:id="dat1" cert="medium" notBefore="1840" notAfter="1860">About 1850</date>
+               <idno type="callno">MA175, Box 1, Folder 10</idno>
+               <orgName xml:id="amh">Amherst College Archives and Special Collections</orgName>
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="h1" scribeRef="#ww" medium="black-ink"/>
+            <handNote xml:id="h2" scribeRef="#ww" medium="pencil"/>
+         </handNotes>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2016-08-30" who="#nhg">checked, corrected</change>
+         <change who="#km" when="2016-07-25">checked</change>
+         <change who="#nhg" when="2014-08-20">converted encoding from P4 to P5, checked</change>
+         <change who="#nhg" when="2014-08-07">metadata extracted and transformed from EAD file</change>
+         <change who="#kmp" when="2003-11-19">edited</change>
+         <change who="#awj" when="2003-10-27">Revised, checked</change>
+         <change who="#zb" when="2002-10-21">Transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="manuscript">
+      <body><pb facs="amh.00008.001.jpg" xml:id="leaf001r" type="recto"/>
+         
+         <p><handShift new="#h1"/>to enjoy the Panorama <del rend="overstrike" hand="#h2">of the Sea,</del> 
+            <subst>
+                  <del rend="overstrike" seq="1" hand="#h2">painted</del>
+                  <add place="supralinear" rend="unmarked" seq="2"><handShift new="#h2"/>done</add>
+            </subst>
+            <handShift new="#h1"/>by the best artists, recommended by certificates from clergymen; admission half a dollar front seats twelve and a half cents extra. <del rend="overstrike">Go <unclear reason="deletion" cert="medium" resp="#awj">then,</unclear> and <unclear reason="deletion" cert="medium" resp="#km">luck</unclear> go with <unclear reason="deletion" cert="medium" resp="#nhg">you</unclear>.&#8212;</del>So we turn our backs on the frivolous glimpse <subst><del rend="overstrike" seq="1"><unclear reason="deletion" cert="medium" resp="#awj">where thither</unclear></del> <add place="supralinear" rend="insertion" seq="2">of the Highlands below there</add></subst> <del rend="overstrike">where old Neversink</del> <del rend="overstrike"><add place="supralinear" rend="unmarked"><unclear reason="deletion" cert="medium" resp="#awj">the</unclear> <gap reason="deletion, illegible" extent="two or three words" unit="chars" quantity="12"/></add></del> <subst><del rend="overstrike" seq="1">lying sprawled</del> <add place="supralinear" rend="insertion" seq="2">that lie sprawling</add></subst> like a great fish, with Neversink at the head.&#8212;We turn our back<add place="inline" rend="unmarked"><handShift new="#h2"/>s</add> <handShift new="#h1"/>and proceed to have a good time with the <del rend="overstrike"><add place="supralinear" rend="insertion">water color</add></del> <add place="supralinear" rend="unmarked">painted</add> show whose puffs have been in the papers <del rend="overstrike">in nonpareil, or perhaps <gap reason="deletion, illegible" extent="one word" unit="chars" atLeast="3" /> in brevier leaded,&#8212;</del> for a fortnight.&#8212;Puffs irresistible! hard to withstand when they came in close nonpareil, but 
+            <del rend="overstrike"><unclear reason="deletion, illegible" cert="low" resp="#awj">when</unclear></del> in brevier leaded, the hat of the Grand Vizier.&#8212;</p>
+         
+         <p>Meanwhile O <subst><del rend="overstrike" seq="1">Sister</del> <add place="supralinear" rend="unmarked" seq="2">Wife</add> <add place="supralinear" rend="unmarked" seq="3">(lady?)</add></subst> of the Earth, more spiritual than thy terreous <del rend="overstrike">brothers</del> companion, <add place="inline" rend="unmarked">(lord?)</add></p>
+         
+         
+         <pb facs="amh.00008.002.jpg" xml:id="leaf001v" type="verso"/>
+</body>
+   </text>
+</TEI>

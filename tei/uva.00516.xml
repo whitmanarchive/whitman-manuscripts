@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00516">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Living Pictures</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author xml:id="ww">Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="kc">Kirsten Clawson</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>uva.00516</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">It is possible that these lines are early notes for the second poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, a poem that would eventually be titled "A Song for Occupations." This connection, and Whitman's use of the long "s" in several of the words, suggest that this is an early manuscript, likely written between 1845 and 1855.</note>             
+            </notesStmt>
+            <sourceDesc>
+
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>"A Cluster of poems" and "Living Pictures"</title>                  
+                    <idno type="callno">MSS 3829, Box 1, Folder 19</idno>
+                    <date xml:id="dat1" notBefore="1845" notAfter="1855" cert="medium">Between 1845 and 1855</date>
+                    <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
+                    <note>Transcribed from digital images of the original.</note>
+                    <relatedItem type="document" target="wwa.00010"/>
+                    <relatedItem type="text" xml:id="rel01" target="uva.00086"/>
+                    <note type="project" target="#rel01">On the back of this leaf is a list, probably written later than the prose on the front, of subjects on which to write "a cluster of poems."</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="h1" scribeRef="#ww" medium="pencil"/>
+                <handNote xml:id="h2" scribeRef="#ww" medium="black-ink"/>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-09-12" who="#nhg">corrected</change>
+            <change when="2016-07-21" who="#nhg">checked, corrected</change>
+            <change when="2016-07-18" who="#km">checked</change>
+            <change when="2014-11-19" who="#kc">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="manuscript">
+        <body>
+            <pb xml:id="leaf001r" facs="uva.00086.002.jpg" type="recto"/>
+            <delSpan rend="hashmark" spanTo="#d01"/>
+            
+            <div1 type="section">
+                <head type="main-authorial" rend="center"><handShift new="#h1"/><del rend="overstrike">Life</del> <hi rend="underline">Living Pictures</hi></head>
+                
+                <p><del rend="overstrike">Evening,</del> Nowhere, in <!--There is a scribble mark in ink above this line. NHG --> the known world, can so many, and such beautiful living <del rend="overstrike">Pictures be seen as in the<add rend="unmarked" place="inline">se</add> United States!</del></p>
+            </div1>
+            
+            
+            <div1 type="section">
+                <relations>
+                    <work ref="xxx.00119" cert="low"><p>It is possible that these lines are early notes for the second poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, a poem that would eventually be titled "A Song for Occupations." In this manuscript, Whitman writes of a common worker being "not one whit less a man than the President." In the 1855 poem, Whitman asks, "Is it you then that thought yourself less? / It it you that thought the President greater than you?" (1855, p. 58)</p></work>
+                </relations>
+                <head type="main-authorial" rend="center"><hi rend="underline">America</hi></head>
+                
+                <ab>Here <del rend="overstrike"><choice><orig>labour</orig><reg>labor</reg></choice> is</del> different from any other country in the world <add rend="insertion" place="supralinear">all forms of practical</add> <choice><orig>labour</orig><reg>labor</reg></choice> is <del rend="overstrike">manly,</del> recognized as honorable.&#8212;The man who tends the President's horses, not one whit le&#383;s a man than the President.&#8212;<hi rend="underline">The</hi> healthy, fine-formed girl who <del rend="overstrike">tends</del> waits upon the <del rend="overstrike">great</del> wealthy lady, not le&#383;s than the wealthy Lady.&#8212;</ab>
+                
+                <ab><hi rend="underline">He</hi>, who carries bricks <add rend="insertion" place="supralinear">&amp; mortar</add> to the mason, not le&#383;s than the mason,</ab>
+                
+                <ab><hi rend="underline">The</hi> <hi rend="underline">mason</hi> who lays the bricks, not one tittle le&#383;s than the builder, who <del rend="overstrike">engages</del> employs, him, </ab>
+                
+                <ab><hi rend="underline">The</hi> <add rend="insertion" place="supralinear">architect &amp;</add> <hi rend="underline">builder</hi> of the house, no le&#383;s than </ab>
+            </div1>
+            <anchor xml:id="d01"/>
+        </body>
+        
+        <pb xml:id="leaf001v" facs="uva.00086.001.jpg" type="verso"/>
+    </text>
+</TEI>

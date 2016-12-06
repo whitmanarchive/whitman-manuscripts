@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.05333">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main" rend="bracketed">Nature all so real</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="kc">Kirsten Clawson</persName>
+                    <persName xml:id="jc">Janel Cayer</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.05333</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">Based on the handwriting, Edward Grier dates this manuscript to the 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 6:2044).</note>             
+            </notesStmt>
+            <sourceDesc>
+                
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title rend="bracketed">Nature all so real</title>                  
+                    <idno type="callno">MSS45443, Box 2, Reels 1-2</idno>
+                    <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1860">1850s</date>
+                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
+                    <note type="project">Transcribed from digital images of the original.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+                <handNotes>
+                    <handNote xml:id="h1" scribeRef="#ww" medium="black-ink"/>
+                    <handNote xml:id="h2" scribeRef="#ww" medium="pencil"/>
+                </handNotes>
+            
+        </profileDesc>
+        <revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+            <change when="2016-05-13" who="#nhg">checked, corrected</change>
+            <change when="2016-05-05" who="#km">checked</change>
+            <change when="2015-02-21" who="#jc">checked; revised repository information in header</change>
+            <change when="2014-10-06" who="#kc">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="manuscript">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_af.00511.jpg" type="recto"/>
+            
+            <p><add rend="insertion" place="supralinear"><handShift new="#h2"/><unclear reason="illegible" cert="medium" resp="#kc">In</unclear></add> <handShift new="#h1"/>Nature <subst><del rend="overstrike" seq="1" hand="#h2">is</del> <add rend="insertion" place="supralinear" seq="2"><handShift new="#h2"/>all is so real&#8212;</add></subst> <handShift new="#h1"/>so whole&#8212;<del rend="overstrike">so</del> <del rend="overstrike">without</del> <add rend="unmarked" place="supralinear">&#8212;so</add> compact, without flaw!&#8212;<handShift new="#h2"/>But these religions&#8212;these creeds!</p>
+            
+            <pb xml:id="leaf001v" facs="loc_af.00512.jpg" type="verso"/>            
+        </body>
+    </text>
+</TEI>

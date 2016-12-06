@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00057">
+    <relations>
+        <work ref="xxx.00048" cert="low">
+            <p>Phrases in this manuscript are similar to phrases that appeared in "Song of Myself." See, for instance: "It is for you whoever you are, it is no farther from you than your hearing and sight are from you, / It is hinted by nearest, commonest, readiest, it is ever provoked by them" (1891, p. 171); "I take my place among you as much as among any," (1891, p. 70); "Nor do I understand who there can be more wonderful than myself" (1891, p. 76); "What is commonest, cheapest, nearest, easiest, is Me," (1891, p. 39).</p> 
+        </work>
+    </relations>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main" rend="bracketed">The most perfect wonders</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="kc">Kirsten Clawson</persName>
+                    <persName xml:id="jc">Janel Cayer</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>nyp.00057</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">Based on the handwriting, Edward Grier dates this manuscript to 1855 or earlier (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:186). Some of the language is similar to wording in the poem that would be titled "Song of Myself."  An image of the verso is currently unavailable.</note>             
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>The most perfect wonders...</title>                  
+                    <idno type="callno">b15520479, UUID 74f6ea30-c6b4-012f-e567-58d385a7bc34</idno>
+                    <date xml:id="dat1" notBefore="1850" notAfter="1855" cert="medium">Before or early in 1855</date>
+                    <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
+                    <note type="project">Transcribed from digital images of the original.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2016-07-20" who="#nhg">updated bibl info</change>
+            <change when="2016-07-19" who="#nhg">checked, corrected, added relations info</change>
+            <change when="2016-06-28" who="#km">checked</change>
+            <change when="2015-01-18" who="#jc">checked; revised repository information in header</change>
+            <change when="2014-10-27" who="#kc">updated subst tags</change>
+            <change when="2014-09-22" who="#kc">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="manuscript">
+        <body>
+            <pb xml:id="leaf001r" facs="M_1221587.jpg" type="recto"/>
+            
+            <p>The most perfect wonders of the earth are not <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#kc">I</unclear></del> rare and distant but present with every <subst><del rend="overwrite" seq="1"><gap reason="illegible" quantity="1" unit="word"/></del><add rend="overwrite" seq="2" place="over">person</add></subst>,&#8212;you as much as any!&#8212;</p>
+            
+            <p><metamark function="transpose" place="left">tr down</metamark> Man! Woman! Youth! wherever you are, in the Northern, Southern, Eastern, or Western States&#8212;in <choice><orig>Kanada</orig><reg>Canada</reg></choice>&#8212;by the sea-coast, or far inland&#8212;<del rend="overstrike">the</del></p> <p><del rend="overstrike">Th</del> What is more amazing than the <del rend="overstrike">day</del> sun-rise, the day, the floods of light enveloping <del rend="overstrike">the</del> fields, <del rend="overstrike">t</del> waters, grass, trees, persons?&#8212;What is more beautiful than the night, the full <transpose xml:id="tr01" rend="circled" anchored="1" target="#tr02">moon, and the stars?&#8212;The prairies, the lakes, <del rend="overstrike"><unclear reason="illegible" cert="high" resp="#km">t</unclear></del> rivers, forests<subst><add rend="unmarked" place="inline" seq="2">,</add><del rend="overstrike" seq="1">&#8212;all</del></subst> are</transpose></p>
+            
+            <p>Not distant caverns, volcanoes, cataracts, curious islands, birds, foreign cities, architecture, costumes, markets, ceremonies, shows, are any more wonderful than <metamark xml:id="tr02" function="transpose" target="#tr01" rend="bracketed">&#8248;</metamark> what is common to you, near you now, and continually with you.&#8212;</p>
+            
+         </body>
+    </text>
+</TEI>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00556">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main" rend="bracketed">Nehemiah Whitman</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="jc">Janel Cayer</persName>
+                    <persName xml:id="es">Jeannette Schollaert</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>nyp.00556</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">This manuscript consists of notes about Whitman's family history. The various dates referenced suggest that the earliest portions of it were written sometime after 1845, and most of the notes seem to have been written at various stages between 1845 and 1855. Edward Grier dates the recto to 1850, and speculates that the earliest date for the writing on the verso is likely March 1853, when the two Cumberland Street houses were sold (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:8). For footnotes relating the names listed here to Whitman, see Grier. Whitman made additions to the manuscript several times, adding to it for the last time sometime around 1861. One of the names referenced on the verso, Covert, appears in Whitman's short story "<ref target="../../published/fiction/shortfiction/per.00340.html">Revenge and Requital</ref>" (1845), and is also mentioned in an early notebook (see "<ref target="../notebooks/transcriptions/loc.04588.html">a schoolmaster</ref>").</note>             
+            </notesStmt>
+            <sourceDesc>
+                 <bibl>
+                    <author>Walt Whitman</author>
+                     <title rend="bracketed">A Family Record. Composed and written by Walt Whitman.</title>
+                     <idno type="callno">b15520479</idno>
+                     <date xml:id="dat1" notBefore="1845" notAfter="1861" cert="medium">Between 1845 and 1861</date>
+                    <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library </orgName>
+                     <note type="project">Transcribed from digital images of the original.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="h1" scribeRef="#ww" medium="green-ink"/>
+                <handNote xml:id="h2" scribeRef="#ww" medium="black-ink"/>
+                <handNote xml:id="h3" scribeRef="#ww" medium="pencil"/>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-12-01" who="#nhg">corrected</change>
+            <change when="2016-09-14" who="#nhg">checked, corrected</change>
+            <change when="2016-08-25" who="#km">checked</change>
+            <change when="2016-02-16" who="#es">checked, added schematron, updated orgName info in bibl, updated substitution, added choice tag, added note, minor typo corrections</change>
+            <change when="2014-12-01" who="#jc">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="manuscript">
+        <body>
+            <pb xml:id="leaf001r" facs="nyp_es.00034.jpg" type="recto"/>
+            
+            <p><add rend="unmarked" place="supralinear"><handShift new="#h3"/><hi rend="underline"><space dim="horizontal" extent="5 letters"/></hi> Whitman built the old <unclear reason="illegible" resp="#km" cert="medium">homestead</unclear> in which was born</add> <handShift new="#h1"/>Nehemiah Whitman, <subst><del rend="overwrite" seq="1"><gap reason="illegible" extent="part of a word" quantity="8" unit="chars"/>rents <gap reason="overwrite" extent="one word" quantity="3" unit="chars"/> <unclear reason="overwrite" cert="medium" resp="#km">was born at</unclear> <unclear reason="illegible" cert="low" resp="#nhg">the</unclear></del><add rend="overwrite" place="over" seq="2">descended from one of the</add></subst> earliest English emigrants to America, was born and died on the old <del rend="overstrike"><add rend="unmarked" place="supralinear"><unclear reason="illegible" cert="high" resp="#km">Hills</unclear></add></del> homestead at West Hills&#8212;which was inherited by his son, His wife was <subst><del rend="overstrike" seq="1" hand="#h3">Phebe</del> <add rend="unmarked" place="infralinear" seq="2"><handShift new="#h3"/>Sarah</add></subst><handShift new="#h1"/> White&#8212;</p>
+            
+            <span rend="bracket-left" xml:id="s1" from="#s1" to="#s2"/>
+            <add rend="unmarked" place="right">
+                <ab>
+                <table>
+                    <row>
+                        <cell><handShift new="#h3"/>Sarah White</cell>
+                        <cell>born about 1713</cell>
+                    </row>
+                    <row>
+                        <cell>"<space dim="horizontal" extent="5 letters"/>"</cell>
+                        <cell>died<space dim="horizontal" extent="2 letter"/>" 180<unclear reason="illegible" resp="#nhg" cert="medium">1</unclear></cell>
+                    </row>
+                </table>
+                </ab>
+            </add>
+                
+                <note type="authorial" place="interlinear" resp="#h2">see next page&#8212;bottom</note><anchor xml:id="s2"/>
+            
+            
+            <ab>
+                
+                <table xml:id="t1">
+                    <span rend="curlyBrace-right" xml:id="s3" from="#s3" to="#s4"/>
+                <row>
+                    <cell><handShift new="#h1"/>Jesse Whitman,</cell>
+                    <cell>born Jan. 29, 1749</cell>
+                </row>
+                <row>
+                    <cell>"<space dim="horizontal" extent="5 letters"/>"</cell>
+                    <cell>died Feb. 12, 1803</cell>
+                </row>
+                <row>
+                    <cell>Hannah Brush</cell>
+                    <cell>born Oct. 6 1753</cell>
+                    <cell><note type="authorial" place="right" target="#t1">Married, April 22, 1775</note></cell>
+                </row>
+                <row>
+                    <cell>"<space dim="horizontal" extent="5 letters"/>"</cell>
+                    <cell>died Jan. 6, 1834</cell>
+                </row>
+                </table>
+                    <anchor xml:id="s4"/> 
+                    
+                    
+                    <note type="authorial" place="interlinear">The Whitman and Brush families were among the most ardent of the the "Rebels" of '76, in Suffolk county.&#8212;See "<hi rend="italic">Reminiscences</hi>."&#8212;One of the latter, Maj. Brush, was often and angrily denounced by the British <add rend="insertion" place="supralinear">local</add> proclamations, and by the loyalists of Long Island. He was confined for a time in the "Provost" in New York, under the charge of the infamous Cunningham</note><!--This note runs down the side of the page, next to the below table.-->
+           
+           <table>
+                    <row>
+                        <cell>Jesse Whitman, jr</cell>
+                        <cell>born June 25, 1776</cell>
+                    </row>
+                    <row>
+                        <cell><space dim="horizontal" extent="6 letters"/></cell>
+                        <cell>Died at Dix Hills, Sept. 8, 1845</cell>
+                    </row>
+                    <span rend="curlyBrace-right" xml:id="s5" from="#s5" to="#s6"/>
+                    <row>
+                        <cell>Sarah Whitman,</cell>
+                        <cell>born Jan. 1, 1778.</cell>
+                    </row>
+                    <row>
+                        <cell><space dim="horizontal" extent="14 letters"/></cell>
+                        <cell><handShift new="#h2"/>died Feb. 2, 1852</cell>
+                    </row>
+                    <anchor xml:id="s6"/>
+                    <row>
+                        <cell><handShift new="#h1"/>Naomi Van Velsor</cell>
+                        <cell>died, February 1826</cell>
+                    </row>
+                    <row>
+                        <cell>Major Cornelius Van Velsor</cell>
+                        <cell><add rend="insertion" place="supralinear">born 1758.</add> died August, 1837, aged <subst><del rend="overwrite" seq="1">6</del><add rend="overwrite" place="over" seq="2">7</add></subst>9</cell>
+                    </row>
+                    <row>
+                        <cell><space dim="horizontal"/></cell>
+                        <cell>(He was son of Garret Van Velsor</cell>
+                    </row>
+                    <span rend="curlyBrace-right" xml:id="s7" from="#s7" to="#s8"/>
+                    <row>
+                        <cell>Garret Van Velsor,</cell>
+                        <cell>died 1812</cell>
+                        <cell>parents of Major Van Velsor</cell>
+                    </row>
+                    <row>
+                        <cell><del rend="overstrike">Jenny Kossabon</del> Phebe Akeley</cell>
+                        <cell><space dim="horizontal"/></cell>
+                    </row>
+                    <anchor xml:id="s8" />
+                </table>
+              </ab>
+                
+               <p>One of the sons of Nehemiah Whitman was a Lieutenant in Col. Josiah Smith's Regiment of the <add rend="insertion" place="supralinear">American Patriot</add> Army <add rend="insertion" place="supralinear">of 1776</add> <del rend="overstrike">under <add rend="insertion" place="supralinear">chief</add> command</del> of Washington,</p>
+            
+            <note type="authorial" rend="lasso" place="inline">See 1st edition Reminiscences of Long Island, vol. 2, page 28 or vol 1, page 87</note>
+            
+            <p>He was in the disastrous battle of Brooklyn <del rend="overstrike">Col. Smiths</del> <add rend="insertion" place="supralinear">the</add> reg. having been ordered to place themselves under Gen. Greene, some days before that battle<del rend="overstrike">,&#8212;</del>by Brig. Gen. Woodhull, who <subst><del rend="overstrike" seq="1">had charge general charge on L. I.&#8212;</del> <add rend="unmarked" place="supralinear" seq="2">was also President of the N. Y. Convention.&#8212;</add></subst></p>
+            
+            <p>The L.I. regiment were hemmed in the lines</p>
+            
+            <metamark function="over" place="right" rend="circled"><handShift new="#h2"/>over</metamark>
+            
+            <pb xml:id="leaf001v" facs="nyp_es.00035.jpg" type="verso"/>
+            
+            <ab>We moved to Brooklyn, (Front st.) in May, 1823.</ab> 
+            
+            <ab>Moved to Cranberry st. (opposite the church,) in '24</ab>
+            
+            <ab>" " Johnson st. May 1st 1825.&#8212;(Covert, the villain</ab>
+            
+            <ab>" Across the way, (Van Dyke's) were there 4th July 1826</ab>
+            
+            <ab>" Adams st, lived there spring of '27</ab>
+            
+            <ab>" To Tillary cor. Washington, (Miller's) 1st May 1827</ab>
+            
+            <ab>" To own house in Nov. and lived there till Nov. 18<del rend="overstrike">31</del></ab>
+            
+            <ab>Lived in Henry st. (near Cranberry,) the winter before the first cholera summer.</ab>
+            
+            <ab>Moved to Liberty st. Were there <subst><del rend="overwrite" seq="1">the first</del><add rend="overwrite" place="over" seq="2">one of</add></subst> cholera summers.&#8212;(The old Hardenburghs up stairs) (I was there alone in the house a while.) The miserable scoundrel Gil. Reid, and the suffering he caused us all.&#8212;Graham the old devil, that owned the house.)</ab>
+            
+            <ab>Moved from Liberty st. to Front st, (eastern part, and lived there in spring and early summer of 1833.&#8212;<add rend="insertion" place="supralinear">mother very sick</add>. (Mrs. Sibley.)</ab>
+            
+            <ab><add rend="unmarked" place="supralinear">Family</add> Moved in the country.&#8212;Lived at Norwich in 1834 <add rend="unmarked" place="supralinear">I remained in Brooklyn</add></ab>
+            
+            <span rend="curlyBrace-left" xml:id="s9" from="#s9" to="#s10"/>
+            <ab>From there to Hempstead&#8212;were there 1835&#8211;6.&#8212;</ab>
+            <ab>Moved from Hempstead to Babylon, Aug. 1836</ab>
+            <ab>" to Dix Hills in May, 1840</ab>
+            <ab>" from Dix Hills to Brooklyn Aug. 6, 1844.</ab>
+            <anchor xml:id="s10"/> 
+            <note type="authorial" place="left" target="#s9">I remaining in Brooklyn</note>
+            
+            <ab>Moved into house in Prince st. in Dec. 1844</ab>
+            
+            <ab><add rend="unmarked" place="supralinear">I</add> Built the place 106 Myrtle av. in winter of 1848&#8211;9, and moved in, latter part of April '49</ab>
+            
+            <ab>I <subst><del rend="overwrite" seq="1"><unclear reason="illegible" cert="medium" resp="#km">Built</unclear></del><add rend="overwrite" place="over" seq="2">Sold</add></subst> the Myrtle av. house in May, '52, and built in Cumberland street, where we moved Sept. 1st, '52.</ab>
+            
+            <ab>Sold the two 3 story houses in Cumberland st. March 1853. Moved into the little 2 story house <add rend="insertion" place="supralinear">Cumberland st</add> April 21st, '53 <add rend="unmarked" place="inline"><handShift new="#h3"/>(lived there just one year exactly.)</add></ab>
+            
+            <ab>Built in Skillman st, and moved there May, 1854</ab>
+            
+            <ab>Moved in Ryerson st, May 1855.<add rend="unmarked" place="inline"><handShift new="#h2"/>&#8212;Lived in Classon <add rend="insertion" place="supralinear">from May 1st</add> '56, '7 '8 '9</add></ab>
+            
+            <add rend="unmarked" place="interlinear"><ab>Lived in Portland av. from May 1st '59 '60 '61</ab></add>
+            
+            <p><handShift new="#h3"/>Sarah White, my great grandmother Whitman, lived to be 90 years old.&#8212;She was a large, strong woman, chewed tobacco, opium &#038;c.&#8212;petted her slaves, and had always a crowd of little niggers about her.&#8212;She would sit with her feet up before the fire, just like a man&#8212;was every way decided and masculine in behavior</p>
+            
+            <p>The tradition of my grandfather, Jesse Whitman, was that there were four brothers, Englishmen <add rend="insertion" place="supralinear">his remote ancestors</add> who came over here.&#8212;One settled on Long Island&#8212;West Hills was formerly inhabited and owned very largely by Whitmans.&#8212;</p>
+            
+        </body>
+    </text>
+</TEI>

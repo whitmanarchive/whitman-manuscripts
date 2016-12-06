@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00727">
+<relations>
+<work ref="xxx.00048">
+<p>The lines in this manuscript likely contributed to lines of the poem that would eventually be titled "Song of Myself," particularly the lines that read "Logic and sermons never convince, / The damp of the night drives deeper into my soul."</p>
+</work>
+</relations>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main" rend="bracketed">The test</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="jc">Janel Cayer</persName>
+                    <persName xml:id="es">Jeannette Schollaert</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>med.00727</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2014 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">The lines in this manuscript likely contributed to lines of the poem that would eventually be titled "Song of Myself." The date of the manuscript is therefore before or early in 1855.</note>             
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Walt Whitman</author>
+                        <editor>Edward F. Grier</editor>
+                        <title xml:id="nupm">Notebooks and Unpublished Prose Manuscripts</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date when="1984">1984</date>
+                            <biblScope type="page">187</biblScope>
+                            <biblScope type="volume">1</biblScope>
+                        </imprint>
+                    </monogr>
+                    <note type="project">Grier derives his text from <hi rend="italic">Walt Whitman's Workshop</hi>, ed. Clifton Furness (Cambridge, MA: Harvard University Press, 1928), 49.</note>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title rend="bracketed">[The test]</title>                  
+                    <date xml:id="dat1" notBefore="1845" notAfter="1855" cert="medium">Before or early in 1855</date>
+                    <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2016-07-13" who="#nhg">checked, corrected</change>
+            <change when="2016-05-20" who="#km">checked</change>
+            <change when="2016-02-16" who="#es">checked, corrected a word from Grier: "inspirits"</change>
+            <change when="2014-10-19" who="#jc">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="manuscript">
+        <body>
+            <ab>The test of the goodness or truth of anything is the soul itself&#8212;whatever does good to the soul, soothes, refreshes, cheers, inspirits, consoles, &#038;c &#038;c&#8212;that is so, easy enough.&#8212;But doctrines, sermons, logic??</ab>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+ 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="pml.00007">
+    <relations>
+        <work ref="xxx.00607" cert="high">
+            <p>"Starry Union" was never published in Whitman's lifetime, though several different
+                draft forms exist. A revision of these lines appears in the unpublished manuscript
+                poem entitled "Hands Ro[und]."</p>
+        </work>
+    </relations>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Starry Union</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="nk">Nick Krauter</persName>
+                    <persName xml:id="hm">Heather Morton</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="aj">Andrew Jewell</persName>
+                    <persName xml:id="kmp">Kenneth Price</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
+                </respStmt>
+                <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <sponsor>University of Nebraska-Lincoln</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+                <funder>The United States Department of Education</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2005</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>pml.00007</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+<addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
+<addrLine>Alderman Library</addrLine>
+<addrLine>University of Virginia</addrLine>
+<addrLine>P.O. Box 400115</addrLine>
+<addrLine>Charlottesville, VA 22904-4115</addrLine>
+<addrLine>whitman@jefferson.village.virginia.edu</addrLine>
+</address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                
+                <note type="project" target="#dat1">"Starry Union" was never published in Whitman's lifetime, though several different
+                    draft forms exist. The precise
+                    date of composition of this manuscript is unknown, but Whitman very possibly wrote this piece
+                    for the Centennial Celebration of <date when="1876">1876</date>, as the date of the letter on the reverse ("Feb 11/76")
+                    suggests.</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Starry Union</title>
+                    <date xml:id="dat1" cert="high" when="1876">1876</date>
+                    <orgName xml:id="pml">The Pierpont Morgan Library, New York</orgName>
+                    <note type="project">Transcribed from digital images of the original.</note>
+                    <relatedItem type="document" target="wwa.00160"/>
+                    <relatedItem type="text" xml:id="rel01" target="pml.00059"/>
+                    <note type="project" target="#rel01">On the back of this manuscript leaf is a crossed-out letter from F. H. Mann
+                        requesting Whitman's autograph, dated <date when="1876-02-11">February 11,
+                            1876</date>.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="h1" resp="#unk"><persName xml:id="unk">Unknown</persName></handNote>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-11-28" who="#nhg">added information from EAD entry to editorial note</change>
+            <change when="2016-10-18" who="#nhg">corrected</change>
+            <change when="2016-09-20" who="#nhg">proofed, added relatedItem information</change>
+            <change when="2016-04-21" who="#nhg">added information from P4 version</change>
+            <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
+            <change when="2006-08-04" who="#nk">Added third digit to leaf numbers</change>
+            <change when="2005-06-08" who="#aj">Checked, revised, edited</change>
+            <change when="2004-06-28" who="#hm">Transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="manuscript">
+        <body>
+            <pb facs="pml.00007.001.jpg" xml:id="leaf001r" type="recto"/>
+            <lg type="poem">
+                <head type="main" rend="underline">Starry Union</head>
+                <l>See! See! see! 
+                        <seg xml:id="alt01">how</seg>                         
+                            <add place="supralinear" rend="unmarked" xml:id="alt02">where</add><alt target="#alt01 #alt02" weights="0.5 0.5"/>
+                    
+                    the sun is 
+                    <subst>
+                        <del rend="overstrike" seq="1">blazing</del>
+                                                
+                            <del rend="overstrike" seq="3">
+                                <add place="supralinear" rend="unmarked" seq="2">streaming</add>
+                            </del>
+                                                
+                            <add place="supralinear" rend="unmarked" seq="4">beaming</add></subst>!</l>
+                <l>See! See! see! all the bright stars <subst>
+                        
+                            <del rend="overstrike" seq="1">shining</del>
+                                                
+                            <add place="supralinear" rend="unmarked" seq="2">gleaming</add></subst>!</l>
+                <l>
+                    North, or South, <subst>
+                            
+                                <del rend="overstrike" seq="1">or Westward</del>
+                                                        
+                                <add place="supralinear" rend="unmarked" seq="2">in order</add>
+                                                    </subst>
+<subst>
+                            
+                                <del rend="overstrike" seq="1">beaming</del>
+                                                        
+                                <del rend="overstrike" seq="3">
+                                    <add place="supralinear" rend="unmarked" seq="2">moving</add>
+                                </del>
+                                                        
+                                <add rend="unmarked" place="infralinear" seq="4"><unclear reason="illegible" resp="#nhg" cert="medium">loving</unclear></add>
+                                                    </subst>
+
+                    <add place="interlinear" rend="unmarked">
+                        <lb/>all <del rend="overstrike">Equal all</del> Including, folding,
+                    </add>
+                </l>
+                <l>Union all! O its Union all!</l>
+                <l>O its all for <subst>
+                        
+                            <del rend="overstrike" seq="1">one</del>
+                                                
+                            <add place="supralinear" rend="unmarked" seq="2">each</add></subst>, &amp; <subst>
+                        
+                            <del rend="overstrike" seq="1">one</del>
+                                                
+                            <add place="supralinear" rend="unmarked" seq="2">each</add>
+                                            </subst> for all!</l>
+            </lg>
+            <pb facs="pml.00007.002.jpg" xml:id="leaf001v" type="verso"/>
+            <note type="archival" place="left" resp="#h1">MA 578(4)</note>
+        </body>
+    </text>
+</TEI>

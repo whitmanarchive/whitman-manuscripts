@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.05334">
+    <relations>
+        <work ref="xxx.00048">
+            <p>Edward Grier notes that this scrap contains ideas similar to those found in what would become section 4 of the poem eventually titled "Song of Myself," the section that begins "Trippers and askers surround me" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 6:2047). However, the idea of a "real life" existing behind the trappings of society is expressed in many places in Whitman's work, so the specific connection to "Song of Myself" is tenuous.</p>
+        </work>
+    </relations>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main" rend="bracketed">For remember that</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="kc">Kirsten Clawson</persName>
+                    <persName xml:id="jc">Janel Cayer</persName>
+                    <persName xml:id="km">Kevin McMulen</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.05334</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">Edward Grier notes that this scrap contains ideas similar to those found in what would become section 4 of the poem eventually titled "Song of Myself." But Grier also indicates that this scrap could be notes for a lecture that Whitman was planning. In either case, the date is almost certainly from the 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 6:2047).</note>             
+            </notesStmt>
+            <sourceDesc>
+                
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title rend="bracketed">For remember that</title>                  
+                    <idno type="callno">MSS45443, Box 2, Reels 1-2</idno>
+                    <date xml:id="dat1" cert="medium" notBefore="1845" notAfter="1855">1855 or earlier</date>
+                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
+                    <note type="project">Transcribed from digital images of the original.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+            <change when="2016-05-13" who="#nhg">checked, corrected</change>
+            <change when="2016-05-05" who="#km">checked</change>
+            <change when="2015-02-26" who="#jc">checked; revised repository information in header</change>
+            <change when="2014-10-06" who="#kc">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="manuscript">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_af.00513.jpg" type="recto"/>
+            
+            <p><add rend="unmarked" place="supralinear">For remember that</add> behind all this show of ostensible life, <add rend="unmarked" place="supralinear"><del rend="overstrike">of</del> every man and woman,&#8212;of you hearing me now <unclear reason="illegible" cert="low" resp="#jc">in</unclear> these</add> talks, amusements, dress, money, politics, &amp;c. stands the real life of every man and woman of you who hear me now</p>
+            
+            <pb xml:id="leaf001v" facs="loc_af.00514.jpg" type="verso"/>
+            
+        </body>
+    </text>
+</TEI>

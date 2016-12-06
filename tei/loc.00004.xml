@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+ 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00004">
+    <relations>
+        <work ref="xxx.00376" cert="high"/>
+    </relations>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">After the Supper and Talk</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Ken Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="aj">Andrew Jewell</persName>
+                    <persName xml:id="kmp">Kenneth Price</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
+                    <persName xml:id="zb">Zach Bajaber</persName>
+                    <persName xml:id="ms">Melissa Sinner</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="nk">Nick Krauter</persName>
+                    <persName xml:id="lr">Lisa Renfro</persName>
+                    <persName xml:id="jsc">Justin St. Clair</persName>
+                </respStmt>
+                <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <sponsor>University of Nebraska-Lincoln</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+                <funder>The United States Department of Education</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2002</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.00004</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+<addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
+<addrLine>Alderman Library</addrLine>
+<addrLine>University of Virginia</addrLine>
+<addrLine>P.O. Box 400115</addrLine>
+<addrLine>Charlottesville, VA 22904-4115</addrLine>
+<addrLine>whitman@jefferson.village.virginia.edu</addrLine>
+</address>
+                <availability>
+                    <p>Copyright &#169; 2001 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved.Items in the Archive may be shared in accordance with the Fair Use
+                        provisionsof U.S. copyright law. Redistribution or republication on other
+                        terms, inany medium, requires express written consent from the editors and
+                        advancenotification of the publisher, The Institute for Advanced Technology
+                        in theHumanities. Permission to reproduce the graphic images in this archive
+                        hasbeen granted by the owners of the originals for this publication
+                        only.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">Whitman's poem "After the Supper and Talk" was
+                    submitted to <hi rend="italic">Harper's</hi> in <date when="1885">1885</date>
+                    but was rejected. It was published in <hi rend="italic">Lippincott's
+                        Magazine</hi> in <date when="1887">November, 1887</date>. This manuscript
+                    draft, however, may well have been intended for neither journal because of the
+                    reference to "volume" in the bracketed note. In <hi rend="italic">November
+                        Boughs</hi>
+                    <date when="1888">(1888)</date> he used "After the Supper and Talk" as the
+                    concluding poem in the volume; it was followed by numerous prose pieces.</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author> Walt Whitman </author>
+                    <title> After the Supper and Talk </title>
+                    <date xml:id="dat1" cert="medium" notBefore="1884" notAfter="1888">Between 1884 and 1888</date>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <note type="project">Transcribed from <hi rend="italic">The Walt Whitman Archive I: Whitman Manuscripts at the Library of Congress</hi>, ed. Joel Myerson (New York: Garland, 1993), 1:121; 
+                        <hi rend="italic">Major American Authors on CD-Rom: Walt Whitman</hi> (Westport, CT:
+                        Primary Source Media, 1997). The transcription was then checked against digital images of the original.</note>
+                    <relatedItem type="document" target="wwa.00005"/>
+                    <relatedItem type="text" xml:id="rel01" target="loc.07387"/>
+                    <note type="project" target="#rel01">On the reverse of the manuscript leaf is pasted
+                        a partial, lightly corrected proof of the poem eventually titled "Song of the
+                        Exposition," made up of two scraps.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2016-11-30" who="#nhg">added relatedItem information, work ID</change>
+            <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
+            <change when="2006-08-02" who="#nk">Added third digit to leaf numbers</change>
+            <change when="2006-03-02" who="#bb">Added place attribute to the note after the head</change>
+            <change when="2006-02-03" who="#lr">Corrected; inserted date</change>
+            <change when="2004-07-21" who="#bb">Wrapped signature in closer element</change>
+            <change when="2004-04-16" who="#bb">Added encoding regarding verso; validated</change>
+            <change when="2003-10-02" who="#bb">Conversion to camel-case</change>
+            <change when="2003-05-21" who="#bb">   "="  "='" to printer's hyphens
+                    (&#8209;)</change>
+            <change when="2003-05-01" who="#bb">deleted spaces before and after em dashes</change>
+            <change when="2002-09-09" who="#bb">Blessed</change>
+            <change when="2002-08-01" who="#zb">Updated to current practice</change>
+            <change when="2002-01-01" who="#kmp">Checked by editor</change>
+            <change when="2002-01-01" who="#bb">Revised</change>
+            <change when="2001-01-01" who="#ms">Encoded</change>
+            <change when="2000-01-01" who="#jsc">Transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="manuscript">
+        <body>
+            <pb facs="loc.00004.001.jpg" xml:id="leaf001r" type="recto"/>
+            <lg type="poem">
+                <head rend="underline" type="main-authorial">After the Supper and Talk</head>
+                <note type="authorial" place="inline"><hi rend="underline">[<subst><del rend="overstrike" seq="1">Preceeding</del>
+                                                
+                            <add place="supralinear" rend="unmarked" seq="2">To precede </add>
+                </subst>some added Poems at end of a Volume.]</hi></note> <note type="authorial" place="right">small ital</note> <note type="authorial" place="right"><gap reason="illegible"/></note>
+                <l>After the supper and talk&#8212;after the day is done, </l>
+                <l>
+                    As a friend from friends his final withdrawal <choice>
+<orig>pro-</orig>
+<reg>prolonging</reg>
+</choice>
+
+                    <lb/>longing, 
+                </l>
+                <l>Good-bye and Good-bye with emotional lips <choice>
+<orig>re-</orig>
+<reg>repeating</reg>
+</choice>
+
+                    <lb/>peating, 
+                </l>
+                <l>(So hard for his hand to release those hands&#8212;no 
+                    <lb/>more will they meet, 
+                </l>
+                <l>No more for communion of sorrow and joy, 
+                    <lb/>of old and young, 
+                </l>
+                <l>A far-stretching journey awaits him, to return
+                    <lb/>no more.) 
+                </l>
+                <l>Shunning, postponing <del rend="overstrike">the</del>
+                        severance,&#8212;seeking to 
+                    <lb/>ward off the last word ever so little, 
+                </l>
+                <l>E'en at the exit&#8209;door turning&#8212;charges <choice>
+<orig>super-</orig>
+<reg>superfluous</reg>
+</choice>
+
+                    <lb/>fluous calling back&#8212;e'en as he <choice>
+<orig>de-</orig>
+<reg>descends</reg>
+</choice>
+
+                    <lb/>scends the steps, 
+                </l>
+                <l>Something to eke out a minute additional&#8212;
+                    <lb/>&#8212;shadows of nightfall deepening, 
+                </l>
+                <l>Farewells, messages lessening&#8212;dimmer the
+                    <lb/>forth&#8209;goer's visage and form, 
+                </l>
+                <l>Soon to be lost <add place="supralinear" rend="insertion">for aye, </add>in
+                        the darkness&#8212;loth, O 
+                    <lb/>so loth to depart!
+                </l>
+                <l>Garrulous to the very last. </l>
+                <closer>
+                    <signed rend="underline">Walt Whitman</signed>
+                </closer>
+            </lg>
+            <pb facs="loc.00004.002.jpg" xml:id="leaf001v" type="verso"/>
+        </body>
+    </text>
+</TEI>

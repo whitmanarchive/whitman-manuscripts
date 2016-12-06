@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="rut.00010">
+   <relations>
+      <work ref="xxx.00526"><p>A manuscript fragment which includes thoughts similar to those found in the 1855 Preface to <title rend="italic">Leaves of Grass</title>. <ref type="text" xml:id="r01" target="#q01">One sentence</ref>, in particular, is likely related to Whitman's claim in the Preface that "[t]he United States themselves are essentially the greatest poem."</p></work>
+      </relations>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main" rend="bracketed">American literature must become distinct</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author xml:id="ww">Walt Whitman</author>
+            <editor>Kenneth M. Price</editor>
+            <editor>Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="kc">Kirsten Clawson</persName>
+               <persName xml:id="jc">Janel Cayer</persName>
+               <persName xml:id="km">Kevin McMullen</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2014</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>rut.00010</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="project" target="#dat1">This manuscript includes ideas similar to those found in the 1855 Preface to <hi rend="italic">Leaves of Grass</hi>, suggesting that the date is likely before or early in 1855. Floyd Stovall suggests that some of Whitman's ideas in this manuscript came from an article entitled "Thoughts on Reading" that appeared in the <hi rend="italic">American Whig Review</hi> in May 1845 ("Notes on Whitman's Reading," <hi rend="italic">American Literature</hi> 26.3 [November 1954]: 352). The manuscript is held at Rutgers University Library along with several similar manuscripts that probably date from around or before 1855.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>American literature must become distinct</title>
+               <date xml:id="dat1" cert="medium" notBefore="1845" notAfter="1855">Between 1845 and 1855</date>
+               <idno type="callno">Ac. 605</idno>
+               <orgName xml:id="rut">Special Collections and University Archives, Rutgers University Libraries, Rutgers, The State University of New Jersey</orgName>
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="h1" scribeRef="#ww" medium="pencil"/>
+            <handNote xml:id="h2" scribeRef="#ww" medium="black-ink"/>
+            <handNote xml:id="h3" scribeRef="#unk" medium="pencil"><persName xml:id="unk">Unknown</persName></handNote>
+         </handNotes>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#nhg" when="2016-07-20">checked, corrected</change>
+         <change who="#km" when="2015-07-08">checked</change>
+         <change who="#jc" when="2015-04-25">checked</change>
+         <change who="#nhg" when="2014-09-23">checked, corrected</change>
+         <change who="#kc" when="2014-09-04">transcribed and encoded</change>
+         <change who="#nhg" when="2014-08-07">metadata extracted and transformed from EAD file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="manuscript">
+      <body>
+         <pb xml:id="leaf001r" facs="rut.00010.001.jpg" type="recto"/>
+         
+         <note type="editorial" place="top" resp="#h3">1</note>
+         
+         <p><handShift new="#h1"/>American literature must become distinct from all others.&#8212;American writers <del rend="overstrike">of</del> must become national, idiomatic, free from the genteel laws&#8212;<seg xml:id="q01">America herself appears (she does not at all appear hitherto) in the spirit and the form of her poems, and all other literary works.&#8212;</seg></p>
+         
+         <milestone unit="undeclared" rend="horbar-short-left"/>
+         
+         <ab><handShift new="#h2"/>The great<del rend="overstrike">est</del> poet<del rend="overstrike">s</del> submits only to himself.</ab>
+         
+         <ab><handShift new="#h1"/>Is nature <subst><del rend="overstrike" seq="1" hand="#h2">wild and</del> <add rend="unmarked" place="supralinear" seq="2"><handShift new="#h2"/>rude, free,</add></subst><handShift new="#h1"/> irregular? If nature be so, I <add rend="unmarked" place="supralinear" hand="#h2"><del rend="overstrike"><handShift new="#h2"/>&#038; you to</del></add><handShift new="#h1"/> too will be so.</ab>
+         
+         <ab><handShift new="#h2"/>Do you suppose Nature keeps <add rend="unmarked" place="supralinear">has</add> nothing <del rend="overstrike">more</del> under those beautiful terrible irrational forms?</ab>
+         
+<pb xml:id="leaf001v" facs="rut.00010.002.jpg" type="verso"/>
+      </body> 
+   </text>
+</TEI>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00024">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main" rend="bracketed">Mocking all the textbooks</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="fl">Farrah Lehman</persName>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+                <funder>The United States Department of Education</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2004</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>nyp.00024</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">Edward Grier, drawing from Richard Maurice Bucke's <hi rend="italic">Notes and Fragments</hi> (1899), adds a bracketed conclusion to this prose note: "[We are so proud of our learning! As if it were anything to analyze fluids and call certain parts oxygen or hydrogen, or to map out stars and call . . .]" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:164). 
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>[wider than the west]</title>
+                    <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
+                    <idno type="callno"/>
+                    <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
+                    <note type="project">Transcribed from digital images of the original.</note>
+                    <relatedItem type="text" xml:id="rel01" target="nyp.00510"/>
+                    <relatedItem type="document" target="wwa.00003"/>
+                    <note target="#rel01" type="project">On the back of this note is a draft fragment containing phrases and poetic lines that were revised and used in different sections of <hi rend="italic">Leaves of Grass</hi>.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+            <change when="2016-02-01" who="#nhg">adjusted relatedItem encoding</change>
+            <change who="#nhg" when="2015-12-03">final check</change>
+            <change who="#nhg" when="2014-08-27">converted to P5, checked, corrected</change>
+            <change who="#fl" when="2006-02-14">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+<text type="manuscript">
+<body>
+    <pb xml:id="leaf001r" facs="nyp.00024.001.jpg" type="recto"/>
+	               
+<ab><subst><del rend="overstrike" seq="1">Behind</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="inline" seq="2">Eluding</add></del> <add rend="unmarked" place="supralinear" seq="4">Mocking</add></subst> all the textbooks
+and professors' expositions and proofs and diagrams and practical show, stand or lie millions of the <del rend="overstrike"><gap reason="deletion, illegible"/></del> all the most beautiful and common facts.&#8212;</ab>
+    <pb xml:id="leaf001v" facs="M_1231704.jpg" type="verso"/>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00888">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title level="m" type="main" rend="bracketed">steamboats and vaccination</title>
+				<title level="m" type="sub">a machine readable transcription</title>
+				<author>Walt Whitman</author>
+				<editor>Kenneth M. Price</editor>
+				<editor>Ed Folsom</editor>
+				<respStmt>
+					<resp>Transcription and encoding</resp>
+					<persName xml:id="rl">Robert LaCosse</persName>
+					<persName xml:id="kc">Kirsten Clawson</persName>
+					<persName xml:id="jc">Janel Cayer</persName>
+					<persName xml:id="nhg">Nicole Gray</persName>
+					<persName xml:id="km">Kevin McMullen</persName>
+				<persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+				<sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+				<sponsor>University of Iowa</sponsor>
+				<funder>The National Endowment for the Humanities</funder>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<date>2014</date>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<idno>duk.00888</idno>
+				<distributor>The Walt Whitman Archive</distributor>
+				<address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+				<availability>
+					<p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note type="project" target="#dat1">Edward Grier notes that the "date is probably before or early in 1855" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:177).</note>             
+			</notesStmt>
+			<sourceDesc>
+				
+				<bibl>
+					<author>Walt Whitman</author>
+					<title rend="bracketed">Preliminary Studies for Poems</title>
+					<date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Before or early in 1855</date>
+					<idno type="callno">MS q 32</idno>
+					<orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+					<relatedItem xml:id="rel01" type="text" target="duk.00293"/>
+					<relatedItem type="document" target="wwa.00012"/>
+					<note type="project">Transcribed from digital images of the original.</note>
+					<note type="project" target="#rel01">On the back of this manuscript is another prose manuscript.</note>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+			<change when="2016-04-08" who="#nhg">checked, corrected</change>
+			<change when="2016-03-29" who="#km">checked</change>
+			<change when="2016-01-29" who="#nhg">created new file for verso</change>
+			<change when="2015-01-17" who="#jc">checked; revised repository information in header</change>
+			<change when="2014-11-11" who="#kc">converted from P4 to P5, checked</change>
+			<change when="2004-10-01" who="#rl">transcribed and encoded</change>
+		</revisionDesc>
+	</teiHeader>
+
+<text type="manuscript">
+<body>
+
+	
+
+<pb xml:id="leaf001v" facs="duk.00293.002.jpg" type="recto"/>
+	
+	
+	<delSpan rend="hashmark" spanTo="#d02"/>
+	
+	<note type="authorial" place="top">4</note>
+	
+	<p>steamboats and vaccination, gunpow<unclear reason="cut away" resp="#kc" cert="high">der</unclear> and spinning-jennies; but are our people half as peaceable and happy as <add rend="insertion" place="supralinear">were</add> the Peruvians and Mexicans, ere the Spanish navigators introduced <subst><del rend="overstrike" seq="1">among</del> <add rend="unmarked" place="supralinear" seq="2">to</add></subst> them the blessings of <subst><del rend="overstrike" seq="1">civilization</del> <add rend="unmarked" place="supralinear" seq="2">artificial science</add></subst> and <add rend="insertion" place="supralinear">of</add> the true faith?&#8212;</p>
+	
+	<p>It is out of this mass of folly, wickedness, and injustice,<del rend="overstrike">&#8212;</del>and its influence,<del rend="overstrike">&#8212;</del>that <subst><del rend="overstrike" seq="1">an individual</del> <add rend="unmarked" place="supralinear" seq="2">a man</add></subst> is required to lift himself, as the very first step toward his being <del rend="overstrike">a</del> perfect<add rend="unmarked" place="inline">.</add> <del rend="overstrike">man</del> He must have a very high faculty of independence.&#8212;The mere authority of law, custom, or precedent, must be nothing, absolutely nothing at all, with him.&#8212;High,</p>
+	<anchor xml:id="d02"/>
+	
+	<pb xml:id="leaf001r" facs="duk.00293.001.jpg" type="verso"/>
+
+</body>
+</text>
+</TEI>

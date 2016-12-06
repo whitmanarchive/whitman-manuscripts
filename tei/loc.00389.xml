@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00389">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main" rend="bracketed">The idea that</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author xml:id="ww">Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="kc">Kirsten Clawson</persName>
+                    <persName xml:id="es">Jeannette Schollaert</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.00389</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">A later note, in Whitman's hand, claims that this manuscript was written in 1855. However, the manuscript is written on the back of a City of Williamsburgh tax form, and Edward Grier notes that "all the dateable examples of tax forms are 1857 or later" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:366). The exact date, therefore, cannot be determined, but it is almost certainly between 1855 and 1860.</note>             
+            </notesStmt>
+            <sourceDesc>
+                
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title rend="bracketed">The idea that</title>                  
+                    <idno type="callno">MSS18630, Box 32, Reels 19-20</idno>
+                    <date xml:id="dat1" cert="medium" notBefore="1855" notAfter="1860">Between 1855 and 1860</date>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <note type="project">Transcribed from digital images of the original.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="h1" scribeRef="#ww"/>
+                <handNote xml:id="h2" scribeRef="#ht"><persName xml:id="ht">Horace Traubel</persName></handNote>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+            <change when="2016-05-11" who="#nhg">checked, corrected</change>
+            <change when="2016-05-04" who="#km">checked</change>
+            <change when="2016-02-15" who="#es">checked, completed date in note, changed add to supralinear</change>
+            <change when="2015-03-10" who="#kc">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="manuscript">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_es.01289.jpg" type="recto"/>
+            
+            <note type="editorial" resp="#h2" place="top">see notes Sept 2 1888</note>
+            
+            <p>The idea <del rend="overstrike">that</del> <del rend="overstrike">of the</del> that in the nature of things, thr<unclear reason="illegible" cert="medium" resp="#kc">ough</unclear> all affairs and deeds, national or individual, good and bad, each has its inherent law of punishment or reward, which is part of the deed or affair itself, identical with it, and, with its results, goes with that deed, that affair, then and afterwards.&#8212;</p>
+            
+            <p>The idea that the Woman of America is to become the perfect equal of the man.&#8212;</p>
+            
+            <p>The idea of the good old cause, Liberty&#8212;that it is to be honored here, whatever day, whatever question, it presents itself in&#8212;that the relation of master and slave <note type="authorial" place="supralinear" rend="circled">[this was written in 1855]</note> is to go the: same road out of These States, that the relation of kings, lords, and commons, has gone.</p>     
+            
+            <pb xml:id="leaf001v" facs="loc_es.01290.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

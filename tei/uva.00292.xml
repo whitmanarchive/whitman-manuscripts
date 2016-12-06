@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00292">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">A City Walk</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="jc">Janel Cayer</persName>
+                    <persName xml:id="es">Jeannette Schollaert</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>uva.00292</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">This may have been an early conception of the poem that was eventually titled "Crossing Brooklyn Ferry," first published as "Sun-Down Poem" in the 1856 edition of <hi rend="italic">Leaves of Grass</hi>. This manuscript was likely written around 1855.</note>             
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Leaves of Grass, [ca. 1855&#8211;1856] AMs, 12 fragments on 7 leaves</title>
+                    <date xml:id="dat1" when="1855" cert="medium">About 1855</date>
+                    <idno type="callno">MSS 3829, Box 1, Folder 49</idno>
+                    <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
+                    <note type="project">Transcribed from digital images of the original.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="h1" scribeRef="#unk" medium="pencil"><persName xml:id="unk">Unknown</persName></handNote>
+                <handNote xml:id="h2" scribeRef="#unk2" medium="red_ink"><persName xml:id="unk2">Unknown</persName></handNote>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-07-26" who="#nhg">checked, corrected</change>
+            <change when="2016-07-20" who="#km">checked</change>
+            <change when="2016-02-16" who="#es">checked, added information to bibl from finding aid, added underline, added inline "v"</change>
+            <change when="2014-09-30" who="#jc">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="manuscript">
+        <body>
+           <div1 type="poem_notes">
+               <relations>
+                   <work ref="xxx.00112" cert="low"><p>This brief manuscript mentions a "list of all that is seen in a walk through the streets of Brooklyn &amp; New York,&#8212;and crossing the ferry." This may have been an early conception of the poem that was eventually titled "Crossing Brooklyn Ferry," first published as "Sun-Down Poem" in the <date when="1856">1856</date> edition of <hi rend="italic">Leaves of Grass</hi>.</p></work>
+                   <work ref="xxx.00085" cert="low"><p>The heading of this manuscript reads "A City Walk," which may be suggestive of the tentative title "City of Walks and Joys," the name Whitman originally assigned to "Calamus" 18 in his "Blue Book" revisions of the <date when="1860">1860</date> edition of <hi rend="italic">Leaves of Grass</hi>. This title was changed in the "Blue Book" to "City of orgies, walks and joys" and finally became "City of Orgies" in the <date when="1867">1867</date> edition.</p></work>
+               </relations>
+               <pb xml:id="leaf001r" facs="uva.00292.001.jpg" type="recto"/>
+            
+            
+               <head type="main"><hi rend="underline">A City</hi> Walk:</head> <note type="editorial" resp="#h1" place="right">2</note><note type="editorial" resp="#h2" place="right">V</note>
+            
+            <ab>Just a list of all that is seen in a walk through the streets of Brooklyn &#038; New York,&#8212;and crossing the ferry.</ab>
+            
+            <pb xml:id="leaf001v" facs="uva_jc.00113.jpg" type="verso"/>
+           </div1>
+        </body>
+    </text>
+</TEI>

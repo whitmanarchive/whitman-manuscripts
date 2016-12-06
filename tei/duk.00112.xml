@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00112">
+       <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main" rend="bracketed">Books, as now produced</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="jc">Janel Cayer</persName>
+                    <persName xml:id="es">Jeannette Schollaert</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>duk.00112</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">Based on the handwriting, Edward Grier dates this manuscript to the 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 4:1594). Grier also indicates that Richard Maurice Bucke, one of Whitman's literary executors, printed this manuscript along with several others "with a note that they were intended for an unpublished essay" (4:1603). This manuscript is pasted down, so an image of the verso is unavailable.</note>             
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>"[Notes on Literature] (in Frey)"</title>                  
+                    <idno type="callno">II-5B 102</idno>
+                    <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &#038; Manuscript Library, Duke University</orgName>
+                    <note type="project">Transcribed from digital images of the original.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+            <change when="2016-03-28" who="#nhg">checked, corrected</change>
+            <change when="2016-02-16" who="#km">checked</change>
+            <change when="2016-02-15" who="#km">moved transcription of second leaf to a separate file (duk.00891.xml)</change>
+            <change when="2016-02-09" who="#es">checked, added brackets to title, added lasso on leaf001r, added milestone, changed "are" on leaf002r to "arc"</change>
+            <change when="2014-09-30" who="#jc">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="manuscript">
+        <body>
+            <pb xml:id="leaf001r" facs="duk.00112.001.jpg" type="recto"/>
+            
+            <transpose anchored="1" target="#t1"><p>Books, as now produced, have reached their twentieth remove from verities.</p></transpose>
+            
+            <delSpan rend="hashmark" spanTo="#a01"/><p><del rend="overstrike">We have to state that</del> <del rend="overstrike">the superfine</del> <del rend="overstrike">an</del> <del rend="overstrike">in any</del> Literature in <subst><del rend="overstrike" seq="1">any</del> <add rend="unmarked" place="supralinear" seq="2">its</add></subst> profound relations, has to do with with thoughts, <del rend="overstrike">th<unclear reason="illegible" cert="low" resp="#km">ou</unclear></del> men, things, &#038;c. at first hand</p><anchor xml:id="a01"/>
+            
+            <milestone unit="undeclared" rend="horbar-short-left"/>
+            
+            <p><del rend="overstrike">Most people,</del> <del rend="overstrike">when they speak <del rend="overstrike">of</del> or write or write of Literature, mean merely <hi rend="underline">Literary</hi> Literature.</del> <anchor xml:id="t1"/><subst><del rend="overstrike" seq="1">Most people</del> <add rend="unmarked" place="supralinear" seq="2">Our writers</add></subst> have apparently forgotten that there is any thing <add rend="insertion" place="supralinear">to be aimed <del rend="overstrike">at</del> at, <del rend="overstrike">further</del> except</add> <del rend="overstrike">but</del> <hi rend="underline">Literary</hi> Literature. But in its profound relations <add rend="lasso" place="supralinear">in its origin in great minds</add> this great medium &#038; institute has only to do with thoughts, men, things, &#038; even the Soul, at first hand. <del rend="overstrike">Its special</del> <del rend="overstrike">pro</del> <del rend="overstrike">ful</del> <del rend="overstrike">furnishes <del rend="overstrike">&#038;</del> the instruments</del> &#038; <del rend="overstrike">teaches them</del> <del rend="erasure">&#9756; opposite page</del></p>
+            
+            <!-- no verso image -->
+            
+        </body>
+    </text>
+</TEI>
