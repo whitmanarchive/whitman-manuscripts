@@ -1,0 +1,23 @@
+development:
+  solr_core: api_whitman
+  tei_xsl: projects/whitman-marginalia/scripts/solr_transform_tei.xsl
+  xsl_params:
+    fig_location:
+    file_location:
+    figures: false
+    fw: false
+    pb: false
+    project: whitman-marginalia
+    slug: whitman-marginalia
+production:
+  solr_path: http://server.unl.edu:port/path/
+  solr_core: whitman
+  tei_xsl: projects/whitman-marginalia/scripts/solr_transform_tei.xsl
+  xsl_params:
+    fig_location:
+    file_location:
+    figures: false
+    fw: false
+    pb: false
+    project: whitman-marginalia
+    slug: whitman-marginalia
