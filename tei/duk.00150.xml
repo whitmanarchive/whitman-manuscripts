@@ -2,6 +2,9 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00150">
+<relations>
+<work ref="xxx.01039"/>
+</relations> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,6 +19,7 @@
                     <persName xml:id="es">Jeannette Schollaert</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -41,14 +45,14 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">This manuscript appears to be a draft of a piece of journalism, although it is not known if the piece was ever published. While Whitman wrote journalistic pieces throughout his life, Edward Grier and other scholars suggest that this manuscript was probably written sometime in the late 1840s or early 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:88).</note>             
+                <note type="project" target="#dat1">This manuscript appears to be a draft piece of journalism, although it is not known if it was ever published. While Whitman wrote journalistic pieces throughout his life, the handwriting, ink, and paper are most consistent with manuscripts known to have been written before the first appearance of <hi rend="italic">Leaves of Grass</hi> in 1855. Edward Grier details some of the reasons for beilieving the manuscript to date to between 1841 and 1862 in <hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> (New York: New York University Press, 1984), 1:88.</note>             
             </notesStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Wants (Autograph MS, draft portions of an essay on labor advertisements)</title>                  
                     <idno type="callno">RL.01378, MS 2o 43</idno>
-                    <date xml:id="dat1" notBefore="1845" notAfter="1862" cert="low">Between 1845 and 1855</date>
+                    <date xml:id="dat1" notBefore="1841" notAfter="1862" cert="low">Between 1841 and 1862</date>
                     <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
@@ -62,6 +66,7 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
+            <change when="2016-11-09" who="#bb">reconciled with EAD record</change> 
             <change when="2016-10-10" who="#nhg">checked, corrected</change> 
             <change when="2016-08-09" who="#km">checked</change>
             <change when="2016-02-09" who="#es">checked, underlined title, handful of spelling corrections, changed add insertion to add lasso on leaf004r and leaf006r, completed pb info, added milestones, added reasons for gaps on leaf007r, added seq to subst on leaf006r</change>

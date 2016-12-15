@@ -65,7 +65,7 @@
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>I cross'd the Nevadas</title>
-                    <date xml:id="dat1" cert="high" when="1865">1865</date>
+                    <date xml:id="dat1" cert="medium" notBefore="1860" notAfter="1865">About 1865</date>
                     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and
                         Manuscript Library</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
@@ -77,6 +77,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2016-12-07" who="#nhg">adjusted date to match EAD entry</change>
             <change when="2016-07-26" who="#nhg">proofed</change>
             <change when="2016-01-14" who="#bb">updated list of staff in titleStmt</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>

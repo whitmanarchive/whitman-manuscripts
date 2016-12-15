@@ -2,6 +2,9 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00556">
+    <relations>
+        <work ref="xxx.01144"><p><ref type="text" xml:id="r01" target="#q01">One of the names referenced on the verso</ref>, "Covert," next to which Whitman writes "the villain," appears as a villainous character in Whitman's short story "Revenge and Requital" (1845), and is also mentioned in an early notebook (see "a schoolmaster" [loc.04588]).</p></work>
+    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -62,6 +65,7 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
+            <change when="2016-12-15" who="#km">added work relations info for "Revenge and Requital"</change>
             <change when="2016-12-01" who="#nhg">corrected</change>
             <change when="2016-09-14" who="#nhg">checked, corrected</change>
             <change when="2016-08-25" who="#km">checked</change>
@@ -183,7 +187,7 @@
             
             <ab>Moved to Cranberry st. (opposite the church,) in '24</ab>
             
-            <ab>" " Johnson st. May 1st 1825.&#8212;(Covert, the villain</ab>
+            <ab>" " Johnson st. May 1st 1825.&#8212;<seg xml:id="q01">(Covert, the villain</seg></ab>
             
             <ab>" Across the way, (Van Dyke's) were there 4th July 1826</ab>
             

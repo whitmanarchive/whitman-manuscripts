@@ -6,7 +6,7 @@
 <work ref="xxx.00526">
 <p>Two of the sentences from this manuscript&#8212;those beginning "The greatest poet..." and "The soul has that measureless pride..."&#8212;were used in the Preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi>.</p>
 </work>
-    <work ref="xxx.00232"><p>The sentence that begins "The soul has that measureless pride..." in addition to being used in the 1855 Preface, would later become part of the poem "Song of Prudence," which had first appeared in the 1856 edition as "Poem of the Last Explanation of Prudence."</p></work>
+    <work ref="xxx.00232"><p>The sentence that begins "The soul has that measureless pride..." also later become part of the poem "Song of Prudence," first appeared in the 1856 edition as "Poem of the Last Explanation of Prudence."</p></work>
 </relations>
     <teiHeader>
         <fileDesc>
@@ -22,6 +22,7 @@
                     <persName xml:id="es">Jeannette Schollaert</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -53,7 +54,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Lines from this manuscript were used in the Preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. The sentence that begins "The soul has that measureless pride..." in addition to being used in the 1855 Preface, would later become part of the poem "Song of Prudence." Because the manuscript has not been located it is difficult to speculate on the circumstances or date of its composition, but it seems likely that it was written before or early in 1855.</note>             
+                <note type="project" target="#dat1">Lines from this manuscript were used in the Preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. The sentence that begins "The soul has that measureless pride..." also later became part of the poem "Song of Prudence." Because the manuscript has not been located it is difficult to speculate on the circumstances or date of its composition, but it seems likely that it was written before or early in 1855.</note>             
             </notesStmt>
             <sourceDesc>
                 <biblStruct>
@@ -74,12 +75,13 @@
                 <bibl>
                     <author>Walt Whitman</author>
                     <title rend="bracketed">Not to dazzle</title> 
-                    <date xml:id="dat1" notBefore="1845" notAfter="1855" cert="medium">Before or early in 1855</date>
+                    <date xml:id="dat1" notBefore="1850" notAfter="1855" cert="medium">Before or early in 1855</date>
                     <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2016-07-13" who="#bb">reconciled with EAD record</change>
             <change when="2016-07-13" who="#nhg">checked, corrected</change>
             <change when="2016-05-23" who="#km">checked</change>
             <change when="2016-02-16" who="#es">checked, added date to bibl (from finding aid information), corrected typo</change>
