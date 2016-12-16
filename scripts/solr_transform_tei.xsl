@@ -62,13 +62,13 @@
 
   <xsl:template name="subCategory">
     <field name="subCategory">
-      <xsl:text>marginalia</xsl:text>
+      <xsl:text>transcriptions</xsl:text>
     </field>
   </xsl:template>
 
   <!-- ============= Date and Date Display ============= -->
 
-  <xsl:template name="date">
+  <!--<xsl:template name="date">
     <field name="dateDisplay">
       <xsl:value-of select="//sourceDesc/bibl/date"/>
     </field>
@@ -82,7 +82,7 @@
         </xsl:otherwise>
       </xsl:choose>
     </field>
-  </xsl:template>
+  </xsl:template>-->
 
   <!-- ============= Custom (Other) Fields ============= -->
 
