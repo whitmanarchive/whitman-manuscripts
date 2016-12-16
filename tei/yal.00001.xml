@@ -52,15 +52,15 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">This manuscript is a late draft of "With Husky-Haughty Lips, O Sea!" which was
+                <note type="project" target="#dat1">This manuscript is a late draft of "With Husky-Haughty Lips, O Sea!," which was
                     published first in <hi rend="italic">Harper's Monthly</hi> in <date when="1884-03">March 1884</date>. The manuscript was probably written in late
-                        <date when="1883">1883</date>, shortly before the poem was published.</note>
+                    <date when="1883">1883</date> or early <date when="1884">1884</date>, shortly before the poem was published.</note>
             </notesStmt>
             <sourceDesc>
                 <bibl>
                     <author> Walt Whitman </author>
                     <title>With Husky-Haughty Lips, O Sea!</title>
-                    <date xml:id="dat1" cert="high" when="1883">Late 1883</date>
+                    <date xml:id="dat1" cert="high" notBefore="1883" notAfter="1884">Late 1883 or early 1884</date>
                     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and
                         Manuscript Library</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
@@ -73,6 +73,7 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
+            <change when="2016-12-07" who="#nhg">adjusted date to match EAD entry</change>
             <change when="2016-09-26" who="#nhg">proofed</change>
             <change when="2016-01-14" who="#bb">updated list of staff in titleStmt</change>
             <change when="2015-05-26" who="#nhg">checked, corrected</change>

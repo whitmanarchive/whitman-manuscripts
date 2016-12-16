@@ -2,6 +2,9 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00741">
+  <relations>
+    <work ref="xxx.00526"><p>The two sentences of this manuscript appeared in slightly different forms in the prose preface to the 1855 first edition of <hi rend="italic">Leaves of Grass.</hi></p></work>
+  </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,6 +19,7 @@
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -47,7 +51,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Because the manuscript has not been located it is difficult to speculate on the circumstances or date of its composition, but Edward Grier dates it to the 1850s.</note>             
+                <note type="project" target="#dat1">The content of this manuscript, which is known only from a transcription published by Richard Maurice Bucke in <hi rend="italic">Notes and Fragments</hi> (London, Ontario: A. Talbot &amp; Co., printers, 1899), 103, appeared in slightly revised form in the prose preface to the 1855 first edition of <hi rend="italic">Leaves of Grass.</hi> The date of composition is therefore most probably the early 1850s.</note>             
             </notesStmt>
             <sourceDesc>
                 <biblStruct>
@@ -69,12 +73,13 @@
                 <bibl>
                     <author>Walt Whitman</author>
                     <title rend="bracketed">Why need genius</title>                  
-                    <date xml:id="dat1" notBefore="1850" notAfter="1860" cert="low">1850s</date>
+                    <date xml:id="dat1" notBefore="1850" notAfter="1855" cert="low">about 1855</date>
                     <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2016-12-08" who="#bb">reconciled with EAD record; added Work ID</change>
             <change when="2016-09-08" who="#nhg">proofed</change>
             <change when="2016-08-16" who="#km">checked</change>
             <change when="2015-02-14" who="#jc">checked</change>

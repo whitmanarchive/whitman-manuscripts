@@ -20,7 +20,9 @@
                     <persName xml:id="kc">Kirsten Clawson</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -45,7 +47,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">This prose manuscript includes a line similar to one from the poem that would eventually be titled "Song of Myself." Whitman writes that "The noble soul steadily rejects any liberty or privilege or wealth that is not open on the same terms to every other man and every other woman..." Compare this to the line from the first poem in the 1855 edition of <hi rend="italic">Leaves</hi>: "By God! I will accept nothing which all cannot have their counterpart of on the same terms." This indicates a date before 1855.</note>             
+                <note type="project" target="#dat1">This prose manuscript includes a line similar to one from the poem that would eventually be titled "Song of Myself." Whitman writes that "The noble soul steadily rejects any liberty or privilege or wealth that is not open on the same terms to every other man and every other woman..." Compare this to the line from the first poem in the 1855 edition of <hi rend="italic">Leaves</hi>: "By God! I will accept nothing which all cannot have their counterpart of on the same terms." This indicates a date in or before 1855.</note>             
             </notesStmt>
             <sourceDesc>
              
@@ -53,7 +55,7 @@
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Song of Myself (Autograph MS, draft portions)</title>
-                    <date xml:id="dat1" cert="medium" notBefore="1845" notAfter="1855">Before 1855</date>
+                    <date xml:id="dat1" cert="medium" notBefore="1845" notAfter="1855">1855 or before</date>
                     <idno type="callno">MS 4to 6</idno>
                     <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
                     <relatedItem type="text" xml:id="rel01" target="duk.00261"/>
@@ -63,7 +65,9 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+        <revisionDesc>
+            <change when="2016-12-06" who="#bb">reconciled with EAD record</change>
+            <change when="2016-05-18" who="#kmp">blessed</change>
             <change when="2016-05-04" who="#nhg">checked, corrected</change>
             <change when="2016-04-18" who="#km">checked</change>
             <change when="2014-10-28" who="#nhg">added image names, updated transcription, checked</change>

@@ -2,6 +2,9 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00024">
+    <relations>
+        <work ref="xxx.00149" cert="low"><p>The general sentiment expressed in this manuscript fragment, as well as the reference to "proofs and diagrams," are similar to the poem "When I Heard the Learn'd Astronomer," first published in <hi rend="italic">Drum-Taps</hi> in 1865.</p></work>
+    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +17,9 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="fl">Farrah Lehman</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -40,7 +45,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Edward Grier, drawing from Richard Maurice Bucke's <hi rend="italic">Notes and Fragments</hi> (1899), adds a bracketed conclusion to this prose note: "[We are so proud of our learning! As if it were anything to analyze fluids and call certain parts oxygen or hydrogen, or to map out stars and call . . .]" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:164). 
+                <note type="project" target="#dat1">The general sentiment expressed in this manuscript fragment, as well as the reference to "proofs and diagrams," are similar to the poem "When I Heard the Learn'd Astronomer." Although the poem was not published until its inclusion in <hi rend="italic">Drum-Taps</hi> in 1865, Edward Grier dates the manuscript to "before or early in 1855." Grier, drawing from Richard Maurice Bucke's <hi rend="italic">Notes and Fragments</hi> (1899), also adds a bracketed conclusion to this prose note: "[We are so proud of our learning! As if it were anything to analyze fluids and call certain parts oxygen or hydrogen, or to map out stars and call . . .]" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:164). 
                 </note>
             </notesStmt>
             <sourceDesc>
@@ -53,11 +58,13 @@
                     <note type="project">Transcribed from digital images of the original.</note>
                     <relatedItem type="text" xml:id="rel01" target="nyp.00510"/>
                     <relatedItem type="document" target="wwa.00003"/>
-                    <note target="#rel01" type="project">On the back of this note is a draft fragment containing phrases and poetic lines that were revised and used in different sections of <hi rend="italic">Leaves of Grass</hi>.</note>
+                    <note target="#rel01" type="project">On the back of this note is a draft fragment containing phrases and poetic lines that were revised and used in several sections of the 1855 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+        <revisionDesc>
+            <change when="2016-12-15" who="#km">added work relation reference for "When I Heard the Learn'd Astronomer"</change>
+            <change when="2016-05-18" who="#kmp">blessed</change>
             <change when="2016-02-01" who="#nhg">adjusted relatedItem encoding</change>
             <change who="#nhg" when="2015-12-03">final check</change>
             <change who="#nhg" when="2014-08-27">converted to P5, checked, corrected</change>

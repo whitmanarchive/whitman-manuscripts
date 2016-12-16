@@ -3,7 +3,7 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00735">
     <relations>
-        <work ref="xxx.00115"><p>Two phrases from the second part of this manuscript were used in the "Poem of Joys," first published in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>: "The memory of only one look&#8212;the boy lingering and waiting" (1860, p. 261). The poem was retitled "Poems of Joy" in the 1867 edition, where these lines still remain. In the 1871 edition Whitman removed the poem completely, and in the 1881 edition he added the poem back (retitled "A Song of Joys") but the stanza where these lines occur was removed.</p></work>
+        <work ref="xxx.00115"><p>The last two phrases of this manuscript were used in the "Poem of Joys," first published in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>: "The memory of only one look&#8212;the boy lingering and waiting" (p. 261). The poem was retitled "Poems of Joy" in the 1867 edition. In 1871, when the poem appeared in the volume <hi rend="italic">Passage to India</hi>, this line had been deleted and the original title restored. Some copies of the 1871&#8211;1872 edition of <hi rend="italic">Leaves of Grass</hi> include the sheets from that volume. In subsequent editions, the poem was retitled "A Song of Joys."</p></work>
     </relations>
     <teiHeader>
         <fileDesc>
@@ -19,6 +19,7 @@
                     <persName xml:id="es">Jeannette Schollaert</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -71,12 +72,13 @@
                 <bibl>
                     <author>Walt Whitman</author>
                     <title rend="bracketed">Poem of the Universalities</title>  
-                    <date xml:id="dat1" notBefore="1850" notAfter="1860" cert="low">Between 1850 and 1860</date>
+                    <date xml:id="dat1" notBefore="1850" notAfter="1860" cert="low">About 1860</date>
                     <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2016-12-07" who="#bb">reconciled with EAD record</change>
             <change when="2016-07-14" who="#nhg">checked, corrected</change>
             <change when="2016-05-24" who="#km">checked</change>
             <change when="2016-02-16" who="#es">checked, added date to bibl (from finding aid information), added reason to gap</change>
