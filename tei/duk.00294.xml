@@ -2,7 +2,12 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00294">
-	<teiHeader>
+    <relations>
+        <work ref="xxx.00116">
+            <p>A leaf made from two manuscript scraps glued together. The writing on the top scrap appears to be a note about one of Whitman's acquaintances. The bottom scrap contains notes toward "Song of the Broad-Axe," a poem which was first published in <hi rend="italic">Leaves of Grass</hi> 1856 as "Broad-Axe Poem" before appearing under its final title in 1867.</p>
+        </work>
+    </relations>
+    <teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title level="m" type="main" rend="bracketed">Bloom</title>
@@ -17,7 +22,9 @@
 					<persName xml:id="jc">Janel Cayer</persName>
 					<persName xml:id="km">Kevin McMullen</persName>
 					<persName xml:id="nhg">Nicole Gray</persName>
-				<persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+				    <persName xml:id="kmp">Kenneth M. Price</persName>
+				    <persName xml:id="bb">Brett Barney</persName>
+                </respStmt>
 				<sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
 				<sponsor>University of Iowa</sponsor>
 				<funder>The National Endowment for the Humanities</funder>
@@ -42,24 +49,24 @@
 				</availability>
 			</publicationStmt>
 			<notesStmt>
-				<note type="project" target="#dat1">A leaf made from two manuscript scraps glued together. The writing on the top scrap appears to be a note about one of Whitman's acquaintances. The bottom scrap contains notes toward "Song of the Broad-Axe," a poem which was first published in <hi rend="italic">Leaves of Grass</hi> 1856 as "Broad-Axe Poem." This suggests a date before 1856. For speculation as to the identity of "Bloom," see Edward Grier, <hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> (New York: New York University Press, 1984), 1:201. This transcription represents only the top scrap of this leaf.</note>             
+				<note type="project" target="#dat1">A leaf made from two manuscript scraps glued together. The bottom scrap contains notes toward "Song of the Broad-Axe," which was first published in <hi rend="italic">Leaves of Grass</hi> 1856 as "Broad-Axe Poem." The writing on the top scrap, which describes one of Whitman's acquaintances, might have informed the description of the "headsman" in that poem. This suggests a date before 1856. For speculation as to the identity of "Bloom," see Edward Grier, <hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> (New York: New York University Press, 1984), 1:201.</note>             
 			</notesStmt>
 			<sourceDesc>
 				
 				<bibl>
 					<author>Walt Whitman</author>
 					<title rend="bracketed">Preliminary Studies for Poems</title>    
-					<date xml:id="dat1" cert="medium" notBefore="1845" notAfter="1856">Before 1856</date>
+					<date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1856">1856 or before</date>
 					<idno type="callno">MS q 32</idno>
 					<orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
-					<relatedItem type="text" xml:id="rel01" target="duk.00893"/>
-					 <relatedItem type="document" target="wwa.00148"/> 
+					<relatedItem type="document" target="wwa.00148"/> 
 					<note type="project">Transcribed from digital images of the original.</note>
-					<note type="project" target="#rel01">A separate manuscript, seemingly unrelated, is attached with glue.</note>
 				</bibl>
 			</sourceDesc>
 		</fileDesc>
-		<revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+		<revisionDesc>
+            <change when="2016-12-15" who="#bb">recombined transcription of the two scraps; reconciled with EAD record</change>
+            <change when="2016-05-18" who="#kmp">blessed</change>
 			<change when="2016-04-18" who="#nhg">checked, corrected</change>
 			<change when="2016-04-01" who="#km">checked; moved transcription for second "div" (second scrap that forms the recto) to a new xml file (duk.00893)</change>
 			<change when="2015-04-10" who="#jc">checked; revised repository information in header and values @facs</change>
@@ -78,6 +85,13 @@
 
 	<pb xml:id="leaf001v" facs="duk_am.00248.jpg" type="verso"/>
 
+<delSpan rend="hashmark" spanTo="#d1"/>
+    <ab>&#8212;The Broad-axe&#8212;the axe of the headsman</ab>
+            
+    <span rend="bracket-right" xml:id="s1" from="#s1" to="#s2"/>
+    <p>First as the axe of the headsman&#8212;and what was done with it for a thousand years&#8212;then as the carpenter's broad-axe, and what is done with that now</p>
+    <anchor xml:id="s2"/>
+    <anchor xml:id="d1"/>
 </body>
 </text>
 </TEI>

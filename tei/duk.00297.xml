@@ -4,7 +4,7 @@
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00297">
 	<relations>
 		<work ref="xxx.00048">
-			<p>This prose fragment extolls the virtues of outdoor living and the appeal of physical laborers who work outdoors. Similar ideas are found throughout <hi rend="italic">Leaves of Grass</hi>. The reference to clamdiggers in this scrap may anticipate a line in the poem that would eventually be titled "Song of Myself": "The boatmen and clamdiggers arose early and stopped for me, / I tucked my trowser-ends in my boots and went and had a good time" (<hi rend="italic">Leaves of Grass</hi> [Brooklyn, NY: 1855], 18).</p>
+			<p>This prose fragment extols the virtues of outdoor living and the appeal of physical laborers who work outdoors. Similar ideas are found throughout <hi rend="italic">Leaves of Grass</hi>. The reference to clamdiggers in this scrap may anticipate a line in the poem that was eventually titled "Song of Myself": "The boatmen and clamdiggers arose early and stopped for me, / I tucked my trowser-ends in my boots and went and had a good time" (<hi rend="italic">Leaves of Grass</hi> [Brooklyn, NY: 1855], 18).</p>
 		</work>
 	</relations>
 	<teiHeader>
@@ -22,7 +22,9 @@
 					<persName xml:id="jc">Janel Cayer</persName>
 					<persName xml:id="km">Kevin McMullen</persName>
 					<persName xml:id="nhg">Nicole Gray</persName>
-				<persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+				    <persName xml:id="kmp">Kenneth M. Price</persName>
+				    <persName xml:id="bb">Brett Barney</persName>
+                </respStmt>
 				<sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
 				<sponsor>University of Iowa</sponsor>
 				<funder>The National Endowment for the Humanities</funder>
@@ -54,7 +56,7 @@
 				<bibl>
 					<author>Walt Whitman</author>
 					<title rend="bracketed">Preliminary Studies for Poems</title>
-					<date xml:id="dat1" cert="medium" notBefore="1845" notAfter="1855">Before or early in 1855</date>
+					<date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Before or early in 1855</date>
 					<idno type="callno">MS q 32</idno>
 					<orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
 					<note type="project">Transcribed from digital images of the original.</note>
@@ -70,7 +72,7 @@
 						<imprint><pubPlace>New York</pubPlace>
 							<publisher>New York University Press</publisher>
 							<date when="1984">1984</date>
-							<biblScope type="page">169-170</biblScope>
+							<biblScope type="page">169&#8211;170</biblScope>
 						</imprint></monogr>
 				</biblStruct>
 			</sourceDesc>
@@ -81,7 +83,9 @@
 				<handNote xml:id="h2" scribeRef="#ww" medium="pencil"/>
 			</handNotes>
 		</profileDesc>
-		<revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+		<revisionDesc>
+            <change when="2016-12-16" who="#bb">reconciled with EAD record</change>
+            <change when="2016-05-18" who="#kmp">blessed</change>
 			<change when="2016-05-03" who="#nhg">checked, corrected</change>
 			<change when="2016-04-05" who="#km">checked</change>
 			<change when="2015-01-25" who="#jc">checked</change>
