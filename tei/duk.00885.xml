@@ -2,6 +2,9 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00885">
+   <relations>
+      <work ref="xxx.01043"/>
+   </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,7 +23,9 @@
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -45,7 +50,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Edward Grier says that the writing on this manuscript "suggests a date in the 1840s or 1850s." He also notes that this manuscript did not contribute to the editorial entitled "Municipal Government" that appeared in the Brooklyn <hi rend="italic">Daily Times</hi> on December 1, 1858 (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:345).</note>             
+                <note type="project" target="#dat1">Based on the handwriting, Edward Grier dates this manuscript to the 1840s or 1850s. He also notes that this manuscript did not contribute to the editorial entitled "Municipal Government" that appeared in the Brooklyn <hi rend="italic">Daily Times</hi> on December 1, 1858 (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:345).</note>             
             </notesStmt>
             <sourceDesc>
                 
@@ -62,7 +67,9 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+        <revisionDesc>
+            <change when="2016-01-31" who="#bb">reconciled with EAD record</change>
+            <change when="2016-05-18" who="#kmp">blessed</change>
             <change when="2016-05-06" who="#nhg">checked, corrected</change>
             <change when="2016-04-19" who="#km">checked</change>
             <change when="2016-01-13" who="#nhg">created new file for prose side of document, added relatedItem</change>

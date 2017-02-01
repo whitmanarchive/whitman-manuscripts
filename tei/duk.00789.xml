@@ -4,7 +4,7 @@
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00789">
    <relations>
       <work ref="xxx.00411">
-         <p>This scrap of prose includes a line that would appear in a poem in the 1856 and 1860 editions of <hi rend="italic">Leaves of Grass</hi>. The line, "Which is the poem or any book that is not diseased?" appeared in a slightly altered form in "Poem of Many in One" in 1856 and in Section 1 of "Chants Democratic and Native American" in 1860. Although the poem would remain in <hi rend="italic">Leaves</hi> in various forms until the final edition, the line was dropped after 1860.</p>
+         <p>This prose manuscript contains the line "Which is the poem or any book that is not diseased?" which appeared in a slightly altered form in "Poem of Many in One" in 1856. The poem, eventually titled "By Blue Ontario's Shore, was retained through subsequent editions of <hi rend="italic">Leaves</hi>, although the line was dropped after 1860&#8211;1861.</p>
       </work>
    </relations>
    <teiHeader>
@@ -20,7 +20,9 @@
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="kc">Kirsten Clawson</persName>
                <persName xml:id="km">Kevin McMullen</persName>
-            <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+               <persName xml:id="kmp">Kenneth M. Price</persName>
+               <persName xml:id="bb">Brett Barney</persName>
+            </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -45,20 +47,22 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note type="project" target="#dat1">This scrap of prose includes a line that would appear in a poem in the 1856 and 1860 editions of <hi rend="italic">Leaves of Grass</hi>. The line, "Which is the poem or any book that is not diseased?" appeared in a slightly altered form in "Poem of Many in One" in 1856 and in Section 1 of "Chants Democratic and Native American" in 1860. Although the poem would remain in <hi rend="italic">Leaves</hi> in various forms until the final edition, the line was dropped after 1860. An image of the verso is currently unavailable.</note>
+            <note type="project" target="#dat1">This prose manuscript contains the line "Which is the poem or any book that is not diseased?" which appeared in a slightly altered form in "Poem of Many in One" in 1856. The poem, eventually titled "By Blue Ontario's Shore, was retained through subsequent editions of <hi rend="italic">Leaves</hi>, although the line was dropped after 1860&#8211;1861.</note>
          </notesStmt>
          <sourceDesc>
             <bibl>
                <author>Walt Whitman</author>
                <title rend="bracketed">On Poetry</title>
-               <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1856">1856 or earlier</date>
+               <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1856">Before or during 1856</date>
                <idno type="callno">MS 68</idno>
                <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &#038; Manuscript Library, Duke University</orgName>
                <note type="project">Transcribed from digital images of the original.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+      <revisionDesc>
+         <change when="2017-01-25" who="#bb">revised date note; reconciled with EAD record</change>
+         <change when="2016-05-18" who="#kmp">blessed</change>
          <change who="#nhg" when="2016-05-04">checked, corrected</change>
          <change who="#km" when="2016-04-11">checked</change>
          <change who="#nhg" when="2014-11-07">checked, corrected</change>

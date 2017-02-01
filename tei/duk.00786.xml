@@ -4,7 +4,7 @@
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00786">
     <relations>
         <work ref="xxx.00480">
-            <p>These notes would later be used as the basis for an article entitled "New Orleans in 1848" that appeared in the <hi rend="italic">New Orleans Picayune</hi> on January 25, 1887. The article would later be reprinted in <hi rend="italic">November Boughs</hi>.</p>
+            <p>These notes were used as the basis for an article entitled "New Orleans in 1848" that appeared in the <hi rend="italic">New Orleans Picayune</hi> on January 25, 1887. The article was later reprinted in <hi rend="italic">November Boughs</hi>.</p>
         </work>
     </relations>
     <teiHeader>
@@ -19,7 +19,9 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -44,7 +46,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">This manuscript page consists of notes from Whitman's trip to New Orleans in 1848. This portion of the notes describes the trip across the Great Lakes and into Buffalo and Albany, New York. The notes would later be used as the basis for an article entitled "New Orleans in 1848" that appeared in the <hi rend="italic">New Orleans Picayune</hi> on January 25, 1887. The article would later be reprinted in <hi rend="italic">November Boughs</hi>. On the verso are manuscript notes about Whitman's family history, likely written in the mid-1850s.</note>             
+                <note type="project" target="#dat1">This manuscript page consists of notes from Whitman's return trip from New Orleans in 1848. This page of notes, numbered "2," describes the journey across Lake Erie; Whitman's visits to Buffalo, Albany, and Niagara Falls, and his arrival at Brooklyn. The notes were later used as the basis for an article entitled "New Orleans in 1848" that appeared in the <hi rend="italic">New Orleans Picayune</hi> on January 25, 1887. The article would later be reprinted in <hi rend="italic">November Boughs</hi>. On the verso are manuscript notes about Whitman's family history, likely written in the mid-1850s.</note>             
             </notesStmt>
             <sourceDesc>
                 
@@ -66,7 +68,9 @@
                 <handNote xml:id="h4" scribeRef="#ww" medium="pencil"/>
             </handNotes>
         </profileDesc>
-        <revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+        <revisionDesc>
+            <change when="2017-01-17" who="#bb">reconciled with EAD record</change>
+            <change when="2016-05-18" who="#kmp">blessed</change>
             <change when="2016-05-04" who="#nhg">checked, corrected</change>
             <change when="2016-04-12" who="#km">transcribed and encoded</change>
         </revisionDesc>

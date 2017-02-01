@@ -4,10 +4,7 @@
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00790">
    <relations>
       <work ref="xxx.00480">
-         <p>Brief portions of these notes appeared in an article entitled "New Orleans in 1848" that appeared in the New Orleans <hi rend="italic">Picayune</hi> on January 25, 1887. It would later be reprinted in <hi rend="italic">November Boughs</hi>. The description of the "[l]ong monotonous stretch of the Mississippi" and the "[p]ainful effect of the excessive flatness of the country" were the portions that appeared, in an altered form, in the article.</p>
-      </work>
-      <work ref="xxx.00460">
-         <p>"New Orleans in 1848" was later reprinted in <hi rend="italic">November Boughs</hi>.</p>
+         <p>The descriptions in this manuscript of the "[l]ong monotonous stretch of the Mississippi" and the "[p]ainful effect of the excessive flatness of the country" found their way, in an altered form, into "New Orleans in 1848," an article that appeared in the <hi rend="italic">New Orleans Picayune</hi> on January 25, 1887. It was later reprinted in <hi rend="italic">November Boughs</hi>.</p>
       </work>
    </relations>
    <teiHeader>
@@ -23,7 +20,9 @@
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="kc">Kirsten Clawson</persName>
                <persName xml:id="jc">Janel Cayer</persName>
-            <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+               <persName xml:id="kmp">Kenneth M. Price</persName>
+               <persName xml:id="bb">Brett Barney</persName>
+            </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -48,7 +47,7 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note type="project" target="#dat1">This manuscript deals with Whitman's return journey from New Orleans in 1848. Brief portions of these notes would find their way into an article entitled "New Orleans in 1848" that appeared in the New Orleans <hi rend="italic">Picayune</hi> on January 25, 1887. It would later be reprinted in <hi rend="italic">November Boughs</hi>. The description of the "[l]ong monotonous stretch of the Mississippi" and the "[p]ainful effect of the excessive flatness of the country" were the portions that appeared, in an altered form, in the article.</note>
+            <note type="project" target="#dat1">This manuscript chronicles part of Whitman's return journey from New Orleans in 1848. The descriptions in this manuscript of the "[l]ong monotonous stretch of the Mississippi" and the "[p]ainful effect of the excessive flatness of the country" found their way, in an altered form, into "New Orleans in 1848," an article that appeared in the <hi rend="italic">New Orleans Picayune</hi> on January 25, 1887. It was later reprinted in <hi rend="italic">November Boughs</hi>.</note>
          </notesStmt>
          <sourceDesc>
             <bibl>
@@ -66,7 +65,9 @@
             <handNote xml:id="unk"><persName key="Unknown">Unknown</persName></handNote>
          </handNotes>
       </profileDesc>
-      <revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+      <revisionDesc>
+         <change when="2017-01-25" who="#bb">revised work and date notes; reconciled with EAD record</change>
+         <change when="2016-05-18" who="#kmp">blessed</change>
          <change who="#nhg" when="2015-12-03">final check</change>
          <change who="#jc" when="2015-04-23">checked</change>
          <change who="#nhg" when="2014-09-09">checked, corrected</change>

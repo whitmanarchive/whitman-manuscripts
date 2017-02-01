@@ -2,6 +2,9 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00698">
+   <relations>
+      <work ref="xxx.01022"/>
+   </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,7 +19,9 @@
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -41,20 +46,22 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Edward Grier notes that the handwriting suggests a date in the 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:16). At the repository this manuscript is bound with three other manuscript leaves and two newspaper clippings, also about members of Whitman's family. It is not clear, however, whether Whitman or a collector bound together the items, which are on different sizes and types of paper and were written at different times.</note>             
+                <note type="project" target="#dat1">Edward Grier believed that "the writing suggests the 1850s" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:16). He provided no specific support for this claim, however, and the writing is similar to that of many of Whitman's other hastily composed manuscripts from the mid-1850s through the 1870s. At the repository this manuscript is bound with three other manuscript leaves and two newspaper clippings, also about members of Whitman's family. It is not clear, however, whether Whitman or a collector bound the items, which are on different sizes and types of paper and appear to have been written at different times.</note>             
             </notesStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title rend="bracketed">Isaac Joseph Stephen Jesse (my grandfather)...</title>
-                    <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1860">1850s</date>
+                    <date xml:id="dat1" cert="medium" notBefore="1855" notAfter="1879">between 1855 and 1879</date>
                     <idno type="callno">MS 120</idno>
                     <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+        <revisionDesc>
+            <change when="2017-01-25" who="#bb">revised date and date note</change>
+            <change when="2016-05-18" who="#kmp">blessed</change>
             <change when="2016-05-04" who="#nhg">checked, corrected</change>
             <change when="2016-04-11" who="#km">checked</change>
             <change when="2014-12-31" who="#jc">updated header and checked transcription</change>

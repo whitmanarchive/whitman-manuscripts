@@ -74,6 +74,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2017-01-26" who="#nhg">corrected</change>
             <change when="2016-09-26" who="#nhg">corrected</change>
             <change when="2016-01-29" who="#nhg">divided text into separate files, corrected</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
@@ -97,7 +98,7 @@
                 <l>Are the prostitutes nothing? Are the
                     <lb/>mockers of religion nothing?
                 </l>
-                <note place="left" type="authorial">?</note>
+                <note place="left" type="authorial" target="#s1">?</note>
                 <span xml:id="s1" rend="bracketed" from="s1" to="s2"/>
                 <del rend="overstrike"><l>
                         Does the light or heat pick out? Does
@@ -105,8 +106,8 @@
                     <lb/>the attraction <add place="supralinear" rend="unmarked">o</add> of <add place="supralinear" rend="insertion">gravity</add> pick out?
                     
                 </l></del>
-                <anchor xml:id="d2"/>
                 <anchor xml:id="s2"/>
+                <anchor xml:id="d2"/>
                 <milestone unit="undeclared" rend="horbar-full"/>
             </lg></div1>
             <div1 type="poemNotes">

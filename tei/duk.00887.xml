@@ -2,6 +2,9 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00887">
+   <relations>
+      <work ref="xxx.01226"/>
+   </relations>
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -20,6 +23,7 @@
           <persName xml:id="jc">Janel Cayer</persName>
           <persName xml:id="nhg">Nicole Gray</persName>
           <persName xml:id="km">Kevin McMullen</persName>
+          <persName xml:id="bb">Brett Barney</persName>
         </respStmt>
         <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
         <sponsor>University of Iowa</sponsor>
@@ -63,6 +67,7 @@
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
+      <change when="2017-01-31" who="#bb">reconciled with EAD record</change>
       <change when="2016-12-01" who="#nhg">corrected</change>
       <change when="2016-08-30" who="#nhg">checked, corrected</change>
       <change when="2016-07-26" who="#km">checked</change>

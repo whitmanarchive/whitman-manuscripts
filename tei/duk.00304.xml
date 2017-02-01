@@ -3,8 +3,8 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00304">
 	<relations>
-		<work ref="xxx.00048">
-			<p>Notes, or possibly trial lines, expressing the idea that the highest beauty is found in what is "cheapest" and "commonest," possibly connected to the following line in the first poem of the 1855 <hi rend="italic">Leaves of Grass</hi> (section 14 in the deathbed version of "Song of Myself"): "What is commonest and cheapest and nearest and easiest is Me."</p>
+		<work ref="xxx.00048" cert="high">
+			<p>Notes, or possibly trial lines, expressing the idea that the highest beauty is found in what is "cheapest" and "commonest," probably connected to the following line in the first poem of the 1855 <hi rend="italic">Leaves of Grass,</hi> later titled "Song of Myself": "What is commonest and cheapest and nearest and easiest is Me."</p>
 		</work>
 	</relations>
 	<teiHeader>
@@ -22,7 +22,9 @@
 					<persName xml:id="jc">Janel Cayer</persName>
 					<persName xml:id="km">Kevin McMullen</persName>
 					<persName xml:id="nhg">Nicole Gray</persName>
-				<persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+				    <persName xml:id="kmp">Kenneth M. Price</persName>
+				    <persName xml:id="bb">Brett Barney</persName>
+                </respStmt>
 				<sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
 				<sponsor>University of Iowa</sponsor>
 				<funder>The National Endowment for the Humanities</funder>
@@ -47,21 +49,23 @@
 				</availability>
 			</publicationStmt>
 			<notesStmt>
-				<note type="project" target="#dat1">These notes, or possibly trial lines, expressing the idea that beauty is found in what is "cheapest" and "commonest," possibly connect to a passage in the first poem of the 1855 <hi rend="italic">Leaves of Grass</hi> (section 14 in the deathbed version of "Song of Myself"). This suggests a date before or early in 1855. The manuscript has been pasted to a backing sheet along with three other manuscript scraps, most likely by a collector or archivist.</note>             
+				<note type="project" target="#dat1">These notes, or possibly trial lines, expressing the idea that beauty is found in what is "cheapest" and "commonest," are probably connected to the following line in the first poem of the 1855 <hi rend="italic">Leaves of Grass</hi>: "What is commonest and cheapest and nearest and easiest is Me." The poem was ultimately titled "Song of Myself." The date, therefore, is most likely before or early in 1855. The manuscript has been pasted to a backing sheet along with three other manuscript scraps, probably by a collector or archivist.</note>             
 			</notesStmt>
 			<sourceDesc>
 				
 				<bibl>
 					<author>Walt Whitman</author>
 					<title rend="bracketed">Suggestions for Poems</title>
-					<date xml:id="dat1" cert="medium" notBefore="1845" notAfter="1855">Before or early in 1855</date>
+					<date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Before or early in 1855</date>
 					<idno type="callno">MS f 33</idno>
 					<orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &#038; Manuscript Library, Duke University</orgName>
 					<note type="project">Transcribed from digital images of the original.</note>
 				</bibl>
 			</sourceDesc>
 		</fileDesc>
-		<revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+		<revisionDesc>
+            <change when="2016-05-18" who="#bb">reconciled with EAD record</change>
+            <change when="2016-05-18" who="#kmp">blessed</change>
 			<change when="2016-05-04" who="#nhg">checked, corrected</change>
 			<change when="2016-04-11" who="#km">checked</change>
 			<change when="2015-01-18" who="#jc">checked; revised respository information in header</change>

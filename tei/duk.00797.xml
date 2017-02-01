@@ -4,7 +4,7 @@
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00797">
    <relations>
       <work ref="xxx.00048">
-         <p>This manuscript contains lines which would appear in a slightly altered form in what became section 4 of "Song of Myself."</p>
+         <p>The second paragraph of this prose manuscript contains lines which appeared in a slightly altered form in the first poem of the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, which was ultimately titled "Song of Myself."</p>
       </work>
    </relations>
    <teiHeader>
@@ -20,7 +20,9 @@
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="jc">Janel Cayer</persName>
                <persName xml:id="km">Kevin McMullen</persName>
-            <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+               <persName xml:id="kmp">Kenneth M. Price</persName>
+               <persName xml:id="bb">Brett Barney</persName>
+            </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -45,13 +47,13 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note type="project" target="#dat1">This manuscript contains prose writing related to ideas expressed in <hi rend="italic">Leaves of Grass</hi>, as well as lines which would appear in a slightly altered form in what became section 4 of "Song of Myself." Edward Grier dates the manuscript "before or early in 1855" in <hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> (New York: New York University Press, 1984), 1:183.</note>
+            <note type="project" target="#dat1">The second paragraph of this prose manuscript contains lines which appeared in a slightly altered form in the first poem of the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, the poem ultimately titled "Song of Myself." The date must therefore be in or before 1855.</note>
          </notesStmt>
          <sourceDesc>
             <bibl>
                <author>Walt Whitman</author>
                <title rend="bracketed">It is no miracle now</title>
-               <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1860">About 1855</date>
+               <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Early 1855 or before</date>
                <idno type="callno">MS 4to 3</idno>
                <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
                <note type="project">Transcribed from digital images of the original.</note>
@@ -61,7 +63,9 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+      <revisionDesc>
+         <change when="2017-01-30" who="#kmp">reconciled with EAD record</change>
+         <change when="2016-05-18" who="#kmp">blessed</change>
          <change who="#nhg" when="2016-03-01">checked, corrected</change>
          <change who="#km" when="2016-02-09">checked</change>
          <change who="#nhg" when="2014-11-07">checked, corrected</change>

@@ -2,6 +2,11 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00303">
+<relations>
+<work ref="xxx.00526" cert="low">
+<p>This note possibly contributed to a passage in the prose preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi> in which Whitman denounces the "swarms of the polished deprecating" poets.</p>
+</work>
+</relations>
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -17,7 +22,9 @@
 					<persName xml:id="jc">Janel Cayer</persName>
 					<persName xml:id="km">Kevin McMullen</persName>
 					<persName xml:id="nhg">Nicole Gray</persName>
-				<persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+				    <persName xml:id="kmp">Kenneth M. Price</persName>
+				    <persName xml:id="bb">Brett Barney</persName>
+                </respStmt>
 				<sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
 				<sponsor>University of Iowa</sponsor>
 				<funder>The National Endowment for the Humanities</funder>
@@ -42,7 +49,11 @@
 				</availability>
 			</publicationStmt>
 			<notesStmt>
-				<note type="project" target="#dat1">Edward Grier notes that "the writing suggests a date in the 1850s" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 4:1560). The manuscript has been pasted to a backing sheet along with three other manuscript scraps, most likely by a collector or archivist.</note>             
+				<note type="project" target="#dat1">Edward Grier notes that "the writing suggests a date in the 1850s" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 4:1560). The manuscript has been pasted to a backing sheet along with three other manuscript scraps, most likely by a collector or archivist.
+<lb/>
+<lb/>
+This note possibly contributed to a passage in the prose preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi> in which Whitman denounces the "swarms of the polished deprecating" poets.
+</note>             
 			</notesStmt>
 			<sourceDesc>
 				
@@ -56,7 +67,9 @@
 				</bibl>
 			</sourceDesc>
 		</fileDesc>
-		<revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+		<revisionDesc>
+            <change when="2017-01-09" who="#bb">added Work ID; reconciled with EAD record</change>
+            <change when="2016-05-18" who="#kmp">blessed</change>
 			<change when="2016-05-04" who="#nhg">checked, corrected</change>
 			<change when="2016-04-11" who="#km">checked</change>
 			<change when="2015-02-14" who="#jc">checked; revised respository information in header</change>
