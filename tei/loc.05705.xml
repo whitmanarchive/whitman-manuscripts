@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.05705">
+    <relations>
+        <work ref="xxx.00001">
+            <p>Lines from this manuscript were used in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>.</p>
+        </work>
+        <work ref="xxx.00048">
+        <p>The lines were eventually included in what ultimately came to be section 39 of "Song of Myself."</p></work>
+    </relations>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main" rend="bracketed">From the tips of his fingers</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="kc">Kirsten Clawson</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="jc">Janel Cayer</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.05705</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">These cancelled and fragmentary lines were revised and used in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, and a version of them eventually was included in what ultimately came to be section 39 of "Song of Myself." This manuscript was probably written around 1855.</note><!--See also "The genuine miracles of Christ," loc.01019-->             
+            </notesStmt>
+            <sourceDesc>
+
+                
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Free cider and Long Island character</title>                  
+                    <idno type="callno">MSS18630, Box 38</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <note type="project">Transcribed from digital images of the original item.</note>
+                    <relatedItem type="text" target="loc.05704"/>
+                    <relatedItem type="document" target="wwa.00029"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2016-02-01" who="#nhg">adjusted relatedItem encoding</change>
+            <change when="2015-12-03" who="#nhg">final check</change>
+            <change when="2015-04-23" who="#jc">checked</change>
+            <change when="2014-10-27" who="#nhg">checked, corrected</change>
+            <change when="2014-10-16" who="#kc">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="manuscript">
+        <body>
+            <pb xml:id="leaf001r" facs="20060316_0007.jpg" type="recto"/><delSpan rend="hashmark" spanTo="#s01"/>
+            <ab>From the tips of his fingers</ab>
+            <ab>from the breaths of his lungs</ab>
+            <ab>from the sparkle of his eyes,</ab>
+            <ab>from the odor of his body</ab>
+            <ab><gap reason="cut away" quantity="1" unit="chars"/></ab><anchor xml:id="s01"/>
+            <pb xml:id="leaf001v" facs="20060316_0006.jpg" type="verso"/>
+            
+        </body>
+    </text>
+</TEI>
