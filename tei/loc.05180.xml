@@ -18,8 +18,8 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="es">Jeannette Schollaert</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
-<persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -44,14 +44,14 @@
                 </availability>
             </publicationStmt> 
             <notesStmt>
-                <note type="project" target="#dat1">The second paragraph of this manuscript appears, with revisions, in the beginning of the penultimate paragraph of the Preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. Edward Grier dates the manuscript as "after 1857," but the connection to the Preface would suggest that it was probably written before 1855 (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:400). The manuscript is written on the back of a City of Williamsburgh tax form.</note>             
+                <note type="project" target="#dat1">The second paragraph of this manuscript appears, with revisions, in the beginning of the penultimate paragraph of the Preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. Edward Grier dates the manuscript after 1857 because it is written on the reverse of a City of Williamsburgh tax form  (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:400). Scholars, following Fredson Bowers, have generally assumed that Whitman used the Williamsburgh tax forms from 1857 to 1860, while he was working at the <hi rend="italic">Brooklyn Daily Times</hi>. The city of Williamsburgh was incorporated with Brooklyn effective January 1855, so the forms would have been obsolete after that date (<hi rend="italic">Whitman's Manuscripts: Leaves of Grass [1860]</hi> [Chicago: University of Chicago Press, 1955], xli&#8211;xliii). Bowers also notes, however, that "it is not impossible that Whitman had picked up these tax forms for scrap paper at Rome Brothers at some unknown date in 1854 or early 1855, or later" (xliii).  This possibility would seem to be supported by the fact that some of the tax forms Whitman used are dated as early as 1854 (see "<ref target="loc.05354.html">Vast national tracts</ref>"). Grier rightly points out that this may not correspond to the date of Whitman's writing; presumably if Whitman found a stack of obsolete Williamsburgh forms in 1857, some may have been discarded drafts dated earlier (5:1946). The manuscript is thus difficult to date conclusively, but the connection to the Preface and the ambiguity about the forms would suggest that there is a strong chance it was written just before or early in 1855.</note>             
             </notesStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title rend="bracketed">The idea of reconciliation</title>                  
                     <idno type="callno">MSS45443, Box 1, Reel 1</idno>
-                    <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Before or early in 1855</date>
+                    <date xml:id="dat1" cert="medium" notBefore="1854" notAfter="1860">Between 1854 and 1860</date>
                     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
@@ -62,12 +62,12 @@
             <change when="2017-01-25" who="#km">changed wording of composition date in metadata</change>
             <change when="2016-05-18" who="#kmp">blessed</change>
             <change when="2016-05-18" who="#nhg">corrected date</change>
-<change when="2016-05-12" who="#nhg">checked, corrected</change>
+            <change when="2016-05-12" who="#nhg">checked, corrected</change>
             <change when="2016-04-04" who="#km">checked</change>
             <change when="2016-02-08" who="#es">transcribed, encoded</change>
         </revisionDesc>
     </teiHeader>
-
+    
     <text type="manuscript">
         <body>
             <pb xml:id="leaf001r" facs="loc_af.00130.jpg" type="recto"/>
@@ -78,6 +78,6 @@
             
             <pb xml:id="leaf001v" facs="loc_af.00131.jpg" type="verso"/>
             
-       </body>
+        </body>
     </text>
 </TEI>

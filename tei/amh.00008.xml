@@ -2,6 +2,11 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="amh.00008">
+   <relations>
+      <work ref="xxx.00048" cert="high">
+         <p>The juxtaposition in this manuscript of painted panorama to actual landscape appears in a line that was published in the 1855 and 1856 editions of <hi rend="italic">Leaves of Grass</hi>, as part of the poem that would later be titled "Song of Myself": "The panorama of the sea . . . . but the sea itself?" (47). The line does not appear in editions after 1856.</p>
+      </work>
+   </relations>
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,13 +47,13 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-                  <note type="project" target="#dat1">The repository's catalog card for this manuscript estimates the date of composition as "ca. 1880." This estimate seems to be based on the manuscript's mention of "Neversink," which was tied to Whitman's poem cluster "Fancies at Navesink," first published in the magazine <hi rend="italic">Nineteenth Century</hi> in August 1885. However, the handwriting in the manuscript would seem to indicate a much earlier date, probably before the publication of <hi rend="italic">Leaves of Grass</hi> in 1855. Most of the fragment describes a moving panorama, a popular form of entertainment during the antebellum period, and it is possible that this manuscript is part of a review that Whitman wrote while working as a newspaper editor. No published version of the manuscript has been located.</note>
+                  <note type="project" target="#dat1">The repository's catalog card for this manuscript estimates the date of composition as "ca. 1880." This estimate seems to be based on the manuscript's mention of "Neversink," which was tied to Whitman's poem cluster "Fancies at Navesink," first published in the magazine <hi rend="italic">Nineteenth Century</hi> in August 1885. However, the handwriting in the manuscript would seem to indicate a much earlier date, probably before the publication of <hi rend="italic">Leaves of Grass</hi> in 1855. Most of the fragment describes a moving panorama, a popular form of entertainment during the antebellum period. The juxtaposition Whitman sets up in this manuscript (of painted panorama to actual landscape) appears in a line published in the 1855 and 1856 editions of <hi rend="italic">Leaves of Grass</hi>, from the poem that would later be titled "Song of Myself": "The panorama of the sea . . . . but the sea itself?" (1855, p. 47)</note>
          </notesStmt>
          <sourceDesc>
             <bibl>
                <author>Walt Whitman</author>
                <title rend="bracketed">Walt Whitman unidentified prose</title>
-               <date xml:id="dat1" cert="medium" notBefore="1840" notAfter="1860">About 1850</date>
+               <date xml:id="dat1" cert="medium" notBefore="1840" notAfter="1855">About 1850</date>
                <idno type="callno">MA175, Box 1, Folder 10</idno>
                <orgName xml:id="amh">Amherst College Archives and Special Collections</orgName>
                <note type="project">Transcribed from digital images of the original.</note>
@@ -62,6 +67,7 @@
          </handNotes>
       </profileDesc>
       <revisionDesc>
+         <change when="2017-02-23" who="#nhg">edited date note, added work relations information</change>
          <change when="2016-08-30" who="#nhg">checked, corrected</change>
          <change who="#km" when="2016-07-25">checked</change>
          <change who="#nhg" when="2014-08-20">converted encoding from P4 to P5, checked</change>

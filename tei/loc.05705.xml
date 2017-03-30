@@ -3,11 +3,8 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.05705">
     <relations>
-        <work ref="xxx.00001">
-            <p>Lines from this manuscript were used in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>.</p>
-        </work>
-        <work ref="xxx.00048">
-        <p>The lines were eventually included in what ultimately came to be section 39 of "Song of Myself."</p></work>
+        <work ref="xxx.00048" cert="high">
+        <p>These lines appeared, in revised form, in what ultimately came to be section 39 of "Song of Myself."  In the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>, the lines read: "They descend in new forms from the tips of his fingers, / They are wafted with the odor of his body or breath . . . . they fly out of the glance of his eyes (1855, p. 44).</p></work>
     </relations>
     <teiHeader>
         <fileDesc>
@@ -22,7 +19,7 @@
                     <persName xml:id="kc">Kirsten Clawson</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="jc">Janel Cayer</persName>
-                </respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -47,7 +44,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">These cancelled and fragmentary lines were revised and used in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, and a version of them eventually was included in what ultimately came to be section 39 of "Song of Myself." This manuscript was probably written around 1855.</note><!--See also "The genuine miracles of Christ," loc.01019-->             
+                <note type="project" target="#dat1">These cancelled and fragmentary lines were revised and used in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, and a version of them eventually was included in what ultimately came to be section 39 of "Song of Myself." This manuscript was probably written around 1855.</note>           
             </notesStmt>
             <sourceDesc>
 
@@ -56,14 +53,18 @@
                     <author>Walt Whitman</author>
                     <title>Free cider and Long Island character</title>                  
                     <idno type="callno">MSS18630, Box 38</idno>
+                    <date notBefore="1850" notAfter="1855" cert="medium" xml:id="dat1">About 1855</date>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
                     <note type="project">Transcribed from digital images of the original item.</note>
                     <relatedItem type="text" target="loc.05704"/>
                     <relatedItem type="document" target="wwa.00029"/>
+                    <note type="project" target="#rel01">A prose note is written on the back of this manuscript leaf.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2017-03-01" who="#kmp">blessed</change>
+            <change when="2017-03-02" who="#nhg">added project note for relatedItem</change>
             <change when="2016-02-01" who="#nhg">adjusted relatedItem encoding</change>
             <change when="2015-12-03" who="#nhg">final check</change>
             <change when="2015-04-23" who="#jc">checked</change>

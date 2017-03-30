@@ -16,7 +16,7 @@
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -41,24 +41,25 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">On the back of this leaf, Whitman drafted trial lines of the poem that was eventually titled "Song of Myself." It seems likely that the lines on front and back were written around the same time, dating this manuscript to before or early in 1855.</note>             
+                <note type="project" target="#dat1">On the back of this leaf, Whitman drafted trial lines of the poem that was eventually titled "Song of Myself." Based on this, Edward Grier dates this manuscript to before or early in 1855 (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:180).</note>             
             </notesStmt>
             <sourceDesc> 
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>How mean a person is sometimes...</title>                  
                     <idno type="callno">MssCol 1767, UUID fa568430-c5d8-012f-e01a-58d385a7bc34</idno>
-                    <date xml:id="dat1" notBefore="1850" notAfter="1855" cert="high">Between 1850 and 1855</date>
+                    <date xml:id="dat1" notBefore="1850" notAfter="1855" cert="medium">Before or early in 1855</date>
                     <orgName xml:id="nyp">The Oscar Lion Papers, 1914&#8211;1955, New York Public Library, New York, N.Y.</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                     <relatedItem type="text" target="nyp.00079"/>
                     <relatedItem type="text" target="nyp.00524"/>
                     <relatedItem type="document" xml:id="rel01" target="www.00004"/>
-                    <note type="project" target="#rel01">This manuscript is glued to another manuscript that also features lines of prose. On the back of the leaf are draft lines of the poem that would eventually be titled "Song of Myself."</note>
+                    <note type="project" target="#rel01">This manuscript is glued to another manuscript that also features lines of prose. On the back of the leaf are draft lines of poetry.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-07-20" who="#nhg">checked, corrected</change>
             <change when="2016-06-30" who="#km">checked</change>
             <change when="2015-01-18" who="#jc">checked; revised repository information in header</change>

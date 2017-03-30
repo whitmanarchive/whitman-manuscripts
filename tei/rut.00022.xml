@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main" rend="bracketed">dithyrambic troche</title>
+                <title level="m" type="main" rend="bracketed">dithyrambic trochee</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author xml:id="ww">Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -15,7 +15,7 @@
                     <persName xml:id="es">Jeannette Schollaert</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -40,12 +40,12 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">This manuscript consists of notes about various poetic meters, with Whitman writing the derivation of the term, a description of the meter, and then providing an example of a poetic line employing that meter. The example for hexameter (at the bottom of leaf 1 recto) is taken from a line in Homer, which Whitman likely found in an 1846 issue of the <hi rend="italic">American Whig Review</hi> ("Translators of Homer" <hi rend="italic">American Whig Review</hi> 4, no. 1 [July 1846]: 364). Thus, the date of this manuscript is likely between 1846 and 1855. The manuscript is held at Rutgers University Library along with several similar manuscripts that probably date from around or before 1855.  In his transcription of the manuscript, Edward Grier includes an additional section copied from Richard Maurice Bucke's <hi rend="italic">Notes and Fragments</hi>.  See <hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi>, ed. Edward F. Grier (New York: New York University Press, 1984), 1:355&#8211;356. </note>             
+                <note type="project" target="#dat1">This manuscript consists of notes about various poetic meters, with Whitman writing the derivation of the term, a description of the meter, and then providing an example of a poetic line employing that meter. The example for hexameter (at the bottom of leaf 1 recto) is taken from a line in Homer. Whitman marked this line in an article published in an 1846 issue of the <hi rend="italic">American Whig Review</hi> ("<ref target="duk.00082">Translators of Homer</ref>," <hi rend="italic">American Whig Review</hi> 4, no. 1 [July 1846]: 364). Thus, the date of this manuscript is after 1846. The manuscript is held at Rutgers University Library along with several similar manuscripts that are numbered sequentially and probably date from around or before 1855: see "<ref target="rut.00010.html">American literature must become distinct</ref>," "<ref target="rut.00023.html">The only way in which</ref>," "<ref target="rut.00024.html">The money value of real</ref>," and "<ref target="rut.00025.html">ground where you may</ref>."  In his transcription of the manuscript, Edward Grier includes an additional section copied from Richard Maurice Bucke's <hi rend="italic">Notes and Fragments</hi>.  See <hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi>, ed. Edward F. Grier (New York: New York University Press, 1984), 1:355&#8211;356. </note>             
             </notesStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title rend="bracketd">dithyrambic troche</title>                  
+                    <title rend="bracketd">dithyrambic trochee</title>                  
                     <idno type="callno">Ac. 605</idno>
                     <date xml:id="dat1" cert="medium" notBefore="1846" notAfter="1855">Between 1846 and 1855</date>
                     <orgName xml:id="rut">Special Collections and University Archives, Rutgers University Libraries, Rutgers, The State University of New Jersey</orgName>
@@ -61,6 +61,7 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
+            <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-09-12" who="#nhg">corrected</change>
             <change when="2016-07-21" who="#nhg">checked, corrected</change>
             <change when="2016-07-08" who="#km">checked</change>

@@ -3,12 +3,16 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00549">
     <relations>
-        <work ref="xxx.00048" cert="low">
-            <p><ref type="text" xml:id="r01" target="#q01 #q02">Phrases from this manuscript</ref> are similar to words that appear in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, in the poem that would be titled "Song of Myself." See "the clover and timothy" (1855, p. 18); "Over the western persimmon. . . . over the longleaved corn and the delicate blue-flowered flax; / Over the white and brown buckwheat, a hummer and a buzzer there with the rest" (1855, p. 36).</p>
+        <work ref="xxx.00048" cert="high">
+            <p><ref type="text" xml:id="r01" target="#q01 #q02">Phrases from this manuscript</ref> are similar to words and phrases that appear in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, in the poem that would be titled "Song of Myself." See "I jump from the crossbeams, and seize the clover and timothy" (1855, p. 18); "Over the western persimmon. . . . over the longleaved corn and the delicate blue-flowered flax; / Over the white and brown buckwheat, a hummer and a buzzer there with the rest" (1855, p. 36).</p>
         </work>
-        <work ref="xxx.00048" cert="low">
-            <p><ref type="text" xml:id="r02" target="#q02">A phrase from this manuscript</ref> is similar to a line that appears in the poem "Come Up From the Fields Father," which was first published in the 1867 edition of <hi rend="italic">Leaves of Grass</hi>: "Smell you the buckwheat, where the bees were lately buzzing?" (1867, p. 39).</p>
+        <work ref="xxx.00186" cert="high">
+            <p><ref type="text" xml:id="r02" target="#q02">This phrase</ref> also resembles a line that appeared in the poem "Come Up From the Fields Father," which was first published in <hi rend="italic">Drum-Taps</hi> in 1865: "Smell you the buckwheat, where the bees were lately buzzing?" (p. 39).</p>
         </work>
+        <work ref="xxx.00195" cert="high">
+            <p><ref type="text" xml:id="r03" target="#q01 #q02">Phrases from this manuscript</ref> also appeared in the poem "Give Me the Splendid Silent Sun," which was first published in <hi rend="italic">Drum-Taps</hi> in 1865. See "Keep your fields of clover and timothy, and your cornfields and orchards; / Keep the blossoming buckwheat fields, where the Ninth-month bees hum;" (p. 48).</p>
+        </work>
+        <work ref="xxx.00225" cert="high"><p><ref type="text" xml:id="r04" target="#q01">This phrase</ref> also resembles a line that appeared in the poem "The Return of the Heroes," which was first published in the 1881 edition of <hi rend="italic">Leaves of Grass</hi>: "Cotton and rice of the South and Louisianian cane, / Open unseeded fallows, rich fields of clover and timothy" (1881, p. 281).</p></work>
     </relations>
     <teiHeader>
         <fileDesc>
@@ -24,7 +28,7 @@
                     <persName xml:id="es">Jeannette Schollaert</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -49,14 +53,14 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">A phrase from this manuscript appears, slightly altered, in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, in the poem that would later be titled "Song of Myself." The manuscript was therefore probably written before or early in 1855.</note>             
+                <note type="project" target="#dat1">Words like "timothy" and "clover" and the phrase about "the buckwheat" from this manuscript appear, revised, in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, in the poem that would later be titled "Song of Myself," and they were later repurposed for other poems. The manuscript was therefore probably written before or early in 1855.</note>             
             </notesStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title rend="bracketed">Of this broad and majestic</title>                  
                     <idno type="callno">MssCol 1767</idno>
-                    <date xml:id="dat1" notBefore="1850" notAfter="1855" cert="high">Between 1850 and 1855</date>
+                    <date xml:id="dat1" notBefore="1840" notAfter="1855" cert="medium">Before or early in 1855</date>
                     <orgName xml:id="nyp">The Oscar Lion Papers, 1914&#8211;1955, New York Public Library, New York, N.Y.</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                     <relatedItem type="text" target="nyp.00085"/>
@@ -72,6 +76,8 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
+            <change when="2017-03-01" who="#kmp">blessed</change>
+            <change when="2017-03-08" who="#nhg">edited work relations information, editorial note</change>
             <change when="2016-09-12" who="#nhg">corrected</change>
             <change when="2016-07-20" who="#nhg">checked, corrected</change>
             <change when="2016-07-07" who="#km">checked</change>

@@ -2,9 +2,9 @@
  
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00002">
     <relations>
-        <work ref="xxx.00326" cert="high"/>
+        <work ref="xxx.00326" cert="high"><p>This is a draft of "After the Dazzle of Day," first published in the New York <hi rend="italic">Herald</hi> on <date when="1888-02-03">February 3, 1888</date>.</p></work>
     </relations>
-    <teiHeader type="text">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="m" type="main">After the dazzle of Day</title>
@@ -14,12 +14,12 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="nhg">Nicole Gray</persName><persName xml:id="aj">Andrew Jewell</persName><persName xml:id="kmp">Kenneth Price</persName><persName xml:id="bb">Brett Barney</persName><persName xml:id="nk">Nick Krauter</persName>
+                    <persName xml:id="aj">Andrew Jewell</persName><persName xml:id="kmp">Kenneth Price</persName><persName xml:id="bb">Brett Barney</persName><persName xml:id="nk">Nick Krauter</persName>
                     <persName xml:id="lr">Lisa Renfro</persName>
                     <persName xml:id="zb">Zach Bajaber</persName>
                     <persName xml:id="ms">Melissa Sinner</persName>
                     <persName xml:id="jsc">Justin St. Clair</persName>
-                    
+                    <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -48,14 +48,14 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">"After the Dazzle of Day" was first published in the New York <hi rend="italic">Herald</hi>, <date when="1888-02-03">February 3, 1888</date>. This manuscript was probably composed in <date notBefore="1887" notAfter="1888">1887 or early 1888</date>, shortly before the poem's
+                <note type="project" target="#dat1">"After the Dazzle of Day" was first published in the New York <hi rend="italic">Herald</hi> on <date when="1888-02-03">February 3, 1888</date>. This manuscript was probably composed in <date notBefore="1887" notAfter="1888">1887 or early 1888</date>, shortly before the poem's
                     publication.</note>
             </notesStmt>
             <sourceDesc>
                 <bibl>
                     <author> Walt Whitman </author>
                     <title> After the Dazzle of Day </title>
-                    <date xml:id="dat1" cert="high" notBefore="1887" notAfter="1888">1887 or 1888</date>
+                    <date xml:id="dat1" cert="high" notBefore="1887" notAfter="1888-02">1887 or 1888</date>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C. </orgName>
                     <note type="project">Transcribed from <hi rend="italic">The Walt Whitman Archive I: Whitman Manuscripts at the Library of Congress</hi>, ed. Joel Myerson (New York: Garland, 1993), 1:121; 
                         <hi rend="italic">Major American Authors on CD-Rom: Walt Whitman</hi> (Westport, CT:

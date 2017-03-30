@@ -2,6 +2,9 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00131">
+<!--<relations>
+<work ref="xxx.01038"/>
+</relations>-->
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -17,6 +20,7 @@
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -42,13 +46,13 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Edward Grier writes that the handwriting of this manuscript is "similar to that of early notebooks," probably indicating a date "in the 1850s or earlier" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 4:1587). </note>             
+                <note type="project" target="#dat1">This manuscript probably dates to the early 1860s, as it appears to have been inscribed after the writing on the reverse side of the leaf (duk.00795), which contains draft lines that contributed to poems first published in the 1860&#8211;1861 edition of <hi rend="italic">Leaves of Grass.</hi></note>             
             </notesStmt>
             <sourceDesc>                
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>"America needs her own poems, in her own body and spirit"</title>
-                    <date xml:id="dat1" cert="medium" notBefore="1840" notAfter="1860">1850s or earlier</date>
+                    <date xml:id="dat1" cert="medium" notBefore="1860" notAfter="1865">Early 1860s</date>
                     <idno type="callno">MS 12mo 61</idno>
                     <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
@@ -58,7 +62,9 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+        <revisionDesc>
+            <change when="2017-02-10" who="#bb">reconciled with EAD record</change>
+            <change when="2016-05-18" who="#kmp">blessed</change>
             <change when="2016-04-25" who="#nhg">corrected editorial note</change>
             <change when="2016-04-01" who="#nhg">checked, corrected</change>
             <change when="2016-03-16" who="#km">added date info to bibl</change>

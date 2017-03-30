@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
- 
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="tul.00011">
+    <relations>
+        <work ref="xxx.00048" cert="low"><p>The juxtaposition of gymnastics and saloons in this manuscript may relate to the following line from the poem that would later be titled "Song of Myself": "Through the gymnasium . . . . through the curtained saloon . . . . through the office or public hall" (1855, p. 37).  See also: "Logic and sermons never convince" (p. 33).</p></work>
+    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -48,13 +50,13 @@
             </publicationStmt>
             <notesStmt>
                 <note type="project" target="dat1">This manuscript was probably
-                    composed in the <date notBefore="1850" notAfter="1860">1850s</date>. No connection between these notes and any of Whitman's published works has been established.</note>
+                    written around 1855. The proposed poem about "a perfect school" is not known to have been published, although words and sentiments that appear in this manuscript also appeared in the poem that would later be titled "Song of Myself."</note>
             </notesStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>The three or four poets are well</title>
-                    <date xml:id="dat1" cert="high" notBefore="1850" notAfter="1855">About 1855</date>
+                    <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">About 1855</date>
                     <orgName xml:id="tul">Walt Whitman Ephemera, University of Tulsa</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                     <relatedItem type="document" target="wwa.00159"/>
@@ -64,6 +66,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2017-03-16" who="#nhg">edited editorial note and added work relations information</change>
             <change when="2016-10-18" who="#nhg">corrected</change>
             <change when="2016-09-12" who="#nhg">divided into two files, proofed, added relatedItem info</change>
             <change when="2016-04-21" who="#bb">updated list of staff in titleStmt; corrected miscellaneous validation errors</change>
@@ -113,7 +116,7 @@
                             taught&#8212;</transpose>
 
                 </ab>
-                <note type="authorial" place="right">1833<lb/>
+                <note type="authorial">1833<lb/>
 <hi rend="underline">1776</hi>
 <lb/>67</note>
             

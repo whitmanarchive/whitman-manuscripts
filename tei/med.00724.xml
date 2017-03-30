@@ -17,7 +17,7 @@
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -48,7 +48,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">This manuscript consists of a note, handwritten by Whitman, in a visitor's book for Manhattan Public School #13.  Whitman's entry, dated September 3, 1841, is one of several on the page.  A photostat of the page can be found in Freedman's book, facing page 32.</note>             
+                <note type="project" target="#dat1">This note was written by Whitman in a visitors' book for Manhattan Public School #13.  Whitman's entry, dated September 3, 1841, is one of several on the page.  Whitman evidently visited the school again the following year (see <ref target="med.00723.html">med.00723</ref>).  Although he lists himself as "of Suffolk co. LI." in this note, and he had worked in Long Island as a school teacher from 1839 to early 1841, Whitman had moved to Manhattan in May 1841 and was writing and working in journalism (Gay Wilson Allen, <hi rend="italic">The Solitary Singer</hi>, rev. ed. [Chicago: The University of Chicago Press, 1985], 34&#8211;42). In August 1841, he had published a short story about a cruel schoolmaster, "<ref target="http://whitmanarchive.org/published/fiction/shortfiction/per.00317.html">Death in the School-Room</ref>," in <hi rend="italic">The Democratic Review</hi>.  </note>             
             </notesStmt>
             <sourceDesc>
                 <biblStruct>
@@ -59,7 +59,7 @@
                             <pubPlace>New York</pubPlace>
                             <publisher>King's Crown Press</publisher>
                             <date when="1950">1950</date>
-                            <biblScope type="page">facing page 32</biblScope>
+                            <biblScope type="page">photostat facing page 32</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -67,11 +67,12 @@
                     <author>Walt Whitman</author>
                     <title rend="bracketed">Walter Whitman, of Suffolk co</title>                  
                     <date xml:id="dat1" when="1841-09-03" cert="high">September 3, 1841</date>
-                    <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
+                    <orgName xml:id="med">The location of the original visitors' book is unknown.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-12-05" who="#bb">reconciled with EAD record</change>
             <change when="2016-07-13" who="#nhg">checked, corrected</change>
             <change when="2016-05-20" who="#km">checked</change>

@@ -2,10 +2,14 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00878">
+<relations>
+<work ref="xxx.00052"><p>This scrap contains prose lines that appear to be related to what became section 2 of "I Sing the Body Electric," first published untitled in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. It appeared revised as "Poem of the Body" in the 1856 <hi rend="italic">Leaves</hi>, and in the 1867 edition it was given its final title and divided into nine sections. The scrap describes firemen "returning slowly home" from a fire, an image which suggests the description of "the march of firemen" and "the slow return from the fire" in "I Sing the Body Electric."</p>
+</work>
+</relations>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="m" type="main" rend="bracketed">Attitudes and expressions</title>
+            <title level="m" type="main" rend="bracketed">identical with the</title>
             <title level="m" type="sub">a machine readable transcription</title>
             <author>Walt Whitman</author>
             <editor>Kenneth M. Price</editor>
@@ -15,6 +19,7 @@
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="kc">Kirsten Clawson</persName>
                <persName xml:id="kmp">Kenneth M. Price</persName>
+               <persName xml:id="bb">Brett Barney</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -40,14 +45,14 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note type="project" target="#dat1">This note contains prose lines which appear to be related to what became section 2 of "I Sing the Body Electric," first published, untitled, in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. The scrap describes firemen "returning slowly home," an image which suggests the description of "the march of firemen" and "the slow return from the fire" in "I Sing the Body Electric." The lines were probably written in or before 1855.
+            <note type="project" target="#dat1">This scrap features prose lines that appear to be related to what became section 2 of "I Sing the Body Electric," first published untitled in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript describes firemen "returning slowly home" from a fire, an image which suggests the description of "the march of firemen" and "the slow return from the fire" in "I Sing the Body Electric." The lines were probably written shortly before or early in 1855.
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl>
                <author>Walt Whitman</author>
                <title>[Chronological]</title>
-               <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
+               <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Before or early in 1855</date>
                <idno type="callno">MS q 187</idno>
                <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
                <note type="project">Transcribed from digital images of the original.</note>
@@ -58,6 +63,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2017-02-15" who="#nhg">retitled</change>
+         <change when="2017-02-13" who="#bb">reconciled with EAD record</change>
          <change when="2016-03-07" who="#kmp">blessed</change>
          <change when="2016-02-01" who="#nhg">adjusted relatedItem encoding</change>
          <change who="#nhg" when="2016-02-01">corrected</change>

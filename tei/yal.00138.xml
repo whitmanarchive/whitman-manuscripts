@@ -8,7 +8,7 @@
                 <title level="m" type="main" rend="bracketed">Understand that you can have</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
-                <editor xml:id="kmp">Kenneth M. Price</editor>
+                <editor>Kenneth M. Price</editor>
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
@@ -16,7 +16,7 @@
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -41,7 +41,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">A note written by Richard Maurice Bucke, one of Whitman's literary executors, dates this manuscript to 1855 or 1856 (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi>, ed. Edward F. Grier [New York: New York University Press, 1984], 1:222).</note>             
+                <note type="project" target="#dat1">Although no specific lines from this manuscript can be directly tied to any of Whitman's published work, the language and ideas are similar to certain sections of the Preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, as well as to the poem eventually titled "Song of Myself," suggesting that this manuscript may have been written around that time. A note written by Richard Maurice Bucke, one of Whitman's literary executors, dates the manuscript to 1855 or 1856 (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi>, ed. Edward F. Grier [New York: New York University Press, 1984], 1:222).</note>             
             </notesStmt>
             <sourceDesc>
                 
@@ -49,7 +49,7 @@
                     <author>Walt Whitman</author>
                     <title>["Understand that you can have in your writing..."]</title>                  
                     <idno type="callno">MSS 202, Box 1, Folder 42</idno>
-                    <date xml:id="dat1" notBefore="1855" notAfter="1856" cert="medium">1855 or 1856</date>
+                    <date xml:id="dat1" notBefore="1855" notAfter="1860" cert="medium">1855 or 1856</date>
                     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
@@ -61,6 +61,8 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
+            <change when="2017-03-01" who="#kmp">blessed</change>
+            <change when="2017-02-06" who="#km">corrected WWA title</change>
             <change when="2016-09-12" who="#nhg">corrected</change>
             <change when="2016-07-26" who="#nhg">checked, corrected</change>
             <change when="2016-07-21" who="#km">checked</change>

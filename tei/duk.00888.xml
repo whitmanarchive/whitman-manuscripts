@@ -3,7 +3,9 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00888">
    <relations>
-      <work ref="xxx.01113"/>
+      <work ref="xxx.00526" cert="low">
+      	<p>The language of the line "The mere authority of law, custom, or precedent, must be nothing, absolutely nothing at all, with him" is similar to the following sentence from the 1855 Preface to <hi rend="italic">Leaves of Grass</hi>: "A heroic person walks at his ease through and out of that custom or precedent or authority that suits him not" (1855, p. vii).</p>
+      </work>
    </relations>
 	<teiHeader>
 		<fileDesc>
@@ -47,7 +49,7 @@
 				</availability>
 			</publicationStmt>
 			<notesStmt>
-				<note type="project" target="#dat1">Edward Grier dates this manuscript to before or early in 1855 (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:177).</note>             
+				<note type="project" target="#dat1">This manuscript includes words and ideas similar to those that appear in the Preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. The date of the manuscript is therefore probably before or early in 1855.</note>             
 			</notesStmt>
 			<sourceDesc>
 				
@@ -60,7 +62,7 @@
 					<relatedItem xml:id="rel01" type="text" target="duk.00293"/>
 					<relatedItem type="document" target="wwa.00012"/>
 					<note type="project">Transcribed from digital images of the original.</note>
-					<note type="project" target="#rel01">On the back of this manuscript is another prose manuscript.</note>
+					<note type="project" target="#rel01">On the back of this manuscript is another prose manuscript that relates to the poem that would become "Song of Myself."</note>
 				</bibl>
 			</sourceDesc>
 		</fileDesc>

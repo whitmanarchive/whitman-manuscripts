@@ -3,7 +3,8 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00556">
     <relations>
-        <work ref="xxx.01144"><p><ref type="text" xml:id="r01" target="#q01">One of the names referenced on the verso</ref>, "Covert," next to which Whitman writes "the villain," appears as a villainous character in Whitman's short story "Revenge and Requital" (1845), and is also mentioned in an early notebook (see "a schoolmaster" [loc.04588]).</p></work>
+        <work ref="xxx.01144"><p><ref type="text" xml:id="r01" target="#q01">One of the names referenced on the verso</ref>, "Covert," next to which Whitman writes "the villain," appears as a villainous character in Whitman's short story "Revenge and Requital" (1845).</p></work>
+        <work ref="xxx.01160"><p><ref type="text" xml:id="r02" target="#q01">"Covert"</ref> also appears as a villainous character in Whitman's novel <hi rend="italic">Life and Adventures of Jack Engle</hi> (1852). The name is also mentioned in an early notebook draft of the plot of <hi rend="italic">Jack Engle</hi> (see "a schoolmaster" [<ref target="http://whitmanarchive.org/manuscripts/notebooks/transcriptions/loc.04588.html">loc.04588</ref>]).</p></work>
     </relations>
     <teiHeader>
         <fileDesc>
@@ -19,7 +20,7 @@
                     <persName xml:id="es">Jeannette Schollaert</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -44,7 +45,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">This manuscript consists of notes about Whitman's family history. The various dates referenced suggest that the earliest portions of it were written sometime after 1845, and most of the notes seem to have been written at various stages between 1845 and 1855. Edward Grier dates the recto to 1850, and speculates that the earliest date for the writing on the verso is likely March 1853, when the two Cumberland Street houses were sold (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:8). For footnotes relating the names listed here to Whitman, see Grier. Whitman made additions to the manuscript several times, adding to it for the last time sometime around 1861. One of the names referenced on the verso, Covert, appears in Whitman's short story "<ref target="../../published/fiction/shortfiction/per.00340.html">Revenge and Requital</ref>" (1845), and is also mentioned in an early notebook (see "<ref target="../notebooks/transcriptions/loc.04588.html">a schoolmaster</ref>").</note>             
+                <note type="project" target="#dat1">This manuscript consists of notes about Whitman's family history. The various dates referenced suggest that the earliest portions of it were written sometime after 1845, and most of the notes seem to have been written at various stages between 1845 and 1855. Edward Grier dates the recto to 1850, and speculates that the earliest date for the writing on the verso is likely March 1853, when the two Cumberland Street houses were sold (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:8). For footnotes relating the names listed here to Whitman, see Grier. Whitman made additions to the manuscript several times, adding to it for the last time sometime around 1861. One of the names referenced on the verso, Covert, appears as a character in both Whitman's short story "<ref target="../../published/fiction/shortfiction/per.00340.html">Revenge and Requital</ref>" (1845) and his novel <hi rend="italic">Life and Adventures of Jack Engle</hi> (1852). The name is also mentioned in an early notebook draft of the plot of <hi rend="italic">Jack Engle</hi> (see "<ref target="../notebooks/transcriptions/loc.04588.html">a schoolmaster</ref>").</note>             
             </notesStmt>
             <sourceDesc>
                  <bibl>
@@ -52,7 +53,7 @@
                      <title rend="bracketed">A Family Record. Composed and written by Walt Whitman.</title>
                      <idno type="callno">b15520479</idno>
                      <date xml:id="dat1" notBefore="1845" notAfter="1861" cert="medium">Between 1845 and 1861</date>
-                    <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library </orgName>
+                    <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
                      <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
             </sourceDesc>
@@ -65,6 +66,8 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
+            <change when="2017-03-01" who="#kmp">blessed</change>
+            <change when="2017-02-27" who="#nhg">added work relations info for Jack Engle</change>
             <change when="2016-12-15" who="#km">added work relations info for "Revenge and Requital"</change>
             <change when="2016-12-01" who="#nhg">corrected</change>
             <change when="2016-09-14" who="#nhg">checked, corrected</change>

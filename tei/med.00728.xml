@@ -3,7 +3,7 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00728">
     <relations>
-        <work ref="xxx.00048"><p>It is possible that this list contributed, indirectly, to the ideas found in what became the second section of the poem eventually titled "Song of Myself." Those lines deal with breath, scents, and sexuality, all of which are suggested in the terms in this manuscript.</p></work>
+        <work ref="xxx.00048" cert="low"><p>It is possible that this list contributed, indirectly, to the ideas found in what became the second section of the poem eventually titled "Song of Myself." Those lines deal with breath, scents, and sexuality, all of which are suggested in the terms in this manuscript.</p></work>
     </relations>
     <teiHeader>
         <fileDesc>
@@ -20,7 +20,7 @@
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -67,7 +67,7 @@
                             <biblScope type="volume">1</biblScope>
                         </imprint>
                     </monogr>
-                    <note type="project">Grier derives his text from <hi rend="italic">Notes &#038; Fragments</hi>, ed. Richard Maurice Bucke (London, Ontario: A. Talbot &amp; Co., printers, 1899), 169.</note>
+                    <note type="project">Grier based his text on <hi rend="italic">Notes and Fragments</hi>, ed. Richard Maurice Bucke (London, Ontario: A. Talbot &amp; Co., printers, 1899), 169.</note>
                 </biblStruct>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -78,6 +78,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-12-06" who="#bb">reconciled with EAD record</change>
             <change when="2016-09-12" who="#nhg">corrected</change>
             <change when="2016-07-13" who="#nhg">checked, corrected</change>

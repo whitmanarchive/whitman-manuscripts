@@ -61,7 +61,7 @@
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Life and Death</title>
-                    <date xml:id="dat1" cert="high" when="1888">1888</date>
+                    <date xml:id="dat1" cert="high" notBefore="1888-01-01" notAfter="1888-05-19">1888</date>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman,
                         1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
@@ -74,7 +74,7 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
-            <change when="2016-09-22" who="#nhg">updated encoding, proofed</change>
+            <change when="2016-09-22" who="#nhg">updated encoding, proofed, updated date attributes</change>
             <change when="2016-03-08" who="#nhg">updated persNames, image names</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
             <change when="2006-08-04" who="#nk">Added third digit to leaf numbers</change>

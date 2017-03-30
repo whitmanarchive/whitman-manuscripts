@@ -2,6 +2,17 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="rut.00023">
+    <relations>
+        <work ref="xxx.00414" cert="low">
+            <p>Some words and sentiments in this manuscript are similar to the initial line of No. 4 of the "Thoughts" cluster published first in the
+                <date when="1860">1860</date> edition of <hi rend="italic">Leaves of
+                    Grass</hi>: "Of ownership&#8212;As if one fit to own things could not
+                at pleasure enter upon all, and incorporate them
+                into himself or herself" (1860, p. 410). In the 1871 <hi rend="italic">Leaves of Grass</hi> Whitman broke
+                this poem apart, dispersing its individual lines into newly created
+                poems.</p>
+        </work>
+    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,7 +27,7 @@
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -41,14 +52,16 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Edward Grier suggests that this manuscript was probably written prior to 1860 (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:118). The manuscript is held at Rutgers University Library along with several similar manuscripts that probably date from around or before 1855, so it seems likely that this manuscript is from a similar time period.</note>             
+                <note type="project" target="#dat1">Edward Grier suggests that this manuscript was probably written prior to 1860, noting some similarities in language and sentiment between it and the initial line of No. 4 of the "Thoughts" cluster published first in the
+                    <date when="1860">1860</date> edition of <hi rend="italic">Leaves of
+                        Grass</hi> (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:118). The manuscript is held at Rutgers University Library along with several similar manuscripts that are numbered sequentially and probably date from around or before 1855: see "<ref target="rut.00010.html">American literature must become distinct</ref>," "<ref target="rut.00022.html">dithyrambic trochee</ref>," "<ref target="rut.00024.html">The money value of real</ref>," and "<ref target="rut.00025.html">ground where you may</ref>."</note>             
             </notesStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title rend="bracketed">The only way in which</title>                  
                     <idno type="callno">Ac. 605</idno>
-                    <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1860">Between 1850 and 1860</date>
+                    <date xml:id="dat1" cert="medium" notBefore="1845" notAfter="1860">Between 1845 and 1860</date>
                     <orgName xml:id="rut">Special Collections and University Archives, Rutgers University Libraries, Rutgers, The State University of New Jersey</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
@@ -61,6 +74,8 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
+            <change when="2017-03-01" who="#kmp">blessed</change>
+            <change when="2017-03-28" who="#nhg">edited work relations information, editorial note</change>
             <change when="2016-07-21" who="#nhg">checked, corrected</change>
             <change when="2016-07-08" who="#km">checked</change>
             <change when="2015-01-06" who="#jc">checked; revised header</change>

@@ -2,22 +2,18 @@
  
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00886">
     <relations>
-        <work ref="xxx.00221" cert="high">
-            <p>The recto of this manuscript contains draft lines that were published first under the
-                title "Poem of Many in One" in the <date when="1856">1856</date> edition of <hi rend="italic">Leaves of Grass</hi>. The poem was revised many times throughout
-                Whitman's career and, in its final form, was titled "By Blue Ontario's Shore." </p>
-        </work>
         <work ref="xxx.00110" cert="high">
-            <p>The verso of this manuscript contains notes and draft lines that are related to a
+            <p>This manuscript contains notes and draft lines that are related to a
                 poem published first as "Poem of Salutation" in the <date when="1856">1856</date>
                 edition of <hi rend="italic">Leaves of Grass</hi>, and later as "Salut Au Monde!" </p>
+        </work>
+        <work ref="xxx.00119" cert="low">
             <p>Whitman's use of the word "tabounshic" is unusual. He used it (spelled "tabounschik")
                 only in the <date when="1855">1855</date> and <date when="1856">1856</date>
                 editions of <hi rend="italic">Leaves of Grass</hi> in the poem that took for its
                 final title "A Song for Occupations." In other respects, however, that poem does not
                 appear to be related to these notes.</p>
-        </work>
-    </relations>
+</work>    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,13 +26,14 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="nhg">Nicole Gray</persName>
+                    
                     <persName xml:id="aj">Andrew Jewell</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
                     <persName xml:id="zz">Zane Zimbelman</persName>
                     <persName xml:id="lr">Lisa Renfro</persName>
                     <persName xml:id="nk">Nick Krauter</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -77,16 +74,17 @@
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>A nation announcing itself</title>
-                    <date xml:id="dat1" cert="high" notBefore="1855" notAfter="1856">1855&#8211;1856</date>
+                    <date xml:id="dat1" cert="medium" notBefore="1855" notAfter="1856">1855 or 1856</date>
                     <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                     <relatedItem type="text" xml:id="rel01" target="duk.00030"/>
                     <relatedItem type="document" target="wwa.00055"/>
-<note type="project" target="#rel01">Another series of draft lines is on the back of this leaf.</note>
+                    <note type="project" target="#rel01">Another series of draft lines on the back of this leaf were published as part of "Poem of Many in One" in the <date when="1856">1856</date> edition of <hi rend="italic">Leaves of Grass</hi>.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2017-03-30" who="#nhg">adjusted work relations information</change>
             <change when="2016-04-26" who="#nhg">checked, corrected, removed handNotes encoding</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
             <change when="2006-08-02" who="#nk">Added third digit to leaf numbers</change>

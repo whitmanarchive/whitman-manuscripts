@@ -15,7 +15,9 @@
                     <persName xml:id="kc">Kirsten Clawson</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="jc">Janel Cayer</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -40,7 +42,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">The cancelled lines on the back of this manuscript leaf were revised and used in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, suggesting that this manuscript was likely written before or around 1855.</note>             
+                <note type="project" target="#dat1">The cancelled lines on the back of this manuscript leaf were revised and used in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. Since the poetic lines have been crossed out and the prose has not, it's likely that the prose was written later, but probably not much later, based on the similarity of the handwriting. Therefore, this manuscript was likely written around 1855.</note>             
             </notesStmt>
             <sourceDesc>
                 
@@ -57,7 +59,9 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+        <revisionDesc>
+            <change when="2017-02-01" who="#km">edited date note</change>
+            <change when="2016-05-18" who="#kmp">blessed</change>
             <change when="2016-02-01" who="#nhg">adjusted relatedItem encoding</change>
             <change when="2015-12-03" who="#nhg">final check</change>
             <change when="2015-04-23" who="#jc">checked</change>

@@ -4,7 +4,7 @@
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00057">
     <relations>
         <work ref="xxx.00048" cert="low">
-            <p>Phrases in this manuscript are similar to phrases that appeared in "Song of Myself." See, for instance: "It is for you whoever you are, it is no farther from you than your hearing and sight are from you, / It is hinted by nearest, commonest, readiest, it is ever provoked by them" (1891, p. 171); "I take my place among you as much as among any," (1891, p. 70); "Nor do I understand who there can be more wonderful than myself" (1891, p. 76); "What is commonest, cheapest, nearest, easiest, is Me," (1891, p. 39).</p> 
+            <p>Phrases in this manuscript are similar to phrases that appeared in "Song of Myself." See, for instance: "It is for you whoever you are . . . . it is no farther from you than your hearing and sight are from you, / It is hinted by nearest and commonest and readiest . . . . it is not them, though it is endlessly provoked by them" (1855, p. 59); "I take my place among you as much as among any," (1855, p. 48); "Nor do I understand who there can be more wonderful than myself" (1855, p. 54); "What is commonest and cheapest and nearest and easiest is Me" (1855, p. 21).</p> 
         </work>
     </relations>
     <teiHeader>
@@ -21,7 +21,7 @@
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -46,20 +46,23 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Based on the handwriting, Edward Grier dates this manuscript to 1855 or earlier (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:186). Some of the language is similar to wording in the poem that would be titled "Song of Myself."  An image of the verso is currently unavailable.</note>             
+                <note type="project" target="#dat1">Edward Grier writes of this manuscript that "[t]he sentiments and the handwriting are those of 1855 or earlier" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:186). Some of the language is similar to wording in the poem that would be titled "Song of Myself."  An image of the verso is currently unavailable.</note>             
             </notesStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>The most perfect wonders...</title>                  
                     <idno type="callno">b15520479, UUID 74f6ea30-c6b4-012f-e567-58d385a7bc34</idno>
-                    <date xml:id="dat1" notBefore="1850" notAfter="1855" cert="medium">Before or early in 1855</date>
+                    <date xml:id="dat1" notBefore="1845" notAfter="1855" cert="low">Before or early in 1855</date>
                     <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2017-03-01" who="#kmp">blessed</change>
+            <change when="2017-03-28" who="#nhg">edited editorial note</change>
+            <change when="2017-03-23" who="#nhg">edited work relations information</change>
             <change when="2016-07-20" who="#nhg">updated bibl info</change>
             <change when="2016-07-19" who="#nhg">checked, corrected, added relations info</change>
             <change when="2016-06-28" who="#km">checked</change>

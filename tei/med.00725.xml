@@ -20,7 +20,7 @@
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -51,7 +51,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">These notes about Whitman's time in New Orleans (February through May, 1848) appear to be a combination of observations made at the time of his New Orleans sojourn and later recollections of that time. Because the manuscript has not been located it is difficult to speculate on the circumstances or date of its composition, but it seems likely that parts of it were written at different times between 1848 and the publication of Whitman's article "New Orleans in 1848: Walt Whitman Gossips of His Sojourn Here Years Ago as a Newspaper Writer: Notes of His Trip Up the Mississippi and to New York," which probably drew on these notes, in the New Orleans <hi rend="italic">Daily Picayune</hi> on January 25, 1887. Edward Grier notes that "H." and "M'C" probably refer to publishers A. H. Hayes and J. E. McClure.</note>             
+                <note type="project" target="#dat1">These notes about Whitman's time in New Orleans (February through May, 1848) appear to be a combination of observations made at the time of his New Orleans sojourn and later recollections. Because the manuscript has not been located it is difficult to speculate on the circumstances or date of its composition, but it seems likely that parts of it were written at different times between 1848 and the publication of Whitman's article "New Orleans in 1848: Walt Whitman Gossips of His Sojourn Here Years Ago as a Newspaper Writer: Notes of His Trip Up the Mississippi and to New York," which probably drew on these notes, in the New Orleans <hi rend="italic">Daily Picayune</hi> on January 25, 1887. Edward Grier notes that "H." and "M'C" probably refer to publishers A. H. Hayes and J. E. McClure.</note>             
             </notesStmt>
             <sourceDesc>                
                 <biblStruct>
@@ -67,17 +67,18 @@
                             <biblScope type="volume">1</biblScope>
                         </imprint>
                     </monogr>
-                    <note type="project">Grier derives his text from <hi rend="italic">The Uncollected Poetry and Prose of Walt Whitman</hi>, ed. Emory Holloway (Garden City, NY: Doubleday, Page &amp; Co., 1921), 2:77&#8211;78.</note>
+                    <note type="project">Grier based his text on <hi rend="italic">The Uncollected Poetry and Prose of Walt Whitman</hi>, ed. Emory Holloway (Garden City, NY: Doubleday, Page &amp; Co., 1921), 2:77&#8211;78.</note>
                 </biblStruct>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title rend="bracketed">1848 New Orleans</title>                  
-                    <date xml:id="dat1" notBefore="1848" notAfter="1887">Between 1848 and 1887</date>
+                    <date xml:id="dat1" notBefore="1848" notAfter="1887" cert="high">Between 1848 and 1887</date>
                     <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-12-05" who="#bb">reconciled with EAD record</change>
             <change when="2016-05-20" who="#km">checked</change>
             <change when="2016-02-16" who="#es">checked, added date to bibl (from finding aid information)</change>

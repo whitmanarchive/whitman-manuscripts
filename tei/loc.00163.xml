@@ -42,7 +42,7 @@
 				</availability>
 			</publicationStmt>
 			<notesStmt>
-				<note type="project" target="#dat1">Lines and phrases on both sides of this manuscript leaf contributed to portions of the poem that would eventually be titled "Song of Myself," indicating a composition date before 1855. However, the manuscript also includes lines that contributed to "Sun-Down Poem" (later retitled "Crossing Brooklyn Ferry") in the 1856 edition of <hi rend="italic">Leaves of Grass</hi>. Edward Grier notes that while this may indicate that the manuscript was composed at various times before and after 1855, the "date of the earliest drafts of 'Crossing Brooklyn Ferry' may well have been before 1855" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:165).</note>
+				<note type="project" target="#dat1">Lines and phrases on both sides of this manuscript leaf contributed to portions of the poem that would eventually be titled "Song of Myself," and possibly to other sections of the 1855 <hi rend="italic">Leaves of Grass</hi>, suggesting a composition date before 1855. However, this manuscript also includes lines that probably contributed to "Sun-Down Poem" (later retitled "Crossing Brooklyn Ferry") in the 1856 edition of <hi rend="italic">Leaves of Grass</hi>. Edward Grier notes that while this may indicate that the manuscript was composed at various times before and after 1855, the "date of the earliest drafts of 'Crossing Brooklyn Ferry' may well have been before 1855" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:165).</note>
 			</notesStmt>
 			<sourceDesc>
 				
@@ -50,7 +50,7 @@
 					<author>Walt Whitman</author>
 					<title rend="bracketed">rule in all addresses</title>
 					<idno type="callno">MSS18630, Box 39, Reel 25</idno>
-					<date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1856">Between 1850 and 1856</date>
+					<date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1856">Before 1856</date>
 					<orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
 					<note type="project">Transcribed from digital images of the original.</note>
 				</bibl>
@@ -62,7 +62,9 @@
 				<handNote xml:id="h2" scribeRef="#ww" medium="pencil"/>
 			</handNotes>
 		</profileDesc>
-		<revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+		<revisionDesc>
+			<change when="2017-03-21" who="#nhg">edited editorial note and work relations info</change>
+			<change when="2016-05-18" who="#kmp">blessed</change>
 			<change when="2016-04-20" who="#km">checked</change>
 			<change when="2015-01-29" who="#jc">checked</change>
 			<change when="2014-11-17" who="#kc">converted from P4 to P5, checked</change>
@@ -86,19 +88,19 @@
 <div1 type="poetry">
 	<relations>
 		<work ref="xxx.00048" cert="high">
-			<p>Several of these phrases and lines are probably related to portions of the poem that would eventually be titled "Song of Myself," particularly the phrase "mate and companion" and the line that begins "I say that every man is great..."</p>
+			<p><ref target="#q01" xml:id="r01" type="text">A line in this manuscript</ref> probably contributed to the following line, in the poem that would later be titled "Song of Myself": "I am the mate and companion of people, all just as immortal and fathomless as myself" (1855, p. 17). <ref target="#q02" xml:id="r02" type="text">Another line</ref> is similar to the line "And nothing, not God, is great to one than one's-self is" (1855, p. 53). </p>
 		</work>
 	</relations>
 <lg type="poem">
 	<lg type="linegroup">
 		<l>I say to my own greatness, Away!</l>
-		<l>I will not be a leader of men, I will always be their <lb/>mate and companion!</l>
+		<l xml:id="q01">I will not be a leader of men, I will always be their <lb/>mate and companion!</l>
 		<l>I do not desire eminence, I desire equality.</l>
 	</lg>
 
 	<lg type="linegroup">
 		<l>I <hi rend="circled">will</hi> break up this demention that man is the <lb/>servant of God, or of many gods;</l>
-		<l>I say that <subst><del rend="overstrike" seq="1">nothing is</del> <add rend="unmarked" place="supralinear" seq="3">every man</add> <del rend="overstrike" seq="2">he</del></subst> is great to himself and <lb/>every woman to herself;</l>
+		<l xml:id="q02">I say that <subst><del rend="overstrike" seq="1">nothing is</del> <add rend="unmarked" place="supralinear" seq="3">every man</add> <del rend="overstrike" seq="2">he</del></subst> is great to himself and <lb/>every woman to herself;</l>
 		<l>And that to take an inferior place or be humble <lb/>is unbecoming</l>
 	</lg>
 </lg>
@@ -110,22 +112,22 @@
 
 <div1 type="poetry">
 	<relations>
-		<work ref="xxx.00048" cert="absolute">
-			<p>Several of these phrases and lines are related to portions of the poem that would eventually be titled "Song of Myself." The manuscript line that reads "A mother as well as father, a child as well as a man" becomes, in the first poem of the 1855 <hi rend="italic">Leaves</hi>, the line "Maternal as well as paternal, a child as well as a man." And several manuscript lines, beginning with "Not only an American..." become, in the poem, the lines beginning "Not merely of the New World..." Edward Grier speculates that Whitman's note to "Don't forget the bombardment" is in reference to the "bombardment" of the "old artillerist" in "Song of Myself."</p>
+		<work ref="xxx.00048" cert="high">
+			<p>Several of the phrases and lines from this section of the manuscript are related to portions of the poem that would eventually be titled "Song of Myself." <ref target="#q03" xml:id="r03" type="text">One manuscript line</ref> probably became, in the first poem of the 1855 <hi rend="italic">Leaves</hi>, the line "Maternal as well as paternal, a child as well as a man" (1855, p. 23). And <ref target="#q04 #q05 #q06" xml:id="r04" type="text">several manuscript lines</ref> probably became, in the poem, the lines beginning "Not merely of the New World but of Africa Europe or Asia . . . . a wandering savage, / A farmer, mechanic, or artist . . . . a gentleman, sailor, lover or quaker, / A prisoner, fancy-man, rowdy, lawyer, physician or priest" (1855, p. 24). <ref target="#q07" xml:id="r05" type="text">Three other lines</ref> probably became: "Storming enjoying planning loving cautioning, / Backing and filling, appearing and disappearing, / I tread day and night such roads" (1855, p. 38). Edward Grier speculates that <ref target="#q08" xml:id="r06" type="text">Whitman's note "Don't forget the bombardment"</ref> relates to the "bombardment" of the "old artillerist" in "Song of Myself": "I am an old artillerist, and tell of some fort's bombardment . . . . and am there again" (1855, p. 40).</p>
 		</work>
 	</relations>
 <lg type="linegroup">
-	<l><del rend="overstrike">A father</del> A mother as well as father, a child as well as a man;</l>
-	<l><subst><del rend="overwrite" seq="1"><unclear reason="illegible" cert="low" resp="#kc">A</unclear></del><add rend="overwrite" place="over" seq="2">N</add></subst>ot only an American, but an African Europeand, and Asiatic,</l>
+	<l xml:id="q03"><del rend="overstrike">A father</del> A mother as well as father, a child as well as a man;</l>
+	<l xml:id="q04"><subst><del rend="overwrite" seq="1"><unclear reason="illegible" cert="low" resp="#kc">A</unclear></del><add rend="overwrite" place="over" seq="2">N</add></subst>ot only an American, but an African Europeand, and Asiatic,</l>
 	
 	<metamark xml:id="tr02" function="transpose" place="left" target="#tr01"><handShift new="#h1"/>+</metamark>
 	
-	<l><handShift new="#h2"/>A lawyer, a doctor, a priest, a <subst><del rend="overstrike" seq="1" hand="#h1">farmer</del> <add rend="unmarked" place="supralinear" seq="2" hand="#h1">sailor</add></subst>, an artist,</l>
+	<l xml:id="q05"><handShift new="#h2"/>A lawyer, a doctor, a priest, a <subst><del rend="overstrike" seq="1" hand="#h1">farmer</del> <add rend="unmarked" place="supralinear" seq="2" hand="#h1">sailor</add></subst>, an artist,</l>
 	
 	<metamark function="transpose" place="left" rend="bracketed"><handShift new="#h1"/>tr up +</metamark>
 	
 	<transpose xml:id="tr01" rend="bracketed" anchored="1" target="#tr02">
-	<l><handShift new="#h2"/>A <add rend="insertion" place="supralinear" hand="#h1">farmer, a</add> carpenter, a blacksmith, <del rend="overstrike" hand="#h1">a sailor,</del> a cook,</l>
+	<l xml:id="q06"><handShift new="#h2"/>A <add rend="insertion" place="supralinear" hand="#h1">farmer, a</add> carpenter, a blacksmith, <del rend="overstrike" hand="#h1">a sailor,</del> a cook,</l>
 	<l>Capable of all that is ugly and mean, and <add rend="insertion" place="supralinear">capable of</add> all that <lb/>is pure and heroic,</l>
 	</transpose>
 	
@@ -133,13 +135,13 @@
 	<metamark function="deletion" place="left" target="#d04"><handShift new="#h1"/>? out</metamark><span rend="bracket-left" hand="#h1" xml:id="d04" from="#d04" to="#d05"/><l><handShift new="#h2"/>Elasticity <del rend="overstrike">is</del> I am&#8212;and I am the <subst><del rend="overstrike" seq="1">solid</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="supralinear" seq="2">palpable</add></del> <add rend="unmarked" place="infralinear" seq="4">dense</add></subst> rock&#8212;and <del rend="overstrike">I the</del> <add rend="insertion" place="supralinear">I this</add> invisible <del rend="overstrike"><add rend="insertion" place="supralinear">as the</add></del> gas of the air&#8212;</l><anchor xml:id="d05"/>
 	</lg>
 
-<lg type="linegroup">
+<lg type="linegroup" xml:id="q07">
 	<l>Scheming, storming planning, loving cautioning</l>
 	<l><subst><del rend="overstrike" seq="1">Appearing and d</del> <add rend="unmarked" place="supralinear" seq="2">Laughing and weeping,</add></subst> Backing and filling, appearing and disappearing</l>
 	<l>I travel day and night <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#km">such</unclear> <gap reason="illegible" extent="one word" unit="chars" quantity="6"/></del> <add rend="unmarked" place="infralinear">these eternal roads</add></l>
 </lg>
 
-	<del rend="overstrike"><ab>Don't forget the bombardment</ab></del>
+	<del rend="overstrike"><ab xml:id="q08">Don't forget the bombardment</ab></del>
 
 	<anchor xml:id="d03"/>
 </div1>
@@ -149,13 +151,16 @@
 <div1 type="poetry">
 	<relations>
 		<work ref="xxx.00048" cert="high">
-			<p>The phrase "the fool and the wise thinker" is probably related to a similar phrase ("The stupid and the wise thinker") in the poem that would eventually be titled "Song of Myself." The phrase "outward and outward" may be related to the line from "Song of Myself" that reads "All goes onward and outward....and nothing collapses."</p>
+			<p><ref target="#q10" xml:id="r08" type="text">This line</ref> may be related to the following lines from the poem that would be titled "Song of Myself": "I open my scuttle at night and see the far-sprinkled systems, / And all I see, multiplied as high as I can cipher, edge but the rim of the farther systems. / Wider and wider they spread, expanding and always expanding, / Outward and outward and forever outward" (1855, p. 51).</p>
+		</work>
+		<work ref="xxx.00250" cert="low">
+			<p><ref target="#q09" xml:id="r07" type="text">This line</ref> may be related to a similar phrase in the poem that would eventually be titled "Who Learns My Lesson Complete?": "The stupid and the wise thinker" (1855, p. 92). </p>
 		</work>
 	</relations>
 <lg type="linegroup">
 	<l><handShift new="#h1"/>In me are the old and young the fool<del rend="overstrike">ish</del> and the wise <subst><del rend="overstrike" seq="1">observer</del> <add rend="unmarked" place="supralinear" seq="2">thinker</add></subst></l>
 	<l>I enclose the heroic, and I enclose the mean and vicious.&#8212;</l>
-	<l>Life in the universe&#8212;a <add rend="unmarked" place="supralinear">vast</add> circular procession whose ? rings expand outward and outward</l>
+	<l xml:id="q10">Life in the universe&#8212;a <add rend="unmarked" place="supralinear">vast</add> circular procession whose ? rings expand outward and outward</l>
 </lg>
 </div1>
 
@@ -164,37 +169,40 @@
 
 <div1 type="poem_notes">
 	<relations>
-		<work ref="xxx.00112" cert="absolute">
-			<p>Several phrases of this prose were later used, in somewhat revised form, in a line for "Sun-down Poem" in the 1856 edition of <hi rend="italic">Leaves of Grass</hi>. The poem would later be titled "Crossing Brooklyn Ferry." A portion of the manuscript reads: "I doubt whether my greatest thoughts, as I had supposed them, are not shallow.&#8212;and people will most likely laugh at me." The line in the poem reads: "My great thoughts, as I supposed them, were they not in reality meagre? Would not people laugh at me?"</p>
+		<work ref="xxx.00112" cert="high">
+			<p><ref target="#q11" xml:id="r09" type="text">Several phrases of this prose</ref> were probably later used, in somewhat revised form, in the following lines from "Sun-down Poem" in the 1856 edition of <hi rend="italic">Leaves of Grass</hi>: "The best I had done seemed to me blank and suspicious, / My great thoughts, as I supposed them, were they not in reality meagre? Would not people laugh at me?" (1856, p. 216)  The poem would later be titled "Crossing Brooklyn Ferry." </p>
 		</work>
 	</relations>
 <ab><handShift new="#h2"/>Depressions</ab>
 	
-	<p>Every thing I have done seems to me blank and <del rend="overstrike">shallow and</del> suspicious.&#8212;I doubt whether <del rend="overstrike"><add rend="unmarked" place="supralinear">who</add></del> my greatest thoughts, as I had supposed them, are not shallow.&#8212;and people will most likely laugh at <del rend="overstrike">them.&#8212;</del> me.&#8212;My pride is impotent; my love gets no response.&#8212;The complacency of nature is hateful&#8212;<del rend="overstrike">for</del> I am <del rend="overstrike">so</del> filled with restlessness.&#8212;I am <del rend="overstrike">so</del> incomplete.&#8212;</p>
+	<p><seg xml:id="q11">Every thing I have done seems to me blank and <del rend="overstrike">shallow and</del> suspicious.&#8212;I doubt whether <del rend="overstrike"><add rend="unmarked" place="supralinear">who</add></del> my greatest thoughts, as I had supposed them, are not shallow.&#8212;and people will most likely laugh at <del rend="overstrike">them.&#8212;</del> me.</seg>&#8212;My pride is impotent; my love gets no response.&#8212;The complacency of nature is hateful&#8212;<del rend="overstrike">for</del> I am <del rend="overstrike">so</del> filled with restlessness.&#8212;I am <del rend="overstrike">so</del> incomplete.&#8212;</p>
 
 <p>We do not so much care what people say&#8212;we are deeply interested in what they <hi rend="underline">do</hi>.&#8212;If we can imagine nothing left of a man but talk,&#8212;would not that be a ridiculous remnant?&#8212;Yet a deaf and dumb person might still be one of the heroes.&#8212;</p>
 </div1>
 
 <div1 type="poetry">
 	<relations>
-		<work ref="xxx.00048" cert="low">
-			<p>It is possible that some of these poetic lines contributed to the preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. The idea of common people being greater than Presidents or Major Generals (from the manuscript) may be related to the sentence from the Preface that reads: "Other states indicate themselves in their deputies....but the genius of the United States is not best or most in its executives or legislatures, nor in its ambassadors or authors or colleges or churches or parlors, nor even in its newspapers or inventors...but always most in the common people." The manuscript line "I remain with them all on equal terms" may also be related to the Preface ("The messages of great poets to each man and woman are, Come to us on equal terms").</p>
+		<work ref="xxx.00526" cert="low">
+			<p>It is possible that some of these poetic lines contributed to the Preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. <ref target="#q12 #q13" xml:id="r10" type="text">These lines</ref> may be related to the sentence from the Preface that reads: "Other states indicate themselves in their deputies....but the genius of the United States is not best or most in its executives or legislatures, nor in its ambassadors or authors or colleges or churches or parlors, nor even in its newspapers or inventors...but always most in the common people" (1855, p. iii). <ref target="#q14" xml:id="r11" type="text">This line</ref> may also be related to the following line in the Preface: "The messages of great poets to each man and woman are, Come to us on equal terms" (1855, p. vii).</p>
 		</work>
 	</relations>
 <lg type="linegroup">
 	<l><seg xml:id="w1">It is only the shallow who</seg> <add xml:id="w2" rend="unmarked" place="supralinear">Do you suppose I</add> <alt target="#w1 #w2" weights="0.5 0.5"/> would lift <seg xml:id="w3">themselves</seg> <add xml:id="w4" rend="unmarked" place="supralinear">myself</add> <alt target="#w3 #w4" weights="0.5 0.5"/> out of <lb/>their race by something eminent and specially attractive.&#8212;</l>
 	<l>I am not quite such a fool as that</l>
-	<l>I am too great to be a mere President or Major General</l>
-	<l>I <subst><del rend="overwrite" seq="1"><unclear reason="illegible" cert="low" resp="#kc">am</unclear></del><add rend="overwrite" place="over" seq="2">remain</add></subst> with my fellows,&#8212;with mechanics, and farmers <lb/>and common people;</l>
-	<l>I remain with them all on equal terms</l> 
+	<l xml:id="q12">I am too great to be a mere President or Major General</l>
+	<l xml:id="q13">I <subst><del rend="overwrite" seq="1"><unclear reason="illegible" cert="low" resp="#kc">am</unclear></del><add rend="overwrite" place="over" seq="2">remain</add></subst> with my fellows,&#8212;with mechanics, and farmers <lb/>and common people;</l>
+	<l xml:id="q14">I remain with them all on equal terms</l> 
 </lg>
 </div1>
 	
 	
 <div1 type="poem_notes">
 	<relations>
+		<work ref="xxx.00526" cert="low">
+			<p>It is possible that some phrases and words from this section contributed to the Preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. <ref target="#q15" xml:id="r12" type="text">The phrase "mother of many children"</ref> appears in the Preface: "Does it solve readily with the sweet milk of the nipples of the breasts of the mother of many children?" (1855, p. xii).</p>
+		</work>
 		<work ref="xxx.00246" cert="low">
-			<p>It is possible that Whitman's note about a "Poem descriptive of a good wife" is in reference to "Poem of Women" from the 1856 edition of <hi rend="italic">Leaves of Grass</hi> (the poem was later titled "Unfolded Out of the Folds").</p>
+			<p><ref target="#q15" xml:id="r13" type="text">The phrase "mother of many children"</ref> also appears in the poem that would later be titled "Faces": "The sacred faces of infants . . . . the illuminated face of the mother of many children" and "The old face of the mother of many children" (1855, p. 82 and p. 84).</p>
 		</work>
 	</relations>
 <p>There are many great painters&#8212;they paint scenes from <del rend="overstrike">the</del> books, and illustrate from what the romancer and rhymster has prepared before them.&#8212;This artist does not illustrate or paint any such scenes or groups or characters.&#8212;He delineates <del rend="overstrike">for</del> from himself.&#8212;Do you not like this magnificent disdain? <del rend="overstrike">of</del>&#8212;</p>

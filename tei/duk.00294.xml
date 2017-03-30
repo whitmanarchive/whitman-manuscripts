@@ -3,8 +3,8 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00294">
     <relations>
-        <work ref="xxx.00116">
-            <p>A leaf made from two manuscript scraps glued together. The writing on the top scrap appears to be a note about one of Whitman's acquaintances. The bottom scrap contains notes toward "Song of the Broad-Axe," a poem which was first published in <hi rend="italic">Leaves of Grass</hi> 1856 as "Broad-Axe Poem" before appearing under its final title in 1867.</p>
+        <work ref="xxx.00116" cert="high">
+            <p><ref target="#q01 #q02" xml:id="r01" type="text">The notes on the bottom half of this scrap</ref> probably relate to "Song of the Broad-Axe," a poem which was first published in the 1856 edition of <hi rend="italic">Leaves of Grass</hi> as "Broad-Axe Poem" before appearing under its final title in 1867. This poem features the transition from the use of the axe by the Old World headsman to the use of it by the New World carpenter that is described in these notes.</p>
         </work>
     </relations>
     <teiHeader>
@@ -49,22 +49,22 @@
 				</availability>
 			</publicationStmt>
 			<notesStmt>
-				<note type="project" target="#dat1">A leaf made from two manuscript scraps glued together. The bottom scrap contains notes toward "Song of the Broad-Axe," which was first published in <hi rend="italic">Leaves of Grass</hi> 1856 as "Broad-Axe Poem." The writing on the top scrap, which describes one of Whitman's acquaintances, might have informed the description of the "headsman" in that poem. This suggests a date before 1856. For speculation as to the identity of "Bloom," see Edward Grier, <hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> (New York: New York University Press, 1984), 1:201.</note>             
+				<note type="project" target="#dat1">This leaf consists of two manuscript scraps glued together. The bottom scrap includes notes toward "Song of the Broad-Axe," which was first published in the 1856 edition of <hi rend="italic">Leaves of Grass</hi> as "Broad-Axe Poem." This suggests a date before 1856. The writing on the top scrap, which describes one of Whitman's acquaintances, might have informed the description of the masculine "saunterer of woods" in that poem. Edward Grier writes of "Bloom" that "It has been suggested that this is Nathaniel Bloom, a member of [Whitman]'s circle of friends in the early 1860s...but it seems more likely that the name refers to either 'Gilbert Bloom, carman,' or 'Gilbert J. Bloom, carman,' as listed in the [New York City] directories for 1854&#8211;1855"  (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:201).</note>             
 			</notesStmt>
 			<sourceDesc>
 				
 				<bibl>
 					<author>Walt Whitman</author>
 					<title rend="bracketed">Preliminary Studies for Poems</title>    
-					<date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1856">1856 or before</date>
+					<date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1856">1856 or earlier</date>
 					<idno type="callno">MS q 32</idno>
 					<orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
-					<relatedItem type="document" target="wwa.00148"/> 
 					<note type="project">Transcribed from digital images of the original.</note>
 				</bibl>
 			</sourceDesc>
 		</fileDesc>
 		<revisionDesc>
+			<change when="2017-03-02" who="#nhg">removed extraneous relatedItem encoding</change>
             <change when="2016-12-15" who="#bb">recombined transcription of the two scraps; reconciled with EAD record</change>
             <change when="2016-05-18" who="#kmp">blessed</change>
 			<change when="2016-04-18" who="#nhg">checked, corrected</change>
@@ -86,10 +86,10 @@
 	<pb xml:id="leaf001v" facs="duk_am.00248.jpg" type="verso"/>
 
 <delSpan rend="hashmark" spanTo="#d1"/>
-    <ab>&#8212;The Broad-axe&#8212;the axe of the headsman</ab>
+    <ab xml:id="q01">&#8212;The Broad-axe&#8212;the axe of the headsman</ab>
             
     <span rend="bracket-right" xml:id="s1" from="#s1" to="#s2"/>
-    <p>First as the axe of the headsman&#8212;and what was done with it for a thousand years&#8212;then as the carpenter's broad-axe, and what is done with that now</p>
+    <p xml:id="q02">First as the axe of the headsman&#8212;and what was done with it for a thousand years&#8212;then as the carpenter's broad-axe, and what is done with that now</p>
     <anchor xml:id="s2"/>
     <anchor xml:id="d1"/>
 </body>

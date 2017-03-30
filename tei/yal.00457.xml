@@ -15,7 +15,9 @@
                     <persName xml:id="kc">Kirsten Clawson</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="jc">Janel Cayer</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -40,14 +42,14 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">This note probably dates to the 1850s.</note>             
+                <note type="project" target="#dat1">As this brief scrap of prose deals with the spread of slavery, it most likely dates from the 1850s.</note>             
             </notesStmt>
             <sourceDesc>
                 
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>do nothing but lose from</title>    
-                    <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1865">Between 1850 and 1865</date>
+                    <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1860">Between 1850 and 1860</date>
                     <idno type="callno"/>
                     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
@@ -57,7 +59,9 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+        <revisionDesc>
+            <change when="2017-02-06" who="#km">edited date in metadata and wording of date note</change>
+            <change when="2016-05-18" who="#kmp">blessed</change>
             <change when="2016-02-01" who="#nhg">adjusted relatedItem encoding</change>
             <change when="2015-12-03" who="#nhg">final check</change>
             <change who="#jc" when="2015-04-03">completed second check</change>

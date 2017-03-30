@@ -3,8 +3,8 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00304">
 	<relations>
-		<work ref="xxx.00048" cert="high">
-			<p>Notes, or possibly trial lines, expressing the idea that the highest beauty is found in what is "cheapest" and "commonest," probably connected to the following line in the first poem of the 1855 <hi rend="italic">Leaves of Grass,</hi> later titled "Song of Myself": "What is commonest and cheapest and nearest and easiest is Me."</p>
+		<work ref="xxx.00048" cert="low">
+			<p><ref xml:id="r01" target="#q01" type="text">These notes</ref> may connect to the following line in the first poem of the 1855 <hi rend="italic">Leaves of Grass,</hi> later titled "Song of Myself": "What is commonest and cheapest and nearest and easiest is Me" (1855, p. 21).</p>
 		</work>
 	</relations>
 	<teiHeader>
@@ -49,7 +49,7 @@
 				</availability>
 			</publicationStmt>
 			<notesStmt>
-				<note type="project" target="#dat1">These notes, or possibly trial lines, expressing the idea that beauty is found in what is "cheapest" and "commonest," are probably connected to the following line in the first poem of the 1855 <hi rend="italic">Leaves of Grass</hi>: "What is commonest and cheapest and nearest and easiest is Me." The poem was ultimately titled "Song of Myself." The date, therefore, is most likely before or early in 1855. The manuscript has been pasted to a backing sheet along with three other manuscript scraps, probably by a collector or archivist.</note>             
+				<note type="project" target="#dat1">These notes, or possibly trial lines, expressing the idea that beauty is found in what is "cheapest" and "commonest," may be connected to the following line in the first poem of the 1855 <hi rend="italic">Leaves of Grass</hi>, ultimately titled "Song of Myself": "What is commonest and cheapest and nearest and easiest is Me." The date is most likely before or early in 1855.</note>             
 			</notesStmt>
 			<sourceDesc>
 				
@@ -64,6 +64,7 @@
 			</sourceDesc>
 		</fileDesc>
 		<revisionDesc>
+			<change when="2017-03-28" who="#nhg">edited note, work relations</change>
             <change when="2016-05-18" who="#bb">reconciled with EAD record</change>
             <change when="2016-05-18" who="#kmp">blessed</change>
 			<change when="2016-05-04" who="#nhg">checked, corrected</change>
@@ -81,7 +82,7 @@
 	
 	<ab>The most superb beauties <del rend="overstrike">and</del> are in the cheapest</ab>
 	
-	<ab>The <del rend="overstrike">most</del> <subst><del rend="overwrite" seq="1">b</del><add rend="overwrite" place="over" seq="2">d</add></subst>ivine<add rend="unmarked" place="inline">st</add> blessings are <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#kc">in</unclear></del> the commonest bestowed every where, and the <add rend="insertion" place="supralinear">most</add> superb<del rend="overstrike">est</del> beauties are the cheapest, the world over.&#8212;</ab>
+	<ab xml:id="q01">The <del rend="overstrike">most</del> <subst><del rend="overwrite" seq="1">b</del><add rend="overwrite" place="over" seq="2">d</add></subst>ivine<add rend="unmarked" place="inline">st</add> blessings are <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#kc">in</unclear></del> the commonest bestowed every where, and the <add rend="insertion" place="supralinear">most</add> superb<del rend="overstrike">est</del> beauties are the cheapest, the world over.&#8212;</ab>
 
 
 <pb xml:id="leaf001v" facs="duk_am.00236.jpg" type="verso"/>

@@ -3,8 +3,8 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00727">
 <relations>
-<work ref="xxx.00048">
-<p>The lines in this manuscript likely contributed to lines of the poem that would eventually be titled "Song of Myself," particularly the lines that read "Logic and sermons never convince, / The damp of the night drives deeper into my soul."</p>
+<work ref="xxx.00048" cert="low">
+<p>This manuscript may have contributed to the poem eventually titled "Song of Myself," particularly the lines that read "Logic and sermons never convince, / The damp of the night drives deeper into my soul" (1855, p. 33).</p>
 </work>
 </relations>
     <teiHeader>
@@ -21,7 +21,7 @@
                     <persName xml:id="es">Jeannette Schollaert</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -52,7 +52,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">The lines in this manuscript likely contributed to lines of the poem that would eventually be titled "Song of Myself." The date of the manuscript is therefore before or early in 1855.</note>             
+                <note type="project" target="#dat1">Because the manuscript has not been located it is difficult to speculate on the circumstances or date of its composition, but some of the wording in the manuscript calls to mind the poem eventually titled "Song of Myself." The date of the manuscript is therefore probably before or early in 1855.</note>             
             </notesStmt>
             <sourceDesc>
                 <biblStruct>
@@ -68,7 +68,7 @@
                             <biblScope type="volume">1</biblScope>
                         </imprint>
                     </monogr>
-                    <note type="project">Grier derives his text from <hi rend="italic">Walt Whitman's Workshop</hi>, ed. Clifton Furness (Cambridge, MA: Harvard University Press, 1928), 49.</note>
+                    <note type="project">Grier based his text on <hi rend="italic">Walt Whitman's Workshop</hi>, ed. Clifton Furness (Cambridge, MA: Harvard University Press, 1928), 49.</note>
                 </biblStruct>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -79,6 +79,8 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2017-03-01" who="#kmp">blessed</change>
+            <change when="2017-02-27" who="#nhg">edited editorial note</change>
             <change when="2016-07-13" who="#nhg">checked, corrected</change>
             <change when="2016-05-20" who="#km">checked</change>
             <change when="2016-02-16" who="#es">checked, corrected a word from Grier: "inspirits"</change>

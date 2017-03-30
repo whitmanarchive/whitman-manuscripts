@@ -3,8 +3,8 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00017">
     <relations>
-    <work ref="xxx.00243">
-        <p>The second paragraph of this manuscript contains phrases and ideas similar to lines from the poem "Miracles," in particular the phrase "Every hour of the day and night, and every acre of the earth and shore..."</p>
+    <work ref="xxx.00243" cert="low">
+        <p>The second paragraph of this manuscript includes <ref target="#q01" xml:id="r01" type="text">phrases and ideas</ref> similar to the following lines from the poem "Poem of Perfect Miracles," later titled "Miracles": "To me, every hour of the light and dark is a miracle, / Every inch of space is a miracle, / Every square yard of the surface of the earth is spread with the same" (1856, p. 280).</p>
     </work>
     </relations>
     <teiHeader>
@@ -48,7 +48,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Edward Grier dates the handwriting of this manuscript to the 1850s in <hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> (New York: New York University Press, 1984), 1:203. The second paragraph of the manuscript contains phrases and ideas similar to lines from the poem "Miracles," in particular the phrase "Every hour of the day and night, and every acre of the earth and shore."  "Miracles" was first published as "Poem of Perfect Miracles" in the 1856 edition of <hi rend="italic">Leaves of Grass</hi>.</note>            
+                <note type="project" target="#dat1">Based on the handwriting, Edward Grier dates this manuscript to the 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:203). The second paragraph of the manuscript includes phrases and ideas similar to lines from the poem "Miracles," which was first published as "Poem of Perfect Miracles" in the 1856 edition of <hi rend="italic">Leaves of Grass</hi>. An image of the verso is currently unavailable.</note>            
             </notesStmt>
             <sourceDesc>
                 <bibl>
@@ -62,6 +62,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2017-03-21" who="#nhg">edited work relations, editorial note</change>
             <change when="2016-12-06" who="#bb">reconciled with EAD record</change>
             <change when="2016-05-18" who="#kmp">blessed</change>
             <change when="2016-04-25" who="#nhg">corrected</change>
@@ -77,7 +78,7 @@
         <body>
             <pb xml:id="leaf001r" facs="Pa040068.jpg" type="recto"/>
             <p>Such boundless and affluent souls. . . . . . . bend your head in reverence, my man! they are met through all the strata of life.&#8212;Their centrifugal power of love, I think, makes the awfullest forces of nature stand back.&#8212;Its perennial blow the frost shall never touch; and what we call death shall go round outside it forever and ever.&#8212;</p>
-            <p>(Every hour of the day and night, and every <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#jc">song</unclear></del> acre of the earth and shore, and every point <subst><del rend="overstrike" seq="1">and</del> <add rend="insertion" place="supralinear" seq="2">or</add></subst> patch of the sea and sky, is full of <del rend="overstrike">beautiful</del> pictures.&#8212;No two of this immortal brood are alike; except that they <subst><del rend="overstrike" seq="1">all alike in their</del> <add rend="insertion" place="supralinear" seq="2">are all <del rend="overstrike" seq="3">alike</del> of</add></subst> unspeakable beauty and perfection, and <add rend="insertion" place="supralinear">large and small,</add> alike, descend into that greedy Something in Man whose appetite, <add rend="insertion" place="supralinear">is more</add> undying than hope, and more <del rend="overstrike">ravenous</del> insatiate than the sand <subst><del rend="overstrike" seq="1">is  <gap reason="illegible" extent="one word" unit="chars" atLeast="3"/></del> <add rend="unmarked" place="supralinear" seq="2">with</add></subst> water, <del rend="overstrike">appears at his side <add rend="unmarked" place="supralinear">with</add> <unclear reason="illegible" resp="#km" cert="medium" quantity="2" unit="chars">at</unclear> his holy baldness flits at his side like a ghost</del>)</p>
+            <p><seg xml:id="q01">(Every hour of the day and night, and every <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#jc">song</unclear></del> acre of the earth and shore, and every point <subst><del rend="overstrike" seq="1">and</del> <add rend="insertion" place="supralinear" seq="2">or</add></subst> patch of the sea and sky, is full of <del rend="overstrike">beautiful</del> pictures.</seg>&#8212;No two of this immortal brood are alike; except that they <subst><del rend="overstrike" seq="1">all alike in their</del> <add rend="insertion" place="supralinear" seq="2">are all <del rend="overstrike" seq="3">alike</del> of</add></subst> unspeakable beauty and perfection, and <add rend="insertion" place="supralinear">large and small,</add> alike, descend into that greedy Something in Man whose appetite, <add rend="insertion" place="supralinear">is more</add> undying than hope, and more <del rend="overstrike">ravenous</del> insatiate than the sand <subst><del rend="overstrike" seq="1">is  <gap reason="illegible" extent="one word" unit="chars" atLeast="3"/></del> <add rend="unmarked" place="supralinear" seq="2">with</add></subst> water, <del rend="overstrike">appears at his side <add rend="unmarked" place="supralinear">with</add> <unclear reason="illegible" resp="#km" cert="medium" quantity="2" unit="chars">at</unclear> his holy baldness flits at his side like a ghost</del>)</p>
         </body>
         
     </text>

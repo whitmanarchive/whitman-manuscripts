@@ -4,11 +4,8 @@
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00110">
 <relations>
 <work ref="xxx.00110" cert="high">
-<p>It is possible that <ref type="text" xml:id="r01" target="#q01 #q02">this manuscript</ref> is an early draft of lines from the poem that was eventually titled "Salut au Monde!," first published as "Poem of Salutation" in the 1856 edition of <hi rend="italic">Leaves of Grass</hi>. In the poem, Whitman writes "I see where druids walk'd the groves of Mona ... / I see Christ eating the bread of his last supper in the midst of youths and old persons," (1891, p. 115&#8211;116).</p>
+<p>It is possible that <ref type="text" xml:id="r01" target="#q01 #q02">lines in this manuscript</ref> represent an early draft of lines from the poem that was eventually titled "Salut au Monde!," first published as "Poem of Salutation" in the 1856 edition of <hi rend="italic">Leaves of Grass</hi>. In the poem, Whitman writes "I see where druids walk'd the groves of Mona ... / I see Christ eating the bread of his last supper in the midst of youths and old persons," (1891, p. 115&#8211;116).</p>
 </work>
-    <work ref="xxx.00048" cert="low">
-        <p>Words from this manuscript are suggestive of section 43 of the poem that would become "Song of Myself," where Whitman writes of "priests, all time, the world over," "Making a fetich of the first rock or stump, powowing with sticks in the circle of obis" (1891, p. 69).</p>
-    </work>
 </relations>
     <teiHeader>
         <fileDesc>
@@ -24,7 +21,7 @@
                     <persName xml:id="es">Jeannette Schollaert</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -56,7 +53,7 @@
                     <author>Walt Whitman</author>
                     <title rend="bracketed">something that presents the sentiment</title>
                     <idno type="callno">MSCol 1767</idno>
-                    <date xml:id="dat1" notBefore="1850" notAfter="1856" cert="medium">Between 1850 and 1856</date>
+                    <date xml:id="dat1" notBefore="1850" notAfter="1856" cert="medium">Before 1856</date>
                     <orgName xml:id="nyp">The Oscar Lion Papers, 1914&#8211;1955, New York Public Library, New York, N.Y.</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
@@ -69,6 +66,7 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
+            <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-09-12" who="#nhg">corrected</change>
             <change when="2016-07-19" who="#nhg">checked, corrected</change>
             <change when="2016-06-30" who="#km">checked</change>

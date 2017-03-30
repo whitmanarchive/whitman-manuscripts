@@ -2,9 +2,12 @@
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00889">
     <relations>
         <work ref="xxx.00266" cert="high">
-            <p>The lines are drafts of lines from the third poem of
+            <p><ref target="#q01" xml:id="r01" type="text">This line</ref> is a draft of a line from the third poem of
                 the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of
-                Grass</hi>, ultimately titled "To Think of Time."</p>
+                Grass</hi>, ultimately titled "To Think of Time": "The prostitute is not nothing . . . . the mocker of religion is not nothing as he goes" (1855, p. 68). The line does not appear in the final version of the poem.</p>
+        </work>
+        <work ref="xxx.00430" cert="low">
+            <p>The words "<ref target="#q02" xml:id="r02" type="text">attraction of gravity</ref>" in this manuscript appear in two contexts in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. The closest in meaning to the context that appears in this manuscript is in the poem that would later be titled "Great Are the Myths": "It cannot be varied by statutes, any more than love, pride, the attraction of gravity, can" (1855, p. 251).</p>
         </work>
     </relations>
     <teiHeader>
@@ -18,13 +21,14 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="nhg">Nicole Gray</persName>
+                    
                     <persName xml:id="aj">Andrew Jewell</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
                     <persName xml:id="nk">Nick Krauter</persName>
                     <persName xml:id="lr">Lisa Renfro</persName>
                     <persName xml:id="hm">Heather Morton</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -54,7 +58,7 @@
             </publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">This manuscript was likely written between <date notBefore="1850" notAfter="1855">1850 and 1855</date> when Whitman was composing his first
-                    edition of <hi rend="italic">Leaves of Grass</hi>. It includes drafts of lines from the third poem of
+                    edition of <hi rend="italic">Leaves of Grass</hi>. It includes a draft of a line from the third poem of
                     the <date when="1855">1855</date> edition, a poem ultimately titled "To Think of Time."</note>
             </notesStmt>
             <sourceDesc>
@@ -95,7 +99,7 @@
             <pb facs="duk.00032.002.jpg" xml:id="leaf001r" type="recto"/>
             <div1 type="poem"><lg type="poem">
                 <delSpan rend="hashmark" spanTo="#d2"/>
-                <l>Are the prostitutes nothing? Are the
+                <l xml:id="q01">Are the prostitutes nothing? Are the
                     <lb/>mockers of religion nothing?
                 </l>
                 <note place="left" type="authorial" target="#s1">?</note>
@@ -103,7 +107,7 @@
                 <del rend="overstrike"><l>
                         Does the light or heat pick out? Does
                     
-                    <lb/>the attraction <add place="supralinear" rend="unmarked">o</add> of <add place="supralinear" rend="insertion">gravity</add> pick out?
+                    <lb/>the <seg xml:id="q02">attraction <add place="supralinear" rend="unmarked">o</add> of <add place="supralinear" rend="insertion">gravity</add></seg> pick out?
                     
                 </l></del>
                 <anchor xml:id="s2"/>

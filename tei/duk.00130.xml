@@ -3,11 +3,11 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00130">
     <relations>
-        <work ref="xxx.00526">
-            <p>A manuscript in which Whitman describes his views on style and composition. His discussion about the importance of a lack of "ornament" in literature is similar to lines from the preface to the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>.</p>
+        <work ref="xxx.00526" cert="low">
+            <p>A manuscript in which Whitman describes his views on style and composition. His discussion about the importance of a lack of "ornament" in literature is similar to lines from the preface to the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>: "Of ornaments to a work nothing outre can be allowed . . but those ornaments can be allowed that conform to the perfect facts of the open air and that flow out of the nature of the work and come irrepressibly from it and are necessary to the completion of the work. Most works are most beautiful without ornament . . . " (1855, p. ix).</p>
         </work>
-        <work ref="xxx.00419">
-            <p>Whitman reworked some of those ideas on ornament and they appear in the poem "Says" in the 1860 edition of <hi rend="italic">Leaves</hi>. The poem would later be retitled "Suggestions" and was retained in <hi rend="italic">Leaves</hi> until 1872 and thereafter was excluded.</p>
+        <work ref="xxx.00419" cert="low">
+            <p>Whitman reworked some of those ideas on ornament and they appear in the poem "Says" in the 1860 edition of <hi rend="italic">Leaves</hi>: "I say for ornaments nothing outre can be allowed, / And that anything is most beautiful without ornament" (1860, p. 419). The poem was later retitled "Suggestions" and was retained in <hi rend="italic">Leaves</hi> until 1872 and thereafter was excluded.</p>
         </work>
     </relations>
     <teiHeader>
@@ -24,7 +24,9 @@
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -49,7 +51,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">In this manuscript (likely from the early 1850s), Whitman describes his views on style and composition. His discussion about the importance of a lack of "ornament" in literature is similar to lines from the preface to the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Whitman reworked some of those ideas on ornament and they appear in the poem "Says" in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>. The poem would later be retitled "Suggestions" and was retained in <hi rend="italic">Leaves of Grass</hi> until 1872 and thereafter was excluded.</note>             
+                <note type="project" target="#dat1">Based on the handwriting, Edward Grier dates this manuscript to the early 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:101). The discussion about the importance of a lack of "ornament" in literature is similar to lines from the preface to the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Whitman reworked some of those ideas on ornament and they appear in the poem "Says" in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>             
             </notesStmt>
             <sourceDesc>
                 <bibl>
@@ -62,7 +64,10 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+        <revisionDesc>
+            <change when="2017-03-21" who="#nhg">edited work relations information</change>
+            <change when="2017-02-13" who="#bb">reconciled with EAD record</change>
+            <change when="2016-05-18" who="#kmp">blessed</change>
             <change when="2016-04-01" who="#nhg">checked, corrected</change>
             <change when="2016-03-16" who="#km">added date info to bibl</change>
             <change when="2016-02-24" who="#km">checked</change>

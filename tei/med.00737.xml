@@ -4,7 +4,7 @@
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00737">
 <relations>
 <work ref="xxx.00526" cert="low">
-<p>The manuscript is written as aphoristic fragments connected by elipses, in the manner of the Preface to the first edition of <hi rend="italic">Leaves of Grass</hi> (1855)</p>
+    <p>As rendered by earlier editors, the manuscript is written as aphoristic fragments connected by ellipses, in the manner of the preface to the first edition of <hi rend="italic">Leaves of Grass</hi> (1855). The thought is similar to this line from the preface: "The poetic quality is not marshalled in rhyme or uniformity or abstract addresses to things nor in melancholy complaints or good precepts, but is the life of these and much else and is in the soul" (1855, p. v).</p>
 </work>
 </relations> 
     <teiHeader>
@@ -22,7 +22,7 @@
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -53,7 +53,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Because the manuscript has not been located it is difficult to speculate on the circumstances or date of its composition. Edward Grier notes that "[t]he thought and the punctuation suggest the Preface of 1855," so it is likely that the composition date was before or early in 1855.</note>             
+                <note type="project" target="#dat1">Because the manuscript has not been located it is difficult to speculate on the circumstances or date of its composition. The discussion of "the poetic quality" and the punctuation (at least as rendered by earlier editors) are similar to the 1855 Preface to <hi rend="italic">Leaves of Grass</hi>, so it is possible that the composition date was before or early in 1855.</note>             
             </notesStmt>
             <sourceDesc>
                 <biblStruct>
@@ -69,17 +69,19 @@
                             <biblScope type="volume">4</biblScope>
                         </imprint>
                     </monogr>
-                    <note type="project">Grier derives this text from <hi rend="italic">Notes &#038; Fragments</hi>, ed. Richard Maurice Bucke (London, Ontario: A. Talbot &amp; Co., printers, 1899), 124.</note>
+                    <note type="project">Grier based his text on <hi rend="italic">Notes and Fragments</hi>, ed. Richard Maurice Bucke (London, Ontario: A. Talbot &amp; Co., printers, 1899), 124.</note>
                 </biblStruct>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title rend="bracketed">One Obligation</title>  
-                    <date xml:id="dat1" notBefore="1850" notAfter="1855" cert="medium">Before or early in 1855</date>
+                    <date xml:id="dat1" notBefore="1840" notAfter="1855" cert="low">Before or early in 1855</date>
                     <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2017-03-09" who="#kmp">blessed</change>
+            <change when="2017-03-09" who="#nhg">edited date range</change>
             <change when="2016-12-08" who="#bb">reconciled with EAD record; added Work ID</change>
             <change when="2016-09-12" who="#nhg">corrected</change>
             <change when="2016-07-14" who="#nhg">checked, corrected</change>

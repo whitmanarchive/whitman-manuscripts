@@ -2,6 +2,11 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00104">
+    <relations>
+        <work ref="xxx.00430" cert="low">
+            <p>The words and topic of this manuscript are similar to the following lines from the poem that would later be titled "Great are the Myths": "Great is the earth, and the way it became what it is, / Do you imagine it is stopped at this? . . . . and the increase abandoned? / Understand then that it goes as far onward from this as this is from the times when it lay in covering waters and gases" (1855, p. 94).</p>
+        </work>
+    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -42,12 +47,12 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">This manuscript is written on a scrap of wallpaper. Although it is cast in prose, this is probably an early draft of a group of lines, expressing similar thoughts, in "Great Are the Myths," which was first published as the final, untitled, poem of the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. Edward Grier includes an additional line at the end of the manuscript, taken from a transcription in Richard Maurice Bucke's <hi rend="italic">Notes and Fragments</hi> (1899): "That the Egyptian idea of the return of the soul after a certain period of time involved a beautiful [illegible] nature [illegible] mystery [illegible]"  (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi>, ed. Edward Grier [New York, New York University Press, 1984], 1:198). Grier speculates that the end of the manuscript with the additional line may have been clipped off at some point.  Based on the handwriting and "references to Egyptology," he dates the manuscript 1855 or earlier.</note>             
+                <note type="project" target="#dat1">This manuscript is written on a scrap of wallpaper. Although it is cast in prose, this may be an early draft of a group of lines, expressing similar thoughts, in "Great Are the Myths," which was first published as the final, untitled, poem of the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. Edward Grier includes an additional line at the end of the manuscript, taken from a transcription in Richard Maurice Bucke's <hi rend="italic">Notes and Fragments</hi> (1899): "That the Egyptian idea of the return of the soul after a certain period of time involved a beautiful [illegible] nature [illegible] mystery [illegible]"  (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi>, ed. Edward Grier [New York, New York University Press, 1984], 1:198). Grier speculates that the end of the manuscript with the additional line may have been clipped off at some point.  Based on the handwriting and "references to Egyptology," he dates the manuscript 1855 or earlier.</note>             
             </notesStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
-                    <date cert="medium" notBefore="1850" notAfter="1855">1855 or earlier</date>
+                    <date cert="medium" notBefore="1845" notAfter="1855">1855 or earlier</date>
                     <title rend="bracketed">poet of Materialism</title>                  
                     <idno type="callno">MS 4to 44</idno>
                     <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
@@ -55,6 +60,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2017-03-29" who="#nhg">edited editorial note</change>
             <change when="2016-12-07" who="#bb">reconciled with EAD record</change>
             <change when="2016-05-18" who="#kmp">blessed</change>
             <change when="2016-03-02" who="#nhg">checked, corrected</change>

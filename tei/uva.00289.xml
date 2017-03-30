@@ -2,7 +2,14 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00289">
-    
+    <relations>
+        <work ref="xxx.00259" cert="high">
+            <p>This manuscript was probably early notes toward the manuscript poem "Pictures,"<!--xxx.00614--> first published posthumously in 1925. That poem includes the following lines: "And here again, this picture tells a story of the Olympic games, / See you, the chariot races? See you, the boxers boxing, and the runners running?" and "This, again, is a Spanish bull-fight&#8212;see, the animal with bent head, fiercely advancing" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi>, ed. Edward F. Grier [New York: New York University Press, 1984], 4:1298&#8211;1300). Part of "Pictures" was published as "My Picture-Gallery" in <hi rend="italic">The American</hi> in October 1880 and later incorporated into <hi rend="italic">Leaves of Grass</hi>.</p>
+        </work>
+        <work ref="xxx.00110" cert="low">
+            <p>This note may also relate to the images described in "Poem of Salutation," first published in the 1856 edition of <hi rend="italic">Leaves of Grass</hi> and later retitled "Salut au Monde!" See in particular the following lines: "You citizen of Prague! you Roman! Napolitan! Greek! / You lithe matador in the arena at Seville!" (1856, p. 117).</p>
+        </work>
+    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -18,7 +25,7 @@
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -43,7 +50,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Edward Grier notes that the poem proposed here is likely related to both "Pictures," a lengthy manuscript poem held at the Beinecke Library at Yale University that was probably written in the mid- to late-1850s, and "Poem of Salutation," first published in the 1856 edition of <hi rend="italic">Leaves of Grass</hi> and later retitled "Salut au Monde!" Therefore, the date of this manuscript is likely before 1855.</note>             
+                <note type="project" target="#dat1">The poem proposed here is likely related to both "Pictures," a lengthy manuscript poem held at the Beinecke Library at Yale University that was probably written in the mid- to late-1850s, and "Poem of Salutation," first published in the 1856 edition of <hi rend="italic">Leaves of Grass</hi> and later retitled "Salut au Monde!" Therefore, the date of this manuscript is probably before 1856.</note>             
             </notesStmt>
             <sourceDesc>
                 
@@ -51,13 +58,15 @@
                     <author>Walt Whitman</author>
                     <title>Leaves of Grass, [ca. 1855&#8211;1856], AMs, 12 fragments on 7 leaves</title>                  
                     <idno type="callno">MSS 3829, Box 1, Folder 49</idno>
-                    <date xml:id="dat1" notBefore="1850" notAfter="1855" cert="medium">Before 1855</date>
+                    <date xml:id="dat1" notBefore="1850" notAfter="1856" cert="medium">Before 1856</date>
                     <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2017-03-01" who="#kmp">blessed</change>
+            <change when="2017-03-16" who="#nhg">edited editorial note, added work relations info</change>
             <change when="2016-07-26" who="#nhg">checked, corrected</change>
             <change when="2016-07-20" who="#km">checked</change>
             <change when="2015-04-02" who="#jc">checked</change>
@@ -69,16 +78,7 @@
 <text type="manuscript">
 <body>
 <pb xml:id="leaf001r" facs="uva.00289.001.jpg" type="recto"/>
-    
-<div1 type="poem_notes">
-    <relations>
-        <work ref="xxx.00614" cert="high">
-            <p>This manuscript was probably early notes toward the manuscript poem "Pictures," first published posthumously in 1925. That poem includes the following lines: "And here again, this picture tells a story of the Olympic games, / See you, the chariot races? See you, the boxers boxing, and the runners running?" and "This, again, is a Spanish bull-fight&#8212;see, the animal with bent head, fiercely advancing" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi>, ed. Edward F. Grier [New York: New York University Press, 1984], 4:1298&#8211;1300).</p>
-        </work>
-        <work ref="xxx.00110" cert="low">
-            <p>This note may relate to the images described in "Poem of Salutation," first published in the 1856 edition of <hi rend="italic">Leaves of Grass</hi> and later retitled "Salut au Monde!"</p>
-        </work>
-    </relations>
+   
 <head type="main"><add rend="unmarked" place="supralinear">Poem
 of</add> <hi rend="underline">Pictures</hi></head>
     
@@ -88,7 +88,7 @@ of</add> <hi rend="underline">Pictures</hi></head>
 
 <note type="authorial" place="bottom" rend="circled">Spanish bull fight</note>
 
-</div1>
+
     <pb xml:id="leaf001v" facs="uva_jc.00119.jpg" type="verso"/>
 </body>
 </text>

@@ -3,7 +3,7 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.05641">
     <relations>
-        <work ref="xxx.00048" cert="high"><p>The words that appear near the beginning of this scrap are similar to a line from "Song of Myself," in which Whitman writes "What is commonest and cheapest and nearest and easiest is Me."</p></work>
+        <work ref="xxx.00048" cert="high"><p><ref target="q01" xml:id="r01" type="text">The words that appear near the beginning of this scrap</ref> are similar to a line from "Song of Myself," in which Whitman writes "What is commonest and cheapest and nearest and easiest is Me" (1855, p. 21).</p></work>
     </relations>
     <teiHeader>
         <fileDesc>
@@ -19,7 +19,7 @@
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -68,6 +68,8 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
+            <change when="2017-03-01" who="#kmp">blessed</change>
+            <change when="2017-02-27" who="#nhg">expanded work relations information</change>
             <change when="2016-07-13" who="#nhg">checked, corrected</change>
             <change when="2016-05-06" who="#km">checked</change>
             <change when="2015-01-30" who="#jc">checked; revised repository information in header</change>
@@ -79,7 +81,7 @@
       <body>
             <pb xml:id="leaf001r" facs="loc_nk.00572.jpg" type="recto"/>
             
-          <p><gap reason="cut away" unit="chars" atLeast="1"/><handShift new="#h1"/> Truly, what is commonest, readiest <add rend="unmarked" place="supralinear"><handShift new="#h2"/>?</add><handShift new="#h1"/>, cheapest, <del rend="overstrike">of our lives,</del> is often the profoundest, the most curious&#8212;has its beginnings the farthest back, and is the hardest problem for thought or science. <gap reason="cut away" unit="chars" atLeast="2"/> </p>
+          <p><gap reason="cut away" unit="chars" atLeast="1"/><handShift new="#h1"/> <seg xml:id="q01">Truly, what is commonest, readiest <add rend="unmarked" place="supralinear"><handShift new="#h2"/>?</add><handShift new="#h1"/>, cheapest, <del rend="overstrike">of our lives,</del> is often the profoundest, the most curious&#8212;has its beginnings the farthest back, and is the hardest problem for thought or science.</seg> <gap reason="cut away" unit="chars" atLeast="2"/> </p>
           <milestone unit="glued"/>
           <note type="archival" resp="#unk" place="left">X</note>
           <note type="archival" resp="#unk" place="left">456 A</note>

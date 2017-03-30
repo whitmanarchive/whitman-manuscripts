@@ -5,7 +5,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title level="m" type="main">Song In Poem of kisses</title>
+				<title level="m" type="main">In Poem Song of kisses</title>
 				<title level="m" type="sub">a machine readable transcription</title>
 				<author>Walt Whitman</author>
 				<editor>Kenneth M. Price</editor>
@@ -17,7 +17,7 @@
 					<persName xml:id="kc">Kirsten Clawson</persName>
 					<persName xml:id="km">Kevin McMullen</persName>
 					<persName xml:id="nhg">Nicole Gray</persName>
-				</respStmt>
+				<persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
 				<sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
 				<sponsor>University of Iowa</sponsor>
 				<funder>The National Endowment for the Humanities</funder>
@@ -42,7 +42,7 @@
 				</availability>
 			</publicationStmt>
 			<notesStmt>
-				<note type="project" target="#dat1">Edward Grier notes that this manuscript is likely related to "<ref target="uva.00301">Poem of Kisses</ref>."  Based on the handwriting, he dates it before 1860 (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 4:1345).</note>             
+				<note type="project" target="#dat1">Based on the handwriting, Edward Grier dates this manuscript to before 1860 (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 4:1345).</note>             
 			</notesStmt>
 			<sourceDesc>
 				
@@ -50,13 +50,15 @@
 					<author>Walt Whitman</author>
 					<title>"Studies in Womanhood," [ca. 1850&#8211;1860]</title>                  
 					<idno type="callno">MSS 3829, Box 2, Folder 2</idno>
-					<date xml:id="dat1" notBefore="1850" notAfter="1856" cert="medium">Before or early in 1856</date>
+					<date xml:id="dat1" notBefore="1850" notAfter="1860" cert="low">Before 1860</date>
 					<orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
 					<note type="project">Transcribed from digital images of the original.</note>
 				</bibl>
 			</sourceDesc>
 		</fileDesc>
 		<revisionDesc>
+			<change when="2017-03-01" who="#kmp">blessed</change>
+			<change when="2017-03-21" who="#nhg">edited date, note</change>
 			<change when="2016-07-26" who="#nhg">checked, corrected</change>
 			<change when="2016-07-20" who="#km">checked</change>
 			<change when="2015-01-24" who="#jc">checked; revised repository information in header</change>

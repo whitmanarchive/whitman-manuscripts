@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main" rend="bracketed">names the Niam-Niams</title>
+                <title level="m" type="main" rend="bracketed">names</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -14,6 +14,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -46,7 +47,7 @@
                     <author>Walt Whitman</author>
                     <title>Untitled holograph manuscripts and fragments</title>                  
                     <idno type="callno">MSS 202, Box 3, Folder 140</idno>
-                    <date xml:id="dat1" notBefore="1850" notAfter="1881" cert="low">Between 1850 and 1881</date>
+                    <date xml:id="dat1" notBefore="1850" notAfter="1881" cert="medium">Between 1850 and 1881</date>
                     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
@@ -60,6 +61,8 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
+            <change when="2017-03-29" who="#kmp">blessed</change>
+            <change when="2017-02-06" who="#km">corrected WWA title</change>
             <change when="2016-08-02" who="#nhg">checked, corrected</change>
             <change when="2016-07-22" who="#km">transcribed, encoded</change>
         </revisionDesc>

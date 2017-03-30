@@ -3,14 +3,14 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00128">
     <relations>
-        <work ref="xxx.00526">
-            <p>Notes that anticipate the preface to the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>.</p>
+        <work ref="xxx.00526" cert="low">
+            <p>These notes, labeled "For preface," anticipate the many references to the "greatest poet" in the preface to the first (1855) edition of <hi rend="italic">Leaves of Grass</hi> (see for instance p. vi).</p>
         </work>
-        <work ref="xxx.00113">
-            <p>Lines from the first leaf appeared in a slightly different form in the poem ultimately titled "Song of the Answerer."</p>
+        <work ref="xxx.00113" cert="high">
+            <p><ref xml:id="r01" target="#q01" type="text">Lines from the first leaf</ref> appeared in a slightly different form in "Poem of The Singers, and of The Words of Poems" in the 1856 edition of <hi rend="italic">Leaves</hi> (a poem later titled "Song of the Answerer"): "The words of poems give you more than poems, / They give you to form for yourself poems, religions, politics, war, peace, behaviour, histories, essays, romances, and every thing else" (p. 264).</p>
         </work>
-        <work ref="xxx.00221">
-            <p>The stated desire for "satisfiers" and "lovers" (found here on the bottom of the second leaf) appears in "Poem of Many in One," also first published in the 1856 edition and later titled "By Blue Ontario's Shore."</p>
+        <work ref="xxx.00221" cert="low">
+            <p><ref target="#q02" xml:id="r02" type="text">The stated desire for "satisfiers" and "lovers"</ref> appears in "Poem of Many in One," also first published in the 1856 edition and later titled "By Blue Ontario's Shore": "People's lips salute only doers, lovers, satisfiers, positive knowers" (p. 195).</p>
         </work>
     </relations>
     <teiHeader>
@@ -54,13 +54,13 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">This manuscript, likely written in the early 1850s, contains notes that anticipate the preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. Lines from the first leaf appeared in a slightly different form in "Poem of The Singers, and of The Words of Poems" in the 1856 edition of <hi rend="italic">Leaves</hi> (a poem later titled "Song of the Answerer"). The stated desire for "satisfiers" and "lovers" (found here on the bottom of the second leaf) appears in "Poem of Many in One," also first published in the 1856 edition and later titled "By Blue Ontario's Shore." When Richard Maurice Bucke printed a transcription of this manuscript, he added the following words to the end of leaf 2 recto: "These frothing, maddening waves are to be" (<hi rend="italic">Notes and Fragments</hi> [London, Ontario: A. Talbot &amp; Co., 1899], 129).  The words do not appear on the manuscript. Edward Grier notes that Floyd Stovall has tied material on the third leaf to Whitman's "reading of H. N. Hudson's 'Thoughts on Reading,' <hi rend="italic">American Whig Review</hi>, 1 (May 1845), 483&#8211;496, which he clipped and annotated" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:95). </note>             
+                <note type="project" target="#dat1">This manuscript, likely written in the early to mid-1850s, includes notes that anticipate the preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. Lines from the first leaf appeared in a slightly different form in "Poem of The Singers, and of The Words of Poems" in the 1856 edition of <hi rend="italic">Leaves</hi> (a poem later titled "Song of the Answerer"). The stated desire for "satisfiers" and "lovers" (found here on the bottom of the second leaf) appears in "Poem of Many in One," also first published in the 1856 edition and later titled "By Blue Ontario's Shore." When Richard Maurice Bucke printed a transcription of this manuscript, he added the following words to the end of leaf 2 recto: "These frothing, maddening waves are to be" (<hi rend="italic">Notes and Fragments</hi> [London, Ontario: A. Talbot &amp; Co., 1899], 129).  The words do not appear on the manuscript. Edward Grier notes that Floyd Stovall has connected material on the third leaf to Whitman's "reading of H. N. Hudson's '<ref target="duk.00081">Thoughts on Reading</ref>,' <hi rend="italic">American Whig Review</hi>, 1 (May 1845), 483&#8211;496, which he clipped and annotated" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:95). </note>             
             </notesStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>(Of the great poet) (Finally) For preface</title>
-                    <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">1855 or before</date>
+                    <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1856">About 1855</date>
                     <idno type="callno">MS 4to 69</idno>
                     <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
@@ -68,6 +68,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2017-02-28" who="#nhg">added work relations encoding</change>
             <change when="2016-05-18" who="#bb">reconciled with EAD record</change>
             <change when="2016-05-18" who="#kmp">blessed</change>
             <change when="2016-04-25" who="#nhg">made Ken's corrections</change>
@@ -98,7 +99,7 @@
             
             <note type="authorial" place="left">? (or) (Finally) (It is not that he gives you <add rend="unmarked" place="supralinear">his country</add>)</note><!-- This note is written on the same line as the preceding milestone -->
             
-            <p>He does not give you the usual poems and metaphysics.&#8212;He gives you <del rend="overstrike">the</del> materials for you to form for yourself <del rend="overstrike"><add rend="unmarked" place="supralinear">the</add></del> poems, <del rend="overstrike">and</del> metaphysics, <subst><add rend="insertion" place="supralinear" seq="2">politics, behaviour,</add> <del rend="overstrike" seq="1">and</del></subst> histories <del rend="overstrike">and</del> romances, <del rend="overstrike">and</del> essays and every thing else.&#8212;<del rend="erasure"><unclear reason="illegible" resp="#km" cert="low">that</unclear> literature <gap reason="illegible" atLeast="1" unit="chars"/> <add rend="insertion" place="supralinear">can</add> embody</del></p>
+            <p><seg xml:id="q01">He does not give you the usual poems and metaphysics.&#8212;He gives you <del rend="overstrike">the</del> materials for you to form for yourself <del rend="overstrike"><add rend="unmarked" place="supralinear">the</add></del> poems, <del rend="overstrike">and</del> metaphysics, <subst><add rend="insertion" place="supralinear" seq="2">politics, behaviour,</add> <del rend="overstrike" seq="1">and</del></subst> histories <del rend="overstrike">and</del> romances, <del rend="overstrike">and</del> essays and every thing else.</seg>&#8212;<del rend="erasure"><unclear reason="illegible" resp="#km" cert="low">that</unclear> literature <gap reason="illegible" atLeast="1" unit="chars"/> <add rend="insertion" place="supralinear">can</add> embody</del></p>
             
             <pb xml:id="leaf001v" facs="duk_am.00273.jpg" type="verso"/>
             
@@ -112,7 +113,7 @@
             
             <p>What is wanted is not <del rend="overstrike">questionings</del> inquiries and reviews and</p>
             
-            <p>&#8212;We want satisfiers, joiners, <del rend="overstrike">compacters</del>, lovers.&#8212;Th<subst><del rend="overwrite" seq="1">is</del><add rend="overwrite" place="over" seq="2">ese</add></subst> heated, torn, distracted ages are to be compacted and made whole.&#8212;</p>
+            <p>&#8212;<seg xml:id="q02">We want satisfiers, joiners, <del rend="overstrike">compacters</del>, lovers.</seg>&#8212;Th<subst><del rend="overwrite" seq="1">is</del><add rend="overwrite" place="over" seq="2">ese</add></subst> heated, torn, distracted ages are to be compacted and made whole.&#8212;</p>
             
             <pb xml:id="leaf002v" facs="duk_am.00274.jpg" type="verso"/>
             

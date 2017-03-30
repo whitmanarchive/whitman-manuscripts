@@ -3,7 +3,7 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00735">
     <relations>
-        <work ref="xxx.00115"><p>The last two phrases of this manuscript were used in the "Poem of Joys," first published in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>: "The memory of only one look&#8212;the boy lingering and waiting" (p. 261). The poem was retitled "Poems of Joy" in the 1867 edition. In 1871, when the poem appeared in the volume <hi rend="italic">Passage to India</hi>, this line had been deleted and the original title restored. Some copies of the 1871&#8211;1872 edition of <hi rend="italic">Leaves of Grass</hi> include the sheets from that volume. In subsequent editions, the poem was retitled "A Song of Joys."</p></work>
+        <work ref="xxx.00115" cert="high"><p>The <ref target="#q01" xml:id="r01" type="text">last two phrases</ref> of this manuscript were used in the "Poem of Joys," first published in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>: "The memory of only one look&#8212;the boy lingering and waiting" (p. 261). The poem was retitled "Poems of Joy" in the 1867 edition. In 1871, when the poem appeared in the volume <hi rend="italic">Passage to India</hi>, this line had been deleted and the original title restored. Some copies of the 1871&#8211;1872 edition of <hi rend="italic">Leaves of Grass</hi> include the sheets from that volume. In subsequent editions, the poem was retitled "A Song of Joys."</p></work>
     </relations>
     <teiHeader>
         <fileDesc>
@@ -20,7 +20,7 @@
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -67,17 +67,18 @@
                             <biblScope type="volume">4</biblScope>
                         </imprint>
                     </monogr>
-                    <note type="project">Grier derives his text from <hi rend="italic">Notes &#038; Fragments</hi>, ed. Richard Maurice Bucke (London, Ontario: A. Talbot &amp; Co., printers, 1899), 142.</note>
+                    <note type="project">Grier based his text on <hi rend="italic">Notes and Fragments</hi>, ed. Richard Maurice Bucke (London, Ontario: A. Talbot &amp; Co., printers, 1899), 142.</note>
                 </biblStruct>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title rend="bracketed">Poem of the Universalities</title>  
-                    <date xml:id="dat1" notBefore="1850" notAfter="1860" cert="low">About 1860</date>
+                    <date xml:id="dat1" notBefore="1850" notAfter="1860" cert="medium">Between 1850 and 1860</date>
                     <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-12-07" who="#bb">reconciled with EAD record</change>
             <change when="2016-07-14" who="#nhg">checked, corrected</change>
             <change when="2016-05-24" who="#km">checked</change>
@@ -88,9 +89,9 @@
 
     <text type="manuscript">
         <body>
-            <p>Poem of the Universalities. Poem of the Universal likenesses of all men&#8212;humanity. Though the times, climes, differ, men do not so much differ. There <hi rend="italic">is</hi> a universal language. What is heroic is universal among men. Love is universal among <gap reason="unknown" atLeast="1" unit="chars"/>. Liberty is&#8212;justice is&#8212;the hatred of meanness is&#8212;etc.</p>
+            <p>Poem of the Universalities. Poem of the Universal likenesses of all men&#8212;humanity. Though the times, climes, differ, men do not so much differ. There <hi rend="italic">is</hi> a universal language. What is heroic is universal among men. Love is universal among <unclear reason="bracketed" cert="low" resp="#nhg">men</unclear>. Liberty is&#8212;justice is&#8212;the hatred of meanness is&#8212;etc.</p>
             
-            <p>Poem of the Longings of Friendship. Pictures of Friendship&#8212;the hankering for friends&#8212;the memory of only a look&#8212;the boy lingering and waiting.</p>
+            <p>Poem of the Longings of Friendship. Pictures of Friendship&#8212;the hankering for friends&#8212;<seg xml:id="q01">the memory of only a look&#8212;the boy lingering and waiting.</seg></p>
         </body>
     </text>
 </TEI>

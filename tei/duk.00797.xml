@@ -3,8 +3,8 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00797">
    <relations>
-      <work ref="xxx.00048">
-         <p>The second paragraph of this prose manuscript contains lines which appeared in a slightly altered form in the first poem of the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, which was ultimately titled "Song of Myself."</p>
+      <work ref="xxx.00048" cert="high">
+         <p><ref target="#q01" xml:id="r01" type="text">The second paragraph of this prose manuscript</ref> consists of lines that appeared in a slightly altered form in the first poem of the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, which was ultimately titled "Song of Myself": "Backward I see in my own days where I sweated through fog with linguists and contenders, / I have no mockings or arguments . . . . I witness and wait" (1855, p. 15).</p>
       </work>
    </relations>
    <teiHeader>
@@ -47,7 +47,7 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note type="project" target="#dat1">The second paragraph of this prose manuscript contains lines which appeared in a slightly altered form in the first poem of the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, the poem ultimately titled "Song of Myself." The date must therefore be in or before 1855.</note>
+            <note type="project" target="#dat1">The second paragraph of this prose manuscript appeared in a slightly altered form in the first poem of the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, the poem ultimately titled "Song of Myself." The date must therefore be in or before 1855.</note>
          </notesStmt>
          <sourceDesc>
             <bibl>
@@ -59,12 +59,13 @@
                <note type="project">Transcribed from digital images of the original.</note>
                <relatedItem xml:id="rel1" type="text" target="duk.00007"/>
                <relatedItem type="document" target="wwa.00079"/>
-               <note type="project" target="#rel1">On the back of this manuscript is a draft of ideas about touch related to sections 28 to 30 in the final version of "Song of Myself."</note>
+               <note type="project" target="#rel1">On the back of this manuscript leaf is a draft of poetic lines about touch related to sections 28 to 30 in the final version of "Song of Myself."</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-01-30" who="#kmp">reconciled with EAD record</change>
+         <change when="2017-03-01" who="#nhg">updated work relations note</change>
+         <change when="2017-01-30" who="#km">reconciled with EAD record</change>
          <change when="2016-05-18" who="#kmp">blessed</change>
          <change who="#nhg" when="2016-03-01">checked, corrected</change>
          <change who="#km" when="2016-02-09">checked</change>
@@ -80,7 +81,7 @@
          <pb xml:id="leaf001r" facs="duk.00007.002.jpg" type="recto"/>
          <p>A<subst><del rend="overwrite" seq="1">ll</del><add rend="overwrite" place="over" seq="2">fter</add></subst> all <del rend="overstrike">that can be</del> is said and done in the way of argument, <del rend="overstrike">the innumerable</del> <del rend="overstrike">it</del> the whole <subst><del rend="overstrike" seq="1">amount to a</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="supralinear" seq="2">means but a</add></del></subst> <del rend="overstrike"><add rend="unmarked" place="supralinear">is a</add></del> <subst><del rend="overstrike" seq="2"><add rend="unmarked" place="supralinear" seq="1">makes</add></del> <add rend="unmarked" place="supralinear" seq="3">raises but</add></subst> bubble of the sea-ooze <subst><del rend="overstrike" seq="1">in comparison with</del> <add rend="unmarked" place="supralinear" seq="2">against that</add></subst> unspeakable Something in my own soul which makes me know without being able to tell <subst><add rend="insertion" place="supralinear" seq="4">how it is</add> <del rend="overstrike" seq="1">or prove</del> <del rend="overstrike" seq="3"><add rend="insertion" place="supralinear" seq="2">how that is I know.</add></del></subst>&#8212;<subst><del rend="overstrike" seq="1">If</del> <add rend="umnarked" place="supralinear" seq="2">Though</add></subst> <del rend="overstrike">I were opposed by</del> <del rend="overstrike"><add rend="umnarked" place="supralinear">what I felt</add></del> the <del rend="overstrike">science</del> linguists and lore of the whole earth deny what I say, it amounts but to this: So it seems to them.&#8212;I simply answer, So it seems to me.&#8212;The greatest of thoughts and truths, are <subst><del rend="overstrike" seq="1">not</del> <add rend="unmarked" place="supralinear" seq="2">never</add></subst> <del rend="overstrike">to <gap reason="illegible" atLeast="1" unit="chars"/> be</del> put in <subst><del rend="overstrike" seq="1">language</del> <add rend="unmarked" place="supralinear" seq="2"><del rend="overstrike" seq="3">writing or</del> print.</add></subst>.&#8212;They are not susceptible of proof like a sum in simple multiplication</p>
          
-         <p>I <subst><del rend="overwrite" seq="1">can</del><add rend="overwrite" place="over" seq="2">even</add></subst> see myself <subst><del rend="overstrike" seq="1">struggling</del> <add rend="unmarked" place="supralinear" seq="2">sweating</add></subst> in the fog with the linguists and learned <del rend="overstrike"><add rend="unmarked" place="supralinear">old</add></del> men.&#8212;I look back upon that time in my own days.&#8212;I have no <del rend="overstrike">gibes nor mocks</del> mockings or laughter;&#8212;I have only to be silent and <subst><add rend="unmarked" place="supralinear" seq="2">patiently</add> <del rend="overstrike" seq="1">to</del></subst> wait.&#8212;</p>
+         <p xml:id="q01">I <subst><del rend="overwrite" seq="1">can</del><add rend="overwrite" place="over" seq="2">even</add></subst> see myself <subst><del rend="overstrike" seq="1">struggling</del> <add rend="unmarked" place="supralinear" seq="2">sweating</add></subst> in the fog with the linguists and learned <del rend="overstrike"><add rend="unmarked" place="supralinear">old</add></del> men.&#8212;I look back upon that time in my own days.&#8212;I have no <del rend="overstrike">gibes nor mocks</del> mockings or laughter;&#8212;I have only to be silent and <subst><add rend="unmarked" place="supralinear" seq="2">patiently</add> <del rend="overstrike" seq="1">to</del></subst> wait.&#8212;</p>
          
          <pb xml:id="leaf001v" facs="duk.00007.001.jpg" type="verso"/>     
          

@@ -3,7 +3,7 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="rut.00025">
    <relations>
-      <work ref="xxx.00048">
+      <work ref="xxx.00048" cert="high">
          <p>The recto is a manuscript fragment featuring several lines of prose that were included, with slightly-revised wording, as lines of poetry in the initial poem of the 1855 <hi rend="italic">Leaves of Grass</hi> (ultimately titled "Song of Myself"). The lines that appear in the poem begin with "Sit awhile wayfarer" and continue through the end of the manuscript, ending with "and open the gate for your egress hence." These lines would remain, with minor revisions, through all the various versions of "Song of Myself." On the verso is a prose note that does not seem to have any link to Whitman's published work.</p>
       </work>
    </relations>
@@ -46,7 +46,7 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note type="project" target="#dat1">This manuscript fragment includes several lines of prose that became, after slight revision, lines of poetry in the initial poem of the 1855 <hi rend="italic">Leaves of Grass</hi> (ultimately titled "Song of Myself"). The lines that appear in the poem begin with "Sit awhile wayfarer" and continue through the end of the manuscript, ending with "and open the gate for your egress hence." These lines would remain, with minor revisions, through all the various versions of "Song of Myself." The manuscript is held at Rutgers University Library along with several similar manuscripts that probably date from around or before 1855.</note>
+            <note type="project" target="#dat1">This manuscript fragment includes several lines of prose that became, after slight revision, lines of poetry in the initial poem of the 1855 <hi rend="italic">Leaves of Grass</hi> (ultimately titled "Song of Myself"). The lines that appear in the poem begin with "Sit awhile wayfarer" and continue through the end of the manuscript, ending with "and open the gate for your egress hence." These lines would remain, with minor revisions, through all the various versions of "Song of Myself." The manuscript is held at Rutgers University Library along with several similar manuscripts that are numbered sequentially and probably date from around or before 1855: see "<ref target="rut.00010.html">American literature must become distinct</ref>," "<ref target="rut.00022.html">dithyrambic trochee</ref>," and "<ref target="rut.00023.html">The only way in which</ref>."</note>
          </notesStmt>
          <sourceDesc>
             <bibl>
@@ -66,7 +66,9 @@
             <handNote xml:id="unk"><persName key="Unknown">Unknown</persName></handNote>
          </handNotes>
       </profileDesc>
-      <revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+      <revisionDesc>
+         <change when="2017-02-27" who="#nhg">added cert attribute to work relations</change>
+         <change when="2016-05-18" who="#kmp">blessed</change>
          <change who="#nhg" when="2016-03-07">made Ken's corrections</change>
          <change who="#nhg" when="2016-02-01">checked against Grier, corrected</change>
          <change who="#jc" when="2015-04-24">checked</change>

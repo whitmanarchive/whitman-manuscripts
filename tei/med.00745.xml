@@ -2,11 +2,6 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00745">
-<relations>
-<work ref="xxx.01032" cert="low">
-<p>The manuscript is written as aphoristic fragments connected by ellipses, in the manner of the Preface to the first edition of <hi rend="italic">Leaves of Grass</hi> (1855)</p>
-</work>
-</relations> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,7 +17,7 @@
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -53,7 +48,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Edward Grier notes that Whitman visited hospitals as early as 1854, "beginning with visits to sick omnibus drivers whom he knew." Determining the exact date of this manuscript is therefore difficult, but it is likely from sometime between 1854 and several years after the Civil War.<lb/><lb/>No connection between this manuscript and Whitman's published works has been established.</note>             
+                <note type="project" target="#dat1">Because the manuscript has not been located it is difficult to speculate on the circumstances or date of its composition, but Edward Grier notes that Whitman visited hospitals as early as 1854, "beginning with visits to sick omnibus drivers whom he knew." The manuscript is likely from sometime between 1854 and several years after the Civil War. No connection between this manuscript and Whitman's published works has been established.</note>             
             </notesStmt>
             <sourceDesc>
                 <biblStruct>
@@ -69,7 +64,7 @@
                             <biblScope type="volume">6</biblScope>
                         </imprint>
                     </monogr>
-                    <note type="project">Grier derives his text from <hi rend="italic">Walt Whitman's Workshop</hi>, ed. Clifton J. Furness (Cambridge, MA: Harvard University Press, 1928), 44.</note>
+                    <note type="project">Grier based his text on <hi rend="italic">Walt Whitman's Workshop</hi>, ed. Clifton J. Furness (Cambridge, MA: Harvard University Press, 1928), 44.</note>
                 </biblStruct>
                 
                 <bibl>
@@ -81,6 +76,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-12-08" who="#bb">reconciled with EAD; added Work ID</change>
             <change when="2016-07-14" who="#nhg">checked, corrected</change>
             <change when="2016-06-27" who="#km">checked</change>

@@ -2,6 +2,9 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00879">
+<relations>
+<work ref="xxx.01046"/>
+</relations>
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -16,6 +19,7 @@
                <persName xml:id="kc">Kirsten Clawson</persName>
                <persName xml:id="jc">Janel Cayer</persName>
                <persName xml:id="kmp">Kenneth M. Price</persName>
+               <persName xml:id="bb">Brett Barney</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -41,24 +45,26 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note type="project" target="#dat1">This is a prose manuscript with an unknown connection to Whitman's published work, in which he compares writing to the composition of a "grand opera." In the repository, this manuscript is bound, seemingly by a collector, with a printer's copy of the 1881&#8211;82 edition of <hi rend="italic">Leaves of Grass</hi> that contains numerous handwritten corrections by Whitman.
+            <note type="project" target="#dat1">This is a prose manuscript with an unknown connection to Whitman's published work. In the repository, the manuscript is bound, seemingly by a collector, with a printer's copy of the 1881&#8211;82 edition of <hi rend="italic">Leaves of Grass</hi> that includes numerous handwritten corrections by Whitman. This manuscript is almost certainly from much earlier, however, based on the lines on the back of the leaf that were used in the 1855 edition of <hi rend="italic">Leaves</hi>. Although the clipping of the leaf suggests this prose manuscript was written later than the poetry on the reverse, the similar handwriting seems to indicate that it still probably dates to about 1855. 
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl>
                <author>Walt Whitman</author>
                <title>II. Song of Myself (Pages 1-23)</title>
-               <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
+               <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1856">About 1855</date>
                <idno type="callno">Box I-1</idno>
                <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &#038; Manuscript Library, Duke University</orgName>
                <note type="project">Transcribed from digital images of the original.</note>
                <relatedItem type="text" xml:id="rel01" target="duk.00787"/>
                <relatedItem type="document" target="wwa.00031"/>
-               <note type="project" target="#rel01">Written on the back of this manuscript are lines that would eventually find their way into the poem later titled "Song of Myself," including the poem's famous opening line, "I celebrate myself." </note>
+               <note type="project" target="#rel01">Written on the back of this manuscript are lines that eventually found their way into the poem later titled "Song of Myself," including the poem's famous opening line, "I celebrate myself." </note>
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+      <revisionDesc>
+         <change when="2017-02-07" who="#bb">reconciled with EAD record; added work ID</change>
+         <change when="2016-05-18" who="#kmp">blessed</change>
          <change when="2016-03-07" who="#nhg">made Ken's corrections</change>
          <change when="2016-02-01" who="#nhg">adjusted relatedItem encoding</change>
          <change who="#nhg" when="2015-12-03">created new file for verso document, checked</change>
