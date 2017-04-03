@@ -7,7 +7,7 @@
                 Lincoln, "When Lilacs Last in the Dooryard Bloom'd," a poem published first in <date when="1865">1865</date>. A few of the words appear in that poem, including "mourn," "sad," "wailing," and others.</p>
         </work>
     </relations>
-    <teiHeader type="text">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title rend="bracketed" level="m" type="main">sorrow</title>
@@ -56,12 +56,12 @@
                 <note type="project" target="#dat1">This manuscript was likely written soon after the
                     assassination of Abraham Lincoln in <date when="1865-04">April
                         1865</date>, as Whitman composed his elegy for 
-                    Lincoln, "When Lilacs Last in the Dooryard Bloom'd."</note>
+                    Lincoln, "When Lilacs Last in the Dooryard Bloom'd." A few of the words appear in that poem, including "mourn," "sad," "wailing," and others.</note>
             </notesStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
-                    <date xml:id="dat1" cert="high" when="1865">1865</date>
+                    <date xml:id="dat1" cert="high" notBefore="1865-04" notAfter="1865-12">1865</date>
                     <title>Beat! Beat! Drums!</title>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
                     <note type="project">Transcribed from <hi rend="italic">The Walt Whitman Archive
