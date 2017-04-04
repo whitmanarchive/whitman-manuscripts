@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="bpl.00001">
     <relations>
         <work ref="xxx.00236" cert="high">
-            <p>"Out from Behind This Mask" was published first on <date when="1876-02-19">February 19, 1876</date> in the New York <hi rend="italic">Tribune</hi> and, later that same year, in <hi rend="italic">Two Rivulets</hi>. The poem was written in response to an engraving by William J. Linton based on a photograph of Whitman taken by George C. Potter in about <date notBefore="1870" notAfter="1871">1871</date>.</p>  
+            <p>"Out from Behind This Mask" was published first on <date when="1876-02-19">February 19, 1876</date>, in the New York <hi rend="italic">Tribune</hi> and, later that same year, in <hi rend="italic">Two Rivulets</hi>. The poem was written in response to an engraving by William J. Linton based on a photograph of Whitman taken by George C. Potter in about <date notBefore="1870" notAfter="1871">1871</date>.</p>  
         </work>
     </relations>
     <teiHeader>
@@ -16,13 +16,14 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="kmp">Kenneth Price</persName>
-                    <persName xml:id="nhg">Nicole Gray</persName>
+                    
                     <persName xml:id="bb">Brett Barney</persName>
                     <persName xml:id="aj">Andrew Jewell</persName>
                     <persName xml:id="nk">Nick Krauter</persName>
                     <persName xml:id="lr">Lisa Renfro</persName>
                     <persName xml:id="jo">Jennifer Overkamp</persName>
                     <persName xml:id="kc">Kirsten Clawson</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -51,13 +52,13 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="dat1">"Out from Behind This Mask" was published first on <date when="1876-02-19">February 19, 1876</date> in the New York <hi rend="italic">Tribune</hi> and, later that same year, in <hi rend="italic">Two Rivulets</hi>. The poem was written in response to <!--add ref when gallery update is finished-->an engraving by William J. Linton based on a photograph of Whitman taken by George C. Potter in about <date notBefore="1870" notAfter="1871">1871</date>. This manuscript was probably composed in <date when="1876">1876</date>, shortly before the poem was published.</note>                      
+                <note type="project" target="dat1">"Out from Behind This Mask" was published first on <date when="1876-02-19">February 19, 1876</date>, in the New York <hi rend="italic">Tribune</hi> and, later that same year, in <hi rend="italic">Two Rivulets</hi>. The poem was written in response to <!--add ref when gallery update is finished-->an engraving by William J. Linton based on a photograph of Whitman taken by George C. Potter in about <date notBefore="1870" notAfter="1871">1871</date>. This manuscript was probably composed in <date when="1876">1876</date>, shortly before the poem was published.</note>                      
             </notesStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author> 
                     <title>Out from Behind this Mask</title>
-                    <date cert="high" when="1876" xml:id="dat1">About 1876</date> 
+                    <date cert="high" notBefore="1875" notAfter="1876" xml:id="dat1">About 1876</date> 
                     <orgName xml:id="bpl">The Walt Whitman Collection, Boston Public Library</orgName>    
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
