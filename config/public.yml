@@ -8,6 +8,12 @@ default:
   tei_solr_xsl: collections/whitman-manuscripts/scripts/solr_transform_tei.xsl
   # es_type:
 
+  variables_solr:
+    figures: false
+    fw: false
+    pb: false
+    project: The_Walt_Whitman_Archive
+    slug: whitman-manuscripts
 development:
   # development overrides here
 production:
