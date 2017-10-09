@@ -2,6 +2,11 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.05629">
+    <relations>
+        <work ref="xxx.00944" cert="low">
+            <p>Whitman's meditation on literature and its relation to "Democracy" in this manuscript may have contributed to his essay "Democracy" appearing in the <hi rend="italic">Galaxy</hi> in 1867 and later incorporated into <hi rend="italic">Democratic Vistas</hi> (1871).</p>
+        </work>
+    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -41,20 +46,21 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Based on the handwriting, Edward Grier dates this manuscript to the 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 4:1591). This date is also supported by Whitman's interest in oratory and goal of becoming a lecturer in the early 1850s.</note>             
+                <note type="project" target="#dat1">Based on the handwriting, Edward Grier dates this manuscript to the 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 4:1591). This date can be supported by Whitman's interest in oratory and goal of becoming a lecturer in the 1850s, though he also maintained these interests in the 1860s. He explained in a letter to his mother of June 9, 1863: "I think something of commencing a series of lectures &amp; readings &amp;c. through different cities of the north, to supply myself with funds for my Hospital &amp; Soldiers visits." Whitman's meditation on literature and its relation to "Democracy" in this manuscript may have contributed to his essay "Democracy," which appeared in the <hi rend="italic">Galaxy</hi> in 1867 and was later incorporated into <hi rend="italic">Democratic Vistas</hi> (1871).</note>             
             </notesStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title rend="bracketed">for lect on Literature</title>                  
                     <idno type="callno">MSS45443, Box 1, Reel 1</idno>
-                    <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1860">1850s</date>
+                    <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1870">1850s or 1860s</date>
                     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2017-04-13" who="#kmp">edited editorial note</change>
             <change when="2017-03-29" who="#nhg">edited editorial note</change>
             <change when="2016-05-18" who="#kmp">blessed</change>
             <change when="2016-05-13" who="#nhg">checked, corrected</change>

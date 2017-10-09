@@ -78,6 +78,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2017-10-05" who="#nhg">added inline relations information</change>
             <change when="2017-01-26" who="#nhg">corrected</change>
             <change when="2016-09-26" who="#nhg">corrected</change>
             <change when="2016-01-29" who="#nhg">divided text into separate files, corrected</change>
@@ -99,12 +100,12 @@
             <pb facs="duk.00032.002.jpg" xml:id="leaf001r" type="recto"/>
             <div1 type="poem"><lg type="poem">
                 <delSpan rend="hashmark" spanTo="#d2"/>
-                <l xml:id="q01">Are the prostitutes nothing? Are the
+                <l xml:id="q01" corresp="#l1613">Are the prostitutes nothing? Are the
                     <lb/>mockers of religion nothing?
                 </l>
                 <note place="left" type="authorial" target="#s1">?</note>
                 <span xml:id="s1" rend="bracketed" from="s1" to="s2"/>
-                <del rend="overstrike"><l>
+                <del rend="overstrike"><l corresp="#2299">
                         Does the light or heat pick out? Does
                     
                     <lb/>the <seg xml:id="q02">attraction <add place="supralinear" rend="unmarked">o</add> of <add place="supralinear" rend="insertion">gravity</add></seg> pick out?

@@ -131,7 +131,7 @@
                                 <add place="supralinear" rend="unmarked" seq="3">of</add>
                                                     </subst> eternal snow,
                 </l>
-                <anchor xml:id="tr01"/><metamark function="transpose"/>
+                <metamark function="transpose" xml:id="tr01" target="#tr02"/>
                 <l>Some <add place="supralinear" rend="unmarked">to the north</add> finding
                         their way to <del rend="overstrike">Michigan,</del>
 
@@ -144,7 +144,7 @@
                                                         
                                 <add place="supralinear" rend="unmarked" seq="2">brine</add></subst>.
                 </l>
-                <transpose anchored="1" target="#tr01"><add rend="unmarked" place="bottom"><l>Some <subst>
+                <transpose anchored="1" xml:id="tr02" target="#tr01"><add rend="unmarked" place="bottom"><l>Some <subst>
                         
                         <del rend="overstrike" seq="1">to</del>
                         

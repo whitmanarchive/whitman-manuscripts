@@ -64,6 +64,7 @@
          </handNotes>
       </profileDesc>
       <revisionDesc>
+         <change when="2017-10-09" who="#nhg">added inline relations information</change>
          <change who="#km" when="2017-01-26">updated date note; proofed transcription</change>
          <change who="#nhg" when="2016-07-19">created new file for verso, added relatedItem encoding, date note from EAD</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
@@ -79,7 +80,7 @@
             <delSpan spanTo="#d1" rend="hashmark" hand="#h1"/>
             <lg>
                <relations>
-                  <work ref="xxx.00119" cert="high"><p>The general theme of this manuscript, as well as the specific wording of one of the lines, resembles a portion of the second poem in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, a poem eventually entitled "A Song for Occupations." Specifically, it seems to relate to the poem's final stanza, in which Whitman looks forward to a time "[w]hen the sacred vessels or the bits of the eucharist, or the lath and plast, procreate as effectually as the young silvermiths or bakers, or the masons in their overalls." In the manuscript, Whitman likewise criticizes what he perceives to be the lifelessness of organized religion, commanding priests that "[u]ntil your creeds can do as much as apples and hen's eggs . . . And until your brick and mortar can procreate as I can, / I beg you, Sirs, do not presume to put them above me."</p></work>
+                  <work ref="xxx.00119" cert="high"><p>The general theme of this manuscript, as well as the specific wording of one of the lines, resembles a portion of the second poem in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, a poem eventually entitled "A Song for Occupations": "When the sacred vessels or the bits of the eucharist, or the lath and plast, procreate as effectually as the young silvermiths or bakers, or the masons in their overalls / ... / I intend to reach them my hand and make as much of them as I do of men and women" (1855, p. 64).</p></work>
                </relations>
                <l>
                   
@@ -94,7 +95,7 @@
                   <l><metamark function="paragraph">&#182;</metamark> Until your Bibles and prayer-books are able to<lb/> 
                      walk like me,</l> 
                   
-                  <l>And until your brick and mortar can procreate<lb/> 
+                  <l corresp="#l1509">And until your brick and mortar can procreate<lb/> 
                      as I can,</l> 
                   
                   <l>I beg you, <subst><del rend="overwrite" seq="1">s</del><add place="over" rend="overwrite" seq="2">S</add></subst>irs, do not presume to put them<lb/> 
