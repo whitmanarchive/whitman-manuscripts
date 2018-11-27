@@ -1,31 +1,26 @@
 default:
-  # NOTE: options that apply to all the whitman data repos
-  # are in data/config/private.yml
-  # (solr_core, solr_path, solr_variables, etc)
-
   shortname: whitman-manuscripts
   collection: whitman
   site_url: https://whitmanarchive.org
+  solr_core: api_whitman
+  tei_solr_xsl: scripts/overrides/solr_transform_tei.xsl
 
-  # TODO this collection_desc applies only to the subcategory and not the entire collection
-  # collection_desc: Manuscripts for The Walt Whitman Archive
-
-  tei_solr_xsl: collections/whitman-manuscripts/scripts/solr_transform_tei.xsl
+development:
+  es_path: https://whitman-dev.unl.edu/elastic
+  es_index: api_v1
+  site_url: https://whitman-dev.unl.edu
+  solr_path: https://whitman-dev.unl.edu/solr
 
   variables_solr:
-    figures: false
-    fw: false
-    pb: false
+    project: The_Walt_Whitman_Archive
+    slug: whitman-manuscripts
+    site_url: https://whitman-dev.unl.edu
+
+production:
+  site_url: https://whitmanarchive.org
+  solr_path: https://whitman-prod.unl.edu/solr
+
+  variables_solr:
     project: The_Walt_Whitman_Archive
     site_url: https://whitmanarchive.org
     slug: whitman-manuscripts
-development:
-  site_url: https://whitman-dev.unl.edu
-  variables_solr:
-    project: The_Walt_Whitman_Archive
-    site_url: https://whitman-dev.unl.edu
-    slug: whitman-manuscripts
-# development:
-  # development overrides here
-# production:
-  # production overrides here

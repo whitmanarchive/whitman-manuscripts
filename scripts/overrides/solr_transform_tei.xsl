@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
   xpath-default-namespace="http://www.whitmanarchive.org/namespace"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -8,7 +9,7 @@
   <!--                               IMPORTS                                -->
   <!-- ==================================================================== -->
 
-  <xsl:import href="../../whitman-scripts/solr/whitman_to_solr.xsl"/>
+  <xsl:import href="../../../whitman-scripts/solr/whitman_to_solr.xsl"/>
 
   <xsl:output indent="yes" omit-xml-declaration="yes"/>
 
