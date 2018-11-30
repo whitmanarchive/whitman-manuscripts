@@ -24,3 +24,10 @@ production:
     project: The_Walt_Whitman_Archive
     site_url: https://whitmanarchive.org
     slug: whitman-manuscripts
+
+grant:
+  # NOTE: different collection name!!!
+  collection: whitman-grant
+  es_path: https://whitman-dev.unl.edu/elastic
+  es_index: api_v1_grant
+  site_url: https://whitmanarchive.org
