@@ -4,6 +4,7 @@ default:
   site_url: https://whitmanarchive.org
   solr_core: api_whitman
   tei_solr_xsl: scripts/overrides/solr_transform_tei.xsl
+  allowed_files: config/allowed_files.txt
 
 development:
   es_path: https://whitman-dev.unl.edu/elastic
