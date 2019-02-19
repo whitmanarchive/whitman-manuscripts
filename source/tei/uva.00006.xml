@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00006">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main" rend="bracketed">Poem of</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="ms">Melody S. Han</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2003</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>uva.00006</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="project" target="#dat1">These notes could have represented an early stage of a number of poems. One possibility is poem 18 in the "Calamus " cluster in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>. This poem was permanently retitled "City of Orgies" in 1867.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>Papers of Walt Whitman</title>
+               <date cert="low" notBefore="1850" notAfter="1860" xml:id="dat1">Undated</date>
+               <idno type="callno">MSS 3829, Box-folder 1:49</idno> 
+               <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="#nhg" when="2019-01-28">proofed</change>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#ms" when="2004-01-02">Encoded</change>
+         <change who="#ms" when="2004-01-02">Transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="uva.00006.001.jpg" xml:id="leaf001r" type="recto"/>
+            <ab>Poem of</ab>
+         <note type="authorial" place="right">!</note>
+            <note type="authorial"
+                  place="left">first line</note>
+            <ab>Manhattan, go in!</ab>
+         
+         <pb facs="uva_jc.00111.jpg" xml:id="leaf001v" type="verso"/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00241">   
+    <teiHeader>        
+        <fileDesc>            
+            <titleStmt>
+                <title level="m" type="main">[ward A bed 47]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <name>The Walt Whitman Archive Staff</name>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>            
+            <editionStmt>
+                <edition>
+                    <date>2011</date>
+                </edition>
+            </editionStmt>            
+            <publicationStmt>
+                <idno>nyp.00241</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+            </publicationStmt>            
+            <notesStmt>
+                <note type="project" target="#leaf001v">No image of verso currently available.</note>
+                <note type="project" target="#dat1">This manuscript was likely composed in late June 1863; Whitman's notes suggest a date of June 20&#8211;21, 1863 for the composition of this manuscript, his visit with soldier Livingston Brooks, or both.</note>
+                <note type="project">The following are responsible for particular readings or for changes to this file, as noted: 
+                    <persName xml:id="jc">Janel Cayer</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="al">Ashley Lawson</persName>
+                    <persName xml:id="tj">Tim Jackson</persName>
+                </note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>          
+                    <title>A Series of Washington Hospital Notes. Written at the bedsides of wounded soldiers. Washington, 1863&#8211;1865.</title> 
+                    <date xml:id="dat1" cert="high" notBefore="1863-05-21" notAfter="1863-07-01">1863</date>     
+                    <orgName xml:id="nyp">The Oscar Lion Papers, 1914&#8211;1955, New York Public Library, New York, N.Y.</orgName>
+                    <note type="project">Transcribed from digital images of the original.</note>
+                </bibl>
+            </sourceDesc>            
+        </fileDesc>        
+        <revisionDesc>
+            <change when="2012-02-16" who="#jc">added a period to file name @facs</change>
+            <change when="2011-09-01" who="#el">blessed</change>
+            <change when="2010-12-10" who="#tj">checked</change>
+            <change when="2010-09-07" who="#al">transcribed; encoded</change>
+        </revisionDesc>        
+    </teiHeader>
+    
+    <text type="manuscript">        
+        <body>            
+            <pb xml:id="leaf001r" facs="nyp.00241.001.jpg" type="recto"/>            
+          
+            <ab>ward A bed 47&#8212;Armory</ab>
+            
+            <note type="authorial" place="inline">June 21</note>
+            
+            <ab>Livingston J. Brooks co B 17th Penn cav.</ab>
+            
+            <ab>Just fever&#8212;brought in June 20&#8212;very sick&#8212;patient obedient&#8212;poor fellow</ab>
+            
+            <ab>(<subst><del rend="overstrike" seq="1">raised </del><add place="supralinear" rend="unmarked" seq="2">born</add></subst> in <unclear reason="illegible" cert="medium" resp="#al">Missouri</unclear>)</ab>
+            
+            <ab><add place="supralinear" rend="unmarked">mother</add>Margaret Brooks</ab>
+            <ab>Susquehannah depot</ab>
+            <ab>Susquehannah co <add rend="unmarked" place="inline">Penn</add></ab>
+               
+            <pb xml:id="leaf001v" facs="nyp.00241.002.jpg" type="verso"/> 
+            
+            
+        </body>
+    </text>
+</TEI>
+
+
+
+

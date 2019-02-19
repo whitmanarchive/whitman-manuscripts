@@ -52,16 +52,15 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">This manuscript was probably composed <date notBefore="1850" notAfter="1855">between 1850 and 1855</date>, when Whitman was writing the
-                    poems of the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. It includes draft lines that appeared in a revised form in the
-                    sixth poem of that edition, a poem ultimately titled "Faces."</note>
+                <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. It includes draft lines that appeared in a revised form in the
+                    sixth poem of that edition, titled "Leaves of Grass," eventually titled "Faces."</note>
             </notesStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title>[The Great Laws do not treasure chips]</title>
+                    <title>"The Great Laws do not treasure chips, or stick for the odd cent"</title>
                     <date xml:id="dat1" cert="high" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
-                    <idno type="callno">MS 4to 9</idno>
+                    <idno type="callno">MS 4to 9 (Volume 9)</idno>
                     <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                     <relatedItem type="document" target="wwa.00196"/>
@@ -73,6 +72,8 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2018-09-10" who="#nhg">updated image names</change>
+            <change when="2017-10-05" who="#nhg">added inline relations information</change>
             <change when="2016-09-26" who="#nhg">corrected</change>
             <change when="2016-07-26" who="#nhg">separated sides into two files, proofed</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
@@ -87,7 +88,7 @@
     <text type="manuscript">
         <body>
             
-            <pb facs="duk.00264.002.jpg" xml:id="leaf001r" type="recto"/>
+            <pb facs="duk_nhg.00401_large.jpg" xml:id="leaf001r" type="recto"/>
             <lg type="poem">
                 <delSpan spanTo="#d1" rend="hashmark"/>
                 <lg type="linegroup">
@@ -114,12 +115,12 @@
                     </l>
                 </lg>
                 <lg type="linegroup">
-                    <l>I remember when I visited the Asylum <del rend="overstrike">and</del>
+                    <l xml:id="l01" corresp="#l2011">I remember when I visited the Asylum <del rend="overstrike">and</del>
                             they
                         <lb/>showed me their most smeared and slobbering
                         <lb/>idiot,
                     </l>
-                    <l>Yet I knew <del rend="overstrike">for my</del> for my consolation, of
+                    <l xml:id="l02" corresp="#l2012 #l2013">Yet I knew <del rend="overstrike">for my</del> for my consolation, of
                             the great
                         <lb/>laws that emptied and broke <del rend="overstrike">my</del> my
                                 brother<del rend="overstrike">s</del>
@@ -130,7 +131,7 @@
                 <anchor xml:id="d1"/>
                 
             </lg>
-            <pb facs="duk.00264.001.jpg" xml:id="leaf001v" type="verso"/>
+            <pb facs="duk_nhg.00400_large.jpg" xml:id="leaf001v" type="verso"/>
         </body>
     </text>
 </TEI>

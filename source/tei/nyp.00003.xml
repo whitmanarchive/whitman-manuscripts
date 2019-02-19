@@ -1,0 +1,1262 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00003">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main">As a Strong Bird on Pinions free</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="rl">Robert LaCosse</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2004</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>nyp.00003</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+
+		<!-- IGNORE THIS PROJECT NOTE.  IT WILL BE FILLED IN BY PROJECT EDITORS. -->
+            <note type="project"/>
+
+		          <!-- IF THERE IS VERSO INFORMATION THAT YOU ARE ONLY    -->
+            <!-- DESCRIBING BUT NOT TRANSCRIBING, INSERT THAT HERE. -->
+		          <!-- IF YOUR MANUSCRIPT HAS NO VERSO MATERIAL, OR IF    -->
+		          <!-- YOU ARE TRANSCRIBING THAT MATERIAL, YOU MAY DELETE -->
+		          <!-- THIS NOTE.               				-->
+            <note type="project">On the verso . . .</note>                          	
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>
+	<!-- TITLE UNDER WHICH THE MS IS HELD AT THE REPOSITORY;	-->
+	<!-- PLEASE CONSULT, WHEN AVAILABLE, THE ONLINE FINDING	  	-->
+	<!-- FINDING AID ON THE WHITMAN ARCHIVE, IN THE "MANUSCRIPTS" 	-->
+	<!-- SECTION OF THE SITE.                                     	-->
+
+</title>
+               <idno type="callno">
+	<!-- THE REPOSITORY'S ID CODE FOR THE MATERIAL, IF ANY, CAN BE	     -->
+	<!-- ENTERED HERE. THE VALUE OF 'TYPE' CAN BE ALTERED TO FIT	     -->
+	<!-- THE TYPE OF ID NUMBER USED; EXAMPLE: MSS 3829.  THIS INFO	     -->
+	<!-- IS ONLY APPROPRIATE FOR THE REPOSITORIES THAT HAVE CREATED      -->
+	<!-- UNIQUE IDENTIFIERS FOR EACH MANUSCRIPT: HARVARD, BOSTON         -->
+	<!-- PUBLIC LIBRARY, BYU, JOHNS HOPKINS, THE HUNTINGTON, THE MORGAN, -->
+	<!-- RUTGERS, THE AMERICAN ANTIQUARIAN SOCIETY, AND TEMPLE. PLEASE   -->
+	<!-- CONSULT THE ONLINE FINDING AIDS.                                --> 
+		
+</idno> 
+               <orgName xml:id="nyp">The Oscar Lion collection of Walt Whitman</orgName> 
+
+	              <!-- ALTER THE FOLLOWING NOTE IF NECESSARY -->
+
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#rl" when="2004-07-22">Encoded</change>
+         <change who="#rl" when="2004-07-22">Transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <pb facs="nyp.00003.001" xml:id="leaf001r" type="recto"/>
+
+         <note type="project" place="left">OYD MSS 208</note>
+
+         <div1 type="title notes">
+            <p>MS. of "<hi rend="underline">As a Strong Bir<unclear reason="cut away" resp="#rl" cert="high">d</unclear>
+               </hi> as is came back form the printing office presented to <hi rend="underline">R.J. Hinton</hi> by W.W.</p>
+         </div1>
+
+         <pb facs="nyp.00003.002" xml:id="leaf001v" type="verso"/>
+         <div1 type="poem_notes">
+            <p>Presented by Richard J. Hinton to J.H. Johnston with affectionate regards</p>
+
+            <dateline>nov 21/88</dateline>
+            <note type="project"
+                  place="right">NYPL</note>
+         </div1>
+
+
+         <pb facs="nyp.00003.003" xml:id="leaf002r"
+             type="recto"
+             n="1"/>
+
+         <note type="project" place="left">OYD MSS 208</note>
+         <note type="project">Walt Whitman's Book-text</note>
+         <div1 type="poem_notes">
+
+            <p>
+               <hi rend="underline">Directions to printer</hi>
+            </p>
+            <p>
+               <add rend="unmarked" place="inline">R<unclear reason="illegible" resp="#rl" cert="medium">u</unclear>ddy</add> These pages (1-17) are the text of the Book—are to be set in solid small <unclear reason="illegible" resp="#rl" cert="high">pira</unclear> (or long primer) same measure as <hi rend="underline">Leaves of Grass</hi>—☞Set all these<add rend="unmarked" place="supralinear">17 MS</add> pages up and send me proof <hi rend="underline">before making up the pages</hi>, <span value="bracketed" xml:id="s9" from="s9" to="s10" TEIform="span"/>after read<unclear reason="illegible" resp="#rl" cert="medium">ing</unclear> 
+               <unclear reason="illegible" resp="#rl" cert="medium">my</unclear> copy &amp;carefully correcting first proof
+<anchor xml:id="s10"/>
+               <span value="bracketed" xml:id="s12"
+                     from="s12"
+                     to="s13"
+                     TEIform="span"/>
+There is a preface coming before this to be set in Bre<unclear reason="illegible" resp="#rl" cert="high">p</unclear>ier, &amp; an appendix to come after it in Bre<unclear reason="illegible" resp="#rl" cert="low">p</unclear>ier
+<anchor xml:id="s13"/>
+            </p>
+         </div1>
+
+         <div1>
+
+            <lg
+                 >
+
+               <head type="main-authorial" rend="underline">As a Strong Bird on Pinions</head>
+
+               <lg
+                    >
+                  <lg3
+                       >
+
+                     <note type="authorial"
+                           place="interlinear">1.</note>
+
+                     <l>As a strong bird on pinions free,</l>
+
+                     <l>
+                        Joyous, the amplest spaces heavenward<lb/>
+                        cleaving,<lb/>
+                     </l>
+
+                     <l>
+                        Such be the thought I'd think to-day<lb/>
+                        of thee, America,<lb/>
+                     </l>
+
+                     <l>
+                        Such be the recitative I'd bring<lb/>
+                        to-day for thee. *<lb/>
+                     </l>
+
+                  </lg3>
+
+
+                  <lg3
+                       >
+
+                     <l>
+                        The conceits of the poets of other<lb/>
+                        land I bring thee not,<lb/>
+                     </l>
+
+                     <l>
+                        Nor the compliments that have served<lb/>
+                        their turn so long,<lb/>
+                     </l>
+
+                     <l>
+                        Nor rhyme—nor the classics—nor <orig reg="perfume">per-</orig>
+                        <lb/>
+                        fume of the foreign court, or indoor library,<lb/>
+                     </l>
+                  </lg3>
+
+               </lg>
+               <note type="authorial"
+                     place="bottom">
+                  <span value="bracketed" xml:id="s15"
+                        from="s15"
+                        to="s16"
+                        TEIform="span"/>
+
+
+*commencement poem, Dartmouth College, N.H., June 26, 1872, on invitation Public Literary Societies
+<anchor xml:id="s16"/> foot note smaller type</note>
+            </lg>
+
+         </div1>
+
+
+         <pb facs="nyp.00003.004" xml:id="leaf003r"
+             type="recto"
+             n="2"/>
+         <div1>
+
+            <lg
+                 >
+
+               <note type="project" place="left">OYD MSS 208</note>
+               <note type="project">Walt Whitman's Book-text</note>
+
+               <lg
+                    >
+                  <lg3
+                       >
+
+                     <l>
+                        But an odor I'd bring to-day as from<lb/>
+                        forests of pine in the north, in<lb/>
+                        Maine—or breath of an Illinois<lb/>
+                        praire.<lb/>
+                     </l>
+
+                     <l>
+                        With open airs of Virginia, <add rend="unmarked" place="supralinear">or</add> Georgia, or<lb/>
+                        Tennessee—or from <unclear reason="illegible" resp="#rl" cert="85%">Texas</unclear> uplands,<lb/>
+                        or Florida's glades,<lb/>
+                     </l>
+
+                     <l>
+                        With presentment of yellowstone's scenes,<lb/>
+                        or yosemite;<lb/>
+                     </l>
+
+                     <l>
+                        And murmuring under, pervading all,<lb/>
+                        I'd bring the rustling sea-sound,<lb/>
+                     </l>
+
+                     <l>
+                        That endlessly sounds from the two<lb/>
+                        great seas of the world.<lb/>
+                     </l>
+                  </lg3>
+
+
+                  <lg3
+                       >
+
+                     <l>
+                        And for thy subtler sense, subtler<lb/>
+                        refrains, O Union!<lb/>
+                     </l>
+
+                     <l>
+                        Preludes of the intellect tallying these and<lb/>
+                        thee—mind-formulas fitted for thee—<lb/>
+                        real, and sane, and large as these<lb/>
+                        and thee;<lb/>
+                     </l>
+
+                     <l>
+                        Thou, mounting higher, diving deeper than<lb/>
+                        we knew—thou transcendental Union!<lb/>
+                     </l>
+
+                     <l>
+                        By thee Fact to be justified—blended<lb/>
+                        with Thought.<lb/>
+                     </l>
+                  </lg3>
+               </lg>
+            </lg>
+         </div1>
+         <pb facs="nyp.00003.005" xml:id="leaf04r"
+             type="recto"
+             n="3"/>
+         <div1>
+
+            <lg
+                 >
+
+               <note type="project" place="left">OYD MSS 208</note>
+               <note type="project">Walt Whitman's Book-text</note>
+
+               <lg
+                    >
+                  <lg3
+                       >
+
+                     <l>
+                        Thought of a Man justified—blended<lb/>
+                        with God;<lb/>
+                     </l>
+
+                     <l>
+                        Through thy Idea—lo! the immortal<lb/>
+                        Reality!<lb/>
+                     </l>
+
+                     <l>
+                        Through thy Reality—lo! the immortal<lb/>
+                        Idea<lb/>
+                     </l>
+                  </lg3>
+               </lg>
+
+
+
+               <lg
+                    >
+
+                  <note type="authorial"
+                        place="interlinear">2.</note>
+                  <lg3
+                       >
+                     <l>
+                        Brain of the New World! what a task<lb/>
+                        is thine!<lb/>
+                     </l>
+
+                     <l>
+                        To formulate the Modern....Out of the<lb/>
+                        peerless grandueur of the modern,<lb/>
+                     </l>
+
+                     <l>
+                        Out of Thyself—comprising Science—to<lb/>
+                        re-cast Poems, Churches, Art,<lb/>
+                     </l>
+
+                     <l>
+                        (Re-cast—may-be discard them, end them—<lb/>
+                        May-be their work is done—who<lb/>
+                        knows?)<lb/>
+                     </l>
+
+                     <l>
+                        By vision, hand, conception, on the<lb/>
+                        background of the mighty—<lb/>
+                        past the dead,<lb/>
+                     </l>
+
+                     <!--What is the word marked unclear "limn"?-->
+
+                     <l>
+                        To <unclear reason="illegible" resp="#rl" cert="medium">limn</unclear>, with absolute faith, the<lb/>
+                        mighty—
+<subst>
+                              <rdg varSeq="1">
+                                 <del rend="overstrike">life, the</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add rend="unmarked" place="supralinear">living</add>
+                              </rdg>
+                           </subst> present.
+<lb/>
+                     </l>
+                     <note type="authorial"
+                           place="bottom">#</note>
+                  </lg3>
+               </lg>
+            </lg>
+         </div1>
+
+         <pb facs="nyp.00003.006" xml:id="leaf05r"
+             type="recto"
+             n="4"/>
+         <div1>
+
+            <lg
+                 >
+
+               <note type="project" place="left">OYD MSS 208</note>
+               <note type="project">Walt Whitman's Book-text</note>
+
+               <lg
+                    >
+                  <lg3
+                       >
+
+                     <l>
+                        And yet, thou living present brain!<lb/>
+                        heir of the dead, the Old World<lb/>
+                        brain!<lb/>
+                     </l>
+
+                     <l>
+                        Thou that lay folded like and unborn<lb/>
+                        babe within its folds so long!<lb/>
+
+                     </l>
+
+                     <l>
+                        Thou carefully prepared by it so long!<lb/>
+                        Haply thou but unfoldest it, <add rend="insertion" place="supralinear">only</add> 
+                           <orig reg="maturest">ma-</orig>
+                        <lb/>
+                        turest it,<lb/>
+                     </l>
+
+                     <!--Is "eventuate" a Whitmanism?-->
+
+                     <l>
+                        It to eventuate in thee—The essence<lb/>
+                        of the by-gone time contained<lb/>
+                        in thee,<lb/>
+                     </l>
+
+                     <!--unwitting?-->
+
+
+                     <l>
+                        It's poems, churches, arts, unwitting<lb/>
+                        to themselves, destined with <orig reg="reference">ref-</orig>
+                        <lb/>
+                        erence to thee,<lb/>
+                     </l>
+
+                     <l>
+                        The print of all the Old, ripening<lb/>
+                        to-day in thee.<lb/>
+                     </l>
+                  </lg3>
+               </lg>
+
+               <lg
+                    >
+
+                  <note type="authorial"
+                        place="interlinear">3.</note>
+
+                  <lg3
+                       >
+
+<!--Lail?  and  "'tis'"?-->
+
+                     <l>Lail—sail thy best, ship of Democracy!</l>
+
+                     <l>
+                        Of value is thy freight—'tis' not the<lb/>
+                        Present only.<lb/>
+                     </l>
+
+                     <l>
+                        The <del rend="overstrike">Feudal</del> Past is also stored in<lb/>
+                        thee!<lb/>
+                     </l>
+                  </lg3>
+               </lg>
+            </lg>
+         </div1>
+
+
+         <pb facs="nyp.00003.007" xml:id="leaf06r"
+             type="recto"
+             n="5"/>
+         <div1>
+
+            <lg
+                 >
+
+               <note type="project" place="left">OYD MSS 208</note>
+               <note type="project">Walt Whitman's Book-text</note>
+
+               <lg
+                    >
+                  <lg3
+                       >
+
+                     <l>
+                        Thou holdest not the venture of thy<lb/>
+                        self alone—not of thy western<lb/>
+                        continent alone;<lb/>
+                     </l>
+
+                     <l>
+                        Earth's <hi rend="underline">resumé</hi> entire floats on thy<lb/>
+                        keel, O ship—is steadied by<lb/>
+                        thy spars;<lb/>
+                     </l>
+
+                     <l>
+                        With thee Time <del rend="overstrike">s<unclear reason="deletion, illegible" resp="#rl"
+                                       cert="medium">t</unclear>
+                           </del> voyages <add rend="insertion" place="supralinear">in trust—</add>—the <orig reg="antecedent">an-</orig>
+                        <lb/>
+                        tecedent nations sink or swim<lb/>
+                        with thee;<lb/>
+                     </l>
+
+                     <l>
+                        With all their ancient struggles, martyrs,<lb/>
+                        heroes, epics, wars, thou bear'st<lb/>
+                        the other continents
+<subst>
+                              <rdg varSeq="1">
+                                 <del rend="overstrike">
+                                    <unclear reason="deletion, illegible" resp="#rl"
+                                             cert="medium">in</unclear> trust,</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add rend="unmarked" place="supralinear">
+                                    <del rend="overstrike">with thee;</del>
+                                 </add>
+                              </rdg>
+                           </subst>
+                        <lb/>
+                     </l>
+
+                     <l>
+                        Theirs, theirs as much as thine, thee<lb/>
+                        destination—part triumphant;<lb/>
+                     </l>
+
+                     <l>
+                        —Steer<add rend="unmarked" place="supralinear">
+                              <del rend="overstrike">!</del>
+                           </add> 
+                           <subst>
+                              <rdg varSeq="1">
+                                 <del rend="overstrike">then</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add rend="unmarked" place="supralinear">
+                                    <del rend="overstrike">steer</del>
+                                 </add>
+                              </rdg>
+                              <rdg varSeq="3">
+                                 <add rend="insertion" place="supralinear">steer</add>
+                              </rdg>
+                           </subst> with <add rend="unmarked" place="supralinear">thy<del rend="overstrike"/>
+                           </add>
+                           <subst>
+                              <rdg varSeq="1">
+                                 <del rend="overstrike">
+                                    <unclear reason="deletion, illegible" resp="#rl"
+                                             cert="high">firmest</unclear>
+                                 </del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add rend="unmarked" place="supralinear">
+                                    <del rend="overstrike">steady</del>
+                                 </add>
+                              </rdg>
+                              <rdg varSeq="3">
+                                 <add rend="unmarked" place="supralinear">
+                                    <del rend="overstrike">strongest</del>
+                                 </add>
+                              </rdg>
+                              <rdg varSeq="4">
+                                 <add rend="unmarked" place="supralinear">good strong</add>
+                              </rdg>
+                           </subst> 
+hand<add rend="unmarked" place="inline">s</add> and
+<lb/>
+                        
+                           <subst>
+                              <rdg varSeq="1">
+                                 <del rend="overstrike">cautious</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add rend="insertion" place="supralinear">
+                                    <del rend="overstrike">
+                                       <unclear reason="deletion, illegible" resp="#rl"
+                                                cert="medium">waness</unclear>
+                                    </del>
+                                 </add>
+                              </rdg>
+                              <rdg varSeq="3">
+                                 <add rend="insertion" place="supralinear">wary</add>
+                              </rdg>
+                           </subst> eye. <add rend="insertion" place="supralinear"/>O helmsman—thou
+<lb/>
+                        carryest great companions,<lb/>
+                     </l>
+
+                     <l>
+                        Venerable, priestly Asia sails this<lb/>
+                        day with thee,<lb/>
+                     </l>
+
+                     <l>
+                        And royal, feudal Europe sails<lb/>
+                        with thee.<lb/>
+                     </l>
+
+                  </lg3>
+                  <note type="authorial"
+                        place="bottom">#</note>
+               </lg>
+            </lg>
+         </div1>
+
+
+         <pb facs="nyp.00003.008" xml:id="leaf07r"
+             type="recto"
+             n="6"/>
+         <div1>
+
+            <lg
+                 >
+
+               <note type="project" place="left">OYD MSS 208</note>
+               <note type="project">Walt Whitman's Book-text</note>
+
+               <lg
+                    >
+                  <note type="authorial"
+                        place="top">4.</note>
+                  <lg3
+                       >
+
+<!--superber?-->
+
+                     <l>
+                        Beautiful World of the new, superber<lb/>
+                        Birth, that rises to my eyes,<lb/>
+                     </l>
+
+                     <l>
+                        Like a limitless golden cloud, filling<lb/>
+                        the western sky;<lb/>
+                     </l>
+
+                     <l>
+                        Emblem of general Maternity, lifted<lb/>
+                        above all,<lb/>
+                     </l>
+
+                     <l>
+                        Sacred shape of the bearer of daughters<lb/>
+                        &amp;sons,<lb/>
+                     </l>
+
+                     <l>
+                        Out of thy teeming womb, thy<lb/>
+                        giant babes, in ceaseless <orig reg="procession">pro-</orig>
+                        <lb/>
+                        cession issuing,<lb/>
+                     </l>
+
+                     <l>
+                        Accending from such gestation, taking<lb/>
+                        &amp;giving continual strength&amp;life;<lb/>
+                     </l>
+
+                     <l>
+                        World of the Real! world of the<lb/>
+                        twain in one!<lb/>
+                     </l>
+
+                     <l>
+                        World of the Soul—born by the<lb/>
+                        world of the real alone—led<lb/>
+                        to identity, body, by it alone;<lb/>
+                     </l>
+
+                     <l>
+                        Yet in the beginning only—incalculable<lb/>
+                        masses of composite, precious<lb/>
+                        materials,<lb/>
+                     </l>
+
+                  </lg3>
+               </lg>
+            </lg>
+         </div1>
+         <pb facs="nyp.00003.009" xml:id="leaf08r"
+             type="recto"
+             n="7"/>
+         <div1>
+
+            <lg
+                 >
+
+               <note type="project" place="left">OYD MSS 208</note>
+               <note type="project">Walt Whitman's Book-text</note>
+
+               <lg
+                    >
+                  <lg3
+                       >
+
+                     <l>
+                        By history's cycles forwarded—by every<lb/>
+                        nation, language, hither sent,<lb/>
+                     </l>
+
+                     <l>
+                        Ready, collected here—a freer, vast,<lb/>
+                        electric World, to be constructed<lb/>
+                        here,<lb/>
+                     </l>
+
+                     <!--orbic?-->
+
+                     <l>
+                        (The true New World—the world of<lb/>
+                        
+                           <unclear reason="illegible" resp="#rl" cert="medium">orbic</unclear> Science, Morals, Literatures<lb/>
+                        to come.)<lb/>
+                     </l>
+
+                     <l>
+                        Thou 
+<subst>
+                              <rdg varSeq="1">
+                                 <del rend="overwrite">w</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add rend="overwrite" place="over">
+                                    <unclear reason="illegible" resp="#rl" cert="medium">W</unclear>
+                                 </add>
+                              </rdg>
+                           </subst>onder World, yet undefined,<lb/>
+                        unformed—neither do I define<lb/>
+                        thee;<lb/>
+                     </l>
+
+                     <l>
+                        How can I pierce the impenatrable<lb/>
+                        blank of the future?<lb/>
+                     </l>
+
+                     <l>
+                        I feel thy ominous greatness, evil<lb/>
+                        as well as good;<lb/>
+                     </l>
+
+                     <l>
+                        I watch thee, advancing, absorbing<lb/>
+                        the present, transcending the past;<lb/>
+                     </l>
+
+                     <l>
+                        I see thy light lighting&amp;thy shadow<lb/>
+                        shadowing, as if the entire globe;<lb/>
+                     </l>
+
+                     <l>
+                        But I do not undertake to define thee—<lb/>
+                        hardly to comprehend thee;<lb/>
+                     </l>
+
+                     <l>
+                        I but thee name—thee prophecy—as<lb/>
+                        now!<lb/>
+                     </l>
+
+                     <l>I merely thee ejaculate!</l>
+
+                  </lg3>
+
+                  <note type="authorial"
+                        place="bottom">#</note>
+
+               </lg>
+            </lg>
+         </div1>
+
+         <pb facs="nyp.00003.010" xml:id="leaf09r"
+             type="recto"
+             n="8"/>
+         <div1>
+
+            <lg
+                 >
+
+               <note type="project" place="left">OYD MSS 208</note>
+               <note type="project">Walt Whitman's Book-text</note>
+
+               <lg
+                    >
+                  <lg3
+                       >
+
+                     <l>Thee in thy future;</l>
+
+                     <l>
+                        Thee in thy only permanent life,<lb/>
+                        career—thy own unloosen'd<lb/>
+                        mind—thy soaring spirit;<lb/>
+                     </l>
+
+                     <!--fructifying?-->
+
+                     <l>
+                        Thee as another, equally needed sun,<lb/>
+                        America—radiant, ablaze,<lb/>
+                        swift-moving, <unclear reason="illegible" resp="#rl" cert="medium">fructifying</unclear> all;<lb/>
+                     </l>
+
+                     <l>
+                        Thee! risen in thy potent cheerfulness<lb/>
+                        &amp;joy—thy endless, great hilarity!<lb/>
+                     </l>
+
+                     <span value="bracketed" xml:id="s1" from="s1" to="s2" TEIform="span"/>
+
+
+                     <l>
+                        Scattering for good the cloud that hung<lb/>
+                        so long—that weighed so long upon<lb/>
+                        the mind of man,<lb/>
+                     </l>
+
+                     <l>
+                        The doubt, suspiscion, dread, of gradual,<lb/>
+                        certain decadence of man;<lb/>
+                     </l>
+                     <anchor xml:id="s2"/>
+
+                     <l>
+                        Thee in thy larger, <unclear reason="illegible" resp="#rl" cert="medium">saner</unclear> breeds of<lb/>
+                        Female, Male—thee in thy<lb/>
+                        athletes, moral, spiritual, South,<lb/>
+                        North, West, East,<lb/>
+                     </l>
+
+                     <l>
+                        (To thy immortal breasts, Mother<lb/>
+                        of All, thy every daughter, son,<lb/>
+                        endeared alike, forever, equal;)<lb/>
+                     </l>
+
+                     <l>
+                        Thee in thy own musicians, singers, artists,<lb/>
+                        unborn yet, but certain;<lb/>
+                     </l>
+
+                  </lg3>
+               </lg>
+            </lg>
+         </div1>
+         <pb facs="nyp.00003.011" xml:id="leaf10r"
+             type="recto"
+             n="9"/>
+
+         <div1>
+
+            <lg
+                 >
+               <note type="project" place="left">OYD MSS 208 <unclear reason="illegible" resp="#rl" cert="medium">Parsons</unclear>
+               </note>
+               <note type="project">Walt Whitman's Book-text</note>
+
+               <lg
+                    >
+                  <lg3
+                       >
+
+                     <l>
+                        Thee in thy moral wealth&amp;<gap reason="illegible"/>
+                        <lb/>
+                        ration, (until which thy proudest<lb/>
+                        material wealth and civilization<lb/>
+                        shall remain in vain;)<lb/>
+                     </l>
+
+                     <l>
+                        Thee in thy all-supplying, all-enclosing<lb/>
+                        Worship—thee in no single <lb/>
+                        bible, savior, merely,<lb/>
+                     </l>
+
+                     <l>
+                        Thy saviors countless, latent within<lb/>
+                        thyself—thy bibles incessant<lb/>
+                        within thyself, equal to any, divine<lb/>
+                        as any;<lb/>
+                     </l>
+
+                     <l>
+                        Thee in an Education grown on thee—<lb/>
+                        in teachers, studies, students,<lb/>
+                        born of thee;<lb/>
+                     </l>
+
+                     <l>
+                        Thee in thy democratic <unclear reason="illegible" resp="#rl" cert="medium">fetes</unclear>, <unclear reason="illegible" resp="#rl" cert="medium">in mane</unclear>—<lb/>
+                        thy high orginal festivals,<lb/>
+                        operas, lecturers, preachers;<lb/>
+                     </l>
+
+                     <l>
+                        Thee in thy ultimat<unclear reason="illegible" resp="#rl" cert="medium">a</unclear>, (in <orig reg="preparations">prepa-</orig>
+                        <lb/>
+                        rations only now ccompleted—the<lb/>
+                        
+                           <unclear reason="illegible" resp="#rl" cert="high">edifice</unclear> on sure foundations tied.)<lb/>
+                     </l>
+
+                     <l>
+                        Thee in thy pinnacles, intellect, thought—<lb/>
+                        thy topmost rational joys—thy love,<lb/>
+                        &amp;godlike aspiration,<lb/>
+                     </l>
+                  </lg3>
+               </lg>
+            </lg>
+         </div1>
+
+         <pb facs="nyp.00003.012" xml:id="leaf11r"
+             type="recto"
+             n="10"/>
+         <div1>
+
+            <lg
+                 >
+
+               <note type="project" place="left">OYD MSS 208</note>
+               <note type="project">Walt Whitman's Book-text</note>
+               <lg
+                    >
+                  <lg3
+                       >
+
+                     <l>
+                        In thy resplendent coming literati—<lb/>
+                        thy full-lung'd orators—thy<lb/>
+                        sacerdotal bards—Kosmic<lb/>
+                        savans.<lb/>
+                     </l>
+
+                     <!--What are the last two words in this thing?-->
+
+                     <l>
+                        These! thes in the
+<subst>
+                              <rdg varSeq="1">
+                                 <del rend="overwrite">
+                                    <gap reason="deletion, illegible"/>
+                                 </del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add rend="overwrite" place="over">
+                                    <unclear reason="illegible" resp="#rl" cert="medium">e</unclear>
+                                 </add>
+                              </rdg>
+                           </subst>, (certain to come,)
+<lb/>
+                        to-day <unclear reason="illegible" resp="#rl" cert="medium">I</unclear> prophecy.<lb/>
+                     </l>
+                  </lg3>
+               </lg>
+
+               <lg
+                    >
+
+                  <note type="authorial" place="inline">5.</note>
+
+                  <lg3
+                       >
+                     <l>
+                        Land tolerated all—accepting all—not<lb/>
+                        for the good alone—all good for<lb/>
+                        thee;<lb/>
+                     </l>
+
+                     <l>
+                        Land in the realms of God to be a<lb/>
+                        realm unto thyself;<lb/>
+                     </l>
+
+                     <l>
+                        Under the rule of God to be a rule<lb/>
+                        unto thyself.<lb/>
+                     </l>
+                     <addSpan type="pasteon" to="a2" place="bottom"/>
+
+
+
+
+                     <span value="bracketed" xml:id="s3" from="s3" to="s4" TEIform="span"/>
+                     <l>Lo! where arise<del rend="overstrike">s</del> three peerle<unclear reason="illegible" resp="#rl" cert="medium">s</unclear> 
+                        <unclear reason="illegible" resp="#rl" cert="medium">dare</unclear>
+                     </l>
+
+                     <l>
+                        To be thy natal sta<unclear reason="illegible" resp="#rl" cert="medium">r</unclear>
+                           <add rend="insertion" place="infralinear">!</add> my country—<lb/>
+                        
+                           <unclear reason="illegible" resp="#rl" cert="medium">Ensembee</unclear>—<unclear reason="illegible" resp="#rl" cert="medium">Evolution</unclear>—Freedom,<lb/>
+                     </l>
+
+                     <l>
+                        <unclear reason="llegible" resp="#rl" cert="medium">Sel</unclear> in <unclear reason="illegible" resp="#rl" cert="30%">the</unclear> sky of Laws.</l>
+
+                     <anchor xml:id="s4"/>
+                  </lg3>
+               </lg>
+
+               <note type="project">This verse had been cut off original m<unclear reason="illegible" resp="#rl" cert="medium">s</unclear>s.  It is copied here by R.J.H.</note>
+
+               <anchor xml:id="a2"/>
+            </lg>
+         </div1>
+         <pb facs="nyp.00003.013" xml:id="leaf12r"
+             type="recto"
+             n="11"/>
+         <div1>
+
+            <lg
+                 >
+
+               <note type="project" place="left">OYD MSS 208</note>
+               <note type="project">Walt Whitman's Book-text</note>
+
+               <lg
+                    >
+                  <lg3
+                       >
+
+                     <l>
+                        Land of unprecedented faith—God's<lb/>
+                        faith!<lb/>
+                     </l>
+
+
+                     <l>Thy soil, thy very subsoil, all upheaved;</l>
+
+                     <!--Strange Word! miner?-->
+                     <!--2nd one!  redulously?-->
+
+                     <l>
+                        The general miner earth, so long, so <orig reg="redulously"/>red-<lb/>
+                        ulousy draped over, now&amp;hence<lb/>
+                        for what it is boldly laid bare,<lb/>
+                     </l>
+
+                     <l>
+                        Open'd by thee to heaven's light, for<lb/>
+                        benefit or bale.<lb/>
+                     </l>
+                  </lg3>
+
+                  <lg3
+                       >
+                     <l>Not for success alone;</l>
+
+                     <!--Strange wording here!-->
+
+                     <l>Not to fair sail unintermitted always;</l>
+
+                     <l>
+                        The storm shall dash thy face—the<lb/>
+                        murk of war, &amp;worse than war,<lb/>
+                        shall cover thee all over<lb/>
+                     </l>
+
+                     <span value="bracketed" xml:id="s7" from="s7" to="s8" TEIform="span"/>
+                     <l>
+                        
+                           <unclear reason="illegible" resp="#rl" cert="medium">Went</unclear> capable of war—its tug&amp;trials?<lb/>
+                        —Be capable of peace, its trials;<lb/>
+                     </l>
+
+                     <l>
+                        For the tug 
+<subst>
+                              <rdg varSeq="1">
+                                 <del rend="overstrike">of nations ever</del>
+                              </rdg>
+                              <rdg varSeq="2">and moral <unclear reason="illegible" resp="#rl" cert="high">strain</unclear>
+                              </rdg>
+                           </subst>
+                           <add rend="insertion" place="supralinear">of nations</add> come<del rend="overstrike">s</del> at<lb/>
+                        last in peace—not war;<lb/>
+                     </l>
+                     <anchor xml:id="s8"/>
+
+                     <l>
+                        In many a smiling mask Death<lb/>
+                        shall approach, beguiling thee—<lb/>
+                        thou in disease shalt swelter,<lb/>
+                     </l>
+
+                  </lg3>
+               </lg>
+            </lg>
+
+         </div1>
+
+
+         <pb facs="nyp.00003.014" xml:id="leaf13r"
+             type="recto"
+             n="12"/>
+         <div1>
+
+            <lg
+                 >
+
+               <note type="project" place="left">OYD MSS 208</note>
+               <note type="project">Walt Whitman's Book-text</note>
+
+               <lg
+                    >
+                  <lg3
+                       >
+
+                     <l>
+                        The livid cancer spread its hideous<lb/>
+                        claws, clinging upon thy breasts,<lb/>
+                        seeking to strike thee deep within;<lb/>
+                     </l>
+
+
+                     <l>
+                        Consumption of the worst—moral <orig reg="consumption">con-</orig>
+                        <lb/>
+                        sumption—shall <del rend="overstrike">rough</del> rouge<lb/>
+                        thy face with hectic;<lb/>
+                     </l>
+
+                     <l>
+                        But though shalt face thy fortunes, thy<lb/>
+                        diseases, and surmount them all,<lb/>
+                     </l>
+
+                     <l>
+                        Whatever they are to-day, &amp;whatever<lb/>
+                        through time they may be,<lb/>
+                     </l>
+
+                     <l>
+                        They each and all shall lift and pass<lb/>
+                        away, &amp;cease from thee<lb/>
+                     </l>
+
+                     <l>
+                        While thou, Time's spirals rounding—<lb/>
+
+                        out of thyself, thyself still<lb/>
+                        extricating, 
+<subst>
+                              <rdg varSeq="1">
+                                 <del rend="overstrike">lifting</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add rend="unmarked" place="inline">
+                                    <del rend="overstrike">fashioning,</del>
+                                 </add>
+                              </rdg>
+                              <rdg varSeq="3">
+                                 <add rend="unmarked" place="inline">fusing,</add>
+                              </rdg>
+                           </subst>
+                        <lb/>
+                     </l>
+
+                     <!--Strange Word!  Equable?-->
+                     <!--2nd Strang Word!  blent?-->
+
+                     <l>
+                        Equable, natural, mystical Union thou—<lb/>
+                        
+                           <span value="bracketed" xml:id="s5" from="s5" to="s6" TEIform="span"/>the mortal with immortal blent,
+<anchor xml:id="s6"/>
+                        <lb/>
+                     </l>
+
+                     <l>
+                        Shalt soar toward the fulfilment of<lb/>
+                        the future—the spirit of the body<lb/>
+                        &amp;the mind,<lb/>
+                     </l>
+
+                     <l>The Soul—its destinies.</l>
+
+                  </lg3>
+                  <note type="authorial"
+                        place="bottom">#</note>
+               </lg>
+            </lg>
+
+
+         </div1>
+
+
+
+         <pb facs="nyp.00003.015" xml:id="leaf14r"
+             type="recto"
+             n="13"/>
+         <div1>
+
+            <lg
+                 >
+
+               <note type="project" place="left">OYD MSS 208</note>
+               <note type="project">Walt Whitman's Book-text</note>
+
+               <lg
+                    >
+                  <lg3
+                       >
+
+                     <l>The Soul, its destinies—the real real,</l>
+
+                     <l>
+                        (Purport of all these aparitions of the<lb/>
+                        real;)<lb/>
+                     </l>
+
+                     <l>In thee, America, the Soul, its destinies;</l>
+
+                     <l>
+                        Thou globe of globes! thou wonder<lb/>
+                        nebulous!<lb/>
+                     </l>
+
+                     <l>
+                        By many a throe of heat&amp;cold<lb/>
+                        convulsed—<add rend="unmarked" place="inline">(</add>by these thyself<lb/>
+                        solidifying<add rend="unmarked" place="inline">)</add>
+                        <lb/>
+                     </l>
+
+                     <l>
+                        Thou mental, moral orb! thou new,<lb/>
+                        indeed new, 
+<subst>
+                              <rdg varSeq="1">
+                                 <del rend="overwrite">s</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add rend="overwrite" place="over">S</add>
+                              </rdg>
+                           </subst>piritual World!<lb/>
+                     </l>
+
+                     <l>
+                        
+                           <subst>
+                              <rdg varSeq="1">
+                                 <del rend="overstrike">For such</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add rend="unmarked" place="supralinear">The present</add>
+                              </rdg>
+                           </subst> holds thee not—For
+<lb/>
+                        such fast growth as thine—<lb/>
+                        for such unparralleled flight<lb/>
+                        as thine,<lb/>
+                     </l>
+
+                     <l>
+                        The Future only hold thee, &amp;<unclear reason="illegible" resp="#rl" cert="high">can</unclear>
+                        <lb/>
+                        hold thee.<lb/>
+                     </l>
+
+                  </lg3>
+               </lg>
+            </lg>
+         </div1>
+      </body>
+   </text>
+</TEI>

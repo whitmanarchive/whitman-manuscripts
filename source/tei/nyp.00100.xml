@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00100">
+    <relations>
+        <work ref="xxx.00250" cert="high">
+            <p>This manuscript is a draft of lines that first appeared in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, in a poem that was originally untitled and that would eventually be
+            entitled "Who Learns My Lesson Complete?": "I know it is wonderful . . . . but my eyesight is equally wonderful . . . . and how I was conceived in my mother's womb is equally 
+            wonderful, / And how I was not palpable once but am now . . . . and was born on the last day of May 1819 . . . . and passed from a babe in the creeping trance of three summers 
+            and three winters to articulate and walk . . . . are all equally wonderful" (1855, p. 92).</p>
+        </work>
+    </relations>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main" rend="bracketed">born at all is equally</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="cah">Caitlin Henry</persName>
+                    <persName xml:id="kc">Kirsten Clawson</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="jc">Janel Cayer</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>nyp.00100</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">A poetic fragment which was used slightly revised in "Who Learns My Lesson Complete?," a poem that was untitled when it first appeared as part of the 1855 edition 
+                    of <hi rend="italic">Leaves of Grass</hi>. Revised versions of this poem appeared throughout the editions of <hi rend="italic">Leaves of Grass</hi>, the 
+                    final title first appearing in 1871&#8211;1872.</note>             
+            </notesStmt>
+            <sourceDesc> 
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>born at all is equally wonderful</title> 
+                    <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
+                    <idno type="callno">b19877231</idno><!--UUID: 665faaa0-c5d9-012f-6ad7-58d385a7bc34-->
+                    <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="nyp.00734"/>
+                    <relatedItem type="document" target="wwa.00577"/>
+                    <note type="project" target="#rel01">A list of words is written on the back of this manuscript leaf.</note>
+                    <note type="project">Transcribed from digital images of the original.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc> 
+            <change when="2018-12-18" who="#nhg">edited related item note</change>
+            <change when="2018-11-30" who="#smb">updated editorial notes</change>
+            <change when="2018-11-14" who="#smb">checked, corrected</change>
+            <change when="2018-11-07" who="#cah">checked, corrected, added corresps</change>
+            <change when="2015-06-22" who="#jc">revised repository information in header</change>
+            <change when="2014-10-28" who="#nhg">checked, corrected</change>
+            <change when="2014-09-12" who="#kc">transcribed and encoded</change>
+        </revisionDesc> 
+    </teiHeader>
+
+    <text type="manuscript">
+        <body>
+            <pb xml:id="leaf001r" facs="nyp.00100.001.jpg" type="recto"/> 
+            <delSpan spanTo="#d01" rend="hashmark"/>
+            <l xml:id="l01" corresp="#l2238 #l2239">
+                <gap reason="cut away"/><lb/>
+                born at all is equally wonderful . . . .<lb/>
+            <add rend="unmarked" place="supralinear">and</add> that I <del rend="overstrike">rose from</del> passed from <del rend="overstrike">being</del><lb/>
+                a babe in the <subst><del rend="overstrike" seq="1">infantile</del> <add rend="unmarked" place="supralinear" seq="2">creeping</add></subst> trance of<lb/>
+                three <subst><del rend="overstrike" seq="1">years</del> <add rend="unmarked" place="interlinear" seq="2">summers and three winters</add></subst> to <add rend="unmarked" place="supralinear"><del rend="overstrike">be</del> articulate</add> <del rend="overstrike">child</del></l>
+            <anchor xml:id="d01"/>
+            <pb xml:id="leaf001v" facs="nyp.00100.002.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

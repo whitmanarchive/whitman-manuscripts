@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00584">
+   <relations>
+      <work ref="xxx.00259" cert="high">
+         <p>This manuscript is similar to a line in a notebook that also contains draft lines of a poem unpublished in Whitman's lifetime, titled "Pictures": "And there, singular, on ocean waves, downward, buoyant, swift, over the waters, an occupied coffin floating." The first several lines of the notebook (not including this line) were revised and published as "My Picture-Gallery" in <hi rend="italic">The American</hi> in October 1880. The poem was later published in <hi rend="italic">Leaves of Grass</hi> as part of the "Autumn Rivulets" cluster (1881, p. 310).</p>
+      </work>
+   </relations>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main" rend="bracketed">Downward, buoyant</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="sp">Stacey Provan</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2003</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>uva.00584</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="project" target="#dat1">This fragmentary manuscript is a version of a line incorporated in the early notebook poem "<ref target="yal.00081.html">Pictures</ref>." A similar line is also inscribed in the early notebook "<ref target="../notebooks/transcriptions/nyp.00129.html">I know a rich capitalist</ref>," currently housed at the New York Public Library.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>How can there be immortality</title>
+               <idno type="callno">MSS 3829, Box-folder 1:49</idno>
+               <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1860">Between 1850 and 1860</date>
+               <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName> 
+               <note type="project">Transcribed from digital images of the original.</note>
+               <relatedItem xml:id="rel1" type="text" target="uva.00014"/>
+               <relatedItem type="document" target="wwa.00146"/>
+               <note type="project" target="#rel1">A series of draft lines written on the back of this manuscript leaf relate to the poem eventually titled "Starting from Paumanok."</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="#nhg" when="2019-01-17">proofed, added relations info</change>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#sp" when="2003-10-29">Encoded</change>
+         <change who="#sp" when="2003-10-29">Transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <pb facs="uva.00014.002.jpg" xml:id="leaf001r" type="recto"/>
+         <l><add rend="insertion" place="supralinear">Downward, buoyant, <gap reason="cut away"/></add>
+            On turbid waters, <del rend="overstrike"><unclear reason="illegible" resp="#nhg" cert="low">wheeling</unclear> <gap reason="deletion, illegible"/></del>
+            <lb/>
+            
+            <subst>
+               <del rend="overstrike" seq="1">racing and swift</del>
+               <add rend="unmarked" place="supralinear" seq="2">buoyant</add>
+               
+            </subst>
+            <del rend="overstrike"><unclear reason="illegible" resp="#nhg" cert="medium">swift</unclear></del>
+            <lb/>
+            
+            <gap reason="cut away"/> <unclear reason="cut away" cert="medium" resp="#nhg">coffin</unclear>
+            <del rend="overstrike">floats</del> float <gap reason="cut away"/></l>
+         
+         
+         <pb facs="uva.00014.001.jpg" xml:id="leaf001v" type="verso"/>
+      </body>
+   </text>
+</TEI>

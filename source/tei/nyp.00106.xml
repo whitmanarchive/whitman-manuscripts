@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00106">
+   <relations>
+      <work ref="xxx.00522" cert="high">
+         <p>This lines were likely drafted as part of the poem published as "The Mississippi at Midnight" on March 6, 1848, in the <hi rend="italic">New Orleans Daily Crescent</hi>, though they were not included in the published version of the poem. A revised version of the poem was later included in <hi rend="italic">Specimen Days &amp; Collect</hi> (1882&#8211;3).</p>
+      </work>
+   </relations>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+               <title level="a" type="main" rend="bracketed">Like Earth O River</title>
+            
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="cf">Chris Forster</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2004</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>nyp.00106</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="project" target="dat1">This lines were probably drafted as part of the poem published as "The Mississippi at Midnight" on March 6, 1848, in the <hi rend="italic">New Orleans Daily Crescent</hi>, though they were not included in the published version of the poem. A revised version of the poem, titled "Sailing the Mississippi at Midnight," was later included in <hi rend="italic">Specimen Days &amp; Collect</hi> (1882&#8211;3). Whitman left for New Orleans in February, 1848, so this manuscript was written after that date.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>Like Earth O River, you offer us burial</title>
+               <date cert="medium" notBefore="1848-02-01" notAfter="1848-12-31" xml:id="dat1">1848</date>
+               <idno type="callno">b19877231</idno><!--UUID: 5e930b90-c5d9-012f-5978-58d385a7bc34-->
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName> 
+               <note type="project">Transcribed from digital images of the original.</note>
+               <relatedItem type="text" xml:id="rel01" target="nyp.00736"/>
+               <relatedItem type="document" target="wwa.00599"/>
+               <note type="project" target="#rel01">Draft lines on the back of this manuscript leaf also relate to the poem eventually titled "Sailing the Mississippi at Midnight."</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="#nhg" when="2018-12-18">edited</change>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#cf" when="2005-08-10">Encoded</change>
+         <change who="#cf" when="2005-08-10">Transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <pb facs="nyp.00106.001.jpg" xml:id="leaf001r" type="recto"/> 
+         <lg type="linegroup">
+            
+            <lg type="linegroup">
+               <l>Like Earth O river, you offer us burial<lb/>
+                  
+                  <add place="right" rend="unmarked">Existence</add> Like <del rend="overstrike">
+                     <add place="supralinear" rend="insertion">
+                        <unclear reason="deletion,illegible"
+                           cert="medium" resp="#cf">mortal</unclear>
+                     </add>
+                  </del> 
+                  <del rend="overstrike">Life</del> is your <del rend="overstrike">aimless</del> hurrying on</l>
+               
+               <l>Like Time, with a clutch remorseless, continual<lb/>
+                  That which you take is forever gone.</l>
+            </lg>
+            
+            <milestone unit="undeclared" rend="horbar-short-center"/>
+            
+            <lg type="linegroup">
+               <l>Unlike Time, you begin and end,<lb/>
+                  Unlike Life you've a pathway steady</l>
+               
+               <l>Unlike Earth's are your numberless graves<lb/>
+                  Ever undug, yet ever ready.—</l>
+            </lg>
+            
+         </lg>
+         
+         <pb facs="nyp.00106.002.jpg" xml:id="leaf001v" type="verso"/>
+         
+         
+      </body>
+   </text>
+</TEI>

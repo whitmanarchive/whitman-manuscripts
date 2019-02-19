@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main" rend="bracketed">The good hostess</title>
+                <title level="m" type="main" rend="bracketed">The good hostess that could</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -16,7 +16,9 @@
                     <persName xml:id="es">Jeannette Schollaert</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="rc">Regan Chasek</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -41,12 +43,12 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Based on the handwriting, Edward Grier dates this manuscript to the 1840s or 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:297). An image of the verso is currently unavailable.</note>             
+                <note type="project" target="#dat1">Based on the handwriting, Edward Grier dates this manuscript to the 1840s or 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:297).</note>             
             </notesStmt>
             <sourceDesc>           
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title rend="bracketed">The good hostess</title>
+                    <title rend="bracketed">The good hostess that could</title>
                     <idno type="callno">b15520479</idno>
                     <date xml:id="dat1" notBefore="1840" notAfter="1860" cert="low">1840s or 1850s</date>
                     <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
@@ -55,6 +57,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2017-07-19" who="#rc">added verso link</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-07-19" who="#nhg">checked, corrected</change>
             <change when="2016-06-28" who="#km">checked</change>
@@ -71,6 +74,8 @@
             
             <p>The good hostess that could always make fine apple dumplings, except once when she had grand company, and mixed <subst><del rend="overstrike" seq="1">them</del> <add rend="insertion" place="supralinear" seq="2">her flour</add></subst> up so <subst><del rend="overwrite" seq="1">s</del><add rend="overwrite" place="over" seq="2">r</add></subst>ich that <subst><del rend="overstrike" seq="1">they</del> <add rend="unmarked" place="supralinear" seq="2">it</add></subst> all cooked to tatters in the pot&#8212;</p>
             <milestone unit="undeclared" rend="horbar-full"/>
+            
+            <pb xml:id="leaf001v" facs="nyp_rc.00004.jpg" type="verso"/>
         </body>
     </text>
 </TEI>

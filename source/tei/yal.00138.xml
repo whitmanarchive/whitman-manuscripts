@@ -2,6 +2,11 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="yal.00138">
+    <relations>
+        <work ref="xxx.00526" cert="low">
+           <p>The ideas expressed in this manuscript are similar to those found in the prose preface to the 1855 <hi rend="italic">Leaves of Grass</hi>.</p>
+        </work>
+    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -41,7 +46,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Although no specific lines from this manuscript can be directly tied to any of Whitman's published work, the language and ideas are similar to certain sections of the Preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, as well as to the poem eventually titled "Song of Myself," suggesting that this manuscript may have been written around that time. A note written by Richard Maurice Bucke, one of Whitman's literary executors, dates the manuscript to 1855 or 1856 (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi>, ed. Edward F. Grier [New York: New York University Press, 1984], 1:222).</note>             
+                <note type="project" target="#dat1">Although no specific lines from this manuscript can be directly tied to any of Whitman's published work, the language and ideas are similar to certain sections of the prose preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, as well as to the poem eventually titled "Song of Myself," suggesting that this manuscript may have been written around that time. A note written by Richard Maurice Bucke, one of Whitman's literary executors, dates the manuscript to 1855 or 1856 (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi>, ed. Edward F. Grier [New York: New York University Press, 1984], 1:222).</note>             
             </notesStmt>
             <sourceDesc>
                 
@@ -49,7 +54,7 @@
                     <author>Walt Whitman</author>
                     <title>["Understand that you can have in your writing..."]</title>                  
                     <idno type="callno">MSS 202, Box 1, Folder 42</idno>
-                    <date xml:id="dat1" notBefore="1855" notAfter="1860" cert="medium">1855 or 1856</date>
+                    <date xml:id="dat1" notBefore="1850" notAfter="1860" cert="medium">1855 or 1856</date>
                     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>

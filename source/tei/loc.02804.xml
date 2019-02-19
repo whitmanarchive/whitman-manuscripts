@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02804">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title level="m" type="main">First paying</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="al">Ashley Lawson</persName> <persName xml:id="tj">Tim Jackson</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>
+                    <date>2010</date>
+                </edition>
+            </editionStmt>
+            
+            <publicationStmt>
+                <idno>loc.02804</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>          
+                    <title>First paying</title> 
+                    <!--     THE DATE INFORMATION IN THE NEXT LINE WILL BE ADDED BY AN EDITOR     -->
+                    <!--<date xml:id="dat1" cert="****" when="/"> </date>-->
+                    
+                    <idno type="callno">MSS45443 Box 1</idno>
+                    <orgName>The Thomas Biggs Harned Collection of the Papers of Walt Whitman: A Register of His Papers in the Library of Congress, 1842-1937</orgName>
+                    <note type="project">Transcribed from our own digital image of the original manuscript.</note>
+                    <relatedItem type="text" target="loc.00523"/>
+                    <relatedItem type="document" target="wwa.00136"/>
+                </bibl>
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2016-04-08" who="#nhg">separated verso into separate file</change>
+            <change when="2011-04-20" who="#tj">Checked, corrected</change>
+            <change when="2010-07-15" who="#al">Transcribed and encoded</change>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text type="manuscript">
+        
+        <body>
+<pb xml:id="leaf001r" facs="loc.02804.001_large.jpg" type="recto"/>
+            
+            
+            <delSpan rend="hashmark" spanTo="#h1"/>
+          <note type="authorial"  place="top"><transpose anchored="1" target="#t1">&#42;&#38; shall hold to my dying day&#8212;</transpose>
+                </note>
+           
+            <p>
+                 First paying
+                <subst>
+                    <del rend="overstrike" seq="1">my</del>
+                    <add place="supralinear" rend="unmarked" seq="2">my</add>
+                </subst>
+                Washington friends
+                <subst>
+                    <del rend="overstrike" seq="1">my my</del>
+                    <add place="supralinear" rend="unmarked" seq="2">the</add>
+                </subst>
+                affectionate regards I <del rend="overstrike"><add place="supralinear" rend="insertion">shall always</add></del>
+                <subst>
+                    <del rend="overstrike" seq="1">really</del>
+                    <add place="supralinear" rend="unmarked" seq="2">fervently</add>
+                </subst>
+                hold&#8212;
+               
+                    <del rend="overstrike">for years</del><anchor xml:id="t1"/>
+                    
+               
+               memories of old&#8212; <add rend="unmarked" place="supralinear" seq="1">&#8212;vivid and peculiar</add><add rend="unmarked" place="supralinear" seq="2">&#8212;the</add>(how can any one who passed through those <add place="supralinear" rend="insertion"><unclear reason="illegible" 
+                    cert="medium" resp="#al">whirling</unclear> ages condensed in</add> five <add place ="supralinear" rend="unmarked">short</add> years 
+                <subst>
+                    <del rend="overstrike" seq="1">in</del>
+                    <add place="supralinear" rend="insertion" seq="2">of</add>
+                </subst>
+                Washington <add place="supralinear" rend="unmarked">life</add> from 1860 to '66 ever forget them?)&#8212;skipping <add place="supralinear" rend="insertion">lightly</add> over the 15 <gap reason="torn away" 
+                    extent="unk"/>
+            </p>
+            <anchor xml:id="h1"/>
+           
+           
+<pb xml:id="leaf001v" facs="loc.02804.002_large.jpg" type="verso"/> 
+            
+           
+         
+                
+        
+        </body>
+    </text>
+</TEI>
+
+
+
+

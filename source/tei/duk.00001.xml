@@ -9,7 +9,7 @@
                 If nothing lay more developed the quahaug and its callous shell were enough. /
                 Mine is no callous shell, /
                 I have instant conductors all over me whether I pass or stop, /
-                They seize every object and lead it harmlessly through me. (1855, p. 32).</p>
+                They seize every object and lead it harmlessly through me. (1855, p. 32)</p>
         </work>
     </relations>
     <teiHeader>
@@ -61,14 +61,16 @@
                         notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
                     <orgName
                         xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+                    <note type="project">Transcribed from digital images of the original.</note>
                     <relatedItem type="text" xml:id="rel01" target="duk.00883"/>
                     <relatedItem type="document" target="wwa.00035"/>
                     <note type="project" target="#rel01">On the back of this manuscript is a list of words and other draft lines of verse that include language and images used in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
-                    <note type="project">Transcribed from digital images
-                        of the original.</note></bibl>
+                    </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2018-09-10" who="#nhg">updated image names</change>
+            <change when="2017-08-10" who="#nhg">added LG line corresp</change>
             <change when="2017-04-13" who="#kmp">blessed</change>
             <change when="2017-03-23" who="#nhg">edited work relations information, transcription</change>
             <change when="2016-05-06" who="#nhg">checked, corrected</change>
@@ -87,22 +89,22 @@
 
     <text type="manuscript">
         <body>
-            <pb facs="duk.00001.001.jpg" xml:id="leaf001r" type="recto"/>
+            <pb facs="duk_nhg.00410_large.jpg" xml:id="leaf001r" type="recto"/>
            <lg type="poem">
                 <lg type="linegroup" xml:id="q01">
-                    <l>To be at all&#8212;what is <subst>
+                    <l xml:id="l01" corresp="#l610">To be at all&#8212;what is <subst>
                             <del rend="overstrike" seq="1">greater</del>
                             <add place="supralinear" rend="unmarked" seq="2">better</add>
                         </subst> than that?</l>
-                    <l>I think if there were nothing more developed,<lb/>
+                    <l xml:id="l02" corresp="#l611">I think if there were nothing more developed,<lb/>
                         the clam in its callous shell in<lb/>
                         the sand, were august enough.&#8212;&#124;</l>
                 </lg>
                 <lg type="linegroup" xml:id="q02">
-                    <l>I am not in any callous shell;</l>
-                    <l>I am cased with supple conductors,<lb/>
+                    <l xml:id="l03" corresp="#l612">I am not in any callous shell;</l>
+                    <l xml:id="l04" corresp="#l613">I am cased with supple conductors,<lb/>
                         all over;</l>
-                    <l>They take every object by the hand, and<lb/>
+                    <l xml:id="l05" corresp="#l614">They take every object by the hand, and<lb/>
                         lead it within me.&#8212;</l>
                 </lg>
                 <lg type="linegroup">
@@ -135,7 +137,7 @@
                 <note place="left" type="authorial">My</note>
                 <note place="left" type="authorial">The</note>
             </lg>
-            <pb facs="duk.00001.002.jpg" xml:id="leaf001v" type="verso"/>
+            <pb facs="duk_nhg.00411_large.jpg" xml:id="leaf001v" type="verso"/>
                    </body>
     </text>
 </TEI>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00261">
+   <relations>
+      <work ref="xxx.00048" cert="high">
+         <p>One line from this manuscript appears in the 1855 edition of <hi rend="italic">Leaves of Grass</hi> in the poem eventually titled "Song of Myself": "Where the life-car is drawn on the slipnoose . . . . where the heat hatches pale-green eggs in the dented sand" (1855, p. 36).</p>
+      </work>
+   </relations>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main" rend="bracketed">Where the little musk ox</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="cah">Caitlin Henry</persName>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="li">Leslie Ianno</persName>
+               <persName xml:id="smb">Stephanie Blalock</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2003</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>uva.00261</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. A line from the manuscript appears in the first poem of that edition, originally titled "Leaves of Grass," eventually titled "Song of Myself."</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>Where the little musk ox carries his</title>
+               <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
+               <idno type="callno">MSS 3829, Box-folder 1:88</idno>
+               <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
+               <note type="project">Transcribed from digital images of the original.</note>
+               <relatedItem xml:id="rel1" type="text" target="uva.00262"/>
+               <relatedItem type="document" target="wwa.00063"/>
+               <note type="project" target="#rel1">Lines on the back of this manuscript leaf also relate to the poem eventually entitled "Song of Myself."</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote scribeRef="#unk" xml:id="h1"><persName xml:id="unk">Unknown</persName></handNote>
+         </handNotes>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#smb" when="2019-01-22">checked</change>
+         <change who="#nhg" when="2019-01-15">checked relations info</change>
+         <change who="#cah" when="2019-01-10">checked, corrected, and added relations</change>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#li" when="2003-11-13">Encoded</change>
+         <change who="#li" when="2003-11-13">Transcribed</change>
+      </revisionDesc>
+   </teiHeader> 
+   <text>
+      <body>
+
+         <pb facs="uva.00261.001.jpg" xml:id="leaf001r" type="recto"/>
+         <note type="editorial" resp="#h1" place="top"><del rend="erasure">12</del></note>
+         <lg type="linegroup">
+
+            <l>Where the little musk ox carries his<lb/>
+               perfumed bag at his navel;</l>
+
+            <del rend="overstrike"><l xml:id="l01" corresp="#l739">Where the life car is drawn on its slip&#8209;noose</l></del>
+
+            <l>At dinner on a dish of huckleberries, or rye bread<lb/>
+               and a round white pot cheese;</l>
+
+<gap reason="cut away"/>
+         </lg>
+         <pb facs="uva.00262.001.jpg" xml:id="leaf001v" type="verso"/>
+      </body>
+   </text>
+</TEI>

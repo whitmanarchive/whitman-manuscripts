@@ -9,7 +9,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main" rend="bracketed">From the tips of his fingers</title>
+                <title level="m" type="main" rend="bracketed">From the tips of his</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -63,6 +63,8 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2018-11-01" who="#nhg">edited title</change>
+            <change when="2017-10-24" who="#nhg">added inline relations info</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2017-03-02" who="#nhg">added project note for relatedItem</change>
             <change when="2016-02-01" who="#nhg">adjusted relatedItem encoding</change>
@@ -76,10 +78,10 @@
     <text type="manuscript">
         <body>
             <pb xml:id="leaf001r" facs="20060316_0007.jpg" type="recto"/><delSpan rend="hashmark" spanTo="#s01"/>
-            <ab>From the tips of his fingers</ab>
-            <ab>from the breaths of his lungs</ab>
-            <ab>from the sparkle of his eyes,</ab>
-            <ab>from the odor of his body</ab>
+            <ab xml:id="ab01" corresp="#l981">From the tips of his fingers</ab>
+            <ab xml:id="ab02" corresp="#l982">from the breaths of his lungs</ab>
+            <ab xml:id="ab03" corresp="#l982">from the sparkle of his eyes,</ab>
+            <ab xml:id="ab04" corresp="#l982">from the odor of his body</ab>
             <ab><gap reason="cut away" quantity="1" unit="chars"/></ab><anchor xml:id="s01"/>
             <pb xml:id="leaf001v" facs="20060316_0006.jpg" type="verso"/>
             

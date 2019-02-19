@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00884">
+	<relations>
+		<work ref="xxx.00110" cert="low">
+			<p>Many of the items from this list of European rivers, lakes, and cities were included in "Poem of Salutation" in the 1856 edition of <hi rend="italic">Leaves of Grass</hi>. In the 1860 edition of <hi rend="italic">Leaves</hi> the poem was retitled "Salut Au Monde," a title it would retain throughout the subsequent editions.</p>
+		</work>
+	</relations>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title level="m" type="main" rend="bracketed">Europe</title>
+				<title level="m" type="sub">a machine readable transcription</title>
+				<author>Walt Whitman</author>
+				<editor>Kenneth M. Price</editor>
+				<editor>Ed Folsom</editor>
+				<respStmt>
+					<resp>Transcription and encoding</resp>
+					<persName xml:id="nhg">Nicole Gray</persName>
+					<persName xml:id="jh">John Harvard</persName>
+					<persName xml:id="cf">Chris Forster</persName>
+					<persName xml:id="kt">Kristen Taylor</persName>
+					<persName xml:id="es">Jeannette Schollaert</persName>
+					
+				</respStmt>
+				<sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
+				<sponsor>University of Iowa</sponsor>
+				<sponsor>University of Nebraska-Lincoln</sponsor>
+				<funder>The National Endowment for the Humanities</funder>
+				<funder>The United States Department of Education</funder>
+			</titleStmt>
+			<editionStmt>
+				<edition><date>2004</date></edition>
+			</editionStmt>
+			<publicationStmt>
+				<idno>duk.00884</idno>
+				<distributor>The Walt Whitman Archive</distributor>
+				<address>
+					<addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
+					<addrLine>Alderman Library</addrLine>
+					<addrLine>University of Virginia</addrLine>
+					<addrLine>P.O. Box 400115</addrLine>
+					<addrLine>Charlottesville, VA 22904-4115</addrLine>
+					<addrLine>whitman@jefferson.village.virginia.edu</addrLine>
+				</address>
+				<availability>
+					<p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note type="project" target="dat1">Many of the items from this list of European rivers, lakes, and cities were included in "Poem of Salutation" in the 1856 edition of <hi rend="italic">Leaves of Grass</hi>, suggesting that this manuscript was written between 1850 and 1856.</note>
+			</notesStmt>
+			<sourceDesc>
+				<bibl>
+					<author>Walt Whitman</author>
+					<title rend="bracketed">Remembrances I plant American ground with</title>
+					<date xml:id="dat1" notBefore="1850" notAfter="1860" cert="medium">Between 1850 and 1860</date>
+					<idno type="callno">MS 12mo 27</idno>
+					<orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &#38; Manuscript Library, Duke University </orgName>
+					<note type="project">Transcribed from our own digital image of original manuscript.</note>
+					<relatedItem type="text" target="duk.00029"/>
+					<relatedItem type="document" target="wwa.00046"/>
+					<note type="project" target="#rel01">A poetry manuscript on the back of this leaf likely contributed to lines in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		
+		<revisionDesc>
+			<change when="2018-09-10" who="#nhg">updated image names</change>
+			<change when="2016-02-15" who="#es">Checked, updated to P5, updated span
+				formatting</change>
+			<change when="2016-01-13" who="#nhg">Added relatedItem info</change>
+			<change when="2004-10-01" who="#jh">Proofread</change><!-- The preceding "when" was not filled out correctly; I've added an approximate date so that the file validates. KM -->
+			<change when="2004-09-24" who="#cf">Proofread, updated header and encoded verso</change>
+			<change when="2004-07-07" who="#kt">Transcribed, Encoded</change>
+		</revisionDesc>
+	</teiHeader>
+	<text type="manuscript">
+		<body>
+			<pb xml:id="leaf001r" facs="duk_nhg.00714_large.jpg" type="recto"/>
+
+			<head type="main-authorial"><hi rend="underline">Europe</hi></head>
+				
+				<!-- RIVERS LIST BEGINS -->
+				<list>
+					<head type="main-authorial">Rivers&#8212;<hi rend="circled"
+						>Laplanders</hi></head>
+					<item><list>
+							<span rend="bracketed" xml:id="s1" from="#s1" to="#s2"/>
+							<item>&#8212;Thames&#8209;Trent&#8209;Severn</item>
+							<item>&#8212;Shannon</item>
+							<item>Tay</item>
+							<anchor xml:id="s2"/>
+							<note type="authorial" place="left" anchored="true" target="#s1"
+								>B</note>
+						</list></item>
+					<item><list>
+							<span rend="bracketed" xml:id="s3" from="#s3" to="#s4"/>
+							<item>Seine</item>
+							<item>Loire</item>
+							<item>Rhone</item>
+							<anchor xml:id="s4"/>
+							<note type="authorial" place="left" anchored="true" target="#s3"
+								>F</note>
+						</list></item>
+					<item><list>
+							<span rend="bracketed" xml:id="s5" from="#s5" to="#s6"/>
+							<item>Douro</item>
+							<item>Tagus</item>
+							<item>Guadalquivir</item>
+							<anchor xml:id="s6"/>
+							<note type="authorial" place="left" anchored="true" target="#s5"
+								>S</note>
+						</list></item>
+					<item>Rhine</item>
+					<item>&#8212;Elbe, Prussia, Hanover<lb/>
+						Saxony, Austria</item>
+					<item>Danube Austria, runs into Turkey</item>
+					<item>&#8212;Oder (Prussia)</item>
+					<item>Po (Sardinia, &amp; divides Austria from Italy</item>
+					<item>Tiber, Papal states</item>
+					<item>Arno, Tuscany</item>
+					<item>&#8212;Dnieper</item>
+					<item>&#8212;Volga</item>
+					<item>&#8212;Ural</item>
+				</list>
+				<!-- RIVERS LIST ENDS -->
+				<!-- I HAVE INSERTED A COLUMN BREAK HERE TO INDICATE THAT WHITMAN NOW BEGINS USING THE RIGHT -->
+				<!-- HAND SIDE OF THIS LEAF -->
+				<!-- - cf -->
+				<cb/>
+			<note place="top" type="authorial"><hi rend="underline">Inland Lakes</hi></note>
+				<!-- CITIES LIST BEGINS -->
+				<list>
+					<head type="main-authorial">Cities</head>
+					<item>Christiana, 27,000 Norway</item>
+					<item>Copenhagen, 125,000,000 Sweden</item>
+					<item>Bremen, 53,000,000 Neth</item>
+					<item>Hague, 66,000,000 "</item>
+					<item><list>
+							<span rend="bracketed" xml:id="s7" from="#s7" to="#s8"/>
+							<item>Paris</item>
+							<item>Bordeaux</item>
+							<item>Marseilles</item>
+							<anchor xml:id="s8"/>
+							<note type="authorial" place="left" anchored="true" target="#s7">Cracow,
+								F</note>
+						</list></item>
+					<item>Brussels 124,000 Belgium</item>
+					<item><list>
+							<span rend="bracketed" xml:id="s9" from="#s9" to="#s10"/>
+							<item>Madrid</item>
+							<item>Cadiz</item>
+							<anchor xml:id="s10"/>
+							<note type="authorial" place="left" anchored="true" target="#s9"
+								>S</note>
+						</list></item>
+					<item>Edinburgh</item>
+					<item>Dublin</item>
+					<item>London</item>
+					<item><list>
+							<note type="authorial" place="left">P</note>
+							<item>Lisbon</item>
+						</list></item>
+					<item>Palermo, Sicily</item>
+					<item>Naples</item>
+					<item>Florence 105,000 Tuscany</item>
+					<item>Genoa 120,000 Sardinia</item>
+					<item>Venice, 120,000&#8212;Austria</item>
+					<item>Rome, 184,000</item>
+					<item>Berne, 24,000 Switz</item>
+					<item>Turin, 135,000, Sardinia</item>
+					<span rend="curlyBrace-left" xml:id="s11" from="#s11" to="#s12"/>
+					<item>Vienna, 425,000 on the Danube</item>
+					<item>Prague, 114,000 Elbe North Germany</item>
+					<item>Milan, 205,000</item>
+					<anchor xml:id="s12"/>
+					<span rend="bracketed" xml:id="s13" from="#s13" to="#s14"/>
+					<item>Berlin 420,000</item>
+					<item>Munich 115,000 Bavaria</item>
+					<item>Frankfort</item>
+					<item>Dresden 85,000 Saxony,</item>
+					<item>Hanover, 40,000</item>
+					<anchor xml:id="s14"/>
+				</list>
+			<!-- END OF THE CITIES LIST -->
+			<pb xml:id="leaf001v" facs="duk_nhg.00713_large.jpg" type="verso"/>
+	
+		</body>
+	</text>
+</TEI>

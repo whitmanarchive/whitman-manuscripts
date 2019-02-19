@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00279">
+   <relations>
+      <work ref="xxx.00263">
+         <p>Prose notes concerning Whitman's idea for "Prayer of Columbus."</p>
+      </work>
+   </relations>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main">
+Portraiture of Columbus
+</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="km">Kenneth M. Price</persName>
+               <persName xml:id="fl">Farrah Lehman</persName>
+               <persName xml:id="ah">Amy Hezel</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2004</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>loc.00279</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+
+            <note type="project" target="dat1">These notes were probably composed about <date when="1874">1874</date>, the year that "Prayer of Columbus" was first published.</note>
+                        	
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>
+Pourtraiture of Columbus
+</title>
+
+               <date cert="high" value="1874" xml:id="dat1">About 1874</date>
+	
+               <orgName xml:id="loc">
+The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.
+</orgName> 
+
+
+
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#km" when="2006-12-14">Edited</change>
+         <change who="#fl" when="2006-12-08">Checked</change>
+         <change who="#ah" when="2004-08-23">Encoded</change>
+         <change who="#ah" when="2004-08-23">Transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <pb facs="loc.00279.001" xml:id="leaf001r" type="recto"/>
+
+         <div1 type="prose">
+
+            <delSpan rend="overstrike"
+                     to="d1"
+                     />
+            <note type="authorial"
+                  place="top"
+                  rend="left">Few I</note>
+            <anchor xml:id="d1"/>
+
+            <head type="main-authorial">Portra<add rend="unmarked" place="inline">i</add>ture of Columbus</head>
+
+
+
+            <milestone unit="empty" rend="horbar-short-left"/>
+
+            <p>he <hi rend="underline">was a mystic</hi>—
+<add rend="unmarked" place="supralinear">
+                  <orig reg="portray">pourtray</orig> him as a <hi rend="underline">mystic</hi>
+               </add>
+—solemn &amp; visionary meditations—poetic ent<subst>
+                  <rdg varSeq="1">
+                     <del rend="overwrite">
+                        <gap reason="deletion, illegible"/>
+                     </del>
+                  </rdg>
+                  <rdg varSeq="2">
+                     <add rend="overwrite" place="over">h</add>
+                  </rdg>
+               </subst>usiasm
+—"it spread a golden &amp; glorious world around him, &amp; tinged every thing with its gorgeous colors"—
+<del rend="overstrike">I see the real C</del>
+Few know the real Columbus</p>
+
+            <p>
+               <space dim="vertical" extent="3 lines"/>
+            </p>
+
+            <milestone unit="empty" rend="horbar-short-left"/>
+
+            <p>He remained in ignorance to the day of his death of the reality &amp; magnitude of his discovery—</p>
+
+            <note type="authorial"
+                  place="bottom">
+               <p>Columbus setting sail on 1st voyage vol 1. p 140-2-4</p>
+            </note>
+         </div1>
+
+
+      </body>
+   </text>
+</TEI>

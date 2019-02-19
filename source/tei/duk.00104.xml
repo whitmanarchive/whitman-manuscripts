@@ -3,8 +3,11 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00104">
     <relations>
-        <work ref="xxx.00430" cert="low">
-            <p>The words and topic of this manuscript are similar to the following lines from the poem that would later be titled "Great are the Myths": "Great is the earth, and the way it became what it is, / Do you imagine it is stopped at this? . . . . and the increase abandoned? / Understand then that it goes as far onward from this as this is from the times when it lay in covering waters and gases" (1855, p. 94).</p>
+        <work ref="xxx.00121" cert="low">
+            <p>The words and topic of this manuscript are similar to the following lines from the poem that would later be titled "Great are the Myths": "Great is the earth, and the way it became what it is, / Do you imagine it is stopped at this? . . . . and the increase abandoned? / Understand then that it goes as far onward from this as this is from the times when it lay in covering waters and gases" (1855, p. 94). The poem went through many revisions through the different editions of <hi rend="italic">Leaves of Grass</hi>, then was permanently dropped in 1881–1882, except the two couplets that became the poem "Youth, Day, Old Age, and Night."</p>
+        </work>
+        <work ref="xxx.00048" cert="low">
+            <p>It is possible this manuscript relates to the following lines, from the poem that would be titled "Song of Myself": "Wider and wider they spread, expanding and always expanding, / Outward and outward and forever outward" (1855, p. 51).</p>
         </work>
     </relations>
     <teiHeader>
@@ -60,6 +63,8 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2018-09-10" who="#nhg">updated image names</change>
+            <change when="2017-10-05" who="#nhg">added relations corresp</change>
             <change when="2017-03-29" who="#nhg">edited editorial note</change>
             <change when="2016-12-07" who="#bb">reconciled with EAD record</change>
             <change when="2016-05-18" who="#kmp">blessed</change>
@@ -72,11 +77,11 @@
 
     <text type="manuscript">
         <body>
-            <pb xml:id="leaf001r" facs="duk.00104.001.jpg" type="recto"/>
+            <pb xml:id="leaf001r" facs="duk_nhg.01188_large.jpg" type="recto"/>
             
             <!-- I'm not totally sure about the decision to encode this top part as a note. To me, without more context it seems a bit arbitrary to describe it as such. But I've left it as a note for now. KM -->
             <note type="authorial" place="top"><gap reason="faded" quantity="9" unit="chars"/> poet of Materialism&#8212;(put this section forward <gap reason="faded" quantity="12" unit="chars"/> <unclear reason="illegible" cert="low" resp="#kc">in Reality</unclear> and demonstration <unclear reason="illegible" cert="low" resp="#nhg">with</unclear> the opening.)</note>
-            <ab><gap reason="illegible" quantity="5" unit="chars"/>&#8212;that this earth is under a constant <del rend="overstrike">and</del> <unclear reason="illegible" cert="medium" resp="#kc">process</unclear> of amelioration&#8212;as it always has been&#8212;that it, in some manner not perhaps demonstratable in astronomy, expands outward and outward in a larger and larger orbit&#8212;that our immortality is <hi rend="underline">located</hi> here upon earth&#8212;that we <hi rend="underline">are immortal</hi>&#8212;that the processes of the refinement and perfection of the earth are in steps, <subst><del rend="overwrite" seq="1"><unclear reason="illegible" cert="low" resp="#km">It</unclear></del><add rend="overwrite" place="over" seq="2">the</add></subst> least part of which involves trillions of years&#8212;that in due time the earth <subst><add rend="insertion" place="supralinear" seq="2">beautiful as it is now,</add> <del rend="overstrike" seq="1">and</del></subst> will be as <subst><del rend="overstrike" seq="1">much beyond</del> <add rend="insertion" place="supralinear" seq="2">proportionately different from</add></subst> what it is now, as <del rend="overstrike">wh</del> it now is proportionately different from what it was in its earlier gaseous or marine period, uncounted cycles before man and woman grew.&#8212;<add rend="unmarked" place="supralinear">&#8212;That we <add rend="insertion" place="supralinear">also</add> shall be here proportionately different from now, and beautiful <unclear reason="illegible" cert="low" resp="#nhg">yet</unclear></add></ab>
+            <ab><seg xml:id="seg02" corresp="#l1184"><gap reason="illegible" quantity="5" unit="chars"/>&#8212;that this earth is under a constant <del rend="overstrike">and</del> <unclear reason="illegible" cert="medium" resp="#kc">process</unclear> of amelioration&#8212;as it always has been&#8212;that it, in some manner not perhaps demonstratable in astronomy, expands outward and outward in a larger and larger orbit&#8212;that our immortality is <hi rend="underline">located</hi> here upon earth&#8212;that we <hi rend="underline">are immortal</hi>&#8212;that the processes of the refinement and perfection of the earth are in steps, <subst><del rend="overwrite" seq="1"><unclear reason="illegible" cert="low" resp="#km">It</unclear></del><add rend="overwrite" place="over" seq="2">the</add></subst> least part of which involves trillions of years&#8212;</seg><seg xml:id="seg01" corresp="#l2279">that in due time the earth <subst><add rend="insertion" place="supralinear" seq="2">beautiful as it is now,</add> <del rend="overstrike" seq="1">and</del></subst> will be as <subst><del rend="overstrike" seq="1">much beyond</del> <add rend="insertion" place="supralinear" seq="2">proportionately different from</add></subst> what it is now, as <del rend="overstrike">wh</del> it now is proportionately different from what it was in its earlier gaseous or marine period, uncounted cycles before man and woman grew.</seg>&#8212;<add rend="unmarked" place="supralinear">&#8212;That we <add rend="insertion" place="supralinear">also</add> shall be here proportionately different from now, and beautiful <unclear reason="illegible" cert="low" resp="#nhg">yet</unclear></add></ab>
         
             <pb xml:id="leaf001v" facs="duk.00104.002.jpg" type="verso"/>
         </body>

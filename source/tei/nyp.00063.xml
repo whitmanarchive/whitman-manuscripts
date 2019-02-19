@@ -10,7 +10,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main" rend="bracketed">Superb and infinitely manifold</title>
+                <title level="m" type="main" rend="bracketed">Superb and infinitely manifold as</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -21,7 +21,9 @@
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="rc">Regan Chasek</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -46,20 +48,25 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">This manuscript's discussion of the vastness of time and space is similar to a passage from the poem that would eventually be titled "Song of Myself." The manuscript includes the phrase "countless octillions of the cubic leagues of space," while a phrase from the version of the poem in the 1855 edition of <hi rend="italic">Leaves of Grass</hi> reads "a few octillions of cubic leagues, do not hazard the span" (51). Whether or not this manuscript contributed directly to the poem, the similarity suggests that the manuscript was written before or early in 1855. Edward Grier includes two additional sentences in his transcription of this manuscript that are taken from Richard Maurice Bucke's <hi rend="italic">Notes and Fragments</hi> (see <hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:161). However, those portions of the manuscript have not been found and there is no evidence that they were ever associated with the text presented here. An image of the verso of the manuscript is currently unavailable.</note>   
+                <note type="project" target="#dat1">Whitman probably drafted this
+                    manuscript in the <date notBefore="1850" notAfter="1855">early 1850s</date> as he was composing
+                    the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The discussion of the vastness of time and space is similar to a passage from the first poem in that edition, titled "Leaves of Grass," eventually titled "Song of Myself." The manuscript includes the phrase "countless octillions of the cubic leagues of space," while a phrase from the version of the poem in the 1855 edition of <hi rend="italic">Leaves of Grass</hi> reads "a few octillions of cubic leagues, do not hazard the span" (51). Edward Grier includes two additional sentences in his transcription of this manuscript that are taken from Richard Maurice Bucke's <hi rend="italic">Notes and Fragments</hi> (see <hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:161). However, those portions of the manuscript have not been found and there is no evidence that they were ever associated with the text presented here.</note>   
             </notesStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Holograph notes for lectures and poems; 12 notes written on 14 pieces of paper, unsigned, undated.</title>                  
                     <idno type="callno">19100</idno>
-                    <date xml:id="dat1" notBefore="1845" notAfter="1855" cert="medium">Before or early in 1855</date>
+                    <date xml:id="dat1" notBefore="1850" notAfter="1855" cert="medium">Between 1850 and 1855</date>
                     <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2018-11-16" who="#nhg">edited note, added inline relations</change>
+            <change when="2018-11-01" who="#nhg">edited title</change>
+            <change when="2017-07-19" who="#rc">added verso link</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-09-08" who="#nhg">checked, corrected</change>
             <change when="2016-08-17" who="#km">checked</change>
@@ -73,7 +80,10 @@
         <body>
             <pb xml:id="leaf001r" facs="M_1238133.jpg" type="recto"/>
             
-            <p>Superb and <add rend="unmarked" place="supralinear">infinitely</add> manifold <del rend="overstrike"><add rend="unmarked" place="supralinear"><unclear reason="illegible" cert="low" resp="#km">t</unclear></add></del> as <subst><add rend="unmarked" place="supralinear" seq="2">natural</add> <del rend="overstrike" seq="1">the</del></subst> objects are,&#8212;<subst><del rend="overstrike" seq="1">not a <del rend="overstrike">so</del> cubic solid</del> <add rend="unmarked" place="supralinear" seq="2">each</add></subst> foot <add rend="insertion" place="supralinear">out</add> of <seg xml:id="q01">the <subst><del rend="overstrike" seq="1">numberless</del> <add rend="unmarked" place="supralinear" seq="2">countless</add></subst> octillions of the cubic leagues of space</seg> <subst><del rend="overstrike" seq="1">but has its positive <unclear reason="illegible" cert="medium" resp="#km">lo</unclear> ho is</del> <add rend="unmarked" place="supralinear" seq="2">being</add></subst> crammed full of <subst><del rend="overstrike" seq="1">positive</del> <add rend="unmarked" place="supralinear" seq="2">absolute</add></subst> or <subst><del rend="overstrike" seq="1">direct</del> <add rend="unmarked" place="supralinear" seq="2">relative</add></subst> wonders,&#8212;not any one of these, nor the whole of them together, disturbs or seems awry to the mind of man or woman.&#8212;</p>
+            <p xml:id="p01" corresp="#l124 #l1192">Superb and <add rend="unmarked" place="supralinear">infinitely</add> manifold <del rend="overstrike"><add rend="unmarked" place="supralinear"><unclear reason="illegible" cert="low" resp="#km">t</unclear></add></del> as <subst><add rend="unmarked" place="supralinear" seq="2">natural</add> <del rend="overstrike" seq="1">the</del></subst> objects are,&#8212;<subst><del rend="overstrike" seq="1">not a <del rend="overstrike">so</del> cubic solid</del> <add rend="unmarked" place="supralinear" seq="2">each</add></subst> foot <add rend="insertion" place="supralinear">out</add> of <seg xml:id="q01">the <subst><del rend="overstrike" seq="1">numberless</del> <add rend="unmarked" place="supralinear" seq="2">countless</add></subst> octillions of the cubic leagues of space</seg> <subst><del rend="overstrike" seq="1">but has its positive <unclear reason="illegible" cert="medium" resp="#km">lo</unclear> ho is</del> <add rend="unmarked" place="supralinear" seq="2">being</add></subst> crammed full of <subst><del rend="overstrike" seq="1">positive</del> <add rend="unmarked" place="supralinear" seq="2">absolute</add></subst> or <subst><del rend="overstrike" seq="1">direct</del> <add rend="unmarked" place="supralinear" seq="2">relative</add></subst> wonders,&#8212;not any one of these, nor the whole of them together, disturbs or seems awry to the mind of man or woman.&#8212;</p>
+            
+            <pb xml:id="leaf001v" facs="nyp_rc.00007.jpg" type="verso"/>
+            
         </body>
     </text>
 </TEI>

@@ -3,7 +3,7 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="rut.00010">
    <relations>
-      <work ref="xxx.00526"><p>A manuscript fragment which includes thoughts similar to those found in the 1855 Preface to <title rend="italic">Leaves of Grass</title>. <ref type="text" xml:id="r01" target="#q01">One sentence</ref>, in particular, is likely related to Whitman's claim in the Preface that "[t]he United States themselves are essentially the greatest poem."</p></work>
+      <work ref="xxx.00526"><p>This manuscript fragment includes thoughts similar to those found in the 1855 prose preface to <title rend="italic">Leaves of Grass</title>. <ref type="text" xml:id="r01" target="#q01">One sentence</ref>, in particular, is likely related to Whitman's claim in the preface that "[t]he United States themselves are essentially the greatest poem."</p></work>
       </relations>
    <teiHeader>
       <fileDesc>
@@ -44,7 +44,7 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note type="project" target="#dat1">This manuscript includes ideas similar to those found in the 1855 Preface to <hi rend="italic">Leaves of Grass</hi>, suggesting that the date is likely before or early in 1855. Floyd Stovall suggests that some of Whitman's ideas in this manuscript came from an article entitled "Thoughts on Reading" that appeared in the <hi rend="italic">American Whig Review</hi> in May 1845 ("Notes on Whitman's Reading," <hi rend="italic">American Literature</hi> 26.3 [November 1954]: 352). The manuscript is held at Rutgers University Library along with several similar manuscripts that are numbered sequentially and probably date from around or before 1855: see "<ref target="rut.00022.html">dithyrambic trochee</ref>," "<ref target="rut.00023.html">The only way in which</ref>," "<ref target="rut.00024.html">The money value of real</ref>," and "<ref target="rut.00025.html">ground where you may</ref>."</note>
+            <note type="project" target="#dat1">This manuscript includes ideas similar to those found in the 1855 prose preface to <hi rend="italic">Leaves of Grass</hi>, suggesting that the date is likely before or early in 1855. Floyd Stovall suggests that some of Whitman's ideas in this manuscript came from an article entitled "Thoughts on Reading" that appeared in the <hi rend="italic">American Whig Review</hi> in May 1845 ("Notes on Whitman's Reading," <hi rend="italic">American Literature</hi> 26.3 [November 1954]: 352). The manuscript is held at Rutgers University Library along with several similar manuscripts that are numbered sequentially and probably date from around or before 1855: see "<ref target="rut.00022.html">dithyrambic trochee</ref>," "<ref target="rut.00023.html">The only way in which</ref>," "<ref target="rut.00024.html">The money value of real</ref>," and "<ref target="rut.00025.html">ground where you may</ref>."</note>
          </notesStmt>
          <sourceDesc>
             <bibl>
@@ -65,6 +65,7 @@
          </handNotes>
       </profileDesc>
       <revisionDesc>
+         <change when="2018-11-16" who="#nhg">edited note, added inline relations</change>
          <change when="2017-03-01" who="#kmp">blessed</change>
          <change who="#nhg" when="2016-07-20">checked, corrected</change>
          <change who="#km" when="2015-07-08">checked</change>
@@ -80,7 +81,7 @@
          
          <note type="editorial" place="top" resp="#h3">1</note>
          
-         <p><handShift new="#h1"/>American literature must become distinct from all others.&#8212;American writers <del rend="overstrike">of</del> must become national, idiomatic, free from the genteel laws&#8212;<seg xml:id="q01">America herself appears (she does not at all appear hitherto) in the spirit and the form of her poems, and all other literary works.&#8212;</seg></p>
+         <p><handShift new="#h1"/>American literature must become distinct from all others.&#8212;American writers <del rend="overstrike">of</del> must become national, idiomatic, free from the genteel laws&#8212;<seg xml:id="q01" corresp="#pr05">America herself appears (she does not at all appear hitherto) in the spirit and the form of her poems, and all other literary works.&#8212;</seg></p>
          
          <milestone unit="undeclared" rend="horbar-short-left"/>
          

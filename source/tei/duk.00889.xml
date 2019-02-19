@@ -14,7 +14,7 @@
         <fileDesc>
             <titleStmt>
                 <title level="m" type="main" rend="bracketed">Are
-                        the prostitutes nothing?</title>
+                        the prostitutes nothing</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -64,9 +64,9 @@
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title>[You lusty and graceflu youth!]</title>
+                    <title>You lusty and graceflu [sic] youth! you are great</title>
                     <date xml:id="dat1" cert="high" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
-                    <idno type="callno">MS 4 to 11</idno>
+                    <idno type="callno">MS 4 to 11 (Volume 11)</idno>
                     <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
                     <note type="project">Transcribed from a digital image of the original
                         manuscript.</note>
@@ -78,6 +78,9 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2018-11-01" who="#nhg">edited title, idno</change>
+            <change when="2018-09-10" who="#nhg">updated image names</change>
+            <change when="2017-10-05" who="#nhg">added inline relations information</change>
             <change when="2017-01-26" who="#nhg">corrected</change>
             <change when="2016-09-26" who="#nhg">corrected</change>
             <change when="2016-01-29" who="#nhg">divided text into separate files, corrected</change>
@@ -96,15 +99,15 @@
     <text type="manuscript">
         <body>
             
-            <pb facs="duk.00032.002.jpg" xml:id="leaf001r" type="recto"/>
+            <pb facs="duk_nhg.00407_large.jpg" xml:id="leaf001r" type="recto"/>
             <div1 type="poem"><lg type="poem">
                 <delSpan rend="hashmark" spanTo="#d2"/>
-                <l xml:id="q01">Are the prostitutes nothing? Are the
+                <l xml:id="q01" corresp="#l1613">Are the prostitutes nothing? Are the
                     <lb/>mockers of religion nothing?
                 </l>
                 <note place="left" type="authorial" target="#s1">?</note>
                 <span xml:id="s1" rend="bracketed" from="s1" to="s2"/>
-                <del rend="overstrike"><l>
+                <del rend="overstrike"><l xml:id="l01" corresp="#2299">
                         Does the light or heat pick out? Does
                     
                     <lb/>the <seg xml:id="q02">attraction <add place="supralinear" rend="unmarked">o</add> of <add place="supralinear" rend="insertion">gravity</add></seg> pick out?
@@ -123,7 +126,7 @@
                 </ab>
                 <ab>&#8212;one of the common</ab>
             </div1>
-            <pb facs="duk.00032.001.jpg" xml:id="leaf001v" type="verso"/>
+            <pb facs="duk_nhg.00406_large.jpg" xml:id="leaf001v" type="verso"/>
         </body>
     </text>
 </TEI>

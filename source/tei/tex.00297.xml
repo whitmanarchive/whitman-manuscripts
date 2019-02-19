@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<!-- USE THE OBJECT ID FOR THE VALUE OF @xml:id IN THE FOLLOWING ELEMENT. FOR EXAMPLE:
+     xml:id="zzz.00001"
+     -->
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="tex.00297">
+
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m" type="main">a person like me</title>
+        <title level="m" type="sub">a machine readable transcription</title>
+        <author>Walt Whitman</author>
+        <editor>Kenneth M. Price</editor>
+        <editor>Ed Folsom</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>The Walt Whitman Archive Staff</name>
+        </respStmt>
+        <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+        <sponsor>University of Iowa</sponsor>
+        <funder>The National Endowment for the Humanities</funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2010</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <idno>tex.00297</idno>
+        <distributor>The Walt Whitman Archive</distributor>
+        <address>
+          <addrLine>Center for Digital Research in the Humanities</addrLine>
+          <addrLine>319 Love Library</addrLine>
+          <addrLine>University of Nebraska-Lincoln</addrLine>
+          <addrLine>P.O. Box 884100</addrLine>
+          <addrLine>Lincoln, NE 68588-4100</addrLine>
+        </address>
+        <availability>
+          <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+
+        <note type="project" target="#dat1"><!--when was this manuscript written?  --></note>
+
+        <note type="project">The following are responsible for particular readings or for changes to this file, as noted: 
+          <persName xml:id="al">Ashley Lawson</persName>
+          <persName xml:id="tj">Tim Jackson</persName>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Walt Whitman</author>
+          
+          <title>a person like me</title><!-- [TJ] Did not see title in online finding aid -->
+          <!--     THE DATE INFORMATION IN THE NEXT LINE WILL BE ADDED BY AN EDITOR     -->
+          <!--<date xml:id="dat1" cert="****" when="/"> </date>-->
+          
+          <idno type="callno">TXRC03-A4</idno>
+          <orgName>The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+
+          <note type="project">Transcribed from digital images of the original.</note>
+        </bibl>
+
+      </sourceDesc>
+    </fileDesc>
+
+    <revisionDesc>
+      <change when="2011-05-05" who="#al">Checked and corrected</change>
+      <change when="2011-05-02" who="#tj">Transcribed and encoded</change>
+    </revisionDesc>
+  </teiHeader>
+
+  <text type="manuscript">
+    <body>
+      
+   
+        <pb xml:id="leaf001r" facs="tex.00297.001_large.jpg" type="recto"/>
+        
+      <ab><subst><del rend="overstrike" seq="1">one</del> <add rend="unmarked" place="supralinear" seq="2">a person</add></subst> like <add rend="insertion" place="supralinear">me, a</add> wander<subst><del rend="overwrite" seq="1">ing</del> <add rend="overwrite" place="over" seq="2">er</add></subst> <del rend="overwrite" seq="1">s</del> about Washington pause<subst><del rend="overwrite" seq="1">s</del> <add rend="overwrite" place="over" seq="2">ing</add></subst> and out; and <del rend="overstrike">as</del> one, <del rend="overstrike">stands</del> on <unclear reason="illegible" cert="medium" resp="#tj">any </unclear> <del rend="overstrike">com</del> <add rend="unmarked" place="supralinear">on some</add> high position <subst><del rend="overstrike" seq="1">that</del> <add rend="insertion" place="supralinear">which</add></subst> commands a view of the city, and its environs, <del rend="overstrike">he</del> sees the<add rend="unmarked" place="inline">se</add> white clusters of <subst><del rend="overstrike" seq="1">hospitals</del> <add rend="insertion" place="supralinear" seq="2">barracks</add> <add rend="unmarked" place="inline" seq="3"><del rend="overstrike">hospital</del></add> <add rend="insertion" place="supralinear" seq="4">soldier's</add></subst> in almost every direction Some <add rend="insertion" place="supralinear"><del rend="overstrike">of these</del> clusters</add> have five hundred inmates<del rend="overstrike">.</del>&#8212;some have over a thousand. At times, they are very full indeed. Counting the whole with what are called the convalescent camps in this quarter, and down the Potomac, <del rend="overstrike">at <add rend="insertion" place="supralinear"><del rend="overstrike">and below</del></add> Aqu<subst><del rend="overwrite" seq="1">a</del> <add rend="overwrite" place="over" seq="2">i</add></subst>a Creek</del> <subst><del rend="overstrike" seq="1">there are</del> <add rend="unmarked" place="supralinear" seq="2">they</add></subst> sometimes <del rend=" overstrike">from thirty to</del> <add rend="unmarked" place="supralinear">number up to</add> fifty thousand sick and dying men, <note resp="unk" place="supralinear"><unclear reason="illegible"/></note> <del rend="overstrike">in these <gap reason="torn away" extent="unknow"/></del> </ab>  
+        
+      <pb xml:id="leaf001v" facs="tex.00297.002_large.jpg" type="verso"/>
+      
+    </body>
+  </text>
+</TEI>

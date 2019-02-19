@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main" rend="bracketed">The power by which the carpenter</title>
+                <title level="m" type="main" rend="bracketed">The power by which the</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -16,7 +16,10 @@
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="rc">Regan Chasek</persName>
+                </respStmt>
+                
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -41,12 +44,12 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Based on the handwriting, Edward Grier posits that this manuscript dates to the 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:136). An image of the verso is currently unavailable.</note>             
+                <note type="project" target="#dat1">Based on the handwriting, Edward Grier posits that this manuscript dates to the 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:136).</note>             
             </notesStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title rend="bracketed">The power by which the carpenter</title>                  
+                    <title rend="bracketed">The power by which the</title>                  
                     <idno type="callno">b15520479</idno>
                     <date xml:id="dat1" notBefore="1840" notAfter="1860" cert="low">1840s or 1850s</date>
                     <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
@@ -55,6 +58,8 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2018-11-01" who="#nhg">edited title</change>
+            <change when="2017-07-19" who="#rc">added verso image link</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-07-19" who="#nhg">checked, corrected</change>
             <change when="2016-06-28" who="#km">checked</change>
@@ -69,7 +74,7 @@
             
             <p>The power by which the carpenter plumbs his house, is the same power that dashes his brains out if he fall from the roof.&#8212;</p>
             
-            
+            <pb xml:id="leaf001v" facs="nyp_rc.00002.jpg" type="verso"/>
         </body>
     </text>
 </TEI>

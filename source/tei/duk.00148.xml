@@ -2,6 +2,9 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00148">
+    <relations><work ref="xxx.00119" cert="low">
+        <p>These notes about sculpture have some similarity to the following line, in the poem that would be titled "A Song for Occupations": "All sculpture and monuments and anything inscribed anywhere are tallied in you" (p. 60).</p>
+    </work></relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -58,6 +61,8 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2018-11-05" who="#nhg">added inline relations</change>
+            <change when="2018-09-10" who="#nhg">updated image name</change>
             <change when="2017-02-01" who="#bb">reconciled with EAD record</change>
             <change when="2016-05-18" who="#kmp">blessed</change>
             <change when="2016-04-25" who="#nhg">corrected</change>
@@ -71,11 +76,11 @@
 
     <text type="manuscript">
         <body>
-            <pb xml:id="leaf001r" facs="2035_010.jpg" type="recto"/>
+            <pb xml:id="leaf001r" facs="duk_nhg.00947.jpg" type="recto"/>
             
             <head type="main-authorial">Sculpture</head>
             
-            <p>&#8212;then sculpture was necessary&#8212;it was an eminent part of religion it gave grand and beautiful forms to to the gods&#8212;it appealed to the mind, in perfect harmony, with <del rend="overstrike">the people</del>, the climate, belief, <del rend="overstrike">times</del>, governments, <subst><del rend="overstrike" seq="1">aspirations.&#8212;It</del> <add rend="unmarked" place="supralinear" seq="2">and</add></subst> was the <subst><del rend="overstrike" seq="1">true</del> <add rend="insertion" place="supralinear" seq="2">needed</add></subst> expression of the people, the times, and their aspirations.&#8212;</p>
+            <p xml:id="p01" corresp="#l1423">&#8212;then sculpture was necessary&#8212;it was an eminent part of religion it gave grand and beautiful forms to to the gods&#8212;it appealed to the mind, in perfect harmony, with <del rend="overstrike">the people</del>, the climate, belief, <del rend="overstrike">times</del>, governments, <subst><del rend="overstrike" seq="1">aspirations.&#8212;It</del> <add rend="unmarked" place="supralinear" seq="2">and</add></subst> was the <subst><del rend="overstrike" seq="1">true</del> <add rend="insertion" place="supralinear" seq="2">needed</add></subst> expression of the people, the times, and their aspirations.&#8212;</p>
             
             <p>It was a part of architecture&#8212;the temple <subst><del rend="overstrike" seq="1">was not</del> <add rend="unmarked" place="supralinear" seq="2">stood</add></subst> unfinished without statues, and <add rend="insertion" place="supralinear">so</add> they were <del rend="overstrike">built</del> made with reference to the temple&#8212;they were not made abstractly by themselves.&#8212;</p>
             

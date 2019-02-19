@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00353">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main">[I was down in New Orleans]</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor>Kenneth M. Price</editor>
+            <editor>Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="kc">Kirsten Clawson</persName>
+               <persName xml:id="jc">Janel Cayer</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2014</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>loc.00353</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="project" target="#dat1">A corrected proof of "The People and John Quincy Adams," which appeared in the New Orleans <hi rend="italic">Daily Crescent</hi> while Whitman was editor of that newspaper in 1848&#8211;1849.</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblStruct type="supplied" xml:id="white_ed">
+               <monogr>
+                  <author>Walt Whitman</author>
+                  <editor>William White</editor>
+                  <title>The People and John Quincy Adams</title>
+                  <imprint>
+                     <publisher>Oriole Press</publisher>
+                     <pubPlace>Berkeley Heights, NJ</pubPlace>
+                     <date>1962</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <bibl>
+               <author xml:id="ww">Walt Whitman</author>
+               <title>[I was down in New Orleans]</title>
+               <date xml:id="dat1" cert="medium" notBefore="1848" notAfter="1849">Between 1848 and 1849</date>
+               <idno type="callno"/>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+            <handNotes>
+               <handNote xml:id="h1" scribeRef="#ww" medium="black-ink"/>
+               <handNote xml:id="h2" scribeRef="#ww" medium="print"/>
+            </handNotes>         
+      </profileDesc>
+      <revisionDesc>
+         <change who="#jc" when="2015-04-23">checked</change>
+         <change who="#nhg" when="2014-10-01">checked, corrected</change>
+         <change who="#kc" when="2014-09-08">transcribed and encoded</change>
+         <change who="#nhg" when="2014-08-07">metadata extracted and transformed from EAD file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="manuscript">
+      <body>
+         <pb xml:id="leaf001r" facs="20021204_0001.jpg" type="recto"/>
+         <div1 type="section">
+            
+            <note type="authorial" place="top" resp="#h1">I was down in New Orleans, in 1848&#8211;9&#8212;an editor in the <hi rend="underline">Daily Crescent</hi> newspaper office&#8212;this is a proof of one of my articles in paper</note>
+         </div1>
+         
+         <div1 type="section">
+            
+            <head type="main-authorial"><handShift new="#h2"/>The People and John Quincy Adams</head>
+            <p>Some of our Northern contemporaries are <gap reason="faded" quantity="4" unit="chars"/>ping entirely beyond the record in their eulogies of Mr. Adams. Taking as a text the generous testimonials which have been offered from all quarters, toward the memory of the Ex-President, the prints alluded to <unclear reason="faded" cert="medium" resp="#nhg">sneeringly by</unclear> the people of the republic with <hi rend="italic">now</hi> finding out, too late, the worth of the departed; adding that his administration was overthrown because it was too honest, and, indeed, that the land was and is unworthy of the high virtue which it condemned. The nation is depressed, in order to make Mr. Adams more exalted.</p>
+            <p>If the remarks had merely been confined to a superlative laudation of Mr. Adams, there would be no present need of response, even from those who do not concur in such excessive praise. But when the mass of the people are brought up as before a tribunal, and treated with a sort of cynical sarcasm, because they did not attach themselves more closely to the Ex-President<handShift new="#h1"/><subst><del rend="overstrike" seq="1">. T</del> <add rend="insertion" place="right" seq="2">, t</add></subst> <handShift new="#h2"/>here is full propriety, it seems to us, in a few thoughts like the following:</p><note resp="#ww" place="left" type="authorial"><handShift new="#h1"/> lead</note>
+            <p><handShift new="#h2"/>John Quincy Adams was a virtuous man&#8212;a learned man&#8212;and had singularly enlarged diplomatic knowledge; but he was not a man of the People. Never, at any time, did he heartily espouse the side of any of those hot struggles <handShift new="#h1"/><del rend="overstrike"><unclear reason="illegible" cert="medium" resp="#kc">:</unclear></del> <add rend="unmarked" place="right">/</add> <handShift new="#h2"/> for the rights of men, as opposed to wealth and conservation, which <unclear reason="illegible" resp="#nhg" cert="low">did</unclear> for years of the last century, and all the hitherto years of the present one, show so many of. Is it wonderful, then, that he never was a popular man? O, the people know well enough who stand by them. Even if temporary circumstances, as they sometimes have done, lead the masses for a moment to frown on those who really befriend them, there is always a chosen circle, a body-guard, who faithfully make headway for the truth and its dauntless leaders. Can any one say that Mr. Adams, or his defence, ever generated this sort of enthusiasm? No: it was not <handShift new="#h1"/> <subst><del rend="overstrike" seq="1"><unclear reason="illegible" cert="low" resp="#kc">to</unclear></del> <add rend="unmarked" place="right" seq="2">of</add></subst> <handShift new="#h2"/>him. He was "a gentleman of the old school," no doubt; but the old school, with all its polish and grace, had its sources too near monarchy and nobility to be entirely free from their influences. Only master minds, <hi rend="italic">radical</hi> minds that went to the roots of things, and scorned mere precedent, leaped over such influences. The era of the beginning of our government shows many persons of this old school, high and noble men they were, too&#8212;but yet of an age now past away. Nor is it the time only that has past away, its systems, its reservations, its dread of popular license, its distrusts, its "lingering look behind" to the kingly power then just disavowed, have passed away too. May the grave close forever upon them!</p>
+            <p>Some spirits there were, of that age, towering not only above it, but above the ages yet to come. They need no eulogium. For those of another class, whose names have mention in our records, there is another grateful remembrance in the American heart&#8212;a remembrance fresh and loving for many a future year.</p>
+            <p>But <handShift new="#h1"/><subst><del rend="overstrike" seq="1">h</del><add rend="unmarked" place="left" seq="2"><hi rend="underline">H</hi></add></subst>istory&#8212;after crowning at the head <hi rend="italic">one</hi>, whose august purity is above any classification, and whose greatness can only be enhanced and made firmer by the progress of years <handShift new="#h1"/><add rend="unmarked" place="right">&#8212;</add> <handShift new="#h2"/>History will in due time give places to the men of the first three score years of our republic's existence. By her stern fingers, swayed from no passion or party, there will doubtless be formed various grades&#8212;not so much that some need a lower station, as that others deserve a higher.</p>
+         </div1>
+        
+</body>
+   </text>
+</TEI>

@@ -10,7 +10,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main" rend="bracketed">One obligation of great fresh bards</title>
+                <title level="m" type="main" rend="bracketed">One obligation of great fresh</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -80,6 +80,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2018-11-08" who="#nhg">added inline relations</change>
             <change when="2017-03-09" who="#kmp">blessed</change>
             <change when="2017-03-09" who="#nhg">edited date range</change>
             <change when="2016-12-08" who="#bb">reconciled with EAD record; added Work ID</change>
@@ -93,7 +94,7 @@
 
     <text type="manuscript">
         <body>
-            <p>One obligation of great fresh bards remains . . . the clink of words is empty and offensive . . . the poetic quality blooms simple and earnest as the laws of the world.</p>
+            <p xml:id="p01" corresp="#pr115">One obligation of great fresh bards remains . . . the clink of words is empty and offensive . . . the poetic quality blooms simple and earnest as the laws of the world.</p>
             
             <p>The audible rhyme soon nauseates . . . the inaudible rhyme is delicious without end.</p>
         </body>

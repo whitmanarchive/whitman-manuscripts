@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00302">
+   <relations>
+      <work ref="xxx.00291" cert="high">
+         <p>Draft and trial lines for the poem published posthumously as "Supplement Hours." The poem shares the line "Away from Books&#8212;Away from Art" with the <hi rend="italic">Leaves of Grass</hi> poem "A Clear Midnight."</p>
+      </work>
+   </relations>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main">
+Supplement Hours
+</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="km">Kenneth M. Price</persName>
+               <persName xml:id="fl">Farrah Lehman</persName>
+               <persName xml:id="cf">Chris Forster</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2004</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>loc.00302</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+
+            <note type="project" target="dat1">Though this poem was published posthumously in <date when="1897">1897</date>, it appears to have been composed in <date when="1881/1882">1881 or 1882</date> because "A Clear Midnight" first appeared in the 1881 Leaves of Grass, and "Specimen Days," the poem to which two similar manuscripts in this group relate, dates 1882.</note>
+
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>
+Supplement Hours
+</title>
+               <date cert="high" value="1881" xml:id="dat1">About 1881</date>
+
+               <orgName xml:id="loc">
+The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.
+</orgName> 
+
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handList>
+            <hand scribe="Farrah Lehman" xml:id="fl"/>
+         </handList>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#km" when="2007-02-12">Edited</change>
+         <change who="#fl" when="2007-01-22">Checked</change>
+         <change who="#cf" when="2004-08-12">Encoded</change>
+         <change who="#cf" when="2004-08-12">Transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <pb facs="loc.00302.001" xml:id="leaf001r" type="recto"/>
+
+         <lg
+              >
+
+            <head type="main-authorial">
+Supplement Hours
+</head>
+
+            <l>
+               <del rend="erasure">
+                  <add rend="unmarked" place="supralinear">
+                     <unclear reason="deletion, illegible" resp="#fl"
+                              cert="95%">Now</unclear>
+                  </add>
+               </del> Sane, easy, homely, culminating hours <del rend="erasure">,</del> of me</l>
+
+            <l>Away from Books—away from Art—(their lesson done,)</l>
+
+            <l>Now, <del rend="overstrike">for</del> 
+               <add rend="insertion"
+                    place="supralinear"
+                    rend="circled">soothing, bathing,</add> 
+               <del rend="erasure">the</del> 
+               <add rend="insertion" place="supralinear">merging all, the same magnetic</add> 
+Day aand Night, <del rend="overstrike">themselves</del>
+            </l>
+
+            <l>
+               
+                  <del rend="erasure">(</del>The <subst>
+                     <rdg varSeq="1">
+                        <del rend="overstrike">open air—the</del>
+                     </rdg>
+                     <rdg varSeq="2">
+                        <add rend="unmarked" place="supralinear">open air, the</add>
+                     </rdg>
+                  </subst> 
+seasons, insects, trees—the<lb/>
+               rain and snow,<lb/>
+            </l>
+
+            <l>
+               <del rend="erasure">
+                  <add rend="unmarked" place="supralinear">The sun,</add>
+               </del>
+The silent Sun and Stars.<del rend="erasure">)</del>
+            </l>
+
+         </lg>
+      </body>
+   </text>
+</TEI>

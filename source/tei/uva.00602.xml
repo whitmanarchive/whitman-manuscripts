@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00602">
+    <relations>
+        <work ref="xxx.00048" cert="low">
+            <p>This manuscript may relate to the following lines from what would become sections 27 and 29 of the poem "Song of Myself": "They seize every object and lead it harmlessly through me" (1855, p. 32) and "Blind loving wrestling touch! Sheathed hooded sharptoothed touch! / Did it make you ache so leaving me?" (1855, p. 33).</p>
+        </work>
+    </relations>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main" rend="bracketed">His very aches are exstasy</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bjo">Brandon James O'Neil</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                </respStmt>
+                <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <sponsor>University of Nebraska-Lincoln</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+                <funder>The United States Department of Education</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>uva.00602</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+<addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
+<addrLine>Alderman Library</addrLine>
+<addrLine>University of Virginia</addrLine>
+<addrLine>P.O. Box 400115</addrLine>
+<addrLine>Charlottesville, VA 22904-4115</addrLine>
+<addrLine>whitman@jefferson.village.virginia.edu</addrLine>
+</address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The fragmentary lines may relate to a section on touch included in the first poem in that edition, titled "Leaves of Grass," eventually titled "Song of Myself."</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>I am a curse</title>
+                    <idno type="callno">MSS 3829, Box-folder 1:88</idno>
+                    <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
+                    <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
+                    <note type="project">Transcribed from digital images of the original.</note>
+                    <relatedItem xml:id="rel1" type="text" target="uva.00256"/>
+                    <relatedItem type="document" target="wwa.00579"/>
+                    <note type="project" target="#rel1">Poetic lines on the back of this manuscript leaf relate to lines in the poem eventually titled "The Sleepers."</note>
+                </bibl>
+            </sourceDesc> 
+        </fileDesc>
+        <revisionDesc>
+            <change when="2018-11-27" who="#nhg">checked, corrected, added relations info</change>
+            <change when="2018-10-09" who="#nhg">created out of uva.00256</change>
+            <change when="2018-03-26" who="#bjo">Transcribed and encoded</change> 
+        </revisionDesc>
+    </teiHeader>
+    <text type="manuscript">
+        <body>
+            <pb facs="uva.00256.002.jpg" xml:id="leaf001r" type="recto"/>
+            <lg type="linegroup">
+                <l xml:id="l01" corresp="#l641">His very aches are exstasy</l>
+                <l xml:id="l02"><del rend="overstrike">He is</del> <del rend="overstrike">He</del> <del rend="overstrike">He has</del></l>
+                <del rend="overstrike"><l xml:id="l03">Food</l></del>
+                <l xml:id="l04">Softly <del rend="overstrike">and</del> <del rend="overstrike">he</del> push<subst><del rend="overwrite" seq="1">ing</del><add rend="overwrite" place="over" seq="2">es</add></subst></l>
+                <l xml:id="l05" corresp="#l614">Harmlessly <del rend="overstrike">softly</del> pushing through</l>
+            </lg>
+            <lg type="linegroup">
+                <del rend="overstrike"><l xml:id="l06">Yet all</l></del>
+            </lg>
+            <pb facs="uva.00256.001.jpg" xml:id="leaf001v" type="verso"/>
+            
+        </body>
+    </text>
+</TEI>

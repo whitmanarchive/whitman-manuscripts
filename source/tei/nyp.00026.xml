@@ -4,7 +4,7 @@
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00026">
     <teiHeader>
         <fileDesc>
-            <titleStmt>
+            <titleStmt>    
                 <title level="m" type="main" rend="bracketed">A talent for conversation</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
@@ -16,7 +16,9 @@
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="rc">Regan Chasek</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -41,7 +43,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">This manuscript is difficult to date conclusively, but Edward Grier suggests that "this sort of moralizing . . . belongs to [Whitman's] journalizing of the 1840s through the 1860s" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:295). An image of the verso is currently unavailable.</note>             
+                <note type="project" target="#dat1">This manuscript is difficult to date conclusively, but Edward Grier suggests that "this sort of moralizing . . . belongs to [Whitman's] journalizing of the 1840s through the 1860s" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:295).</note>             
             </notesStmt>
             <sourceDesc>
                 
@@ -56,6 +58,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2017-07-19" who="#rc">added verso link</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-09-12" who="#nhg">corrected</change>
             <change when="2016-07-19" who="#nhg">checked, corrected</change>
@@ -69,7 +72,9 @@
         <body>
             <pb xml:id="leaf001r" facs="M_1231706.jpg" type="recto"/>
             
-            <p>A talent for conversation&#8212;Have you it? If you have, you have a facile and dangerous tenant in your soul's palace.&#8212;</p>            
+            <p>A talent for conversation&#8212;Have you it? If you have, you have a facile and dangerous tenant in your soul's palace.&#8212;</p>
+
+            <pb xml:id="leaf001v" facs="nyp_rc.00001.jpg" type="verso"/>
         </body>
     </text>
 </TEI>

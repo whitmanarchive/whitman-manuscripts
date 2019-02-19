@@ -2,9 +2,6 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00887">
-<!--   <relations>
-      <work ref="xxx.01226"/>
-   </relations>-->
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -49,24 +46,26 @@
         </availability>
       </publicationStmt>
       <notesStmt>
-        <note type="project">The date is written at the top of the manuscript. Edward Grier notes that the name "Bill Guess" does not appear in New York directories from this time period.  Two entries for "George Fitch" are listed in the New York City directory for 1855&#8211;56.  One Fitch is listed as an expressman, and the other is listed as a clerk. Grier postulates that "the three young men mentioned here were probably itinerant omnibus drivers" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:199). George Fitch is also mentioned in the manuscript titled "<ref target="duk.00294.html">Bloom</ref>."</note>             
+        <note type="project">The date is written at the top of the manuscript. Edward Grier notes that the name "Bill Guess" does not appear in New York directories from this time period. Two entries for "George Fitch" are listed in the New York City directory for 1855&#8211;56.  One Fitch is listed as an expressman, and the other is listed as a clerk. Grier postulates that "the three young men mentioned here were probably itinerant omnibus drivers" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:199). George Fitch is also mentioned in the manuscript titled "<ref target="duk.00294.html">Bloom</ref>."</note>             
       </notesStmt>
       <sourceDesc>
         
         <bibl>
           <author>Walt Whitman</author>
-          <title>I know as well as you that Bibles are divine revelations (Autograph MS, draft portions of Who Learns My Lesson Complete?)</title>
+          <title>I know as well as you that Bibles are divine revelations</title>
           <idno type="callno">RL. 01378, MS q 5</idno>
           <date xml:id="dat1" when="1854-03-20" cert="high">March 20, 1854</date>
           <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
           <note type="project">Transcribed from digital images of the original. </note>
           <relatedItem type="text" target="duk.00051" xml:id="rel01"/>
           <relatedItem type="document" target="wwa.00065"/>
-          <note type="project" target="#rel01">On the back of this leaf is a draft of lines for the first poem of the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, which was ultimately titled "Song of Myself."</note>
+          <note type="project" target="#rel01">On the back of this leaf is a draft of lines that appeared in the first poem of the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, which was ultimately titled "Song of Myself."</note>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
+      <change when="2018-10-08" who="#nhg">edited relatedItem note</change>
+      <change when="2018-09-10" who="#nhg">updated image name</change>
       <change when="2017-03-29" who="#nhg">edited editorial note</change>
       <change when="2017-01-31" who="#bb">reconciled with EAD record</change>
       <change when="2016-12-01" who="#nhg">corrected</change>
@@ -86,7 +85,7 @@
   <body>
     
     
-    <pb xml:id="leaf001r" facs="duk_km.00012.jpg" type="recto"/>
+    <pb xml:id="leaf001r" facs="duk_nhg.00718_large.jpg" type="recto"/>
     
     <div1 type="prose">
       
@@ -105,7 +104,7 @@
       <ab><hi rend="underline">George Fitch</hi>.&#8212;Yankee boy&#8212;driver.&#8212;Fine nature, amiable, of sensitive feelings, a natural gentleman&#8212;of quite a reflective turn. Left his home because his father was perpetually "down on him".&#8212;When he told me of his mother, his eyes watered.&#8212;Good looking, tall, curly haired black-eyed fellow, age about 23 or 4&#8212;slender, face with a smile&#8212;trowsers tucked in his boots&#8212;cap with the front-piece turned behind.&#8212;</ab>
     </div1>
     
-    <pb xml:id="leaf001v" facs="duk_km.00013.jpg" type="verso"/>
+    <pb xml:id="leaf001v" facs="duk_nhg.00717_large.jpg" type="verso"/>
      
     
   </body>
