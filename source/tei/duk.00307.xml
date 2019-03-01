@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00307">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main" rend="bracketed">Poemet</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="rl">Robert LaCosse</persName>
+                    <persName xml:id="mm">Matthew Miller</persName>
+                    <persName xml:id="fl">Farrah Lehman</persName>
+                    <persName xml:id="kp">Kenneth M. Price</persName>
+                    <persName xml:id="kc">Kirsten Clawson</persName>
+                    <persName xml:id="jc">Janel Cayer</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>duk.00307</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1"><!-- Note on date here. See comment after <date> in <bibl>, below. --></note>             
+            </notesStmt>
+            <sourceDesc>
+                
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title rend="bracketed">Suggestions for Poems</title>
+                    <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1860">Before 1860</date><!-- Grier says that because this MS came from Bucke, it is likely "before 1860." But it appears very similar (the paper, ink, handwriting) to duk.00306, which we speculate was written between 1870 and 1880. The inclusion of "Warble" in this MS may also be connected to "Warble for Lilac Time," which first appeared in the Galaxy in 1870, and was then reprinted in Passage to India (1872), which would confirm a similar date to duk.00360. Therefore, I'm removing this MS from our "pre-1855 list" for now. The transcription and encoding have been checked, but we'll want to return to this and consider revising our dating. KM, 4/11/16 -->
+                    <idno type="callno">MS f 33</idno>
+                    <orgName xml:id="duk">The Trent Collection of Walt Whitman Manuscripts, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
+                    <note type="project">Transcribed from digital images of the original ab.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2016-04-11" who="#km">checked</change>
+            <change when="2015-02-07" who="#jc">checked</change>
+            <change when="2014-12-08" who="#kc">converted from P4 to P5, checked</change>
+            <change when="2007-05-03" who="#kp">edited</change>
+            <change when="2007-05-01" who="#fl">checked</change>
+            <change when="2005-01-17" who="#mm">transcribed and encoded</change>
+            <change when="2005-01-17" who="#rl">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+<text type="manuscript">
+<body>
+
+    <pb xml:id="leaf001r" facs="1053_050.jpg" type="recto"/><!-- I linked to a better image. The thumbnail is currently not displaying, but it should once we run the script. -->
+
+   
+        <ab>Poemet</ab>
+        <ab>Leaf</ab>
+        <ab>Chant</ab>
+        <ab>Song</ab>
+        <ab>Poem</ab>
+        <ab>Psalm</ab>
+        <ab>Hymn</ab>
+    
+
+        <ab>warble</ab>
+        <ab>carol</ab>
+        <ab>cavatina</ab>
+        <ab>ballad</ab>
+        <ab>Thought</ab>
+        <ab>Caprices</ab>
+        <ab>Fantasia</ab>
+        <ab>Capric<subst><del rend="overwrite" seq="1">i</del><add rend="overwrite" place="over" seq="2">e</add></subst>a</ab>
+    
+
+<milestone unit="undeclared" rend="horbar-full"/>
+    
+
+    <ab>Sonnet&#8209;Trio.</ab>
+    <ab>Sonnet&#8209;Quinto</ab>
+    <ab>Sonnet&#8209;Duo</ab>
+    
+
+
+<milestone unit="undeclared" rend="horbar-full"/>
+    
+
+        <ab>Melange</ab>
+        <ab>Canticles.</ab>
+        <ab>Songlet</ab>    
+
+
+<pb xml:id="leaf001v" facs="duk_am.00238_large.jpg" type="verso"/>
+
+</body>
+</text>
+</TEI>

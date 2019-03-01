@@ -8,7 +8,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main" rend="bracketed">truly what is commonest</title>
+                <title level="m" type="main" rend="bracketed">Truly, what is commonest</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author xml:id="ww">Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -44,13 +44,13 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">The words that appear near the beginning of this scrap are similar to a line from "Song of Myself," in which Whitman writes "What is commonest and cheapest and nearest and easiest is Me." Thus, it is likely that this manuscript dates from before or early in 1855.</note>             
+                <note type="project" target="#dat1">The words that appear near the beginning of this scrap are similar to a line from "Song of Myself," in which Whitman writes "What is commonest and cheapest and nearest and easiest is Me" (21). Thus, it is likely that this manuscript dates from before or early in 1855.</note>             
             </notesStmt>
             <sourceDesc>
                 
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title rend="bracketed">truly what is commonest</title>                  
+                    <title rend="bracketed">Truly, what is commonest</title>                  
                     <idno type="callno">MSS45443, Box 1, Reel 1</idno>
                     <date xml:id="dat1" cert="medium" notBefore="1845" notAfter="1855">Before or early in 1855</date>
                     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
@@ -68,6 +68,8 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
+            <change when="2018-11-08" who="#nhg">added inline relations</change>
+            <change when="2018-11-01" who="#nhg">edited title</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2017-02-27" who="#nhg">expanded work relations information</change>
             <change when="2016-07-13" who="#nhg">checked, corrected</change>
@@ -81,7 +83,7 @@
       <body>
             <pb xml:id="leaf001r" facs="loc_nk.00572.jpg" type="recto"/>
             
-          <p><gap reason="cut away" unit="chars" atLeast="1"/><handShift new="#h1"/> <seg xml:id="q01">Truly, what is commonest, readiest <add rend="unmarked" place="supralinear"><handShift new="#h2"/>?</add><handShift new="#h1"/>, cheapest, <del rend="overstrike">of our lives,</del> is often the profoundest, the most curious&#8212;has its beginnings the farthest back, and is the hardest problem for thought or science.</seg> <gap reason="cut away" unit="chars" atLeast="2"/> </p>
+          <p xml:id="q01" corresp="#l251"><gap reason="cut away" unit="chars" atLeast="1"/><handShift new="#h1"/> Truly, what is commonest, readiest <add rend="unmarked" place="supralinear"><handShift new="#h2"/>?</add><handShift new="#h1"/>, cheapest, <del rend="overstrike">of our lives,</del> is often the profoundest, the most curious&#8212;has its beginnings the farthest back, and is the hardest problem for thought or science. <gap reason="cut away" unit="chars" atLeast="2"/> </p>
           <milestone unit="glued"/>
           <note type="archival" resp="#unk" place="left">X</note>
           <note type="archival" resp="#unk" place="left">456 A</note>

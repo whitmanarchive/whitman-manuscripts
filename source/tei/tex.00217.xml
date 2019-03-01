@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="tex.00217">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title level="m" type="main">Poets</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <name>The Walt Whitman Archive Staff</name>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>
+                    <date>2010</date>
+                </edition>
+            </editionStmt>
+            
+            <publicationStmt>
+                <idno>tex.00217</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            
+            <notesStmt>
+                <note type="project" target="#dat1"><!-- when was this manuscript written? --></note>
+                <note type="project">The following are responsible for particular readings or for changes to this file, as noted: 
+                    <persName xml:id="al">Ashley Lawson</persName> <persName xml:id="tj">Tim Jackson</persName>
+                </note>
+            </notesStmt>
+            
+            
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>          
+                    <title>For conclusion of lectures on poems</title> 
+                    <!--     THE DATE INFORMATION IN THE NEXT LINE WILL BE ADDED BY AN EDITOR     -->
+                    <!--<date xml:id="dat1" cert="****" when="/"> </date>-->
+                    
+                    <idno type="callno">TXRC03-A4</idno> <!-- find name -->
+                    <orgName>The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+                    <note type="project">Transcribed from our own digital image of the original manuscript.</note>
+                </bibl>
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2011-04-08" who="#tj">Corrected and queried some text based on archive cd </change>
+            <change when="2011-03-09" who="#tj">Checked, corrected</change>
+            <change when="2011-01-25" who="#al">Transcribed and encoded</change>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text type="manuscript">
+        
+        <body>
+            
+            <pb xml:id="leaf001r" facs="tex.00217.001_large.jpg" type="recto"/>
+            
+            <head type="main-derived">Poets</head>
+            
+            <note type="authorial" place="margintop"><hi rend="underline">Poets</hi>&#8212;Shakspeare <!-- [TJ] Unsure of ending to "Shakspeare"? --> <del rend="overstrike"><unclear reason="illegible" cert="medium" resp="#al">Burns</unclear></del> <hi 
+                rend="underline">Tennyson</hi> Orientalism Poe Soul's Procession</note>
+            
+            <note type="authorial" place="margintopleft" rend="circled">Orientalism</note>
+            
+            <note type="authorial" place="margintop">for conclusion of lectures on poems</note>
+            
+            <p>
+                <subst>
+                    <del rend="overstrike" seq="1">From a certain point of view</del>
+                    <add place="supralinear" rend="unmarked" seq="2">From the point of view of Humanity's and the Ages' ensemble</add>
+                </subst>
+                <hi rend="underline">for all that</hi> <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#al">an</unclear></del> <add place="supralinear" rend="unmarked"><del rend="overstrike">the</del></add> <del rend="overstrike">phi</del> <add place="supralinear" rend="unmarked">
+                the</add> civilization, history, politics need<subst><del rend="overwrite" seq="1"><add place="supralinear" rend="unmarked">ed</add></del> <add rend="unmarked" place="over" seq="2"><unclear reason="illegible" cert="low">by</unclear></add></subst><!-- [TJ] Did I encode this right? --> <add place="supralinear" rend="unmarked">them</add> <!-- [TJ] Possible that "them" is "their"? --> myriads of influences &#38;
+                <subst>
+                    <del rend="overstrike" seq="1">many centuries</del>
+                    <add place="supralinear" rend="unmarked" seq="2">long cycles of time</add>
+                </subst>
+                <add place="supralinear" rend="insertion"><del rend="overstrike"><unclear reason="illegible" cert="medium" resp="al">and</unclear> &#38; even thousands of years</del></add> to unfold, are <add place="supralinear" rend="insertion">best defined &#38;</add> expressed by a few comparatively short <add place="supralinear" rend="unmarked">? ?</add> poems&#8212;each continent or cluster of ages.) <gap 
+                    reason="illegible" extent="four words"/><add place="supralinear" rend="insertion">or series of influences</add>&#8212;the <unclear reason="illegible" cert="low" resp="#al">brooding</unclear>, 
+                meditative transcendentalism of Asia in the <del rend="overstrike">Z</del> Zend &#38; Sanscrit&#8212;and all
+                <subst>
+                    <del rend="overstrike" seq="1">the history of</del>
+                    <add place="supralinear" rend="unmarked" seq="2">that lies beneath</add>
+                </subst>  
+                the tremendous chronology &#38; vast conception of India in the Ramayana &#38; <choice><sic>Mahabarate</sic><corr>Mahabharata</corr></choice>&#8212;the Syrian canticles the Book of Job <add 
+                    place="supralinear" rend="unmarked">&#38; the other books</add> <add place="supralinear" rend="insertion">&#38; emerging from <unclear reason="illegible" cert="low" resp="#al">them</unclear></add>
+                the idylls of the life of C
+            </p>
+            
+            <pb xml:id="leaf001v" facs="tex.00217.002_large.jpg" type="verso"/> 
+            
+        </body>
+    </text>
+</TEI>
+
+
+
+

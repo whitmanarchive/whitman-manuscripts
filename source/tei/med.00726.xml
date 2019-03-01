@@ -2,7 +2,7 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00726">
-    <relations>
+    <relations>    
         <work ref="xxx.00048" cert="high"><p>This manuscript likely contributed to the poem that would eventually be titled "Song of Myself." Whitman mentions the "superb wonder of a blade of grass" and uses the term "Koboo," which appeared in the poem in 1855 (p. 49). The idea of "[e]nter[ing] into the thoughts of the different theological faiths" (described in this manuscript) is possibly connected to the stanza of "Song of Myself" that begins "I do not despise you priests..." (1855, p. 48).</p></work>
     </relations>
     <teiHeader>
@@ -77,6 +77,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2018-11-08" who="#nhg">added inline relations</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-07-13" who="#nhg">checked, corrected</change>
             <change when="2016-05-20" who="#km">checked</change>
@@ -87,7 +88,7 @@
 
     <text type="manuscript">
         <body>
-            <p>For example, whisper privately in your ear . . . the studies . . . be a rich investment if they . . . to bring the hat instantly off the . . . all his learning and bend himself to feel and fully enjoy . . . superb wonder of a blade of grass growing up green and crispy from the ground. Enter into the thoughts of the different theological faiths&#8212;effuse all that the believing Egyptian would&#8212;all that the Greek&#8212;all that the Hindoo, worshipping Brahma&#8212;the Koboo adoring his fetish stone or log&#8212;the Presbyterian&#8212;the Catholic with his crucifix and saints&#8212;the Turk with the Koran.</p>
+            <p><seg xml:id="seg01">For example, whisper privately in your ear . . . the studies . . . be a rich investment if they . . . to bring the hat instantly off the . . . all his learning and bend himself to feel and fully enjoy . . . superb wonder of a blade of grass growing up green and crispy from the ground.</seg> <seg xml:id="seg02" corresp="#l1093 #l1096 #l1097 #l1099">Enter into the thoughts of the different theological faiths&#8212;effuse all that the believing Egyptian would&#8212;all that the Greek&#8212;all that the Hindoo, worshipping Brahma&#8212;the Koboo adoring his fetish stone or log&#8212;the Presbyterian&#8212;the Catholic with his crucifix and saints&#8212;the Turk with the Koran.</seg></p>
         </body>
     </text>
 </TEI>

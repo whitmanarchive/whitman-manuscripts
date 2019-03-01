@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00259">
+    <relations>
+        <work ref="xxx.00121" cert="high">
+            <p><ref target="#q01 #q03" type="text">These lines</ref> are a draft of the following lines in the twelfth poem of the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, a poem that was later titled "Great are the Myths": "GREAT are the myths . . . . I too delight in them,/
+                Great are Adam and Eve . . . . I too look back and accept them;/
+                Great the risen and fallen nations, and their poets, women, sages, inventors, rulers, 
+                warriors and priests." (1855, p. 93). The poem went through many revisions through the different editions of <hi rend="italic">Leaves of Grass</hi>, then was permanently dropped in 1881–1882, except the two couplets that became the poem "Youth, Day, Old Age, and Night."</p>
+        </work>
+    </relations>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main" rend="bracketed">Great are the myths</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bjo">Brandon James O'Neil</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                </respStmt>
+                <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+                <funder>The United States Department of Education</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2018</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>duk.00259</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address><addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine></address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="dat1">Whitman probably drafted this
+                    manuscript in the <date notBefore="1850" notAfter="1855">early 1850s</date> as he was composing
+                    the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The opening lines of the manuscript appear in the twelfth poem of that edition, originally untitled, eventually titled "Great are the Myths."</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Great are the myths. ... I too delight in them</title>
+                    <idno type="callno">MS 4 to 10 (Volume 10)</idno>
+                    <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
+                    <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+                    <note type="project">Transcribed from digital images of the original.</note>
+                    <relatedItem type="text" xml:id="rel01" target="duk.00938"/>
+                    <relatedItem type="document" target="wwa.00572"/>
+                    <note target="#rel01" type="project">A cancelled partial prose draft written on the back of this manuscript corresponds to a piece published in the <hi rend="italic">Brooklyn Star</hi> in 1854.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2018-12-11" who="#nhg">corrected work ref</change>
+            <change when="2018-10-24" who="#nhg">proofed</change>
+            <change when="2018-09-10" who="#nhg">updated image names</change>
+            <change when="2018-08-02" who="#nhg">checked, corrected, added relatedItem</change>
+            <change when="2018-05-21" who="#bjo">Transcribed and encoded.</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="manuscript">
+        <body>
+            <pb facs="duk_nhg.00422_large.jpg" xml:id="leaf001r" type="recto"/>
+            <ab>&#8212;(<del rend="overstrike">of firemen or fireengines,</del></ab>
+           <lg type="poem">
+               <delSpan rend="hashmark" spanTo="#d01"/>
+                <lg type="linegroup" xml:id="q01">
+                    <l xml:id="l01" corresp="#l2248">Great are the myths . . . . I too delight in them,</l>
+                    <l xml:id="l02" corresp="#l2249">Great are Adam and Eve . . . . I too look back and accept them,</l>
+                    <l xml:id="l03" corresp="#l2250">Great between them and me the risen and fallen<lb/>
+                    nations, and their poets, women, sages,<lb/>
+                    rulers, warriors and priests.<!--possible deletion mark over period, or comma subst-->&#8212;</l>
+                </lg>
+               <anchor xml:id="d01"/>
+               <span type="bracketed" xml:id="s01" from="#s01" to="#s02"/>
+                <lg type="linegroup" xml:id="q02">
+                    <l>And that's so, easy enough;</l>
+                    <span type="bracket-left" xml:id="s03" from="#s03" to="#s04"/><l>And I am no shallowpate to <del rend="overstrike">go</del> gad<del rend="overstrike">ding</del> about<lb/>
+                    singing them <add rend="insertion" place="supralinear">above the rest,</add> and deferring to them;</l>
+                    <l>And they did not become great by singing and deferring.</l>
+                    <anchor xml:id="s04"/>
+                    <note type="authorial" place="left" target="#s03">?</note>
+                </lg>
+               <anchor xml:id="s02"/>
+               <note type="authorial" place="left" target="#s02">out</note>
+               
+               <delSpan rend="hashmark" spanTo="#d02"/>
+                    <lg type="linegroup" xml:id="q03">
+                        <l xml:id="l04" corresp="#l2259">Great are you . . . . and great am I,</l>
+                        <l xml:id="l05" corresp="#l2260">We are just as good and bad as the oldest <add place="supralinear" rend="overstrike">or youngest</add> or <subst><del rend="overstrike" seq="1">nearest</del> <add place="supralinear" rend="unmarked" seq="2">any</add></subst>,</l>
+                        <l xml:id="l06" corresp="#l2261">What the best and the worst did we can do,</l>
+                        <l xml:id="l07" corresp="#l2262">What they felt&#8212;do we not feel it in ourselves?</l>
+                        <l xml:id="l08" corresp="#l2263">What they thought&#8212;do we not think the same?</l>
+           </lg>
+               <anchor xml:id="d02"/>
+           </lg>
+            <pb facs="duk_nhg.00423_large.jpg" xml:id="leaf001v" type="verso"/>
+                   </body>
+    </text>
+</TEI>

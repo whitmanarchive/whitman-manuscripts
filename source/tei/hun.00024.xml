@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_basic.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="hun.00024">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m" type="main">I hear that</title>
+<title level="m" type="sub">a machine readable transcription</title>
+<author>Walt Whitman</author>
+<editor>Kenneth M. Price</editor>
+<editor>Ed Folsom</editor>
+<respStmt>
+<resp>Transcription and encoding</resp>
+<name>The Walt Whitman Archive Staff</name>
+</respStmt>
+<sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+<sponsor>University of Iowa</sponsor>
+<funder>The National Endowment for the Humanities</funder>
+</titleStmt>
+<editionStmt>
+<edition>
+<date>2011</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<idno>hun.00024</idno>
+<distributor>The Walt Whitman Archive</distributor>
+<address>
+<addrLine>Center for Digital Research in the Humanities</addrLine>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska-Lincoln</addrLine>
+<addrLine>P.O. Box 884100</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+<p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+</availability>
+</publicationStmt>
+<notesStmt>
+<note type="project" target="#dat1">In this brief note, Whitman refers to Samuel Nelson, an Associate Justice of the Supreme Court from 1845 through November 1872. Nelson died on December 13, 1873, in Cooperstown, New York. This manuscript dates to the period 1863&#8211;1872.</note>
+<note type="project">The following are responsible for particular readings or for changes to this file, as noted:
+    <persName xml:id="jc">Janel Cayer</persName>
+    <persName xml:id="el">Elizabeth Lorang</persName>
+    <persName xml:id="vs">Vanessa Steinroetter</persName>
+    <persName xml:id="al">Ashley Lawson</persName>
+</note>
+</notesStmt>
+<sourceDesc>
+<bibl>
+<author>Walt Whitman</author>          
+<title>[I hear that]</title>
+<date xml:id="dat1" cert="high" notBefore="1863-01-01" notAfter="1872-12-01">c. 1863&#8211;1872</date>          
+<idno type="callno">GM 503</idno>
+<orgName xml:id="hun">The Huntington Library, Art Collections, and Botanical Gardens</orgName>
+<note type="project">Transcribed from digital images of the original.</note>
+</bibl>
+</sourceDesc>
+</fileDesc>
+    <profileDesc>
+        <handNotes>
+            <handNote xml:id="unk">unknown</handNote>
+        </handNotes>
+    </profileDesc>
+<revisionDesc>
+    <change when="2012-05-18" who="#el">updated date in project note about manuscript to correspondence to date in sourceDesc</change>
+    <change when="2012-02-16" who="#jc">removed _large from file name @facs</change>
+    <change when="2011-05-12" who="#el">blessed</change>
+    <change when="2010-08-18" who="#al">checked</change>
+    <change when="2010-03-12" who="#vs">transcribed, encoded</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="manuscript">
+    <body>
+        <pb xml:id="leaf001r" facs="hun.00024.001.jpg" type="recto"/>
+        <p>I hear that Judge Nelson <hi rend="underline">is</hi> in town&#8212;&#38; am informed that he usually stops at the National.</p>
+        <closer>
+            <signed>W W</signed>
+        </closer>
+        <note type="editorial" resp="#unk" place="bottom"><hi rend="underline">Author</hi></note>
+        <note type="editorial" resp="#unk" place="bottom"><hi rend="underline">Walt Whitman.</hi></note>        
+        <pb xml:id="leaf001v" facs="hun.00024.002.jpg" type="verso"/>
+    </body>
+</text>
+</TEI>

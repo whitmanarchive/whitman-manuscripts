@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.0920">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title level="m" type="main">No poem sings</title> <!-- title? -->
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <name>The Walt Whitman Archive Staff</name>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>
+                    <date>2010</date>
+                </edition>
+            </editionStmt>
+            
+            <publicationStmt>
+                <idno>loc.0920</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+                </availability>
+            </publicationStmt>
+            
+            <notesStmt>
+                <note type="project" target="#dat1"><!-- when was this manuscript written? --></note>
+                <note type="project">The following are responsible for particular readings or for changes to this file, as noted: 
+                    <persName xml:id="al">Ashley Lawson</persName> <persName xml:id="tj">Tim Jackson</persName>
+                </note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>          
+                    <title>"No poem sings"</title> 
+                    <!--     THE DATE INFORMATION IN THE NEXT LINE WILL BE ADDED BY AN EDITOR     -->
+                    <!--<date xml:id="dat1" cert="****" when="/"> </date>-->
+                    
+                    <idno type="callno">MSS18630 Box 32</idno>
+                    <orgName>The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839-1919, Library of Congress, Washington, DC.</orgName>
+                    <note type="project">Transcribed from our own digital image of the original manuscript.</note>
+                </bibl>
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2010-11-30" who="#tj">Checked, corrected</change>
+            <change when="2010-08-18" who="#al">Corrected</change>
+            <change when="2010-06-23" who="#al">Transcribed and encoded</change>
+            
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text type="manuscript">
+        
+        <body>
+            
+            <pb xml:id="leaf001r" facs="loc.0929.001_large.jpg" type="recto"/>
+            
+            <note type="authorial" place="margintop">4</note> <!-- correct location for tag? -->
+            
+            <head type="main-derived">No poem sings</head>
+            
+            <p>
+                No poem sings, nor music sounds those deeds,<del rend="overstrike">The report, the official</del> <del rend="overstrike"><add place="supralinear" rend="unmarked">Not in</add></del> <del rend="overstrike">A</del> <del rend="overstrike">The miltary</del> <!-- Mark these as separate del because seem to be two different false starts?  Ditto in next line? --> <add place="supralinear" rend="unmarked"> <unclear reason="illegible" cert="high" resp="al">No</unclear> formal</add> <add place="supralinear" rend="insertion">general's</add> report, <del rend="overstrike">The formal</del> <del rend="overstrike">The book for</del> <unclear reason="illegible" cert="low" resp="al">I</unclear> <del rend="overstrike">The</del> <add place="supralinear" rend="unmarked">no</add> 
+                <subst>
+                    <del rend="overstrike" seq="1">newspaper letter</del>
+                    <add place="supralinear" rend="unmarked" seq="2">printed nor print,</add> 
+                </subst>,
+                <subst>
+                    <del rend="overstrike" seq="1">the</del>
+                    <add place="supralinear" rend="unmarked" seq="2">no</add>
+                 </subst>
+                    book for the library 
+                <subst>
+                    <del rend="overstrike" seq="1">&#8212;<!-- [TJ] Unsure if deleted character is an emdash? -->has obstained them,</del>
+                    <add place="supralinear" rend="unmarked" seq="2">nor column in the paper</add>
+                </subst>
+                <add place="supralinear" rend="unmarked">our brave dead command</add> embalms my bravest boys, <add place="supralinear" rend="insertion">
+                <subst>
+                    <del rend="overstrike" seq="1">my</del>
+                    <add place="supralinear" rend="unmarked" seq="2">our</add>
+                </subst>
+                    boys,
+                <subst>
+                    <del rend="overstrike" seq="1">my</del>
+                    <add place="supralinear" rend="unmarked" seq="2">our</add>
+                </subst>
+                <subst>
+                    <del rend="overstrike" seq="1">&#38;</del>
+                    <add place="supralinear" rend="unmarked" seq="2">my</add>
+                </subst>
+                    darlings</add> nor
+                <subst>
+                    <del rend="overstrike" seq="1">I</del>
+                    <add place="supralinear" rend="insertion" seq="2">all their</add>
+                </subst>
+                proudest warlike deeds.&#8212;No picture gives them, <!-- Comma? --> <gap reason="cut away"/> <add place="supralinear" rend="unmarked"> <unclear reason="illegible" cert="medium" resp="al">curious</unclear></add> <unclear reason="illegible" cert="low" resp="al">eye</unclear> has seen them. <add place="supralinear" rend="insertion">Their very names are lost&#8212;the bravest of them.</add> <unclear><add place="supralinear" rend="unmarked" ><del rend="overstrike">May</del> Likes</add></unclear> The <del rend="overstrike">best</del> <unclear reason="cut away" cert="low" resp="al">highest</unclear> of them, <del rend="overstrike">have</del> spent <add place="supralinear" rend="insertion">to</add> the last their str<gap reason="cut away"/> life <!-- comma? --> nature no more allowing <add place="supralinear" rend="insertion">&#8212;there they have fallen<unclear reason="cut away" cert="medium" resp="al">on the</unclear> dark wood uknown <!-- [TJ] Unsure if last word is "unknowing"? --></add> <gap reason="cut away"/> <add place="supralinear" rend="unmarked"> <!-- interlinear? -->(the tide has swept on &#38; left men there to die)</add> have <add place="supralinear" rend="insertion">crawls to some bush,</add> crawled aside,
+                <subst>
+                    <del rend="overstrike" seq="1">perhaps to</del>
+                    <add place="supralinear" rend="insertion" seq="2">may&#8209;be</add>
+                </subst>
+                some bush <gap reason="cut away"/> ferns tuft <del rend="overstrike">,</del> <del rend="overstrike">to</del> sheltering a little while, soaked <gap reason="cut away"/> and there, <choice><sic>haply</sic><corr>happily <!-- correction? --></corr></choice><!-- [TJ] "Haply" is a word, used by Shakespeare, Gray, and Milton. --> with suffering <add place="supralinear" rend="unmarked">(yet</add> far far less than we <gap reason="cut away"/> life ebbs, the dread last lethargy creeps
+                <subst>
+                    <del rend="overstrike" seq="1"><gap reason="deletion, illegible"/> them</del>
+                    <add place="supralinear" rend="insertion" seq="2"><gap reason="deletion, illegible"/> on winds like a serpent</add>
+                </subst>
+                death <gap reason="illegible, cut away"/> he lies <del rend="overstrike"><gap reason="deletion, illegible"/></del> dead, unburied, <gap reason="illegible, cut away"/> <milestone unit="glued"/>&#8212;none recks&#8212;<del rend="overstrike">deeds prouder than</del> there lies this <!-- [TJ] Unsure if "this" should be "their"? -->corpse&#8212;the shifting field of battle changes&#8212;no time to mind the dying or the dead&#8212; <!-- mark below? --> 
+            </p>
+            
+            <pb xml:id="leaf001v" facs="loc.0920.002_large.jpg" type="verso"/> 
+            
+        </body>
+    </text>
+</TEI>
+
+
+

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="tex.00028">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main" rend="bracketed">Advance shapes like his shape</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="ms">Melody S. Han</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2003</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>tex.00028</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>The Walt Whitman Collection</title>
+               <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">About 1855</date>
+               <idno type="callno">TXRC03-A4</idno> 
+               <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName> 
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#ms" when="2003-12-17">Encoded, transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <pb facs="tex.00028.001.jpg" xml:id="leaf001r" type="recto"/>
+
+         <lg type="linegroup">
+
+            <note type="authorial"
+                  place="top">10 ½</note>
+             
+            <l>Advance shapes like his shape&#8212;the<lb/> 
+               king of Egypt's shape,</l>
+            <l>Shapes that tally Sesostris&#8212;gigantic<lb/>
+               in stature,
+<subst>
+                     <rdg varSeq="1">
+                        <del rend="overstrike">polished,</del>
+                     </rdg>
+                     <rdg varSeq="2">
+                        <add place="supralinear" rend="unmarked">wholesome,</add>
+                     </rdg>
+                  </subst>
+clear-eyed,</l>
+
+            <l>Six feet ten inches
+<subst>
+                     <rdg varSeq="1">
+                        <del rend="overstrike">high&#8212;</del>
+                     </rdg>
+                     <rdg varSeq="2">
+                        <add rend="unmarked" place="supralinear">tall&#8212;</add>
+                     </rdg>
+                  </subst>
+                  <anchor xml:id="t1"/>of<delSpan rend="overstrike"
+                           to="#d1"
+                           /> noble head<lb/>
+               and bearded face, <anchor xml:id="d1"/>
+            </l>
+            <l><transpose anchored="yes" target="t1">
+                  Every limb, every part and
+organ in<lb/>
+                  proportion—strong,<add rend="insertion" place="supralinear">bearded,</add> supple,
+               </transpose>
+            </l>
+
+            <l>Conqueror of two continents in nine years</l>
+            <l>Lover most of those that repelled<lb/>
+               him sternest . . . . builder to them<lb/>
+               of phallic memorials</l>
+
+            <l>Ruler <del rend="overstrike">of</del>
+                  <subst>
+                     <rdg varSeq="1">
+                        <del rend="overstrike">his race</del>
+                     </rdg>
+                     <rdg varSeq="2">
+                        <del rend="overstrike">
+                           <add rend="unmarked" place="supralinear">men</add>
+                        </del>
+                     </rdg>
+                  </subst>
+wisely and friendlily<lb/>
+               for sixty-two years
+<del>,</del>
+                  <add> . . . . accepter</add>
+               <lb/>,
+
+                  <del>Accepter</del> of all religions&#8212;preferer of none,<lb/>
+               Freer of slaves
+<gap reason="deletion, illegible"/>
+                  <del>giver to farmers of</del>
+               <lb/>
+               
+                  <del>their own homesteads.</del> divider among<lb/>
+               them of homesteads . . . . maker of<lb/>
+               farmers.&#8212;</l>
+
+         </lg>
+         <pb facs="tex.00028.002.jpg" xml:id="leaf001v" type="verso"/>
+      </body>
+   </text>
+</TEI>

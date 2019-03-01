@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00104">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m" type="main">Gen Blunt has ordered the</title>
+        <title level="m" type="sub">a machine readable transcription</title>
+        <author>Walt Whitman</author>
+        <editor>Kenneth M. Price</editor>
+        <editor>Ed Folsom</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>The Walt Whitman Archive Staff</name>
+        </respStmt>
+        <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+        <sponsor>University of Iowa</sponsor>
+        <funder>The National Endowment for the Humanities</funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2010</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <idno>loc.00104</idno>
+        <distributor>The Walt Whitman Archive</distributor>
+        <address>
+          <addrLine>Center for Digital Research in the Humanities</addrLine>
+          <addrLine>319 Love Library</addrLine>
+          <addrLine>University of Nebraska-Lincoln</addrLine>
+          <addrLine>P.O. Box 884100</addrLine>
+          <addrLine>Lincoln, NE 68588-4100</addrLine>
+        </address>
+        <availability>
+          <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+
+        <note type="project" target="#dat1"> </note>
+
+        <note type="project">The following are responsible for particular readings or for changes to this file, as noted: 
+          <!--     THE VALUE OF @xml:id  IN THE FOLLOWING ELEMENT SHOULD BE YOUR INITIALS, IN LOWER CASE. FOR THIS ELEMENT, *DO NOT* PUT A 
+                   POUND SIGN BEFORE YOUR INITIALS. EXAMPLE: xml:id="bb" -->
+          <persName xml:id="tj">Tim Jackson</persName>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Walt Whitman</author>
+         
+          <title><!-- TITLE BY WHICH THIS OBJECT IS IDENTIFIED AT THE REPOSITORY --></title>
+          <!--     THE DATE INFORMATION IN THE NEXT LINE WILL BE ADDED BY AN EDITOR     -->
+          <!--<date xml:id="dat1" cert="****" when="/"> </date>-->
+          <idno type="callno">MSS18630</idno>
+          <orgName>The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839-1919, Library of Congress, Washington, DC</orgName>
+          <note type="project">Transcribed from our own digital image of original manuscript.</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change when="2011-01-11" who="#al">checked</change>
+      <change when="2010-09-21" who="#tj">trascribed</change>
+    </revisionDesc>
+  </teiHeader>
+
+  <text type="manuscript">
+    <body>
+      <div1 type="prose">
+        <pb xml:id="leaf002r" facs="loc.00104.001.jpg" type="recto"/>
+        
+        <p>Major Gen George C. Strong, who was <del rend="overstrike">mortally</del> wounded in that night attack on Wagner bears <subst> <del rend="overstrike" seq="1">distinct</del> <add place="supralinear" rend="unmarked" seq="2">dying in bed</add></subst> testimony to the black troops' courage. A lady who was with him in Hospital, after the attack, writing about <del rend="overstrike">his</del> Gen. S's remarks on several topics, continues:</p>
+        <add place="marginmiddle" resp="unk" type="pasteon">
+          <p>He said until then the Fifty-fourth Massachusetts had not been under fire, and he knew not how they would stand it; therefore he had ordered the Sixth Connecticut, if the Fifty-fourth should break, to rush right on for the fort. 'But,' said the general, 'they behaved nobly and fought bravely. Colored soldiers will stand fire, and fight well, too.'</p> <note type="editorial" resp="unk" place="inline">1775A</note></add>
+        <note type="authorial" place="marginbottomright">letter in NY. Methodist Aug 29</note>
+        <note type="editorial" resp="unk" place="marginbottom">1775</note>
+        
+        <pb xml:id="leaf002v" facs="loc.00104.002.jpg" type="verso"/>
+       
+      </div1>
+    </body>
+  </text>
+</TEI>

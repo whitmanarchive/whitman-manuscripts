@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00299">
+   <relations>
+      <work ref="xxx.00052" cert="low">
+         <p>This manuscript may describe Whitman's plan for what eventually became section 9 of the poem titled "I Sing the Body Electric." This section, beginning with the words "O my body!", was added to the poem in the 1856 edition of <hi rend="italic">Leaves of Grass</hi>.</p>
+      </work>
+   </relations>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main" rend="bracketed">A poem in which is</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="rl">Robert LaCosse</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2004</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>duk.00299</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="project" target="dat1">Whitman probably drafted this manuscript in the mid-1850s. It may describe what eventually became section 9 of the poem titled "I Sing the Body Electric." Although a version of that poem, titled "Leaves of Grass," appeared in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, that section was first added to the poem in the 1856 edition of <hi rend="italic">Leaves</hi>. Edward Grier speculates that the pink paper used for this manuscript may have been a wrapper from the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, which if true would date this manuscript to 1855.</note>                         	
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>Suggestions for Poems: "A poem in which is minutely described..."</title>
+               <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1856">About 1855</date>
+               <idno type="callno">MS f 33 (Volume 33)</idno> 
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName> 
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#rl" when="2004-09-15">Encoded</change>
+         <change who="#rl" when="2004-09-15">Transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <pb facs="duk.00299.001.jpg" xml:id="leaf001r" type="recto"/>
+
+         <div1 type="poem_notes">
+            <p>A poem which is minutely described the whole particulars and ensemble of a <hi rend="underline">first-rate healthy Human Body</hi>—is looked into and through, as if it were transparent and of pure glass—and now reported in a poem—</p>
+            <milestone unit="undeclared" rend="horbar"/>
+            <p>Read the latest and best anatomical works</p>
+            <milestone unit="undeclared" rend="horbar"/>
+            <p>talk with physicians</p>
+            <milestone unit="undeclared" rend="horbar"/>
+            <p>study the anatomical <unclear reason="deletion, illegible" resp="#rl"
+                        cert="medium">plates</unclear>
+            </p>
+            <milestone unit="undeclared" rend="horbar"/>
+            <p>also casts and figures in the collections of design</p>
+            <milestone unit="undeclared" rend="horbar"/>
+         </div1>
+         <pb facs="duk_am.00230.jpg" xml:id="leaf001v" type="verso"/>
+      </body>
+   </text>
+</TEI>

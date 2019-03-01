@@ -59,12 +59,15 @@
 					<orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
 					<relatedItem type="text" xml:id="rel01" target="duk.00888"/>
 					<relatedItem type="document" target="wwa.00012"/>
-					<note type="project" target="#rel01">On the back of this manuscript is another prose manuscript that relates to the 1855 Preface to <hi rend="italic">Leaves of Grass</hi>.</note>
+					<note type="project" target="#rel01">On the back of this manuscript is another prose manuscript that relates to the 1855 preface to <hi rend="italic">Leaves of Grass</hi>.</note>
 					<note type="project">Transcribed from digital images of the original.</note>
 				</bibl>
 			</sourceDesc>
 		</fileDesc>
-		<revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+		<revisionDesc>
+			<change when="2018-09-10" who="#nhg">updated image names</change>
+			<change when="2017-10-05" who="#nhg">added inline relations information</change>
+			<change when="2016-05-18" who="#kmp">blessed</change>
 			<change when="2016-04-08" who="#nhg">checked, corrected</change>
 			<change when="2016-03-17" who="#km">checked</change>
 			<change when="2016-01-29" who="#nhg">created separate file for verso material</change>
@@ -76,16 +79,16 @@
 
 <text type="manuscript">
 <body>
-<pb xml:id="leaf001r" facs="duk.00293.001.jpg" type="recto"/>
+	<pb xml:id="leaf001r" facs="duk_nhg.00414_large.jpg" type="recto"/>
 	
 	<delSpan rend="hashmark" spanTo="#d01"/>
 		<ab><hi rend="underline">Picture of the most flowing grandeur of a man</hi></ab>
-		<ab>When a man joined to his great power, and wealth <del rend="overstrike">and strength, has the <add rend="insertion" place="supralinear">knowledge of the</add> perfect equanimity</del> and</ab>
+		<ab xml:id="ab01" corresp="#l47">When a man joined to his great power, and wealth <del rend="overstrike">and strength, has the <add rend="insertion" place="supralinear">knowledge of the</add> perfect equanimity</del> and</ab>
 	<anchor xml:id="d01"/>	
 
-	<p>A man of gigantic, stature, supple, healthy, accomplished, powerful, <add rend="insertion" place="supralinear">and</add> resistless<del rend="overstrike">,</del> is a great man&#8212;But when <del rend="overstrike">such an one</del> a man with all that is not trapped into any partiality <del rend="overstrike">or sh</del>&#8212;when he strikes the <del rend="overstrike">eternal</del> balance between the eternal average of the developed and the undeveloped&#8212;when he <subst><del rend="overwrite" seq="1">is</del><add rend="overwrite" place="over" seq="2">goes</add></subst> on the square with those who have not <add rend="unmarked" place="supralinear">yet</add> climbed as high as he&#8212;tender to children and old people and women&#8212;indulging most the stupid the sinful and the vulgar&#8212;because them the world is most down upon&#8212;</p>
+	<p>A man of gigantic, stature, supple, healthy, accomplished, powerful, <add rend="insertion" place="supralinear">and</add> resistless<del rend="overstrike">,</del> is a great man&#8212;But when <del rend="overstrike">such an one</del> a man with all that is not trapped into any partiality <del rend="overstrike">or sh</del>&#8212;when he strikes the <del rend="overstrike">eternal</del> balance between the eternal average of the developed and the undeveloped&#8212;<seg xml:id="seg02" corresp="#l495">when he <subst><del rend="overwrite" seq="1">is</del><add rend="overwrite" place="over" seq="2">goes</add></subst> on the square with those who have not <add rend="unmarked" place="supralinear">yet</add> climbed as high as he&#8212;</seg>tender to children and old people and women&#8212;<seg xml:id="seg01" corresp="#l514">indulging most the stupid the sinful and the vulgar&#8212;because them the world is most down upon</seg>&#8212;</p>
 
-<pb xml:id="leaf001v" facs="duk.00293.002.jpg" type="verso"/>
+	<pb xml:id="leaf001v" facs="duk_nhg.00415_large.jpg" type="verso"/>
 
 </body>
 </text>

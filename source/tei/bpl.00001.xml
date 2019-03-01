@@ -70,6 +70,7 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
+            <change when="2017-04-05" who="#nhg">added verso image</change>
             <change when="2016-09-08" who="#nhg">proofed</change>
             <change when="2015-05-05" who="#kc">conversion to P5, checked</change>
              <change when="2015-05-06" who="#nhg">partial conversion to P5, added schema and schematron declarations</change>
@@ -89,7 +90,7 @@
     
     <text type="manuscript">
         <body>
-            <pb facs="bpl.00001.001.jpg" xml:id="leaf001r" type="recto" />
+            <pb facs="bpl.00001.001.jpg" xml:id="leaf001r" type="recto"/>
             <note place="top" resp="#h1" type="archival">1/8</note>
             <lg type="poem">
                 <head rend="underline" type="main">Out from Behind this Mask.</head>
@@ -131,6 +132,7 @@
                     <signed rend="right"><hi rend="underline">Walt Whitman</hi>.</signed>
                 </closer>
             </lg>
+            <pb facs="bpl.00001.002.jpg" xml:id="leaf001v" type="verso" />
         </body>
     </text>
 </TEI> 

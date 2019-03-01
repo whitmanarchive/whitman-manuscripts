@@ -64,7 +64,8 @@ class TeiToEs
   # TODO place, publisher, rights, rights_uri, rights_holder, source
 
   def subcategory
-    "transcriptions"
+    # Note: used to be called "transcriptions"
+    "literary"
   end
 
   # TODO text other from author, title, publisher, pubplace, and date[@when]

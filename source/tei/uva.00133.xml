@@ -9,6 +9,9 @@
                 1856 edition of <hi rend="italic">Leaves of Grass</hi> as "Poem of The Sayers of The
                 Words of The Earth" and ultimately entitled "A Song of the Rolling Earth." </p>
         </work>
+        <work ref="xxx.00048" cert="low">
+            <p>The lines beginning "After Death" bear some similarity in wording and subject to the following lines from the poem that would become "Song of Myself": "And as to you life, I reckon you are the leavings of many deaths, / No doubt I have died myself ten thousand times before" (1855, p. 54).</p>
+        </work>
     </relations>
     <teiHeader>
         <fileDesc>
@@ -72,6 +75,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2017-10-24" who="#nhg">added inline and additional work relations information</change>
             <change when="2016-11-29" who="#nhg">edited work relations information</change>
             <change when="2015-05-07" who="#nhg">corrected</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
@@ -106,7 +110,7 @@
                             death,</del>
 
                 </l>
-                <l>I lean on my left elbow&#8212;I
+                <l xml:id="l01" corresp="#l1288">I lean on my left elbow&#8212;I
                     <lb/>take ten thousand lovers, one
                     <lb/>after another, by my right hand.&#8212;
                 </l>

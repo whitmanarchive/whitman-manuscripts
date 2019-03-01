@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00903">
+    <relations>
+        <work ref="xxx.00048" cert="high"><p>The language in this manuscript is similar to the following line from the poem that would eventually be titled "Song of Myself": "By God! I will accept nothing which all cannot have their counterpart of on the
+            same terms" (1855, p. 29).</p></work>
+    </relations>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main" rend="bracketed">I tell you greedy smoucher</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>med.00903</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">Because the manuscript has not been located it is difficult to speculate on the circumstances of its composition, but it is possible that it was written in the early 1850s as Whitman was preparing materials for the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The language in the manuscript is similar to language in the first poem in that edition, titled "Leaves of Grass," eventually titled "Song of Myself." In his transcription of the manuscript, Richard Maurice Bucke paired it with another manuscript, "<ref target="duk.00298.html">Remember that the clock and</ref>."</note>             
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Walt Whitman</author>
+                        <editor>Richard Maurice Bucke</editor>
+                        <title xml:id="nupm">Notes and Fragments</title>
+                        <imprint>
+                            <pubPlace>London, Ontario</pubPlace>
+                            <publisher>A. Talbot &amp; Co. (printer)</publisher>
+                            <date when="1899">1899</date>
+                            <biblScope type="page">149</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title rend="bracketed">I tell you greedy smoucher</title>                  
+                    <date xml:id="dat1" notBefore="1850" notAfter="1855" cert="low">Between 1850 and 1855</date>
+                    <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2018-11-01" who="#nhg">transcribed, encoded, added relations info</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="manuscript">
+        <body>
+            <ab xml:id="ab01" corresp="#l507 #l1065">I tell you greedy smoucher! I will have nothing which any man or any woman, anywhere on the face of the earth, or of any color or country cannot also have.</ab>
+        </body>
+    </text>
+</TEI>

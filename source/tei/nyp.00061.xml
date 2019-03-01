@@ -19,7 +19,9 @@
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="rc">Regan Chasek</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -44,7 +46,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">A phrase from this manuscript appears, slightly revised, in a <ref target="http://www.whitmanarchive.org/criticism/reviews/leaves1855/anc.00013.html">review</ref> written by Whitman of the 1855 edition of <hi rend="italic">Leaves of Grass</hi>.  The review appeared unsigned in the August 29, 1855, issue of the <hi rend="italic">Brooklyn Daily Times</hi>. The date of the manuscript is therefore probably before or early in 1855. An image of the verso is currently unavailable.</note>             
+                <note type="project" target="#dat1">A phrase from this manuscript appears, slightly revised, in a <ref target="http://www.whitmanarchive.org/criticism/reviews/leaves1855/anc.00013.html">review</ref> written by Whitman of the 1855 edition of <hi rend="italic">Leaves of Grass</hi>.  The review appeared unsigned in the August 29, 1855, issue of the <hi rend="italic">Brooklyn Daily Times</hi>. The date of the manuscript is therefore probably before or early in 1855.</note>             
             </notesStmt>
             <sourceDesc>                
                 <bibl>
@@ -58,6 +60,8 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2017-12-11" who="#nhg">added inline relations information</change>
+            <change when="2017-07-19" who="#rc">added verso link</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-03-06" who="#nhg">edited date note</change>
             <change when="2016-07-19" who="#nhg">checked, corrected</change>
@@ -71,8 +75,9 @@
         <body>
             <pb xml:id="leaf001r" facs="M_1238131.jpg" type="recto"/>
             
-            <p><seg xml:id="q01">In the present state of <del rend="overstrike">Nothing is</del> society &amp; literature nothing is more singular than to be without singularity</seg><subst><del rend="overwrite" seq="1"><gap reason="illegible"/></del><add rend="overwrite" place="over" seq="2">,</add></subst> <del rend="overstrike">and</del> nothing more eccentric than to be entirely sane &amp; without eccentricity</p>
+            <p><seg xml:id="q01" corresp="#rev01">In the present state of <del rend="overstrike">Nothing is</del> society &amp; literature nothing is more singular than to be without singularity</seg><subst><del rend="overwrite" seq="1"><gap reason="illegible"/></del><add rend="overwrite" place="over" seq="2">,</add></subst> <del rend="overstrike">and</del> nothing more eccentric than to be entirely sane &amp; without eccentricity</p>
 
+            <pb xml:id="leaf001v" facs="nyp_rc.00006.jpg" type="verso"/>
 
         </body>
     </text>

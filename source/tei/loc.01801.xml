@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01801">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title level="m" type="main">? note</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <name>The Walt Whitman Archive Staff</name>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>
+                    <date>2010</date>
+                </edition>
+            </editionStmt>
+            
+            <publicationStmt>
+                <idno>loc.01801</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+                </availability>
+            </publicationStmt>
+            
+            <notesStmt>
+                <note type="project" target="#dat1"><!-- when was this manuscript written? --></note>
+                <note type="project">The following are responsible for particular readings or for changes to this file, as noted: 
+                    <persName xml:id="al">Ashley Lawson</persName> <persName xml:id="tj">Tim Jackson</persName>
+                </note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>          
+                    <title>? note</title> 
+                    <!--     THE DATE INFORMATION IN THE NEXT LINE WILL BE ADDED BY AN EDITOR     -->
+                    <!--<date xml:id="dat1" cert="****" when="/"> </date>-->
+                    
+                    <idno type="callno">HM 94</idno> <!-- find name --> <!-- [TJ] Database reads Feinberg. Unsure. -->
+                    <orgName>The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839-1919, Library of Congress, Washington, DC</orgName>
+                    <note type="project">Transcribed from our own digital image of the original manuscript.</note>
+                </bibl>
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2011-02-18" who="#tj">Checked, corrected</change>
+            <change when="2010-12-06" who="#al">Transcribed and encoded</change>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text type="manuscript">
+        
+        <body>
+            
+            <pb xml:id="leaf001r" facs="loc.01801.001_large.jpg" type="recto"/>
+            
+            <head type="main-derived">Tuesday</head>
+            <note type="authorial" place="margintop">? note</note>
+            <ab>Tuesday&#8212;Dec 3. '72&#8212;9 1/2 oclock a. m.</ab>
+            <milestone unit="undeclared" rend="horbar-short-left"/>
+            
+            <note type="authorial" place="marginright" rend="circled">If you go to Washington you will see a man in plain clothes black.</note> 
+            
+            <ab>saw President Grant on horseback <del rend="overstrike">alone</del>,&#8212;a handsome young horse of dappled grey&#8212;he rides easily &#38; firmly (<del rend="overstrike">it</del> he was entirely alone
+                &#8212;he just rode along on a moderate canter, and was not distinguishable <del rend="overstrike">&#8212;he was entire</del>&#8212;reminded me of that other occasion&#8212;June <add place="supralinear" 
+                    rend="unmarked">?</add> 1865&#8212;when <del rend="overstrike">I saw two</del> after the grand review of three <add place="supralinear" rend="unmarked">?</add> days&#8212;the return of the armies after 
+                Lees and Johnstons' surrender&#8212;two men dressed in black clothes, not by any means new, with <unclear reason="illegible" cert="medium" resp="#al">ordinary</unclear> walking sticks, edged their way through the crowd
+            </ab>
+            <note type="editorial" resp="unk" place="marginbottom">332</note>
+            
+            <pb xml:id="leaf001v" facs="loc.01801.002_large.jpg" type="verso"/> 
+            
+        </body>
+    </text>
+</TEI>
+
+
+
+

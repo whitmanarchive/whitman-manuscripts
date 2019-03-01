@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00007">
+    <relations>
+        <work ref="xxx.00048" cert="high">
+            <p>This manuscript draft may have contributed to lines in the poem that eventually would be titled "Song of Myself," which first appeared in <hi rend="italic">Leaves of Grass</hi> (1855). The clearest relation is to the line: "A minute and a drop of me settle my brain" (1855, p. 33), but the lines about touch and death also relate to ideas in sections 6 and 27-30 of the final version of the poem.</p>
+        </work>
+    </relations>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main" rend="bracketed">It is no miracle now</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bjo">Brandon James O'Neil</persName>
+                <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="kmp">Ken Price</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>duk.00007</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+                </availability>
+            </publicationStmt>    
+            <notesStmt>
+                <note type="project" target="#dat1">This manuscript was likely written between <date notBefore="1850" notAfter="1855">1850 and 1855</date> when Whitman was composing his first (1855)
+                    edition of <hi rend="italic">Leaves of Grass</hi>. Similar lines appeared in the first poem in that edition, titled "Leaves of Grass," eventually titled "Song of Myself."</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title rend="bracketed">It is no miracle now that we are to live on always</title>                  
+                    <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
+                    <idno type="callno">MS 4to 3 (Volume 3)</idno>
+                    <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+                    <note type="project">Transcribed from digital images of the original.</note>
+                    <relatedItem type="text" xml:id="rel01" target="duk.00797"/>
+                    <relatedItem type="document" target="wwa.00079"/>
+                    <note target="#rel01" type="project">On the back of this manuscript is a prose draft related to a different section of "Song of Myself."</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2018-11-12" who="#nhg">made kp corrections</change>
+            <change when="2018-08-02" who="#nhg">checked, corrected, added work relations information</change>
+            <change when="2018-06-18" who="#bjo">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text type="manuscript">
+        <body>
+            <pb xml:id="leaf001r" facs="duk_nhg.00743_large.jpg" type="recto"/>
+            <delSpan rend="hashmark" spanTo="#d01"/>
+            <lg type="linegroup">
+                <l xml:id="l01" corresp="#l116">It is no miracle now that <del rend="overstrike">wherever</del><lb/>
+                    <del rend="overstrike">we be</del> we are to live on always.</l> 
+            </lg>
+            <lg type="linegroup">
+                <l xml:id="l02">Touch is the miracle!</l>
+                <l xml:id="l03"><subst><del rend="overstrike" seq="1">Where can we</del> <add place="supralinear" rend="unmarked" seq="2">What is it to</add></subst> be lost, or change our<lb/>
+                dresses, or <del rend="overstrike">how deeply can we<lb/> sleep, when</del> sleep long, when</l>
+           </lg>
+            
+            <lg type="linegroup">
+            <l xml:id="l04" corresp="#l655">A minute <del rend="overstrike">of time</del>, a touch, and a<lb/>
+            drop of us, can launch immortality.</l>
+                <l xml:id="l05" corresp="#l653"><del rend="overstrike"><add rend="unmarked" place="supralinear">Henceforth</add></del> <del rend="overstrike"><add rend="unmarked" place="supralinear">After this day,</add></del> <del rend="overstrike">A touch shall henceforth be</del> <add rend="insertion" place="supralinear"><subst><del rend="overstrike" seq="1">small</del> <add rend="unmarked" place="supralinear" seq="2">Little</add></subst> things <subst><del rend="overstrike" seq="1">is</del> <del rend="overstrike" seq="3"><add place="inline" rend="unmarked" seq="2">shall be</add></del> <add rend="unmarked" place="supralinear" seq="4">are</add></subst> henceforth my</add>
+                my <subst><del rend="overstrike" seq="1"><unclear reason="illegible" cert="medium" resp="#nhg">tongue</unclear></del> <add rend="unmarked" place="supralinear" seq="2">proof</add></subst> and<lb/>
+                    argument</l>
+
+                <l xml:id="l06" corresp="#l116"><del rend="overstrike">It</del> <del rend="overstrike">It</del> <del rend="overstrike"><add rend="unmarked" place="supralinear">They</add> <del rend="overstrike">shall</del> tell<add rend="unmarked" place="inline">s</add> <del rend="overstrike">for me that</del></del> <del rend="overstrike"><add rend="unmarked" place="supralinear">people</add></del> <add rend="unmarked" place="supralinear">In them,</add> <add rend="unmarked" place="supralinear">the <subst><del rend="overstrike" seq="1">smallest</del> <add rend="unmarked" place="supralinear" seq="2">least</add></subst> of</add> <del rend="overstrike"><add rend="unmarked" place="supralinear">us</add></del> <subst><del rend="overstrike" seq="1">the universe</del> <add rend="unmarked" place="supralinear" seq="2">eternity</add></subst><lb/>
+                    has no time for Death, <add place="supralinear" rend="insertion">each inch of</add> existence is so <subst><del rend="overstrike" seq="1">good</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="supralinear" seq="2">exquisite <gap reason="illegible"/></add></del> <del rend="overstrike" seq="5"><add rend="insertion" place="supralinear" seq="4">weighty</add></del> <add rend="unmarked" place="supralinear" seq="6">needful</add></subst></l>
+                <delSpan spanTo="#d02" rend="hashmark"/>
+                <l xml:id="l07" corresp="#l120"><subst><del rend="overstrike" seq="1">But</del> <add rend="unmarked" place="supralinear" seq="2">And</add></subst>, that to pass existence is <del rend="overstrike"><add place="supralinear" rend="insertion"><unclear reason="illegible" resp="#nhg" cert="low">poetry</unclear></add></del> <subst><del rend="overstrike" seq="1">sovereign</del> <add rend="unmarked" place="supralinear" seq="2">supreme</add></subst><lb/>
+                over all, and what we thought death<lb/>
+                is but life brought to a finer<lb/>
+                parturition.&#8212;</l>
+            </lg>
+            
+            <lg type="linegroup">
+                <l xml:id="l08" corresp="#l617"><del rend="overstrike">An inch's contact</del></l>
+                <l xml:id="l09" corresp="#l618 #l620"><del rend="overstrike">My feeling has made me brave from</del></l>
+                <l xml:id="l10" corresp="#l620"><del rend="overstrike">I am brave from th</del></l>
+            </lg>
+            <anchor xml:id="d02"/>
+            <anchor xml:id="d01"/>
+            <pb xml:id="leaf001v" facs="duk_nhg.00744_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

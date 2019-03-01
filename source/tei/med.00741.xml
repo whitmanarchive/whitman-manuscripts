@@ -8,7 +8,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main" rend="bracketed">Why need genius</title>
+                <title level="m" type="main" rend="bracketed">Why need genius and the</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -72,13 +72,15 @@
                 
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title rend="bracketed">Why need genius</title>                  
+                    <title rend="bracketed">Why need genius and the</title>                  
                     <date xml:id="dat1" notBefore="1850" notAfter="1855" cert="medium">About 1855</date>
                     <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2018-11-09" who="#nhg">added inline relations</change>
+            <change when="2018-11-01" who="#nhg">edited title</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-12-08" who="#bb">reconciled with EAD record; added Work ID</change>
             <change when="2016-09-08" who="#nhg">proofed</change>
@@ -90,7 +92,7 @@
 
     <text type="manuscript">
         <body>
-            <p>Why need genius and the people of These States be demeaned to romances? Let facts and histories be properly told, there is no more need of romances.</p>
+            <p><seg xml:id="seg01" corresp="#pr271">Why need genius and the people of These States be demeaned to romances? </seg><seg xml:id="seg02" corresp="#pr272">Let facts and histories be properly told, there is no more need of romances.</seg></p>
             
         </body>
     </text>

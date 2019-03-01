@@ -3,7 +3,7 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00302">
 <relations>
-<work ref="xxx.00526" cert="low"><p>Whitman's admonition here to avoid similes and ornament in poetry is possibly related to passages in the prose preface to the 1855 edition of <hi rend="italic">Leaves of Grass,</hi> which express similar sentiments, as, for example, declarations that "the pleasure of poems is not in them that take the handsomest measure and similes and sound" and that "most works are most beautiful without ornament" (1855, pp. vi and ix).</p></work>
+	<work ref="xxx.00526" cert="low"><p>Whitman's admonition here to avoid similes and ornament in poetry is possibly related to passages in the prose preface to the 1855 edition of <hi rend="italic">Leaves of Grass,</hi> which express similar sentiments, as, for example, declarations that "the pleasure of poems is not in them that take the handsomest measure and similes and sound" and that "Of ornaments to a work nothing outre can be allowed . . but those ornaments can be allowed that conform to the perfect facts of the open air and that flow out of the nature of the work and come irrepressibly from it and are necessary to the completion of the work. Most works are most beautiful without ornament" (1855, pp. vi and ix).</p></work>
 </relations>
 	<teiHeader>
 		<fileDesc>
@@ -47,21 +47,21 @@
 				</availability>
 			</publicationStmt>
 			<notesStmt>
-				<note type="project" target="#dat1">Edward Grier dates this manuscript to between 1847 and 1855 (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:157). Whitman's admonition here to avoid similes and ornament in poetry is possibly related to passages in the prose preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, which express similar sentiments. The manuscript has been pasted to a backing sheet along with three other manuscript scraps, most likely by a collector or archivist. 
-</note>
+				<note type="project" target="#dat1">Edward Grier dates this manuscript to between 1847 and 1855 (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:157). Whitman's admonition here to avoid similes and ornament in poetry is possibly related to passages in the prose preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, which express similar sentiments. The manuscript has been pasted to a backing sheet along with three other manuscript scraps, most likely by a collector or archivist.</note>
 			</notesStmt>
 			<sourceDesc>				
 				<bibl>
 					<author>Walt Whitman</author>
 					<title rend="bracketed">Suggestions for Poems</title>
 					<date xml:id="dat1" cert="low" notBefore="1847" notAfter="1855">Between 1847 and 1855</date>
-					<idno type="callno">MS f 33</idno>
+					<idno type="callno">MS f 33 (Volume 33)</idno>
 					<orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &#038; Manuscript Library, Duke University</orgName>
 					<note type="project">Transcribed from digital images of the original.</note>
 				</bibl>
 			</sourceDesc>
 		</fileDesc>
 		<revisionDesc>
+			<change when="2018-11-08" who="#nhg">added inline relations</change>
             <change when="2017-01-09" who="#bb">added Work ID; reconciled with EAD record</change>
             <change when="2016-05-18" who="#kmp">blessed</change>
 			<change when="2016-05-03" who="#nhg">checked, corrected</change>
@@ -76,7 +76,7 @@
 <body>
 <pb xml:id="leaf001r" facs="duk_jc.00004.jpg" type="recto"/>
 	
-<p>It seems to me&#8212;to avoid <hi rend="underline">all</hi> poetical similes&#8212;to be faithful to the perfect likelihoods of nature&#8212;healthy, exact simple, disdaining ornament.</p>
+	<p xml:id="p01" corresp="#pr267">It seems to me&#8212;to avoid <hi rend="underline">all</hi> poetical similes&#8212;to be faithful to the perfect likelihoods of nature&#8212;healthy, exact simple, disdaining ornament.</p>
 
 	<pb xml:id="leaf001v" facs="duk_am.00233.jpg" type="verso"/>
 

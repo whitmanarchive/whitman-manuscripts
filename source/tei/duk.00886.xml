@@ -84,6 +84,8 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2018-11-04" who="#nhg">added inline relations</change>
+            <change when="2018-09-10" who="#nhg">updated image names</change>
             <change when="2017-03-30" who="#nhg">adjusted work relations information</change>
             <change when="2016-04-26" who="#nhg">checked, corrected, removed handNotes encoding</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
@@ -103,7 +105,7 @@
     <text type="manuscript">
         <body>
             
-            <pb facs="duk.00030.001.jpg" xml:id="leaf001v" type="verso"/>
+            <pb facs="duk_nhg.00405_large.jpg" xml:id="leaf001v" type="verso"/>
             <div1 type="poemNotes">
                 <head type="main-authorial"><hi rend="underline">Asia</hi></head>
                 <list>
@@ -113,9 +115,9 @@
                     <milestone rend="horbar-short-left" unit="undeclared"/>
                     <item>the winter appearance&#8212;</item>
                     <cb/>
-                    <item>&#8212;The Tartar life&#8212;nomadic pasturage, the
+                    <item xml:id="item01" corresp="#l1369">&#8212;The Tartar life&#8212;nomadic pasturage, the
                         herds&#8212;</item>
-                    <item>the <choice>
+                    <item xml:id="item02" corresp="#l1369">the <choice>
 <sic>tabounshic</sic>
 <corr>tabounschik</corr>
 </choice> or
@@ -189,7 +191,7 @@
                     </l>
                 </lg>
             </div1>
-            <pb facs="duk.00030.002.jpg" xml:id="leaf001r" type="recto"/>
+            <pb facs="duk_nhg.00404_large.jpg" xml:id="leaf001r" type="recto"/>
            
         </body>
     </text>

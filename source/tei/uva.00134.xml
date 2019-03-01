@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00134">
+   <relations>
+      <work ref="xxx.00250" cert="low">
+         <p>This manuscript bears some similarity in subject to the poem that would become "Who Learns My Lesson Complete," though there does not appear to be any specific contribution of lines or phrases.</p>
+      </work>
+   </relations>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main" rend="bracketed">As to you</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="jr">Joshua Ranger</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2003</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>uva.00134</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="project" target="dat1">This section was evidently pasted to and then pulled away from another page; some fragments of that other page remain affixed to the top. Beneath them can be discerned the ink number 2. In the upper left corner appears a "+" within parentheses, which was formerly covered by the other page. In his transcription of this manuscript, Richard Maurice Bucke combined it with three other manuscripts: see <ref target="nyp.00095.html">nyp.00095</ref>, <ref target="nyp.00097.html">nyp.00097</ref>, and <ref target="uva.00283.html">uva.00283</ref> (<hi rend="italic">Notes and Fragments</hi> [London, Ontario: A. Talbot &amp; Co., printers, 1899], 28&#8211;29). Though the subject matter is similar, the manuscripts do not appear to be continuous.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>As to you</title>
+               <date cert="medium" notBefore="1850" notAfter="1860" xml:id="dat1">Between 1850 and 1860</date>
+               <idno type="callno">MSS 3829, Box-folder 1:49</idno>
+               <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote scribeRef="#unk" xml:id="h1"><persName xml:id="unk">Unknown</persName></handNote>
+         </handNotes>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#nhg" when="2018-12-18">checked, corrected, added relations info, updated editorial note</change>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#jr" when="2003-11-06">Encoded</change>
+         <change who="#jr" when="2003-10-28">Transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="uva.00134.001.jpg" xml:id="leaf001r" type="recto"/>
+
+<note type="editorial" resp="#h1" place="right">2</note>
+        <note type="authorial" place="top">2</note>
+         <metamark function="transpose">(+)</metamark>
+         
+         <lg type="linegroup">      
+            <l>As to you, if you have <subst>
+                  
+                        <del rend="overstrike" seq="1">never</del> 
+                     
+                
+                        <add rend="unmarked" place="supralinear" seq="2">not</add> 
+                     
+                  </subst>
+yet learned<lb/>
+               to think, enter upon it now,</l>
+            <l>Think at once with directness, breadth,<lb/> 
+               
+                  <add rend="insertion" place="supralinear">aim,</add> conscientiousness</l>
+            <delSpan rend="hashmark" spanTo="#a1"/>
+               <l>You will feel <subst>
+                  
+                           <del rend="overstrike" seq="1">a new</del> 
+                        
+                 
+                           <del rend="overstrike" seq="3"><add rend="unmarked" place="supralinear" seq="2">a strange</add></del> 
+                        
+                     </subst>
+                     <del rend="overstrike">unfailing</del> pleasure<lb/>
+                  from the start, and grow rapidly<lb/>
+                  each successive <subst>
+                    
+                           <del rend="overstrike" seq="1">year.</del> 
+                        
+                    <add rend="unmarked" place="supralinear" seq="2">week.</add></subst></l>
+            <anchor xml:id="a1"/>
+         </lg>
+         <pb facs="uva.00134.002.jpg" xml:id="leaf001v" type="verso"/>
+      </body>
+   </text>
+</TEI>

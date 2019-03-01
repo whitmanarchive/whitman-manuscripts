@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="prc.00127">
+   <relations>      
+      <work ref="xxx.00048" cert="high">
+         <p>Lines from this manuscript appeared as the following, in the poem eventually titled "Song of Myself": "All truths wait in all things, /
+            They neither hasten their own delivery nor resist it, /
+            They do not need the obstetric forceps of the surgeon, /
+            The insignificant is as big to me as any, /
+            What is less or more than a touch? /
+            
+            Logic and sermons never convince, /
+            The damp of the night drives deeper into my soul. /
+            
+            Only what proves itself to every man and woman is so, /
+            Only what nobody denies is so" (1855, p. 33).</p>
+      </work>
+      <work ref="xxx.000526" cert="low">
+         <p>Lines in this manuscript bear some similarity to sentences in the preface to the 1855 <hi rend="italic">Leaves of Grass</hi>. See, for instance, the lines: "Whatever satisfies the soul is truth" (1855, p. xi) and "What the eyesight does to the rest he does to the rest. Who knows the curious mystery of the eyesight? The other senses corroborate themselves, but this is removed from any proof but its own and foreruns the identities of the spiritual world" (1855, p. v).</p>
+      </work>
+   </relations>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main" rend="bracketed">There can be nothing small</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="bjo">Brandon James O'Neil</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>prc.00127</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="project" target="dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Lines from the manuscript appear in the first poem in that edition, titled "Leaves of Grass," eventually titled "Song of Myself."</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>There can be nothing small</title>
+               <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
+               <orgName xml:id="prc">The manuscript was sold by Sotheby's in 2008. The current location of the manuscript is unknown.</orgName> 
+               <note type="project">Transcribed from digital images of the original.</note>
+               <relatedItem xml:id="rel1" type="text" target="prc.00128"/>
+               <relatedItem type="document" target="wwa.00574"/>
+               <note type="project" target="#rel1"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="#nhg" when="2018-11-27">transcribed, encoded</change>
+         <change who="#bjo" when="2018-04-08">Located images</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="prc.00127.001.jpg" xml:id="leaf001r" type="recto"/>
+<note type="authorial" place="top">W.W. W.W. WW</note><!--NOTE: these are doodles at the top of the page-->
+         <lg type="linegroup">
+            <l xml:id="l01">There can be nothing <subst><del rend="overstrike" seq="1">little</del> <add rend="unmarked" place="supralinear" seq="2">small</add></subst> or <subst><del rend="overstrike" seq="1">trifling</del> <add rend="unmarked" place="supralinear" seq="2">useless</add></subst> in the universe;</l>
+            <l xml:id="l02" corresp="#l649">The insignificant <subst><del rend="overstrike" seq="1">grows as tall</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="supralinear" seq="2">spreads as far</add></del> <add rend="unmarked" place="infralinear" seq="4">is as <del rend="overstrike" seq="5">much</del></add> <add rend="insertion" place="supralinear" seq="6">big</add></subst> as the noble;</l>
+            <l xml:id="l03" corresp="#l650">What is less than a <del rend="overstrike">sheathed</del><note type="authorial" place="supralinear">?</note> touch?</l>
+         </lg>
+         <lg type="linegroup">
+            <l xml:id="l04" corresp="#l646">All truths <subst><del rend="overstrike" seq="1">stand</del> <add rend="unmarked" place="supralinear" seq="2">wait</add></subst> in all <subst><del rend="overstrike" seq="1">things;</del> <add rend="unmarked" place="supralinear" seq="2">places;</add></subst></l>
+            <l xml:id="l05">The wait with inclined heads and arms folded<lb/>
+            over their breasts;</l>
+            <l xml:id="l06" corresp="#l647">They neither urge their own birth nor resist it;</l>
+            <l xml:id="l07" corresp="#l648">They do not need the obstetric forceps of the<lb/>
+            surgeon;</l>
+            <l xml:id="l08">They unclose to whoever fetches the <subst><del rend="overstrike" seq="1">heat</del> <add rend="unmarked" place="supralinear" seq="2">warmth</add></subst> of<lb/>
+            the <subst><del rend="overstrike" seq="1">sunshine</del> <add rend="unmarked" place="supralinear" seq="2">light</add></subst> and the moisture<lb/>
+            of rain.&#8212;</l>
+         </lg>
+         <lg type="linegroup">
+            <del rend="overstrike"><add rend="unmarked" place="interlinear"><l xml:id="l09" corresp="#pr323"><add rend="insertion" place="supralinear">Only</add> What <del rend="overstrike">fully</del> satisfies the senses <add rend="insertion" place="supralinear">if <subst><del rend="overstrike" seq="1">all</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="supralinear" seq="2">all</add></del></subst> <gap reason="illegible"/></add> is truth;</l></add></del>
+            <l xml:id="l10" corresp="#l651">Logic and sermons never convince<subst><add rend="unmarked" place="inline" seq="2">;</add> <del rend="overstrike" seq="1">me;</del></subst></l>
+            <l xml:id="l11" corresp="#l652">The dew of the night drives deeper into <subst><del rend="overstrike" seq="1">my</del> <add rend="unmarked" place="supralinear" seq="2">the</add></subst> soul.&#8212;</l>
+            <add rend="unmarked" place="interlinear">
+               <l xml:id="l12" corresp="#l653"><subst><del rend="overstrike" seq="1">An eternal</del> <add rend="unmarked" place="supralinear" seq="2">A</add></subst> test of any thing!</l>
+               <l xml:id="l13" corresp="#l653">It proves itself to the experience <add rend="insertion" place="supralinear">and senses</add> of <del rend="overstrike">all</del> men and women!</l>
+            </add>
+            <l xml:id="l14">Bring <add rend="insertion" place="supralinear">it to</add> folks <del rend="overstrike">any thing,</del> and you will see whether<lb/>
+            they doubt;</l>
+            <l xml:id="l15"><subst><del rend="overstrike" seq="1">We</del> <add rend="unmarked" place="supralinear" seq="2">They</add></subst> do not doubt contact or <add rend="insertion" place="supralinear">hunger or</add> love;</l>
+            <l xml:id="l16"><subst><del rend="overstrike" seq="1">We</del> <add rend="unmarked" place="supralinear" seq="2">They</add></subst> do not doubt <subst><del rend="overstrike" seq="1">our fingers and toes;</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="supralinear" seq="2">paving stones nor</add></del> <add rend="unmarked" place="supralinear">iron or steam;</add></subst></l>
+            <l xml:id="l17">We do not doubt <del rend="overstrike">the</del> <subst><del rend="overstrike" seq="1">truth</del> <del rend="overstrike" seq="3"><add rend="insertion" place="supralinear" seq="2">being</add></del> <del rend="overstrike" seq="5"><add rend="insertion" place="supralinear" seq="4">mystery</add></del></subst> of <subst><del rend="overstrike" seq="1">hunger and</del> <add rend="unmarked" place="supralinear" seq="2">of life,</add></subst> <subst><del rend="overstrike" seq="1">pain</del> <del rend="overstrike"><add rend="unmarked" place="supralinear" seq="2">growth</add></del></subst>;</l>
+            <l xml:id="l18">We do not doubt the east or the west;</l>
+            <l xml:id="l19" corresp="#seg13">We do not doubt sight.&#8212;</l>
+         </lg>
+         <ab><gap reason="cut away"/></ab>
+         <pb facs="prc.00127.002.jpg" xml:id="leaf001v" type="verso"/>
+      </body>
+   </text>
+</TEI>
