@@ -4,7 +4,9 @@
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00787">
    <relations>
       <work ref="xxx.00048" cert="high">
-         <p>Ideas and words from this manuscript appear in the first poem the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, which was later titled "Song of Myself": "I CELEBRATE myself" (1855, pg. 13) "it is you talking just as much as myself . . . . I act as the tongue of you, / It was tied in your mouth . . . . in mine it begins to be loosened" and "I have said that the soul is not more than the body, / And I have said that the body is not more than the soul," (1855, p. 53).</p>
+         <p>Ideas and words from this manuscript appear in the first poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, which 
+         was later titled "Song of Myself": "I CELEBRATE myself" (1855, pg. 13) "it is you talking just as much as myself . . . . I act as the tongue of you, / It was tied 
+         in your mouth . . . . in mine it begins to be loosened" and "I have said that the soul is not more than the body, / And I have said that the body is not more than the soul," (1855, p. 53).</p>
       </work>
    </relations>
    <teiHeader>
@@ -22,6 +24,7 @@
                <persName xml:id="kc">Kirsten Clawson</persName>
                <persName xml:id="jc">Janel Cayer</persName>
                <persName xml:id="kmp">Kenneth M. Price</persName>
+               <persName xml:id="smb">Stephanie Blalock</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -47,7 +50,7 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note type="project" target="#dat1">This is a poetry manuscript containing lines that would eventually find their way into the poem later titled "Song of Myself," including the poem's famous opening line, "I celebrate myself." On the back is a prose manuscript with an unknown connection to Whitman's published work, in which he compares writing to the composition of a "grand opera." In the repository, this manuscript is bound, seemingly by a collector, with a printer's copy of the 1881&#8211;82 edition of <hi rend="italic">Leaves of Grass</hi> that contains numerous handwritten corrections by Whitman.
+            <note type="project" target="#dat1">The manuscript lines are drafts of lines used in the first poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, titled "Leaves of Grass," eventually titled "Song of Myself," including the poem's famous opening line, "I celebrate myself." In the repository, this manuscript is bound, seemingly by a collector, with a printer's copy of the 1881&#8211;82 edition of <hi rend="italic">Leaves of Grass</hi> that contains numerous handwritten corrections by Whitman.
                 </note>
          </notesStmt>
          <sourceDesc>
@@ -60,11 +63,13 @@
                <note type="project">Transcribed from digital images of the original item.</note>
                <relatedItem type="text" target="duk.00879"/>
                <relatedItem type="document" target="wwa.00031"/>
-               <note type="project" target="#rel01">On the back of this leaf is a prose manuscript with no known connection to Whitman's published work.</note>
+               <note type="project" target="#rel01">On the back of this leaf is a prose manuscript with no known connection to Whitman's published work, in which he compares writing to the composition of a "grand opera."</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2019-06-04" who="#nhg">added inline relation from #bjo list</change>
+         <change when="2019-02-15" who="#smb">final check and updated project notes</change>
          <change when="2018-09-11" who="#cah">checked file and added corresps</change>
          <change when="2018-09-10" who="#nhg">updated image names</change>
          <change when="2016-03-07" who="#nhg">made Ken's corrections</change>
@@ -81,8 +86,8 @@
          <l xml:id="l01" corresp="#l0"><gap reason="cut away" quantity="6" unit="chars"/> myself to celebrate <gap reason="cut away" quantity="9" unit="chars"/></l>
             <l xml:id="l02" corresp="#l1243 #l1244"><del rend="overstrike">It is you talking</del>&#8212;I am your voice&#8212;It was tied in<lb/> you&#8212;In me it begins to <subst><del rend="overstrike" seq="1">be loosened.&#8212;</del> <add rend="unmarked" place="interlinear" seq="2">talk.&#8212;</add></subst></l>
             <space dim="vertical"/>
-            <l xml:id="l03" corresp="#l0">I celebrate myself to celebrate <subst><del rend="overstrike" seq="1">you</del> <add rend="unmarked" place="supralinear" seq="2">every man and woman <lb/>alive;</add></subst>;</l>
-         <del rend="overstrike"><l>I transpose my <add rend="unmarked" place="supralinear"><del rend="overstrike">my</del></add> spirit</l></del>
+            <l xml:id="l03" corresp="#l0">I celebrate myself to celebrate <subst><del rend="overstrike" seq="1">you;</del> <add rend="unmarked" place="supralinear" seq="2">every man and woman <lb/>alive;</add></subst></l>
+         <del rend="overstrike"><l xml:id="l10" corresp="#l2">I transpose my <add rend="unmarked" place="supralinear"><del rend="overstrike">my</del></add> spirit</l></del>
          <del rend="overstrike"><l>I pass <del rend="overstrike">as</del> <del rend="overstrike"><unclear reason="illegible" resp="#nhg" cert="low">live</unclear></del> quickly through the ears that hear me;</l></del>
             <l xml:id="l04" corresp="#l1244">I <subst><del rend="overstrike" seq="1">am</del> <add rend="unmarked" place="supralinear" seq="2">loosen</add></subst> the <del rend="overstrike">voice</del> tongue that was tied in <subst><del rend="overstrike" seq="1">you</del> <add rend="unmarked" place="interlinear" seq="2">them</add></subst></l>
          <l xml:id="l05" corresp="#l1244"><del rend="overstrike">In me</del> It begins to talk out of my mouth</l>
@@ -91,7 +96,7 @@
             <l xml:id="l09" corresp="#l1243"><del rend="overstrike">I am the voice of another man</del></l>  
             <l><subst><del rend="overstrike" seq="1">What I</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="supralinear" seq="2">I speak</add></del></subst> <del rend="overstrike">The</del> <del rend="overstrike">What I speak <gap reason="illegible, deletion" quantity="1" unit="word"/></del> <del rend="overstrike"><add rend="unmarked" place="supralinear">speak</add></del> <subst><del rend="overstrike" seq="1">I <del rend="overstrike">say</del> for of</del> <add rend="unmarked" place="supralinear" seq="2">I <subst><del rend="overstrike" seq="1">speak</del> <add rend="unmarked" place="interlinear" seq="2">say</add></subst> the same word for</add></subst> every man and woman alive</l>
          <l xml:id="l07" corresp="#l1261">And I say that the soul is not greater than the Body</l>
-            <l xml:id="l08" corresp="#l1262">And I say that the Body is not greater than the Soul</l></lg>
+            <l xml:id="l08" corresp="#l1262">And I say that the Body is not greater than the Soul.</l></lg>
          
          <pb xml:id="leaf001v" facs="duk_nhg.00441_large.jpg" type="verso"/>
          

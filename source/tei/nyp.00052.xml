@@ -2,13 +2,13 @@
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00052">
    <relations>
       <work ref="xxx.00048" cert="low">
-         <p>Although this line does not appear in the versions of the poems included in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, the numbering, paper, and ink are similar to other manuscripts with lines used in the first poem in that edition, titled "Leaves of Grass," eventually titled "Song of Myself."</p>
+         <p>Although this line does not appear exactly in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, the numbering, paper, and ink are similar to other manuscripts with lines used in the first poem in that edition, titled "Leaves of Grass," eventually titled "Song of Myself." The line is also similar to the section of the poem that begins: "The smallest sprout shows there is really no death" (1855, p. 17).</p>
       </work>
    </relations>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="m" type="main" rend="bracketed">To pass existence</title>
+            <title level="m" type="main" rend="bracketed">To pass existence is so</title>
             <title level="m" type="sub">a machine readable transcription</title>
             <author>Walt Whitman</author>
             <editor role="editor">Kenneth M. Price</editor>
@@ -43,7 +43,7 @@
             </availability>
          </publicationStmt>
          <notesStmt>                       
-            <note type="project" target="dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Although the line does not appear in the versions of the poems included in that edition, the numbering, paper, and ink are similar to other manuscripts that feature lines used in the first poem in that edition, titled "Leaves of Grass," eventually titled "Song of Myself."</note>
+            <note type="project" target="dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The draft line is similar in subject to lines used in the first poem in that edition, titled "Leaves of Grass," eventually titled "Song of Myself." The numbering, paper, and ink are also similar to other manuscripts that feature lines that appeared in that poem.</note>
          </notesStmt>
          <sourceDesc>
             <bibl>
@@ -54,12 +54,13 @@
                <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName> 
                <relatedItem type="text" xml:id="rel01" target="nyp.00732"/>
                <relatedItem type="document" target="wwa.00575"/>
-               <note target="#rel01" type="project">On the back of this manuscript is a draft line of poetry.</note>
+               <note target="#rel01" type="project">On the back of this manuscript is another poetry draft.</note>
                <note type="project">Transcribed from digital images of the original.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change who="#nhg" when="2019-02-22">checked, corrected, adjusted relations info</change>
          <change who="#cah" when="2018-10-09">checked and corrected file</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
          <change who="#rl" when="2005-02-01">Encoded</change>
@@ -76,13 +77,13 @@
 
                <delSpan rend="hashmark" spanTo="#d01"/>
 <lg type="linegroup">
-                  <l><del rend="overstrike">If</del> <subst><del rend="overwrite" seq="1">t</del><add rend="overwrite" place="over" seq="2">T</add></subst>o pass existence <subst><del rend="overstrike" seq="1">be</del> <add rend="unmarked" place="supralinear" seq="2">is</add></subst> so good,<lb/>
+                  <l xml:id="l01" corresp="#l116"><del rend="overstrike">If</del> <subst><del rend="overwrite" seq="1">t</del><add rend="overwrite" place="over" seq="2">T</add></subst>o pass existence <subst><del rend="overstrike" seq="1">be</del> <add rend="unmarked" place="supralinear" seq="2">is</add></subst> so good,<lb/>
 
 
                      
 
                      
-                  <subst><del rend="overstrike" seq="1">what <unclear reason="illegible" resp="#cah" cert="medium">rare</unclear></del>
+                  <subst><del rend="overstrike" seq="1">what room</del>
                            
                               <add rend="unmarked" place="supralinear" seq="2">there is no</add></subst>
                            
@@ -90,10 +91,10 @@
                      <lb/>
                      
                        <unclear reason="cut away" resp="#cah" cert="high">for death</unclear></l>
-               <anchor xml:id="d01"/>
+               
             </lg>
          
-
+<anchor xml:id="d01"/>
          <pb facs="nyp.00052.002.jpg" xml:id="leaf001v" type="verso"/>
 
         

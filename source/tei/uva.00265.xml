@@ -2,24 +2,25 @@
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00265">
    <relations>
       <work ref="xxx.00048" cert="high">
-         <p>Imagery from this manuscript appeared in the first poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, originally titled "Leaves of Grass," eventually titled "Song of Myself": "Where the laughing-gull scoots by the slappy shore and laughs her near-human laugh;" (1855, p. 37).</p>
+         <p>Words and imagery from this manuscript appeared in the first poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, originally entitled "Leaves of Grass," eventually entitled "Song of Myself": "Where the laughing-gull scoots by the slappy shore and laughs her near-human laugh;" (1855, p. 37).</p>
       </work>
       <work ref="xxx.00226" cert="high">
          <p>Language and ideas from this manuscript appear in the tenth poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, originally untitled, eventually titled "There Was a Child Went Forth": "And grass, and white and red morningglories, and white and red clover, and the song 
             of the phoebe-bird, / ... / And the appletrees covered with blossoms, and the fruit afterward . . . . and wood-
-            berries . . and the commonest weeds by the road; / ... / The horizon's edge, the flying seacrow, the fragrance of saltmarsh and shoremud;" (1855, p. 90&#8211;91).</p>
+            berries . . and the commonest weeds by the road; / ... / The horizon's edge, the flying seacrow, the fragrance of saltmarsh and shoremud;" (1855, p. 90&#8211;91).</p> 
       </work> 
    </relations>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="m" type="main" rend="bracketed">The horizon's edge</title>
+            <title level="m" type="main" rend="bracketed">The horizon's edge</title> 
             <title level="m" type="sub">a machine readable transcription</title>
             <author>Walt Whitman</author>
             <editor role="editor">Kenneth M. Price</editor>
             <editor role="editor">Ed Folsom</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="smb">Stephanie Blalock</persName>
                <persName xml:id="cah">Caitlin Henry</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="li">Leslie Ianno</persName>
@@ -48,7 +49,7 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript includes drafts of lines used in the first and tenth poems in that edition, originally titled "Leaves of Grass" and untitled, eventually titled "Song of Myself" and "There Was a Child Went Forth."</note>
+            <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript includes drafts of lines used in the first and tenth poems in that edition, originally entitled "Leaves of Grass" and untitled, eventually entitled "Song of Myself" and "There Was a Child Went Forth," respectively.</note>
          </notesStmt>
          <sourceDesc>
             <bibl>
@@ -67,13 +68,14 @@
          </handNotes>
       </profileDesc>
       <revisionDesc>
+         <change who="#smb" when="2019-04-12">final check, updated notes</change>
          <change who="#nhg" when="2019-01-28">checked relations</change>
          <change who="#cah" when="2019-01-18">checked file and added relations</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
          <change who="#li" when="2003-11-17">Encoded</change>
          <change who="#li" when="2003-11-17">Transcribed</change>
       </revisionDesc>
-   </teiHeader>
+   </teiHeader> 
    <text>
       <body>
 
@@ -94,6 +96,6 @@
          </lg>
          <anchor xml:id="d1"/>
          <pb facs="uva_jc.00305.jpg" xml:id="leaf001v" type="verso"/>
-      </body>
+      </body> 
    </text>
 </TEI>

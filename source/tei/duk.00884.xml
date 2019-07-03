@@ -4,7 +4,7 @@
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00884">
 	<relations>
 		<work ref="xxx.00110" cert="low">
-			<p>Many of the items from this list of European rivers, lakes, and cities were included in "Poem of Salutation" in the 1856 edition of <hi rend="italic">Leaves of Grass</hi>. In the 1860 edition of <hi rend="italic">Leaves</hi> the poem was retitled "Salut Au Monde," a title it would retain throughout the subsequent editions.</p>
+			<p>Many of the items from this list of European rivers, lakes, and cities were included in "Poem of Salutation" in the 1856 edition of <hi rend="italic">Leaves of Grass</hi>. In the 1860 edition of <hi rend="italic">Leaves</hi>, and all subsequent editions, the poem titled "Salut Au Monde!"</p>
 		</work>
 	</relations>
 	<teiHeader>
@@ -17,6 +17,7 @@
 				<editor>Ed Folsom</editor>
 				<respStmt>
 					<resp>Transcription and encoding</resp>
+                    <persName xml:id="bb">Brett Barney</persName>
 					<persName xml:id="nhg">Nicole Gray</persName>
 					<persName xml:id="jh">John Harvard</persName>
 					<persName xml:id="cf">Chris Forster</persName>
@@ -55,7 +56,7 @@
 				<bibl>
 					<author>Walt Whitman</author>
 					<title rend="bracketed">Remembrances I plant American ground with</title>
-					<date xml:id="dat1" notBefore="1850" notAfter="1860" cert="medium">Between 1850 and 1860</date>
+					<date xml:id="dat1" notBefore="1850" notAfter="1856" cert="medium">Between 1850 and 1856</date>
 					<idno type="callno">MS 12mo 27</idno>
 					<orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &#38; Manuscript Library, Duke University </orgName>
 					<note type="project">Transcribed from our own digital image of original manuscript.</note>
@@ -67,13 +68,14 @@
 		</fileDesc>
 		
 		<revisionDesc>
+         <change who="#bb" when="2019-04-12">checked; edited</change>
 			<change when="2018-09-10" who="#nhg">updated image names</change>
-			<change when="2016-02-15" who="#es">Checked, updated to P5, updated span
+			<change when="2016-02-15" who="#es">checked; updated to P5; updated span
 				formatting</change>
-			<change when="2016-01-13" who="#nhg">Added relatedItem info</change>
-			<change when="2004-10-01" who="#jh">Proofread</change><!-- The preceding "when" was not filled out correctly; I've added an approximate date so that the file validates. KM -->
-			<change when="2004-09-24" who="#cf">Proofread, updated header and encoded verso</change>
-			<change when="2004-07-07" who="#kt">Transcribed, Encoded</change>
+			<change when="2016-01-13" who="#nhg">added relatedItem info</change>
+			<change when="2004-10-01" who="#jh">proofread</change><!-- The preceding "when" was not filled out correctly; I've added an approximate date so that the file validates. KM -->
+			<change when="2004-09-24" who="#cf">proofread; updated header and encoded verso</change>
+			<change when="2004-07-07" who="#kt">transcribed; encoded</change>
 		</revisionDesc>
 	</teiHeader>
 	<text type="manuscript">
@@ -81,88 +83,93 @@
 			<pb xml:id="leaf001r" facs="duk_nhg.00714_large.jpg" type="recto"/>
 
 			<head type="main-authorial"><hi rend="underline">Europe</hi></head>
-				
+	        <note type="authorial" rend="circled">Laplanders</note>
 				<!-- RIVERS LIST BEGINS -->
 				<list>
-					<head type="main-authorial">Rivers&#8212;<hi rend="circled"
-						>Laplanders</hi></head>
-					<item><list>
-							<span rend="bracketed" xml:id="s1" from="#s1" to="#s2"/>
+					<head type="main-authorial">Rivers&#8212;</head>
+					<item>
+                      <label corresp="#s1" place="left">B</label>
+					  <span rend="curlyBrace-left" xml:id="s1" from="#s1" to="#s2"/>
+                      <list>
 							<item>&#8212;Thames&#8209;Trent&#8209;Severn</item>
 							<item>&#8212;Shannon</item>
 							<item>Tay</item>
-							<anchor xml:id="s2"/>
-							<note type="authorial" place="left" anchored="true" target="#s1"
-								>B</note>
-						</list></item>
-					<item><list>
-							<span rend="bracketed" xml:id="s3" from="#s3" to="#s4"/>
-							<item>Seine</item>
-							<item>Loire</item>
-							<item>Rhone</item>
-							<anchor xml:id="s4"/>
-							<note type="authorial" place="left" anchored="true" target="#s3"
-								>F</note>
-						</list></item>
-					<item><list>
-							<span rend="bracketed" xml:id="s5" from="#s5" to="#s6"/>
+					  </list>
+                      <anchor xml:id="s2"/>
+                    </item>
+					<item>
+                      <label corresp="#s3" place="left">F</label>
+                      <span rend="curlyBrace-left" xml:id="s3" from="#s3" to="#s4"/>
+                      <list>
+							<item>&#8212;Seine</item>
+							<item>&#8212;Loire</item>
+							<item>&#8212;Rhone</item>
+				      </list>
+					  <anchor xml:id="s4"/>
+                    </item>
+					<item>
+                      <label corresp="#s5" place="left">S</label>
+                      <span rend="curlyBrace-left" xml:id="s5" from="#s5" to="#s6"/>
+                      <list>
 							<item>Douro</item>
 							<item>Tagus</item>
-							<item>Guadalquivir</item>
-							<anchor xml:id="s6"/>
-							<note type="authorial" place="left" anchored="true" target="#s5"
-								>S</note>
-						</list></item>
+							<item>&#8212;Guadalquiver</item>
+				      </list>
+					  <anchor xml:id="s6"/>
+                    </item>
 					<item>Rhine</item>
 					<item>&#8212;Elbe, Prussia, Hanover<lb/>
 						Saxony, Austria</item>
-					<item>Danube Austria, runs into Turkey</item>
+					<item>Danube Austria, runs into<lb/> Turkey</item>
 					<item>&#8212;Oder (Prussia)</item>
-					<item>Po (Sardinia, &amp; divides Austria from Italy</item>
+					<item>Po (Sardinia, <unclear reason="illegible" resp="#cf" cert="low">&amp;</unclear> Divides<lb/> Austria from Italy</item>
 					<item>Tiber, Papal states</item>
 					<item>Arno, Tuscany</item>
 					<item>&#8212;Dnieper</item>
 					<item>&#8212;Volga</item>
 					<item>&#8212;Ural</item>
 				</list>
-				<!-- RIVERS LIST ENDS -->
-				<!-- I HAVE INSERTED A COLUMN BREAK HERE TO INDICATE THAT WHITMAN NOW BEGINS USING THE RIGHT -->
-				<!-- HAND SIDE OF THIS LEAF -->
-				<!-- - cf -->
 				<cb/>
-			<note place="top" type="authorial"><hi rend="underline">Inland Lakes</hi></note>
-				<!-- CITIES LIST BEGINS -->
+			<note place="top" type="authorial" rend="underline">inland lakes</note>
 				<list>
 					<head type="main-authorial">Cities</head>
 					<item>Christiana, 27,000 Norway</item>
-					<item>Copenhagen, 125,000,000 Sweden</item>
-					<item>Bremen, 53,000,000 Neth</item>
-					<item>Hague, 66,000,000 "</item>
-					<item><list>
-							<span rend="bracketed" xml:id="s7" from="#s7" to="#s8"/>
+					<item>Copenhagen, <choice><sic>125,000,000</sic><corr>125,000</corr></choice> Sweden</item>
+					<item>Bremen, <choice><sic>53,000,000</sic><corr>53,000</corr></choice> Neth</item>
+					<item>Hague, <choice><sic>66,000,000</sic><corr>66,000</corr></choice> "</item>
+
+					<item>
+                      <label corresp="#s7" place="left">F</label>
+                      <span rend="curlyBrace-left" xml:id="s7" from="#s7" to="#s8"/>
+                      <list>
 							<item>Paris</item>
 							<item>Bordeaux</item>
-							<item>Marseilles</item>
-							<anchor xml:id="s8"/>
-							<note type="authorial" place="left" anchored="true" target="#s7">Cracow,
-								F</note>
-						</list></item>
-					<item>Brussels 124,000 Belgium</item>
-					<item><list>
-							<span rend="bracketed" xml:id="s9" from="#s9" to="#s10"/>
+							<item>Marseilles,</item>
+				      </list>
+					  <anchor xml:id="s8"/>
+                    </item>
+
+					<item>Brussels<lb/> 124000 Belgium</item>
+
+					<item>
+                      <label corresp="#s9" place="left">S</label>
+                      <span rend="curlyBrace-left" xml:id="s9" from="#s9" to="#s10"/>
+                      <list>
 							<item>Madrid</item>
 							<item>Cadiz</item>
-							<anchor xml:id="s10"/>
-							<note type="authorial" place="left" anchored="true" target="#s9"
-								>S</note>
-						</list></item>
+				      </list>
+					  <anchor xml:id="s10"/>
+                    </item>
+
 					<item>Edinburgh</item>
 					<item>Dublin</item>
 					<item>London</item>
-					<item><list>
-							<note type="authorial" place="left">P</note>
-							<item>Lisbon</item>
-						</list></item>
+                    <item>
+                      <label corresp="#s15" place="left">P</label>
+					  <list xml:id="s15">
+                        <item>Lisbon</item>
+                      </list>
+                    </item>
 					<item>Palermo, Sicily</item>
 					<item>Naples</item>
 					<item>Florence 105,000 Tuscany</item>
@@ -171,20 +178,30 @@
 					<item>Rome, 184,000</item>
 					<item>Berne, 24,000 Switz</item>
 					<item>Turin, 135,000, Sardinia</item>
-					<span rend="curlyBrace-left" xml:id="s11" from="#s11" to="#s12"/>
-					<item>Vienna, 425,000 on the Danube</item>
-					<item>Prague, 114,000 Elbe North Germany</item>
-					<item>Milan, 205,000</item>
-					<anchor xml:id="s12"/>
-					<span rend="bracketed" xml:id="s13" from="#s13" to="#s14"/>
-					<item>Berlin 420,000</item>
-					<item>Munich 115,000 Bavaria</item>
-					<item>Frankfort</item>
-					<item>Dresden 85,000 Saxony,</item>
-					<item>Hanover, 40,000</item>
-					<anchor xml:id="s14"/>
+
+					<item>
+                      <list>
+                      <span rend="curlyBrace-left" xml:id="s11" from="#s11" to="#s12"/>
+							<item>Vienna, 425,000<lb/> on the Danube</item>
+							<item>Prague, 114,000 Elbe<lb/> North Germany</item>
+							<item>Milan, 205,000</item>
+					  <anchor xml:id="s12"/>
+                            <item><add rend="unmarked" place="left">Cracow,</add></item>
+				      </list>
+                    </item>
+
+                    <item>
+					<span rend="bracket-left" xml:id="s13" from="#s13" to="#s14"/>
+                      <list>
+					    <item>Berlin<lb/> 420,000</item>
+					    <item>Munich<lb/> 115,000 Bavaria</item>
+					    <item>Frankfort</item>
+					    <item>Dresden<lb/> 85,000 Saxony,</item>
+					    <item>Hanover,<lb/> 40,000</item>
+					  </list>
+                      <anchor xml:id="s14"/>
+                    </item>
 				</list>
-			<!-- END OF THE CITIES LIST -->
 			<pb xml:id="leaf001v" facs="duk_nhg.00713_large.jpg" type="verso"/>
 	
 		</body>

@@ -2,6 +2,7 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="yal.00452">
+    <relations><work ref="xxx.00259" cert="high"><p>This manuscript is a draft of lines that appeared in a manuscript notebook unpublished in Whitman's lifetime, titled "Pictures." The first several lines of "Pictures" (not including this line) were revised and published as "My Picture-Gallery" in <hi rend="italic">The American</hi> in October 1880. The poem was later published in <hi rend="italic">Leaves of Grass</hi> as part of the "Autumn Rivulets" cluster (1881, p. 310).</p></work></relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -38,7 +39,7 @@
             <notesStmt>
                 <note type="project" target="#dat1">Whitman probably drafted this
                     manuscript in the <date notBefore="1850" notAfter="1855">early 1850s</date> as he was composing
-                    the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Whitman referred to a gymnasium multiple times in that edition, but there does not appear to be any direct relationship between these lines and the published poetry.</note>
+                    the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Versions of these lines appeared in a manuscript notebook unpublished in Whitman's lifetime, titled "<ref target="yal.00081.html">Pictures</ref>," which probably dates to the 1850s. The first several lines of "Pictures" (not including these lines) were eventually revised and published as "My Picture-Gallery" in <hi rend="italic">The American</hi> in October 1880. The poem was later published in <hi rend="italic">Leaves of Grass</hi> as part of the "Autumn Rivulets" cluster (1881, p. 310).</note>
             </notesStmt>
             <sourceDesc>
                 <bibl>
@@ -55,6 +56,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2019-02-22" who="#nhg">edited note, updated relations info</change>
             <change when="2018-11-15" who="#nhg">checked, corrected, added relations info</change>
             <change when="2018-05-18" who="#bjo">transcribed, encoded</change>
         </revisionDesc>

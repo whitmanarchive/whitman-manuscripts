@@ -10,9 +10,9 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
+                    <persName xml:id="cah">Caitlin Henry</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
-                <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -27,19 +27,18 @@
                 <idno>uva.00603</idno>
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
-<addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
-<addrLine>Alderman Library</addrLine>
-<addrLine>University of Virginia</addrLine>
-<addrLine>P.O. Box 400115</addrLine>
-<addrLine>Charlottesville, VA 22904-4115</addrLine>
-<addrLine>whitman@jefferson.village.virginia.edu</addrLine>
-</address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">These notes about verse forms are similar to notes in <ref target="rut.00022.html">a manuscript</ref> currently housed at Rutgers University. Edward Grier posits that the Rutgers manuscript probably dates to around 1856, when Whitman was pursuing a self-education in poetry, suggesting that these manuscript notes also date to that period.</note>
+                <note type="project" target="#dat1">These notes about verse forms are similar to notes in "<ref target="rut.00022.html">dithyrambic trochee</ref>," a manuscript currently housed at Rutgers University. Edward Grier posits that the Rutgers manuscript probably dates to around 1856, when Whitman was pursuing a self-education in poetry (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:355&#8211;356). These manuscript notes may also date to that period, although the draft lines on the reverse of the leaf, which were probably written before 1855, may suggest a slightly earlier date.</note>
             </notesStmt>
             <sourceDesc>
                 <bibl>
@@ -51,7 +50,7 @@
                     <note type="project">Transcribed from digital images of the original.</note>
                     <relatedItem xml:id="rel1" type="text" target="uva.00263"/>
                     <relatedItem type="document" target="wwa.00580"/>
-                    <note type="project" target="#rel1">Draft lines on the back of this manuscript leaf relate to the poem eventually titled "Song of Myself."</note>
+                    <note type="project" target="#rel1">Draft lines on the back of this manuscript leaf relate to the poem ultimately titled "Song of Myself."</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -61,13 +60,36 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
+            <change when="2019-06-10" who="#nhg">checked, corrected</change>
+            <change when="2019-04-04" who="#cah">Encoded</change>
             <change when="2018-10-09" who="#nhg">created file from uva.00263</change>
         </revisionDesc>
     </teiHeader>
     <text type="manuscript">
         <body>
             <pb facs="uva.00263.002.jpg" xml:id="leaf001r" type="recto"/>
-           <ab></ab>
+           
+            <ab>
+                <list>
+                    <item><hi rend="underline">hexameters</hi>&#8212;verses whose lines are six poetic feet, either dactyls or spondees
+                        <lg type="linegroup"><l>"Then when An<add rend="unmarked" place="supralinear">1</add>dromache<add rend="unmarked" place="supralinear">2</add> ended, said<add rend="unmarked" place="supralinear">3</add> tall bright<add rend="unmarked" place="supralinear">4</add> helmeted<add rend="unmarked" place="supralinear">5</add> <lb/> Hector<add rend="unmarked" place="supralinear">6</add></l>
+                        
+                        <l>All thy cares, dear wife, are partaken by me&#8212;but above them!<lb/>&#38;c"</l></lg>
+                    </item>
+                    <item><hi rend="underline">dactyl</hi>, a poetic foot of one long and two short syllables
+                    <l><del rend="overstrike">Aurora now</del> <hi rend="underline">Oft</hi> at the&#8212;<hi rend="underline">close</hi> of the&#8212;<hi rend="underline">day</hi> when the <lb/>&#38;c.</l></item>
+                    <item><hi rend="underline">Spondee</hi>&#8212;a poetic foot of two long syllables
+                    <l>Auro, ra now, fain daugh, ter of, the dawn,</l></item>
+                    
+                    <item>Pentameter, having five regular feet, (as the line immediately above,)</item>
+                    <item><hi rend="underline">Iambus</hi>&#8212;two short syllables</item>
+                    <item><hi rend="underline">Trochee</hi>&#8212;a long and a short syllable
+                        <lg type="linegroup"><l>Ex<add rend="unmarked" place="infralinear">&#8212;</add>ult, ing<add rend="unmarked" place="infralinear">&#8212;</add>trem, bling<add rend="unmarked" place="infralinear">&#8212;</add>faint, ing<add rend="unmarked" place="infralinear">&#8212;</add>dy, ing<add rend="unmarked" place="infralinear">&#8212;</add></l>
+                            <l>Possessd by<add rend="unmarked" place="infralinear">&#8212;</add>all the<add rend="unmarked" place="infralinear">&#8212;</add>muse 's paint ing</l></lg></item>
+                                       
+                </list>
+                
+            </ab>
            
             <note type="editorial" resp="#h1" place="right"><del rend="erasure">13</del></note>
             <gap reason="cut away"/>

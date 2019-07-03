@@ -42,7 +42,7 @@
 				</availability>
 			</publicationStmt>
 			<notesStmt>
-				<note type="project" target="#dat1">Lines and phrases on both sides of this manuscript leaf likely contributed to portions of the poem that would eventually be titled "Song of Myself," and possibly to other sections of the 1855 <hi rend="italic">Leaves of Grass</hi>, suggesting a composition date before 1855. However, this manuscript also includes lines that probably contributed to "Sun-Down Poem" (later retitled "Crossing Brooklyn Ferry") in the 1856 edition of <hi rend="italic">Leaves of Grass</hi>. Edward Grier notes that while this may indicate that the manuscript was composed at various times before and after 1855, the "date of the earliest drafts of 'Crossing Brooklyn Ferry' may well have been before 1855" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:165).</note>
+				<note type="project" target="#dat1">Lines and phrases on both sides of this manuscript leaf likely contributed to portions of the poem that would eventually be titled "Song of Myself," and possibly to other sections of the 1855 <hi rend="italic">Leaves of Grass</hi>, suggesting a composition date before 1855. However, this manuscript also includes lines that probably contributed to "Sun-Down Poem" (later retitled "Crossing Brooklyn Ferry") in the 1856 edition of <hi rend="italic">Leaves of Grass</hi>. Edward Grier notes that while this may indicate that the manuscript was composed at various times before and after 1855, the "date of the earliest drafts of 'Crossing Brooklyn Ferry' may well have been before 1855" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:165). Lines from this manuscript also appear in another early manuscript: see "<ref target="tex.00031.html">I know many beautiful things</ref>."</note>
 			</notesStmt>
 			<sourceDesc>
 				
@@ -63,6 +63,7 @@
 			</handNotes>
 		</profileDesc>
 		<revisionDesc>
+			<change when="2019-04-04" who="#nhg">edited, added inline relation</change>
 			<change when="2018-11-08" who="#nhg">added inline relations</change>
 			<change when="2017-03-21" who="#nhg">edited editorial note and work relations info</change>
 			<change when="2016-05-18" who="#kmp">blessed</change>
@@ -129,7 +130,7 @@
 	
 	<transpose xml:id="tr01" rend="bracketed" anchored="1" target="#tr02">
 	<l xml:id="q06" corresp="#l344"><handShift new="#h2"/>A <add rend="insertion" place="supralinear" hand="#h1">farmer, a</add> carpenter, a blacksmith, <del rend="overstrike" hand="#h1">a sailor,</del> a cook,</l>
-	<l>Capable of all that is ugly and mean, and <add rend="insertion" place="supralinear">capable of</add> all that <lb/>is pure and heroic,</l>
+	<l xml:id="l10" corresp="#l328">Capable of all that is ugly and mean, and <add rend="insertion" place="supralinear">capable of</add> all that <lb/>is pure and heroic,</l>
 	</transpose>
 	
 	<l>Ignorant and accomplished, a chaos and <subst><del rend="overstrike" seq="1">a perfect system</del> <add rend="unmarked" place="supralinear" seq="2">an answering purpose;</add></subst></l>
@@ -186,12 +187,16 @@
 		<work ref="xxx.00526" cert="low">
 			<p>It is possible that some of these poetic lines contributed to the prose preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. <ref target="#q12 #q13" xml:id="r10" type="text">These lines</ref> may relate to the sentence from the preface that reads: "Other states indicate themselves in their deputies....but the genius of the United States is not best or most in its executives or legislatures, nor in its ambassadors or authors or colleges or churches or parlors, nor even in its newspapers or inventors...but always most in the common people" (1855, p. iii). <ref target="#q14" xml:id="r11" type="text">This line</ref> may also be related to the following line in the preface: "The messages of great poets to each man and woman are, Come to us on equal terms" (1855, p. vii).</p>
 		</work>
+		<work ref="xxx.00048" cert="low">
+			<p>It is also possible that these lines relate to the following, from the poem eventually titled "Song of Myself": "I speak the password primeval . . . . I give the sign of democracy; / By God! I will accept nothing which all cannot have their counterpart of on the
+				same terms" (1855, p. 29). These lines also appear in another manuscript: see <ref target="tex.00031.html">tex.00031</ref>.</p>
+		</work>
 	</relations>
 <lg type="linegroup">
 	<l><seg xml:id="w1">It is only the shallow who</seg> <add xml:id="w2" rend="unmarked" place="supralinear">Do you suppose I</add> <alt target="#w1 #w2" weights="0.5 0.5"/> would lift <seg xml:id="w3">themselves</seg> <add xml:id="w4" rend="unmarked" place="supralinear">myself</add> <alt target="#w3 #w4" weights="0.5 0.5"/> out of <lb/>their race by something eminent and specially attractive.&#8212;</l>
 	<l>I am not quite such a fool as that</l>
 	<l xml:id="q12">I am too great to be a mere President or Major General</l>
-	<l xml:id="q13">I <subst><del rend="overwrite" seq="1"><unclear reason="illegible" cert="low" resp="#kc">am</unclear></del><add rend="overwrite" place="over" seq="2">remain</add></subst> with my fellows,&#8212;with mechanics, and farmers <lb/>and common people;</l>
+	<l xml:id="q13" corresp="#pr182 #l507">I <subst><del rend="overwrite" seq="1"><unclear reason="illegible" cert="low" resp="#kc">am</unclear></del><add rend="overwrite" place="over" seq="2">remain</add></subst> with my fellows,&#8212;with mechanics, and farmers <lb/>and common people;</l>
 	<l xml:id="q14" corresp="#pr182 #l507">I remain with them all on equal terms</l> 
 </lg>
 </div1>

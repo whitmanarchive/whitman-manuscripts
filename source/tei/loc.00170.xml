@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00170">
-   <relations>
-      <work ref="xxx" cert="high"> <!-- Add work relation if we find one -->
-         <p></p>
-      </work>
-   </relations>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="m" type="main" rend="bracketed">Rel I remember also that</title>
+            <title level="m" type="main" rend="bracketed">Rel.&#8212;I remember also that</title>
             <title level="m" type="sub">a machine readable transcription</title>
             <author>Walt Whitman</author>
             <editor role="editor">Kenneth M. Price</editor>
@@ -16,6 +11,7 @@
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="cah">Caitlin Henry</persName>
+               <persName xml:id="nhg">Nicole Gray</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -23,7 +19,7 @@
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2004</date>
+               <date>2019</date>
             </edition>
          </editionStmt>
          <publicationStmt>
@@ -41,23 +37,14 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-
-   
-            
-            <note type="project" target="dat1">This manuscript was likely written sometime between 1850 and 1863. A note in another hand at the top of this manuscript declares that it was written before the Civil War. </note>
-
-	
+            <note type="project" target="dat1">A note written at the top of this manuscript (possibly by Richard Maurice Bucke) declares that it was from before the Civil War. This is consistent with the fact that it is written on the reverse of a City of Williamsburgh tax form. Scholars, following Fredson Bowers, have generally assumed that Whitman used the Williamsburgh tax forms from 1857 to 1860, while he was working at the <hi rend="italic">Brooklyn Daily Times</hi>. The city of Williamsburgh was incorporated with Brooklyn effective January 1855, so the forms would have been obsolete after that date (<hi rend="italic">Whitman's Manuscripts: Leaves of Grass [1860]</hi> [Chicago: University of Chicago Press, 1955], xli–xliii). Bowers also notes, however, that "it is not impossible that Whitman had picked up these tax forms for scrap paper at Rome Brothers at some unknown date in 1854 or early 1855, or later" (xliii). This possibility would seem to be supported by the fact that some of the tax forms Whitman used are dated as early as 1854 (see "<ref target="loc.05354.html">Vast national tracts</ref>"), and some of the manuscript material written on them would seem to date earlier than 1857 (see "<ref target="loc.05180.html">The idea of reconciliation</ref>"). This manuscript was therefore probably written between 1854 and 1860.</note>
          </notesStmt>
          <sourceDesc>
             <bibl>
                <author>Walt Whitman</author>
                <title>Rel.&#8212;I remember also that</title>
-               <date xml:id="dat1" notBefore="1850" notAfter="1863" cert="low">Between 1850 and 1863</date>
-
-               <orgName xml:id="loc">
-The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.
-</orgName> 
-               
+               <date xml:id="dat1" notBefore="1854" notAfter="1860" cert="medium">Between 1854 and 1860</date>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
                <note type="project">Transcribed from digital images of the original.</note>
             </bibl>
          </sourceDesc>
@@ -65,24 +52,25 @@ The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;191
       <profileDesc>
          <handNotes>
             <handNote xml:id="h1" scribeRef="#uk"><persName xml:id="unk">unknown</persName></handNote>
-            <handNote xml:id="h2" scribeRef="#uk">unknown</handNote>
+            <handNote xml:id="h2" scribeRef="#ht"><persName xml:id="ht">Horace Traubel</persName></handNote>
          </handNotes>
       </profileDesc>
       <revisionDesc>
+         <change who="#nhg" when="2019-06-06">checked, corrected</change>
          <change who="#cah" when="2019-02-04">transcribed, encoded</change>
       </revisionDesc>
    </teiHeader>
    <text type="manuscript">
       <body>
-            <pb facs="loc.00170.001.jpg" xml:id="leaf001r" type="recto"/>
+            <pb facs="20060522_0038.jpg" xml:id="leaf001r" type="recto"/>
          <head type="main"><hi rend="underline">Rel.&#8212;</hi></head>
 
-               <note type="authorial" resp="#h1" place="top right" rend="circled">An early bit&#8212;before the war&#8212;from MS. notes of Walt Whitman.</note>
+               <note type="editorial" resp="#h1" place="top right" rend="circled">An early bit&#8212;before the War&#8212;from Ms. notes of Walt Whitman.</note>
          
-         <ab>I remember also that reason is ever needed to preside <del rend="overstrike">of</del> over the ebullitions of the religious spirit&#8212;prudence and knowledge are necessary.&#8212;Ever beware lest it become insanity, fanaticism&#8212;the past is full of <add rend="insertion" place="supralinear">such</add> examples.&#8212;</ab>       
+         <p>I remember also that reason is ever-needed to preside <del rend="overstrike">of</del> over the ebullitions of the religious spirit&#8212;prudence and knowledge are necessary.&#8212;Ever beware lest it become insanity, fanaticism&#8212;the past is full of <add rend="insertion" place="supralinear">such</add> examples.&#8212;</p>       
          
-         <note type="authorial" resp="#h2" place="bottom left" rend="circled">To G <gap reason ="illegible"/>&#8212;1897&#8212;by Traubel</note>
-            <pb facs="loc.00170.002.jpg" xml:id="leaf001v" type="verso"/>
+         <note type="editorial" resp="#h2" place="bottom right" rend="circled">To G P <unclear reason="illegible" cert="high" resp="#nhg">Wiksell</unclear>&#8212;1897&#8212;by Traubel</note>
+         <pb facs="20060522_0039.jpg" xml:id="leaf001v" type="verso"/>
          
       </body>
    </text>

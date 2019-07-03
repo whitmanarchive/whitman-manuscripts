@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00117">
+   <relations>
+      <work ref="xxx.00259" cert="high">
+         <p>This manuscript is a draft of <ref target="loc.00216.html">loc.00216</ref> which contributed to the "Pictures" notebook. The first several lines of "Pictures" were revised and published as "My Picture-Gallery" in <hi rend="italic">The American</hi> in October 1880. The poem was later published in <hi rend="italic">Leaves of Grass</hi> as part of the "Autumn Rivulets" cluster (1881, p. 310)</p>
+      </work>
+      <work ref="xxx.00526" cert="high">
+         <p>Words and phrases from this manuscript are similar to works and phrases used in the preface to the 1855 <hi rend="italic">Leaves of Grass</hi>: "The pride of the United States leaves the wealth and finesse of the cities and all returns of commerce and agriculture and all the magnitude of geography or shows of exterior victory to enjoy the breed of fullsized men or one fullsized man unconquerable and simple" (1855, pp. iii&#8211;iv).</p>
+      </work>
+   </relations>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main" rend="bracketed">A remembrance</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="cah">Caitlin Henry</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2004</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>nyp.00117</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>                       
+            <note type="project" target="dat1"></note> <!-- Update this -->
+                       
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>A remembrance</title>
+               <date cert="medium" notBefore="" notAfter="" xml:id="dat1"></date> <!-- Unknown -->
+               <idno type="callno">b19877231</idno> <!-- Universal Unique Identifier (UUID): 59dbf160-c5d9-012f-f298-58d385a7bc34 -->
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library 								
+</orgName> 
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="#cah" when="2019-03-04">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <delSpan rend="hashmark" spanTo="#d01"/>
+         <pb facs="m_1260902u.jpg" xml:id="leaf001r" type="recto"/> <!-- need to process images -->
+         
+         <metamark function="unknown">?</metamark>
+         
+         <note type="authorial" place="top" rend="circled">remodel this poem</note>
+         
+         <add rend="unmarked" place="top"><l><add rend="unmarked" place="inline">(</add>A remembrance<add rend="unmarked" place="inline">)</add><metamark place="supralinear" function="unknown">?</metamark> <del rend="overstrike">to <subst><del rend="overstrike" seq="1">young men</del> <add rend="unmarked" place="supralinear" seq="2">male and female</add></subst></del></l></add>
+         
+         <add rend="unmarked" place="top"><l xml:id="l01" corresp="#pr28">A breath to <del rend="overstrike">the</del> <add rend="unmarked" place="supralinear">American</add> <del rend="overwrite">air</del><add rend="overwrite" place="over">Air</add>, for the <del rend="overstrike">breed of</del> breathing of <del rend="overstrike">fullsized young men American,</del> <subst><del rend="overstrike" seq="1">male or female</del> <add rend="unmarked" place="supralinear" seq="2">young men.</add></subst></l></add>
+         
+         <l xml:id="l02" corresp="#pr28">American outlines to think, Remembrances to the air for the breath of <subst><del rend="overstrike" seq="1">the</del> <add rend="unmarked" place="supralinear" seq="2">a</add></subst> breed of fullsized young men <add rend="unmarked" place="supralinear">and women</add>.</l>
+         
+         <add rend="unmarked" place="bottom"><l>A breath to American air</l></add>
+         
+         <add rend="unmarked" place="bottom"><l xml:id="l03" corresp="#pr28">Remembrance for <subst><del rend="overstrike" seq="1">the</del> <add rend="unmarked" place="supralinear" seq="2">a</add></subst> breed of full&#8209;sized young men and women.&#8212;</l></add>
+         
+         
+         <anchor xml:id="d01"/>
+					
+
+      </body>
+   </text>
+</TEI>

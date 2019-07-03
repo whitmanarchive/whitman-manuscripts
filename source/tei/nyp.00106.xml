@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00106">
    <relations>
       <work ref="xxx.00522" cert="high">
-         <p>This lines were likely drafted as part of the poem published as "The Mississippi at Midnight" on March 6, 1848, in the <hi rend="italic">New Orleans Daily Crescent</hi>, though they were not included in the published version of the poem. A revised version of the poem was later included in <hi rend="italic">Specimen Days &amp; Collect</hi> (1882&#8211;3).</p>
+         <p>This lines were apparently drafted as part of the poem published on March 6, 1848, in the <hi rend="italic">New Orleans Daily Crescent</hi> as "The Mississippi at Midnight." A greatly revised version of the poem was later included in <hi rend="italic">Specimen Days &amp; Collect</hi> (1882&#8211;3).</p>
       </work>
    </relations>
    <teiHeader>
@@ -16,6 +16,7 @@
             <editor role="editor">Ed Folsom</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="bb">Brett Barney</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="cf">Chris Forster</persName>
             </respStmt>
@@ -60,6 +61,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change who="#nhg" when="2019-03-08">proofread; edited</change>
          <change who="#nhg" when="2018-12-18">edited</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
          <change who="#cf" when="2005-08-10">Encoded</change>
@@ -73,28 +75,21 @@
          <lg type="linegroup">
             
             <lg type="linegroup">
-               <l>Like Earth O river, you offer us burial<lb/>
-                  
-                  <add place="right" rend="unmarked">Existence</add> Like <del rend="overstrike">
-                     <add place="supralinear" rend="insertion">
-                        <unclear reason="deletion,illegible"
-                           cert="medium" resp="#cf">mortal</unclear>
-                     </add>
-                  </del> 
-                  <del rend="overstrike">Life</del> is your <del rend="overstrike">aimless</del> hurrying on</l>
+               <l>Like Earth O river, you offer us burial</l>
+               <l rend="indented1">Like <subst><add place="left" rend="unmarked" seq="2">Existence</add> <del rend="overstrike" seq="1"><add place="supralinear" rend="insertion">mortal</add> Life</del></subst> is your <del rend="overstrike">aimless</del> hurrying on</l>
                
-               <l>Like Time, with a clutch remorseless, continual<lb/>
-                  That which you take is forever gone.</l>
+               <l>Like Time, with a clutch remorseless, continual</l>
+               <l rend="indented1">That which you take is forever gone.</l>
             </lg>
             
             <milestone unit="undeclared" rend="horbar-short-center"/>
             
             <lg type="linegroup">
-               <l>Unlike Time, you begin and end,<lb/>
-                  Unlike Life you've a pathway steady</l>
+               <l>Unlike Time, you begin and end,</l>
+               <l rend="indented1">Unlike Life you've a pathway steady</l>
                
-               <l>Unlike Earth's are your numberless graves<lb/>
-                  Ever undug, yet ever ready.—</l>
+               <l>Unlike Earth's are your numberless graves</l>
+               <l rend="indented1">Ever undug, yet ever ready.—</l>
             </lg>
             
          </lg>

@@ -5,7 +5,11 @@
     <relations>
         <work ref="xxx.00048" cert="high"><p>The language in this manuscript is similar to the following line from the poem that would eventually be titled "Song of Myself": "By God! I will accept nothing which all cannot have their counterpart of on the
             same terms" (1855, p. 29).</p></work>
+        <work ref="xxx.00526" cert="low">
+            <p>Ideas and words from this manuscript are similar to ideas and words that appeared in the preface to the 1855 <hi rend="italic">Leaves of Grass</hi>. See, for instance, the line: "the melancholy prudence of the abandonment of such a great being as a man is to the toss and pallor of years of moneymaking with all their scorching days and icy nights and all their stifling deceits and underhanded dodgings, or infinitessimals of parlors, or shameless stuffing while others starve . . " (1855, p. x).</p>
+        </work>
     </relations>
+    
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -68,13 +72,14 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2019-04-10" who="#nhg">added connection to preface</change>
             <change when="2018-11-01" who="#nhg">transcribed, encoded, added relations info</change>
         </revisionDesc>
     </teiHeader>
 
     <text type="manuscript">
         <body>
-            <ab xml:id="ab01" corresp="#l507 #l1065">I tell you greedy smoucher! I will have nothing which any man or any woman, anywhere on the face of the earth, or of any color or country cannot also have.</ab>
+            <ab xml:id="ab01" corresp="#l507 #l1065 #pr287e">I tell you greedy smoucher! I will have nothing which any man or any woman, anywhere on the face of the earth, or of any color or country cannot also have.</ab>
         </body>
     </text>
 </TEI>

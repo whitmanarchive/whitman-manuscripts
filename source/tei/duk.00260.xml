@@ -2,9 +2,9 @@
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00260">
    <relations>
       <work ref="xxx.00048" cert="high">
-         <p>Words and imagery from this manuscript appear in the first poem in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, which was later titled "Song of Myself": "And the pismire is equally perfect, and a grain of sand, and the 
+         <p>Language from this manuscript appears in the first poem in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, which was later titled "Song of Myself": "And the pismire is equally perfect, and a grain of sand, and the 
             egg of the wren, / And the tree-toad is a chef-d'oeuvre for the highest, /
-            And the running blackberry would adorn the parlors of heaven, ... And the cow crunching with depress'd head surpasses any statue" (1855, pp. 53-54). See also the line: "Walking the path worn in the grass and beat through the leaves of the brush;" (1855, p. 36).</p>
+            And the running blackberry would adorn the parlors of heaven, ... And the cow crunching with depress'd head surpasses any statue" (1855, pp. 53-54). See also the lines: "Walking the path worn in the grass and beat through the leaves of the brush;" and "Where the brook puts out of the roots of the old tree and flows to the meadow" (1855, p. 36).</p>
       </work>
       <work ref="xxx.00264" cert="low">
          <p>The opening phrase, "light and air," and accompanying images from this manuscript appear in the fourth poem of the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>, later titled "The Sleepers."</p>
@@ -25,6 +25,7 @@
                <persName xml:id="kmp">Kenneth M. Price</persName>
                <persName xml:id="fl">Farrah Lehman</persName>
                <persName xml:id="rl">Robert LaCosse</persName>
+               <persName xml:id="bjo">Brandon James O'Neil</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -51,7 +52,7 @@
          </publicationStmt>
          <notesStmt>
 
-            <note type="project" target="dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Words and imagery from the manuscript appear in the first poem of that edition, titled "Leaves of Grass," eventually titled "Song of Myself." The phrase in the opening line of this manuscript, "light and air," also appears in the fourth poem of that edition, titled "Leaves of Grass," eventually titled "The Sleepers."</note>
+            <note type="project" target="dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Language from the manuscript appears in the first poem of that edition, titled "Leaves of Grass," eventually titled "Song of Myself." The phrase in the opening line of this manuscript, "light and air," also appears in the fourth poem of that edition, titled "Leaves of Grass," eventually titled "The Sleepers."</note>
          </notesStmt>
          <sourceDesc>
             <bibl>
@@ -65,6 +66,10 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change who="#bjo" when="2019-06-10">added inline relation</change>
+         <change who="#kmp" when="2019-06-01">blessed</change>
+         <change who="#nhg" when="2019-06-01">corrected editorial note</change>
+         <change who="#nhg" when="2019-04-04">corrected corresp info</change>
          <change who="#nhg" when="2019-02-17">edited relations</change>
          <change who="#nhg" when="2018-10-23">edited, proofed</change>
          <change who="#cah" when="2018-08-23">checked and corrected file</change>
@@ -96,13 +101,13 @@
                      <del rend="overstrike" seq="1">shall</del> 
                   <add rend="unmarked" place="supralinear" seq="4">surely becomes</add> <del rend="overstrike" seq="3"><add rend="unmarked" place="inline" seq="2">is</add></del></subst> translated or enclothed</l>
 
-            <l xml:id="l04">Into supple youth, or <del rend="overstrike">dr</del> a dress of <subst>
+            <l xml:id="l04" corresp="#l733">Into supple youth, or <del rend="overstrike">dr</del> a dress of <subst>
                <del rend="overstrike" seq="1">surpassing</del>
                <add rend="unmarked" place="supralinear" seq="2">living</add>
                   </subst> richness<lb/>
                spring gushing out from under the roots of an old tree</l>
 
-            <l xml:id="l05" corresp="l662">barn‑yard, pond, yellow <subst><del rend="overwrite" seq="1">g</del><add rend="overwrite" place="over" seq="2">j</add></subst>agged bank with white pebb<subst><del rend="overwrite" seq="2">e</del><add rend="overwrite" place="over" seq="2">l</add></subst>estones<lb/>
+            <l xml:id="l05" corresp="#l662">barn‑yard, pond, yellow <subst><del rend="overwrite" seq="1">g</del><add rend="overwrite" place="over" seq="2">j</add></subst>agged bank with white pebb<subst><del rend="overwrite" seq="2">e</del><add rend="overwrite" place="over" seq="2">l</add></subst>estones<lb/>
                timothy, sassafras, grasshopper, pismire, rail‑fence</l>
 
             <l xml:id="l06">rye, oats, cucumbers, musk‑melons, pumpkin‑vine,</l>

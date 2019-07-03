@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00264">
    <relations>
       <work ref="xxx.00048" cert="high">
-         <p>The lines in this manuscript were revised and included in the first poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, titled "Leaves of Grass," eventually titled "Song of Myself."  The corresponding lines read: "And hear the keyed cornet or else the echo of sunset" (1855, p. 32) and "Ever the vexer's hoot! hoot! till we find where the sly one hides and bring him 
+         <p>The lines in this manuscript were revised and included in the first poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, originally entitled "Leaves of Grass," eventually entitled "Song of Myself."  The corresponding lines read: "And hear the keyed cornet or else the echo of sunset" (1855, p. 32) and "Ever the vexer's hoot! hoot! till we find where the sly one hides and bring him 
             forth;" (1855, p. 47).</p>
       </work>
    </relations>   
@@ -16,6 +16,7 @@
             <editor role="editor">Ed Folsom</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="smb">Stephanie Blalock</persName>
                <persName xml:id="cah">Caitlin Henry</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="li">Leslie Ianno</persName>
@@ -44,7 +45,7 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-               <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The notes were revised and incorporated into the first poem in that edition, titled "Leaves of Grass," eventually titled "Song of Myself."</note>
+               <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The notes were revised and incorporated into the first poem in that edition, titled "Leaves of Grass," originally entitled "Leaves of Grass," eventually titled "Song of Myself."</note>
          </notesStmt>
          <sourceDesc>
             <bibl>
@@ -57,12 +58,13 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
+      <profileDesc> 
          <handNotes>
             <handNote scribeRef="#unk" xml:id="h1"><persName xml:id="unk">Unknown</persName></handNote>
          </handNotes>
-      </profileDesc>
+      </profileDesc> 
       <revisionDesc>
+         <change when="2019-04-14" who="#smb">final check, corrected</change>
          <change when="2019-01-28" who="#nhg">checked relations</change>
          <change who="#cah" when="2019-01-18">checked, added relations</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
@@ -72,7 +74,7 @@
    </teiHeader>
    <text>
       <body>
-
+ 
          <pb facs="uva.00264.001.jpg" xml:id="leaf001r" type="recto"/>
          <note type="editorial" resp="#h1" place="right"><del rend="erasure">14</del></note>
          

@@ -21,6 +21,7 @@
      <persName xml:id="kc">Kirsten Clawson</persName>
      <persName xml:id="mm">Matt Miller</persName>
      <persName xml:id="nhg">Nicole Gray</persName>
+     <persName xml:id="kmp">Ken Price</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -46,7 +47,7 @@
     </availability>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript lines are drafts of lines used in the first poem in that edition, titled "Leaves of Grass," eventually titled "Song of Myself."</note>             
+    <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript includes drafts of lines used in the first poem in that edition, titled "Leaves of Grass," eventually titled "Song of Myself."</note>             
    </notesStmt>
    <sourceDesc>
     
@@ -64,6 +65,8 @@
    </sourceDesc>
   </fileDesc>
   <revisionDesc>
+   <change when="2019-06-01" who="#kmp">blessed</change>
+   <change when="2019-06-01" who="#nhg">corrected editorial note</change>
    <change when="2018-10-03" who="#nhg">checked, corrected</change>
    <change when="2017-11-28" who="#nhg">updated editorial note, work relations, transcription</change>
    <change when="2014-10-28" who="#kc">updated P4 to P5, checked</change>
@@ -108,14 +111,14 @@
     my <subst><del rend="overstrike" seq="1">life</del> <add rend="unmarked" place="supralinear" seq="2">soul</add></subst>, if that is<lb/>
     what you are after.</l>
 
-  <del rend="overstrike"><l xml:id="l10" corresp="l641">Only pass to some one else, for I<lb/>
+  <del rend="overstrike"><l xml:id="l10" corresp="#l641">Only pass to some one else, for I<lb/>
     <subst><del rend="overstrike" seq="1">can</del> <add rend="unmarked" place="supralinear" seq="2">will</add></subst> contain you no longer.</l></del>
   
-  <l xml:id="l11" corresp="l641"><del rend="overstrike">Only</del> pass to some one else <anchor xml:id="t1"/> <add rend="insertion" place="supralinear">leap to the nearest landing</add>. &#182;Little as your<lb/>
+  <l xml:id="l11" corresp="#l641"><del rend="overstrike">Only</del> pass to some one else <anchor xml:id="t1"/> <add rend="insertion" place="supralinear">leap to the nearest landing</add>. &#182;Little as your<lb/>
     <del rend="overstrike">mouth</del> yo<del rend="erasure"><gap reason="erasure, illegible" quantity="3" unit="chars"/></del> <del rend="overstrike">lips</del> are</l>
 
 
-   <transpose target="#t1" anchored="1"><l xml:id="l12" corresp="l629">I <subst><del rend="overstrike" seq="1">am faintish</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="inline" seq="2">I am faintish;</add></del></subst> <del rend="overstrike">and</del> <add rend="insertion"
+   <transpose target="#t1" anchored="1"><l xml:id="l12" corresp="#l629">I <subst><del rend="overstrike" seq="1">am faintish</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="inline" seq="2">I am faintish;</add></del></subst> <del rend="overstrike">and</del> <add rend="insertion"
     place="infralinear">it has</add> drained me
     <lb/>dry of my strength.&#8212;</l></transpose>
 

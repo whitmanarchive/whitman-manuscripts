@@ -19,8 +19,8 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="bjo">Brandon James O'Neil</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
                 </respStmt>
-                <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -35,13 +35,12 @@
                 <idno>nyp.00112</idno>
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
-<addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
-<addrLine>Alderman Library</addrLine>
-<addrLine>University of Virginia</addrLine>
-<addrLine>P.O. Box 400115</addrLine>
-<addrLine>Charlottesville, VA 22904-4115</addrLine>
-<addrLine>whitman@jefferson.village.virginia.edu</addrLine>
-</address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
@@ -55,6 +54,7 @@
                     <author>Walt Whitman</author>
                     <title rend="bracketed">Enter into the thoughts of</title>
                     <date xml:id="dat1" cert="high" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
+                    <idno type="callno">b19877231</idno><!--UUID: 57c62770-c5d9-012f-0d3d-58d385a7bc34-->
                     <orgName xml:id="nyp">The Oscar Lion Papers, 1914–1955, New York Public Library, New York, N.Y.</orgName>
                     <note type="project">Transcribed from a digital image of the original
                         manuscript.</note>
@@ -62,9 +62,10 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2019-03-15" who="#bb">checked; edited</change>
             <change when="2018-11-01" who="#nhg">edited title</change>
-            <change when="2018-08-03" who="#nhg">checked, corrected</change>
-            <change when="2018-02-28" who="#bjo">Transcribed, encoded</change>
+            <change when="2018-08-03" who="#nhg">checked; corrected</change>
+            <change when="2018-02-28" who="#bjo">transcribed; encoded</change>
         </revisionDesc>
     </teiHeader>
     <text type="manuscript">
@@ -72,7 +73,7 @@
             <pb facs="nyp.00112.001.jpg" xml:id="leaf001r" type="recto"/>
             <gap reason="cut away"/>
             <milestone unit="undeclared" rend="horbar-full"/>
-            <ab xml:id="ab01" corresp="#l1092 #l1093 #l1096 #l1097 #l1099 #l1101">Enter into the thoughts of the different theological faiths&#8212;effuse all that the believing Egyptian would&#8212;all that the Greek&#8212;all that the Hindoo, worshipping Brahman&#8212;the Koboo, adoring a <add place="supralinear" rend="insertion">his fetish</add> stone <del rend="overstrike">or</del> log&#8212;the Pres<subst><del rend="overwrite" seq="1">p</del><add rend="overwrite" place="over" seq="2">b</add></subst>yterian&#8212;the Catholic with his crucifix and saints&#8212;the Turk with thee Koran in</ab> 
+            <ab xml:id="ab01" corresp="#l1024 #l1025 #l1027 #l1092 #l1093 #l1096 #l1097 #l1099 #l1101 #l1127">Enter into the thoughts of the different theological faiths&#8212;effuse all that the believing Egyptian would&#8212;all that the Greek&#8212;all that the Hindoo, worshipping Brahman&#8212;the Koboo, adoring <seg xml:id="w1">a</seg> <add place="supralinear" rend="insertion" xml:id="w2">his fetish</add><alt target="#w1 #w2" weights="0.5 0.5"/> stone <del rend="overstrike">or</del> log&#8212;the Pres<subst><del rend="overwrite" seq="1">p</del><add rend="overwrite" place="over" seq="2">b</add></subst>yterian&#8212;the Catholic with his crucifix and saints&#8212;the Turk with thee Koran in</ab> 
             <milestone unit="undeclared" rend="horbar-full"/> 
             <gap reason="cut away"/>
         </body>

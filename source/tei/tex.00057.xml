@@ -31,6 +31,7 @@
                <persName xml:id="cah">Caitlin Henry</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="sp">Stacey Provan</persName>
+               <persName xml:id="kp">Ken Price</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -68,11 +69,13 @@
                <note type="project">Transcribed from digital images of the original.</note>
                <relatedItem type="text" xml:id="rel01" target="tex.00001"/>
                <relatedItem type="document" target="wwa.00088"/>
-               <note type="project" target="#rel01">The back of this manuscript shows a tentative arrangement of the poems for the 1855 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+               <note type="project" target="#rel01">Notes about the arrangement and production of the 1855 edition of <hi rend="italic">Leaves of Grass</hi> are written on the back of this manuscript.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2019-06-01" who="#kp">blessed</change>
+         <change when="2019-06-01" who="#nhg">edited relations note</change>
          <change who="#nhg" when="2019-02-17">checked, corrected</change>
          <change who="#nhg" when="2019-01-23">checked relations, proofed</change>
          <change who="#cah" when="2018-11-19">checked and corrected, added corresps and relations</change>
@@ -98,7 +101,7 @@
                <del rend="overstrike"><del rend="overstrike">vital</del> <del rend="overstrike">live</del> as flesh is</del> </l>
             <anchor xml:id="s2"/>
             
-            <add rend="unmarked" place="interlinear"><metamark function="transpose">tr in here page 34&#8212;</metamark><l xml:id="l10" corresp="#l1584">And I say the stars are not echoes</l></add> <!-- the line Whitman indicates adding here appears in loc.00042 [And I say the stars], but that manuscript doesn't include the number 34 so it is possible that he is referring to another manuscript. This line also appears in Talbot Wilson, Grier, and Holloway, vol 2. CAH -->
+            <add rend="unmarked" place="interlinear"><metamark function="transpose">tr in here page 34&#8212;</metamark><l xml:id="l10" corresp="#l1584">And I say the stars are not echoes</l></add> <!-- the line Whitman indicates adding here appears in loc.00042 [And I say the stars], but that manuscript doesn't include the number 34 so it is possible that he is referring to another manuscript. A version of this line also appears in Talbot Wilson. CAH -->
             
             <l xml:id="l02" corresp="#l928">And I perceive that the <subst><del rend="overstrike" seq="1">salt marsh</del> <del rend="erasure" seq="3"><add rend="unmarked" place="supralinear" seq="2">sea</add></del> <add rend="unmarked" place="supralinear" seq="4">sedgy weed</add></subst> has 
                <subst><del rend="overstrike" seq="1">delicious</del> <add rend="unmarked" place="supralinear" seq="2">refreshing</add></subst> odors;</l>

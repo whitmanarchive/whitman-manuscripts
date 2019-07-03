@@ -10,6 +10,7 @@
             <editor role="editor">Ed Folsom</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="cah">Caitlin Henry</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="mc">Michael Carmody</persName>
             </respStmt>
@@ -37,7 +38,7 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note type="project" target="#dat1"></note>
+            <note type="project" target="#dat1"></note><!-- Add note -->
          </notesStmt>
          <sourceDesc>
             <bibl>
@@ -54,6 +55,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change who="#cah" when="2019-04-04">Corrected encoding</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
          <change who="#mc" when="2003-11-19">Encoded</change>
          <change who="#mc" when="2003-11-19">Transcribed</change>
@@ -76,10 +78,8 @@
             
             <milestone unit="glued"/>
             
-            <l><gap reason="cut away"/>
-               <lb/>
-               
-               <add rend="insertion" place="supralinear"><gap reason="cut away"/></add> return to us,—they are ours.—</l>
+            <l><gap reason="cut away"/>  
+               <add rend="insertion" place="supralinear"><gap reason="cut away"/></add> return to us,&#8212;they are ours.&#8212;</l>
             
             <l><del rend="overstrike">A</del></l>
             

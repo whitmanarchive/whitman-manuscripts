@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00023">
    <relations>
       <work ref="xxx.00048" cert="high">
-         <p>This manuscript is a partial draft of the following lines in the first poem of the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, a poem that was later titled "Song of Myself": "What burnt the gums of the redcoat at Saratoga when he surrendered his brigades, / These become mine and me every one, and they are but little, / I become as much more as I like" (1855, p. 42).</p>
+         <p>This manuscript is a partial draft of the following lines in the first poem of the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, originally entitled "Leaves of Grass," eventually entitled, "Song of Myself": "What burnt the gums of the redcoat at Saratoga when he surrendered his brigades, / These become mine and me every one, and they are but little, / I become as much more as I like" (1855, p. 42).</p>
       </work>
    </relations>
    <teiHeader>
@@ -18,6 +18,7 @@
                <persName xml:id="cah">Caitlin Henry</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="fl">Farrah Lehman</persName>
+               <persName xml:id="smb">Stephanie Blalock</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -46,7 +47,7 @@
             <note type="project" target="dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The last few lines of the manuscript are drafts of lines used in the first poem of that edition, titled "Leaves of Grass," eventually titled "Song of Myself."</note>
                        
          </notesStmt>
-         <sourceDesc>
+         <sourceDesc> 
             <bibl>
                <author>Walt Whitman</author>
                <title>Holograph memoranda and notes, unsigned and undated, written on 27 scraps of paper
@@ -60,9 +61,10 @@
                <relatedItem type="document" target="wwa.00150"/>
                <note type="project" target="#rel01">On the back of this leaf Whitman quotes Voltaire in a brief prose note on literary style.</note>
             </bibl>
-         </sourceDesc>
+         </sourceDesc> 
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc> 
+         <change when="2019-04-15" who="#smb">final check, updated notes</change>
          <change when="2018-12-17" who="#nhg">checked inline relations</change>
          <change who="#cah" when="2018-10-01">updated encoding and added corresps</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
@@ -70,9 +72,9 @@
          <change who="#fl" when="2006-02-13">Transcribed</change>
       </revisionDesc>
    </teiHeader>
-   <text>
-      <body>
-
+   <text> 
+      <body> 
+ 
          <pb facs="nyp.00023.001.jpg" xml:id="leaf001r" type="recto"/>
 					          
          <lg type="linegroup">
@@ -80,10 +82,9 @@
             <delSpan rend="hashmark" spanTo="#d1"/>
             <l>The fester of defeat sharper than the <del rend="overstrike">green</del>
                <lb/>
-               
                   <subst><del rend="overstrike" seq="1">edged</del> <add rend="unmarked" place="supralinear" seq="2">bayonet</add></subst> holes in his side;</l>
             
-            <l xml:id="l01" corresp="#l937">What choked the <subst><del rend="overstrike" seq="1">throat</del><del rend="overstrike" seq="3"><add rend="unmarked" place="supralinear" seq="2">talk</add></del><del rend="overstrike" seq="5"><add rend="insertion" place="supralinear" seq="4"><gap reason="illegible"/> </add></del><add rend="unmarked" place="supralinear" seq="6">throat</add></subst> of the <subst><del rend="overstrike" seq="1">general</del> <add rend="unmarked" place="supralinear" seq="2">brigadier</add></subst>, when<lb/>
+            <l xml:id="l01" corresp="#l937">What choked the <subst><del rend="overstrike" seq="1">throat</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="supralinear" seq="2">talk</add></del> <del rend="overstrike" seq="5"><add rend="insertion" place="supralinear" seq="4"><gap reason="illegible"/></add></del> <add rend="unmarked" place="supralinear" seq="6">throat</add></subst> of the <subst><del rend="overstrike" seq="1">general</del> <add rend="unmarked" place="supralinear" seq="2">brigadier</add></subst>, when<lb/>
                he <subst><del rend="overstrike" seq="1">surrendered</del> <add rend="unmarked" place="supralinear" seq="2">gave up</add></subst> his <subst><del rend="overstrike" seq="1">army;</del> <add rend="unmarked" place="supralinear" seq="2">brigade;</add></subst></l>
             
             <l xml:id="l02" corresp="#l938">These become mine and me, every one;</l>
@@ -91,7 +92,6 @@
             
             <anchor xml:id="d1"/>
             <pb facs="nyp_jc.00019.jpg" xml:id="leaf001v" type="verso"/>
-
          </lg>
       </body>
    </text>

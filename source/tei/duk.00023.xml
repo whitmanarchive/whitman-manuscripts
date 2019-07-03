@@ -22,9 +22,10 @@
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
-               <persName xml:id="km">Kenneth M. Price</persName>
+               <persName xml:id="kmp">Kenneth M. Price</persName>
                <persName xml:id="fl">Farrah Lehman</persName>
                <persName xml:id="kt">Kristen Taylor</persName>
+               <persName xml:id="bb">Brett Barney</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -50,7 +51,7 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note type="project" target="dat1">Whitman probably drafted this manuscript between 1850 and 1855, as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Words and imagery from the manuscript are similar to ideas expressed in several poems in that edition. This manuscript also relates to the manuscript poem "Pictures," first published posthumously in <date when="1899">1899</date> in <hi rend="italic">Notes and Fragments</hi>.</note>
+            <note type="project" target="dat1">Whitman probably drafted this manuscript between 1850 and 1855, as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Words and imagery from the manuscript are similar to ideas expressed in several poems in that edition. This manuscript, first published posthumously in <date when="1899">1899</date> in <hi rend="italic">Notes and Fragments</hi>, also relates to the manuscript poem "Pictures" (<ref target="yal.00081.html">yal.00081</ref>).</note>
 
          </notesStmt>
          <sourceDesc>
@@ -66,12 +67,15 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2019-05-02" who="#bb">edited date note for clarity, based on Ken's suggestion; created ref to loc.00081</change>
+         <change when="2019-04-17" who="#nhg">edited relations</change>
+         <change when="2019-03-21" who="#bb">checked; edited</change>
          <change when="2018-12-18" who="#nhg">added relations information</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#km" when="2007-04-30">Edited</change>
-         <change who="#fl" when="2007-03-20">Checked</change>
-         <change who="#kt" when="2004-07-07">Encoded</change>
-         <change who="#kt" when="2004-07-07">Transcribed</change>
+         <change who="#kmp" when="2007-04-30">edited</change>
+         <change who="#fl" when="2007-03-20">checked</change>
+         <change who="#kt" when="2004-07-07">encoded</change>
+         <change who="#kt" when="2004-07-07">transcribed</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -83,234 +87,100 @@
 
             <l xml:id="l01" corresp="#l1589 #l1938">
                All that <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">I am</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">we are</add>
-                     </rdg>
-                  </subst>—
-the solid and<lb/>
-               
+                        <del rend="overstrike" seq="1">I am</del> <add rend="unmarked" place="supralinear" seq="2">we are</add>
+                  </subst>—the solid and<lb/>
                   <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">stately</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">liquid</add>
-                     </rdg>
-                  </subst> 
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">I am</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">we are</add>
-                     </rdg>
+                        <del rend="overstrike" seq="1">stately</del> <add rend="unmarked" place="supralinear" seq="2">liquid</add>
+                  </subst> <subst>
+                        <del rend="overstrike" seq="1">I am</del> <add rend="unmarked" place="supralinear" seq="2">we are</add>
                   </subst>, <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">I</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">we</add>
-                     </rdg>
-                  </subst> have advanced to,<lb/>
+                        <del rend="overstrike" seq="1">I</del> <add rend="unmarked" place="supralinear" seq="2">we</add></subst> have advanced to,
             </l>
-
             <l xml:id="l02" corresp="#l1589 #l1933">
+                  <subst>
+                        <del rend="overstrike" seq="1">I</del> <add rend="unmarked" place="supralinear" seq="2">We</add>
+                  </subst> have advanced from what was<lb/>
                
                   <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">I</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">we</add>
-                     </rdg>
+                        <del rend="overstrike" seq="1">my</del> <add rend="unmarked" place="supralinear" seq="2">our</add>
                   </subst> 
-have advanced from what was<lb/>
-               
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">my</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">our</add>
-                     </rdg>
-                  </subst> 
-own <add rend="insertion" place="supralinear">cohesion and</add> formation<lb/>
+own <add rend="insertion" place="supralinear">cohesion and</add> formation
             </l>
-
             <l xml:id="l03">
-               
                   <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">I</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">we</add>
-                     </rdg>
-                  </subst> advance 
-to just as much more,<lb/>
-               and just as much more.<lb/>
+                        <del rend="overstrike" seq="1">I</del> <add rend="unmarked" place="supralinear" seq="1">We</add>
+                  </subst> advance to just as much more,<lb/>
+               and just as much more.
             </l>
-
             <l xml:id="l04" corresp="#l1596 #l1597 #l1598">Time suffices, and the laws suffice.—</l>
-
-            <milestone unit="glued"/>
-
+            <milestone unit="undeclared" rend="glued"/>
             <l xml:id="l05" corresp="#l1925">Send any or all, no matter what,</l>
-
             <l xml:id="l06" corresp="#l1928">
-               
                   <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">I</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">we</add>
-                     </rdg>
-                  </subst> have 
-places for any and all—good<lb/>
-               places<lb/>
+                        <del rend="overstrike" seq="1">I</del> <add rend="unmarked" place="supralinear" seq="2">We</add>
+                  </subst> have places for any and all—good<lb/>
+               places
             </l>
-
-            <l xml:id="l07" corresp="#l1616 #l1941">
-               
+            <l xml:id="l07" corresp="#l1604">
                   <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">I</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">we</add>
-                     </rdg>
+                        <del rend="overstrike" seq="1">I</del> <add rend="unmarked" place="supralinear" seq="2">We</add>
                   </subst> receive them, <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">I</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">we</add>
-                     </rdg>
-                  </subst> have 
-<add rend="insertion" place="supralinear">made</add> preparation<lb/>
+                        <del rend="overstrike" seq="1">I</del> 
+                        <add rend="unmarked" place="supralinear" seq="2">we</add>
+                  </subst> have <add rend="insertion" place="supralinear">made</add> preparation,</l>
+           <l xml:id="l08" corresp="#l1604"><subst><del rend="overstrike" seq="1">I</del> <add rend="unmarked" place="supralinear" seq="2">We</add></subst> have not only made preparation<lb/>
                for <del rend="overstrike">heroes</del> a few <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">choice</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">developed</add>
-                     </rdg>
-                  </subst> persons<lb/>
+                        <del rend="overstrike" seq="1">choice</del> <add rend="unmarked" place="supralinear" seq="2">developed</add>
+                  </subst> persons
             </l>
-
-            <l xml:id="l08" corresp="#l1607 #l1608 #l1931">
-               
+            <l xml:id="l09" corresp="#l1607 #l1608">
                   <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">I</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">we</add>
-                     </rdg>
-                  </subst> have made 
-<del rend="overstrike">good</del> preparation for<lb/>
-               
-                  <del rend="overstrike">the barbaric, the ignorant,</del>
-               <lb/>
-               
-                  <del rend="overstrike">the</del> undeveloped <add rend="unmarked" place="inline">persons</add> also<lb/>
+                        <del rend="overstrike" seq="1">I</del>  <add rend="unmarked" place="supralinear" seq="2">we</add>
+                  </subst> have made <del rend="overstrike">good</del> preparation for<lb/>
+                  <del rend="overstrike">the barbaric, the ignorant,</del><lb/>
+                  <del rend="overstrike">the</del> undeveloped <add rend="unmarked" place="inline">persons</add> also
             </l>
+            <milestone unit="undeclared" rend="horbar-short-center"/>
+            <milestone unit="undeclared" rend="glued"/>
 
-            <milestone unit="glued" rend="horbar-short-center"/>
+            <l xml:id="l10" corresp="#l1645">We <del rend="overstrike">will</del> effuse spirituality<del rend="overstrike">,</del> and immortality</l>
+            <l xml:id="l11">We <del rend="overstrike"><add rend="insertion" place="supralinear">will</add></del> put a second brain to the brain,</l>
 
-            <l xml:id="l09" corresp="#l1645">We <del rend="overstrike">will</del> effuse spirituality<del rend="overstrike">,</del> and immortality</l>
-            <l xml:id="l10" corresp="#l1940">We <del rend="overstrike">
-                  <add rend="insertion" place="supralinear">will</add>
-               </del> put a second brain to the brain,</l>
-
-            <l xml:id="l11" corresp="#l1932">
-               We <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">send</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">put</add>
-                     </rdg>
-                  </subst> second
+            <l xml:id="l12">
+               We <subst><del rend="overstrike" seq="1">send</del> <add rend="unmarked" place="supralinear" seq="2">put</add></subst> second
 eyes to the eyes and second<lb/>
-               ears to the ears,<lb/>
+               ears to the ears,
             </l>
 
-            <l xml:id="l12" corresp="#l1607 #l1608">
-               Then the drudge in the kitchen—then<lb/>
+            <l xml:id="l13" corresp="#l1607 #l1608">Then the drudge in the kitchen—then<lb/>
                the laborer in his stained clothes<lb/>
-               —then the black <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">boy</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">person,</add>
-                     </rdg>
-                  </subst> 
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">driving the</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">criminals,</add>
-                     </rdg>
-                  </subst>
-               <lb/>
+               —then the black <subst><del rend="overstrike" seq="1">boy</del> <add rend="unmarked" place="supralinear" seq="2">person,</add>
+                  </subst> <del rend="overstrike">driving the</del> <add rend="unmarked" place="supralinear">criminals,</add><lb/>
                
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">driving‑wagon—</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">barbarians—</add>
-                     </rdg>
-                  </subst>are no more <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">
-                           <add rend="insertion" place="supralinear">ignorant as</add>
-                        </del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="inline">inferior</add>
-                     </rdg>
-                  </subst> 
+                        <del rend="overstrike">dung&#8209;wagon—</del>
+                        <add rend="unmarked" place="supralinear">barbarians—</add> are no more <del rend="overstrike"><add rend="insertion" place="supralinear">ignorant, or</add></del> inferior
                   <add rend="unmarked" place="infralinear">to the rest,</add>
-               <lb/>
-            </l>
-
-            <l xml:id="l13" corresp="#l1612">
-               The frivolous <del rend="overstrike">person</del> 
-                  <add rend="unmarked" place="supralinear">and <add rend="insertion" place="supralinear">the</add> blunderer</add> 
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">is</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">are</add>
-                     </rdg>
-                  </subst> not <del rend="overstrike">so much</del> to<lb/>
-               be laughed at<del rend="overstrike">,</del> as before,<lb/>
             </l>
 
             <l xml:id="l14" corresp="#l1612">
-               The <del rend="overstrike">p</del> 
-                  <del rend="overstrike">deformed</del> chest, the crazy enthusiast,<lb/>
-               the unsuccessful man, come under<lb/>
-               the <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">large</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">same</add>
-                     </rdg>
-                  </subst> 
-laws <del rend="overstrike">also,</del> as any.—<lb/>
+               The frivolous <del rend="overstrike">person</del> 
+                  <add rend="insertion" place="supralinear">and <add rend="insertion" place="supralinear">the</add> blunderer</add> 
+                  <subst>
+                        <del rend="overstrike" seq="1">is</del>
+                        <add rend="unmarked" place="supralinear" seq="2">are</add>
+                  </subst> not <del rend="overstrike">so much</del> to<lb/>
+               be laughed at<del rend="overstrike">,</del> as before,
             </l>
 
+            <l xml:id="l15" corresp="#l1612">
+               The <del rend="overstrike">p</del> 
+                  <del rend="overstrike">deformed</del> cheat, the crazy enthusiast,<lb/>
+               the unsuccessful man, come under<lb/>
+               the <subst>
+                        <del rend="overstrike" seq="1">large</del> <add rend="unmarked" place="supralinear" seq="2">same</add>
+                  </subst> 
+laws <del rend="overstrike">also,</del> as any.—
+            </l>
          </lg>
          <pb facs="duk_am.00043.jpg" xml:id="leaf001v" type="verso"/>
       </body>

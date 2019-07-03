@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00060">
+   <relations>
+      <work ref="xxx.00526" cert="low">
+         <p>The lines written at the top of this manuscript echo this sentence from the preface to the first edition of <hi rend="italic">Leaves of Grass</hi>: "Past and present and future are not disjoined but joined" (1855, p. vi). The second section of the manuscript bears some resemblance to the following phrase from the preface: "and all that is well thought or done this day on any part of the surface of the globe" (1855, p. x). The lines at the bottom of the manuscript are possibly related to the following phrases from the preface: "and there never grew up in any of the continents of the globe nor upon any planet or satellite or star . . . . nor in that condition that follows what we term death" (1855, p. ix).</p>
+      </work>
+   </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Poem of Existence</title>
+                <title level="m" type="main">in Poem of Existence</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -16,6 +21,7 @@
                     <persName xml:id="kp">Kenneth M. Price</persName>
                     <persName xml:id="kc">Kirsten Clawson</persName>
                     <persName xml:id="jc">Janel Cayer</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -41,19 +47,23 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Transcribed from digital images of the original item. The handwriting and the atypical layout suggest that this manuscript was written relatively early in Whitman's career, probably in the early 1850s.</note>             
+                <note type="project" target="#dat1">Edward Grier notes that the handwriting of this manuscript "suggests an early date" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 4:1339). Resemblances to passages in the preface to the 1855 <hi rend="italic">Leaves</hi> are perhaps evidence that these notes constitute draft material for that edition. Another possibility is that these notes represent an abortive attempt to recast ideas and images from the preface into poetry&#8212;a process that Whitman used successfully to create several new poems for the second edition of 1856. The note at the top of the manuscript lends credence to the second theory, as it follows the characteristic title structure unique to the second edition, although Whitman never published a poem under the title "Poem of Existence."</note>             
             </notesStmt>
             <sourceDesc>
                 
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title>Poem of Existence</title>                  
+                    <title>Poem of Existence</title>
+                    <date cert="medium" notBefore="1850" notAfter="1856" xml:id="dat1">Between 1850 and 1856</date>
                     <idno type="callno">II-5A 26</idno>
                     <orgName xml:id="duk">The Trent Collection of Walt Whitman Manuscripts, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
+                    <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2019-05-02" who="#bb">edited date note based on Ken's suggestion</change>
+            <change when="2019-04-04" who="#bb">checked; edited; added relations information</change>
             <change when="2015-02-08" who="#jc">checked; revised repository information in header</change>
             <change when="2014-11-24" who="#kc">converted from P4 to P5, checked</change>
             <change when="2004-08-02" who="#kp">edited</change>
@@ -67,50 +77,44 @@
 
 <pb xml:id="leaf001r" facs="duk.00060.001.jpg" type="recto"/>
 
-
-<lg type="poem">
-    <head type="main-authorial" rend="underline">(<del rend="overstrike">in</del> Poem of Existence</head>
+    <note type="authorial">(<del rend="overstrike">in</del> Poem of Existence</note>
 
 <lg type="linegroup">	               
-    <l>We call <subst><del rend="overstrike" seq="1">it</del> <add place="supralinear" rend="unmarked" seq="2">one</add></subst> the past, and we call another the future</l>
-    <l>But both are alike the present</l>
+    <l xml:id="l01" corresp="#pr153">We call <subst><del rend="overstrike" seq="1">it</del> <add place="supralinear" rend="unmarked" seq="2">one</add></subst> the past, and we call another the future</l>
+    <l xml:id="l02" corresp="#pr153">But both are alike the present</l>
 <milestone unit="undeclared" rend="horbar-short-left"/>
-    <l>It is not the past, though we call is so,&#8212;nor <del rend="overstrike">And it is not</del> the future, though we call it so,</l>
-    <l><subst><del rend="overstrike" seq="1">It is</del> <add rend="unmarked" place="supralinear" seq="2"><del rend="overstrike">Ready to at,</del></add></subst> All the while it is the present only&#8212;<subst><del rend="overstrike" seq="1">that</del> <add rend="unmarked" place="supralinear" seq="2">both</add></subst> <del rend="overstrike">pa</del> future and past are the present only.&#8212;
+    <l xml:id="l03" corresp="#pr153">It is not the past, though we call it so,&#8212;nor</l>
+    <l xml:id="l04" corresp="#pr153"><del rend="overstrike"><subst><del rend="overwrite" seq="1">I</del><add place="over" rend="unmarked" seq="2">A</add></subst>nd it is not</del> the future, though we call it so,</l>
+    <l xml:id="l05" corresp="#pr153"><subst><del rend="overstrike" seq="1">It is</del> <del rend="overstrike" seq="2"><add rend="unmarked" place="supralinear" seq="2"><unclear reason="illegible" cert="low">Ready</unclear> to <unclear reason="illegible" cert="low">at</unclear>,</add></del></subst> All the while it is the present only&#8212;<subst><del rend="overstrike" seq="1">that</del> <add rend="unmarked" place="supralinear" seq="2">both</add></subst><lb/>
+   <del rend="overstrike">pa</del> future and past are the present only.&#8212;
     </l>
 </lg>
     
-<milestone unit="undeclared" rend="horbar-short-left"/>
+<milestone unit="undeclared" rend="horbar-medium-left"/>
 
-<lg type="linegroup">
-    <l>The curious realities now everywhere&#8212;on the surface of the earth,&#8212;in the interior of the earth&#8212;</l>
-    <l rend="indented2">What is it? Is it liquid fire? Is it fire? <add place="supralinear" rend="unmarked">Are there living creatures in that</add> solid?&#8212;<del rend="overstrike">Is it some</del> Is there not toward the core, some vast strange stifling vacuum?&#8212;Is there any thing in that vacuum? any <subst><add rend="insertion" place="supralinear" seq="2">kind of curious flying</add> <del rend="overstrike" seq="1">living thing</del></subst> <add place="supralinear" rend="unmarked">or floating life</add> with its nature<del rend="overstrike">s</del> fitted?&#8212;</l>
-</lg>
+<ab><seg xml:id="seg01" corresp="#pr317">The curious realities now everywhere&#8212;on the surface<lb/> of the earth,</seg>&#8212;in the interior of the earth&#8212;<lb/><add place="interlinear" rend="unmarked">Are there living creatures in that</add>
+What is it? Is it liquid fire? Is it fire?<lb/> solid?&#8212;<del rend="overstrike">Is it some</del> Is there not<lb/> toward the core, some vast<lb/> strange stifling vacuum?&#8212;Is there<lb/> any thing in that vacuum? any <add rend="insertion" place="supralinear">kind of curious, flying</add> <del rend="overstrike">living things,</del><lb/> <add place="supralinear" rend="unmarked">or floating life</add> with its nature<del rend="overstrike">s</del> fitted?&#8212;
+</ab>
     
-<milestone unit="glued" rend="horbar-full"/>
+<milestone unit="glued"/>
     
-<lg type="linegroup">
-    <l>The existences on the innumerable stars, with their varied degrees of perfection, climate, swiftness</l>
-    <l>&#8212;Some probably are but forming,<del rend="overstrike">&#8212;others</del> not so advanced as the earth&#8212;</l>
-    <l rend="indented3"><span rend="bracket-right" xml:id="s1" from="#s1" to="#s2"/>Some are no doubt more advanced&#8212;<anchor xml:id="s2"/>
-    </l>
-    <milestone unit="undeclared" rend="horbar-short-left"/>
-    <l rend="indented3"><del rend="overstrike">(I should not wonder if the</del></l>
-</lg>    
+<ab><seg xml:id="seg02" corresp="#pr280">The existences on the innumerable stars, with their<lb/> varied degrees of perfection, climate, swiftness</seg><lb/>
+&#8212;Some probably are but forming,<del rend="overstrike">&#8212;others</del> not so<lb/> advanced as the earth&#8212;<span rend="bracket-left" xml:id="s1" from="#s1" to="#s2"/>Some are no doubt more<lb/> advanced&#8212;<anchor xml:id="s2"/>
+<span rend="bracket-left" xml:id="s7" from="#s7" to="#s8"/><del rend="overstrike">(I should not wonder if the</del><anchor xml:id="s8"/>
+</ab>    
     
-<lg type="linegroup">
-    <l><subst><del rend="overstrike" seq="1">The</del> <add rend="unmarked" place="inline" seq="2"><del rend="overstrike">Then</del></add></subst> <subst><del rend="overwrite" seq="1">t</del><add place="over" rend="overwrite" seq="2">T</add></subst>here is intercommunion,</l>
-    <l rend="indented1"><del rend="overstrike">Nothing can</del> One sphere <del rend="overstrike"><unclear reason="illegible" cert="medium" resp="#kc">et</unclear></del> cannot know another sphere,</l>
-    <l rend="indented1"><del type="overstrike">The</del> <span rend="bracket-right" xml:id="s3" from="#s3" to="#s4"/><subst><del rend="overwrite" seq="1">c</del><add rend="overwrite" place="over" seq="2">C</add></subst>ommunion of <del rend="overwrite"><add place="supralinear" rend="insertion">what we call</add></del> life is with life only, and of what <subst><del rend="overwrite" seq="1">we</del><del rend="overstrike"><add rend="overwrite" place="over" seq="2">is</add></del></subst> <del rend="overstrike">call</del> is after life</l><anchor xml:id="s4"/>
-    <span rend="bracket-right" xml:id="s5" from="#s5" to="#s6"/>
-    <l rend="indented2"><del rend="overstrike">Each I think</del></l>
-    <l rend="indented2">Each sphere knows itself only, and <del rend="overstrike">h</del> cannot
-        <anchor xml:id="s6"/> commune beyond itself,</l>
-    <l rend="indented2"><del rend="overstrike">W</del> Life communes only with life,</l>
-    <l rend="indented2">Whatever it is that follows death,</l>
-</lg>
+<ab><del rend="overstrike" seq="1">The</del> <del rend="overstrike">Then</del> <subst><del rend="overwrite" seq="1">t</del><add place="over" rend="overwrite" seq="2">T</add></subst>here is intercommunion,<lb/>
+<del rend="overstrike">Nothing can</del> One sphere <del rend="overstrike"><unclear reason="illegible" cert="medium" resp="#bb">ch</unclear></del> cannot know another sphere,<lb/>
+<del type="overstrike">The</del> <span rend="bracket-left" xml:id="s3" from="#s3" to="#s4"/><subst><del rend="overwrite" seq="1">c</del><add rend="overwrite" place="over" seq="2">C</add></subst>ommunion of <del rend="overstrike"><add place="supralinear" rend="insertion">what we call</add></del> life is with life only,<lb/> and of what <del rend="overstrike"><subst><del rend="overwrite" seq="1">is</del><add rend="overwrite" place="over" seq="2">we</add></subst> call</del> is after<lb/> life<anchor xml:id="s4"/><lb/>
+    <span rend="bracket-left" xml:id="s5" from="#s5" to="#s6"/>
+<del rend="overstrike">Each I think</del><lb/>
+Each sphere knows itself only, and <del rend="overstrike">h</del> cannot<lb/>
+<anchor xml:id="s6"/> commune beyond itself,<lb/>
+<del rend="overstrike">Wh</del> Life communes only with life,<lb/>
+<seg xml:id="seg03" corresp="#pr280">Whatever it is that follows death,</seg>
+</ab>
 
-</lg>
+
 
 <pb xml:id="leaf001v" facs="duk_am.00044_large.jpg" type="verso"/>
 </body>

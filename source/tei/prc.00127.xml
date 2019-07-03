@@ -65,21 +65,22 @@
                <title>There can be nothing small</title>
                <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
                <orgName xml:id="prc">The manuscript was sold by Sotheby's in 2008. The current location of the manuscript is unknown.</orgName> 
-               <note type="project">Transcribed from digital images of the original.</note>
+               <note type="project">Transcribed from digital images of the original that were posted to Sotheby's website.</note>
                <relatedItem xml:id="rel1" type="text" target="prc.00128"/>
                <relatedItem type="document" target="wwa.00574"/>
-               <note type="project" target="#rel1"/>
+               <note type="project" target="#rel1">On the back of this manuscript is a partial draft of "Memorial in Behalf of a Freer Municipal Government, and Against Sunday Restrictions," printed in the Brooklyn <hi rend="italic">Star</hi> on October 20, 1854.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change who="#nhg" when="2019-06-13">edited note</change>
          <change who="#nhg" when="2018-11-27">transcribed, encoded</change>
          <change who="#bjo" when="2018-04-08">Located images</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <pb facs="prc.00127.001.jpg" xml:id="leaf001r" type="recto"/>
+         <pb facs="prc.00127.002.jpg" xml:id="leaf001r" type="recto"/>
 <note type="authorial" place="top">W.W. W.W. WW</note><!--NOTE: these are doodles at the top of the page-->
          <lg type="linegroup">
             <l xml:id="l01">There can be nothing <subst><del rend="overstrike" seq="1">little</del> <add rend="unmarked" place="supralinear" seq="2">small</add></subst> or <subst><del rend="overstrike" seq="1">trifling</del> <add rend="unmarked" place="supralinear" seq="2">useless</add></subst> in the universe;</l>
@@ -114,7 +115,7 @@
             <l xml:id="l19" corresp="#seg13">We do not doubt sight.&#8212;</l>
          </lg>
          <ab><gap reason="cut away"/></ab>
-         <pb facs="prc.00127.002.jpg" xml:id="leaf001v" type="verso"/>
+         <pb facs="prc.00127.001.jpg" xml:id="leaf001v" type="verso"/>
       </body>
    </text>
 </TEI>

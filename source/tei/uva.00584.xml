@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00584">
    <relations>
       <work ref="xxx.00259" cert="high">
-         <p>This manuscript is similar to a line in a notebook that also contains draft lines of a poem unpublished in Whitman's lifetime, titled "Pictures": "And there, singular, on ocean waves, downward, buoyant, swift, over the waters, an occupied coffin floating." The first several lines of the notebook (not including this line) were revised and published as "My Picture-Gallery" in <hi rend="italic">The American</hi> in October 1880. The poem was later published in <hi rend="italic">Leaves of Grass</hi> as part of the "Autumn Rivulets" cluster (1881, p. 310).</p>
+         <p>This manuscript is similar to a line in the manuscript poem, unpublished in Whitman's lifetime, titled "Pictures": "And there, singular, on ocean waves, downward, buoyant, swift, over the waters, an occupied coffin floating." The first several lines of the poem (not including this line) were revised and published as "My Picture-Gallery" in <hi rend="italic">The American</hi> in October 1880. The poem was later published in <hi rend="italic">Leaves of Grass</hi> as part of the "Autumn Rivulets" cluster (1881, p. 310).</p>
       </work>
    </relations>
    <teiHeader>
@@ -15,6 +16,7 @@
             <editor role="editor">Ed Folsom</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="bb">Brett Barney</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="sp">Stacey Provan</persName>
             </respStmt>
@@ -42,7 +44,7 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note type="project" target="#dat1">This fragmentary manuscript is a version of a line incorporated in the early notebook poem "<ref target="yal.00081.html">Pictures</ref>." A similar line is also inscribed in the early notebook "<ref target="../notebooks/transcriptions/nyp.00129.html">I know a rich capitalist</ref>," currently housed at the New York Public Library.</note>
+            <note type="project" target="#dat1">This fragmentary manuscript probably dates to the latter half of the 1850s. It bears a version of a line incorporated in the manuscript poem "<ref target="yal.00081.html">Pictures</ref>," which Whitman probably created between 1855 and 1860. Another version of the line is inscribed in the notebook "<ref target="../notebooks/transcriptions/nyp.00129.html">I know a rich capitalist</ref>," which Whitman apparently used between about 1854 and 1860. On the reverse side of the leaf are lines that contributed to the 1860 poem eventually titled "Starting from Paumanok."</note>
          </notesStmt>
          <sourceDesc>
             <bibl>
@@ -59,33 +61,27 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change who="#bb" when="2019-06-03">corrected based on Ken's review</change>
+         <change who="#bb" when="2019-05-20">checked; corrected</change>
          <change who="#nhg" when="2019-01-17">proofed, added relations info</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#sp" when="2003-10-29">Encoded</change>
-         <change who="#sp" when="2003-10-29">Transcribed</change>
+         <change who="#sp" when="2003-10-29">transcribed; encoded</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         
          <pb facs="uva.00014.002.jpg" xml:id="leaf001r" type="recto"/>
-         <l><add rend="insertion" place="supralinear">Downward, buoyant, <gap reason="cut away"/></add>
-            On turbid waters, <del rend="overstrike"><unclear reason="illegible" resp="#nhg" cert="low">wheeling</unclear> <gap reason="deletion, illegible"/></del>
+         <l><add rend="insertion" place="supralinear">Downward, buoyant, <gap reason="cut away" atLeast="3" unit="chars" extent="at least one word"/></add>
+            On turbid waters, <del rend="overstrike"><unclear reason="illegible" resp="#bb" cert="medium">whirling</unclear> and</del>
             <lb/>
-            
             <subst>
-               <del rend="overstrike" seq="1">racing and swift</del>
-               <add rend="unmarked" place="supralinear" seq="2">buoyant</add>
-               
-            </subst>
+               <del rend="overstrike" seq="1">rocking and swift</del>
+               <add rend="unmarked" place="supralinear" seq="2">buoyant</add></subst>,
             <del rend="overstrike"><unclear reason="illegible" resp="#nhg" cert="medium">swift</unclear></del>
             <lb/>
-            
-            <gap reason="cut away"/> <unclear reason="cut away" cert="medium" resp="#nhg">coffin</unclear>
-            <del rend="overstrike">floats</del> float <gap reason="cut away"/></l>
-         
-         
-         <pb facs="uva.00014.001.jpg" xml:id="leaf001v" type="verso"/>
+            <gap reason="cut away" atLeast="1" unit="chars" extent="about one word"/> <unclear reason="cut away" cert="medium" resp="#nhg">coffin</unclear>
+            <del rend="overstrike">floats</del> float</l>
+          <pb facs="uva.00014.001.jpg" xml:id="leaf001v" type="verso"/>
       </body>
    </text>
 </TEI>

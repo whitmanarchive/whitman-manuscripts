@@ -53,12 +53,13 @@
                <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName> 
                <relatedItem type="text" xml:id="rel01" target="nyp.00052"/>
                <relatedItem type="document" target="wwa.00575"/>
-               <note target="#rel01" type="project">On the back of this manuscript is a draft line of poetry.</note>
+               <note target="#rel01" type="project">A draft line of poetry written on the back of this manuscript may relate to the poem eventually titled "Song of Myself."</note>
                <note type="project">Transcribed from digital images of the original.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change who="#nhg" when="2019-02-22">checked, corrected, adjusted relations</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
          <change who="#rl" when="2005-02-01">Encoded</change>
          <change who="#rl" when="2005-02-01">Transcribed</change>
@@ -74,13 +75,13 @@
                   <gap reason="cut away"/>
                
                
-               <l>What would it <subst>
+               <l xml:id="l01">What would it <subst>
                         <del rend="overstrike" seq="1">do</del>
                         <add rend="unmarked" place="supralinear" seq="2">bring</add>  
                   </subst> you to be elected and take<lb/>
                   your place in the Capitol?</l>
                
-               <l>I elect you to understand yourself; that is what<lb/>
+               <l xml:id="l02">I elect you to understand yourself; that is what<lb/>
                   all the offices in the republic could not do</l>
                
             </lg>

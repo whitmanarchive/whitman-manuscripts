@@ -16,6 +16,7 @@
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="cah">Caitlin Henry</persName>
+               <persName xml:id="bb">Brett Barney</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -23,7 +24,7 @@
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2004</date>
+               <date>2019</date>
             </edition>
          </editionStmt>
          <publicationStmt>
@@ -42,9 +43,7 @@
          </publicationStmt>
          <notesStmt>
 
-            <note type="project" target="dat1">This manuscript is a draft of the early poem "The Play-Ground," nearly as it appeared in the Brooklyn Daily Eagle on June 1, 1846 (during Whitman's editorship of the paper). On the verso is a page of prose in Whitman's hand. </note>
-
-	
+            <note type="project" target="dat1">This manuscript is a draft of the early poem "The Play-Ground," nearly as it appeared in the <hi rend="italic">Brooklyn Daily Eagle</hi> on June 1, 1846 (during Whitman's editorship of the paper). On the verso is a page of prose in Whitman's hand. </note>
          </notesStmt>
          <sourceDesc>
             <bibl>
@@ -55,21 +54,23 @@
                <note type="project">Transcribed from digital images of the original.</note>
                <relatedItem type="text" xml:id="rel01" target="loc.07421"/>
                <relatedItem type="document" target="wwa.00109"/> 
-               <note type="project" target="#rel01">On the reverse of this leaf is a draft of fiction prose.</note>
+               <note type="project" target="#rel01">On the reverse of this leaf is a draft of prose fiction.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
       
       <revisionDesc>
-         <change who="#cah" when="2019-02-04">transcribed, encoded</change>
+         <change who="#bb" when="2019-06-03">corrected based on Ken's review</change>
+         <change who="#bb" when="2019-04-25">checked; edited</change>
+         <change who="#cah" when="2019-02-04">transcribed; encoded</change>
       </revisionDesc>
    </teiHeader>
    <text type="manuscript">
       <body>
             <pb facs="loc_gk.00021_large.jpg" xml:id="leaf001r" type="recto"/>
-         <head type="main"><hi rend="underline">The Play&#8209;Ground</hi></head>
-         
          <lg type="poem">
+         <head type="main" rend="underline">The Play&#8209;Ground.</head>
+         
          <lg type="linegroup">
             <l>When painfully athwart my brain</l>
             <l rend="indented1">Dark thoughts come crowding on,</l>
@@ -77,23 +78,27 @@
             <l>And, sick of worldly hollowness,</l>
             <l rend="indented1">My heart feels sad and lone&#8212;</l>
          </lg>
-            
+            <milestone unit="linegroup" rend="horbar-short-center"/>
             <lg type="linegroup">
             <l> Then out upon the green I walk,</l>
-               <l rend="indented1">Just ere the close of day</l>
+               <l rend="indented1">Just ere the close of day,</l>
             
             <l>And swift I ween the sight I view</l>
-               <l rend="indented1">Clears all by gloom away.&#8212;</l>
+               <l rend="indented1">Clears all my gloom away.&#8212;</l>
             </lg>
-         
+
+            <milestone unit="linegroup" rend="horbar-short-center"/>
+
          <lg type="linegroup">
             
-            <l>For there <del rend="overstrike"><gap reason="deletion, illegible"/> children,</del> <add rend="unmarked" place="supralinear">the village children come&#8212;</add></l>
+            <l>For there <subst><del rend="overstrike" seq="1"><unclear reason="illegible" resp="#bb" cert="medium">are merry</unclear> children,</del> <add rend="unmarked" place="supralinear" seq="2">the village children come&#8212;</add></subst></l>
             <l rend="indented1">The cheeriest things on earth,</l>
             
             <l>I see them play&#8212;I hear their tones</l>
             <l rend="indented1">Of loud and reckless mirth.&#8212;</l>
          </lg>
+
+            <milestone unit="linegroup" rend="horbar-short-center"/>
          
          <lg type="linegroup">
             
@@ -103,6 +108,8 @@
             <l>And many a roguish flashing eye,</l>
             <l rend="indented1">And rich red cheek are there.&#8212;</l>
          </lg>
+
+            <milestone unit="linegroup" rend="horbar-short-center"/>
          
          <lg type="linegroup">
             <l>O, lovely, happy children!</l>
@@ -111,7 +118,8 @@
             <l>I shout&#8212;I strike the ball with you&#8212;</l>
             <l rend="indented1">With you I race and roll.&#8212;</l>
          </lg>
-            
+
+            <milestone unit="linegroup" rend="horbar-short-center"/>
             
          <lg type="linegroup">
             <l>Methinks, white&#8209;winged angels,</l>

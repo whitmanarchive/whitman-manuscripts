@@ -25,7 +25,6 @@
                     <persName xml:id="bjo">Brandon James O'Neil</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
-                <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -40,13 +39,12 @@
                 <idno>tex.00321</idno>
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
-<addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
-<addrLine>Alderman Library</addrLine>
-<addrLine>University of Virginia</addrLine>
-<addrLine>P.O. Box 400115</addrLine>
-<addrLine>Charlottesville, VA 22904-4115</addrLine>
-<addrLine>whitman@jefferson.village.virginia.edu</addrLine>
-</address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
@@ -71,6 +69,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2019-06-04" who="#nhg">added line ids</change>
             <change when="2019-01-09" who="#nhg">edited</change>
             <change when="2018-03-02" who="#bjo">Transcribed and encoded</change>
         </revisionDesc>
@@ -79,11 +78,11 @@
         <body>
             <pb facs="tex.00079.002.jpg" xml:id="leaf001r" type="recto"/>
             <lg type="poem"><delSpan rend="hashmark" spanTo="#d1"/>
-                <l corresp="#l2014">he same <gap reason="cut away" extent="one word"/>, waited their due turn to clear the rubbish <lb/>
+                <l xml:id="l01" corresp="#l2014">he same <gap reason="cut away" extent="one word"/>, waited their due turn to clear the rubbish <lb/>
                 from the fallen <subst><del rend="overstrike" seq="1">house</del> <add place="supralinear" rend="unmarked" seq="2">tenement</add></subst>,</l>
-                <del rend="overstrike"><l><gap reason="cut away"/></l></del>
-                <l corresp="#l2015">And I <subst><del rend="overstrike" seq="1">shall</del> <add place="supralinear" rend="unmarked" seq="2">am to</add></subst> look again in a score or two <add place="supralinear" rend="unmarked">of ages</add></l>
-                <l corresp="#l2016">And I <del rend="overstrike">shall</del> meet the real landlord <del rend="overstrike">when</del><lb/>
+                <del rend="overstrike"><l xml:id="l02"><gap reason="cut away"/></l></del>
+                <l xml:id="l03" corresp="#l2015">And I <subst><del rend="overstrike" seq="1">shall</del> <add place="supralinear" rend="unmarked" seq="2">am to</add></subst> look again in a score or two <add place="supralinear" rend="unmarked">of ages</add></l>
+                <l xml:id="l04" corresp="#l2016">And I <del rend="overstrike">shall</del> meet the real landlord <del rend="overstrike">when</del><lb/>
             <del rend="overstrike"><gap reason="cut away" extent="one word"/></del> <unclear reason="cut away" cert="medium" resp="#bjo">stable built</unclear> <gap reason="cut away" extent="four words"/></l>
             <anchor xml:id="d1"/></lg>
             <pb facs="tex.00079.001.jpg" xml:id="leaf001v" type="verso"/>

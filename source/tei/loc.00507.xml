@@ -2,8 +2,8 @@
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00507">
    <relations>
       <work ref="xxx.00048" cert="high">
-         <p>A one-page handwritten draft of a portion of "Song of Myself," with a hashmark running from top to bottom. These lines first appeared in the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. These lines eventually became section 14 and the beginning of section 15 in the "Deathbed Edition."</p>
-         </work>
+         <p>This manuscript is a one-page handwritten draft of a portion of the poem ultimately titled "Song of Myself," with a hashmark running from top to bottom. These lines first appeared in the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>, eventually becoming section 14 and the beginning of section 15 in the "Deathbed Edition."</p>
+      </work>
    </relations>
    <teiHeader>
       <fileDesc>
@@ -47,24 +47,26 @@
          </publicationStmt>
          <notesStmt>
             
-            <note type="project" target="dat1">This manuscript was probably written between 1850 and 1855, while Whitman was working on the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The lines in the manuscript appear in the first poem in that edition, entitled "Leaves of Grass," eventually entitled "Song of Myself."</note>
-            	
+            <note type="project" target="dat1">This manuscript was probably written between 1850 and 1855, while Whitman was working on the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The lines in the manuscript appear in the first poem in that edition, titled "Leaves of Grass," eventually titled "Song of Myself." John C. Broderick has described this manuscript as the last surviving page of "the original manuscript of the first edition of <hi rend="italic">Leaves of Grass</hi>" ("The Greatest Whitman Collector and the Greatest Whitman Collection," <hi rend="italic">The Quarterly Journal of the Library of Congress</hi>, 27.2 [April 1970], 109&#8211;128), a claim echoed by Arthur Golden in "The Ending of the 1855 Version of 'Song of Myself,'" <hi rend="italic">Walt Whitman Quarterly Review</hi>, 3.4 (Spring 1986), 30n6. The page number at the top of the manuscript is not inconsistent with the possible positioning of these lines as part of a printer's copy, but lacking further evidence it would be difficult to confirm the claim.</note>
+            
          </notesStmt>
          <sourceDesc>
             <bibl>
                <author>Walt Whitman</author>
                <title>The wild gander leads</title>
-               <date xml:id="dat1" notBefore="1845" notAfter="1855" cert="medium">Between 1845 and 1855</date>
-
+               <date xml:id="dat1" notBefore="1850" notAfter="1855" cert="medium">Between 1850 and 1855</date>
+               
                <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
-               <relatedItem type="text" target="loc.00507"/>
+               <relatedItem type="text" target="loc.07428"/>
                <relatedItem type="document" target="wwa.00115"/>
-               <note type="project" target="#rel01">On the back of this leaf is a poetry manuscript with lines that appeared in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, in the poem that would eventually be titled "Song of Myself."</note>  
+               <note type="project" target="#rel01">A list of terms written on the back of this manuscript leaf likely relates to "Broad-Axe Poem," first published in the 1856 edition of <hi rend="italic">Leaves of Grass</hi>.</note>  
                <note type="project">Transcribed from digital images of the original.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2019-06-10" who="#nhg">checked, corrected</change>
+         <change who="#cah" when="2019-05-03">updated image names</change>
          <change who="#nhg" when="2018-12-17">checked inline relations</change>
          <change who="#cah" when="2018-10-22">checked and corrected file and added corresps</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
@@ -79,91 +81,88 @@
    </teiHeader>
    <text type="manuscript">
       <body>
-            <pb facs="loc.00507.001.jpg" xml:id="leaf001r" type="recto"/>
+         <pb facs="loc_cah.00001_large.jpg" xml:id="leaf001r" type="recto"/>
 
-                           <delSpan rend="hashmark" spanTo="#d1"/>
-
-               
-                  <head type="main-authorial">10</head> 
-
-                  <lg type="linegroup">
-                     <l xml:id="l01" corresp="#l237">The wild gander leads his flock through the cool night,</l>
-                     
-                     <l xml:id="l02" corresp="#l238">Ya&#8209;honk! he says, and sounds it down to me like<lb/>
-                        an invitation;</l>
-                     
-                     <l xml:id="l03" corresp="#l239">The pert suppose it <subst><del rend="overstrike" seq="1">is meaningless,</del><add rend="insertion" place="supralinear" seq="2"><del rend="overstrike">has no</del> <add rend="unmarked" place="supralinear" seq="3">is</add> meaning<add rend="unmarked" place="inline" seq="4">less</add>, </add></subst>but I listen<subst> <del rend="overstrike" seq="1">better</del> <add rend="unmarked" place="supralinear" seq="2">closer</add></subst>,</l>
-                     
-                     <l xml:id="l04" corresp="#l240">I find <del rend="overstrike">it has</del> its place and sign up there toward<lb/>
-                        the November sky.&#8212;</l>
-                     
-                     <l xml:id="l05" corresp="#l241">The <subst><del rend="overstrike" seq="1">clawed cat of the forest, the deer,</del> <add rend="insertion" place="supralinear" seq="2"><del rend="overstrike" seq="3">huge</del><!-- I'm not sure if this is the right word --> <add rend="unmarked" place="supralinear" seq="4">sharphoofed</add> moose of the north, the cat on the housesill, the chickadee</add></subst> the prairie&#8209;dog,</l><!-- There is a close up tag in prairie dog -->
-                     
-                     <l xml:id="l06" corresp="#l242">The litter of the grunting sow as they tug at her teats,</l>
-                     
-                     <l xml:id="l07" corresp="#l243">The brood of the turkey&#8209;hen, and she with her<lb/><!-- There is a close up symbol in turkey-hen -->
-                        half&#8209;spread wings,</l><!-- There is a close up symbol in half-spread -->
-                     
-                     <l xml:id="l08" corresp="#l244">I see them and myself in the same old law.</l>
-                     
-                  </lg>
-
-                  <lg type="linegroup">
-                     <l xml:id="l09" corresp="#l245">The press of my foot to the earth springs a hundred<lb/>
-                        affections,</l>
-                     
-                     <l xml:id="l10" corresp="#l246">They scorn the best I can do to relate them.&#8212;</l>
-                  </lg>
-
-                  <lg type="linegroup">
-                     <l xml:id="l11" corresp="#l247">I am enamored of growing outdoors,</l>
-                     
-                     <del rend="overstrike"><add rend="insertion" place="supralinear"><l xml:id="l12" corresp="#l249">Of drivers of horses&#8212;</l></add></del>
-                     
-                     <l xml:id="l13" corresp="#l248">Of men that live among cattle or taste of the<lb/>
-                        ocean or soil,</l>
-                     
-                     <add rend="unmarked" place="interlinear"><l xml:id="l14" corresp="#l249">Of builders <add rend="insertion" place="supralinear">and steerers</add> of ships&#8212;</l></add>
-                           
-                     <add rend="unmarked" place="interlinear"><l xml:id="l15" corresp="#l249"><subst><del rend="overstrike" seq="1">Of drivers of horses&#8212;Of wielders</del> <add rend="unmarked" place="supralinear" seq="2">of <add rend="unmarked" place="supralinear" seq="3">the</add> wielders</add> </subst>of axes and <choice><sic>malls</sic><corr>mauls</corr></choice>.<add rend="unmarked" place="inline">&#8212;of <add rend="insertion" place="supralinear">the</add> drivers of horses</add></l></add>
-                        
-                              
-                     <l xml:id="l16" corresp="#l250">I can eat and sleep with them week in and week out.</l>
-                  </lg>
-
-
-                  <lg type="linegroup">
-                     <l xml:id="l17" corresp="#l251">What is <del rend="overstrike">
-                        <add rend="insertion" place="supralinear">nearest and</add></del> commonest <add rend="insertion" place="supralinear">and nearest</add> and cheapest <add rend="insertion" place="supralinear">and easiest</add> is Me,</l>
-                     
-                     <l xml:id="l18" corresp="#l252">Me going in for my chances,<add rend="unmarked" place="inline">... spending</add><lb/> <anchor xml:id="tr02"></anchor></l>
-                     
-                     <l xml:id="l19" corresp="#l252"><del rend="overstrike">Spending</del> <transpose rend="unmarked" anchored="1" xml:id="tr01" target="#tr02">for vast returns</transpose></l>
-                     
-                     <l xml:id="l20" corresp="#l253">Adorning myself to bestow myself on the first<lb/>
-                        that will take me,</l>
-                     
-                     <l xml:id="l21" corresp="#l254">Not asking the sky to come down to <del rend="overstrike">receive</del> my<lb/>
-                        good will,</l>
-                     <l xml:id="l22" corresp="#l255">Scattering it freely forever.&#8212;</l>
-                  </lg>
-
-                  <lg type="linegroup">
-                     <l xml:id="l23" corresp="#l256">The pure contralto sings in the organ&#8209;loft,</l>
-                     
-                     <l xml:id="l24" corresp="#l257">The carpenter dresses his plank<del rend="overstrike">,</del> . . . . the tongue of his fore&#8209;plane<lb/>
-                        whistles its wild ascending lisp,</l>
-                     
-                     <l xml:id="l25" corresp="#l258">The married and unmarried children ride home to their<lb/>
-                        thanksgiving dinner,</l>
-                     
-                     <l xml:id="l26" corresp="#l259">The pilot seizes the king&#8209;pin<del rend="overstrike">,</del>.... he heaves down with a strong arm,</l>
-                  </lg>
-
-               
-               <anchor xml:id="d1"/>
-        
-            <pb facs="loc.00507.002.jpg" xml:id="leaf001v" type="verso"/>
+         <note type="authorial" place="top">10</note> 
+         <delSpan rend="hashmark" spanTo="#d1"/>
+         
+         <lg type="linegroup">
+            <l xml:id="l01" corresp="#l237">The wild gander leads his flock through the cool night,</l>
+            
+            <l xml:id="l02" corresp="#l238">Ya&#8209;honk! he says, and sounds it down to me like<lb/>
+               an invitation;</l>
+            
+            <l xml:id="l03" corresp="#l239">The pert suppose it <subst><del rend="overstrike" seq="1">is meaningless,</del> <add rend="insertion" place="supralinear" seq="2"><del rend="overstrike">has no</del> <add rend="unmarked" place="supralinear" seq="3">is</add> meaning<add rend="unmarked" place="inline" seq="4">less</add>,</add></subst> but I listen<subst> <del rend="overstrike" seq="1">better</del> <add rend="unmarked" place="supralinear" seq="2">closer</add></subst>,</l>
+            
+            <l xml:id="l04" corresp="#l240">I find <del rend="overstrike">it has</del> its place and sign up there toward<lb/>
+               the November sky.&#8212;</l>
+            
+            <l xml:id="l05" corresp="#l241">The <subst><del rend="overstrike" seq="1">clawed cat of the forest, the deer,</del> <add rend="insertion" place="supralinear" seq="2"><subst><del rend="overstrike" seq="1">huge</del> <add rend="unmarked" place="supralinear" seq="2">sharphoofed</add></subst> moose of the north, the cat on the housesill, the chickadee</add></subst> the prairie&#8209;dog,</l><!-- There is a close-up symbol in prairie-dog -->
+            
+            <l xml:id="l06" corresp="#l242">The litter of the grunting sow as they tug at her teats,</l>
+            
+            <l xml:id="l07" corresp="#l243">The brood of the turkey&#8209;hen, and she with her<lb/><!-- There is a close-up symbol in turkey-hen -->
+               half&#8209;spread wings,</l><!-- There is a close-up symbol in half-spread -->
+            
+            <l xml:id="l08" corresp="#l244">I see them and myself in the same old law.</l>
+            
+         </lg>
+         
+         <lg type="linegroup">
+            <l xml:id="l09" corresp="#l245">The press of my foot to the earth springs a hundred<lb/>
+               affections,</l>
+            
+            <l xml:id="l10" corresp="#l246">They scorn the best I can do to relate them.&#8212;</l>
+         </lg>
+         
+         <lg type="linegroup">
+            <l xml:id="l11" corresp="#l247">I am enamored of growing outdoors,</l>
+            
+            <del rend="overstrike"><add rend="insertion" place="interlinear"><l xml:id="l12" corresp="#l249">Of the drivers of horses&#8212;</l></add></del>
+            
+            <l xml:id="l13" corresp="#l248">Of men that live among cattle or taste of the<lb/>
+               ocean or soil,</l>
+            
+            <add rend="unmarked" place="interlinear"><l xml:id="l14" corresp="#l249">Of the builders <add rend="insertion" place="supralinear">and steerers</add> of ships&#8212;</l></add>
+            
+            <add rend="unmarked" place="interlinear"><l xml:id="l15" corresp="#l249"><subst><del rend="overstrike" seq="1">Of drivers of horses&#8212;<subst><del rend="overwrite" seq="1">of</del><add rend="overwrite" seq="2" place="over">Of</add></subst> wielders</del> <add rend="unmarked" place="supralinear" seq="2">Of <add rend="unmarked" place="supralinear" seq="3">the</add> wielders</add></subst> of axes and <choice><orig>malls</orig><reg>mauls</reg></choice>.<add rend="unmarked" place="inline">&#8212;of <add rend="insertion" place="supralinear">the</add> drivers of horses,</add></l></add>
+            
+            
+            <l xml:id="l16" corresp="#l250">I can eat and sleep with them week in and week out.</l>
+         </lg>
+         
+         
+         <lg type="linegroup">
+            <l xml:id="l17" corresp="#l251">What is <del rend="overstrike"><add rend="insertion" place="supralinear">nearest and</add></del> commonest <add rend="insertion" place="supralinear">and nearest</add> and cheapest <add rend="insertion" place="supralinear">and easiest</add> is Me,</l>
+            
+            <l xml:id="l18" corresp="#l252">Me going in for my chances,<add rend="unmarked" place="inline"> . . . spending</add><lb/> <anchor xml:id="tr02"></anchor></l>
+            
+            <l xml:id="l19" corresp="#l252"><del rend="overstrike">Spending</del> <transpose rend="unmarked" anchored="1" xml:id="tr01" target="#tr02">for vast returns,</transpose></l>
+            
+            <l xml:id="l20" corresp="#l253">Adorning myself to bestow myself on the first<lb/>
+               that will take me,</l>
+            
+            <l xml:id="l21" corresp="#l254">Not asking the sky to come down to <del rend="overstrike">receive</del> my<lb/>
+               good will,</l>
+            <l xml:id="l22" corresp="#l255">Scattering it freely forever.&#8212;</l>
+         </lg>
+         
+         <lg type="linegroup">
+            <l xml:id="l23" corresp="#l256">The pure contralto sings in the organ&#8209;loft,</l><!-- There is a close-up symbol in organ-loft -->
+            
+            <l xml:id="l24" corresp="#l257">The carpenter dresses his plank<subst><del rend="overstrike" seq="1">,</del><add rend="unmarked" place="inline" seq="2"> . . . . </add></subst>the tongue of his fore&#8209;plane<lb/>
+               whistles its wild ascending lisp,</l><!-- There is a close-up symbol in fore-plane -->
+            
+            <l xml:id="l25" corresp="#l258">The married and unmarried children ride home to their<lb/>
+               thanksgiving dinner,</l>
+            
+            <l xml:id="l26" corresp="#l259">The pilot seizes the king&#8209;pin<subst><del rend="overstrike" seq="1">,</del><del rend="overstrike"><add rend="unmarked" place="inline" seq="2"> . . . . </add></del></subst>he heaves down with a strong arm,</l><!-- There is a close-up symbol in king-pin -->
+         </lg>
+         
+         
+         <anchor xml:id="d1"/>
+         
+         <pb facs="loc_cah.00002_large.jpg" xml:id="leaf001v" type="verso"/>
          
       </body>
    </text>

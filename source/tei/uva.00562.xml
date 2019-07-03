@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00562">
    <relations>
       <work ref="xxx.00271" cert="high">
-         <p>These lines are versions of the following lines in the poem eventually titled "Faces": "This face owes to the sexton his dismalest fee, / An unceasing deathbell tolls there" (1855, p. 83) and "Out of this face emerge banners and horses . . . . O superb! . . . . I see what is coming" (1855, p. 84).</p>
+         <p>These manuscript lines are draft versions of lines that appeared in the poem eventually titled "Faces," first published as the sixth poem of the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. In that edition, the lines read, "This face owes to the sexton his dismalest fee, / An unceasing deathbell tolls there" (p. 83) and "Out of this face emerge banners and horses . . . . O superb! . . . . I see what is coming" (p. 84).</p>
       </work>
    </relations>
    <teiHeader>
@@ -14,7 +14,8 @@
             <editor role="editor">Kenneth M. Price</editor>
             <editor role="editor">Ed Folsom</editor>
             <respStmt>
-               <resp>Transcription and encoding</resp>
+               <resp>transcription and encoding</resp>
+               <persName xml:id="bb">Brett Barney</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="hm">Heather Morton</persName>
             </respStmt>
@@ -42,7 +43,7 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was preparing materials for the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. It is a draft of lines that appear in the sixth poem in that edition, titled "Leaves of Grass," eventually titled "Faces."</note>
+            <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was creating material for the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. It is a draft of lines that appear in the sixth poem in that edition, a poem was eventually titled "Faces."</note>
          </notesStmt>
          <sourceDesc>
             <bibl>
@@ -59,10 +60,12 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change who="#nhg" when="2019-01-16">proofed, added relations info</change>
+         <change who="#bb" when="2019-06-03">altered wording of date note based on Ken's review</change>
+         <change who="#bb" when="2019-05-17">checked; edited</change>
+         <change who="#nhg" when="2019-01-16">proofed; added relations info</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#hm" when="2003-12-12">Encoded</change>
-         <change who="#hm" when="2003-12-12">Transcribed</change>
+         <change who="#hm" when="2003-12-12">encoded</change>
+         <change who="#hm" when="2003-12-12">transcribed</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -72,24 +75,21 @@
          <delSpan rend="hashmark" spanTo="#d1"/>
             <lg type="linegroup"><l xml:id="l01" corresp="#l2002 #l2003">This <subst>
                      <del rend="overstrike" seq="1">face</del>
-                     <add place="supralinear" rend="unmarked" seq="2">mouth</add>
-                  
-               </subst> is <subst>
-                     <del rend="overstrike" seq="1">the death-bell</del>
+                     <add place="supralinear" rend="unmarked" seq="2">mouth</add></subst>
+                     is 
+                     <subst>
+                     <del rend="overstrike" seq="1">the death&#8209;bell</del>
                      <add place="supralinear" rend="unmarked" seq="2">pulled by <subst><del rend="overstrike" seq="1">the</del> 
                         <add place="supralinear" rend="unmarked" seq="2">some</add></subst> sexton</add>
-                  
-               </subst> for his dismalist fee</l>
-               <l xml:id="l02" corresp="#l2003">The death-bell tolls there.—</l></lg>
+                     </subst> for his dismalest fee,</l>
+               <l xml:id="l02" corresp="#l2003">The death&#8209;bell tolls there.—</l></lg>
             <lg type="linegroup">
             <l xml:id="l03" corresp="#l2019"><del rend="overstrike">This face <unclear reason="illegible" cert="high" resp="#hm">marches</unclear> with <unclear reason="illegible" cert="high" resp="#hm">banners</unclear></del>
                      <del rend="overstrike"><add place="supralinear" rend="unmarked">banners and champing</add></del>
-                  
                <del rend="overstrike">cha</del>
                <del rend="overstrike"><add place="supralinear" rend="unmarked">horses</add></del></l>
-         <gap reason="cut away"/></lg>
+         <l xml:id="l04"><unclear reason="illegible" cert="medium" resp="#bb">Th</unclear><gap reason="cut away" atLeast="1" unit="chars" extent="at least one character"/> <unclear reason="illegible" cert="medium" resp="#bb">T</unclear><gap reason="cut away" atLeast="5" unit="chars" extent="several words"/></l></lg>
          <anchor xml:id="d1"/>
-      
             <pb facs="uva.00273.001.jpg" xml:id="leaf001v" type="verso"/>
 
 

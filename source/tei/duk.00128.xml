@@ -62,7 +62,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">This manuscript, likely written in the early to mid-1850s, includes notes that anticipate the preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. A line from the first leaf appeared in a slightly different form in "Poem of The Singers, and of The Words of Poems" in the 1856 edition of <hi rend="italic">Leaves</hi> (a poem later titled "Song of the Answerer"). The stated desire for "satisfiers" and "lovers" (found here on the bottom of the second leaf) appears in "Poem of Many in One," also first published in the 1856 edition and later titled "By Blue Ontario's Shore." When Richard Maurice Bucke printed a transcription of this manuscript, he added the following words to the end of leaf 2 recto: "These frothing, maddening waves are to be" (<hi rend="italic">Notes and Fragments</hi> [London, Ontario: A. Talbot &amp; Co., 1899], 129).  The words do not appear on the manuscript. Edward Grier notes that Floyd Stovall has connected material on the third leaf to Whitman's "reading of H. N. Hudson's '<ref target="duk.00081">Thoughts on Reading</ref>,' <hi rend="italic">American Whig Review</hi>, 1 (May 1845), 483&#8211;496, which he clipped and annotated" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:95). </note>             
+                <note type="project" target="#dat1">This manuscript, likely written in the early to mid-1850s, includes notes that anticipate the preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. A line from the first leaf appeared in a slightly different form in "Poem of The Singers, and of The Words of Poems" in the 1856 edition of <hi rend="italic">Leaves</hi> (a poem later titled "Song of the Answerer"). The stated desire for "satisfiers" and "lovers" (found here on the bottom of the second leaf) appears in "Poem of Many in One," also first published in the 1856 edition and later titled "By Blue Ontario's Shore." When Richard Maurice Bucke printed a transcription of this manuscript, he added the following words to the end of leaf 2 recto: "These frothing, maddening waves are to be" (<hi rend="italic">Notes and Fragments</hi> [London, Ontario: A. Talbot &amp; Co., 1899], 129). The words do not appear on the manuscript. Edward Grier notes that Floyd Stovall has connected material on the third leaf to Whitman's "reading of H. N. Hudson's '<ref target="duk.00081">Thoughts on Reading</ref>,' <hi rend="italic">American Whig Review</hi>, 1 (May 1845), 483&#8211;496, which he clipped and annotated" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:95). </note>             
             </notesStmt>
             <sourceDesc>
                 <bibl>
@@ -76,6 +76,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2019-04-09" who="#bb">checked; edited</change>
             <change when="2017-02-28" who="#nhg">added work relations encoding</change>
             <change when="2016-05-18" who="#bb">reconciled with EAD record</change>
             <change when="2016-05-18" who="#kmp">blessed</change>
@@ -91,31 +92,31 @@
     <text type="manuscript">
         <body>
 
-            <pb xml:id="leaf001r" facs="2080_010.jpg" type="recto"/>
+            <pb xml:id="leaf001r" facs="duk_bb.00002.jpg" type="recto"/>
             
             <note type="authorial" place="top">(Of the great poet) (Finally) For preface.</note>
             
-            <p xml:id="p01" corresp="#pr32">It is not that he gives his country great poems; it is that he gives his country the spirit which makes the greatest poems <del rend="overstrike"><gap reason="illegible" unit="char" quantity="1"/></del> and the greatest material for poems.&#8212;</p>
+            <p xml:id="p01" corresp="#pr32">It is not that he gives his country great poems; it is that he gives his country the spirit which makes the greatest poems <del rend="overstrike"><gap reason="illegible" unit="chars" quantity="1" extent="one character"/></del> and the greatest material for poems.&#8212;</p>
             
             <milestone unit="undeclared" rend="horbar-short-left"/>
             
-            <note type="authorial" place="left">(He could say)</note><!-- This note is written over the preceding milestone -->
+            <note type="authorial" place="interlinear">(He could say)</note><!-- This note is written over the preceding milestone -->
             
             <p xml:id="p02" corresp="#l1918 #l1930 #l507">I know well enough the perpetual myself in my poems&#8212;but it is because the universe is in myself,&#8212;it shall all pass through me as a procession.&#8212;I say nothing of myself, which I do not equally say of all others, men and women</p>
             
             <milestone unit="undeclared" rend="horbar-short-left"/>
             
-            <note type="authorial" place="left">? (or) (Finally) (It is not that he gives you <add rend="unmarked" place="supralinear">his country</add>)</note><!-- This note is written on the same line as the preceding milestone -->
+            <note type="authorial" place="inline">? (or) (Finally) (It is not that he gives you <add rend="unmarked" place="supralinear">his country</add>)</note><!-- This note is written on the same line as the preceding milestone -->
             
-            <p xml:id="p03"><seg xml:id="q01">He does not give you the usual poems and metaphysics.&#8212;He gives you <del rend="overstrike">the</del> materials for you to form for yourself <del rend="overstrike"><add rend="unmarked" place="supralinear">the</add></del> poems, <del rend="overstrike">and</del> metaphysics, <subst><add rend="insertion" place="supralinear" seq="2">politics, behaviour,</add> <del rend="overstrike" seq="1">and</del></subst> histories <del rend="overstrike">and</del> romances, <del rend="overstrike">and</del> essays and every thing else.</seg>&#8212;<del rend="erasure"><unclear reason="illegible" resp="#km" cert="low">that</unclear> literature <gap reason="illegible" atLeast="1" unit="chars"/> <add rend="insertion" place="supralinear">can</add> embody</del></p>
+            <p xml:id="p03" corresp="#pr180"><seg xml:id="q01">He does not give you the usual poems and metaphysics.&#8212;He gives you <del rend="overstrike">the</del> materials for you to form for yourself <del rend="overstrike"><add rend="unmarked" place="supralinear">the</add></del> poems, <del rend="overstrike">and</del> metaphysics, <add rend="insertion" place="supralinear">politics, behaviour,</add> <del rend="overstrike">and</del> histories <del rend="overstrike">and</del> romances, <del rend="overstrike">and</del> essays and every thing else.</seg>&#8212;<del rend="erasure"><unclear reason="illegible" resp="#bb" cert="high">that</unclear> literature  <add rend="insertion" place="supralinear">can</add> embody</del></p>
             
             <pb xml:id="leaf001v" facs="duk_am.00273.jpg" type="verso"/>
             
-            <pb xml:id="leaf002r" facs="2080_020.jpg" type="recto"/>
+            <pb xml:id="leaf002r" facs="duk_bb.00003.jpg" type="recto"/>
             
             <del rend="overstrike"><p>Here is</p></del>
             
-            <p><del rend="overstrike">He is as</del> <subst><del rend="overwrite" seq="1">o</del><add rend="overwrite" place="over" seq="2">O</add></subst>ne having attained <del rend="overstrike">to</del> those insights and contents which the <del rend="overstrike">study of the</del> universe gives to <subst><del rend="overstrike" seq="1">those</del> <add rend="unmarked" place="supralinear" seq="2">men</add></subst> capable of comprehending it, <del rend="overstrike">is not</del> would publish the same, and persuade <subst><del rend="overstrike" seq="1">all</del> <add rend="unmarked" place="supralinear" seq="2">other</add></subst> men and women to the same.&#8212;The conditions are simple, spiritual, physical, close at hand. . . .<add rend="insertion" place="supralinear">they are long and arduous and require faith,</add> they <subst><del rend="overstrike" seq="1">depen</del> <del rend="overstrike" seq="2">are</del> <del rend="overstrike" seq="3"><gap reason="illegible" atLeast="1" unit="chars"/> rest</del> <add rend="unmarked" place="supralinear" seq="4">exist</add></subst> altogether with the taught, and not with the teaching or teacher.&#8212;</p>
+            <p><del rend="overstrike">He is as</del> <subst><del rend="overwrite" seq="1">o</del><add rend="overwrite" place="over" seq="2">O</add></subst>ne having attained <del rend="overstrike">to</del> those insights and contents which the <del rend="overstrike">study of the</del> universe gives to <subst><del rend="overstrike" seq="1">those</del> <add rend="unmarked" place="supralinear" seq="2">men</add></subst> capable of comprehending it, <del rend="overstrike">is not</del> would publish the same, and persuade <subst><del rend="overstrike" seq="1">all</del> <add rend="unmarked" place="supralinear" seq="2">other</add></subst> men and women to the same.&#8212;The conditions are simple, spiritual, physical, close at hand. . . .<add rend="insertion" place="supralinear">they are long and arduous and require faith,</add> they <subst><del rend="overstrike" seq="1">depen</del> <del rend="overstrike" seq="2"><add rend="unmarked" place="inline" seq="2">are <gap reason="illegible" atLeast="1" unit="chars"/></add></del> <del rend="overstrike" seq="3"><add rend="unmarked" place="inline" seq="3">rest</add></del> <add rend="unmarked" place="supralinear" seq="4">exist</add></subst> altogether with the taught, and not with the teaching or teacher.&#8212;</p>
             
             <milestone unit="undeclared" rend="horbar-short-left"/>
             
@@ -125,7 +126,7 @@
             
             <pb xml:id="leaf002v" facs="duk_am.00274.jpg" type="verso"/>
             
-            <pb xml:id="leaf003r" facs="2080_030.jpg" type="recto"/>
+            <pb xml:id="leaf003r" facs="duk_bb.00004.jpg" type="recto"/>
             
             <p>It is not enough of these states that they are to hold sway over physical objects, over <del rend="overstrike">those</del> armies, navies, wealth, <del rend="overstrike">population</del> <del rend="overstrike">and</del> <del rend="overstrike">all</del> manufactures and <add rend="insertion" place="supralinear">all</add> substantial objects.&#8212;<del rend="overstrike">They</del> They must be eminent leaders <del rend="overstrike">and</del> <space dim="horizontal" extent="8 letters"/> of the mind and imagination.&#8212;Here must arise the great poets and orators <subst><del rend="overstrike" seq="1">of the</del> <add rend="unmarked" place="supralinear" seq="2">that all</add></subst> new centuries continually wait for.&#8212;</p>
             
