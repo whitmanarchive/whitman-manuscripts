@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+ 
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="tul.00002">
     <relations>
         <work ref="xxx.00266" cert="high">
-            <p>This manuscript includes draft lines of the third poem, entitled
+            <p>"The three or four poets are well" are draft lines of the third poem, entitled
                 "Leaves of Grass," in <hi rend="italic">Leaves of Grass</hi>
-                <date when="1855">(1855)</date>. It became "Burial Poem" in <date when="1856">1856</date>, "Burial" in <date when="1860">1860</date> and <date when="1867">1867</date>, and took its final title, "To Think of Time," in <date when="1871">1871</date>.</p>
+                <date when="1855">(1855)</date>. It became "Burial Poem" in <date when="1856">1856</date>, "Burial" in <date when="1860">1860</date> and <date when="1867">1867</date>, and took its final title, "To Think of Time," in <date when="1871">1871</date>. </p>
         </work>
     </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main" rend="bracketed">The three or four poets</title>
+                <title level="m" type="main" rend="bracketed">The three or four
+                        poets are well</title>
 <title level="m" type="sub">a
                         machine readable transcription</title>
                 <author>Walt Whitman</author>
@@ -26,6 +28,7 @@
                     <persName xml:id="lr">Lisa Renfro</persName>
                     <persName xml:id="kr">Katrina Robertson</persName>
                 </respStmt>
+                <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -40,24 +43,26 @@
                 <idno>tul.00002</idno>
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
-                    <addrLine>Center for Digital Research in the Humanities</addrLine>
-                    <addrLine>319 Love Library</addrLine>
-                    <addrLine>University of Nebraska-Lincoln</addrLine>
-                    <addrLine>P.O. Box 884100</addrLine>
-                    <addrLine>Lincoln, NE 68588-4100</addrLine>
-                </address>
+<addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
+<addrLine>Alderman Library</addrLine>
+<addrLine>University of Virginia</addrLine>
+<addrLine>P.O. Box 400115</addrLine>
+<addrLine>Charlottesville, VA 22904-4115</addrLine>
+<addrLine>whitman@jefferson.village.virginia.edu</addrLine>
+</address>
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="dat1">Whitman probably drafted this manuscript in the early 1850s, as he was preparing materials for the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript features draft lines of the third poem in that edition, titled "Leaves of Grass," eventually titled "To Think of Time."</note>
+                <note type="project" target="dat1">This manuscript features draft lines of the third poem in the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>, ultimately titled "To Think of Time."  The manuscript was probably written in <date notBefore="1853" notAfter="1854">1853 or 1854</date>,
+                    just before the publication of the first edition of <hi rend="italic">Leaves of Grass</hi>.</note>
             </notesStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>The three or four poets are well</title>
-                    <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
+                    <date xml:id="dat1" cert="high" notBefore="1850" notAfter="1855">About 1855</date>
                     <orgName xml:id="tul">Walt Whitman Ephemera, University of Tulsa</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                     <relatedItem type="document" target="wwa.00159"/>
@@ -67,9 +72,6 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2019-01-23" who="#nhg">edited editorial note</change>
-            <change when="2018-11-02" who="#nhg">edited title</change>
-            <change when="2017-10-24" who="#nhg">added inline relations information</change>
             <change when="2016-10-18" who="#nhg">corrected</change>
             <change when="2016-09-12" who="#nhg">divided into two files, proofed, added relatedItem info</change>
             <change when="2016-04-21" who="#bb">updated list of staff in titleStmt; corrected miscellaneous validation errors</change>
@@ -92,7 +94,7 @@
             <pb facs="tul.00002.001.jpg" xml:id="leaf001r" type="recto"/>
             <lg type="poem">
                 <delSpan spanTo="#d1" type="hashmark"/>
-                <l xml:id="l01" corresp="#l1604 #l1605">
+                <l>
                     The <subst>
                             
                         <del rend="overstrike" seq="1">great</del>
@@ -106,7 +108,7 @@
 <del rend="overstrike">?</del>
 
                 </l>
-                <l xml:id="l02" corresp="#l1605 #l1606">But what <subst>
+                <l>But what <subst>
                             
                         <del rend="overstrike" seq="1">are</del>
                                                         
@@ -127,8 +129,8 @@
                                                     </subst> owners <add place="supralinear" rend="insertion">and pious?</add>
                         ?
                 </l>
-                <l xml:id="l03" corresp="#l1607">Are the ignorant and wicked nothing?</l>
-                <l xml:id="l04" corresp="#l1607 #l1608">Are the interminable <subst>
+                <l>Are the ignorant and wicked nothing?</l>
+                <l>Are the interminable <subst>
                             
                         <del rend="overstrike" seq="1">races</del>
                                                         
@@ -136,13 +138,13 @@
                                                     </subst> of Asia and
                     <lb/>Africa nothing
                 </l>
-                <l xml:id="l05" corresp="#l1609">Are the <gap reason="deleted; illegible" extent="about two letters"/>
+                <l>Are the <gap reason="deleted; illegible" extent="about two letters"/>
                         common people of Europe
                     <lb/>
 <del rend="overstrike">and America</del> nothing?
                 </l>
-                <l xml:id="l06" corresp="#l1609">Are the American aborigines <del rend="overstrike"><add rend="unmarked" place="supralinear">and the <unclear reason="illegible" resp="#kmp" cert="medium">neg</unclear></add></del> nothing?</l>
-                <l xml:id="l07" corresp="#l1610">
+                <l>Are the American aborigines <del rend="overstrike"><add rend="unmarked" place="supralinear">and the <unclear reason="illegible" resp="#kmp" cert="medium">neg</unclear></add></del> nothing?</l>
+                <l>
 <del rend="overstrike">Are</del> Is <subst>
                             
     <del rend="overstrike" seq="1">the</del>
@@ -173,7 +175,7 @@
                         </choice> 
                         nothing?
                 </l>
-                <l xml:id="l08" corresp="#l1611">Is <subst>
+                <l>Is <subst>
                             
                         <del rend="overstrike" seq="1">the</del>
                                                         
@@ -198,7 +200,7 @@
                         <add place="supralinear" rend="unmarked" seq="2">rank</add>
                                                     </subst> sickness, nothing?
                 </l>
-                <l xml:id="l09" corresp="#l1611">
+                <l>
                             <del rend="overstrike">Is the</del>
                             Are the  
                         
@@ -206,7 +208,7 @@
                     
                     <lb/>hospital nothing?
                 </l>
-                <l xml:id="l10" corresp="#l1612">Are the perpetual successions of
+                <l>Are the perpetual successions of
                     <lb/>shallow persons and frivolous persons nothing?
                 </l>
                 <anchor xml:id="d1"/>

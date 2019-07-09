@@ -6,12 +6,13 @@
 <work ref="xxx.00526" cert="high">
     <p><ref target="#q01 #q02" xml:id="r01" type="text">Two of the sentences</ref> from this manuscript&#8212;those beginning "The greatest poet..." and "The soul has that measureless pride..."&#8212;were used in the preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi>: "The greatest poet does not moralize or make applications of morals . . . he knows the soul. The soul has that measureless pride which consists in never acknowledging any lessons but its own" (1855, p. vi).</p>
 </work>
-    <work ref="xxx.00232"><p><ref target="#q02" xml:id="r02" type="text">The sentence</ref> that begins "The soul has that measureless pride..." is similar to part of the poem "Song of Prudence," which first appeared in the 1856 edition as "Poem of the Last Explanation of Prudence": "The soul has that measureless pride which revolts from every lesson but its own" (1856, p. 260).</p></work>
+    <work ref="xxx.00232"><p><ref target="#q02" xml:id="r02" type="text">The sentence</ref> that begins "The soul has that measureless pride..." also later become part of the poem "Song of Prudence," which first appeared in the 1856 edition as "Poem of the Last Explanation of Prudence": "The soul has that measureless pride which re-
+        volts from every lesson but its own" (1856, p. 260).</p></work>
 </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main" rend="bracketed">Not to dazzle with profuse</title>
+                <title level="m" type="main" rend="bracketed">Not to dazzle</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -54,7 +55,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Lines from this manuscript were used in the preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. The sentence that begins "The soul has that measureless pride..." also later became part of the poem "Song of Prudence." Because the manuscript has not been located it is difficult to speculate on the circumstances of its composition, but it was probably written before or early in 1855.</note>             
+                <note type="project" target="#dat1">Lines from this manuscript were used in the Preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. The sentence that begins "The soul has that measureless pride..." also later became part of the poem "Song of Prudence." Because the manuscript has not been located it is difficult to speculate on the circumstances of its composition, but it was almost certainly written before or early in 1855.</note>             
             </notesStmt>
             <sourceDesc>
                 <biblStruct>
@@ -74,15 +75,13 @@
                 </biblStruct>
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title rend="bracketed">Not to dazzle with profuse</title> 
+                    <title rend="bracketed">Not to dazzle</title> 
                     <date xml:id="dat1" notBefore="1840" notAfter="1855" cert="medium">Before or early in 1855</date>
                     <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2018-11-01" who="#nhg">edited title</change>
-            <change when="2017-10-24" who="#nhg">added inline relations information</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2017-03-08" who="#nhg">updated work relations information, date range</change>
             <change when="2016-07-13" who="#bb">reconciled with EAD record</change>
@@ -95,7 +94,7 @@
 
     <text type="manuscript">
         <body>
-            <p><seg xml:id="q01" corresp="#seg08">Not to dazzle with profuse descriptions of character and events and passions. The greatest poet is not content with dazzling his rays over character and events and passions and scenery and does not descend to moralize or make applications of morals.</seg> <seg xml:id="q02" corresp="#seg09">The soul has that measureless pride which consists in never acknowledging any <choice><orig>lessions</orig><reg>lessons</reg></choice> but its own . . . this invariably.</seg> But to bring the Spirit of all events and persons and passions to the formation of the one individual that hears or reads . . . of you up there now.</p>
+            <p>Not to dazzle with profuse descriptions of character and events and passions. <seg xml:id="q01">The greatest poet is not content with dazzling his rays over character and events and passions and scenery and does not descend to moralize or make applications of morals.</seg> <seg xml:id="q02">The soul has that measureless pride which consists in never acknowledging any <choice><orig>lessions</orig><reg>lessons</reg></choice> but its own . . . this invariably.</seg> But to bring the Spirit of all events and persons and passions to the formation of the one individual that hears or reads . . . of you up there now.</p>
         </body>
     </text>
 </TEI>

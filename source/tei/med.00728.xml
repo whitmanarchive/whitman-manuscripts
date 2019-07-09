@@ -3,7 +3,7 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00728">
     <relations>
-        <work ref="xxx.00054" cert="high"><p>It is possible that this list contributed to the following line from "Bunch Poem," first published in the 1856 <hi rend="italic">Leaves of Grass</hi> and later titled "Spontaneous Me": "Love-thoughts, love-juice, love-odor, love-yielding, love-climbers, and the climbing sap" (1856, p. 310).</p></work>
+        <work ref="xxx.00048" cert="low"><p>It is possible that this list contributed, indirectly, to the ideas found in what became the second section of the poem eventually titled "Song of Myself." Those lines deal with breath, scents, and sexuality, all of which are suggested in the terms in this manuscript.</p></work>
     </relations>
     <teiHeader>
         <fileDesc>
@@ -51,7 +51,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">This list may relate to the following line from the poem published as "Bunch Poem" in the 1856 <hi rend="italic">Leaves of Grass</hi> (later titled "Spontaneous Me"): "Love-thoughts, love-juice, love-odor, love-yielding, love-climbers, and the climbing sap" (310). Because the manuscript has not been located it is difficult to speculate on the circumstances or date of its composition, but it seems likely that it was written in the early to mid-1850s.</note>             
+                <note type="project" target="#dat1">This list may have contributed indirectly to the ideas found in what became the second section of the poem eventually titled "Song of Myself." Those lines deal with breath, scents, and sexuality, all of which are suggested by the terms in this manuscript. Because the manuscript has not been located it is difficult to speculate on the circumstances or date of its composition, but it seems likely that it was written before or early in 1855.</note>             
             </notesStmt>
             <sourceDesc>
                 <biblStruct>
@@ -72,13 +72,12 @@
                 <bibl>
                     <author>Walt Whitman</author>
                     <title rend="bracketed">Breathjuice</title>                  
-                    <date xml:id="dat1" notBefore="1850" notAfter="1856" cert="low">Between 1850 and 1856</date>
+                    <date xml:id="dat1" notBefore="1850" notAfter="1855" cert="low">Before or early in 1855</date>
                     <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2018-11-08" who="#nhg">edited date, work relations</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-12-06" who="#bb">reconciled with EAD record</change>
             <change when="2016-09-12" who="#nhg">corrected</change>

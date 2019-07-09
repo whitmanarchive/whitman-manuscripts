@@ -2,15 +2,10 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00389">
-    <relations>
-        <work ref="xxx.00526" cert="low">
-            <p>It is possible that <ref target="#p01" xml:id="ref01">this line</ref> relates to the following segment from the prose preface of the 1855 <hi rend="italic">Leaves of Grass</hi>: "the perfect equality of the female with the male . . . ." (1855, p. iv).</p>
-        </work>
-    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main" rend="bracketed">The idea that in the</title>
+                <title level="m" type="main" rend="bracketed">The idea that</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author xml:id="ww">Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -66,10 +61,7 @@
                 <handNote xml:id="h2" scribeRef="#ht"><persName xml:id="ht">Horace Traubel</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
-            <change when="2018-11-08" who="#nhg">added relations</change>
-            <change when="2018-11-01" who="#nhg">edited title</change>
-            <change when="2016-05-18" who="#kmp">blessed</change>
+        <revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
             <change when="2016-05-11" who="#nhg">checked, corrected</change>
             <change when="2016-05-04" who="#km">checked</change>
             <change when="2016-02-15" who="#es">checked, completed date in note, changed add to supralinear</change>
@@ -85,7 +77,7 @@
             
             <p>The idea <del rend="overstrike">that</del> <del rend="overstrike">of the</del> that in the nature of things, thr<unclear reason="illegible" cert="medium" resp="#kc">ough</unclear> all affairs and deeds, national or individual, good and bad, each has its inherent law of punishment or reward, which is part of the deed or affair itself, identical with it, and, with its results, goes with that deed, that affair, then and afterwards.&#8212;</p>
             
-            <p xml:id="p01" corresp="#pr58">The idea that the Woman of America is to become the perfect equal of the man.&#8212;</p>
+            <p>The idea that the Woman of America is to become the perfect equal of the man.&#8212;</p>
             
             <p>The idea of the good old cause, Liberty&#8212;that it is to be honored here, whatever day, whatever question, it presents itself in&#8212;that the relation of master and slave <note type="authorial" place="supralinear" rend="circled">[this was written in 1855]</note> is to go the: same road out of These States, that the relation of kings, lords, and commons, has gone.</p>     
             

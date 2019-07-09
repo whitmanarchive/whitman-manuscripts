@@ -1,10 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
- 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00192">
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE TEI.2 PUBLIC "-//UVA::IATH//DTD whitman.dtd (Whitman Archive)//EN" "whitman.dtd" [
+
+<!--ArborText, Inc., 1988-2000, v.4002-->
+
+<!ENTITY loc.00192.001 SYSTEM "loc.00192.001.jpg" NDATA jpeg>
+<!ENTITY loc.00192.002 SYSTEM "loc.00192.002.jpg" NDATA jpeg>
+
+<!ENTITY xxx.00389 SYSTEM "xxx.00389.xml" NDATA xml>
+]>
+
+<TEI.2 id="loc.00192" type="doc">
 
 <relations>
-<work ref="xxx.00389" cert="high">
-<p>These two drafts are early versions of the poem "To the Pending Year," which was published first as "To the Year 1889" in the <date when="1889-01-05">January 5, 1889</date>, issue of the <hi rend="italic">Critic</hi>.</p>
+<work entity="xxx.00389" cert="high">
+<p>These two drafts are early versions of the poem "To the Pending Year," which was published first as "To the Year 1889" in the <date value="1889-01-05">January 5, 1889</date>, issue of the <hi rend="italic">Critic</hi>.</p>
 </work>
 </relations>
 <teiHeader>
@@ -22,25 +32,16 @@ and
 <editor>Ed Folsom</editor>
 <respStmt>
 <resp>Transcription and encoding</resp>
- <persName xml:id="sb">Stacey Berry</persName>
- <persName xml:id="msh">Melody S. Han</persName>
-<persName xml:id="nhg">Nicole Gray</persName>
- <persName xml:id="aj">Andrew Jewell</persName>
- <persName xml:id="kmp">Kenneth Price</persName>
- <persName xml:id="bb">Brett Barney</persName>
+<name>The Walt Whitman Archive Staff</name>
 </respStmt>
 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
 <sponsor>University of Iowa</sponsor>
 <sponsor>University of Nebraska-Lincoln</sponsor>
 <funder>The National Endowment for the Humanities</funder>
 <funder>The United States Department of Education</funder>
-</titleStmt>
-<editionStmt>
-<edition>
-<date>2004</date>
-</edition>
-</editionStmt>
-<publicationStmt>
+</titleStmt><editionStmt>
+<edition><date>2004</date></edition>
+</editionStmt><publicationStmt>
 
 <idno>loc.00192</idno>
 
@@ -54,92 +55,117 @@ and
 <addrLine>whitman@jefferson.village.virginia.edu</addrLine>
 </address>
 <availability>
-<p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+<p>Copyright &#169; 2004 by Ed Folsom and Kenneth M. Price, all rights 
+reserved. Items in the Archive may be shared in accordance with the Fair Use 
+provisions of U.S. copyright law.  Redistribution or republication on other 
+terms, in any medium, requires express written consent from the editors and 
+advance notification of the publisher, The Institute for Advanced Technology 
+in the Humanities.  Permission to reproduce the graphic images in this archive 
+has been granted by the owners of the originals for this publication only.</p>
 </availability>
 </publicationStmt>
 <notesStmt>
-<note type="project">This manuscript was probably composed in late <date when="1888">1888</date> in anticipation of publication in early <date when="1889">1889</date>.</note>
-</notesStmt>
+<note type="project">This manuscript was probably composed in late <date value="1888">1888</date> in anticipation of publication in early <date value="1889">1889</date>.</note></notesStmt>
 <sourceDesc>
 <bibl>
 <author>Walt Whitman</author>
 <title>Down, down proud gorge</title>
-<orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839-1919, Library of Congress, Washington, D.C.
+<orgName>The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839-1919, Library of Congress, Washington, D.C.
 </orgName>
-<note type="project">Transcribed from digital images of the original.</note>
+<note type="project">Transcribed from our own digital image of original manuscript.</note>
 </bibl>
 
 </sourceDesc>
 </fileDesc>
 <revisionDesc>
- <change when="2016-03-08" who="#nhg">updated persNames, corrected</change>
- <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
-<change when="2008-05-02" who="#sb">added blank versos</change>
-<change when="2004-05-19" who="#kmp">Edited</change>
-<change when="2004-05-14" who="#aj">Checked, revised</change>
-<change when="2004-02-06" who="#msh">Encoded</change>
-<change when="2004-02-06" who="#msh">Transcribed</change>
+<change>
+<date>2008-05-02</date>
+<respStmt>
+<name>Stacey Berry</name>
+</respStmt>
+<item>added blank versos</item>
+</change>
+<change>
+<date>2004-05-19</date>
+<respStmt>
+<name>Kenneth M. Price</name>
+</respStmt>
+<item>Edited</item>
+</change>
+<change>
+<date>2004-05-14</date>
+<respStmt>
+<name>Andrew Jewell</name>
+</respStmt>
+<item>Checked, revised</item>
+</change>
+<change>
+<date>2004-02-06</date>
+<respStmt>
+<name>Melody S. Han</name>
+</respStmt>
+<item>Encoded</item>
+</change>
+<change>
+<date>2004-02-06</date>
+<respStmt>
+<name>Melody S. Han</name>
+</respStmt>
+<item>Transcribed</item>
+</change>
 </revisionDesc>
 </teiHeader>
 
 <text type="manuscript">
 <body>
- <pb facs="loc.00192.001.jpg" xml:id="leaf001r" type="recto"/>
 
+<pb corresp="loc.00192.001" id="leaf001r" type="recto"/>
 
-<div1 type="multiplePoems">
+<div1 type="multiple poems">
 
-<lg type="poem">
+<lg1 type="poem">
 
 <head type="main-authorial" rend="underline">Down, down, proud gorge</head>
 
 <l>Down, down, proud gorge, tho' choking thee!</l>
 
-<l>Thy haughty <add rend="unmarked" place="supralinear">high-borne <add rend="insertion" place="bottom">rebellious</add>
-</add> forehead to the gutter,</l>
+<l>Thy haughty <add type="unmarked" place="supralinear">high-borne <add type="insertion" place="marginbot">rebellious</add></add> forehead to the gutter,</l>
 
-<l>
-<subst>
- <del rend="overstrike" seq="1">Thy</del> <add rend="insertion" place="supralinear" seq="2">Crouch, crouch thy</add></subst> neck to eleemosynary <note type="authorial" place="inline">?</note> gifts</l>
+<l><app><rdg varSeq="1"><del type="overstrike">Thy</del> </rdg><rdg
+varSeq="2"><add type="insertion" place="supralinear">Crouch, crouch thy</add></rdg></app> neck to eleemosynary <note type="authorial"
+place="inline">?</note> gifts</l>
 
-</lg>
+</lg1>
 
 
-<lg type="poem">
+<lg1 type="poem">
 <head type="main-authorial" rend="underline">
-<subst>
- <del rend="overstrike" seq="1">Is't indeed</del> <add rend="unmarked" place="supralinear" seq="2">Are they</add></subst> 
-<subst>
- <del rend="overstrike" seq="1">thy</del> <del rend="overstrike">
-  <add rend="unmarked" place="supralinear" seq="2">my</add>
-</del></subst>
+<app>
+<rdg varSeq="1"><del type="overstrike">Is't indeed</del> </rdg>
+<rdg varSeq="2"><add type="unmarked" place="supralinear">Are they</add></rdg></app> 
+<app>
+<rdg varSeq="1"><del type="overstrike">thy</del> </rdg>
+<rdg varSeq="2"><del type="overstrike"><add type="unmarked"
+place="supralinear">my</add></del></rdg></app>
  last words?</head>
 
-<l>No, <add rend="insertion" place="supralinear">I have</add> many <del rend="overstrike">
-<hi rend="underline">are left,</hi>
-</del>
-</l>
+<l>No, <add type="insertion" place="supralinear">I have</add> many <del type="overstrike"><hi
+rend="underline">are left,</hi></del></l>
 
-<l>Bitter <del rend="overstrike">and flaming</del>
-</l>
+<l>Bitter <del type="overstrike">and flaming</del></l>
 
-<l>Scarifying devouring flam<subst>
- <del rend="overwrite" seq="1">s</del><add place="inline" rend="overwrite" seq="2">es</add></subst>. <add rend="unmarked" place="inline">O year</add>
-</l>
-<anchor xml:id="t2"/>
+<l>Scarifying devouring flam<app><rdg varSeq="1"><del type="overwrite">s</del></rdg><rdg varSeq="2"><add place="inline" type="overwrite">es</add></rdg></app>. <add type="unmarked" place="inline">O year</add></l>
+<anchor id="t2"/>
 <l>Shot in chest yet left</l>
-<l>
-
-<transpose rend="bracketed" anchored="true" target="t2">Have <add rend="unmarked" place="supralinear">not</add> fought
-<add rend="insertion" place="supralinear">out</add> my battle <add rend="unmarked" place="supralinear">yet</add>&#8212;</transpose> fought my best steadily,
-<lb/>warily
-</l>
-<l>Thy silliness, scorn, thy <add rend="insertion" place="supralinear">affectations</add> lisps, thy income,</l>
-<l>Have I said all <add rend="unmarked" place="inline">yet</add>? <add rend="unmarked" place="supralinear">O year</add> world?</l>
-</lg>
+<l><seg><transpose rend="bracketed" anchored="yes" target="t2">Have <add type="unmarked" place="supralinear">not</add> fought
+<add type="insertion" place="supralinear">out</add> my battle <add
+type="unmarked" place="supralinear">yet</add>&#8212;</transpose> fought my best steadily,</seg>
+<seg>warily</seg></l>
+<l>Thy silliness, scorn, thy <add type="insertion" place="supralinear">affectations</add> lisps, thy income,</l>
+<l>Have I said all <add type="unmarked" place="inline">yet</add>? <add type="unmarked" place="supralinear">O year</add> world?</l>
+</lg1>
 </div1>
- <pb facs="loc.00192.002.jpg" xml:id="leaf001v" type="verso"/>
-
+<pb corresp="loc.00192.002" id="leaf001v" type="verso"/>
 </body>
 </text>
-</TEI>
+</TEI.2>

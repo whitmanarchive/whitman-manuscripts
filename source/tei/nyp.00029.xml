@@ -2,15 +2,10 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00029">
-    <relations>
-        <work ref="xxx.00119" cert="high">
-            <p>This manuscript is related to the following passage from the second poem of the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, eventually titled "A Song for Occupations": "Or the attraction of gravity and the great laws and harmonious combinations and the fluids of the air as subjects for the savans?" (1855, p. 60)</p>
-        </work>
-    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main" rend="bracketed">The power by which the</title>
+                <title level="m" type="main" rend="bracketed">The power by which the carpenter</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -23,8 +18,6 @@
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="kmp">Kenneth M. Price</persName>
                     <persName xml:id="rc">Regan Chasek</persName>
-                    <persName xml:id="cah">Caitlin Henry</persName>
-                    <persName xml:id="bb">Brett Barney</persName>
                 </respStmt>
                 
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -51,24 +44,20 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">The imagery of this manuscript is echoed in several other manuscripts, as well as in a line of the opening poem of the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>&#8212;the poem eventually titled "Song of Myself" (see "<ref target="loc.00142">you know how</ref>," "<ref target="nyp.00129">I know a rich capitalist</ref>," and "<ref target="nyp.00733">the crowds naked in the</ref>"). These relationships suggest that this manuscript dates to early in 1855 or before. Edward Grier has observed that "the writing suggests a date in the 1850s" (see <hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:136).</note>             
+                <note type="project" target="#dat1">Based on the handwriting, Edward Grier posits that this manuscript dates to the 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:136).</note>             
             </notesStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title rend="bracketed">The power by which the</title>                  
+                    <title rend="bracketed">The power by which the carpenter</title>                  
                     <idno type="callno">b15520479</idno>
-                    <date xml:id="dat1" notBefore="1850" notAfter="1855" cert="medium">Before or early in 1855</date>
+                    <date xml:id="dat1" notBefore="1840" notAfter="1860" cert="low">1840s or 1850s</date>
                     <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-         <change who="#bb" when="2019-06-03">altered wording of date note based on Ken's review</change>
-            <change when="2019-05-13" who="#bb">checked; edited</change>
-            <change when="2019-03-04" who="#cah">Added line relations</change>
-            <change when="2018-11-01" who="#nhg">edited title</change>
             <change when="2017-07-19" who="#rc">added verso image link</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-07-19" who="#nhg">checked, corrected</change>
@@ -82,7 +71,7 @@
         <body>
             <pb xml:id="leaf001r" facs="M_1231710.jpg" type="recto"/>
             
-            <p xml:id="l01" corresp="#l1402">The power by which the carpenter plumbs his house, is the same power that dashes his brains out if he fall from the roof.&#8212;</p>
+            <p>The power by which the carpenter plumbs his house, is the same power that dashes his brains out if he fall from the roof.&#8212;</p>
             
             <pb xml:id="leaf001v" facs="nyp_rc.00002.jpg" type="verso"/>
         </body>

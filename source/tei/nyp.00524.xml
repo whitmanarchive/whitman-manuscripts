@@ -2,16 +2,10 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00524">
-    <relations>
-        <work ref="xxx.00052" cert="low">
-            <p>This manuscript is similar in subject to the following line from the poem eventually titled "I Sing the Body Electric": "Was it dreamed whether those who corrupted their own live bodies could conceal
-                themselves?" (1855, p. 77)</p>
-        </work>
-    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main" rend="bracketed">tainting the best of the</title>
+                <title level="m" type="main" rend="bracketed">tainting the best</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -65,8 +59,6 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2018-11-16" who="#nhg">added relations information</change>
-            <change when="2018-11-01" who="#nhg">edited title</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-09-12" who="#nhg">corrected</change>
             <change when="2016-07-20" who="#nhg">checked, corrected</change>
@@ -81,7 +73,7 @@
         <body>
             <pb xml:id="leaf001r" facs="nyp.00079.002.jpg" type="recto"/>
             
-            <ab xml:id="ab01" corresp="#l1854">tainting the best of the rich orchard of himself . . . . and he who anyway does not respect his own organs and cherish them and strengthen them, and keep himself clean <del rend="overstrike">not only on his face but</del> outside and inside&#8212;<del rend="overstrike">need not</del> let that man young or old never <del rend="overstrike">de</del> deceive himself with the folly that the <subst><del rend="overstrike" seq="1">bad</del> <add rend="unmarked" place="supralinear" seq="2">sore</add></subst> stuff <subst><del rend="overstrike" seq="1">and the under</del> <add rend="umarked" place="supralinear" seq="2">is hid by</add></subst> the cloth he wears and <del rend="overstrike">his</del> makes no avowal.&#8212;Though the secret is well hid, though the eye does not see, nor the hand touch, nor the nose smell, the rank odor strikes out</ab>
+            <ab>tainting the best of the rich orchard of himself . . . . and he who anyway does not respect his own organs and cherish them and strengthen them, and keep himself clean <del rend="overstrike">not only on his face but</del> outside and inside&#8212;<del rend="overstrike">need not</del> let that man young or old never <del rend="overstrike">de</del> deceive himself with the folly that the <subst><del rend="overstrike" seq="1">bad</del> <add rend="unmarked" place="supralinear" seq="2">sore</add></subst> stuff <subst><del rend="overstrike" seq="1">and the under</del> <add rend="umarked" place="supralinear" seq="2">is hid by</add></subst> the cloth he wears and <del rend="overstrike">his</del> makes no avowal.&#8212;Though the secret is well hid, though the eye does not see, nor the hand touch, nor the nose smell, the rank odor strikes out</ab>
             
             <pb xml:id="leaf001v" facs="nyp.00079.001.jpg" type="verso"/>
         </body>

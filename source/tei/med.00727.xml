@@ -4,13 +4,13 @@
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00727">
 <relations>
 <work ref="xxx.00048" cert="low">
-<p>This manuscript may relate to the poem eventually titled "Song of Myself," particularly the line that reads "Logic and sermons never convince" (1855, p. 33).</p>
+<p>This manuscript may have contributed to the poem eventually titled "Song of Myself," particularly the lines that read "Logic and sermons never convince, / The damp of the night drives deeper into my soul" (1855, p. 33).</p>
 </work>
 </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main" rend="bracketed">The test of the goodness</title>
+                <title level="m" type="main" rend="bracketed">The test</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -52,7 +52,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Because the manuscript has not been located it is difficult to speculate on the circumstances or date of its composition, but some of the wording in the manuscript calls to mind the poem eventually titled "Song of Myself." The date of the manuscript is therefore possibly before or early in 1855.</note>             
+                <note type="project" target="#dat1">Because the manuscript has not been located it is difficult to speculate on the circumstances or date of its composition, but some of the wording in the manuscript calls to mind the poem eventually titled "Song of Myself." The date of the manuscript is therefore probably before or early in 1855.</note>             
             </notesStmt>
             <sourceDesc>
                 <biblStruct>
@@ -72,15 +72,13 @@
                 </biblStruct>
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title rend="bracketed">The test of the goodness</title>                  
-                    <date xml:id="dat1" notBefore="1845" notAfter="1855" cert="low">Before or early in 1855</date>
+                    <title rend="bracketed">[The test]</title>                  
+                    <date xml:id="dat1" notBefore="1845" notAfter="1855" cert="medium">Before or early in 1855</date>
                     <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2018-11-08" who="#nhg">added inline relations</change>
-            <change when="2018-11-01" who="#nhg">edited title</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2017-02-27" who="#nhg">edited editorial note</change>
             <change when="2016-07-13" who="#nhg">checked, corrected</change>
@@ -92,7 +90,7 @@
 
     <text type="manuscript">
         <body>
-            <ab xml:id="ab01" corresp="#l651">The test of the goodness or truth of anything is the soul itself&#8212;whatever does good to the soul, soothes, refreshes, cheers, inspirits, consoles, &#038;c &#038;c&#8212;that is so, easy enough.&#8212;But doctrines, sermons, logic??</ab>
+            <ab>The test of the goodness or truth of anything is the soul itself&#8212;whatever does good to the soul, soothes, refreshes, cheers, inspirits, consoles, &#038;c &#038;c&#8212;that is so, easy enough.&#8212;But doctrines, sermons, logic??</ab>
         </body>
     </text>
 </TEI>
