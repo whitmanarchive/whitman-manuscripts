@@ -65,7 +65,7 @@ class TeiToEs
 
   def subcategory
     # Note: used to be called "transcriptions"
-    "literary"
+    "manuscripts"
   end
 
   # TODO text other from author, title, publisher, pubplace, and date[@when]
