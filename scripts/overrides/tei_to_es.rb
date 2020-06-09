@@ -7,10 +7,14 @@ class TeiToEs
   # in the below example, the xpath for "person" is altered
   def override_xpaths
     xpaths = {}
-    xpaths["date"] = [
-      "/TEI/teiHeader/fileDesc/sourceDesc/bibl[1]/date/@notBefore",
-      "/TEI/teiHeader/fileDesc/sourceDesc/bibl[1]/date/@when"
+    xpaths["contributors"] = [
+      "//titleStmt/respStmt/persName"
     ]
+    xpaths["date"] = {
+      "not_after" => "/TEI/teiHeader/fileDesc/sourceDesc/bibl[1]/date/@notAfter",
+      "not_before" => "/TEI/teiHeader/fileDesc/sourceDesc/bibl[1]/date/@notBefore",
+      "known" => "/TEI/teiHeader/fileDesc/sourceDesc/bibl[1]/date/@when"
+    }
     xpaths["date_display"] = "/TEI/teiHeader/fileDesc/sourceDesc/bibl[1]/date"
     return xpaths
   end
@@ -38,12 +42,23 @@ class TeiToEs
   end
 
   def date(before=true)
-    date = ""
-    @xpaths["date"].each do |xpath|
-      date = get_text(xpath)
-      break if !date.empty?
+    dt = get_text(@xpaths["date"]["known"])
+    if dt.empty?
+      # if there is no known date, use the not_before date
+      # as the primary date for general searches / filtering
+      dt = get_text(@xpaths["date"]["not_before"])
     end
-    CommonXml.date_standardize(date, before)
+    Datura::Helpers.date_standardize(dt)
+  end
+
+  def date_not_after
+    dt = get_text(@xpaths["date"]["not_after"])
+    dt.empty? ? date(false) : Datura::Helpers.date_standardize(dt, false)
+  end
+
+  def date_not_before
+    dt = get_text(@xpaths["date"]["date_not_before"])
+    dt.empty? ? date : Datura::Helpers.date_standardize(dt)
   end
 
   # TODO check if this is a good assumption to be making
