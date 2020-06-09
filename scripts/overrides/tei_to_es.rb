@@ -16,7 +16,9 @@ class TeiToEs
       "known" => "/TEI/teiHeader/fileDesc/sourceDesc/bibl[1]/date/@when"
     }
     xpaths["date_display"] = "/TEI/teiHeader/fileDesc/sourceDesc/bibl[1]/date"
-    return xpaths
+    xpaths["rights"] = "//publicationStmt/availability"
+    xpaths["rights_uri"] = "//publicationStmt/availability//ref/@target"
+    xpaths
   end
 
   #################
@@ -74,6 +76,14 @@ class TeiToEs
   def languages
     # TODO verify that none of these are multiple languages
     [ "en" ]
+  end
+
+  def rights
+    get_text(@xpaths["rights"])
+  end
+
+  def rights_uri
+    get_text(@xpaths["rights_uri"])
   end
 
   # TODO place, publisher, rights, rights_uri, rights_holder, source
