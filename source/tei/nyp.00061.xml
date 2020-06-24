@@ -3,7 +3,7 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00061">
     <relations>
-        <work ref="xxx.00892" cert="high"><p><ref type="text" xml:id="r01" target="#q01">This phrase</ref> from the manuscript appears, slightly revised, in a self-published review of the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi> that Whitman wrote for the August 29, 1855, issue of the <hi rend="italic">Brooklyn Daily Times</hi>. In the review, entitled "Walt Whitman, a Brooklyn Boy," Whitman describes the book's author as "one in whom you will see the singularity which consists in no singularity."</p></work>
+        <work ref="xxx.00892" cert="low"><p><ref type="text" xml:id="r01" target="#q01">This phrase</ref> from the manuscript is similar to language in a self-published review of the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi> that Whitman wrote for the August 29, 1855, issue of the <hi rend="italic">Brooklyn Daily Times</hi>. In the review, entitled "Walt Whitman, a Brooklyn Boy," Whitman describes the book's author as "one in whom you will see the singularity which consists in no singularity."</p></work>
     </relations>
     <teiHeader>
         <fileDesc>
@@ -46,7 +46,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">A phrase from this manuscript appears, slightly revised, in a <ref target="http://www.whitmanarchive.org/criticism/reviews/leaves1855/anc.00013.html">review</ref> written by Whitman of the 1855 edition of <hi rend="italic">Leaves of Grass</hi>.  The review appeared unsigned in the August 29, 1855, issue of the <hi rend="italic">Brooklyn Daily Times</hi>. The date of the manuscript is therefore probably before or early in 1855.</note>             
+                <note type="project" target="#dat1">Based on the handwriting, Edward Grier dates this manuscript to the 1840s or early 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:160). The manuscript may relate to a self-published review of the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi> that Whitman wrote for the August 29, 1855, issue of the <hi rend="italic">Brooklyn Daily Times</hi>. In the review, titled "Walt Whitman, A Brooklyn Boy," Whitman describes the book's author as "one in whom you will see the singularity which consists in no singularity."</note>             
             </notesStmt>
             <sourceDesc>                
                 <bibl>
@@ -60,6 +60,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2017-12-11" who="#nhg">added inline relations information</change>
             <change when="2017-07-19" who="#rc">added verso link</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-03-06" who="#nhg">edited date note</change>
@@ -78,6 +79,6 @@
 
             <pb xml:id="leaf001v" facs="nyp_rc.00006.jpg" type="verso"/>
 
-        </body>
+        </body> 
     </text>
 </TEI>

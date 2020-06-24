@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00516">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00516">
+    <relations>
+        <work ref="xxx.00119" cert="low">
+            <p>It is possible that these lines are early notes toward the second poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, a poem that would eventually be titled "A Song for Occupations." In this manuscript, Whitman writes of a worker being "not one whit less a man than the President." In the 1855 poem, Whitman asks, "Is it you then that thought yourself less? / It it you that thought the President greater than you? or the rich better off than you? or the educated wiser than you?" (1855, p. 58)</p>
+        </work>
+        <work ref="xxx.00259" cert="low">
+            <p>This manuscript also may relate to "Pictures," a lengthy manuscript poem held at the Beinecke Library at Yale University that was probably written in the mid- to late-1850s. The first several lines of the poem were published in 1880 as "My Picture-Gallery."</p>
+        </work>
+    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -40,7 +45,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">It is possible that these lines are early notes for the second poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, a poem that would eventually be titled "A Song for Occupations." This connection, and Whitman's use of the long "s" in several of the words, suggest that this is an early manuscript, likely written between 1845 and 1855.</note>             
+                <note type="project" target="#dat1">The handwriting and Whitman's use of the long "s" in several of the words suggest that this is an early manuscript. It is possible that these lines are early notes for the second poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, eventually titled "A Song for Occupations." This manuscript may also relate to "<ref target="yal.00081.html">Pictures</ref>," a lengthy manuscript poem held at the Beinecke Library at Yale University that was probably written in the mid- to late-1850s.</note>             
             </notesStmt>
             <sourceDesc>
 
@@ -48,7 +53,7 @@
                     <author>Walt Whitman</author>
                     <title>"A Cluster of poems" and "Living Pictures"</title>                  
                     <idno type="callno">MSS 3829, Box 1, Folder 19</idno>
-                    <date xml:id="dat1" notBefore="1845" notAfter="1855" cert="medium">Between 1845 and 1855</date>
+                    <date xml:id="dat1" notBefore="1840" notAfter="1855" cert="medium">Before 1855</date>
                     <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
                     <note>Transcribed from digital images of the original.</note>
                     <relatedItem type="document" target="wwa.00010"/>
@@ -86,12 +91,9 @@
             
             
             <div1 type="section">
-                <relations>
-                    <work ref="xxx.00119" cert="low"><p>It is possible that these lines are early notes for the second poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, a poem that would eventually be titled "A Song for Occupations." In this manuscript, Whitman writes of a common worker being "not one whit less a man than the President." In the 1855 poem, Whitman asks, "Is it you then that thought yourself less? / It it you that thought the President greater than you?" (1855, p. 58)</p></work>
-                </relations>
                 <head type="main-authorial" rend="center"><hi rend="underline">America</hi></head>
                 
-                <ab>Here <del rend="overstrike"><choice><orig>labour</orig><reg>labor</reg></choice> is</del> different from any other country in the world <add rend="insertion" place="supralinear">all forms of practical</add> <choice><orig>labour</orig><reg>labor</reg></choice> is <del rend="overstrike">manly,</del> recognized as honorable.&#8212;The man who tends the President's horses, not one whit less a man than the President.&#8212;<hi rend="underline">The</hi> healthy, fine-formed girl who <del rend="overstrike">tends</del> waits upon the <del rend="overstrike">great</del> wealthy lady, not less than the wealthy Lady.&#8212;</ab>
+                <ab><seg xml:id="seg01">Here <del rend="overstrike"><choice><orig>labour</orig><reg>labor</reg></choice> is</del> different from any other country in the world <add rend="insertion" place="supralinear">all forms of practical</add> <choice><orig>labour</orig><reg>labor</reg></choice> is <del rend="overstrike">manly,</del> recognized as honorable.—</seg><seg xml:id="seg02">The man who tends the President's horses, not one whit less a man than the President.—</seg><seg xml:id="seg03"><hi rend="underline">The</hi> healthy, fine-formed girl who <del rend="overstrike">tends</del> waits upon the <del rend="overstrike">great</del> wealthy lady, not less than the wealthy Lady.—</seg></ab>
                 
                 <ab><hi rend="underline">He</hi>, who carries bricks <add rend="insertion" place="supralinear">&amp; mortar</add> to the mason, not less than the mason,</ab>
                 

@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00883">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00883">
   <relations>
     <work ref="xxx.00048" cert="high">
-      <p>"Sweet Flag" includes the phrase "polished melons," which is reminiscent of the line "I reach to the leafy lips . . . . I reach to the polished breasts of melons" in the poem that was later titled "Song of Myself" (1855, p. 54). Also, The list on this manuscript  includes "Sweet flag," "Sweet fern," and "Calamus," and may be related to another section of the poem that became "Song of Myself," which reads, in part, "Root of washed sweet-flag, timorous pond-snipe, nest of guarded duplicate eggs, it shall be you" (1855, p. 30).</p>
+      <p>"Sweet Flag" includes the phrase "polished melons," which is reminiscent of the line "I reach to the leafy lips . . . . I reach to the polished breasts of melons" in the poem that was later titled "Song of Myself" (1855, p. 54). The list on this manuscript includes "Sweet flag," "Sweet fern," and "Calamus," and may be related to another section of the poem that became "Song of Myself," which reads, in part, "Root of washed sweet-flag, timorous pond-snipe, nest of guarded duplicate eggs, it shall be you / ... / Trickling sap of maple, fibre of manly wheat, it shall be you" (1855, p. 30).</p>
     </work>
-    <work ref="xxx.00264" cert="high">
-      <p>The following jottings on this manuscript appear to have contributed to the poem eventually titled "The Sleepers": "I am a look / mystic / in a trance/ exaltation." In the untitled version of the poem first published in the 1855 edition of <hi rend="italic">Leaves of Grass</hi> the relevant line reads, "I am a dance . . . . Play up there! the fit is whirling me fast" (p. 71). Further, the reference in this manuscript to the soothing hand is perhaps an early version of the passage in which the narrator, who stands "with drooping eyes by the worstsuffering and restless," passes his "hands soothingly to and fro a few inches from them" (1855, p. 71). Finally, the passage about "trickle drops" from the "manly maple" (associated in the manuscript with the "tooth of delight" and "tooth prong") may have contributed to the following passage in the same poem: "The white teeth stay, and the boss-tooth advances in darkness, / And liquor is spilled on lips and bosoms by touching glasses, and the best liquor afterward" (1855, p. 72). These lines were removed from the final version of the poem.</p>
+    <work ref="xxx.00264" cert="low">
+      <p>The following jottings on this manuscript may have contributed to the poem eventually titled "The Sleepers": "I am a look / mystic / in a trance/ exaltation." In the version of the poem first published in the 1855 edition of <hi rend="italic">Leaves of Grass</hi> the relevant line reads, "I am a dance . . . . Play up there! the fit is whirling me fast" (p. 71). The passage about "trickle drops" from the "manly maple" (associated in the manuscript with the "tooth of delight" and "tooth prong") may relate to the following passage in the same poem: "The white teeth stay, and the boss-tooth advances in darkness, / And liquor is spilled on lips and bosoms by touching glasses, and the best liquor afterward" (1855, p. 72). These lines were removed from the final version of the poem.</p>
     </work>
   </relations>
   <teiHeader>
@@ -52,15 +49,15 @@
         </availability>
       </publicationStmt>
       <notesStmt>
-        <note type="project" target="#dat1">Whitman likely drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. This manuscript, filled with suggestive words and phrases, appears to have contributed to the first and fourth poems in the volume, both titled "Leaves of Grass" and now more commonly known by their final titles, "Song of Myself" and "The Sleepers," respectively.</note>
+        <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript, filled with suggestive words and phrases, may have contributed to the first and fourth poems in the volume, eventually titled "Song of Myself" and "The Sleepers," respectively.</note>
       </notesStmt>
       <sourceDesc>
 
         <bibl>
           <author>Walt Whitman</author>
-          <title>Song of Myself (Autograph MS, draft portions) To be at all...</title>
+          <title>To be at all—what is better than that?</title>
           <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
-          <idno type="callno">MS 2</idno>
+          <idno type="callno">MS 2 (Volume 2)</idno>
           <relatedItem type="text" xml:id="rel01" target="duk.00001"/>
           <relatedItem type="document" target="wwa.00035"/>
           <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
@@ -69,6 +66,9 @@
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
+      <change when="2019-11-13" who="#bb">edited Sleepers work note</change>
+      <change when="2019-11-06" who="#nhg">edited note</change>
+      <change when="2018-11-08" who="#nhg">added inline relations information</change>
       <change when="2018-09-10" who="#nhg">updated image names</change>
       <change when="2017-03-23" who="#nhg">edited work relations information</change>
       <change when="2017-01-30" who="#bb">reconciled with EAD record</change>
@@ -96,25 +96,24 @@
       
         <delSpan spanTo="#d4" rend="hashmark"/>
         <list>
-          <item>Sweet flag</item>
+          <item xml:id="item01">Sweet flag</item>
           <item>Sweet fern</item>
-          <item>illuminated face</item>
+          <item xml:id="item02">illuminated face</item>
           <item>clarified</item>
           <item>unpolluted</item>
-          <item>flour&#45;corn</item>
+          <item xml:id="item06">flour-corn</item>
           <item>aromatic</item>
           <item>Calamus</item>
-          <item>sweet&#45;gum</item><!--Grier sees "green"-->
+          <item>sweet-gum</item><!--Grier sees "green"-->
           <item>bulb<lb/> and melons with<lb/> bulbs <subst><del rend="overstrike" seq="1">swee</del> <add place="supralinear" rend="unmarked" seq="2">grateful</add></subst><lb/> to the hand</item>
         </list>
         
         <cb n="2"/>
         
-       <ab>I am a look<lb/> mystic<lb/> in a trance<lb/> exaltation</ab><!-- There is an ambiguous marking around this chunk of text, a sort of curved bracket or transposition mark -->
+       <ab xml:id="ab01">I am a look<lb/> mystic<lb/> in a trance<lb/> exaltation</ab><!-- There is an ambiguous marking around this chunk of text, a sort of curved bracket or transposition mark -->
         
-        <ab>something wild and<lb/>
-            untamed&#8212;<del rend="overstrike"><unclear reason="illegible" resp="#nhg"
-              cert="medium">noble</unclear></del><lb/>&#8212;half savage<lb/></ab>
+        <ab xml:id="ab02">something wild and<lb/>
+            untamed—<del rend="overstrike"><unclear reason="illegible" resp="#nhg" cert="medium">noble</unclear></del><lb/>—half savage<lb/></ab>
         
         <milestone unit="undeclared" rend="horbar-full"/>
         
@@ -122,11 +121,11 @@
         
         <milestone unit="undeclared" rend="horbar-short-left"/>
         
-        <ab><del rend="overstrike">The</del> <subst><del rend="overstrike" seq="1"><subst><del rend="overwrite" seq="1">s</del><add place="over" rend="overwrite" seq="2">S</add></subst>weet</del> <del rend="overstrike" seq="3"><add place="supralinear" rend="unmarked" seq="2"><unclear cert="medium" resp="#aj" reason="illegible">Trickling</unclear></add></del> <add place="supralinear" rend="unmarked" seq="4">Trickling</add></subst> <subst><del rend="overwrite" seq="1">s</del><add place="over" rend="overwrite" seq="2">S</add></subst>ap <add place="supralinear" rend="insertion">that</add> <subst><del rend="overstrike" seq="1">trickles</del> <del rend="overstrike" seq="3"><add place="supralinear" rend="unmarked" seq="2">drops</add></del> <add place="supralinear" rend="unmarked" seq="4">flows</add></subst><lb/> from the end of the<lb/> <del rend="overstrike"><unclear cert="low" resp="#kmp" reason="deletion, illegible">poli</unclear></del> <del rend="overstrike">little</del><lb/> manly maple<lb/> tooth of delight<lb/> tooth-prong<lb/>&#8212;tine
+        <ab xml:id="ab04"><del rend="overstrike">The</del> <subst><del rend="overstrike" seq="1"><subst><del rend="overwrite" seq="1">s</del><add place="over" rend="overwrite" seq="2">S</add></subst>weet</del> <del rend="overstrike" seq="3"><add place="supralinear" rend="unmarked" seq="2"><unclear cert="medium" resp="#aj" reason="illegible">Trickling</unclear></add></del> <add place="supralinear" rend="unmarked" seq="4">Trickling</add></subst> <subst><del rend="overwrite" seq="1">s</del><add place="over" rend="overwrite" seq="2">S</add></subst>ap <add place="supralinear" rend="insertion">that</add> <subst><del rend="overstrike" seq="1">trickles</del> <del rend="overstrike" seq="3"><add place="supralinear" rend="unmarked" seq="2">drops</add></del> <add place="supralinear" rend="unmarked" seq="4">flows</add></subst><lb/> from the end of the<lb/> <del rend="overstrike"><unclear cert="low" resp="#kmp" reason="deletion, illegible">poli</unclear></del> <del rend="overstrike">little</del><lb/> manly maple<lb/> tooth of delight<lb/> tooth-prong<lb/>—tine</ab>
         
         <milestone unit="undeclared" rend="horbar-full"/>
          
-         spen<subst><del rend="overwrite" seq="1">d</del><add rend="overwrite" place="over" seq="2">t</add></subst> spend</ab>
+         <ab>spen<subst><del rend="overwrite" seq="1">d</del><add rend="overwrite" place="over" seq="2">t</add></subst> spend</ab>
           
         <cb n="full"/>
         
@@ -137,9 +136,9 @@
         <ab>bulbous <del rend="overstrike">bulbous</del></ab>
         
         <lg type="poem">
-          <l>Living bulbs, melons with polished<lb/> rinds <subst><del rend="overstrike" seq="1">the hand soot<subst><del rend="overwrite" seq="1">hing</del><add place="over" rend="overwrite" seq="2">he</add></subst></del> <add place="supralinear" rend="unmarked" seq="2">that</add></subst><lb/> <del rend="overstrike">the hand to touch</del><lb/> smooth to the <subst><del rend="overstrike" seq="1">press</del> <add place="supralinear" rend="unmarked" seq="2">reached</add></subst><lb/> hand</l>
+          <l xml:id="l01">Living bulbs, melons with polished<lb/> rinds <subst><del rend="overstrike" seq="1">the hand soot<subst><del rend="overwrite" seq="1">hing</del><add place="over" rend="overwrite" seq="2">he</add></subst></del> <add place="supralinear" rend="unmarked" seq="2">that</add></subst><lb/> <del rend="overstrike">the hand to touch</del><lb/> smooth to the <subst><del rend="overstrike" seq="1">press</del> <add place="supralinear" rend="unmarked" seq="2">reached</add></subst><lb/> hand</l>
           
-          <l>Bulbs of life-lilies, polished melons,<lb/> <subst><del rend="overstrike" seq="1"><unclear cert="medium" resp="#aj" reason="deletion, illegible">reach</unclear></del> <add place="supralinear" rend="unmarked" seq="2">flavored</add></subst> for the <subst><del rend="overstrike" seq="1">gentlest</del> <add place="supralinear" rend="unmarked" seq="2">mildest</add></subst> hand that<lb/> shall reach,</l>
+          <l xml:id="l02">Bulbs of life-lilies, polished melons,<lb/> <subst><del rend="overstrike" seq="1"><unclear cert="medium" resp="#aj" reason="deletion, illegible">reach</unclear></del> <add place="supralinear" rend="unmarked" seq="2">flavored</add></subst> for the <subst><del rend="overstrike" seq="1">gentlest</del> <add place="supralinear" rend="unmarked" seq="2">mildest</add></subst> hand that<lb/> shall reach,</l>
         </lg>
         <anchor xml:id="d3"/>
         <anchor xml:id="d4"/>

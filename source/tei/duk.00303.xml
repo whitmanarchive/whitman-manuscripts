@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00303">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00303">
 <relations>
 <work ref="xxx.00526" cert="low">
 	<p>This note possibly contributed to a passage in the prose preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi> in which Whitman writes that the "swarms of the polished deprecating and reflectors and the polite float off and leave no remembrance" (1855, p. xii).</p>
@@ -10,7 +7,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title level="m" type="main" rend="bracketed">What shall the great poet be then?</title>
+				<title level="m" type="main" rend="bracketed">What shall the great poet</title>
 				<title level="m" type="sub">a machine readable transcription</title>
 				<author>Walt Whitman</author>
 				<editor>Kenneth M. Price</editor>
@@ -49,8 +46,7 @@
 				</availability>
 			</publicationStmt>
 			<notesStmt>
-				<note type="project" target="#dat1">Based on the handwriting, Edward Grier posits that this manuscript dates to the 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 4:1560). It may have contributed to a passage in the prose preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi> in which Whitman writes that the "swarms of the polished deprecating and reflectors and the polite float off and leave no remembrance" (xii).
-</note>             
+				<note type="project" target="#dat1">Based on the handwriting, Edward Grier posits that this manuscript dates to the 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 4:1560). It may have contributed to a passage in the prose preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi> in which Whitman writes that the "swarms of the polished deprecating and reflectors and the polite float off and leave no remembrance" (xii).</note>             
 			</notesStmt>
 			<sourceDesc>
 				
@@ -58,13 +54,15 @@
 					<author>Walt Whitman</author>
 					<title rend="bracketed">Suggestions for Poems</title>
 					<date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1859">1850s</date>
-					<idno type="callno">MS f 33</idno>
+					<idno type="callno">MS f 33 (Volume 33)</idno>
 					<orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
 					<note type="project">Transcribed from digital images of the original.</note>
 				</bibl>
 			</sourceDesc>
 		</fileDesc>
 		<revisionDesc>
+			<change when="2018-11-08" who="#nhg">added inline relations</change>
+			<change when="2018-11-01" who="#nhg">edited title, idno</change>
 			<change when="2017-03-28" who="#nhg">edited work relations information, editorial note</change>
             <change when="2017-01-09" who="#bb">added Work ID; reconciled with EAD record</change>
             <change when="2016-05-18" who="#kmp">blessed</change>
@@ -81,7 +79,7 @@
 
 <pb xml:id="leaf001r" facs="duk_jc.00020.jpg" type="recto"/>
 
-	<p>What shall the great poet be then? Shall he be a timid apologetic person, deprecating himself, guarding off the effects <del rend="overstrike">he won</del></p>
+	<p xml:id="p01">What shall the great poet be then? Shall he be a timid apologetic person, deprecating himself, guarding off the effects <del rend="overstrike">he won</del></p>
 
 
 <pb xml:id="leaf001v" facs="duk_am.00234_large.jpg" type="verso"/>

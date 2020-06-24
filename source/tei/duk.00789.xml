@@ -3,14 +3,14 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00789">
    <relations>
-      <work ref="xxx.00411" cert="high">
+      <work ref="xxx.00221" cert="high">
          <p>This prose manuscript includes the line "Which is the poem or any book that is not diseased?" which appeared in a slightly altered form in "Poem of Many in One" in 1856: "Which is the theory or book that is not diseased?" (p. 181). The poem, eventually titled "By Blue Ontario's Shore," was retained through subsequent editions of <hi rend="italic">Leaves</hi>, although the line was dropped after 1860&#8211;1861.</p>
       </work>
    </relations>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="m" type="main" rend="bracketed">Health does not tell</title>
+            <title level="m" type="main" rend="bracketed">Health does not tell any</title>
             <title level="m" type="sub">a machine readable transcription</title>
             <author>Walt Whitman</author>
             <editor>Kenneth M. Price</editor>
@@ -53,14 +53,16 @@
             <bibl>
                <author>Walt Whitman</author>
                <title rend="bracketed">On Poetry</title>
-               <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1856">Before or during 1856</date>
-               <idno type="callno">MS 68</idno>
+               <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1856">Before or early in 1856</date>
+               <idno type="callno">MS 68 (Volume 68)</idno>
                <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &#038; Manuscript Library, Duke University</orgName>
                <note type="project">Transcribed from digital images of the original.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2019-11-12" who="#bb">corrected work ID</change>
+         <change when="2018-01-11" who="#nhg">edited title, idno</change>
          <change when="2017-01-25" who="#bb">revised date note; reconciled with EAD record</change>
          <change when="2016-05-18" who="#kmp">blessed</change>
          <change who="#nhg" when="2016-05-04">checked, corrected</change>

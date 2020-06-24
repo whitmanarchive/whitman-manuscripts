@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00130">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00130">
     <relations>
         <work ref="xxx.00526" cert="low">
-            <p>A manuscript in which Whitman describes his views on style and composition. His discussion about the importance of a lack of "ornament" in literature is similar to lines from the preface to the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>: "Of ornaments to a work nothing outre can be allowed . . but those ornaments can be allowed that conform to the perfect facts of the open air and that flow out of the nature of the work and come irrepressibly from it and are necessary to the completion of the work. Most works are most beautiful without ornament . . . " (1855, p. ix).</p>
+            <p>A manuscript in which Whitman describes his views on style and composition. His comments about the importance of a lack of "ornament" in literature are similar to lines from the preface to the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>: "Of ornaments to a work nothing outre can be allowed . . but those ornaments can be allowed that conform to the perfect facts of the open air and that flow out of the nature of the work and come irrepressibly from it and are necessary to the completion of the work. Most works are most beautiful without ornament . . . " (1855, p. ix).</p>
         </work>
         <work ref="xxx.00419" cert="low">
-            <p>Whitman reworked some of those ideas on ornament and they appear in the poem "Says" in the 1860 edition of <hi rend="italic">Leaves</hi>: "I say for ornaments nothing outre can be allowed, / And that anything is most beautiful without ornament" (1860, p. 419). The poem was later retitled "Suggestions" and was retained in <hi rend="italic">Leaves</hi> until 1872 and thereafter was excluded.</p>
+            <p>Whitman reworked some of those ideas on ornament and they appear in the poem "Says" in the 1860–1861 edition of <hi rend="italic">Leaves</hi>: "I say for ornaments nothing outre can be allowed, / And that anything is most beautiful without ornament" (1860, p. 419). The poem was later retitled "Suggestions" and was retained in <hi rend="italic">Leaves</hi> until 1872 but thereafter was excluded.</p>
         </work>
     </relations>
     <teiHeader>
@@ -65,6 +62,8 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2019-11-01" who="#nhg">tweaked wording in work notes</change>
+            <change when="2018-11-05" who="#nhg">added inline relations</change>
             <change when="2017-03-21" who="#nhg">edited work relations information</change>
             <change when="2017-02-13" who="#bb">reconciled with EAD record</change>
             <change when="2016-05-18" who="#kmp">blessed</change>
@@ -84,15 +83,15 @@
             
             <head type="main-authorial"><hi rend="underline">Rules for Composition</hi></head>
             
-            <p>A perfectly transparent, plate-glassy style, artless, with no ornaments, or attempts at ornaments, for their own sake,&#8212;<add rend="insertion" place="supralinear">they</add> only <subst><del rend="overstrike" seq="1">coming in where</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="supralinear" seq="2">answering</add></del> <add rend="unmarked" place="supralinear" seq="4">looking well when</add></subst> like the beauties of the person or character, by nature and intuition, <add rend="insertion" place="supralinear">and</add> never lugged <subst><add rend="unmarked" place="supralinear" seq="4">in</add> <del rend="overstrike" seq="1"><unclear reason="illegible" cert="high" resp="#jc">in</unclear></del> <del rend="overstrike" seq="3"><add rend="unmarked" place="supralinear" seq="2">in</add></del></subst> <del rend="overstrike"><add rend="unmarked" place="supralinear">by the colla</add></del> to show off, which <subst><del rend="overstrike" seq="1">founders</del> <add rend="unmarked" place="supralinear" seq="2">nullifies</add></subst> the best of them, no matter <del rend="overstrike">under</del> when and where, <del rend="overstrike">or <subst><del rend="overstrike" seq="1">under</del> <add rend="unmarked" place="supralinear" seq="2">of</add></subst> the most favorable cases.</del></p>
+            <p xml:id="p01">A perfectly transparent, plate-glassy style, artless, with no ornaments, or attempts at ornaments, for their own sake,—<add rend="insertion" place="supralinear">they</add> only <subst><del rend="overstrike" seq="1">coming in where</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="supralinear" seq="2">answering</add></del> <add rend="unmarked" place="supralinear" seq="4">looking well when</add></subst> like the beauties of the person or character, by nature and intuition, <add rend="insertion" place="supralinear">and</add> never lugged <subst><add rend="unmarked" place="supralinear" seq="4">in</add> <del rend="overstrike" seq="1"><unclear reason="illegible" cert="high" resp="#jc">in</unclear></del> <del rend="overstrike" seq="3"><add rend="unmarked" place="supralinear" seq="2">in</add></del></subst> <del rend="overstrike"><add rend="unmarked" place="supralinear">by the colla</add></del> to show off, which <subst><del rend="overstrike" seq="1">founders</del> <add rend="unmarked" place="supralinear" seq="2">nullifies</add></subst> the best of them, no matter <del rend="overstrike">under</del> when and where, <del rend="overstrike">or <subst><del rend="overstrike" seq="1">under</del> <add rend="unmarked" place="supralinear" seq="2">of</add></subst> the most favorable cases.</del></p>
             <milestone unit="glued"/>
-            <p>Take no illustrations whatever from the ancients or classics, nor from the mythology, nor Egypt, Greece, or Rome&#8212;nor from the royal and aristocratic institutions and forms of Europe.&#8212;Make no mention or allusion to them whatever, except as they relate to the new, present things&#8212;to our country&#8212;to American character or interests.&#8212;Of specific mention of them, even <subst><del rend="overwrite" seq="1">in</del><add rend="overwrite" place="over" seq="2">for</add></subst> these purposes, as little as possible.&#8212;</p>
+            <p>Take no illustrations whatever from the ancients or classics, nor from the mythology, nor Egypt, Greece, or Rome—nor from the royal and aristocratic institutions and forms of Europe.—Make no mention or allusion to them whatever, except as they relate to the new, present things—to our country—to American character or interests.—Of specific mention of them, even <subst><del rend="overwrite" seq="1">in</del><add rend="overwrite" place="over" seq="2">for</add></subst> these purposes, as little as possible.—</p>
             
             <add rend="unmarked" place="interlinear"><p>Too much attempt at ornament is the blur upon nearly all literary styles.</p></add>
             
-            <p>Clearness, simplicity, no twistified or foggy sentences, at all&#8212;the most translucid clearness without variation.&#8212;</p>
+            <p>Clearness, simplicity, no twistified or foggy sentences, at all—the most translucid clearness without variation.—</p>
             <milestone unit="glued"/>
-            <p>Common idioms and phrases&#8212;Yankeeisms and vulgarisms&#8212;cant expressions, when very pat only.&#8212;</p>
+            <p>Common idioms and phrases—Yankeeisms and vulgarisms—cant expressions, when very pat only.—</p>
             
             <del rend="overstrike"><p>Mention not God at all</p></del>
             

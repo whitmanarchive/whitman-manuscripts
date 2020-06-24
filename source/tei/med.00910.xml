@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00910">
+<relations>
+      <work ref="xxx.00048" cert="low">
+         <p>The phrasing and imagery in this manuscript are reminiscent of the following line of the first poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, ultimately titled "Song of Myself": "Where the splash of swimmers and divers cools the warm noon" (1855, p. 37).</p></work> 
+</relations>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main" rend="bracketed">Where the boys dive and</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bb">Brett Barney</persName>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>med.00910</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2019 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">Because the manuscript has not been located it is difficult to speculate on the circumstances of its composition, but it is possible that it was written in the early 1850s as Whitman was preparing materials for the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The phrasing and imagery are reminiscent of a line in the first poem of that edition (eventually titled "Song of Myself"), suggesting that this manuscript was composed before or early in 1855.</note>             
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Walt Whitman</author>
+                        <editor>Richard Maurice Bucke</editor>
+                        <title xml:id="nupm">Notes and Fragments</title>
+                        <imprint>
+                            <pubPlace>London, Ontario</pubPlace>
+                            <publisher>A. Talbot &amp; Co., [printer]</publisher>
+                            <date when="1899">1899</date>
+                            <biblScope type="page">39</biblScope>
+                         </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title rend="bracketed">Where the boys dive and</title> 
+                    <date xml:id="dat1" notBefore="1850" notAfter="1855" cert="medium">Before or early in 1855</date>
+                    <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2019-10-17" who="#bb">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="manuscript">
+        <body>
+            <lg type="poem">
+             <l xml:id="l01">Where the boys dive and splash in the bath.</l>
+            </lg>
+        </body>
+    </text>
+</TEI>

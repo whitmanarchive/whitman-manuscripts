@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00249">
+    <relations>
+        <work ref="xxx.00052" cert="low">
+            <p>This manuscript is reminscent of the following line, from the poem that would eventually be titled "I Sing the Body Electric": "Knowledge becomes him . . . . he likes it always . . . . he brings everything to the test of himself" (1855, p. 80).</p>
+        </work>
+        <work ref="xxx.00111" cert="low">
+            <p>These lines also are similar to what would become section 6 of "Song of the Open Road," first published in 1856 as "Poem of the Road." See, for instance, the lines: "Here is the test of wisdom, / Wisdom is not finally tested in schools" (1856, p. 228).</p>
+        </work>
+    </relations>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main" rend="bracketed">I subject all the teachings</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bjo">Brandon James O'Neil</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                </respStmt>
+                <sponsor>University of Iowa</sponsor>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+                <funder>The United States Department of Education</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2018</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>uva.00249</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address><addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine></address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="dat1">Whitman used language similar to what appears in these manuscript lines in the fifth poem in the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>, eventually titled "I Sing the Body Electric," as well as in the 1856 "Poem of the Road," eventually titled "Song of the Open Road." The manuscript is written on the blank side of an 1850s tax form from the City of Williamsburgh. Scholars, following Fredson Bowers, have generally assumed that Whitman used the Williamsburgh tax forms from 1857 to 1860, while he was working at the <hi rend="italic">Brooklyn Daily Times</hi>. The city of Williamsburgh was incorporated with Brooklyn effective January 1855, so the forms would have been obsolete after that date (<hi rend="italic">Whitman's Manuscripts: Leaves of Grass</hi> [1860] [Chicago: University of Chicago Press, 1955], xli–xliii). Most of the manuscripts Whitman wrote on the tax forms can be dated to the late 1850s. Bowers also notes, however, that Whitman may have used the forms over a considerable span of time, and that "it is not impossible that Whitman had picked up these tax forms for scrap paper at Rome Brothers at some unknown date in 1854 or early 1855, or later" (xliii). At least two of the tax forms Whitman used were dated 1854 (see, for instance, "<ref target="loc.05354.html">Vast national tracts</ref>"), but as Edward Grier points out, this may not correspond to the date of Whitman's writing (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 5:1946). Whitman may have found a stack of obsolete Williamsburgh forms in 1857 that included discarded draft forms dated earlier. The manuscript is thus difficult to date conclusively, but it was almost certainly written after 1854 and probably before 1860.</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>I subject all the teachings</title>
+                    <date cert="medium" notBefore="1854" notAfter="1860" xml:id="dat1">Between 1854 and 1860</date>
+                    <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
+                    <note type="project">Transcribed from digital images of the original.</note>
+                    </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote scribeRef="#unk" xml:id="h1"><persName xml:id="unk">Unknown</persName></handNote>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-08-20" who="#nhg">checked, corrected</change>
+            <change when="2018-01-14" who="#nhg">proofed, added relations info</change>
+            <change when="2018-04-16" who="#bjo">Transcribed and Encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text type="manuscript">
+        <body>
+            <pb facs="uva_jc.00296.jpg" xml:id="leaf001r" type="recto"/>
+            <note type="editorial" resp="#h1" place="top"><del rend="erasure">4</del></note>
+                <lg type="linegroup">
+                    <l xml:id="l01"><subst><del rend="overstrike" seq="1">To me</del> <add place="supralinear" rend="unmarked" seq="2">I subject</add></subst> all the teachings<lb/>
+                        of the schools, and<lb/>
+                        all dicta and authority,<lb/>
+                        to <del rend="overstrike">my</del> the tests of myself</l>
+
+                    <l xml:id="l02">And <del rend="overstrike">myself,—and</del> I encourage<lb/>
+                        you to subject the<lb/>
+                        same to the tests of<lb/>
+                        yourself—and to<lb/>
+                        subject me and my<lb/>
+                        words, <del rend="overstrike">severely as any,</del><lb/>
+                        to <subst><add place="supralinear" rend="insertion" seq="2">the strongest</add> <del rend="overstrike" seq="1">stronger</del></subst> tests <del rend="overstrike">than</del><lb/>
+                        <del rend="overstrike">any thing else</del> of an<gap reason="cut away"/></l>
+                </lg>
+               <pb facs="uva_jc.00297_large.jpg" xml:id="leaf001v" type="verso"/>
+           
+        </body>
+    </text>
+</TEI>

@@ -3,7 +3,7 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="rut.00023">
     <relations>
-        <work ref="xxx.00414" cert="low">
+        <work ref="xxx.00148" cert="low">
             <p>Some words and sentiments in this manuscript are similar to the initial line of No. 4 of the "Thoughts" cluster published first in the
                 <date when="1860">1860</date> edition of <hi rend="italic">Leaves of
                     Grass</hi>: "Of ownership&#8212;As if one fit to own things could not
@@ -11,6 +11,9 @@
                 into himself or herself" (1860, p. 410). In the 1871 <hi rend="italic">Leaves of Grass</hi> Whitman broke
                 this poem apart, dispersing its individual lines into newly created
                 poems.</p>
+        </work>
+        <work ref="xxx.00526" cert="low">
+            <p>The erased final line of this manuscript may relate to the following section in the preface to the 1855 <hi rend="italic">Leaves of Grass</hi>: "The owner of the library is not he who holds a legal title to it having bought and paid for it. Any one and every one is owner of the library who can read the same through all the varieties of tongues and subjects and styles, and in whom they enter with ease and take residence and force toward paternity and maternity, and make supple and powerful and rich and large. . . . . . . . ." (1855, p. ix).</p>
         </work>
     </relations>
     <teiHeader>
@@ -26,6 +29,7 @@
                     <persName xml:id="kc">Kirsten Clawson</persName>
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                 <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -53,8 +57,8 @@
             </publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">Edward Grier suggests that this manuscript was probably written prior to 1860, noting some similarities in language and sentiment between it and the initial line of No. 4 of the "Thoughts" cluster published first in the
-                    <date when="1860">1860</date> edition of <hi rend="italic">Leaves of
-                        Grass</hi> (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:118). The manuscript is held at Rutgers University Library along with several similar manuscripts that are numbered sequentially and probably date from around or before 1855: see "<ref target="rut.00010.html">American literature must become distinct</ref>," "<ref target="rut.00022.html">dithyrambic trochee</ref>," "<ref target="rut.00024.html">The money value of real</ref>," and "<ref target="rut.00025.html">ground where you may</ref>."</note>             
+                    <date when="1860">1860&#8211;1861</date> edition of <hi rend="italic">Leaves of
+                        Grass</hi> (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:118). The erased final line of the manuscript is also similar to language that appears in the preface to the 1855 <hi rend="italic">Leaves of Grass</hi>. The manuscript is held at Rutgers University Library along with several similar manuscripts that are numbered sequentially and probably date from around or before 1855: see "<ref target="rut.00010.html">American literature must become distinct</ref>," "<ref target="rut.00022.html">dithyrambic trochee</ref>," "<ref target="rut.00024.html">The money value of real</ref>," and "<ref target="rut.00025.html">ground where you may rest</ref>."</note>             
             </notesStmt>
             <sourceDesc>
                 <bibl>
@@ -74,6 +78,8 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
+            <change when="2020-02-18" who="#bb">corrected work ID for "Thoughts [Of ownership]"; corrected name of rut.00025 in date note</change>
+            <change when="2020-01-20" who="#nhg">added erasure and relation</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2017-03-28" who="#nhg">edited work relations information, editorial note</change>
             <change when="2016-07-21" who="#nhg">checked, corrected</change>
@@ -90,9 +96,9 @@
             <note type="editorial" place="top" resp="#h2">6</note>
             
             <p><handShift new="#h1"/>The only way in which any thing can really be owned, is by the infusion or inspiration of it in the soul.&#8212;<del rend="overstrike">The ignorant</del> <add rend="insertion" place="supralinear">Can I</add> dully suppose that <subst><del rend="overstrike" seq="1">they may</del> <add rend="unmarked" place="supralinear" seq="2">I may</add></subst> attain to certain possessions,&#8212;as houses or stocks or lands or goods; and <del rend="overstrike">that such property will be theirs,</del> when <subst><del rend="overstrike" seq="1">they</del> <add rend="unmarked" place="supralinear" seq="2">I</add></subst> have paid <add rend="insertion" place="supralinear">the money</add> and <subst><del rend="overstrike" seq="1">got</del> <add rend="unmarked" place="supralinear" seq="2">taken</add></subst> the receipts and warranty deeds,&#8212;then such property will be <subst><del rend="overstrike" seq="1">theirs</del> <add rend="insertion" place="supralinear" seq="2">mine</add></subst> to enter upon and enjoy.&#8212;Yes, <add rend="unmarked" place="supralinear">may-be</add> as <subst><del rend="overstrike" seq="1">those</del> <add rend="unmarked" place="supralinear" seq="2">people</add></subst> stone blind from their birth, <subst><del rend="overstrike" seq="1">enter</del> <add rend="unmarked" place="supralinear" seq="2">enjoy</add></subst> the exhibitions of pictures and sculpture.&#8212;</p>
-            
+            <p xml:id="p02"><del rend="erasure">But the true owner of the <unclear reason="deletion" cert="medium" resp="#nhg">library</unclear></del></p>
             <pb xml:id="leaf001v" facs="rut.00010.008.jpg" type="verso"/>
-
+ 
         </body>
     </text>
 </TEI>

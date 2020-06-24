@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00001">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00001">
     <relations>
         <work ref="xxx.00048" cert="high">
-            <p><ref target="#q01 #q02" xml:id="r01" type="text">These lines</ref> are a draft of the following lines in the first poem of the <date when="1855"
-                >1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, a poem that was later titled "Song of Myself": "To be in any form, what is that? /
+            <p><ref target="#q01 #q02" xml:id="r01" type="text">These lines</ref> are a draft of the following lines in the first poem of the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, a poem that was later titled "Song of Myself": "To be in any form, what is that? /
                 If nothing lay more developed the quahaug and its callous shell were enough. /
                 Mine is no callous shell, /
                 I have instant conductors all over me whether I pass or stop, /
-                They seize every object and lead it harmlessly through me. (1855, p. 32)</p>
+                They seize every object and lead it harmlessly through me" (1855, p. 32)</p>
         </work>
     </relations>
     <teiHeader>
@@ -52,15 +48,13 @@
             <notesStmt>
                 <note type="project" target="dat1">Whitman probably drafted this
                     manuscript in the <date notBefore="1850" notAfter="1855">early 1850s</date> as he was composing
-                    the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The first several lines of the manuscript are drafts of lines in the first poem of that edition, which would later be titled "Song of Myself."</note>
+                    the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The first several lines of the manuscript are drafts of lines in the first poem of that edition, eventually titled "Song of Myself."</note>
             </notesStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title>To be at all</title><date cert="medium"
-                        notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
-                    <orgName
-                        xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+                    <title>To be at all</title><date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
+                    <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                     <relatedItem type="text" xml:id="rel01" target="duk.00883"/>
                     <relatedItem type="document" target="wwa.00035"/>
@@ -92,20 +86,20 @@
             <pb facs="duk_nhg.00410_large.jpg" xml:id="leaf001r" type="recto"/>
            <lg type="poem">
                 <lg type="linegroup" xml:id="q01">
-                    <l xml:id="l01" corresp="#l610">To be at all&#8212;what is <subst>
+                    <l xml:id="l01">To be at all—what is <subst>
                             <del rend="overstrike" seq="1">greater</del>
                             <add place="supralinear" rend="unmarked" seq="2">better</add>
                         </subst> than that?</l>
-                    <l xml:id="l02" corresp="#l611">I think if there were nothing more developed,<lb/>
+                    <l xml:id="l02">I think if there were nothing more developed,<lb/>
                         the clam in its callous shell in<lb/>
-                        the sand, were august enough.&#8212;&#124;</l>
+                        the sand, were august enough.—|</l>
                 </lg>
                 <lg type="linegroup" xml:id="q02">
-                    <l xml:id="l03" corresp="#l612">I am not in any callous shell;</l>
-                    <l xml:id="l04" corresp="#l613">I am cased with supple conductors,<lb/>
+                    <l xml:id="l03">I am not in any callous shell;</l>
+                    <l xml:id="l04">I am cased with supple conductors,<lb/>
                         all over;</l>
-                    <l xml:id="l05" corresp="#l614">They take every object by the hand, and<lb/>
-                        lead it within me.&#8212;</l>
+                    <l xml:id="l05">They take every object by the hand, and<lb/>
+                        lead it within me.—</l>
                 </lg>
                 <lg type="linegroup">
                     <delSpan rend="hashmark" spanTo="#d01"/><l>They are thousands, each one with his entry<lb/>
@@ -120,7 +114,7 @@
                         than I thought the spheres<lb/>
                         could carry.</del> <lb/>
                         such bliss and magnitude,</l>
-                    <l><metamark function="paragraph" place="supralinear">&#182;</metamark> I think<lb/>
+                    <l><metamark function="paragraph" place="supralinear">¶</metamark> I think<lb/>
                         I could <del rend="overstrike"><unclear reason="illegible" resp="#nhg" cert="medium">then</unclear></del>
                             <subst>
                                 <del rend="overstrike" seq="1">dash</del> <add place="supralinear" rend="unmarked" seq="4">lift</add>
@@ -132,7 +126,7 @@
                                     <del rend="overstrike" seq="3"><add place="supralinear" rend="insertion" seq="2">a globe</add></del>
                                     <add place="supralinear" rend="unmarked" seq="4">the house</add>
                             </subst> away if it lay between<lb/>
-                        me <add place="supralinear" rend="insertion">then</add> and whatever I wanted.&#8212;</l>
+                        me <add place="supralinear" rend="insertion">then</add> and whatever I wanted.—</l>
                 </lg>
                 <note place="left" type="authorial">My</note>
                 <note place="left" type="authorial">The</note>

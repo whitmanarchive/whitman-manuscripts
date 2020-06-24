@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00019"> 
+   <relations>
+      <work ref="xxx.00893" cert="low">
+         <p>The language and topic of this manuscript resembles language in Whitman's self-authored review of the 1855 <hi rend="italic">Leaves of Grass</hi>, "Walt Whitman and His Poems": "Has not the time arrived for a school of live writing and tuition consistent with the principles of these poems? consistent with the free spirit of this age, and with the American truths of politics? consistent with geology, and astronomy, and phrenology, and human physiology?" and "Not geology, nor mathematics, nor chemistry, nor navigation, nor astronomy, nor anatomy, nor physiology, nor engineering, is more true to itself than Walt Whitman is true to them." The review was published in <hi rend="italic">The United States Review</hi> in September, 1855. It was also part of a series of reviews printed separately and included in some copies of the 1855 edition.</p>
+      </work>
+   </relations>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main" rend="bracketed">there are leading moral truths</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="cah">Caitlin Henry</persName>
+               <persName xml:id="nhg">Nicole Gray</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2019</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>nyp.00019</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+            </availability> 
+         </publicationStmt>
+         <notesStmt>                       
+            <note type="project" target="dat1">Whitman probably drafted this manuscript around 1855. Based on the handwriting and the size of the scrap, Edward Grier dates it to the 1850s, though he also notes that an archival notation on the mounting page next to the manuscript dates it to 1870 (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 6:2140). Wording and ideas in the manuscript bear some resemblance to sentences in "Walt Whitman and His Poems," a review Whitman wrote of the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The review was published in <hi rend="italic">The United States Review</hi> in September, 1855. It was also part of a series of reviews printed separately and included in some copies of the 1855 edition.</note>
+            
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>Holograph memoranda and notes, unsigned and undated, written on 27 scraps of paper</title>
+               <date cert="low" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date> 
+               <idno type="callno">b15520479</idno> <!--MSS Unit ID: 19100; Other local identifier: 175226b; Archives EAD ID: 949125; Universal Unique Identifier (UUID): 4ae6d720-a46c-0130-a047-3c075448cc4b -->
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName> 
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="#nhg" when="2019-06-13">checked, corrected, added relations</change>
+         <change who="#cah" when="2019-02-19">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <pb facs="nyp_ch.00008_large.jpg" xml:id="leaf001r" type="recto"/> 
+         
+         <ab xml:id="ab01"><del rend="overstrike">I say that</del> there are <subst><del rend="overstrike" seq="1">certain</del> <add rend="unmarked" place="supralinear" seq="2">leading</add></subst> moral truths underlying politics as <subst><del rend="overstrike" seq="1">eternal</del> <add rend="unmarked" place="supralinear" seq="2">invariable</add></subst> and reliable <add rend="unmarked" place="supralinear">and <del rend="overstrike"><gap reason="illegible"/></del></add> as <subst><del rend="overwrite" seq="1">are</del><add rend="overwrite" place="over" seq="2">the</add></subst> leading truths in geology, chemistry or mathematics.—These truths <del rend="overstrike">lie at the</del> are the foundation of American politics:</ab>
+         <pb facs="nyp_nhg.00101_large.jpg" xml:id="leaf001v" type="verso"/> 
+      </body>
+   </text>
+</TEI>

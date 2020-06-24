@@ -1,9 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00013">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00013">
+   <relations>
+      <work ref="xxx.00119" cert="low"><p>The general theme of this manuscript, as well as the specific wording of one of the lines, resembles a portion of the second poem in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, a poem eventually entitled "A Song for Occupations": "When the sacred vessels or the bits of the eucharist, or the lath and plast, procreate as effectually as the young silvermiths or bakers, or the masons in their overalls / ... / I intend to reach them my hand and make as much of them as I do of men and women" (1855, p. 64).</p></work>
+      <work ref="xxx.00418" cert="low"> 
+         <p>Based on its similarity to other manuscripts, this manuscript may also relate to lines 39-43 in "Debris," a cluster published in the <date when="1860">1860</date> edition of <hi rend="italic">Leaves of Grass</hi>: "I WILL take an egg out of the robin's nest in the orchard, / I will take a branch of gooseberries from the old bush in the garden, and go and preach to the world; / You shall see I will not meet a single heretic or scorner, / You shall see how I stump clergymen, and confound them, / You shall see me showing a scarlet tomato, and a white pebble from the beach" (1860, p. 424).</p>
+      </work>
+      <work ref="xxx.00048" cert="low">
+         <p>Language and ideas from this manuscript appear in other manuscripts that relate to the first poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, ultimately titled "Song of Myself." See in particular the lines: "The supernatural of no account . . . . myself waiting my time to be one of the supremes, / The day getting ready for me when I shall do as much good as the best, and be as prodigious, / Guessing when I am it will not tickle me much to receive puffs out of pulpit or print" (1855, p. 46).</p></work> 
+   </relations>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="m" type="main" rend="bracketed">Priests!</title>
+            <title level="m" type="main" rend="bracketed">Priests</title>
             <title level="m" type="sub">a machine readable transcription</title>
             <author xml:id="ww">Walt Whitman</author>
             <editor>Kenneth M. Price</editor>
@@ -41,14 +48,14 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note type="project" target="dat1">Thematically and in the wording of one of the lines this manuscript resembles a portion of the second poem in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, a poem eventually entitled "A Song for Occupations." This connection suggests that this manuscript was composed before or early in 1855.</note>
+            <note type="project" target="dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Thematically and in the wording of one of the lines this manuscript resembles a portion of the second poem in that edition, eventually titled "A Song for Occupations." The ideas and some of the language are also similar to other early manuscripts that relate to the first poem in the 1855 edition of <hi rend="italic">Leaves</hi>, ultimately titled "Song of Myself," and part of a cluster titled "Debris" that appeared in the 1860 edition of <hi rend="italic">Leaves of Grass</hi> (see "<ref target="uva.00251.html">Do I not prove myself</ref>," "<ref target="duk.00051.html">I know as well as</ref>," and "<ref target="duk.00261.html">[Fa]bles, traditions</ref>").</note>
          </notesStmt>
          <sourceDesc>
             <bibl>
                <author>Walt Whitman</author>
                <title rend="bracketed">Priests!</title> 
-               <date cert="low" notBefore="1850" notAfter="1855" xml:id="dat1">About 1855</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>  
+               <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>  
                <note type="project">Transcribed from <hi rend="italic">The Walt Whitman Archive I: Whitman Manuscripts at the Library of Congress</hi>, ed. Joel Myerson (New York: Garland, 1993); <hi rend="italic">Major American Authors on CD-Rom: Walt Whitman</hi> (Westport, CT:
                   Primary Source Media, 1997). The transcription was then checked against digital images of the original.</note>
                <relatedItem type="document" target="wwa.00194"/>
@@ -64,6 +71,8 @@
          </handNotes>
       </profileDesc>
       <revisionDesc>
+         <change when="2018-11-01" who="#nhg">edited title</change>
+         <change when="2017-10-09" who="#nhg">added inline relations information</change>
          <change who="#km" when="2017-01-26">updated date note; proofed transcription</change>
          <change who="#nhg" when="2016-07-19">created new file for verso, added relatedItem encoding, date note from EAD</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
@@ -78,10 +87,7 @@
             <pb facs="loc.00013.001.jpg" xml:id="leaf001r" type="recto"/>
             <delSpan spanTo="#d1" rend="hashmark" hand="#h1"/>
             <lg>
-               <relations>
-                  <work ref="xxx.00119" cert="high"><p>The general theme of this manuscript, as well as the specific wording of one of the lines, resembles a portion of the second poem in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, a poem eventually entitled "A Song for Occupations": "When the sacred vessels or the bits of the eucharist, or the lath and plast, procreate as effectually as the young silvermiths or bakers, or the masons in their overalls / ... / I intend to reach them my hand and make as much of them as I do of men and women" (1855, p. 64).</p></work>
-               </relations>
-               <l>
+               <l xml:id="l02">
                   
                      <add place="supralinear" rend="insertion" hand="#h1">Priests!</add> <handShift new="#h2"/>Until you can explain a paving stone, <del rend="overstrike" hand="#h1"><add place="supralinear" rend="insertion" hand="#h1">to <subst><del rend="overstrike" seq="1" hand="#h1">every ones</del> <add rend="unmarked" place="supralinear" seq="2" hand="#h1">my</add></subst> perfect satisfaction</add></del> <del rend="overstrike" hand="#h1">O Priests</del>, do<lb/> 
                   
@@ -91,10 +97,10 @@
                   <l>Until your creeds can do as much as apples and hen's eggs, <subst>
                            <del rend="overstrike" seq="1"><unclear reason="illegible" cert="medium" resp="#nhg">restrain</unclear></del> <add rend="insertion" place="supralinear" seq="2"><subst><del rend="overstrike" seq="1"><unclear reason="illegible" resp="#nhg" cert="low">pull</unclear></del> <add rend="unmarked" place="supralinear" seq="2">let</add></subst> down</add></subst> your eyebrows <add place="supralinear" rend="insertion">a little,</add></l></add> 	
                   
-                  <l><metamark function="paragraph">&#182;</metamark> Until your Bibles and prayer-books are able to<lb/> 
+                  <l><metamark function="paragraph">¶</metamark> Until your Bibles and prayer-books are able to<lb/> 
                      walk like me,</l> 
                   
-                  <l>And until your brick and mortar can procreate<lb/> 
+                  <l xml:id="l01">And until your brick and mortar can procreate<lb/> 
                      as I can,</l> 
                   
                   <l>I beg you, <subst><del rend="overwrite" seq="1">s</del><add place="over" rend="overwrite" seq="2">S</add></subst>irs, do not presume to put them<lb/> 

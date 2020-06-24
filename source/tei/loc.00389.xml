@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00389">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00389">
+    <relations>
+        <work ref="xxx.00526" cert="low">
+            <p>It is possible that <ref target="#p01" xml:id="ref01">this line</ref> relates to the following segment from the prose preface of the 1855 <hi rend="italic">Leaves of Grass</hi>: "the perfect equality of the female with the male . . . ." (1855, p. iv).</p>
+        </work>
+    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main" rend="bracketed">The idea that</title>
+                <title level="m" type="main" rend="bracketed">The idea that in the</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author xml:id="ww">Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -16,7 +18,7 @@
                     <persName xml:id="es">Jeannette Schollaert</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                    <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -41,7 +43,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">A later note, in Whitman's hand, claims that this manuscript was written in 1855. The manuscript is written on the back of a City of Williamsburgh tax form. Scholars, following Fredson Bowers, have generally assumed that Whitman used the Williamsburgh tax forms from 1857 to 1860, while he was working at the <hi rend="italic">Brooklyn Daily Times</hi>. The city of Williamsburgh was incorporated with Brooklyn effective January 1855, so the forms would have been obsolete after that date (<hi rend="italic">Whitman's Manuscripts: Leaves of Grass [1860]</hi> [Chicago: University of Chicago Press, 1955], xli&#8211;xliii). Bowers also notes, however, that "it is not impossible that Whitman had picked up these tax forms for scrap paper at Rome Brothers at some unknown date in 1854 or early 1855, or later" (xliii). This possibility would seem to be supported by the facts that some of the tax forms Whitman used are dated as early as 1854 (see "<ref target="loc.05354.html">Vast national tracts</ref>") and material written on the reverse of one tax form was likely a draft of a paragraph in the preface to the 1855 <hi rend="italic">Leaves of Grass</hi> (see "<ref target="loc.05180.html">The idea of reconciliation</ref>"). The exact date of this manuscript is therefore difficult to determine conclusively, but it is possible Whitman was not mistaken when he dated it.  In any case the manuscript was almost certainly between 1854 and 1860, with the later note written before 1888.</note>             
+                <note type="project" target="#dat1">This manuscript is written on the back of a City of Williamsburgh tax form. A later note, in Whitman's hand, claims that the manuscript was written in 1855. Scholars, following Fredson Bowers, have generally assumed that Whitman used the Williamsburgh tax forms from 1857 to 1860, while he was working at the <hi rend="italic">Brooklyn Daily Times</hi>. The city of Williamsburgh was incorporated with Brooklyn effective January 1855, so the forms would have been obsolete after that date (<hi rend="italic">Whitman's Manuscripts: Leaves of Grass [1860]</hi> [Chicago: University of Chicago Press, 1955], xli–xliii). Most of the manuscripts Whitman wrote on the tax forms can be dated to the late 1850s. Bowers also notes, however, that Whitman may have used the forms over a considerable span of time, and that "it is not impossible that Whitman had picked up these tax forms for scrap paper at Rome Brothers at some unknown date in 1854 or early 1855, or later" (xliii). At least two of the tax forms Whitman used were dated 1854 (see, for instance, "<ref target="loc.05354.html">Vast national tracts</ref>"), but as Edward Grier points out, this may not correspond to the date of Whitman's writing (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 5:1946). Whitman may have found a stack of obsolete Williamsburgh forms in 1857 that included discarded draft forms dated earlier. This manuscript is thus difficult to date conclusively, but it was almost certainly written after 1854 and probably before 1860. Based on a transcription of the manuscript in Horace Traubel's <hi rend="italic">With Walt Whitman in Camden</hi>, the later note about the date of the manuscript must have been added before September 1888 ([New York: Mitchell Kennerley, 1915], 246).</note>             
             </notesStmt>
             <sourceDesc>
                 
@@ -50,7 +52,7 @@
                     <title rend="bracketed">The idea that</title>                  
                     <idno type="callno">MSS18630, Box 32, Reels 19-20</idno>
                     <date xml:id="dat1" cert="medium" notBefore="1854" notAfter="1888">Between 1854 and 1888</date>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
             </sourceDesc>
@@ -61,25 +63,28 @@
                 <handNote xml:id="h2" scribeRef="#ht"><persName xml:id="ht">Horace Traubel</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+        <revisionDesc>
+            <change when="2018-11-08" who="#nhg">added relations</change>
+            <change when="2018-11-01" who="#nhg">edited title</change>
+            <change when="2016-05-18" who="#kmp">blessed</change>
             <change when="2016-05-11" who="#nhg">checked, corrected</change>
             <change when="2016-05-04" who="#km">checked</change>
             <change when="2016-02-15" who="#es">checked, completed date in note, changed add to supralinear</change>
             <change when="2015-03-10" who="#kc">transcribed and encoded</change>
         </revisionDesc>
     </teiHeader>
-
+    
     <text type="manuscript">
         <body>
             <pb xml:id="leaf001r" facs="loc_es.01289.jpg" type="recto"/>
             
             <note type="editorial" resp="#h2" place="top">see notes Sept 2 1888</note>
             
-            <p>The idea <del rend="overstrike">that</del> <del rend="overstrike">of the</del> that in the nature of things, thr<unclear reason="illegible" cert="medium" resp="#kc">ough</unclear> all affairs and deeds, national or individual, good and bad, each has its inherent law of punishment or reward, which is part of the deed or affair itself, identical with it, and, with its results, goes with that deed, that affair, then and afterwards.&#8212;</p>
+            <p>The idea <del rend="overstrike">that</del> <del rend="overstrike">of the</del> that in the nature of things, thr<unclear reason="illegible" cert="medium" resp="#kc">ough</unclear> all affairs and deeds, national or individual, good and bad, each has its inherent law of punishment or reward, which is part of the deed or affair itself, identical with it, and, with its results, goes with that deed, that affair, then and afterwards.—</p>
             
-            <p>The idea that the Woman of America is to become the perfect equal of the man.&#8212;</p>
+            <p xml:id="p01">The idea that the Woman of America is to become the perfect equal of the man.—</p>
             
-            <p>The idea of the good old cause, Liberty&#8212;that it is to be honored here, whatever day, whatever question, it presents itself in&#8212;that the relation of master and slave <note type="authorial" place="supralinear" rend="circled">[this was written in 1855]</note> is to go the: same road out of These States, that the relation of kings, lords, and commons, has gone.</p>     
+            <p>The idea of the good old cause, Liberty—that it is to be honored here, whatever day, whatever question, it presents itself in—that the relation of master and slave <note type="authorial" place="supralinear" rend="circled">[this was written in 1855]</note> is to go the: same road out of These States, that the relation of kings, lords, and commons, has gone.</p>     
             
             <pb xml:id="leaf001v" facs="loc_es.01290.jpg" type="verso"/>
         </body>

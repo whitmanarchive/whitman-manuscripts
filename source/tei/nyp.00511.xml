@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00511">
+   <relations>
+      <work ref="xxx.00048" cert="high">
+         <p>These lines are similar to lines that appeared in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, in the poem that would eventually be titled "Song of Myself": "I am an old artillerist, and tell of some fort's bombardment . . . . and am there again. / Again the reveille of drummers . . . . again the attacking cannon and mortars and howitzers" (1855, p. 40).</p>
+      </work>
+   </relations>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main" rend="bracketed">I can tell of the</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor>Kenneth M. Price</editor>
+            <editor>Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="smb">Stephanie Blalock</persName>
+               <persName xml:id="cah">Caitlin Henry</persName>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="kc">Kirsten Clawson</persName>
+               <persName xml:id="jc">Janel Cayer</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2014</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>nyp.00511</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="project" target="#dat1">This manuscript was probably written between 1850 and 1855, when Whitman was preparing materials for the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The lines in this manuscript are similar to lines used in the first poem of that edition, eventually titled "Song of Myself."</note>
+         </notesStmt>
+         <sourceDesc> 
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>I can tell of the long beseiged city</title>
+               <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
+               <idno type="callno">b19877231</idno><!--UUID: 587d7c60-c5d9-012f-cc84-58d385a7bc34-->
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
+               <relatedItem type="text" xml:id="rel01" target="nyp.00113"/>
+               <relatedItem type="document" target="wwa.00115"/>
+               <note type="project">Transcribed from digital images of the original item.</note>
+               <note type="project" target="#rel01">On the back of this manuscript is a prose draft.</note>     
+            </bibl>
+         </sourceDesc>
+      </fileDesc> 
+      <profileDesc>
+            <handNotes> 
+               <handNote xml:id="h1" scribeRef="#ww" medium="brown-ink"/>
+               <handNote xml:id="h2" scribeRef="#ww" medium="pencil"/>
+            </handNotes>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#nhg" when="2019-01-09">updated relations information</change>
+         <change who="#smb" when="2018-11-30">updated editorial notes</change>
+         <change who="#smb" when="2018-11-14">checked and corrected</change>
+         <change who="#cah" when="2018-11-07">checked, corrected, added corresps</change>
+         <change who="#jc" when="2015-06-17">updated respository information in header; revised transcription and encoding</change>
+         <change who="#nhg" when="2014-10-01">checked, corrected</change>
+         <change who="#kc" when="2014-09-09">transcribed and encoded</change>
+         <change who="#nhg" when="2014-08-07">metadata extracted and transformed from EAD file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="manuscript"> 
+      <body>
+         <pb xml:id="leaf001r" facs="nyp.00113.002.jpg" type="recto"/>
+         <note type="authorial" place="top">44</note>
+         <delSpan rend="hashmark" spanTo="#a1"/>
+         <lg type="linegroup">
+            <l xml:id="l03"><handShift new="#h1"/><subst><del rend="overstrike" seq="1">Did you hear of the</del> <add rend="unmarked" place="supralinear" seq="2"><subst><del rend="overstrike" seq="2">Hear now</del> <add rend="unmarked" place="supralinear" seq="3">I can tell</add></subst> of <add rend="insertion" place="supralinear">the</add> long</add></subst> besieged <del rend="overstrike" seq="1" hand="#h2">city</del>? <add rend="unmarked" place="supralinear" seq="2" hand="#h2"><del rend="overstrike" seq="2" hand="#h1">fort on the frontier</del>? <add rend="unmarked" place="supralinear" seq="3"><add rend="unmarked" place="supralinear" seq="4">city</add> <del rend="overstrike" seq="3" hand="#h1">citadel</del>?</add></add></l>
+               
+         <l xml:id="l01">I was in its last bombardment.</l>
+         <l xml:id="l02">No need of a reveille from the drummers that mor<gap reason="cut away" quantity="4" unit="chars" resp="#kc"/></l>
+         </lg>
+         <anchor xml:id="a1"/> 
+         
+         <pb xml:id="leaf001v" facs="nyp.00113.001.jpg" type="verso"/>
+         
+</body> 
+   </text>
+</TEI>

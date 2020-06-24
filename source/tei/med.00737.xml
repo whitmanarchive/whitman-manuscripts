@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00737">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00737">
 <relations>
 <work ref="xxx.00526" cert="low">
     <p>As rendered by earlier editors, the manuscript is written as aphoristic fragments connected by ellipses, in the manner of the preface to the first edition of <hi rend="italic">Leaves of Grass</hi> (1855). The thought is similar to this line from the preface: "The poetic quality is not marshalled in rhyme or uniformity or abstract addresses to things nor in melancholy complaints or good precepts, but is the life of these and much else and is in the soul" (1855, p. v).</p>
@@ -10,7 +7,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main" rend="bracketed">One obligation of great fresh bards</title>
+                <title level="m" type="main" rend="bracketed">One obligation of great fresh</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -43,7 +40,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2014 by Ed Folsom and Kenneth M. Price, all rights
+                    <p>Copyright © 2014 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -53,7 +50,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Because the manuscript has not been located it is difficult to speculate on the circumstances or date of its composition. The discussion of "the poetic quality" and the punctuation (at least as rendered by earlier editors) are similar to the 1855 Preface to <hi rend="italic">Leaves of Grass</hi>, so it is possible that the composition date was before or early in 1855.</note>             
+                <note type="project" target="#dat1">Because the manuscript has not been located it is difficult to speculate on the circumstances or date of its composition. The discussion of "the poetic quality" and the punctuation (at least as rendered by earlier editors) are similar to the preface to the 1855 <hi rend="italic">Leaves of Grass</hi>, so it is possible that the composition date was before or early in 1855.</note>             
             </notesStmt>
             <sourceDesc>
                 <biblStruct>
@@ -74,12 +71,13 @@
                 <bibl>
                     <author>Walt Whitman</author>
                     <title rend="bracketed">One Obligation</title>  
-                    <date xml:id="dat1" notBefore="1840" notAfter="1855" cert="low">Before or early in 1855</date>
+                    <date xml:id="dat1" notBefore="1845" notAfter="1855" cert="low">Before or early in 1855</date>
                     <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2018-11-08" who="#nhg">added inline relations</change>
             <change when="2017-03-09" who="#kmp">blessed</change>
             <change when="2017-03-09" who="#nhg">edited date range</change>
             <change when="2016-12-08" who="#bb">reconciled with EAD record; added Work ID</change>
@@ -93,7 +91,7 @@
 
     <text type="manuscript">
         <body>
-            <p>One obligation of great fresh bards remains . . . the clink of words is empty and offensive . . . the poetic quality blooms simple and earnest as the laws of the world.</p>
+            <p xml:id="p01">One obligation of great fresh bards remains . . . the clink of words is empty and offensive . . . the poetic quality blooms simple and earnest as the laws of the world.</p>
             
             <p>The audible rhyme soon nauseates . . . the inaudible rhyme is delicious without end.</p>
         </body>

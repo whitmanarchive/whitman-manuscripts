@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00116">
+   <relations>
+      <work ref="xxx.00052" cert="low">
+         <p>The final line from this manuscript is similar to a line from the poem that would eventually be titled "I Sing the Body Electric": "Your mother . . . . is she living? . . . . Have you been much with her? and has she 
+            been much with you?" (1855, p. 82). 
+            
+            The list of words in the manuscript also bears some resemblance to the following lines in the same poem: "Undulating into the willing and yielding day, / ... / This is the bath of birth . . . this is the merge of small and large and the outlet again" (1855, p. 79).</p>
+      </work>
+      <work ref="xxx.00048" cert="low">
+         <p>The discussion of the speed of the stars in this manuscript bears some resemblance to the following lines in the poem ultimately titled "Song of Myself": "Speeding through space . . . . speeding through heaven and the stars, / Speeding amid the seven satellites and the broad ring and the diameter of eighty
+            thousand miles, / Speeding with tailed meteors . . . . throwing fire-balls like the rest" (1855, pp. 37–38).</p>
+      </work>
+   </relations>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main" rend="bracketed">undulating</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="cah">Caitlin Henry</persName>
+               <persName xml:id="nhg">Nicole Gray</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2019</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>nyp.00116</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>                       
+            <note type="project" target="dat1">Whitman probably drafted this
+               manuscript in the <date notBefore="1850" notAfter="1855">early 1850s</date> as he was composing
+               the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Language in the manuscript is similar to lines that appeared in the fifth poem in that edition, later titled "I Sing the Body Electric." For further discussion of the relationship between this manuscript and the 1855 <hi rend="italic">Leaves of Grass</hi>, see Kenneth M. Price, "The Lost Negress of 'Song of Myself' and the Jolly Young Wenches of Civil War Washington," in <hi rend="italic">Leaves of Grass: The Sesquicentennial Essays</hi>, ed. Susan Belasco, Ed Folsom, and Kenneth M. Price (Lincoln, NE: University of Nebraska Press, 2007), 229–30. The manuscript has been pasted down, so an image of the reverse is not currently available.</note>                     
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>undulating swiftly merging from womb to birth</title>
+               <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
+               <idno type="callno">b19877231</idno> <!-- Universal Unique Identifier (UUID): 59dbf160-c5d9-012f-f298-58d385a7bc34 -->
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName> 
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="#nhg" when="2019-06-04">checked, corrected</change>
+         <change who="#cah" when="2019-02-15">transcribed, encoded, added relations info</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <pb facs="nyp.00116.001.jpg" xml:id="leaf001r" type="recto"/>
+					<ab>          
+         <list>
+            <item xml:id="i01">undulating</item>
+            <item xml:id="i02">swiftly merging</item>
+            <item xml:id="i03">from womb to birth</item>
+            <item xml:id="i04">from birth to fullness<lb/> and transmission</item>
+            <item xml:id="i05">quickly transpiring</item>
+         </list>
+					</ab>
+         
+         <ab xml:id="ab01"><span rend="bracket-left" xml:id="s1" from="#s1" to="#s2"/>conveying the sentiment of the mad, whirling, <hi rend="underline">fullout</hi> speed of the stars, in their circular orbits<anchor xml:id="s2"/></ab>
+         
+         <milestone unit="undeclared" rend="horbar-short-left"/>
+         
+         <ab>If you are black, ashamed of your wooly head</ab>
+         
+         <milestone unit="undeclared" rend="horbar-short-left"/>
+         
+         <ab xml:id="ab02">Do you remember your mother Is she living</ab>
+            
+
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00566">
+   <relations>
+      <work ref="xxx.00271" cert="high">
+         <p>Versions of these manuscript lines appeared in the poem eventually titled "Faces": "Out of this face emerge banners and horses . . . . O superb! . . . . I see what is coming, /  I see the high pioneercaps . . . . I see the staves of runners clearing the way, / I hear victorious drums" (1855, p. 84.)</p>
+      </work>
+   </relations>
+   <teiHeader> 
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main" rend="bracketed">clearing the way</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="km">Kenneth M. Price</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2003</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>uva.00566</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. It is a draft of lines that appear in the sixth poem in that edition, eventually titled "Faces."</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>Topple down upon him</title>
+               <idno type="callno">MSS 3829, Box-folder 1:88</idno> 
+               <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
+               <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName> 
+               <note type="project">Transcribed from digital images of the original.</note>
+               <relatedItem type="text" xml:id="rel01" target="uva.00258"/>
+               <relatedItem type="document" target="wwa.00070"/>
+               <note type="project" target="#rel01">Lines on the back of this manuscript leaf relate to the poem eventually titled "The Sleepers."</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="#nhg" when="2019-01-16">proofed, added relations info</change>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#km" when="2003-11-11">Encoded</change>
+         <change who="#km" when="2003-11-11">Transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <pb facs="uva.00258.002.jpg" xml:id="leaf001r" type="recto"/>
+         <delSpan rend="hashmark" spanTo="#d1"/>
+         <lg type="linegroup">
+            <l xml:id="l01"><gap reason="cut away"/><lb/>
+            clearing the way.—</l>
+            <l xml:id="l02"><del rend="overstrike">I h</del> <del rend="overstrike">Faintly</del> <subst><del rend="overstrike" seq="1">through</del> <add rend="insertion" place="supralinear" seq="2">above</add></subst> the roar I <del rend="overstrike"><add rend="unmarked" place="supralinear">clearly</add></del> hear <del rend="overstrike">the</del><lb/>
+            <del rend="overstrike"><gap reason="illegible"/></del> <add rend="unmarked" place="supralinear">the clear tutti of <del rend="overstrike">the</del> victorious horns.—</add> <del rend="overstrike">triumphal</del> <del rend="overstrike">music</del> <del rend="overstrike">drums</del>.</l>
+            <l xml:id="l03"><del rend="overstrike">I hear</del> <del rend="overstrike"><add rend="unmarked" place="supralinear">They</add></del> <del rend="overstrike">I catch</del></l>
+            <del rend="overstrike"><l xml:id="l04">I already catch the tutti <del rend="overstrike">of</del></l></del>
+         </lg>
+         <milestone unit="undeclared" rend="horbar-short-center"/>
+         <span rend="bracketed" xml:id="s1" from="#s1" to="#s2"/>
+         <lg type="linegroup">
+            <l xml:id="l05">I stand at the top of the street,</l>
+            <l xml:id="l06">I know the great procession is coming,</l>
+            <l xml:id="l07">I see <del rend="overstrike"><add rend="insertion" place="supralinear">far off</add></del> <del rend="overstrike">through <add rend="unmarked" place="supralinear">the</add> dust</del> <del rend="overstrike">the</del> towering caps of pioneers, <add rend="insertion" place="supralinear">from <add rend="insertion" place="supralinear">off</add> through the <gap reason="cut away"/></add></l>
+            <l xml:id="l08">I see <del rend="overstrike">the</del> gilt tipt staves of policemen—clearing<lb/>
+            the way,</l>
+            <l xml:id="l09"><del rend="overstrike">Above the <del rend="overstrike"><unclear reason="illegible" resp="#nhg" cert="medium">th</unclear></del> roar,</del> I hear <subst><del rend="overstrike" seq="1">the</del> <add rend="unmarked" place="supralinear" seq="2">the</add></subst> clear tutti of <lb/>
+            victorious horns.—</l>
+         </lg>
+        <anchor xml:id="s2"/>
+         <anchor xml:id="d1"/>
+         <pb facs="uva.00258.001.jpg" xml:id="leaf001v" type="verso"/>
+      </body>
+   </text>
+</TEI>

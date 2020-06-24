@@ -1,14 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00741">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00741">
   <relations>
       <work ref="xxx.00526" cert="high"><p>The two sentences of this manuscript appeared in slightly different forms in the prose preface to the 1855 first edition of <hi rend="italic">Leaves of Grass</hi>: "Great genius and the people of these states must never be demeaned to romances. As soon as histories are properly told there is no more need of romances" (1855, p. ix).</p></work>
   </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main" rend="bracketed">Why need genius</title>
+                <title level="m" type="main" rend="bracketed">Why need genius and the</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -41,7 +38,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -72,13 +69,15 @@
                 
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title rend="bracketed">Why need genius</title>                  
+                    <title rend="bracketed">Why need genius and the</title>                  
                     <date xml:id="dat1" notBefore="1850" notAfter="1855" cert="medium">About 1855</date>
                     <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2018-11-09" who="#nhg">added inline relations</change>
+            <change when="2018-11-01" who="#nhg">edited title</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-12-08" who="#bb">reconciled with EAD record; added Work ID</change>
             <change when="2016-09-08" who="#nhg">proofed</change>
@@ -90,7 +89,7 @@
 
     <text type="manuscript">
         <body>
-            <p>Why need genius and the people of These States be demeaned to romances? Let facts and histories be properly told, there is no more need of romances.</p>
+            <p><seg xml:id="seg01">Why need genius and the people of These States be demeaned to romances? </seg><seg xml:id="seg02">Let facts and histories be properly told, there is no more need of romances.</seg></p>
             
         </body>
     </text>

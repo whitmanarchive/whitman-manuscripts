@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00069">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main" rend="bracketed">The Air</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="fl">Farrah Lehman</persName>
+               <persName xml:id="as">Ashlyn Stewart</persName>
+               <persName xml:id="km">Kevin McMullen</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2019</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>nyp.00069</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights
+                  reserved. Items in the Archive may be shared in accordance with the Fair Use
+                  provisions of U.S. copyright law. Redistribution or republication on other
+                  terms, in any medium, requires express written consent from the editors and
+                  advance notification of the publisher, Center for Digital Research in the
+                  Humanities. Permission to reproduce the graphic images in this archive has
+                  been granted by the owners of the originals for this publication only.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+           <note type="project">At one point, this manuscript likely formed part of <ref target="../marginalia/index-scrapbook.html">Whitman's cultural geography scrapbook</ref>.</note>                   
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <bibl>
+                  <author>Walt Whitman</author>
+                  <title rend="bracketed">The Air</title> 
+                  <idno type="callnumber">19100</idno>
+                  <date xml:id="dat1" notBefore="1850" notAfter="1860" cert="high">Between 1850 and 1860</date>
+                  <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
+                  <note type="project">Transcribed from digital images of the original item.</note>
+               </bibl> 
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="h1" scribeRef="#ww" medium="pencil"/>
+            <handNote xml:id="h2" scribeRef="#ww" medium="ink"/>
+         </handNotes>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#km" when="2019-12-10">proofed</change>
+         <change who="#as" when="2019-10-25">Updated encoding</change>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#fl" when="2006-02-17">Encoded</change>
+         <change who="#fl" when="2006-02-17">Transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <pb facs="nyp.00069.001.jpg" xml:id="leaf001r" type="recto"/>
+         
+         <span rend="curlyBrace-right" xml:id="s1" from="#s1" to="#s2"/><ab><handShift new="#h1"/>The Air <add place="supralinear" rend="unmarked"><handShift new="#h2"/>(Space)</add></ab>
+         
+         <add rend="unmarked" place="infralinear"><p>considered with reference to the earth&#8212;as all <add rend="insertion" place="supralinear">parts of</add> the universe bear reference to each other, and all other things therefore bear down their influence more or less upon this earth.&#8212;</p></add><anchor xml:id="s2"/>  
+         
+         <p rend="right"><handShift new="#h1"/>A Description of those things that may be said to be most closely <subst><del rend="overstrike" seq="1">related to</del><add rend="unmarked" place="supralinear" seq="2">identified with</add></subst> the air, (&#8212;for movement, visibility, occupancy &#38;c) as the orbs, space, light, heat (<handShift new="#h2"/>&#8212;as Silliman says&#8212;Cosmical&#8212;not Terrestrial<handShift new="#h1"/>)</p>     
+         
+         <milestone unit="horbar-short-left"/><milestone unit="short-center"/><!-- The first horbar is in pen and the second is in pencil -->
+         
+         <span rend="curlyBrace-right" xml:id="s3" from="#s3" to="#s4"/>         
+         <ab>The Sea</ab>
+         <anchor xml:id="s4"/>
+         
+         <p rend="right">All the wonders of the Sea&#8212;the Sea covering three-fourths of the land</p>
+
+         <milestone unit="undeclared" rend="horbar-short-center"/>
+
+         <span rend="curlyBrace-right" xml:id="s5" from="#s5" to="#s6"/>
+         <ab>The Land</ab>
+         <anchor xml:id="s6"/>
+         
+         <p rend="right"><handShift new="#h2"/><hi rend="underline" hand="#h1">Physical</hi> facts of the land&#8212;as first its nebulous beginning&#8212;then its geology all through to the present&#8212;then its <hi rend="underline">present beauty, reality, &#38; diversity</hi>, as the home of man.&#8212;</p>
+
+
+      </body>
+   </text>
+</TEI>

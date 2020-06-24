@@ -42,7 +42,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">The cancelled lines on the back of this manuscript leaf were revised and used in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. Since the poetic lines have been crossed out and the prose has not, it's likely that the prose was written later, but probably not much later, based on the similarity of the handwriting. Therefore, this manuscript was likely written around 1855.</note>             
+                <note type="project" target="#dat1">This manuscript has no known relation to Whitman's published work. The leaf originally was part of a larger notebook, "<ref target="../notebooks/transcriptions/loc.00024.html">The regular old followers</ref>," that probably dates to between 1853 and 1855.</note>             
             </notesStmt>
             <sourceDesc>
                 
@@ -50,16 +50,18 @@
                     <author>Walt Whitman</author>
                     <title>Free cider and Long Island character</title>                  
                     <idno type="callno">MSS18630, Box 38</idno>
-                    <date notBefore="1850" notAfter="1860" cert="medium" xml:id="dat1">About 1855</date>
+                    <date notBefore="1853" notAfter="1855" cert="medium" xml:id="dat1">Between 1853 and 1855</date>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                     <relatedItem type="text" xml:id="rel01" target="loc.05705"/>
+                    <relatedItem type="text" xml:id="rel02" target="loc.00024"/>
                     <relatedItem type="document" target="wwa.00029"/>
-                    <note type="project" target="#rel01">This prose note is on the back of a poetry manuscript.</note>
+                    <note type="project" target="#rel01 #rel02">The cancelled lines on the back of this manuscript leaf were used in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. The leaf originally formed part of a larger notebook. We have made <ref target="../notebooks/loc.00024/images_short/index.html">composite images</ref> that show the continuation of the text on this leaf with text on the notebook leaf from which it was cut, and the manuscripts have been transcribed in separate files.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2019-12-10" who="#nhg">edited note to reflect nb connection, updated pbs</change>
             <change when="2017-02-01" who="#km">edited date note</change>
             <change when="2016-05-18" who="#kmp">blessed</change>
             <change when="2016-02-01" who="#nhg">adjusted relatedItem encoding</change>
@@ -72,10 +74,10 @@
 
     <text type="manuscript">
         <body>
-            <pb xml:id="leaf001r" facs="20060316_0006.jpg" type="recto"/>
+            <pb xml:id="leaf001r" facs="loc_nhg.01406.jpg" type="recto"/>
             <ab>Citizens took <add rend="insertion" place="supralinear">by mutual agreement</add> from the Jamaica turnpike Co the charge and keeping of <subst><del rend="overwrite" seq="1">the</del><add rend="overwrite" place="over" seq="2">Fulton</add></subst> st from the ferry up to sands street, and made side-walks and pavement</ab>
             <milestone unit="undeclared" rend="horbar-short-left"/>
-            <pb xml:id="leaf001v" facs="20060316_0007.jpg" type="verso"/>
+            <pb xml:id="leaf001v" facs="loc_nhg.01405.jpg" type="verso"/>
         </body>
     </text>
 </TEI>

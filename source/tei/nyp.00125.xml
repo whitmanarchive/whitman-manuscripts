@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00125">
+      <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main" rend="bracketed">I admire a beautiful woman</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="smb">Stephanie Blalock</persName>
+               <persName xml:id="cah">Caitlin Henry</persName>
+               <persName xml:id="nhg">Nicole Gray</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2019</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>nyp.00125</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>                       
+            <note type="project" target="dat1">Based on the paper and ink, which are similar to those used in other early manuscripts, Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+                       
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>I admire a beautiful woman</title>
+               <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
+               <idno type="callno">b19877231</idno> <!-- Universal Unique Identifier (UUID): 59dbf160-c5d9-012f-f298-58d385a7bc34 -->
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library 								
+</orgName> 
+               <note type="project">Transcribed from digital images of the original.</note>
+               <relatedItem type="text" xml:id="rel01" target="nyp.00735"/>
+               <relatedItem type="document" target="wwa.00590"/>
+               <note type="project" target="#rel01">On the back of this manuscript is a partial draft of "Memorial in Behalf of a Freer Municipal Government, and Against Sunday Restrictions," printed in the Brooklyn <hi rend="italic">Star</hi> on October 20, 1854.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="#nhg" when="2019-08-20">checked, corrected</change>
+         <change who="#smb" when="2019-07-11">checked encoding and notes</change>
+         <change who="#nhg" when="2019-06-14">edited note, added relatedItem note</change>
+         <change who="#cah" when="2019-03-05">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="nyp.00125.001.jpg" xml:id="leaf001r" type="recto"/>
+         
+         <l><del rend="overstrike">I am ready</del> <del rend="overstrike"><add rend="unmarked" place="supralinear">Poet! go</add> <del rend="overstrike">to</del> <del rend="overstrike">swear</del> <del rend="overstrike">I will</del> never <add rend="insertion" place="supralinear">to</add> write another word,</del></l>
+         
+         <del rend="overstrike"><l>Act</l></del>
+         
+         <del rend="overstrike"><l>I do not</l></del>
+         
+         <l>I admire a beautiful woman . . . . I am easy about <del rend="overstrike">him<lb/> who</del> paints her portrait,</l>
+         
+         <pb facs="nyp.00125.002.jpg" xml:id="leaf001v" type="verso"/>
+      </body>
+   </text> 
+</TEI>
