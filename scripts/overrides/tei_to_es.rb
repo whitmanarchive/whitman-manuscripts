@@ -7,19 +7,7 @@ class TeiToEs
   # in the below example, the xpath for "person" is altered
   def override_xpaths
     xpaths = {}
-    xpaths["annotations_text"] = "//notesStmt/note[@type='project']"
-    xpaths["contributors"] = [
-      "//titleStmt/respStmt/persName"
-    ]
-    xpaths["date"] = {
-      "not_after" => "/TEI/teiHeader/fileDesc/sourceDesc/bibl[1]/date/@notAfter",
-      "not_before" => "/TEI/teiHeader/fileDesc/sourceDesc/bibl[1]/date/@notBefore",
-      "known" => "/TEI/teiHeader/fileDesc/sourceDesc/bibl[1]/date/@when"
-    }
-    xpaths["date_display"] = "/TEI/teiHeader/fileDesc/sourceDesc/bibl[1]/date"
-    xpaths["rights"] = "//publicationStmt/availability"
     xpaths["rights_holder"] = "//publicationStmt/distributor"
-    xpaths["rights_uri"] = "//publicationStmt/availability//ref/@target"
     xpaths["source"] = {
       "org" => "//sourceDesc/bibl/orgName",
       "note" => "//sourcesDesc/bibl/note[@type='project']"
@@ -45,32 +33,8 @@ class TeiToEs
   # Overrides of default behavior
   # Please see docs/tei_to_es.rb for complete instructions and examples
 
-  def annotations_text
-    get_text(@xpaths["annotations_text"])
-  end
-
   def category
     "manuscripts"
-  end
-
-  def date(before=true)
-    dt = get_text(@xpaths["date"]["known"])
-    if dt.empty?
-      # if there is no known date, use the not_before date
-      # as the primary date for general searches / filtering
-      dt = get_text(@xpaths["date"]["not_before"])
-    end
-    Datura::Helpers.date_standardize(dt)
-  end
-
-  def date_not_after
-    dt = get_text(@xpaths["date"]["not_after"])
-    dt.empty? ? date(false) : Datura::Helpers.date_standardize(dt, false)
-  end
-
-  def date_not_before
-    dt = get_text(@xpaths["date"]["date_not_before"])
-    dt.empty? ? date : Datura::Helpers.date_standardize(dt)
   end
 
   # TODO check if this is a good assumption to be making
@@ -102,18 +66,6 @@ class TeiToEs
   end
 
   def recipient
-  end
-
-  def rights
-    get_text(@xpaths["rights"])
-  end
-
-  def rights_holder
-    get_text(@xpaths["rights_holder"])
-  end
-
-  def rights_uri
-    get_text(@xpaths["rights_uri"])
   end
 
   def source
