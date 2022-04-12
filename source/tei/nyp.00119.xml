@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00119">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00119">
    <relations>
       <work ref="xxx.00048" cert="low">
          <p>This manuscript may relate to the following line from the poem that would be titled "Song of Myself": "Looking in at the shop-windows in Broadway the whole forenoon . . . . pressing the flesh of my nose to the thick plate-glass" (1855, p. 37).</p>
@@ -8,7 +7,7 @@
          <p>This manuscript bears a distant resemblance to a discussion of "shadows" in the poem later titled "There Was a Child Went Forth," including the lines: "Men and women crowding fast in the streets . . if they are not flashes and specks what are they? / The streets themselves, and the facades of houses . . . . the goods in the windows, / Vehicles . . teams . . the tiered wharves, and the huge crossing at the ferries;" (1855, p. 91).</p>
       </work>
       <work ref="xxx.01169" cert="low">
-         <p>This manuscript also bears some similarity to the description Whitman wrote in an unfinished poem known as "The Two Vaults," a poem that is recorded in his <ref target="loc.00348">New York Notebook (1861&#8211;1862)</ref>.</p>
+         <p>This manuscript also bears some similarity to the description Whitman wrote in an unfinished poem known as "The Two Vaults," a poem that is recorded in his <ref target="loc.00348">New York Notebook (1861–1862)</ref>.</p>
       </work>
    </relations>
    <teiHeader>
@@ -35,7 +34,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>nyp.00119</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -47,7 +46,7 @@
             <availability>
                <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>nyp.00119</idno></publicationStmt>
          <notesStmt>
             <note type="project" target="dat1">This manuscript may have been written between 1850 and 1855, when Whitman was preparing materials for the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The description of the plate-glass windows on Broadway bears some resemblance to a description in the first poem in that edition, eventually titled "Song of Myself." 
                It is also possible that the manuscript was written later, however: the description of Broadway in these lines also closely resembles a description Whitman wrote in his unfinished poem known as "The Two Vaults," a poem that is recorded in a <ref target="../notebooks/transcriptions/loc.00348.html">New York notebook</ref> that probably dates to the early 1860s. Whitman also wrote about Broadway elsewhere in later poems, so the manuscript may have been written still later. The manuscript has been pasted down, so an image of the back of the leaf is currently unavailable.</note>
@@ -101,7 +100,7 @@
 
             <l xml:id="l02">In Broadway, the reflections, <add place="supralinear" rend="insertion">moving, glistening,</add> silent<lb/>
                
-                  <del rend="overstrike">like phantasmic,&#8212;<add place="supralinear" rend="unmarked">—</add>glistening</del></l>
+                  <del rend="overstrike">like phantasmic,—<add place="supralinear" rend="unmarked">—</add>glistening</del></l>
 
             <l xml:id="l03"><del rend="overstrike"><add place="supralinear" rend="unmarked">Aside from</add></del> <add rend="unmarked" place="supralinear">Turn from <subst><del rend="overstrike" seq="1">behind</del> 
                <add place="supralinear" rend="unmarked" seq="2">the</add></subst></add>
@@ -117,7 +116,7 @@
                   <del rend="overstrike"><gap reason="deletion, illegible"/></del> all so various, all so phantasmic</l>
 
             <l xml:id="l05">The omnibus passing, and then another<lb/>
-               and another&#8212;the <del rend="overstrike">clou</del> clear sky<lb/>
+               and another—the <del rend="overstrike">clou</del> clear sky<lb/>
                up of</l>
          </lg>
       </body>

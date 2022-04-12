@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00079">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00079">
     <relations>
         <work ref="xxx.00119" cert="low">
             <p>These manuscript lines do not have any known direct relation to Whitman's published poetry. At one point, however, this manuscript was probably part of "<ref target="duk.00264.html">The Great Laws do not</ref>," which includes draft lines that appeared in the poem later titled "A Song for Occupations."</p>
@@ -33,7 +30,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>tex.00079</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -45,7 +42,7 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>tex.00079</idno></publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The lines do not have any known direct relation to Whitman's published poetry. At one point, however, the manuscript was almost certainly part of "<ref target="duk.00264.html">The Great Laws do not</ref>," which includes draft lines that appeared in that edition.</note>
             </notesStmt>
@@ -81,7 +78,7 @@
                 <l>I cannot guess what the entertainm<gap reason="cut away" quantity="3" unit="chars"/></l>
                 <l>But I am sure it will be generous enough,</l>
                 <l>I have never yet seen the sign of a niggard<lb/>
-                    in any thing but <del rend="overstrike"><add place="supralinear" rend="insertion">undeveloped</add></del> man.&#8212;</l>
+                    in any thing but <del rend="overstrike"><add place="supralinear" rend="insertion">undeveloped</add></del> man.—</l>
                 <gap reason="cut away"/>
             </lg>   
             <!--math equation-->

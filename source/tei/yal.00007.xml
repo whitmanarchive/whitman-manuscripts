@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
- 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00007">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00007">
     <relations>
         <work ref="xxx.00389" cert="high">
             <p>"To the Year 1889" was published first on <date when="1889-01-05">January 5,
@@ -38,7 +36,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>yal.00007</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -51,7 +49,7 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>yal.00007</idno></publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">"To the Year 1889" was published first on <date when="1889-01-05">January 5,
                     1889</date>, in the <hi rend="italic">Critic</hi>. The poem was later retitled
@@ -99,7 +97,7 @@
                 <head type="main" rend="underline">To the year 1889.</head>
                 <lg type="linegroup">
                     <l>
-                        Have I no <add place="supralinear" rend="insertion">weapon&#8209;</add>word for thee&#8212;some message
+                        Have I no <add place="supralinear" rend="insertion">weapon‑</add>word for thee—some message
                             brief
                         <lb/>and fierce?
                     </l>
@@ -109,12 +107,12 @@
                         <lb/>there no shot left,
                     </l>
                     <l>For all thy affectations, lisps, scorns, <add place="supralinear" rend="insertion">manifold</add> silliness?</l>
-                    <l>Nor for myself&#8212;my own rebellious self <del rend="overstrike"><gap reason="illegible" extent="one letter"/></del> in thee?</l>
+                    <l>Nor for myself—my own rebellious self <del rend="overstrike"><gap reason="illegible" extent="one letter"/></del> in thee?</l>
                 </lg>
                 <note type="authorial" place="inline">#</note>
                 <note rend="circled" place="inline" type="authorial">two leads</note>
                 <lg type="linegroup">
-                    <l>Down, down, proud gorge&#8212;tho' choking thee,</l>
+                    <l>Down, down, proud gorge—tho' choking thee,</l>
                     <l>Thy bearded throat and high-borne forehead to the
                         <lb/>gutter,
                     </l>
@@ -123,7 +121,7 @@
             </lg>
             <signed rend="underline">Walt Whitman</signed>
             <pb facs="yal.00007.002.jpg" xml:id="leaf001v" type="verso"/>
-            <note type="archival" resp="#h1" place="top"><hi rend="underline">Sky</hi> $25.&#8212;</note>
+            <note type="archival" resp="#h1" place="top"><hi rend="underline">Sky</hi> $25.—</note>
             <note type="archival" resp="#h1" place="bottom">65.</note>
         </body>
     </text>

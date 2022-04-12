@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05175">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05175">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.05175</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.05175</idno></publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">Edward Grier notes that the paper matches that of a manuscript dated 1855 or earlier, suggesting a similar date for this manuscript (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:171).</note>             
             </notesStmt>
@@ -50,7 +47,7 @@
                     <title rend="bracketed">And to the soul</title>                  
                     <idno type="callno">MSS45443, Box 1, Reel 1</idno>
                     <date xml:id="dat1" cert="medium" notBefore="1845" notAfter="1855">1855 or earlier</date>
-                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842–1937, Library of Congress, Washington, D.C.</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
             </sourceDesc>
@@ -78,10 +75,10 @@
             
             <delSpan rend="hashmark" spanTo="#d01"/>
             
-            <p><del rend="overstrike">Ministers</del> Clergymen? get their two or ten thousand a year, and members of Congress their eight dollars a day; and certainly it is right enough <del rend="overstrike">as the <gap reason="illegible" quantity="3" unit="chars" resp="#kc"/></del> <add rend="unmarked" place="supralinear">by</add> the <add rend="insertion" place="supralinear">moral</add> theory that floats on the surface<subst><del rend="overwrite" seq="1">;</del><add rend="overwrite" place="over" seq="2">.</add></subst>&#8212;<subst><del rend="overwrite" seq="1">w</del><add rend="overwrite" place="over" seq="2">W</add></subst>hich is exactly the same as the paper money theory; every body knows that it is not money and the puzzle is never <subst><del rend="overstrike" seq="1">clearly</del> <add rend="unmarked" place="supralinear" seq="2">exactly</add></subst> satisfied; but the bills pass and we will take them as long as <del rend="overstrike">we</del> other folks do.&#8212;</p>
+            <p><del rend="overstrike">Ministers</del> Clergymen? get their two or ten thousand a year, and members of Congress their eight dollars a day; and certainly it is right enough <del rend="overstrike">as the <gap reason="illegible" quantity="3" unit="chars" resp="#kc"/></del> <add rend="unmarked" place="supralinear">by</add> the <add rend="insertion" place="supralinear">moral</add> theory that floats on the surface<subst><del rend="overwrite" seq="1">;</del><add rend="overwrite" place="over" seq="2">.</add></subst>—<subst><del rend="overwrite" seq="1">w</del><add rend="overwrite" place="over" seq="2">W</add></subst>hich is exactly the same as the paper money theory; every body knows that it is not money and the puzzle is never <subst><del rend="overstrike" seq="1">clearly</del> <add rend="unmarked" place="supralinear" seq="2">exactly</add></subst> satisfied; but the bills pass and we will take them as long as <del rend="overstrike">we</del> other folks do.—</p>
             <anchor xml:id="d01"/>
             
-            <p><handShift new="#h2"/><hi rend="underline"><seg xml:id="alt1">Moon blind</seg> <add rend="ummarked" place="supralinear" xml:id="alt2">moon eyed</add><alt target="#alt1 #alt2" weights="0.5 0.5"/> horse.</hi>&#8212;There are <add rend="insertion" place="supralinear">some</add> horses who see perfectly well except at a certain change or quartering of the moon.&#8212;At that period, no matter when it comes, they are blind.&#8212;Horses so affected are liable by any bad management hard work &amp;c to become confirmedly blind</p>
+            <p><handShift new="#h2"/><hi rend="underline"><seg xml:id="alt1">Moon blind</seg> <add rend="ummarked" place="supralinear" xml:id="alt2">moon eyed</add><alt target="#alt1 #alt2" weights="0.5 0.5"/> horse.</hi>—There are <add rend="insertion" place="supralinear">some</add> horses who see perfectly well except at a certain change or quartering of the moon.—At that period, no matter when it comes, they are blind.—Horses so affected are liable by any bad management hard work &amp;c to become confirmedly blind</p>
             
             <pb xml:id="leaf001v" facs="loc_af.00117.jpg" type="verso"/>
             

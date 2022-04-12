@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00294">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00294">
     <relations>
         <work ref="xxx.00116" cert="high">
             <p><ref target="#q01 #q02" xml:id="r01" type="text">The notes on the bottom half of this scrap</ref> probably relate to "Song of the Broad-Axe," a poem which was first published in the 1856 edition of <hi rend="italic">Leaves of Grass</hi> as "Broad-Axe Poem" before appearing under its final title in 1867. This poem features the transition from the use of the axe by the Old World headsman to the use of it by the New World carpenter that is described in these notes.</p>
@@ -35,7 +32,7 @@
 				</edition>
 			</editionStmt>
 			<publicationStmt>
-				<idno>duk.00294</idno>
+				
 				<distributor>The Walt Whitman Archive</distributor>
 				<address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -47,9 +44,9 @@
 				<availability>
 					<p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
 				</availability>
-			</publicationStmt>
+			<idno>duk.00294</idno></publicationStmt>
 			<notesStmt>
-				<note type="project" target="#dat1">This leaf consists of two manuscript scraps glued together. The bottom scrap includes notes toward "Song of the Broad-Axe," which was first published in the 1856 edition of <hi rend="italic">Leaves of Grass</hi> as "Broad-Axe Poem." This suggests a date before 1856. The writing on the top scrap, which describes one of Whitman's acquaintances, might have informed the description of the masculine "saunterer of woods" in that poem. Edward Grier writes of "Bloom" that "It has been suggested that this is Nathaniel Bloom, a member of [Whitman]'s circle of friends in the early 1860s...but it seems more likely that the name refers to either 'Gilbert Bloom, carman,' or 'Gilbert J. Bloom, carman,' as listed in the [New York City] directories for 1854&#8211;1855"  (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:201).</note>             
+				<note type="project" target="#dat1">This leaf consists of two manuscript scraps glued together. The bottom scrap includes notes toward "Song of the Broad-Axe," which was first published in the 1856 edition of <hi rend="italic">Leaves of Grass</hi> as "Broad-Axe Poem." This suggests a date before 1856. The writing on the top scrap, which describes one of Whitman's acquaintances, might have informed the description of the masculine "saunterer of woods" in that poem. Edward Grier writes of "Bloom" that "It has been suggested that this is Nathaniel Bloom, a member of [Whitman]'s circle of friends in the early 1860s...but it seems more likely that the name refers to either 'Gilbert Bloom, carman,' or 'Gilbert J. Bloom, carman,' as listed in the [New York City] directories for 1854–1855"  (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:201).</note>             
 			</notesStmt>
 			<sourceDesc>
 				
@@ -82,14 +79,14 @@
 
 	<pb xml:id="leaf001r" facs="1012_020.jpg" type="recto"/><!-- I linked to a better image of the recto. The thumbnail is currently not displaying, but it should once we've run the script to generate new thumbnails. KM -->
 
-	<p><hi rend="underline">Bloom</hi>.&#8212;Broad-shouldered, six-footer, with a hare-lip.&#8212;Clever fellow, and by no means bad looking.&#8212;(George Fitch has room<gap reason="cut away"/> with him a year, and tells me, there is no more honorable man breathing.)&#8212;Direct, plain-spoken, natural-hearted, gentle-tempered, but awful when roused&#8212;cartman, with a horse, cart &amp;c, of his own&#8212;drives for a store in <subst><del rend="overwrite" seq="1">m</del><add rend="overwrite" place="over" seq="2">M</add></subst>aiden lane.&#8212;</p>
+	<p><hi rend="underline">Bloom</hi>.—Broad-shouldered, six-footer, with a hare-lip.—Clever fellow, and by no means bad looking.—(George Fitch has room<gap reason="cut away"/> with him a year, and tells me, there is no more honorable man breathing.)—Direct, plain-spoken, natural-hearted, gentle-tempered, but awful when roused—cartman, with a horse, cart &amp;c, of his own—drives for a store in <subst><del rend="overwrite" seq="1">m</del><add rend="overwrite" place="over" seq="2">M</add></subst>aiden lane.—</p>
 
 
 <delSpan rend="hashmark" spanTo="#d1"/>
-    <ab xml:id="q01">&#8212;The Broad-axe&#8212;the axe of the headsman</ab>
+    <ab xml:id="q01">—The Broad-axe—the axe of the headsman</ab>
             
     <span rend="bracket-right" xml:id="s1" from="#s1" to="#s2"/>
-    <p xml:id="q02">First as the axe of the headsman&#8212;and what was done with it for a thousand years&#8212;then as the carpenter's broad-axe, and what is done with that now</p>
+    <p xml:id="q02">First as the axe of the headsman—and what was done with it for a thousand years—then as the carpenter's broad-axe, and what is done with that now</p>
     <anchor xml:id="s2"/>
     <anchor xml:id="d1"/>
 	<pb xml:id="leaf001v" facs="duk_am.00248.jpg" type="verso"/>

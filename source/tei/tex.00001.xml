@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00001">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00001">
     <relations>
         <work ref="xxx.01166" cert="high">
             <p>This manuscript shows a tentative arrangement of the poems for the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, with working titles, as well as various mathematical calculations relating to the length and arrangment of the volume.</p>
@@ -31,7 +29,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>tex.00001</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -43,7 +41,7 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>tex.00001</idno></publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">This manuscript shows a listing of the poems for the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, with working titles, as well as various mathematical calculations relating to the length and arrangment of the volume. It was likely composed in 1854 or early in 1855. Ed Folsom has written at length about this manuscript and its significance. See "<ref target="https://doi.org/10.13008/2153-3695.1609">Walt Whitman's Working Notes for the First Edition of <hi rend="italic">Leaves of Grass</hi></ref>," <hi rend="italic">Walt Whitman Quarterly Review</hi>, 16 (Fall 1998), 90–95.</note>             
             </notesStmt>
@@ -131,29 +129,29 @@
             
             <ab>
                 <table>
-                <row><cell>2</cell> <cell>for frontispiece &#38; fly</cell></row>
-                <row><cell>2</cell> <cell>for title &#38; blank</cell></row>
+                <row><cell>2</cell> <cell>for frontispiece &amp; fly</cell></row>
+                <row><cell>2</cell> <cell>for title &amp; blank</cell></row>
                 <span rend="curlyBrace-right" hand="#h1" xml:id="s5" from="#s5" to="#s6"/>
-                <row><cell>15&#8212;1</cell><cell/></row>
+                <row><cell>15—1</cell><cell/></row>
                 <row><cell>13 2</cell><cell/></row>
-                    <row><cell>12 3</cell> <cell>I celebrate myself <add rend="unmarked" place="inline">&#10003;</add></cell></row>
+                    <row><cell>12 3</cell> <cell>I celebrate myself <add rend="unmarked" place="inline">✓</add></cell></row>
                 <row><cell>9 4</cell><cell/></row>
                 <row><cell>13 5</cell><cell/></row>
                 <anchor xml:id="s6"/>
                 <span rend="curlyBrace-right" hand="#h1" xml:id="s7" from="#s7" to="#s8"/>
-                    <row><cell>4&#189;</cell> <cell>A young man came to me <add rend="unmarked" place="inline">&#10003;</add><lb/> 
-                        A child went forth <add rend="unmarked" place="inline">&#10003;</add></cell></row>
+                    <row><cell>4½</cell> <cell>A young man came to me <add rend="unmarked" place="inline">✓</add><lb/> 
+                        A child went forth <add rend="unmarked" place="inline">✓</add></cell></row>
                 <anchor xml:id="s8"/>
-                    <row><cell>4</cell><cell>sauntering the pavement, <add rend="unmarked" place="inline">&#10003;</add></cell></row>
-                <row><cell>9</cell><cell>great are the myths, <add rend="unmarked" place="inline">&#10003;</add></cell></row>
+                    <row><cell>4</cell><cell>sauntering the pavement, <add rend="unmarked" place="inline">✓</add></cell></row>
+                <row><cell>9</cell><cell>great are the myths, <add rend="unmarked" place="inline">✓</add></cell></row>
                 <row><cell>9</cell> <cell>I wander all night</cell></row>
-                <row><cell>10</cell> <cell>Come closer to me <add rend="unmarked" place="inline">&#10003;</add></cell></row>
+                <row><cell>10</cell> <cell>Come closer to me <add rend="unmarked" place="inline">✓</add></cell></row>
                 <span rend="curlyBrace-right" hand="#h1" xml:id="s9" from="#s9" to="#s10"/>
-                    <row><cell>5</cell> <cell>Who learns my lesson complete &#38;<lb/> Clear the way there Jonathan <add rend="unmarked" place="inline">&#10003;</add></cell></row>
+                    <row><cell>5</cell> <cell>Who learns my lesson complete &amp;<lb/> Clear the way there Jonathan <add rend="unmarked" place="inline">✓</add></cell></row>
                 <anchor xml:id="s10"/>
                 <row><cell>2</cell> <cell>Resurgemus</cell></row>
-                <row><cell>5&#8212;</cell> <cell><subst><del rend="overstrike" seq="1">Road and others</del> <add place="supralinear" rend="unmarked" seq="2">To think through the retrospection</add></subst> <add rend="unmarked" place="inline">&#10003;</add></cell></row>
-                <row><cell>3</cell> <cell>Blacks <add rend="unmarked" place="inline">&#10003;</add></cell></row>
+                <row><cell>5—</cell> <cell><subst><del rend="overstrike" seq="1">Road and others</del> <add place="supralinear" rend="unmarked" seq="2">To think through the retrospection</add></subst> <add rend="unmarked" place="inline">✓</add></cell></row>
+                <row><cell>3</cell> <cell>Blacks <add rend="unmarked" place="inline">✓</add></cell></row>
             </table></ab>
             <ab type="math"><table rend="right">
                 <row><cell/><cell>127</cell><cell/></row>

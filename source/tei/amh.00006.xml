@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
- 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="amh.00006">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="amh.00006">
     <relations>
         <work ref="xxx.00414">
             <p>This manuscript is a draft of No. 4 of the "Thoughts" cluster published first in the
@@ -52,7 +50,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>amh.00006</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -65,7 +63,7 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>amh.00006</idno></publicationStmt>
             <notesStmt>
                 <note type="project" target="dat1">This manuscript was probably composed in the
                         <date notBefore="1856" notAfter="1860">late 1850s or in 1860</date> as Whitman was
@@ -111,7 +109,7 @@
         <body>
             <pb facs="amh.00006.001.jpg" xml:id="leaf001r" type="recto"/>
             <note type="authorial" place="top">6
-                <subst><del rend="overwrite" seq="1">2</del><add place="over" rend="overwrite" seq="2">3</add></subst>&#8212;
+                <subst><del rend="overwrite" seq="1">2</del><add place="over" rend="overwrite" seq="2">3</add></subst>—
             </note>
             
             <note place="top" type="archival" resp="#h1" rend="circled">25<hi rend="superscript">00</hi>
@@ -125,7 +123,7 @@ cxnm</note>
                 </head>
                 
                 <l>Of<subst>
-                        <del rend="overwrite" seq="1">o</del><add place="over" rend="overwrite" seq="2">O</add></subst>wnership&#8212;As if one
+                        <del rend="overwrite" seq="1">o</del><add place="over" rend="overwrite" seq="2">O</add></subst>wnership—As if one
                     <lb/>fit to own things could
                     <lb/>not at pleasure enter
                     <lb/>upon all, and incorporate
@@ -133,13 +131,13 @@ cxnm</note>
                     <lb/>herself;
                 </l>
                 
-                <l>Of Equality&#8212;As if it harmed
+                <l>Of Equality—As if it harmed
                     <lb/>me, giving others the
                     <lb/>same chances <add place="supralinear" rend="insertion">and rights</add> as
-                        myself&#8212;
+                        myself—
                     <lb/>As if it were not 
                         <choice>
-                            <orig>indis&#8209;</orig>
+                            <orig>indis‑</orig>
                             <reg>indispensable</reg>
                         </choice>
                     <lb/>pensable to my own rights
@@ -147,7 +145,7 @@ cxnm</note>
                     <lb/>same;
                 </l>
                 
-                <l>Of Justice&#8212;As if Justice could
+                <l>Of Justice—As if Justice could
                     <lb/>be any thing but the same
                     <lb/>ample law, expounded by
                     <lb/>natural judges and saviours,
