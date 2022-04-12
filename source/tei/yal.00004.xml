@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
- 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00004">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00004">
     <relations>
         <work ref="xxx.00567" cert="high">
             <p>"As in a Swoon" was published first in the <date when="1876">1876</date> printing of
@@ -41,7 +37,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>yal.00004</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -54,7 +50,7 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>yal.00004</idno></publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">"As in a Swoon" was published first in the <date when="1876">1876</date> printing of
                     <hi rend="italic">Leaves of Grass</hi>. Though the poem was not included in any
@@ -113,7 +109,7 @@
                             thousand fold</add><add place="inline" rend="unmarked">,</add>
 
                 </l>
-                <l>One instant of the future land&#8212;
+                <l>One instant of the future land—
                     <lb/>
 <choice>
 <sic>Heeaven's</sic>
@@ -122,10 +118,10 @@
                 </l>
             </lg>
             <milestone rend="horbar" unit="undeclared"/>
-            <note place="bottom" type="authorial">Is this <unclear reason="illegible" resp="#kmp" cert="medium">pub'd</unclear>? is it in L of G&#8212;or annex?</note>
+            <note place="bottom" type="authorial">Is this <unclear reason="illegible" resp="#kmp" cert="medium">pub'd</unclear>? is it in L of G—or annex?</note>
             <pb facs="yal.00004.002.jpg" xml:id="leaf001v" type="verso"/>
             <note type="archival" resp="#h1" place="right">56.</note>
-            <note type="archival" resp="#h1" place="top">&#8212;5&#190;&#8212;</note>
+            <note type="archival" resp="#h1" place="top">—5¾—</note>
         </body>
     </text>
 </TEI>

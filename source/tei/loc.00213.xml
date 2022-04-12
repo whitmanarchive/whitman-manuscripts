@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
- 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00213">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00213">
     <relations>
         <work ref="xxx.00358" cert="high">
             <p>This manuscript is a draft of "Life and Death," which was published first in the New
@@ -37,7 +35,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.00213</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -50,7 +48,7 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.00213</idno></publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">This manuscript is a draft of "Life and Death," which was published first in the New
                     York <hi rend="italic">Herald</hi> on <date when="1888-05-23">May 23,
@@ -63,7 +61,7 @@
                     <title>Life and Death</title>
                     <date xml:id="dat1" cert="high" notBefore="1888-01-01" notAfter="1888-05-19">1888</date>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman,
-                        1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
             </sourceDesc>
@@ -116,7 +114,7 @@
                     insoluble, pass'd on,
                 </l>
                 <l>To ours <choice>
-<orig>to-day</orig><reg>today</reg></choice>&#8212;and we pass on. <add rend="unmarked" place="inline">the same</add>
+<orig>to-day</orig><reg>today</reg></choice>—and we pass on. <add rend="unmarked" place="inline">the same</add>
 </l>
                 <transpose anchored="1" target="#tr01">
                     <l>

@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
- 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00023">
-    <relations xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00023">
+    <relations>
         <work ref="xxx.00597" cert="high">
             <p>We have not identified a direct relationship between this manuscript and any of
                 Whitman's published writings, if any exists. The manuscript was first published in
@@ -40,7 +38,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>tex.00023</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -53,7 +51,7 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>tex.00023</idno></publicationStmt>
             <notesStmt>
                 <note type="project" target="dat1">The date of this manuscript is unknown, though it
                     seems likely that it is from the <date notBefore="1870" notAfter="1880">1870s</date> based on the
@@ -102,10 +100,10 @@
                             <gap reason="deleted, illegible" extent="three letters"/></del> magazines,
                     <lb/>
 <del rend="overstrike">pulpits,</del> reviews, schools, pulpits
-                    <lb/>and legislatures&#8212;but presently
+                    <lb/>and legislatures—but presently
                     <lb/>I expect to see myself
                     <lb/>in magazines, schools, and
-                    <lb/>legislatures&#8212;or that my friends
+                    <lb/>legislatures—or that my friends
                     <lb/>after me will see me there,
                 </l>
             

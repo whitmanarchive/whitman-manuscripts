@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
- 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hpl.00001">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hpl.00001">
     <relations>
         <work ref="xxx.00287" cert="high">
             <p>This is a draft of the poem eventually titled "Thick-Sprinkled Bunting," first
@@ -36,7 +34,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>hpl.00001</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -49,7 +47,7 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>hpl.00001</idno></publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">This is a draft of the poem eventually titled "Thick-Sprinkled Bunting," first
                     published under the title "Flag of stars, thick-sprinkled bunting" in <hi rend="italic">Drum-Taps</hi> in <date when="1865">1865</date>. The manuscript was likely written in <date when="1864">1864</date>.</note>
@@ -63,7 +61,7 @@
                     <note type="project">Transcribed from digital images of the original.</note>
                     <relatedItem type="document" target="wwa.00080"/>
                     <relatedItem type="text" xml:id="rel01" target="hpl.00003"/>
-                    <note type="project" target="#rel01">On the back of this leaf is a letter draft from around 26&#8211;29 (?) December 1864, apparently to the editor of the New York <hi rend="italic">Herald</hi>, asking that an accompanying "communication,"
+                    <note type="project" target="#rel01">On the back of this leaf is a letter draft from around 26–29 (?) December 1864, apparently to the editor of the New York <hi rend="italic">Herald</hi>, asking that an accompanying "communication,"
                         now lost, be printed "to start a public demand for the general exchange of
                         prisoners of war."</note>
                 </bibl>
@@ -140,7 +138,7 @@
                     <lb/>of kings.
                 </l>
                 <l>Walk supreme to the heavens, mighty
-                    <lb/>symbol&#8212;run up above them
+                    <lb/>symbol—run up above them
                     <lb/>all,
                 </l>
                 <l>Dense starr'd bunting</l><!--four scribbles on the paper here-->

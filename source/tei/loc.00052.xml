@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
- 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00052">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00052">
     <relations>
         <work ref="xxx.00217" cert="low">
             <p>This list of descriptive terms was made as Whitman composed his elegy for Abraham
@@ -38,7 +36,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.00052</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -51,7 +49,7 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.00052</idno></publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">This manuscript was likely written soon after the
                     assassination of Abraham Lincoln in <date when="1865-04">April
@@ -63,7 +61,7 @@
                     <author>Walt Whitman</author>
                     <date xml:id="dat1" cert="high" notBefore="1865-04" notAfter="1865-12">1865</date>
                     <title>Beat! Beat! Drums!</title>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <note type="project">Transcribed from <hi rend="italic">The Walt Whitman Archive
                         I: Whitman Manuscripts at the Library of Congress</hi>, ed Joel Myerson (New York: Garland, 1993),
                         1:157. The transcription was then checked against digital images of the original.</note>
@@ -116,12 +114,12 @@
                     </item>
                     <item>melancholy</item>
                     <item>dismal</item>
-                    <item>heavy&#8209;hearted</item>
+                    <item>heavy‑hearted</item>
                     <item>tears</item>
                     <item>black</item>
                     <item>sobs
                         <choice>
-                            <abbr>&#8212;ing</abbr>
+                            <abbr>—ing</abbr>
                             <expan>sobbing</expan>
                         </choice>
                     </item>
@@ -159,7 +157,7 @@
                     <item>
 <span xml:id="s1" to="s2" rend="bracketed" from="s1"/> partial or total
                             <anchor xml:id="s2"/>darkness</item>
-                    <item>(as the gloom of a forest&#8212;gloom of midnight)</item>
+                    <item>(as the gloom of a forest—gloom of midnight)</item>
                     <item>cloudy</item>
                     <item>cloudiness</item>
                     <item>
@@ -187,7 +185,7 @@
 <unclear cert="high" resp="#kmp" reason="cut away">shades</unclear> of
                         night</item>
                     <item>heavy</item>
-                    <item>dull&#8212;sombre</item>
+                    <item>dull—sombre</item>
                     <item>sombre shades</item>
                     <item>
                         <choice>
@@ -196,7 +194,7 @@
                         </choice>
                     </item>
                     <item>affliction</item>
-                    <item>oppress&#8212;oppressi<subst><del rend="overwrite" seq="1">o</del><add place="over" rend="overwrite" seq="2">v</add></subst>e</item>
+                    <item>oppress—oppressi<subst><del rend="overwrite" seq="1">o</del><add place="over" rend="overwrite" seq="2">v</add></subst>e</item>
                     <item>
                         <choice>
                             <abbr>" ion</abbr>
@@ -204,10 +202,10 @@
                         </choice>
                     </item>
                     <item>prostration</item>
-                    <item>humble&#8212;humility</item>
-                    <item>suffering&#8212;silent suffering</item>
+                    <item>humble—humility</item>
+                    <item>suffering—silent suffering</item>
                     <item>burdensome</item>
-                    <item>Distress&#8212;distressing</item>
+                    <item>Distress—distressing</item>
                     <item>Calamity</item>
                     <item>Extreme anguish (either of mind or body)</item>
                     <item>Misery</item>
@@ -220,7 +218,7 @@
                     <cb n="2"/>
                     <item>Calamity</item>
                     <item>disaster</item>
-                    <item>something that strikes down&#8212;<del rend="overstrike">as by
+                    <item>something that strikes down—<del rend="overstrike">as by
                             Almighty</del>
 </item>
                 </list>

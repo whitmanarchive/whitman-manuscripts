@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
- 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00050">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00050">
     <relations>
         <work ref="xxx.00293" cert="high">
             <p>This manuscript appears to be draft material for the two linegroups Whitman added in
@@ -36,7 +34,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.00050</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -49,9 +47,9 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.00050</idno></publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">This manuscript was likely composed around <date notBefore="1870" notAfter="1871">1870&#8211;1871</date>, when Whitman was revising and expanding
+                <note type="project" target="#dat1">This manuscript was likely composed around <date notBefore="1870" notAfter="1871">1870–1871</date>, when Whitman was revising and expanding
                     the poem "Hymn of Dead Soldiers," originally published in <hi rend="italic">Drum-Taps</hi> (<date when="1865">1865</date>), for republication as
                     "Ashes of Soldiers."</note>
             </notesStmt>
@@ -60,7 +58,7 @@
                     <author>Walt Whitman</author>
                     <title> Ashes of Roses</title>
                     <date xml:id="dat1" cert="high" notBefore="1868" notAfter="1871">Between 1868 and 1871</date>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <note type="project">Transcribed from <hi rend="italic">The Walt Whitman Archive I: Whitman Manuscripts at the Library of Congress</hi>, ed. Joel Myerson (New York: Garland, 1993),
                         1:153. The transcription was then checked against digital images of the original.</note>
                 </bibl>
@@ -83,7 +81,7 @@
             <change when="2004-12-06" who="#kmp">Addition of Date and Work Markup</change>
             <change when="2003-10-02" who="#bb">Conversion to camel-case</change>
             <change when="2003-05-21" who="#bb">changed "a=a" to a printer's hyphen
-                    (&#8209;)</change>
+                    (‑)</change>
             <change when="2002-12-20" who="#bb">Made a single-character correction to the text</change>
             <change when="2002-10-04" who="#bb">Corrected from Ken Price's written changes; blessed</change>
             <change when="2002-09-23" who="#bb">Blessed</change>
@@ -125,17 +123,17 @@
                     <item>purple &amp; white</item>
                     <item>
 <del rend="overstrike">&amp; red</del> &amp; yellow</item>
-                    <item>&amp; red&#8212;</item>
+                    <item>&amp; red—</item>
                 </list>
-                <ab>&#8212;the <hi rend="underline">graves</hi>&#8212;
+                <ab>—the <hi rend="underline">graves</hi>—
 </ab>
                 <ab>
                     <hi rend="underline">Ashes of Armies</hi>
                 </ab>
                 <ab>The <hi rend="underline">Unknown</hi>
-<add place="supralinear" rend="unmarked">&#9756;</add>
+<add place="supralinear" rend="unmarked">☜</add>
 </ab>
-                <ab>? <hi rend="underline">Army&#8209;Ashes</hi>
+                <ab>? <hi rend="underline">Army‑Ashes</hi>
 </ab>
                 <ab>The dust of each <del rend="overstrike">mingling</del>
 
@@ -145,7 +143,7 @@
                                                         
                                 <add place="supralinear" rend="unmarked" seq="2">in the</add>
                                                     </subst> dust
-                    <lb/>of each&#8212;(i.e. the rebel &amp; the Union)
+                    <lb/>of each—(i.e. the rebel &amp; the Union)
                 </ab>
                 
                 <add rend="pasteon"><q who="#unk" type="printed"><floatingText rend="flat"><body><p><handShift rend="printed"/>Are we to have a National Hy<supplied source="Library of Congress transcription">mn by Cen</supplied>tennial time?</p></body></floatingText></q></add>
@@ -155,16 +153,16 @@
                 <lg type="poem">
                     
                     <head type="main-authorial"><note place="inline" type="authorial">?</note> <hi rend="underline">Ashes of Roses</hi></head>
-                    <l>Dust of the dead&#8212;</l>
+                    <l>Dust of the dead—</l>
                     <l>ashes of blue &amp; gray,</l>
-                    <l>&#8212;ashes of battle-pits,</l>
+                    <l>—ashes of battle-pits,</l>
                     <milestone rend="horbar-short-left" unit="undeclared"/>
-                    <l>solemn &amp; strange cement&#8212;</l>
+                    <l>solemn &amp; strange cement—</l>
                     <milestone rend="horbar-short-left" unit="undeclared"/>
                     <l>not a <del rend="overstrike">field</del> crop grows hence in 
                         <lb/>the field, of north or south
                     </l>
-                    <l>&#8212;<del rend="overstrike">Not</del> Nor moisture of the river,
+                    <l>—<del rend="overstrike">Not</del> Nor moisture of the river,
                             nor
                         <lb/>falling rain
                     </l>
