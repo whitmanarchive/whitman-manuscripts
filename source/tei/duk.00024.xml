@@ -145,12 +145,12 @@
                                                         
                                 <add place="supralinear" rend="unmarked" seq="2">charm</add>
                                                     </subst> of power unbroken?</l>
-                    <add place="interlinear" rend="unmarked">
+                    <addSpan spanTo="#a1" place="interlinear" rend="unmarked"/>
                         <l>
 <del rend="overstrike">O</del> what <del rend="overstrike">
 <note type="authorial" place="inline">?</note> Columbia's</del>
 </l>
-                    </add>
+                    <anchor xml:id="a1"/>
                     <l>What the <subst>
                             
                                 <del rend="overstrike" seq="1">Charm</del>
@@ -183,7 +183,7 @@
                                     Union of all</add>
                                                     </subst>
                     </l>
-                    <del rend="overstrike">
+                    <delSpan spanTo="#d1" rend="overstrike"/>
                         <l>O its all <subst>
                                 
                                     <del rend="overstrike" seq="1">for</del>
@@ -196,7 +196,7 @@
                                                                 
                                     <add place="supralinear" rend="unmarked" seq="2">in</add>
                                                             </subst> all</l>
-                    </del>
+                    <anchor xml:id="d1"/>
                     <l>What Columbia's <note type="authorial" place="supralinear">?</note> <seg xml:id="alt1">mystic</seg>                          
                                 <add place="supralinear" rend="unmarked" xml:id="alt2">
                                     
@@ -240,9 +240,9 @@
 </choice>
 </l>
                     <l>Clasping, holding, earthward, heavenward</l>
-                    <del rend="overstrike">
+                    <delSpan spanTo="#d3" rend="overstrike"/>
                         <l>Onward, on,</l>
-                    </del>
+                    <anchor xml:id="d3"/>
                     <l>Circling, <subst>
                             
                                 <del rend="overstrike" seq="1">circling,</del>
@@ -285,22 +285,22 @@
                                                     </subst> folding, loving,</l>
                     <l>
 <del rend="overstrike">E</del> Northward, Southward, Westward moving</l>
-                    <add rend="unmarked" place="interlinear">
+                    <addSpan spanTo="a2" rend="unmarked" place="interlinear"/>
                         <l>O its all hands round for the</l>
-                    </add>
+                    <anchor xml:id="a2"/>
                     <l>
 <del rend="overstrike">Union all!</del> O its Union all</l>
-                    <add place="interlinear" rend="unmarked">
+                    <addSpan spanTo="#a3" place="interlinear" rend="unmarked"/>
                         <l>Here's mine—give me thine—for the Union all</l>
-                    </add>
-                    <del rend="overstrike">
+                    <anchor xml:id="a3"/>
+                    <delSpan spanTo="#d2" rend="overstrike"/>
                         <l>O its all <add rend="insertion" place="supralinear">for</add>
                             each—and each for <choice>
 <sic>al</sic>
 <corr>all</corr>
 </choice>
 </l>
-                    </del>
+                    <anchor xml:id="d2"/>
                     <milestone unit="glued"/>
                     <l>
 <subst>

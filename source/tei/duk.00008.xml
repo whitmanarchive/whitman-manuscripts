@@ -75,12 +75,12 @@
       <body>
          <pb facs="duk_nhg.00757a_large.jpg" type="recto" xml:id="leaf001r"/>
          <delSpan spanTo="#d1" rend="hashmark"/>
-         <del rend="overstrike"><note type="authorial" place="top">204</note></del><!--NOTE: this number is written in ink-->
+         <delSpan spanTo="#d2" rend="overstrike"/><note type="authorial" place="top">204</note><anchor xml:id="d2"/><!--NOTE: this number is written in ink-->
          <lg type="linegroup">
             <l xml:id="l01">My tongue <subst><del rend="overstrike" seq="1">must</del> <add rend="unmarked" place="supralinear" seq="2">can never</add></subst> be content with <subst><del rend="overstrike" seq="1"><unclear reason="illegible" cert="medium" resp="#nhg">pap</unclear></del> <add place="supralinear" rend="unmarked" seq="2">harness</add></subst><lb/>
              <del rend="overstrike" seq="1">from this</del> <add place="inline" rend="unmarked" seq="2">after this,</add></l>
                
-               <l xml:id="l02">It <del rend="overstrike"><unclear reason="deletion, illegible" resp="#awj" cert="medium">c</unclear></del> will not talk <del rend="overstrike">m<gap reason="deletion, illegible"/></del> in traces,</l>
+               <l xml:id="l02">It <delSpan spanTo="#d3" rend="overstrike"/><unclear reason="deletion, illegible" resp="#awj" cert="medium">c</unclear><anchor xml:id="d3"/> will not talk <del rend="overstrike">m<gap reason="deletion, illegible"/></del> in traces,</l>
                
             <l xml:id="l03"><del rend="overstrike">It gives up the bit, and</del> <del rend="erasure"><add rend="insertion" place="supralinear"><gap reason="deletion, illegible"/></add></del> any more.</l>
          </lg>
