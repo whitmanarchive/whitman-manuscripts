@@ -21,7 +21,7 @@
     <persName xml:id="li">Leslie Ianno</persName>
     <persName xml:id="nhg">Nicole Gray</persName>
     <persName xml:id="kmp">Kenneth M. Price</persName>
-</respStmt>
+<persName xml:id="as">Ashlyn Stewart</persName></respStmt>
 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
 <sponsor>University of Iowa</sponsor>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -50,8 +50,8 @@
             manuscript in the early 1850s as he was preparing materials for the first (<date notBefore="1850" notAfter="1855">1855</date>) edition of <hi rend="italic">Leaves of Grass</hi>. It is a draft of lines that appeared in the fourth poem in that edition, eventually titled "The Sleepers." The word "Sleepchaser's" appears in the upper right corner, perhaps indicating that Whitman was considering a title similar to the 1860 and 1867 title "Sleep-Chasings" even before the poem was first published in 1855, unless this is in fact a reworking of the section for the 1860 edition. The possibility of a post-1855 dating, however, appears to be slight given the similarities of paper choice and inscription techniques among other leaves and similarities to drafts in "<ref target="../notebooks/transcriptions/loc.00141.html">Talbot Wilson</ref>," an early Library of Congress notebook. The poem "Sleep-Chasings" eventually became "The Sleepers" in 1871.</note>
     </notesStmt>
 <sourceDesc>
-<bibl>
-<author>Walt Whitman</author>
+<bibl><author xml:id="ww">Whitman, Walt</author>
+
     <title>Black Lucifer was not dead</title>
     <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
 <idno type="callno">MSS 3829, Box-folder 1:88</idno> 
@@ -65,7 +65,7 @@
             <handNote scribeRef="#unk" xml:id="h1"><persName xml:id="unk">Unknown</persName></handNote>
         </handNotes>
     </profileDesc>
-<revisionDesc>
+<revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
     <change when="2019-01-28" who="#kmp">corrected, blessed</change>
     <change when="2019-01-15" who="#nhg">checked relations info</change>
     <change when="2018-12-04" who="#cah">checked and corrected file, added corresps</change>

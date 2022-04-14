@@ -16,7 +16,7 @@
                <resp>Transcription and encoding</resp>
                <persName xml:id="cah">Caitlin Henry</persName>
                <persName xml:id="bb">Brett Barney</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -45,8 +45,8 @@
             <note type="project" target="dat1">This manuscript is a draft of the early poem "The Play-Ground," nearly as it appeared in the <hi rend="italic">Brooklyn Daily Eagle</hi> on June 1, 1846 (during Whitman's editorship of the paper).</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>The Play-Ground</title>
                <date xml:id="dat1" cert="medium" notBefore="1841" notAfter="1846-06-01">About 1846</date>
                <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName> 
@@ -58,7 +58,7 @@
          </sourceDesc>
       </fileDesc>
       
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#bb" when="2019-06-03">corrected based on Ken's review</change>
          <change who="#bb" when="2019-04-25">checked; edited</change>
          <change who="#cah" when="2019-02-04">transcribed; encoded</change>

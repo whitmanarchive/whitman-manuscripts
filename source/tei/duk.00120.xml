@@ -15,7 +15,7 @@
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="kmp">Kenneth M. Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -43,8 +43,8 @@
                 <note type="project" target="#dat1">This manuscript was first printed, in two separate segments, in Richard Maurice Bucke's <hi rend="italic">Notes and Fragments</hi> (London, Ontario: A. Talbot &amp; Co., 1899), 114–115, 116–117. Bucke dates the manuscript to the 1840s. It is possibly a draft of an early piece of fiction, but no connection to Whitman's known published works has been established.</note>             
             </notesStmt>
             <sourceDesc>                
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title rend="bracketed">This singular young man was unnoted for any strong qualities</title> 
                     <date xml:id="dat1" cert="medium" notBefore="1840" notAfter="1855">1840s or early 1850s</date>
                     <idno type="callno">MS 2o 38 (Volume 38)</idno>
@@ -53,7 +53,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2018-11-01" who="#nhg">edited title, idno</change>
             <change when="2016-12-20" who="#nhg">edited editorial note</change>
             <change when="2016-12-07" who="#bb">reconciled with EAD record</change>

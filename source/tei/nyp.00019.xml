@@ -16,7 +16,7 @@
                <resp>Transcription and encoding</resp>
                <persName xml:id="cah">Caitlin Henry</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -45,8 +45,8 @@
             
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>Holograph memoranda and notes, unsigned and undated, written on 27 scraps of paper</title>
                <date cert="low" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date> 
                <idno type="callno">b15520479</idno> <!--MSS Unit ID: 19100; Other local identifier: 175226b; Archives EAD ID: 949125; Universal Unique Identifier (UUID): 4ae6d720-a46c-0130-a047-3c075448cc4b -->
@@ -55,7 +55,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2019-06-13">checked, corrected, added relations</change>
          <change who="#cah" when="2019-02-19">transcribed, encoded</change>
       </revisionDesc>

@@ -23,7 +23,7 @@
                     <persName xml:id="lr">Lisa Renfro</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="cf">Chris Forster</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName><persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -56,8 +56,8 @@
                     before its publication.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>your needed blending discord‑parts</title>
                     <date xml:id="dat1" cert="high" notBefore="1884" notAfter="1885">About 1885</date>
                     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and
@@ -71,7 +71,7 @@
                 <handNote xml:id="h1" scribeRef="#unk"><persName xml:id="unk">Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-12-01" who="#nhg">corrected</change>
             <change when="2016-08-10" who="#nhg">proofed</change>

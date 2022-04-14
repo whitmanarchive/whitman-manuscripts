@@ -22,7 +22,7 @@
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="kmp">Kenneth M. Price</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -50,8 +50,8 @@
                 <note type="project" target="#dat1">This manuscript is written on a scrap of wallpaper. Although it is cast in prose, this may be an early draft of a group of lines, expressing similar thoughts, in "Great Are the Myths," which was first published as the final, untitled, poem of the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. It also bears some resemblance to lines that appeared in the first poem in that edition, eventually titled "Song of Myself." Edward Grier includes an additional line at the end of the manuscript, taken from a transcription in Richard Maurice Bucke's <hi rend="italic">Notes and Fragments</hi> (1899): "That the Egyptian idea of the return of the soul after a certain period of time involved a beautiful [illegible] nature [illegible] mystery [illegible]"  (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi>, ed. Edward Grier [New York, New York University Press, 1984], 1:198). Grier speculates that the end of the manuscript with the additional line may have been clipped off at some point. Based on the handwriting and "references to Egyptology," he dates the manuscript 1855 or earlier.</note>             
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <date cert="medium" notBefore="1845" notAfter="1855">1855 or earlier</date>
                     <title rend="bracketed">poet of Materialism</title>                  
                     <idno type="callno">MS 4to 44</idno>
@@ -59,7 +59,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-08-20" who="#nhg">adjusted note, added corresps</change>
             <change when="2018-09-10" who="#nhg">updated image names</change>
             <change when="2017-10-05" who="#nhg">added relations corresp</change>

@@ -31,7 +31,7 @@
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="sp">Stacey Provan</persName>
                <persName xml:id="kp">Ken Price</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -59,8 +59,8 @@
             <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was preparing materials for the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript includes lines that relate to the prose preface and to several of the poems in that edition, including the poems eventually titled "Song of Myself," "To Think of Time," and "A Song for Occupations." The manuscript also includes lines that relate to the manuscript poem "<ref target="yal.00081.html">Pictures</ref>," which probably dates to the mid- to late 1850s.</note>             
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>[And to me each minute]</title>
                <idno type="callno">TXRC03-A4</idno>
                <date notBefore="1850" notAfter="1855" cert="medium">Between 1850 and 1855</date>
@@ -72,7 +72,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2019-06-01" who="#kp">blessed</change>
          <change when="2019-06-01" who="#nhg">edited relations note</change>
          <change who="#nhg" when="2019-02-17">checked, corrected</change>

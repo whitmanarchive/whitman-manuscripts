@@ -14,7 +14,7 @@
 					<persName xml:id="jc">Janel Cayer</persName>
 					<persName xml:id="km">Kevin McMullen</persName>
 					<persName xml:id="nhg">Nicole Gray</persName>
-				<persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+				<persName xml:id="kmp">Kenneth M. Price</persName><persName xml:id="as">Ashlyn Stewart</persName></respStmt>
 				<sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
 				<sponsor>University of Iowa</sponsor>
 				<funder>The National Endowment for the Humanities</funder>
@@ -43,8 +43,8 @@
 			</notesStmt>
 			<sourceDesc>
 				
-				<bibl>
-					<author>Walt Whitman</author>
+				<bibl><author xml:id="ww">Whitman, Walt</author>
+					
 					<title>Poem for of My Adherence</title>                  
 					<idno type="callno">Ms. Coll. 190, Box 2, Folder 56</idno>
 					<date xml:id="dat1" notBefore="1850" notAfter="1871" cert="low">Between 1850 and 1871</date>
@@ -53,7 +53,7 @@
 				</bibl>
 			</sourceDesc>
 		</fileDesc>
-		<revisionDesc>
+		<revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
 			<change when="2017-03-01" who="#kmp">blessed</change>
 			<change when="2017-03-13" who="#nhg">edited encoding and editorial note</change>
 			<change when="2016-09-12" who="#nhg">corrected</change>

@@ -17,7 +17,7 @@
                     <persName xml:id="aj">Andrew Jewell</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -52,8 +52,8 @@
                     "America" that Whitman published in 1888.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author> Walt Whitman </author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title> America </title>
                     <date xml:id="dat1" cert="low" notBefore="1870" notAfter="1892">Between 1870 and 1892</date>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
@@ -63,7 +63,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-11-30" who="#nhg">edited editorial note</change>
             <change when="2016-09-26" who="#nhg">corrected</change>
             <change when="2016-01-29" who="#nhg">corrected converted version</change>

@@ -12,7 +12,7 @@
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName><persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -40,16 +40,16 @@
                 <note type="project" target="#dat1">This manuscript, consisting of two leaves, features an autobiographical account of Whitman's visit to his birthplace in Huntington, Long Island.  Whitman mentions this visit in "The Old Whitman and Van Velsor Cemeteries," an 1881 recollection published in <hi rend="italic">Specimen Days</hi>. Although Whitman probably wrote the manuscript during or shortly after the visit in September 1850, he returned to it as late as 1883, adding a note at the end of the piece about the death of his stepuncle (see Edward Grier, <hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:4).  At some point, the leaves of the manuscript became separated, and the first leaf wound up at the University of Virginia and the second at Duke University. We have presented them here as one object. </note>
             </notesStmt>
             <sourceDesc>               
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>"Walt Whitman: A description of His Birthplace..."</title>        
                     <idno type="callno">Box 2, Folder 18, #5604</idno>
                     <date xml:id="dat1" notBefore="1850-09-13" notAfter="1883" cert="high">Between 1850 and 1883</date>
                     <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>Mother's family lived...</title>
                     <idno type="callno">MS f 128</idno>
                     <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
@@ -65,7 +65,7 @@
                 <handNote xml:id="h4" scribeRef="#ww" medium="darker-black-ink"/>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2017-02-08" who="#km">slightly edited wording of date note</change>
 <change when="2016-08-31" who="#nhg">corrected</change>

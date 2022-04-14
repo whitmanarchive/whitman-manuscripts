@@ -27,7 +27,7 @@
                     <persName xml:id="lr">Lisa Renfro</persName>
                     <persName xml:id="hm">Heather Morton</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -59,8 +59,8 @@
                     that edition, eventually titled "To Think of Time."</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>You lusty and graceflu [sic] youth! you are great</title>
                     <date xml:id="dat1" cert="high" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
                     <idno type="callno">MS 4 to 11 (Volume 11)</idno>
@@ -74,7 +74,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-11-13" who="#bb">tweaked wording of work note for "Youth, Day, Old Age, and Night"</change>
             <change when="2018-11-01" who="#nhg">edited title, idno</change>
             <change when="2018-09-10" who="#nhg">updated image names</change>

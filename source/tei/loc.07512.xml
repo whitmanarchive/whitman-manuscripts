@@ -15,7 +15,7 @@
                <persName xml:id="kmp">Kenneth M. Price</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="km">Kevin McMullen</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -43,8 +43,8 @@
             <note type="project" target="dat1">At the top of this manuscript, Whitman has written "for droppings." "Leaves-Droppings" was the name given to a section of correspondence and reviews that Whitman included in the back of the 1856 edition of <hi rend="italic">Leaves of Grass</hi>. It seems he also considered giving that title to the cluster of poems in the 1860 edition that was eventually titled "Enfans d'Adam." Given that this manuscript contains a proposal for a poem, it's possible that Whitman envisioned it being included in the "Enfans d'Adam" cluster, suggesting a composition date in the late 1850s. However, as the "Leaves-Droppings" title had been on his mind as early as 1855 or 1856, it's also possible that this scrap was written earlier.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>Priests! Until you can explain a paving stone</title> 
                <date cert="medium" notBefore="1850" notAfter="1860" xml:id="dat1">1850s</date>
                <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>  
@@ -59,7 +59,7 @@ Publishing, 1993; <hi rend="italic">Primary Source Media's Major American Author
          </sourceDesc>
       </fileDesc>
       <profileDesc/>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#bb" when="2019-12-17">corrected typo in date note</change>
          <change who="#nhg" when="2017-01-26">edited date note</change>
          <change who="#km" when="2017-01-26">edited date note and related item info</change>

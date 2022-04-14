@@ -23,7 +23,7 @@
                <persName xml:id="kmp">Kenneth M. Price</persName>
                <persName xml:id="km">Kevin McMullen</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -51,8 +51,8 @@
             <note type="project" target="dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Thematically and in the wording of one of the lines this manuscript resembles a portion of the second poem in that edition, eventually titled "A Song for Occupations." The ideas and some of the language are also similar to other early manuscripts that relate to the first poem in the 1855 edition of <hi rend="italic">Leaves</hi>, ultimately titled "Song of Myself," and part of a cluster titled "Debris" that appeared in the 1860 edition of <hi rend="italic">Leaves of Grass</hi> (see "<ref target="uva.00251.html">Do I not prove myself</ref>," "<ref target="duk.00051.html">I know as well as</ref>," and "<ref target="duk.00261.html">[Fa]bles, traditions</ref>").</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title rend="bracketed">Priests!</title> 
                <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
                <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>  
@@ -70,7 +70,7 @@
             <handNote xml:id="h2" scribeRef="#ww" medium="black-ink"/>
          </handNotes>
       </profileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2018-11-01" who="#nhg">edited title</change>
          <change when="2017-10-09" who="#nhg">added inline relations information</change>
          <change who="#km" when="2017-01-26">updated date note; proofed transcription</change>

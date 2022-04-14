@@ -20,7 +20,7 @@
                <persName xml:id="cah">Caitlin Henry</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="li">Leslie Ianno</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -48,8 +48,8 @@
             <note type="project" target="dat1">Whitman probably drafted this manuscript between 1850 and 1855, as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Ideas and phrases from the manuscript appear in the first poem in that edition, eventually titled "Song of Myself." This manuscript also includes lines and phrases that appear in other manuscripts. See "<ref target="loc.00387.html">Lofty sirs</ref>" and "<ref target="loc.00163.html">Rule in all addresses</ref>."</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>The Walt Whitman Collection</title>
                <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
                <date cert="medium" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
@@ -57,7 +57,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2019-04-10" who="#nhg">added connection to preface</change>
          <change who="#nhg" when="2019-04-04">checked, corrected</change>
          <change who="#nhg" when="2019-04-04">edited note</change>

@@ -28,7 +28,7 @@
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="bb">Brett Barney</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName><persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -58,8 +58,8 @@
                         Grass</hi> (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:118). The erased final line of the manuscript is also similar to language that appears in the preface to the 1855 <hi rend="italic">Leaves of Grass</hi>. The manuscript is held at Rutgers University Library along with several similar manuscripts that are numbered sequentially and probably date from around or before 1855: see "<ref target="rut.00010.html">American literature must become distinct</ref>," "<ref target="rut.00022.html">dithyrambic trochee</ref>," "<ref target="rut.00024.html">The money value of real</ref>," and "<ref target="rut.00025.html">ground where you may rest</ref>."</note>             
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title rend="bracketed">The only way in which</title>                  
                     <idno type="callno">Ac. 605</idno>
                     <date xml:id="dat1" cert="medium" notBefore="1845" notAfter="1860">Between 1845 and 1860</date>
@@ -74,7 +74,7 @@
                 <handNote xml:id="h2" scribeRef="#unk" medium="pencil"><persName xml:id="unk">Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2020-02-18" who="#bb">corrected work ID for "Thoughts [Of ownership]"; corrected name of rut.00025 in date note</change>
             <change when="2020-01-20" who="#nhg">added erasure and relation</change>
             <change when="2017-03-01" who="#kmp">blessed</change>

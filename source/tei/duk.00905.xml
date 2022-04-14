@@ -22,7 +22,7 @@
                     <persName xml:id="bb">Brett Barney</persName>
                     <persName xml:id="nk">Nick Krauter</persName>
                     <persName xml:id="ah">Amy Hezel</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -52,8 +52,8 @@
                     sixth poem of that edition, eventually titled "Faces."</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>"The Great Laws do not treasure chips, or stick for the odd cent"</title>
                     <date xml:id="dat1" cert="high" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
                     <idno type="callno">MS 4to 9 (Volume 9)</idno>
@@ -68,7 +68,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2018-09-10" who="#bb">added inline relations for the first linegroup</change>
             <change when="2018-09-10" who="#nhg">updated image names</change>
             <change when="2017-10-05" who="#nhg">added inline relations information</change>

@@ -23,7 +23,7 @@
                <persName xml:id="jo">John Owen Havard</persName>
                <persName xml:id="cf">Chris Forster</persName>
                <persName xml:id="kt">Kristen Taylor</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -51,8 +51,8 @@
             <note type="project" target="#dat1">Most of the lines in this manuscript amount to a poetic rendering of sentences and phrases drawn from the prose preface to the 1855 <hi rend="italic">Leaves of Grass</hi> and constitute a partial draft of the 1856 poem "Poem of Many In One," which eventually became "By Blue Ontario's Shore." The line at the bottom of this manuscript, partially cut away, was also drawn from the 1855 preface but was used in the 1856 poem "Liberty Poem for Asia, Africa, Europe, America, Australia, Cuba, and the Archipelagoes of The Sea," which Whitman titled, in its final version, "To a Foil'd European Revolutionaire."</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>"Sanity and Ensemble" (ms. fragment) [on verso, unidentified ms. fragment], undated. 1 item (1 leaf)</title>
                <date cert="medium" notBefore="1855" notAfter="1856" xml:id="dat1">1855 or 1856</date>
                <idno type="callno">Ms. Coll. 190</idno>
@@ -67,7 +67,7 @@ University of Pennsylvania: Kislak Center for Special Collections, Rare Books an
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#bb" when="2019-09-23">checked; edited</change>
          <change who="#cah" when="2019-04-03">created new file, updated encoding</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>

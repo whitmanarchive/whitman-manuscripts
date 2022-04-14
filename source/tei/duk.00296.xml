@@ -21,7 +21,7 @@
 					<persName xml:id="nhg">Nicole Gray</persName>
 				    <persName xml:id="kmp">Kenneth M. Price</persName>
 				    <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
 				<sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
 				<sponsor>University of Iowa</sponsor>
 				<funder>The National Endowment for the Humanities</funder>
@@ -50,8 +50,8 @@
 			</notesStmt>
 			<sourceDesc>
 				
-				<bibl>
-					<author>Walt Whitman</author>
+				<bibl><author xml:id="ww">Whitman, Walt</author>
+					
 					<title rend="bracketed">Preliminary Studies for Poems</title>
 					<date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
 					<idno type="callno">MS q 32 (Volume 32)</idno>
@@ -69,7 +69,7 @@
 					<handNote xml:id="h2" scribeRef="#ww" medium="pencil"/>
 				</handNotes>
 		</profileDesc>
-		<revisionDesc>
+		<revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
 			<change when="2018-11-06" who="#nhg">added inline relations</change>
 			<change when="2018-11-01" who="#nhg">edited title, idno</change>
 			<change when="2017-03-06" who="#nhg">tweaked work relations information</change>

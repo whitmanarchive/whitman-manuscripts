@@ -29,7 +29,7 @@
                <persName xml:id="ah">Amy Hezel</persName>
                <persName xml:id="js">Justin St. Clair</persName>
                <persName xml:id="jd">Jean Dickinson</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -57,8 +57,8 @@
             <note type="project" target="dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The lines are similar to lines in the first and third poems in that edition, eventually titled "Song of Myself" and "To Think of Time." Similar draft lines also appear in "<ref target="../notebooks/transcriptions/loc.00141.html">Talbot Wilson</ref>," an early notebook.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>[I say the stars are not echoes]</title>
                <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
                <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
@@ -70,7 +70,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2019-11-20" who="#bb">tweaked wording of work note</change>
          <change when="2019-06-13" who="#nhg">changed image names, edited relatedItem note</change>
          <change who="#nhg" when="2018-11-30">checked, corrected, added inline relations</change>

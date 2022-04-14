@@ -13,7 +13,7 @@
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName><persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -41,8 +41,8 @@
                 <note type="project" target="#dat1">This manuscript deals with "Poetry fit for the New World," an idea Whitman pondered from the earliest stages of his poetic career. Edward Grier notes that the "handwriting and the subject matter suggest an early date" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 4:1589).</note>             
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>The questions involved is are curious to discuss</title>                  
                     <idno type="callno">TXRC03-A4, Container 2.4</idno>
                     <date xml:id="dat1" notBefore="1840" notAfter="1860" cert="low">Between 1840 and 1860</date>
@@ -57,7 +57,7 @@
                 <handNote xml:id="h2" scribeRef="#ww" medium="black-ink"/>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-10-10" who="#nhg">checked, corrected</change>
             <change when="2016-09-08" who="#km">checked</change>

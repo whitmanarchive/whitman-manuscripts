@@ -27,7 +27,7 @@
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="bb">Brett Barney</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -56,8 +56,8 @@
                 <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. It is a draft of lines that appear in the first poem in that edition, eventually titled "Song of Myself."</note>
             </notesStmt>
             <sourceDesc> 
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>You there!</title>
                     <idno type="callno">MSS 3829, Box-folder 1:88</idno>
                     <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
@@ -69,7 +69,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-02-20" who="#smb">final check, corrected</change>
             <change when="2019-02-12" who="#bb">added line relations to #l1362</change>
             <change when="2019-01-15" who="#nhg">checked relations, edited</change>

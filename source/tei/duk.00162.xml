@@ -18,7 +18,7 @@
                <persName xml:id="jc">Janel Cayer</persName>
                <persName xml:id="kmp">Kenneth M. Price</persName>
                <persName xml:id="bb">Brett Barney</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -46,8 +46,8 @@
             <note type="project" target="#dat1">This is an early scrap of prose that may have contributed to the poem that eventually became "Song of Myself." The last part of the manuscript recalls what ultimately became section 32, in which Whitman describes wanting to "live awhile with animals" because "[t]hey do not sweat and whine about their condition, / They do not lie awake in the dark and weep for their sins." These lines were present in the first version of the poem in 1855, so it seems likely that the manuscript dates to before or early in that year.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>It were unworthy a live man to pray or complain</title>
                <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Before or early in 1855</date>
                <idno type="callno">MS q 203 (Volume 203)</idno>
@@ -56,7 +56,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2018-11-01" who="#nhg">updated title and idno</change>
          <change when="2018-09-10" who="#nhg">updated image names</change>
          <change when="2016-03-06" who="#nhg">edited work relations, date note</change>

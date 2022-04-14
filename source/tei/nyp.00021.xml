@@ -31,7 +31,7 @@
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="as">Ashlyn Stewart</persName>
                <persName xml:id="km">Kevin McMullen</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -65,8 +65,8 @@
             <note type="project" target="dat1">This manuscript was probably written around 1855. It includes language similar to lines in the poems ultimately titled "A Song for Occupations" and "Song of the Broad-Axe" (1856). A version of "A Song for Occupations" first appeared in the 1855 <hi rend="italic">Leaves of Grass</hi>, but the line associated with this manuscript was not added to the poem until the 1856 edition. At one point, this manuscript likely formed part of <ref target="../index-scrapbook.html">Whitman's cultural geography scrapbook</ref>. The manuscript has been pasted down, so an image of the reverse is not currently available.</note>             
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>Iron works</title>
                <date cert="medium" notBefore="1855" notAfter="1856" xml:id="dat1">About 1855 to 1856</date>
                <idno type="callno">b19877231</idno> <!-- Universal Unique Identifier (UUID): 59dbf160-c5d9-012f-f298-58d385a7bc34 -->
@@ -76,7 +76,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#km" when="2019-12-10">proofed</change>
          <change who="#as" when="2019-11-14">checked; updated encoding</change>         
          <change who="#nhg" when="2019-06-07">transcribed, encoded</change>

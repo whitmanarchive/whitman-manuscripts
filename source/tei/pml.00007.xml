@@ -22,7 +22,7 @@
                     <persName xml:id="aj">Andrew Jewell</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -58,8 +58,8 @@
                     suggests.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>Starry Union</title>
                     <date xml:id="dat1" cert="medium" notBefore="1876-02" notAfter="1876-12">1876</date>
                     <orgName xml:id="pml">The Pierpont Morgan Library, New York</orgName>
@@ -77,7 +77,7 @@
                 <handNote xml:id="h1" resp="#unk"><persName xml:id="unk">Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-11-28" who="#nhg">added information from EAD entry to editorial note</change>
             <change when="2016-10-18" who="#nhg">corrected</change>
             <change when="2016-09-20" who="#nhg">proofed, added relatedItem information</change>

@@ -13,7 +13,7 @@
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName><persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -41,8 +41,8 @@
                 <note type="project" target="#dat1">This manuscript describes the ascent of a French balloonist from the Brooklyn Military Garden. Whitman leaves out the balloonist's name, but it is likely that he is referring to the ascent of Victor Vardelle on September 19, 1849. A number of announcements of the event had appeared in the <hi rend="italic">Brooklyn Daily Eagle</hi> in the days leading up to the launch, and the launch itself was reported in an unsigned story in the issue of September 20. However, it is highly unlikely that Whitman was the author of that piece; while Whitman had written for the <hi rend="italic">Eagle</hi>, his position at the paper was terminated in January 1848, and none of the specific wording from this manuscript appears in the <hi rend="italic">Eagle</hi> article. At the time of the September 19 balloon launch, Whitman was apparently between jobs; having announced his resignation from the Brooklyn <hi rend="italic">Freeman</hi> on September 11, 1849, he would begin publishing his series "Letters from a Travelling Bachelor" in the <hi rend="italic">New York Sunday Dispatch</hi> in October 1849. No published version of this blurb of Whitman's has been located, but it is almost certain that the date of composition was shortly after the balloon launch, in September 1849. On the verso is a note written by antiquarian bookseller, collector, and Whitman bibliographer Alfred Goldsmith (1881–1947).</note>             
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title rend="bracketed">Nerve.—A Frenchman</title>                  
                     <idno type="callno">MSS10694, Box 126</idno>
                     <date xml:id="dat1" cert="medium" notBefore="1849-09-19" notAfter="1849-12-31">1849</date>
@@ -56,7 +56,7 @@
                 <handNote xml:id="h1" scribeRef="#ag" medium="pencil"><persName xml:id="ag">Alfred Goldsmith</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-09-12" who="#nhg">corrected</change>
             <change when="2016-07-13" who="#nhg">checked, corrected</change>

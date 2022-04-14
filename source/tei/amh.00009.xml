@@ -24,7 +24,7 @@
                     <persName xml:id="nk">Nick Krauter</persName>
                     <persName xml:id="lr">Lisa Renfro</persName>
                     <persName xml:id="zb">Zach Bajaber</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -58,8 +58,8 @@
                     immediately preceding the poem's first publication in <date when="1860">1860</date>. </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>Walt Whitman's Caution.</title>
                     <date xml:id="dat1" cert="high" notBefore="1856" notAfter="1860">Between 1856 and 1860</date>
                     <orgName xml:id="amh">Amherst College Archives and Special Collections</orgName>
@@ -72,7 +72,7 @@
                 <handNote xml:id="h1" scribeRef="#unk"><persName xml:id="unk">Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-09-26" who="#nhg">corrected</change>
 <change when="2016-05-19" who="#nhg">checked, corrected</change>
             <change when="2015-05-05" who="#kc">conversion to P5, checked</change>

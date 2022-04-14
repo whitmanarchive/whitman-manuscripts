@@ -18,7 +18,7 @@
                <persName xml:id="kc">Kirsten Clawson</persName>
                <persName xml:id="jc">Janel Cayer</persName>
                <persName xml:id="kmp">Kenneth M. Price</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -46,8 +46,8 @@
             <note type="project" target="#dat1">This manuscript fragment includes several lines of prose that became, after slight revision, lines of poetry in the initial poem of the 1855 <hi rend="italic">Leaves of Grass</hi> (ultimately titled "Song of Myself"). The lines that appear in the poem begin with "Sit awhile wayfarer" and continue through the end of the manuscript, ending with "and open the gate for your egress hence." These lines would remain, with minor revisions, through all the various versions of "Song of Myself." The manuscript is held at Rutgers University Library along with several similar manuscripts that are numbered sequentially and probably date from around or before 1855: see "<ref target="rut.00010.html">American literature must become distinct</ref>," "<ref target="rut.00022.html">dithyrambic trochee</ref>," and "<ref target="rut.00023.html">The only way in which</ref>."</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
                <idno type="callno">Ac. 605</idno>
                <orgName xml:id="rut">Special Collections and University Archives, Rutgers University Libraries, Rutgers, The State University of New Jersey</orgName>
@@ -63,7 +63,7 @@
             <handNote xml:id="unk"><persName key="Unknown">Unknown</persName></handNote>
          </handNotes>
       </profileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2018-11-02" who="#nhg">edited title</change>
          <change when="2017-02-27" who="#nhg">added cert attribute to work relations</change>
          <change when="2016-05-18" who="#kmp">blessed</change>

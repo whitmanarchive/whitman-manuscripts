@@ -22,7 +22,7 @@
                <persName xml:id="cah">Caitlin Henry</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="rl">Robert LaCosse</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -50,8 +50,8 @@
             <note type="project" target="dat1">Whitman probably drafted this manuscript between 1850 and 1855, as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. A line from the manuscript appears in the first poem of that edition, eventually titled "Song of Myself."</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>Ms. leaf verso (The crowds naked in the bath...)</title>
                <orgName xml:id="nyp">The Oscar Lion Papers, 1914–1955, New York Public Library, New York, N.Y.</orgName>
                <idno type="callno">MSS 1767</idno><!--UUID: d2feb270-c5d8-012f-5afc-58d385a7bc34-->
@@ -63,7 +63,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2019-01-09">edited relations info</change>
          <change who="#smb" when="2018-12-11">final check, updated editorial notes</change>
          <change who="#cah" when="2018-11-08">checked, corrected, and added relations to file</change>

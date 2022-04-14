@@ -27,7 +27,7 @@
                     <persName xml:id="aj">Andrew Jewell</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -63,8 +63,8 @@
                     "Supplement Hours" was a part of this group.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author> Walt Whitman </author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>Supplement Hours </title>
                     <date xml:id="dat1" cert="high" notBefore="1878" notAfter="1881">About 1880</date>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
@@ -75,7 +75,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-12-05" who="#nhg">updated date, revised editorial note, updated work ID info</change>
             <change when="2016-09-26" who="#nhg">corrected</change>
             <change when="2016-09-05" who="#nhg">proofed</change>

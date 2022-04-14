@@ -16,7 +16,7 @@
                <resp>Transcription and encoding</resp>
                <persName xml:id="cah">Caitlin Henry</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -44,8 +44,8 @@
             <note type="project" target="dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The paper and ink are similar to that used for other early poetry manuscripts. In his transcription of this manuscript, Richard Maurice Bucke combines it with "<ref target="uva.00251.html">Do I not prove myself</ref>," but the manuscripts do not appear to be continuous (<hi rend="italic">Notes and Fragments</hi> [London, Ontario: A. Talbot &amp; Co., printers, 1899], 25).</note>   
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>Holograph literary fragments and notes for poems, on 47 paper slips, tipped into 3 volumes</title>
                <date cert="medium" notBefore="1850-01-01" notAfter="1855-12-31" xml:id="dat1">Between 1850 and 1855</date>
                <idno type="callno">b19877231</idno> <!--Universal Unique Identifier (UUID): 60f279a0-c5d9-012f-b0a1-58d385a7bc34-->
@@ -55,7 +55,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2019-07-24">checked, corrected</change>
          <change who="#cah" when="2019-02-25">transcribed, encoded</change>
       </revisionDesc>

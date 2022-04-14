@@ -21,7 +21,7 @@
                     <persName xml:id="aj">Andy Jewell</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -55,8 +55,8 @@
                     the poem's publication. The manuscript is mounted in a book, so the verso image is not available.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>Osceola</title>
                     <date xml:id="dat1" cert="high" notBefore="1889" notAfter="1890-04">1889 or 1890</date>
                     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and
@@ -70,7 +70,7 @@
         <handNote xml:id="h1" scribeRef="#unk"><persName xml:id="unk">Unknown</persName></handNote>
     </handNotes>
 </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-09-08" who="#nhg">proofed</change>
             <change when="2016-01-13" who="#bb">updated list of staff in titleStmt; corrected miscellaneous attribute errors</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>

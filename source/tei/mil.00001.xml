@@ -25,7 +25,7 @@
                     <persName xml:id="kr">Kati Robertson</persName>
                     <persName xml:id="zb">Zach Bajaber</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -59,8 +59,8 @@
                 1874, shortly before the poem's publication.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title> Waves in the Vessel's Wake</title>
                     <date xml:id="dat1" cert="medium" when="1874">About 1874</date>
                     <orgName xml:id="mco">Mills College, Oakland, CA</orgName>
@@ -68,7 +68,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-11-28" who="#nhg">updated editorial note with information from EAD entry</change>
             <change when="2016-09-26" who="#nhg">proofed</change>
             <change when="2016-04-19" who="#nhg">adjusted header, added reason to unclear</change>

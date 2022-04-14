@@ -22,7 +22,7 @@
                     <persName xml:id="jro">Jennifer R. Overkamp</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -55,8 +55,8 @@
                     <date when="1883">1883</date> or early <date when="1884">1884</date>, shortly before the poem was published.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author> Walt Whitman </author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>With Husky-Haughty Lips, O Sea!</title>
                     <date xml:id="dat1" cert="high" notBefore="1883" notAfter="1884-03">Late 1883 or early 1884</date>
                     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and
@@ -70,7 +70,7 @@
                 <handNote xml:id="h1" scribeRef="#unk"><persName xml:id="unk">Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-12-07" who="#nhg">adjusted date to match EAD entry</change>
             <change when="2016-09-26" who="#nhg">proofed</change>
             <change when="2016-01-14" who="#bb">updated list of staff in titleStmt</change>

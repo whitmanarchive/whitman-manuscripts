@@ -20,7 +20,7 @@
                     <persName xml:id="nk">Nick Krauter</persName>
                     <persName xml:id="lr">Lisa Renfro</persName>
                     <persName xml:id="ms">Melissa Sinner</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -53,8 +53,8 @@
                     "Ashes of Soldiers."</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <date xml:id="dat1" cert="high" notBefore="1870" notAfter="1871">About 1870–1871</date>
                     <title xml:id="LCtitle">Beat! Beat! Drums!</title>
                     <note type="project" target="#LCtitle">Although this manuscript has no relation
@@ -70,7 +70,7 @@
                 <handNote xml:id="h1" scribeRef="#unk"><persName xml:id="unk">Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-11-30" who="#nhg">corrected work ID</change>
             <change when="2016-10-18" who="#nhg">corrected</change>
             <change when="2015-05-26" who="#nhg">checked, corrected</change>

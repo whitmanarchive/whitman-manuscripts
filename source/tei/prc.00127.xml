@@ -30,7 +30,7 @@
                <persName xml:id="bb">Brett Barney</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="bjo">Brandon James O'Neil</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -58,8 +58,8 @@
             <note type="project" target="dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Lines from the manuscript appear in the first poem in that edition, eventually titled "Song of Myself." Other lines are possibly related to the preface.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>There can be nothing small</title>
                <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
                <orgName xml:id="prc">The manuscript was sold by Sotheby's in 2008. The current location of the manuscript is unknown.</orgName> 
@@ -75,7 +75,7 @@
                <handNote xml:id="h2" scribeRef="#unk" medium="red pencil"> <persName xml:id="unk">unknown</persName></handNote>
          </handNotes>
       </profileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#bb" when="2019-08-13">checked; edited</change>
          <change who="#nhg" when="2019-06-13">edited note</change>
          <change who="#nhg" when="2018-11-27">transcribed, encoded</change>

@@ -21,7 +21,7 @@
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="nk">Nick Krauter</persName>
                     <persName xml:id="ag">Amanda Gailey</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -53,8 +53,8 @@
                     poem was ultimately titled "Washington's Monument, February 22, 1885." This manuscript was probably written in <date notBefore="1885-02-18" notAfter="1885-02-22">February 1885</date>, shortly before the poem was published. The verso image of this manuscript is currently unavailable.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>Ah, not this granite dead and cold</title>
                     <date xml:id="dat1" cert="medium" notBefore="1885-02-18" notAfter="1885-02-22">February 1885</date>
                     <idno type="callno">MA 627</idno>
@@ -63,7 +63,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-12-01" who="#nhg">corrected</change>
             <change when="2016-11-28" who="#nhg">removed schema declaration, updated date</change>
             <change when="2016-09-26" who="#nhg">proofed</change>

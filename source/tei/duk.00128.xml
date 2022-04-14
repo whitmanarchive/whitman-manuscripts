@@ -32,7 +32,7 @@
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="kmp">Kenneth M. Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -60,8 +60,8 @@
                 <note type="project" target="#dat1">This manuscript, likely written in the early to mid-1850s, includes notes that anticipate the preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi>.  Imagery and phrases in the second paragraph of the first leaf are reminscent of lines in both the poem eventually titled "Song of Myself" and the poem eventually titled "I Sing the Body Electric." Another line on the first leaf appeared in a slightly different form in "Poem of The Singers, and of The Words of Poems" in the 1856 edition of <hi rend="italic">Leaves</hi> (a poem later titled "Song of the Answerer"). The stated desire for "satisfiers" and "lovers" (found here on the bottom of the second leaf) appears in "Poem of Many in One," also first published in the 1856 edition and later titled "By Blue Ontario's Shore." When Richard Maurice Bucke printed a transcription of this manuscript, he added the following words to the end of leaf 2, recto: "These frothing, maddening waves are to be" (<hi rend="italic">Notes and Fragments</hi> [London, Ontario: A. Talbot &amp; Co., 1899], 129). The words do not appear on the present manuscript. Edward Grier notes that Floyd Stovall has connected material on the third leaf to Whitman's "reading of H. N. Hudson's '<ref target="duk.00081">Thoughts on Reading</ref>,' <hi rend="italic">American Whig Review</hi>, 1 (May 1845), 483–496, which he clipped and annotated" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:95). </note>             
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>(Of the great poet) (Finally) For preface</title>
                     <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1856">About 1855</date>
                     <idno type="callno">MS 4to 69</idno>
@@ -70,7 +70,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-04-09" who="#bb">checked; edited</change>
             <change when="2017-02-28" who="#nhg">added work relations encoding</change>
             <change when="2016-05-18" who="#bb">reconciled with EAD record</change>

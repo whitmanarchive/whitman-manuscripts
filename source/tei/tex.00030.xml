@@ -23,7 +23,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="bjo">Brandon James O'Neil</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -53,8 +53,8 @@
                     the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Lines in the manuscript are drafts of lines in the first and fourth poems of that edition, eventually titled "Song of Myself" and "The Sleepers."</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title rend="bracketed">I am become a shroud</title>                  
                     <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
                     <idno type="callno">TXRC03-A4</idno> 
@@ -66,7 +66,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change who="#nhg" when="2019-08-21">added corresp, edited relations</change>
             <change who="#nhg" when="2019-01-12">checked, corrected, edited relations information</change>
             <change who="#nhg" when="2019-01-09">converted to P5</change>

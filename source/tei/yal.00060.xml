@@ -24,7 +24,7 @@
 <persName xml:id="sb">Stacey Berry</persName>
 <persName xml:id="mm">Matt Miller</persName>
 <persName xml:id="mem">Megan Maher</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -53,8 +53,8 @@
                 <note xml:id="all" type="project">At the repository, this manuscript has been bound in a volume with a title page and portrait of Whitman. The pages are mounted, so verso images are unavailable.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>A Voice from Death</title>
                     <date xml:id="dat1" cert="high" when="1889-06">June 1889</date>
                     <idno type="callno">YCAL MSS 202, Box 14, Folder 256</idno>
@@ -64,7 +64,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-12-07" who="#nhg">corrected</change>
             <change when="2016-12-01" who="#nhg">corrected</change>
             <change when="2016-09-26" who="#nhg">proofed</change>

@@ -24,7 +24,7 @@
                     <persName xml:id="nk">Nick Krauter</persName>
                     <persName xml:id="lr">Lisa Renfro</persName>
                     <persName xml:id="jro">Jennifer R. Overkamp</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -63,8 +63,8 @@
                     other scraps.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>Eidólons</title>
                     <date xml:id="dat1" cert="high" notBefore="1875" notAfter="1876">1875 or early 1876</date>
                     <orgName xml:id="bpl">The Walt Whitman Collection, Boston Public Library</orgName>
@@ -81,7 +81,7 @@
                 <handNote xml:id="h1" scribeRef="#unk"><persName xml:id="unk">Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-09-26" who="#nhg">corrected</change>
             <change when="2016-07-20" who="#nhg">checked, corrected</change>
             <change when="2016-01-29" who="#nhg">changed image names</change>

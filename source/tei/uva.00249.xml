@@ -19,7 +19,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="bjo">Brandon James O'Neil</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -44,8 +44,8 @@
                 <note type="project" target="dat1">Whitman used language similar to what appears in these manuscript lines in the fifth poem in the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>, eventually titled "I Sing the Body Electric," as well as in the 1856 "Poem of the Road," eventually titled "Song of the Open Road." The manuscript is written on the blank side of an 1850s tax form from the City of Williamsburgh. Scholars, following Fredson Bowers, have generally assumed that Whitman used the Williamsburgh tax forms from 1857 to 1860, while he was working at the <hi rend="italic">Brooklyn Daily Times</hi>. The city of Williamsburgh was incorporated with Brooklyn effective January 1855, so the forms would have been obsolete after that date (<hi rend="italic">Whitman's Manuscripts: Leaves of Grass</hi> [1860] [Chicago: University of Chicago Press, 1955], xli–xliii). Most of the manuscripts Whitman wrote on the tax forms can be dated to the late 1850s. Bowers also notes, however, that Whitman may have used the forms over a considerable span of time, and that "it is not impossible that Whitman had picked up these tax forms for scrap paper at Rome Brothers at some unknown date in 1854 or early 1855, or later" (xliii). At least two of the tax forms Whitman used were dated 1854 (see, for instance, "<ref target="loc.05354.html">Vast national tracts</ref>"), but as Edward Grier points out, this may not correspond to the date of Whitman's writing (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 5:1946). Whitman may have found a stack of obsolete Williamsburgh forms in 1857 that included discarded draft forms dated earlier. The manuscript is thus difficult to date conclusively, but it was almost certainly written after 1854 and probably before 1860.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>I subject all the teachings</title>
                     <date cert="medium" notBefore="1854" notAfter="1860" xml:id="dat1">Between 1854 and 1860</date>
                     <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
@@ -58,7 +58,7 @@
                 <handNote scribeRef="#unk" xml:id="h1"><persName xml:id="unk">Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-08-20" who="#nhg">checked, corrected</change>
             <change when="2018-01-14" who="#nhg">proofed, added relations info</change>
             <change when="2018-04-16" who="#bjo">Transcribed and Encoded</change>

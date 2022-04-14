@@ -13,7 +13,7 @@
                <persName xml:id="fl">Farrah Lehman</persName>
                <persName xml:id="as">Ashlyn Stewart</persName>
                <persName xml:id="km">Kevin McMullen</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>National Endowment for the Humanities</funder>
@@ -47,7 +47,7 @@
            <note type="project">At one point, this manuscript likely formed part of <ref target="../marginalia/index-scrapbook.html">Whitman's cultural geography scrapbook</ref>.</note>                   
          </notesStmt>
          <sourceDesc>
-            <bibl>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
                <bibl>
                   <author>Walt Whitman</author>
                   <title rend="bracketed">The Air</title> 
@@ -65,7 +65,7 @@
             <handNote xml:id="h2" scribeRef="#ww" medium="ink"/>
          </handNotes>
       </profileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#km" when="2019-12-10">proofed</change>
          <change who="#as" when="2019-10-25">Updated encoding</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>

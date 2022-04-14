@@ -21,7 +21,7 @@
 					<persName xml:id="km">Kevin McMullen</persName>
 				    <persName xml:id="kmp">Kenneth M. Price</persName>
 				    <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
 				<sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
 				<sponsor>University of Iowa</sponsor>
 				<funder>The National Endowment for the Humanities</funder>
@@ -50,8 +50,8 @@
 			</notesStmt>
 			<sourceDesc>
 				
-				<bibl>
-					<author>Walt Whitman</author>
+				<bibl><author xml:id="ww">Whitman, Walt</author>
+					
 					<title rend="bracketed">Preliminary Studies for Poems</title>
 					<date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Before or early in 1855</date>
 					<idno type="callno">MS q 32 (Volume 32)</idno>
@@ -63,7 +63,7 @@
 				</bibl>
 			</sourceDesc>
 		</fileDesc>
-		<revisionDesc>
+		<revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
 			<change when="2019-11-13" who="#bb">tweaked wording in related item note</change>
 			<change when="2018-11-08" who="#nhg">added inline relations</change>
 			<change when="2018-09-10" who="#nhg">updated image names</change>

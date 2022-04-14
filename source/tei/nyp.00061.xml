@@ -18,7 +18,7 @@
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="kmp">Kenneth M. Price</persName>
                     <persName xml:id="rc">Regan Chasek</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -46,8 +46,8 @@
                 <note type="project" target="#dat1">Based on the handwriting, Edward Grier dates this manuscript to the 1840s or early 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:160). The manuscript may relate to a self-published review of the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi> that Whitman wrote for the August 29, 1855, issue of the <hi rend="italic">Brooklyn Daily Times</hi>. In the review, titled "Walt Whitman, A Brooklyn Boy," Whitman describes the book's author as "one in whom you will see the singularity which consists in no singularity."</note>             
             </notesStmt>
             <sourceDesc>                
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title rend="bracketed">In the present state of</title>                  
                     <idno type="callno">b15520479</idno>
                     <date xml:id="dat1" notBefore="1850" notAfter="1855" cert="medium">Between 1850 and 1855</date>
@@ -56,7 +56,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2017-12-11" who="#nhg">added inline relations information</change>
             <change when="2017-07-19" who="#rc">added verso link</change>
             <change when="2017-03-01" who="#kmp">blessed</change>

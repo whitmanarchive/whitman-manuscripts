@@ -15,7 +15,7 @@
 					<persName xml:id="km">Kevin McMullen</persName>
 					<persName xml:id="bb">Brett Barney</persName>
 					<persName xml:id="nhg">Nicole Gray</persName>
-				<persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+				<persName xml:id="kmp">Kenneth M. Price</persName><persName xml:id="as">Ashlyn Stewart</persName></respStmt>
 				<sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
 				<sponsor>University of Iowa</sponsor>
 				<funder>The National Endowment for the Humanities</funder>
@@ -44,8 +44,8 @@
 			</notesStmt>
 			<sourceDesc>
 				
-				<bibl>
-					<author>Walt Whitman</author>
+				<bibl><author xml:id="ww">Whitman, Walt</author>
+					
 					<title rend="bracketed">rule in all addresses</title>
 					<idno type="callno">MSS18630, Box 39, Reel 25</idno>
 					<date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1856">Before 1856</date>
@@ -60,7 +60,7 @@
 				<handNote xml:id="h2" scribeRef="#ww" medium="pencil"/>
 			</handNotes>
 		</profileDesc>
-		<revisionDesc>
+		<revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
 			<change when="2019-11-26" who="#bb">tweaked phrasing of several work notes; changed internal reference to "l04" from "q09" (which doesn't exist)</change>
 			<change when="2019-04-04" who="#nhg">edited, added inline relation</change>
 			<change when="2018-11-08" who="#nhg">added inline relations</change>

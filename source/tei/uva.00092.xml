@@ -22,7 +22,7 @@
                     <persName xml:id="bb">Brett Barney</persName>
                     <persName xml:id="nk">Nick Krauter</persName>
                     <persName xml:id="sb">Stephen Boykewich</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -55,8 +55,8 @@
                         1880</date>. The manuscript was likely written in the <date notBefore="1877" notAfter="1880">late 1870s or in 1880</date>.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>Papers of Walt Whitman</title>
                     <date xml:id="dat1" cert="high" notBefore="1878" notAfter="1880">Late 1870s or 1880</date>
                     <idno type="callno">(MSS 3829)</idno>
@@ -65,7 +65,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-12-01" who="#nhg">corrected</change>
             <change when="2016-07-20" who="#nhg">proofed transcription, encoding, updated project note</change>
             <change when="2016-04-07" who="#bb">filled out list of people in titleStmt/respStmt; corrected orgName; corrected @resp values; removed profileDesc</change>

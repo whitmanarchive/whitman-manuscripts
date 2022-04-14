@@ -24,7 +24,7 @@
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName><persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -53,8 +53,8 @@
             </notesStmt>
             <sourceDesc>
                 
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>["Understand that you can have in your writing..."]</title>                  
                     <idno type="callno">MSS 202, Box 1, Folder 42</idno>
                     <date xml:id="dat1" notBefore="1850" notAfter="1860" cert="medium">1855 or 1856</date>
@@ -68,7 +68,7 @@
                 <handNote scribeRef="#unk" xml:id="h1"><persName xml:id="unk">Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-10-14" who="#nhg">added and edited relations</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2017-02-06" who="#km">corrected WWA title</change>

@@ -21,7 +21,7 @@
                     <persName xml:id="aj">Andrew Jewell</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -53,8 +53,8 @@
                     published under the title "Flag of stars, thick-sprinkled bunting" in <hi rend="italic">Drum-Taps</hi> in <date when="1865">1865</date>. The manuscript was likely written in <date when="1864">1864</date>.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author> Walt Whitman </author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>The Star-Speckled Banner</title>
                     <date xml:id="dat1" cert="medium" when="1864">1864</date>
                     <orgName xml:id="hpl">Huntington Public Library, Huntington, New York</orgName>
@@ -67,7 +67,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-09-22" who="#nhg">proofed</change>
             <change when="2016-02-01" who="#nhg">corrected</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>

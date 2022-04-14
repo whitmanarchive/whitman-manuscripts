@@ -25,7 +25,7 @@
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
                     <persName xml:id="kc">Kirsten Clawson</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -61,8 +61,8 @@
                     before the poem's publication.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>Sail Forth O Mystic Yacht</title>
                     <date xml:id="dat1" cert="high" notBefore="1890-06" notAfter="1891-03">1890 or 1891</date>
                     <orgName xml:id="bos">From the The Alice and Rollo G. Silver Collection in the Special
@@ -80,7 +80,7 @@
                 <handNote xml:id="h1" scribeRef="#unk"><persName xml:id="unk">Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-05-19" who="#nhg">checked, corrected</change>
             <change when="2015-05-26" who="#nhg">checked, corrected</change>
             <change when="2015-05-05" who="#kc">conversion to P5, checked</change>

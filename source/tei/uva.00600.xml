@@ -16,7 +16,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="bjo">Brandon James O'Neil</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -43,8 +43,8 @@
                     the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript may relate to a passage about touch that appeared in the first poem in that edition, eventually titled "Song of Myself." In his transcription of this manuscript, Richard Maurice Bucke included lines at the beginning and end that read: "Yet I strike and dart through . . . . . . " and "I am a creased and cut sea; the furious wind . . . . . ." (<hi rend="italic">Notes and Fragments</hi> [London, Ontario: A. Talbot &amp; Co., printers, 1899], 34–5). These lines do not currently appear on the manuscript.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>I am become the poet of babes and</title>
                     <idno type="callno">MSS 3829, Box-folder 1:88</idno>
                     <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
@@ -56,7 +56,7 @@
                   </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2020-01-05" who="#nhg">edited note</change>
             <change when="2018-11-19" who="#nhg">checked, corrected, added relations information</change>
             <change when="2018-01-25" who="#bjo">transcribed and encoded</change>

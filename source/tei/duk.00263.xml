@@ -25,7 +25,7 @@
                <persName xml:id="km">Kenneth M. Price</persName>
                <persName xml:id="aj">Andrew Jewell</persName>
                <persName xml:id="cf">Chris Forster</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -53,8 +53,8 @@
             <note type="project" target="dat1">This manuscript was likely written between <date notBefore="1850" notAfter="1855">1850 and 1855</date> when Whitman was composing his first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Draft lines on the front of the leaf appeared in the second poem in that edition, eventually titled "A Song for Occupations." The supplied last two lines on the recto, starting with "I see you and stand before you driver of horses," were added to a transcription of the manuscript that appears in <hi rend="italic">Notes and Fragments</hi>, ed. Richard Maurice Bucke (London, Ontario: A. Talbot &amp; Co., printers, 1899), 31. The lines are not currently written on the manuscript.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>I see who you are</title>
                <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
                <idno type="callno">MS 4to 8 (Volume 8)</idno>
@@ -76,7 +76,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2019-11-06" who="#nhg">edited note</change>
          <change when="2018-11-01" who="#nhg">checked, corrected</change>
          <change who="#cah" when="2018-09-07">checked and corrected file</change>

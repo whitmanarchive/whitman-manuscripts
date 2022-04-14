@@ -22,7 +22,7 @@
                     <persName xml:id="kc">Kirsten Clawson</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="jc">Janel Cayer</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -51,8 +51,8 @@
                     of <hi rend="italic">Leaves of Grass</hi>.</note>             
             </notesStmt>
             <sourceDesc> 
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>born at all is equally wonderful</title> 
                     <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
                     <idno type="callno">b19877231</idno><!--UUID: 665faaa0-c5d9-012f-6ad7-58d385a7bc34-->
@@ -64,7 +64,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc> 
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change> 
             <change when="2018-12-18" who="#nhg">edited related item note</change>
             <change when="2018-11-30" who="#smb">updated editorial notes</change>
             <change when="2018-11-14" who="#smb">checked, corrected</change>

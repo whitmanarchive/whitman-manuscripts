@@ -17,7 +17,7 @@
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="cf">Chris Forster</persName>
                <persName xml:id="jr">Joshua Ranger</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -45,8 +45,8 @@
             <note type="project" target="dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Lines from the manuscript appear in the first poem in that edition, eventually titled "Song of Myself."</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>Do I not prove myself</title>
                <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
                <idno type="callno">MSS 3829, Box-folder 1:88</idno> 
@@ -58,7 +58,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2016-11-27">checked, corrected, added relations</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
          <change who="#cf" when="2004-11-08">Revised</change>

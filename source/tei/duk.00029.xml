@@ -23,7 +23,7 @@
                <persName xml:id="cf">Chris Forster</persName>
                <persName xml:id="kt">Kristen Taylor</persName>
                <persName xml:id="km">Kevin McMullen</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -52,8 +52,8 @@
                edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript includes some language similar to wording in the first and final poems in that edition, eventually titled "Song of Myself" and "Great are the Myths."</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>Remembrances I plant American ground with</title>
                <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
                <idno type="callno">MS 4to 27 (Volume 27)</idno> 
@@ -65,7 +65,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2019-10-10">added relation</change>
          <change when="2018-09-10" who="#nhg">updated image names</change>
          <change who="#nhg" when="2017-11-29">updated file, corrected transcription, added relations info</change>

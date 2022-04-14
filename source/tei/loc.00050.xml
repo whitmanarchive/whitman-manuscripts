@@ -21,7 +21,7 @@
                     <persName xml:id="lr">Lisa Renfro</persName>
                     <persName xml:id="zb">Zach Bajaber</persName>
                     <persName xml:id="ar">Alice Rutkowski</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -54,8 +54,8 @@
                     "Ashes of Soldiers."</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title> Ashes of Roses</title>
                     <date xml:id="dat1" cert="high" notBefore="1868" notAfter="1871">Between 1868 and 1871</date>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
@@ -69,7 +69,7 @@
                 <handNote xml:id="unk" scribe="unknown"/>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-10-18" who="#nhg">corrected</change>
             <change when="2016-04-26" who="#nhg">checked, corrected</change>
             <change when="2015-05-26" who="#nhg">checked, corrected</change>

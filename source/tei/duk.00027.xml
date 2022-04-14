@@ -22,7 +22,7 @@
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -51,8 +51,8 @@
             </notesStmt>
             <sourceDesc>
                 
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>I am that half grown angry boy, fallen asleep</title>                  
                     <date notBefore="1840" notAfter="1855" cert="high" xml:id="dat1">Before 1855</date>
                     <idno type="callno">MS 4to 25 (Volume 25)</idno>
@@ -70,7 +70,7 @@
                 <handNote xml:id="h2" scribeRef="#ww" medium="red-ink"/>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2018-09-10" who="#nhg">updated image names</change>
             <change when="2017-02-08" who="#nhg">corrected</change>
             <change when="2017-02-07" who="#nhg">edited editorial note</change>

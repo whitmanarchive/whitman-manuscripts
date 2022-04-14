@@ -10,7 +10,7 @@
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -38,8 +38,8 @@
             <note type="project" target="#dat1">Edward Grier and Richard Maurice Bucke date this manuscript to the 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi>, ed. Edward F. Grier [New York: New York University Press, 1984], 4:1588; <hi rend="italic">Notes and Fragments</hi>, ed. Richard Maurice Bucke [London, Ontario: A. Talbot &amp; Co., printers, 1899], 67–8). Because the fragmentary draft material on the back of the leaf relates to an 1855 review, this manuscript was almost certainly written in or after 1855.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>"Caution"</title>
                <idno type="callno">MS 4 to 196 (Volume 196)</idno>
                <date notBefore="1855-01-01" notAfter="1860-12-31" cert="medium">Between 1855 and 1860</date>
@@ -51,7 +51,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2019-01-23">transcribed, encoded</change>
       </revisionDesc>
    </teiHeader>

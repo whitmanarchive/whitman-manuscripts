@@ -24,7 +24,7 @@
                     <persName xml:id="nk">Nick Krauter</persName>
                     <persName xml:id="lr">Lisa Renfro</persName>
                     <persName xml:id="kr">Katrina Robertson</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -53,8 +53,8 @@
                 <note type="project" target="dat1">Whitman probably drafted this manuscript in the early 1850s, as he was preparing materials for the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript features draft lines of the third poem in that edition, eventually titled "To Think of Time."</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>The three or four poets are well</title>
                     <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
                     <orgName xml:id="tul">Walt Whitman Ephemera, University of Tulsa</orgName>
@@ -65,7 +65,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-01-23" who="#nhg">edited editorial note</change>
             <change when="2018-11-02" who="#nhg">edited title</change>
             <change when="2017-10-24" who="#nhg">added inline relations information</change>

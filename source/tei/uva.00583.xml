@@ -26,7 +26,7 @@
                     <persName xml:id="aj">Andrew Jewell</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -59,8 +59,8 @@
                     as number 1 in the cluster "Enfans d'Adam." It was likely written in the <date notBefore="1856" notAfter="1860">late 1850s</date>.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman </author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>Papers of Walt Whitman</title>
                     <date xml:id="dat1" cert="high" notBefore="1856" notAfter="1860">Late 1850s</date>
                     <idno>(MSS 3829)</idno>
@@ -74,7 +74,7 @@
             </sourceDesc>
         </fileDesc>
 
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-07-19" who="#nhg">checked, corrected transcription and encoding, created new file for verso</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
             <change when="2006-08-04" who="#nk">Added third digit to leaf numbers</change>

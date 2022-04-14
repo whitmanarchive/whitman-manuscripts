@@ -23,7 +23,7 @@
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="cf">Chris Forster</persName>
                <persName xml:id="smb">Stephanie Blalock</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -52,8 +52,8 @@
                It is also possible that the manuscript was written later, however: the description of Broadway in these lines also closely resembles a description Whitman wrote in his unfinished poem known as "The Two Vaults," a poem that is recorded in a <ref target="../notebooks/transcriptions/loc.00348.html">New York notebook</ref> that probably dates to the early 1860s. Whitman also wrote about Broadway elsewhere in later poems, so the manuscript may have been written still later. The manuscript has been pasted down, so an image of the back of the leaf is currently unavailable.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>(Poem) ? Reflections Shadows</title>
                <date cert="low" notBefore="1850" notAfter="1865" xml:id="dat1">Between 1850 and 1865</date>
                <idno type="callno">b19877231</idno><!--UUID: 55077220-c5d9-012f-ea24-58d385a7bc34-->
@@ -65,7 +65,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2019-08-20">edited, added work relation for NY notebook</change>
          <change who="#smb" when="2019-07-11">checked, edited note</change>
          <change who="#nhg" when="2019-01-19">edited note and relations info; created nyp.00737 for verso</change>

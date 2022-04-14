@@ -19,7 +19,7 @@
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="jo">John Owen Havard</persName>
                <persName xml:id="cf">Chris Forster</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -47,8 +47,8 @@
             <note type="project" target="dat1">Whitman probably drafted this manuscript between 1850 and 1855, as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Words and imagery from the manuscript are similar to lines in the first poem of that edition, eventually titled "Song of Myself." The manuscript has been pasted down, so an image of the back of the leaf is unavailable.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>I heat the hot cores within</title>
                <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
                <idno type="callno">b19877231</idno> 
@@ -57,7 +57,7 @@
             </bibl>
          </sourceDesc> 
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#smb" when="2019-10-19">corrected transcription, updated mss notes</change>
          <change who="#smb" when="2019-03-15">final check, corrected</change>
          <change who="#cah" when="2018-11-06">checked and corrected file, added corresps</change>

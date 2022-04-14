@@ -17,7 +17,7 @@
                <persName xml:id="bb">Brett Barney</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="li">Leslie Ianno</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -45,8 +45,8 @@
             <note type="project" target="#dat1">Whitman probably drafted this manuscript in the 1850s. The lines are versions of a line in a long manuscript poem titled "<ref target="yal.00081.html">Pictures</ref>," which probably dates to the mid- to late 1850s. Based on the first-person perspective in these draft lines, Emory Holloway has speculated that they likely were written after the line in "Pictures" (<hi rend="italic">Pictures: An Unpublished Poem of Walt Whitman</hi> [New York: The June House, 1927], 31). The first several lines of "Pictures" (not including this line) were eventually revised and published as "My Picture-Gallery" in <hi rend="italic">The American</hi> in October 1880. The poem was later published in <hi rend="italic">Leaves of Grass</hi> as part of the "Autumn Rivulets" cluster.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>The sores on my shoulders are from his</title>
                <date cert="medium" notBefore="1850" notAfter="1860" xml:id="dat1">Between 1850 and 1860</date>
                <idno type="callno">MSS 3829, Box-folder 1:88</idno>
@@ -58,7 +58,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2020-06-24">expanded date range</change>
          <change who="#bb" when="2019-05-20">checked; edited</change>
          <change who="#nhg" when="2018-12-19">added relations information</change>
