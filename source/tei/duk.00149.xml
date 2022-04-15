@@ -48,7 +48,7 @@
             </notesStmt>
             <sourceDesc>
                 
-                <bibl><author xml:id="ww">Whitman, Walt</author>
+                <bibl><author sameAs="#ww">Whitman, Walt</author>
                     
                     <title>Slavery—the Slaveholders—The Constitution</title>
                     <date xml:id="dat1" cert="high" notBefore="1850" notAfter="1860">Between 1850 and 1860</date>
@@ -89,9 +89,9 @@
             
             <note type="editorial" resp="#unk" place="top">1</note><!-- In comparing these page numbers to the numbers on the versos of several of the leaves, I am almost certain that the handwriting is Whitman's (see the similarities in the 2s and 6s). But I have left it as "unknown" for now. KM -->
             
-            <add rend="pasteon">                    
+            <addSpan spanTo="#a1" rend="pasteon"/>                    
                     <floatingText><body><p><handShift new="#h1"/>Slavery—the Slaveholders—The Constitution—the true America and Americans, the laboring persons.—</p></body></floatingText>
-            </add>
+            <anchor xml:id="a1"/>
             
             <milestone unit="glued"/>
             
