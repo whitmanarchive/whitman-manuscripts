@@ -105,12 +105,12 @@
                 </l>
                 <note place="left" type="authorial" target="#s1">?</note>
                 <span xml:id="s1" rend="bracketed" from="s1" to="s2"/>
-                <del rend="overstrike"><l xml:id="l01">
+                <delSpan spanTo="#d1" rend="overstrike"/><l xml:id="l01">
                         Does the light or heat pick out? Does
                     
                     <lb/>the <seg xml:id="q02">attraction <add place="supralinear" rend="unmarked">o</add> of <add place="supralinear" rend="insertion">gravity</add></seg> pick out?
                     
-                </l></del>
+                </l><anchor xml:id="d1"/>
                 <anchor xml:id="s2"/>
                 <anchor xml:id="d2"/>
                 <milestone unit="undeclared" rend="horbar-full"/>
