@@ -122,9 +122,9 @@
                 <pb facs="loc.00254.003.jpg" xml:id="leaf002r" type="recto"/>
                 <lg type="linegroup">
                     <l>Brav</l>
-                    <del rend="overstrike">
+                    <delSpan spanTo="#d1" rend="overstrike"/>
                         <l>Amidst</l>
-                    </del>
+                    <anchor xml:id="d1"/>
                     <l>The <add rend="insertion" place="supralinear">swirling</add> wintry
                             blast, <del rend="overstrike">the</del>
 
@@ -140,9 +140,9 @@
                                                             </subst> Night, and
                         <lb/>Storm and Sea
                     </l>
-                    <del rend="overstrike">
+                    <delSpan spanTo="#d2" rend="overstrike"/>
                         <l>Alas</l>
-                    </del>
+                    <anchor xml:id="d2"/>
                 </lg>
                 <pb facs="loc.00254.004.jpg" xml:id="leaf002v" type="verso"/>
                 <pb facs="loc.00254.005.jpg" xml:id="leaf003r" type="recto"/>

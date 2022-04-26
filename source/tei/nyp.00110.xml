@@ -51,7 +51,7 @@
                 <note type="project" target="#dat1">The notes written in ink on this manuscript probably relate to the poem that was eventually titled "Salut au Monde!," first published as "Poem of Salutation" in the 1856 edition of <hi rend="italic">Leaves of Grass</hi>. The earlier lines written in pencil may relate to the sixth poem in the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>, eventually titled "Faces." These connections suggest the manuscript was probably written in the early to mid-1850s. The manuscript is pasted down, so an image of the reverse is not currently available.</note>             
             </notesStmt>
             <sourceDesc>
-            <bibl><author xml:id="ww">Whitman, Walt</author>
+            <bibl><author sameAs="#ww">Whitman, Walt</author>
                
                <title>something that presents the sentiment of the Druid walking in the woods</title>
                <date cert="medium" notBefore="1850-01-01" notAfter="1856-12-31" xml:id="dat1">Between 1850 and 1856</date>
@@ -97,7 +97,7 @@
             
             <ab>" " of the Grecian religious rites—</ab>
             
-            <del rend="overstrike" hand="#h2"><ab><handShift new="#h1"/>I like this face well</ab></del>
+            <delSpan spanTo="#d1" rend="overstrike" hand="#h2"/><ab><handShift new="#h1"/>I like this face well</ab><anchor xml:id="d1"/>
         </body>
     </text>
 </TEI>

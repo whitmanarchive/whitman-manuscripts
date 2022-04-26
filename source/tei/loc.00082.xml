@@ -142,7 +142,7 @@
                                                         
                                 <add place="supralinear" rend="unmarked" seq="2">brine</add></subst>.
                 </l>
-                <transpose anchored="1" xml:id="tr02" target="#tr01"><add rend="unmarked" place="bottom"><l>Some <subst>
+                <transpose anchored="1" xml:id="tr02" target="#tr01"><addSpan spanTo="#a1" rend="unmarked" place="bottom"/><l>Some <subst>
                         
                         <del rend="overstrike" seq="1">to</del>
                         
@@ -153,7 +153,7 @@
                         Oregon,—or
                         <lb/>southward in Texas,
                     
-                </l></add></transpose>
+                </l><anchor xml:id="a1"/></transpose>
             </lg>
             <pb facs="loc.00082.002.jpg" xml:id="leaf001v" type="verso"/>
         </body>
