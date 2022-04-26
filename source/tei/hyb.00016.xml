@@ -48,7 +48,7 @@
                     <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
-                <bibl><author xml:id="ww">Whitman, Walt</author>
+                <bibl><author sameAs="#ww">Whitman, Walt</author>
                     
                     <title>Mother's family lived...</title>
                     <idno type="callno">MS f 128</idno>
@@ -127,7 +127,7 @@
             
             <p>After <add rend="insertion" place="supralinear"><handShift new="#h4"/>my own</add> <handShift new="#h1"/>grandmother died, in <!-- I have a theory on how this substitution went: I think Whitman originally wrote "1826"; then lightly crossed out the "2" in pencil and wrote "?3" above it, also in pencil; then, at a later time, when he was making additions in a darker black ink, he came back and re-wrote the "2" over the original "2," but without crossing out the "?3" That's different than the order that Grier gives, but it seems to make more sense to me. KM -->18<subst><del rend="overstrike" seq="1" hand="#h2">2</del><add rend="unmarked" place="supralinear" seq="2"><handShift new="#h2"/>?3</add><add rend="overwrite" place="over" seq="3"><handShift new="#h4"/>2</add></subst><handShift new="#h1"/>6 the old man married again—<del rend="overstrike">but did not make a very good investment.—</del>He had a son, Alonzo, by this second marriage—now, (Sept. 1850,) in California. He is a good young man, I think, from what I know of him.—</p>
             
-            <add rend="unmarked" place="bottom"><handShift new="#h4"/><p>He <add rend="insertion" place="supralinear">has</add> since returned from California with his "pile." <!--This add was presumably made later, in 1883--><add rend="unmarked" place="infralinear">went into business in New York, and died <del rend="overstrike" hand="#h4">in</del> at Newark, N.J. July 22, 1883</add></p></add>
+            <addSpan spanTo="#a1" rend="unmarked" place="bottom"/><p><handShift new="#h4"/>He <add rend="insertion" place="supralinear">has</add> since returned from California with his "pile." <!--This add was presumably made later, in 1883--><add rend="unmarked" place="infralinear">went into business in New York, and died <del rend="overstrike" hand="#h4">in</del> at Newark, N.J. July 22, 1883</add></p><anchor xml:id="a1"/>
         </body>
     </text>
 </TEI>
