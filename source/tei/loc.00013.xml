@@ -51,7 +51,7 @@
             <note type="project" target="dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Thematically and in the wording of one of the lines this manuscript resembles a portion of the second poem in that edition, eventually titled "A Song for Occupations." The ideas and some of the language are also similar to other early manuscripts that relate to the first poem in the 1855 edition of <hi rend="italic">Leaves</hi>, ultimately titled "Song of Myself," and part of a cluster titled "Debris" that appeared in the 1860 edition of <hi rend="italic">Leaves of Grass</hi> (see "<ref target="uva.00251.html">Do I not prove myself</ref>," "<ref target="duk.00051.html">I know as well as</ref>," and "<ref target="duk.00261.html">[Fa]bles, traditions</ref>").</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><author xml:id="ww">Whitman, Walt</author>
+            <bibl><author sameAs="#ww">Whitman, Walt</author>
                
                <title rend="bracketed">Priests!</title> 
                <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
@@ -93,9 +93,9 @@
                   
                   not try to explain God:</l>
                
-               <add place="infralinear" rend="unmarked">
+               <addSpan spanTo="#a1" place="infralinear" rend="unmarked"/>
                   <l>Until your creeds can do as much as apples and hen's eggs, <subst>
-                           <del rend="overstrike" seq="1"><unclear reason="illegible" cert="medium" resp="#nhg">restrain</unclear></del> <add rend="insertion" place="supralinear" seq="2"><subst><del rend="overstrike" seq="1"><unclear reason="illegible" resp="#nhg" cert="low">pull</unclear></del> <add rend="unmarked" place="supralinear" seq="2">let</add></subst> down</add></subst> your eyebrows <add place="supralinear" rend="insertion">a little,</add></l></add> 	
+                           <del rend="overstrike" seq="1"><unclear reason="illegible" cert="medium" resp="#nhg">restrain</unclear></del> <add rend="insertion" place="supralinear" seq="2"><subst><del rend="overstrike" seq="1"><unclear reason="illegible" resp="#nhg" cert="low">pull</unclear></del> <add rend="unmarked" place="supralinear" seq="2">let</add></subst> down</add></subst> your eyebrows <add place="supralinear" rend="insertion">a little,</add></l><anchor xml:id="a1"/> 	
                   
                   <l><metamark function="paragraph">¶</metamark> Until your Bibles and prayer-books are able to<lb/> 
                      walk like me,</l> 

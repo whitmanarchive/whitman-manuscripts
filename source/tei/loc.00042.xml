@@ -89,9 +89,9 @@
       <body>
          <pb facs="loc_nhg.01200_large.jpg" xml:id="leaf001r" type="recto"/>
          <lg type="linegroup">
-            <del rend="overstrike"><l xml:id="l01"><gap reason="cut away"/><!--possible transposition mark--> <del rend="overstrike">What</del>
-               Nothing <del rend="overstrike">postpones</del> puts off or waits, except man</l></del>
-            <del rend="overstrike"><l xml:id="l02">I am the Poet of Reality;</l></del>
+            <delSpan spanTo="#d1" rend="overstrike"/><l xml:id="l01"><gap reason="cut away"/><!--possible transposition mark--> <del rend="overstrike">What</del>
+               Nothing <del rend="overstrike">postpones</del> puts off or waits, except man</l><anchor xml:id="d1"/>
+            <delSpan spanTo="#d2" rend="overstrike"/><l xml:id="l02">I am the Poet of Reality;</l><anchor xml:id="d2"/>
             <milestone unit="undeclared" rend="horbar-short-left"/>
             <l xml:id="l03"><add place="inline" rend="unmarked">And</add> I say <subst>
                <del rend="overstrike" seq="1">this</del> <add place="supralinear" rend="insertion" seq="2">the</add></subst> <subst><del rend="overstrike" seq="1">earth</del>
@@ -127,7 +127,7 @@
                      <add place="supralinear" rend="unmarked">and exact</add> demonstration <del rend="overstrike"><add place="infralinear" rend="unmarked">and Positive science</add></del></add>
                </subst>
             </l>
-            <del rend="overstrike"><l xml:id="l08">Reality is eternal;</l></del>
+            <delSpan spanTo="#d3" rend="overstrike"/><l xml:id="l08">Reality is eternal;</l><anchor xml:id="d3"/>
             <l xml:id="l09"><add place="inline" rend="unmarked">say that</add>
                <subst>
                   <del rend="overstrike" seq="1">It is just</del>
@@ -147,7 +147,7 @@
             </subst></l>
             <l xml:id="l11">Bring honey‑clover and branches of lilac!</l>
             <l xml:id="l12">These are the <del rend="overstrike"><add place="supralinear" rend="insertion">serene</add></del> Philosophers of Nature,<del rend="erasure">;</del></l>
-            <del rend="overstrike"><l>Every one admirable and serene,</l></del>
+            <delSpan spanTo="#d4" rend="overstrike"/><l>Every one admirable and serene,</l><anchor xml:id="d4"/>
             <l xml:id="l13">Travelling<add place="inline" rend="unmarked">,</add>
                <subst>
                   <del rend="overstrike" seq="1">the earth</del>
