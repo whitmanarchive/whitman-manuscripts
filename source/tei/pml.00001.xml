@@ -112,11 +112,11 @@
                     round zones circling, comprehending,
                 </l>
                     
-                <transpose xml:id="tr01" anchored="1" target="#tr02"><add rend="unmarked" place="interlinear"><l>
+                <transpose xml:id="tr01" anchored="1" target="#tr02"><addSpan spanTo="#a1" rend="unmarked" place="interlinear"/><l>
                         No lurid fame exceptional, nor monstrous intellect, nor <add rend="unmarked" place="supralinear">conquest's</add> dominations
                                 <add place="supralinear" rend="unmarked">c</add>
                         
-                    </l></add></transpose>
+                    </l><anchor xml:id="a1"/></transpose>
                 
                 <l>Thou, <hi rend="underline">Washington</hi>, ar<subst><del rend="overwrite" seq="1">e</del><add rend="overwrite" place="over" seq="2">t</add>
                                                     </subst>
@@ -135,14 +135,14 @@
                 </l>
                 <metamark function="transpose" place="left" target="#tr01" xml:id="tr02"/>
                 <span xml:id="s1" rend="bracketed" from="s1" to="s2"/>
-                <del rend="overstrike">
+                <delSpan spanTo="#d1" rend="overstrike"/>
                     <l>Thy fame, (no lurid fame exceptional, <add rend="unmarked" place="supralinear">for the</add> nor<lb/>
                         intellect, nor conquest's domination,)
                     </l>
                     <l>By deathless waves of emanation the race's<lb/>
                         common ownership, 
                     </l>
-                </del>
+                <anchor xml:id="d1"/>
                 <anchor xml:id="s2"/>
                 <l>Europe's<del rend="overstrike">,</del>
                         <add rend="insertion" place="supralinear">as well,</add> in castle or in
@@ -160,14 +160,14 @@
                     e'en in defeat defeated not, the same;<del rend="overstrike">)</del>
 
                 </l>
-                <del rend="overstrike"><l>
+                <delSpan spanTo="#d2" rend="overstrike"/><l>
                     
                     <add rend="unmarked" place="interlinear">
                         No lurid fame exceptional, nor monstrous intellect, nor conquest's
                             domination;)
                     </add>
                     
-                </l></del>
+                </l><anchor xml:id="d2"/>
                 <l>Through teeming cities' streets, indoors or out,<lb/>
                     factories or farms,
                 </l>
