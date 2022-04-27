@@ -74,7 +74,7 @@
 <body>
  <pb xml:id="leaf001r" facs="tex.00002.001.jpg" type="recto"/>
  <delSpan rend="hashmark" spanTo="#d1"/>
- <del rend="overstrike"><note type="authorial" place="top left">190</note></del>
+ <delSpan spanTo="#d1" rend="overstrike"/><note type="authorial" place="top left">190</note><anchor xml:id="d1"/>
  <lg type="linegroup">
 
    <l xml:id="l01">You villain, Touch! what are you doing?</l>
@@ -106,8 +106,8 @@
     my <subst><del rend="overstrike" seq="1">life</del> <add rend="unmarked" place="supralinear" seq="2">soul</add></subst>, if that is<lb/>
     what you are after.</l>
 
-  <del rend="overstrike"><l xml:id="l10">Only pass to some one else, for I<lb/>
-    <subst><del rend="overstrike" seq="1">can</del> <add rend="unmarked" place="supralinear" seq="2">will</add></subst> contain you no longer.</l></del>
+  <delSpan spanTo="#d2" rend="overstrike"/><l xml:id="l10">Only pass to some one else, for I<lb/>
+    <subst><del rend="overstrike" seq="1">can</del> <add rend="unmarked" place="supralinear" seq="2">will</add></subst> contain you no longer.</l><anchor xml:id="d2"/>
   
   <l xml:id="l11"><del rend="overstrike">Only</del> pass to some one else <anchor xml:id="t1"/> <add rend="insertion" place="supralinear">leap to the nearest landing</add>. ¶Little as your<lb/>
     <del rend="overstrike">mouth</del> yo<del rend="erasure"><gap reason="erasure, illegible" quantity="3" unit="chars"/></del> <del rend="overstrike">lips</del> are</l>

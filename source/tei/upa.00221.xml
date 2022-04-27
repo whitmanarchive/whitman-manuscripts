@@ -87,7 +87,7 @@ University of Pennsylvania: Kislak Center for Special Collections, Rare Books an
                   <lb/>
                   are you and me,
                </l>
-               <del rend="overstrike"><l>The perpetual arrivals of immigrants are you and me,</l></del>
+               <delSpan spanTo="#d1" rend="overstrike"/><l>The perpetual arrivals of immigrants are you and me,</l><anchor xml:id="d1"/>
                <l><subst><del rend="overstrike" seq="1">The</del> <add place="supralinear" rend="unmarked" seq="2">Its</add></subst> young men's manner<del rend="overstrike">'</del>s, speech, dress, friendships<lb/>
                   are you and me,</l>
                   <l><subst><del rend="overstrike" seq="1"><add rend="insertion" place="supralinear">The</add> </del><add place="supralinear" rend="unmarked" seq="2">Its</add></subst> Crimes, <subst><del rend="overstrike" seq="1">enormities</del> <add place="supralinear" rend="unmarked" seq="2">lies,</add></subst> defections, slavery, are you and me,</l>
@@ -95,12 +95,12 @@ University of Pennsylvania: Kislak Center for Special Collections, Rare Books an
                   ships, are you and me,</l>
             <l><subst><del rend="overstrike" seq="1">The</del> <add place="supralinear" rend="unmarked" seq="2">Its</add></subst> inventions, science, s<subst><del rend="overwrite" seq="1">h</del><add rend="overwrite" place="over" seq="2">c</add></subst>hools, are you and me,</l>
             <l><subst><del rend="overstrike" seq="1">The</del> <add place="supralinear" rend="unmarked" seq="2">Its</add></subst> deserts, forests, clearings, <subst><del rend="overstrike" seq="1">settlements,</del> <add place="supralinear" rend="unmarked" seq="2">log houses, hunters,</add></subst> are you and me,</l>
-               <add place="interlinear" rend="unmarked">
+               <addSpan spanTo="#a1" place="interlinear" rend="unmarked"/>
                   <l>Its ships, fisheries, whaling, gold‑digging are you and me,</l>
-               </add>
+               <anchor xml:id="a1"/>
             <l><subst><del rend="overstrike" seq="1">The</del> <add place="supralinear" rend="unmarked" seq="2">Its</add></subst> paved cities, wharves, wealth, avenues, dwellings,<lb/>
                   are you and me.</l>
-               <add place="interlinear" rend="unmarked"><l>The perpetual arrivals of immigrants are you and me.</l></add>
+               <addSpan spanTo="#a2" place="interlinear" rend="unmarked"/><l>The perpetual arrivals of immigrants are you and me.</l><anchor xml:id="a2"/>
                <l>The north, south, east, west, are you and me,</l>
                <l>Natural and artificial are you and me,</l>
                <l>Liberty, language, poems, employments, are you and me,</l>
@@ -114,7 +114,7 @@ University of Pennsylvania: Kislak Center for Special Collections, Rare Books an
                <l>Not my body—not friendship, hospitality, procreation,</l>
                <l>Not my soul—not the last explanation of prudence,</l>
                <span rend="bracket-left" xml:id="s1" from="#s1" to="#s2"/>
-               <add place="interlinear" rend="unmarked"><l>Not faith, sin, defiance, nor any of the dispositions <add place="supralinear" rend="unmarked">or duties</add> of myself,</l></add>
+               <addSpan spanTo="#a3" place="interlinear" rend="unmarked"/><l>Not faith, sin, defiance, nor any of the dispositions <add place="supralinear" rend="unmarked">or duties</add> of myself,</l><anchor xml:id="a3"/>
                <l>Not liberty—not to cheer up slaves and horrify<lb/> 
                despots,</l>
                <l><gap reason="cut away" atLeast="8" unit="chars" extent="four or five words"/> the show of the tushes of power and <gap reason="cutaway" atLeast="1" unit="chars" extent="unknown number of words"/></l>

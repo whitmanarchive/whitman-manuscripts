@@ -119,18 +119,18 @@
                                 <add rend="unmarked" place="supralinear" seq="2">forenoon</add>
                         </subst> sun
                 </l>
-                <del rend="overstrike"><l>Where my gaze as now sweeps ocean river and bay</l></del>
+                <delSpan spanTo="#d1" rend="overstrike"/><l>Where my gaze as now sweeps ocean river and bay</l><anchor xml:id="d1"/>
                 <l><note type="authorial" place="supralinear">?</note> Freighted with human lives,
                         gaily
                     <lb/>the outward bound, gaily the
                     <lb/>inward bound
                 </l>
-                <del rend="overstrike"><add place="interlinear" rend="unmarked"><l>Where my gaze as now sweeps ocean river and bay</l></add></del>
+                <delSpan spanTo="#d2" rend="overstrike"/><addSpan spanTo="#a1" place="interlinear" rend="unmarked"/><l>Where my gaze as now sweeps ocean river and bay</l><anchor xml:id="a1"/><anchor xml:id="d2"/>
                 <l>Flaunting from many a spar
                     <lb/>the flag I love.
                 </l>
-                <del rend="overstrike"><l>Where my gaze <add rend="insertion" place="supralinear">as now</add> sweeps ocean<lb/>
-                      river and bay.</l></del>
+                <delSpan spanTo="#d3" rend="overstrike"/><l>Where my gaze <add rend="insertion" place="supralinear">as now</add> sweeps ocean<lb/>
+                      river and bay.</l><anchor xml:id="d3"/>
             </lg>
             <pb facs="yal.00052.002.jpg" xml:id="leaf001v" type="verso"/>
         </body>

@@ -48,8 +48,8 @@
             <note type="project" target="dat1">Whitman probably drafted this manuscript between 1850 and 1855, as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Ideas and phrases from the manuscript appear in the first poem in that edition, eventually titled "Song of Myself." This manuscript also includes lines and phrases that appear in other manuscripts. See "<ref target="loc.00387.html">Lofty sirs</ref>" and "<ref target="loc.00163.html">Rule in all addresses</ref>."</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><author xml:id="ww">Whitman, Walt</author>
-               
+            <bibl>
+               <author sameAs="#ww">Whitman, Walt</author>
                <title>The Walt Whitman Collection</title>
                <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
                <date cert="medium" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
@@ -75,11 +75,11 @@
             <l><gap reason="cut away"/></l>
          </lg>
          <lg type="linegroup">
-            <add place="top" rend="unmarked">
+            <addSpan spanTo="#a1" place="top" rend="unmarked"/>
             <l xml:id="l01">I know many beautiful things about men and women</l>
             <l xml:id="l02">But I do not know any thing more beautiful than to be freehanded<lb/>
                and always go on the square.—</l>
-            </add>
+            <anchor xml:id="a1"/>
 
             <l xml:id="l03">I <subst><del rend="overstrike" seq="1">see the</del> <add place="supralinear" rend="unmarked" seq="2"><subst><del rend="overstrike" seq="1">saw</del> 
                      <add place="supralinear" rend="unmarked" seq="2">see</add></subst> an</add></subst> aristocrat;</l>
@@ -91,10 +91,10 @@
                at the starvation of others, as if<lb/>
                it were funny.—</del></l>
 
-            <add place="interlinear" rend="unmarked"><l xml:id="l05">I <subst><del rend="overstrike" seq="1">see</del> <del rend="overstrike" seq="3"><add place="supralinear" rend="unmarked" seq="2">yet gaze on</add></del> <add place="infralinear" rend="unmarked" seq="4">hear</add></subst> the greedy hog,<add rend="unmarked" place="inline">;</add>
+            <addSpan spanTo="#a2" place="interlinear" rend="unmarked"/><l xml:id="l05">I <subst><del rend="overstrike" seq="1">see</del> <del rend="overstrike" seq="3"><add place="supralinear" rend="unmarked" seq="2">yet gaze on</add></del> <add place="infralinear" rend="unmarked" seq="4">hear</add></subst> the greedy hog,<add rend="unmarked" place="inline">;</add>
                <subst><del rend="overstrike" seq="1">as</del> <add place="supralinear" rend="unmarked" seq="2">—</add></subst> he <del rend="overstrike">roots and</del> snorts <add place="supralinear" rend="insertion">as he roots</add> <subst><del rend="overwrite" seq="1">an</del><add place="over" rend="overwrite" seq="2">in</add></subst> the
 <subst><del rend="overstrike" seq="1">costly</del> <add place="supralinear" rend="unmarked" seq="2">delicate</add></subst><lb/>
-               green house.—</l></add>
+               green house.—</l><anchor xml:id="a2"/>
             
         
             <l xml:id="l06">How those niggers smell!</l>
@@ -150,11 +150,11 @@
 <del rend="overstrike">as if it</del><lb/>
                <del rend="overstrike">was funny.—</del></l>
 
-            <add rend="unmarked" place="interlinear"><l xml:id="l21">But when <del rend="overstrike">the</del> gaunt and the starved awkwardly come<lb/>
+            <addSpan spanTo="#a4" rend="unmarked" place="interlinear"/><l xml:id="l21">But when <del rend="overstrike">the</del> gaunt and the starved awkwardly come<lb/>
                for their slices—</l>
 
             <l xml:id="l22">The<del rend="overstrike">ir</del> quiet changes to angry hysterics</l>
-</add>
+<anchor xml:id="a4"/>
             </lg>
        <anchor xml:id="d1"/>  
          
@@ -162,9 +162,9 @@
             
          <lg type="linegroup">
             
-            <del rend="overstrike"><l xml:id="l23">It is <del rend="overstrike">for</del> <del rend="overstrike"><add place="supralinear" rend="unmarked">the wish</add></del> babies to lift themselves out of their</l></del>
+            <delSpan spanTo="#d3" rend="overstrike"/><l xml:id="l23">It is <del rend="overstrike">for</del> <del rend="overstrike"><add place="supralinear" rend="unmarked">the wish</add></del> babies to lift themselves out of their</l><anchor xml:id="d3"/>
             
-            <del rend="overstrike"><l xml:id="l24">I go not with the <del rend="overstrike">large</del> babies who</l></del>
+            <delSpan spanTo="#d4" rend="overstrike"/><l xml:id="l24">I go not with the <del rend="overstrike">large</del> babies who</l><anchor xml:id="d4"/>
             
          </lg>
          
@@ -190,11 +190,11 @@
             <l xml:id="l30">
                <del rend="overstrike">I see nothing</del> <del rend="overstrike">nothing</del> nothing</l>
 
-            <del rend="overstrike"><l xml:id="l31">I know many beautiful things about men and women</l></del>
-            <del rend="overstrike"><l xml:id="l32">But I do not know <add rend="insertion" place="supralinear">of</add> any thing more beautiful than to<lb/>
+            <delSpan spanTo="#d5" rend="overstrike"><l xml:id="l31">I know many beautiful things about men and women</l><anchor xml:id="d5"/>
+            <delSpan spanTo="#d6" rend="overstrike"/><l xml:id="l32">But I do not know <add rend="insertion" place="supralinear">of</add> any thing more beautiful than to<lb/>
                be free handed and generous and always go on<lb/>
                the square.—</l>
-            </del> 
+            <anchor xml:id="d6/> 
          </lg>
          <anchor xml:id="d2"/>
          

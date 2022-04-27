@@ -96,13 +96,13 @@
                             <add place="supralinear" rend="unmarked" seq="2">To</add>
                         </subst> pass within my soul, which loves the 
                     <lb/>grim, mysterious, wordless</del> story,</l>
-                <del rend="overstrike"><l><subst>
+                <delSpan spanTo="#d1" rend="overstrike"/><l><subst>
                             <del rend="overstrike" seq="1">That</del>
                             <add place="supralinear" rend="unmarked" seq="2">This</add>
                         </subst> haughty‑husky utterance of the sea—
                     <lb/>—<subst><del rend="overstrike" seq="1">that</del>
                             <add place="supralinear" rend="unmarked" seq="2">this</add>
-                        </subst> unsubduedness,</l></del>
+                        </subst> unsubduedness,</l><anchor xml:id="d1"/>
                 <l><subst>
                         <del rend="overstrike" seq="1">That</del>
                         <add place="supralinear" rend="unmarked" seq="2">Th<subst><del rend="overwrite" seq="1">is</del><add rend="overwrite" place="over" seq="2">y</add></subst></add>
@@ -133,10 +133,10 @@
                             <del rend="overstrike" seq="1">tongue</del>
                             <add place="supralinear" rend="unmarked" seq="2">lips</add>
                         </subst> O Sea</add><del rend="overstrike">O Sea</del>!</l>
-                <del rend="overstrike"><l><subst>
+                <delSpan spanTo="#d2" rend="overstrike"/><l><subst>
                             <del rend="overstrike" seq="1">Surely some</del>
                             <add place="supralinear" rend="unmarked" seq="2">This</add>
-                        </subst> chanted tale of elemental passion,</l></del>
+                        </subst> chanted tale of elemental passion,</l><anchor xml:id="d2"/>
                 <l>With undertone of muffled lion roar,</l>
                 <l>And skreel of whistling wind, and hiss of spray,</l>
                 <l><subst><del rend="overstrike" seq="1">Th<subst><del rend="overwrite" seq="1">is</del><add place="over" rend="overwrite" seq="2">y</add></subst></del>
@@ -164,7 +164,7 @@
                 <note type="authorial" place="left">*</note>
                 <l>To pass within my soul the
                     <lb/>wordless lesson</l>
-                <del rend="overstrike"><l>Of all that power means</l></del>
+                <delSpan spanTo="#d3" rend="overstrike"/><l>Of all that power means</l><anchor xml:id="d3"/>
                 <l>Of freedom, action, <space dim="horizontal" extent="9 letters"/> in
                     husky-haughty</l>
             </lg>

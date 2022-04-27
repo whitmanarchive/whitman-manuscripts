@@ -90,14 +90,14 @@
          <pb facs="uva.00273.001.jpg" xml:id="leaf001r" type="recto"/>
 
          <lg type="poem">
-            <add rend="unmarked" place="top">
+            <addSpan spanTo="#a1" rend="unmarked" place="top"/>
                <l xml:id="l01">Can ? make me <del rend="overstrike">so exuberant yet so
                   faintish?</del></l>
-               <del rend="overstrike">
+               <delSpan spanTo="#d1" rend="overstrike"/>
                   <l xml:id="l02">The rage of an unconquerable fierceness is
                      conquered by the touch<lb/> tenderest hand</l>
-               </del>
-            </add>
+               <anchor xml:id="d1"/>
+            <anchor xml:id="a1"/>
             <note type="editorial" resp="#h1" place="right"><del rend="erasure">22</del></note>
             <l xml:id="l03"><del rend="overstrike">I do not think</del> I <subst><del rend="overstrike" seq="1">am</del> <add place="supralinear" rend="insertion" seq="2">cannot be</add></subst> 
             awake, for nothing looks<lb/> 

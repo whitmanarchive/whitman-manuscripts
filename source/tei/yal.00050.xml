@@ -109,7 +109,7 @@
                 </l>
                 <note place="left" resp="#h1" type="archival">15</note>
                 <delSpan type="hashmark" spanTo="#d1"/>
-                <add rend="unmarked" place="interlinear">
+                <addSpan spanTo="#a2" rend="unmarked" place="interlinear"/>
                     <l>But for your time,
                         <lb/>—<subst><del rend="overstrike" seq="1">your needed</del>
                                                                 
@@ -117,7 +117,7 @@
                                                             </subst>
 
                     </l>
-                </add>
+                <anchor xml:id="a2"/>
                 <l>—duly the hinge
                     <lb/>a‑turning,
                 </l>
@@ -200,7 +200,7 @@
                                                     </subst>
 
                 </l>
-                <add place="interlinear" rend="unmarked">
+                <addSpan spanTo="#a3" place="interlinear" rend="unmarked"/>
                     <l>
 <subst>
                                 
@@ -211,7 +211,7 @@
 <del rend="overstrike"><add place="supralinear" rend="unmarked">all</add> the</del> discord parts <del rend="overstrike">that</del> round Time's
                         <lb/>diapason.)
                     </l>
-                </add>
+                <anchor xml:id="a3"/>
                 <l>Duly <del rend="overstrike">from you</del> the inborne
                     <lb/>
 <subst>
@@ -234,7 +234,7 @@
                                                
                     
                 </l>
-                <del rend="overstrike"><add place="interlinear" rend="unmarked"><l>(Many the discord parts to round <add place="supralinear" rend="unmarked">Time's</add> diapason)</l></add></del>
+                <delSpan spanTo="#d2" rend="overstrike"/><addSpan spanTo="#a5" place="interlinear" rend="unmarked"/><l>(Many the discord parts to round <add place="supralinear" rend="unmarked">Time's</add> diapason)</l><anchor xml:id="a5"/><anchor xml:id="d2"/>
                 <l>(Duly <subst>
                             
                                 <del rend="overstrike" seq="1">to me</del>
@@ -253,7 +253,7 @@
                     <lb/>from Death itself <add place="inline" rend="unmarked">I hear</add>
 
                 </l>
-                <add place="interlinear" rend="unmarked">
+                <addSpan spanTo="#a4" place="interlinear" rend="unmarked"/>
                     <l>Your needed blended discord‑parts <subst>
                             
                                 <del rend="overstrike" seq="1">joined in</del>
@@ -261,7 +261,7 @@
                                 <add place="infralinear" rend="unmarked" seq="2">offsetting</add>
                                                     </subst>
 </l>
-                </add>
+                <anchor xml:id="a4"/>
                 <l>
 <subst>
                             
