@@ -18,7 +18,7 @@
                <persName xml:id="cah">Caitlin Henry</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="rl">Robert LaCosse</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -46,8 +46,8 @@
    <note type="project" target="#dat1">Whitman probably drafted this manuscript between 1850 and 1855 as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Lines from the manuscript appear in the first poem of that edition, eventually titled "Song of Myself."</note>
 </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title rend="bracketed">Ms. leaf recto (vain the mastadon retreats...)</title>                  
                <idno type="callno">MSS 1767</idno>
                <date xml:id="dat1" notBefore="1850" notAfter="1855" cert="medium">Between 1850 and 1855</date> 
@@ -60,7 +60,7 @@
             </bibl>
          </sourceDesc> 
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2019-10-24" who="#smb">corrected and updated mss notes</change>
          <change when="2018-11-30" who="#smb">updated date and editorial notes</change>
          <change when="2018-11-05" who="#smb">checked and corrected</change>

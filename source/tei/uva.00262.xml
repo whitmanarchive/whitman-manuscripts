@@ -20,7 +20,7 @@
                <persName xml:id="li">Leslie Ianno</persName>
                <persName xml:id="bb">Brett Barney</persName>
                <persName xml:id="smb">Stephanie Blalock</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -48,8 +48,8 @@
             <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Versions of the manuscript lines appear in the first poem of that edition, eventually titled "Song of Myself."</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>Who knows that I shall</title>
                <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
                <idno type="callno">MSS 3829, Box-folder 1:88</idno>
@@ -61,7 +61,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2020-03-03" who="#bb">removed duplicate date note element</change>
          <change when="2019-01-22" who="#smb">checked</change>
          <change when="2019-01-15" who="#nhg">checked relations</change>

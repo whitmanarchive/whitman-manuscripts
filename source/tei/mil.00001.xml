@@ -25,7 +25,7 @@
                     <persName xml:id="kr">Kati Robertson</persName>
                     <persName xml:id="zb">Zach Bajaber</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -59,8 +59,8 @@
                 1874, shortly before the poem's publication.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title> Waves in the Vessel's Wake</title>
                     <date xml:id="dat1" cert="medium" when="1874">About 1874</date>
                     <orgName xml:id="mco">Mills College, Oakland, CA</orgName>
@@ -68,7 +68,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-11-28" who="#nhg">updated editorial note with information from EAD entry</change>
             <change when="2016-09-26" who="#nhg">proofed</change>
             <change when="2016-04-19" who="#nhg">adjusted header, added reason to unclear</change>
@@ -116,11 +116,11 @@
                 <l>And the <add place="supralinear" rend="insertion">great spread of the</add> sea
                         <del rend="overstrike">itself</del>, <add place="supralinear" rend="insertion">hoarsely</add> bubbling and <del rend="overstrike">gur</del> gurgling <add place="supralinear" rend="unmarked">thither</add>,</l>
                 <l>Toward that motley, laughing buoyan<subst><del rend="overwrite" seq="1">d</del><add place="over" rend="overwrite" seq="2">t</add></subst> <lb/>streak of itself,</l>
-                <del rend="overstrike"><l>
+                <delSpan spanTo="#d1" rend="overstrike"/><l>
                     When the ship sailing on, had <subst><del rend="overstrike" seq="1"><unclear reason="illegible" cert="medium" resp="#bb">stirred</unclear> up</del>
                             <add place="supralinear" rend="unmarked" seq="2">displaced
                             </add></subst> the surface,
-                </l></del>
+                </l><anchor xml:id="d1"/>
                 <l>Undulating, <del rend="overstrike">and</del> flashing, <subst><del rend="overstrike" seq="1">so</del>
                         <add place="supralinear" rend="unmarked" seq="2">whirling
                     </add></subst> frolicsome<lb/> under the sun;</l>
@@ -134,9 +134,9 @@
                 <l><add place="inline" rend="unmarked">Thither</add> The <add place="supralinear" rend="insertion">little &amp; larger</add> waves, <del rend="overstrike">with</del> yearnfully flowing, <del rend="overstrike">with
                                 <choice><orig>frag-<lb/>ments</orig><reg>fragments
                             </reg></choice> &amp; foam—a long <add place="supralinear" rend="unmarked">varied</add> procession,</del></l>
-                <add place="supralinear" rend="unmarked">
+                <addSpan spanTo="#a1" place="supralinear" rend="unmarked"/>
                     <l>A varied procession, with many a fleck of foam &amp; many fragments <lb/><del rend="overstrike">where, they</del></l>
-                </add>
+                <anchor xml:id="a1"/>
                 <l><add place="supralinear" rend="unmarked">They</add> <add place="supralinear" rend="unmarked">In</add> <del rend="overstrike">There, to</del> the wake of the vessel, <del rend="overstrike"><add place="supralinear" rend="insertion">they,</add></del> long <add place="supralinear" rend="insertion">&amp; long</add> after <lb/>she had
                     pass'd,</l>
                 <l>Gathering, joyously followed.</l>

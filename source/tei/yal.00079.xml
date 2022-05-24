@@ -25,7 +25,7 @@
                     <persName xml:id="lr">Lisa Renfro</persName>
                     <persName xml:id="sb">Stacey Berry</persName>
                     <persName xml:id="fl">Farrah Lehman</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -59,8 +59,8 @@
                         Grass</hi>. </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>Others may praise what they like</title>
                     <date xml:id="dat1" cert="low" notBefore="1860" notAfter="1865">About
                         1865</date>
@@ -78,7 +78,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2017-02-22" who="#nhg">edited relatedItem information</change>
             <change when="2016-09-26" who="#nhg">corrected</change>
             <change when="2016-09-08" who="#nhg">proofed, added relatedItem encoding</change>

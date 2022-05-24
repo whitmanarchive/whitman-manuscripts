@@ -13,7 +13,7 @@
                     <persName xml:id="es">Jeannette Schollaert</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName><persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -41,8 +41,8 @@
                 <note type="project" target="#dat1">Based on the handwriting, Edward Grier dates this manuscript to the 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 4:1593).</note>             
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>[On Poetry] (Autograph MS, notes on poetry)</title><!-- The repository groups this MS with several others, all under the same heading. We have separated the various MSS. -->                  
                     <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1860">1850s</date>
                     <idno type="callno">MS 68</idno>
@@ -51,7 +51,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2018-11-06" who="#nhg">added inline relations</change>
             <change when="2016-05-18" who="#kmp">blessed</change>
             <change when="2016-04-01" who="#nhg">checked, corrected</change>
@@ -72,7 +72,7 @@
             
             <milestone unit="undeclared" rend="horbar-short-left"/>
 
-            <del rend="erasure">The<unclear reason="erasure" resp="#nhg" cert="low">n</unclear> <gap reason="erasure" unit="word" quantity="1"/> are <gap reason="erasure" unit="word" quantity="1"/> from <gap reason="erasure" unit="word" quantity="1"/> with freedom, justice, <gap reason="erasure" unit="word" quantity="1"/></del>
+            <delSpan spanTo="#d1" rend="erasure"/><p>The<unclear reason="erasure" resp="#nhg" cert="low">n</unclear> <gap reason="erasure" unit="word" quantity="1"/> are <gap reason="erasure" unit="word" quantity="1"/> from <gap reason="erasure" unit="word" quantity="1"/> with freedom, justice, <gap reason="erasure" unit="word" quantity="1"/></p><anchor xml:id="d1"/>
             <p xml:id="p01">When he becomes <add rend="unmarked" place="supralinear">is</add> vitalized with nationality and individuality from top to toe—when he seizes upon life with <del rend="overstrike">simple and</del> masculine power—when he stands out in simple relief, as America does—</p>
             
             <milestone unit="undeclared" rend="horbar-short-left"/>

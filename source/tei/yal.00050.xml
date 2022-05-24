@@ -23,7 +23,7 @@
                     <persName xml:id="lr">Lisa Renfro</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="cf">Chris Forster</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName><persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -56,8 +56,8 @@
                     before its publication.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>your needed blending discord‑parts</title>
                     <date xml:id="dat1" cert="high" notBefore="1884" notAfter="1885">About 1885</date>
                     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and
@@ -71,7 +71,7 @@
                 <handNote xml:id="h1" scribeRef="#unk"><persName xml:id="unk">Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-12-01" who="#nhg">corrected</change>
             <change when="2016-08-10" who="#nhg">proofed</change>
@@ -109,7 +109,7 @@
                 </l>
                 <note place="left" resp="#h1" type="archival">15</note>
                 <delSpan type="hashmark" spanTo="#d1"/>
-                <add rend="unmarked" place="interlinear">
+                <addSpan spanTo="#a2" rend="unmarked" place="interlinear"/>
                     <l>But for your time,
                         <lb/>—<subst><del rend="overstrike" seq="1">your needed</del>
                                                                 
@@ -117,7 +117,7 @@
                                                             </subst>
 
                     </l>
-                </add>
+                <anchor xml:id="a2"/>
                 <l>—duly the hinge
                     <lb/>a‑turning,
                 </l>
@@ -200,7 +200,7 @@
                                                     </subst>
 
                 </l>
-                <add place="interlinear" rend="unmarked">
+                <addSpan spanTo="#a3" place="interlinear" rend="unmarked"/>
                     <l>
 <subst>
                                 
@@ -211,7 +211,7 @@
 <del rend="overstrike"><add place="supralinear" rend="unmarked">all</add> the</del> discord parts <del rend="overstrike">that</del> round Time's
                         <lb/>diapason.)
                     </l>
-                </add>
+                <anchor xml:id="a3"/>
                 <l>Duly <del rend="overstrike">from you</del> the inborne
                     <lb/>
 <subst>
@@ -234,7 +234,7 @@
                                                
                     
                 </l>
-                <del rend="overstrike"><add place="interlinear" rend="unmarked"><l>(Many the discord parts to round <add place="supralinear" rend="unmarked">Time's</add> diapason)</l></add></del>
+                <delSpan spanTo="#d2" rend="overstrike"/><addSpan spanTo="#a5" place="interlinear" rend="unmarked"/><l>(Many the discord parts to round <add place="supralinear" rend="unmarked">Time's</add> diapason)</l><anchor xml:id="a5"/><anchor xml:id="d2"/>
                 <l>(Duly <subst>
                             
                                 <del rend="overstrike" seq="1">to me</del>
@@ -253,7 +253,7 @@
                     <lb/>from Death itself <add place="inline" rend="unmarked">I hear</add>
 
                 </l>
-                <add place="interlinear" rend="unmarked">
+                <addSpan spanTo="#a4" place="interlinear" rend="unmarked"/>
                     <l>Your needed blended discord‑parts <subst>
                             
                                 <del rend="overstrike" seq="1">joined in</del>
@@ -261,7 +261,7 @@
                                 <add place="infralinear" rend="unmarked" seq="2">offsetting</add>
                                                     </subst>
 </l>
-                </add>
+                <anchor xml:id="a4"/>
                 <l>
 <subst>
                             

@@ -26,7 +26,7 @@
                     <persName xml:id="es">Jeannette Schollaert</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName><persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -56,8 +56,8 @@
                     the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The discussion of the vastness of time and space is similar to a passage from the first poem in that edition, eventually titled "Song of Myself." Words like "timothy" and "clover" and the phrase about "the buckwheat" from this manuscript appear in the poem as well, although they were also used in later poems. The leaf looks like it may have been extracted from a notebook.</note>             
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author sameAs="#ww">Whitman, Walt</author>
+                    
                     <title rend="bracketed">Of this broad and majestic</title>        
                     <idno type="callno">b19877231</idno>
                     <date xml:id="dat1" notBefore="1850" notAfter="1855" cert="medium">Between 1850 and 1855</date>
@@ -75,7 +75,7 @@
                 <handNote xml:id="h2" scribeRef="#ww" medium="brown-ink"/>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2020-02-17" who="#bb">corrected collection information (from Lion to Berg)</change>
             <change when="2019-05-16" who="#nhg">added relation</change>
             <change when="2018-11-16" who="#nhg">edited note, added inline relations</change>

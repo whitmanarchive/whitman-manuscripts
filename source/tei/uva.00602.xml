@@ -16,7 +16,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="bjo">Brandon James O'Neil</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -45,8 +45,8 @@
                 <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The fragmentary lines may relate to a section on touch included in the first poem in that edition, eventually titled "Song of Myself."</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>I am a curse</title>
                     <idno type="callno">MSS 3829, Box-folder 1:88</idno>
                     <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
@@ -58,7 +58,7 @@
                 </bibl>
             </sourceDesc> 
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2018-11-27" who="#nhg">checked, corrected, added relations info</change>
             <change when="2018-10-09" who="#nhg">created out of uva.00256</change>
             <change when="2018-03-26" who="#bjo">Transcribed and encoded</change> 
@@ -70,12 +70,12 @@
             <lg type="linegroup">
                 <l xml:id="l01">His very aches are exstasy</l>
                 <l xml:id="l02"><del rend="overstrike">He is</del> <del rend="overstrike">He</del> <del rend="overstrike">He has</del></l>
-                <del rend="overstrike"><l xml:id="l03">Food</l></del>
+                <delSpan spanTo="#d1" rend="overstrike"/><l xml:id="l03">Food</l><anchor xml:id="d1"/>
                 <l xml:id="l04">Softly <del rend="overstrike">and</del> <del rend="overstrike">he</del> push<subst><del rend="overwrite" seq="1">ing</del><add rend="overwrite" place="over" seq="2">es</add></subst></l>
                 <l xml:id="l05">Harmlessly <del rend="overstrike">softly</del> pushing through</l>
             </lg>
             <lg type="linegroup">
-                <del rend="overstrike"><l xml:id="l06">Yet all</l></del>
+                <delSpan spanTo="#d2" rend="overstrike"/><l xml:id="l06">Yet all</l><anchor xml:id="d2"/>
             </lg>
             <pb facs="uva.00256.001.jpg" xml:id="leaf001v" type="verso"/>
             

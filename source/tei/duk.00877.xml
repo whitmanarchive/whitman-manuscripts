@@ -18,7 +18,7 @@
                <persName xml:id="kc">Kirsten Clawson</persName>
                <persName xml:id="kmp">Kenneth M. Price</persName>
                <persName xml:id="bb">Brett Barney</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -46,8 +46,8 @@
             <note type="project" target="#dat1">This manuscript is an adaptation of notes Whitman took about Egypt, almost certainly based on his reading of Sir John Gardner Wilkinson's <hi rend="italic">Manners and Customs of the Ancient Egyptians</hi>, 3 vols. (London: John Murray, 1837). Related information about Sesostris appears on page 29 of the first volume in Wilkinson's collection, though Whitman may have been reading a different edition. Whitman used the information in his article "One of the Lessons Bordering Broadway: The Egyptian Museum," published in <hi rend="italic">Life Illustrated</hi> on December 8, 1855. Similar descriptions of Sesostris appear in several of Whitman's other notes and manuscripts, including "<ref target="/manuscripts/marginalia/annotations/mid.00018.html">Immortality was realized</ref>" and "<ref target="/manuscripts/marginalia/annotations/tex.00200.html">Abraham's visit to Egypt</ref>," two sets of manuscript notes about Egypt that Edward Grier dates to between 1855 and 1860 (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 5:1922; 6:2022); the notebook "<ref target="/manuscripts/notebooks/transcriptions/loc.05589.html">women</ref>;" and the poetic rendition "<ref target="/manuscripts/transcriptions/tex.00028.html">Advance shapes like his shape</ref>." The manuscript is pasted to a larger document along with another scrap, the reverse of which features prose notes that relate to what became section 2 of "I Sing the Body Electric," first published as the fifth poem in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. Both manuscripts were probably written shortly before or early in 1855, though the notes on the backing sheet to which they have been pasted may have been written at a later date.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>[Chronological]</title>
                <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Before or early in 1855</date>
                <idno type="callno">MS q 187</idno>
@@ -61,7 +61,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2019-10-02" who="#nhg">edited relations information</change>
          <change who="#bb" when="2019-05-02">edited date note based on Ken's suggestion</change>
          <change who="#bb" when="2019-04-11">checked; edited</change>

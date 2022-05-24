@@ -23,7 +23,7 @@
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="kmp">Kenneth M. Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -51,8 +51,8 @@
                 <note type="project" target="#dat1">Based on the handwriting, Edward Grier dates this manuscript to the early 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:101). The discussion about the importance of a lack of "ornament" in literature is similar to lines from the preface to the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Whitman reworked some of those ideas on ornament and they appear in the poem "Says" in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>             
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>Rules for Composition</title>
                     <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Early 1850s</date>
                     <idno type="callno">MS 4to 136</idno>
@@ -61,7 +61,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-11-01" who="#nhg">tweaked wording in work notes</change>
             <change when="2018-11-05" who="#nhg">added inline relations</change>
             <change when="2017-03-21" who="#nhg">edited work relations information</change>
@@ -87,13 +87,13 @@
             <milestone unit="glued"/>
             <p>Take no illustrations whatever from the ancients or classics, nor from the mythology, nor Egypt, Greece, or Rome—nor from the royal and aristocratic institutions and forms of Europe.—Make no mention or allusion to them whatever, except as they relate to the new, present things—to our country—to American character or interests.—Of specific mention of them, even <subst><del rend="overwrite" seq="1">in</del><add rend="overwrite" place="over" seq="2">for</add></subst> these purposes, as little as possible.—</p>
             
-            <add rend="unmarked" place="interlinear"><p>Too much attempt at ornament is the blur upon nearly all literary styles.</p></add>
+            <addSpan spanTo="#a1" rend="unmarked" place="interlinear"/><p>Too much attempt at ornament is the blur upon nearly all literary styles.</p><anchor xml:id="a1"/>
             
             <p>Clearness, simplicity, no twistified or foggy sentences, at all—the most translucid clearness without variation.—</p>
             <milestone unit="glued"/>
             <p>Common idioms and phrases—Yankeeisms and vulgarisms—cant expressions, when very pat only.—</p>
             
-            <del rend="overstrike"><p>Mention not God at all</p></del>
+            <delSpan spanTo="#d1" rend="overstrike"/><p>Mention not God at all</p><anchor xml:id="d1"/>
             
             <pb xml:id="leaf001v" facs="duk_am.00289.jpg" type="verso"/>
 

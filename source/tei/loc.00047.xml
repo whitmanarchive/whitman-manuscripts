@@ -24,7 +24,7 @@
                     <persName xml:id="aj">Andrew Jewell</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -61,8 +61,8 @@
                     Jr. The verso envelopes and letter are all dated <date notBefore="1890-09" notAfter="1890-10">September through October, 1890</date>. </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>America to Old-World Bards </title>
                     <date xml:id="dat1" cert="high" notBefore="1890-10" notAfter="1891-03">1890 or 1891</date>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
@@ -71,7 +71,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-10-18" who="#nhg">corrected</change>
             <change when="2016-01-29" who="#nhg">merged earlier changes, corrected</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
@@ -158,11 +158,11 @@
 </hi>
                         
                     </l>
-                    <del rend="overstrike">
+                    <delSpan spanTo="#d1" rend="overstrike"/>
                         <l>
                             <hi rend="underline">I too receive them with perfect hospitality.</hi>
                         </l>
-                    </del>
+                    <anchor xml:id="d1"/>
                     <l>Well-pleased, accepting all, <add place="supralinear" rend="insertion">curiously</add> prepared for,</l>
                 </lg>
                 <pb facs="loc.00047.004.jpg" xml:id="leaf002v" type="verso"/>
@@ -323,9 +323,9 @@
 
                         <lb/>thy entrance-porch.
                     </l>
-                    <del rend="overstrike">
+                    <delSpan spanTo="#d2" rend="overstrike"/>
                         <l>Preluding thee America</l>
-                    </del>
+                    <anchor xml:id="d2"/>
                 </lg>
             </lg>
             <pb facs="loc.00047.010.jpg" xml:id="leaf005v" type="verso"/>

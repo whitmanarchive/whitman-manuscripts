@@ -22,7 +22,7 @@
                     <persName xml:id="nk">Nick Krauter</persName>
                     <persName xml:id="lr">Lisa Renfro</persName>
                     <persName xml:id="kr">Katrina Robertson</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -51,8 +51,8 @@
                 <note type="project" target="dat1">This manuscript was probably written in about 1855. The proposed poem about "a perfect school" is not known to have been published, although words and sentiments that appear in this manuscript also appeared in the poem that was eventually titled "Song of Myself."</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>The three or four poets are well</title>
                     <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Before or early in 1855</date>
                     <orgName xml:id="tul">Walt Whitman Ephemera, University of Tulsa</orgName>
@@ -63,7 +63,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2020-02-26" who="#bb">tweaked wording of date note</change>
             <change when="2017-10-24" who="#nhg">added inline relations information</change>
             <change when="2017-03-16" who="#nhg">edited editorial note and added work relations information</change>

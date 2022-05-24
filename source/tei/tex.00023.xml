@@ -25,7 +25,7 @@
                     <persName xml:id="aj">Andrew Jewell</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -62,8 +62,8 @@
                     Whitman's published writings, if any exists. The manuscript is pasted down, so no image of the verso is available.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>I do not expect to see myself</title>
                     <date xml:id="dat1" cert="low" notBefore="1870" notAfter="1880">1870s</date>
                     <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center,
@@ -72,7 +72,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2017-04-03" who="#nhg">edited date certainty</change>
             <change when="2016-07-26" who="#nhg">proofed editorial note</change>
             <change when="2016-04-22" who="#nhg">merged persName information from earlier version</change>

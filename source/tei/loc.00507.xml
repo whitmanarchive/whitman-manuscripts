@@ -21,7 +21,7 @@
                <persName xml:id="fl">Farrah Lehman</persName>
                <persName xml:id="km">Kenneth M. Price</persName>
                <persName xml:id="bb">Brett Barney</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -51,8 +51,8 @@
             
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>The wild gander leads</title>
                <date xml:id="dat1" notBefore="1850" notAfter="1855" cert="medium">Between 1850 and 1855</date>
                <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
@@ -63,7 +63,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2020-06-08" who="#nhg">corrected</change>
          <change when="2020-05-22" who="#nhg">edited line breaks, removed corresps</change>
          <change when="2019-06-10" who="#bb">tweaked wording of date note</change>
@@ -127,7 +127,7 @@
             
             
             
-            <add rend="unmarked" place="interlinear"><l xml:id="l15"><add rend="unmarked" place="interlinear">Of the builders <add rend="insertion" place="supralinear">and steerers</add> of ships—</add> <subst><del rend="overstrike" seq="1">Of drivers of horses—<subst><del rend="overwrite" seq="1">of</del><add rend="overwrite" seq="2" place="over">Of</add></subst> wielders</del> <add rend="unmarked" place="supralinear" seq="2">Of <add rend="unmarked" place="supralinear" seq="3">the</add> wielders</add></subst> of axes and <choice><orig>malls</orig><reg>mauls</reg></choice>.<add rend="unmarked" place="inline">—of <add rend="insertion" place="supralinear">the</add> drivers of horses,</add></l></add>
+            <addSpan spanTo="#a1" rend="unmarked" place="interlinear"/><l xml:id="l15"><add rend="unmarked" place="interlinear">Of the builders <add rend="insertion" place="supralinear">and steerers</add> of ships—</add> <subst><del rend="overstrike" seq="1">Of drivers of horses—<subst><del rend="overwrite" seq="1">of</del><add rend="overwrite" seq="2" place="over">Of</add></subst> wielders</del> <add rend="unmarked" place="supralinear" seq="2">Of <add rend="unmarked" place="supralinear" seq="3">the</add> wielders</add></subst> of axes and <choice><orig>malls</orig><reg>mauls</reg></choice>.<add rend="unmarked" place="inline">—of <add rend="insertion" place="supralinear">the</add> drivers of horses,</add></l><anchor xml:id="a1"/>
             
             
             <l xml:id="l16">I can eat and sleep with them week in and week out.</l>

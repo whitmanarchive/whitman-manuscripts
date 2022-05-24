@@ -25,7 +25,7 @@
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
                     <persName xml:id="kc">Kirsten Clawson</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -61,8 +61,8 @@
                     before the poem's publication.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>Sail Forth O Mystic Yacht</title>
                     <date xml:id="dat1" cert="high" notBefore="1890-06" notAfter="1891-03">1890 or 1891</date>
                     <orgName xml:id="bos">From the The Alice and Rollo G. Silver Collection in the Special
@@ -80,7 +80,7 @@
                 <handNote xml:id="h1" scribeRef="#unk"><persName xml:id="unk">Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-05-19" who="#nhg">checked, corrected</change>
             <change when="2015-05-26" who="#nhg">checked, corrected</change>
             <change when="2015-05-05" who="#kc">conversion to P5, checked</change>
@@ -106,7 +106,7 @@
                 <l>Raise main-sail and jib—steer <subst><del rend="overstrike" seq="1">out</del> <add rend="unmarked" place="supralinear" seq="2">forth, <add rend="unmarked" place="supralinear" seq="3"><note type="authorial" place="supralinear">?</note> for aye</add></add></subst></l>
                 <l>O little white-hull'd sloop,<del rend="overstrike">—</del>now <subst><del rend="overstrike" seq="1">for the</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="supralinear" seq="2">truly to</add></del> <add rend="unmarked" place="supralinear" seq="4"><note type="authorial" place="supralinear">?</note> speed <del rend="overstrike" seq="5">take</del> me <subst><del rend="overstrike" seq="1">truly</del> <add rend="unmarked" place="supralinear" seq="2">really</add></subst></add></subst>
                     <lb/><subst><add rend="unmarked" place="inline" seq="1">on</add> <del rend="overstrike" seq="3"><add place="supralinear" rend="unmarked" seq="2">to</add></del></subst> deep waters</l>
-                <del rend="overstrike"><l>Now, now to thy divinest venture</l></del>
+                <delSpan spanTo="#d1" rend="overstrike"/><l>Now, now to thy divinest venture</l><anchor xml:id="d1"/>
                 <l>(I will not call it <subst><del rend="overstrike" seq="1">my</del> <add rend="unmarked" place="supralinear" seq="2">our</add></subst> concluding voyage,</l>
                 <gap reason="illegible" quantity="1" unit="line"/>
                 <milestone unit="glued"/>

@@ -18,7 +18,7 @@
                <persName xml:id="kc">Kirsten Clawson</persName>
                <persName xml:id="jc">Janel Cayer</persName>
                <persName xml:id="km">Kevin McMullen</persName>
-            <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+            <persName xml:id="kmp">Kenneth M. Price</persName><persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -46,8 +46,8 @@
             <note type="project" target="#dat1">The handwriting and ink of this manuscript are very similar to the handwriting and ink on the back, which features draft lines of the poem that would eventually be titled "Song of Myself." The date of both is therefore likely before or early in 1855.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>Walt Whitman. Holograph Manuscript Fragments Assembled by Dr. Richard Maurice Bucke.</title>
                <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
                <idno type="callno">b19877231</idno><!--UUID: 581c2bb0-c5d9-012f-e4cf-58d385a7bc34-->
@@ -65,7 +65,7 @@
                <handNote xml:id="h2" scribeRef="#ww" medium="pencil"/>
             </handNotes>
       </profileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2019-01-09" who="#nhg">edited collection, idno</change>
          <change when="2018-11-16" who="#nhg">added relations</change>
          <change when="2018-11-01" who="#nhg">edited title</change>

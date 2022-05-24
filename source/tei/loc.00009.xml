@@ -23,7 +23,7 @@
                     <persName xml:id="bb">Brett Barney</persName>
                     <persName xml:id="nk">Nick Krauter</persName>
                     <persName xml:id="lr">Lisa Renfro</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -60,8 +60,8 @@
                     the inspiration for the poem.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <date xml:id="dat1" cert="high" notBefore="1883-10-12" notAfter="1884-03">October 1883</date>
                     <title>By Day the Distant Shadowy Sails</title>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
@@ -69,7 +69,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-02-03" who="#nhg">merged changes from older version, updated editorial note</change>
             <change when="2015-05-26" who="#nhg">checked, corrected</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>

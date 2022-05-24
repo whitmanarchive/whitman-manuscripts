@@ -21,7 +21,7 @@
 					<persName xml:id="kt">Kristen Taylor</persName>
 					<persName xml:id="es">Jeannette Schollaert</persName>
 					
-				</respStmt>
+				<persName xml:id="as">Ashlyn Stewart</persName></respStmt>
 				<sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
 				<sponsor>University of Iowa</sponsor>
 				<sponsor>University of Nebraska-Lincoln</sponsor>
@@ -50,8 +50,8 @@
 				<note type="project" target="dat1">Many of the items from this list of European rivers, lakes, and cities were included in "Poem of Salutation" in the 1856 edition of <hi rend="italic">Leaves of Grass</hi>, suggesting that this manuscript was written between 1850 and 1856. At one point, this manuscipt likely formed part of <ref target="../marginalia/index-scrapbook.html">Whitman's cultural geography scrapbook</ref>.</note>
 			</notesStmt>
 			<sourceDesc>
-				<bibl>
-					<author>Walt Whitman</author>
+				<bibl><author xml:id="ww">Whitman, Walt</author>
+					
 					<title rend="bracketed">Remembrances I plant American ground with</title>
 					<date xml:id="dat1" notBefore="1850" notAfter="1856" cert="medium">Between 1850 and 1856</date>
 					<idno type="callno">MS 12mo 27</idno>
@@ -64,7 +64,7 @@
 			</sourceDesc>
 		</fileDesc>
 		
-		<revisionDesc>
+		<revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change who="#bb" when="2019-11-13">corrected wording of work note</change>
             <change who="#bb" when="2019-04-12">checked; edited</change>
 			<change when="2018-09-10" who="#nhg">updated image names</change>

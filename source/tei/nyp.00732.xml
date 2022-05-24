@@ -12,7 +12,7 @@
                <persName xml:id="bb">Brett Barney</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="rl">Robert LaCosse</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -40,8 +40,8 @@
             <note type="project" target="dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Although these lines do not appear in the versions of the poems included in that edition, the numbering, paper, and ink are similar to other manuscripts with lines used in the first poem in that edition, eventually titled "Song of Myself."</note>  
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>Holograph memoranda and notes, unsigned and undated, written on 27 scraps of paper</title>
                <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
                <idno type="callno">b15520479</idno> <!--MSS Unit ID: 19100; Other local identifier: 175226b; Archives EAD ID: 949125; Universal Unique Identifier (UUID): 4ae6d720-a46c-0130-a047-3c075448cc4b -->
@@ -53,7 +53,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2020-05-14">removed work relations</change>
          <change who="#bb" when="2020-02-13">adjusted wording of work and date notes</change>
          <change who="#nhg" when="2019-02-22">checked, corrected, adjusted relations</change>

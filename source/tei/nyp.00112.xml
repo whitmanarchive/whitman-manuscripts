@@ -17,7 +17,7 @@
                     <persName xml:id="bjo">Brandon James O'Neil</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -46,8 +46,8 @@
                 <note type="project" target="#dat1">This manuscript was likely written between <date notBefore="1850" notAfter="1855">1850 and 1855</date>, when Whitman was preparing materials for the first edition of <hi rend="italic">Leaves of Grass</hi>. The idea of "[e]nter[ing] into the thoughts of the different theological faiths" described in this manuscript probably connects to the first poem in that edition, eventually titled "Song of Myself." Whitman also used the term "koboo" in that poem. Gary Schmidgall glosses the term "koboo" as referring to "a native of Sumatra," and Andrew Lawson has noted that Whitman apparently picked up the reference from a book by Walter M. Gibson, an American adventurer (<hi rend="italic">Walt Whitman, Selected Poems, 1855–1892</hi>, ed. Gary Schmidgall [New York: St. Martin's Griffin, 1999], 488; <hi rend="italic">Walt Whitman and the Class Struggle</hi> [Iowa City: University of Iowa Press, 2006], 91). The manuscript is pasted down, so an image of the reverse is not available.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>Enter into the thoughts of the different theological faiths</title>
                     <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
                     <idno type="callno">b19877231</idno><!--UUID: 57c62770-c5d9-012f-0d3d-58d385a7bc34-->
@@ -57,7 +57,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-10-04" who="#nhg">edited work relations and editorial note</change>
             <change when="2019-03-15" who="#bb">checked; edited</change>
             <change when="2018-11-01" who="#nhg">edited title</change>

@@ -19,7 +19,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="bjo">Brandon James O'Neil</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -47,8 +47,8 @@
                 <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The lines do not have any known direct relation to Whitman's published poetry. At one point, however, the manuscript was almost certainly part of "<ref target="duk.00264.html">The Great Laws do not</ref>," which includes draft lines that appeared in that edition.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>[I cannot guess]</title>
                     <idno type="callno">TXRC03-A4</idno>
                     <date xml:id="dat1" cert="high" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
@@ -64,7 +64,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-07-24" who="#nhg">checked, corrected</change>
             <change when="2019-01-09" who="#nhg">edited</change>
             <change when="2018-05-02" who="#bjo">Transcribed and Encoded</change>

@@ -22,7 +22,7 @@
                     <persName xml:id="bjo">Brandon James O'Neil</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -52,8 +52,8 @@
                 <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript is a partial draft of the sixth poem in that edition, eventually titled "Faces."</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>[waited their due time to clear the rubbish]</title>
                     <idno type="callno">TXRC03-A4</idno>
                     <date xml:id="dat1" cert="high" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
@@ -68,7 +68,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-07-19" who="#bb">checked; revised</change>
             <change when="2019-06-04" who="#nhg">added line ids</change>
             <change when="2019-01-09" who="#nhg">edited</change>
@@ -81,7 +81,7 @@
             <lg type="poem"><delSpan rend="hashmark" spanTo="#d1"/>
                 <l xml:id="l01">he same <del rend="overstrike"><gap reason="cut away" atLeast="2" unit="chars" extent="one word"/></del>, waited their due time to clear the rubbish <lb/>
                 from the fallen <subst><del rend="overstrike" seq="1">house</del> <add place="supralinear" rend="unmarked" seq="2">tenement</add></subst>,</l>
-                <del rend="overstrike"><l xml:id="l02"><del rend="overstrike"><gap reason="cut away" atLeast="1" unit="chars" extent="at least one letter"/>e s</del></l></del>
+                <delSpan spanTo="#d2" rend="overstrike"/><l xml:id="l02"><del rend="overstrike"><gap reason="cut away" atLeast="1" unit="chars" extent="at least one letter"/>e s</del></l><anchor xml:id="d2"/>
                 <l xml:id="l03">And I <subst><del rend="overstrike" seq="1">shall</del> <add place="supralinear" rend="unmarked" seq="2">am to</add></subst> look again in a score or two <add place="supralinear" rend="unmarked">of ages</add></l>
                 <l xml:id="l04">And I <del rend="overstrike">shall</del> meet the real landlord <del rend="overstrike">when</del><lb/>
             <del rend="overstrike"><gap reason="cut away" extent="one word"/></del> <unclear reason="cut away" cert="medium" resp="#bb">he st</unclear> <gap reason="cut away" atLeast="14" unit="chars" extent="about four words"/><unclear reason="cut away" cert="high" resp="#bb">d</unclear></l>

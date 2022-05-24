@@ -21,7 +21,7 @@
                     <persName xml:id="aj">Andrew Jewell</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -52,8 +52,8 @@
                 <note type="project" target="dat1">This manuscript includes two written statements or observations, one about locusts and the other about sunflowers. Although the text is written with the hanging indentation characteristic of Whitman's poetry, it is unclear if these were ever intended as poetic lines. The note about locusts—"Locust whirring they come in July &amp; are loud in August"—is similar to a description of Washington, D.C., in a piece of Civil War journalism titled "Washington in the Hot Season." In this article, published in the <hi rend="italic">New-York Times</hi> on August 16, 1863, Whitman writes of the grounds around the U.S. Capitol building in the summertime and notes that there are "locusts whirring." Whether this manuscript directly contributed to this piece of journalism or not, it seems likely that it was composed in the 1850s or 1860s.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author> Walt Whitman </author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>armies</title>
                     <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1870">About the 1850s or
                         1860s</date>
@@ -67,7 +67,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-11-28" who="#nhg">added work relations information</change>
             <change when="2016-05-19" who="#nhg">checked, corrected</change>
             <change when="2016-02-01" who="#nhg">split from tex.00005</change>

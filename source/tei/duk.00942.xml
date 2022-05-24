@@ -22,7 +22,7 @@
      <persName xml:id="km">Kevin McMullen</persName>
      <persName xml:id="nhg">Nicole Gray</persName>
      <persName xml:id="bb">Brett Barney</persName>
-    </respStmt>
+    <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
     <funder>The National Endowment for the Humanities</funder>
@@ -50,8 +50,8 @@
     <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript includes drafts of lines used in the first poem in that edition, eventually titled "Song of Myself."</note>             
    </notesStmt>
    <sourceDesc>
-    <bibl>
-     <author>Walt Whitman</author>
+    <bibl><author xml:id="ww">Whitman, Walt</author>
+     
      <title>And now it seems the dark, uncut hair of graves</title>       
      <date notBefore="1850-01-01" notAfter="1855-12-31" cert="medium">Between 1850 and 1855</date>
      <idno type="callno">MS 4 to 1</idno>
@@ -63,7 +63,7 @@
     </bibl>
    </sourceDesc>
 </fileDesc>
-<revisionDesc>
+<revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
  <change when="2019-11-13" who="#bb">tweaked work note</change>
  <change when="2019-06-01" who="#kp">blessed</change>
  <change when="2019-06-01" who="#nhg">corrected editorial note</change>
@@ -90,10 +90,10 @@
    <lg type="poem">
     
     <lg type="linegroup">
-     <del rend="overstrike"><add rend="unmarked" place="top"><l xml:id="l100"><hi rend="underline">In the course of the winding path through the grass</hi></l></add></del>      
+     <delSpan spanTo="#d3" rend="overstrike"/><addSpan spanTo="#a2" rend="unmarked" place="top"/><l xml:id="l100"><hi rend="underline">In the course of the winding path through the grass</hi></l><anchor xml:id="a2"/><anchor xml:id="d3"/>      
      <metamark function="transpose" place="left">+</metamark>
      <transpose rend="bracketed" anchored="0">
-     <add rend="unmarked" place="interlinear">
+     <addSpan spanTo="#a1" rend="unmarked" place="interlinear"/>
      <l xml:id="l27">And when once <subst><del rend="overstrike" seq="1">spirits go</del> 
       <add rend="unmarked" place="supralinear" seq="2">they went</add></subst> far enough to see<lb/>
       the happiness beyond,</l>
@@ -104,7 +104,7 @@
        <add rend="unmarked" place="supralinear" seq="2">could</add></subst><lb/>
       <subst><add rend="unmarked" place="supralinear" seq="2">draw</add> <del rend="overstrike" seq="1">lure</del></subst> them back, 
        <del rend="overstrike">to the body.</del></l>
-     </add>
+     <anchor xml:id="a1"/>
      </transpose>
      
      <l xml:id="l01"><subst><del rend="overstrike" seq="1"><gap reason="cut away" atLeast="1" unit="chars"/> grass is</del>
@@ -168,21 +168,21 @@
     <lg type="linegroup">
      <l xml:id="l15"><unclear reason="cut away" resp="#kc" cert="high">And the <gap reason="cut away" atLeast="5" unit="chars"/> <add rend="insertion" place="supralinear"><gap reason="cut away" atLeast="1" unit="chars"/></add></unclear> taken soon out of their laps—</l> 
      
-     <del rend="overstrike"><l>Then even the cinders they left behind them,</l></del> 
+     <delSpan spanTo="#d4 rend="overstrike"/><l>Then even the cinders they left behind them,</l><anchor xml:id="d4"/> 
      
      <l><add rend="unmarked" place="supralinear">and</add> than the <subst><del rend="overstrike" seq="1">parings</del> <add rend="unmarked" place="supralinear" seq="2">cinders</add></subst> and soiled <del rend="overstrike">cl</del> rags they dropped as they <subst><del rend="overstrike" seq="1">went</del> <add rend="unmarked" place="supralinear" seq="2">left us,</add></subst></l>
      
      <l>Even they continue on, and become new live fire, and<lb/>
       plentiful beautiful clothing.</l>
      
-     <add rend="unmarked" place="interlinear"><span rend="bracket-left" xml:id="s3" from="#s3" to="#s4"/><l xml:id="l29">And <del rend="overstrike">that</del> when <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#cah">once</unclear></del> <anchor xml:id="tr02"/><del rend="overstrike">the<add rend="unmarked" place="inline">y</add></del> <subst><del rend="overstrike" seq="1">soul</del> <del rend="overstrike" seq="3"><add rend="insertion" place="supralinear" seq="2">spirit</add></del> <del rend="overstrike" seq="5"><add rend="unmarked" place="supralinear" seq="4">soul</add></del></subst> go<del rend="overstrike">es</del> <add rend="unmarked" place="supralinear">far <unclear reason="illegible" cert="medium" resp="#cah">enough</unclear></add> <del rend="overstrike">into</del> <add rend="unmarked" place="supralinear"><unclear reason="illegible" cert="medium" resp="#cah">to see</unclear></add> the happiness beyond,</l>
+     <addSpan spanTo="#a2" rend="unmarked" place="interlinear"/><span rend="bracket-left" xml:id="s3" from="#s3" to="#s4"/><l xml:id="l29">And <del rend="overstrike">that</del> when <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#cah">once</unclear></del> <anchor xml:id="tr02"/><del rend="overstrike">the<add rend="unmarked" place="inline">y</add></del> <subst><del rend="overstrike" seq="1">soul</del> <del rend="overstrike" seq="3"><add rend="insertion" place="supralinear" seq="2">spirit</add></del> <del rend="overstrike" seq="5"><add rend="unmarked" place="supralinear" seq="4">soul</add></del></subst> go<del rend="overstrike">es</del> <add rend="unmarked" place="supralinear">far <unclear reason="illegible" cert="medium" resp="#cah">enough</unclear></add> <del rend="overstrike">into</del> <add rend="unmarked" place="supralinear"><unclear reason="illegible" cert="medium" resp="#cah">to see</unclear></add> the happiness beyond,</l>
      
      
      <l xml:id="l30"><del rend="overstrike">And</del> That is the reason <anchor rend="bracket-right" xml:id="s4"/><!-- Possible transpose? Or WW could be referring to the two lines at top of leaf 1, where he recopied these lines --> why no <subst><del rend="overstrike" seq="1">art or cunning can</del> <add rend="unmarked" place="supralinear" seq="2">wit 
         or temptation <subst><del rend="overwrite" seq="1">could</del> <add rend="overwrite" place="over" seq="2">ever</add></subst></add></subst> lure<add rend="unmarked" place="inline">s</add> <subst><del rend="overstrike" seq="1">it</del> <add rend="unmarked" place="supralinear" seq="2">them</add></subst> back <subst><del rend="overstrike" seq="1">to the <add rend="insertion" place="supralinear">cold</add> flesh.—</del> <add rend="unmarked" place="supralinear" seq="2">to the <subst><del rend="overstrike" seq="1">body</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="interlinear" seq="2">body</add></del> <del rend="overstrike" seq="5"><add rend="unmarked" place="supralinear" seq="4">flesh.</add></del> <add rend="unmarked" place="supralinear" seq="6">body.</add></subst></add></subst></l>
-     </add>
+     <anchor xml:id="a2"/>
      
-     <l xml:id="l16">Yet I cannot say, <del rend="overstrike">any more than you,</del> <transpose rend="unmarked" anchored="1" xml:id="tr01" target="#tr02"><del rend="overstrike"><add rend="unmarked" place="supralinear">their spirits went far enough</add></del></transpose> what has become<lb/>
+     <l xml:id="l16">Yet I cannot say, <del rend="overstrike">any more than you,</del> <transpose rend="unmarked" anchored="1" xml:id="tr01" target="#tr02"><delSpan spanTo="#d4" rend="overstrike"/><add rend="unmarked" place="supralinear">their spirits went far enough</add><anchor xml:id="d4"/></transpose> what has become<lb/>
       of the young <add rend="insertion" place="supralinear">and old</add> men,</l>
      
      <l xml:id="l17">Nor what has become of the women and children</l>

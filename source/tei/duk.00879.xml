@@ -17,7 +17,7 @@
                <persName xml:id="jc">Janel Cayer</persName>
                <persName xml:id="kmp">Kenneth M. Price</persName>
                <persName xml:id="bb">Brett Barney</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -46,8 +46,8 @@
             </note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>II. Song of Myself (Pages 1-23)</title>
                <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1856">About 1855</date>
                <idno type="callno">Box I-1</idno>
@@ -59,7 +59,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2018-09-10" who="#nhg">updated image names</change>
          <change when="2017-02-07" who="#bb">reconciled with EAD record; added work ID</change>
          <change when="2016-05-18" who="#kmp">blessed</change>

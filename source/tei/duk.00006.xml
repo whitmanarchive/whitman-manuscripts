@@ -18,7 +18,7 @@
                <persName xml:id="awj">Andrew Jewell</persName>
                <persName xml:id="bb">Brett Barney</persName>
                <persName xml:id="kmp">Kenneth M. Price</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -46,8 +46,8 @@
             <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript includes drafts of lines used in the first poem in that edition, eventually titled "Song of Myself."</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>And now it seems the dark, uncut hair of graves</title>
                <idno type="callno">MS 4 to 1</idno>
                <date notBefore="1850-01-01" notAfter="1855-12-31" cert="medium">Between 1850 and 1855</date>
@@ -59,7 +59,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2019-06-01" who="#kmp">blessed</change>
          <change when="2019-06-01" who="#nhg">corrected</change>
          <change when="2018-10-03" who="#nhg">checked, corrected</change>
@@ -82,8 +82,8 @@
             <l xml:id="l02">And every one is signed by His Name;</l>
             <l xml:id="l03">And I leave them where they are, for I know that<lb/>
                others will punctually come as long as I live,</l>
-            <del rend="overstrike"><l xml:id="l04">And afterward <unclear reason="deletion, illegible" resp="#awj" cert="medium">wherever I am</unclear> they will be forwarded to me</l></del>
-         </lg> <del rend="overstrike"><note type="authorial" place="bottom">144</note></del><!--NOTE: this number is written upside-down in ink-->
+            <delSpan spanTo="#d2" rend="overstrike"/><l xml:id="l04">And afterward <unclear reason="deletion, illegible" resp="#awj" cert="medium">wherever I am</unclear> they will be forwarded to me</l><anchor xml:id="d2"/>
+         </lg> <delSpan spanTo="#d3" rend="overstrike"/><note type="authorial" place="bottom">144</note><anchor xml:id="d3"/><!--NOTE: this number is written upside-down in ink-->
 <gap reason="cut away"/>
          <anchor xml:id="d1"/>
          <pb facs="duk_nhg.00758b_large.jpg" type="verso" xml:id="leaf001v"/>

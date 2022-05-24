@@ -23,7 +23,7 @@
                     <persName xml:id="lr">Lisa Renfro</persName>
                     <persName xml:id="hm">Heather Morton</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -54,8 +54,8 @@
                     edition of <hi rend="italic">Leaves of Grass</hi>. It is a partial draft of the final poem in that edition, which in later editions would be titled "Great Are the Myths."</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>You lusty and graceflu [sic] youth! you are great</title>
                     <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
                     <idno type="callno">MS 4 to 11 (Volume 11)</idno>
@@ -68,7 +68,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2018-10-23" who="#nhg">updated title, idno</change>
             <change when="2018-09-10" who="#nhg">updated image names</change>
             <change when="2017-08-10" who="#nhg">added LG corresp</change>

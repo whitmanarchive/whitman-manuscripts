@@ -19,7 +19,7 @@
                <persName xml:id="cf">Chris Forster</persName>
                <persName xml:id="kt">Kristen Taylor</persName>
                <persName xml:id="bjo">Brandon James O'Neil</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -48,8 +48,8 @@
             <note type="project" target="dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. It includes drafts of lines and ideas that appeared in a revised form in the first poem in that edition, eventually titled "Song of Myself." It is possible that the manuscript "<ref target="uva.00287.html">Man, before the rage of</ref>" is a continuation of this manuscript draft. This manuscript has been mounted, so an image of the back of the leaf is not currently available.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>There is no word in any tongue</title>
                <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
                <idno type="callno">Trent II-7, 201 (Box 20)</idno> 
@@ -58,7 +58,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#bjo" when="2019-06-10">added inline relation</change>
          <change who="#nhg" when="2017-11-28">edited editorial note, updated transcription, added inline relations info</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>

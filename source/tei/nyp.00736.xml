@@ -18,7 +18,7 @@
                <persName xml:id="bb">Brett Barney</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="cf">Chris Forster</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -46,8 +46,8 @@
             <note type="project" target="dat1">This is a partial draft of the poem published as "The Mississippi at Midnight" on March 6, 1848, in the <hi rend="italic">New Orleans Daily Crescent</hi>. A revised version of the poem, titled "Sailing the Mississippi at Midnight," was later included in <hi rend="italic">Specimen Days &amp; Collect</hi> (1882–3). Whitman left for New Orleans in February, 1848, so this manuscript was almost certainly written in that month.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>Sailing down the Mississippi at Midnight</title>
                <date cert="high" notBefore="1848-02-01" notAfter="1848-12-31" xml:id="dat1">February 1848</date>
                <idno type="callno">b19877231</idno><!--UUID: 5ddf5140-c5d9-012f-65c4-58d385a7bc34-->
@@ -59,7 +59,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#bb" when="2019-08-08">checked; edited</change>
          <change who="#nhg" when="2018-12-18">edited</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>

@@ -18,7 +18,7 @@
                     <persName xml:id="es">Jeannette Schollaert</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName><persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -46,8 +46,8 @@
                 <note type="project" target="#dat1">Based on the handwriting, Edward Grier dates this manuscript to the 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 4:1591). This date can be supported by Whitman's interest in oratory and goal of becoming a lecturer in the 1850s, though he also maintained these interests in the 1860s. He explained in a letter to his mother of June 9, 1863: "I think something of commencing a series of lectures &amp; readings &amp;c. through different cities of the north, to supply myself with funds for my Hospital &amp; Soldiers visits." Whitman's meditation on literature and its relation to "Democracy" in this manuscript may have contributed to his essay "Democracy," which appeared in the <hi rend="italic">Galaxy</hi> in 1867 and was later incorporated into <hi rend="italic">Democratic Vistas</hi> (1871).</note>             
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title rend="bracketed">for lect on Literature</title>                  
                     <idno type="callno">MSS45443, Box 1, Reel 1</idno>
                     <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1870">1850s or 1860s</date>
@@ -56,7 +56,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2017-04-13" who="#kmp">edited editorial note</change>
             <change when="2017-03-29" who="#nhg">edited editorial note</change>
             <change when="2016-05-18" who="#kmp">blessed</change>

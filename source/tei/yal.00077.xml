@@ -23,7 +23,7 @@
                     <persName xml:id="kmp">Kenneth M. Price</persName>
                     <persName xml:id="sb">Stacey Berry</persName>
                     <persName xml:id="fl">Farrah Lehman</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -55,8 +55,8 @@
                     the Centennial of 1876.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>What the word of power unbroken</title>
                     <date xml:id="dat1" cert="low" notBefore="1870" notAfter="1876">About
                         1876</date>
@@ -72,7 +72,7 @@
                 <handNote xml:id="h1" scribeRef="#unk"><persName xml:id="unk">Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-09-26" who="#nhg">proofed</change>
             <change when="2016-01-08" who="#bb">updated list of staff in titleStmt</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>

@@ -21,7 +21,7 @@
                     <persName xml:id="bb">Brett Barney</persName>
                     <persName xml:id="nk">Nick Krauter</persName>
                     <persName xml:id="hm">Heather Morton</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -58,8 +58,8 @@
                     a check for thirty dollars in payment. An image of the verso of this manuscript is currently unavailable.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>O Captain! my Captain!</title>
                     <date xml:id="dat1" cert="high" when="1887-03-09">March 9, 1887</date>
                     <orgName xml:id="brn">John Hay Library, Brown University</orgName>
@@ -67,7 +67,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-09-05" who="#nhg">proofed</change>
             <change when="2016-01-07" who="#nhg">reconciled, removed extra lbs</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>

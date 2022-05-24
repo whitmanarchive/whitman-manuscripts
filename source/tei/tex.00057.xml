@@ -31,7 +31,7 @@
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="sp">Stacey Provan</persName>
                <persName xml:id="kp">Ken Price</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -59,8 +59,8 @@
             <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was preparing materials for the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript includes lines that relate to the prose preface and to several of the poems in that edition, including the poems eventually titled "Song of Myself," "To Think of Time," and "A Song for Occupations." The manuscript also includes lines that relate to the manuscript poem "<ref target="yal.00081.html">Pictures</ref>," which probably dates to the mid- to late 1850s.</note>             
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>[And to me each minute]</title>
                <idno type="callno">TXRC03-A4</idno>
                <date notBefore="1850" notAfter="1855" cert="medium">Between 1850 and 1855</date>
@@ -72,7 +72,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2019-06-01" who="#kp">blessed</change>
          <change when="2019-06-01" who="#nhg">edited relations note</change>
          <change who="#nhg" when="2019-02-17">checked, corrected</change>
@@ -100,7 +100,7 @@
                <del rend="overstrike"><del rend="overstrike">vital</del> <del rend="overstrike">live</del> as flesh is</del> </l>
             <anchor xml:id="s2"/>
             
-            <add rend="unmarked" place="interlinear"><metamark function="transpose">tr in here page 34—</metamark><l xml:id="l10">And I say the stars are not echoes</l></add> <!-- the line Whitman indicates adding here appears in loc.00042 [And I say the stars], but that manuscript doesn't include the number 34 so it is possible that he is referring to another manuscript. A version of this line also appears in Talbot Wilson. CAH -->
+            <addSpan spanTo="#a1" rend="unmarked" place="interlinear"/><metamark function="transpose">tr in here page 34—</metamark><l xml:id="l10">And I say the stars are not echoes</l><anchor xml:id="a1"/> <!-- the line Whitman indicates adding here appears in loc.00042 [And I say the stars], but that manuscript doesn't include the number 34 so it is possible that he is referring to another manuscript. A version of this line also appears in Talbot Wilson. CAH -->
             
             <l xml:id="l02">And I perceive that the <subst><del rend="overstrike" seq="1">salt marsh</del> <del rend="erasure" seq="3"><add rend="unmarked" place="supralinear" seq="2">sea</add></del> <add rend="unmarked" place="supralinear" seq="4">sedgy weed</add></subst> has 
                <subst><del rend="overstrike" seq="1">delicious</del> <add rend="unmarked" place="supralinear" seq="2">refreshing</add></subst> odors;</l>
@@ -126,7 +126,7 @@
             <l xml:id="l07">They <del rend="overstrike">fill</del><!-- Is this an overstrike? The line doesn't make sense without it and it is the same light pencil as mentioned above. CAH --> the worm‑fence, and lie on the heaped stones,<lb/>
                and are hooked to the elder and poke‑weed;</l>
             
-            <del rend="overstrike"><add rend="unmarked" place="interlinear"><l xml:id="l08">And to me <subst><del rend="overstrike" seq="1">each</del> <add rend="unmarked" place="infralinear" seq="2">every</add></subst> minute of the night and day is filled with a <unclear reason="illegible" cert="medium" resp="#cah">live</unclear> joy</l></add></del>
+            <delSpan spanTo="#d1" rend="overstrike"/><addSpan spanTo="#a2" rend="unmarked" place="interlinear"/><l xml:id="l08">And to me <subst><del rend="overstrike" seq="1">each</del> <add rend="unmarked" place="infralinear" seq="2">every</add></subst> minute of the night and day is filled with a <unclear reason="illegible" cert="medium" resp="#cah">live</unclear> joy</l><anchor xml:id="a2"/><anchor xml:id="d1"/>
             
             <l xml:id="l09">And <add rend="insertion" place="supralinear">to me</add> the cow crunching with depressed head <del rend="overstrike">surpasses</del> <add rend="unmarked" place="supralinear">is <subst><del rend="overstrike" seq="1">an</del> <add rend="unmarked" place="inline" seq="2">a</add></subst></add>
                <lb/>

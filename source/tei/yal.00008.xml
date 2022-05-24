@@ -18,7 +18,7 @@
                     <persName xml:id="al">Ashley Lawson</persName>
                     <persName xml:id="tj">Tim Jackson</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -52,8 +52,8 @@
                         1865</date>.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>incidents for (Soldier in the Ranks)</title>
                     <date xml:id="dat1" cert="medium" notBefore="1863-07" notAfter="1865-04">About 1865</date>
                     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and
@@ -68,7 +68,7 @@
                 <handNote xml:id="h2" scribeRef="#unk"/>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-12-07" who="#nhg">corrected</change>
             <change when="2016-07-26" who="#nhg">proofed</change>
             <change when="2016-01-14" who="#bb">reconciled two different transcriptions of this file; updated list of staff in titleStmt</change>

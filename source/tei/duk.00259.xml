@@ -19,7 +19,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="bjo">Brandon James O'Neil</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -46,8 +46,8 @@
                     the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The opening lines of the manuscript appear in the twelfth poem of that edition, eventually titled "Great are the Myths." The poem went through many revisions through the different editions of <hi rend="italic">Leaves of Grass</hi>, then was permanently dropped in 1881–1882, except the two couplets that became the poem "Youth, Day, Old Age, and Night."</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>Great are the myths. ... I too delight in them</title>
                     <idno type="callno">MS 4 to 10 (Volume 10)</idno>
                     <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
@@ -59,7 +59,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-11-06" who="#nhg">edited note</change>
             <change when="2018-12-11" who="#nhg">corrected work ref</change>
             <change when="2018-10-24" who="#nhg">proofed</change>

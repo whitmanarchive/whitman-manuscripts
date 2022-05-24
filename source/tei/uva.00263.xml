@@ -27,7 +27,7 @@
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="bb">Brett Barney</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -56,8 +56,8 @@
                 <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. It is a draft of lines that appear in the first poem in that edition, eventually titled "Song of Myself."</note>
             </notesStmt>
             <sourceDesc> 
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>You there!</title>
                     <idno type="callno">MSS 3829, Box-folder 1:88</idno>
                     <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
@@ -69,7 +69,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-02-20" who="#smb">final check, corrected</change>
             <change when="2019-02-12" who="#bb">added line relations to #l1362</change>
             <change when="2019-01-15" who="#nhg">checked relations, edited</change>
@@ -84,7 +84,7 @@
             
             <lg type="linegroup">
                 <gap reason="cut away"/>
-                <add rend="unmarked" place="interlinear"><l xml:id="l01">You there! impotent, loose <unclear reason="illegible" cert="medium" resp="#cah">in</unclear> the knees!</l></add>
+                <addSpan spanTo="#a1" rend="unmarked" place="interlinear"/><l xml:id="l01">You there! impotent, loose <unclear reason="illegible" cert="medium" resp="#cah">in</unclear> the knees!</l><anchor xml:id="a1"/>
                 
                 <l xml:id="l02">Open your <subst><del rend="overstrike" seq="1">mouth</del> <add place="infralinear" rend="unmarked" seq="2">gums</add></subst> <del rend="overstrike">my pardy,</del> that I <subst><del rend="overstrike" seq="1">put</del> <del rend="overstrike" seq="3"><add place="supralinear" rend="unmarked" seq="2">send</add></del> <add place="supralinear" rend="insertion" seq="3">blow</add></subst> grit<lb/>
                     in you with <subst><del rend="overstrike" seq="1">one</del> <add place="supralinear" rend="unmarked" seq="2">a</add></subst> <unclear reason="torn" cert="medium" resp="#cah">breath</unclear>;</l>
@@ -103,10 +103,10 @@
                 
                 <l xml:id="l08">You can do nothing, and be nothing, but what <lb/>I will infold you;</l>
                 
-                <del rend="overstrike"><l xml:id="l09">If you be diseased, deformed, a thief, you <lb/>
-                    need me the more.—</l></del>
+                <delSpan spanTo="#d2" rend="overstrike"/><l xml:id="l09">If you be diseased, deformed, a thief, you <lb/>
+                    need me the more.—</l><anchor xml:id="d2"/>
                 
-                <del rend="overstrike"><add rend="unmarked" place="interlinear"><l xml:id="l10">You thief! you diseased!—deformed!</l></add></del>
+                <delSpan spanTo="#d3" rend="overstrike"/><addSpan spanTo="#a2" rend="unmarked" place="interlinear"/><l xml:id="l10">You thief! you diseased!—deformed!</l><anchor xml:id="a2"/><anchor xml:id="d3"/>
                 
                <gap reason="cut away"/>
             </lg>

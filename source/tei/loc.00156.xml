@@ -14,7 +14,7 @@
                <persName xml:id="jc">Janel Cayer</persName>
             <persName xml:id="kmp">Kenneth M. Price</persName>
                <persName xml:id="km">Kevin McMullen</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -42,8 +42,8 @@
             <note type="project" target="#dat1">This manuscript consists of prose notes about Long Island, potentially related to a piece of journalism that Whitman was considering writing, although the notes contain no known connections to any of his published work. Written at the bottom of the notes are two lines of poetry. The manuscript is written in pencil on both sides of a narrow strip of lined paper, cut from a larger sheet. Based on the handwriting, Edward Grier dates this manuscript to the 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:320).</note><!--originally grouped with loc.05704 and loc.05705-->
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>Free cider and Long Island character</title>
                <idno type="callno">MSS18630, Box 38</idno>
                <date xml:id="dat1" notBefore="1850" notAfter="1860" cert="low">Between 1850 and 1860</date>
@@ -52,7 +52,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2016-05-18" who="#kmp">blessed</change>
          <change who="#nhg" when="2015-12-03">updated image names</change>
          <change who="#nhg" when="2015-05-06">added metamark</change>

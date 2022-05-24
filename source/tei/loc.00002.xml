@@ -18,7 +18,7 @@
                     <persName xml:id="ms">Melissa Sinner</persName>
                     <persName xml:id="jsc">Justin St. Clair</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -50,8 +50,8 @@
                     publication.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author> Walt Whitman </author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title> After the Dazzle of Day </title>
                     <date xml:id="dat1" cert="high" notBefore="1887" notAfter="1888-02">1887 or 1888</date>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C. </orgName>
@@ -66,7 +66,7 @@
                 <handNote xml:id="ht"><persName key="Traubel, Horace">Horace Traubel</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2015-05-07" who="#nhg">corrected</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
             <change when="2006-08-02" who="#nk">Added third digit to leaf numbers</change>

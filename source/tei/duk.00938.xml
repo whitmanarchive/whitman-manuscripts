@@ -15,7 +15,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor> 
                 <funder>The National Endowment for the Humanities</funder>
@@ -40,8 +40,8 @@
                 <note type="project" target="dat1">This manuscript is a partial draft of "Memorial in Behalf of a Freer Municipal Government, and Against Sunday Restrictions," a public letter printed in the Brooklyn <hi rend="italic">Star</hi> on October 20, 1854. Whitman probably drafted the manuscript shortly before the piece was published.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>Great are the myths. ... I too delight in them</title>
                     <idno type="callno">MS 4 to 10 (Volume 10)</idno>
                     <date cert="high" notBefore="1850" notAfter="1854" xml:id="dat1">Between 1850 and 1854</date>
@@ -53,7 +53,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-06-14" who="#nhg">edited relations information</change>
             <change when="2018-10-23" who="#nhg">proofed, added work relations</change>
             <change when="2018-09-10" who="#nhg">updated image names</change>

@@ -14,7 +14,7 @@
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName><persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -57,22 +57,22 @@
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
                             <date when="1984">1984</date>
-                            <biblScope type="page">2042</biblScope>
-                            <biblScope type="volume">6</biblScope>
+                            <biblScope unit="page">2042</biblScope>
+                            <biblScope unit="volume">6</biblScope>
                         </imprint>
                     </monogr>
                     <note type="project">Grier based his text on <hi rend="italic">Walt Whitman's Workshop</hi>, ed. Clifton J. Furness (Cambridge, MA: Harvard University Press, 1928), 44.</note>
                 </biblStruct>
                 
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title rend="bracketed">If you have in you</title>                  
                     <date xml:id="dat1" notBefore="1854" notAfter="1870" cert="low">Between 1854 and 1870</date>
                     <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-12-08" who="#bb">reconciled with EAD; added Work ID</change>
             <change when="2016-07-14" who="#nhg">checked, corrected</change>

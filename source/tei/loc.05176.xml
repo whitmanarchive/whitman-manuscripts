@@ -13,7 +13,7 @@
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
 <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName><persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -42,8 +42,8 @@
             </notesStmt>
             <sourceDesc>
                 
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title rend="bracketed">The analogy</title>                  
                     <idno type="callno">MSS45443, Box 1, Reel 1</idno>
                     <date xml:id="dat1" cert="medium" notBefore="1845" notAfter="1855">1855 or earlier</date>
@@ -58,7 +58,7 @@
                 <handNote xml:id="h2" scribeRef="#ww" medium="pencil"/>
             </handNotes>
         </profileDesc>
-        <revisionDesc><change when="2016-05-18" who="#kmp">blessed</change>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change><change when="2016-05-18" who="#kmp">blessed</change>
 <change when="2016-05-12" who="#nhg">checked, corrected</change>
             <change when="2016-05-04" who="#km">checked</change>
             <change when="2015-01-29" who="#jc">checked; revised repository information in header</change>

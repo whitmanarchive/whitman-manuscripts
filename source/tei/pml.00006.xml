@@ -24,7 +24,7 @@
                     <persName xml:id="lr">Lisa Renfro</persName>
                     <persName xml:id="li">Leslie Ianno</persName>
                     <persName xml:id="al">Ashley Lawson</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -60,8 +60,8 @@
                             Whitman</hi>, ed. Emory Holloway (Garden City, N.Y.: Doubleday, Page, <date when="1921">1921</date>).</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>After certain disastrous campaigns</title>
                     <date xml:id="dat1" cert="high" notBefore="1862" notAfter="1865">Between 1862 and 1865</date>
                     <idno type="callno">MA 518 (B)</idno>
@@ -70,7 +70,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-09-26" who="#nhg">updated project note</change>
             <change when="2016-04-26" who="#nhg">corrected verso image name</change>
             <change when="2012-03-01" who="#al">Corrections made from spreadsheet</change>

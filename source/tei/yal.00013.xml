@@ -6,7 +6,7 @@
                 "Interpolation Sounds."</p>
         </work>
     </relations>
-    <teiHeader type="text">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="m" type="main">Funeral Interpolations</title>
@@ -23,7 +23,7 @@
                     <persName xml:id="aj">Andy Jewell</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -64,8 +64,8 @@
                     that date.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>Funeral Interpolations</title>
                     <date xml:id="dat1" cert="high" when="1888-08">August 1888</date>
                     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and
@@ -79,7 +79,7 @@
                 <handNote xml:id="h1" scribeRef="#unk"><persName xml:id="unk">Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-07-20" who="#nhg">checked, corrected transcription and encoding</change>
             <change when="2016-01-14" who="#bb">updated list of staff in titleStmt; corrected miscellaneous attribute errors</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>

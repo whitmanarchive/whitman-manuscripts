@@ -11,7 +11,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="cah">Caitlin Henry</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -40,8 +40,8 @@
                 <note type="project" target="#dat1">These notes about verse forms are similar to notes in "<ref target="rut.00022.html">dithyrambic trochee</ref>," a manuscript currently housed at Rutgers University. Edward Grier posits that the Rutgers manuscript probably dates to around 1856, when Whitman was pursuing a self-education in poetry (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:355–356). These manuscript notes may also date to that period, although the draft lines on the reverse of the leaf, which were probably written before 1855, may suggest a slightly earlier date.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>You there!</title>
                     <idno type="callno">MSS 3829, Box-folder 1:88</idno>
                     <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1860">Between 1850 and 1860</date>
@@ -58,7 +58,7 @@
                 <handNote scribeRef="#unk" xml:id="h1"><persName xml:id="unk">Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-06-10" who="#nhg">checked, corrected</change>
             <change when="2019-04-04" who="#cah">Encoded</change>
             <change when="2018-10-09" who="#nhg">created file from uva.00263</change>

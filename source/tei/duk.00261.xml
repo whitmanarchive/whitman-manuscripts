@@ -24,7 +24,7 @@
                <persName xml:id="km">Kenneth M. Price</persName>
                <persName xml:id="awj">Andrew Jewell</persName>
                <persName xml:id="ah">Amy Hezel</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -53,8 +53,8 @@
             
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>[Fa]bles, traditions, and formulas are not animate things</title>
                <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
                <idno type="callno">MS 4to 6 (Volume 6)</idno> 
@@ -73,14 +73,14 @@
                      <pubPlace>London, Ontario</pubPlace>
                      <publisher>A. Talbot &amp; Co. [printer]</publisher>
                      <date when="1899">1899</date>
-                     <biblScope type="page">47</biblScope>
+                     <biblScope unit="page">47</biblScope>
                   </imprint>
                </monogr>
             </biblStruct>
          </sourceDesc>
       </fileDesc>
       
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2019-10-10" who="#nhg">edited note</change>
          <change when="2018-11-12" who="#nhg">corrected</change>
          <change when="2018-10-26" who="#nhg">checked, corrected</change>
@@ -102,30 +102,30 @@
          <ab xml:id="ab01"><supplied source="#cw">foot to fee lawyers for his brother and sit by him while he was tried for forgery</supplied></ab>
          <delSpan rend="hashmark" spanTo="#d1"/>
          <lg type="linegroup">
-            <add rend="unmarked" place="interlinear">
+            <addSpan spanTo="#a1" rend="unmarked" place="interlinear"/>
                <l><unclear reason="cut away" resp="#awj" cert="high">Fa</unclear>bles, traditions, and <del rend="overstrike">books</del> formulas are not animate things;</l>
                
                <l xml:id="l04">Brick and mortar do not procreate like men;</l>
                
-               <l xml:id="l05"><gap reason="cut away"/> all of them and all existing creeds grows not so much of God as I grow in my moustache,</l></add>
+               <l xml:id="l05"><gap reason="cut away"/> all of them and all existing creeds grows not so much of God as I grow in my moustache,</l><anchor xml:id="a1"/>
             
             <l xml:id="l01"><del rend="overstrike">And</del> I am myself waiting my time to be a God;</l>
             
-            <l xml:id="l02"><del rend="overstrike">And</del> I think I <del rend="overstrike"><unclear reason="illegible" resp="#nhg" cert="medium">h</unclear></del>
+            <l xml:id="l02"><del rend="overstrike">And</del> I think I <delSpan spanTo="#d2" rend="overstrike"/><unclear reason="illegible" resp="#nhg" cert="medium">h</unclear><anchor xml:id="d2"/>
                shall <add rend="insertion" place="supralinear">do as much good and</add> be as pure and prodigious, <del rend="overstrike">and do
                   <lb/>as much good</del> as any;<del rend="overstrike">—</del></l>
             <l xml:id="l03">And when <del rend="overstrike">my</del> <del rend="overstrike">do,</del> I am, do you suppose it will please me<lb/>
                to receive puffs from pulpits or print?</l>
             
             
-            <del rend="overstrike"><l xml:id="l06"><subst><del rend="overwrite" seq="1">I</del><add rend="overwrite" place="over" seq="2">Y</add></subst>ou cannot go with 
+            <delSpan spanTo="#d3" rend="overstrike"/><l xml:id="l06"><subst><del rend="overwrite" seq="1">I</del><add rend="overwrite" place="over" seq="2">Y</add></subst>ou cannot go with 
                <add rend="insertion" place="supralinear">go with</add> 
                your testaments among ten men without<lb/>
-               wrangling and unbelief</l></del>
+               wrangling and unbelief</l><anchor xml:id="d3"/>
             
-            <del rend="overstrike"><l xml:id="l07">Go, with your logic and testaments among ten men</l></del>
+            <delSpan spanTo="#d4" rend="overstrike"/><l xml:id="l07">Go, with your logic and testaments among ten men</l><anchor xml:id="d4"/>
             
-            <del rend="overstrike"><l>Five will be silent and doubt</l></del>
+            <delSpan spanTo="#d5" rend="overstrike"/><l>Five will be silent and doubt</l><anchor xml:id="d5"/>
             
             <l><del rend="overstrike">Your</del> 
                <subst>
@@ -173,18 +173,18 @@
                </subst> 
                loved or believed.—</l>
             
-            <add rend="unmarked" place="interlinear">
+            <addSpan spanTo="#a2" rend="unmarked" place="interlinear"/>
                <l><subst>
                   <del rend="overstrike" seq="1">My</del>
                   <add rend="insertion" place="supralinear" seq="2">The</add>
                   
                </subst> 
                   throat is not safe that speaks <subst><del rend="overstrike" seq="1">these</del> <add rend="unmarked" place="supralinear" seq="2">it</add></subst> aloud.—</l>
-            </add>
+            <anchor xml:id="a2"/>
             
-            <del rend="overstrike">
+            <delSpan spanTo="#d6" rend="overstrike"/>
                <l>Yet I can take</l>
-            </del> 
+            <anchor xml:id="d6"/> 
             
             <l>I will take a sprig <subst>
                <del rend="overstrike" seq="1">from</del>

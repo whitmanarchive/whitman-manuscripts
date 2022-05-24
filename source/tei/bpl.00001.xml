@@ -23,7 +23,7 @@
                     <persName xml:id="jo">Jennifer Overkamp</persName>
                     <persName xml:id="kc">Kirsten Clawson</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -54,8 +54,8 @@
                 <note type="project" target="dat1">"Out from Behind This Mask" was published first on <date when="1876-02-19">February 19, 1876</date>, in the New York <hi rend="italic">Tribune</hi> and, later that same year, in <hi rend="italic">Two Rivulets</hi>. The poem was written in response to <!--add ref when gallery update is finished-->an engraving by William J. Linton based on a photograph of Whitman taken by George C. Potter in about <date notBefore="1870" notAfter="1871">1871</date>. This manuscript was probably composed in <date when="1876">1876</date>, shortly before the poem was published.</note>                      
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author> 
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                     
                     <title>Out from Behind this Mask</title>
                     <date cert="high" notBefore="1875" notAfter="1876" xml:id="dat1">About 1876</date> 
                     <orgName xml:id="bpl">The Walt Whitman Collection, Boston Public Library</orgName>    
@@ -68,7 +68,7 @@
                 <handNote xml:id="h1" scribeRef="#unk"><persName xml:id="unk">Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2017-04-05" who="#nhg">added verso image</change>
             <change when="2016-09-08" who="#nhg">proofed</change>
             <change when="2015-05-05" who="#kc">conversion to P5, checked</change>

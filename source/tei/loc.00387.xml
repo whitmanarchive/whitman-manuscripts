@@ -25,7 +25,7 @@
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="kmp">Kenneth M. Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -53,8 +53,8 @@
                 <note type="project" target="#dat1">Edward Grier concludes that this manuscript was likely written before 1855 because of its similarity to several of the notebooks that Whitman wrote from that period (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 6:2110). Ideas in this manuscript are similar to ideas in the first poem in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, eventually titled "Song of Myself," and lines and phrases from the manuscript appear in another manuscript that may have contributed to the poem eventually titled "Song of Myself": see "<ref target="tex.00031.html">I know many beautiful things</ref>." The tone of the statements is also consistent with Whitman's early journalistic and editorial persona.</note>             
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title rend="bracketed">Lofty Sirs!</title>                  
                     <idno type="callno">MSS18630, Box 31, Reel 19</idno>
                     <date xml:id="dat1" cert="medium" notBefore="1840" notAfter="1855">Between 1840 and 1855</date>
@@ -63,7 +63,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-12-04" who="#bb">tweaked wording of date note</change>
             <change when="2019-04-10" who="#nhg">added connection to preface</change>
             <change when="2019-04-04" who="#nhg">edited note, added relations info</change>

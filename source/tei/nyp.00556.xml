@@ -17,7 +17,7 @@
                     <persName xml:id="es">Jeannette Schollaert</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName><persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -45,8 +45,8 @@
                 <note type="project" target="#dat1">This manuscript consists of notes about Whitman's family history. The various dates referenced suggest that the earliest portions of it were written sometime after 1845, and most of the notes seem to have been written at various stages between 1845 and 1855. Edward Grier dates the recto to 1850, and speculates that the earliest date for the writing on the verso is likely March 1853, when the two Cumberland Street houses were sold (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:8). For footnotes relating the names listed here to Whitman, see Grier. Whitman made additions to the manuscript several times, adding to it for the last time sometime around 1861. One of the names referenced on the verso, Covert, appears as a character in both Whitman's short story "<ref target="../../published/fiction/shortfiction/per.00340.html">Revenge and Requital</ref>" (1845) and his novel <hi rend="italic">Life and Adventures of Jack Engle</hi> (1852). The name is also mentioned in an early notebook draft of the plot of <hi rend="italic">Jack Engle</hi> (see "<ref target="../notebooks/transcriptions/loc.04588.html">a schoolmaster</ref>").</note>             
             </notesStmt>
             <sourceDesc>
-                 <bibl>
-                    <author>Walt Whitman</author>
+                 <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                      <title rend="bracketed">A Family Record. Composed and written by Walt Whitman.</title>
                      <idno type="callno">b15520479</idno>
                      <date xml:id="dat1" notBefore="1845" notAfter="1861" cert="medium">Between 1845 and 1861</date>
@@ -62,7 +62,7 @@
                 <handNote xml:id="h3" scribeRef="#ww" medium="pencil"/>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2017-02-27" who="#nhg">added work relations info for Jack Engle</change>
             <change when="2016-12-15" who="#km">added work relations info for "Revenge and Requital"</change>
@@ -81,7 +81,7 @@
             <p><add rend="unmarked" place="supralinear"><handShift new="#h3"/><hi rend="underline"><space dim="horizontal" extent="5 letters"/></hi> Whitman built the old <unclear reason="illegible" resp="#km" cert="medium">homestead</unclear> in which was born</add> <handShift new="#h1"/>Nehemiah Whitman, <subst><del rend="overwrite" seq="1"><gap reason="illegible" extent="part of a word" quantity="8" unit="chars"/>rents <gap reason="overwrite" extent="one word" quantity="3" unit="chars"/> <unclear reason="overwrite" cert="medium" resp="#km">was born at</unclear> <unclear reason="illegible" cert="low" resp="#nhg">the</unclear></del><add rend="overwrite" place="over" seq="2">descended from one of the</add></subst> earliest English emigrants to America, was born and died on the old <del rend="overstrike"><add rend="unmarked" place="supralinear"><unclear reason="illegible" cert="high" resp="#km">Hills</unclear></add></del> homestead at West Hills—which was inherited by his son, His wife was <subst><del rend="overstrike" seq="1" hand="#h3">Phebe</del> <add rend="unmarked" place="infralinear" seq="2"><handShift new="#h3"/>Sarah</add></subst><handShift new="#h1"/> White—</p>
             
             <span rend="bracket-left" xml:id="s1" from="#s1" to="#s2"/>
-            <add rend="unmarked" place="right">
+            <addSpan spanTo="#a1" rend="unmarked" place="right"/>
                 <ab>
                 <table>
                     <row>
@@ -94,7 +94,7 @@
                     </row>
                 </table>
                 </ab>
-            </add>
+            <anchor xml:id="a1"/>
                 
                 <note type="authorial" place="interlinear" resp="#h2">see next page—bottom</note><anchor xml:id="s2"/>
             
@@ -225,7 +225,7 @@
             
             <ab>Moved in Ryerson st, May 1855.<add rend="unmarked" place="inline"><handShift new="#h2"/>—Lived in Classon <add rend="insertion" place="supralinear">from May 1st</add> '56, '7 '8 '9</add></ab>
             
-            <add rend="unmarked" place="interlinear"><ab>Lived in Portland av. from May 1st '59 '60 '61</ab></add>
+            <addSpan spanTo="#a2" rend="unmarked" place="interlinear"/><ab>Lived in Portland av. from May 1st '59 '60 '61</ab><anchor xml:id="a2"/>
             
             <p><handShift new="#h3"/>Sarah White, my great grandmother Whitman, lived to be 90 years old.—She was a large, strong woman, chewed tobacco, opium &amp;c.—petted her slaves, and had always a crowd of little niggers about her.—She would sit with her feet up before the fire, just like a man—was every way decided and masculine in behavior</p>
             

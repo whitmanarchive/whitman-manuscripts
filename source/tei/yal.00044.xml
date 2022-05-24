@@ -24,7 +24,7 @@
                     <persName xml:id="kmp">Kenneth M. Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -58,8 +58,8 @@
                     before its publication in <date when="1885">1885</date>.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>Last of ebb, and daylight waning (bound with "Fancies at
                         Navesink")</title>
                     <date xml:id="dat1" cert="high" notBefore="1882" notAfter="1885">About 1885</date>
@@ -74,7 +74,7 @@
                 <handNote xml:id="h1" scribeRef="#unk"><persName xml:id="unk">Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-12-01" who="#nhg">corrected</change>
             <change when="2016-07-27" who="#nhg">proofed</change>
@@ -166,7 +166,7 @@
                             <del rend="overstrike">—pride of</del>
                         
                     </l>
-                    <del rend="overstrike"><l>Pride of manhood—tones of the dying</l></del>
+                    <delSpan spanTo="#d1" rend="overstrike"/><l>Pride of manhood—tones of the dying</l><anchor xml:id="d1"/>
                     <l>
 <subst>
                                 

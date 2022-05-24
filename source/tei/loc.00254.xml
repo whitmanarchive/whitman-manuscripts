@@ -21,7 +21,7 @@
                     <persName xml:id="aj">Andrew Jewell</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -54,8 +54,8 @@
                     publication date of the poem indicate that this manuscript was composed between <date notBefore="1880-05" notAfter="1880-06">May and June, 1880</date>.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>Patroling Barnegat</title>
                     <date xml:id="dat1" cert="high" notBefore="1880-05" notAfter="1880-06">1880</date>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
@@ -68,7 +68,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-10-18" who="#nhg">corrected</change>
             <change when="2016-09-08" who="#nhg">proofed, added relatedItem encoding</change>
             <change when="2016-03-10" who="#nhg">updated persNames, corrected</change>
@@ -122,9 +122,9 @@
                 <pb facs="loc.00254.003.jpg" xml:id="leaf002r" type="recto"/>
                 <lg type="linegroup">
                     <l>Brav</l>
-                    <del rend="overstrike">
+                    <delSpan spanTo="#d1" rend="overstrike"/>
                         <l>Amidst</l>
-                    </del>
+                    <anchor xml:id="d1"/>
                     <l>The <add rend="insertion" place="supralinear">swirling</add> wintry
                             blast, <del rend="overstrike">the</del>
 
@@ -140,9 +140,9 @@
                                                             </subst> Night, and
                         <lb/>Storm and Sea
                     </l>
-                    <del rend="overstrike">
+                    <delSpan spanTo="#d2" rend="overstrike"/>
                         <l>Alas</l>
-                    </del>
+                    <anchor xml:id="d2"/>
                 </lg>
                 <pb facs="loc.00254.004.jpg" xml:id="leaf002v" type="verso"/>
                 <pb facs="loc.00254.005.jpg" xml:id="leaf003r" type="recto"/>

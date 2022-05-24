@@ -18,7 +18,7 @@
      <persName xml:id="mm">Matt Miller</persName>
      <persName xml:id="nhg">Nicole Gray</persName>
      <persName xml:id="kmp">Ken Price</persName>
-    </respStmt>
+    <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
     <funder>The National Endowment for the Humanities</funder>
@@ -47,8 +47,8 @@
    </notesStmt>
    <sourceDesc>
     
-    <bibl>
-     <author>Walt Whitman</author>
+    <bibl><author xml:id="ww">Whitman, Walt</author>
+     
      <title>You villain, Touch! what are you doing?</title>        
      <date notBefore="1850-01-01" notAfter="1855-12-31" cert="medium">Between 1850 and 1855</date>
      <idno type="callno"/>
@@ -60,7 +60,7 @@
     </bibl>
    </sourceDesc>
   </fileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
    <change when="2019-06-01" who="#kmp">blessed</change>
    <change when="2019-06-01" who="#nhg">corrected editorial note</change>
    <change when="2018-10-03" who="#nhg">checked, corrected</change>
@@ -74,7 +74,7 @@
 <body>
  <pb xml:id="leaf001r" facs="tex.00002.001.jpg" type="recto"/>
  <delSpan rend="hashmark" spanTo="#d1"/>
- <del rend="overstrike"><note type="authorial" place="top left">190</note></del>
+ <delSpan spanTo="#d1" rend="overstrike"/><note type="authorial" place="top left">190</note><anchor xml:id="d1"/>
  <lg type="linegroup">
 
    <l xml:id="l01">You villain, Touch! what are you doing?</l>
@@ -106,8 +106,8 @@
     my <subst><del rend="overstrike" seq="1">life</del> <add rend="unmarked" place="supralinear" seq="2">soul</add></subst>, if that is<lb/>
     what you are after.</l>
 
-  <del rend="overstrike"><l xml:id="l10">Only pass to some one else, for I<lb/>
-    <subst><del rend="overstrike" seq="1">can</del> <add rend="unmarked" place="supralinear" seq="2">will</add></subst> contain you no longer.</l></del>
+  <delSpan spanTo="#d2" rend="overstrike"/><l xml:id="l10">Only pass to some one else, for I<lb/>
+    <subst><del rend="overstrike" seq="1">can</del> <add rend="unmarked" place="supralinear" seq="2">will</add></subst> contain you no longer.</l><anchor xml:id="d2"/>
   
   <l xml:id="l11"><del rend="overstrike">Only</del> pass to some one else <anchor xml:id="t1"/> <add rend="insertion" place="supralinear">leap to the nearest landing</add>. ¶Little as your<lb/>
     <del rend="overstrike">mouth</del> yo<del rend="erasure"><gap reason="erasure, illegible" quantity="3" unit="chars"/></del> <del rend="overstrike">lips</del> are</l>

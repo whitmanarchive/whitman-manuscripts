@@ -19,7 +19,7 @@
                <resp>Transcription and encoding</resp>
                <persName xml:id="cah">Caitlin Henry</persName>
                <persName xml:id="bb">Brett Barney</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -47,8 +47,8 @@
             <note type="project" target="dat1">The writing at the top of this manuscript bears some resemblance to this sentence from the preface to the first edition of <hi rend="italic">Leaves of Grass</hi>: "Great genius and the people of these states must never be demeaned to romances" (1855, p. ix). The language and topic also resemble those of Whitman's self-authored review of the 1855 <hi rend="italic">Leaves of Grass</hi>, "Walt Whitman and His Poems," which was published in <hi rend="italic">The United States Review</hi> in September, 1855. It was also one of several reviews printed separately and included in some copies of the 1855 edition. Edward Grier, in <hi rend="italic">Notebooks and Unpublished Prose Manuscripts,</hi> notes that "the small writing suggests a date in the 1850s" (New York: New York University Press, 1984), 1:361.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title rend="bracketed">I say that Democracy</title>                  
                <idno type="callno">MSS45443, Reels 1-2</idno>
                <date cert="medium" notBefore="1850" notAfter="1856" xml:id="dat1">Between 1850 and 1856</date>
@@ -62,7 +62,7 @@
             <handNote xml:id="h1" scribeRef="#ww" medium="pencil"/>
          </handNotes>
       </profileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#bb" when="2019-12-11">revised wording of work and date notes</change>
          <change who="#bb" when="2019-08-06">added pb for verso</change>
          <change who="#bb" when="2019-07-03">added relations section and date note</change>

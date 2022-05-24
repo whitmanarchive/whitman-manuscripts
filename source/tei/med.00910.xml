@@ -14,7 +14,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="bb">Brett Barney</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName><persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -57,19 +57,19 @@
                             <pubPlace>London, Ontario</pubPlace>
                             <publisher>A. Talbot &amp; Co., [printer]</publisher>
                             <date when="1899">1899</date>
-                            <biblScope type="page">39</biblScope>
+                            <biblScope unit="page">39</biblScope>
                          </imprint>
                     </monogr>
                 </biblStruct>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title rend="bracketed">Where the boys dive and</title> 
                     <date xml:id="dat1" notBefore="1850" notAfter="1855" cert="medium">Before or early in 1855</date>
                     <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-10-17" who="#bb">transcribed, encoded</change>
         </revisionDesc>
     </teiHeader>

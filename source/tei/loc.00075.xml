@@ -6,7 +6,7 @@
                 1888</date>.</p>
         </work>
     </relations>
-    <teiHeader type="text">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="m" type="main">Certainties, Faith, Counterbalances,
@@ -23,7 +23,7 @@
                     <persName xml:id="aj">Andrew Jewell</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -57,8 +57,8 @@
                         1888</date>. It was likely written around <date notBefore="1887" notAfter="1888">1887 or 1888</date>, shortly before the poem was published.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <date xml:id="dat1" cert="high" notBefore="1887" notAfter="1888">About 1887 or 1888</date>
                     <title>Certainties, Faith, Counterbalances, Alternation</title>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
@@ -73,7 +73,7 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc/>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-10-18" who="#nhg">corrected</change>
             <change when="2016-07-19" who="#nhg">checked, corrected transcription and encoding</change>
             <change when="2016-03-04" who="#nhg">completed teiHeader, removed extra line breaks</change>

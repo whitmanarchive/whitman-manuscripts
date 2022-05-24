@@ -22,7 +22,7 @@
                     <persName xml:id="aj">Andrew Jewell</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -56,8 +56,8 @@
                     spring of <date when="1888">1888</date>, shortly before the poem was published.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>Life and Death</title>
                     <date xml:id="dat1" cert="high" notBefore="1888-01-01" notAfter="1888-05-19">1888</date>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman,
@@ -71,7 +71,7 @@
                 <handNote xml:id="h1" scribeRef="#unk"><persName xml:id="unk">Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-09-22" who="#nhg">updated encoding, proofed, updated date attributes</change>
             <change when="2016-03-08" who="#nhg">updated persNames, image names</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>

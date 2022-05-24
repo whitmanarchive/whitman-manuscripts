@@ -25,7 +25,7 @@
                <persName xml:id="jc">Janel Cayer</persName>
                <persName xml:id="kmp">Kenneth M. Price</persName>
                <persName xml:id="smb">Stephanie Blalock</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -54,8 +54,8 @@
                 </note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>II. Song of Myself (Pages 1-23)</title>
                <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
                <idno type="callno">Box I-1</idno>
@@ -67,7 +67,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2019-07-08" who="#nhg">added inline relations</change>
          <change when="2019-06-04" who="#nhg">added inline relation from #bjo list</change>
          <change when="2019-02-15" who="#smb">final check and updated project notes</change>
@@ -90,16 +90,16 @@
            
            <lg type="linegroup">
             <l xml:id="l03">I celebrate myself to celebrate <subst><del rend="overstrike" seq="1">you;</del> <add rend="unmarked" place="supralinear" seq="2">every man and woman <lb/>alive;</add></subst></l>
-              <del rend="overstrike"><l xml:id="l10">I transpose my <del rend="overstrike"><add rend="unmarked" place="supralinear">my</add></del> spirit</l></del>
-         <del rend="overstrike"><l>I pass <del rend="overstrike">as</del> <del rend="overstrike"><unclear reason="illegible" resp="#nhg" cert="low">live</unclear></del> quickly through the ears that hear me;</l></del>
+              <delSpan spanTo="#d1" rend="overstrike"/><l xml:id="l10">I transpose my <del rend="overstrike"><add rend="unmarked" place="supralinear">my</add></del> spirit</l><anchor xml:id="d1"/>
+         <delSpan spanTo="#d2" rend="overstrike"/><l>I pass <del rend="overstrike">as</del> <del rend="overstrike"><unclear reason="illegible" resp="#nhg" cert="low">live</unclear></del> quickly through the ears that hear me;</l><anchor xml:id="d2"/>
             <l xml:id="l04">I <subst><del rend="overstrike" seq="1">am</del> <add rend="unmarked" place="supralinear" seq="2">loosen</add></subst> the <del rend="overstrike">voice</del> tongue that was tied in <subst><del rend="overstrike" seq="1">you</del> <add rend="unmarked" place="interlinear" seq="2">them</add></subst></l>
             <l xml:id="l05"><del rend="overstrike">In me</del> It begins to talk out of my mouth</l>
-            <del rend="overstrike"><l>I pass quiet</l></del>
+            <delSpan spanTo="#d3" rend="overstrike"/><l>I pass quiet</l><anchor xml:id="d3"/>
          <l xml:id="l06">I celebrate myself to celebrate you:</l>
-              <del rend="overstrike"><l xml:id="l09">I am the voice of another man</l></del> 
+              <delSpan spanTo="#d4" rend="overstrike"/><l xml:id="l09">I am the voice of another man</l><anchor xml:id="d4"/> 
             <l xml:id="l11"><subst><del rend="overstrike" seq="1">What I</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="supralinear" seq="2">I speak</add></del></subst> <del rend="overstrike">The</del> <del rend="overstrike">What I speak <gap reason="illegible, deletion" quantity="1" unit="word"/></del> <del rend="overstrike"><add rend="unmarked" place="supralinear">speak</add></del> <subst><del rend="overstrike" seq="1">I <del rend="overstrike">say</del> for of</del> <add rend="unmarked" place="supralinear" seq="2">I <subst><del rend="overstrike" seq="1">speak</del> <add rend="unmarked" place="interlinear" seq="2">say</add></subst> the same word for</add></subst> every man and woman alive</l>
-         <add rend="unmarked" place="interlinear"><l xml:id="l07">And I say that the soul is not greater than the Body</l>
-            <l xml:id="l08">And I say that the Body is not greater than the Soul.</l></add></lg>
+         <addSpan spanTo="#a2" rend="unmarked" place="interlinear"/><l xml:id="l07">And I say that the soul is not greater than the Body</l>
+            <l xml:id="l08">And I say that the Body is not greater than the Soul.</l><anchor xml:id="a2"/></lg>
          
          <pb xml:id="leaf001v" facs="duk_nhg.00441_large.jpg" type="verso"/>
          

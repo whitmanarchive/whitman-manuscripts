@@ -21,7 +21,7 @@
                     <persName xml:id="aj">Andy Jewell</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -53,8 +53,8 @@
                     published first in the 1881 edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript was likely written in the <date notBefore="1878" notAfter="1881">late 1870s or early 1880s</date>.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <date xml:id="dat1" cert="high" notBefore="1878" notAfter="1881">Late 1870s or early
                         1880s</date>
                     <title>Papers of Walt Whitman</title>
@@ -64,7 +64,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-07-26" who="#nhg">proofed, added verso</change>
             <change when="2016-04-15" who="#bb">filled out list of people in titleStmt/respStmt; corrected @resp values; fixed encoding of alternation; removed profileDesc; corrected orgName</change>
             <change when="2015-05-06" who="#bb">converted, added schematron declaration</change>
@@ -106,7 +106,7 @@
                         <del rend="overstrike">amours?</del>
                     
                 </l>
-                <del rend="overstrike"><l>The phantasm thou art making life?</l></del>
+                <delSpan spanTo="#d2" rend="overstrike"/><l>The phantasm thou art making life?</l><anchor xml:id="d2"/>
                 <anchor xml:id="d1"/>
                 <l>Hast never come to thee <add place="supralinear" rend="unmarked">in life</add>
                     <subst>

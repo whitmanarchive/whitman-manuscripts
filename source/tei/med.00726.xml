@@ -20,7 +20,7 @@
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                 <persName xml:id="kmp">Kenneth M. Price</persName>
-                <persName xml:id="bb">Brett Barney</persName></respStmt>
+                <persName xml:id="bb">Brett Barney</persName><persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -63,21 +63,21 @@
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
                             <date when="1984">1984</date>
-                            <biblScope type="page">163</biblScope>
-                            <biblScope type="volume">1</biblScope>
+                            <biblScope unit="page">163</biblScope>
+                            <biblScope unit="volume">1</biblScope>
                         </imprint>
                     </monogr>
                     <note type="project">Grier based his text on <hi rend="italic">Notes and Fragments</hi>, ed. Richard Maurice Bucke (London, Ontario: A. Talbot &amp; Co., printers, 1899), 168.</note>
                 </biblStruct>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title rend="bracketed">For example, whisper</title>                  
                     <date xml:id="dat1" notBefore="1845" notAfter="1855" cert="low">Before 1855</date>
                     <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-12-18" who="#bb">tweaked wording of work note</change>
             <change when="2019-10-04" who="#nhg">removed nyp.00112 content, updated notes</change>
             <change when="2018-11-08" who="#nhg">added inline relations</change>

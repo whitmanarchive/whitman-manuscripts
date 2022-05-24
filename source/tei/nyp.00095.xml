@@ -12,7 +12,7 @@
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="jo">John Owen Havard</persName>
                <persName xml:id="cf">Chris Forster</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -40,8 +40,8 @@
             <note type="project" target="dat1">In his transcription of this manuscript, Richard Maurice Bucke combined it with three other manuscripts: see <ref target="nyp.00097.html">nyp.00097</ref>, <ref target="uva.00283.html">uva.00283</ref>, and <ref target="uva.00134.html">uva.00134</ref> (<hi rend="italic">Notes and Fragments</hi> [London, Ontario: A. Talbot &amp; Co., printers, 1899], 28–29). Though the subject matter is similar, the manuscripts do not appear to be continuous. The manuscript has been pasted down, so an image of the back of the leaf is unavailable.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>Have you known that your limbs must not dangle</title>
                <date cert="low" notBefore="1850" notAfter="1860" xml:id="dat1">Between 1850 and 1860</date>
                <idno type="callno">b19877321</idno><!--UUID: 67b1ce50-c5d9-012f-fb94-58d385a7bc34-->
@@ -50,7 +50,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2018-12-18">updated editorial note, checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
          <change who="#jo" when="2005-08-01">Proofed</change>

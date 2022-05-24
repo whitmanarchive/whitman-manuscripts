@@ -13,7 +13,7 @@
                <persName xml:id="kc">Kirsten Clawson</persName>
                <persName xml:id="jc">Janel Cayer</persName>
                <persName xml:id="bb">Brett Barney</persName>
-            <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+            <persName xml:id="kmp">Kenneth M. Price</persName><persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -41,8 +41,8 @@
             <note type="project" target="#dat1">This document consists of two manuscript scraps pasted together to make one leaf. Based on the handwriting, Edward Grier dates the top scrap to the 1860s and the bottom scrap to the 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:474). The relationship of the first scrap to Whitman's published work is unclear, although Grier notes that "Parsons was a [New York] street preacher who was arrested December 11, 1853 by order of Mayor Jacob Aaron Westervelt (1800–1879) for his incendiary anti-Catholic, anti-foreign speeches. [Whitman], as political journalist, was interested in the resulting 'freedom of speech' controversies. The march referred to took place on December 18" (1:474).  Portions of the second scrap are related to "Great Are the Myths," first published, untitled, in the 1855 edition of <hi rend="italic">Leaves of Grass</hi> as the concluding poem, and again in the 1856 edition as "Poem of a Few Greatnesses." These two scraps are largely unrelated: perhaps the only connection between the two is the theme of silence.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author xml:id="ww">Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>Silence</title>
                <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1865">Between 1850 and 1865</date>
                <idno type="callno"/>
@@ -60,7 +60,7 @@
             <handNote xml:id="h2" scribeRef="#ww" medium="pencil"/>
          </handNotes>
       </profileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2019-02-11" who="#bb">added inline relations for last two abs</change>
          <change when="2017-10-24" who="#nhg">added inline relations information</change>
          <change when="2016-03-21" who="#nhg">edited date note</change>

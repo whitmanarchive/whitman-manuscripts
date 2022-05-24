@@ -20,7 +20,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="bjo">Brandon James O'Neil</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -47,8 +47,8 @@
                     the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The first line in this manuscript matches a line in the "<ref target="../notebooks/transcriptions/loc.00141.html">Talbot Wilson</ref>" notebook (recto leaf 38), and is similar in structure to lines that appeared in the first poem in the 1855 edition of <hi rend="italic">Leaves</hi>, eventually titled "Song of Myself." The image of the poet navigating stairs also appears in what would become section 44 of "Song of Myself."</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>I am become the poet of babes and</title>
                     <idno type="callno">MSS 3829, Box-folder 1:88</idno>
                     <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
@@ -65,7 +65,7 @@
                 <handNote scribeRef="#unk" xml:id="h1"><persName xml:id="unk">Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2018-11-18" who="#nhg">checked, corrected, edited relations</change>
             <change when="2018-01-25" who="#bjo">transcribed and encoded</change>
         </revisionDesc>
@@ -82,7 +82,7 @@
                     <milestone unit="glued"/>
             <lg type="linegroup">
                     <l xml:id="l02">I descend <unclear reason="illegible" resp="#nhg" cert="medium">many</unclear> steps—I go backward primeval</l> 
-                <del rend="overstrike"><l xml:id="l03">My equanimous <del rend="overstrike">arms</del> feet</l></del> <note place="right" type="authorial"><del rend="overstrike">209</del></note>
+                <delSpan spanTo="#d1" rend="overstrike"/><l xml:id="l03">My equanimous <del rend="overstrike">arms</del> feet</l><anchor xml:id="d1"/> <note place="right" type="authorial"><del rend="overstrike">209</del></note>
                     <l xml:id="l04">I <del rend="overstrike">surround</del> retrace <subst><del rend="overstrike" seq="1">things</del> <add place="supralinear" rend="unmarked" seq="2">steps</add></subst> oceanic—I pass<lb/>
                     <del rend="overstrike">to</del> around not merely my own kind, but<lb/> 
                         all the objects I see.—</l>

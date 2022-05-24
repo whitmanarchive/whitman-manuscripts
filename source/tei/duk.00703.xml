@@ -12,7 +12,7 @@
           <persName xml:id="nhg">Nicole Gray</persName>
           <persName xml:id="km">Kevin McMullen</persName>
           <persName xml:id="kmp">Kenneth M. Price</persName>
-        </respStmt>
+        <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
         <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
         <sponsor>University of Iowa</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -39,8 +39,8 @@
         <note type="project" target="#dat1">Based on the handwriting, Edward Grier dates this manuscript to the 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:12). In the Walt Whitman Collection at Duke, this manuscript is bound with three other manuscript leaves and two newspaper clippings, also about members of Whitman's family. It is not clear, however, whether Whitman or a collector bound together the items, which are on different sizes and types of paper and were written at different times.</note>
       </notesStmt>
       <sourceDesc>
-        <bibl>
-          <author>Walt Whitman</author>          
+        <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
           <title>Isaac Joseph Stephen Jesse (my grandfather)...</title>
           <date xml:id="dat1" notBefore="1850" notAfter="1860" cert="medium">Between 1850 and 1860</date>          
           <idno type="callno">MS 120</idno>
@@ -49,7 +49,7 @@
         </bibl>
       </sourceDesc>
     </fileDesc>
-    <revisionDesc>
+    <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
       <change when="2016-12-01" who="#kmp">blessed</change>
 <change when="2016-08-30" who="#nhg">checked, corrected</change>
       <change when="2016-08-10" who="#km">checked</change>

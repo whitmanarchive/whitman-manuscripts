@@ -11,7 +11,7 @@
                 pasted to the manuscript.</p>
         </work>
     </relations>
-    <teiHeader type="text">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title level="m" type="main">The man-of-war.-Bird</title>
@@ -28,7 +28,7 @@
                     <persName xml:id="zz">Zane Zimbelman</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -67,8 +67,8 @@
                
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author> Walt Whitman </author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <date xml:id="dat1" cert="high" notBefore="1869" notAfter="1876">Between 1869 and 1876</date>
                     <title>The Man-of-War Bird</title>
                     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and
@@ -84,7 +84,7 @@
                 <handNote xml:id="h3" scribeRef="#unk"/>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-12-01" who="#nhg">corrected</change>
             <change when="2016-09-26" who="#nhg">proofed, encoded notes</change>
             <change when="2016-01-14" who="#bb">updated list of staff in titleStmt</change>
@@ -128,9 +128,9 @@
                                                 
     <add place="supralinear" rend="unmarked" seq="2">&amp; in it</add>
                                             </subst> the frigate bird</ab>
-                <add rend="pasteon">
+                <addSpan spanTo="#a1" rend="pasteon"/>
                 <floatingText rend="flat"><body><ab><handShift rend="printed"/>The Frigate Bird.</ab></body></floatingText>
-                </add>
+                <anchor xml:id="a1"/>
             </div1>
             <pb facs="yal.00005.002.jpg" xml:id="leaf001v" type="verso"/>
             <note type="archival" resp="#h1" place="top">58.</note>

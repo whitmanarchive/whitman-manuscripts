@@ -12,7 +12,7 @@
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="kmp">Kenneth M. Price</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -40,8 +40,8 @@
                 <note type="project" target="#dat1">Based on the handwriting, Edward Grier dates the notes about names of various tribes of people to the 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 5:1663). The name and address written in pencil were added later, likely in 1881, when Whitman visited Boston several times, first to deliver a lecture and then to oversee the production of the 1881 edition of <hi rend="italic">Leaves of Grass</hi>. Although Whitman also visited Boston in 1860, John Soule's photography studio did not move to 338 Washington Street, the address that Whitman lists, until the 1870s.</note>             
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>Untitled holograph manuscripts and fragments</title>                  
                     <idno type="callno">MSS 202, Box 3, Folder 140</idno>
                     <date xml:id="dat1" notBefore="1850" notAfter="1881" cert="medium">Between 1850 and 1881</date>
@@ -57,7 +57,7 @@
                 <handNote xml:id="h3" scribeRef="#unk" medium="pencil"><persName>Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2017-03-29" who="#kmp">blessed</change>
             <change when="2017-02-06" who="#km">corrected WWA title</change>
             <change when="2016-08-02" who="#nhg">checked, corrected</change>

@@ -20,7 +20,7 @@
                     <persName xml:id="nk">Nick Krauter</persName>
                     <persName xml:id="hm">Heather Morton</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -52,8 +52,8 @@
                         <date when="1888">1888</date>, shortly before the poem's publication.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>Paumanok</title>
                     <date xml:id="dat1" cert="high" notBefore="1888-01" notAfter="1888-02-29">Early 1888</date>
                     <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of
@@ -63,7 +63,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-09-08" who="#nhg">proofed, adjusted date attribute content</change>
             <change when="2016-02-09" who="#bb">updated list of staff in titleStmt</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>

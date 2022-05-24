@@ -29,7 +29,7 @@
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="kmp">Kenneth M. Price</persName>
                     <persName xml:id="rc">Regan Chasek</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -57,8 +57,8 @@
                 <note type="project" target="#dat1">Edward Grier writes of this manuscript that "[t]he sentiments and the handwriting are those of 1855 or earlier" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:186). Some of the language is similar to wording in the 1855 and 1856 poems that would be titled "Song of Myself," "A Song for Occupations," and "Salut au Monde!" At some point, this manuscript formed part of <ref target="../index-scrapbook.html">Whitman's cultural geography scrapbook</ref>.</note>             
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>The most perfect wonders...</title>                  
                     <idno type="callno">b15520479, UUID 74f6ea30-c6b4-012f-e567-58d385a7bc34</idno>
                     <date xml:id="dat1" notBefore="1850" notAfter="1860" cert="low">1850s</date>
@@ -67,7 +67,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2020-05-13" who="#nhg">edited date and relations</change>
             <change when="2019-10-15" who="#km">added line about scrapbook to editorial note</change>
             <change when="2018-11-16" who="#nhg">added inline relations</change>
@@ -93,9 +93,15 @@
             
             <p xml:id="p02"><metamark function="transpose" place="left">tr down</metamark> Man! Woman! Youth! wherever you are, in the Northern, Southern, Eastern, or Western States—in <choice><orig>Kanada</orig><reg>Canada</reg></choice>—by the sea-coast, or far inland—<del rend="overstrike">the</del></p> 
             
-            <p><del rend="overstrike">Th</del> What is more amazing than the <del rend="overstrike">day</del> sun-rise, the day, the floods of light enveloping <del rend="overstrike">the</del> fields, <del rend="overstrike">t</del> waters, grass, trees, persons?—What is more beautiful than the night, the full <transpose xml:id="tr01" rend="circled" anchored="1" target="#tr02">moon, and the stars?—The prairies, the lakes, <del rend="overstrike"><unclear reason="illegible" cert="high" resp="#km">t</unclear></del> rivers, forests<subst><add rend="unmarked" place="inline" seq="2">,</add><del rend="overstrike" seq="1">—all</del></subst> are</transpose></p>
+            <p><del rend="overstrike">Th</del> What is more amazing than the <del rend="overstrike">day</del> sun-rise, the day, the floods of light enveloping <del rend="overstrike">the</del> fields, <del rend="overstrike">t</del> waters, grass, trees, persons?—What is more beautiful than the night, the full <seg xml:id="tr01" rend="lasso">moon, and the stars?—The prairies, the lakes, <delSpan spanTo="#d1" rend="overstrike"/><unclear reason="illegible" cert="high" resp="#km">t</unclear><anchor xml:id="d1"/> rivers, forests<subst><add rend="unmarked" place="inline" seq="2">,</add><del rend="overstrike" seq="1">—all</del></subst> are</seg></p>
             
-            <p xml:id="p04">Not distant caverns, volcanoes, cataracts, curious islands, birds, foreign cities, architecture, costumes, markets, ceremonies, shows, are any more wonderful than <metamark xml:id="tr02" function="transpose" target="#tr01" rend="bracketed">‸</metamark> what is common to you, near you now, and continually with you.—</p>
+            <p xml:id="p04"><seg xml:id="tr02">Not distant caverns, volcanoes, cataracts, curious islands, birds, foreign cities, architecture, costumes, markets, ceremonies, shows, are any more wonderful than</seg>
+                <listTranspose>
+                    <transpose>
+                        <ptr target="#tr02"/>
+                        <ptr target="#tr01"/>
+                    </transpose>
+                </listTranspose> <metamark function="transpose" target="#tr01">‸</metamark> what is common to you, near you now, and continually with you.—</p>
             
             <pb xml:id="leaf001v" facs="nyp_rc.00005.jpg" type="verso"/>
             

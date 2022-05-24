@@ -23,7 +23,7 @@
                <resp>Transcription and encoding</resp>
                <persName xml:id="cah">Caitlin Henry</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -53,8 +53,8 @@
                the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Language in the manuscript is similar to lines that appeared in the fifth poem in that edition, later titled "I Sing the Body Electric." For further discussion of the relationship between this manuscript and the 1855 <hi rend="italic">Leaves of Grass</hi>, see Kenneth M. Price, "The Lost Negress of 'Song of Myself' and the Jolly Young Wenches of Civil War Washington," in <hi rend="italic">Leaves of Grass: The Sesquicentennial Essays</hi>, ed. Susan Belasco, Ed Folsom, and Kenneth M. Price (Lincoln, NE: University of Nebraska Press, 2007), 229–30. The manuscript has been pasted down, so an image of the reverse is not currently available.</note>                     
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>undulating swiftly merging from womb to birth</title>
                <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
                <idno type="callno">b19877231</idno> <!-- Universal Unique Identifier (UUID): 59dbf160-c5d9-012f-f298-58d385a7bc34 -->
@@ -63,7 +63,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2019-06-04">checked, corrected</change>
          <change who="#cah" when="2019-02-15">transcribed, encoded, added relations info</change>
       </revisionDesc>

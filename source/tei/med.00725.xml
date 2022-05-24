@@ -18,7 +18,7 @@
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="bb">Brett Barney</persName>
                     <persName xml:id="ss">Stefan Schöberlein</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName><persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -61,21 +61,21 @@
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
                             <date when="1984">1984</date>
-                            <biblScope type="page">86–87</biblScope>
-                            <biblScope type="volume">1</biblScope>
+                            <biblScope unit="page">86–87</biblScope>
+                            <biblScope unit="volume">1</biblScope>
                         </imprint>
                     </monogr>
                     <note type="project">Grier based his text on <hi rend="italic">The Uncollected Poetry and Prose of Walt Whitman</hi>, ed. Emory Holloway (Garden City, NY: Doubleday, Page &amp; Co., 1921), 2:77–78.</note>
                 </biblStruct>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title rend="bracketed">1848 New Orleans</title>                  
                     <date xml:id="dat1" notBefore="1848" notAfter="1887" cert="high">Between 1848 and 1887</date>
                     <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2017-03-01" who="#bb">corrected the name 'DaPonte' based on information from Stefan and added note about the change in sourceDesc/note</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-12-05" who="#bb">reconciled with EAD record</change>

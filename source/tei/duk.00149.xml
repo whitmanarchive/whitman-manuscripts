@@ -19,7 +19,7 @@
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="kmp">Kenneth M. Price</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -48,8 +48,8 @@
             </notesStmt>
             <sourceDesc>
                 
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author sameAs="#ww">Whitman, Walt</author>
+                    
                     <title>Slavery—the Slaveholders—The Constitution</title>
                     <date xml:id="dat1" cert="high" notBefore="1850" notAfter="1860">Between 1850 and 1860</date>
                     <idno type="callno">Box II-5A 40</idno>
@@ -67,7 +67,7 @@
                 </handNotes>
             
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2017-02-08" who="#km">changed position of opening handshift</change>
             <change when="2016-09-12" who="#nhg">corrected</change>
@@ -89,9 +89,9 @@
             
             <note type="editorial" resp="#unk" place="top">1</note><!-- In comparing these page numbers to the numbers on the versos of several of the leaves, I am almost certain that the handwriting is Whitman's (see the similarities in the 2s and 6s). But I have left it as "unknown" for now. KM -->
             
-            <add rend="pasteon">                    
+            <addSpan spanTo="#a1" rend="pasteon"/>                    
                     <floatingText><body><p><handShift new="#h1"/>Slavery—the Slaveholders—The Constitution—the true America and Americans, the laboring persons.—</p></body></floatingText>
-            </add>
+            <anchor xml:id="a1"/>
             
             <milestone unit="glued"/>
             

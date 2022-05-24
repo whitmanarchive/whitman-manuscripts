@@ -26,7 +26,7 @@
                     <persName xml:id="cah">Caitlin Henry</persName>
                     <persName xml:id="bb">Brett Barney</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -55,8 +55,8 @@
                 <note type="project" target="#dat1">The imagery of this manuscript is echoed in several other manuscripts, as well as in a line of the opening poem of the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>—the poem eventually titled "Song of Myself" (see "<ref target="loc.00142">you know how</ref>," "<ref target="nyp.00129">I know a rich capitalist</ref>," and "<ref target="nyp.00733">the crowds naked in the</ref>"). These relationships suggest that this manuscript dates to early in 1855 or before. Edward Grier has observed that "the writing suggests a date in the 1850s" (see <hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:136).</note>             
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title rend="bracketed">The power by which the</title>                  
                     <idno type="callno">b15520479</idno>
                     <date xml:id="dat1" notBefore="1850" notAfter="1855" cert="medium">Before or early in 1855</date>
@@ -65,7 +65,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc> 
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-10-24" who="#smb">updated mss notes</change>
          <change who="#bb" when="2019-06-03">altered wording of date note based on Ken's review</change>
             <change when="2019-05-13" who="#bb">checked; edited</change>

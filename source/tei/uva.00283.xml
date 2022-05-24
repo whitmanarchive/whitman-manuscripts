@@ -16,7 +16,7 @@
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="jr">Joshua Ranger</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -44,8 +44,8 @@
             <note type="project" target="dat1">This manuscript is distantly similar in topic and wording to language in the preface to the 1855 <hi rend="italic">Leaves of Grass</hi>, suggesting the manuscript may have been written in the early to mid-1850s. In his transcription, Richard Maurice Bucke combines it with three other manuscripts: see <ref target="nyp.00095.html">nyp.00095</ref>, <ref target="nyp.00097.html">nyp.00097</ref>, and <ref target="uva.00134.html">uva.00134</ref> (<hi rend="italic">Notes and Fragments</hi> [London, Ontario: A. Talbot &amp; Co., printers, 1899], 28–29). Though the subject matter is similar, the manuscripts do not appear to be continuous.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>Who wills with his own brain</title>
                <date cert="medium" notBefore="1850" notAfter="1860" xml:id="dat1">Between 1850 and 1860</date>
                <idno type="callno">MSS 3829, Box-folder 1:88</idno>
@@ -59,7 +59,7 @@
             <handNote scribeRef="#unk" xml:id="h1"><persName xml:id="unk">Unknown</persName></handNote>
          </handNotes>
       </profileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2019-10-15">edited note</change>
          <change who="#nhg" when="2018-12-18">checked, corrected, added relations info and updated editorial note</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>

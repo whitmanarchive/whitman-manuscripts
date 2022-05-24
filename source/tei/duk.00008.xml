@@ -18,7 +18,7 @@
                <persName xml:id="awj">Andrew Jewell</persName>
                <persName xml:id="bb">Brett Barney</persName>
                <persName xml:id="kmp">Kenneth M. Price</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -46,8 +46,8 @@
             <note type="project" target="#dat1">The similarity of this manuscript to other drafts of lines that were used in poems published in the 1855 <hi rend="italic">Leaves of Grass</hi> would suggest that it was probably written between 1850 and 1855. Although none of these lines relate directly to lines published in that edition, the topic and some of the comparisons are similar to what would ultimately become sections 28 through 30 of "Song of Myself."</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>And now it seems the dark, uncut hair of graves</title>
                <idno type="callno">MS 4 to 1</idno>
                <date notBefore="1850-01-01" notAfter="1855-12-31" cert="medium">Between 1850 and 1855</date>
@@ -59,7 +59,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2019-06-01" who="#kmp">blessed</change>
          <change when="2019-06-01" who="#nhg">corrected editorial note</change>
          <change when="2018-10-03" who="#nhg">checked, corrected</change>
@@ -75,12 +75,12 @@
       <body>
          <pb facs="duk_nhg.00757a_large.jpg" type="recto" xml:id="leaf001r"/>
          <delSpan spanTo="#d1" rend="hashmark"/>
-         <del rend="overstrike"><note type="authorial" place="top">204</note></del><!--NOTE: this number is written in ink-->
+         <delSpan spanTo="#d2" rend="overstrike"/><note type="authorial" place="top">204</note><anchor xml:id="d2"/><!--NOTE: this number is written in ink-->
          <lg type="linegroup">
             <l xml:id="l01">My tongue <subst><del rend="overstrike" seq="1">must</del> <add rend="unmarked" place="supralinear" seq="2">can never</add></subst> be content with <subst><del rend="overstrike" seq="1"><unclear reason="illegible" cert="medium" resp="#nhg">pap</unclear></del> <add place="supralinear" rend="unmarked" seq="2">harness</add></subst><lb/>
              <del rend="overstrike" seq="1">from this</del> <add place="inline" rend="unmarked" seq="2">after this,</add></l>
                
-               <l xml:id="l02">It <del rend="overstrike"><unclear reason="deletion, illegible" resp="#awj" cert="medium">c</unclear></del> will not talk <del rend="overstrike">m<gap reason="deletion, illegible"/></del> in traces,</l>
+               <l xml:id="l02">It <delSpan spanTo="#d3" rend="overstrike"/><unclear reason="deletion, illegible" resp="#awj" cert="medium">c</unclear><anchor xml:id="d3"/> will not talk <del rend="overstrike">m<gap reason="deletion, illegible"/></del> in traces,</l>
                
             <l xml:id="l03"><del rend="overstrike">It gives up the bit, and</del> <del rend="erasure"><add rend="insertion" place="supralinear"><gap reason="deletion, illegible"/></add></del> any more.</l>
          </lg>

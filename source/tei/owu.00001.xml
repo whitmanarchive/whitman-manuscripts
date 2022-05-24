@@ -16,7 +16,7 @@
                     <persName xml:id="aj">Andrew Jewell</persName>
                     <persName xml:id="kmp">Kenneth M. Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -53,8 +53,8 @@
                     Whitman had most reason to employ imagery of marching.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>[A procession without halt]</title>
                     <date xml:id="dat1" cert="low" notBefore="1861" notAfter="1870">Between 1861 and 1870</date>
                     <orgName xml:id="owu">The Bayley-Whitman Collection, Ohio Wesleyan University, Delaware,
@@ -64,7 +64,7 @@
             </sourceDesc>
         </fileDesc>
 
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-11-28" who="#nhg">revised editorial note</change>
             <change when="2016-09-12" who="#nhg">proofed</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
@@ -101,7 +101,7 @@
                         <lb/>in the <del rend="overstrike"><unclear reason="deletion, illegible" resp="#ap" cert="medium">g</unclear></del> hollows, stretched
                         <lb/>interminably over the plains,
                     </l>
-                    <del rend="overstrike"><l>
+                    <delSpan spanTo="#d1" rend="overstrike"/><l>
                         
                            No eye so far‑reaching as to
                             <lb/>see where the <subst>
@@ -112,7 +112,7 @@
                                                                     </subst>
 
                         
-                    </l></del>
+                    </l><anchor xml:id="d1"/>
                     <l>No eye that ever saw the starting—
                         <lb/>no eye that ever <del rend="overstrike">shall</del> need
                         <lb/>wait for the ending

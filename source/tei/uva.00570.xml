@@ -17,7 +17,7 @@
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="mc">Michael Carmody</persName>
                <persName xml:id="ah">Amy Hezel</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -45,8 +45,8 @@
             <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Lines from the manuscript were included in the first poem in that edition, eventually titled "Song of Myself."</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>I am a student</title>
                <date cert="medium" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
                <idno type="callno">MSS 3829, Box-folder 1:88</idno>
@@ -59,7 +59,7 @@
          </sourceDesc>
       </fileDesc>
 
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2019-10-10" who="#nhg">added inline relations</change>
          <change when="2018-11-27" who="#nhg">checked, corrected, added relations</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
@@ -80,11 +80,11 @@
             <l xml:id="l02">He <unclear reason="illegible" resp="#ah" cert="medium">swoops</unclear> by me, <add rend="insertion" place="supralinear">
                and rebukes me</add> hoarse<add rend="unmarked" place="inline">ly</add> with his invitation;</l>
             
-            <add rend="unmarked" place="interlinear"><l xml:id="l03">He complains with sarcastic voice of my lagging</l></add>
+            <addSpan spanTo="#a1" rend="unmarked" place="interlinear"/><l xml:id="l03">He complains with sarcastic voice of my lagging</l><anchor xml:id="a1"/>
             
             <l xml:id="l04">I feel apt to clip it, and go;</l>
             
-            <del rend="overstrike"><add rend="unmarked" place="interlinear"><l xml:id="l05">I am W W— — the American</l></add></del>
+            <delSpan spanTo="#d1" rend="overstrike"/><addSpan spanTo="#a2" rend="unmarked" place="interlinear"/><l xml:id="l05">I am W W— — the American</l><anchor xml:id="a2"/><anchor xml:id="d1"/>
             
             <l xml:id="l06">I am 
                <subst><del rend="overstrike" seq="1">but</del> <add rend="unmarked" place="supralinear" seq="2">not</add>

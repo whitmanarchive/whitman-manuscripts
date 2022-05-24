@@ -19,7 +19,7 @@
                <persName xml:id="zb">Zach Bajaber</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="km">Kevin McMullen</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -47,8 +47,8 @@
                   <note type="project" target="#dat1">The repository's catalog card for this manuscript estimates the date of composition as "ca. 1880." This estimate seems to be based on the manuscript's mention of "Neversink," which was tied to Whitman's poem cluster "Fancies at Navesink," first published in the magazine <hi rend="italic">Nineteenth Century</hi> in August 1885. However, the handwriting in the manuscript would seem to indicate a much earlier date, probably before the publication of <hi rend="italic">Leaves of Grass</hi> in 1855. Most of the fragment describes a moving panorama, a popular form of entertainment during the antebellum period. The juxtaposition Whitman sets up in this manuscript (of painted panorama to actual landscape) appears in a line published in the 1855 and 1856 editions of <hi rend="italic">Leaves of Grass</hi>, in the poem eventually titled "Song of Myself": "The panorama of the sea . . . . but the sea itself?" (1855, p. 47)</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author sameAs="#ww">Whitman, Walt</author>
+               
                <title rend="bracketed">Walt Whitman unidentified prose</title>
                <date xml:id="dat1" cert="medium" notBefore="1840" notAfter="1855">About 1850</date>
                <idno type="callno">MA175, Box 1, Folder 10</idno>
@@ -63,7 +63,7 @@
             <handNote xml:id="h2" scribeRef="#ww" medium="pencil"/>
          </handNotes>
       </profileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2017-02-23" who="#nhg">edited date note, added work relations information</change>
          <change when="2016-08-30" who="#nhg">checked, corrected</change>
          <change who="#km" when="2016-07-25">checked</change>

@@ -12,7 +12,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="bjo">Brandon James O'Neil</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             </titleStmt>
             <editionStmt>
                 <edition>
@@ -37,8 +37,8 @@
                 <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early to mid-1850s. Versions of these lines appeared in a long manuscript poem titled "<ref target="yal.00081.html">Pictures</ref>," which probably dates to the mid- to late 1850s. The first several lines of "Pictures" (not including these lines) were eventually revised and published as "My Picture-Gallery" in <hi rend="italic">The American</hi> in October 1880. The poem was later published in <hi rend="italic">Leaves of Grass</hi> as part of the "Autumn Rivulets" cluster.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title rend="bracketed">In the gymnasium</title>  
                     <idno type="callno">YCAL MSS 202</idno>
                     <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1860">Between 1850 and 1860</date>
@@ -50,7 +50,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-10-10" who="#nhg">edited note</change>
             <change when="2019-02-22" who="#nhg">edited note, updated relations info</change>
             <change when="2018-11-15" who="#nhg">checked, corrected, added relations info</change>

@@ -21,7 +21,7 @@
                     <persName xml:id="sb">Steven Boykewich</persName>
                     <persName xml:id="lr">Lisa Renfro</persName>
                     <persName xml:id="nk">Nick Krauter</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -55,8 +55,8 @@
                     Grass</hi>.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>As of Forms.</title>
                     <date xml:id="dat1" cert="high" notBefore="1856" notAfter="1860">Between 1856 and 1860</date>
                     <idno type="callno">(MSS 3829)</idno>
@@ -70,7 +70,7 @@
                 <handNote xml:id="h1" scribeRef="#unk"><persName xml:id="unk">Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-04-26" who="#nhg">checked, corrected</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
             <change when="2006-08-04" who="#nk">Added third digit to leaf numbers</change>
@@ -138,7 +138,7 @@
 
                         <lb/>tiently waits.—
                     </l>
-                    <add place="interlinear" rend="unmarked"><l>
+                    <addSpan spanTo="#a1" place="interlinear" rend="unmarked"/><l>
                         
                             Have you sought 
                             <unclear cert="medium" resp="#bb" reason="deletion, illegible"><subst><del rend="overstrike" seq="1">after</del>
@@ -146,7 +146,7 @@
                                             <add place="supralinear" rend="unmarked" seq="2">for</add></del></subst></unclear>
                             the inkling?
                         
-                    </l></add>
+                    </l><anchor xml:id="a1"/>
                     <l>Have you wandered <del rend="overstrike">far</del> after <del rend="overstrike">your
 
                         <lb/>inkling of</del> the meanings of the

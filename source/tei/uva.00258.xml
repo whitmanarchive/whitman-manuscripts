@@ -20,7 +20,7 @@
                <persName xml:id="cah">Caitlin Henry</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="km">Kenneth M. Price</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -50,8 +50,8 @@
          </notesStmt>
          
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>Topple down upon him</title>
                <idno type="callno">MSS 3829, Box-folder 1:88</idno> 
                <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
@@ -68,7 +68,7 @@
             <handNote scribeRef="#unk" xml:id="h1"><persName xml:id="unk">Unknown</persName></handNote>
          </handNotes>
       </profileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#km" when="2019-01-28">corrected, blessed</change>
          <change who="#nhg" when="2019-01-16">checked, corrected</change>
          <change who="#nhg" when="2019-01-15">checked relations info</change>
@@ -86,17 +86,17 @@
          <lg type="linegroup">
             <l xml:id="l01"><subst><del rend="overstrike" seq="1">Crash</del> <add rend="unmarked" place="supralinear" seq="2">Topple</add></subst> down upon him, <subst><del rend="overstrike" seq="1">Curse!</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="supralinear" seq="2"><unclear reason="illegible" resp="#km" cert="low">Cursing</unclear></add></del> <add rend="unmarked" place="supralinear" seq="4">Light!</add></subst> for <subst><del rend="overstrike" seq="1">I am</del> <add rend="insertion" place="supralinear" seq="2">you seem to me</add></subst> all one lurid <subst><del rend="overstrike" seq="1">Curse</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="supralinear" seq="2">oath</add></del> <add rend="unmarked" place="supralinear" seq="4">curse;</add></subst></l>
 
-            <del rend="overstrike"><l xml:id="l02">I look <subst><del rend="overstrike" seq="1">down</del> <add rend="unmarked" place="supralinear" seq="2">off</add></subst> the river with my bloodshot eyes, after<lb/> <note type="editorial" resp="#h1" place="top"><del rend="erasure">10</del></note>
-               <del rend="overstrike"><add rend="unmarked" place="inline">I see</add></del> the steamboat that carries <subst><del rend="overstrike" seq="1">off</del> <add rend="unmarked" place="supralinear" seq="2">away</add></subst> my woman.—</l></del>
-            <add rend="unmarked" place="interlinear"><l xml:id="l03">Damn him! how he does defile me</l></add>
+            <delSpan spanTo="#d1" rend="overstrike"/><l xml:id="l02">I look <subst><del rend="overstrike" seq="1">down</del> <add rend="unmarked" place="supralinear" seq="2">off</add></subst> the river with my bloodshot eyes, after<lb/> <note type="editorial" resp="#h1" place="top"><del rend="erasure">10</del></note>
+               <del rend="overstrike"><add rend="unmarked" place="inline">I see</add></del> the steamboat that carries <subst><del rend="overstrike" seq="1">off</del> <add rend="unmarked" place="supralinear" seq="2">away</add></subst> my woman.—</l><anchor xml:id="d1"/>
+            <addSpan spanTo="#a2" rend="unmarked" place="interlinear"/><l xml:id="l03">Damn him! how he does defile me</l><anchor xml:id="a2"/>
          </lg>
          <lg type="linegroup">
            
             <l xml:id="l04"><add rend="insertion" place="supralinear">This day, or some other,</add> I will have him and the like of him to
 <subst><del rend="overstrike" seq="1">curse the</del> <add rend="unmarked" place="supralinear" seq="2">do my will upon.</add></subst></l>
 
-            <add rend="unmarked" place="interlinear"><l xml:id="l05">They shall not <subst><del rend="overstrike" seq="1">hide themselves</del> <add rend="insertion" place="supralinear" seq="2">lie at peace</add></subst> even <del rend="overstrike">in their <subst><del rend="overstrike" seq="1">graves</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="inline" seq="2">tombs</add></del></subst></del> with pennies on their eyes</l>
-</add>
+            <addSpan spanTo="#a1" rend="unmarked" place="interlinear"/><l xml:id="l05">They shall not <subst><del rend="overstrike" seq="1">hide themselves</del> <add rend="insertion" place="supralinear" seq="2">lie at peace</add></subst> even <del rend="overstrike">in their <subst><del rend="overstrike" seq="1">graves</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="inline" seq="2">tombs</add></del></subst></del> with pennies on their eyes</l>
+<anchor xml:id="a1"/>
             <l xml:id="l06">I <subst><del rend="overstrike" seq="1">will</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="infralinear">would</add></del> <add rend="unmarked" place="infralinear" seq="4">will</add></subst>
 break the lids off their coffins but what<lb/>
                I will have then</l>

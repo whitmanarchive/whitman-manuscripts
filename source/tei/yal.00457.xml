@@ -14,7 +14,7 @@
                     <persName xml:id="jc">Janel Cayer</persName>
                 <persName xml:id="kmp">Kenneth M. Price</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -43,8 +43,8 @@
             </notesStmt>
             <sourceDesc>
                 
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>do nothing but lose from</title>    
                     <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1860">Between 1850 and 1860</date>
                     <idno type="callno"/>
@@ -56,7 +56,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2017-02-06" who="#km">edited date in metadata and wording of date note</change>
             <change when="2016-05-18" who="#kmp">blessed</change>
             <change when="2016-02-01" who="#nhg">adjusted relatedItem encoding</change>

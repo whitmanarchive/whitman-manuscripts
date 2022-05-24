@@ -21,7 +21,7 @@
                     <persName xml:id="jro">Jennifer R. Overkamp</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -54,8 +54,8 @@
                
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>Italian Music in Dakota</title>
                     <date xml:id="dat1" cert="high" notBefore="1879" notAfter="1881">Between 1879 and 1881</date>
                     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and
@@ -69,7 +69,7 @@
                 <handNote xml:id="h1" scribeRef="#unk"><persName xml:id="unk">Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-07-27" who="#nhg">proofed</change>
             <change when="2016-01-14" who="#bb">updated list of staff in titleStmt; corrected miscellaneous attribute errors</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
@@ -104,8 +104,8 @@
                     <l>Through the soft evening air, enwinding all,</l>
                     <l>Rocks, woods, fort, cannon, pacing sentries, <add place="supralinear" rend="insertion">endless wilds,</add>
 </l>
-                    <del rend="overstrike"> <l>Ray'd in the limpid, yellow slanting 
-                            <lb/>sundown,</l></del>
+                    <delSpan spanTo="#d1" rend="overstrike"/> <l>Ray'd in the limpid, yellow slanting 
+                            <lb/>sundown,</l><anchor xml:id="d1"/>
                     <l>
 <subst>
                             
@@ -113,7 +113,7 @@
                                                         
     <add place="supralinear" rend="unmarked" seq="2">In</add>
                                                     </subst> dulcet strains, in flutes' &amp; cornets' notes,</l>
-                    <del rend="overstrike"><add place="interlinear" rend="unmarked"><l>Ray'd in the limpid, yellow, slanting sundown;</l></add></del>
+                    <delSpan spanTo="#d2" rend="overstrike"/><addSpan spanTo="#a1" place="interlinear" rend="unmarked"/><l>Ray'd in the limpid, yellow, slanting sundown;</l><anchor xml:id="a1"/><anchor xml:id="d2"/>
                     <l>Electric, pensive, turbulent, artificial,</l>
                     <pb facs="yal.00003.002.jpg" xml:id="leaf001v" type="verso"/>
                     <note type="archival" resp="#h1" place="top">H.G. 194</note>
