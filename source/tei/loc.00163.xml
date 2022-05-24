@@ -121,16 +121,23 @@
 	<l xml:id="q03"><del rend="overstrike">A father</del> A mother as well as father, a child as well as a man;</l>
 	<l xml:id="q04"><subst><del rend="overwrite" seq="1"><unclear reason="illegible" cert="low" resp="#kc">A</unclear></del><add rend="overwrite" place="over" seq="2">N</add></subst>ot only an American, but an African Europeand, and Asiatic,</l>
 	
-	<metamark xml:id="tr02" function="transpose" place="left" target="#tr01"><handShift new="#h1"/>+</metamark>
+	<metamark xml:id="tr02" function="transpose" place="left" target="#q06"><handShift new="#h1"/>x</metamark>
 	
 	<l xml:id="q05"><handShift new="#h2"/>A lawyer, a doctor, a priest, a <subst><del rend="overstrike" seq="1" hand="#h1">farmer</del> <add rend="unmarked" place="supralinear" seq="2" hand="#h1">sailor</add></subst>, an artist,</l>
 	
-	<metamark function="transpose" place="left" rend="bracketed"><handShift new="#h1"/>tr up +</metamark>
+	<metamark function="transpose" place="left" rend="bracketed" target="#tr02"><handShift new="#h1"/>tr up x</metamark>
 	
-	<transpose xml:id="tr01" rend="bracketed" anchored="1" target="#tr02">
 	<l xml:id="q06"><handShift new="#h2"/>A <add rend="insertion" place="supralinear" hand="#h1">farmer, a</add> carpenter, a blacksmith, <del rend="overstrike" hand="#h1">a sailor,</del> a cook,</l>
+	<listTranspose>
+		<transpose>
+			<ptr target="#q06"/>
+			<ptr target="#q05"/>
+		</transpose>
+	</listTranspose>
+	
 	<l xml:id="l10">Capable of all that is ugly and mean, and <add rend="insertion" place="supralinear">capable of</add> all that <lb/>is pure and heroic,</l>
-	</transpose>
+	
+	
 	
 	<l>Ignorant and accomplished, a chaos and <subst><del rend="overstrike" seq="1">a perfect system</del> <add rend="unmarked" place="supralinear" seq="2">an answering purpose;</add></subst></l>
 	<metamark function="deletion" place="left" target="#d04"><handShift new="#h1"/>? out</metamark><span rend="bracket-left" hand="#h1" xml:id="d04" from="#d04" to="#d05"/><l><handShift new="#h2"/>Elasticity <del rend="overstrike">is</del> I am—and I am the <subst><del rend="overstrike" seq="1">solid</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="supralinear" seq="2">palpable</add></del> <add rend="unmarked" place="infralinear" seq="4">dense</add></subst> rock—and <del rend="overstrike">I the</del> <add rend="insertion" place="supralinear">I this</add> invisible <del rend="overstrike"><add rend="insertion" place="supralinear">as the</add></del> gas of the air—</l><anchor xml:id="d05"/>
