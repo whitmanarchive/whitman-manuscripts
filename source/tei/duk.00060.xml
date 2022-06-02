@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00060">
-   <relations>
-      <work ref="xxx.00526" cert="low">
-         <p>The lines written at the top of this manuscript echo this sentence from the preface to the first edition of <hi rend="italic">Leaves of Grass</hi>: "Past and present and future are not disjoined but joined" (1855, p. vi). The second section of the manuscript bears some resemblance to the following phrase from the preface: "and all that is well thought or done this day on any part of the surface of the globe" (1855, p. x). The lines at the bottom of the manuscript are possibly related to the following phrases from the preface: "and there never grew up in any of the continents of the globe nor upon any planet or satellite or star . . . . nor in that condition that follows what we term death" (1855, p. ix).</p>
-      </work>
-   </relations>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00060">   
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,7 +19,9 @@
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="bb">Brett Barney</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -46,7 +46,10 @@
                 </availability>
             <idno>duk.00060</idno></publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Edward Grier notes that the handwriting of this manuscript "suggests an early date, possibly before 1860" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 4:1339). Resemblances to passages in the preface to the 1855 <hi rend="italic">Leaves of Grass</hi> are perhaps evidence that these notes constitute draft material for that edition. Another possibility is that these notes represent an attempt to recast ideas from the preface into poetry—a process that Whitman used successfully to create several new poems for the second edition of 1856. The note at the top of the manuscript lends credence to the second theory, as it follows the characteristic title structure unique to the second edition, although Whitman never published a poem under the title "Poem of Existence."</note>             
+                <note type="project" target="#dat1">Edward Grier notes that the handwriting of this manuscript "suggests an early date, possibly before 1860" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 4:1339). Resemblances to passages in the preface to the 1855 <hi rend="italic">Leaves of Grass</hi> are perhaps evidence that these notes constitute draft material for that edition. Another possibility is that these notes represent an attempt to recast ideas from the preface into poetry—a process that Whitman used successfully to create several new poems for the second edition of 1856. The note at the top of the manuscript lends credence to the second theory, as it follows the characteristic title structure unique to the second edition, although Whitman never published a poem under the title "Poem of Existence."</note>     
+                    <note type="work_relations" target="xxx.00526" cert="low">
+                        <p>The lines written at the top of this manuscript echo this sentence from the preface to the first edition of <hi rend="italic">Leaves of Grass</hi>: "Past and present and future are not disjoined but joined" (1855, p. vi). The second section of the manuscript bears some resemblance to the following phrase from the preface: "and all that is well thought or done this day on any part of the surface of the globe" (1855, p. x). The lines at the bottom of the manuscript are possibly related to the following phrases from the preface: "and there never grew up in any of the continents of the globe nor upon any planet or satellite or star . . . . nor in that condition that follows what we term death" (1855, p. ix).</p>
+                    </note>
             </notesStmt>
             <sourceDesc>
                 
@@ -60,7 +63,9 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+        <revisionDesc>
+            <change when="2022-06-02" who="#km">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2020-02-19" who="#nhg">added relation, edited date range</change>
             <change when="2019-05-02" who="#bb">edited date note based on Ken's suggestion</change>
             <change when="2019-04-04" who="#bb">checked; edited; added relations information</change>

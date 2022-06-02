@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00097">
-    <relations>
-        <work ref="xxx.00616" cert="high">
-            <p>Although it is not clear whether this manuscript or the poetry manuscript "I am that halfgrown angry boy" was written first, there is a clear relationship between the two.</p>
-        </work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00097">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,7 +18,8 @@
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -51,6 +48,9 @@
                     poem "<ref target="duk.00027.html">I am that half-grown angry boy</ref>." It is not possible to know with certainty
                     whether Whitman wrote the prose or the poetic lines first. However, Whitman's
                     usual practice of composition suggests that the prose preceded the verse. Based on the handwriting, Edward Grier dates this manuscript to the late 1840s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:46). Whitman's last known piece of published fiction appeared in 1852.</note>
+                    <note type="work_relations" target="xxx.00616" cert="high">
+                        <p>Although it is not clear whether this manuscript or the poetry manuscript "I am that halfgrown angry boy" was written first, there is a clear relationship between the two.</p>
+                    </note>
             </notesStmt>
             <sourceDesc>
                 
@@ -72,7 +72,9 @@
                     <handNote xml:id="h4" scribeRef="#ww" medium="brown-ink"/>
                 </handNotes>
             </profileDesc>
-        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+        <revisionDesc>
+            <change when="2022-06-02" who="#km">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2018-10-24" who="#nhg">updated title</change>
             <change when="2018-09-10" who="#nhg">updated image name</change>
             <change when="2017-01-23" who="#nhg">edited editorial note</change>
@@ -94,11 +96,10 @@
         <pb xml:id="leaf001r" facs="duk_nhg.01179.jpg" type="recto"/>
         
         <div1 type="prose">
-            <relations>
-                <work ref="xxx.00616" cert="high">
+                <note type="work_relations" target="xxx.00616" cert="high">
                     <p><ref type="text" xml:id="r01" target="#q01">Some of the language</ref> at the beginning of this story also appears in the draft poem "I am that half-grown angry boy."</p>
-                </work>
-            </relations>
+                </note>
+            
             
             <note type="authorial" place="top" rend="circled" resp="#h2">1</note>
             
