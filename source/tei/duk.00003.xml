@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00003">
- <relations>
-  <work ref="xxx.00231" cert="high">
-   <p>The prose drafted on the rectos of these manuscript leaves resembles ideas and phrases in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>. See, for instance, the lines: "What vast-built cities—What orderly republics—What pastoral tribes and nomads, / What histories, rulers, heroes, perhaps transcending all others, / What laws, customs, wealth, arts, traditions, / What sort of marriage—What costumes—What physiology and phrenology, / What of liberty and slavery among them—What they thought of death and the Soul, / Who were witty and wise—Who beautiful and poetic—Who brutish and undeveloped, / Not a mark, not a record remains—And yet all remains" (1860, p. 412) and "Some with oval countenances, learned and calm, / Some naked and savage—Some like huge collections of insects, / Some in tents—herdsmen, patriarchs, tribes, horsemen, / Some prowling through woods—Some living peaceably on farms, laboring, reaping, filling barns" (1860, p. 413).</p> 
-  </work>
- </relations>
- 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00003">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -22,7 +17,8 @@
      <persName xml:id="kc">Kirsten Clawson</persName>
      <persName xml:id="km">Kevin McMullen</persName>
      <persName xml:id="nhg">Nicole Gray</persName>
-    <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+     <persName xml:id="as">Ashlyn Stewart</persName>
+    </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
     <funder>The National Endowment for the Humanities</funder>
@@ -47,7 +43,10 @@
     </availability>
    <idno>duk.00003</idno></publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1">This prose essay includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript was therefore probably written between 1855 and 1860, and at one time likely formed part of <ref target="../marginalia/index-scrapbook.html">Whitman's cultural geography scrapbook</ref>. In a note accompanying his transcription, Edward Grier writes that "[Floyd] Stovall (<hi rend="italic">Foreground</hi>, 163–164) proposes the prefaces to C. K. J. Bunsen's <hi rend="italic">Egypt's Place in Universal History</hi> (5 vols., 1845–1867), vols. I and II, as a source" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 5:1924). Grier transcribed this text as continuous, based on a transcription in Richard Maurice Bucke's <hi rend="italic">Notes and Fragments</hi> (1899); we have done the same here.</note>             
+    <note type="project" target="#dat1">This prose essay includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript was therefore probably written between 1855 and 1860, and at one time likely formed part of <ref target="../marginalia/index-scrapbook.html">Whitman's cultural geography scrapbook</ref>. In a note accompanying his transcription, Edward Grier writes that "[Floyd] Stovall (<hi rend="italic">Foreground</hi>, 163–164) proposes the prefaces to C. K. J. Bunsen's <hi rend="italic">Egypt's Place in Universal History</hi> (5 vols., 1845–1867), vols. I and II, as a source" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 5:1924). Grier transcribed this text as continuous, based on a transcription in Richard Maurice Bucke's <hi rend="italic">Notes and Fragments</hi> (1899); we have done the same here.</note>
+     <note type="work_relations" target="xxx.00231" cert="high">
+      <p>The prose drafted on the rectos of these manuscript leaves resembles ideas and phrases in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>. See, for instance, the lines: "What vast-built cities—What orderly republics—What pastoral tribes and nomads, / What histories, rulers, heroes, perhaps transcending all others, / What laws, customs, wealth, arts, traditions, / What sort of marriage—What costumes—What physiology and phrenology, / What of liberty and slavery among them—What they thought of death and the Soul, / Who were witty and wise—Who beautiful and poetic—Who brutish and undeveloped, / Not a mark, not a record remains—And yet all remains" (1860, p. 412) and "Some with oval countenances, learned and calm, / Some naked and savage—Some like huge collections of insects, / Some in tents—herdsmen, patriarchs, tribes, horsemen, / Some prowling through woods—Some living peaceably on farms, laboring, reaping, filling barns" (1860, p. 413).</p> 
+     </note>
    </notesStmt>
    <sourceDesc>
     
@@ -68,7 +67,9 @@
     </bibl>
    </sourceDesc>
 </fileDesc>
-<revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+<revisionDesc>
+ <change when="2022-06-02" who="#km">updated relations encoding</change>
+ <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
  <change when="2020-01-30" who="#km">added reference to scrapbook in editorial note</change>
  <change when="2019-10-31" who="#nhg">edited note</change>
  <change when="2019-06-01" who="#bb">fixed grammatical parallelism in work note</change>

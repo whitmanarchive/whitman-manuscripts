@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00026">
-   <relations>
-      <work ref="xxx.00048" cert="low">
-         <p>The first of these two lines bears some resemblance to a line in the poem eventually titled "Song of Myself," beginning with "These are the thoughts of all men in all ages and lands" (1855, p. 24).</p>
-      </work>
-   </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00026">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -16,10 +12,12 @@
                <resp>Transcription and encoding</resp>
                <persName xml:id="bb">Brett Barney</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
-               <persName xml:id="km">Kenneth M. Price</persName>
+               <persName xml:id="kmp">Kenneth M. Price</persName>
                <persName xml:id="aj">Andrew Jewell</persName>
                <persName xml:id="kt">Kristen Taylor</persName>
-            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+               <persName xml:id="as">Ashlyn Stewart</persName>
+               <persName xml:id="km">Kevin McMullen</persName>
+            </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -46,6 +44,9 @@
          <notesStmt>
 
             <note type="project" target="dat1">This manuscript was probably written in the early 1850s, as Whitman was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The ideas and phrasing of the manuscript are similar to those used in the first poem of that edition, eventually titled "Song of Myself." The manuscript has been mounted and framed with a portrait, so an image of the back of the leaf is not currently available.</note>
+               <note type="work_relations" target="xxx.00048" cert="low">
+                  <p>The first of these two lines bears some resemblance to a line in the poem eventually titled "Song of Myself," beginning with "These are the thoughts of all men in all ages and lands" (1855, p. 24).</p>
+               </note>
          </notesStmt>
          <sourceDesc>
             <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -59,12 +60,14 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+      <revisionDesc>
+         <change when="2022-06-02" who="#km">updated relations encoding</change>
+         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2019-04-04">edited</change>
          <change who="#bb" when="2019-03-21">checked; edited; added relations information</change>
          <change who="#nhg" when="2017-11-29">edited</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#km" when="2004-11-04">edited</change>
+         <change who="#kmp" when="2004-11-04">edited</change>
          <change who="#aj" when="2004-11-03">checked, revised</change>
          <change who="#kt" when="2004-07-07">encoded</change>
          <change who="#kt" when="2004-07-07">transcribed</change>
