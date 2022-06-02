@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="brn.00001">
-    <relations>
-        <work ref="xxx.00218" cert="high">
-            <p>A signed, dated, handwritten copy of "O Captain! My Captain!," which was published
-                first in <date when="1865">1865</date>.</p>
-        </work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="brn.00001">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -56,6 +51,10 @@
                     an autograph copy of the poem. The manuscript is stored with a cover letter from Whitman to Hay, which requests payment of $22. A letter from Hay to Whitman dated <ref target="http://www.whitmanarchive.org/biography/correspondence/tei/brn.00007.html"><date when="1887-03-12">March 12,
                         1887</date></ref>, acknowledges receipt of the manuscript and sends
                     a check for thirty dollars in payment. An image of the verso of this manuscript is currently unavailable.</note>
+                    <note type="work_relations" target="xxx.00218" cert="high">
+                        <p>A signed, dated, handwritten copy of "O Captain! My Captain!," which was published
+                            first in <date when="1865">1865</date>.</p>
+                    </note>
             </notesStmt>
             <sourceDesc>
                 <bibl><author xml:id="ww">Whitman, Walt</author>
