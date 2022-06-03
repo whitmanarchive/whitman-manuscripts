@@ -1,14 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00787">
-   <relations>
-      <work ref="xxx.00048" cert="high">
-         <p>Ideas and words from this manuscript appear in the first poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, which 
-         was later titled "Song of Myself": "I CELEBRATE myself" (1855, pg. 13) "it is you talking just as much as myself . . . . I act as the tongue of you, / It was tied 
-         in your mouth . . . . in mine it begins to be loosened" and "I have said that the soul is not more than the body, / And I have said that the body is not more than the soul," (1855, p. 53).</p>
-      </work>
-      <work ref="xxx.00264" cert="low">
-         <p>Based on its similarity to other manuscript material, <ref target="#l02 #l04 #l05 #l09">lines</ref> in this manuscript may relate to lines in the poem eventually titled "Sleepers."</p>
-      </work>
-   </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00787">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,7 +16,9 @@
                <persName xml:id="jc">Janel Cayer</persName>
                <persName xml:id="kmp">Kenneth M. Price</persName>
                <persName xml:id="smb">Stephanie Blalock</persName>
-            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+               <persName xml:id="as">Ashlyn Stewart</persName>
+               <persName xml:id="km">Kevin McMullen</persName>
+            </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -52,6 +45,14 @@
          <notesStmt>
             <note type="project" target="#dat1">These manuscript lines are drafts of lines used in the first poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, eventually titled "Song of Myself," including the poem's famous opening line, "I celebrate myself." In the repository, this manuscript is bound, seemingly by a collector, with a printer's copy of the 1881–82 edition of <hi rend="italic">Leaves of Grass</hi> that contains numerous handwritten corrections by Whitman.
                 </note>
+               <note type="work_relations" target="xxx.00048" cert="high">
+                  <p>Ideas and words from this manuscript appear in the first poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, which 
+                     was later titled "Song of Myself": "I CELEBRATE myself" (1855, pg. 13) "it is you talking just as much as myself . . . . I act as the tongue of you, / It was tied 
+                     in your mouth . . . . in mine it begins to be loosened" and "I have said that the soul is not more than the body, / And I have said that the body is not more than the soul," (1855, p. 53).</p>
+               </note>
+               <note type="work_relations" target="xxx.00264" cert="low">
+                  <p>Based on its similarity to other manuscript material, <ref target="#l02 #l04 #l05 #l09">lines</ref> in this manuscript may relate to lines in the poem eventually titled "Sleepers."</p>
+               </note>
          </notesStmt>
          <sourceDesc>
             <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -67,7 +68,9 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+      <revisionDesc>
+         <change when="2022-06-03" who="#km">updated relations encoding</change>
+         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2019-07-08" who="#nhg">added inline relations</change>
          <change when="2019-06-04" who="#nhg">added inline relation from #bjo list</change>
          <change when="2019-02-15" who="#smb">final check and updated project notes</change>

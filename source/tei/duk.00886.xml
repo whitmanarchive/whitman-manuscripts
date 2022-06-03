@@ -1,12 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00886">
-    <relations>
-        <work ref="xxx.00110" cert="high">
-            <p>This manuscript contains notes and draft lines that are related to a poem published first as "Poem of Salutation" in the <date when="1856">1856</date> edition of <hi rend="italic">Leaves of Grass</hi>, and later as "Salut Au Monde!" </p>
-        </work>
-        <work ref="xxx.00119" cert="low">
-            <p>Whitman's use of the word "tabounshic" is unusual. He used it (spelled "tabounschik") only in the <date when="1855">1855</date> and <date when="1856">1856</date> editions of <hi rend="italic">Leaves of Grass</hi> in the poem that took for its final title "A Song for Occupations." In other respects, however, that poem does not appear to be related to these notes.</p>
-        </work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00886">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +21,8 @@
                     <persName xml:id="nk">Nick Krauter</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
-                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -61,6 +55,12 @@
                 only in the <date when="1855">1855</date> and <date when="1856">1856</date>
                 editions of <hi rend="italic">Leaves of Grass</hi> in the poem eventually titled "A Song for Occupations." In other respects, however, that poem does not
                 appear to be related to these notes. At one point, this manuscript likely formed part of <ref target="../marginalia/index-scrapbook.html">Whitman's cultural geography scrapbook</ref>.</note>
+                    <note type="work_relations" target="xxx.00110" cert="high">
+                        <p>This manuscript contains notes and draft lines that are related to a poem published first as "Poem of Salutation" in the <date when="1856">1856</date> edition of <hi rend="italic">Leaves of Grass</hi>, and later as "Salut Au Monde!" </p>
+                    </note>
+                    <note type="work_relations" target="xxx.00119" cert="low">
+                        <p>Whitman's use of the word "tabounshic" is unusual. He used it (spelled "tabounschik") only in the <date when="1855">1855</date> and <date when="1856">1856</date> editions of <hi rend="italic">Leaves of Grass</hi> in the poem that took for its final title "A Song for Occupations." In other respects, however, that poem does not appear to be related to these notes.</p>
+                    </note>
             </notesStmt>
             <sourceDesc>
                 <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -75,7 +75,9 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+        <revisionDesc>
+            <change when="2022-06-03" who="#km">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2020-01-30" who="#km">added link to scrapbook in editorial note</change>
             <change when="2018-11-04" who="#nhg">added inline relations</change>
             <change when="2018-09-10" who="#nhg">updated image names</change>

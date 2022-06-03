@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00786">
-    <relations>
-        <work ref="xxx.00480">
-            <p>These notes were used as the basis for an article entitled "New Orleans in 1848" that appeared in the <hi rend="italic">New Orleans Picayune</hi> on January 25, 1887. The article was later reprinted in <hi rend="italic">November Boughs</hi>.</p>
-        </work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00786">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -18,7 +14,8 @@
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="kmp">Kenneth M. Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -43,7 +40,10 @@
                 </availability>
             <idno>duk.00786</idno></publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">This manuscript page consists of notes from Whitman's return trip from New Orleans in 1848. This page of notes, crossed out and numbered "2," describes the journey across Lake Erie; Whitman's visits to Buffalo, Albany, and Niagara Falls, and his arrival at Brooklyn. The notes were later used as the basis for an article entitled "New Orleans in 1848" that appeared in the <hi rend="italic">New Orleans Picayune</hi> on January 25, 1887. The article was reprinted in <hi rend="italic">November Boughs</hi>.</note>             
+                <note type="project" target="#dat1">This manuscript page consists of notes from Whitman's return trip from New Orleans in 1848. This page of notes, crossed out and numbered "2," describes the journey across Lake Erie; Whitman's visits to Buffalo, Albany, and Niagara Falls, and his arrival at Brooklyn. The notes were later used as the basis for an article entitled "New Orleans in 1848" that appeared in the <hi rend="italic">New Orleans Picayune</hi> on January 25, 1887. The article was reprinted in <hi rend="italic">November Boughs</hi>.</note>
+                    <note type="work_relations" target="xxx.00480">
+                        <p>These notes were used as the basis for an article entitled "New Orleans in 1848" that appeared in the <hi rend="italic">New Orleans Picayune</hi> on January 25, 1887. The article was later reprinted in <hi rend="italic">November Boughs</hi>.</p>
+                    </note>
             </notesStmt>
             <sourceDesc>
                 
@@ -68,7 +68,9 @@
                 <handNote xml:id="h4" scribeRef="#ww" medium="pencil"/>
             </handNotes>
         </profileDesc>
-        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+        <revisionDesc>
+            <change when="2022-06-03" who="#km">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2017-01-17" who="#bb">reconciled with EAD record</change>
             <change when="2016-05-18" who="#kmp">blessed</change>
             <change when="2016-05-04" who="#nhg">checked, corrected</change>
