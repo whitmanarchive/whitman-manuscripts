@@ -1,14 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00261">
-   <relations> 
-      <work ref="xxx.00418" cert="high">
-         <p>The language, ideas, and structure of the last few lines of this manuscript resemble lines 39-43 in "Debris," a cluster published in the <date when="1860">1860</date> edition of <hi rend="italic">Leaves of Grass</hi>: "I WILL take an egg out of the robin's nest in the orchard, / I will take a branch of gooseberries from the old bush in the garden, and go and preach to the world; / You shall see I will not meet a single heretic or scorner, / You shall see how I stump clergymen, and confound them, / You shall see me showing a scarlet tomato, and a white pebble from the beach" (1860, p. 424).</p>
-      </work>
-      <work ref="xxx.00048" cert="high">
-         <p>Language and ideas from this manuscript appear in the first poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, ultimately titled "Song of Myself." See in particular the lines: "The supernatural of no account . . . . myself waiting my time to be one of the supremes, / The day getting ready for me when I shall do as much good as the best, and be as prodigious, / Guessing when I am it will not tickle me much to receive puffs out of pulpit or print" (1855, p. 46).</p></work> 
-      <work ref="xxx.00119" cert="low">
-         <p>The second line from this manuscript may relate to the following line from the poem eventually titled "A Song for Occupations": "When the sacred vessels or the bits of the eucharist, or the lath and plast, procreate as effectually as the young silversmiths or bakers, or the masons in their overalls" (1855, p. 64).</p>
-      </work>
-   </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00261">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,10 +12,12 @@
                <resp>Transcription and encoding</resp>
                <persName xml:id="cah">Caitlin Henry</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
-               <persName xml:id="km">Kenneth M. Price</persName>
+               <persName xml:id="kmp">Kenneth M. Price</persName>
                <persName xml:id="awj">Andrew Jewell</persName>
                <persName xml:id="ah">Amy Hezel</persName>
-            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+               <persName xml:id="as">Ashlyn Stewart</persName>
+               <persName xml:id="km">Kevin McMullen</persName>
+            </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -49,8 +42,15 @@
             </availability>
          <idno>duk.00261</idno></publicationStmt>
          <notesStmt> 
-            <note type="project" target="dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The ideas and language relate to the first poem in that edition, eventually titled "Song of Myself." This connection is reinforced by the supplied first line, added to a transcription of the manuscript that appears in <hi rend="italic">Notes and Fragments</hi>, ed. Richard Maurice Bucke (London, Ontario: A. Talbot &amp; Co., printers, 1899): "foot to fee lawyers for his brother and sit by him while he was tried for forgery" (47). This line, which matches a line in the 1855 version of "Song of Myself," is not currently written on the manuscript. In language, ideas, and structure, the last few lines of this manuscript also resemble lines 39–43 in the untitled fourteenth poem of the "Debris" cluster of the 1860–1861 edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript is also similar to other early manuscripts that relate to these poems and to the second poem in the 1855 edition of <hi rend="italic">Leaves</hi>, eventually titled "A Song for Occupations" (see "<ref target="loc.00013.html">Priests</ref>," "<ref target="uva.00251.html">Do I not prove myself</ref>," and "<ref target="duk.00051.html">I know as well as</ref>").</note> 
-            
+            <note type="project" target="dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The ideas and language relate to the first poem in that edition, eventually titled "Song of Myself." This connection is reinforced by the supplied first line, added to a transcription of the manuscript that appears in <hi rend="italic">Notes and Fragments</hi>, ed. Richard Maurice Bucke (London, Ontario: A. Talbot &amp; Co., printers, 1899): "foot to fee lawyers for his brother and sit by him while he was tried for forgery" (47). This line, which matches a line in the 1855 version of "Song of Myself," is not currently written on the manuscript. In language, ideas, and structure, the last few lines of this manuscript also resemble lines 39–43 in the untitled fourteenth poem of the "Debris" cluster of the 1860–1861 edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript is also similar to other early manuscripts that relate to these poems and to the second poem in the 1855 edition of <hi rend="italic">Leaves</hi>, eventually titled "A Song for Occupations" (see "<ref target="loc.00013.html">Priests</ref>," "<ref target="uva.00251.html">Do I not prove myself</ref>," and "<ref target="duk.00051.html">I know as well as</ref>").</note>
+               <note type="work_relations" target="xxx.00418" cert="high">
+                  <p>The language, ideas, and structure of the last few lines of this manuscript resemble lines 39-43 in "Debris," a cluster published in the <date when="1860">1860</date> edition of <hi rend="italic">Leaves of Grass</hi>: "I WILL take an egg out of the robin's nest in the orchard, / I will take a branch of gooseberries from the old bush in the garden, and go and preach to the world; / You shall see I will not meet a single heretic or scorner, / You shall see how I stump clergymen, and confound them, / You shall see me showing a scarlet tomato, and a white pebble from the beach" (1860, p. 424).</p>
+               </note>
+               <note type="work_relations" target="xxx.00048" cert="high">
+                  <p>Language and ideas from this manuscript appear in the first poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, ultimately titled "Song of Myself." See in particular the lines: "The supernatural of no account . . . . myself waiting my time to be one of the supremes, / The day getting ready for me when I shall do as much good as the best, and be as prodigious, / Guessing when I am it will not tickle me much to receive puffs out of pulpit or print" (1855, p. 46).</p></note> 
+               <note type="work_relations" target="xxx.00119" cert="low">
+                  <p>The second line from this manuscript may relate to the following line from the poem eventually titled "A Song for Occupations": "When the sacred vessels or the bits of the eucharist, or the lath and plast, procreate as effectually as the young silversmiths or bakers, or the masons in their overalls" (1855, p. 64).</p>
+               </note>
          </notesStmt>
          <sourceDesc>
             <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -80,7 +80,9 @@
          </sourceDesc>
       </fileDesc>
       
-      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+      <revisionDesc>
+         <change when="2022-06-03" who="#km">updated relations encoding</change>
+         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2019-10-10" who="#nhg">edited note</change>
          <change when="2018-11-12" who="#nhg">corrected</change>
          <change when="2018-10-26" who="#nhg">checked, corrected</change>
@@ -89,7 +91,7 @@
          <change who="#cah" when="2018-08-30">checked and corrected file</change>
          <change who="#nhg" when="2016-05-04">added relatedItem info, checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#km" when="2004-11-09">Edited</change>
+         <change who="#kmp" when="2004-11-09">Edited</change>
          <change who="#awj" when="2004-11-08">Checked, revised</change>
          <change who="#ah" when="2004-07-27">Encoded</change>
          <change who="#ah" when="2004-07-27">Transcribed</change>
