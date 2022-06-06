@@ -1,11 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00050">
-    <relations>
-        <work ref="xxx.00293" cert="high">
-            <p>This manuscript appears to be draft material for the two linegroups Whitman added in
-                    <date when="1871">1871</date>. The added lines, along with the title change,
-                introduce the new imagery of ashes. Decoration Day was first proclaimed in <date when="1868">1868</date>.</p>
-        </work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00050">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,7 +15,9 @@
                     <persName xml:id="lr">Lisa Renfro</persName>
                     <persName xml:id="zb">Zach Bajaber</persName>
                     <persName xml:id="ar">Alice Rutkowski</persName>
-                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -52,6 +48,11 @@
                 <note type="project" target="#dat1">This manuscript was likely composed around <date notBefore="1870" notAfter="1871">1870–1871</date>, when Whitman was revising and expanding
                     the poem "Hymn of Dead Soldiers," originally published in <hi rend="italic">Drum-Taps</hi> (<date when="1865">1865</date>), for republication as
                     "Ashes of Soldiers."</note>
+                    <note type="work_relations" target="xxx.00293" cert="high">
+                        <p>This manuscript appears to be draft material for the two linegroups Whitman added in
+                            <date when="1871">1871</date>. The added lines, along with the title change,
+                            introduce the new imagery of ashes. Decoration Day was first proclaimed in <date when="1868">1868</date>.</p>
+                    </note>
             </notesStmt>
             <sourceDesc>
                 <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -69,7 +70,9 @@
                 <handNote xml:id="unk" scribe="unknown"/>
             </handNotes>
         </profileDesc>
-        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+        <revisionDesc>
+            <change when="2022-06-06" who="#km">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-10-18" who="#nhg">corrected</change>
             <change when="2016-04-26" who="#nhg">checked, corrected</change>
             <change when="2015-05-26" who="#nhg">checked, corrected</change>
