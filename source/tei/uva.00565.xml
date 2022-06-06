@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00565">
-   <relations>
-      <work ref="xxx.00259" cert="high">
-         <p>These lines correspond to a line from the manuscript poem, unpublished in Whitman's lifetime, titled "Pictures": "And now a merry recruiter passes, with fife and drum, seeking who will join his troop." The first several lines of the poem (not including this line) were revised and published in <hi rend="italic">The American</hi> in October 1880 as "My Picture-Gallery," a poem later included in <hi rend="italic">Leaves of Grass</hi> as part of the "Autumn Rivulets" cluster (1881, p. 310).</p>
-      </work>
-   </relations>
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,6 +38,9 @@
          <idno>uva.00565</idno></publicationStmt>
          <notesStmt>
             <note type="project" target="#dat1">Whitman probably drafted this manuscript in the 1850s. The lines are versions of a line in a long manuscript poem titled "<ref target="yal.00081.html">Pictures</ref>," which probably dates to the mid- to late 1850s. Based on the first-person perspective in these draft lines, Emory Holloway has speculated that they likely were written after the line in "Pictures" (<hi rend="italic">Pictures: An Unpublished Poem of Walt Whitman</hi> [New York: The June House, 1927], 31). The first several lines of "Pictures" (not including this line) were eventually revised and published as "My Picture-Gallery" in <hi rend="italic">The American</hi> in October 1880. The poem was later published in <hi rend="italic">Leaves of Grass</hi> as part of the "Autumn Rivulets" cluster.</note>
+            <note type="work_relations" target="xxx.00259" cert="high">
+         <p>These lines correspond to a line from the manuscript poem, unpublished in Whitman's lifetime, titled "Pictures": "And now a merry recruiter passes, with fife and drum, seeking who will join his troop." The first several lines of the poem (not including this line) were revised and published in <hi rend="italic">The American</hi> in October 1880 as "My Picture-Gallery," a poem later included in <hi rend="italic">Leaves of Grass</hi> as part of the "Autumn Rivulets" cluster (1881, p. 310).</p>
+      </note>
          </notesStmt>
          <sourceDesc>
             <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -58,7 +56,9 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+      <revisionDesc>
+         <change when="2022-06-03" who="#bb">updated relations encoding</change>
+         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2020-06-24">expanded date range</change>
          <change who="#bb" when="2019-05-20">checked; edited</change>
          <change who="#nhg" when="2018-12-19">added relations information</change>

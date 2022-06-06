@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00254">
-    <relations>
-        <work ref="xxx.00048" cert="high">
-            <p>These lines are a draft of lines that appeared in the first poem of the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, a poem that was later titled "Song of Myself."</p>
-        </work>
-    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -42,6 +37,9 @@
                 <note type="project" target="dat1">Whitman probably drafted this
                     manuscript in the <date notBefore="1850" notAfter="1855">early 1850s</date> as he was composing
                     the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Lines in the manuscript are similar to lines that appear in the first poem in that edition, eventually titled "Song of Myself." The numbers written on the manuscript, along with remnants of paste and binding tape along the margin, suggest that the page likely came from a notebook. Lines similar to the last several in this manuscript were also reworked in the notebook "<ref target="../notebooks/transcriptions/loc.00141.html">Talbot Wilson</ref>."</note>
+        <note type="work_relations" target="xxx.00048" cert="high">
+            <p>These lines are a draft of lines that appeared in the first poem of the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, a poem that was later titled "Song of Myself."</p>
+        </note>
             </notesStmt>
             <sourceDesc>
                 <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -62,7 +60,9 @@
                 <handNote scribeRef="#unk" xml:id="h1"><persName xml:id="unk">Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+        <revisionDesc>
+            <change when="2022-06-06" who="#bb">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2020-03-02" who="#bb">corrected title in titleStmt</change>
             <change when="2018-11-15" who="#nhg">added relations information, checked, corrected</change>
             <change when="2018-10-09" who="#nhg">divided file into recto and verso files</change>

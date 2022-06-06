@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00133">
-    <relations>
-        <!-- NOTE THAT THIS AND UVA.000134 WERE AT ONE TIME PASTED TOGETHER. BRETT -->
         
-        <work ref="xxx.00120" cert="high">
-            <p>The lines beginning "I have all lives" are likely related to the poem first published in the
-                1856 edition of <hi rend="italic">Leaves of Grass</hi> as "Poem of The Sayers of The
-                Words of The Earth" and ultimately entitled "A Song of the Rolling Earth." </p>
-        </work>
-        <work ref="xxx.00048" cert="low">
-            <p>The lines beginning "After Death" bear some similarity in wording and subject to the following lines from the poem that would become "Song of Myself": "And as to you life, I reckon you are the leavings of many deaths, / No doubt I have died myself ten thousand times before" (1855, p. 54).</p>
-        </work>
-    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -57,6 +46,16 @@
                 <note type="project" target="#dat1">This manuscript was probably written in the <date notBefore="1855" notAfter="1856">mid-1850s</date>. The lines beginning "After death" are not known to have been published in Whitman's lifetime. The lines on the verso, beginning "I have all lives," are likely related to the poem first published in the
                     1856 edition of <hi rend="italic">Leaves of Grass</hi> as "Poem of The Sayers of The
                     Words of The Earth" and ultimately entitled "A Song of the Rolling Earth." Because the handwriting is similar on the two sides, we have included them both here as a single text.</note>
+                <!-- NOTE THAT THIS AND UVA.000134 WERE AT ONE TIME PASTED TOGETHER. BRETT -->
+        
+                <note type="work_relations" target="xxx.00120" cert="high">
+            <p>The lines beginning "I have all lives" are likely related to the poem first published in the
+                1856 edition of <hi rend="italic">Leaves of Grass</hi> as "Poem of The Sayers of The
+                Words of The Earth" and ultimately entitled "A Song of the Rolling Earth." </p>
+        </note>
+                <note type="work_relations" target="xxx.00048" cert="low">
+            <p>The lines beginning "After Death" bear some similarity in wording and subject to the following lines from the poem that would become "Song of Myself": "And as to you life, I reckon you are the leavings of many deaths, / No doubt I have died myself ten thousand times before" (1855, p. 54).</p>
+        </note>
             </notesStmt>
             <sourceDesc>
                 <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -70,7 +69,9 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+        <revisionDesc>
+            <change when="2022-06-06" who="#bb">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2017-10-24" who="#nhg">added inline and additional work relations information</change>
             <change when="2016-11-29" who="#nhg">edited work relations information</change>
             <change when="2015-05-07" who="#nhg">corrected</change>

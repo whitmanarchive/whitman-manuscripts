@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="upa.00005">
-   <relations>
-      <work ref="xxx.00526" cert="high">
-         <p>This manuscript is a poetic rendering of the following sentences from the prose preface to the 1855 <hi rend="italic">Leaves of Grass</hi>: "Sanity and ensemble characterise the great master . . . spoilt in one principle all is spoilt" (1855, p. viii); "The innocence and nakedness are resumed . . . they are neither modest nor immodest. The whole theory of the special and supernatural and all that was twined with it or educed out of it departs as a dream. What has ever happened . . . . what happens and whatever may or shall happen, the vital laws enclose all . . . . they are sufficient for any case and for all cases . . . none to be hurried or retarded . . . . any miracle of affairs or persons inadmissible in the vast clear scheme where every motion and every spear of grass and the frames and spirits of men and women and all that concerns them are unspeakably perfect miracles all referring to all and each distinct and in its place" (1855, pp. vii–viii); and "Men and women and the earth and all upon it are simply to be taken as they are, and the investigation of their past and present and future shall be unintermitted and shall be done with perfect candor. Upon this basis philosophy speculates ever looking toward the poet, ever regarding the eternal tendencies of all toward happiness never inconsistent with what is clear to the senses and to the soul. For the eternal tendencies of all toward happiness make the only point of sane philosophy. Whatever comprehends less than that . . . whatever is less than the laws of light and of astronomical motion . . . or less than the laws that follow the thief the liar the glutton and the drunkard through this life and doubtless afterward . . . . . . or less than vast stretches of time or the slow formation of density or the patient upheaving of strata—is of no account" (1855, p. viii).</p>
-      </work>
-   </relations>
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -19,7 +14,9 @@
                <persName xml:id="jo">John Owen Havard</persName>
                <persName xml:id="cf">Chris Forster</persName>
                <persName xml:id="kt">Kristen Taylor</persName>
-            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+               <persName xml:id="as">Ashlyn Stewart</persName>
+               <persName xml:id="bb">Brett Barney</persName>
+            </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -45,6 +42,9 @@
          <idno>upa.00005</idno></publicationStmt>
          <notesStmt>
             <note type="project" target="dat1">This manuscript consists of fourteen lines related to the prose preface to the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The writing probably represents one of Whitman's attempts to reshape material from the preface into poems for the 1856 edition of <hi rend="italic">Leaves of Grass</hi>. Content from the 1855 preface appeared in the 1856 poems "Poem of Perfect Miracles" (later Miracles), "Poem of Many in One" (later "By Blue Ontario's Shore"), and "Poem of the Last Explanation of Prudence" (later "Song of Prudence"). None of these poems, however, bear obvious similarities to the lines in this manuscript.</note>
+            <note type="work_relations" target="xxx.00526" cert="high">
+         <p>This manuscript is a poetic rendering of the following sentences from the prose preface to the 1855 <hi rend="italic">Leaves of Grass</hi>: "Sanity and ensemble characterise the great master . . . spoilt in one principle all is spoilt" (1855, p. viii); "The innocence and nakedness are resumed . . . they are neither modest nor immodest. The whole theory of the special and supernatural and all that was twined with it or educed out of it departs as a dream. What has ever happened . . . . what happens and whatever may or shall happen, the vital laws enclose all . . . . they are sufficient for any case and for all cases . . . none to be hurried or retarded . . . . any miracle of affairs or persons inadmissible in the vast clear scheme where every motion and every spear of grass and the frames and spirits of men and women and all that concerns them are unspeakably perfect miracles all referring to all and each distinct and in its place" (1855, pp. vii–viii); and "Men and women and the earth and all upon it are simply to be taken as they are, and the investigation of their past and present and future shall be unintermitted and shall be done with perfect candor. Upon this basis philosophy speculates ever looking toward the poet, ever regarding the eternal tendencies of all toward happiness never inconsistent with what is clear to the senses and to the soul. For the eternal tendencies of all toward happiness make the only point of sane philosophy. Whatever comprehends less than that . . . whatever is less than the laws of light and of astronomical motion . . . or less than the laws that follow the thief the liar the glutton and the drunkard through this life and doubtless afterward . . . . . . or less than vast stretches of time or the slow formation of density or the patient upheaving of strata—is of no account" (1855, p. viii).</p>
+      </note>
          </notesStmt>
          <sourceDesc>
             <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -65,7 +65,9 @@ University of Pennsylvania: Kislak Center for Special Collections, Rare Books an
          </sourceDesc>
          
       </fileDesc>
-      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+      <revisionDesc>
+         <change when="2022-06-06" who="#bb">updated relations encoding</change>
+         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2019-06-10">checked, corrected, edited note</change>
          <change who="#cah" when="2018-04-03">corrected encoding</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>

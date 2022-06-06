@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00273">
-   <relations>
-      <work ref="xxx.00048" cert="low">
-         <p>The topic of these lines bears some similarity to a passage about touch in the opening poem of the first edition of <hi rend="italic">Leaves of Grass</hi>," eventually titled "Song of Myself." See, for instance, the lines: "They bribed to swap off with touch, and go and graze at the edges of me, / No consideration, no regard for my draining strength or my anger" (1855, p. 33).</p>
-      </work>
-   </relations>
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -51,6 +46,9 @@
          <notesStmt>
             <note type="project" target="#dat1">Whitman probably drafted this manuscript in the
                early 1850s as he was preparing materials for the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The lines bear some similarity to lines in the first poem in that edition, eventually titled "Song of Myself."</note>
+            <note type="work_relations" target="xxx.00048" cert="low">
+         <p>The topic of these lines bears some similarity to a passage about touch in the opening poem of the first edition of <hi rend="italic">Leaves of Grass</hi>," eventually titled "Song of Myself." See, for instance, the lines: "They bribed to swap off with touch, and go and graze at the edges of me, / No consideration, no regard for my draining strength or my anger" (1855, p. 33).</p>
+      </note>
          </notesStmt>
          <sourceDesc>
             <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -76,7 +74,9 @@
             </handNote>
          </handNotes>
       </profileDesc>
-      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+      <revisionDesc>
+         <change when="2022-06-06" who="#bb">updated relations encoding</change>
+         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#bb" when="2019-09-30">corrected wording of date note based on Ken's advice</change>
          <change who="#bb" when="2019-08-14">checked; revised</change>
          <change who="#nhg" when="2019-01-16">proofed, added relations info</change>

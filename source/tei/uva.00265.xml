@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00265">
-   <relations>
-      <work ref="xxx.00048" cert="low">
-         <p>Words and imagery from this manuscript are similar to imagery used in the first poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, eventually titled "Song of Myself": "Where the laughing-gull scoots by the slappy shore and laughs her near-human laugh;" (1855, p. 37).</p>
-      </work>
-      <work ref="xxx.00226" cert="high">
-         <p>Language and ideas from this manuscript appear in the tenth poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, eventually titled "There Was a Child Went Forth": "And grass, and white and red morningglories, and white and red clover, and the song 
-            of the phoebe-bird, / ... / And the appletrees covered with blossoms, and the fruit afterward . . . . and wood-
-            berries . . and the commonest weeds by the road; / ... / The horizon's edge, the flying seacrow, the fragrance of saltmarsh and shoremud;" (1855, p. 90–91).</p> 
-      </work> 
-   </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00265"> 
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -23,7 +13,9 @@
                <persName xml:id="cah">Caitlin Henry</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="li">Leslie Ianno</persName>
-            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+               <persName xml:id="as">Ashlyn Stewart</persName>
+               <persName xml:id="bb">Brett Barney</persName>
+            </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -49,6 +41,14 @@
          <idno>uva.00265</idno></publicationStmt>
          <notesStmt>
             <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript includes drafts of lines used in the first and tenth poems in that edition, eventually titled "Song of Myself" and "There Was a Child Went Forth," respectively.</note>
+            <note type="work_relations" target="xxx.00048" cert="low">
+         <p>Words and imagery from this manuscript are similar to imagery used in the first poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, eventually titled "Song of Myself": "Where the laughing-gull scoots by the slappy shore and laughs her near-human laugh;" (1855, p. 37).</p>
+      </note>
+            <note type="work_relations" target="xxx.00226" cert="high">
+         <p>Language and ideas from this manuscript appear in the tenth poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, eventually titled "There Was a Child Went Forth": "And grass, and white and red morningglories, and white and red clover, and the song 
+            of the phoebe-bird, / ... / And the appletrees covered with blossoms, and the fruit afterward . . . . and wood-
+            berries . . and the commonest weeds by the road; / ... / The horizon's edge, the flying seacrow, the fragrance of saltmarsh and shoremud;" (1855, p. 90–91).</p> 
+      </note>
          </notesStmt>
          <sourceDesc>
             <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -66,7 +66,9 @@
             <handNote scribeRef="#unk" xml:id="h1"><persName xml:id="unk">Unknown</persName></handNote>
          </handNotes>
       </profileDesc>
-      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+      <revisionDesc>
+         <change when="2022-06-06" who="#bb">updated relations encoding</change>
+         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#smb" when="2019-04-12">final check, updated notes</change>
          <change who="#nhg" when="2019-01-28">checked relations</change>
          <change who="#cah" when="2019-01-18">checked file and added relations</change>

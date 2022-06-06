@@ -1,11 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00137">
-   <relations>
-      <work ref="xxx.00048" cert="low"><p>The husband and wife together at night appears consistently as one of the images used in the poem ultimately titled "Song of Myself" throughout all of the editions of <hi rend="italic">Leaves of Grass</hi>. See, for instance, the line: "The old husband sleeps by his wife and the young husband sleeps by his wife" (1855, p. 23).</p>
-      </work>
-      <work ref="xxx.00526" cert="low">
-         <p>Parts of this manuscript, especially the second line, might have contributed to the following passage in the preface and to the 1855 <hi rend="italic">Leaves of Grass</hi>: "Does the young man think often of him? and the young woman think often of him? and do the middleaged and the old think of him?" (p. xi).</p>
-      </work>
-   </relations>
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,7 +37,12 @@
             </availability>
          <idno>uva.00137</idno></publicationStmt>
          <notesStmt>
-            <note type="project">This manuscript may have been written in the early 1850s, as Whitman was preparing material for the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The language and imagery in the manuscript are similar to language and imagery used in the preface to that edition and in the first poem, eventually titled "Song of Myself."</note>                          	
+            <note type="project">This manuscript may have been written in the early 1850s, as Whitman was preparing material for the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The language and imagery in the manuscript are similar to language and imagery used in the preface to that edition and in the first poem, eventually titled "Song of Myself."</note>
+            <note type="work_relations" target="xxx.00048" cert="low"><p>The husband and wife together at night appears consistently as one of the images used in the poem ultimately titled "Song of Myself" throughout all of the editions of <hi rend="italic">Leaves of Grass</hi>. See, for instance, the line: "The old husband sleeps by his wife and the young husband sleeps by his wife" (1855, p. 23).</p>
+      </note>
+            <note type="work_relations" target="xxx.00526" cert="low">
+         <p>Parts of this manuscript, especially the second line, might have contributed to the following passage in the preface and to the 1855 <hi rend="italic">Leaves of Grass</hi>: "Does the young man think often of him? and the young woman think often of him? and do the middleaged and the old think of him?" (p. xi).</p>
+      </note>                          	
          </notesStmt>
          <sourceDesc>
             <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -57,7 +55,9 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+      <revisionDesc>
+         <change when="2022-06-06" who="#bb">updated relations encoding</change>
+         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#bb" when="2019-09-30">revised wording of date note based on Ken's advice</change>
          <change who="#bb" when="2019-08-16">checked; added work note for preface</change>
          <change who="#nhg" when="2018-01-14">proofed, added relations info</change>

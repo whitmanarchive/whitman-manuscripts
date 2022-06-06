@@ -1,12 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00009">
-    <relations>
-        <work ref="xxx.00178" cert="high">
-            <p>The lines on this manuscript, apparently from either a late draft or a presentation
-                copy, are from the poem "Rise O Days from Your Fathomless Deeps," first published in
-                    <hi rend="italic">Drum-Taps</hi>
-                <date when="1865">(1865)</date>.</p>
-        </work>
-    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -58,6 +50,12 @@
                     <date when="1865">1865</date>, the year he published <hi rend="italic">Drum-Taps</hi> and the year he met
                     Byron Sutherland, a young soldier, whose name is written on the back of the leaf. Sutherland sent the poet a letter from Corry,
                     Pennsylvania in September 1865.</note>
+                <note type="work_relations" target="xxx.00178" cert="high">
+            <p>The lines on this manuscript, apparently from either a late draft or a presentation
+                copy, are from the poem "Rise O Days from Your Fathomless Deeps," first published in
+                    <hi rend="italic">Drum-Taps</hi>
+                <date when="1865">(1865)</date>.</p>
+        </note>
             </notesStmt>
             <sourceDesc>
                 <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -74,7 +72,9 @@
                 
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+        <revisionDesc>
+            <change when="2022-06-03" who="#bb">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-12-07" who="#nhg">adjusted date to match EAD entry</change>
             <change when="2016-07-26" who="#nhg">proofed</change>
             <change when="2016-01-14" who="#bb">updated list of staff in titleStmt</change>

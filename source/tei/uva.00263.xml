@@ -1,17 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00263">
-    <relations>
-        <work ref="xxx.00048" cert="high">
-            <p>The manuscript lines are draft of lines used in the first poem in the
-                    <date when="1855">1855</date> edition of <hi rend="italic">Leaves of
-                        Grass</hi>, eventually titled "Song of Myself."  The corresponding lines read: "You there, impotent, loose in the knees, open your scarfed chops till I blow grit within you, / Spread your palms and lift the flaps of your pockets, / I am not to be denied . . . . I compel . . . . I have stores plenty and to spare, / And any thing I have I bestow. / I do not ask who you are . . . . that is not important to me, / You can do nothing and be nothing but what I will infold you" (1855, pp. 44–45).</p>
-        </work>
-        <work ref="xxx.00119" cert="low">
-            <p><ref target="#l09 #l10">Lines in this manuscript</ref> may relate to the following line in the poem eventually titled "A Song for Occupations": "Because you are greasy or pimpled—or that you was once drunk, or a thief, or
-                diseased, or rheumatic, or a prostitute—or are so now—or from frivolity or
-                impotence—or that you are no scholar, and never saw your name in print . . . .
-                do you give in that you are any less immortal?" (1855, p. 58).</p>
-        </work>
-    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -54,6 +41,17 @@
             <idno>uva.00263</idno></publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. It is a draft of lines that appear in the first poem in that edition, eventually titled "Song of Myself."</note>
+                <note type="work_relations" target="xxx.00048" cert="high">
+            <p>The manuscript lines are draft of lines used in the first poem in the
+                    <date when="1855">1855</date> edition of <hi rend="italic">Leaves of
+                        Grass</hi>, eventually titled "Song of Myself."  The corresponding lines read: "You there, impotent, loose in the knees, open your scarfed chops till I blow grit within you, / Spread your palms and lift the flaps of your pockets, / I am not to be denied . . . . I compel . . . . I have stores plenty and to spare, / And any thing I have I bestow. / I do not ask who you are . . . . that is not important to me, / You can do nothing and be nothing but what I will infold you" (1855, pp. 44–45).</p>
+        </note>
+                <note type="work_relations" target="xxx.00119" cert="low">
+            <p><ref target="#l09 #l10">Lines in this manuscript</ref> may relate to the following line in the poem eventually titled "A Song for Occupations": "Because you are greasy or pimpled—or that you was once drunk, or a thief, or
+                diseased, or rheumatic, or a prostitute—or are so now—or from frivolity or
+                impotence—or that you are no scholar, and never saw your name in print . . . .
+                do you give in that you are any less immortal?" (1855, p. 58).</p>
+        </note>
             </notesStmt>
             <sourceDesc> 
                 <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -69,7 +67,9 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+        <revisionDesc>
+            <change when="2022-06-03" who="#bb">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-02-20" who="#smb">final check, corrected</change>
             <change when="2019-02-12" who="#bb">added line relations to #l1362</change>
             <change when="2019-01-15" who="#nhg">checked relations, edited</change>

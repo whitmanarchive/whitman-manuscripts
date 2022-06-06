@@ -1,12 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00601">
-<relations>
-        <work ref="xxx.00048" cert="high">
-            <p>Parts of this manuscript probably relate to the following lines in the first poem of the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, a poem that was later titled "Song of Myself": "The suicide sprawls on the bloody floor of the bedroom. / It is so . . . . I witnessed the corpse . . . . there the pistol had fallen. ." (1855, p. 33) and "And as to you corpse I think you are good manure, but that does not offend me, / I smell the white roses sweetscented and growing, / I reach to the leafy lips . . . . I reach to the polished breasts of melons" (1855, p. 54).</p>
-        </work>
-    <work ref="xxx.00526" cert="low">
-        <p>The list of flora and fauna in this manuscript could anticipate any number of similar lists in Whitman, but the words bear some resemblance to the following line from the preface to the 1855 <hi rend="italic">Leaves of Grass</hi>: "On him rise solid growths that offset the growths of pine and cedar and hemlock and liveoak and locust and chestnut and cypress and hickory and limetree and cottonwood and tuliptree and cactus and wildvine and tamarind and persimmon . . . ." (1855, p. iv). The line was later reused as part of the poem "By Blue Ontario's Shore."</p>
-    </work>
-    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -19,7 +11,9 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="bjo">Brandon James O'Neil</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
+                </respStmt>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -44,6 +38,12 @@
                 <note type="project" target="dat1">Whitman probably drafted this
                     manuscript in the <date notBefore="1850" notAfter="1855">early 1850s</date> as he was composing
                     the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Lines in the manuscript are similar to lines in the first poem in that edition, eventually titled "Song of Myself." The list of flora and fauna could anticipate any number of similar lists in Whitman's writing, but has perhaps the most words in common with a line in the prose preface to the 1855 <hi rend="italic">Leaves of Grass</hi>.</note>
+            <note type="work_relations" target="xxx.00048" cert="high">
+            <p>Parts of this manuscript probably relate to the following lines in the first poem of the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, a poem that was later titled "Song of Myself": "The suicide sprawls on the bloody floor of the bedroom. / It is so . . . . I witnessed the corpse . . . . there the pistol had fallen. ." (1855, p. 33) and "And as to you corpse I think you are good manure, but that does not offend me, / I smell the white roses sweetscented and growing, / I reach to the leafy lips . . . . I reach to the polished breasts of melons" (1855, p. 54).</p>
+        </note>
+            <note type="work_relations" target="xxx.00526" cert="low">
+        <p>The list of flora and fauna in this manuscript could anticipate any number of similar lists in Whitman, but the words bear some resemblance to the following line from the preface to the 1855 <hi rend="italic">Leaves of Grass</hi>: "On him rise solid growths that offset the growths of pine and cedar and hemlock and liveoak and locust and chestnut and cypress and hickory and limetree and cottonwood and tuliptree and cactus and wildvine and tamarind and persimmon . . . ." (1855, p. iv). The line was later reused as part of the poem "By Blue Ontario's Shore."</p>
+    </note>
             </notesStmt>
             <sourceDesc>
                 <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -59,7 +59,9 @@
            </bibl> 
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+        <revisionDesc>
+            <change when="2022-06-06" who="#bb">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2018-11-16" who="#nhg">edited work relations</change>
             <change when="2018-11-15" who="#nhg">added relations information, revised</change>
             <change when="2018-10-09" who="#nhg">created new file out of uva.00254</change>

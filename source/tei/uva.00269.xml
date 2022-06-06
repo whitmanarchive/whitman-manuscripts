@@ -1,13 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00269">
-<relations>
-        <work ref="xxx.00048" cert="low">
-            <p>The first line in this manuscript matches a line that appears next to others in the "Talbot Wilson" notebook (recto leaf 38) that eventually made their way into the poem that would be titled "Song of Myself." Later lines in the manuscript also include images and words that may relate to those that appeared in the poem, including, for instance: "I speak the password primeval . . . . I give the sign of democracy;" (1855, p. 29) and "I am an acme of things accomplished, and I an encloser of things to be. / My feet strike an apex of the apices of the stairs, /  On every step bunches of ages, and larger bunches between the steps, / All below duly traveled—and still I mount and mount" (1855, p. 50).</p>         
-        </work>
-    <work ref="xxx.00052" cert="low">
-        <p>The opening line of this manuscript also bears some resemblance to a line in the poem eventually titled "I Sing the Body Electric": "Suchlike I love . . . . I loosen myself and pass freely . . . . and am at the mother's
-            breast with the little child," (1855, p. 78).</p>
-    </work>
-    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,7 +11,9 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="bjo">Brandon James O'Neil</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
+                </respStmt>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -45,6 +38,13 @@
                 <note type="project" target="dat1">Whitman probably drafted this
                     manuscript in the <date notBefore="1850" notAfter="1855">early 1850s</date> as he was composing
                     the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The first line in this manuscript matches a line in the "<ref target="../notebooks/transcriptions/loc.00141.html">Talbot Wilson</ref>" notebook (recto leaf 38), and is similar in structure to lines that appeared in the first poem in the 1855 edition of <hi rend="italic">Leaves</hi>, eventually titled "Song of Myself." The image of the poet navigating stairs also appears in what would become section 44 of "Song of Myself."</note>
+     <note type="work_relations" target="xxx.00048" cert="low">
+            <p>The first line in this manuscript matches a line that appears next to others in the "Talbot Wilson" notebook (recto leaf 38) that eventually made their way into the poem that would be titled "Song of Myself." Later lines in the manuscript also include images and words that may relate to those that appeared in the poem, including, for instance: "I speak the password primeval . . . . I give the sign of democracy;" (1855, p. 29) and "I am an acme of things accomplished, and I an encloser of things to be. / My feet strike an apex of the apices of the stairs, /  On every step bunches of ages, and larger bunches between the steps, / All below duly traveled—and still I mount and mount" (1855, p. 50).</p>         
+        </note>
+     <note type="work_relations" target="xxx.00052" cert="low">
+        <p>The opening line of this manuscript also bears some resemblance to a line in the poem eventually titled "I Sing the Body Electric": "Suchlike I love . . . . I loosen myself and pass freely . . . . and am at the mother's
+            breast with the little child," (1855, p. 78).</p>
+    </note>
             </notesStmt>
             <sourceDesc>
                 <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -65,7 +65,9 @@
                 <handNote scribeRef="#unk" xml:id="h1"><persName xml:id="unk">Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+        <revisionDesc>
+            <change when="2022-06-06" who="#bb">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2018-11-18" who="#nhg">checked, corrected, edited relations</change>
             <change when="2018-01-25" who="#bjo">transcribed and encoded</change>
         </revisionDesc>

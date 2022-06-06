@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00052">
-    <relations>
-        <work ref="xxx.00330" cert="high">
-            <p>A draft of "Proudly the Flood Comes In," first published as part of "Fancies at
-                Navesink" in <hi rend="italic">Nineteenth Century</hi> in August 1885.</p>
-        </work>
-    </relations>
+    
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -55,6 +50,10 @@
                     of contents for Whitman's book <hi rend="italic">Drum Taps</hi>. The contents
                     listed include some poetry titles that Whitman never included in the published volume or any of the editions of <hi rend="italic">Leaves of Grass.</hi>
                 </note>
+                <note  type="work_relations" target="xxx.00330" cert="high">
+            <p>A draft of "Proudly the Flood Comes In," first published as part of "Fancies at
+                Navesink" in <hi rend="italic">Nineteenth Century</hi> in August 1885.</p>
+        </note>
             </notesStmt>
             <sourceDesc>
                 <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -73,7 +72,9 @@
                 <handNote xml:id="h1" scribeRef="#unk"><persName xml:id="unk">Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+        <revisionDesc>
+            <change when="2022-06-03" who="#bb">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-10-18" who="#nhg">corrected</change>
             <change when="2016-09-12" who="#nhg">proofed</change>
             <change when="2016-01-12" who="#bb">updated list of staff in titleStmt</change>

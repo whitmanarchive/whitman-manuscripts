@@ -14,7 +14,10 @@
 					<persName xml:id="jc">Janel Cayer</persName>
 					<persName xml:id="km">Kevin McMullen</persName>
 					<persName xml:id="nhg">Nicole Gray</persName>
-				<persName xml:id="kmp">Kenneth M. Price</persName><persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+					<persName xml:id="kmp">Kenneth M. Price</persName>
+					<persName xml:id="as">Ashlyn Stewart</persName>
+					<persName xml:id="bb">Brett Barney</persName>
+				</respStmt>
 				<sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
 				<sponsor>University of Iowa</sponsor>
 				<funder>The National Endowment for the Humanities</funder>
@@ -39,7 +42,9 @@
 				</availability>
 			<idno>upa.00002</idno></publicationStmt>
 			<notesStmt>
-				<note type="project" target="#dat1">This manuscript includes ideas for two poems, one of which is titled "Poem for the good old cause." Possibly this is a very early draft of the poem "To Thee Old Cause," which first appeared in the 1871 edition of <hi rend="italic">Leaves of Grass</hi>. However, Whitman used the term "good old cause" as early as the 1855 edition, where it appears in the Preface. The phrase probably originated in England during the seventeenth century, shortly after the English Civil War, and was frequently used by Whitman (see Clarence Gohdes, "Whitman and the 'Good Old Cause,'" <hi rend="italic">American Literature</hi> 34.3 [November 1962]: 400–403). Aided by the earlier work of Richard Maurice Bucke in <hi rend="italic">Notes and Fragments</hi> (1899), Edward Grier suggests that this manuscript likely was written prior to 1860 (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 4:1329). The titles of both of the proposed poems ("Poem of...") suggest the title format of the 1856 edition. The second proposed poem, titled "Poem of the People," is not known to have led to a published work.</note>             
+				<note type="project" target="#dat1">This manuscript includes ideas for two poems, one of which is titled "Poem for the good old cause." Possibly this is a very early draft of the poem "To Thee Old Cause," which first appeared in the 1871 edition of <hi rend="italic">Leaves of Grass</hi>. However, Whitman used the term "good old cause" as early as the 1855 edition, where it appears in the Preface. The phrase probably originated in England during the seventeenth century, shortly after the English Civil War, and was frequently used by Whitman (see Clarence Gohdes, "Whitman and the 'Good Old Cause,'" <hi rend="italic">American Literature</hi> 34.3 [November 1962]: 400–403). Aided by the earlier work of Richard Maurice Bucke in <hi rend="italic">Notes and Fragments</hi> (1899), Edward Grier suggests that this manuscript likely was written prior to 1860 (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 4:1329). The titles of both of the proposed poems ("Poem of...") suggest the title format of the 1856 edition. The second proposed poem, titled "Poem of the People," is not known to have led to a published work.</note>
+				<note type="work_relations" target="xxx.00029" cert="low"><p>This manuscript includes notes for two proposed poems. One of the proposed poems is titled "Poem for the good old cause," and thus may be a very early draft of the poem "To Thee Old Cause," which first appeared in the <date when="1871">1871</date> edition of <hi rend="italic">Leaves of Grass</hi>.</p></note>
+		             
 			</notesStmt>
 			<sourceDesc>
 				
@@ -53,7 +58,9 @@
 				</bibl>
 			</sourceDesc>
 		</fileDesc>
-		<revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+		<revisionDesc>
+			<change when="2022-06-06" who="#bb">updated relations encoding</change>
+			<change when="2022-04-14" who="#as">regularized name for infrastructure</change>
 			<change when="2017-03-01" who="#kmp">blessed</change>
 			<change when="2017-03-13" who="#nhg">edited encoding and editorial note</change>
 			<change when="2016-09-12" who="#nhg">corrected</change>
@@ -72,10 +79,7 @@
 	
 <pb xml:id="leaf001r" facs="upa.00002.001.jpg" type="recto"/>
 	
-	<div1 type="section">
-		<relations>
-			<work ref="xxx.00029" cert="low"><p>This manuscript includes notes for two proposed poems. One of the proposed poems is titled "Poem for the good old cause," and thus may be a very early draft of the poem "To Thee Old Cause," which first appeared in the <date when="1871">1871</date> edition of <hi rend="italic">Leaves of Grass</hi>.</p></work>
-		</relations>	
+	<div1 type="section">	
 		<head type="main-authorial" rend="underline">Poem <seg xml:id="w1">for</seg> <add rend="unmarked" place="supralinear"><seg xml:id="w2">of</seg> <add rend="unmarked" place="supralinear"><seg xml:id="w3">of adherence to</seg> <add rend="unmarked" place="supralinear" xml:id="w4">of my adherence</add></add></add>  <alt target="#w1 #w2 #w3 #w4" weights="0.25 0.25 0.25 0.25"/> the good old cause</head>
 		
 

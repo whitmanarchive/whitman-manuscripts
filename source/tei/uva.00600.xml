@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00600">
-    <relations>
-        <work ref="xxx.00048" cert="low">
-            <p>The last two lines in this manuscript are similar to a passage about touch in the notebook "<ref target="../notebooks/transcriptions/loc.00141.html">Talbot Wilson</ref>" (leaf 51 recto) that relates to what would become section 28 of "Song of Myself."</p>
-        </work>
-    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,7 +11,9 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="bjo">Brandon James O'Neil</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
+                </respStmt>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -41,6 +38,9 @@
                 <note type="project" target="dat1">Whitman probably drafted this
                     manuscript in the <date notBefore="1850" notAfter="1855">early 1850s</date> as he was composing
                     the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript may relate to a passage about touch that appeared in the first poem in that edition, eventually titled "Song of Myself." In his transcription of this manuscript, Richard Maurice Bucke included lines at the beginning and end that read: "Yet I strike and dart through . . . . . . " and "I am a creased and cut sea; the furious wind . . . . . ." (<hi rend="italic">Notes and Fragments</hi> [London, Ontario: A. Talbot &amp; Co., printers, 1899], 34–5). These lines do not currently appear on the manuscript.</note>
+            <note type="work_relations" target="xxx.00048" cert="low">
+            <p>The last two lines in this manuscript are similar to a passage about touch in the notebook "<ref target="../notebooks/transcriptions/loc.00141.html">Talbot Wilson</ref>" (leaf 51 recto) that relates to what would become section 28 of "Song of Myself."</p>
+        </note>
             </notesStmt>
             <sourceDesc>
                 <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -56,7 +56,9 @@
                   </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+        <revisionDesc>
+            <change when="2022-06-06" who="#bb">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2020-01-05" who="#nhg">edited note</change>
             <change when="2018-11-19" who="#nhg">checked, corrected, added relations information</change>
             <change when="2018-01-25" who="#bjo">transcribed and encoded</change>

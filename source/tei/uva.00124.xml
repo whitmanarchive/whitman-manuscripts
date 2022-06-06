@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00124">
-    <relations>
-        <work ref="xxx.00611" cert="high">
-            <p>Manuscript draft of the unpublished poem "As of Forms," which is possibly one of a group of poems Whitman composed prior to the third edition of <hi rend="italic">Leaves of Grass</hi>.</p>
-        </work>
-    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -53,6 +48,10 @@
                         <date notBefore="1856" notAfter="1860">1856 and 1860</date>, when Whitman was working on
                     the poems for the third edition of <hi rend="italic">Leaves of
                     Grass</hi>.</note>
+                <note type="work_relations" target="xxx.00611" cert="high">
+            <p>Manuscript draft of the unpublished poem "As of Forms," which is possibly one of a group of poems Whitman composed prior to the third edition of <hi rend="italic">Leaves of Grass</hi>.</p>
+        </note>
+    
             </notesStmt>
             <sourceDesc>
                 <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -70,7 +69,9 @@
                 <handNote xml:id="h1" scribeRef="#unk"><persName xml:id="unk">Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+        <revisionDesc>
+            <change when="2022-06-06" who="#bb">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-04-26" who="#nhg">checked, corrected</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
             <change when="2006-08-04" who="#nk">Added third digit to leaf numbers</change>

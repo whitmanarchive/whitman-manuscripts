@@ -1,12 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00238">
-   <relations>
-      <work ref="xxx.00048" cert="low">
-         <p>Ideas expressed in this early manuscript are similar to those that appeared in the poem eventually titled "Song of Myself." The manuscript may have a distant relation to the following lines: "And I know I am solid and sound, / To me the converging objects of the universe perpetually flow, / All are written to me, and I must get what the writing means" (1855, p. 26).</p>
-      </work>
-      <work ref="xxx.00526" cert="low">
-         <p>This manuscript may relate to the following lines in the preface to the 1855 <hi rend="italic">Leaves of Grass</hi>: "The owner of the library is not he who holds a legal title to it having bought and paid for it. Any one and every one is owner of the library who can read the same through all the varieties of tongues and subjects and styles, and in whom they enter with ease and take residence and force toward paternity and maternity, and make supple and powerful and rich and large. . . . . . . . ." (1855, p. ix).</p>
-      </work>
-   </relations>
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -19,7 +11,9 @@
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="mc">Michael Carmody</persName>
-            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+               <persName xml:id="as">Ashlyn Stewart</persName>
+               <persName xml:id="bb">Brett Barney</persName>
+            </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -45,6 +39,12 @@
          <idno>uva.00238</idno></publicationStmt>
          <notesStmt>
             <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Lines in the manuscript are similar to sentences used in the preface to that edition. Ideas expressed in the manuscript also relate loosely to lines in the first poem in the 1855 edition, eventually titled "Song of Myself."</note>
+            <note type="work_relations" target="xxx.00048" cert="low">
+         <p>Ideas expressed in this early manuscript are similar to those that appeared in the poem eventually titled "Song of Myself." The manuscript may have a distant relation to the following lines: "And I know I am solid and sound, / To me the converging objects of the universe perpetually flow, / All are written to me, and I must get what the writing means" (1855, p. 26).</p>
+      </note>
+            <note type="work_relations" target="xxx.00526" cert="low">
+         <p>This manuscript may relate to the following lines in the preface to the 1855 <hi rend="italic">Leaves of Grass</hi>: "The owner of the library is not he who holds a legal title to it having bought and paid for it. Any one and every one is owner of the library who can read the same through all the varieties of tongues and subjects and styles, and in whom they enter with ease and take residence and force toward paternity and maternity, and make supple and powerful and rich and large. . . . . . . . ." (1855, p. ix).</p>
+      </note>
          </notesStmt>
          <sourceDesc>
             <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -61,7 +61,9 @@
          </sourceDesc>
       </fileDesc>
 
-      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+      <revisionDesc>
+         <change when="2022-06-06" who="#bb">updated relations encoding</change>
+         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2018-11-27">checked, corrected, added relations information</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
          <change who="#mc" when="2003-11-10">Encoded</change>

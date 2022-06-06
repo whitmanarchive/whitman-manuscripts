@@ -1,18 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00010">
-    <relations>
-        <work ref="xxx.00024" cert="high">
-            <p>This manuscript is a draft of the first poem of the <date when="1867">1867</date>
-                edition of <hi rend="italic">Leaves of Grass</hi>, entitled "Inscription." In <date when="1871">1871</date> and later editions of <hi rend="italic">Leaves of
-                    Grass</hi>, Whitman revised the poem, shortened it, and retitled it "One's-Self
-                I Sing." </p>
-        </work>
-        <work ref="xxx.00353" cert="high">
-            <p>In the <date when="1888">1888</date> volume <hi rend="italic">November Boughs</hi>
-                and in the final printing of <hi rend="italic">Leaves of Grass</hi>, Whitman
-                included both "One's-Self I Sing" and the original "Inscription" to the <date when="1867">1867</date> edition, ultimately appearing under the title "Small
-                the Theme of My Chant."</p>
-        </work>
-    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -64,6 +50,18 @@
                     edition, entitled "Inscription." In <date when="1871">1871</date> and later editions of <hi rend="italic">Leaves of
                         Grass</hi>, Whitman revised the poem, shortened it, and retitled it "One's-Self
                     I Sing."</note>
+                <note type="work_relations" target="xxx.00024" cert="high">
+            <p>This manuscript is a draft of the first poem of the <date when="1867">1867</date>
+                edition of <hi rend="italic">Leaves of Grass</hi>, entitled "Inscription." In <date when="1871">1871</date> and later editions of <hi rend="italic">Leaves of
+                    Grass</hi>, Whitman revised the poem, shortened it, and retitled it "One's-Self
+                I Sing." </p>
+        </note>
+                <note type="work_relations" target="xxx.00353" cert="high">
+            <p>In the <date when="1888">1888</date> volume <hi rend="italic">November Boughs</hi>
+                and in the final printing of <hi rend="italic">Leaves of Grass</hi>, Whitman
+                included both "One's-Self I Sing" and the original "Inscription" to the <date when="1867">1867</date> edition, ultimately appearing under the title "Small
+                the Theme of My Chant."</p>
+        </note>
             </notesStmt>
             <sourceDesc>
                 <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -81,7 +79,9 @@
                 <handNote xml:id="h1" scribeRef="#unk"><persName xml:id="unk">Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+        <revisionDesc>
+            <change when="2022-06-03" who="#bb">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-12-01" who="#nhg">corrected</change>
             <change when="2016-07-27" who="#nhg">proofed</change>
             <change when="2016-01-14" who="#bb">updated list of staff in titleStmt</change>

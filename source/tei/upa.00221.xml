@@ -1,12 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="upa.00221">
-   <relations>
-      <work ref="xxx.00221" cert="high">
-         <p>Most of the lines in this manuscript amount to a poetic rendering of sentences and phrases drawn from the prose preface to the 1855 <hi rend="italic">Leaves of Grass</hi> and constitute a partial draft of the 1856 poem "Poem of Many In One," which eventually became "By Blue Ontario's Shore." A majority of the manuscript lines appeared near the end of the published poem. These include, specifically, versions of the first several lines (through "Its deserts, forests, clearings, log houses, hunters, are you and me"), the line "The perpetual arrivals of immigrants are you and me" and the section of ten lines from "Natural and artificial are you and me" through "Not librety#8212;not to cheer up slawes and horrify despots." The lines "It's ships, whaling, gold-digging are you and me, / Its paved cities, wharves, wealth, avenues, dwellings, are you and me," and "The north, south, east, west, are you and me" were used, greatly altered, in a section of lines that appeared nearer the beginning of "Poem of Many in One."</p>
-      </work>
-      <work ref="xxx.00230" cert="high">
-         <p>The line at the bottom of this manuscript, partially cut away, was drawn from the prose preface to the 1855 <hi rend="italic">Leaves of Grass</hi> and was used in "Liberty Poem for Asia, Africa, Europe, America, Australia, Cuba, and the Archipelagoes of The Sea," published in the 1856 <hi rend="italic">Leaves.</hi> Whitman titled the final version of the poem "To a Foil'd European Revolutionaire."</p>
-      </work>
-   </relations>
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,6 +41,12 @@
          <idno>upa.00221</idno></publicationStmt>
          <notesStmt>
             <note type="project" target="#dat1">Most of the lines in this manuscript amount to a poetic rendering of sentences and phrases drawn from the prose preface to the 1855 <hi rend="italic">Leaves of Grass</hi> and constitute a partial draft of the 1856 poem "Poem of Many In One," which eventually became "By Blue Ontario's Shore." The line at the bottom of this manuscript, partially cut away, was also drawn from the 1855 preface but was used in the 1856 poem "Liberty Poem for Asia, Africa, Europe, America, Australia, Cuba, and the Archipelagoes of The Sea," which Whitman titled, in its final version, "To a Foil'd European Revolutionaire."</note>
+            <note type="work_relations" target="xxx.00221" cert="high">
+         <p>Most of the lines in this manuscript amount to a poetic rendering of sentences and phrases drawn from the prose preface to the 1855 <hi rend="italic">Leaves of Grass</hi> and constitute a partial draft of the 1856 poem "Poem of Many In One," which eventually became "By Blue Ontario's Shore." A majority of the manuscript lines appeared near the end of the published poem. These include, specifically, versions of the first several lines (through "Its deserts, forests, clearings, log houses, hunters, are you and me"), the line "The perpetual arrivals of immigrants are you and me" and the section of ten lines from "Natural and artificial are you and me" through "Not librety#8212;not to cheer up slawes and horrify despots." The lines "It's ships, whaling, gold-digging are you and me, / Its paved cities, wharves, wealth, avenues, dwellings, are you and me," and "The north, south, east, west, are you and me" were used, greatly altered, in a section of lines that appeared nearer the beginning of "Poem of Many in One."</p>
+      </note>
+            <note type="work_relations" target="xxx.00230" cert="high">
+         <p>The line at the bottom of this manuscript, partially cut away, was drawn from the prose preface to the 1855 <hi rend="italic">Leaves of Grass</hi> and was used in "Liberty Poem for Asia, Africa, Europe, America, Australia, Cuba, and the Archipelagoes of The Sea," published in the 1856 <hi rend="italic">Leaves.</hi> Whitman titled the final version of the poem "To a Foil'd European Revolutionaire."</p>
+      </note>
          </notesStmt>
          <sourceDesc>
             <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -67,7 +65,9 @@ University of Pennsylvania: Kislak Center for Special Collections, Rare Books an
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+      <revisionDesc>
+         <change when="2022-06-06" who="#bb">updated relations encoding</change>
+         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#bb" when="2019-09-23">checked; edited</change>
          <change who="#cah" when="2019-04-03">created new file, updated encoding</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
