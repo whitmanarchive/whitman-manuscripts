@@ -1,16 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00030">
-    <relations>
-        <work ref="xxx.00264" cert="high">
-            <p><ref target="#q01 #q02" xml:id="r01" type="text">These lines</ref> are a draft of the following lines in the fourth poem of the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, a poem that was later titled "The Sleepers": "The earth recedes from me into the night" (1855, p. 71) and
-                "A shroud I see—and I am the shroud . . . . I wrap a body and lie in the coffin; /
-                It is dark here underground . . . . it is not evil or pain here . . . . it is blank here, for reasons. /
-                It seems to me that everything in the light and air ought to be happy; /
-                Whoever is not in his coffin and the dark grave, let him know he has enough" (1855, p. 72–73).</p>
-        </work>
-        <work ref="xxx.00048" cert="high">
-            <p><ref target="#l07" xml:id="r02" type="text">This line</ref> also is similar to the following line in the poem eventually titled "Song of Myself": "The dirt receding before my prophetical screams" (1855, p. 31).</p>
-        </work>
-    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,7 +11,9 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="bjo">Brandon James O'Neil</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -51,6 +41,16 @@
                 <note type="project" target="dat1">Whitman probably drafted this
                     manuscript in the <date notBefore="1850" notAfter="1855">early 1850s</date> as he was composing
                     the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Lines in the manuscript are drafts of lines in the first and fourth poems of that edition, eventually titled "Song of Myself" and "The Sleepers."</note>
+                <note type="work_relations" target="xxx.00264" cert="high">
+            <p><ref target="#q01 #q02" xml:id="r01" type="text">These lines</ref> are a draft of the following lines in the fourth poem of the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, a poem that was later titled "The Sleepers": "The earth recedes from me into the night" (1855, p. 71) and
+                "A shroud I see—and I am the shroud . . . . I wrap a body and lie in the coffin; /
+                It is dark here underground . . . . it is not evil or pain here . . . . it is blank here, for reasons. /
+                It seems to me that everything in the light and air ought to be happy; /
+                Whoever is not in his coffin and the dark grave, let him know he has enough" (1855, p. 72–73).</p>
+        </note>
+                <note type="work_relations" target="xxx.00048" cert="high">
+            <p><ref target="#l07" xml:id="r02" type="text">This line</ref> also is similar to the following line in the poem eventually titled "Song of Myself": "The dirt receding before my prophetical screams" (1855, p. 31).</p>
+        </note>
             </notesStmt>
             <sourceDesc>
                 <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -66,7 +66,9 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+        <revisionDesc>
+            <change when="2022-06-06" who="#bb">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change who="#nhg" when="2019-08-21">added corresp, edited relations</change>
             <change who="#nhg" when="2019-01-12">checked, corrected, edited relations information</change>
             <change who="#nhg" when="2019-01-09">converted to P5</change>

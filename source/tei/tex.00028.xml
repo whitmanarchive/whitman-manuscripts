@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00028">
-   <relations>
-      <work ref="xxx.01167" cert="high">
-         <p>This poetic rendering of Sesostris was probably derived from information Whitman used to write his article "One of the Lessons Bordering Broadway: The Egyptian Museum," published in <hi rend="italic">Life Illustrated</hi> on December 8, 1855.</p>
-      </work>
-   </relations>
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -16,7 +11,9 @@
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="ms">Melody S. Han</persName>
-            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+               <persName xml:id="as">Ashlyn Stewart</persName>
+               <persName xml:id="bb">Brett Barney</persName>
+            </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -42,6 +39,9 @@
          <idno>tex.00028</idno></publicationStmt>
          <notesStmt>
             <note type="project" target="dat1">The ellipses would suggest that this is an early manuscript, probably written in the <date notBefore="1854" notAfter="1859">mid- to late-1850s</date>. It is an adaptation of notes Whitman took about Egypt, almost certainly from his reading of Sir John Gardner Wilkinson's <hi rend="italic">Manners and Customs of the Ancient Egyptians</hi>, 3 vols. (London: John Murray, 1837). Related information about Sesostris appears on page 29 of the first volume in Wilkinson's collection, though Whitman may have been reading a different edition. Whitman used the information in his article "<!--<ref target="../published/periodical/journalism/tei/per.00276.html">-->One of the Lessons Bordering Broadway: The Egyptian Museum<!--</ref>-->," published in <hi rend="italic">Life Illustrated</hi> on December 8, 1855. Similar descriptions of Sesostris appear in several of Whitman's other notes and manuscripts, including "<ref target="/manuscripts/marginalia/annotations/mid.00018.html">Immortality was realized</ref>" and "<!--<ref target="/manuscripts/marginalia/annotations/tex.00200.html">-->Abraham's visit to Egypt<!--</ref>-->," two sets of manuscript notes about Egypt that Edward Grier dates to between 1855 and 1860 (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 5:1922; 6:2022); and the notebook "<ref target="/manuscripts/notebooks/transcriptions/loc.05589.html">women</ref>," including the fragments from that notebook that Whitman reused to create the larger page "<ref target="/manuscripts/marginalia/annotations/duk.00066.html">Chronological</ref>."</note>
+            <note type="work_relations" target="xxx.01167" cert="high">
+         <p>This poetic rendering of Sesostris was probably derived from information Whitman used to write his article "One of the Lessons Bordering Broadway: The Egyptian Museum," published in <hi rend="italic">Life Illustrated</hi> on December 8, 1855.</p>
+      </note>
          </notesStmt>
          <sourceDesc>
             <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -54,7 +54,9 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+      <revisionDesc>
+         <change when="2022-06-06" who="#bb">updated relations encoding</change>
+         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2019-06-05">checked, corrected, added editorial note</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
          <change who="#ms" when="2003-12-17">Encoded, transcribed</change>

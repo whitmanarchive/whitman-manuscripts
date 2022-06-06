@@ -1,22 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00057">
-   <relations>
-      <work ref="xxx.00526" cert="high">
-         <p><ref target="#l01 #l06 #l08">Lines in this manuscript</ref> are similar to language in the prose preface to the 1855 <hi rend="italic">Leaves of Grass</hi>: "that there is not a minute of the light or dark nor an acre of the earth or sea without it" (1855, p. vi).</p>
-      </work>
-      <work ref="xxx.00048" cert="high">
-         <p>This manuscript includes drafts of lines that appeared in the first poem in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, titled "Leaves of Grass," eventually titled "Song of Myself": "And mossy scabs of the wormfence, and heaped stones, and elder and mullen and pokeweed" (1855, p. 16). "And the mockingbird in the swamp never studied the gamut, yet trills pretty well to me, / And the look of the bay mare shames silliness out of me" (1855, p. 20). "And the cow crunching with depressed head surpassed any statue" (1855, p. 34). "Delicate sniffs of the seabreeze .... smells of sedgy grass and fields by the shore ... death-messages given in charge to survivors" (1855, p. 42).</p>
-      </work>
-      <work ref="xxx.00266" cert="low">
-         <p><ref target="#l10">A line in this manuscript</ref> is similar to a line that appeared in the poem that would later be titled "To Think of Time": "The earth is not an echo . . . . man and his life and all the things of his life are well-considered" (1855, p. 67).</p>
-      </work>
-      <work ref="xxx.00119" cert="low">
-         <p><ref target="#l01 #l06 #l08">Lines in this manuscript</ref> bear some resemblance to language in the poem eventually titled "A Song for Occupations": "The wonder every one sees in every one else he sees . . . . and the wonders that fill each minute of time forever and each acre of surface and space forever" (1855, p. 59).</p>
-      </work>
-      <work ref="xxx.00259" cert="high">
-         <p><ref target="#l01 #l06 #l08">Lines in this manuscript</ref> bear some resemblance to language in the manuscript poem <ref target="yal.00081.html">Pictures</ref>: "And every hour of the day and night has given deposited with me copious pictures, / And every rod of land or sea affords me, as long as I live, inimitable pictures." The first lines of the notebook poem were revised and published as "My Picture-Gallery" in <hi rend="italic">The American</hi> in October 1880. The poem was later published in <hi rend="italic">Leaves of Grass</hi> as part of the "Autumn Rivulets" cluster (1881, p. 310).</p>
-      </work>
-   </relations>
-   
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,7 +13,9 @@
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="sp">Stacey Provan</persName>
                <persName xml:id="kp">Ken Price</persName>
-            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+               <persName xml:id="as">Ashlyn Stewart</persName>
+               <persName xml:id="bb">Brett Barney</persName>
+            </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -56,7 +40,22 @@
             </availability>
          <idno>tex.00057</idno></publicationStmt>
          <notesStmt>
-            <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was preparing materials for the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript includes lines that relate to the prose preface and to several of the poems in that edition, including the poems eventually titled "Song of Myself," "To Think of Time," and "A Song for Occupations." The manuscript also includes lines that relate to the manuscript poem "<ref target="yal.00081.html">Pictures</ref>," which probably dates to the mid- to late 1850s.</note>             
+            <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was preparing materials for the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript includes lines that relate to the prose preface and to several of the poems in that edition, including the poems eventually titled "Song of Myself," "To Think of Time," and "A Song for Occupations." The manuscript also includes lines that relate to the manuscript poem "<ref target="yal.00081.html">Pictures</ref>," which probably dates to the mid- to late 1850s.</note>
+            <note type="work_relations" target="xxx.00526" cert="high">
+         <p><ref target="#l01 #l06 #l08">Lines in this manuscript</ref> are similar to language in the prose preface to the 1855 <hi rend="italic">Leaves of Grass</hi>: "that there is not a minute of the light or dark nor an acre of the earth or sea without it" (1855, p. vi).</p>
+      </note>
+            <note type="work_relations" target="xxx.00048" cert="high">
+         <p>This manuscript includes drafts of lines that appeared in the first poem in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, titled "Leaves of Grass," eventually titled "Song of Myself": "And mossy scabs of the wormfence, and heaped stones, and elder and mullen and pokeweed" (1855, p. 16). "And the mockingbird in the swamp never studied the gamut, yet trills pretty well to me, / And the look of the bay mare shames silliness out of me" (1855, p. 20). "And the cow crunching with depressed head surpassed any statue" (1855, p. 34). "Delicate sniffs of the seabreeze .... smells of sedgy grass and fields by the shore ... death-messages given in charge to survivors" (1855, p. 42).</p>
+      </note>
+            <note type="work_relations" target="xxx.00266" cert="low">
+         <p><ref target="#l10">A line in this manuscript</ref> is similar to a line that appeared in the poem that would later be titled "To Think of Time": "The earth is not an echo . . . . man and his life and all the things of his life are well-considered" (1855, p. 67).</p>
+      </note>
+            <note type="work_relations" target="xxx.00119" cert="low">
+         <p><ref target="#l01 #l06 #l08">Lines in this manuscript</ref> bear some resemblance to language in the poem eventually titled "A Song for Occupations": "The wonder every one sees in every one else he sees . . . . and the wonders that fill each minute of time forever and each acre of surface and space forever" (1855, p. 59).</p>
+      </note>
+            <note type="work_relations" target="xxx.00259" cert="high">
+         <p><ref target="#l01 #l06 #l08">Lines in this manuscript</ref> bear some resemblance to language in the manuscript poem <ref target="yal.00081.html">Pictures</ref>: "And every hour of the day and night has given deposited with me copious pictures, / And every rod of land or sea affords me, as long as I live, inimitable pictures." The first lines of the notebook poem were revised and published as "My Picture-Gallery" in <hi rend="italic">The American</hi> in October 1880. The poem was later published in <hi rend="italic">Leaves of Grass</hi> as part of the "Autumn Rivulets" cluster (1881, p. 310).</p>
+      </note>             
          </notesStmt>
          <sourceDesc>
             <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -72,7 +71,9 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+      <revisionDesc>
+         <change when="2022-06-06" who="#bb">updated relations encoding</change>
+         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2019-06-01" who="#kp">blessed</change>
          <change when="2019-06-01" who="#nhg">edited relations note</change>
          <change who="#nhg" when="2019-02-17">checked, corrected</change>
