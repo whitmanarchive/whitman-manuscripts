@@ -1,11 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pml.00007">
-    <relations>
-        <work ref="xxx.00607" cert="high">
-            <p>"Starry Union" was never published in Whitman's lifetime, though several different
-                draft forms exist. A revision of these lines appears in the unpublished manuscript
-                poem entitled "Hands Ro[und]."</p>
-        </work>
-    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -56,6 +49,11 @@
                     date of composition of this manuscript is unknown, but Whitman very possibly wrote this piece
                     for the Centennial Celebration of <date when="1876">1876</date>, as the date of the letter on the reverse ("Feb 11/76")
                     suggests.</note>
+                <note type="work_relations" target="xxx.00607" cert="high">
+            <p>"Starry Union" was never published in Whitman's lifetime, though several different
+                draft forms exist. A revision of these lines appears in the unpublished manuscript
+                poem entitled "Hands Ro[und]."</p>
+        </note>
             </notesStmt>
             <sourceDesc>
                 <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -77,7 +75,9 @@
                 <handNote xml:id="h1" resp="#unk"><persName xml:id="unk">Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
-        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+        <revisionDesc>
+            <change when="2022-06-07" who="#bb">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-11-28" who="#nhg">added information from EAD entry to editorial note</change>
             <change when="2016-10-18" who="#nhg">corrected</change>
             <change when="2016-09-20" who="#nhg">proofed, added relatedItem information</change>

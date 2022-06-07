@@ -1,11 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pml.00006">
-    <relations>
-        <work ref="xxx.00595" cert="high">
-            <p>This is a draft of a poem unpublished in Whitman's lifetime, "After Certain Disastrous Campaigns." "After Certain Distastrous Campaigns" was
-                published first in <hi rend="italic">The Uncollected Poetry and Prose of Walt
-                    Whitman</hi>, ed. Emory Holloway (Garden City, N.Y.: Doubleday, Page, <date when="1921">1921</date>).</p>
-        </work>
-    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -58,6 +51,11 @@
                     <note type="project">A poem unpublished in Whitman's lifetime, "After Certain Distastrous Campaigns" was
                         published first in <hi rend="italic">The Uncollected Poetry and Prose of Walt
                             Whitman</hi>, ed. Emory Holloway (Garden City, N.Y.: Doubleday, Page, <date when="1921">1921</date>).</note>
+                <note type="work_relations" target="xxx.00595" cert="high">
+            <p>This is a draft of a poem unpublished in Whitman's lifetime, "After Certain Disastrous Campaigns." "After Certain Distastrous Campaigns" was
+                published first in <hi rend="italic">The Uncollected Poetry and Prose of Walt
+                    Whitman</hi>, ed. Emory Holloway (Garden City, N.Y.: Doubleday, Page, <date when="1921">1921</date>).</p>
+        </note>
             </notesStmt>
             <sourceDesc>
                 <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -70,7 +68,9 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+        <revisionDesc>
+            <change when="2022-06-07" who="#bb">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-09-26" who="#nhg">updated project note</change>
             <change when="2016-04-26" who="#nhg">corrected verso image name</change>
             <change when="2012-03-01" who="#al">Corrections made from spreadsheet</change>
