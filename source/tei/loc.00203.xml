@@ -1,12 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00203">
-    <relations>
-        <work ref="xxx.00339" cert="high">
-            <p>Whitman published "If I Should Need to Name, O Western World" in the Philadelphia <hi rend="italic">Press</hi> on <date when="1884-10-26">October 26, 1884</date>.
-                The poem's title was revised to "Election Day, November, 1884" when it was included
-                in <hi rend="italic">November Boughs</hi>
-                <date when="1888">(1888)</date>.</p>
-        </work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00203">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,7 +18,8 @@
                     <persName xml:id="aj">Andrew Jewell</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -60,6 +54,13 @@
                     The poem's title was revised to "Election Day, November, 1884" when it was included
                     in <hi rend="italic">November Boughs</hi>
                     <date when="1888">(1888)</date>.</note>
+                    <note type="work_relations" target="xxx.00339" cert="high">
+                        <p>Whitman published "If I Should Need to Name, O Western World" in the Philadelphia <hi rend="italic">Press</hi> on <date when="1884-10-26">October 26, 1884</date>.
+                            The poem's title was revised to "Election Day, November, 1884" when it was included
+                            in <hi rend="italic">November Boughs</hi>
+                            <date when="1888">(1888)</date>.</p>
+                    </note>
+                
             </notesStmt>
             <sourceDesc>
                 <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -71,7 +72,9 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+        <revisionDesc>
+            <change when="2022-06-06" who="#km">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2015-10-18" who="#nhg">added ref link to editorial note</change>
             <change when="2016-07-26" who="#nhg">proofed, added versos</change>
             <change when="2016-03-08" who="#nhg">completed persNames, corrected</change>

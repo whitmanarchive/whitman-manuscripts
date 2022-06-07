@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00507">
-   <relations>
-      <work ref="xxx.00048" cert="high">
-         <p>This manuscript is a one-page handwritten draft of a portion of the poem ultimately titled "Song of Myself," with a hashmark running from top to bottom. These lines first appeared in the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>, eventually becoming section 14 and the beginning of section 15 in the "Deathbed Edition."</p>
-      </work>
-   </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00507">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -19,9 +15,11 @@
                <persName xml:id="sb">Sandy Byrd</persName>
                <persName xml:id="cg">Charles Green</persName>
                <persName xml:id="fl">Farrah Lehman</persName>
-               <persName xml:id="km">Kenneth M. Price</persName>
+               <persName xml:id="kmp">Kenneth M. Price</persName>
                <persName xml:id="bb">Brett Barney</persName>
-            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+               <persName xml:id="as">Ashlyn Stewart</persName>
+               <persName xml:id="km">Kevin McMullen</persName>
+            </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -48,7 +46,9 @@
          <notesStmt>
             
             <note type="project" target="dat1">This manuscript was probably written between 1850 and 1855, while Whitman was working on the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The lines in the manuscript appear in the first poem in that edition, eventually titled "Song of Myself." John C. Broderick has described this manuscript as the last surviving page of "the original manuscript of the first edition of <hi rend="italic">Leaves of Grass</hi>" ("The Greatest Whitman Collector and the Greatest Whitman Collection," <hi rend="italic">The Quarterly Journal of the Library of Congress</hi>, 27.2 [April 1970], 109–128), a claim echoed by Arthur Golden in "The Ending of the 1855 Version of 'Song of Myself,'" <hi rend="italic">Walt Whitman Quarterly Review</hi>, 3.4 (Spring 1986), 30n6. The page number at the top of the manuscript is not inconsistent with the possible positioning of these lines as part of a printer's copy, but lacking further evidence it would be difficult to confirm the claim.</note>
-            
+               <note type="work_relations" target="xxx.00048" cert="high">
+                  <p>This manuscript is a one-page handwritten draft of a portion of the poem ultimately titled "Song of Myself," with a hashmark running from top to bottom. These lines first appeared in the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>, eventually becoming section 14 and the beginning of section 15 in the "Deathbed Edition."</p>
+               </note>
          </notesStmt>
          <sourceDesc>
             <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -63,7 +63,9 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+      <revisionDesc>
+         <change when="2022-06-06" who="#km">updated relations encoding</change>
+         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2020-06-08" who="#nhg">corrected</change>
          <change when="2020-05-22" who="#nhg">edited line breaks, removed corresps</change>
          <change when="2019-06-10" who="#bb">tweaked wording of date note</change>
@@ -78,7 +80,7 @@
          <change who="#cg" when="2003-02-07">Transcribed</change>
          <change who="#fl" when="2006-09-01">Transcribed and encoded verso material</change>
          <change who="#fl" when="2006-09-01">Checked</change>
-         <change who="#km" when="2006-09-07">Edited</change>
+         <change who="#kmp" when="2006-09-07">Edited</change>
       </revisionDesc>
    </teiHeader>
    <text type="manuscript">
