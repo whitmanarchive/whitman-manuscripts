@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05354">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05354">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -13,7 +14,9 @@
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="es">Jeannette Schollaert</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
-                    <persName xml:id="kmp">Kenneth M. Price</persName><persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -51,7 +54,9 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change><change when="2016-05-18" who="#kmp">blessed</change>
+        <revisionDesc>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+            <change when="2016-05-18" who="#kmp">blessed</change>
             <change when="2016-05-13" who="#nhg">checked, corrected</change>
             <change when="2016-05-06" who="#km">checked</change>
             <change when="2016-02-15" who="#es">checked</change>
