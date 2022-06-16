@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00726">
-    <relations>    
-        <work ref="xxx.00048" cert="low"><p>This manuscript may relate to the poem that was eventually titled "Song of Myself." In the manuscript Whitman mentions the "superb wonder of a blade of grass," which is similar in topic to the following line: "I believe a leaf of grass is no less than the journeywork of the stars" (1855, p. 34).</p></work>
-        <work ref="xxx.00526" cert="low">
-            <p>In the prose preface to the 1855 <hi rend="italic">Leaves of Grass</hi>, Whitman also writes that "every spear of grass and the frames and spirits of men and women and all that concerns them are unspeakably perfect miracles" (1855, p. viii).</p>
-        </work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00726">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -19,8 +14,10 @@
                     <persName xml:id="es">Jeannette Schollaert</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName>
-                <persName xml:id="bb">Brett Barney</persName><persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -51,7 +48,11 @@
                 </availability>
             <idno>med.00726</idno></publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Because this manuscript has not been located it is difficult to speculate on the circumstances or date of its composition, but based on the content it seems likely that it was written between <date notBefore="1850" notAfter="1855">1850 and 1855</date>, when Whitman was composing his first edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript note about the "superb wonder of a blade of grass" may relate to similar statements in the prose preface and the first poem in that edition, eventually titled "Song of Myself." In <hi rend="italic">Notes and Fragments</hi>, Richard Maurice Bucke transcribes the manuscript with "<ref target="nyp.00112.html">Enter into the thoughts of</ref>" and describes it as "a very early note, the paper torn and almost falling to pieces."</note>                         
+                <note type="project" target="#dat1">Because this manuscript has not been located it is difficult to speculate on the circumstances or date of its composition, but based on the content it seems likely that it was written between <date notBefore="1850" notAfter="1855">1850 and 1855</date>, when Whitman was composing his first edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript note about the "superb wonder of a blade of grass" may relate to similar statements in the prose preface and the first poem in that edition, eventually titled "Song of Myself." In <hi rend="italic">Notes and Fragments</hi>, Richard Maurice Bucke transcribes the manuscript with "<ref target="nyp.00112.html">Enter into the thoughts of</ref>" and describes it as "a very early note, the paper torn and almost falling to pieces."</note> 
+                    <note type="work_relations" target="xxx.00048" cert="low"><p>This manuscript may relate to the poem that was eventually titled "Song of Myself." In the manuscript Whitman mentions the "superb wonder of a blade of grass," which is similar in topic to the following line: "I believe a leaf of grass is no less than the journeywork of the stars" (1855, p. 34).</p></note>
+                    <note type="work_relations" target="xxx.00526" cert="low">
+                        <p>In the prose preface to the 1855 <hi rend="italic">Leaves of Grass</hi>, Whitman also writes that "every spear of grass and the frames and spirits of men and women and all that concerns them are unspeakably perfect miracles" (1855, p. viii).</p>
+                    </note>
             </notesStmt>
             <sourceDesc>               
                 <biblStruct>
@@ -77,7 +78,8 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+        <revisionDesc>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-12-18" who="#bb">tweaked wording of work note</change>
             <change when="2019-10-04" who="#nhg">removed nyp.00112 content, updated notes</change>
             <change when="2018-11-08" who="#nhg">added inline relations</change>

@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00735">
-    <relations>
-        <work ref="xxx.00115" cert="high"><p>The <ref target="#q01" xml:id="r01" type="text">last two phrases</ref> of this manuscript were used in the "Poem of Joys," first published in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>: "The memory of only one look—the boy lingering and waiting" (p. 261). The poem was retitled "Poems of Joy" in the 1867 edition. In 1871, when the poem appeared in the volume <hi rend="italic">Passage to India</hi>, this line had been deleted and the original title restored. Some copies of the 1871–1872 edition of <hi rend="italic">Leaves of Grass</hi> include the sheets from that volume. In subsequent editions, the poem was retitled "A Song of Joys."</p></work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00735">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -17,7 +15,9 @@
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName><persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -48,7 +48,8 @@
                 </availability>
             <idno>med.00735</idno></publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">The last two phrases of this manuscript appeared in "Poem of Joys" in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>. Because the manuscript has not been located it is difficult to speculate on the circumstances or date of its composition, but it was probably written between 1850 and 1860.</note>             
+                <note type="project" target="#dat1">The last two phrases of this manuscript appeared in "Poem of Joys" in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>. Because the manuscript has not been located it is difficult to speculate on the circumstances or date of its composition, but it was probably written between 1850 and 1860.</note>
+                    <note type="work_relations" target="xxx.00115" cert="high"><p>The <ref target="#q01" xml:id="r01" type="text">last two phrases</ref> of this manuscript were used in the "Poem of Joys," first published in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>: "The memory of only one look—the boy lingering and waiting" (p. 261). The poem was retitled "Poems of Joy" in the 1867 edition. In 1871, when the poem appeared in the volume <hi rend="italic">Passage to India</hi>, this line had been deleted and the original title restored. Some copies of the 1871–1872 edition of <hi rend="italic">Leaves of Grass</hi> include the sheets from that volume. In subsequent editions, the poem was retitled "A Song of Joys."</p></note>
             </notesStmt>
             <sourceDesc>
                 <biblStruct>
