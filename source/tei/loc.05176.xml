@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05176">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05176">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -12,8 +13,10 @@
                     <persName xml:id="kc">Kirsten Clawson</persName>
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
-<persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName><persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -58,8 +61,10 @@
                 <handNote xml:id="h2" scribeRef="#ww" medium="pencil"/>
             </handNotes>
         </profileDesc>
-        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change><change when="2016-05-18" who="#kmp">blessed</change>
-<change when="2016-05-12" who="#nhg">checked, corrected</change>
+        <revisionDesc>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+            <change when="2016-05-18" who="#kmp">blessed</change>
+            <change when="2016-05-12" who="#nhg">checked, corrected</change>
             <change when="2016-05-04" who="#km">checked</change>
             <change when="2015-01-29" who="#jc">checked; revised repository information in header</change>
             <change when="2014-09-24" who="#kc">transcribed and encoded</change>
