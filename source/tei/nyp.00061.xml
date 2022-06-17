@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00061">
-    <relations>
-        <work ref="xxx.00892" cert="low"><p><ref type="text" xml:id="r01" target="#q01">This phrase</ref> from the manuscript is similar to language in a self-published review of the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi> that Whitman wrote for the August 29, 1855, issue of the <hi rend="italic">Brooklyn Daily Times</hi>. In the review, entitled "Walt Whitman, a Brooklyn Boy," Whitman describes the book's author as "one in whom you will see the singularity which consists in no singularity."</p></work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00061">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -18,7 +16,8 @@
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="kmp">Kenneth M. Price</persName>
                     <persName xml:id="rc">Regan Chasek</persName>
-                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -43,7 +42,8 @@
                 </availability>
             <idno>nyp.00061</idno></publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Based on the handwriting, Edward Grier dates this manuscript to the 1840s or early 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:160). The manuscript may relate to a self-published review of the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi> that Whitman wrote for the August 29, 1855, issue of the <hi rend="italic">Brooklyn Daily Times</hi>. In the review, titled "Walt Whitman, A Brooklyn Boy," Whitman describes the book's author as "one in whom you will see the singularity which consists in no singularity."</note>             
+                <note type="project" target="#dat1">Based on the handwriting, Edward Grier dates this manuscript to the 1840s or early 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:160). The manuscript may relate to a self-published review of the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi> that Whitman wrote for the August 29, 1855, issue of the <hi rend="italic">Brooklyn Daily Times</hi>. In the review, titled "Walt Whitman, A Brooklyn Boy," Whitman describes the book's author as "one in whom you will see the singularity which consists in no singularity."</note>    
+                    <note type="work_relations" target="xxx.00892" cert="low"><p><ref type="text" xml:id="r01" target="#q01">This phrase</ref> from the manuscript is similar to language in a self-published review of the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi> that Whitman wrote for the August 29, 1855, issue of the <hi rend="italic">Brooklyn Daily Times</hi>. In the review, entitled "Walt Whitman, a Brooklyn Boy," Whitman describes the book's author as "one in whom you will see the singularity which consists in no singularity."</p></note>
             </notesStmt>
             <sourceDesc>                
                 <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -56,7 +56,9 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+        <revisionDesc>
+            <change when="2022-06-17" who="#km">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2017-12-11" who="#nhg">added inline relations information</change>
             <change when="2017-07-19" who="#rc">added verso link</change>
             <change when="2017-03-01" who="#kmp">blessed</change>

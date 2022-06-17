@@ -1,18 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00057">
-    <relations>
-        <work ref="xxx.00119" cert="low">
-            <p>Phrases in this manuscript are similar to phrases that appeared in the poem that would later be titled "A Song for Occupations." See, for instance: "It is for you whoever you are . . . . it is no farther from you than your hearing and sight are from you, / It is hinted by nearest and commonest and readiest . . . . it is not them, though it is endlessly provoked by them" (1855, p. 59).</p> 
-        </work>
-        <work ref="xxx.00048" cert="low">
-            <p>Phrases in this manuscript are also similar to phrases that appeared in the poem that would later be titled "Song of Myself." See, for instance: "I take my place among you as much as among any," (1855, p. 48); "Nor do I understand who there can be more wonderful than myself" (1855, p. 54); "What is commonest and cheapest and nearest and easiest is Me" (1855, p. 21).</p>
-        </work>
-        <work ref="xxx.00110" cert="low">
-            <p>This manuscript also bears some resemblance to the following lines in "Salut au Monde!," first published in 1856 as "Poem of Salutation": "Stretched in due time within me the midnight sun
-                just rises above the horizon, and sinks again; / Within me zones, seas, cataracts, plains, volca-
-                noes, groups, / Oceanica, Australasia, Polynesia, and the great
-                West Indian islands" (1856, p. 104).</p>
-        </work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00057">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +16,8 @@
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="kmp">Kenneth M. Price</persName>
                     <persName xml:id="rc">Regan Chasek</persName>
-                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -54,7 +42,19 @@
                 </availability>
             <idno>nyp.00057</idno></publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Edward Grier writes of this manuscript that "[t]he sentiments and the handwriting are those of 1855 or earlier" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:186). Some of the language is similar to wording in the 1855 and 1856 poems that would be titled "Song of Myself," "A Song for Occupations," and "Salut au Monde!" At some point, this manuscript formed part of <ref target="../index-scrapbook.html">Whitman's cultural geography scrapbook</ref>.</note>             
+                <note type="project" target="#dat1">Edward Grier writes of this manuscript that "[t]he sentiments and the handwriting are those of 1855 or earlier" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:186). Some of the language is similar to wording in the 1855 and 1856 poems that would be titled "Song of Myself," "A Song for Occupations," and "Salut au Monde!" At some point, this manuscript formed part of <ref target="../index-scrapbook.html">Whitman's cultural geography scrapbook</ref>.</note>         
+                    <note type="work_relations" target="xxx.00119" cert="low">
+                        <p>Phrases in this manuscript are similar to phrases that appeared in the poem that would later be titled "A Song for Occupations." See, for instance: "It is for you whoever you are . . . . it is no farther from you than your hearing and sight are from you, / It is hinted by nearest and commonest and readiest . . . . it is not them, though it is endlessly provoked by them" (1855, p. 59).</p> 
+                    </note>
+                    <note type="work_relations" target="xxx.00048" cert="low">
+                        <p>Phrases in this manuscript are also similar to phrases that appeared in the poem that would later be titled "Song of Myself." See, for instance: "I take my place among you as much as among any," (1855, p. 48); "Nor do I understand who there can be more wonderful than myself" (1855, p. 54); "What is commonest and cheapest and nearest and easiest is Me" (1855, p. 21).</p>
+                    </note>
+                    <note type="work_relations" target="xxx.00110" cert="low">
+                        <p>This manuscript also bears some resemblance to the following lines in "Salut au Monde!," first published in 1856 as "Poem of Salutation": "Stretched in due time within me the midnight sun
+                            just rises above the horizon, and sinks again; / Within me zones, seas, cataracts, plains, volca-
+                            noes, groups, / Oceanica, Australasia, Polynesia, and the great
+                            West Indian islands" (1856, p. 104).</p>
+                    </note>
             </notesStmt>
             <sourceDesc>
                 <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -67,7 +67,9 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+        <revisionDesc>
+            <change when="2022-06-17" who="#km">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2020-05-13" who="#nhg">edited date and relations</change>
             <change when="2019-10-15" who="#km">added line about scrapbook to editorial note</change>
             <change when="2018-11-16" who="#nhg">added inline relations</change>
