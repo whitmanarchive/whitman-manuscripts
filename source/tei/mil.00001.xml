@@ -1,11 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mil.00001">
-    <relations>
-        <work ref="xxx.00141" cert="high">
-            <p>This manuscript is a draft of a poem published first as "In the Wake Following" in
-                the <date when="1874-12">December 1874</date> issue of the New York <hi rend="italic">Daily Graphic</hi>. The poem was later revised and published as
-                "After the Sea-Ship."</p>
-        </work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mil.00001">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,7 +19,9 @@
                     <persName xml:id="kr">Kati Robertson</persName>
                     <persName xml:id="zb">Zach Bajaber</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -57,6 +53,11 @@
                     "Sea-Drift" group of
                     <hi rend="italic">Two Rivulets</hi> (<date when="1876" type="publication">1876</date>). The manuscript was probably written in
                 1874, shortly before the poem's publication.</note>
+                    <note type="work_relations" target="xxx.00141" cert="high">
+                        <p>This manuscript is a draft of a poem published first as "In the Wake Following" in
+                            the <date when="1874-12">December 1874</date> issue of the New York <hi rend="italic">Daily Graphic</hi>. The poem was later revised and published as
+                            "After the Sea-Ship."</p>
+                    </note>
             </notesStmt>
             <sourceDesc>
                 <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -68,7 +69,9 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+        <revisionDesc>
+            <change when="2022-06-17" who="#km">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-11-28" who="#nhg">updated editorial note with information from EAD entry</change>
             <change when="2016-09-26" who="#nhg">proofed</change>
             <change when="2016-04-19" who="#nhg">adjusted header, added reason to unclear</change>

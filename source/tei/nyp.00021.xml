@@ -1,23 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00021">
-   <relations>
-      <work ref="xxx.00119" cert="high">
-         <p>This manuscript includes language similar to the following line, from the poem ultimately titled "A Song for Occupations": "Iron-works, forge-fires in the mountains or by
-            river-banks, men around feeling the melt
-            with huge crowbars—lumps of ore, the due
-            combining of ore, limestone, coals—the blast-
-            furnace and the puddling-furnace, the loup-
-            lump at the bottom of the melt at lasts—
-            the rolling-mill, the stumpy bars of pig-iron,
-            the strong clean-shaped Trail for rail-
-            roads" (1856, pp. 133-4).  A version of "A Song for Occupations" first appeared in the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>, though the line associated with this manuscript was not added to the poem until the 1856 edition. The title of the poem shifted throughout the editions of <hi rend="italic">Leaves of Grass</hi>, and included the following variants: "Chants Democratic," "The Workingmen," and "Carol of Occupations."  Whitman finally settled on the title "A song for Occupations" in the 1881-1882 edition.</p>
-      </work>
-      <work ref="xxx.00116" cert="low">
-         <p>This manuscript also resembles the following lines from the poem eventually titled "Song of the Broad-Axe": "There is the mine, there are the miners,
-            The forge-furnace is there, the melt is accom-
-            plished, the hammers-men are at hand with
-            their tongs and hammers" (1856, p. 150).</p>
-      </work>
-   </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00021">
       <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -62,7 +44,24 @@
             </availability>
          <idno>nyp.00021</idno></publicationStmt>
          <notesStmt>                       
-            <note type="project" target="dat1">This manuscript was probably written around 1855. It includes language similar to lines in the poems ultimately titled "A Song for Occupations" and "Song of the Broad-Axe" (1856). A version of "A Song for Occupations" first appeared in the 1855 <hi rend="italic">Leaves of Grass</hi>, but the line associated with this manuscript was not added to the poem until the 1856 edition. At one point, this manuscript likely formed part of <ref target="../index-scrapbook.html">Whitman's cultural geography scrapbook</ref>. The manuscript has been pasted down, so an image of the reverse is not currently available.</note>             
+            <note type="project" target="dat1">This manuscript was probably written around 1855. It includes language similar to lines in the poems ultimately titled "A Song for Occupations" and "Song of the Broad-Axe" (1856). A version of "A Song for Occupations" first appeared in the 1855 <hi rend="italic">Leaves of Grass</hi>, but the line associated with this manuscript was not added to the poem until the 1856 edition. At one point, this manuscript likely formed part of <ref target="../index-scrapbook.html">Whitman's cultural geography scrapbook</ref>. The manuscript has been pasted down, so an image of the reverse is not currently available.</note>  
+               <note type="work_relations" target="xxx.00119" cert="high">
+                  <p>This manuscript includes language similar to the following line, from the poem ultimately titled "A Song for Occupations": "Iron-works, forge-fires in the mountains or by
+                     river-banks, men around feeling the melt
+                     with huge crowbars—lumps of ore, the due
+                     combining of ore, limestone, coals—the blast-
+                     furnace and the puddling-furnace, the loup-
+                     lump at the bottom of the melt at lasts—
+                     the rolling-mill, the stumpy bars of pig-iron,
+                     the strong clean-shaped Trail for rail-
+                     roads" (1856, pp. 133-4).  A version of "A Song for Occupations" first appeared in the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>, though the line associated with this manuscript was not added to the poem until the 1856 edition. The title of the poem shifted throughout the editions of <hi rend="italic">Leaves of Grass</hi>, and included the following variants: "Chants Democratic," "The Workingmen," and "Carol of Occupations."  Whitman finally settled on the title "A song for Occupations" in the 1881-1882 edition.</p>
+               </note>
+               <note type="work_relations" target="xxx.00116" cert="low">
+                  <p>This manuscript also resembles the following lines from the poem eventually titled "Song of the Broad-Axe": "There is the mine, there are the miners,
+                     The forge-furnace is there, the melt is accom-
+                     plished, the hammers-men are at hand with
+                     their tongs and hammers" (1856, p. 150).</p>
+               </note>
          </notesStmt>
          <sourceDesc>
             <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -76,7 +75,9 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+      <revisionDesc>
+         <change when="2022-06-17" who="#km">updated relations encoding</change>
+         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#km" when="2019-12-10">proofed</change>
          <change who="#as" when="2019-11-14">checked; updated encoding</change>         
          <change who="#nhg" when="2019-06-07">transcribed, encoded</change>
