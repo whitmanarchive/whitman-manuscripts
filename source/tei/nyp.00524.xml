@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00524">
-    <relations>
-        <work ref="xxx.00052" cert="low">
-            <p>This manuscript is similar in subject to the following line from the poem eventually titled "I Sing the Body Electric": "Was it dreamed whether those who corrupted their own live bodies could conceal
-                themselves?" (1855, p. 77)</p>
-        </work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00524">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -19,7 +14,9 @@
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName><persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -45,6 +42,10 @@
             <idno>nyp.00524</idno></publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">On the back of this leaf, Whitman drafted trial lines of the poem that was eventually titled "Song of Myself." Based on this and the handwriting, Edward Grier dates this manuscript to before or early in 1855 (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:179).</note> 
+                    <note type="work_relations" target="xxx.00052" cert="low">
+                        <p>This manuscript is similar in subject to the following line from the poem eventually titled "I Sing the Body Electric": "Was it dreamed whether those who corrupted their own live bodies could conceal
+                            themselves?" (1855, p. 77)</p>
+                    </note>
             </notesStmt>
             <sourceDesc>
                 <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -61,7 +62,9 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+        <revisionDesc>
+            <change when="2022-06-17" who="#km">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2018-11-16" who="#nhg">added relations information</change>
             <change when="2018-11-01" who="#nhg">edited title</change>
             <change when="2017-03-01" who="#kmp">blessed</change>

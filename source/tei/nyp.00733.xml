@@ -1,13 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00733">
-   <relations>
-      <work ref="xxx.00048" cert="high">
-         <p>This manuscript includes a draft line that appears in the first poem in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, which was later titled "Song of Myself": "And a mouse is miracle enough to stagger sextillions of infidels" (1855, p. 34).</p> 
-      </work>
-      <work ref="xxx.00119" cert="low">
-         <p>The phrase "attraction of gravity," used in this manuscript, was used twice in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, including the following line in the poem that would be titled "A Song for Occupations": "Or the attraction of gravity and the great laws and harmonious combinations and
-            the fluids of the air as subjects for the savans?" (1855, p. 60).</p>
-      </work>
-   </relations>  
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00733">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,7 +14,9 @@
                <persName xml:id="cah">Caitlin Henry</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="rl">Robert LaCosse</persName>
-            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+               <persName xml:id="as">Ashlyn Stewart</persName>
+               <persName xml:id="km">Kevin McMullen</persName>
+            </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -48,6 +42,13 @@
          <idno>nyp.00733</idno></publicationStmt>
          <notesStmt>		
             <note type="project" target="dat1">Whitman probably drafted this manuscript between 1850 and 1855, as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. A line from the manuscript appears in the first poem of that edition, eventually titled "Song of Myself."</note>
+               <note type="work_relations" target="xxx.00048" cert="high">
+                  <p>This manuscript includes a draft line that appears in the first poem in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, which was later titled "Song of Myself": "And a mouse is miracle enough to stagger sextillions of infidels" (1855, p. 34).</p> 
+               </note>
+               <note type="work_relations" target="xxx.00119" cert="low">
+                  <p>The phrase "attraction of gravity," used in this manuscript, was used twice in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, including the following line in the poem that would be titled "A Song for Occupations": "Or the attraction of gravity and the great laws and harmonious combinations and
+                     the fluids of the air as subjects for the savans?" (1855, p. 60).</p>
+               </note>
          </notesStmt>
          <sourceDesc>
             <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -63,7 +64,9 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+      <revisionDesc>
+         <change when="2022-06-17" who="#km">updated relations encoding</change>
+         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2019-01-09">edited relations info</change>
          <change who="#smb" when="2018-12-11">final check, updated editorial notes</change>
          <change who="#cah" when="2018-11-08">checked, corrected, and added relations to file</change>

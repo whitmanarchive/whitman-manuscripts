@@ -1,16 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00116">
-   <relations>
-      <work ref="xxx.00052" cert="low">
-         <p>The final line from this manuscript is similar to a line from the poem that would eventually be titled "I Sing the Body Electric": "Your mother . . . . is she living? . . . . Have you been much with her? and has she 
-            been much with you?" (1855, p. 82). 
-            
-            The list of words in the manuscript also bears some resemblance to the following lines in the same poem: "Undulating into the willing and yielding day, / ... / This is the bath of birth . . . this is the merge of small and large and the outlet again" (1855, p. 79).</p>
-      </work>
-      <work ref="xxx.00048" cert="low">
-         <p>The discussion of the speed of the stars in this manuscript bears some resemblance to the following lines in the poem ultimately titled "Song of Myself": "Speeding through space . . . . speeding through heaven and the stars, / Speeding amid the seven satellites and the broad ring and the diameter of eighty
-            thousand miles, / Speeding with tailed meteors . . . . throwing fire-balls like the rest" (1855, pp. 37–38).</p>
-      </work>
-   </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00116">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -23,7 +12,9 @@
                <resp>Transcription and encoding</resp>
                <persName xml:id="cah">Caitlin Henry</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
-            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+               <persName xml:id="as">Ashlyn Stewart</persName>
+               <persName xml:id="km">Kevin McMullen</persName>
+            </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -50,7 +41,17 @@
          <notesStmt>                       
             <note type="project" target="dat1">Whitman probably drafted this
                manuscript in the <date notBefore="1850" notAfter="1855">early 1850s</date> as he was composing
-               the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Language in the manuscript is similar to lines that appeared in the fifth poem in that edition, later titled "I Sing the Body Electric." For further discussion of the relationship between this manuscript and the 1855 <hi rend="italic">Leaves of Grass</hi>, see Kenneth M. Price, "The Lost Negress of 'Song of Myself' and the Jolly Young Wenches of Civil War Washington," in <hi rend="italic">Leaves of Grass: The Sesquicentennial Essays</hi>, ed. Susan Belasco, Ed Folsom, and Kenneth M. Price (Lincoln, NE: University of Nebraska Press, 2007), 229–30. The manuscript has been pasted down, so an image of the reverse is not currently available.</note>                     
+               the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Language in the manuscript is similar to lines that appeared in the fifth poem in that edition, later titled "I Sing the Body Electric." For further discussion of the relationship between this manuscript and the 1855 <hi rend="italic">Leaves of Grass</hi>, see Kenneth M. Price, "The Lost Negress of 'Song of Myself' and the Jolly Young Wenches of Civil War Washington," in <hi rend="italic">Leaves of Grass: The Sesquicentennial Essays</hi>, ed. Susan Belasco, Ed Folsom, and Kenneth M. Price (Lincoln, NE: University of Nebraska Press, 2007), 229–30. The manuscript has been pasted down, so an image of the reverse is not currently available.</note>   
+               <note type="work_relations" target="xxx.00052" cert="low">
+                  <p>The final line from this manuscript is similar to a line from the poem that would eventually be titled "I Sing the Body Electric": "Your mother . . . . is she living? . . . . Have you been much with her? and has she 
+                     been much with you?" (1855, p. 82). 
+                     
+                     The list of words in the manuscript also bears some resemblance to the following lines in the same poem: "Undulating into the willing and yielding day, / ... / This is the bath of birth . . . this is the merge of small and large and the outlet again" (1855, p. 79).</p>
+               </note>
+               <note type="work_relations" target="xxx.00048" cert="low">
+                  <p>The discussion of the speed of the stars in this manuscript bears some resemblance to the following lines in the poem ultimately titled "Song of Myself": "Speeding through space . . . . speeding through heaven and the stars, / Speeding amid the seven satellites and the broad ring and the diameter of eighty
+                     thousand miles, / Speeding with tailed meteors . . . . throwing fire-balls like the rest" (1855, pp. 37–38).</p>
+               </note>
          </notesStmt>
          <sourceDesc>
             <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -63,7 +64,9 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+      <revisionDesc>
+         <change when="2022-06-17" who="#km">updated relations encoding</change>
+         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2019-06-04">checked, corrected</change>
          <change who="#cah" when="2019-02-15">transcribed, encoded, added relations info</change>
       </revisionDesc>

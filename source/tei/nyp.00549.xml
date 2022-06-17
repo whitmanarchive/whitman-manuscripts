@@ -1,16 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00549">
-    <relations>
-        <work ref="xxx.00048" cert="high">
-            <p><ref type="text" xml:id="r01" target="#q01 #q02">Phrases from this manuscript</ref> are similar to words and phrases that appear in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, in the poem that would be titled "Song of Myself." See "I jump from the crossbeams, and seize the clover and timothy" (1855, p. 18); "Over the western persimmon. . . . over the longleaved corn and the delicate blue-flowered flax; / Over the white and brown buckwheat, a hummer and a buzzer there with the rest" (1855, p. 36).</p>
-        </work>
-        <work ref="xxx.00186" cert="high">
-            <p><ref type="text" xml:id="r02" target="#q02">This phrase</ref> also resembles a line that appeared in the poem "Come Up From the Fields Father," which was first published in <hi rend="italic">Drum-Taps</hi> in 1865: "Smell you the buckwheat, where the bees were lately buzzing?" (p. 39).</p>
-        </work>
-        <work ref="xxx.00195" cert="high">
-            <p><ref type="text" xml:id="r03" target="#q01 #q02">Phrases from this manuscript</ref> also appeared in the poem "Give Me the Splendid Silent Sun," which was first published in <hi rend="italic">Drum-Taps</hi> in 1865. See "Keep your fields of clover and timothy, and your cornfields and orchards; / Keep the blossoming buckwheat fields, where the Ninth-month bees hum;" (p. 48).</p>
-        </work>
-        <work ref="xxx.00225" cert="high"><p><ref type="text" xml:id="r04" target="#q01">This phrase</ref> also resembles a line that appeared in the poem "The Return of the Heroes," which was first published in the 1881 edition of <hi rend="italic">Leaves of Grass</hi>: "Cotton and rice of the South and Louisianian cane, / Open unseeded fallows, rich fields of clover and timothy" (1881, p. 281).</p></work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00549">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -53,7 +42,18 @@
             <notesStmt>
                 <note type="project" target="#dat1">Whitman probably drafted this
                     manuscript in the <date notBefore="1850" notAfter="1855">early 1850s</date> as he was composing
-                    the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The discussion of the vastness of time and space is similar to a passage from the first poem in that edition, eventually titled "Song of Myself." Words like "timothy" and "clover" and the phrase about "the buckwheat" from this manuscript appear in the poem as well, although they were also used in later poems. The leaf looks like it may have been extracted from a notebook.</note>             
+                    the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The discussion of the vastness of time and space is similar to a passage from the first poem in that edition, eventually titled "Song of Myself." Words like "timothy" and "clover" and the phrase about "the buckwheat" from this manuscript appear in the poem as well, although they were also used in later poems. The leaf looks like it may have been extracted from a notebook.</note>  
+                    <note type="work_relations" target="xxx.00048" cert="high">
+                        <p><ref type="text" xml:id="r01" target="#q01 #q02">Phrases from this manuscript</ref> are similar to words and phrases that appear in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, in the poem that would be titled "Song of Myself." See "I jump from the crossbeams, and seize the clover and timothy" (1855, p. 18); "Over the western persimmon. . . . over the longleaved corn and the delicate blue-flowered flax; / Over the white and brown buckwheat, a hummer and a buzzer there with the rest" (1855, p. 36).</p>
+                    </note>
+                   <note type="work_relations" target="xxx.00186" cert="high">
+                        <p><ref type="text" xml:id="r02" target="#q02">This phrase</ref> also resembles a line that appeared in the poem "Come Up From the Fields Father," which was first published in <hi rend="italic">Drum-Taps</hi> in 1865: "Smell you the buckwheat, where the bees were lately buzzing?" (p. 39).</p>
+                    </note>
+                   <note type="work_relations" target="xxx.00195" cert="high">
+                        <p><ref type="text" xml:id="r03" target="#q01 #q02">Phrases from this manuscript</ref> also appeared in the poem "Give Me the Splendid Silent Sun," which was first published in <hi rend="italic">Drum-Taps</hi> in 1865. See "Keep your fields of clover and timothy, and your cornfields and orchards; / Keep the blossoming buckwheat fields, where the Ninth-month bees hum;" (p. 48).</p>
+                    </note>
+                   <note type="work_relations" target="xxx.00225" cert="high"><p><ref type="text" xml:id="r04" target="#q01">This phrase</ref> also resembles a line that appeared in the poem "The Return of the Heroes," which was first published in the 1881 edition of <hi rend="italic">Leaves of Grass</hi>: "Cotton and rice of the South and Louisianian cane, / Open unseeded fallows, rich fields of clover and timothy" (1881, p. 281).</p></note>
+                
             </notesStmt>
             <sourceDesc>
                 <bibl><author sameAs="#ww">Whitman, Walt</author>

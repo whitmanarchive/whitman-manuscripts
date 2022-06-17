@@ -1,13 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00110">
-<relations>
-<work ref="xxx.00110" cert="high">
-<p>It is possible that <ref type="text" xml:id="r01" target="#q01 #q02">lines in this manuscript</ref> represent an early draft of lines from the poem that was eventually titled "Salut au Monde!," first published as "Poem of Salutation" in the 1856 edition of <hi rend="italic">Leaves of Grass</hi>. In the poem, Whitman writes "I see where druids walk'd the groves of Mona ... / I see Christ eating the bread of his last supper in the midst of youths and old persons," (1891, p. 115–116).</p>
-</work>
-    <work ref="xxx.00259" cert="high"><p><ref type="text" xml:id="r02" target="#q01">A line in this manuscript</ref> appears in a manuscript notebook containing draft lines of a poem unpublished in Whitman's lifetime, titled "Pictures." The first several lines of the notebook draft were revised and published as "My Picture-Gallery" in <hi rend="italic">The American</hi> in October 1880. The poem was later published in <hi rend="italic">Leaves of Grass</hi> as part of the "Autumn Rivulets" cluster (1881, p. 310).</p></work>
-    <work ref="xxx.00271" cert="low">
-        <p>The draft lines in pencil on this manuscript may relate to the poem eventually titled "Faces," although they do not match any specific lines in that poem.</p>
-    </work>
-</relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00110">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,7 +15,9 @@
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName><persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -48,7 +42,14 @@
                 </availability>
             <idno>nyp.00110</idno></publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">The notes written in ink on this manuscript probably relate to the poem that was eventually titled "Salut au Monde!," first published as "Poem of Salutation" in the 1856 edition of <hi rend="italic">Leaves of Grass</hi>. The earlier lines written in pencil may relate to the sixth poem in the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>, eventually titled "Faces." These connections suggest the manuscript was probably written in the early to mid-1850s. The manuscript is pasted down, so an image of the reverse is not currently available.</note>             
+                <note type="project" target="#dat1">The notes written in ink on this manuscript probably relate to the poem that was eventually titled "Salut au Monde!," first published as "Poem of Salutation" in the 1856 edition of <hi rend="italic">Leaves of Grass</hi>. The earlier lines written in pencil may relate to the sixth poem in the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>, eventually titled "Faces." These connections suggest the manuscript was probably written in the early to mid-1850s. The manuscript is pasted down, so an image of the reverse is not currently available.</note>   
+                    <note type="work_relations" target="xxx.00110" cert="high">
+                        <p>It is possible that <ref type="text" xml:id="r01" target="#q01 #q02">lines in this manuscript</ref> represent an early draft of lines from the poem that was eventually titled "Salut au Monde!," first published as "Poem of Salutation" in the 1856 edition of <hi rend="italic">Leaves of Grass</hi>. In the poem, Whitman writes "I see where druids walk'd the groves of Mona ... / I see Christ eating the bread of his last supper in the midst of youths and old persons," (1891, p. 115–116).</p>
+                    </note>
+                    <note type="work_relations" target="xxx.00259" cert="high"><p><ref type="text" xml:id="r02" target="#q01">A line in this manuscript</ref> appears in a manuscript notebook containing draft lines of a poem unpublished in Whitman's lifetime, titled "Pictures." The first several lines of the notebook draft were revised and published as "My Picture-Gallery" in <hi rend="italic">The American</hi> in October 1880. The poem was later published in <hi rend="italic">Leaves of Grass</hi> as part of the "Autumn Rivulets" cluster (1881, p. 310).</p></note>
+                    <note type="work_relations" target="xxx.00271" cert="low">
+                        <p>The draft lines in pencil on this manuscript may relate to the poem eventually titled "Faces," although they do not match any specific lines in that poem.</p>
+                    </note>
             </notesStmt>
             <sourceDesc>
             <bibl><author sameAs="#ww">Whitman, Walt</author>
@@ -69,7 +70,9 @@
                 <handNote xml:id="h2" scribeRef="#ww" medium="brown-ink"/>
             </handNotes>
         </profileDesc>
-        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+        <revisionDesc>
+            <change when="2022-06-17" who="#km">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2020-02-05" who="#bb">corrected sourceDesc based on discovery that the original is in the Berg rather than the Lion Collection</change>
             <change when="2019-03-14" who="#bb">checked; edited</change>
             <change when="2018-01-28" who="#nhg">edited, updated relations information</change>

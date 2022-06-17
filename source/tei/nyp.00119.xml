@@ -1,15 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00119">
-   <relations>
-      <work ref="xxx.00048" cert="low">
-         <p>This manuscript may relate to the following line from the poem that would be titled "Song of Myself": "Looking in at the shop-windows in Broadway the whole forenoon . . . . pressing the flesh of my nose to the thick plate-glass" (1855, p. 37).</p>
-      </work>
-      <work ref="xxx.00226" cert="low">
-         <p>This manuscript bears a distant resemblance to a discussion of "shadows" in the poem later titled "There Was a Child Went Forth," including the lines: "Men and women crowding fast in the streets . . if they are not flashes and specks what are they? / The streets themselves, and the facades of houses . . . . the goods in the windows, / Vehicles . . teams . . the tiered wharves, and the huge crossing at the ferries;" (1855, p. 91).</p>
-      </work>
-      <work ref="xxx.01169" cert="low">
-         <p>This manuscript also bears some similarity to the description Whitman wrote in an unfinished poem known as "The Two Vaults," a poem that is recorded in his <ref target="loc.00348">New York Notebook (1861–1862)</ref>.</p>
-      </work>
-   </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00119">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -23,7 +13,9 @@
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="cf">Chris Forster</persName>
                <persName xml:id="smb">Stephanie Blalock</persName>
-            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+               <persName xml:id="as">Ashlyn Stewart</persName>
+               <persName xml:id="km">Kevin McMullen</persName>
+            </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -50,6 +42,15 @@
          <notesStmt>
             <note type="project" target="dat1">This manuscript may have been written between 1850 and 1855, when Whitman was preparing materials for the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The description of the plate-glass windows on Broadway bears some resemblance to a description in the first poem in that edition, eventually titled "Song of Myself." 
                It is also possible that the manuscript was written later, however: the description of Broadway in these lines also closely resembles a description Whitman wrote in his unfinished poem known as "The Two Vaults," a poem that is recorded in a <ref target="../notebooks/transcriptions/loc.00348.html">New York notebook</ref> that probably dates to the early 1860s. Whitman also wrote about Broadway elsewhere in later poems, so the manuscript may have been written still later. The manuscript has been pasted down, so an image of the back of the leaf is currently unavailable.</note>
+               <note type="work_relations" target="xxx.00048" cert="low">
+                  <p>This manuscript may relate to the following line from the poem that would be titled "Song of Myself": "Looking in at the shop-windows in Broadway the whole forenoon . . . . pressing the flesh of my nose to the thick plate-glass" (1855, p. 37).</p>
+               </note>
+               <note type="work_relations" target="xxx.00226" cert="low">
+                  <p>This manuscript bears a distant resemblance to a discussion of "shadows" in the poem later titled "There Was a Child Went Forth," including the lines: "Men and women crowding fast in the streets . . if they are not flashes and specks what are they? / The streets themselves, and the facades of houses . . . . the goods in the windows, / Vehicles . . teams . . the tiered wharves, and the huge crossing at the ferries;" (1855, p. 91).</p>
+               </note>
+               <note type="work_relations" target="xxx.01169" cert="low">
+                  <p>This manuscript also bears some similarity to the description Whitman wrote in an unfinished poem known as "The Two Vaults," a poem that is recorded in his <ref target="loc.00348">New York Notebook (1861–1862)</ref>.</p>
+               </note>
          </notesStmt>
          <sourceDesc>
             <bibl><author xml:id="ww">Whitman, Walt</author>
@@ -65,7 +66,9 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+      <revisionDesc>
+         <change when="2022-06-17" who="#km">updated relations encoding</change>
+         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2019-08-20">edited, added work relation for NY notebook</change>
          <change who="#smb" when="2019-07-11">checked, edited note</change>
          <change who="#nhg" when="2019-01-19">edited note and relations info; created nyp.00737 for verso</change>
