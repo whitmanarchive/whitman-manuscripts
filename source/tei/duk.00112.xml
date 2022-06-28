@@ -69,13 +69,20 @@
         <body>
             <pb xml:id="leaf001r" facs="duk.00112.001.jpg" type="recto"/>
             
-            <transpose anchored="1" target="#t1"><p>Books, as now produced, have reached their twentieth remove from verities.</p></transpose>
+            <p xml:id="tr01">Books, as now produced, have reached their twentieth remove from verities.</p>
             
-            <delSpan rend="hashmark" spanTo="#a01"/><p><del rend="overstrike">We have to state that</del> <del rend="overstrike">the superfine</del> <del rend="overstrike">an</del> <del rend="overstrike">in any</del> Literature in <subst><del rend="overstrike" seq="1">any</del> <add rend="unmarked" place="supralinear" seq="2">its</add></subst> profound relations, has to do with with thoughts, <del rend="overstrike">th<unclear reason="illegible" cert="low" resp="#km">ou</unclear></del> men, things, &amp;c. at first hand</p><anchor xml:id="a01"/>
+            <delSpan rend="hashmark" spanTo="#a01"/><p xml:id="tr02"><del rend="overstrike">We have to state that</del> <del rend="overstrike">the superfine</del> <del rend="overstrike">an</del> <del rend="overstrike">in any</del> Literature in <subst><del rend="overstrike" seq="1">any</del> <add rend="unmarked" place="supralinear" seq="2">its</add></subst> profound relations, has to do with with thoughts, <del rend="overstrike">th<unclear reason="illegible" cert="low" resp="#km">ou</unclear></del> men, things, &amp;c. at first hand</p><anchor xml:id="a01"/>
             
             <milestone unit="undeclared" rend="horbar-short-left"/>
             
-            <p><del rend="overstrike">Most people,</del> <del rend="overstrike">when they speak <del rend="overstrike">of</del> or write or write of Literature, mean merely <hi rend="underline">Literary</hi> Literature.</del> <anchor xml:id="t1"/><subst><del rend="overstrike" seq="1">Most people</del> <add rend="unmarked" place="supralinear" seq="2">Our writers</add></subst> have apparently forgotten that there is any thing <add rend="insertion" place="supralinear">to be aimed <del rend="overstrike">at</del> at, <del rend="overstrike">further</del> except</add> <del rend="overstrike">but</del> <hi rend="underline">Literary</hi> Literature. But in its profound relations, <add rend="lasso" place="supralinear">in its origin in great minds</add> this great medium &amp; institute has only to do with thoughts, men, things, &amp; even the Soul, at first hand. <del rend="overstrike">Its special</del> <del rend="overstrike">pro</del> <del rend="overstrike">ful</del> <del rend="overstrike">furnishes <del rend="overstrike">&amp;</del> the instruments</del> &amp; <del rend="overstrike">teaches them</del> <del rend="erasure">☜ opposite page</del></p>
+            <p><seg xml:id="tr03"><del rend="overstrike">Most people,</del> <del rend="overstrike">when they speak <del rend="overstrike">of</del> or write or write of Literature, mean merely <hi rend="underline">Literary</hi> Literature.</del></seg> 
+                <listTranspose>
+                    <transpose>
+                        <ptr target="#tr02"/>
+                        <ptr target="#tr03"/>
+                        <ptr target="#tr01"/>
+                    </transpose>
+                </listTranspose><subst><del rend="overstrike" seq="1">Most people</del> <add rend="unmarked" place="supralinear" seq="2">Our writers</add></subst> have apparently forgotten that there is any thing <add rend="insertion" place="supralinear">to be aimed <del rend="overstrike">at</del> at, <del rend="overstrike">further</del> except</add> <del rend="overstrike">but</del> <hi rend="underline">Literary</hi> Literature. But in its profound relations, <add rend="lasso" place="supralinear">in its origin in great minds</add> this great medium &amp; institute has only to do with thoughts, men, things, &amp; even the Soul, at first hand. <del rend="overstrike">Its special</del> <del rend="overstrike">pro</del> <del rend="overstrike">ful</del> <del rend="overstrike">furnishes <del rend="overstrike">&amp;</del> the instruments</del> &amp; <del rend="overstrike">teaches them</del> <del rend="erasure">☜ opposite page</del></p>
             
             <!-- no verso image -->
             
