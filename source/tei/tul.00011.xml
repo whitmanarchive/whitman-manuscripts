@@ -62,6 +62,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2022-07-07" who="#as">updated transposition encoding</change>
             <change when="2022-06-06" who="#bb">updated relations encoding</change>
             <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2020-02-26" who="#bb">tweaked wording of date note</change>
@@ -103,18 +104,23 @@
                     <lb/>—large saloons adorned with
                     <lb/>pictures and sculpture—great ideas
                     <lb/>not taught in sermons but imbibed
-                    <lb/>as health is imbibed—<anchor xml:id="t1"/>
+                    <lb/>as health is imbibed—
 
-                    <lb/>—love—love of woman—all manly exercises
+                    <metamark function="transpose" target="#tr01"/><seg xml:id="tr02"><lb/>—love—love of woman—all manly exercises
                     <lb/>—riding, rowing—the greatest persons
                     <lb/>come—the president comes and
                     <lb/>the governors come—political economy
                     <lb/>—the American idea in all its
                     <lb/>amplitude and comprehensiveness—
                     <lb/>—grounds, gardens, flowers, grains—
-                    <lb/>cabinets—<transpose anchored="1" target="#t1">old history
-                            taught—</transpose>
-
+                        <lb/>cabinets—</seg><metamark function="transpose" target="#tr01"/><seg xml:id="tr01">old history
+                            taught—</seg>
+<listTranspose>
+    <transpose>
+        <ptr target="#tr01"/>
+        <ptr target="#tr02"/>
+    </transpose>
+</listTranspose>
                 </ab>
                 <note type="authorial">1833<lb/>
 <hi rend="underline">1776</hi>

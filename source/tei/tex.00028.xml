@@ -55,6 +55,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2022-07-07" who="#as">updated transposition encoding</change>
          <change when="2022-06-06" who="#bb">updated relations encoding</change>
          <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2019-06-05">checked, corrected, added editorial note</change>
@@ -85,12 +86,18 @@ clear-eyed,</l>
             <l>Six feet ten inches
 <subst>
                         <del rend="overstrike" seq="1">high—</del>
-                        <add rend="unmarked" place="supralinear" seq="2">tall—</add></subst><anchor xml:id="t1"/>of <del rend="overstrike">noble head<lb/>
-               and bearded face,</del></l>
-            <transpose anchored="1" target="#t1"><l>Every limb, every part and
+   <add rend="unmarked" place="supralinear" seq="2">tall—</add></subst><metamark function="transpose" target="#t2"/><seg xml:id="t1">of <del rend="overstrike">noble head<lb/>
+               and bearded face,</del></seg></l>
+            <metamark function="transpose" target="#t2"/><l xml:id="t2">Every limb, every part and
 organ in<lb/>
-                  proportion—strong, <add rend="insertion" place="supralinear">bearded,</add> supple,</l></transpose>
-
+                  proportion—strong, <add rend="insertion" place="supralinear">bearded,</add> supple,</l>
+            <listTranspose>
+               <transpose>
+                  <ptr target="#t2"/>
+                  <ptr target="#t1"/>
+               </transpose>
+            </listTranspose>
+            
             <l>Conqueror of two continents in nine years,</l>
             <l>Lover most of those that repelled<lb/>
                him sternest . . . . builder to them<lb/>

@@ -62,6 +62,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2022-07-07" who="#as">updated transposition encoding</change>
             <change when="2022-06-07" who="#bb">updated relations encoding</change>
             <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-12-01" who="#nhg">corrected</change>
@@ -112,13 +113,13 @@
                     round zones circling, comprehending,
                 </l>
                     
-                <transpose xml:id="tr01" anchored="1" target="#tr02"><addSpan spanTo="#a1" rend="unmarked" place="interlinear"/><l>
-                        No lurid fame exceptional, nor monstrous intellect, nor <add rend="unmarked" place="supralinear">conquest's</add> dominations
-                                <add place="supralinear" rend="unmarked">c</add>
+                <addSpan spanTo="#a1" rend="unmarked" place="interlinear"/>
+                        <l>No lurid fame exceptional, nor monstrous intellect, nor <add rend="unmarked" place="supralinear">conquest's</add> dominations
+                                <add place="supralinear" rend="unmarked">c</add></l>
                         
-                    </l><anchor xml:id="a1"/></transpose>
+                    <anchor xml:id="a1"/>
                 
-                <l>Thou, <hi rend="underline">Washington</hi>, ar<subst><del rend="overwrite" seq="1">e</del><add rend="overwrite" place="over" seq="2">t</add>
+                <l xml:id="tr05">Thou, <hi rend="underline">Washington</hi>, ar<subst><del rend="overwrite" seq="1">e</del><add rend="overwrite" place="over" seq="2">t</add>
                                                     </subst>
                         <add rend="insertion" place="supralinear">all</add> the world's, <subst>
                             
@@ -133,15 +134,22 @@
 <del rend="overstrike">Freedom's, Law's,</del> —not yours alone,
                         America
                 </l>
-                <metamark function="transpose" place="left" target="#tr01" xml:id="tr02"/>
+                <metamark function="transpose" place="left" target="#tr03 #tr04"/>
                 <span xml:id="s1" rend="bracketed" from="s1" to="s2"/>
                 <delSpan spanTo="#d1" rend="overstrike"/>
-                    <l>Thy fame, (no lurid fame exceptional, <add rend="unmarked" place="supralinear">for the</add> nor<lb/>
+                    <l xml:id="tr03">Thy fame, (no lurid fame exceptional, <add rend="unmarked" place="supralinear">for the</add> nor<lb/>
                         intellect, nor conquest's domination,)
                     </l>
-                    <l>By deathless waves of emanation the race's<lb/>
+                    <l xml:id="tr04">By deathless waves of emanation the race's<lb/>
                         common ownership, 
                     </l>
+                <listTranspose>
+                    <transpose>
+                        <ptr target="#tr03"/>
+                        <ptr target="#tr04"/>
+                        <ptr target="#tr05"/>
+                    </transpose>
+                </listTranspose>
                 <anchor xml:id="d1"/>
                 <anchor xml:id="s2"/>
                 <l>Europe's<del rend="overstrike">,</del>

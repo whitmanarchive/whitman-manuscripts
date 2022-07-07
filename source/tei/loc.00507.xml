@@ -64,6 +64,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2022-07-07" who="#as">removed transposition encoding</change>
          <change when="2022-06-06" who="#km">updated relations encoding</change>
          <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2020-06-08" who="#nhg">corrected</change>
@@ -139,9 +140,9 @@
          <lg type="linegroup">
             <l xml:id="l17">What is <del rend="overstrike"><add rend="insertion" place="supralinear">nearest and</add></del> commonest <add rend="insertion" place="supralinear">and nearest</add> and cheapest <add rend="insertion" place="supralinear">and easiest</add> is Me,</l>
             
-            <l xml:id="l18">Me going in for my chances,<add rend="unmarked" place="inline"> . . . spending</add><lb/> <anchor xml:id="tr02"/></l>
+            <l xml:id="l18">Me going in for my chances,<add rend="unmarked" place="inline"> . . . spending</add><delSpan spanTo="#d01" rend="overstrike"/></l>
             
-            <l xml:id="l19"><del rend="overstrike">Spending</del> <transpose rend="unmarked" anchored="1" xml:id="tr01" target="#tr02">for vast returns,</transpose></l>
+            <l xml:id="l19">Spending<anchor xml:id="d01"/> for vast returns,</l>
             
             <l xml:id="l20">Adorning myself to bestow myself on the first<lb/>
                that will take me,</l>
