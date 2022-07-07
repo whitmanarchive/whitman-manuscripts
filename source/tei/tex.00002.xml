@@ -61,6 +61,7 @@
    </sourceDesc>
   </fileDesc>
   <revisionDesc>
+   <change when="2022-07-07" who="#as">updated transposition encoding</change>
    <change when="2022-06-06" who="#bb">updated relations encoding</change>
    <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
    <change when="2019-06-01" who="#kmp">blessed</change>
@@ -111,13 +112,19 @@
   <delSpan spanTo="#d2" rend="overstrike"/><l xml:id="l10">Only pass to some one else, for I<lb/>
     <subst><del rend="overstrike" seq="1">can</del> <add rend="unmarked" place="supralinear" seq="2">will</add></subst> contain you no longer.</l><anchor xml:id="d2"/>
   
-  <l xml:id="l11"><del rend="overstrike">Only</del> pass to some one else <anchor xml:id="t1"/> <add rend="insertion" place="supralinear">leap to the nearest landing</add>. ¶Little as your<lb/>
-    <del rend="overstrike">mouth</del> yo<del rend="erasure"><gap reason="erasure, illegible" quantity="3" unit="chars"/></del> <del rend="overstrike">lips</del> are</l>
+  <l xml:id="l11"><del rend="overstrike">Only</del> pass to some one else <metamark function="transpose" target="#l12"/><seg xml:id="t1"><add rend="insertion" place="supralinear">leap to the nearest landing</add>. ¶Little as your<lb/>
+    <del rend="overstrike">mouth</del> yo<del rend="erasure"><gap reason="erasure, illegible" quantity="3" unit="chars"/></del> <del rend="overstrike">lips</del> are</seg></l>
 
 
-   <transpose target="#t1" anchored="1"><l xml:id="l12">I <subst><del rend="overstrike" seq="1">am faintish</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="inline" seq="2">I am faintish;</add></del></subst> <del rend="overstrike">and</del> <add rend="insertion" place="infralinear">it has</add> drained me
-    <lb/>dry of my strength.—</l></transpose>
-
+  <metamark function="transpose" target="#l12"/><l xml:id="l12">I <subst><del rend="overstrike" seq="1">am faintish</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="inline" seq="2">I am faintish;</add></del></subst> <del rend="overstrike">and</del> <add rend="insertion" place="infralinear">it has</add> drained me
+    <lb/>dry of my strength.—</l>
+  <listTranspose>
+   <transpose>
+    <ptr target="#l12"/>
+    <ptr target="#t1"/>
+   </transpose>
+  </listTranspose>
+  
  </lg>
  <note type="authorial" place="left">79</note> <!--NOTE: this note is written vertically-->
  <anchor xml:id="d1"/>

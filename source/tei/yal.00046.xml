@@ -75,6 +75,7 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
+            <change when="2022-07-07" who="#as">updated transposition encoding</change>
             <change when="2022-06-03" who="#bb">updated relations encoding</change>
             <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-12-01" who="#nhg">corrected</change>
@@ -167,8 +168,8 @@
                     <l>How they sweep down and out! how
                         <lb/>they mutter!
                     </l>
-                    <transpose rend="bracketed" anchored="1" target="#t1">
-                        <l>
+                    
+                    <metamark function="transpose" target="#tr01"/><l xml:id="tr02">
 <subst>
                                     
                                         <del rend="overstrike" seq="1">Hopes</del>
@@ -189,9 +190,9 @@
                                         <add place="supralinear" rend="unmarked" seq="2">—hope's</add>
                                                                     </subst> last bitter words,
                         </l>
-                    </transpose>
+                    
                     <milestone unit="glued"/>
-                    <l>
+                    <metamark function="transpose" target="#tr01"/><l xml:id="tr01">
 <del rend="overstrike">
                                     <add rend="unmarked" place="inline">Haply</add>
                                 </del>
@@ -215,8 +216,14 @@
 
                     
                     </l>
+                    <listTranspose>
+                        <transpose>
+                            <ptr target="#tr01"/>
+                            <ptr target="#tr02"/>
+                        </transpose>
+                    </listTranspose>
                     <milestone unit="glued"/>
-                    <anchor xml:id="t1"/>
+                    
                     <l>Some suicide's despair's beguiling <subst>
                                 
                                     <del rend="overstrike" seq="1">words,</del>

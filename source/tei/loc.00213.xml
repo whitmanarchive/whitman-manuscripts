@@ -99,7 +99,7 @@
                             
                                 <del rend="overwrite" seq="1">e</del><add place="over" rend="overwrite" seq="2">E</add></subst>ver</del> intertwined</l>
                 <metamark function="transpose" xml:id="tr01"/>
-                <l>
+                <l xml:id="l02">
 
 <subst>
                             
@@ -113,11 +113,11 @@
 <lb/>
                     insoluble, pass'd on,
                 </l>
-                <l>To ours <choice>
+                <l xml:id="l03">To ours <choice>
 <orig>to-day</orig><reg>today</reg></choice>—and we pass on. <add rend="unmarked" place="inline">the same</add>
 </l>
-                <transpose anchored="1" target="#tr01">
-                    <l>
+                
+                    <l xml:id="l01">
                         <add rend="insertion" place="supralinear">Close home,</add> Elusive, <del rend="overstrike">simple,</del> present, <add rend="unmarked" place="supralinear">baffled,</add> grappled, <subst>
                             
                             <del rend="overstrike" seq="1">foil'd</del>
@@ -127,8 +127,15 @@
                             </del>
                         </subst>
                     </l>
+              <listTranspose>
+                <transpose>
+                    <ptr target="#l01"/>
+                    <ptr target="#l02"/>
+                    <ptr target="l03"/>
                 </transpose>
+            </listTranspose>
             </lg>
+
             <pb facs="loc.00213.002.jpg" xml:id="leaf001v" type="verso"/>
             <note type="editorial" resp="#h1" place="top">ORIGINAL MANUSCRIPT OF A POEM BY WALT WHITMAN</note> 
         </body>

@@ -69,6 +69,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2022-07-07" who="#as">updated transpose encoding</change>
             <change when="2022-06-06" who="#km">updated relations encoding</change>
             <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-09-20" who="#nhg">proofed</change>
@@ -133,20 +134,21 @@
                                 <add place="supralinear" rend="unmarked" seq="3">of</add>
                                                     </subst> eternal snow,
                 </l>
-                <metamark function="transpose" xml:id="tr01" target="#tr02"/>
-                <l>Some <add place="supralinear" rend="unmarked">to the north</add> finding
+                <metamark function="transpose" target="#tr02"/>
+                <l xml:id="tr04">Some <add place="supralinear" rend="unmarked">to the north</add> finding
                         their way to <del rend="overstrike">Michigan,</del>
 
                     <lb/>Erie, Niagara, Ottawa,
                 </l>
-                <l>Some to <del rend="overstrike">the bays</del> Atlantics bays,
+                <l xml:id="tr03">Some to <del rend="overstrike">the bays</del> Atlantics bays,
                     <lb/>and so to the great salt <subst>
                             
                                 <del rend="overstrike" seq="1">sea</del>
                                                         
                                 <add place="supralinear" rend="unmarked" seq="2">brine</add></subst>.
                 </l>
-                <transpose anchored="1" xml:id="tr02" target="#tr01"><addSpan spanTo="#a1" rend="unmarked" place="bottom"/><l>Some <subst>
+                <metamark function="transpose" target="#tr02"/>
+                <l xml:id="tr02">Some <subst>
                         
                         <del rend="overstrike" seq="1">to</del>
                         
@@ -157,7 +159,14 @@
                         Oregon,—or
                         <lb/>southward in Texas,
                     
-                </l><anchor xml:id="a1"/></transpose>
+                </l>
+                <listTranspose>
+                    <transpose>
+                        <ptr target="#tr02"/>
+                        <ptr target="#tr04"/>
+                        <ptr target="#tr03"/>
+                    </transpose>
+                </listTranspose>
             </lg>
             <pb facs="loc.00082.002.jpg" xml:id="leaf001v" type="verso"/>
         </body>
