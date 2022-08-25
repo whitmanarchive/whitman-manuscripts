@@ -76,7 +76,7 @@ class TeiToEs
                  .join(", ")
   end
 
-  def subcategory
+  def category2
     # Note: used to be called "transcriptions"
     "manuscripts"
   end
