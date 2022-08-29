@@ -10,9 +10,10 @@ default:
   
 
 development:
+  api_version: '2.0'
   data_base: https://whitman-dev.unl.edu/media
   es_path: https://whitman-dev.unl.edu/elastic
-  es_index: api_v1
+  es_index: api_v2
   site_url: https://whitman-dev.unl.edu
   solr_path: https://whitman-dev.unl.edu/solr
 
