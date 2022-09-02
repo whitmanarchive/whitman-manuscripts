@@ -4,10 +4,8 @@ default:
   site_url: https://whitmanarchive.org
   solr_core: api_whitman
   tei_solr_xsl: scripts/overrides/solr_transform_tei.xsl
-  allowed_files: config/allowed_files.txt
   tei_html_xsl: scripts/overrides/tei_to_html.xsl
   media_base: https://whitmanarchive.org
-  
 
 development:
   api_version: '2.0'
@@ -26,6 +24,7 @@ production:
   data_base: https://whitmanarchive.org/media
   site_url: https://whitmanarchive.org
   solr_path: https://whitman-prod.unl.edu/solr
+  allowed_files: config/allowed_files.txt
 
   variables_solr:
     project: The_Walt_Whitman_Archive
