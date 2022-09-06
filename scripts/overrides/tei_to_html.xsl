@@ -23,6 +23,20 @@
   <xsl:output method="xml" indent="no" encoding="UTF-8" omit-xml-declaration="yes"/>
   
   <!-- add overrides for this section here -->
+
+  <!-- this is an experiment for delSpan - it almost works, but since it is matching on text() only text will come through (all other encoding just dissapears). is there a way to rework this? 
+  this solution came from https://stackoverflow.com/questions/3495447/xslt-with-overlapping-elements -->
+  
+  <!-- rend = hashmark vs @rend = overstrike -->
+  <xsl:template match="text()[preceding::delSpan[1]/substring-after(@spanTo,'#')=following::anchor[1]/@xml:id]">
+    <xsl:if test="normalize-space(.) != ''">
+      <span class="tei_delspan">
+        <xsl:copy-of select="."/>
+      </span>
+    </xsl:if>
+  </xsl:template>
+  
+  
   
   
 </xsl:stylesheet>
