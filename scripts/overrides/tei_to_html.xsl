@@ -16,16 +16,6 @@
   <xsl:output method="xml" indent="no" encoding="UTF-8" omit-xml-declaration="yes"/>
   
   <!-- add overrides for this section here -->
-<!--  
-  <p><span class="bold">Source: </span>
-    -<xsl:variable name="orgNames" select="count(TEI//sourceDesc/bibl[1]/orgName)"/>
-    -<xsl:apply-templates select="TEI//sourceDesc/bibl[1]/orgName[1]"/>
-    -<xsl:if test="TEI//sourceDesc/bibl[1]/orgName[2]">; <xsl:apply-templates select="TEI//sourceDesc/bibl[1]/orgName[2]"/></xsl:if>
-    -<xsl:if test="not(ends-with(TEI//sourceDesc/bibl[1]/orgName[$orgNames],'.'))">.</xsl:if>
-    -<xsl:text>  </xsl:text>
-    -<xsl:apply-templates select="TEI//sourceDesc//bibl/note[@type='project'][not(@target)]"/> 
-    For a description of the editorial rationale behind our treatment of the marginalia and annotations, see our <a href="{$site_url}about/editorial.html#marginalia">statement of editorial policy</a>.
-  </p>-->
   
   <xsl:variable name="top_metadata">
     <ul>
@@ -35,24 +25,7 @@
       <li><strong>Whitman Archive ID: </strong> <xsl:value-of select="//teiHeader/fileDesc/publicationStmt/idno"/></li>
       
       <li><strong>Source: </strong> 
-        <!--<xsl:variable name="orgNames" select="count(TEI//sourceDesc/bibl[1]/orgName)"/>
-        <xsl:apply-templates select="TEI//sourceDesc/bibl[1]/orgName[1]"/>
-        <xsl:if test="TEI//sourceDesc/bibl[1]/orgName[2]">
-          <xsl:text>; </xsl:text>
-          <xsl:apply-templates select="TEI//sourceDesc/bibl[1]/orgName[2]"/>
-        </xsl:if>
-        <xsl:if test="not(ends-with(TEI//sourceDesc/bibl[1]/orgName[$orgNames],'.'))">
-          <xsl:text>.</xsl:text>
-        </xsl:if>
-        <xsl:text>  </xsl:text>
-        <xsl:apply-templates select="TEI//sourceDesc//bibl/note[@type='project'][not(@target)]"/>
-        <xsl:text>For a description of the editorial rationale behind our treatment of the marginalia and annotations, see our </xsl:text>
-        <a>
-          <xsl:attribute name="htref">
-            
-          </xsl:attribute>
-          <xsl:text>statement of editorial policy</xsl:text>
-        </a>-->
+       
         <xsl:choose>
           <xsl:when test="TEI/teiHeader/fileDesc/sourceDesc/biblStruct[not(@type='supplied')]">
             <xsl:text>The transcription presented here is derived from </xsl:text> 
@@ -130,7 +103,7 @@
         <xsl:apply-templates select="//TEI//sourceDesc//bibl[1]/note[@type = 'project'][not(@target)]"/>
         
         <!-- editorial statement -->
-        <xsl:text>For a description of the editorial rationale behind our treatment of the manuscripts, see our </xsl:text>
+        <xsl:text> For a description of the editorial rationale behind our treatment of the manuscripts, see our </xsl:text>
         <a>
           <xsl:attribute name="href">
             <xsl:value-of select="$site_url"/>
@@ -140,24 +113,9 @@
         </a>
         <xsl:text>.</xsl:text>
       </li>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+
       <li><strong>Editorial note: </strong><xsl:apply-templates select="//teiHeader/fileDesc/notesStmt/note[@type='project']"/> </li>
-      
-      
-      
-      
-      
-      
-      
+
       <!-- pulled from notebooks P5 tylesheet and refactored original comment: relatedItem section (updated 4/28/17)-->
       <xsl:if test="//sourceDesc//relatedItem">
         <li><strong>Related Item(s): </strong>
@@ -167,7 +125,7 @@
                 <xsl:variable name="note_target"><xsl:text>#</xsl:text><xsl:value-of select="@xml:id"/></xsl:variable>
                 <!-- if there is a note with a matching target, display -->
                 <xsl:apply-templates select="//note[@target=$note_target]"/>
-                <xsl:text>See </xsl:text>
+                <xsl:text> See </xsl:text>
                 <a>
                   <xsl:attribute name="href" select="@target"/>
                   <xsl:value-of select="@target"/>
@@ -177,7 +135,7 @@
             
             <xsl:for-each select="//relatedItem[@type = 'document']">
               <li>
-                <xsl:text>See </xsl:text>
+                <xsl:text> See </xsl:text>
                 <a>
                   <xsl:attribute name="href" select="@target"/>
                   <xsl:value-of select="@target"/>
@@ -191,13 +149,87 @@
       
       <!--end relatedItem section-->
       
-      
-      
-      
-      
-      
-      
-      
+      <xsl:if test="//text//note[@type = 'editorial']">
+        <li>
+          <strong>Notes written on manuscript: </strong>
+          <xsl:for-each select="//text//note[@type = 'editorial']">
+            <xsl:variable name="hand">
+              <xsl:choose>
+                <xsl:when
+                  test="@resp = '#ht' or substring-after(@resp, '#') = ancestor::TEI//handNote[@scribeRef = '#ht']/@xml:id"
+                  >Horace Traubel's</xsl:when>
+                <xsl:when
+                  test="@resp = '#ww' or substring-after(@resp, '#') = ancestor::TEI//handNote[@scribeRef = '#ww']/@xml:id"
+                  >Walt Whitman's</xsl:when>
+                <xsl:when
+                  test="@resp = '#rmb' or substring-after(@resp, '#') = ancestor::TEI//handNote[@scribeRef = '#rmb']/@xml:id"
+                  >Richard Maurice Bucke's</xsl:when>
+                <xsl:when
+                  test="@resp = '#fb' or substring-after(@resp, '#') = ancestor::TEI//handNote[@scribeRef = '#fb']/@xml:id"
+                  >Fredson Bowers's</xsl:when>
+                <xsl:when
+                  test="@resp = '#unk' or substring-after(@resp, '#') = ancestor::TEI//handNote[@scribeRef = '#unk']/@xml:id"
+                  >unknown</xsl:when>
+                <xsl:when
+                  test="@resp = '#ag' or substring-after(@resp, '#') = ancestor::TEI//handNote[@scribeRef = '#ag']/@xml:id"
+                  >Alfred Goldsmith's</xsl:when>
+                <xsl:when
+                  test="@resp = '#et' or substring-after(@resp, '#') = ancestor::TEI//handNote[@scribeRef = '#et']/@xml:id"
+                  >Ellen Terry's</xsl:when>
+                <xsl:otherwise>unknown</xsl:otherwise>
+              </xsl:choose>
+            </xsl:variable>
+            <xsl:choose>
+              <xsl:when
+                test="following::note[@type = 'editorial'] and not(preceding::note[@type = 'editorial'])"
+                >On leaf <xsl:value-of
+                  select="number(substring(preceding::pb[1]/@xml:id, 5, 3))"/><xsl:text> </xsl:text><xsl:choose>
+                    <xsl:when test="substring(preceding::pb[1]/@xml:id, 8, 1) = 'r'"
+                      >recto</xsl:when>
+                    <xsl:when test="substring(preceding::pb[1]/@xml:id, 8, 1) = 'v'"
+                      >verso</xsl:when>
+                    <xsl:otherwise>recto</xsl:otherwise>
+                  </xsl:choose><xsl:text>, in </xsl:text><xsl:value-of select="$hand"
+                  /><xsl:text> hand: "</xsl:text><xsl:apply-templates/><xsl:text>"; </xsl:text>
+              </xsl:when>
+              <xsl:when
+                test="following::note[@type = 'editorial'] and preceding::note[@type = 'editorial']"
+                >on leaf <xsl:value-of
+                  select="number(substring(preceding::pb[1]/@xml:id, 5, 3))"/><xsl:text> </xsl:text><xsl:choose>
+                    <xsl:when test="substring(preceding::pb[1]/@xml:id, 8, 1) = 'r'"
+                      >recto</xsl:when>
+                    <xsl:when test="substring(preceding::pb[1]/@xml:id, 8, 1) = 'v'"
+                      >verso</xsl:when>
+                    <xsl:otherwise>recto</xsl:otherwise>
+                  </xsl:choose><xsl:text>, in </xsl:text><xsl:value-of select="$hand"
+                  /><xsl:text> hand: "</xsl:text><xsl:apply-templates/><xsl:text>"; </xsl:text>
+              </xsl:when>
+              <xsl:when test="preceding::note[@type = 'editorial']">on leaf <xsl:value-of
+                select="number(substring(preceding::pb[1]/@xml:id, 5, 3))"/><xsl:text> </xsl:text><xsl:choose>
+                  <xsl:when test="substring(preceding::pb[1]/@xml:id, 8, 1) = 'r'"
+                    >recto</xsl:when>
+                  <xsl:when test="substring(preceding::pb[1]/@xml:id, 8, 1) = 'v'"
+                    >verso</xsl:when>
+                  <xsl:otherwise>recto</xsl:otherwise>
+                </xsl:choose><xsl:text>, in </xsl:text><xsl:value-of select="$hand"
+                /><xsl:text> hand: "</xsl:text><xsl:apply-templates/><xsl:text>"</xsl:text>
+              </xsl:when>
+              <xsl:otherwise> On leaf <xsl:value-of
+                select="number(substring(preceding::pb[1]/@xml:id, 5, 3))"/><xsl:text> </xsl:text>
+                <xsl:choose>
+                  <xsl:when test="substring(preceding::pb[1]/@xml:id, 8, 1) = 'r'"
+                    >recto</xsl:when>
+                  <xsl:when test="substring(preceding::pb[1]/@xml:id, 8, 1) = 'v'"
+                    >verso</xsl:when>
+                  <xsl:otherwise>recto</xsl:otherwise>
+                </xsl:choose><xsl:text>, in </xsl:text><xsl:value-of select="$hand"
+                /><xsl:text> hand: "</xsl:text><xsl:apply-templates/><xsl:text>"</xsl:text>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:for-each>
+        </li>
+      </xsl:if>
+
       <li><strong>Contributors to digital file: </strong> <xsl:value-of separator=", " select="//teiHeader/fileDesc/titleStmt/respStmt/persName"></xsl:value-of></li>
     </ul>
   </xsl:variable>
