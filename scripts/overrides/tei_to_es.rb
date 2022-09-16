@@ -1,3 +1,4 @@
+require_relative "../../../whitman-scripts/scripts/ruby/get_works_info.rb"
 class TeiToEs
 
   ################
@@ -65,9 +66,6 @@ class TeiToEs
   def publisher
   end
 
-  def recipient
-  end
-
   def source
     org = get_text(@xpaths["source"]["org"])
     note = get_text(@xpaths["source"]["note"])
@@ -90,6 +88,24 @@ class TeiToEs
   end
 
   def works
+  end
+
+  def citation
+    # WorksInfo is get_works_info.rb in whitman-scripts repo
+    @works_info = WorksInfo.new(xml)
+    ids, names = @works_info.get_works_info
+    citations = []
+    if ids.length > 0
+      ids.each_with_index do |id, idx|
+        name = names[idx]
+        citations << {
+          "id" => id,
+          "title" => name,
+          "role" => "whitman_id"
+        }
+      end
+    end
+    citations
   end
 
 end
