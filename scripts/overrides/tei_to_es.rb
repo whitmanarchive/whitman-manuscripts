@@ -35,7 +35,11 @@ class TeiToEs
   # Please see docs/tei_to_es.rb for complete instructions and examples
 
   def category
-    "manuscripts"
+    "In Whitman's Hand"
+  end
+
+  def category2
+    "In Whitman's Hand / Manuscripts"
   end
 
   # TODO check if this is a good assumption to be making
@@ -72,11 +76,6 @@ class TeiToEs
     [ org, note ].compact
                  .reject(&:empty?)
                  .join(", ")
-  end
-
-  def category2
-    # Note: used to be called "transcriptions"
-    "manuscripts"
   end
 
   def topics
