@@ -92,9 +92,12 @@ class TeiToEs
     @works_info = WorksInfo.new(xml)
     ids, names = @works_info.get_works_info
     citations = []
-    if ids.length > 0
+    if ids && ids.length > 0
       ids.each_with_index do |id, idx|
         name = names[idx]
+        if !name
+          puts "#{self.get_id} has bad work ids"
+        end
         citations << {
           "id" => id,
           "title" => name,
