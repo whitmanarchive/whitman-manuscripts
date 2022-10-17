@@ -5,7 +5,6 @@ class TeiToEs
   #    XPATHS    #
   ################
 
-  # in the below example, the xpath for "person" is altered
   def override_xpaths
     xpaths = {}
     xpaths["rights_holder"] = "//publicationStmt/distributor"
@@ -55,10 +54,10 @@ class TeiToEs
     "en"
   end
 
-  def languages
-    # TODO verify that none of these are multiple languages
-    [ "en" ]
-  end
+  # def languages
+  #   # TODO verify that none of these are multiple languages
+  #   [ "en" ]
+  # end
 
   def person
     []
@@ -82,8 +81,7 @@ class TeiToEs
   end
 
   def uri
-    # Note: no "tei" in below URL
-    "#{@options["site_url"]}/manuscripts/transcriptions/#{@filename}.html"
+    "#{@options["site_url"]}/item/#{@filename}.html"
   end
 
   def works
