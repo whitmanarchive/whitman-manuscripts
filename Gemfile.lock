@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/CDRH/datura.git
-  revision: 59013d2f10b4dc40044d1be03fe4db2ed39a3395
-  branch: release/v1.0.0
+  revision: d7ab758e6d8dc02ba2b00eb180ee0600e5e581b3
+  branch: ruby3upgrade
   specs:
     datura (0.2.0.pre.beta)
       colorize (~> 0.8.1)
@@ -23,10 +23,10 @@ GEM
     mime-types-data (3.2022.0105)
     mini_portile2 (2.8.0)
     netrc (0.11.0)
-    nokogiri (1.13.8)
+    nokogiri (1.13.10)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
-    racc (1.6.0)
+    racc (1.6.1)
     rest-client (2.1.0)
       http-accept (>= 1.7.0, < 2.0)
       http-cookie (>= 1.0.2, < 2.0)
@@ -44,4 +44,4 @@ DEPENDENCIES
   datura!
 
 BUNDLED WITH
-   2.1.4
+   2.2.33
