@@ -1,5 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00047">
+<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+ 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00047">
+    <relations>
+        <work ref="xxx.00395">
+            <p>This poem was revised and published under the title "Old Chants," first in the New
+                York <hi rend="italic">Truth</hi>, <date when="1891-03-19">March 19,
+                1891</date>.</p>
+        </work>
+    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -18,8 +26,6 @@
                     <persName xml:id="aj">Andrew Jewell</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                    <persName xml:id="as">Ashlyn Stewart</persName>
-                    <persName xml:id="km">Kevin McMullen</persName>
                 </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -33,7 +39,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                
+                <idno>loc.00047</idno>
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -46,7 +52,7 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
                 </availability>
-            <idno>loc.00047</idno></publicationStmt>
+            </publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">This manuscript was probably composed in <date notBefore="1890-09" notAfter="1890-11">autumn, 1890</date>, as is suggested by the postmarks
                     on the envelopes on which it is written. The poem was revised and published under the title "Old Chants," first in the New
@@ -55,26 +61,19 @@
                     been derived from the published poem. The leaves that comprise this manuscript are five opened-up
                     envelopes and one cancelled letter written to Whitman from J. Harry Schneller,
                     Jr. The verso envelopes and letter are all dated <date notBefore="1890-09" notAfter="1890-10">September through October, 1890</date>. </note>
-                    <note type="work_relations" target="xxx.00395">
-                        <p>This poem was revised and published under the title "Old Chants," first in the New
-                            York <hi rend="italic">Truth</hi>, <date when="1891-03-19">March 19,
-                                1891</date>.</p>
-                    </note>
             </notesStmt>
             <sourceDesc>
-                <bibl><author xml:id="ww">Whitman, Walt</author>
-                    
+                <bibl>
+                    <author>Walt Whitman</author>
                     <title>America to Old-World Bards </title>
                     <date xml:id="dat1" cert="high" notBefore="1890-10" notAfter="1891-03">1890 or 1891</date>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
                     <note type="project">Transcribed from a digital image of the original
                         manuscript.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2022-06-06" who="#km">updated relations encoding</change>
-            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-10-18" who="#nhg">corrected</change>
             <change when="2016-01-29" who="#nhg">merged earlier changes, corrected</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
@@ -161,11 +160,11 @@
 </hi>
                         
                     </l>
-                    <delSpan spanTo="#d1" rend="overstrike"/>
+                    <del rend="overstrike">
                         <l>
                             <hi rend="underline">I too receive them with perfect hospitality.</hi>
                         </l>
-                    <anchor xml:id="d1"/>
+                    </del>
                     <l>Well-pleased, accepting all, <add place="supralinear" rend="insertion">curiously</add> prepared for,</l>
                 </lg>
                 <pb facs="loc.00047.004.jpg" xml:id="leaf002v" type="verso"/>
@@ -326,9 +325,9 @@
 
                         <lb/>thy entrance-porch.
                     </l>
-                    <delSpan spanTo="#d2" rend="overstrike"/>
+                    <del rend="overstrike">
                         <l>Preluding thee America</l>
-                    <anchor xml:id="d2"/>
+                    </del>
                 </lg>
             </lg>
             <pb facs="loc.00047.010.jpg" xml:id="leaf005v" type="verso"/>

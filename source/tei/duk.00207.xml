@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00207">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00207">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main" rend="bracketed">Progenitors</title>
+                <title level="m" type="main" rend="bracketed">Progenitors in the little house</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -16,7 +18,6 @@
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="kmp">Kenneth M. Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                    <persName xml:id="as">Ashlyn Stewart</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -28,7 +29,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                
+                <idno>duk.00207</idno>
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,24 +41,23 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            <idno>duk.00207</idno></publicationStmt>
+            </publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">Based on the paper and the handwriting, which he compares to that of Whitman's early notebooks, Edward Grier dates this manuscript to the 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:13).</note>             
             </notesStmt>
             <sourceDesc>
-
-                <bibl><author xml:id="ww">Whitman, Walt</author>
-                    
-                    <title>Progenitors (Autograph MS)</title>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Progenitors</title>
                     <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1860">1850s</date>
-                    <idno type="callno">MS 12mo 104a</idno>
+                    <idno type="callno">MS 12mo 104a (Volume 104a)</idno>
                     <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+            <change when="2018-11-01" who="#nhg">updated title, idno</change>
             <change when="2016-12-13" who="#bb">reconciled with EAD record</change>
             <change when="2016-05-18" who="#kmp">blessed</change>
             <change when="2016-04-01" who="#nhg">checked, corrected</change>
@@ -77,9 +77,9 @@
             
             <ab><span rend="bracket-right" xml:id="s3" from="#s3" to="#s4"/>Capt. John Williams &amp; Mary Woolley Cold Spring, LI<anchor xml:id="s4"/> parents of Amy Williams mother's mother</ab>
             
-            <milestone unit="undeclared" rend="horbar-full"/>
+            <milestone unit="undeclared" rend="horbar-full" />
             
-            <p>They (Capt. John &amp; Mary) had 8 daughters and two sons—the men <add rend="insertion" place="supralinear">father &amp; sons</add> all followed the water—were expert sailors—Capt. John was a wonderful man for <add rend="insertion" place="supralinear">his</add> friends <subst><del rend="overstrike" seq="1"><unclear reason="illegible" cert="medium" resp="#kc">amiableness</unclear></del> <add rend="unmarked" place="supralinear" seq="2">hospitality</add></subst> good living &amp;c.—<subst><del rend="overstrike" seq="1"><unclear reason="illegible" cert="medium" resp="#jc">Mary</unclear></del><add rend="overwrite" place="over" seq="2">Amy</add></subst>, <add rend="unmarked" place="supralinear">(mother's mother)</add> when he came in from a voyage, would take one child in her arms and another by the hand, and go over the hills afoot to see her father.—He died aboard his vessel in N.Y. Mary <add rend="insertion" place="supralinear">(mother's grandmother)</add> was washing—<del rend="overstrike">the</del> <add rend="insertion" place="supralinear">when</add> a vessel came up the Harbor with the flag at half-mast.—It brought the corpse;—a neighbor heard the news, came up to the little house on the hill—took the tub and set it away and told the death—Mary had been looking at the vessel with the spy glass.</p>
+            <p>They (Capt. John &amp; Mary) had 8 daughters and two sons&#8212;the men <add rend="insertion" place="supralinear">father &amp; sons</add> all followed the water&#8212;were expert sailors&#8212;Capt. John was a wonderful man for <add rend="insertion" place="supralinear">his</add> friends <subst><del rend="overstrike" seq="1"><unclear reason="illegible" cert="medium" resp="#kc">amiableness</unclear></del> <add rend="unmarked" place="supralinear" seq="2">hospitality</add></subst> good living &amp;c.&#8212;<subst><del rend="overstrike" seq="1"><unclear reason="illegible" cert="medium" resp="#jc">Mary</unclear></del><add rend="overwrite" place="over" seq="2">Amy</add></subst>, <add rend="unmarked" place="supralinear">(mother's mother)</add> when he came in from a voyage, would take one child in her arms and another by the hand, and go over the hills afoot to see her father.&#8212;He died aboard his vessel in N.Y. Mary <add rend="insertion" place="supralinear">(mother's grandmother)</add> was washing&#8212;<del rend="overstrike">the</del> <add rend="insertion" place="supralinear">when</add> a vessel came up the Harbor with the flag at half-mast.&#8212;It brought the corpse;&#8212;a neighbor heard the news, came up to the little house on the hill&#8212;took the tub and set it away and told the death&#8212;Mary had been looking at the vessel with the spy glass.</p>
             
             <pb xml:id="leaf001v" facs="duk_am.00177.jpg" type="verso"/>
             

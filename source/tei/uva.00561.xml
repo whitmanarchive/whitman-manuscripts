@@ -1,45 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00561">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title level="m" type="main" rend="bracketed">halt in the shade</title>
-            <title level="m" type="sub">a machine readable transcription</title>
-            <author>Walt Whitman</author>
-            <editor role="editor">Kenneth M. Price</editor>
-            <editor role="editor">Ed Folsom</editor>
-            <respStmt>
-               <resp>Transcription and encoding</resp>
-               <persName xml:id="nhg">Nicole Gray</persName>
-               <persName xml:id="hm">Heather Morton</persName>
-               <persName xml:id="as">Ashlyn Stewart</persName>
-               <persName xml:id="bb">Brett Barney</persName>
-            </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
-            <sponsor>University of Iowa</sponsor>
-            <funder>The National Endowment for the Humanities</funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>
-               <date>2003</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            
-            <distributor>The Walt Whitman Archive</distributor>
-            <address>
-               <addrLine>Center for Digital Research in the Humanities</addrLine>
-               <addrLine>319 Love Library</addrLine>
-               <addrLine>University of Nebraska-Lincoln</addrLine>
-               <addrLine>P.O. Box 884100</addrLine>
-               <addrLine>Lincoln, NE 68588-4100</addrLine>
-            </address>
-            <availability>
-               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
-            </availability>
-         <idno>uva.00561</idno></publicationStmt>
-         <notesStmt>
-            <note type="project" target="dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript fragments of poetry are partial drafts of lines used in the first poem in that edition, eventually titled "Song of Myself."</note>
-            <note type="work_relations" target="xxx.00048" cert="high">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00561">
+   <relations>
+      <work ref="xxx.00048" cert="high">
          <p>The line segments written on this manuscript leaf are partial drafts of the following lines in the opening poem of the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, later titled "Song of Myself": "Oxen that rattle the yoke or halt in the shade, what is that you express in your eyes? /
             It seems to me more than all the print I have read in my life. /
             
@@ -52,11 +13,50 @@
             And the mockingbird in the swamp never studied the gamut, yet trills pretty well to
             me, /
             And the look of the bay mare shames silliness out of me" (1855, p. 20).</p>
-      </note>
+      </work>
+   </relations>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main" rend="bracketed">halt in the shade</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="hm">Heather Morton</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2003</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>uva.00561</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="project" target="dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript fragments of poetry are partial drafts of lines used in the first poem in that edition, eventually titled "Song of Myself."</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><author xml:id="ww">Whitman, Walt</author>
-               
+            <bibl>
+               <author>Walt Whitman</author>
                <title>Remember if you are dying</title>
                <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
                <idno type="callno">MSS 3829, Box-folder 1:88</idno> 
@@ -69,8 +69,6 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2022-06-06" who="#bb">updated relations encoding</change>
-         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2018-11-28" who="#nhg">checked, corrected, added inline relations</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
          <change who="#hm" when="2003-12-01">Encoded</change>

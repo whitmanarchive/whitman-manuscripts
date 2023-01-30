@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00046">
+<?xml version="1.0" encoding="UTF-8"?> 
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="yal.00046">
+    <relations>
+        <work ref="xxx.00334" cert="high">
+            <p>This manuscript is a draft of the poem "Last of Ebb, and Daylight Waning," first
+                published in the "Fancies at Navesink" sequence of poems in the <date when="1885-08">August 1885</date> issue of <hi rend="italic">Nineteenth
+                    Century</hi>.</p>
+        </work>
+    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -17,7 +27,7 @@
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+                </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -30,7 +40,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                
+                <idno>yal.00046</idno>
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -43,21 +53,16 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            <idno>yal.00046</idno></publicationStmt>
+            </publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">This manuscript is a draft of the poem "Last of Ebb, and Daylight Waning," first
                     published in the "Fancies at Navesink" sequence of poems in the <date when="1885-08">August 1885</date> issue of <hi rend="italic">Nineteenth
                         Century</hi>. Whitman probably composed this manuscript shortly
                     before its publication in <date when="1885">1885</date>.</note>
-                <note type="work_relations" target="xxx.00334" cert="high">
-            <p>This manuscript is a draft of the poem "Last of Ebb, and Daylight Waning," first
-                published in the "Fancies at Navesink" sequence of poems in the <date when="1885-08">August 1885</date> issue of <hi rend="italic">Nineteenth
-                    Century</hi>.</p>
-        </note>
             </notesStmt>
             <sourceDesc>
-                <bibl><author xml:id="ww">Whitman, Walt</author>
-                    
+                <bibl>
+                    <author>Walt Whitman</author>
                     <title>Last of ebb, and daylight waning</title>
                     <date xml:id="dat1" cert="high" notBefore="1885-01-12" notAfter="1885-08">1885</date>
                     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and
@@ -75,9 +80,6 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
-            <change when="2022-07-07" who="#as">updated transposition encoding</change>
-            <change when="2022-06-03" who="#bb">updated relations encoding</change>
-            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-12-01" who="#nhg">corrected</change>
             <change when="2016-07-27" who="#nhg">proofed, added verso images and relatedItem encoding</change>
             <change when="2016-01-12" who="#bb">updated list of staff in titleStmt; corrected miscellaneous attribute errors</change>
@@ -111,7 +113,7 @@
                         <del rend="overstrike">
                             <add place="supralinear" rend="unmarked">the</add></del> ebb, and daylight waning,</l>
                     <l>
-                        Scented sea‑breaths landward making—smells
+                        Scented sea&#8209;breaths landward making&#8212;smells
                         <lb/>of <del rend="overstrike">the</del> salt and sedge incoming,
                     </l>
                     <l>While many <subst>
@@ -119,7 +121,7 @@
                                     <del rend="overstrike" seq="1">the</del>
                                                                 
                                     <add place="supralinear" rend="unmarked" seq="2">a</add>
-                                                            </subst> half‑caught <subst>
+                                                            </subst> half&#8209;caught <subst>
                                 
                                     <del rend="overstrike" seq="1">voice</del>
                                                                 
@@ -168,8 +170,8 @@
                     <l>How they sweep down and out! how
                         <lb/>they mutter!
                     </l>
-                    
-                    <metamark function="transpose" target="#tr01"/><l xml:id="tr02">
+                    <transpose rend="bracketed" anchored="1" target="#t1">
+                        <l>
 <subst>
                                     
                                         <del rend="overstrike" seq="1">Hopes</del>
@@ -179,20 +181,20 @@
                                     
                                         <del rend="overstrike" seq="1">youth</del>
                                                                         
-                                        <add place="supralinear" rend="unmarked" seq="2">manhood—</add></subst>—tones of the dying—
+                                        <add place="supralinear" rend="unmarked" seq="2">manhood&#8212;</add></subst>&#8212;tones of the dying&#8212;
                             <lb/>
 <subst>
                                     
                                         <del rend="overwrite" seq="1">a</del><add place="over" rend="overwrite" seq="2">the</add>
-                                                                    </subst> chorus of age's complaints—feverish
-                            <lb/>love,<subst><del rend="overstrike" seq="1">—the last,</del>
+                                                                    </subst> chorus of age's complaints&#8212;feverish
+                            <lb/>love,<subst><del rend="overstrike" seq="1">&#8212;the last,</del>
                                                                         
-                                        <add place="supralinear" rend="unmarked" seq="2">—hope's</add>
+                                        <add place="supralinear" rend="unmarked" seq="2">&#8212;hope's</add>
                                                                     </subst> last bitter words,
                         </l>
-                    
+                    </transpose>
                     <milestone unit="glued"/>
-                    <metamark function="transpose" target="#tr01"/><l xml:id="tr01">
+                    <l>
 <del rend="overstrike">
                                     <add rend="unmarked" place="inline">Haply</add>
                                 </del>
@@ -208,7 +210,7 @@
                                     
                                         <del rend="overstrike" seq="1">unknown,</del>
                                                                         
-                                        <add place="supralinear" rend="unmarked" seq="2">unnamed, <del rend="overstrike">borne down <add rend="unmarked" place="supralinear">off—</add></del></add></subst>—<del rend="overstrike">the</del> poets
+                                        <add place="supralinear" rend="unmarked" seq="2">unnamed, <del rend="overstrike">borne down <add rend="unmarked" place="supralinear">off&#8212;</add></del></add></subst>&#8212;<del rend="overstrike">the</del> poets
                             <lb/>and artists <del rend="overstrike">unknown, yet</del>
 
                             <lb/>greater than any<add rend="unmarked" place="inline">,</add>
@@ -216,14 +218,8 @@
 
                     
                     </l>
-                    <listTranspose>
-                        <transpose>
-                            <ptr target="#tr01"/>
-                            <ptr target="#tr02"/>
-                        </transpose>
-                    </listTranspose>
                     <milestone unit="glued"/>
-                    
+                    <anchor xml:id="t1"/>
                     <l>Some suicide's despair's beguiling <subst>
                                 
                                     <del rend="overstrike" seq="1">words,</del>
@@ -272,7 +268,7 @@
                     </l>
                     <l>
                         <del rend="overstrike">Such ventures,                               
-                                    <add rend="unmarked" place="supralinear">—such</add>
+                                    <add rend="unmarked" place="supralinear">&#8212;such</add>
                                                             aspirations lost? such failures?</del>
                     </l>
                 </lg>
@@ -318,7 +314,7 @@
                     <l>
 <add rend="insertion" place="supralinear">
 <del rend="overstrike">(</del>On
-                            for your time</add> ye furious debouché! <del rend="overstrike">On, quicker yet</del>
+                            for your time</add> ye furious debouch&#233;! <del rend="overstrike">On, quicker yet</del>
 </l>
                 </lg>
             </lg>

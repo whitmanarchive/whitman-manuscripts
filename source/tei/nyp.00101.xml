@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00101">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00101">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -12,7 +12,6 @@
                <resp>Transcription and encoding</resp>
                <persName xml:id="cah">Caitlin Henry</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
-               <persName xml:id="as">Ashlyn Stewart</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -24,7 +23,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            
+            <idno>nyp.00101</idno>
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -36,13 +35,13 @@
             <availability>
                <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
-         <idno>nyp.00101</idno></publicationStmt>
+         </publicationStmt>
          <notesStmt>                       
             <note type="project" target="dat1">The paper and ink, as well as the appearance of a transcription of this manuscript along with transcriptions of other early manuscripts in the "Notes on the Meaning and Intention of 'Leaves of Grass'" section of <hi rend="italic">Notes and Fragments</hi> (1899), edited by Richard Maurice Bucke, suggest Whitman probably drafted this manuscript in the 1850s. Bucke's transcription concludes with the following words, which do not currently appear on the manuscript: "where they fail of themselves" (55). In <hi rend="italic">The Regenerate Lyric</hi> (Cambridge: Cambridge University Press, 1993), Elisa New attributes the manuscript to "the period when the first drafts of <hi rend="italic">Leaves of Grass</hi> were taking shape" (112). An image of the back of the leaf is not currently available.</note>           
          </notesStmt>
          <sourceDesc>
-            <bibl><author xml:id="ww">Whitman, Walt</author>
-               
+            <bibl>
+               <author>Walt Whitman</author>
                <title>Holograph literary fragments and notes for poems, on 47 paper slips, tipped into 3 volumes</title>
                <date cert="medium" notBefore="1850-01-01" notAfter="1860-01-01" xml:id="dat1">1850s</date>
                
@@ -54,7 +53,6 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2019-07-24">checked, corrected, added editorial note</change>
          <change who="#cah" when="2019-02-19">transcribed, encoded</change>
       </revisionDesc>
@@ -66,7 +64,7 @@
 			
          <!--Note that there is a line to the left of this fragment, possibly indicating a transpose.--><ab><del rend="erasure">I do not expect to dispel the</del></ab>
          
-         <ab>I say that if <add rend="insertion" place="supralinear">once</add> the conventional distinctions were dis-pelled from our eyes, we should see just as much<add rend="unmarked" place="inline">—by arguing against them—I <del rend="overstrike">p</del> <del rend="overstrike">assume to take the</del> sweep them away by advancing to a new phase of development <gap reason="cut away"/></add></ab>
+         <ab>I say that if <add rend="insertion" place="supralinear">once</add> the conventional distinctions were dis-pelled from our eyes, we should see just as much<add rend="unmarked" place="inline">&#8212;by arguing against them&#8212;I <del rend="overstrike">p</del> <del rend="overstrike">assume to take the</del> sweep them away by advancing to a new phase of development <gap reason="cut away"/></add></ab>
 
 
       </body>

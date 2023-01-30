@@ -1,10 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00088">
+<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+ 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00088">
+    <relations>
+        <work ref="xxx.00236" cert="high">
+            <p>This manuscript is a draft of lines in "Out from Behind This Mask," a poem published
+                first in the New York <hi rend="italic">Tribune</hi> on <date when="1876-02-19">February 19, 1876</date>.</p>
+        </work>
+    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title rend="bracketed" level="m" type="main">Returning to my pages' front
-                    once</title>
+                <title rend="bracketed" level="m" type="main">Returning to my pages' front</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -17,8 +23,6 @@
                     <persName xml:id="aj">Andrew Jewell</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                    <persName xml:id="as">Ashlyn Stewart</persName>
-                    <persName xml:id="km">Kevin McMullen</persName>
                 </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -32,7 +36,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                
+                <idno>loc.00088</idno>
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -45,24 +49,19 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
                 </availability>
-            <idno>loc.00088</idno></publicationStmt>
+            </publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">This manuscript is a draft of lines in "Out from Behind This Mask," a poem published
                     first in the New York <hi rend="italic">Tribune</hi> on <date when="1876-02-19">February 19, 1876</date>. This manuscript was probably written in the <date notBefore="1871" notAfter="1876">early to mid-1870s</date>, after the creation of the
                     photograph upon which "Out from Behind This Mask" is based and before
                     publication of the poem in the <hi rend="italic">Tribune</hi>.</note>
-                    <note type="work_relations" target="xxx.00236" cert="high">
-                        <p>This manuscript is a draft of lines in "Out from Behind This Mask," a poem published
-                            first in the New York <hi rend="italic">Tribune</hi> on <date when="1876-02-19">February 19, 1876</date>.</p>
-                    </note>
-                
             </notesStmt>
             <sourceDesc>
-                <bibl><author xml:id="ww">Whitman, Walt</author>
-                    
+                <bibl>
+                    <author>Walt Whitman</author>
                     <title>Out from behind this mask</title>
                     <date xml:id="dat1" cert="high" notBefore="1871" notAfter="1876">Between 1871 and 1876</date>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
             </sourceDesc>
@@ -73,8 +72,7 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
-            <change when="2022-06-06" who="#km">updated relations encoding</change>
-            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+            <change when="2018-11-01" who="#nhg">edited title</change>
             <change when="2016-09-20" who="#nhg">proofed</change>
             <change when="2016-03-04" who="#nhg">added names to TEI header, took out extra line breaks</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
@@ -97,7 +95,7 @@
                         <lb/>more, resuming all, 
                     </l>
                     <l>Songs, sorrows, tragedies, with stalwart 
-                        <lb/>joys—O heaven! 
+                        <lb/>joys&#8212;O heaven! 
                     </l>
                     <l>The passionate, teeming play this curtain 
                         <lb/>hid!) 
@@ -106,12 +104,12 @@
                                 
                                     <del rend="overstrike" seq="1">glance</del>
                                                                 
-                                    <add place="supralinear" rend="unmarked" seq="2"> look</add></subst>—a flashing token of <choice>
-<orig>my‑</orig>
+                                    <add place="supralinear" rend="unmarked" seq="2"> look</add></subst>&#8212;a flashing token of <choice>
+<orig>my&#8209;</orig>
 <reg>myself</reg>
 </choice>
 
-                        <lb/>self—to future time. 
+                        <lb/>self&#8212;to future time. 
                     </l>
                     <l>
 <subst>
@@ -126,7 +124,7 @@
                         <lb/>are, I launch, through space 
                         <lb/>revolving, 
                     </l>
-                    <l>These burin'd eyes—this 
+                    <l>These burin'd eyes&#8212;this 
 <subst>
                                 
                                     <del rend="overstrike" seq="1">globe</del>

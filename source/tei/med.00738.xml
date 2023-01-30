@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00738">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00738">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main" rend="bracketed">Literature it is certain</title>
+                <title level="m" type="main" rend="bracketed">Literature it is certain would</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -15,9 +17,7 @@
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                    <persName xml:id="kmp">Kenneth M. Price</persName>
-                    <persName xml:id="as">Ashlyn Stewart</persName>
-                </respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -28,7 +28,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                
+                <idno>med.00738</idno>
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +38,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright © 2014 by Ed Folsom and Kenneth M. Price, all rights
+                    <p>Copyright &#169; 2014 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +46,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            <idno>med.00738</idno></publicationStmt>
+            </publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">Because the manuscript has not been located it is difficult to speculate on the circumstances or date of its composition. Grier dates the manuscript to the 1850s, perhaps based on its appearance in <hi rend="italic">Notes and Fragments</hi> along with transcriptions of other early manuscripts owned by Bucke.</note>             
             </notesStmt>
@@ -60,15 +60,15 @@
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
                             <date when="1984">1984</date>
-                            <biblScope unit="page">1557</biblScope>
-                            <biblScope unit="volume">4</biblScope>
+                            <biblScope type="page">1557</biblScope>
+                            <biblScope type="volume">4</biblScope>
                         </imprint>
                     </monogr>
                     <note type="project">Grier based his text on <hi rend="italic">Notes and Fragments</hi>, ed. Richard Maurice Bucke (London, Ontario: A. Talbot &amp; Co., printers, 1899), 143.</note>
                 </biblStruct>
 
-                <bibl><author xml:id="ww">Whitman, Walt</author>
-                    
+                <bibl>
+                    <author>Walt Whitman</author>
                     <title rend="bracketed">Literature It Is Certain</title>                  
                     <date xml:id="dat1" notBefore="1840" notAfter="1892" cert="high">Undated</date>
                     <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
@@ -76,7 +76,6 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-12-05" who="#bb">reconciled with description in EAD</change>
             <change when="2016-09-08" who="#nhg">proofed</change>
@@ -88,7 +87,7 @@
 
     <text type="manuscript">
         <body>
-            <ab>Literature it is certain would be fuller of vigor and sanity if authors were in the habit of composing in the forenoon—and never at night.</ab>
+            <ab>Literature it is certain would be fuller of vigor and sanity if authors were in the habit of composing in the forenoon&#8212;and never at night.</ab>
         </body>
     </text>
 </TEI>

@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pml.00007">
+<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+ 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="pml.00007">
+    <relations>
+        <work ref="xxx.00607" cert="high">
+            <p>"Starry Union" was never published in Whitman's lifetime, though several different
+                draft forms exist. A revision of these lines appears in the unpublished manuscript
+                poem entitled "Hands Ro[und]."</p>
+        </work>
+    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,7 +24,7 @@
                     <persName xml:id="aj">Andrew Jewell</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+                </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -28,7 +37,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                
+                <idno>pml.00007</idno>
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -41,7 +50,7 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            <idno>pml.00007</idno></publicationStmt>
+            </publicationStmt>
             <notesStmt>
                 
                 <note type="project" target="#dat1">"Starry Union" was never published in Whitman's lifetime, though several different
@@ -49,15 +58,10 @@
                     date of composition of this manuscript is unknown, but Whitman very possibly wrote this piece
                     for the Centennial Celebration of <date when="1876">1876</date>, as the date of the letter on the reverse ("Feb 11/76")
                     suggests.</note>
-                <note type="work_relations" target="xxx.00607" cert="high">
-            <p>"Starry Union" was never published in Whitman's lifetime, though several different
-                draft forms exist. A revision of these lines appears in the unpublished manuscript
-                poem entitled "Hands Ro[und]."</p>
-        </note>
             </notesStmt>
             <sourceDesc>
-                <bibl><author xml:id="ww">Whitman, Walt</author>
-                    
+                <bibl>
+                    <author>Walt Whitman</author>
                     <title>Starry Union</title>
                     <date xml:id="dat1" cert="medium" notBefore="1876-02" notAfter="1876-12">1876</date>
                     <orgName xml:id="pml">The Pierpont Morgan Library, New York</orgName>
@@ -76,8 +80,6 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
-            <change when="2022-06-07" who="#bb">updated relations encoding</change>
-            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-11-28" who="#nhg">added information from EAD entry to editorial note</change>
             <change when="2016-10-18" who="#nhg">corrected</change>
             <change when="2016-09-20" who="#nhg">proofed, added relatedItem information</change>

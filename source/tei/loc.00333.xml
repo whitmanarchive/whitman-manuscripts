@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00333">
+   <relations>
+      <work ref="xxx.00600" cert="absolute">
+         <p>A draft of lines for "A Thought of Columbus," titled by Whitman.</p>
+      </work>
+   </relations>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main">
+A Thought of Columbus
+</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="km">Kenneth M. Price</persName>
+               <persName xml:id="fl">Farrah Lehman</persName>
+               <persName xml:id="ah">Amy Hezel</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2004</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>loc.00333</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+
+            <note type="project" target="dat1">According to Horace Traubel, "A Thought of Columbus" was the last poem that Whitman wrote. It was first published in <date when="1892">1892</date>.</note>
+
+            <note type="project"/>                          	
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>
+A Thought of Columbus
+</title>
+
+               <date xml:id="dat1" value="1892" certainty="high">About 1892</date>
+
+               <orgName xml:id="loc">
+The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.
+</orgName> 
+
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#km" when="2007-03-20">Edited</change>
+         <change who="#fl" when="2007-03-06">Checked</change>
+         <change who="#ah" when="2004-08-30">Encoded</change>
+         <change who="#ah" when="2004-08-30">Transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <pb facs="loc.00333.001" xml:id="leaf001r" type="recto"/>
+
+         <lg
+              >
+
+            <note type="authorial"
+                  place="top"
+                  rend="right">2</note>
+
+            <head type="main-authorial">
+               <subst>
+                  <rdg varSeq="1">A Thought of Columbus</rdg>
+                  <rdg varSeq="2">
+                     <add rend="unmarked" place="infralinear">
+                        <note type="authorial" place="inline">?</note> 
+Thoughts of "</add>
+                  </rdg>
+               </subst>
+            </head>
+
+            <lg type="linegroup"
+                 >
+               <l>All that lay dark, unborn, <add rend="insertion" place="supralinear">
+                     <orig reg="untilled">untill'd</orig>
+                  </add> 
+                  <orig reg="unreaped">unre<subst>
+                        <rdg varSeq="1">
+                           <del rend="overwrite">p</del>
+                        </rdg>
+                        <rdg varSeq="2">
+                           <add rend="overwrite" place="over">a</add>
+                        </rdg>
+                     </subst>p'd</orig>,</l>
+               <l>That freedom, wealth, acti<subst>
+                     <rdg varSeq="1">
+                        <del rend="overstrike">p</del>
+                     </rdg>
+                     <rdg varSeq="2">
+                        <add rend="unmarked" place="inline">v</add>
+                     </rdg>
+                  </subst>ity, life</l>
+            </lg>
+
+            <lg type="linegroup"
+                 >
+               <l>
+                  That all lay<del rend="overstrike">,</del> 
+                     <add rend="unmarked" place="supralinear">folded</add> in an unseen cell,<lb/>
+                  a thought<lb/>
+               </l>
+            </lg>
+
+            <lg type="linegroup"
+                 >
+               <l>And how much further, wider? what to come?</l>
+               <l>(<orig reg="Today">To-day</orig>, great as it is, is nothing)</l>
+               <l>
+                  (<add rend="unmarked" place="supralinear">When he thought, <orig reg="resolved">resolv'd</orig>
+                     </add> Was there no flutter in thee Nature?<lb/>
+                  History?)<lb/>
+               </l>
+            </lg>
+
+         </lg>
+      </body>
+   </text>
+</TEI>

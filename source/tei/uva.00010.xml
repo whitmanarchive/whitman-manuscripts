@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00010">
+   <relations>
+      <work ref="xxx.00008" cert="low">
+         <p>The imagery, wording, and gist of the second of the two draft lines of this manuscript bear some similarities to the poem first published as the last of the "Debris" cluster in the 1860&#8211;1861 edition of <hi rend="italic">Leaves of Grass</hi>. After revising it, Whitman eventually titled the poem "As If a Phantom Caress'd Me."</p>
+      </work>
+   </relations>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main" rend="bracketed">The circus boy is riding</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="bb">Brett Barney</persName>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="ms">Melody S. Han</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2003</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>uva.00010</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="project" target="#dat1">The imagery, wording, and gist of the second of the two draft lines of this manuscript possibly constitute an early version of the poem published in the 1860&#8211;1861 edition of <hi rend="italic">Leaves of Grass</hi> as the final poem of the "Debris" cluster, which was eventually titled "As If a Phantom Caress'd Me." Based on this similarity and on correspondences between the writing on the back of the leaf with poems published in 1856 and 1860, these lines probably date to between 1856 and 1860.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>The circus boy is riding in the</title>
+               <date cert="medium" notBefore="1855" notAfter="1860" xml:id="dat1">Between 1850 and 1860</date>
+               <idno type="callno">MSS 3829, Box-folder 1:49</idno>
+               <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
+               <note type="project">Transcribed from digital images of the original.</note>
+               <relatedItem xml:id="rel1" type="text" target="uva.00585"/>
+               <relatedItem type="document" target="wwa.00147"/>
+               <note type="project" target="#rel1">Lines written on the back of this manuscript leaf relate to the manuscript poem "Pictures," to a shorter version of that poem published in 1880 and titled "My Picture-Gallery," and possibly to the 1860&#8211;1861 poem eventually titled "I Hear It was Charged against Me."</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="#bb" when="2019-09-26">checked; revised</change>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#ms" when="2004-01-03">encoded; transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="uva.00010.001.jpg" xml:id="leaf001r" type="recto"/>
+          <lg type="poem">
+            <l>The circus <subst><del rend="overstrike" seq="1">rider</del> <add place="supralinear" rend="unmarked" seq="2">boy</add></subst> is riding in the<lb/>
+               circus, on a fleet horse</l>
+          </lg>
+            <milestone unit="undeclared" rend="horbar-full"/>
+          <lg type="poem">
+            <l><subst><del rend="overstrike" seq="1">Sailing</del> <add place="supralinear" rend="unmarked" seq="2">Dimly</add></subst> I with
+               <subst><del rend="overstrike" seq="1">America</del> <add place="supralinear" rend="unmarked" seq="2">a young man</add></subst>
+               <subst><del rend="overstrike" seq="1">looking</del> <add place="supralinear" rend="unmarked" seq="2">looking together</add></subst> saw
+               <lb/>
+               those we <del rend="overstrike"><unclear reason="illegible" resp="#bb" cert="medium">wer</unclear></del> watched on the<lb/>
+               shore disappear</l>
+          </lg>
+         <pb facs="uva.00010.002.jpg" xml:id="leaf001v" type="verso"/>
+      </body>
+   </text>
+</TEI>

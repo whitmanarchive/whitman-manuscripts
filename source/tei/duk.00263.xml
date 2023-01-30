@@ -1,5 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00263">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00263">
+   <relations>
+      <work ref="xxx.00119" cert="high">
+         <p>This manuscript includes draft lines that appeared in the second poem in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, eventually titled "A Song for Occupations."</p>
+      </work>
+      <work ref="xxx.00526" cert="low">
+         <p>The phrase "driver(s) of horses," a version of which appears in text added to a transcription of this manuscript in <hi rend="italic">Notes and Fragments</hi>, ed. Richard Maurice Bucke (London, Ontario: A. Talbot &amp; Co., printers, 1899), 31, also appears in the preface to the 1855 <hi rend="italic">Leaves of Grass</hi>.</p>
+      </work>
+      <work ref="xxx.00048" cert="low">
+         <p>The phrase "driver(s) of horses" also appears in the first poem in the 1855 <hi rend="italic">Leaves of Grass</hi>, eventually titled "Song of Myself."</p>
+      </work>
+   </relations>
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -12,11 +22,9 @@
                <resp>Transcription and encoding</resp>
                <persName xml:id="cah">Caitlin Henry</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
-               <persName xml:id="kmp">Kenneth M. Price</persName>
+               <persName xml:id="km">Kenneth M. Price</persName>
                <persName xml:id="aj">Andrew Jewell</persName>
                <persName xml:id="cf">Chris Forster</persName>
-               <persName xml:id="as">Ashlyn Stewart</persName>
-               <persName xml:id="km">Kevin McMullen</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -28,7 +36,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            
+            <idno>duk.00263</idno>
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,22 +48,13 @@
             <availability>
                <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
-         <idno>duk.00263</idno></publicationStmt>
+         </publicationStmt>
          <notesStmt>
             <note type="project" target="dat1">This manuscript was likely written between <date notBefore="1850" notAfter="1855">1850 and 1855</date> when Whitman was composing his first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Draft lines on the front of the leaf appeared in the second poem in that edition, eventually titled "A Song for Occupations." The supplied last two lines on the recto, starting with "I see you and stand before you driver of horses," were added to a transcription of the manuscript that appears in <hi rend="italic">Notes and Fragments</hi>, ed. Richard Maurice Bucke (London, Ontario: A. Talbot &amp; Co., printers, 1899), 31. The lines are not currently written on the manuscript.</note>
-               <note type="work_relations" target="xxx.00119" cert="high">
-                  <p>This manuscript includes draft lines that appeared in the second poem in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, eventually titled "A Song for Occupations."</p>
-               </note>
-               <note type="work_relations" target="xxx.00526" cert="low">
-                  <p>The phrase "driver(s) of horses," a version of which appears in text added to a transcription of this manuscript in <hi rend="italic">Notes and Fragments</hi>, ed. Richard Maurice Bucke (London, Ontario: A. Talbot &amp; Co., printers, 1899), 31, also appears in the preface to the 1855 <hi rend="italic">Leaves of Grass</hi>.</p>
-               </note>
-               <note type="work_relations" target="xxx.00048" cert="low">
-                  <p>The phrase "driver(s) of horses" also appears in the first poem in the 1855 <hi rend="italic">Leaves of Grass</hi>, eventually titled "Song of Myself."</p>
-               </note>
          </notesStmt>
          <sourceDesc>
-            <bibl><author xml:id="ww">Whitman, Walt</author>
-               
+            <bibl>
+               <author>Walt Whitman</author>
                <title>I see who you are</title>
                <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
                <idno type="callno">MS 4to 8 (Volume 8)</idno>
@@ -71,20 +70,18 @@
                      <pubPlace>London, Ontario</pubPlace>
                      <publisher>A. Talbot &amp; Co. [printer]</publisher>
                      <date when="1899">1899</date>
-                     <biblScope unit="page">31</biblScope>
+                     <biblScope type="page">31</biblScope>
                   </imprint>
                </monogr>
             </biblStruct>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2022-06-03" who="#km">updated relations encoding</change>
-         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2019-11-06" who="#nhg">edited note</change>
          <change when="2018-11-01" who="#nhg">checked, corrected</change>
          <change who="#cah" when="2018-09-07">checked and corrected file</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#kmp" when="2005-04-11">Edited</change>
+         <change who="#km" when="2005-04-11">Edited</change>
          <change who="#aj" when="2005-04-11">Checked, revised</change>
          <change who="#cf" when="2004-10-11">Encoded</change>
          <change who="#cf" when="2004-10-11">Transcribed</change>
@@ -120,11 +117,11 @@ Chinese <add place="supralinear" rend="insertion">with his transverse eyes . . .
 
             <l xml:id="l06"><del rend="overstrike">I see</del> <del rend="overstrike"><subst><del rend="overwrite" seq="1">t</del><add place="over" rend="overwrite" seq="2">T</add></subst>hese</del> indoors and outdoors <add place="supralinear" rend="insertion">I see . . . . and all else <add place="supralinear" rend="insertion"><subst><del rend="overstrike" seq="1">is</del> <add place="supralinear" rend="unmarked" seq="2">is</add></subst></add> behind them or through them,</add>.—</l>
 
-            <addSpan spanTo="#a1" place="interlinear" rend="unmarked"/>
+            <add place="interlinear" rend="unmarked">
                <l xml:id="l07">I see the wife . . . . and she is not one jot less than the husband,</l>
 
                <l xml:id="l08">I see the mother . . . . and she is every bit as much as the fath</l>
-            <anchor xml:id="a1"/>
+            </add>
 
             
             <metamark function="paragraph">¶</metamark>

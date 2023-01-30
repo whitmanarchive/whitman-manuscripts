@@ -1,5 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00130">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00130">
+    <relations>
+        <work ref="xxx.00526" cert="low">
+            <p>A manuscript in which Whitman describes his views on style and composition. His comments about the importance of a lack of "ornament" in literature are similar to lines from the preface to the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>: "Of ornaments to a work nothing outre can be allowed . . but those ornaments can be allowed that conform to the perfect facts of the open air and that flow out of the nature of the work and come irrepressibly from it and are necessary to the completion of the work. Most works are most beautiful without ornament . . . " (1855, p. ix).</p>
+        </work>
+        <work ref="xxx.00419" cert="low">
+            <p>Whitman reworked some of those ideas on ornament and they appear in the poem "Says" in the 1860–1861 edition of <hi rend="italic">Leaves</hi>: "I say for ornaments nothing outre can be allowed, / And that anything is most beautiful without ornament" (1860, p. 419). The poem was later retitled "Suggestions" and was retained in <hi rend="italic">Leaves</hi> until 1872 but thereafter was excluded.</p>
+        </work>
+    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,7 +23,6 @@
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="kmp">Kenneth M. Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                    <persName xml:id="as">Ashlyn Stewart</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -28,7 +34,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                
+                <idno>duk.00130</idno>
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,20 +46,13 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            <idno>duk.00130</idno></publicationStmt>
+            </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Based on the handwriting, Edward Grier dates this manuscript to the early 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:101). The discussion about the importance of a lack of "ornament" in literature is similar to lines from the preface to the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Whitman reworked some of those ideas on ornament and they appear in the poem "Says" in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
-                    <note type="work_relations" target="xxx.00526" cert="low">
-                        <p>A manuscript in which Whitman describes his views on style and composition. His comments about the importance of a lack of "ornament" in literature are similar to lines from the preface to the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>: "Of ornaments to a work nothing outre can be allowed . . but those ornaments can be allowed that conform to the perfect facts of the open air and that flow out of the nature of the work and come irrepressibly from it and are necessary to the completion of the work. Most works are most beautiful without ornament . . . " (1855, p. ix).</p>
-                    </note>
-                    <note type="work_relations" target="xxx.00419" cert="low">
-                        <p>Whitman reworked some of those ideas on ornament and they appear in the poem "Says" in the 1860–1861 edition of <hi rend="italic">Leaves</hi>: "I say for ornaments nothing outre can be allowed, / And that anything is most beautiful without ornament" (1860, p. 419). The poem was later retitled "Suggestions" and was retained in <hi rend="italic">Leaves</hi> until 1872 but thereafter was excluded.</p>
-                    </note>
-                
+                <note type="project" target="#dat1">Based on the handwriting, Edward Grier dates this manuscript to the early 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:101). The discussion about the importance of a lack of "ornament" in literature is similar to lines from the preface to the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Whitman reworked some of those ideas on ornament and they appear in the poem "Says" in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>             
             </notesStmt>
             <sourceDesc>
-                <bibl><author xml:id="ww">Whitman, Walt</author>
-                    
+                <bibl>
+                    <author>Walt Whitman</author>
                     <title>Rules for Composition</title>
                     <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Early 1850s</date>
                     <idno type="callno">MS 4to 136</idno>
@@ -63,8 +62,6 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2022-06-03" who="#km">updated relations encoding</change>
-            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-11-01" who="#nhg">tweaked wording in work notes</change>
             <change when="2018-11-05" who="#nhg">added inline relations</change>
             <change when="2017-03-21" who="#nhg">edited work relations information</change>
@@ -90,13 +87,13 @@
             <milestone unit="glued"/>
             <p>Take no illustrations whatever from the ancients or classics, nor from the mythology, nor Egypt, Greece, or Rome—nor from the royal and aristocratic institutions and forms of Europe.—Make no mention or allusion to them whatever, except as they relate to the new, present things—to our country—to American character or interests.—Of specific mention of them, even <subst><del rend="overwrite" seq="1">in</del><add rend="overwrite" place="over" seq="2">for</add></subst> these purposes, as little as possible.—</p>
             
-            <addSpan spanTo="#a1" rend="unmarked" place="interlinear"/><p>Too much attempt at ornament is the blur upon nearly all literary styles.</p><anchor xml:id="a1"/>
+            <add rend="unmarked" place="interlinear"><p>Too much attempt at ornament is the blur upon nearly all literary styles.</p></add>
             
             <p>Clearness, simplicity, no twistified or foggy sentences, at all—the most translucid clearness without variation.—</p>
             <milestone unit="glued"/>
             <p>Common idioms and phrases—Yankeeisms and vulgarisms—cant expressions, when very pat only.—</p>
             
-            <delSpan spanTo="#d1" rend="overstrike"/><p>Mention not God at all</p><anchor xml:id="d1"/>
+            <del rend="overstrike"><p>Mention not God at all</p></del>
             
             <pb xml:id="leaf001v" facs="duk_am.00289.jpg" type="verso"/>
 

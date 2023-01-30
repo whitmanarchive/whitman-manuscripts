@@ -1,5 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00735">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00735">
+    <relations>
+        <work ref="xxx.00115" cert="high"><p>The <ref target="#q01" xml:id="r01" type="text">last two phrases</ref> of this manuscript were used in the "Poem of Joys," first published in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>: "The memory of only one look&#8212;the boy lingering and waiting" (p. 261). The poem was retitled "Poems of Joy" in the 1867 edition. In 1871, when the poem appeared in the volume <hi rend="italic">Passage to India</hi>, this line had been deleted and the original title restored. Some copies of the 1871&#8211;1872 edition of <hi rend="italic">Leaves of Grass</hi> include the sheets from that volume. In subsequent editions, the poem was retitled "A Song of Joys."</p></work>
+    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,9 +20,7 @@
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                    <persName xml:id="kmp">Kenneth M. Price</persName>
-                    <persName xml:id="as">Ashlyn Stewart</persName>
-                </respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -28,7 +31,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                
+                <idno>med.00735</idno>
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +41,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright © 2014 by Ed Folsom and Kenneth M. Price, all rights
+                    <p>Copyright &#169; 2014 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,10 +49,9 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            <idno>med.00735</idno></publicationStmt>
+            </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">The last two phrases of this manuscript appeared in "Poem of Joys" in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>. Because the manuscript has not been located it is difficult to speculate on the circumstances or date of its composition, but it was probably written between 1850 and 1860.</note>
-                    <note type="work_relations" target="xxx.00115" cert="high"><p>The <ref target="#q01" xml:id="r01" type="text">last two phrases</ref> of this manuscript were used in the "Poem of Joys," first published in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>: "The memory of only one look—the boy lingering and waiting" (p. 261). The poem was retitled "Poems of Joy" in the 1867 edition. In 1871, when the poem appeared in the volume <hi rend="italic">Passage to India</hi>, this line had been deleted and the original title restored. Some copies of the 1871–1872 edition of <hi rend="italic">Leaves of Grass</hi> include the sheets from that volume. In subsequent editions, the poem was retitled "A Song of Joys."</p></note>
+                <note type="project" target="#dat1">The last two phrases of this manuscript appeared in "Poem of Joys" in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>. Because the manuscript has not been located it is difficult to speculate on the circumstances or date of its composition, but it was probably written between 1850 and 1860.</note>             
             </notesStmt>
             <sourceDesc>
                 <biblStruct>
@@ -61,21 +63,21 @@
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
                             <date when="1984">1984</date>
-                            <biblScope unit="page">1322</biblScope>
-                            <biblScope unit="volume">4</biblScope>
+                            <biblScope type="page">1322</biblScope>
+                            <biblScope type="volume">4</biblScope>
                         </imprint>
                     </monogr>
                     <note type="project">Grier based his text on <hi rend="italic">Notes and Fragments</hi>, ed. Richard Maurice Bucke (London, Ontario: A. Talbot &amp; Co., printers, 1899), 142.</note>
                 </biblStruct>
-                <bibl><author xml:id="ww">Whitman, Walt</author>
-                    
+                <bibl>
+                    <author>Walt Whitman</author>
                     <title rend="bracketed">Poem of the Universalities</title>  
                     <date xml:id="dat1" notBefore="1850" notAfter="1860" cert="medium">Between 1850 and 1860</date>
                     <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+        <revisionDesc>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-12-07" who="#bb">reconciled with EAD record</change>
             <change when="2016-07-14" who="#nhg">checked, corrected</change>
@@ -87,9 +89,9 @@
 
     <text type="manuscript">
         <body>
-            <p>Poem of the Universalities. Poem of the Universal likenesses of all men—humanity. Though the times, climes, differ, men do not so much differ. There <hi rend="italic">is</hi> a universal language. What is heroic is universal among men. Love is universal among <unclear reason="bracketed" cert="low" resp="#nhg">men</unclear>. Liberty is—justice is—the hatred of meanness is—etc.</p>
+            <p>Poem of the Universalities. Poem of the Universal likenesses of all men&#8212;humanity. Though the times, climes, differ, men do not so much differ. There <hi rend="italic">is</hi> a universal language. What is heroic is universal among men. Love is universal among <unclear reason="bracketed" cert="low" resp="#nhg">men</unclear>. Liberty is&#8212;justice is&#8212;the hatred of meanness is&#8212;etc.</p>
             
-            <p>Poem of the Longings of Friendship. Pictures of Friendship—the hankering for friends—<seg xml:id="q01">the memory of only a look—the boy lingering and waiting.</seg></p>
+            <p>Poem of the Longings of Friendship. Pictures of Friendship&#8212;the hankering for friends&#8212;<seg xml:id="q01">the memory of only a look&#8212;the boy lingering and waiting.</seg></p>
         </body>
     </text>
 </TEI>

@@ -1,6 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00068">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+ 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00068">
+    <relations>
+        <work ref="xxx.00347" cert="high">
+            <p>"Old Salt Kossabone" was first published in the New York <hi rend="italic">Herald</hi> on
+                <date when="1888-02-25">February 25, 1888</date>.</p>
+        </work>
+    </relations>
+    <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title level="m" type="main">Old Salt Kossabone</title>
@@ -18,8 +25,6 @@
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
                     <persName xml:id="ag">Amanda Gailey</persName>
-                    <persName xml:id="as">Ashlyn Stewart</persName>
-                    <persName xml:id="km">Kevin McMullen</persName>
                 </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -33,7 +38,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                
+                <idno>loc.00068</idno>
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -46,23 +51,19 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
                 </availability>
-            <idno>loc.00068</idno></publicationStmt>
+            </publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">This manuscript was probably composed in <date notBefore="1887" notAfter="1888">late 1887 or early 1888</date>. "Old Salt Kossabone" was first published in the New York <hi rend="italic">Herald</hi> on
                     <date when="1888-02-25">February 25, 1888</date>.</note>
-                    <note type="work_relations" target="xxx.00347" cert="high">
-                        <p>"Old Salt Kossabone" was first published in the New York <hi rend="italic">Herald</hi> on
-                            <date when="1888-02-25">February 25, 1888</date>.</p>
-                    </note>
             </notesStmt>
             
             <sourceDesc>
-                <bibl><author xml:id="ww">Whitman, Walt</author>
-                    
+                <bibl>
+                    <author>Walt Whitman</author>
                     <date xml:id="dat1" cert="high" notBefore="1887" notAfter="1888-02-25">Late 1887 or early
                         1888</date>
                     <title>Old Salt Kossabone</title>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
             </sourceDesc>
@@ -73,8 +74,6 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
-            <change when="2022-06-06" who="#km">updated relations encoding</change>
-            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-09-08" who="#nhg">proofed</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
             <change when="2006-08-02" who="#nk">Added third digit to leaf numbers</change>
@@ -98,7 +97,7 @@
                 <l>Far back, related on my mother's side,</l>
                 <l>Old Salt Kossabone, I'll tell you how he died;</l>
                 <l>
-                    (Had been a sailor all his life—was nearly 90—
+                    (Had been a sailor all his life&#8212;was nearly 90&#8212;
                     <lb/>lived with his married grandchild Jenny,
                 </l>
                 <l>House on a hill with view of bay at hand, and
@@ -107,18 +106,18 @@
                 <l>The last of afternoons, the evening hours, for many
                     <lb/>a year his regular custom,
                 </l>
-                <l>In his great <add place="supralinear" rend="insertion">arm‑</add>chair by the <del rend="overstrike">front</del> window
+                <l>In his great <add place="supralinear" rend="insertion">arm&#8209;</add>chair by the <del rend="overstrike">front</del> window
                         seated,
                     <lb/>(sometimes indeed through half the day,)
                 </l>
                 <l>Watching the coming, going of the vessels, he
                     <lb/>
 <add place="supralinear" rend="insertion">mutters</add> to
-                        himself—And now the close of all:
+                        himself&#8212;And now the close of all:
                 </l>
-                <l>One struggling <add place="supralinear" rend="insertion">out‑bound</add> brig one day baffled for
-                        long—
-                    <lb/>cross-tides and much wrong‑going.
+                <l>One struggling <add place="supralinear" rend="insertion">out&#8209;bound</add> brig one day baffled for
+                        long&#8212;
+                    <lb/>cross-tides and much wrong&#8209;going.
                 </l>
                 <l>At last at night-fall strikes the breeze aright,
                     <lb/>her whole luck veering,
@@ -137,17 +136,17 @@
                                                     </subst> the cape, the darkness
                     <lb/>proudly entering, cleaving, as he watches,
                 </l>
-                <l>"She's free—she's on her <subst>
+                <l>"She's free&#8212;she's on her <subst>
                             
                                 <del rend="overstrike" seq="1">course</del>
                                                         
-                                <add place="supralinear" rend="unmarked" seq="2">destination</add></subst>"—these <subst>
+                                <add place="supralinear" rend="unmarked" seq="2">destination</add></subst>"&#8212;these <subst>
                             
                                 <del rend="overstrike" seq="1">his</del>
                                                         
                                 <add place="supralinear" rend="unmarked" seq="2">the</add>
                                                     </subst> last
-                    <lb/>words—when Jenny came, he sat there dead;
+                    <lb/>words&#8212;when Jenny came, he sat there dead;
                 </l>
                 <l>Dutch Kossabone, Old Salt, related on my
                     <lb/>mother's side, far back.
@@ -157,7 +156,7 @@
                 </closer>
             </lg>
             <pb facs="loc.00068.002.jpg" xml:id="leaf001v" type="verso"/>
-            <note type="editorial" resp="#h1" place="bottom">Walt Whitman's Autograph &amp; written lines by him: given me by W. W.—in America in 18[88] —<hi rend="underline">Ellen Terry</hi></note>
+            <note type="editorial" resp="#h1" place="bottom">Walt Whitman's Autograph &amp; written lines by him: given me by W. W.&#8212;in America in 18[88] &#8212;<hi rend="underline">Ellen Terry</hi></note>
         </body>
     </text>
 </TEI>

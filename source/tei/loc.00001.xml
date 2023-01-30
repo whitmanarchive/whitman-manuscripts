@@ -1,25 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00001">
+<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+ 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00001">
+    <relations>
+        <work ref="xxx.00565" cert="high"><p>This is a draft of the poem "After the Argument," first published in <hi rend="italic">Lippincott's
+            Magazine</hi> in <date when="1891-03">March, 1891</date>.</p></work>
+    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">After the Argument</title>
+                <title level="m" type="main">After the argument</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Ken Price</editor>
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="nhg">Nicole Gray</persName>
-                    <persName xml:id="aj">Andrew Jewell</persName>
-                    <persName xml:id="kmp">Kenneth M. Price</persName>
-                    <persName xml:id="bb">Brett Barney</persName>
-                    <persName xml:id="zb">Zach Bajaber</persName>
-                    <persName xml:id="nk">Nick Krauter</persName>
-                    <persName xml:id="ms">Melissa Sinner</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName><persName xml:id="aj">Andrew Jewell</persName><persName xml:id="kmp">Kenneth M. Price</persName><persName xml:id="bb">Brett Barney</persName><persName xml:id="zb">Zach Bajaber</persName><persName xml:id="nk">Nick Krauter</persName><persName xml:id="ms">Melissa Sinner</persName>
                     <persName xml:id="jsc">Justin St. Clair</persName>
-                    <persName xml:id="as">Ashlyn Stewart</persName>
-                    <persName xml:id="km">Kevin McMullen</persName>
+                    
                 </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -33,7 +31,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                
+                <idno>loc.00001</idno>
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -46,21 +44,18 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
                 </availability>
-            <idno>loc.00001</idno></publicationStmt>
+            </publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">"After the Argument" was published first in <hi rend="italic">Lippincott's
                     Magazine</hi>, <date when="1891-03">March, 1891</date>. This manuscript was likely written in <date notBefore="1890" notAfter="1891">1890 or early 1891</date>, shortly before the poem's
                     publication.</note>
-                    <note type="work_relations" target="xxx.00565" cert="high"><p>This is a draft of the poem "After the Argument," first published in <hi rend="italic">Lippincott's
-                        Magazine</hi> in <date when="1891-03">March, 1891</date>.</p></note>
-                
             </notesStmt>
             <sourceDesc>
-                <bibl><author xml:id="ww">Whitman, Walt</author>
-                    
+                <bibl>
+                    <author>Walt Whitman</author>
                     <title>After the Argument</title>
                     <date xml:id="dat1" cert="high" notBefore="1890" notAfter="1891-03">1890 or 1891</date>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
                     
                     <note type="project">Transcribed from <hi rend="italic">The Walt Whitman Archive I: Whitman Manuscripts at the Library of Congress</hi>, ed. Joel Myerson (New York: Garland, 1993), 1:121; 
                         <hi rend="italic">Major American Authors on CD-Rom: Walt Whitman</hi> (Westport, CT:
@@ -69,8 +64,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2022-06-06" who="#km">updated relations encoding</change>
-            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+            <change when="2018-11-01" who="#nhg">edited title</change>
             <change when="2015-05-07" who="#nhg">corrected</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
             <change when="2006-08-02" who="#nk">Added third digit to leaf numbers</change>

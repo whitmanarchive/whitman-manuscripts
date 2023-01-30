@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00698">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00698">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,7 +18,6 @@
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="kmp">Kenneth M. Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                    <persName xml:id="as">Ashlyn Stewart</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -28,7 +29,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                
+                <idno>duk.00698</idno>
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,23 +41,23 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            <idno>duk.00698</idno></publicationStmt>
+            </publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">Edward Grier tentatively dates the handwriting of this manuscript to the 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:16). The notes are similar to many of Whitman's other jottings about family in the 1850s and 1860s. At the repository this manuscript is bound with three other manuscript leaves and two newspaper clippings, also about members of Whitman's family. It is not clear whether Whitman or a collector bound the items, which are on different sizes and types of paper and appear to have been written at different times.</note>             
             </notesStmt>
             <sourceDesc>
-                <bibl><author xml:id="ww">Whitman, Walt</author>
-                    
-                    <title rend="bracketed">Isaac Joseph Stephen Jesse (my grandfather)...</title>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Hannah Brush, (my grandmother Whitman) had only one brother</title>
                     <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1880">Between 1850 and 1870</date>
-                    <idno type="callno">MS 120</idno>
+                    <idno type="callno">MS 120 (Volume 120)</idno>
                     <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+            <change when="2018-11-01" who="#nhg">edited idno and title in bibl</change>
             <change when="2018-09-10" who="#nhg">updated image name</change>
             <change when="2017-03-30" who="#nhg">revised date and date note</change>
             <change when="2017-01-25" who="#bb">revised date and date note</change>
@@ -73,11 +74,11 @@
         <body>
             <pb xml:id="leaf001r" facs="duk_nhg.00881_large.jpg" type="recto"/>
             
-            <ab>Hannah Brush, (my grandmother Whitman) had only one brother, who died a young man—(the grave-stones from his grave were among those I saw at the back door)</ab>
+            <ab>Hannah Brush, (my grandmother Whitman) had only one brother, who died a young man&#8212;(the grave-stones from his grave were among those I saw at the back door)</ab>
             
             <milestone unit="undeclared" rend="horbar-short-left"/>
             
-            <ab>And only one sister who married—Scudder, father of <add rend="insertion" place="interlinear">old</add> Tredwell <del rend="overstrike"><add rend="unmarked" place="supralinear">Walter W</add></del> Scudder, (on the South Side,) <add rend="insertion" place="supralinear">who was</add> father of Tredwell, <del rend="overstrike">Wilmot</del>, Walter, <del rend="overstrike">Scudder, &amp;c.</del> Richard, Wilmot, Hannah &amp; Julia Scudder.</ab>
+            <ab>And only one sister who married&#8212;Scudder, father of <add rend="insertion" place="interlinear">old</add> Tredwell <del rend="overstrike"><add rend="unmarked" place="supralinear">Walter W</add></del> Scudder, (on the South Side,) <add rend="insertion" place="supralinear">who was</add> father of Tredwell, <del rend="overstrike">Wilmot</del>, Walter, <del rend="overstrike">Scudder, &amp;c.</del> Richard, Wilmot, Hannah &amp; Julia Scudder.</ab>
             
             <pb xml:id="leaf001v" facs="duk_am.00143.jpg" type="verso"/>
         </body>

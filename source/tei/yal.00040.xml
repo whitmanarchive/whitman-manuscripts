@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00040">
+<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+ 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="yal.00040">
+    <relations>
+        <work ref="xxx.00332" cert="high">
+            <p>"Had I the Choice" was first published in the "Fancies at Navesink" sequence in the
+                    <date when="1885-08">August 1885</date> issue of <hi rend="italic">Nineteenth
+                    Century</hi>.</p>
+        </work>
+    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -19,7 +28,7 @@
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+                </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -32,7 +41,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                
+                <idno>yal.00040</idno>
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -45,20 +54,15 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            <idno>yal.00040</idno></publicationStmt>
+            </publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">"Had I the Choice" was first published in the "Fancies at Navesink" sequence in the
                     <date when="1885-08">August 1885</date> issue of <hi rend="italic">Nineteenth
                         Century</hi>. This manuscript was likely written in <date when="1885">1885</date>, shortly before the poem's publication.</note>
-                <note type="work_relations" target="xxx.00332" cert="high">
-            <p>"Had I the Choice" was first published in the "Fancies at Navesink" sequence in the
-                    <date when="1885-08">August 1885</date> issue of <hi rend="italic">Nineteenth
-                    Century</hi>.</p>
-        </note>
             </notesStmt>
             <sourceDesc>
-                <bibl><author xml:id="ww">Whitman, Walt</author>
-                    
+                <bibl>
+                    <author>Walt Whitman</author>
                     <title>Had I the Choice</title>
                     <date xml:id="dat1" cert="high" notBefore="1885-01" notAfter="1885-08">About 1885</date>
                     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and
@@ -73,8 +77,6 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
-            <change when="2022-06-03" who="#bb">updated relations encoding</change>
-            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-07-26" who="#nhg">proofed, added verso</change>
             <change when="2016-01-13" who="#bb">updated list of staff in titleStmt; corrected miscellaneous attribute errors</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
@@ -93,7 +95,7 @@
             <pb facs="yal.00040.001.jpg" xml:id="leaf001r" type="recto"/>
                 <note type="authorial" place="top" rend="circled">last revise</note>
 
-                    <delSpan spanTo="#d1" rend="overstrike"/><l>To limn the stately and the<lb/> beautiful—to emulate <add place="supralinear" rend="unmarked">at</add> will</l><anchor xml:id="d1"/>
+                    <del rend="overstrike"><l>To limn the stately and the<lb/> beautiful&#8212;to emulate <add place="supralinear" rend="unmarked">at</add> will</l></del>
                         <note type="archival" resp="#h1" place="left">6</note>
                 
                 <lg type="poem">
@@ -105,7 +107,7 @@
                                                                 
                                     <add place="supralinear" rend="unmarked" seq="2">their portraits</add>
                                                             </subst> stately,
-                                <del rend="overstrike">and the</del> beautiful—<add place="supralinear" rend="insertion">—the power</add>
+                                <del rend="overstrike">and the</del> beautiful&#8212;<add place="supralinear" rend="insertion">&#8212;the power</add>
                             to
                         <lb/>emulate at will
                     </l>
@@ -115,14 +117,14 @@
                         <l>Homer with all his wars and <del rend="overstrike">loftiest</del>
 
                             <note type="archival" resp="#h1" place="left">6</note>
-                            <lb/>warriors—Hector, Achilles, Ajax,
+                            <lb/>warriors&#8212;Hector, Achilles, Ajax,
                         </l>
                         <l>Or <choice>
 <orig>Shakspere's</orig>
 <reg>Shakespeare's</reg>
-</choice> woe‐<subst><del rend="overstrike" seq="1">envelop'd</del> <add place="supralinear" rend="unmarked" seq="2">entangled</add>
+</choice> woe&#8208;<subst><del rend="overstrike" seq="1">envelop'd</del> <add place="supralinear" rend="unmarked" seq="2">entangled</add>
                                                                     </subst>Hamlet,
-                            <lb/>Lear, Othello—Tennyson's fair
+                            <lb/>Lear, Othello&#8212;Tennyson's fair
                             <lb/>ladies;
                         </l>
                         <l>Metre, or wit the best, or choice <choice>

@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00148">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00148">
+    <relations><work ref="xxx.00119" cert="low">
+        <p>These notes about sculpture have some similarity to the following line, in the 1855 poem eventually titled "A Song for Occupations": "All sculpture and monuments and anything inscribed anywhere are tallied in you" (p. 60).</p>
+    </work></relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,7 +18,6 @@
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="kmp">Kenneth M. Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                    <persName xml:id="as">Ashlyn Stewart</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -28,7 +29,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                
+                <idno>duk.00148</idno>
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,17 +41,14 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            <idno>duk.00148</idno></publicationStmt>
+            </publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">Edward Grier notes that the "writing seems to be that of the early notebooks; thus the date might be in the 1850s" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 6:2033).</note>
-                <note type="work_relations" target="xxx.00119" cert="low">
-                    <p>These notes about sculpture have some similarity to the following line, in the 1855 poem eventually titled "A Song for Occupations": "All sculpture and monuments and anything inscribed anywhere are tallied in you" (p. 60).</p>
-                </note>
             </notesStmt>
             <sourceDesc>
                 
-                <bibl><author xml:id="ww">Whitman, Walt</author>
-                    
+                <bibl>
+                    <author>Walt Whitman</author>
                     <title>Sculpture</title>
                     <date xml:id="dat1" cert="low" notBefore="1850" notAfter="1860">1850s</date>
                     <idno type="callno">MS 48</idno>
@@ -60,8 +58,6 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2022-06-03" who="#km">updated relations encoding</change>
-            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2018-11-05" who="#nhg">added inline relations</change>
             <change when="2018-09-10" who="#nhg">updated image name</change>
             <change when="2017-02-01" who="#bb">reconciled with EAD record</change>

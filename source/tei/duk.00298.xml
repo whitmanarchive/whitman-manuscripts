@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00298">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00298">
+	<relations>
+		<work ref="xxx.00048" cert="low">
+			<p>This manuscript may have contributed to the following line in the first poem of the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, eventually titled "Song of Myself": "The clock indicates the moment . . . . but what does eternity indicate?" (1855, p. 49)  The last few lines of the manuscript include ideas and phrases similar to those found in the poem that was eventually titled "Song of Myself." The manuscript's likening of "God" or "the soul" to an "Elder Brother" is reminiscent of lines from the poem that read "And I know that the hand of God is the elderhand of my own, / And I know that the spirit of God is the eldest brother of my own" (1855, pp. 15–16).</p>
+		</work>
+	</relations>
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -17,8 +21,7 @@
 					<persName xml:id="nhg">Nicole Gray</persName>
 				    <persName xml:id="kmp">Kenneth M. Price</persName>
 				    <persName xml:id="bb">Brett Barney</persName>
-                	<persName xml:id="as">Ashlyn Stewart</persName>
-				</respStmt>
+                </respStmt>
 				<sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
 				<sponsor>University of Iowa</sponsor>
 				<funder>The National Endowment for the Humanities</funder>
@@ -29,7 +32,7 @@
 				</edition>
 			</editionStmt>
 			<publicationStmt>
-				
+				<idno>duk.00298</idno>
 				<distributor>The Walt Whitman Archive</distributor>
 				<address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,17 +44,14 @@
 				<availability>
 					<p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
 				</availability>
-			<idno>duk.00298</idno></publicationStmt>
+			</publicationStmt>
 			<notesStmt>
-				<note type="project" target="#dat1">Whitman likely drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript may relate to the following line in the first poem of that edition, eventually titled "Song of Myself": "The clock indicates the moment . . . . but what does eternity indicate?" (49). The last few lines of the manuscript include ideas and phrases similar to another passage of the same poem. The manuscript's likening of "God" or "the soul" to an "Elder Brother" is reminescent of lines "And I know that the hand of God is the elderhand of my own, / And I know that the spirit of God is the eldest brother of my own" (15—16). In his transcription of this manuscript, Richard Maurice Bucke included another paragraph at the beginning (<hi rend="italic">Notes and Fragments</hi> [London, Ontario: A. Talbot &amp; Co., printers, 1899], 203). See "<ref target="med.00903.html">I tell you greedy smoucher</ref>." This paragraph has not been located. Bucke's transcription also does not include the final sentence of this manuscript.</note>
-					<note type="work_relations" target="xxx.00048" cert="low">
-						<p>This manuscript may have contributed to the following line in the first poem of the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, eventually titled "Song of Myself": "The clock indicates the moment . . . . but what does eternity indicate?" (1855, p. 49)  The last few lines of the manuscript include ideas and phrases similar to those found in the poem that was eventually titled "Song of Myself." The manuscript's likening of "God" or "the soul" to an "Elder Brother" is reminiscent of lines from the poem that read "And I know that the hand of God is the elderhand of my own, / And I know that the spirit of God is the eldest brother of my own" (1855, pp. 15–16).</p>
-					</note>
+				<note type="project" target="#dat1">Whitman likely drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript may relate to the following line in the first poem of that edition, eventually titled "Song of Myself": "The clock indicates the moment . . . . but what does eternity indicate?" (49). The last few lines of the manuscript include ideas and phrases similar to another passage of the same poem. The manuscript's likening of "God" or "the soul" to an "Elder Brother" is reminescent of lines "And I know that the hand of God is the elderhand of my own, / And I know that the spirit of God is the eldest brother of my own" (15—16). In his transcription of this manuscript, Richard Maurice Bucke included another paragraph at the beginning (<hi rend="italic">Notes and Fragments</hi> [London, Ontario: A. Talbot &amp; Co., printers, 1899], 203). See "<ref target="med.00903.html">I tell you greedy smoucher</ref>." This paragraph has not been located. Bucke's transcription also does not include the final sentence of this manuscript.</note>       
 			</notesStmt>
 			<sourceDesc>
 				
-				<bibl><author xml:id="ww">Whitman, Walt</author>
-					
+				<bibl>
+					<author>Walt Whitman</author>
 					<title rend="bracketed">Preliminary Studies for Poems</title>
 					<date xml:id="dat" cert="medium" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
 					<idno type="callno">MS q 32 (Volume 32)</idno>
@@ -61,8 +61,6 @@
 			</sourceDesc>
 		</fileDesc>
 		<revisionDesc>
-			<change when="2022-06-03" who="#km">updated relations encoding</change>
-			<change when="2022-04-14" who="#as">regularized name for infrastructure</change>
 			<change when="2018-11-01" who="#nhg">added corresps</change>
 			<change when="2018-09-10" who="#nhg">updated image name</change>
 			<change when="2017-03-21" who="#nhg">edited editorial note</change>

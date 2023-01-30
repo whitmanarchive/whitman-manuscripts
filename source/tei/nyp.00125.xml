@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00125">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00125">
       <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -13,7 +13,6 @@
                <persName xml:id="smb">Stephanie Blalock</persName>
                <persName xml:id="cah">Caitlin Henry</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
-               <persName xml:id="as">Ashlyn Stewart</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -25,7 +24,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            
+            <idno>nyp.00125</idno>
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,14 +36,14 @@
             <availability>
                <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
-         <idno>nyp.00125</idno></publicationStmt>
+         </publicationStmt>
          <notesStmt>                       
             <note type="project" target="dat1">Based on the paper and ink, which are similar to those used in other early manuscripts, Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>.</note>
                        
          </notesStmt>
          <sourceDesc>
-            <bibl><author xml:id="ww">Whitman, Walt</author>
-               
+            <bibl>
+               <author>Walt Whitman</author>
                <title>I admire a beautiful woman</title>
                <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
                <idno type="callno">b19877231</idno> <!-- Universal Unique Identifier (UUID): 59dbf160-c5d9-012f-f298-58d385a7bc34 -->
@@ -58,7 +57,6 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2019-08-20">checked, corrected</change>
          <change who="#smb" when="2019-07-11">checked encoding and notes</change>
          <change who="#nhg" when="2019-06-14">edited note, added relatedItem note</change>
@@ -71,9 +69,9 @@
          
          <l><del rend="overstrike">I am ready</del> <del rend="overstrike"><add rend="unmarked" place="supralinear">Poet! go</add> <del rend="overstrike">to</del> <del rend="overstrike">swear</del> <del rend="overstrike">I will</del> never <add rend="insertion" place="supralinear">to</add> write another word,</del></l>
          
-         <delSpan spanTo="#d1" rend="overstrike"/><l>Act</l><anchor xml:id="d1"/>
+         <del rend="overstrike"><l>Act</l></del>
          
-         <delSpan spanTo="#d2" rend="overstrike"/><l>I do not</l><anchor xml:id="d2"/>
+         <del rend="overstrike"><l>I do not</l></del>
          
          <l>I admire a beautiful woman . . . . I am easy about <del rend="overstrike">him<lb/> who</del> paints her portrait,</l>
          

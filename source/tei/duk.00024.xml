@@ -1,5 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00024">
+<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+ 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00024">
+    <relations>
+        <work ref="xxx.00607">
+            <p>This poem was never published in Whitman's lifetime, though he worked on it through
+                several different draft forms.</p>
+        </work>
+    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -17,8 +24,6 @@
                     <persName xml:id="nk">Nick Krauter</persName>
                     <persName xml:id="sp">Stacey Provan</persName>
                     <persName xml:id="zb">Zach Bajaber</persName>
-                    <persName xml:id="as">Ashlyn Stewart</persName>
-                    <persName xml:id="km">Kevin McMullen</persName>
                 </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -32,7 +37,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                
+                <idno>duk.00024</idno>
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -45,7 +50,7 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            <idno>duk.00024</idno></publicationStmt>
+            </publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">This poem was never published in Whitman's lifetime, though he worked on it through
                     several different draft forms. Sculley Bradley and Harold Blodgett believe (with
@@ -54,14 +59,10 @@
                     Comprehensive Reader's Edition (New York: New York University Press, 1965), 673. Another possibility is that the poem was
                     composed when Whitman was drafting the cluster "Marches now the War is Over" in
                         <date when="1871">1871</date>.</note>
-                    <note type="work_relations" target="xxx.00607">
-                        <p>This poem was never published in Whitman's lifetime, though he worked on it through
-                            several different draft forms.</p>
-                    </note>
             </notesStmt>
             <sourceDesc>
-                <bibl><author xml:id="ww">Whitman, Walt</author>
-                    
+                <bibl>
+                    <author>Walt Whitman</author>
                     <title>Hands Ro[und]</title>
                     <date xml:id="dat1" notBefore="1865" notAfter="1881" cert="low">Between 1865 and 1881</date>
                     <idno type="callno">MS quarto 24</idno>
@@ -78,15 +79,13 @@
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
                             <date when="1965">1965</date>
-                            <biblScope unit="page">673</biblScope>
+                            <biblScope type="page">673</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2022-06-02" who="#km">updated relations encoding</change>
-            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2018-09-10" who="#nhg">updated image name</change>
             <change when="2016-07-26" who="#nhg">proofed, added verso and biblStruct information</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
@@ -110,7 +109,8 @@
                         
                             <del rend="overstrike" seq="1"><hi rend="underline">Starry <unclear reason="torn away" resp="#aj" cert="medium">Uni</unclear>on</hi></del>
                                                 
-                            <add rend="unmarked" place="infralinear" seq="2">Hands Ro<supplied reason="torn away" source="#cre">und</supplied>
+                            <add rend="unmarked" place="infralinear" seq="2">Hands Ro<supplied reason="torn away"
+                                source="#cre">und</supplied>
 </add>
                                             </subst>
                 </head>
@@ -125,7 +125,9 @@
                                 <add place="supralinear" rend="unmarked" seq="2">see</add></subst>! 
                             
 <del rend="overstrike" seq="1">how</del>
-                                <add place="supralinear" rend="unmarked">all</add> the <add place="supralinear" rend="insertion">bright</add> stars<del rend="overstrike">, they</del>
+                                <add place="supralinear" rend="unmarked">all</add> the <add
+                                    place="supralinear" rend="insertion">bright</add> stars<del
+                                        rend="overstrike">, they</del>
                                 <del rend="overstrike">are</del>
                                 <del rend="overstrike">
                                     <add place="supralinear" rend="unmarked">a-</add>
@@ -148,12 +150,12 @@
                                                         
                                 <add place="supralinear" rend="unmarked" seq="2">charm</add>
                                                     </subst> of power unbroken?</l>
-                    <addSpan spanTo="#a1" place="interlinear" rend="unmarked"/>
+                    <add place="interlinear" rend="unmarked">
                         <l>
 <del rend="overstrike">O</del> what <del rend="overstrike">
 <note type="authorial" place="inline">?</note> Columbia's</del>
 </l>
-                    <anchor xml:id="a1"/>
+                    </add>
                     <l>What the <subst>
                             
                                 <del rend="overstrike" seq="1">Charm</del>
@@ -186,7 +188,7 @@
                                     Union of all</add>
                                                     </subst>
                     </l>
-                    <delSpan spanTo="#d1" rend="overstrike"/>
+                    <del rend="overstrike">
                         <l>O its all <subst>
                                 
                                     <del rend="overstrike" seq="1">for</del>
@@ -199,7 +201,7 @@
                                                                 
                                     <add place="supralinear" rend="unmarked" seq="2">in</add>
                                                             </subst> all</l>
-                    <anchor xml:id="d1"/>
+                    </del>
                     <l>What Columbia's <note type="authorial" place="supralinear">?</note> <seg xml:id="alt1">mystic</seg>                          
                                 <add place="supralinear" rend="unmarked" xml:id="alt2">
                                     
@@ -208,12 +210,12 @@
                                     </del>
                                     <add place="over" rend="overwrite">friendliest</add>
                                 </add>
-                                                    <alt target="#alt1 #alt2" weights="0.5 0.5"/> token‑</l>
+                                                    <alt target="#alt1 #alt2" weights="0.5 0.5"/> token&#8209;</l>
                     <l>'Ti<subst><del rend="overwrite" seq="1">l</del><add place="over" rend="overwrite" seq="2">s</add>
                                                     </subst> the hands we take for the Union <add place="infralinear" rend="unmarked">of all</add>
 </l>
                     <l>Her<subst><del rend="overwrite" seq="1">s</del><add place="over" rend="overwrite" seq="2">e's</add>
-                                                    </subst> mine—give me thine—for the Union <add place="infralinear" rend="unmarked">of all</add>
+                                                    </subst> mine&#8212;give me thine&#8212;for the Union <add place="infralinear" rend="unmarked">of all</add>
 </l>
                     <l>What Columbia's friendliest token?</l>
                     <l>
@@ -223,7 +225,7 @@
                                                         
                                 <add place="supralinear" rend="unmarked" seq="2">All hands round</add>
                                                     </subst> for the Union all!</l>
-                    <l>Here's mine—give me thine—for the Union all</l>
+                    <l>Here's mine&#8212;give me thine&#8212;for the Union all</l>
                 </lg>
                 <lg type="linegroup">
                     <l>Stars <subst>
@@ -243,9 +245,9 @@
 </choice>
 </l>
                     <l>Clasping, holding, earthward, heavenward</l>
-                    <delSpan spanTo="#d3" rend="overstrike"/>
+                    <del rend="overstrike">
                         <l>Onward, on,</l>
-                    <anchor xml:id="d3"/>
+                    </del>
                     <l>Circling, <subst>
                             
                                 <del rend="overstrike" seq="1">circling,</del>
@@ -259,7 +261,7 @@
                                                         
                                 <add rend="unmarked" place="supralinear" seq="2">All hands round</add>
                                                     </subst> for the Union all</l>
-                    <l>Here's mine—give me thine—for the Union all</l>
+                    <l>Here's mine&#8212;give me thine&#8212;for the Union all</l>
                 </lg>
                 <pb facs="duk_am.00246_large.jpg" xml:id="leaf001v" type="verso"/>
                 <pb facs="duk_nhg.00731.jpg" xml:id="leaf002r" type="recto"/>
@@ -288,22 +290,22 @@
                                                     </subst> folding, loving,</l>
                     <l>
 <del rend="overstrike">E</del> Northward, Southward, Westward moving</l>
-                    <addSpan spanTo="a2" rend="unmarked" place="interlinear"/>
+                    <add rend="unmarked" place="interlinear">
                         <l>O its all hands round for the</l>
-                    <anchor xml:id="a2"/>
+                    </add>
                     <l>
 <del rend="overstrike">Union all!</del> O its Union all</l>
-                    <addSpan spanTo="#a3" place="interlinear" rend="unmarked"/>
-                        <l>Here's mine—give me thine—for the Union all</l>
-                    <anchor xml:id="a3"/>
-                    <delSpan spanTo="#d2" rend="overstrike"/>
+                    <add place="interlinear" rend="unmarked">
+                        <l>Here's mine&#8212;give me thine&#8212;for the Union all</l>
+                    </add>
+                    <del rend="overstrike">
                         <l>O its all <add rend="insertion" place="supralinear">for</add>
-                            each—and each for <choice>
+                            each&#8212;and each for <choice>
 <sic>al</sic>
 <corr>all</corr>
 </choice>
 </l>
-                    <anchor xml:id="d2"/>
+                    </del>
                     <milestone unit="glued"/>
                     <l>
 <subst>
@@ -367,7 +369,7 @@
 <choice>
 <orig>hand</orig>
 <reg>hands</reg>
-</choice> round</add></subst>—and each for all!</l>
+</choice> round</add></subst>&#8212;and each for all!</l>
 
                         <l><del rend="overstrike">Ever orbs</del> <space dim="horizontal"/> <del rend="overstrike">in</del></l>
                     

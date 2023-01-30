@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00257">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00257">
+<relations>
+    <work ref="xxx.00264" cert="high">
+        <p>Lines from this manuscript appeared in revised form in the fourth poem in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, eventually titled "The Sleepers": "Now Lucifer was not dead . . . . or if he was I am his sorrowful terrible heir; / I have been wronged . . . . I am oppressed . . . . I hate him that oppresses me, / I will either destroy him, or he shall release me. / Damn him! how he does defile me, / How he informs against my brother and sister and takes pay for their blood, / How he laughs when I look down the bend after the steamboat that carries away my woman" (1855, p. 74).</p>
+    </work>
+</relations>
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -16,8 +21,6 @@
     <persName xml:id="li">Leslie Ianno</persName>
     <persName xml:id="nhg">Nicole Gray</persName>
     <persName xml:id="kmp">Kenneth M. Price</persName>
-    <persName xml:id="as">Ashlyn Stewart</persName>
-    <persName xml:id="bb">Brett Barney</persName>
 </respStmt>
 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
 <sponsor>University of Iowa</sponsor>
@@ -28,7 +31,7 @@
 <edition><date>2003</date></edition>
 </editionStmt><publicationStmt>
 
-
+<idno>uva.00257</idno>
 
 <distributor>The Walt Whitman Archive</distributor>
     <address><addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,17 +44,14 @@
     <p>The text encoding was created and/or prepared by the <title level="m">Walt Whitman Archive</title> and is licensed under a <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0).</p>
     <p>Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
 </availability>
-<idno>uva.00257</idno></publicationStmt>
+</publicationStmt>
     <notesStmt>
         <note type="project" target="dat1">Whitman probably drafted this
             manuscript in the early 1850s as he was preparing materials for the first (<date notBefore="1850" notAfter="1855">1855</date>) edition of <hi rend="italic">Leaves of Grass</hi>. It is a draft of lines that appeared in the fourth poem in that edition, eventually titled "The Sleepers." The word "Sleepchaser's" appears in the upper right corner, perhaps indicating that Whitman was considering a title similar to the 1860 and 1867 title "Sleep-Chasings" even before the poem was first published in 1855, unless this is in fact a reworking of the section for the 1860 edition. The possibility of a post-1855 dating, however, appears to be slight given the similarities of paper choice and inscription techniques among other leaves and similarities to drafts in "<ref target="../notebooks/transcriptions/loc.00141.html">Talbot Wilson</ref>," an early Library of Congress notebook. The poem "Sleep-Chasings" eventually became "The Sleepers" in 1871.</note>
-        <note type="work_relations" target="xxx.00264" cert="high">
-        <p>Lines from this manuscript appeared in revised form in the fourth poem in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, eventually titled "The Sleepers": "Now Lucifer was not dead . . . . or if he was I am his sorrowful terrible heir; / I have been wronged . . . . I am oppressed . . . . I hate him that oppresses me, / I will either destroy him, or he shall release me. / Damn him! how he does defile me, / How he informs against my brother and sister and takes pay for their blood, / How he laughs when I look down the bend after the steamboat that carries away my woman" (1855, p. 74).</p>
-    </note>
     </notesStmt>
 <sourceDesc>
-<bibl><author xml:id="ww">Whitman, Walt</author>
-
+<bibl>
+<author>Walt Whitman</author>
     <title>Black Lucifer was not dead</title>
     <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
 <idno type="callno">MSS 3829, Box-folder 1:88</idno> 
@@ -65,9 +65,7 @@
             <handNote scribeRef="#unk" xml:id="h1"><persName xml:id="unk">Unknown</persName></handNote>
         </handNotes>
     </profileDesc>
-    <revisionDesc>
-        <change when="2022-06-06" who="#bb">updated relations encoding</change>
-    <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+<revisionDesc>
     <change when="2019-01-28" who="#kmp">corrected, blessed</change>
     <change when="2019-01-15" who="#nhg">checked relations info</change>
     <change when="2018-12-04" who="#cah">checked and corrected file, added corresps</change>
@@ -85,7 +83,7 @@
     <note type="authorial" place="right">Sleepchaser's.</note>
     
 <lg type="linegroup">
-    <delSpan spanTo="#d1" rend="overstrike" xml:id="l01"/><l>I am a hell‑name and a Curse:</l><anchor xml:id="d1"/>
+    <del rend="overstrike" xml:id="l01"><l>I am a hell‑name and a Curse:</l></del>
     
 
     <l xml:id="l02"><del rend="overstrike"><add rend="unmarked" place="inline">The</add></del> <del rend="overstrike"><add rend="unmarked" place="infralinear"><gap reason="illegible"/></add></del> Black Lucifer was not dead;</l>
@@ -110,7 +108,7 @@
 </lg>
     
     <lg type="linegroup">
-<delSpan spanTo="#d2" rend="overstrike"/><l xml:id="l06">Damn him! how he does defile me!</l><anchor xml:id="d2"/>
+<del rend="overstrike"><l xml:id="l06">Damn him! how he does defile me!</l></del>
 
 <l xml:id="l07"><del rend="overstrike">He</del> <subst><del rend="overwrite" seq="1">h</del><add rend="overwrite" place="over" seq="2">H</add></subst>opple<subst><del rend="overwrite" seq="1">s</del><add rend="overwrite" place="over" seq="2">r</add></subst> <add rend="insertion" place="supralinear">of</add> his own sons; <del rend="overstrike">he</del> breed<subst><del rend="overwrite" seq="1">s</del><add rend="overwrite" place="over" seq="2">er</add></subst> <add rend="unmarked" place="supralinear">of</add> children and
 <subst>

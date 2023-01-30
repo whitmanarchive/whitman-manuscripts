@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00112">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00112">
+    <relations>
+        <work ref="xxx.00048" cert="low">
+            <p>This manuscript may relate to the first poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, ultimately titled "Song of Myself." The idea of "[e]nter[ing] into the thoughts of the different theological faiths" described in this manuscript may connect to the stanza of the poem eventually titled "Song of Myself" that begins "My faith is the greatest of faiths and the least of faiths..." including in particular the line "Making a fetish of the first rock or stump . . . . powowing with sticks in the circle of obis" (1855, p. 48). Whitman also used the term "koboo" in the 1855 version of that poem: "Nor the numberless slaughtered and wrecked . . . . nor the brutish koboo, called the ordure of humanity" (1855, p. 49).</p>
+        </work>
+    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -13,8 +17,6 @@
                     <persName xml:id="bjo">Brandon James O'Neil</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                    <persName xml:id="as">Ashlyn Stewart</persName>
-                    <persName xml:id="km">Kevin McMullen</persName>
                 </respStmt>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -27,7 +29,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                
+                <idno>nyp.00112</idno>
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,16 +41,13 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            <idno>nyp.00112</idno></publicationStmt>
+            </publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">This manuscript was likely written between <date notBefore="1850" notAfter="1855">1850 and 1855</date>, when Whitman was preparing materials for the first edition of <hi rend="italic">Leaves of Grass</hi>. The idea of "[e]nter[ing] into the thoughts of the different theological faiths" described in this manuscript probably connects to the first poem in that edition, eventually titled "Song of Myself." Whitman also used the term "koboo" in that poem. Gary Schmidgall glosses the term "koboo" as referring to "a native of Sumatra," and Andrew Lawson has noted that Whitman apparently picked up the reference from a book by Walter M. Gibson, an American adventurer (<hi rend="italic">Walt Whitman, Selected Poems, 1855–1892</hi>, ed. Gary Schmidgall [New York: St. Martin's Griffin, 1999], 488; <hi rend="italic">Walt Whitman and the Class Struggle</hi> [Iowa City: University of Iowa Press, 2006], 91). The manuscript is pasted down, so an image of the reverse is not available.</note>
-                    <note type="work_relations" target="xxx.00048" cert="low">
-                        <p>This manuscript may relate to the first poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, ultimately titled "Song of Myself." The idea of "[e]nter[ing] into the thoughts of the different theological faiths" described in this manuscript may connect to the stanza of the poem eventually titled "Song of Myself" that begins "My faith is the greatest of faiths and the least of faiths..." including in particular the line "Making a fetish of the first rock or stump . . . . powowing with sticks in the circle of obis" (1855, p. 48). Whitman also used the term "koboo" in the 1855 version of that poem: "Nor the numberless slaughtered and wrecked . . . . nor the brutish koboo, called the ordure of humanity" (1855, p. 49).</p>
-                    </note>
             </notesStmt>
             <sourceDesc>
-                <bibl><author xml:id="ww">Whitman, Walt</author>
-                    
+                <bibl>
+                    <author>Walt Whitman</author>
                     <title>Enter into the thoughts of the different theological faiths</title>
                     <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
                     <idno type="callno">b19877231</idno><!--UUID: 57c62770-c5d9-012f-0d3d-58d385a7bc34-->
@@ -59,8 +58,6 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2022-06-17" who="#km">updated relations encoding</change>
-            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-10-04" who="#nhg">edited work relations and editorial note</change>
             <change when="2019-03-15" who="#bb">checked; edited</change>
             <change when="2018-11-01" who="#nhg">edited title</change>

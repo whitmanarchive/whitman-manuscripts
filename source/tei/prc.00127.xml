@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prc.00127">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="prc.00127">
+   <relations>      
+      <work ref="xxx.00048" cert="high">
+         <p>Lines from this manuscript appeared as the following, in the poem eventually titled "Song of Myself": "All truths wait in all things, /
+            They neither hasten their own delivery nor resist it, /
+            They do not need the obstetric forceps of the surgeon, /
+            The insignificant is as big to me as any, /
+            What is less or more than a touch? /
+            
+            Logic and sermons never convince, /
+            The damp of the night drives deeper into my soul. /
+            
+            Only what proves itself to every man and woman is so, /
+            Only what nobody denies is so" (1855, p. 33).</p>
+      </work>
+      <work ref="xxx.00526" cert="low">
+         <p>Lines in this manuscript bear some similarity to sentences in the preface to the 1855 <hi rend="italic">Leaves of Grass</hi>. See, for instance, the lines: "Whatever satisfies the soul is truth" (1855, p. xi); "If he breathes into any thing that was before thought small it dilates with the grandeur and life of the universe" (1855, p. v); and "What the eyesight does to the rest he does to the rest. Who knows the curious mystery of the eyesight? The other senses corroborate themselves, but this is removed from any proof but its own and foreruns the identities of the spiritual world" (1855, p. v).</p>
+      </work>
+   </relations>
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -12,7 +30,7 @@
                <persName xml:id="bb">Brett Barney</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="bjo">Brandon James O'Neil</persName>
-            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+            </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -23,7 +41,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            
+            <idno>prc.00127</idno>
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -35,29 +53,13 @@
             <availability>
                <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
-         <idno>prc.00127</idno></publicationStmt>
+         </publicationStmt>
          <notesStmt>
-            <note type="project" target="dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Lines from the manuscript appear in the first poem in that edition, eventually titled "Song of Myself." Other lines are possibly related to the preface.</note>      
-            <note type="work_relations" target="xxx.00048" cert="high">
-         <p>Lines from this manuscript appeared as the following, in the poem eventually titled "Song of Myself": "All truths wait in all things, /
-            They neither hasten their own delivery nor resist it, /
-            They do not need the obstetric forceps of the surgeon, /
-            The insignificant is as big to me as any, /
-            What is less or more than a touch? /
-            
-            Logic and sermons never convince, /
-            The damp of the night drives deeper into my soul. /
-            
-            Only what proves itself to every man and woman is so, /
-            Only what nobody denies is so" (1855, p. 33).</p>
-      </note>
-            <note type="work_relations" target="xxx.00526" cert="low">
-         <p>Lines in this manuscript bear some similarity to sentences in the preface to the 1855 <hi rend="italic">Leaves of Grass</hi>. See, for instance, the lines: "Whatever satisfies the soul is truth" (1855, p. xi); "If he breathes into any thing that was before thought small it dilates with the grandeur and life of the universe" (1855, p. v); and "What the eyesight does to the rest he does to the rest. Who knows the curious mystery of the eyesight? The other senses corroborate themselves, but this is removed from any proof but its own and foreruns the identities of the spiritual world" (1855, p. v).</p>
-      </note>
+            <note type="project" target="dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Lines from the manuscript appear in the first poem in that edition, eventually titled "Song of Myself." Other lines are possibly related to the preface.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><author xml:id="ww">Whitman, Walt</author>
-               
+            <bibl>
+               <author>Walt Whitman</author>
                <title>There can be nothing small</title>
                <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
                <orgName xml:id="prc">The manuscript was sold by Sotheby's in 2008. The current location of the manuscript is unknown.</orgName> 
@@ -74,8 +76,6 @@
          </handNotes>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-06-07" who="#bb">updated relations encoding</change>
-         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#bb" when="2019-08-13">checked; edited</change>
          <change who="#nhg" when="2019-06-13">edited note</change>
          <change who="#nhg" when="2018-11-27">transcribed, encoded</change>
@@ -104,13 +104,13 @@
             of rain.—</l>
          </lg>
          <lg type="linegroup">
-            <delSpan spanTo="#d1" rend="overstrike"/><addSpan spanTo="#a2" rend="unmarked" place="interlinear"/><l xml:id="l09"><del rend="overstrike"><add rend="insertion" place="supralinear">Only</add></del> What <del rend="overstrike">fully</del> satisfies the senses <add rend="insertion" place="supralinear">of <subst><del rend="overstrike" seq="1">all</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="supralinear" seq="2">all</add></del></subst> <del rend="overstrike">men</del></add> is truth;</l><anchor xml:id="a2"/><anchor xml:id="d1"/>
+            <del rend="overstrike"><add rend="unmarked" place="interlinear"><l xml:id="l09"><del rend="overstrike"><add rend="insertion" place="supralinear">Only</add></del> What <del rend="overstrike">fully</del> satisfies the senses <add rend="insertion" place="supralinear">of <subst><del rend="overstrike" seq="1">all</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="supralinear" seq="2">all</add></del></subst> <del rend="overstrike">men</del></add> is truth;</l></add></del>
             <l xml:id="l10">Logic and sermons never convince<subst><add rend="unmarked" place="inline" seq="2">;</add> <del rend="overstrike" seq="1">me;</del></subst></l>
             <l xml:id="l11">The dew of the night drives deep<add rend="unmarked" place="inline">er</add> into <subst><del rend="overstrike" seq="1">my</del> <add rend="unmarked" place="supralinear" seq="2">the</add></subst> soul.—</l>
-            <addSpan spanTo="#a1" rend="unmarked" place="interlinear"/>
+            <add rend="unmarked" place="interlinear">
                <l xml:id="l12"><subst><del rend="overstrike" seq="1">An eternal</del> <add rend="unmarked" place="supralinear" seq="2">A</add></subst> test of any thing!</l>
                <l xml:id="l13">It proves itself to the experience <add rend="insertion" place="supralinear">and senses</add> of <del rend="overstrike">all</del> men and women!</l>
-            <anchor xml:id="a1"/>
+            </add>
             <l xml:id="l14">Bring <add rend="insertion" place="supralinear">it to</add> folks <del rend="overstrike">any thing</del>, and you will see whether<lb/>
             they doubt;</l>
             <l xml:id="l15"><subst><del rend="overstrike" seq="1">We</del> <add rend="unmarked" place="supralinear" seq="2">They</add></subst> do not doubt contact or <add rend="insertion" place="supralinear">hunger or</add> love;</l>

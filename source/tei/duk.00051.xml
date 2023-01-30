@@ -1,5 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00051">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00051">
+  <relations>
+    <work ref="xxx.00048" cert="high">
+      <p>This manuscript is a draft of lines that appeared in the first poem of the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, which was
+        ultimately titled "Song of Myself." These drafted lines relate to section 41 in the
+        final version of the poem.</p>
+    </work>
+    <work ref="xxx.00119" cert="low"><p>Based on its similarity to other manuscripts, this manuscript may also relate to a portion of the second poem in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, eventually titled "A Song for Occupations": "When the sacred vessels or the bits of the eucharist, or the lath and plast, procreate as effectually as the young silvermiths or bakers, or the masons in their overalls / ... / I intend to reach them my hand and make as much of them as I do of men and women" (1855, p. 64).</p></work>
+    <work ref="xxx.00418" cert="low"> 
+      <p>Based on its similarity to other manuscripts (see <ref target="uva.00251.html">uva.00251</ref>), this manuscript may also relate to lines 39-43 in "Debris," a cluster published in the <date when="1860">1860</date> edition of <hi rend="italic">Leaves of Grass</hi>: "I WILL take an egg out of the robin's nest in the orchard, / I will take a branch of gooseberries from the old bush in the garden, and go and preach to the world; / You shall see I will not meet a single heretic or scorner, / You shall see how I stump clergymen, and confound them, / You shall see me showing a scarlet tomato, and a white pebble from the beach" (1860, p. 424).</p>
+    </work>
+  </relations>
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,8 +28,6 @@
           <persName xml:id="kc">Kirsten Clawson</persName>
           <persName xml:id="jc">Janel Cayer</persName>
           <persName xml:id="nhg">Nicole Gray</persName>
-          <persName xml:id="as">Ashlyn Stewart</persName>
-          <persName xml:id="km">Kevin McMullen</persName>
         </respStmt>
         <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
         <sponsor>University of Iowa</sponsor>
@@ -31,7 +39,7 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        
+        <idno>duk.00051</idno>
         <distributor>The Walt Whitman Archive</distributor>
         <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -43,23 +51,14 @@
         <availability>
           <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
         </availability>
-      <idno>duk.00051</idno></publicationStmt>
+      </publicationStmt>
       <notesStmt>
-        <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Lines from the manuscript appear in the first poem in that edition, eventually titled "Song of Myself." The ideas and some of the language are also similar to other early manuscripts that relate to the second poem in the 1855 edition of <hi rend="italic">Leaves</hi>, ultimately titled "A Song for Occupations," and part of a cluster titled "Debris" that appeared in the 1860 edition of <hi rend="italic">Leaves of Grass</hi> (see "<ref target="loc.00013.html">Priests</ref>," "<ref target="uva.00251.html">Do I not prove myself</ref>," and "<ref target="duk.00261.html">[Fa]bles, traditions</ref>").</note>
-          <note type="work_relations" target="xxx.00048" cert="high">
-            <p>This manuscript is a draft of lines that appeared in the first poem of the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, which was
-              ultimately titled "Song of Myself." These drafted lines relate to section 41 in the
-              final version of the poem.</p>
-          </note>
-          <note type="work_relations" target="xxx.00119" cert="low"><p>Based on its similarity to other manuscripts, this manuscript may also relate to a portion of the second poem in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, eventually titled "A Song for Occupations": "When the sacred vessels or the bits of the eucharist, or the lath and plast, procreate as effectually as the young silvermiths or bakers, or the masons in their overalls / ... / I intend to reach them my hand and make as much of them as I do of men and women" (1855, p. 64).</p></note>
-          <note type="work_relations" target="xxx.00418" cert="low"> 
-            <p>Based on its similarity to other manuscripts (see <ref target="uva.00251.html">uva.00251</ref>), this manuscript may also relate to lines 39-43 in "Debris," a cluster published in the <date when="1860">1860</date> edition of <hi rend="italic">Leaves of Grass</hi>: "I WILL take an egg out of the robin's nest in the orchard, / I will take a branch of gooseberries from the old bush in the garden, and go and preach to the world; / You shall see I will not meet a single heretic or scorner, / You shall see how I stump clergymen, and confound them, / You shall see me showing a scarlet tomato, and a white pebble from the beach" (1860, p. 424).</p>
-          </note>
+        <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Lines from the manuscript appear in the first poem in that edition, eventually titled "Song of Myself." The ideas and some of the language are also similar to other early manuscripts that relate to the second poem in the 1855 edition of <hi rend="italic">Leaves</hi>, ultimately titled "A Song for Occupations," and part of a cluster titled "Debris" that appeared in the 1860 edition of <hi rend="italic">Leaves of Grass</hi> (see "<ref target="loc.00013.html">Priests</ref>," "<ref target="uva.00251.html">Do I not prove myself</ref>," and "<ref target="duk.00261.html">[Fa]bles, traditions</ref>").</note>             
       </notesStmt>
       <sourceDesc>
         
-        <bibl><author xml:id="ww">Whitman, Walt</author>
-          
+        <bibl>
+          <author>Walt Whitman</author>
           <title>I know as well as you that Bibles are divine revelations</title>
           <idno type="callno">MS 4to 5 (Volume 5)</idno>
           <date xml:id="dat1" notBefore="1850" notAfter="1855" cert="medium">Between 1850 and 1855</date>
@@ -72,8 +71,6 @@
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
-      <change when="2022-06-02" who="#km">updated relations encoding</change>
-      <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
       <change when="2018-10-08" who="#nhg">checked, corrected</change>
       <change when="2018-09-10" who="#nhg">updated image name</change>
       <change when="2018-08-06" who="#nhg">proofed, added corresps</change>
@@ -129,7 +126,7 @@
         <del rend="overstrike">of God</del> just as divine</l>
       <anchor xml:id="s2"/>
       
-      <addSpan spanTo="#a1" rend="unmarked" place="interlinear"/><l xml:id="l03"><add rend="unmarked" place="inline">But</add> Do you stop there?</l><anchor xml:id="a1"/>
+      <add rend="unmarked" place="interlinear"><l xml:id="l03"><add rend="unmarked" place="inline">But</add> Do you stop there?</l></add>
       
       <l xml:id="l04">Have you no more faith than that?</l>
       
@@ -147,11 +144,11 @@
         </subst> 
         with same stray change?</l>
       
-      <delSpan spanTo="#d2" rend="overstrike"/><l xml:id="l07">I disdain and denounce your shallow</l><anchor xml:id="d2"/>
+      <del rend="overstrike"><l xml:id="l07">I disdain and denounce your shallow</l></del>
       
       <l xml:id="l08">I <del rend="overstrike"><add rend="insertion" place="supralinear"/></del> outbid you, shallow hucksters!</l>
       
-      <delSpan spanTo="#d3" rend="overstrike"/><l xml:id="l09">Such infirm</l><anchor xml:id="d3"/>
+      <del rend="overstrike"><l xml:id="l09">Such infirm</l></del>
       
       <l xml:id="l10">All you 
           <subst>

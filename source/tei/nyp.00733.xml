@@ -1,5 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00733">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00733">
+   <relations>
+      <work ref="xxx.00048" cert="high">
+         <p>This manuscript includes a draft line that appears in the first poem in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, which was later titled "Song of Myself": "And a mouse is miracle enough to stagger sextillions of infidels" (1855, p. 34).</p> 
+      </work>
+      <work ref="xxx.00119" cert="low">
+         <p>The phrase "attraction of gravity," used in this manuscript, was used twice in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, including the following line in the poem that would be titled "A Song for Occupations": "Or the attraction of gravity and the great laws and harmonious combinations and
+            the fluids of the air as subjects for the savans?" (1855, p. 60).</p>
+      </work>
+   </relations>  
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -14,8 +22,6 @@
                <persName xml:id="cah">Caitlin Henry</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="rl">Robert LaCosse</persName>
-               <persName xml:id="as">Ashlyn Stewart</persName>
-               <persName xml:id="km">Kevin McMullen</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -27,7 +33,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            
+            <idno>nyp.00733</idno>
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,20 +45,13 @@
             <availability>
                <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
-         <idno>nyp.00733</idno></publicationStmt>
+         </publicationStmt>
          <notesStmt>		
             <note type="project" target="dat1">Whitman probably drafted this manuscript between 1850 and 1855, as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. A line from the manuscript appears in the first poem of that edition, eventually titled "Song of Myself."</note>
-               <note type="work_relations" target="xxx.00048" cert="high">
-                  <p>This manuscript includes a draft line that appears in the first poem in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, which was later titled "Song of Myself": "And a mouse is miracle enough to stagger sextillions of infidels" (1855, p. 34).</p> 
-               </note>
-               <note type="work_relations" target="xxx.00119" cert="low">
-                  <p>The phrase "attraction of gravity," used in this manuscript, was used twice in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, including the following line in the poem that would be titled "A Song for Occupations": "Or the attraction of gravity and the great laws and harmonious combinations and
-                     the fluids of the air as subjects for the savans?" (1855, p. 60).</p>
-               </note>
          </notesStmt>
          <sourceDesc>
-            <bibl><author xml:id="ww">Whitman, Walt</author>
-               
+            <bibl>
+               <author>Walt Whitman</author>
                <title>Ms. leaf verso (The crowds naked in the bath...)</title>
                <orgName xml:id="nyp">The Oscar Lion Papers, 1914–1955, New York Public Library, New York, N.Y.</orgName>
                <idno type="callno">MSS 1767</idno><!--UUID: d2feb270-c5d8-012f-5afc-58d385a7bc34-->
@@ -65,8 +64,6 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2022-06-17" who="#km">updated relations encoding</change>
-         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2019-01-09">edited relations info</change>
          <change who="#smb" when="2018-12-11">final check, updated editorial notes</change>
          <change who="#cah" when="2018-11-08">checked, corrected, and added relations to file</change>
@@ -95,15 +92,15 @@
                from excessive gin?</l>
             
                         
-            <delSpan spanTo="#d1" rend="overstrike"/><l>Is the light careful to pick out a bishop<lb/>
-               or pope from the rest?</l><anchor xml:id="d1"/>
+            <del rend="overstrike"><l>Is the light careful to pick out a bishop<lb/>
+               or pope from the rest?</l></del>
             
             <metamark function="paragraph">¶</metamark>
             
            
-            <delSpan spanTo="#d2" rend="overstrike"/><l><subst><del rend="overstrike" seq="1">Shall I</del> <add rend="unmarked" place="supralinear" seq="2">Who will</add></subst> receive the <seg xml:id="w1">great things</seg><add rend="insertion" place="supralinear" xml:id="w2">promises of thought</add><alt target="#w1 #w2" weights="0.5 0.5"/> of the spirit<lb/>
+            <del rend="overstrike"><l><subst><del rend="overstrike" seq="1">Shall I</del> <add rend="unmarked" place="supralinear" seq="2">Who will</add></subst> receive the <seg xml:id="w1">great things</seg><add rend="insertion" place="supralinear" xml:id="w2">promises of thought</add><alt target="#w1 #w2" weights="0.5 0.5"/> of the spirit<lb/>
                on easier terms than <del rend="overstrike">I do</del> a note<lb/>
-               of hand?<lb/></l><anchor xml:id="d2"/>
+               of hand?<lb/></l></del>
             
                          
             <l><subst><del rend="overstrike" seq="1">Shall I</del> <add rend="unmarked" place="supralinear" seq="2">Who</add></subst> examines the <subst><del rend="overstrike" seq="1">religions</del> <add rend="unmarked" place="supralinear" seq="2">philosophies</add></subst> <del rend="overstrike">I find</del> in the<lb/>
@@ -114,10 +111,10 @@
             
             <l><subst><del rend="overstrike" seq="1">Shall I</del> <add rend="unmarked" place="supralinear" seq="2">Who <del rend="overstrike"><gap reason="deletion, illegible"/></del></add></subst> accept<add rend="unmarked" place="inline">s</add> Chemistry <del rend="overstrike">and</del> on tradition?</l>
             
-            <delSpan spanTo="#d3" rend="overstrike"/><l xml:id="l02">Shall I purchase a <add rend="insertion" place="supralinear">house</add> lot without making</l><anchor xml:id="d3"/>
+            <del rend="overstrike"><l xml:id="l02">Shall I purchase a <add rend="insertion" place="supralinear">house</add> lot without making</l></del>
             
             
-            <addSpan spanTo="#a2" rend="ummarked" place="interlinear"/><l><subst><del rend="overstrike" seq="1">Is the light careful to</del> <add rend="unmarked" place="supralinear" seq="2">The light</add></subst> picks out a bishop or pope <subst><del rend="overstrike" seq="1">from</del> <add rend="unmarked" place="supralinear" seq="2">no more than</add></subst> the rest?</l><anchor xml:id="a2"/>
+            <add rend="ummarked" place="interlinear"><l><subst><del rend="overstrike" seq="1">Is the light careful to</del> <add rend="unmarked" place="supralinear" seq="2">The light</add></subst> picks out a bishop or pope <subst><del rend="overstrike" seq="1">from</del> <add rend="unmarked" place="supralinear" seq="2">no more than</add></subst> the rest?</l></add>
             
             <l xml:id="l03"><del rend="overstrike">Is not</del> <del rend="overwrite">a</del><add rend="overwrite" place="over">A</add> mouse <add rend="insertion" place="supralinear">is</add> miracle enough to stagger<lb/>
                billions of infidels?</l>

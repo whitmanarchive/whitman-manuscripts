@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00262">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00262">
+   <relations>
+      <work ref="xxx.00048" cert="high">
+         <p>This manuscript is a draft of lines that appear in the first poem in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, eventually titled "Song of Myself": "The supernatural of no account . . . . myself waiting my time to be one of the 
+            supremes, / The day getting ready for me when I shall do as much good as the best, and be as prodigious" (1855, p. 46).</p>
+      </work>
+   </relations>
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -14,7 +20,7 @@
                <persName xml:id="li">Leslie Ianno</persName>
                <persName xml:id="bb">Brett Barney</persName>
                <persName xml:id="smb">Stephanie Blalock</persName>
-            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+            </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +31,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            
+            <idno>uva.00262</idno>
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,17 +43,13 @@
             <availability>
                <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
-         <idno>uva.00262</idno></publicationStmt>
+         </publicationStmt>
          <notesStmt>
             <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Versions of the manuscript lines appear in the first poem of that edition, eventually titled "Song of Myself."</note>
-            <note type="work_relations" target="xxx.00048" cert="high">
-         <p>This manuscript is a draft of lines that appear in the first poem in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, eventually titled "Song of Myself": "The supernatural of no account . . . . myself waiting my time to be one of the 
-            supremes, / The day getting ready for me when I shall do as much good as the best, and be as prodigious" (1855, p. 46).</p>
-      </note>
          </notesStmt>
          <sourceDesc>
-            <bibl><author xml:id="ww">Whitman, Walt</author>
-               
+            <bibl>
+               <author>Walt Whitman</author>
                <title>Who knows that I shall</title>
                <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
                <idno type="callno">MSS 3829, Box-folder 1:88</idno>
@@ -60,8 +62,6 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2022-06-06" who="#bb">updated relations encoding</change>
-         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2020-03-03" who="#bb">removed duplicate date note element</change>
          <change when="2019-01-22" who="#smb">checked</change>
          <change when="2019-01-15" who="#nhg">checked relations</change>

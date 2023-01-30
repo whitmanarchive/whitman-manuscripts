@@ -1,5 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00022">
+<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+ 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00022">
+    <relations>
+        <work ref="xxx.00302">
+            <p>This manuscript is a draft of "The Sobbing of the Bells," first published in the
+                Boston <hi rend="italic">Daily Globe</hi> on <date when="1881-09-27">September 27,
+                    1881</date>.</p>
+        </work>
+    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -17,8 +25,6 @@
                     <persName xml:id="nk">Nick Krauter</persName>
                     <persName xml:id="jd">Jean Dickinson</persName>
                     <persName xml:id="jsc">Justin St. Clair</persName>
-                    <persName xml:id="as">Ashlyn Stewart</persName>
-                    <persName xml:id="km">Kevin McMullen</persName>
                 </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -32,7 +38,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                
+                <idno>loc.00022</idno>
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -45,7 +51,7 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
                 </availability>
-            <idno>loc.00022</idno></publicationStmt>
+            </publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">This manuscript is a draft of "The Sobbing of the Bells," first published in the
                 Boston <hi rend="italic">Daily Globe</hi> on <date when="1881-09-27">September 27,
@@ -54,18 +60,13 @@
                 <note target="#leaf001r" type="project">This manuscript leaf is held with several
                     other scraps of paper, including a newspaper clipping of the poem, in a large
                     sheet of mylar at the Library of Congress.</note>
-                    <note type="work_relations" target="xxx.00302">
-                        <p>This manuscript is a draft of "The Sobbing of the Bells," first published in the
-                            Boston <hi rend="italic">Daily Globe</hi> on <date when="1881-09-27">September 27,
-                                1881</date>.</p>
-                    </note>
             </notesStmt>
             <sourceDesc>
-                <bibl><author xml:id="ww">Whitman, Walt</author>
-                    
+                <bibl>
+                    <author>Walt Whitman</author>
                     <title>The Sobbing of the Bells</title>
                     <date xml:id="dat1" cert="high" notBefore="1881-09-19" notAfter="1881-09-27">September 1881</date>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
                     <note type="project">Transcribed from <hi rend="italic">The Walt Whitman Archive
                         I: Whitman Manuscripts at the Library of Congress</hi>, ed. Joel Myerson (New York: Garland, 1993),
                         2:520; <hi rend="italic">Major American Authors on Cd-Rom: Walt Whitman</hi> (Westport, CT:
@@ -74,10 +75,8 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2022-06-06" who="#km">updated relations encoding</change>
-            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2017-04-04" who="#nhg">edited date range</change>
-            <change when="2016-05-19" who="#nhg">checked, corrected</change>
+<change when="2016-05-19" who="#nhg">checked, corrected</change>
             <change when="2016-02-03" who="#nhg">adjusted image names</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
             <change when="2006-08-02" who="#nk">Added third digit to leaf numbers</change>
@@ -95,10 +94,10 @@
             <pb facs="loc.00022.001.jpg" xml:id="leaf001r" type="recto"/>
             <lg type="poem">
                 <head type="main-authorial">The Sobbing<lb/> of the Bells</head>
-                <head type="sub">Midnight Sept 19‑20 1881</head>
+                <head type="sub">Midnight Sept 19&#8209;20 1881</head>
                 <milestone rend="horbar-short-center" unit="undeclared"/>
                 <l>The sobbing of the bells,</l>
-                <l>The sudden death‑news everywhere,</l>
+                <l>The sudden death&#8209;news everywhere,</l>
                 <l>The slumberers rouse,</l>
                 <l>The rapport of the people,</l>
                 <l>
@@ -113,7 +112,7 @@
                 <l>City to city joining, sounding
                     <lb/>passing,
                 </l>
-                <l>Those heart‑beats of a Nation
+                <l>Those heart&#8209;beats of a Nation
                     <lb/>in the Night.
                 </l>
             </lg>

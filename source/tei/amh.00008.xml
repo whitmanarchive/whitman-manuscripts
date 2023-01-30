@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="amh.00008">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="amh.00008">
+   <relations>
+      <work ref="xxx.00048" cert="low">
+         <p>The juxtaposition in this manuscript of painted panorama to actual landscape is similar to a line that was published in the 1855 and 1856 editions of <hi rend="italic">Leaves of Grass</hi>, as part of the poem that would later be titled "Song of Myself": "The panorama of the sea . . . . but the sea itself?" (1855, p. 47). The line does not appear in editions after 1856.</p>
+      </work>
+   </relations>
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -14,7 +19,7 @@
                <persName xml:id="zb">Zach Bajaber</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="km">Kevin McMullen</persName>
-            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+            </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +30,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            
+            <idno>amh.00008</idno>
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,17 +42,13 @@
             <availability>
                <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
-         <idno>amh.00008</idno></publicationStmt>
+         </publicationStmt>
          <notesStmt>
                   <note type="project" target="#dat1">The repository's catalog card for this manuscript estimates the date of composition as "ca. 1880." This estimate seems to be based on the manuscript's mention of "Neversink," which was tied to Whitman's poem cluster "Fancies at Navesink," first published in the magazine <hi rend="italic">Nineteenth Century</hi> in August 1885. However, the handwriting in the manuscript would seem to indicate a much earlier date, probably before the publication of <hi rend="italic">Leaves of Grass</hi> in 1855. Most of the fragment describes a moving panorama, a popular form of entertainment during the antebellum period. The juxtaposition Whitman sets up in this manuscript (of painted panorama to actual landscape) appears in a line published in the 1855 and 1856 editions of <hi rend="italic">Leaves of Grass</hi>, in the poem eventually titled "Song of Myself": "The panorama of the sea . . . . but the sea itself?" (1855, p. 47)</note>
-               <note type="work_relations" target="xxx.00048" cert="low">
-                  <p>The juxtaposition in this manuscript of painted panorama to actual landscape is similar to a line that was published in the 1855 and 1856 editions of <hi rend="italic">Leaves of Grass</hi>, as part of the poem that would later be titled "Song of Myself": "The panorama of the sea . . . . but the sea itself?" (1855, p. 47). The line does not appear in editions after 1856.</p>
-               </note>
-            
          </notesStmt>
          <sourceDesc>
-            <bibl><author sameAs="#ww">Whitman, Walt</author>
-               
+            <bibl>
+               <author>Walt Whitman</author>
                <title rend="bracketed">Walt Whitman unidentified prose</title>
                <date xml:id="dat1" cert="medium" notBefore="1840" notAfter="1855">About 1850</date>
                <idno type="callno">MA175, Box 1, Folder 10</idno>
@@ -63,8 +64,6 @@
          </handNotes>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-06-02" who="#km">updated relations encoding</change>
-         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2017-02-23" who="#nhg">edited date note, added work relations information</change>
          <change when="2016-08-30" who="#nhg">checked, corrected</change>
          <change who="#km" when="2016-07-25">checked</change>

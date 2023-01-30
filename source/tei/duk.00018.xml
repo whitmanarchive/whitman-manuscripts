@@ -1,5 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00018">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00018">
+   <relations>
+      <work ref="xxx.00048" cert="high">
+         <p>This manuscript features drafts of lines and ideas that appeared, in a revised form, in the first poem of the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, ultimately titled "Song of Myself." The drafted lines relate to the portions of the poem that ultimately became sections 48 and 49.</p></work>
+   </relations>
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -11,13 +14,11 @@
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
-               <persName xml:id="kmp">Kenneth M. Price</persName>
+               <persName xml:id="km">Kenneth M. Price</persName>
                <persName xml:id="aj">Andrew Jewell</persName>
                <persName xml:id="cf">Chris Forster</persName>
                <persName xml:id="kt">Kristen Taylor</persName>
                <persName xml:id="bjo">Brandon James O'Neil</persName>
-               <persName xml:id="as">Ashlyn Stewart</persName>
-               <persName xml:id="TEST">Kevin McMullen</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -29,7 +30,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            
+            <idno>duk.00018</idno>
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,16 +42,14 @@
             <availability>
                <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
-         <idno>duk.00018</idno></publicationStmt>
+         </publicationStmt>
          <notesStmt>
 
             <note type="project" target="dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. It includes drafts of lines and ideas that appeared in a revised form in the first poem in that edition, eventually titled "Song of Myself." It is possible that the manuscript "<ref target="uva.00287.html">Man, before the rage of</ref>" is a continuation of this manuscript draft. This manuscript has been mounted, so an image of the back of the leaf is not currently available.</note>
-               <note type="work_relations" target="xxx.00048" cert="high">
-                  <p>This manuscript features drafts of lines and ideas that appeared, in a revised form, in the first poem of the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, ultimately titled "Song of Myself." The drafted lines relate to the portions of the poem that ultimately became sections 48 and 49.</p></note>
          </notesStmt>
          <sourceDesc>
-            <bibl><author xml:id="ww">Whitman, Walt</author>
-               
+            <bibl>
+               <author>Walt Whitman</author>
                <title>There is no word in any tongue</title>
                <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
                <idno type="callno">Trent II-7, 201 (Box 20)</idno> 
@@ -60,12 +59,10 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2022-06-02" who="#km">updated relations encoding</change>
-         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#bjo" when="2019-06-10">added inline relation</change>
          <change who="#nhg" when="2017-11-28">edited editorial note, updated transcription, added inline relations info</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#kmp" when="2004-10-28">Edited</change>
+         <change who="#km" when="2004-10-28">Edited</change>
          <change who="#aj" when="2004-10-28">Checked, revised</change>
          <change who="#cf" when="2004-10-26">Proofread; updated</change>
          <change who="#kt" when="2004-07-06">Encoded</change>

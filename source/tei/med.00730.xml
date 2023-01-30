@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00730">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00730">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main" rend="bracketed">Do you ask me</title>
+                <title level="m" type="main" rend="bracketed">Do you ask me what</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -14,9 +16,7 @@
                     <persName xml:id="es">Jeannette Schollaert</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                    <persName xml:id="kmp">Kenneth M. Price</persName>
-                    <persName xml:id="as">Ashlyn Stewart</persName>
-                </respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -27,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                
+                <idno>med.00730</idno>
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright © 2014 by Ed Folsom and Kenneth M. Price, all rights
+                    <p>Copyright &#169; 2014 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            <idno>med.00730</idno></publicationStmt>
+            </publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">Because the manuscript has not been located it is difficult to speculate on the circumstances or date of its composition. The manuscript's language and phrasing resembles that of the early editions of <hi rend="italic">Leaves of Grass</hi>, so it is possible that it was written in the 1850s or 1860s.</note>             
             </notesStmt>
@@ -59,22 +59,22 @@
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
                             <date when="1984">1984</date>
-                            <biblScope unit="page">208</biblScope>
-                            <biblScope unit="volume">1</biblScope>
+                            <biblScope type="page">208</biblScope>
+                            <biblScope type="volume">1</biblScope>
                         </imprint>
                     </monogr>
                     <note type="project">Grier based his text on <hi rend="italic">Walt Whitman's Workshop</hi>, ed. Clifton J. Furness (Cambridge, MA: Harvard University Press, 1928), 45.</note>
                 </biblStruct>
-                <bibl><author xml:id="ww">Whitman, Walt</author>
-                    
-                    <title rend="bracketed">Do you ask me</title>                  
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title rend="bracketed">Do you ask me what</title>                  
                     <date xml:id="dat1" notBefore="1850" notAfter="1870" cert="low">Between 1850 and 1870</date>
                     <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+            <change when="2018-11-01" who="#nhg">edited title</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-09-12" who="#nhg">corrected</change>
             <change when="2016-07-13" who="#nhg">checked, corrected</change>
@@ -86,7 +86,8 @@
 
     <text type="manuscript">
         <body>
-            <p>Do you ask me what are my own particular dangers and complaints—what is taken that belongs to me—I complain not of myself—What have I to complain of for myself—Everything is mine that I want, and I know of nothing to be had at all which I could not work for and get.</p>
+            <p>Do you ask me what are my own particular dangers and complaints&#8212;what is taken that belongs to me&#8212;I complain not of myself&#8212;What have I to complain of for myself&#8212;Everything is mine that I want, and I know of nothing to be had at all which I could not work for and get.</p>
         </body>
     </text>
 </TEI>
+

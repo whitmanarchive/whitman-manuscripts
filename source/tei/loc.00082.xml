@@ -1,6 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00082">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+ 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00082">
+    <relations>
+        <work ref="xxx.00224" cert="high">
+            <p>This manuscript is a draft of lines published in the poem "As Consequent, Etc." The
+                poem was published first in the <date when="1881">1881</date> edition of <hi rend="italic">Leaves of Grass</hi>.</p>
+        </work>
+    </relations>
+    <teiHeader type="text">
         <fileDesc>
             <titleStmt>
                 <title rend="bracketed" level="m" type="main">some threading Ohio's</title>
@@ -16,8 +23,6 @@
                     <persName xml:id="aj">Andrew Jewell</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                    <persName xml:id="as">Ashlyn Stewart</persName>
-                    <persName xml:id="km">Kevin McMullen</persName>
                 </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -31,7 +36,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                
+                <idno>loc.00082</idno>
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -44,22 +49,17 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
                 </availability>
-            <idno>loc.00082</idno></publicationStmt>
+            </publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">This manuscript, written in <date when="1881">1881</date>, is a draft of lines published in the poem "As Consequent, Etc." The
                     poem was published first in the <date when="1881">1881</date> edition of <hi rend="italic">Leaves of Grass</hi>.</note>
-                    <note type="work_relations" target="xxx.00224" cert="high">
-                        <p>This manuscript is a draft of lines published in the poem "As Consequent, Etc." The
-                            poem was published first in the <date when="1881">1881</date> edition of <hi rend="italic">Leaves of Grass</hi>.</p>
-                    </note>
-                
             </notesStmt>
             <sourceDesc>
-                <bibl><author xml:id="ww">Whitman, Walt</author>
-                    
+                <bibl>
+                    <author> Walt Whitman </author>
                     <title>As Consequent etc</title>
                     <date xml:id="dat1" cert="high" when="1881">1881</date>
-                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842–1937, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                     <relatedItem type="document" target="wwa.00100"/>
                     <relatedItem type="text" xml:id="rel01" target="loc.05170"/>
@@ -69,9 +69,6 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2022-07-07" who="#as">updated transpose encoding</change>
-            <change when="2022-06-06" who="#km">updated relations encoding</change>
-            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-09-20" who="#nhg">proofed</change>
             <change when="2016-03-04" who="#nhg">took out extra line breaks, added names to teiHeader</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
@@ -116,7 +113,7 @@
                             
                                 <del rend="overstrike" seq="1">mountains</del>
                                                         
-                                <add place="supralinear" rend="unmarked" seq="2">cañons</add></subst>, <subst>
+                                <add place="supralinear" rend="unmarked" seq="2">ca&#241;ons</add></subst>, <subst>
                             
                                 <del rend="overstrike" seq="1">their</del>
                                                         
@@ -134,39 +131,31 @@
                                 <add place="supralinear" rend="unmarked" seq="3">of</add>
                                                     </subst> eternal snow,
                 </l>
-                <metamark function="transpose" target="#tr02"/>
-                <l xml:id="tr04">Some <add place="supralinear" rend="unmarked">to the north</add> finding
+                <metamark function="transpose" xml:id="tr01" target="#tr02"/>
+                <l>Some <add place="supralinear" rend="unmarked">to the north</add> finding
                         their way to <del rend="overstrike">Michigan,</del>
 
                     <lb/>Erie, Niagara, Ottawa,
                 </l>
-                <l xml:id="tr03">Some to <del rend="overstrike">the bays</del> Atlantics bays,
+                <l>Some to <del rend="overstrike">the bays</del> Atlantics bays,
                     <lb/>and so to the great salt <subst>
                             
                                 <del rend="overstrike" seq="1">sea</del>
                                                         
                                 <add place="supralinear" rend="unmarked" seq="2">brine</add></subst>.
                 </l>
-                <metamark function="transpose" target="#tr02"/>
-                <l xml:id="tr02">Some <subst>
+                <transpose anchored="1" xml:id="tr02" target="#tr01"><add rend="unmarked" place="bottom"><l>Some <subst>
                         
                         <del rend="overstrike" seq="1">to</del>
                         
                         <del rend="overstrike" seq="2">with</del>
                         
                         <del rend="overstrike" seq="4"><add place="supralinear" rend="unmarked" seq="3">in their</add></del>
-                    </subst> half‑hid <del rend="overstrike">threads</del> in
-                        Oregon,—or
+                    </subst> half&#8209;hid <del rend="overstrike">threads</del> in
+                        Oregon,&#8212;or
                         <lb/>southward in Texas,
                     
-                </l>
-                <listTranspose>
-                    <transpose>
-                        <ptr target="#tr02"/>
-                        <ptr target="#tr04"/>
-                        <ptr target="#tr03"/>
-                    </transpose>
-                </listTranspose>
+                </l></add></transpose>
             </lg>
             <pb facs="loc.00082.002.jpg" xml:id="leaf001v" type="verso"/>
         </body>

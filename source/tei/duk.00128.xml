@@ -1,5 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00128">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00128">
+    <relations>
+        <work ref="xxx.00526" cert="low">
+            <p>These notes, labeled "For preface," anticipate the many references to the "greatest poet" in the preface to the first (1855) edition of <hi rend="italic">Leaves of Grass</hi> (see for instance p. vi).</p>
+        </work>
+        <work ref="xxx.00052" cert="low">
+            <p><ref target="#p02" type="text" xml:id="r05">Part of this manuscript</ref> is similar to lines that appeared in the poem eventually titled "I Sing the Body Electric." See, for instance: "He too is all qualities . . . . he is action and power . . . . the flush of the known universe is in him, / ... / All is a procession" (1855, p. 80).</p>
+        </work>
+        <work ref="xxx.00048" cert="low">
+            <p><ref target="#p02" type="text" xml:id="r06">Part of this manuscript</ref> is reminscent of a line that appeared in the poem eventually titled "Song of Myself": "By God! I will accept nothing which all cannot have their counterpart of on the same terms" (1855, p. 80).</p>
+        </work>
+        <work ref="xxx.00113" cert="high">
+            <p><ref xml:id="r01" target="#q01" type="text">Lines from the first leaf</ref> appeared in a slightly different form in the 1856 version of the poem eventually titled "Song of the Answerer": "The words of poems give you more than poems, / They give you to form for yourself poems, religions, politics, war, peace, behaviour, histories, essays, romances, and every thing else" (1856, p. 264).</p>
+        </work>
+        <work ref="xxx.00221" cert="low">
+            <p><ref target="#q02" xml:id="r02" type="text">The stated desire for "satisfiers" and "lovers"</ref> appears in "Poem of Many in One," also first published in the 1856 edition and later titled "By Blue Ontario's Shore": "People's lips salute only doers, lovers, satisfiers, positive knowers" (p. 195).</p>
+        </work>
+    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,7 +32,6 @@
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="kmp">Kenneth M. Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                    <persName xml:id="as">Ashlyn Stewart</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -28,7 +43,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                
+                <idno>duk.00128</idno>
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,28 +55,13 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            <idno>duk.00128</idno></publicationStmt>
+            </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">This manuscript, likely written in the early to mid-1850s, includes notes that anticipate the preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi>.  Imagery and phrases in the second paragraph of the first leaf are reminscent of lines in both the poem eventually titled "Song of Myself" and the poem eventually titled "I Sing the Body Electric." Another line on the first leaf appeared in a slightly different form in "Poem of The Singers, and of The Words of Poems" in the 1856 edition of <hi rend="italic">Leaves</hi> (a poem later titled "Song of the Answerer"). The stated desire for "satisfiers" and "lovers" (found here on the bottom of the second leaf) appears in "Poem of Many in One," also first published in the 1856 edition and later titled "By Blue Ontario's Shore." When Richard Maurice Bucke printed a transcription of this manuscript, he added the following words to the end of leaf 2, recto: "These frothing, maddening waves are to be" (<hi rend="italic">Notes and Fragments</hi> [London, Ontario: A. Talbot &amp; Co., 1899], 129). The words do not appear on the present manuscript. Edward Grier notes that Floyd Stovall has connected material on the third leaf to Whitman's "reading of H. N. Hudson's '<ref target="duk.00081">Thoughts on Reading</ref>,' <hi rend="italic">American Whig Review</hi>, 1 (May 1845), 483–496, which he clipped and annotated" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:95). </note> 
-                    <note type="work_relations" target="xxx.00526" cert="low">
-                        <p>These notes, labeled "For preface," anticipate the many references to the "greatest poet" in the preface to the first (1855) edition of <hi rend="italic">Leaves of Grass</hi> (see for instance p. vi).</p>
-                    </note>
-                    <note type="work_relations" target="xxx.00052" cert="low">
-                        <p><ref target="#p02" type="text" xml:id="r05">Part of this manuscript</ref> is similar to lines that appeared in the poem eventually titled "I Sing the Body Electric." See, for instance: "He too is all qualities . . . . he is action and power . . . . the flush of the known universe is in him, / ... / All is a procession" (1855, p. 80).</p>
-                    </note>
-                    <note type="work_relations" target="xxx.00048" cert="low">
-                        <p><ref target="#p02" type="text" xml:id="r06">Part of this manuscript</ref> is reminscent of a line that appeared in the poem eventually titled "Song of Myself": "By God! I will accept nothing which all cannot have their counterpart of on the same terms" (1855, p. 80).</p>
-                    </note>
-                    <note type="work_relations" target="xxx.00113" cert="high">
-                        <p><ref xml:id="r01" target="#q01" type="text">Lines from the first leaf</ref> appeared in a slightly different form in the 1856 version of the poem eventually titled "Song of the Answerer": "The words of poems give you more than poems, / They give you to form for yourself poems, religions, politics, war, peace, behaviour, histories, essays, romances, and every thing else" (1856, p. 264).</p>
-                    </note>
-                    <note type="work_relations" target="xxx.00221" cert="low">
-                        <p><ref target="#q02" xml:id="r02" type="text">The stated desire for "satisfiers" and "lovers"</ref> appears in "Poem of Many in One," also first published in the 1856 edition and later titled "By Blue Ontario's Shore": "People's lips salute only doers, lovers, satisfiers, positive knowers" (p. 195).</p>
-                    </note>
+                <note type="project" target="#dat1">This manuscript, likely written in the early to mid-1850s, includes notes that anticipate the preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi>.  Imagery and phrases in the second paragraph of the first leaf are reminscent of lines in both the poem eventually titled "Song of Myself" and the poem eventually titled "I Sing the Body Electric." Another line on the first leaf appeared in a slightly different form in "Poem of The Singers, and of The Words of Poems" in the 1856 edition of <hi rend="italic">Leaves</hi> (a poem later titled "Song of the Answerer"). The stated desire for "satisfiers" and "lovers" (found here on the bottom of the second leaf) appears in "Poem of Many in One," also first published in the 1856 edition and later titled "By Blue Ontario's Shore." When Richard Maurice Bucke printed a transcription of this manuscript, he added the following words to the end of leaf 2, recto: "These frothing, maddening waves are to be" (<hi rend="italic">Notes and Fragments</hi> [London, Ontario: A. Talbot &amp; Co., 1899], 129). The words do not appear on the present manuscript. Edward Grier notes that Floyd Stovall has connected material on the third leaf to Whitman's "reading of H. N. Hudson's '<ref target="duk.00081">Thoughts on Reading</ref>,' <hi rend="italic">American Whig Review</hi>, 1 (May 1845), 483–496, which he clipped and annotated" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:95). </note>             
             </notesStmt>
             <sourceDesc>
-                <bibl><author xml:id="ww">Whitman, Walt</author>
-                    
+                <bibl>
+                    <author>Walt Whitman</author>
                     <title>(Of the great poet) (Finally) For preface</title>
                     <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1856">About 1855</date>
                     <idno type="callno">MS 4to 69</idno>
@@ -71,8 +71,6 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2022-06-02" who="#km">updated relations encoding</change>
-            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-04-09" who="#bb">checked; edited</change>
             <change when="2017-02-28" who="#nhg">added work relations encoding</change>
             <change when="2016-05-18" who="#bb">reconciled with EAD record</change>
@@ -111,7 +109,7 @@
             
             <pb xml:id="leaf002r" facs="duk_bb.00003.jpg" type="recto"/>
             
-            <delSpan spanTo="#d1" rend="overstrike"/><p>Here is</p><anchor xml:id="d1"/>
+            <del rend="overstrike"><p>Here is</p></del>
             
             <p><del rend="overstrike">He is as</del> <subst><del rend="overwrite" seq="1">o</del><add rend="overwrite" place="over" seq="2">O</add></subst>ne having attained <del rend="overstrike">to</del> those insights and contents which the <del rend="overstrike">study of the</del> universe gives to <subst><del rend="overstrike" seq="1">those</del> <add rend="unmarked" place="supralinear" seq="2">men</add></subst> capable of comprehending it, <del rend="overstrike">is not</del> would publish the same, and persuade <subst><del rend="overstrike" seq="1">all</del> <add rend="unmarked" place="supralinear" seq="2">other</add></subst> men and women to the same.—The conditions are simple, spiritual, physical, close at hand. . . .<add rend="insertion" place="supralinear">they are long and arduous and require faith,</add> they <subst><del rend="overstrike" seq="1">depen</del> <del rend="overstrike" seq="2"><add rend="unmarked" place="inline" seq="2">are <gap reason="illegible" atLeast="1" unit="chars"/></add></del> <del rend="overstrike" seq="3"><add rend="unmarked" place="inline" seq="3">rest</add></del> <add rend="unmarked" place="supralinear" seq="4">exist</add></subst> altogether with the taught, and not with the teaching or teacher.—</p>
             

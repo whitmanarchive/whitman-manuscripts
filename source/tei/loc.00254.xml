@@ -1,5 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00254">
+<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+ 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00254">
+    <relations>
+        <work ref="xxx.00140" cert="high">
+            <p>"Patroling Barnegat" was published first in <hi rend="italic">The American</hi> in
+                    <date when="1880-06">June 1880</date>.</p>
+        </work>
+    </relations>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,8 +23,6 @@
                     <persName xml:id="aj">Andrew Jewell</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                    <persName xml:id="as">Ashlyn Stewart</persName>
-                    <persName xml:id="km">Kevin McMullen</persName>
                 </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -31,7 +36,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                
+                <idno>loc.00254</idno>
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -44,23 +49,18 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
                 </availability>
-            <idno>loc.00254</idno></publicationStmt>
+            </publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">"Patroling Barnegat" was published first in <hi rend="italic">The American</hi> in
                     <date when="1880-06">June 1880</date>. The date of the letter on the verso (see below) and the first
                     publication date of the poem indicate that this manuscript was composed between <date notBefore="1880-05" notAfter="1880-06">May and June, 1880</date>.</note>
-                    <note type="work_relations" target="xxx.00140" cert="high">
-                        <p>"Patroling Barnegat" was published first in <hi rend="italic">The American</hi> in
-                            <date when="1880-06">June 1880</date>.</p>
-                    </note>
-                
             </notesStmt>
             <sourceDesc>
-                <bibl><author xml:id="ww">Whitman, Walt</author>
-                    
+                <bibl>
+                    <author>Walt Whitman</author>
                     <title>Patroling Barnegat</title>
                     <date xml:id="dat1" cert="high" notBefore="1880-05" notAfter="1880-06">1880</date>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                     <relatedItem type="document" target="wwa.00108"/>
                     <relatedItem type="text" xml:id="rel01" target="loc.05034"/>
@@ -71,8 +71,6 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2022-06-06" who="#km">updated relations encoding</change>
-            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-10-18" who="#nhg">corrected</change>
             <change when="2016-09-08" who="#nhg">proofed, added relatedItem encoding</change>
             <change when="2016-03-10" who="#nhg">updated persNames, corrected</change>
@@ -94,8 +92,8 @@
                     <l><seg xml:id="alt01">All</seg>                                 
                                     <add rend="unmarked" place="supralinear" xml:id="alt02">
 <note type="authorial" place="inline">?</note> Through</add><alt target="#alt01 #alt02" weights="0.75 0.25"/>
-                                                            Nature's gloom<del rend="overstrike">,</del><seg xml:id="alt03">—the</seg>                                 
-                                    <add rend="unmarked" place="supralinear" xml:id="alt04">—through</add><alt target="#alt03 #alt04" weights="0.5 0.5"/>
+                                                            Nature's gloom<del rend="overstrike">,</del><seg xml:id="alt03">&#8212;the</seg>                                 
+                                    <add rend="unmarked" place="supralinear" xml:id="alt04">&#8212;through</add><alt target="#alt03 #alt04" weights="0.5 0.5"/>
 
                         <lb/>wild, <del rend="overstrike">wild</del> storm,
                     </l>
@@ -126,9 +124,9 @@
                 <pb facs="loc.00254.003.jpg" xml:id="leaf002r" type="recto"/>
                 <lg type="linegroup">
                     <l>Brav</l>
-                    <delSpan spanTo="#d1" rend="overstrike"/>
+                    <del rend="overstrike">
                         <l>Amidst</l>
-                    <anchor xml:id="d1"/>
+                    </del>
                     <l>The <add rend="insertion" place="supralinear">swirling</add> wintry
                             blast, <del rend="overstrike">the</del>
 
@@ -144,9 +142,9 @@
                                                             </subst> Night, and
                         <lb/>Storm and Sea
                     </l>
-                    <delSpan spanTo="#d2" rend="overstrike"/>
+                    <del rend="overstrike">
                         <l>Alas</l>
-                    <anchor xml:id="d2"/>
+                    </del>
                 </lg>
                 <pb facs="loc.00254.004.jpg" xml:id="leaf002v" type="verso"/>
                 <pb facs="loc.00254.005.jpg" xml:id="leaf003r" type="recto"/>
