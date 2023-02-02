@@ -38,7 +38,7 @@ class TeiToEs
   end
 
   def category2
-    "In Whitman's Hand / Manuscripts"
+    "In Whitman's Hand / Loose Manuscripts"
   end
 
   # TODO check if this is a good assumption to be making
