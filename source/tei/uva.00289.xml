@@ -20,7 +20,6 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="bb">Brett Barney</persName>
                     <persName xml:id="mh">Melody S. Han</persName>
                     <persName xml:id="kc">Kirsten Clawson</persName>
                     <persName xml:id="jc">Janel Cayer</persName>
@@ -59,17 +58,13 @@
                     <author>Walt Whitman</author>
                     <title>Leaves of Grass, [ca. 1855&#8211;1856], AMs, 12 fragments on 7 leaves</title>                  
                     <idno type="callno">MSS 3829, Box 1, Folder 49</idno>
-                    <date xml:id="dat1" notBefore="1850" notAfter="1856" cert="medium">Between 1850 and 1856</date>
+                    <date xml:id="dat1" notBefore="1850" notAfter="1856" cert="medium">Before 1856</date>
                     <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
-               <relatedItem xml:id="rel1" type="text" target="upa.00006"/>
-                    <relatedItem type="document" target="wwa.00611"/>
-               <note type="project" target="#rel1">This manuscript was originally continuous with the manuscript "See there is Epicurus," from which it was later cut, presumably by Whitman.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2017-03-01" who="#bb">added relatedItem note to connect this with upa.00006</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2017-03-16" who="#nhg">edited editorial note, added work relations info</change>
             <change when="2016-07-26" who="#nhg">checked, corrected</change>
@@ -84,7 +79,7 @@
 <body>
 <pb xml:id="leaf001r" facs="uva.00289.001.jpg" type="recto"/>
    
-<head><add rend="unmarked" place="supralinear">Poem
+<head type="main"><add rend="unmarked" place="supralinear">Poem
 of</add> <hi rend="underline">Pictures</hi></head>
     
     <note type="authorial" place="top" rend="circled">Picture of one of the Greek games&#8212;wrestling, or the chariot-race, or running.</note>

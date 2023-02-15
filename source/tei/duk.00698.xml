@@ -2,6 +2,9 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00698">
+<!--   <relations>
+      <work ref="xxx.01022"/>
+   </relations>-->
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -48,16 +51,15 @@
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title>Hannah Brush, (my grandmother Whitman) had only one brother</title>
+                    <title rend="bracketed">Isaac Joseph Stephen Jesse (my grandfather)...</title>
                     <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1880">Between 1850 and 1870</date>
-                    <idno type="callno">MS 120 (Volume 120)</idno>
+                    <idno type="callno">MS 120</idno>
                     <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2018-11-01" who="#nhg">edited idno and title in bibl</change>
             <change when="2018-09-10" who="#nhg">updated image name</change>
             <change when="2017-03-30" who="#nhg">revised date and date note</change>
             <change when="2017-01-25" who="#bb">revised date and date note</change>
