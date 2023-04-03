@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="bpl.00008">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main">[There should be men's &amp;]</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor>Kenneth M. Price</editor>
+            <editor>Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="kc">Kirsten Clawson</persName>
+               <persName xml:id="nhg">Nicole Gray</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2014</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>bpl.00008</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="project" target="#dat1">The relationship of this manuscript to Whitman's published work is unknown.  There is a cluster of pinholes in the upper left corner of this document.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>[There should be men's &amp;]</title>
+               <date xml:id="dat1" cert="low" notBefore="1860" notAfter="1892">Probably around 1872</date><!--This is Grier's dating, based on the handwriting.-->
+               <idno type="callno">Whitman MSS.8</idno>
+               <orgName xml:id="bpl">The Walt Whitman Collection, Boston Public Library</orgName>
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="#nhg" when="2014-10-02">checked, corrected</change>
+         <change who="#kc" when="2014-09-09">transcribed and encoded</change>
+         <change who="#nhg" when="2014-08-07">metadata extracted and transformed from EAD file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="manuscript">
+      <body>
+         <pb xml:id="leaf001r" facs="bpl.00008.001.jpg" type="recto"/>
+         <p>There should be <hi rend="underline">men's &amp; women's</hi> schools, as well as children's</p>
+         
+         <pb xml:id="leaf001v" facs="bpl.00008.002.jpg" type="verso"/>
+</body>
+   </text>
+</TEI>

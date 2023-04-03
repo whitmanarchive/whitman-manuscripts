@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00232">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman</title> <!-- [TJ] Should title derive from first leaf or image 7? Either one would yield a different title than this one. -->
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <name>The Walt Whitman Archive Staff</name>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>
+                    <date>2010</date>
+                </edition>
+            </editionStmt>
+            
+            <publicationStmt>
+                <idno>nyp.00232</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            
+            <notesStmt>
+                <note type="project" target="#dat1"><!-- when was this manuscript written? --></note>
+                <note type="project">The following are responsible for particular readings or for changes to this file, as noted: 
+                    <persName xml:id="al">Ashley Lawson</persName> <persName xml:id="tj">Tim Jackson</persName>
+                </note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>          
+                    <title>Walt Whitman</title> <!-- [TJ] Unsure of title? Should it be "I am to-day"? -->
+                    <!--     THE DATE INFORMATION IN THE NEXT LINE WILL BE ADDED BY AN EDITOR     -->
+                    <!--<date xml:id="dat1" cert="****" when="/"> </date>-->
+                    
+                    <idno type="callno">*KLW+ (Whitman, W. Leaves of grass. 1855) Copy 4</idno> <!-- find name -->
+                    <orgName>The Henry W. and Albert A. Berg Collection of English and American Literature</orgName>
+                    <note type="project">Transcribed from our own digital image of the original manuscript.</note>
+                </bibl>
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2010-12-01" who="#tj">Checked, corrected </change>
+            <change when="2010-10-11" who="#al">Transcribed and encoded</change>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text type="manuscript">
+        
+        <body>
+            
+            <pb xml:id="leaf001r" facs="nyp.00232.001_large.jpg" type="recto"/>
+            
+            <head type="main-derived"></head>
+            
+            
+            <pb xml:id="leaf001v" facs="nyp.00232.002_large.jpg" type="verso"/> 
+            <pb xml:id="leaf002r" facs="nyp.00232.003_large.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="nyp.00232.004_large.jpg" type="verso"/> 
+            <pb xml:id="leaf003r" facs="nyp.00232.005_large.jpg" type="recto"/>
+            <pb xml:id="leaf003v" facs="nyp.00232.006_large.jpg" type="verso"/>
+            
+            <pb xml:id="leaf004r" facs="nyp.00232.007_large.jpg" type="recto"/>
+            <head type="main-derived">I am to-day</head>
+            <note place="margintop" type="authorial" rend="circled">1</note>
+            <p>
+                <delSpan spanTo="#a92" rend="hashmark"/>I am to-day, (May 31, 1861.) just forty two years of age&#8212;for I thought I would write
+                <subst>
+                    <del rend="overstrike" seq="1">this</del>
+                    <add place="supralinear" rend="unmarked" seq="2">the present</add>
+                </subst>
+                    paragraph on my birth&#8209;day.
+                <anchor xml:id="a92"/>
+            I commenced
+                <subst>
+                    <del rend="overstrike" seq="1">the book</del>
+                    <add place="supralinear" rend="insertion" seq="2"><del rend="overstrike">These</del> Leaves <!-- [TJ] Unsure if "Leaves" is deleted? -->of Grass</add>
+                </subst>
+                <del rend="overstrike">in</del> <gap reason="torn away" extent="one addition?"/><!-- [TJ]Unsure of gap? Line could be part of the deletion line from above. --> my thirty-sixth year, <del rend="overstrike">and</del>
+                by publish<subst><del rend="overwrite" seq="1">ed</del><add place="over" rend="unmarked" seq="2">ing</add></subst> their first issue. <!-- [TJ] Is mark after "issue" a slur or a deleted character? -->
+                <del rend="overstrike">Since, then</del> <del rend="overstrike"><add place="supralinear" rend="unmarked">then,</add></del>
+                <subst>
+                    <del rend="overstrike" seq="1">it has <unclear unit="chars" extent="1"/></del>
+                    <add place="supralinear" rend="unmarked" seq="2">Twice have</add>
+                </subst>
+                I <del rend="overstrike">have</del> issued
+                <subst>
+                    <del rend="overstrike" seq="1">it</del>
+                    <add place="supralinear" rend="unmarked" seq="2">then <add place="supralinear" rend="unmarked">since</add> <del rend="overstrike">
+                        again and again,</del></add>
+                </subst>
+                <del rend="overstrike"><add place="supralinear" rend="insertion">each <unclear reason="illegible" cert="medium" resp="#al">
+                time</unclear></add></del> with increased <del rend="overstrike">of</del> matter&#8212;
+                <subst>
+                        <del rend="overstrike" seq="1">this</del>
+                        <add place="supralinear" rend="insertion" seq="2">the present one</add>
+                </subst>
+                <del rend="overstrike"><add place="supralinear" rend="insertion">one</add></del> <add place="supralinear" rend="insertion"><unclear reason="illegible" unit="chars" extent="1"/></add>
+                <subst>
+                    <del rend="overstrike" seq="1">being</del>
+                    <add place="supralinear" rend="unmarked" seq="2">making</add>
+                </subst>
+                the fourth issue, with
+                <subst>
+                    <del rend="overstrike" seq="1">additional</del>
+                    <add place="supralinear" rend="insertion" seq="2">the latest</add>
+                </subst>
+                increase.  I am to&#8209;day, (May 31, 1861.) just forty&#8209;two years old&#8212;for I <del rend="overstrike">thought I would</del>
+                write this
+                <subst>
+                    <del rend="overstrike" seq="1">paragraph</del>
+                    <add place="supralinear" rend="insertion" seq="2">introduction</add>
+                </subst>
+                on my birth&#8209;day, <add place="supralinear" rend="insertion">&#8212;after looking over what <add place="supralinear" 
+                    rend="insertion">I have</add><unclear reason="illegible" cert="low" resp="#al">accomplished</unclear> <del rend="overstrike">my <gap
+                        reason="illegible" extent="one word"/>.</del></add> <add place="supralinear" rend="insertion"><del rend="overstrike">But 
+                        Though</del><subst><del rend="overwrite" seq="1">s</del><add place="over" rend="overwrite" seq="2">S</add></subst> far so well, 
+                            but</add> The most and the best,
+                <subst>
+                    <del rend="overstrike" seq="1">have</del>
+                    <add place="supralinear" rend="insertion" seq="2">of <del rend="overstrike">my</del><add place="supralinear" rend="insertion">
+                        the</add> Poem <del rend="overstrike">has</del> <add place="supralinear" rend="insertion">I perceive</add> remains</add>
+                </subst>  
+                <!-- [TJ] Could the previous <subst> be broken into two as follows?    <subst>
+                    <del rend="overstrike" seq="1">have</del>
+                    <add place="supralinear" rend="insertion" seq="2">of <del rend="overstrike">my</del><add place="supralinear" rend="insertion">
+                    the</add> Poem</add></subst> 
+                    <subst><del rend="overstrike" seq="1">yet to be</del> <add rend="unmarked" place="supralinear">has</del> <add place="supralinear" rend="insertion">I perceive</add> remains</add>
+                    </subst>  -->
+                <add place="supralinear" rend="unmarked">un</add>written,
+                <subst>
+                    <del rend="overstrike" seq="1">I consider <del rend="overstrike"><add place="supralinear" rend="insertion">to&#8209;day
+                    </add></del>it as</del>
+                    <add place="supralinear" rend="unmarked" seq="2">and is</add>
+                </subst>
+                the work of my life, yet to be done.
+            </p>
+            
+            <pb xml:id="leaf004v" facs="nyp.00232.008_large.jpg" type="verso"/>
+            
+            <ab><delSpan rend="hashmark" spanTo="#a167"/>men, which stands forever.</ab>  
+            <ab>This is my way, and this is America's</ab><anchor xml:id="a167"/>
+            
+            <p>
+                <del rend="overstrike">All the</del> I do not <add place="supralinear" rend="insertion">purpose <add place="supralinear"
+                    rend="insertion"><del rend="overstrike">seek</del> <del rend="overstrike"><add place="supralinear" rend="insertion">here</add></del> 
+                    to</add></add> school
+                <subst>
+                    <del rend="overstrike" seq="1">you</del>
+                    <del rend="overstrike"><add place="supralinear" rend="unmarked" seq="2">any one</add></del>
+                    <add place="supralinear" rend="unmarked" seq="3"><subst><del rend="overstrike" seq="1">a</del><add place="supralinear" 
+                        rend="unmarked" seq="2">any</add></subst> person</add>
+                </subst>
+                in virtues, nor prove anything
+                <subst>
+                    <del rend="overstrike" seq="1">to you</del>
+                    <add place="supralinear" rend="insertion" seq="2">to the intellect,</add>
+                </subst>
+                nor sing
+                <subst>
+                    <del rend="overstrike" seq="1"><unclear reason="illegible" cert="low" resp="#al">any</unclear>loves</del>
+                    <add place="supralinear" rend="unmarked" seq="2"><del rend="overstrike"><unclear reason="illegible" cert="low" 
+                        resp="#al">anything</unclear> <del rend="overstrike"><add place="supralinear" rend="unmarked">my</add></del></del> amours</add>
+                </subst>
+                <subst>
+                    <del rend="overstrike" seq="1">and</del>
+                    <add place="supralinear" rend="insertion" seq="2">or</add>
+                </subst>
+                romances, nor <del rend="overstrike"><add place="supralinear" rend="insertion">the</add></del>
+                <subst>
+                    <del rend="overstrike" seq="1">the</del>
+                    <del rend="overstrike"><add place="supralinear" rend="insertion" seq="2">any</add></del>
+                </subst>
+                <del rend="overstrike"><add place="supralinear" rend="insertion">various</add></del> <add place="supralinear" rend="unmarked">nor 
+                the</add> epics of land or sea.
+                <subst>
+                    <del rend="overstrike" seq="1">Those</del>
+                    <add place="supralinear" rend="insertion" seq="2">They</add>
+                </subst>
+                to their work, <add place="supralinear" rend="insertion">(which is <subst><del rend="overstrike" seq="1">good&#8212;</del><add 
+                    place="supralinear" rend="unmarked" seq="2">great&#8212;</add>
+                </subst>)</add>&#8212;
+                <subst>
+                    <del rend="overstrike" seq="1">mine</del>
+                    <del rend="overstrike"><add place="supralinear" rend="insertion" seq="2">I</add></del>
+                    <add place="supralinear" rend="insertion" seq="3">mine</add>
+                </subst>
+                to mine. <delSpan rend="hashmark" spanTo="#a214"/>As 
+                    <subst>
+                        <del rend="overstrike" seq="1">the</del>
+                        <add place="supralinear" rend="insertion" seq="2">one</add>
+                    </subst>
+                undraped, <del rend="overstrike">sees</del> shows back <add place="supralinear" rend="insertion">an apparition</add> from 
+                    <subst>
+                        <del rend="overstrike" seq="1">the</del>
+                        <add place="supralinear" rend="insertion" seq="2">a</add>
+                    </subst>
+                    mirror&#8212;shows not the face merely, but the whole form, from top to<anchor xml:id="a214"/>
+            </p>
+            
+            <pb xml:id="leaf005r" facs="nyp.00232.009_large.jpg" type="recto"/>
+            
+            <ab><delSpan rend="hashmark" spanTo="#a229"/>Do you, perusing them, dwell upon them with pleasure and profit?  Then try these chants<anchor xml:id="a229"/></ab>
+            
+            <pb xml:id="leaf005v" facs="nyp.00232.010_large.jpg" type="verso"/> 
+            
+            <p>
+                I commenced Leaves of Grass in my thirty&#8209;sixth year, by publishing their first issue. <del rend="overstrike">Twice</del> <add
+                    place="supralinear" rend="insertion"><subst><del rend="overstrike" seq="1">Three</del>
+                        <add place="supralinear" rend="unmarked" seq="2">Four</add></subst> times</add> have I issued them since, each time with    
+                successive increase; this being the 
+                <subst>
+                    <del rend="overstrike" seq="1">fourth</del>
+                    <add place="supralinear" rend="insertion" seq="2">fifth</add>
+                </subst>
+                issue.  I am to&#8209;day, (May 31, 18<subst><del rend="overwrite" seq="1">6</del><add place="over" rend="overwrite" seq="2">7</add>
+                </subst>0)<!-- [TJ] Unsure if there is a nine beneath the zero? --> <del rend="overstrike">just</del> 
+                <subst>
+                    <del rend="overstrike" seq="1">forty-two</del>
+                    <add place="supralinear" rend="unmarked" seq="2">fifty-one</add>
+                </subst>
+                years old; for I write
+            </p>
+            
+            <pb xml:id="leaf006r" facs="nyp.00232.011_large.jpg" type="recto"/>
+            
+            <note type="unk" place="margintop">486</note>
+            <note type="unk" place="marginright">3</note>
+            <p>
+                The paths to the house are <del rend="overstrike">all</del> made&#8212;but where is the house itself? At most, <del rend="overstrike">
+                    it is</del> only indicated or touched.
+            </p>
+            <p>
+            Nevertheless, as while we live some dream will play its part, I keep it in my plan of work ahead to yet fill up these <hi rend="underline">
+            Whisperings</hi> <add place="supralinear" rend="insertion">(if I live, and have <unclear reason="illegible" cert="low" resp="#al">
+            luck'd</unclear><!-- [TJ] suggest "luck" for "luck'd" --></add> somehow proportionate to their original design.  <del>If I live, <unclear reason="illegible" cert="low" 
+                resp="#al">then</unclear>,</del> &#38; <del rend="overstrike">have luck, they may then additionally appear.</del>  If <add 
+                    place="supralinear" rend="insertion">it should turn out</add> otherwise, (which is most likely, dear Reader,) <del 
+                        rend="overstrike">and if this Notice prove, from me to you, our final interview, (though, as to that, who shall dare undertake 
+                        to tell?)</del> I hereby bequeath to you <add place="supralinear" rend="insertion">&#8212;&#38; that, no doubt, is <del 
+                            rend="overstrike">far</del> <add place="supralinear" rend="insertion">much</add>the best&#8212;</add> to form &#38; breathe
+                <del rend="overstrike">such</del> <subst><del rend="overwrite" seq="1">w</del> <add place="over" rend="overwrite">W</add></subst>hisperings for yourself, in <add place="supralinear">heart&#8209;felt</add> meditations fitter far 
+                than words. Or, rather, let me say, O friend, unless such meditations come, at reading any page or pages of our Chant, <!-- [TJ] A semicolon or a blemish after "Chant"? --> no matter 
+                which, the Chant, the Book, is really not for you, &#38; has not done its office.
+            </p>
+            
+            <pb xml:id="leaf006v" facs="nyp.00232.012_large.jpg" type="verso"/>
+            
+            <note type="unk" place="margintop">487</note>
+            <note type="unk" place="marginright">7</note>
+            <p>
+                Need we to mark, <del rend="overstrike"><add place="supralinear" rend="unmarked">finally</add></del> in this, the only true communion
+                with our Book, which we have made, purposed, indeed, <del rend="overstrike"><add place="supralinear" rend="insertion">we finally 
+                confess,</add></del> unlike all others, &#38; not <add place="supralinear" rend="insertion">we finally confess</add> for literary
+                satisfactions, <!-- [TJ] Could the word be "satisfactious"? --> ends or ornaments;&#8212;made, first, to be the Chant, the Book of Universal Life, and of the Body.&#8212;and then, and 
+                just as much, to be the Chant of Universal Death, and of the Soul.
+            </p>
+            <delSpan rend="hashmark" spanTo="#a284"/>
+            <p>
+                And now, with a remaining page or two, wherein we would pourtray, at least in pale reflection, the passionate, flush'd 
+                heart&#8209;visage of one that, having offer'd <subst><del rend="overwrite" seq="1">s</del><add place="over" rend="overwrite" seq="2">S</add></subst>
+                alutation, &#38; join'd &#38; journey'd on awhile in close companionship&#38;has now to resign you, Dearest Reader, and, with mingled 
+                cheer &#38; sadness, bid Farewell.</p> 
+            <ab>W.W.</ab>
+            <anchor xml:id="a284"/>
+            
+            <pb xml:id="leaf007r" facs="nyp.00232.013_large.jpg" type="recto"/>
+            <note type="unk" place="marginright">6</note>
+            <p>
+                <add place="supralinear" rend="insertion">So that</add> In the
+                <subst>
+                    <del rend="overstrike" seq="1">work</del>
+                    <add place="supralinear" rend="unmarked" seq="2">poems</add>
+                </subst>
+                , taken as a <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#al">I</unclear></del> whole, <add place="supralinear"
+                    rend="insertion">unquestionably</add> appears a great <subst><del rend="overwrite" seq="1">p</del><add place="over" rend="overwrite" seq="2">
+                    P</add></subst>erson, entirely modern at least as great as any <del rend="overstrike"><unclear reason="illegible" cert="low" 
+                        resp="al">portrait</unclear></del> thing in the
+                <subst>
+                    <del rend="overstrike" seq="1">antique</del>
+                    <add place="supralinear" rend="unmarked" seq="2">Homeric</add>
+                </subst>                
+                or Shakesperian characters, <add place="supralinear" rend="unmarked"> <del rend="overstrike">a</del> Person</add> with <del 
+                    rend="overstrike">all</del> the
+                <subst>
+                    <del rend="overstrike" seq="1">pride</del>
+                    <add place="supralinear" rend="unmarked" seq="2">free courage</add>
+                </subst>
+                of Achilles, <del rend="overstrike">all</del> the craft of Ulysses the attributes <add place="supralinear" rend="unmarked">even</add>
+                of 
+                <subst>
+                    <del rend="overstrike" seq="1">Homer's</del>
+                    <add place="supralinear" rend="unmarked" seq="2">the Greek</add>
+                </subst>
+                deities, <add place="supralinear" rend="insertion">majesty</add> passion, <del rend="overstrike">mystery,</del> temper, amativeness,
+                Romeo, Lear, Antony, immense 
+                <subst>
+                    <del rend="overstrike" seq="1">pride</del>
+                    <add place="supralinear" rend="unmarked" seq="2">self-esteem</add>
+                </subst>
+                , but after democratic forms, measureless love the old eternal elements of first-class humanity yet <del rend="overstrike">in a</del> 
+                worked over, <add place="supralinear" rend="insertion">cast</add> in a new mould,
+                <subst>
+                    <del rend="overstrike" seq="1">in</del>
+                    <add place="supralinear" rend="unmarked" seq="2">and</add>
+                </subst>
+                here chanted or any <unclear reason="illegible" cert="low" resp="al">How</unclear> put down	&#38; stated <add place="supralinear" 
+                    rend="insertion"><unclear reason="illegible" cert="low" resp="#al">in the</unclear> invariable reference</add>
+                <subst>
+                    <del rend="overstrike" seq="1">for the service of America now &#38; hence forth</del>
+                    <add place="supralinear" rend="unmarked" seq="2"><del rend="overstrike">for applicability</del> to the United States &#38; the
+                    occasions of to-day</add>
+                </subst> 
+                &#38; the future
+             </p>
+
+            <pb xml:id="leaf007v" facs="nyp.00232.014_large.jpg" type="verso"/>
+            
+            <note type="unk" place="margintop">6</note> <!-- [TJ] Could this be a zero? -->
+            
+            <p>
+                Arouse<del rend="overstrike">! Arouse</del>, <del rend="overstrike">dear</del> friend! for of <hi rend="underline">suggestiveness</hi>
+                I bring
+                <subst>
+                    <del rend="overstrike" seq="1">the song</del>
+                    <add place="supralinear" rend="insertion" seq="2">you recitative</add> 
+                </subst>
+                out of the miracles around you <del rend="overstrike">every day</del>&#8212;
+                <subst>
+                    <del rend="overstrike" seq="1">not</del>
+                    <add place="supralinear" rend="unmarked" seq="2">naught</add>
+                </subst>
+                made <del rend="overstrike"><add place="supralinear" rend="insertion">so much</add></del> by me for you, but <add place="supralinear"
+                    rend="insertion">plainly</add> hinted to be made by you <add place="supralinear" rend="insertion">yourself</add> by robust exercise.
+                The pages of the lesson having filled, to train myself <unclear reason="illegible" unit="chars" extent="1"></unclear> to you I
+                <subst>
+                    <del rend="overstrike" seq="1">here</del>
+                    <add place="supralinear" rend="unmarked" seq="2">now</add>
+                </subst>
+                resign them, with all their blots, to <unclear reason="illegible" cert="low" resp="#al">image</unclear> back the process for your use.
+            </p>
+            
+            <pb xml:id="leaf008r" facs="nyp.00232.015_large.jpg" type="recto"/>
+            <pb xml:id="leaf009v" facs="nyp.00232.016_large.jpg" type="verso"/> 
+            
+            <note type="unk" place="margintop" rend="circled">some good points</note>
+            
+            <p>
+                The theory of the poem involves <add place="supralinear" rend="insertion">the expression</add> both <add place="supralinear" 
+                    rend="insertion"><del rend="overstrike">of the highest</del> hottest, wildest</add> passion <add place="supralinear" 
+                        rend="insertion">bravest, sturdiest</add> character,
+                <subst>
+                    <del rend="overstrike" seq="1">but</del>
+                    <add place="supralinear" rend="unmarked" seq="2">not, however</add>
+                </subst>
+                <subst>
+                    <del rend="overstrike" seq="1">presented at</del>
+                    <add place="infralinear" rend="unmarked" seq="2">illustrated <del rend="overstrike">all</del></add>
+                </subst>
+                <del rend="overstrike">after none of the types hitherto</del> of <del rend="overstrike">any of</del> the <del rend="overstrike">great
+                    <add place="supralinear" rend="insertion">and accepted and great</add> bards.  Nor Prometheus</del> after
+                <subst>
+                    <del rend="overstrike" seq="1">none of the well known</del>
+                    <add place="supralinear" rend="unmarked" seq="2">any <!-- [TJ] Looks like an insertion mark? Should the mark itself be noted? -->of<del rend="overstrike">no</del> the well known</add>
+                </subst>
+                type<subst><del rend="overwrite" seq="1">s</del><add place="over" rend="overwrite" seq="2">s</add></subst>
+                <subst>
+                    <del rend="overstrike" seq="1">the</del>
+                    <add place="supralinear" rend="unmarked" seq="2">the <del rend="overstrike">no</del></add><!-- [TJ] Suggest for "no": "n"<unclear reason="illegible"/> -->
+                </subst>
+                identity of the great bards, <add place="supralinear" rend="unmarked">old or modern.</add> <del rend="overstrike">The illustrious
+                    epic &#38; <unclear reason="illegible" cert="low" resp="#al">biographics</unclear></del> here. Nor Prometheus, nor Agamemnon,
+                <del rend="overstrike">No</del> nor <add place="inline" rend="unmarked">A</add>Eneas, nor Hamlet, <del rend="overstrike">N</del> nor Iago, nor Antony, nor any of the Dantes
+                scenes or person's, <del rend="overstrike">nor any epic of events,</del> nor ballad of lord or lady, nor Lucreti<subst><del rend="overwrite" seq="1">us</del><add rend="overwrite" place="over" seq="2">an</add></subst> <del 
+                    rend="overstrike">lof</del> philosophy, nor any
+            </p>
+            
+           
+            
+        </body>
+    </text>
+</TEI>
+
+
+
+

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00239">   
+    <teiHeader>        
+        <fileDesc>            
+            <titleStmt>
+                <title level="m" type="main">Albion F Hubbard</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <name>The Walt Whitman Archive Staff</name>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>            
+            <editionStmt>
+                <edition>
+                    <date>2012</date>
+                </edition>
+            </editionStmt>            
+            <publicationStmt>
+                <idno>nyp.00239</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+            </publicationStmt>            
+            <notesStmt>
+                <note type="project" target="leaf001v">The manuscript leaf is mounted on a backing sheet, making the verso inaccessible.</note>
+                <note type="project" target="#dat1">This manuscript was likely composed before or just after June 20, 1863. Whitman notes here that soldier Albion F. Hubbard is healing, but at the end of the paragraph, he records Hubbard's death date as June 20, 1863. The notes on Hubbard's condition may have been recorded before or just after Hubbard's death date.</note>
+                <note type="project">The following are responsible for particular readings or for changes to this file, as noted:
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="al">Ashley Lawson</persName>
+                    <persName xml:id="tj">Tim Jackson</persName>
+                </note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>          
+                    <title>A Series of Washington Hospital Notes. Written at the bedsides of wounded soldiers. Washington, 1863&#8211;1865.</title> 
+                    <date xml:id="dat1" cert="high" when="1863-06">1863</date>                    
+                    <orgName xml:id="nyp">The Oscar Lion Papers, 1914&#8211;1955, New York Public Library, New York, N.Y.</orgName>
+                    <note type="project">Transcribed from digital images of the original.</note>
+                </bibl>
+            </sourceDesc>            
+        </fileDesc>      
+        <revisionDesc>
+            <change when="2012-05-18" who="#el">removed brackets from title, updated note about verso</change>
+            <change when="2012-03-01" who="#al">revised</change>
+            <change when="2011-08-31" who="#el">blessed</change>
+            <change when="2010-12-10" who="#tj">checked</change>
+            <change when="2010-09-09" who="#al">transcribed; encoded</change>
+        </revisionDesc>        
+    </teiHeader>
+    
+    <text type="manuscript">
+        
+        <body>            
+            <pb xml:id="leaf001r" facs="nyp.00239.001.jpg" type="recto"/>
+           
+            <ab>Albion F Hubbard</ab>
+            <ab>w<unclear reason="damage" cert="high" resp="#el">a</unclear>rd C bed 7.</ab>
+            <ab>Co F 1st Mass Cavalry</ab>
+            
+            <milestone unit="undeclared" rend="horbar-short-left"/>
+            
+            <ab>&#8212;been in the service one year</ab>
+            
+            <milestone unit="undeclared" rend="horbar-short-left"/>
+            
+            <ab>&#8212;has <add place="supralinear" rend="insertion">had</add> two carbuncles one on arm, one on <choice><sic>ancle</sic><corr>ankle</corr></choice>, <add place="supralinear" rend="insertion">healing at present yet</add> great holes left, stuffed with rags</ab>
+            <ab>&#8212;worked on a farm 8 years before enlisting</ab>
+            
+            <add place="inline" rend="unmarked"><ab>&#8212;wrote letter for him to the man he lived with</ab></add>
+            
+            <add place="inline" rend="unmarked"><ab>died <subst><del rend="overwrite" seq="1"><unclear reason="illegible"/></del><add place="over" rend="overwrite" seq="2">J</add></subst>une 20th ‘63</ab></add>
+            
+            <milestone unit="undeclared" rend="horbar-short-left"/>
+            
+            <milestone unit="undeclared" rend="horbar-full"/>
+            
+            <pb xml:id="leaf001v" type="verso"/> 
+            
+        </body>
+    </text>
+</TEI>
+
+
+
+

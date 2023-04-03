@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<!-- USE THE OBJECT ID FOR THE VALUE OF @xml:id IN THE FOLLOWING ELEMENT. FOR EXAMPLE:
+     xml:id="zzz.00001"
+     -->
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00373">
+
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m" type="main">Farewell My Brethren</title>
+        <title level="m" type="sub">a machine readable transcription</title>
+        <author>Walt Whitman</author>
+        <editor>Kenneth M. Price</editor>
+        <editor>Ed Folsom</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>The Walt Whitman Archive Staff</name>
+        </respStmt>
+        <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+        <sponsor>University of Iowa</sponsor>
+        <funder>The National Endowment for the Humanities</funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2010</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <idno>loc.00373</idno>
+        <distributor>The Walt Whitman Archive</distributor>
+        <address>
+          <addrLine>Center for Digital Research in the Humanities</addrLine>
+          <addrLine>319 Love Library</addrLine>
+          <addrLine>University of Nebraska-Lincoln</addrLine>
+          <addrLine>P.O. Box 884100</addrLine>
+          <addrLine>Lincoln, NE 68588-4100</addrLine>
+        </address>
+        <availability>
+          <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+
+        <note type="project" target="#dat1"> </note>
+
+        <note type="project">The following are responsible for particular readings or for changes to this file, as noted: 
+          <!--     THE VALUE OF @xml:id  IN THE FOLLOWING ELEMENT SHOULD BE YOUR INITIALS, IN LOWER CASE. FOR THIS ELEMENT, *DO NOT* PUT A 
+                   POUND SIGN BEFORE YOUR INITIALS. EXAMPLE: xml:id="bb" -->
+          <persName xml:id="tj">Tim Jackson</persName>
+          <persName xml:id="al">Ashley Lawson</persName>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Walt Whitman</author>
+          
+          <title><!-- TITLE BY WHICH THIS OBJECT IS IDENTIFIED AT THE REPOSITORY --></title>
+          <!--     THE DATE INFORMATION IN THE NEXT LINE WILL BE ADDED BY AN EDITOR     -->
+          <!--<date xml:id="dat1" cert="****" when="/"> </date>-->
+          
+          <idno type="callno">MSS45443
+          </idno>
+          <orgName>The Thomas Biggs Harned Collection of the Papers of Walt Whitman: A Register of His Papers in the Library of Congress, 1842-1937</orgName>
+
+          <note type="project">Transcribed from digital images of the original.</note>
+        </bibl>
+
+      </sourceDesc>
+    </fileDesc>
+
+    <revisionDesc>
+      <!--   
+        SUPPLY THE DATE AND YOUR INITIALS IN THE FOLLOWING LINE. FOR THE DATE, USE THIS FORMAT:
+        YYYY-MM-DD. 
+        FOR YOUR INITIALS, NOTE THAT THE POUND SIGN (#) SHOULD BE RETAINED, LIKE SO: 
+        who="#bb" 
+      -->
+      <change when="2010-11-22" who="#al">Checked</change>
+      <change when="2010-09-21" who="#tj">transcribed; encoded</change>
+    </revisionDesc>
+  </teiHeader>
+
+  <text type="manuscript">
+    <body>
+      <div1 type="poem">
+      <!--    THE VALUE OF @facs IN THE FOLLOWING ELEMENT SHOULD BE OJECT ID + .001 + .jpg  EXAMPLE:
+              zzz.00001.001.jpg  -->
+        <pb xml:id="leaf001r" facs="loc.00373.001.jpg" type="recto"/>
+        <head type="main-derived">Farewell my brethren</head>
+       <delSpan spanTo="A10"/>
+        <l>Farewell my brethren</l>
+        <l>&#8212;farewell O earth &#38; sky</l>
+        <l>Farewell ye distant waters</l>
+        <milestone unit="unidentified" rend="horbar-short-left"/>
+          <ab>The tree prophecies</ab>
+        <milestone unit="unidentified" rend="horbar-short-left"/>
+        <ab>The time has come for me to depart</ab>
+        <ab>I have served my purpose</ab>
+        <ab>(<hi rend="underline">Evolution</hi>)</ab>
+        <ab>A race of great men is to now appear</ab>
+        <ab>See to it that they too fill their place as I have mine</ab>
+        <anchor xml:id="A10"/>
+        <note type="editorial" resp="unk" place="marginbottom">319</note>
+        
+        <div2 type="prose">
+        <pb xml:id="leaf001v" facs="loc.00373.002.jpg" type="verso"/>
+          <head type="main-derived">more broad &#38; simple</head>
+          <ab>more broad &#38; simple. That tragic curtain <unclear reason="illegible" cert="low" resp="tj"><del rend="overstrike">un</del></unclear> strange. <subst><del rend="overstrike" seq="1">expected not</del> <add rend="unmarked" place="supralinear" seq="2">undreamed of</add></subst> <del rend="overstrike">of</del> <unclear reason="illegible" cert="low" resp="tj"><del rend="overstrike">of</del></unclear> <del rend="overstrike">fell</del> suddenly fell upon the <del rend="overstrike">New</del> closing <del rend="overstrike">the old, closing</del> the war, closing the old spirit, closing all the chances of Feudalism in politics.</ab>
+          <ab>Literature&#8212;<add rend="unmarked" place="supralinear">&#8212;<del rend="overstrike"><unclear reason="illegible" cert="low" resp="tj">Serfs</unclear></del></add> even in Theology. Thus <add rend="unmarked" place="inline"><del rend="overstrike">As</del></add> <add rend="unmarked" place="supralinear">as by great grim <subst><del rend="overstrike" seq="1"><gap reason="illegible"/></del><add place="supralinear" rend="unmarked" seq="2">age defying</add></subst> milestones</add> <!-- ask for re-shoot? --> <del rend="overstrike">has to <gap></gap> the development of man <add rend="insertion" place="supralinear">&#38; <del rend="overstrike">Nations</del></add> is marked, as to definite events&#8212;history,</del> <add rend="unmarked" place="supralinear">or termini</add> <subst><del rend="overstrike">is</del> <add rend="unmarked" place="supralinear">are</add></subst> marked the develop<gap></gap> <add rend="unmarked" place="supralinear"><unclear reason="illegible" cert="medium" resp="al">progress</unclear></add> of man and Nations&#8212;the new starting points in the eternal strides of God's creative <unclear reason="illegible" cert="low" resp="al">thoughts</unclear></ab>
+          <ab><!-- This is written sideways -->Thus by great great grim <add rend="insertion" place="supralinear">definite</add> milestones or age-defying termini of events of war &#38; death</ab>
+        </div2>
+        </div1>
+    </body>
+  </text>
+</TEI>

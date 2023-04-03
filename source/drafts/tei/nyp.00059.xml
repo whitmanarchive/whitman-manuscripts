@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00059">
+   <relations>
+      <work ref="xxx.00393" cert="absolute">
+         <p>This manuscript, a tribute to General Philip Sheridan, is a signed, but undated,
+            holograph poem. The unusually clean nature of this manuscript suggests that it may
+            have been a gift copy.</p>
+      </work>
+   </relations>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main">Interpolation Sounds</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="jh">John Havard</persName>
+               <persName xml:id="fl">Farrah Lehman</persName>
+               <persName xml:id="km">Kenneth M. Price</persName>
+               <persName xml:id="lr">Lisa Renfro</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2004</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>nyp.00059</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="project" target="dat1">This manuscript is undated, but must have been composed between <date when="1888/1891">1888, the year of General Sheridan's death, and 1891</date>, the year that "Interpolation Sounds" appeared in <hi rend="italic">Leaves of Grass</hi>.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>Interpolation Sounds</title>
+               <date cert="high" value="1888/1891" xml:id="dat1">About 1888</date>
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#jh" when="2005-06-04">Encoded</change>
+         <change who="#jh" when="2005-06-04">Transcribed</change>
+         <change who="#fl" when="2006-06-08">Checked</change>
+         <change who="#km" when="2006-06-16">Edited</change>
+         <change who="#lr" when="2006-08-01">Blessed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="nyp.00059.001" xml:id="leaf001r" type="recto"/>
+         <lg
+              >
+            <head type="main-authorial" rend="underline">Interpolation Sounds.</head>
+            <l>Over and through the burial chant,</l>
+            <l>Organ and solemn service, sermon, bending priests,</l>
+            <l>
+               To me come interpolation sounds not in the show—<lb/>
+               plainly to me crowding up the aisle, and<lb/>
+               from the window,<lb/>
+            </l>
+            <l>
+               Of sudden battle's hurry and harsh noises—war's,<lb/>
+               war's grim game to sight and ear in earnest;<lb/>
+            </l>
+            <l>
+               The scout call'd up and forward—the General mounted,<lb/>
+               and his aides around him.<subst>
+                     <rdg varSeq="1">
+                        <add rend="unmarked" place="inline">—</add>
+                     </rdg>
+                  </subst>the new‑brought<lb/>
+               ward—the instantaneous order issued,<lb/>
+            </l>
+            <l>
+               The rifle crack—the cannon thud—the rushing<lb/>
+               forth of men from their tents,<lb/>
+            </l>
+            <l>
+               The clank of cavalry—the strange celerity of<lb/>
+               forming ranks—the slender bugle note,<lb/>
+            </l>
+            <l>
+               The sound of horses' hoofs departing—saddles,<lb/>
+               arms, accoutrements,<lb/>
+            </l>
+            <closer>
+               <signed>Walt Whitman</signed>
+            </closer>
+         </lg>
+      </body>
+   </text>
+</TEI>

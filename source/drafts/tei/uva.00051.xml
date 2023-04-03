@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00051">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main" rend="bracketed">Embers of Ending Day</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="ms">Melody S. Han</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2003</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>uva.00051</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="project" target="leaf001v">Verso of manuscript leaf is an address and short letter in Whitman's hand. He has crossed out the entire thing with a single line.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>Papers of Walt Whitman</title>
+               <idno type="callno">MSS 3829</idno> 
+               <orgName xml:id="uva">Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
+
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#ms" when="2004-01-04">Encoded</change>
+         <change who="#ms" when="2004-01-04">Transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="uva.00051.002" xml:id="leaf001r" type="recto"/>
+         <div1 type="poem_notes">
+
+            <ab>
+               Embers of 
+<add rend="insertion" place="supralinear">day-
+<subst>
+                        <rdg varSeq="1">fire</rdg> 
+                        <rdg varSeq="2">
+                           <add rend="unmarked" place="supralinear">? light</add> 
+                        </rdg>
+                     </subst>
+                  </add>
+                  <subst>
+                     <rdg varSeq="1">Ending<del rend="overstrike">Day</del>
+                     </rdg>
+                     <rdg varSeq="2"> 
+                        <add rend="unmarked" place="infralinear">?smouldering</add> 
+                     </rdg>
+                  </subst>
+               <lb/>
+            </ab>
+
+            <ab>
+               Embers of day: fires smouldering<lb/>
+            </ab>
+
+         </div1>
+
+         <pb facs="uva.00051.001" xml:id="leaf001v" type="verso"/>
+
+
+      </body>
+   </text>
+</TEI>

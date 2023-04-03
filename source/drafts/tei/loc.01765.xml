@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01765">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title level="m" type="main">E Pluribus Unum</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <name>The Walt Whitman Archive Staff</name>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>
+                    <date>2010</date>
+                </edition>
+            </editionStmt>
+            
+            <publicationStmt>
+                <idno>loc.01765</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+                </availability>
+            </publicationStmt>
+            
+            <notesStmt>
+                <note type="project" target="#dat1"><!-- when was this manuscript written? --></note>
+                <note type="project">The following are responsible for particular readings or for changes to this file, as noted: 
+                    <persName xml:id="al">Ashley Lawson</persName> <persName xml:id="tj">Tim Jackson</persName>
+                </note>
+            </notesStmt>
+            
+            
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>          
+                    <title>E Pluribus Unum</title> 
+                    <!--     THE DATE INFORMATION IN THE NEXT LINE WILL BE ADDED BY AN EDITOR     -->
+                    <!--<date xml:id="dat1" cert="****" when="/"> </date>-->
+                    
+                    <idno type="callno">MSS18630</idno> <!-- find name -->
+                    <orgName>The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839-1919, Library of Congress, Washington, DC</orgName>
+                    <note type="project">Transcribed from our own digital image of the original manuscript.</note>
+                </bibl>
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2011-04-25" who="#tj">Checked, corrected</change>
+            <change when="2011-01-31" who="#al">Transcribed and encoded</change>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text type="manuscript">
+        
+        <body>
+            
+            <pb xml:id="leaf001r" facs="loc.01765.001_large.jpg" type="recto"/>
+            
+            <head type="main-authorial">E Pluribus Unum.</head>
+            
+            <milestone unit="undeclared" rend="horbar-full"/>
+            
+            <ab>Northern lights"&#8212;<add place="supralinear" rend="insertion">fitful</add> flashes <!-- [TJ] Google Books search reveals "fitful flashes" as quote by several people -->and <add place="supralinear" rend="unmarked">hectic</add> night of the <add place="infralinear" rend="unmarked">swift
+            coruscations</add></ab>
+            
+            <milestone unit="undeclared" rend="horbar-full"/>
+            
+            <ab>"coals of fire"</ab>
+            <note type="authorial" place="marginright" rend="circled">fleeces of silver and gold in the sky</note> 
+            
+            <milestone unit="undeclared" rend="horbar-full"/>
+            
+            <ab>The idea of that <add place="supralinear" rend="insertion">in religious chants (pleasure or what not)</add><!-- [TJ] Unsure of order of this add, if "(pleasure or what not)" should be first? --> which hastens to steadily and indefinitely expand itself, and
+            <subst>
+                <del rend="overstrike" seq="1">ascend</del>
+                <add place="supralinear" rend="unmarked" seq="2">beget</add>
+            </subst>
+                the future of itself, and ascend and purify itself.&#8212;as distinguished from that which merely flashes a <del rend="overstrike">f</del> moment, and then descends and expires</ab>
+            
+            <milestone unit="undeclared" rend="horbar-full"/>
+            
+            <ab>
+                <add place="supralinear" rend="unmarked">As of</add> Columbus starting out
+                <subst>
+                    <del rend="overstrike" seq="1">to</del>
+                    <add place="supralinear" rend="unmarked" seq="2">with the object of</add>
+                </subst>
+                finding the way to Old Asia&#8212;but fails in <del rend="overstrike">f</del>his object&#8212;but finds a new world, America<add place="supralinear" rend="insertion">&#8212;i.e. our purposes are futile
+                yet result in great results</add>
+            </ab>
+            
+            <pb xml:id="leaf001v" facs="loc.01765.002_large.jpg" type="verso"/> 
+            
+        </body>
+    </text>
+</TEI>
+
+
+
+

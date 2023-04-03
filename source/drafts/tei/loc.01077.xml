@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
+<!-- USE THE OBJECT ID FOR THE VALUE OF @xml:id IN THE FOLLOWING ELEMENT. FOR EXAMPLE:
+     xml:id="zzz.00001"
+     -->
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01077"> 
+
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m" type="main">curiously writes itself</title>
+        <title level="m" type="sub">a machine readable transcription</title>
+        <author>Walt Whitman</author>
+        <editor>Kenneth M. Price</editor>
+        <editor>Ed Folsom</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>The Walt Whitman Archive Staff</name>
+        </respStmt>
+        <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+        <sponsor>University of Iowa</sponsor>
+        <funder>The National Endowment for the Humanities</funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2010</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <idno>loc.01077</idno>
+        <distributor>The Walt Whitman Archive</distributor>
+        <address>
+          <addrLine>Center for Digital Research in the Humanities</addrLine>
+          <addrLine>319 Love Library</addrLine>
+          <addrLine>University of Nebraska-Lincoln</addrLine>
+          <addrLine>P.O. Box 884100</addrLine>
+          <addrLine>Lincoln, NE 68588-4100</addrLine>
+        </address>
+        <availability>
+          <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+
+        <note type="project" target="#dat1"> </note>
+
+        <note type="project">The following are responsible for particular readings or for changes to this file, as noted: 
+          <!--     THE VALUE OF @xml:id  IN THE FOLLOWING ELEMENT SHOULD BE YOUR INITIALS, IN LOWER CASE. FOR THIS ELEMENT, *DO NOT* PUT A 
+                   POUND SIGN BEFORE YOUR INITIALS. EXAMPLE: xml:id="bb" -->
+          <persName xml:id="tj">Tim Jackson</persName>
+          <persName xml:id="al">Ashley Lawson</persName>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Walt Whitman</author>
+          
+          <title><!-- TITLE BY WHICH THIS OBJECT IS IDENTIFIED AT THE REPOSITORY --></title>
+          <!--     THE DATE INFORMATION IN THE NEXT LINE WILL BE ADDED BY AN EDITOR     -->
+          <!--<date xml:id="dat1" cert="****" when="/"> </date>-->
+          
+          <idno type="callno">MSS18630</idno>
+          <orgName>The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839-1919, Library of Congress, Washington, DC.</orgName>
+
+          <note type="project">Transcribed from our own digital image of original manuscript.</note>
+        </bibl>
+
+      </sourceDesc>
+    </fileDesc>
+
+    <revisionDesc>
+      <!--   
+        SUPPLY THE DATE AND YOUR INITIALS IN THE FOLLOWING LINE. FOR THE DATE, USE THIS FORMAT:
+        YYYY-MM-DD. 
+        FOR YOUR INITIALS, NOTE THAT THE POUND SIGN (#) SHOULD BE RETAINED, LIKE SO: 
+        who="#bb" 
+      -->
+      <change when="2010-11-22" who="#al">Checked</change>
+      <change when="2010-11-16" who="#tj">trascribed; encoded</change>
+    </revisionDesc>
+  </teiHeader>
+
+  <text type="manuscript">
+    <body>
+      <div1 type="prose">
+      <!--    THE VALUE OF @facs IN THE FOLLOWING ELEMENT SHOULD BE OJECT ID + .001 + .jpg  EXAMPLE:
+              zzz.00001.001.jpg  -->
+        <pb xml:id="leaf001r" facs="loc.01077.001.jpg" type="recto"/>
+        
+        <head type="main-derived">&#42; curiously writes itself</head>
+        <note place="margintop" type="authorial">&#42; curiously <del rend="overwrite">self</del> writes itself,&#8212;from, &#38; looks back on, its own past&#8212;</note>
+        <ab>Of late I have been <subst><del rend="overstrike" seq="1"><unclear reason="cut away" cert="high" resp="tj">d</unclear>welling</del> <add rend="unmarked" place="supralinear">making</add></subst> much <subst><del rend="overstrike" seq="1">on</del> <add rend="unmarked" place="supralinear">of</add></subst> this part of the day <add rend="unmarked" place="supralinear">&#8212;<del rend="overstrike">this</del> hour <add rend="unmarked" place="supralinear">the evening</add></add>&#8212;fully <unclear reason="cut away" cert="high" resp="tj">a</unclear>live yet so restful, <gap reason="cut away"></gap>o nutritious </ab>
+        <ab>At vacancy with Nature,</ab>
+        <ab><unclear reason="illegible" cert="medium" resp="al">Acceptive</unclear> and at <del rend="overstrike">E</del> ease</ab>
+        <ab>The active splendid, vehement <gap reason="cut away"/> <del rend="overstrike">Day</del> <add rend="insertion" place="supralinear"><gap reason="cut away"/>timulus of the sun</add> is past. <del rend="overstrike">and done</del>. Without fear, without the least unwillingness. The <gap reason="cut away"/>ealthy Soul (alas, why should <gap reason="cut away"/>hat be so rare?) floats <gap reason="cut away"/>pon purer ether&#8212;<add rend="unmarked" place="supralinear">&#42;</add> confronts the unknown the Afterward </ab>
+        
+        <pb xml:id="leaf001v" facs="loc.01077.002.jpg" type="verso"/>
+        
+        <pb xml:id="leaf002r" facs="loc.01077.003.jpg" type="recto"/>
+        <ab>If there has been any perturbations, or <subst><del rend="overstrike" seq="1">blowing</del> <add rend="unmarked" place="supralinear">noisy</add></subst> wind during the day, it sub <gap reason="cut away"/>ides and leaves the twilight still <add rend="unmarked" place="supralinear">calm</add> and quiet</ab>
+        <ab>The sick are always <unclear reason="illegible" cert="medium" resp="al">apt</unclear> to be <del rend="overstrike">ap</del> easier&#8212;the fever, the racking pain, the tense nerves, <!-- Unsure if the smudge blocks characters?  --> lull and moderate. In the Secession War, in Washington, I got so that I often went round <add rend="insertion" place="supralinear">at <unclear  reason="illegible" cert="medium" resp="al">this hour</unclear></add> through </ab>
+        
+        <pb xml:id="leaf002v" facs="loc.01077.004.jpg" type="verso"/>
+        
+        <pb xml:id="leaf003r" facs="loc.01077.005.jpg" type="recto"/>
+        <p>The huge Army Hospitals <del rend="overstrike">at this time hour.</del> <add rend="unmarked" place="supralinear">&#8212;a</add> strange, spiritual <del rend="overstrike">quite</del> <add rend="unmarked" place="infralinear"><del rend="overstrike">&#8212;quite</del> <add rend="unmarked" place="supralinear"><del rend="overstrike">quite</del> often</add></add> undescribable experience<del rend="overstrike">.</del>&#8212;&#38; of late, <del rend="overstrike">the</del> solitary evenings <add rend="unmarked" place="supralinear">the</add> <del rend="overstrike">my sa</del> <add rend="unmarked" place="supralinear"><del rend="overstrike"><unclear cert="medium" resp="tj">some</unclear></del></add> special events, <del rend="overstrike">and persons,</del> talks, glimpses, persons, of those occassions, resume themselves to me, like the misty passing of Ossian's departed, <add rend="unmarked" place="supralinear">ba&#239;rds</add> or the sounds of his wind&#8209;struck harp.
+          
+        </p>
+        
+        <pb xml:id="leaf003v" facs="loc.01077.006.jpg" type="verso"/>
+        
+      </div1>
+    </body>
+  </text>
+</TEI>

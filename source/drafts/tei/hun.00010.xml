@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="hun.00010">   
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">The Singer in the Prison</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <name>The Walt Whitman Archive Staff</name>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2011</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>hun.00010</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+          <addrLine>Center for Digital Research in the Humanities</addrLine>
+          <addrLine>319 Love Library</addrLine>
+          <addrLine>University of Nebraska-Lincoln</addrLine>
+          <addrLine>P.O. Box 884100</addrLine>
+          <addrLine>Lincoln, NE 68588-4100</addrLine>
+        </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>               
+                <note type="project" target="#dat1">This fair copy manuscript likely dates to December 1869, when "The Singer in the Prison" appeared in the <hi rend="italic">Saturday Evening Visitor</hi> (25 December 1869).</note>               
+                <note type="project">The following are responsible for particular readings or for changes to this file, as noted:  
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="mm">Meg Meiman></persName>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>                    
+                    <title>The Singer in the Prison</title>
+                    <date xml:id="dat1" cert="high" when="1869-12">December 1869</date>
+                    <orgName>The Huntington Library, Art Collections, and Botanical Gardens</orgName>
+                    <note type="project">Transcribed from digital images of the original.</note>
+                </bibl>               
+            </sourceDesc>
+        </fileDesc>        
+        <revisionDesc>
+            <change when="2011-10-24" who="#el">checked</change>
+            <change when="2011-08-20" who="#mm">revised</change>
+            <change when="2011-08-16" who="#el">checked through section 4</change>
+            <change when="2011-08-09" who="#mm">revised</change>
+            <change when="2011-08-03" who="#el">checked TEI header and first section</change>
+            <change when="2011-08-01" who="#mm">transcribed; encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text type="manuscript">
+        
+        <body>
+            <pb xml:id="leaf001r" facs="hun.00010.001.jpg" type="recto"/>
+            
+            <note type="editorial" place="margintop" resp="unk">225</note>    
+            <note type="authorial" place="margintop">Tom&#8212;set this up, same style, &#38; send proof soon as convenient</note>
+            
+            <lg type="poem">
+                <head type="main-authorial" rend="underline">The Singer in the prison.</head>
+                <byline>By <hi rend="underline">Walt Whitman</hi></byline>                
+                
+                <lg type="section" n="1">
+                    <head type="main-authorial">1</head>
+                    
+                    <lg type="linegroup" xml:id="r1">
+                        <l rend="underline">O sight of shame, and pain, and dole!</l>
+                        <l rend="underline">O fearful thought&#8212;a convict Soul!</l>
+                    </lg>
+                    
+                    <note type="authorial" place="marginleft" target="#r1" rend="bracketed">ital indent a little</note>
+                    
+                    <lg type="linegroup">
+                        <l>Rang the refrain along the hall, the prison,</l>
+                        <l>Rose to the roof, the vaults of heaven above,</l>
+                        <l>Pouring in the floods of melody, in tones so <lb/>
+                            <subst><del rend="overstrike" seq="1">trembling,</del><add rend="insertion" seq="2" place="supralinear">pensive,</add></subst> sweet and strong, the like <lb/>
+                            whereof was never heard,</l>
+                        <l>Making the hearer's pulses stop for exstasy <lb/>
+                            and awed amazement,</l>
+                        <l>Reaching the far-off sentry, and the armed <lb/> 
+                            guards, who stopt their pacing,</l>
+                        <l>To <subst><del rend="overstrike" seq="1">mark</del><add place="supralinear" rend="unmarked" seq="2">note</add></subst> that <del rend="overstrike">quaint and</del> melancholy hymn.</l>
+                    </lg>
+                </lg>
+                
+                <lg type="section" n="2">
+                    <head type="main-authorial">2</head>
+                  
+                    <lg type="linegroup" xml:id="r2">
+                     <l rend="underline">O sight of <del>gloom</del> pity, gloom, and dole!</l>
+                     <l rend="underline">O pardon me, a hapless Soul!</l>
+                    </lg>  
+                     <note type="authorial" place="marginleft" target="#r2" rend="bracketed">indent</note>
+                    
+                 <lg type="linegroup">
+                     <l>The sun was low in the west one <lb/>
+                         winter day,</l>
+                     <l>When down a narrow aisle amid the <lb/>
+                         thieves and outlaws of the land,</l>
+                     <l>(There by the hundreds <subst><del rend="overstrike" seq="1">gathered</del><add rend="unmarked" place="supralinear" seq="2">seated</add></subst>, tear&#8209;faced <lb/>
+                         murderers, wily counterfeiters,</l>
+                     <l>All that dark, cankerous blotch, a nation's <lb/>
+                         criminal mass.</l>           
+
+                     <pb xml:id="leaf002v" facs="hun.00010.002.jpg"  type="verso"/>
+                    
+                    <pb xml:id="leaf003r" facs="hun.00010.003.jpg" type="recto"/>
+                     
+                     <note place="top" type="authorial" rend="bracketed">2</note>
+                
+                     <l><subst><del rend="overstrike" seq="1">Called to the</del><add place="supralinear" rend="unmarked" seq="2">Gathered to</add></subst> Sunday church in prison <lb/>
+                          walls&#8212;the keepers round,</l>
+                     <l>Plenteous, well&#8209;arm'd, with watching, <lb />
+                         vigilant eyes,)</l>
+                     <l>Calmly a Lady walk'd, holding a little <lb/>
+                         innocent child by either hand,</l>
+                     <l>Whom, seating on their stools beside her <lb/>
+                         on the platform,</l>
+                     <l>She, first preluding with the instrument, <lb/>
+                         a low and musical prelude,</l>
+                     <l>In voice surpassing all, sang forth <lb/>
+                         a quaint old hymn.</l>
+                 </lg>
+                </lg>
+                     
+                    <lg type="section" n="3" rend="bracketed">
+                        <head type="main-authorial">3</head>
+                        <head type="sub" rend="underline">The Hymn</head>
+                        
+                        <note type="authorial" place="marginleft" rend="bracketed" target="#r3 #r4 #r5 #r7">indent a little ? 2 ems</note>
+                        
+                        <lg type="linegroup" xml:id="r3">
+                        <l>A Soul, confined by bars and bands,</l>
+                        <l>Cries, Help!  O help! and wrings her hands;</l>
+                        <l>Blinded her eyes&#8212;bleeding her breast,</l>
+                        <l>Nor pardon finds, nor balm of rest.</l>
+                        </lg>                                                
+               
+                        <note type="authorial" place="inline" target="#r4"><unclear reason="illegible" cert="high" resp="#mm">abt</unclear> two leads</note>               
+                        
+                        <lg type="linegroup" xml:id="r4">
+                            <l rend="indented3"><hi rend="underline">O sight of shame, and pain, and dole!</hi></l>
+                            <l rend="indented3"><hi rend="underline">O fearful thought&#8212;a convict Soul!</hi></l>
+                        </lg>                        
+                        
+                        <note type="authorial" place="inline" target="#r4">about four leads</note> 
+                                                                                             
+                       <lg type="linegroup" xml:id="r5">
+                           <l>Ceaseless, she paces to and fro;</l>
+                           <l>O heart&#8209;sick days! O nights of wo!</l>
+                           <l>Nor hand of friend, nor loving face;</l>
+                           <l>Nor <subst><del rend="overstrike" seq="1">pardon</del><add rend="unmarked" place="supralinear" seq="2">favor</add></subst> comes, nor word of grace.</l>
+                       </lg>
+                            
+                        <lg type="linegroup" xml:id="r7">
+                            <l rend="indented3"><hi rend="underline">O sight of pity, gloom, and dole!</hi></l>
+                            <l rend="indented3"><hi rend="underline">O pardon me, a hapless Soul!</hi></l>
+                        </lg>         
+                    
+                        <pb xml:id="leaf004v" facs="hun.00010.004.jpg" type="verso"/>
+                       
+                        <pb xml:id="leaf005r" facs="hun.00010.005.jpg" type="recto"/>
+                        
+                        <note type="authorial" place="top" rend="bracketed">3</note>
+                        
+                        <note type="authorial" place="marginleft" target="#r6 #r8 #r9 #r10">indent a little</note>
+                     
+                        <lg type="linegroup" xml:id="r6">
+                            <l>It was not I that sinn'd the sin,</l>
+                            <l>The ruthless Body dragg'd me in;</l>
+                            <l>Though long I strove courageously,</l>
+                            <l>The Body was too much for me.</l>
+                        </lg>
+                            
+                        <lg type="linegroup" xml:id="r8">
+                            <l rend="indented3"><hi rend="underline">O Life! no life, but bitter dole!</hi></l>
+                            <l rend="indented3"><hi rend="underline"><subst><del rend="overwrite" seq="1">A</del><add rend="overwrite" place="over" seq="2">O</add></subst> burning, beaten, baffled Soul!</hi></l>
+                        </lg>                                              
+                        
+                        <lg type="linegroup" xml:id="r9">
+                            <l>Dear prison'd Soul, bear up a space,</l>
+                            <l>For soon or late the certain grace;</l>
+                            <l>To se<subst><del rend="overwrite" seq="1">e</del><add rend="overwrite" place="over" seq="2">t</add></subst> thee free, and bear thee home,</l>
+                            <l>The Heavenly Pardoner, Death shall come.</l>
+                        </lg>
+                        
+                        <lg type="section" xml:id="r10">
+                            <l rend="indented3"><hi rend="underline">Convict no more&#8212;nor shame, nor dole!</hi></l>
+                            <l rend="indented3"><hi rend="underline">Depart! A God&#8209;enfranchis'd Soul!</hi></l>
+                        </lg>                   
+                    </lg>
+                
+                    <lg type="section" n="4">
+                        <head type="main-authorial">4</head>
+                       
+                    <lg type="linegroup">
+                        <l>The singer ceased;</l>
+                        <l>Once glance <del rend="overstrike">around </del>swept from her <lb/>
+                           clear, calm eyes o'er all those <lb/>
+                           upturn'd faces.</l>
+                        <l>Strange sea of prison faces &#8212; a thousand <lb/>
+                           varied, crafty, brutal, seam'd, and <lb/>
+                           beauteous faces;</l>
+                        <l>Then rising, passing back <subst><del rend="overstrike" seq="1">again</del><add type="unmarked" place="supralinear" seq="2">along</add></subst> the narrow <lb/>
+                                aisle between them,</l>
+                        <l>While her gown touch'd them, rustling <lb/>
+                            in the silence,</l>
+                        <l>She vanish'd with her children in <lb/>
+                            the dusk.</l>       
+                    </lg>
+                   </lg>
+                     
+                       <pb xml:id="leaf006v" facs="hun.00010.006.jpg" type="verso"/>
+                       
+                       <pb xml:id="leaf007r" facs="hun.00010.007.jpg" type="recto"/>
+                    
+                       
+                <note place="top" type="authorial" rend="bracketed">4</note>
+                            
+                        <lg type="section" n="5">
+                        <head type="main-authorial">5</head>
+                       
+                    <lg type="linegroup">
+                        <l>While upon all, convicts and armed <lb/>
+                               keepers, ere they stirr'd,</l>
+                        <l rend="bracketed">Convict forgetting prison, keeper his loaded <lb/>
+                               pistol.</l>
+                        <l>A hush and pause fell down, a <lb/>
+                               wondrous minute,</l>
+                        <l>With deep, half&#8209;stifled sobs, and sound <lb/>
+                               of bad men bow'd, and moved <lb/>
+                               to weeping.</l>
+                        <l>And youth's convulsive breathings, mem&#8209;<lb/>
+                               ories of home,</l>
+                        <l>The mother's voice in lullaby, the sister's <lb/>
+                               care, the <subst><del rend="overstrike" seq="1">innocent</del><add type="unmarked" place="supralinear" seq="2">happy</add></subst>childhood,</l>
+                        <l>The long&#8209;pent spirit rous'd to remin&#8209;<lb/>
+                               iscense;</l>
+                        <l>&#8212;A wondrous minute then &#8212; But after,</l>
+                            <l>in the solitary night, to many, many <lb/>
+                               there,</l>
+                        <l>Years after&#8212;even in the hour of death&#8212;<lb/>
+                            the sad refrain &#8212; the time, the voice, <lb/>
+                            the words,</l>
+                        <l>Resumed&#8212;the large, calm lady walks the narrow <lb/>
+                               aisle,</l>
+                        <l>The wailing melody again&#8212;the singer in <lb/>
+                            the prison sings:</l>
+                        
+                        <note type="authorial" place="marginleft" rend="bracketed" target="r11">two leads</note>
+                        
+                        <lg type="linegroup" xml:id="r11">
+                            <l rend="indented2"><hi rend="underline">O sight of shame, and pain, and dole!</hi></l>
+                            <l rend="indented2"><hi rend="underline">O fearful thought – a convict Soul!</hi></l>
+                        </lg>
+                        
+                    </lg>
+                   </lg>
+                       
+                       <pb xml:id="leaf008v" facs="hun.00010.008.jpg" type="verso"/>
+                 
+           </lg>     
+            
+        </body>
+    </text>
+</TEI>
+

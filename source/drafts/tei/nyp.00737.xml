@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00737">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main" rend="bracketed">American Expansion</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="cf">Chris Forster</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2019</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>nyp.00737</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="project" target="dat1"></note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>(Poem) ? Reflections Shadows</title>
+               <date cert="low" notBefore="1855" notAfter="1870" xml:id="dat1">Undated</date>
+               <idno type="callno">b19877231</idno><!--verso UUID: 55077220-c5d9-012f-ea24-58d385a7bc34-->
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName> 
+               <note type="project">Transcribed from digital images of the original.</note>
+               <relatedItem type="text" xml:id="rel01" target="nyp.00119"/>
+               <relatedItem type="document" target="wwa.00600"/>
+               <note type="project" target="#rel01">A series of draft poetry lines written on the back of this leaf may relate to the poem eventually titled "Song of Myself."</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="#nhg" when="2019-01-09">created new file out of nyp.00119</change>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#cf" when="2005-08-10">Encoded</change>
+         <change who="#cf" when="2005-08-10">Transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         
+        <!-- <pb facs="nyp.00119.001.jpg" xml:id="leaf001r" type="recto"/>-->
+         <!-- THIS TRANSCRIPTION IS NOT BASED ON AN IMAGE OF THE VERSO, BUT BASED ON A ROTATION AND   -->
+         <!-- INVERSION OF THE IMAGE, RENDERING THE MATERIAL ON THE VERSO AT LEAST PARTIALLY VISIBLE. -->
+         <!-- -cf -->
+
+
+         <note place="top"
+               type="authorial"
+               rend="circled">Editorial for insertion same day with the article "The New Inland America."</note>
+
+         <ab type="title" rend="underline">
+            American Expansion and<lb/>
+            Settlement Inland</ab>
+         <pb facs="nyp.00119.001.jpg" xml:id="leaf001v" type="verso"/>
+      </body>
+   </text>
+</TEI>
