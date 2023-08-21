@@ -34,11 +34,11 @@ class TeiToEs
   # Please see docs/tei_to_es.rb for complete instructions and examples
 
   def category
-    "In Whitman's Hand"
+    "Literary Manuscripts"
   end
 
   def category2
-    "In Whitman's Hand / Loose Manuscripts"
+    "Literary Manuscripts / Loose Manuscripts"
   end
 
   # TODO check if this is a good assumption to be making
