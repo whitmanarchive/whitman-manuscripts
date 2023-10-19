@@ -1,12 +1,16 @@
 default:
   shortname: whitman-manuscripts
   collection: whitman-manuscripts
-  # site_url: https://whitmanarchive.org
   solr_core: api_whitman
   tei_solr_xsl: scripts/overrides/solr_transform_tei.xsl
   tei_html_xsl: scripts/overrides/tei_to_html.xsl
-  media_base: https://whitmanarchive.org
   api-version: '2.0'
+  site_url: https://whitmanarchive.org
+  media_base: https://whitmanarchive.org/media
+  data_base: https://whitmanarchive.org/media
+  variables_html:
+    image_large: 1200
+    image_thumb: 80
 
 development:
   api_version: '2.0'
