@@ -7,6 +7,7 @@ class TeiToEs
 
   def override_xpaths
     xpaths = {}
+    xpaths["creator"] = "/TEI/teiHeader/fileDesc/sourceDesc/biblStruct/monogr/author"
     xpaths["rights_holder"] = "//publicationStmt/distributor"
     xpaths["source"] = {
       "org" => "//sourceDesc/bibl/orgName",
