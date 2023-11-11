@@ -4,32 +4,33 @@ default:
   solr_core: api_whitman
   tei_solr_xsl: scripts/overrides/solr_transform_tei.xsl
   tei_html_xsl: scripts/overrides/tei_to_html.xsl
-  api-version: '2.0'
   site_url: https://whitmanarchive.org
   media_base: https://whitmanarchive.org/media
   data_base: https://whitmanarchive.org/media
   variables_html:
     image_large: 1200
     image_thumb: 80
+  api_version: "2.0"
+  es_index: whitman-api_v2
+  threads: 1
 
 development:
-  api_version: '2.0'
-  data_base: https://whitman-dev.unl.edu/media
-  media_base: https://whitman-dev.unl.edu/media
-  es_path: https://whitman-dev.unl.edu/elastic
+  data_base: https://set_in_private_config/media
+  media_base: https://set_in_private_config/media
+  es_path: https://set_in_private_config/elastic
   es_index: api_v2
-  site_url: https://whitman-dev.unl.edu
-  solr_path: https://whitman-dev.unl.edu/solr
+  site_url: https://set_in_private_config
+  solr_path: https://set_in_private_config/solr
 
   variables_solr:
     project: The_Walt_Whitman_Archive
     slug: whitman-manuscripts
-    site_url: https://whitman-dev.unl.edu
+    site_url: https://set_in_private_config
 
 production:
   data_base: https://whitmanarchive.org/media
   site_url: https://whitmanarchive.org
-  solr_path: https://whitman-prod.unl.edu/solr
+  solr_path: https://set_in_private_config/solr
   allowed_files: config/allowed_files.txt
 
   variables_solr:
