@@ -11,3 +11,7 @@ config/private.yml
 /output/production/*
 !/output/production/html
 
+# Ignore Gemfile(.lock) to use whitman-scripts Gemfile
+Gemfile
+Gemfile.lock
+
