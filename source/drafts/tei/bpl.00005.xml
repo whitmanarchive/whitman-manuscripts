@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Correction in Plates</title>
+                <title level="m" type="main">Corrections in Plates</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -40,20 +40,25 @@
                 <idno>bpl.00005</idno></publicationStmt>
             <notesStmt>
                 <note type="project" target="dat1"> </note>
-                <note type="work_relations" target="xxx.00556"><p> </p></note>
             </notesStmt>
             <sourceDesc>
                 <bibl><author xml:id="ww">Whitman, Walt</author>
                     
                     <!--                    <title>Thoughts, no. 4 ('Of Ownership')</title>
                     <date xml:id="dat1" cert="high" notBefore="1856" notAfter="1860">About 1860</date>-->
-                    <orgName xml:id="bpl">Boston Public Library</orgName>
+                    <orgName xml:id="bpl">The Walt Whitman Collection, Boston Public Library</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="h01" scribeRef="#ww" medium="black ink"/>
+                <handNote xml:id="h02" scribeRef="#ww" medium="pencil"/>
+            </handNotes>
+        </profileDesc>
         <revisionDesc>
-            <change when="2023-10-27" who="#jh">transcribed</change>
+            <change when="2023-10-27" who="#jh">transcribed, encoded</change>
         </revisionDesc>
     </teiHeader>
     <text type="manuscript">
@@ -61,23 +66,29 @@
             <pb facs="bpl.00005.001.jpg" xml:id="leaf001r" type="recto"/>
             <list> 
                 <head type="main-authorial" rend="underline">Corrections in Plates</head>
-                
                 <item>page 4 erase hyphen</item>
-                <item><del rend="overstrike">" 15? "it"</del></item>
+                <item><del rend="overstrike">" 15? " "it"</del></item>
                 <item>" 70 a point <hi rend="circled">.</hi> down page</item>
-                <item>" 79 " " " "</item>
+                <item>" 79 " " "</item>
                 <item>" 174 <hi rend="circled">a</hi></item>
-                <item>" 127 four lines from bottom bad</item>
-                <item>" 185 change o to u (sound)</item>
-                <item>" 206 ? 286 bad parenthesis mark 2/3s down</item>
-                <item>" 287 wrong accented i</item>
-                <item>" 3138th line from top take out i from "curtriony"</item>
-                <item>" 376 wrong accent on i</item>
-                <item>" 388 take out i from "freshier"</item>
+                <item>" 127 four lines <choice><orig>f'm</orig><reg>from</reg></choice> bottom bad b</item>
+                <item>" 185 change o to u (suns)</item>
+                <item><add rend="unmarked" place="interlinear">" 206? 286 bad parenthesis mark 2/3d down</add></item>
+                <item>" 287 wrong accented &#233;</item>
+                <item>" 313 8th line <choice><orig>f'm</orig><reg>from</reg></choice> top take out i <choice><orig>f'm</orig><reg>from</reg></choice> "lustrious"</item>
+                <item>" 376 wrong accent on e</item>
+                <item>" 388 take out i <choice><orig>f'm</orig><reg>from</reg></choice> "freshier"</item>
                 <item>" 390 bad s</item>
             </list>
-            <signed rend="right">Walt Whitman</signed>
-            <dateline>Jan: 2 1891</dateline>
+            <addSpan rend="pasteon" spanTo="#a01"/>
+            
+            <list>
+                <head><handShift/></head>
+                <item></item>
+            </list>
+            
+            <anchor xml:id="a01"/>
+            
             <pb facs="bpl.00005.002.jpg" xml:id="leaf001v" type="verso"/>
         </body>
     </text>
