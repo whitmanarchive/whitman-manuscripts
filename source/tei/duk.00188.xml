@@ -65,16 +65,9 @@
        BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. -->
                     <date notBefore="" notAfter="" cert=""></date>
                     
-                    <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
-                    
-                    <!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
-      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
-                    <orgName xml:id=""></orgName>
-                    
+                    <idno type="callno">III-3 #5 c. 1</idno>
+                    <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
                     <note>Transcribed from digital images of the original.</note>
-                    <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-                    <relatedItem type="document" target="wwa.00041"/>
-                    <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -86,13 +79,11 @@
     <text type="manuscript">
         <body>
             
-            <!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-            <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
+            <pb xml:id="leaf001r" facs="2008_010.jpg" type="recto"/>
           <head type="main-authorial">The Nibelungen</head>
             <p>vast passions of man, with play of heat&#38;cold&#38;storm like undercurrents, or volcanos, or stormy seas.</p>
             
-            <!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-            <pb xml:id="leaf002v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+            <pb xml:id="leaf001v" facs="duk_ap_00038.jpg" type="verso"/>
             
         </body>
     </text>
