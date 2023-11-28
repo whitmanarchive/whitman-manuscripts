@@ -19,10 +19,10 @@
   
   <xsl:variable name="top_metadata">
     <ul>
-      <li><strong>Title: </strong> <xsl:value-of select="//title[@type='main']"/></li>
-      <li><strong>Creator: </strong> <xsl:value-of select="//titleStmt/author"/></li>
-      <li><strong>Date: </strong> <xsl:value-of select="/TEI/teiHeader/fileDesc/sourceDesc/bibl/date"/></li>
-      <li><strong>Whitman Archive ID: </strong> <xsl:value-of select="//teiHeader/fileDesc/publicationStmt/idno"/></li>
+      <!-- <li><strong>Title: </strong> <xsl:value-of select="//title[@type='main']"/></li> -->
+      <!-- <li><strong>Creator: </strong> <xsl:value-of select="//titleStmt/author"/></li> -->
+      <!-- <li><strong>Date: </strong> <xsl:value-of select="/TEI/teiHeader/fileDesc/sourceDesc/bibl/date"/></li> -->
+      <!-- <li><strong>Whitman Archive ID: </strong> <xsl:value-of select="//teiHeader/fileDesc/publicationStmt/idno"/></li> -->
       
       <li><strong>Source: </strong> 
        
@@ -107,7 +107,7 @@
         <a>
           <xsl:attribute name="href">
             <xsl:value-of select="$site_url"/>
-            <xsl:text>/about/editorial</xsl:text>
+            <xsl:text>../about/editorial-policies</xsl:text>
           </xsl:attribute>
           <xsl:text>statement of editorial policy</xsl:text>
         </a>
@@ -230,7 +230,7 @@
         </li>
       </xsl:if>
 
-      <li><strong>Contributors to digital file: </strong> <xsl:value-of separator=", " select="//teiHeader/fileDesc/titleStmt/respStmt/persName"></xsl:value-of></li>
+      
     </ul>
   </xsl:variable>
   
