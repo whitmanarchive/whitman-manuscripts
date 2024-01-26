@@ -2,7 +2,7 @@
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00239.xml"> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00239"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -46,11 +46,11 @@
                 </availability>
                 
                 
-                <idno><!--  THE UNIQUE ID GOES HERE, TOO  --></idno>
+                <idno>loc.00239</idno>
             </publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>                
-                <note type="work_relations" target="xxx." cert="">
+                <note type="work_relations" target="xxx.00383" cert="high">
                     <p></p>
                 </note>
             </notesStmt>
@@ -58,45 +58,52 @@
             <sourceDesc>
                 <bibl>
                     <author xml:id="ww">Whitman, Walt</author>
+                    <title resp="#wwa">On, on the Same, Ye Jocund Twain!</title>
+                    <date when="1890-05-10" cert="high">May 10, 1890</date>
                     
-                    <title resp="#wwa">On, on the Same, Ye Jocund Twain!</title>  
-                    
-                    <!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. -->
-                    <date notBefore="" notAfter="" cert=""></date>
-                    
-                    <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
-                    
-                    <!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
-      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
-                    <orgName xml:id=""></orgName>
+                    <idno type="callno">mss18630, box 28</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     
                     <note>Transcribed from digital images of the original.</note>
-                    <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-                    <relatedItem type="document" target="wwa.00041"/>
-                    <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="h01" scribeRef="#ww" medium="black ink"/>
+                <handNote xml:id="h02" scribeRef="#ww" medium="pencil"/>
+            </handNotes>
+        </profileDesc>
         <revisionDesc>
             
-            <change when="2024-01-25" who="#jh">transcribed and encoded</change>
+            <change when="2024-01-26" who="#jh">transcribed and encoded</change>
         </revisionDesc>
     </teiHeader>
     
     <text type="manuscript">
         <body>
             
-            <!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-            <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
+            <pb xml:id="leaf001r" facs="P1010246.jpg" type="recto"/>
             <lg type="poem">
                 <l>On, on the same, ye jocund Twain!</l>
                 <l>My life and recitative, Continuing birth, youth, mid-age years</l>
-                <l>Fitful as motherly tongues of flame inseperably twined and merged in one</l>
+                <l>Fitful as <add rend="insertion" place="above">motley</add> tongues of flame inseperably twined and merged in one&#8212;combining all,</l>
+                <l>My single soul&#8212;aims, confirmations, failures, joys&#8212;nor single soul <del rend="overstrike" hand="#h01"><add rend="insertion" place="above" hand="#h02">in these</add></del> alone,</l>
+                <l>I chant my nation's crucial stage (America's haply humanity's)&#8212;the trial great, the victory great,</l>
+                <l>A strange <hi rend="underline"><choice><sic>ecclaircissement</sic><corr>éclaircissement</corr></choice></hi> of <add rend="insertion" place="above">all</add> the masses, past the eastern world, the ancient, medieval;</l>
+                <l>Here, here, from wanderings, strayings, [gap] wars, defeats&#8212;here at the west a voice triumphant&#8212;justifying all,</l>
+                <l>A gladsome healing cry&#8212;a song <add rend="insertion" place="above">for once of utmost</add> <del rend="overstrike">of</del> pride and satisfaction;</l>
+                <l>I chant, <add rend="insertion" place="above" hand="#h02"><subst><del rend="overstrike" hand="#h01" seq="1"><gap reason="illegible" unit="chars" quantity="3" extent="one word"/></del><add rend="unmarked" place="above" hand="#h01" seq="2">from</add></subst> it</add> the <del rend="overstrike">race, the</del> common bulk, the general average horde (the best no sooner than the worst)&#8212;and now I chant old age,</l>
+                <l>(My verses, written first for <del rend="overstrike">earl</del> forenoon life, and for the summer's, autumn's spread,</l>
+                <l>I pass to snow-white hairs the same, and give to pulses winter cool'd the same;)</l>
+                <l>As <del rend="overstrike">here</del> <add rend="insertion" place="above">here</add> in carelesss <add rend="insertion" place="above">trill,</add> <del rend="overstrike">chant,</del> <add rend="insertion" place="above">I and my recitatives</add> <del rend="overstrike">myself</del>, with faith and love,</l>
+                <l>Waft<subst><del rend="overstrike" seq="1">ed</del><add rend="unmarked" place="above" seq="2">ing</add></subst> to other work, to unknown <subst hand="#h02"><del rend="overstrike" seq="1">joys,</del><add rend="unmarked" place="above" seq="2">songs,</add></subst> conditions,</l>
+                <l>On, on, ye jocund twain! continues on, the same!</l>
             </lg>
+            <signed rend="underline">Walt Whitman</signed>
+            <dateline>May 10 1890</dateline>
             
-            <!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-            <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+            <pb xml:id="leaf001v" facs="loc_nk.00036_large.jpg" type="verso"/>
             
         </body>
     </text>
