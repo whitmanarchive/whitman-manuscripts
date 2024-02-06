@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01159"> 
     <teiHeader>
         <fileDesc>
@@ -26,7 +25,6 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                
                 <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -42,37 +40,27 @@
                         <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                         (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-                
-                
                 <idno>loc.01159</idno>
             </publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
-                
                 <!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
      PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
      IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
      IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
-                
                 <note type="work_relations" target="xxx." cert="">
                     <p></p>
                 </note>
             </notesStmt>
-            
             <sourceDesc>
                 <bibl>
                     <author xml:id="ww">Whitman, Walt</author>
-                    
                     <title resp="#wwa">N. Y. Tribune April 22d</title>  
-                    
                     <!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
        BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. -->
                     <date notBefore="" notAfter="" cert=""></date>
-                    
-                    <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
-
+                    <idno type="callno">Box 1, Folder: War and hospital notes and memoranda 1865 or before L. C. 66</idno>
                     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842-1937, Library of Congress, Washington, D.C.</orgName>
-                    
                     <note>Transcribed from digital images of the original.</note>
                     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
                     <relatedItem type="document" target="wwa.00041"/>
@@ -81,21 +69,15 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2024-02-02" who="#jh">transcribed and encoded</change>
+            <change when="2024-02-06" who="#jh">transcribed and encoded</change>
         </revisionDesc>
     </teiHeader>
-    
     <text type="manuscript">
         <body>
-            
-            <!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-            <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
+            <pb xml:id="leaf001r" facs="20060318_0002.jpg" type="recto"/>
             <p>N. Y. Tribune April 22d, letter from near Columbus Ky April 17th</p>
             <p>At Helena, the new negro regiments are progressing favorably.  In 3 days after Gen </p>
-            
-            <!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-            <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
-            
+            <pb xml:id="leaf001v" facs="20060318_0003.jpg" type="verso"/>
         </body>
     </text>
 </TEI>
