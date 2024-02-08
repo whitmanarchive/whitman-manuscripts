@@ -86,9 +86,14 @@
    
    <lg type="poem">
     
-    <l>*What potent spells <!--is this a caret?--> <del type="overstrike" cert="high" rend="inline">from</del> <del type="overstrike" cert="high" rend="supralinear">the</del> <add type="unmarked" place="supralinear">do</add></l>
-    <l>distant <del type="overstrike" cert="100%" rend="supralinear">suns</del> <del type="overstrike" cert="90%">worlds</del> <add type="unmarked" place="supralinear">stars</add> <del type="overstrike" cert="100%">upon</del> <add type="unmarked" place="supralinear">send to</add> you?</l>
+    <metamark function="unknown">*</metamark>
+    
+    <l>What <gap reason="overstrike" extent="about two letters" unit="char" quantity="2"/> potent spells <metamark function="add" target="#gap1">&#8248;</metamark><gap xml:id="gap1" reason="cutaway" extent="unknown"/> <subst><del rend="overstrike" seq="1">from</del> <del rend="overstrike" seq="2"><add rend="unmarked" place="above">the</add></del> <add rend="unmarked" place="above" seq="3">do</add></subst></l>
+    
+    <l>distant <subst><del rend="overstrike" seq="1">suns</del> <del rend="overstrike" seq="2"><add rend="unmarked" place="above">worlds</add></del> <add rend="unmarked" place="above" seq="3">stars</add></subst> <subst><del rend="overstrike" seq="1">upon</del> <add rend="unmarked" place="above" seq="2">send to</add></subst> you?</l>
+    
      <l>What Sirius'? What Autares?</l>
+   
    </lg>
    
    <pb xml:id="leaf001v" facs="loc_jc.00747.jpg" type="verso"/>
