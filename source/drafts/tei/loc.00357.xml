@@ -44,33 +44,23 @@
             </publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
-                
                 <!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
      PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
      IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
      IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
-                
                 <note type="work_relations" target="xxx." cert="">
                     <p></p>
                 </note>
             </notesStmt>
-            
             <sourceDesc>
                 <bibl>
-                    <author xml:id="ww">Whitman, Walt</author>
-                    
+                    <author xml:id="ww">Whitman, Walt</author>    
                     <title resp="#wwa">[You neighboring surf]</title>  
-                    
                     <!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
        BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. -->
-                    <date notBefore="" notAfter="" cert=""></date>
-                    
+                    <date notBefore="" notAfter="" cert=""></date>                    
                     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
-                    
-                    <!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
-      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
-                    <orgName xml:id=""></orgName>
-                    
+                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842-1937, Library of Congress, Washington, D.C.</orgName>
                     <note>Transcribed from digital images of the original.</note>
                     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
                     <relatedItem type="document" target="wwa.00041"/>
@@ -79,23 +69,19 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2024-02-09" who="#jh">transcribed and encoded</change>
+            <change when="2024-02-12" who="#jh">transcribed and encoded</change>
         </revisionDesc>
     </teiHeader>    
     <text type="manuscript">
         <body>
-            
-            <!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-            <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
+            <pb xml:id="leaf001r" facs="20051228_0129.jpg" type="recto"/>
             <lg type="poem">
-                <l></l>
-                <l></l>
-                <l></l>
+                <l>You <subst><del rend="overstrike" seq="1">distant</del><add rend="unmarked" place="above" seq="2">neighboring</add></subst> surf&#8212;you mystery of swell and ebb!</l>
+                <l>You <subst><add rend="unmarked" place="above" seq="1">over&#8212;</add><del rend="overstrike" seq="2">over&#8212;</del></subst>hurrying waters, as I muse to me!</l>
+                <l>So much recallingstrangely!</l>
+                <l>With every leave and roll some memory's light and shade,</l>
             </lg>
-            
-            <!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-            <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
-            
+            <pb xml:id="leaf001v" facs="20051228_0131.jpg" type="verso"/>
         </body>
     </text>
 </TEI>
