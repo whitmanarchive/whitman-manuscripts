@@ -76,12 +76,18 @@
      <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-     <relatedItem type="text" xml:id="rel01" target="loc.00226"/>
+     <relatedItem type="text" xml:id="rel01" target="loc.07022"/>
      <relatedItem type="document" target="wwa.00105"/>
      <note type="project" target="#rel01">On the reverse of this leaf is a letter addressed to Whitman.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="red ink" xml:id="h02" resp="#ww"/> 
+   </handNotes>
+  </profileDesc>
 <revisionDesc>
  
  <change when="2024-02-14" who="#tb">transcribed and encoded</change>
@@ -95,8 +101,8 @@
    <p>[More than 83 degrees north&#8212;about a good day's steaming distance to the Pole by one of our fast oceaners in clear water&#8212;Greely heard the song of a <add rend="insertion" place="above">jingle</add> snow: bird merrily sounding <del rend="overstrike" seq="1">out of</del><add rend="unmarked" place="above">over</add> the desolation.]</p>
    
    <lg type="poem">
-     <l>Of that blithe throat of thine, <del rend="overstrike" seq="1">through</del><del rend="overstrike" seq="1">my</del><add rend="unmarked" place="above">from</add> <add rend="insertion" place="above">arctic</add> bleak</l>
-     <l>and blank</l>
+     <l>Of that blithe throat of thine, <subst><del rend="overstrike" seq="1">through</del><del rend="overstrike" seq="3"><add rend="unmarked" place="above" seq="2"><unclear reason="illegible" cert="high" resp="#tb">amid</unclear></add></del><add rend="unmarked" place="above" seq="4" hand="#h02">from</add></subst> <add rend="insertion" place="above">arctic</add> bleak<lb/>
+     and blank</l>
      <l>I<add rend="insertion" place="above">'ll</add> mind the lesson <del rend="overstrike" seq="1">arctic</del><add rend="unmarked" place="above">solitary</add> bird&#8212;<del rend="overstrike" seq="2">I also</del><add rend="unmarked" place="above">&#8212;let me too</add> welcome</l>
      <l><del rend="overstrike" seq="2">ice and</del><add rend="unmarked" place="above">chilling drifts</add></l>
      <l><del rend="overstrike" seq="1">Nay,</del><add rend="unmarked" place="above">E'en</add> the profoundest chill as now&#8212;a torpid</l>
@@ -116,7 +122,6 @@
    <signed>Walt Whitman</signed>
    
    <pb xml:id="leaf001v" facs="loc.00226.002_large.jpg" type="verso"/>
-<p></p>
    
 </body>
 </text>
