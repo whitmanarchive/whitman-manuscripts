@@ -13,12 +13,14 @@
             <author>Walt Whitman</author>
             <editor role="editor">Kenneth M. Price</editor>
             <editor role="editor">Ed Folsom</editor>
+            <editor role="editor">Matt Cohen</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="rl">Robert LaCosse</persName>
                <persName xml:id="fl">Farrah Lehman</persName>
                <persName xml:id="km">Kenneth M. Price</persName>
+               <persName xml:id="jh">Jeff Hill</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -26,7 +28,7 @@
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2004</date>
+               <date>2024</date>
             </edition>
          </editionStmt>
          <publicationStmt>
@@ -44,25 +46,20 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-
-            <note type="project" target="dat1">The manuscript is undated, part of a collection that ranges from <date when="1854/1891">1854 to 1891</date>.</note>
-
+            <note type="project" target="dat1">The manuscript is undated, part of a collection that ranges from <date when="1854-1891">1854 to 1891</date>.</note>
             <note type="project">On the verso there is nothing but a small NYPL stamp which was obviously put on by the respository.</note>                          	
          </notesStmt>
          <sourceDesc>
             <bibl>
                <author>Walt Whitman</author>
-               <title>
-The Dead Emperor
-</title>
-
+               <title>The Dead Emperor</title>
                <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName> 
-
                <note type="project">Transcribed from digital images of the original.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change who="#jh" when="2024-02-16">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
          <change who="#rl" when="2004-07-08">Encoded</change>
          <change who="#rl" when="2004-07-08">Transcribed</change>
@@ -72,80 +69,34 @@ The Dead Emperor
    </teiHeader>
    <text>
       <body>
-
          <pb facs="nyp.00006.001" xml:id="leaf001r" type="recto"/>
-
-         <lg
-              >
-
+         <lg>
             <note type="authorial"
                   place="top">
                <add rend="unmarked" place="inline">follow copy strictly</add>
             </note>
-
             <note type="authorial"
                   place="right">personal</note>
-
             <head type="main-authorial" rend="underline">The Dead Emperor.</head>
-	               
-            <l>
-               Today with bending head and eyes, thou<lb/>
-               too, Columbia,<lb/>
-            </l>
-
-            <l>
-               Less for the mighty crown laid low in<lb/> 
-               sorrow—less for the Emperor,<lb/>
-            </l>
-
-            <l>
-               Thy true consolence breathest, sendest<lb/>
-               
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">far,</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">out,</add>
-                     </rdg>
-                  </subst>
- o'er many a salt sea mile,<lb/>
-            </l>
-
-            <l>
-               Mourning 
-<subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">the</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">a</add>
-                     </rdg>
-                  </subst>
+            <l>Today with bending head and eyes, thou<lb/>
+               too, Columbia,<lb/></l>
+            <l>Less for the mighty crown laid low in<lb/> 
+               sorrow—less for the Emperor,<lb/></l>
+            <l>Thy true consolence breathest, sendest<lb/>
+                  <subst><rdg varSeq="1"><del rend="overstrike">far,</del></rdg><rdg varSeq="2"><add rend="unmarked" place="supralinear">out,</add></rdg></subst>
+ o'er many a salt sea mile,<lb/></l>
+            <l>Mourning 
+<subst><rdg varSeq="1"><del rend="overstrike">the</del></rdg><rdg varSeq="2"><add rend="unmarked" place="supralinear">a</add></rdg></subst>
  good old man—
-<subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">the</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">a</add>
-                     </rdg>
-                  </subst> 
-                  <orig reg="faithful">faith-</orig>
-               <lb/>
-               ful shepherd, patriot,<lb/>
-            </l>
-
+<subst><rdg varSeq="1"><del rend="overstrike">the</del></rdg><rdg varSeq="2"><add rend="unmarked" place="supralinear">a</add></rdg></subst> 
+                  <orig reg="faithful">faith-</orig><lb/>
+               ful shepherd, patriot,<lb/></l>
             <note type="authorial"
                   place="left">mgxo</note>
-
             <closer>
                <signed rend="underline">Walt Whitman</signed>
             </closer>
-
          </lg>
-
-
       </body>
    </text>
 </TEI>
