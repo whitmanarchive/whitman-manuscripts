@@ -74,41 +74,45 @@
      
       <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
-     <!--tara start here on monday-->
      <note>Transcribed from digital images of the original.</note>
-     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-     <relatedItem type="document" target="wwa.00041"/>
-     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+     <relatedItem type="text" xml:id="rel01" target="loc.00129"/>
+     <relatedItem type="document" target="wwa.00084"/>
+     <note type="project" target="#rel01">On the verso is a letter to Whitman from Harry C. Kochersperger dated 27 June 1890.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
     <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="blue ink" xml:id="h02" resp="#unk"></handNote>
-    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h02" resp="#ww"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
-<!-- IN THE FOLLOWING <CHANGE> ELEMENT EDIT THE @WHEN TO REFLECT TODAY'S DATE. IF YOU AREN'T JEFF, CHANGE THE INITIALS AFTER THE POUND SIGN IN @WHO -->
- <change when="2024-01-20" who="#jh">transcribed and encoded</change>
+ <change when="2024-02-19" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="P1010386.jpg" type="recto"/>
    <lg type="poem">
-     <l></l>
-     <l></l>
-     <l></l>
+     <l>casts off her moorings</l>
+     <l>raises her main sail &amp; jib</l>
+     <l>heave the anchor short</l>
    </lg>
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+   <lg type="poem">
+    <l>I will not call it my concluding voyage</l>
+    <l>But <subst><del rend="overstrike" seq="1">entrance</del><add rend="unmarked" place="above" seq="2">outset</add></subst> and true <subst><del rend="overstrike" seq="1">outset</del><add rend="unmarked" place="above" seq="2">entrance</add></subst> of <subst><del rend="overwrite" seq="1">the whole</del><add rend="unmarked" place="above" seq="2" hand="#h02">them all</add></subst>.</l>
+    
+    <l>Start out for good, <subst><del rend="overstrike" seq="1">and</del><add rend="unmarked" place="above" seq="2">to</add></subst> return no more</l>
+   </lg>
+   
+   <note hand="#h02"><l>Trial lines</l><l>Sail out for good,</l><l>Eidolon yacht&#8212;</l><l>Good bye My Fancy</l><l>Page 7&#8212;</l></note>
+     
+   <pb xml:id="leaf001v" facs="20040513_0089.jpg" type="verso"/>
    
 </body>
 </text>
