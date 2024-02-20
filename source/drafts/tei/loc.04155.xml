@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04155"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+
+    <title level="m" type="main" rend="bracketed">With many a voice</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     
+     <persName xml:id="slg">Samantha Gilmore</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2023</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>loc.04155</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- WRITTEN BY EDITORS --></note>
+    <note type="work_relations" target="xxx.00333" cert="high">
+     <p> Draft lines for "Fancies at Navesink," first published in 1885.</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title resp="#wwa">[With many a voice]</title>  
+     
+     <date notBefore="1880" notAfter="1885" cert="high">about 1885</date>
+     
+     <idno type="callno">mss45443</idno>
+     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+     
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+<revisionDesc>
+ 
+ <change when="2024-02-20" who="#slg">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="loc_jc.00758.jpg" type="recto"/>
+   
+   <lg type="poem">
+    
+    
+    
+    <l><add rend="unmarked" place="above"><gap reason="overstrike" extent="about two letters" unit="char" quantity="2"/></add> With many a voice</l>
+    
+    <l>With <del rend="overstrike">their</del> many a poem</l>
+    <l><del rend="overstrike">and</del> many a laugh</l>
+    <l>and freedom under the law</l>
+    <l>to him who can learn)</l>
+    <l>And lessons of river and</l>
+    <l>sea-beach day and delight</l>
+    <l>And freedom so wild</l>
+    <l>and <gap reason="overstrike" extent="about four letters" unit="char" quantity="4"/></l>
+    <l>under <gap reason="overstrike" extent="about three letters" unit="char" quantity="3"/></l>
+     
+   </lg>
+   
+   <pb xml:id="leaf001v" facs="loc_jc.00760.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>
