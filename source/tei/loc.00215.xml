@@ -2,13 +2,13 @@
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00219"> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00215"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
     
-    <title level="m" type="main">My task</title>
-    <title level="m" type="sub">a hand-written transcription</title>
+    <title level="m" type="main">Memories.</title>
+    <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
@@ -46,7 +46,7 @@
     </availability>
     
 
-   <idno>loc.00219</idno>
+   <idno>loc.00215</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
@@ -65,17 +65,17 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title resp="#wwa">My task</title>  
+     <title resp="#wwa">Memories.</title>  
      
-     <date>1891</date>
+     <date>1888</date>
      
      <idno type="callno">MSS 18630, Box 27; Reel 16-17</idno>
      
       <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-     <relatedItem type="text" xml:id="rel01" target=""/><!--None listed in Tracking Database-->
-     <relatedItem type="document" target=""/><!--None listed in Tracking Database-->
+     <relatedItem type="text" xml:id="rel01" target=""/><!--Nothing listed in Tracking Database-->
+      <relatedItem type="document" target=""/><!--Nothing listed in Tracking Database-->
      <note type="project" target="#rel01">The verso is a blank page.</note>
     </bibl>
    </sourceDesc>
@@ -87,49 +87,24 @@
   </profileDesc>
 <revisionDesc>
  
- <change when="2024-02-21" who="#tb">transcribed and encoded</change>
+<!-- IN THE FOLLOWING <CHANGE> ELEMENT EDIT THE @WHEN TO REFLECT TODAY'S DATE. IF YOU AREN'T JEFF, CHANGE THE INITIALS AFTER THE POUND SIGN IN @WHO -->
+ <change when="2024-01-20" who="#jh">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-   <pb xml:id="leaf001r" facs="20051227_0103.jpg" type="recto"/>
+<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
+   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
    <lg type="poem">
-     <l><hi rend="underline">My task</hi></l>
-     <l>Begun in ripen'd youth and steadily<lb/>
-                pursued, <del rend="overstrike">throughout</del>,</l>
-     <l>Wandering, peering, dallying with all&#8212;war,<lb/>
-                peace, day and night absorbing,</l>
-     <l>Never even for one brief hour abandoning my task,</l>
-     <l>I end it here in poverty, sickness, and old age.</l>
+     <l></l>
+     <l></l>
+     <l></l>
    </lg>
- 
-    <lg type="poem">
-     <l><hi rend="underline">L of G's Purport.</hi></l> 
-     <l>Not to exclude or demarcate, or pick out<lb/>
-            evils from their formidable masses (even<lb/>
-            to expose them,)</l>
-     <l>But <del rend="overstrike">to</del> add, fuse, complete, extend&#8212;and cel-<lb/>
-       ebrate the immortal and <subst><del rend="overstrike" seq="1">the</del><add rend="unmarked" place="above" seq="2">the</add></subst> good.</l>
-    </lg>
-    
-   <lg type="poem">
-    <l><hi rend="underline">Death dogs my steps.</hi></l> 
-    <l>I sing of life, yet mind me well of death,</l>
-    <l>To-day <add rend="insertion" place="above">shadowy</add> Death dogs my steps, and has for years&#8212;my<lb/>
-                seated shape,</l>
-    <l>Draws sometimes close to me, as face to face</l>
-   </lg>    
    
-   <lg type="poem">
-    <l><hi rend="underline">For us two, reader dear.</hi></l> 
-    <l>Simple, spontaneous, curious, two souls interchanging</l>
-    <l>With the original testimony for us <del rend="overstrike">two</del> continued<lb/>
-                on to the last</l>
-   </lg>    
- 
-   <pb xml:id="leaf001v" facs="loc.00219.002.jpg" type="verso"/>
+<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
+   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
    
 </body>
 </text>
