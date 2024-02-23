@@ -71,12 +71,12 @@
         <profileDesc>
             <handNotes>
                 <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-                <handNote medium="blue ink" xml:id="h02" resp="#unk"></handNote>
+                <handNote medium="blue ink" xml:id="h02" resp="#unk">
                 <handNote medium="red ink" xml:id="h03" resp="#ww"/>
             </handNotes>
         </profileDesc>
         <revisionDesc>
-            <change when="2024-02-16" who="#jh">transcribed and encoded</change>
+            <change when="2024-02-23" who="#jh">transcribed and encoded</change>
         </revisionDesc>
     </teiHeader>
     <text type="manuscript">
@@ -88,8 +88,7 @@
                 <l>To the music of ebb-tide ripples softly</l>
                 <l>Alone</l>
                 <l>To the ripples</l>
-                <l>[gap] [gap]</l>
-                <l><hi rend="underline">Idly floating</hi></l>
+                <l><subst><del rend="overstrike" seq="1">Idly floating</del><add rend="unmarked" place="above" seq="2">Flo</add><add rend="unmarked" place="above" seq="3">Floa</add></subst>
                 <l>Idly I float</l>
             </lg>
             <pb xml:id="leaf001v" facs="loc_es.01391_large.jpg" type="verso"/>
@@ -100,7 +99,8 @@
 <p><hi rend="underline">9 AM.</hi>  You are expected if thre may be no "old wine" there is some "fat reunion," I have [gap] &#38; we will have a Homeric tune by a "[gap]"</p>
 <p>Say "[gap]"&#8212;[gap] Cleveland will not be a [gap] [gap]</p>
 <p>[gap] [gap]</p>
-<p>[gap] [gap]</p>            
+<p>[gap] [gap]</p>
+            <signed></signed>
         </body>
     </text>
 </TEI>
