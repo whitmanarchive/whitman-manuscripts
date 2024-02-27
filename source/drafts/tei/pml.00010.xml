@@ -4,16 +4,18 @@
       <fileDesc>
          <titleStmt>
             <title level="m" type="main-authorial" rend="underline">
-               Ah, not <app><rdg varseq="1"><del type="overstrike">this</del></rdg><rdg varseq="2"><add type="unmarked" place="supralinear">that</add></rdg></app> granite dead and cold!
+               Ah, not <app><seq="1"><del type="overstrike">this</del><seq="2"><add type="unmarked" place="above">that</add></app> granite dead and cold!
             </title>
             <title level="m" type="sub">a machine readable transcription</title>
             <author>Walt Whitman</author>
             <editor role="editor">Kenneth M. Price</editor>
             <editor role="editor">Ed Folsom</editor>
+            <editor role="editor">Matt Cohen</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="mm">Megan Maher</persName>
+               <persName xml:id="jh">Jeff Hill</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -21,7 +23,7 @@
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2003</date>
+               <date>2024</date>
             </edition>
          </editionStmt>
          <publicationStmt>
@@ -41,196 +43,51 @@
          <sourceDesc>
             <bibl>
                <author> Walt Whitman </author>
-               <title>
-Ah, not that granite dead and cold!
-	
-</title>
-               <idno type="callno">
-540	  	
-</idno> 
-               <orgName xml:id="pml">The Pierpont Morgan Library, New York</orgName> 
-
-
-
+               <title>Ah, not that granite dead and cold!</title>
+               <idno type="callno">540</idno> 
+               <orgName xml:id="pml">The Pierpont Morgan Library, New York</orgName>
                <note type="project">Transcribed from digital images of the original.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change who="#jh" when="2024-02-27">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#mm" when="2003-06-18">Encoded</change>
-         <change who="#mm" when="2003-06-18">Transcribed</change>
+         <change who="#mm" when="2003-06-18">encoded</change>
+         <change who="#mm" when="2003-06-18">transcribed</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-
-
-
          <pb facs="pml.00010.001" xml:id="leaf001r" type="recto"/>
-
-         <lg
-              >
-
-            <head type="main-authorial" rend="underline">
-Ah, not <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">this</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="supralinear">that</add>
-                  </rdg>
-               </subst> granite dead and cold 
-</head>
-
-            <l>Ah, not <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">this</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="supralinear">that</add>
-                  </rdg>
-               </subst> granite dead and cold!</l>
-
-            <l>
-               Far <del rend="overstrike">far</del> from <add rend="unmarked" place="supralinear">its</add> base and shaft expanding—the<lb/>
-               round zones circling, comprehending<lb/>
-            </l>
-
-            <l>
-               No <add rend="insertion" place="supralinear">limited</add> lurid fame exceptional <add rend="insertion" place="supralinear">
-                     <gap reason="heavily overstruck"/> for thee</add> 
-                  <!--&para;--> 
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overwrite">n</del>
-                     </rdg> 
-                     <rdg varSeq="2">
-                        <add rend="overwrite" place="over">N</add>
-                     </rdg>
-                  </subst>or
-<subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">monstrous</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">ribroportious</add>
-                     </rdg>
-                  </subst> in<lb/>
-               tellest nor conquest domination<lb/>
-            </l>
-
- 
-            <l>
-               Thou <hi rend="underline">Washington</hi> are all the world's <del rend="overstrike">
-                     <add rend="insertion" place="supralinear">
-                        <gap reason="heavily overstruck, illegible"/>
-                     </add>
-                  </del>
+         <lg>
+            <head type="main-authorial" rend="underline">Ah, not <subst><seq="1"><del rend="overstrike">this</del><seq="2"><add rend="unmarked" place="above">that</add></subst> granite dead and cold</head>
+            <l>Ah, not <subst><seq="1"><del rend="overstrike">this</del><seq="2"><add rend="unmarked" place="above">that</add></subst> granite dead and cold!</l>
+            <l>Far <del rend="overstrike">far</del> from <add rend="unmarked" place="supralinear">its</add> base and shaft expanding—the<lb/>
+               round zones circling, comprehending<lb/></l>
+            <l>No <add rend="insertion" place="above">limited</add> lurid fame exceptional <add rend="insertion" place="above"><gap reason="heavily overstruck"/>for thee</add> <subst><seq="1"><del rend="overwrite">n</del><seq="2"><add rend="overwrite" place="over">N</add></subst>or<subst><seq="1"><del rend="overstrike">monstrous</del><seq="2"><add rend="unmarked" place="above">ribroportious</add></subst>in<lb/>
+               tellest nor conquest domination<lb/></l>
+            <l>Thou <hi rend="underline">Washington</hi> are all the world's <del rend="overstrike"><add rend="insertion" place="above"><gap reason="heavily overstruck, illegible"/></add></del>
                   <add rend="insertion" place="supralinear">the continent's</add>—not<lb/>
-               yours alone, America<lb/>
-            </l>
-
-            <l>
-               Europe's as well, <anchor xml:id="a1"/>in every <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">
-                           <gap reason="heavily overstruck"/>
-                        </del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">part,</add>
-                     </rdg>
-                  </subst> 
-                  <anchor xml:id="a1"/> 
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">in castle or in</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="insertion" place="supralinear">castle of lord or</add>
-                     </rdg>
-                  </subst> laborer's cot—<lb/>
-               
-                  <add rend="insertion" place="supralinear">
-                     <unclear reason="illegible" resp="#mr" cert="medium">or from north, or sultry south—</unclear>
-                  </add> The Arab's in his tent— the African's,<lb/>
-            </l>
-
-            <l>
-               Old Asias there with venerable smile seated<lb/>
-               amid her rains,<lb/>
-            </l>
-
-            <l>
-               (Greets the antique the hero new ? 'tis but the<lb/>
-               same—the<subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">undying</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">
-                           <unclear reason="illegible" resp="#mr" cert="medium">indubitable</unclear>
-                        </add>
-                     </rdg>
-                  </subst> heart and <del rend="overstrike">h</del> arm—the<lb/>
-               heir legitimate—<subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">the same unbroken</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">—proofs of the never broken line</add>
-                     </rdg>
-                  </subst>
-               <lb/>
-            </l> 
-
-
-            <l>
-               Courage, alertness, patience, hope, the same—e'en<lb/>
-               in defeat defeated not the same;)<lb/>
-            </l>
-
-            <l>
-               Wher<subst>
-                     <rdg varSeq="1">
-                        <del rend="overwrite">every</del>
-                     </rdg> 
-                     <rdg varSeq="2">
-                        <add rend="overwrite" place="over">ever</add>
-                     </rdg>
-                  </subst> 
-                  <add rend="unmarked" place="supralinear">sails by</add> ship, <del rend="overstrike">sails,</del> or house is built on land,<lb/>
-               or night or day,<lb/>
-            </l>
-
-            <l>
-               Through teeming citie's streets, indoors or out,<lb/>
-               factories or farms,<lb/>
-            </l>
-
-            <l>
-               Now or to come or past—wherever patriot<lb/>
-               wills existed or exist<lb/>
-            </l>
-
-            <l>
-               Wherever Freedom, poised by Toleration, swayed<lb/>
-               by Law—<add rend="unmarked" place="inline">in them, from them,</add>
-               <lb/>
-            </l>
-
-            <l>
-               <delSpan spanTo="#d1"
-                        
-                        rend="overstrike"/>Rising or risen, there's thy true monument,</l>
-            <l>Rises or <anchor xml:id="d1"/>
-               <add rend="unmarked" place="infralinear">stands or</add> is rising thy true monument</l>
-
-
- 
-
-         </lg>
+               yours alone, America<lb/></l>
+            <l>Europe's as well, <anchor xml:id="a1"/>in every <subst><seq="1"><del rend="overstrike"><gap reason="heavily overstruck"/></del><seq="2"><add rend="unmarked" place="supralinear">part,</add></subst><anchor xml:id="a1"/><subst><seq="1"><del rend="overstrike">in castle or in</del><seq="2"><add rend="insertion" place="above">castle of lord or</add></seq></subst> laborer's cot—<lb/><add rend="insertion" place="above"><unclear reason="illegible" resp="#mr" cert="medium">or from north, or sultry south—</unclear></add> The Arab's in his tent— the African's,<lb/></l>
+            <l>Old Asias there with venerable smile seated<lb/>
+               amid her rains,<lb/></l>
+            <l>(Greets the antique the hero new ? 'tis but the<lb/>
+               same—the<subst><seq="1"><del rend="overstrike">undying</del><seq="2"><add rend="unmarked" place="above"><unclear reason="illegible" resp="#mr" cert="medium">indubitable</unclear></add></subst>heart and <del rend="overstrike">h</del>arm—the<lb/>
+               heir legitimate—<subst><seq="1"><del rend="overstrike">the same unbroken</del><seq="2"><add rend="unmarked" place="above">—proofs of the never broken line</add></subst><lb/></l>
+            <l>Courage, alertness, patience, hope, the same—e'en<lb/>
+               in defeat defeated not the same;)<lb/></l>
+            <l>Wher<subst><seq="1"><del rend="overwrite">every</del><seq="2"><add rend="overwrite" place="over">ever</add></subst><add rend="unmarked" place="supralinear">sails by</add> ship, <del rend="overstrike">sails,</del> or house is built on land,<lb/>
+               or night or day,<lb/></l>
+            <l>Through teeming citie's streets, indoors or out,<lb/>
+               factories or farms,<lb/></l>
+            <l>Now or to come or past—wherever patriot<lb/>
+               wills existed or exist<lb/></l>
+            <l>Wherever Freedom, poised by Toleration, swayed<lb/>
+               by Law—<add rend="unmarked" place="inline">in them, from them,</add><lb/></l>
+            <l><delSpan spanTo="#d1" rend="overstrike"/>Rising or risen, there's thy true monument,</l>
+            <l>Rises or <anchor xml:id="d1"/><add rend="unmarked" place="infralinear">stands or</add> is rising thy true monument</l></lg>
       </body>
    </text>
 </TEI>
