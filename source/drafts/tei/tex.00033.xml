@@ -8,10 +8,12 @@
             <author>Walt Whitman</author>
             <editor role="editor">Kenneth M. Price</editor>
             <editor role="editor">Ed Folsom</editor>
+            <editor role="editor">Jeff Hill</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="li">Leslie Ianno</persName>
+               <persName xml:id="jh">Jeff Hill</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -19,7 +21,7 @@
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2003</date>
+               <date>2024</date>
             </edition>
          </editionStmt>
          <publicationStmt>
@@ -39,16 +41,14 @@
          <sourceDesc>
             <bibl>
                <author> Walt Whitman </author>
-
                <title>The Walt Whitman Collection</title>
-
                <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName> 
-
                <note type="project">Transcribed from digital images of the original.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change who="#jh" when="2024-02-27">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
          <change who="#li" when="2003-09-15">Encoded</change>
          <change who="#li" when="2003-09-015">Transcribed</change>
@@ -56,64 +56,19 @@
    </teiHeader>
    <text>
       <body>
-
          <pb facs="tex.00033.001" xml:id="leaf001r" type="recto"/>
-
-         <lg
-              >
-
+         <lg>
             <head type="main-authorial" rend="underline">Life.</head>
-
             <delSpan rend="hashmark" to="d1" />
-            <l>
-               <del rend="overstrike">The undiscover'd</del>
-            </l>
-
-            <l>
-               <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">The</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add place="supralinear" rend="unmarked">Ever the</add>
-                  </rdg>
-               </subst> undiscouraged, resolute soul of man;</l>
-
-            <l>
-               Ever the grappled mystery—ever the same<lb/>
-               in all
-<subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">known</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="supralinear" rend="unmarked">earth's</add>
-                     </rdg>
-                  </subst> ages old or new,<lb/>
-            </l>
-
-            <l>
-               Ever the eager eyes, hurrahs, the welcome clappy<lb/>
-               hands
-<subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">and</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="supralinear" rend="unmarked">the</add>
-                     </rdg>
-                  </subst> loud applause;<lb/>
-            </l>
-
-            <l>
-               Ever the busy<add place="supralinear" rend="unmarked"> busy</add> curious brain struggling to<lb/>
-               
-                  <hi rend="underline">solve the problem.</hi>
-               <lb/>
-            </l>	               
-            <anchor xml:id="d1"/>
-
-         </lg>
+            <l><del rend="overstrike">The undiscover'd</del></l>
+            <l><subst><seq="1"><del rend="overstrike">The</del><seq="2"><add place="above" rend="unmarked">Ever the</add></subst>undiscouraged, resolute soul of man;</l>
+            <l>Ever the grappled mystery—ever the same<lb/>
+               in all<subst><seq="1"><del rend="overstrike">known</del><seq="2"><add place="above" rend="unmarked">earth's</add></subst>ages old or new,<lb/></l>
+            <l>Ever the eager eyes, hurrahs, the welcome clappy<lb/>
+               hands<subst><seq="1"><del rend="overstrike">and</del></rdg><seq="2"><add place="above" rend="unmarked">the</add></subst>loud applause;<lb/></l>
+            <l>Ever the busy<add place="above" rend="unmarked"> busy</add> curious brain struggling to<lb/>
+                  <hi rend="underline">solve the problem.</hi><lb/></l>	               
+            <anchor xml:id="d1"/></lg>
       </body>
    </text>
 </TEI>
