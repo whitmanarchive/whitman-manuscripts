@@ -2,13 +2,13 @@
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pri.00001"> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00050"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
     
 
-    <title level="m" type="main">As I sit writing here</title>
+    <title level="m" type="main">To the Year 1889</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -26,7 +26,7 @@
    </titleStmt>
    <editionStmt>
     <edition>
-     <date>2024</date>
+     <date>2023</date>
     </edition>
    </editionStmt>
    <publicationStmt>
@@ -48,12 +48,12 @@
     </availability>
     
 
-   <idno>pri.00001</idno>
+   <idno>tex.00050</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- WRITTEN BY EDITORS --></note>
-    <note type="work_relations" target="xxx.00318" cert="high">
-     <p>This is a draft, with several corrections, of the four-line poem "As I Sit Writing Here," which was published first in the <hi rend="italic">New York Herald</hi>, May 14, 1888. It was reprinted in <hi rend="italic">November Boughs</hi> (1888) and in the "Sands at Seventy" annex of <hi rend="italic">Leaves of Grass</hi> (1891–92).</p>
+    <note type="work_relations" target="xxx.00389" cert="high">
+     <p>This is a page proof with handwritten information on the poem's initial publication in the <hi rend="italic">Critic</hi> on 5 January 1889. Retitled "To the Pending Year," it was included in <hi rend="italic">Good-Bye My Fancy</hi> (1891) and, as part of the "Good-Bye my Fancy" annex, in the so-called deathbed edition of <hi rend="italic">Leaves of Grass</hi> (1891–92).</p>
      </note>
    </notesStmt>
    
@@ -61,12 +61,12 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title resp="#wwa">As I sit writing here</title>  
+     <title resp="#wwa">To the Year 1889</title>  
      
-     <date notBefore="1883" notAfter="1888" cert="high">about 1888</date>
+     <date notBefore="1885" notAfter="1890" cert="high">1889</date>
      
-     <idno type="callno">C0140</idno>
-     <orgName xml:id="pru">Manuscripts Division, Department of Rare Books and Special Collections, Princeton University Library </orgName>
+     <idno type="callno"></idno>
+     <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
      
      <note>Transcribed from digital images of the original.</note>
      
@@ -75,30 +75,31 @@
 </fileDesc>
 <revisionDesc>
  
- <change when="2024-02-15" who="#slg">transcribed and encoded</change>
- 
+ <change when="2024-02-28" who="#slg">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-   <pb xml:id="leaf001r" facs="Whitman001.jpg" type="recto"/>
-
-   <lg type="poem">
-    
-   <head rend="underline" type="main">As I sit <subst><del rend="overstrike" seq="1">thinking</del><add place="above" seq="2">writing</add></subst> here</head>
+   <pb xml:id="leaf001r" facs="tex.00050.001.jpg" type="recto"/>
+ 
+   <note hand="#ww" type="authorial" place="top"><hi rend="underline">Critic</hi> Jan: 5 '89</note>
    
-
-    <l>As I sit <subst><del rend="overstrike" seq="1">thinking</del><add place="above" seq="2">writing</add></subst> here, sick and grown old,</l>
-    <l>Not my least burden is, that dulness, <metamark function="add" target="#a001">&#8248;</metamark><add xml:id="a001" place="above">of the</add> years, querilities,</l>
-    <l>Ungracious glooms, aches, lethargy, constipation, <metamark function="add" target="#a002">&#8248;</metamark><add xml:id="a002" place="above">whimpering,</add> <subst><del rend="overstrike" seq="1">solitude,</del><add rend="underline" seq="2" place="above">ennui,</add></subst></l>
-    <l>May filter in my daily songs.</l>
+   <lg type="poem">
+   <head type="main">TO THE YEAR 1889.</head>
+    <l>Have I no weapon-word for thee&#8212;some message brief and fierce?</l>
+     <l>Have I fought out and done indeed the battle? Is there no shot left,</l>
+     <l>For all thy affections, lisps, scorns, manifold silliness?</l>
+     <l>Nor for myself&#8212;my own rebellious self in thee?</l>
+     <l>Down, down, proud gorge!&#8212;though choking thee;</l>
+     <l>Thy bearded throat and high-borne forehead to the gutter;</l>
+     <l>Crouch low thy neck to eleemosynary gifts.</l>    
    </lg>
    
-   <signed rend="underline">Walt Whitman</signed>
+   <ab><hi rend="smallcaps">WALT WHITMAN.</hi></ab>
    
-   <pb xml:id="leaf001v" facs="Whitman001.002_large.jpg" type="verso"/>
+   <pb xml:id="leaf001v" facs="tex.00050.002.jpg" type="verso"/>
    
 </body>
 </text>

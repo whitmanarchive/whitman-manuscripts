@@ -2,13 +2,13 @@
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pri.00001"> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00221"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
     
 
-    <title level="m" type="main">As I sit writing here</title>
+    <title level="m" type="main">for the Notes</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -26,7 +26,7 @@
    </titleStmt>
    <editionStmt>
     <edition>
-     <date>2024</date>
+     <date>2023</date>
     </edition>
    </editionStmt>
    <publicationStmt>
@@ -48,12 +48,12 @@
     </availability>
     
 
-   <idno>pri.00001</idno>
+   <idno>tex.00221</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- WRITTEN BY EDITORS --></note>
-    <note type="work_relations" target="xxx.00318" cert="high">
-     <p>This is a draft, with several corrections, of the four-line poem "As I Sit Writing Here," which was published first in the <hi rend="italic">New York Herald</hi>, May 14, 1888. It was reprinted in <hi rend="italic">November Boughs</hi> (1888) and in the "Sands at Seventy" annex of <hi rend="italic">Leaves of Grass</hi> (1891–92).</p>
+    <note type="work_relations" target="xxx.00486" cert="high">
+     <p>This short note refers to a passage in the third edition of Edward FitzGerald's <hi rend="italic">The Rubáiyát of Omar Khayyám, the Astronomer-Poet of Persia</hi>, published in 1872. Whitman quotes stanza 66 of FitzGerald's work in his essay "Notes (such as they are) founded on Elias Hicks," which was first published in <hi rend="italic">November Boughs</hi> (1888) and later reprinted in <hi rend="italic">Complete Prose Works</hi> (1892). He had apparently intended to include, as a footnote to his quotation, the next three stanzas of the Rubáiyát, but these do not appear in the article as it was printed.</p>
      </note>
    </notesStmt>
    
@@ -61,12 +61,12 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title resp="#wwa">As I sit writing here</title>  
+     <title resp="#wwa">for the Notes</title>  
      
-     <date notBefore="1883" notAfter="1888" cert="high">about 1888</date>
+     <date notBefore="1885" notAfter="1890" cert="high">about 1888</date>
      
-     <idno type="callno">C0140</idno>
-     <orgName xml:id="pru">Manuscripts Division, Department of Rare Books and Special Collections, Princeton University Library </orgName>
+     <idno type="callno"></idno>
+     <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
      
      <note>Transcribed from digital images of the original.</note>
      
@@ -75,30 +75,20 @@
 </fileDesc>
 <revisionDesc>
  
- <change when="2024-02-15" who="#slg">transcribed and encoded</change>
- 
+ <change when="2024-02-27" who="#slg">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-   <pb xml:id="leaf001r" facs="Whitman001.jpg" type="recto"/>
-
-   <lg type="poem">
-    
-   <head rend="underline" type="main">As I sit <subst><del rend="overstrike" seq="1">thinking</del><add place="above" seq="2">writing</add></subst> here</head>
+   <pb xml:id="leaf001r" facs="tex.00221.001_large.jpg" type="recto"/>
    
-
-    <l>As I sit <subst><del rend="overstrike" seq="1">thinking</del><add place="above" seq="2">writing</add></subst> here, sick and grown old,</l>
-    <l>Not my least burden is, that dulness, <metamark function="add" target="#a001">&#8248;</metamark><add xml:id="a001" place="above">of the</add> years, querilities,</l>
-    <l>Ungracious glooms, aches, lethargy, constipation, <metamark function="add" target="#a002">&#8248;</metamark><add xml:id="a002" place="above">whimpering,</add> <subst><del rend="overstrike" seq="1">solitude,</del><add rend="underline" seq="2" place="above">ennui,</add></subst></l>
-    <l>May filter in my daily songs.</l>
-   </lg>
+   <p>for <hi rend="italic">the Notes</hi>&#8212; &#167; Then there are <subst><del rend="overstrike" seq="1">two</del><add rend="unmarked" place="above" seq="2">three</add></subst> other stanzas</p>
    
-   <signed rend="underline">Walt Whitman</signed>
+   <p>Heaven but the vision of fulfill'd Desire &#38;c p 18</p>
    
-   <pb xml:id="leaf001v" facs="Whitman001.002_large.jpg" type="verso"/>
+   <pb xml:id="leaf001v" facs="tex.00221.002_large.jpg" type="verso"/>
    
 </body>
 </text>

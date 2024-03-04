@@ -62,9 +62,9 @@
                     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
                     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842-1937, Library of Congress, Washington, D.C.</orgName>                    
                     <note>Transcribed from digital images of the original.</note>
-                    <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-                    <relatedItem type="document" target="wwa.00041"/>
-                    <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+                    <relatedItem type="text" xml:id="rel01" target="loc.07078"/>
+                    <relatedItem type="document" target="wwa.00127"/>
+                    <note type="project" target="#rel01">On the back of this manuscript is a letter from James Matlack Scovel to Walt Whitman, dated 14 November 1884.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -72,35 +72,26 @@
             <handNotes>
                 <handNote medium="black ink" xml:id="h01" resp="#ww"/>
                 <handNote medium="blue ink" xml:id="h02" resp="#unk">
-                <handNote medium="red ink" xml:id="h03" resp="#ww"/>
             </handNotes>
         </profileDesc>
         <revisionDesc>
-            <change when="2024-02-23" who="#jh">transcribed and encoded</change>
+            <change when="2024-03-01" who="#jh">transcribed and encoded</change>
         </revisionDesc>
     </teiHeader>
     <text type="manuscript">
         <body>
             <pb xml:id="leaf001r" facs="loc_es.01392_large.jpg" type="recto"/>
             <lg type="poem">
-                <l>To the The Library of Congress</l>
+                <l>To the</l>
                 <l>As I sat</l>
                 <l>To the music of ebb-tide ripples softly</l>
                 <l>Alone</l>
                 <l>To the ripples</l>
-                <l><subst><del rend="overstrike" seq="1">Idly floating</del><add rend="unmarked" place="above" seq="2">Flo</add><add rend="unmarked" place="above" seq="3">Floa</add></subst>
+                <l><del rend="overstrike">Flo Flo</del></l>
+                <l><del rend="overstrike">Idly floating</del></l>
                 <l>Idly I float</l>
             </lg>
             <pb xml:id="leaf001v" facs="loc_es.01391_large.jpg" type="verso"/>
-<p>Office of Special Agent Treasury Department</p>
-<p>Nov 14, 1884 9 am</p>
-<p>Dear [gap]</p>
-<p>Sunday morning</p>
-<p><hi rend="underline">9 AM.</hi>  You are expected if thre may be no "old wine" there is some "fat reunion," I have [gap] &#38; we will have a Homeric tune by a "[gap]"</p>
-<p>Say "[gap]"&#8212;[gap] Cleveland will not be a [gap] [gap]</p>
-<p>[gap] [gap]</p>
-<p>[gap] [gap]</p>
-            <signed></signed>
         </body>
     </text>
 </TEI>
