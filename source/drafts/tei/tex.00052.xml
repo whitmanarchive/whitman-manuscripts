@@ -3,17 +3,17 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="m" type="main">
-To the Sun-set Breeze
-</title>
+            <title level="m" type="main">To the Sun-set Breeze</title>
             <title level="m" type="sub">a machine readable transcription</title>
             <author>Walt Whitman</author>
             <editor role="editor">Kenneth M. Price</editor>
             <editor role="editor">Ed Folsom</editor>
+            <editor role="editor">Matt Cohen</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="ah">Amy Hezel</persName>
+               <persName xml:id="jh">Jeff Hill</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -21,7 +21,7 @@ To the Sun-set Breeze
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2003</date>
+               <date>2024</date>
             </edition>
          </editionStmt>
          <publicationStmt>
@@ -40,159 +40,45 @@ To the Sun-set Breeze
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <author> Walt Whitman </author>
-               <title>
-The Walt Whitman Collection
-</title>
-               <idno type="callno">
-        <!-- THE REPOSITORY'S ID CODE FOR THE MATERIAL, IF ANY, CAN BE        -->
-        <!-- ENTERED HERE. THE VALUE OF 'TYPE' CAN BE ALTERED TO FIT        -->
-        <!-- THE TYPE OF ID NUMBER USED; EXAMPLE: MSS 3829                    -->
-                
-</idno> 
-               <orgName xml:id="tex">
-Harry Ransom Humanities Research Center, The University of Texas at Austin
-</orgName> 
-
-               <!-- ALTER THE FOLLOWING NOTE IF NECESSARY -->
-
+               <author>Walt Whitman</author>
+               <title>The Walt Whitman Collection</title>
+               <idno type="callno">tex.00052</idno> 
+               <orgName xml:id="tex">Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName> 
                <note type="project">Transcribed from digital images of the original.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change who="#jh" when="2024-03-05">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#ah" when="2003-10-04">Encoded</change>
-         <change who="#ah" when="2003-10-04">Transcribed</change>
+         <change who="#ah" when="2003-10-04">encoded</change>
+         <change who="#ah" when="2003-10-04">transcribed</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-
-
          <pb facs="tex.00052.001" xml:id="leaf001r" type="recto"/>
-                
-         <lg
-              >
-
-            <note type="authorial"
-                  place="top"
-                  rend="circled">
-               <p>follow copy punctuation</p>
-            </note>
-
-            <head type="main-authorial" rend="underline">
-To the Sun-set Breeze.                
-</head>
-
-                
+         <lg>
+            <note type="authorial" place="top" rend="circled">follow copy punctuation</note>
+            <head type="main-authorial" rend="underline">To the Sun-set Breeze.</head>
             <l>Ah, whispering, something again, unseen,</l>
-
-            <l>
-               Where late this heated day thou enterest at my<lb/>
-               window, door<lb/>
-            </l>
-
-            <l>
-               Thou, having, tempering all, cool-freshing, gently<lb/>
-               vitalizing<lb/>
-            </l>
-
-            <l>
-               Me, <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">sick</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">old</add>
-                     </rdg>
-                  </subst>alone, <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">old,</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">sick,</add>
-                     </rdg>
-                  </subst>
-weak-down, melted-worn<lb/>
-               with sweat;<lb/>
-            </l>
-
-            <l>
-               Thou, nestling, folding close and firm yet soft, <orig reg="companion">com-</orig>
-               <lb/>
-               panion better than talk, book, art,<lb/>
-            </l>
-
-            <l>
-               (Though hast, O Nature! elements! utterance to my<lb/>
-               heart beyond the rest — and this is of them,)<lb/>
-            </l>
-
-            <l>
-               So sweet thy primitive taste to breathe within — thy<lb/>
-               soothing fingers on my face and hands,<lb/>
-            </l>
-
-            <l>
-               Thou, messenger-magical strange bringer to body and<lb/>
-               spirit of me<lb/>
-            </l>
-
-            <l>
-               (Distnaces <del rend="overstrike">are</del> balk'd — occult medicines penetrating me<lb/>
-               from head to foot,)<lb/>
-            </l>
-
-            <l>
-               I feel the sky, the prairies vast — I feel the mighty<lb/>
-               northern lakes,<lb/>
-            </l>
-
-            <l>
-               I feel the ocean and the forest — somehow I feel<lb/>
-               te globe itself swift-swimming in space;<lb/>
-            </l>
-
-            <l>
-               Thou haply <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">
-                           <unclear reason="deletion, illegible" resp="#ah"
-                                    cert="medium">comist</unclear>
-                        </del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">sent</add>
-                     </rdg>
-                  </subst>
-from lips so loved, now gone — haply<lb/>
-               from endless store, God-sent,<lb/>
-            </l>
-
-            <l>
-               (For thou art spiritual, Godly, most of all known<lb/>
-               to my sense,)<lb/>
-            </l>
-
-            <l>
-               Minister <del rend="overstrike">at last</del>
-to speak to me <add rend="insertion" place="supralinear">here and now,</add>what word has<lb/>
-               never told, and cannot tell,<lb/>
-            </l>
-
-            <l>
-               Art though not universal concrete's distallation? Law's,<lb/>
-               all Astronomy's <add rend="insertion" place="supralinear">last</add>refinement?<lb/>
-            </l>
-
+            <l>Where late this heated day thou enterest at my window, door</l>
+            <l>Thou, having, tempering all, cool-freshing, gently vitalizing</l>
+            <l>Me, <del rend="overstrike" seq="1">sick</del> <add rend="unmarked" place="above" seq="2">old</add> alone, <del rend="overstrike" seq="1">old,</del> <add rend="unmarked" place="above" seq="2">sick,</add> weak-down, melted-worn with sweat;</l>
+            <l>Thou, nestling, folding close and firm yet soft, companion better than talk, book, art,</l>
+            <l>(Though hast, O Nature! elements! utterance to my heart beyond the rest — and this is of them,)</l>
+            <l>So sweet thy primitive taste to breathe within&#8212;thy soothing fingers on my face and hands,</l>
+            <l>Thou, messenger-magical strange bringer to body and spirit of me</l>
+            <l>(Distnaces <del rend="overstrike">are</del> balk'd — occult medicines penetrating mefrom head to foot,)</l>
+            <l>I feel the sky, the prairies vast&#8212;I feel the mighty northern lakes,</l>
+            <l>I feel the ocean and the forest&#8212;somehow I feel the globe itself swift-swimming in space;</l>
+            <l>Thou haply <del rend="overstrike" seq="1" unclear reason="deletion, illegible" resp="#ah" cert="medium">comist</unclear></del> <add rend="unmarked" place="above" seq="2">sent</add> from lips so loved, now gone&#8212;haply from endless store, God-sent,</l>
+            <l>(For thou art spiritual, Godly, most of all known to my sense,)</l>
+            <l>Minister <del rend="overstrike">at last</del> to speak to me <add rend="insertion" place="above">here and now,</add> what word has never told, and cannot tell,</l>
+            <l>Art though not universal concrete's distallation? Law's, all Astronomy's <add rend="insertion" place="above">last</add>refinement?</l>
             <l>Hast thou no soul? Can I not know, identify thee?</l>
-
-
          </lg>
-
          <signed rend="underline">Walt Whitman</signed>
-
       </body>
    </text>
 </TEI>
