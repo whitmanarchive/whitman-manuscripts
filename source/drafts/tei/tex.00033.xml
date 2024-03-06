@@ -48,10 +48,10 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change who="#jh" when="2024-02-27">checked, corrected</change>
+         <change who="#jh" when="2024-03-05">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#li" when="2003-09-15">Encoded</change>
-         <change who="#li" when="2003-09-015">Transcribed</change>
+         <change who="#li" when="2003-09-15">encoded</change>
+         <change who="#li" when="2003-09-15">transcribed</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -61,14 +61,12 @@
             <head type="main-authorial" rend="underline">Life.</head>
             <delSpan rend="hashmark" to="d1" />
             <l><del rend="overstrike">The undiscover'd</del></l>
-            <l><subst><seq="1"><del rend="overstrike">The</del><seq="2"><add place="above" rend="unmarked">Ever the</add></subst>undiscouraged, resolute soul of man;</l>
-            <l>Ever the grappled mystery—ever the same<lb/>
-               in all<subst><seq="1"><del rend="overstrike">known</del><seq="2"><add place="above" rend="unmarked">earth's</add></subst>ages old or new,<lb/></l>
-            <l>Ever the eager eyes, hurrahs, the welcome clappy<lb/>
-               hands<subst><seq="1"><del rend="overstrike">and</del></rdg><seq="2"><add place="above" rend="unmarked">the</add></subst>loud applause;<lb/></l>
-            <l>Ever the busy<add place="above" rend="unmarked"> busy</add> curious brain struggling to<lb/>
-                  <hi rend="underline">solve the problem.</hi><lb/></l>	               
-            <anchor xml:id="d1"/></lg>
+            <l><del rend="overstrike" seq="1">The</del><add place="above" rend="unmarked" seq="2">Ever the</add>undiscouraged, resolute soul of man;</l>
+            <l>Ever the grappled mystery—ever the same in all <del rend="overstrike" seq="1">known</del> <add place="above" rend="unmarked" seq="2">earth's</add> ages old or new,</l>
+            <l>Ever the eager eyes, hurrahs, the welcome clappy hands <del rend="overstrike" seq="1">and</del> <add place="above" rend="unmarked" seq="2">the</add> loud applause;</l>
+            <l>Ever the busy <add place="above" rend="unmarked">busy</add> curious brain struggling to <hi rend="underline">solve the problem.</hi></l>	               
+            <anchor xml:id="d1"/>
+         </lg>
       </body>
    </text>
 </TEI>

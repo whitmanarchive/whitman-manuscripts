@@ -8,10 +8,12 @@
             <author>Walt Whitman</author>
             <editor role="editor">Kenneth M. Price</editor>
             <editor role="editor">Ed Folsom</editor>
+            <editor role="editor">Jeff Hill</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="ms">Melody S. Han</persName>
+               <persName xml:id="jh">Jeff Hill</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -19,7 +21,7 @@
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2003</date>
+               <date>2024</date>
             </edition>
          </editionStmt>
          <publicationStmt>
@@ -45,51 +47,25 @@
                <title>Papers of Walt Whitman</title>
                <idno type="callno">MSS 3829</idno> 
                <orgName xml:id="uva">Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
-
                <note type="project">Transcribed from digital images of the original.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change who="#jh" when="2024-03-05">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#ms" when="2004-01-04">Encoded</change>
-         <change who="#ms" when="2004-01-04">Transcribed</change>
+         <change who="#ms" when="2004-01-04">encoded</change>
+         <change who="#ms" when="2004-01-04">transcribed</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <pb facs="uva.00051.002" xml:id="leaf001r" type="recto"/>
          <div1 type="poem_notes">
-
-            <ab>
-               Embers of 
-<add rend="insertion" place="supralinear">day-
-<subst>
-                        <rdg varSeq="1">fire</rdg> 
-                        <rdg varSeq="2">
-                           <add rend="unmarked" place="supralinear">? light</add> 
-                        </rdg>
-                     </subst>
-                  </add>
-                  <subst>
-                     <rdg varSeq="1">Ending<del rend="overstrike">Day</del>
-                     </rdg>
-                     <rdg varSeq="2"> 
-                        <add rend="unmarked" place="infralinear">?smouldering</add> 
-                     </rdg>
-                  </subst>
-               <lb/>
-            </ab>
-
-            <ab>
-               Embers of day: fires smouldering<lb/>
-            </ab>
-
+            <ab>Embers of <add rend="insertion" place="above" seq="1">day-<add> fire <add rend="unmarked" place="above" seq="2">? light</add> <del rend="overstrike" seq="1">Ending</del> <del rend="overstrike" seq="2">Day</del> <add rend="unmarked" place="below" seq="2">?smouldering</add></ab>
+            <ab>Embers of day: fires smouldering</ab>
          </div1>
-
          <pb facs="uva.00051.001" xml:id="leaf001v" type="verso"/>
-
-
       </body>
    </text>
 </TEI>
