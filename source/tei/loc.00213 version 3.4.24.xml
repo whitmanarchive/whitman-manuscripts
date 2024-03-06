@@ -76,35 +76,40 @@
      <note>Transcribed from digital images of the original.</note>
      <relatedItem type="text" xml:id="rel01" target=""/>
      <relatedItem type="document" target=""/>
-     <note type="project" target="#rel01">The verso contains a note written by someone besides Whitman; the note reads "Original Manuscript of a Poem by Walt Whitman".</note>
+     <note type="project" target="#rel01">The verso contains a note written by an unknown hand; the note reads "Original Manuscript of a Poem by Walt Whitman".</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h01" resp="#ww"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
-<!-- IN THE FOLLOWING <CHANGE> ELEMENT EDIT THE @WHEN TO REFLECT TODAY'S DATE. IF YOU AREN'T JEFF, CHANGE THE INITIALS AFTER THE POUND SIGN IN @WHO -->
- <change when="2024-01-20" who="#jh">transcribed and encoded</change>
+ <change when="2024-03-06" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="P1010117.jpg" type="recto"/>
+   
+   <note>sent H May 19 pub'd</note>
+   
    <lg type="poem">
-     <l></l>
-     <l></l>
-     <l></l>
+    <l><title><hi rend="underline">Life and Death</hi></title></l>
+     <l>The two old <add rend="insertion" place="above">simple</add> problems ever</l>
+     <l><del rend="overstrike">For</del> <del rend="overstrike">Ever</del> intertwined</l>
+     <l><subst><del rend="unmarked" seq="1">For</del><add rend="unmarked" place="above" seq="2">By</add></subst> <del rend="overstrike">as</del> each successive age <del rend="overstrike">pass'd on</del><lb/>
+               insoluble, pass'd on,</l>
+     <l>To ours to-day&#8212;and we pass on. the same</l>
    </lg>
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+   <note><add rend="unmarked" place="above">close home,</add> Elusive, <del rend="overstrike">simple</del>, present, <add rend="unmarked" place="above">baffled,</add> grappled, <del rend="unmarked">foil'd</del> <subst><del rend="unmarked" seq="2"><add rend="unmarked" place="above" seq="1">baffled</add></del></subst></note>
+   
+   <pb xml:id="leaf001v" facs="loc.00213.002.jpg" type="verso"/>
    
 </body>
 </text>
