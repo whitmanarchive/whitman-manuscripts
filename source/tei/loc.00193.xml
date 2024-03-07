@@ -50,13 +50,8 @@
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
-<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
-     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
-     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
-     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
-    
-     <note type="work_relations" target="xxx." cert="">
-      <p></p>
+     <note type="work_relations" target="xxx.00362" cert="high">
+      <p>A dated, signed draft of "The Dying Veteran," first published in 1887. A note at end reads: "Given to Thomas Mosher by Horace Traubel, 1904." On verso of the page is a note by Whitman to "Mr. Curtz" (type setter) asking for a finished proof by the middle of the afternoon, Wednesday.</p>
      </note>
    </notesStmt>
    
@@ -73,16 +68,14 @@
       <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-     <relatedItem type="text" xml:id="rel01" target=""/><!--Nothing listed in Tracking Database.-->
-      <relatedItem type="document" target=""/><!--Nothing listed in Tracking Database.-->
-     <note type="project" target="#rel01">The verso contains an undated letter to a Mr. Curtz from Whitman.</note>
+     
     </bibl>
    </sourceDesc>
 </fileDesc> 
   <profileDesc>
    <handNotes>
     <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="black ink" xml:id="h02" resp="#unk"><persName xml:id="unk">Unknown</persName></handNote>
+    <handNote medium="black ink" xml:id="h02" resp="#unk"><persName xml:id="unk">unknown</persName></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
@@ -95,22 +88,23 @@
   <body>
    
    <pb xml:id="leaf001r" facs="P2280019.jpg" type="recto"/>
+   
+<lg type="poem">
+    <head rend="underline">The Dying Veteran</head>
 
-    <l><title><hi rend="underline">The Dying Veteran</hi></title></l>
+    <note type="authorial" place="inline" rend="underline">[A Long Island incident, early part of the present century.]</note>
 
-    <ab>[<hi rend="underline">A Long Island incident early part of the present century</hi>.]</ab>
-
-    <lg type="poem">
-     <l>Amid the days of order, ease <add rend="unmarked" place="above">ease</add>, prosperity,</l>
-     <l>Amid the <add rend="insertion" place="above">current</add> songs of beauty, peace, decorum,</l>
-     <l>I cast a reminiscence&#8212;(likely twill offend you,</l>
-     <l>I <subst><del rend="overwrite" seq="1">knew</del><add rend="unmarked" place="above" seq="2">heard</add></subst> it in my boyhood)&#8212;More than a gen<lb/>
-              eration since</l>
-      <l><subst><del rend="overstrike" seq="1">From Revolutionary times</del><add rend="unmarked" place="above" seq="2">A queer</add></subst> <subst><del rend="overstrike" seq="1">a</del><del rend="overstrike" seq="3"><add rend="unmarked" place="above" seq="2">A</add></del></subst> old savage man<lb/>
+    
+     <l>Amid the days of order, ease, <add rend="unmarked" place="above">ease,</add> prosperity,</l>
+     <l>Amid the <add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">current</add> songs of beauty, peace, decorum,</l>
+     <l>I cast a reminiscence&#8212;(likely 'twill offend you,</l>
+     <l>I <subst><del rend="overstrike" seq="1">knew</del><add place="above" seq="2">heard</add></subst> it in my boyhood)&#8212;<hi rend="tripleUnderline">M</hi>ore than a <choice><orig>gen&#11840;<lb/>
+              eration</orig><reg>generation<lb/></reg></choice> since,</l>
+ <l><del rend="overstrike">From <hi rend="tripleUnderline">R</hi>evolutionary times</del> <subst><del rend="overstrike" seq="3"><subst><del rend="overstrike" seq="1">a</del><add place="above" seq="2">A</add></subst> queer</del><add place="above" seq="4">A queer</add></subst> old savage man,<lb/>
                 a fighter under Washington himself,</l>
      <l>Large, brave, cleanly, hot&#11840;blooded, no talker, rather<lb/>
                 spiritualistic,</l>
-     <l>(<add rend="insertion" place="above">Had</add> fought in the ranks&#8212;fought well&#8212;had been all through the <add rend="insertion" place="above">Revolutionary</add>war,)</l>
+ <l>(<add place="inline"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">Had</add>  Fought in the ranks&#8212;fought well&#8212;had been all<lb/> through the <add place="inline"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003"><subst rend="overwrite"><del seq="1">r</del><add seq="2">R</add></subst>evolutionary</add> war,)</l>
      <l>Lay dying&#8212;sons, daughters, church&#11840;deacons lovingly<lb/>
                tending him</l>
      <l>Sharping their sense, their ears, toward his<lb/>
