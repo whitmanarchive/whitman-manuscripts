@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00051">
    <teiHeader>
       <fileDesc>
@@ -8,10 +9,12 @@
             <author>Walt Whitman</author>
             <editor role="editor">Kenneth M. Price</editor>
             <editor role="editor">Ed Folsom</editor>
+            <editor role="editor">Jeff Hill</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="rl">Robert LaCosse</persName>
+               <persName xml:id="jh">Jeff Hill</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -19,7 +22,7 @@
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2003</date>
+               <date>2024</date>
             </edition>
          </editionStmt>
          <publicationStmt>
@@ -38,56 +41,30 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <author> Walt Whitman </author>
-               <title>**************</title>
+               <author>Walt Whitman</author>
+               <title resp="#nyp">"You lingering sparse leaves of me." Holograph draft of poem, undated, signed.</title>
                <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library, New York Public Library</orgName> 
                <note type="project">Transcribed from digital images of the original.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change who="#jh" when="2024-03-08">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#rl" when="2005-02-01">Encoded</change>
-         <change who="#rl" when="2005-02-01">Transcribed</change>
+         <change who="#rl" when="2005-02-01">encoded</change>
+         <change who="#rl" when="2005-02-01">transcribed</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-
          <pb facs="nyp.00051.001.jpg" xml:id="leaf001r" type="recto"/>
-
          <lg>
-
             <head type="main-derived">You tokens diminute and lorn</head>
-
-            <l>
-               You tokens diminute and lorn-(not<lb/> 
-               now the
-<subst>
-                        <del rend="overstrike" seq="1">verdant</del>
-                        <add rend="unmarked" place="supralinear" seq="2">scents of</add>
-                     
-                  </subst> May, nor July<lb/>
-               
-                  <del rend="overstrike">&amp;</del> clover bloom- no prints of<lb/>
-               August now;)
-            </l>
-            <l>
-               You pallid little banners, remnants<lb/>
-               valueless-you overstay'd of<lb/>
-               time,
-            </l>
-            <l>
-               You dear, soul dear, continued leaves, my<lb/>
-               hardest and my last.
-            </l>
-
-            <closer>
+            <l>You tokens diminute and lorn&#8212;(not now the <del rend="overstrike" seq="1">verdant</del> <add rend="unmarked" place="above" seq="2">scents of</add> May, nor July <del rend="overstrike">&#38;</del> clover bloom&#8212;no prints of August now;)</l>
+            <l>You pallid little banners, remnants valueless-you overstay'd of time,</l>
+            <l>You dear, soul dear, continued leaves, my hardest and my last.</l>
                <signed rend="underline">Walt Whitman</signed>
-            </closer>
-
          </lg>
-
       </body>
    </text>
 </TEI>
