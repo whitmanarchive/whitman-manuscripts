@@ -56,16 +56,10 @@
                 <bibl>
                     <author xml:id="ww">Whitman, Walt</author>
                     <title resp="#wwa">[The Old World (Europe and Asia)]</title>
-                    <!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. -->
+                    <!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. -->
                     <date notBefore="" notAfter="" cert=""></date>
-                    
                     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
-                    
-                    <!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
-      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
-                    <orgName xml:id="duk"></orgName>
-                    
+                    <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>                    
                     <note>Transcribed from digital images of the original.</note>
                     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
                     <relatedItem type="document" target="wwa.00041"/>
@@ -81,7 +75,7 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
-            <change when="2024-03-12" who="#jh">transcribed and encoded</change>
+            <change when="2024-03-14" who="#jh">transcribed and encoded</change>
         </revisionDesc>
     </teiHeader>
     <text type="manuscript">
@@ -90,10 +84,8 @@
             <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
             <p>2</p>
             <p>I should like for myself to put on record</p>
-            
             <!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
             <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
-            
         </body>
     </text>
 </TEI>
