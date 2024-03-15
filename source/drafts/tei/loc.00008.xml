@@ -15,6 +15,7 @@
             <author>Walt Whitman</author>
             <editor role="editor">Kenneth M. Price</editor>
             <editor role="editor">Ed Folsom</editor>
+            <editor role="editor">Matt Cohen</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
@@ -22,6 +23,7 @@
                <persName xml:id="fl">Farrah Lehman</persName>
                <persName xml:id="km">Kenneth M. Price</persName>
                <persName xml:id="lr">Lisa Renfro</persName>
+               <persName xml:id="jh">Jeff Hill</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -29,7 +31,7 @@
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2004</date>
+               <date>2024</date>
             </edition>
          </editionStmt>
          <publicationStmt>
@@ -60,137 +62,31 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change who="#jh" when="2024-03-15">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#jr" when="2004-08-12">Encoded</change>
-         <change who="#jr" when="2004-08-08">Transcribed</change>
-         <change who="#fl" when="2006-06-15">Checked</change>
-         <change who="#km" when="2006-06-30">Edited</change>
-         <change who="#lr" when="2006-08-01">Blessed</change>
+         <change who="#jr" when="2004-08-12">encoded</change>
+         <change who="#jr" when="2004-08-08">transcribed</change>
+         <change who="#fl" when="2006-06-15">checked</change>
+         <change who="#km" when="2006-06-30">edited</change>
+         <change who="#lr" when="2006-08-01">blessed</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <pb facs="loc.00008.001" xml:id="leaf001r" type="recto"/>
-         <lg
-              >
-            <head type="main-authorial" rend="underline">A North Star <gap reason="cut away"/> South</head>
-            <l>Welcome <add rend="insertion" place="supralinear">Brazilian</add> brother—thy <add rend="insertion" place="supralinear">ample</add> place is ready;</l>
-            <del rend="overstrike">
-               <l>A shouting cheer to thee from the north</l>
-            </del>
-            <l>A <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">ready</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="supralinear">loving</add>
-                  </rdg>
-               </subst> hand—a smile <add rend="insertion" place="supralinear">from the north—</add>—a sunny <add rend="insertion" place="supralinear">instant</add> Hail!</l>
-            <l>
-               (Let the future <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">look</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">care</add>
-                     </rdg>
-                  </subst> for itself where it <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">uses</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="insertion" place="supralinear">reveals its</add>
-                     </rdg>
-                  </subst>
-               <lb/>
-               troubles, impedimentas<lb/>
-            </l>
-            <l>Be <del rend="overstrike">
-                  <add rend="insertion" place="supralinear">always</add>
-               </del> ours the present throe, the <add rend="insertion" place="supralinear">democratic</add> arm, the <add rend="insertion" place="supralinear">acceptance and the</add> faith)</l>
-            <l>
-               
-                  <del rend="overstrike">
-                     <add rend="insertion" place="supralinear">To-day</add>
-                  </del> To thee <del rend="overstrike">
-                     <add rend="insertion" place="supralinear">from us,</add>
-                  </del> 
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">the</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">to-day our</add>
-                     </rdg>
-                  </subst> reaching arm, <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">the expectant eye,</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">our <del rend="overstrike">of</del> turning neck,</add>
-                     </rdg>
-                  </subst>
-               <lb/> 
-               —<del rend="overstrike">
-                     <gap reason="deletion, illegible"/>
-                  </del> to thee <add rend="insertion" place="supralinear">from us</add> the expectant eye,<lb/>
-            </l>
+         <lg>
+            <head type="main-authorial" rend="underline">A North Star <gap reason="cut away"/>South</head>
+            <l>Welcome <add rend="insertion" place="above">Brazilian</add> brother—thy <add rend="insertion" place="above">ample</add> place is ready;</l>
+            <del rend="overstrike"><l>A shouting cheer to thee from the north</l></del>
+            <l>A <del rend="overstrike" seq="1">ready</del> <add rend="unmarked" place="above" seq="2">loving</add> hand—a smile <add rend="insertion" place="above">from the north—</add>—a sunny <add rend="insertion" place="above">instant</add> Hail!</l>
+            <l>(Let the future <del rend="overstrike" seq="1">look</del> <add rend="unmarked" place="above" seq="2">care</add> for itself where it <del rend="overstrike" seq="1">uses</del> <add rend="insertion" place="above" seq="2">reveals its</add> troubles, impediments</l>
+            <l>Be <del rend="overstrike"> <add rend="insertion" place="above">always</add></del> ours the present throe, the <add rend="insertion" place="above">democratic</add> arm, the <add rend="insertion" place="above">acceptance and the</add> faith)</l>
+            <l><del rend="overstrike"> <add rend="insertion" place="above">To-day</add></del> To thee <del rend="overstrike"> <add rend="insertion" place="above">from us,</add></del> <del rend="overstrike" seq="1">the</del> <add rend="unmarked" place="above" seq="2">to-day our</add> reaching arm, <del rend="overstrike" seq="1">the expectant eye,</del> <add rend="unmarked" place="above" seq="2">our <del rend="overstrike">of</del> turning neck,</add>—<del rend="overstrike"> <gap reason="deletion, illegible"/> </del> to thee <add rend="insertion" place="above">from us</add> the expectant eye,</l>
             <milestone unit="glued"/>
-            <l>Thou cluster free<subst>
-                  <rdg varSeq="1">
-                     <del rend="overwrite">—</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="over">!</add>
-                  </rdg>
-               </subst> thou <add rend="insertion" place="supralinear">brilliant</add> lustrous star!<subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">—learn</del> 
-                  </rdg>
-                  <rdg varSeq="2">
-                     <del rend="overstrike">
-                        <add rend="unmarked" place="supralinear">—first learning</add>
-                     </del> 
-                  </rdg>
-                  <rdg varSeq="3">
-                     <del rend="overstrike">
-                        <add rend="unmarked" place="supralinear">will</add>
-                     </del> 
-                  </rdg>
-                  <rdg varSeq="4">
-                     <add rend="unmarked" place="supralinear">learning well,</add>
-                  </rdg>
-               </subst> then, <add rend="insertion"
-                    place="supralinear"
-                    rend="circled">for good</add>
-            </l>
-            <l>The <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">last</del> 
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="supralinear">true</add>
-                  </rdg>
-               </subst> lesson of a Nation's light in the sky</l>
+            <l>Thou cluster free <del rend="overwrite" seq="1">—</del> <add rend="unmarked" place="over" seq="2">!</add> thou <add rend="insertion" place="above">brilliant</add> lustrous star! <del rend="overstrike" seq="1">—learn</del> <del rend="overstrike" seq="2"> <add rend="unmarked" place="above">—first learning</add></del> <del rend="overstrike" seq="3"><add rend="unmarked" place="above">will</add></del> <add rend="unmarked" place="above" seq="4">learning well,</add> then, <add rend="insertion" place="above">for good</add></l>
+            <l>The <del rend="overstrike" seq="1">last</del> <add rend="unmarked" place="above" seq="2">true</add> lesson of a Nation's light in the sky</l>
             <l>(More shining than the Cross, more than the Crown,)</l>
-            <l>
-               <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">Summit</del> 
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="supralinear">Its height</add>
-                  </rdg>
-               </subst> of all <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">
-                        <add rend="insertion" place="supralinear">will</add>
-                     </del> 
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="supralinear">to be</add>
-                  </rdg>
-               </subst> superb humanity.</l>
+            <l><del rend="overstrike" seq="1">Summit</del>  <add rend="unmarked" place="above" seq="2">Its height</add> of all <del rend="overstrike" seq="1"><add rend="insertion" place="above">will</add></del> <add rend="unmarked" place="above" seq="1">to be</add> superb humanity.</l>
          </lg>
       </body>
    </text>
