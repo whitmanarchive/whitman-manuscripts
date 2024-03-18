@@ -1,93 +1,111 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00120">
-   <relations>
-      <work ref="xxx.00406">
-         <p>Draft written on an opened envelope. These three lines later appeared as part of "L. of G.'s Purport."</p>
-      </work>
-   </relations>
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title level="m" type="main">Death dogs my steps</title>
-            <title level="m" type="sub">a machine readable transcription</title>
-            <author>Walt Whitman</author>
-            <editor role="editor">Kenneth M. Price</editor>
-            <editor role="editor">Ed Folsom</editor>
-            <respStmt>
-               <resp>Transcription and encoding</resp>
-               <persName xml:id="nhg">Nicole Gray</persName>
-               <persName xml:id="hm">Heather Morton</persName>
-               <persName xml:id="fl">Farrah Lehman</persName>
-               <persName xml:id="km">Kenneth M. Price</persName>
-            </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
-            <sponsor>University of Iowa</sponsor>
-            <funder>The National Endowment for the Humanities</funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>
-               <date>2004</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <idno>loc.00120</idno>
-            <distributor>The Walt Whitman Archive</distributor>
-            <address>
-               <addrLine>Center for Digital Research in the Humanities</addrLine>
-               <addrLine>319 Love Library</addrLine>
-               <addrLine>University of Nebraska-Lincoln</addrLine>
-               <addrLine>P.O. Box 884100</addrLine>
-               <addrLine>Lincoln, NE 68588-4100</addrLine>
-            </address>
-            <availability>
-               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
-            </availability>
-         </publicationStmt>
-         <notesStmt>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-            <note type="project" target="dat1">This draft was likely written in <date when="1890">1890</date>, the date postmarked on the envelope.</note>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00120"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main">Death dogs my steps.</title>
+    <title level="m" type="sub">a hand-written transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="tb">Tara Ballard</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
 
-
-            <note type="project" target="leaf001v">The poem is written on an envelope sent from London, addressed to Whitman and postmarked <date when="1890-03-03">March 3, 1890</date>.</note>                          	
-         </notesStmt>
-         <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
-               <title>Death dogs my steps</title>
+   <idno>loc.00120</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
+     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
+     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
+     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
+    
+     <note type="work_relations" target="xxx." cert="high">
+      <p>Draft of "Death Dogs My Steps" written in ink on the inside of a discarded and opened out envelope, addressed to Whitman from England, mailed in London February 21, 1890 and postmarked received in Camden March 3, 1890. The three lines later appeared as part of "L. of G.'s Purport," first published in 1891.</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title resp="#wwa">Death dogs my steps.</title>  
+     
+     <date>1890</date>
+     
+     <idno type="callno">MSS 18630, Box 26; Reel 16</idno>
+     
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+     <relatedItem type="text" xml:id="rel01" target="loc.00827"/>
+     <relatedItem type="document" target="wwa.00622"/>
+     <note type="project" target="#rel01">On the reverse of this envelope is Whitman's postal address.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
  
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+ <change when="2024-03-18" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
 
+ <text type="manuscript">
+  <body>
+   
 
-               <note type="project">Transcribed from digital images of the original.</note>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <revisionDesc>
-         <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#hm" when="2004-06-22">Encoded</change>
-         <change who="#hm" when="2004-06-22">Transcribed</change>
-         <change who="#fl" when="2006-08-25">Checked</change>
-         <change who="#km" when="2006-09-01">Edited</change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
+   <pb xml:id="leaf001r" facs="P1010025.jpg" type="recto"/>
+   <lg type="poem">
+    <l><title><hi rend="underline">Death dogs my steps.</hi></title></l>
+     <l>I sing of life, yet mind me well of death;</l>
+     <l>To-day Death dogs my steps, and has for years,<lb/>
+                   my seated shape</l>
+     <l>Draws sometimes close to me as face to face.</l>
+   </lg>
+   
+   <pb xml:id="leaf001v" facs="P1010026.jpg" type="verso"/>
 
-         <pb facs="loc.00120.001" xml:id="leaf001r" type="recto"/>
-
-         <lg
-              >
-
-
-            <head type="main-authorial" rend="underline">Death dogs my steps,</head>
-
-            <l>I sing of life, yet mind me well of death;</l>
-            <l>
-               To-day Death dogs my steps, and has for years,<lb/>		
-               my seated shape,<lb/>
-            </l>
-            <l>Draws sometimes close <add place="supralinear" rend="insertion">to me,</add> as face to face.</l>
-         </lg>
-      </body>
-   </text>
+</body>
+</text>
 </TEI>
