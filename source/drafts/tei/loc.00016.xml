@@ -16,13 +16,15 @@
             <author>Walt Whitman</author>
             <editor role="editor">Kenneth M. Price</editor>
             <editor role="editor">Ed Folsom</editor>
+            <editor role="editor">Matt Cohen</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="ah">Amy Hezel</persName>
                <persName xml:id="fl">Farrah Lehman</persName>
-               <persName xml:id="km">Kenneth M. Price</persName>
+               <persName xml:id="kp">Kenneth M. Price</persName>
                <persName xml:id="lr">Lisa Renfro</persName>
+               <persName xml:id="jh">Jeff Hill</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -30,7 +32,7 @@
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2003</date>
+               <date>2024</date>
             </edition>
          </editionStmt>
          <publicationStmt>
@@ -61,12 +63,13 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change who="#jh" when="2024-03-19">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#ah" when="2003-12-02">Encoded</change>
-         <change who="#ah" when="2003-12-02">Transcribed</change>
-         <change who="#fl" when="2006-06-19">Checked</change>
-         <change who="#km" when="2006-06-30">Edited</change>
-         <change who="#lr" when="2006-08-01">Blessed</change>
+         <change who="#ah" when="2003-12-02">encoded</change>
+         <change who="#ah" when="2003-12-02">transcribed</change>
+         <change who="#fl" when="2006-06-19">checked</change>
+         <change who="#kp" when="2006-06-30">edited</change>
+         <change who="#lr" when="2006-08-01">blessed</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -89,20 +92,15 @@
          <div1 type="title notes">
             <pb facs="loc.00016.002" xml:id="leaf001v" type="verso"/>
             <head type="main-derived">Carols at nearing Seventy</head>
-            <note type="authorial"
-                  place="top"
-                  rend="circled">
+            <note type="authorial" place="top" rend="circled">
                <p>?Or <hi rend="underline">Carols at Sixty-Nine</hi> &amp;c &amp;c &amp;c.. . . . for <hi rend="underline">Annex</hi> to the preceeding</p>
             </note>
-            <ab type="title" rend="underline">
-               <del rend="overstrike">A Carol Cluster at 69</del>
-            </ab>
+            <ab type="title" rend="underline"> <del rend="overstrike">A Carol Cluster at 69</del></ab>
             <ab type="title" rend="underline">Carols at nearing Seventy</ab>
             <ab type="subtitle">and other Poems . . . . for</ab>
             <ab type="subtitle" rend="underline">Annex</ab>
             <ab type="subtitle">to the Preceding</ab>
-            <note type="authorial"
-                  place="bottom">? or simply <hi rend="underline">A Carol at Sixty-Nine</hi>
+            <note type="authorial" place="bottom">? or simply <hi rend="underline">A Carol at Sixty-Nine</hi>
             </note>
          </div1>
       </body>
