@@ -1,140 +1,120 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00018">
-   <relations>
-      <work ref="xxx.00380" cert="high">
-         <p>One leaf, handwritten; consists of trial lines for "Sail Out for Good, Eidolon
-            Yacht!"</p>
-      </work>
-   </relations>
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title level="m" type="main" rend="bracketed">casts off her moorings</title>
-            <title level="m" type="sub">a machine readable transcription</title>
-            <author>Walt Whitman</author>
-            <editor role="editor">Kenneth M. Price</editor>
-            <editor role="editor">Ed Folsom</editor>
-            <respStmt>
-               <resp>Transcription and encoding</resp>
-               <persName xml:id="nhg">Nicole Gray</persName>
-               <persName xml:id="ms">Melody S. Han</persName>
-               <persName xml:id="fl">Farrah Lehman</persName>
-               <persName xml:id="km">Kenneth M. Price</persName>
-               <persName xml:id="lr">Lisa Renfro</persName>
-            </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
-            <sponsor>University of Iowa</sponsor>
-            <funder>The National Endowment for the Humanities</funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>
-               <date>2003</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <idno>loc.00018</idno>
-            <distributor>The Walt Whitman Archive</distributor>
-            <address>
-               <addrLine>Center for Digital Research in the Humanities</addrLine>
-               <addrLine>319 Love Library</addrLine>
-               <addrLine>University of Nebraska-Lincoln</addrLine>
-               <addrLine>P.O. Box 884100</addrLine>
-               <addrLine>Lincoln, NE 68588-4100</addrLine>
-            </address>
-            <availability>
-               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
-            </availability>
-         </publicationStmt>
-         <notesStmt>
-            <note type="project" target="dat1">The manuscript is assumed to have been produced in <date when="1890">1890</date> because of the letter on the verso.</note>
-            <note type="project">On the verso is a letter from Harry C. Kochersperger dated <date when="1890-06-27">June 27, 1890</date>. </note>                          	
-         </notesStmt>
-         <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
-               <title>[casts off her moorings]</title>
-               <date cert="high" value="1890" xml:id="dat1">About 1890.</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839-1919, Library of Congress, Washington, D.C.</orgName> 
-               <note type="project">Transcribed from digital images of the original.</note>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-         <handList>
-            <hand scribe="unknown" xml:id="unk"/>
-         </handList>
-         <handList>
-            <hand scribe="Melody S. Han" xml:id="mh"/>
-         </handList>
-      </profileDesc>
-      <revisionDesc>
-         <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#ms" when="2004-01-05">Encoded</change>
-         <change who="#ms" when="2004-01-05">Transcribed</change>
-         <change who="#fl" when="2006-06-20">Checked</change>
-         <change who="#km" when="2006-07-06">Edited</change>
-         <change who="#lr" when="2006-08-01">Blessed</change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <pb facs="loc.00018.001" xml:id="leaf001r" type="recto"/>
-         <lg
-              >
-            <lg type="linegroup"
-                 >
-               <l>
-                  casts off her moorings<lb/> 
-                  raises her main sail &amp; jib<lb/>
-                  heave the anchor short<lb/>
-               </l>
-            </lg>
-            <!--THE FIRST LINEGROUP IS ENCODED AS A SINGLE POETIC LINE BECAUSE THE FIRST WORDS ARE NOT CAPITALIZED AS IN THE SECOND LINEGROUP.-->
-            <lg type="linegroup"
-                 >
-               <l>I will not call it my concluding voya<subst>
-                     <rdg varSeq="1">
-                        <del rend="overwrite">
-                           <gap reason="deletion, illegble"/>
-                        </del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="overwrite" place="over">g</add>
-                     </rdg>
-                  </subst>e</l>
-               <l>But <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">entrance</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="supralinear" rend="unmarked">outset</add>
-                     </rdg>
-                  </subst>and true<subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">outset</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="supralinear" rend="unmarked">entrance</add>
-                     </rdg>
-                  </subst>of<subst>
-                     <rdg varSeq="1">the whole</rdg>
-                     <rdg varSeq="2">
-                        <add place="supralinear" rend="unmarked">them all</add>
-                     </rdg>
-                  </subst>
-               </l>
-            </lg>
-            <note type="editorial" resp="#unk"
-                  place="bottom">
-               <p>Trial lines</p>
-               <p>Sail out for good,</p>
-               <p>Eidolon yacht—</p>
-               <p>Good bye my <unclear reason="illegible" cert="low" resp="#mh">haven</unclear>
-               </p>
-            </note>
-         </lg>
-         <note type="authorial"
-               place="bottom">Page 7</note>
-      </body>
-   </text>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00018"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main" rend="bracketed">[casts off her moorings]</title>
+    <title level="m" type="sub">a hand-written transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="tb">Tara Ballard</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>loc.00018</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
+     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
+     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
+     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
+    
+     <note type="work_relations" target="xxx." cert="high">
+      <p>Trial lines for "Sail Out for Good, Eid&#243;lon Yacht!," which was published first in 1891. On the verso is a letter from Harry C. Kochersperger dated June 27, 1890.</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title resp="#wwa">[cast off her moorings]</title>  
+     
+
+     <date notBefore="1841" notAfter="1919" cert="high">The Library of Congress claims that this was written and published between 1841 and 1919.</date>
+     
+      <idno type="callno">MSS 18630, Box 29; Reel 17-18</idno>
+     
+      <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+     <relatedItem type="text" xml:id="rel01" target="loc.00129"/>
+     <relatedItem type="document" target="wwa.00084"/>
+     <note type="project" target="#rel01">On the verso is a letter to Whitman from Harry C. Kochersperger dated 27 June 1890.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h02" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h03" resp="#unk"/><persName xml:id="unk">unknown</persName>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2024-03-20" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="P1010386.jpg" type="recto"/>
+   <lg type="poem">
+     <l>casts off her moorings</l>
+     <l>raises her main sail &#38; jib</l>
+     <l>heave the anchor short</l>
+   </lg>
+   
+   <lg type="poem">
+    <l>I will not call it my concluding voyage</l>
+    <l>But <subst><del rend="overstrike" seq="1">entrance</del><add place="above" seq="2">outset</add></subst> and true <subst><del rend="overstrike" seq="1">outset</del><add place="above" seq="2">entrance</add></subst> of <subst rend="overwrite"><del seq="1">the whole</del><add place="above" seq="2" hand="#h02">them all</add></subst>.</l>
+    
+    <l>Start out for good, <subst><del rend="overstrike" seq="1">and</del><add rend="unmarked" place="above" seq="2">to</add></subst> return no more</l>
+   </lg>
+   
+   <note hand="#h03" type="editorial" place="bottom"><l>Trial lines</l><l>Sail out for good,</l><l>Eidolon yacht&#8212;</l><l>Good bye My Fancy</l><l>Page 7&#8212;</l></note>
+     
+   <pb xml:id="leaf001v" facs="20040513_0089.jpg" type="verso"/>
+   
+</body>
+</text>
 </TEI>
