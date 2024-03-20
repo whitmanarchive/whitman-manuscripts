@@ -56,8 +56,8 @@
      IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
      IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
     
-     <note type="work_relations" target="xxx." cert="">
-      <p></p>
+     <note type="work_relations" target="xxx." cert="high">
+      <p>A late draft of "Not Meagre, Latent Boughs Alone" first published in 1887, with Whitman's signature at the bottom and "Camden NJ" and the date, May 2, 1887, written at the top.</p>
      </note>
    </notesStmt>
    
@@ -87,7 +87,7 @@
   </profileDesc>
 <revisionDesc>
  
- <change when="2024-02-21" who="#tb">transcribed and encoded</change>
+ <change when="2024-03-20" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -96,9 +96,10 @@
    
     <pb xml:id="leaf001r" facs="20051228_0055.jpg" type="recto"/>
    
-    <ab><l>Camden NJ</l><l>May 2 '87</l></ab>
-
     <lg type="poem">
+   
+     <dateline>Camden NJ May 2 '87</dateline>
+     
      <l>Not meager, latent boughs<lb/>
           alone, O songs, (scaly<lb/>
           and bare, like eagles'<lb/>
@@ -107,16 +108,16 @@
           day, (who knows?)&#8212;some<lb/>
           future spring, some<lb/>
           summer&#8212;burstin forth.</l>
-     <l><subst><del rend="overstrike" seq="1">Blossoms</del><add rend="unmarked" place="above" seq="2">To</add></subst> <del rend="overstrike">and</del> verdant<lb/>
-          leaves, and <add rend="insertion" place="above">sheltering</add> shade, <subst><del rend="overstrike" seq="1">and</del><add rend="unmarked" place="above" seq="2">to</add></subst><lb/>
+     <l><subst><del rend="overstrike" seq="1">Blossoms</del><add place="above" seq="2">To</add></subst> <del rend="overstrike">and</del> verdant<lb/>
+          leaves, and <add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">sheltering</add> shade, <subst><del rend="overstrike" seq="1">and</del><add place="above" seq="2">to</add></subst><lb/>
           nourishing fruit,</l>
      <l>Apples and grapes&#8211;<del rend="overstrike">roses</del><lb/>
-          <subst><del rend="overstrike" seq="1">and</del><add rend="unmarked" place="above" seq="2">The</add></subst> stalwart limbs<lb/>
-          of trees <add rend="insertion" place="above">emerging</add>&#8212;and fresh</l>
+          <subst><del rend="overstrike" seq="1">and</del><add place="above" seq="2">The</add></subst> stalwart limbs<lb/>
+          of trees <add place="inline"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">emerging</add>&#8212;and fresh</l>
      <l><del rend="overstrike">And fresh</del>, free, <del rend="overstrike">perfumed</del>,<lb/>
           open air,</l>
      <l>And love and faith, like<lb/>
-          <add rend="insertion" place="above">scented</add> roses blooming.</l>
+          <add place="inline"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">scented</add> roses blooming.</l>
     </lg>
    
     <signed><hi rend="underline">Walt Whitman</hi></signed>
