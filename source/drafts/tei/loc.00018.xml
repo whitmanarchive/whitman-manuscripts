@@ -56,7 +56,7 @@
      IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
      IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
     
-     <note type="work_relations" target="xxx." cert="high">
+     <note type="work_relations" target="xxx.00380" cert="high">
       <p>Trial lines for "Sail Out for Good, Eid&#243;lon Yacht!," which was published first in 1891. On the verso is a letter from Harry C. Kochersperger dated June 27, 1890.</p>
      </note>
    </notesStmt>
@@ -65,10 +65,10 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title resp="#wwa">[cast off her moorings]</title>  
+     <title>Sail Out for Good, Eidolon Yacht!</title>  
      
 
-     <date notBefore="1841" notAfter="1919" cert="high">The Library of Congress claims that this was written and published between 1841 and 1919.</date>
+     <date notBefore="1890-06-27" notAfter="1891" cert="high">about 1890</date>
      
       <idno type="callno">MSS 18630, Box 29; Reel 17-18</idno>
      
@@ -85,7 +85,8 @@
    <handNotes>
     <handNote medium="black ink" xml:id="h01" resp="#ww"/>
     <handNote medium="pencil" xml:id="h02" resp="#ww"/>
-    <handNote medium="pencil" xml:id="h03" resp="#unk"/><persName xml:id="unk">unknown</persName>
+    <handNote medium="pencil" xml:id="h03" resp="#unk1"><persName xml:id="unk1">unknown</persName></handNote>
+    <handNote medium="pencil" xml:id="h04" resp="#unk2"><persName xml:id="unk2">unknown</persName></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
@@ -97,21 +98,28 @@
  <text type="manuscript">
   <body>
    
+   
    <pb xml:id="leaf001r" facs="P1010386.jpg" type="recto"/>
-   <lg type="poem">
+   
+   <note hand="#h04" type="editorial" place="top" rend="underline"><unclear reason="illegible" cert="low" resp="#tb">ntx</unclear></note>
+   
+   <lg type="linegroup">
      <l>casts off her moorings</l>
      <l>raises her main sail &#38; jib</l>
      <l>heave the anchor short</l>
    </lg>
    
-   <lg type="poem">
-    <l>I will not call it my concluding voyage</l>
-    <l>But <subst><del rend="overstrike" seq="1">entrance</del><add place="above" seq="2">outset</add></subst> and true <subst><del rend="overstrike" seq="1">outset</del><add place="above" seq="2">entrance</add></subst> of <subst rend="overwrite"><del seq="1">the whole</del><add place="above" seq="2" hand="#h02">them all</add></subst>.</l>
+   <lg type="linegroup">
+    <l>I will not call it my concluding voya<subst rend="overwrite"><del>y</del><add>g</add></subst>e</l>
+    <l>But <subst><del rend="overstrike" seq="1">entrance</del><add place="above" seq="2">outset</add></subst> and true <subst><del rend="overstrike" seq="1">outset</del><add place="above" seq="2">entrance</add></subst> of <seg xml:id="alt001">the whole</seg> <add place="above" hand="#h02" xml:id="alt002">them all</add>
+     <altGrp>
+       <alt target="#alt001 #alt002"/>
+     </altGrp>.</l>
     
     <l>Start out for good, <subst><del rend="overstrike" seq="1">and</del><add rend="unmarked" place="above" seq="2">to</add></subst> return no more</l>
    </lg>
    
-   <note hand="#h03" type="editorial" place="bottom"><l>Trial lines</l><l>Sail out for good,</l><l>Eidolon yacht&#8212;</l><l>Good bye My Fancy</l><l>Page 7&#8212;</l></note>
+   <note hand="#h03" type="editorial" place="bottom">Trial lines<lb/> Sail out for good,<lb/> Eidolon yacht&#8212;<lb/> Good bye My Fancy<lb/> Page 7&#8212;</note>
      
    <pb xml:id="leaf001v" facs="20040513_0089.jpg" type="verso"/>
    
