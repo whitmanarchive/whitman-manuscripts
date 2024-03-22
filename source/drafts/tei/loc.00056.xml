@@ -14,6 +14,7 @@
             <author>Walt Whitman</author>
             <editor role="editor">Kenneth M. Price</editor>
             <editor role="editor">Ed Folsom</editor>
+            <editor role="editor">Matt Cohen</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
@@ -21,6 +22,7 @@
                <persName xml:id="fl">Farrah Lehman</persName>
                <persName xml:id="km">Kenneth M. Price</persName>
                <persName xml:id="lr">Lisa Renfro</persName>
+               <persName xml:id="jh">Jeff Hill</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -28,7 +30,7 @@
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2004</date>
+               <date>2024</date>
             </edition>
          </editionStmt>
          <publicationStmt>
@@ -59,81 +61,38 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change who="#jh" when="2024-03-22">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#jr" when="2004-07-08">Encoded</change>
-         <change who="#jr" when="2004-07-08">Transcribed</change>
-         <change who="#fl" when="2006-06-27">Checked</change>
-         <change who="#km" when="2006-07-07">Edited</change>
-         <change who="#lr" when="2006-08-01">Blessed</change>
+         <change who="#jr" when="2004-07-08">encoded</change>
+         <change who="#jr" when="2004-07-08">transcribed</change>
+         <change who="#fl" when="2006-06-27">checked</change>
+         <change who="#km" when="2006-07-07">edited</change>
+         <change who="#lr" when="2006-08-01">blessed</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <pb facs="loc.00056.001" xml:id="leaf001r" type="recto"/>
          <delSpan rend="hashmark" to="d1" />
-         <lg
-              >
+         <lg>
             <head type="main-authorial" rend="underline">Bravo Paris Exhibition!</head>
-            <lg type="linegroup"
-                 >
+            <lg type="linegroup">
                <l>Add to your show, dear France,</l>
-               <l>
-                  With all the rest temples, machines,<lb/> 
-                  ores, <add rend="insertion" place="supralinear">goods,</add> the visible concrete,<lb/>
-               </l>
-               <l>
-                  <add rend="unmarked" place="supralinear">Sent</add> America's applause, love, <add rend="insertion" place="supralinear">memories</add> and good will</l>
+               <l>With all the rest temples, machines,ores, <add rend="insertion" place="above">goods,</add> the visible concrete,</l>
+               <l><add rend="unmarked" place="above">Sent</add> America's applause, love, <add rend="insertion" place="above">memories</add> and good will</l>
             </lg>
-            <lg type="linegroup"
-                 >
-               <l>
-                  <transpose anchored="yes" target="t1">A sentiment, sent</transpose>
-               </l>
-               <l>
-                  
-                     <del rend="overstrike">Sent</del> 
-                     <anchor xml:id="t1"/>over sea, <del rend="overstrike">in</del> wafted from many<lb/>
-                  million <add rend="insertion" place="supralinear">heart</add> throbs, <del rend="overstrike">from</del>
-                  <lb/>
-               </l>
-               <l>
-                  From fifty Nations and nebulous<lb/>
-                  Nations, here united,<lb/>
-               </l>
+            <lg type="linegroup">
+               <l><transpose anchored="yes" target="t1">A sentiment, sent</transpose></l>
+               <l><del rend="overstrike">Sent</del> <anchor xml:id="t1"/>over sea, <del rend="overstrike">in</del> wafted from many million <add rend="insertion" place="above">heart</add> throbs, <del rend="overstrike">from</del></l>
+               <l>From fifty Nations and nebulous Nations, here united,</l>
             </lg>
-            <lg type="linegroup"
-                 >
-               <l>
-                  
-                     <subst>
-                        <rdg varSeq="1">
-                           <del rend="overstrike">The</del> 
-                        </rdg>
-                        <rdg varSeq="2">
-                           <add rend="unmarked" place="supralinear">We</add> 
-                        </rdg>
-                     </subst>grandsons and great grandsons, do not<lb/>
-                  
-                     <add rend="unmarked" place="supralinear">forget</add> your grand-sires and great grand-sires.)<lb/>
-               </l>
+            <lg type="linegroup">
+               <l><del rend="overstrike" seq="1">The</del> <add rend="unmarked" place="above" seq="2">We</add> grandsons and great grandsons, do not <add rend="unmarked" place="above">forget</add> your grand-sires and great grand-sires.)</l>
             </lg>
-            <note type="authorial"
-                  place="right">
-               <del rend="overstrike">
-                  <p>15</p>
-               </del>
-               <del rend="overstrike">
-                  <p>50</p>
-               </del>
-               <p>
-                  <milestone unit="undeclared" rend="horbar-short-right"/>
-               </p>
-               <del rend="overstrike">
-                  <p>65</p>
-               </del>
-            </note>
+            <note type="authorial" place="right"> <del rend="overstrike"><p>15</p></del> <del rend="overstrike"><p>50</p></del> <p><milestone unit="undeclared" rend="horbar-short-right"/></p> <del rend="overstrike"><p>65</p></del></note>
          </lg>
          <anchor xml:id="d1"/>
+         <pb facs="loc.00056.002" xml:id="leaf001v" type="verso"/>
       </body>
    </text>
 </TEI>
