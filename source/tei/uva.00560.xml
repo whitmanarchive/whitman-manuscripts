@@ -1,13 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00560">
-   <relations>
-      <work ref="xxx.00015" cert="high"> 
-         <p>Lines from this manuscript were used in the poem "To One Shortly to Die," first published in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>: "You are to die—Let others tell you what they
-            please, I cannot prevaricate, /
-            I am exact and merciless, but I love you—There is
-            no escape for you" (1860, p. 398).</p>
-      </work>
-   </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00560">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,6 +12,8 @@
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="ll">Liz Lorang</persName>
                <persName xml:id="rl">Robert LaCosse</persName>
+               <persName xml:id="as">Ashlyn Stewart</persName>
+               <persName xml:id="bb">Brett Barney</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -32,7 +25,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>uva.00560</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,14 +37,20 @@
             <availability>
                <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>uva.00560</idno></publicationStmt>
          <notesStmt>
-            <note type="project" target="dat1">This manuscript was probably written between <date notBefore="1850" notAfter="1860">1850 and 1860</date>. The lines were used in the poem "To One Shortly to Die," first published in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>                    	
+            <note type="project" target="dat1">This manuscript was probably written between <date notBefore="1850" notAfter="1860">1850 and 1860</date>. The lines were used in the poem "To One Shortly to Die," first published in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+            <note type="work_relations" target="xxx.00015" cert="high"> 
+         <p>Lines from this manuscript were used in the poem "To One Shortly to Die," first published in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>: "You are to die—Let others tell you what they
+            please, I cannot prevaricate, /
+            I am exact and merciless, but I love you—There is
+            no escape for you" (1860, p. 398).</p>
+      </note>                    	
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
+               
                <title>I must not deceive you - you are to die</title>
                <date cert="medium" notBefore="1850" notAfter="1860" xml:id="dat1">Between 1850 and 1860</date>
                <idno type="callno">MSS 3829, Box-folder 1:88</idno>
@@ -69,6 +68,8 @@
          </handNotes>
       </profileDesc>
       <revisionDesc>
+         <change when="2022-06-06" who="#bb">updated relations encoding</change>
+         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2018-11-26">checked, corrected, added relations</change>
          <change who="#nhg" when="2018-10-10">created new file out of uva.00280</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
@@ -89,9 +90,9 @@
                      <del rend="overstrike" seq="1">do</del>
                      <add place="supralinear" rend="insertion" seq="2">must</add>
                   
-               </subst> not deceive you&#8212;you are to die,</l>
-            <l>I am melancholy and stern, but I love you&#8212;<lb/>
-               there is no escape for you.&#8212;</l>
+               </subst> not deceive you—you are to die,</l>
+            <l>I am melancholy and stern, but I love you—<lb/>
+               there is no escape for you.—</l>
             <l>I do not know your destination, but I know<lb/>
                it is real and perfect.</l>
             

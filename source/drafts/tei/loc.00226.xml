@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00226"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main">Of that blithe throat of thine</title>
+    <title level="m" type="sub">a hand-written transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="tb">Tara Ballard</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>loc.00226</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
+     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
+     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
+     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
+    
+     <note type="work_relations" target="xxx.00344" cert="high">
+      <p>Signed, late draft of "Of That Blithe Throat of Thine" which was published first in January 1855. On the verso is a letter from Folger McKinsey to Whitman dated June 10, 1884.</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title resp="#wwa">Of that blithe throat of thine</title>  
+     
+     <date>1884</date>
+     
+     <idno type="callno">MSS 18630, Box 27; Reel 16-17</idno>
+     
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+     <relatedItem type="text" xml:id="rel01" target="loc.07022"/>
+     <relatedItem type="document" target="wwa.00105"/>
+     <note type="project" target="#rel01">On the reverse of this leaf is a letter addressed to Whitman from Folger McKinsey on 10 June 1884.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="red ink" xml:id="h02" resp="#ww"/> 
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2024-02-19" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="loc.00226.001_large.jpg" type="recto"/>
+   
+   <l><title><hi rend="underline">Of that blithe throat of thine</hi></title></l>
+   
+   <note type="authorial" place="inline">[More than 83 degrees north&#8212;about a good day's steaming distance to the Pole by one of our fast oceaners in clear water&#8212;Greely heard the song of a <add place ="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">jingle</add> snow: bird merrily sounding <subst><del rend="overstrike" seq="1">out of</del><add place="above" seq="2">over</add></subst> the desolation.]</note>
+   
+   <lg type="poem">
+     <l>Of that blithe throat of thine, <subst><del rend="overstrike" seq="1">through</del><del rend="overstrike" seq="3"><add place="above" seq="2"><unclear reason="illegible" cert="high" resp="#tb">amid</unclear></add></del><add place="above" seq="4" hand="#h02">from</add></subst> <add place="inline"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">arctic</add> bleak<lb/>
+     and blank</l>
+    <l>I<add place="inline"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">'ll</add> mind the lesson <subst><del rend="overstrike" seq="1">arctic</del><add place="above" seq="2">solitary</add></subst> bird&#8212;<subst><del rend="overstrike" seq="1">I also</del><add place="above" seq="2">&#8212;let me too</add></subst> welcome<lb/>
+     <del rend="overstrike">ice and</del> chilling drifts</l>
+    <l><subst><del rend="overstrike" seq="1" hand="#h02">Nay,</del><add place="above" seq="2" hand="#h02">E'en</add></subst> the profoundest chill as now&#8212;a torpid<lb/>
+     <del rend="overstrike">heart,</del> pulse, a brain, unnerv'd</l>
+     <l>Old age land-lock'ed within its winter: bay, (cold,<lb/>
+     cold, O cold!)</l>
+     <l>These snowy hairs, lameness, a feeble arm,</l>
+    <l>For them <add place="inline"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">My breath,</add> thy rule. <subst><del rend="overstrike" seq="1">I'll</del><del rend="overstrike" seq="3" hand="#h02"><add place="above" seq="2">to</add></del><add place="above" seq="4" hand="#h02">I</add></subst> take, and grave it to<lb/>
+     the last</l>
+    <l>Not <subst><del rend="overstrike" seq="1">amid</del><del rend="overstrike" seq="3"><add place="above" seq="2">for</add></del></subst> <del rend="overstrike">the</del> summer<subst rend="overwrite"><del seq="1">y</del><add place="inline" seq="2">'s</add></subst> zones alone&#8212; not<lb/>
+     chants of youth <del rend="overstrike">alone</del> or souths <add place="inline"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" xml:id="a005">warm tides</add> alone,</l>
+     <l>But held in sluggish floes, pack'd in the<lb/>
+     northern ice the cumulus of years,</l>
+    <l><subst><del rend="overstrike" seq="1">All</del><del rend="overstrike" seq="3"><add place="inline" seq="2">Now</add></del><del rend="overstrike" seq="5"><add place="inline" seq="4">S</add></del><del rend="overstrike" seq="7"><add place="above" seq="6">These</add></del><add place="above" seq="8">These,</add></subst> with gay heart <subst><del rend="overstrike" seq="1">to</del><del rend="overstrike" seq="3"><add place="inline" seq="2"><metamark function="add" target="#a006">&#8248;</metamark></add><add place="above" xml:id="a006"><unclear reason="illegible" cert="high" resp="#tb">these too you also</unclear></add></del><add place="inline" seq="4">I also</add></subst> sing.</l>
+   </lg>
+   
+   <signed>Walt Whitman</signed>
+   
+   <pb xml:id="leaf001v" facs="loc.00226.002_large.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>

@@ -1,0 +1,3312 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00053">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main">
+Contents
+</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="fl">Farrah Lehman</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2004</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>duk.00053</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+
+		<!-- IGNORE THE FOLLOWING PROJECT NOTE. IT WILL BE FILLED IN BY PROJECT EDITORS. -->
+            <note type="project" target="dat1"/> 
+            <note type="project" target="leaf18r">
+Title page of 1881-82 edition of "Leaves of Grass," published by James R. Osgood and Company. Page consists of title, publisher's logo, and publisher information.
+</note>                     	
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>
+Leaves of Grass
+</title>
+               <date cert="****" value="/" xml:id="dat1"><!-- DATING INFO WILL BE INSERTED BY PROJECT EDITORS --></date>
+               <idno type="callno">
+MS 19		
+</idno> 
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName> 
+
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handList>
+            <hand xml:id="h1" ink="handwritten"/> 
+         </handList>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#fl" when="2006-02-09">Encoded</change>
+         <change who="#fl" when="2006-02-09">Transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+	
+         <pb facs="duk.00053.001" xml:id="leaf001r" type="recto"/>
+
+         <div1 type="contents">
+
+            <head type="main-authorial" rend="underline">
+Contents
+</head>
+
+            <note type="authorial"
+                  place="top">
+               <p>
+                  let me<lb/>
+                  see a proof<lb/>
+                  from the galleys<lb/>
+                  before it is made up<lb/>
+               </p>
+               <add rend="unmarked" place="infralinear">
+                  <p>
+                     S<gap reason="illegible"/>
+                     <lb/>
+                     B<gap reason="illegible"/>
+                     <lb/>
+                     Solid<lb/>
+                  </p>
+               </add>
+            </note>
+
+            <note type="authorial"
+                  place="top"
+                  rend="indented4">
+               <p rend="circled">
+                  capitalize freely—I have<lb/>
+                  mark'd a blue dark—under<lb/>
+                  the letters as a sign for<lb/>
+                  capitals<lb/>
+               </p>
+            </note>
+
+            <head type="sub">
+Inscriptions
+<add rend="unmarked" place="supralinear">
+                  <note type="authorial"
+                        place="supralinear">middle of line</note>
+               </add>
+            </head>
+
+            <p>
+               <table TEIform="table">
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">
+                        <subst>
+                           <rdg varSeq="1">
+                              <del rend="overwrite">o<gap reason="deletion, illegible"/>
+                              </del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add rend="overwrite" place="over">O<gap reason="deletion, illegible"/>
+                              </add>
+                           </rdg>
+                        </subst> 
+                        <add rend="insertion" place="supralinear">One's</add> Self I sing<space dim="horizontal"
+                               extent="10 letters"
+                               rend="underline"/>9</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">As I <subst>
+                           <rdg varSeq="1">
+                              <del rend="overwrite">p</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add rend="overwrite" place="over">P</add>
+                           </rdg>
+                        </subst>onder'd in Silence</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">In Cabin'd Ships at Sea</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">10</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">To Foreign Lands</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">11</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">To a Historian</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">To thee Old Cause</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Eidólons</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">12</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">For Him I Sing</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">14</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">When I read the Book</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Beginning my Studies</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Beginners</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">15</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">To The States</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">On Journeys through <subst>
+                           <rdg varSeq="1">
+                              <del rend="overwrite">t</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add rend="overwrite" place="over">T</add>
+                           </rdg>
+                        </subst>he States</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">To a Certain Cantatrice</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">16</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Me Imperturbe</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Savantism</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">The Ship Starting</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">I hear America Singing</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">17</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">What place is beseiged?</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Still though the <subst>
+                           <rdg varSeq="1">
+                              <del rend="overwrite">o</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add rend="overwrite" place="over">O</add>
+                           </rdg>
+                        </subst>ne I Sing</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Shut not your Doors</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+               </table>
+            </p>
+
+            <note type="authorial"
+                  place="bottom">21</note>
+
+            <pb facs="duk.00053.002" xml:id="leaf002r" type="recto"/>
+
+            <note type="authorial"
+                  place="top">2</note>
+
+            <p>
+               <table TEIform="table">
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Poets to Come</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">
+                        <subst>
+                           <rdg varSeq="1">
+                              <del rend="overstrike">15</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add rend="unmarked" place="supralinear">18</add>
+                           </rdg>
+                        </subst>
+                     </cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">To You</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Thou <subst>
+                           <rdg varSeq="1">
+                              <del rend="overwrite">r</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add rend="overwrite" place="over">R</add>
+                           </rdg>
+                        </subst>eader</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+               </table>
+            </p>
+            <note type="authorial"
+                  place="interlinear"># (one thick lead</note>
+            <l>
+               <add rend="unmarked" place="interlinear">
+                  <space dim="vertical" extent="1 line"/>
+               </add>
+            </l>
+            <p>
+               <table TEIform="table">
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Starting from Paumanok</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">18</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Song of Myself</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">29</cell>
+                  </row>
+               </table> 
+            </p>
+
+            <note type="authorial"
+                  place="interlinear">#</note>
+            <l>
+               <add rend="unmarked" place="interlinear">
+                  <space dim="vertical" extent="1 line"/>
+               </add>
+            </l>
+
+            <ab type="subtitle">
+Children of Adam
+</ab>
+            <note type="authorial"
+                  place="supralinear">middle of line</note>
+            <!--TAGGING THIS ONE AS AN <AB> FOR NOW BECAUSE IT LOOKS LIKE THE DTD DOESN'T ALLOW FOR TWO <HEAD TYPE="SUB">S WITHIN THE SAME <PB>-->
+
+            <p>
+               <table TEIform="table">
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">To the Garden the World</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">79</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">From Pent-up Aching Rivers</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">I sing the Body Electric</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">81</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">A Woman waits for Me</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">88</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Spontaneous Me</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">89</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">One Hour to Madness and Joy</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">91</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Out of the Rolling Ocean the Crowd 92</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Ages and Ages Returning at Intervals "</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">We two, how long we were Fool'd</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">93</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">O Hymen! O Hymenee!</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">I am He that aches with Love "</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Native Moments</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">94</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Once I pass'd through a Populous City "</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">I heard you solemn-sweet pipes of the Organ "</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Facing West from California's shores</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">95</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">As Adam early in the Morning</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+               </table>
+            </p>
+
+            <note type="authorial"
+                  place="infralinear"># one thick lead</note>
+            <l>
+               <add rend="unmarked" place="interlinear">
+                  <space dim="vertical" extent="1 line"/>
+               </add>
+            </l>
+
+            <note type="authorial"
+                  place="bottom">46</note>
+
+            <pb facs="duk.00053.003" xml:id="leaf003r" type="recto"/>
+
+            <note type="authorial"
+                  place="top">3</note>
+
+            <ab type="subtitle" rend="underline">
+Calamus
+</ab>
+            <!--THE PARSER SEEMS TO PREFER "AB" TO "HEAD" FOR SUBTITLES THROUGHOUT THE DOCUMENT. NOT SURE WHY.-->
+
+            <p>
+               <table TEIform="table">
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">In Paths Untrodden</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">95</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Scented Herbage of my <subst>
+                           <rdg varSeq="1">
+                              <del rend="overwrite">b</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add rend="overwrite" place="over">B</add>
+                           </rdg>
+                        </subst>reast 96</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Whoever <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">y</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">Y</add>
+                           </rdg>
+                        </subst>ou are holding me now in hand 97</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">For you O Democracy</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">99</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">These I singing in Spring</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Not heaving from my <subst>
+                           <rdg varSeq="1">
+                              <del rend="overwrite">r</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add rend="overwrite" place="over">R</add>
+                           </rdg>
+                        </subst>ibb'd breast only 100</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Of the Terrible Doubt of Appearances 101</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">The Base of all Metaphysics "</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Recorders Ages Hence</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">102</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">When I heard at the Close of the Day "</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Are you the <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">n</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">N</add>
+                           </rdg>
+                        </subst>ew Person drawn toward me? 103</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Roots and Leaves themselves alone</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Not Heat flames up and Consumes 104</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Trickle Drops</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">City of Orgies</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">105</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Behold this <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">s</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">S</add>
+                           </rdg>
+                        </subst>warthy <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">f</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">F</add>
+                           </rdg>
+                        </subst>ace</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">I Saw in Louisiana a Live Oak <add rend="unmarked" place="supralinear">growing</add> "</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">To a <subst>
+                           <rdg varSeq="1">
+                              <del rend="overwrite">s</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add rend="overwrite" place="over">S</add>
+                           </rdg>
+                        </subst>tranger</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">106</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">This Moment yearning and thoughtful "</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">I hear it was charged against me 107</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">The Prairie-Grass dividing</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">When I peruse the Conquer'd <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">f</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">F</add>
+                           </rdg>
+                        </subst>ame</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+               </table>
+            </p>
+
+            <note type="authorial"
+                  place="bottom">71</note>
+
+            <pb facs="duk.00053.004" xml:id="leaf04r" type="recto"/>
+
+            <note type="authorial"
+                  place="top">4</note>
+
+            <p>
+               <table TEIform="table">
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">We two <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">b</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">B</add>
+                           </rdg>
+                        </subst>oys together clinging</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">108</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">A promise to California</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Here the frailest <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">l</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">L</add>
+                           </rdg>
+                        </subst>eaves of me</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">No Labor-Saving Machine</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">A Glimpse</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">109</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">A <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">l</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">L</add>
+                           </rdg>
+                        </subst>eaf for <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">h</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">H</add>
+                           </rdg>
+                        </subst>and in <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">h</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">H</add>
+                           </rdg>
+                        </subst>and</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Earth my <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">l</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">L</add>
+                           </rdg>
+                        </subst>ikeness</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">I <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">d</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">D</add>
+                           </rdg>
+                        </subst>ream'd in a <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">d</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">D</add>
+                           </rdg>
+                        </subst>ream</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">What think <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">y</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">Y</add>
+                           </rdg>
+                        </subst>ou I take my <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">p</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">P</add>
+                           </rdg>
+                        </subst>en in <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">h</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">H</add>
+                           </rdg>
+                        </subst>and? 110</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">To the East and to the West</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Sometimes with <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">o</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">O</add>
+                           </rdg>
+                        </subst>ne I <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">l</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">L</add>
+                           </rdg>
+                        </subst>ove</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">To a Western Boy</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Fast anchored Eternal O <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">l</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">L</add>
+                           </rdg>
+                        </subst>ove</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">111</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Among the Multitude</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">O <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">y</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">Y</add>
+                           </rdg>
+                        </subst>ou whom I <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">o</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">O</add>
+                           </rdg>
+                        </subst>ften and <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">s</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">S</add>
+                           </rdg>
+                        </subst>ilently <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">c</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">C</add>
+                           </rdg>
+                        </subst>ome "</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">That <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">s</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">S</add>
+                           </rdg>
+                        </subst>hadow my <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">l</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">L</add>
+                           </rdg>
+                        </subst>ikeness</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Full of Life now</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+               </table>
+
+               <note type="authorial"
+                     place="interlinear"># one lead</note>
+               <add rend="unmarked" place="interlinear">
+                  <l>
+                     <space dim="vertical" extent="1 line"/>
+                  </l>
+               </add>
+
+               <table TEIform="table">
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Salut au Monde!<del rend="overstrike">
+                           <add rend="unmarked" place="infralinear">a lead</add>
+                        </del>
+                     </cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">112</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Song of the Open Road<del rend="overstrike">
+                           <add rend="unmarked" place="infralinear">a lead</add>
+                        </del>
+                     </cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">120</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Crossing Brooklyn Ferry<del rend="overstrike">
+                           <add rend="unmarked" place="infralinear">a lead</add>
+                        </del>
+                     </cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">129</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Song of the Answerer<del rend="overstrike">
+                           <add rend="unmarked" place="infralinear">a lead</add>
+                        </del>
+                     </cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">134</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Our Old Feuillage<del rend="overstrike">
+                           <add rend="unmarked" place="infralinear">a lead</add>
+                        </del>
+                     </cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">138</cell>
+                  </row>
+               </table>
+            </p>
+
+            <pb facs="duk.00053.005" xml:id="leaf05r" type="recto"/>
+
+            <note type="authorial"
+                  place="top">5</note>
+
+            <p>
+               <table TEIform="table">
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">A Song of Joys<del rend="overstrike">
+                           <add rend="unmarked" place="infralinear">a lead</add>
+                        </del>
+                     </cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">142</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Song of the Broad-Axe<del rend="overstrike">
+                           <add rend="unmarked" place="infralinear">a lead</add>
+                        </del>
+                     </cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">148</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Song of the Exposition<del rend="overstrike">
+                           <add rend="unmarked" place="infralinear">a lead</add>
+                        </del>
+                     </cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">157</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Song of the Redwood-Tree<del rend="overstrike">
+                           <add rend="unmarked" place="infralinear">a lead</add>
+                        </del>
+                     </cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">165</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">A Song for Occupations<del rend="overstrike">
+                           <add rend="unmarked" place="infralinear">a lead</add>
+                        </del>
+                     </cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">169</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">A Song of the Rolling Earth</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">176</cell>
+                  </row>
+               </table>
+            </p>
+
+            <l>
+               <space dim="vertical" extent="3 lines"/>
+            </l>
+
+            <ab type="subtitle">
+Birds of Passage
+</ab>
+
+            <p>
+               <table TEIform="table">
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Song of the Universal</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">181</cell>
+                  </row>
+               </table>
+            </p>
+
+            <addSpan type="pasteon" place="over" to="a1"/>
+            <p>
+               <table TEIform="table">
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Pioneers! O Pioneers!</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">183</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">To You</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">186</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">France, the 18th year of These States</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">188</cell>
+                  </row>
+               </table>
+            </p>
+            <anchor xml:id="a1"/>
+            <p>
+               <table TEIform="table">
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Myself and Mine</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">189</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Year of Meteors</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">190</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">With <sic corr="Antecedents">Antesedents</sic>
+                     </cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">191</cell>
+                  </row>
+               </table>
+            </p>
+
+            <note type="authorial"
+                  place="interlinear">#</note>
+            <l>
+               <add rend="unmarked" place="interlinear">
+                  <space dim="vertical" extent="1 line"/>
+               </add>
+            </l>
+
+            <p>
+               <table TEIform="table">
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">A Broadway Pageant<space dim="horizontal" extent="2 letters"/>193</cell>
+                  </row>
+               </table>
+            </p>
+            <note type="authorial"
+                  place="infralinear">#</note>
+            <l>
+               <add rend="unmarked" place="infralinear">
+                  <space dim="vertical" extent="1 line"/>
+               </add>
+            </l>
+            <note type="authorial"
+                  place="bottom">112</note>
+
+            <pb facs="duk.00053.006" xml:id="leaf06r" type="recto"/>
+
+            <note type="authorial"
+                  place="top">6&amp;7</note>
+            <p>
+               <table TEIform="table">
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">
+                        <del rend="overstrike">A Broadway Pageant—</del>
+                     </cell>
+                  </row>
+               </table>
+            </p>
+
+            <ab type="subtitle" rend="underline">
+Sea-Drift
+</ab>
+
+            <p>
+               <table TEIform="table">
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Out of the Cradle Endlessly Rocking 196</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">As I Ebb d with the Ocean of Life</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">202</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Tears<space dim="horizontal"
+                               extent="10 letters"
+                               rend="underline"/>204</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">To the Man-of-<subst>
+                           <rdg varSeq="1">
+                              <del type="edit">w</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">W</add>
+                           </rdg>
+                        </subst>ar-<subst>
+                           <rdg varSeq="1">
+                              <del type="edit">b</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">B</add>
+                           </rdg>
+                        </subst>ird</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Aboard at a <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">s</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">S</add>
+                           </rdg>
+                        </subst>hip's <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">h</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">H</add>
+                           </rdg>
+                        </subst>el<subst>
+                           <rdg varSeq="1">
+                              <del rend="erasure">f</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add rend="overwrite" place="over">m</add>
+                           </rdg>
+                        </subst>
+                        <space dim="horizontal" extent="5 letters"/>205</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">On the Beach at <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">n</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">N</add>
+                           </rdg>
+                        </subst>ight</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">The <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">w</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">W</add>
+                           </rdg>
+                        </subst>orld <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">b</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">B</add>
+                           </rdg>
+                        </subst>elow the <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">b</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">B</add>
+                           </rdg>
+                        </subst>rine</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">206</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">On the Beach at Night <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">a</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">A</add>
+                           </rdg>
+                        </subst>lone</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">207</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Song for all <subst>
+                           <rdg varSeq="1">
+                              <del rend="overwrite">s</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add rend="overwrite" place="over">S</add>
+                           </rdg>
+                        </subst>eas, all Ships</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Patroling Barnegat</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">208</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">After the Sea‑Ship</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">209</cell>
+                  </row>
+               </table>
+            </p>
+
+            <note type="authorial"
+                  place="bottom">127</note>
+
+            <pb facs="duk.00053.007" xml:id="leaf07r" type="recto"/>
+
+            <note type="authorial"
+                  place="top">8</note>
+            <ab type="subtitle" rend="underline">By the Roadside</ab>
+
+            <p>
+               <table TEIform="table">
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">A Boston Ballad, 1854</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">209</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Europe the 72nd and 73rd years of These States-211</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">A Hand-Mirror</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">213</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Gods</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Germs</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">214</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Thoughts</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">When I <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">h</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">H</add>
+                           </rdg>
+                        </subst>eard the <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">l</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">L</add>
+                           </rdg>
+                        </subst>earn'd Astronomer "</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Perfections<space dim="horizontal"
+                               extent="9 letters"
+                               rend="underline"/>"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">O Me! O Life!</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">215</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">To a President</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">I <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">s</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">S</add>
+                           </rdg>
+                        </subst>it and <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">l</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">L</add>
+                           </rdg>
+                        </subst>ook <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">o</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">O</add>
+                           </rdg>
+                        </subst>ut</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">To <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">r</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">R</add>
+                           </rdg>
+                        </subst>ich <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">g</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">G</add>
+                           </rdg>
+                        </subst>ivers</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">216</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">The Dalliance of the Eagles</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Roaming in Thought</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">A Farm Picture</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">A Child's Amaze</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">217</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">The Runner</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Beautiful Women</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Mother and Babe</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Thought</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Visor'd</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Thought</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+               </table>
+            </p>
+            <note type="authorial"
+                  place="bottom">153</note>
+
+            <pb facs="duk.00053.008" xml:id="leaf08r" type="recto"/>
+
+            <note type="authorial"
+                  place="top">9</note>
+            <p>
+               <table TEIform="table">
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Gliding <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">o</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">O</add>
+                           </rdg>
+                        </subst>'er <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">a</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">A</add>
+                           </rdg>
+                        </subst>ll</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">218</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Hast <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">n</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">N</add>
+                           </rdg>
+                        </subst>ever <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">c</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">C</add>
+                           </rdg>
+                        </subst>ome to <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">t</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">T</add>
+                           </rdg>
+                        </subst>hee an <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">h</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">H</add>
+                           </rdg>
+                        </subst>our "</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Thought</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">To Old Age</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Locations and Times</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Offerings</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">
+                        To the <subst>
+                              <rdg varSeq="1">
+                                 <del type="edit">s</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add type="edit">S</add>
+                              </rdg>
+                           </subst>tates, to <subst>
+                              <rdg varSeq="1">
+                                 <del type="edit">i</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add type="edit">I</add>
+                              </rdg>
+                           </subst>dentify the 16th, 17th,<lb/>
+                         or 18th Presidentials<lb/>
+                     </cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+               </table>
+            </p>
+            <note type="authorial"
+                  place="infralinear">#</note>
+            <l>
+               <add rend="unmarked" place="infralinear">
+                  <space dim="vertical" extent="1 line"/>
+               </add>
+            </l>
+
+            <ab type="sub" rend="underline">
+Drum-Taps
+</ab>
+
+            <p>
+               <table TEIform="table">
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">First O <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">s</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">S</add>
+                           </rdg>
+                        </subst>ongs for a <subst>
+                           <rdg varSeq="1">
+                              <del rend="overwrite">p</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add rend="overwrite" place="over">P</add>
+                           </rdg>
+                        </subst>relude<space dim="horizontal" extent="4 letters"/>219</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Eighteen Sixty‑One</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">221</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Beat! <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">b</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">B</add>
+                           </rdg>
+                        </subst>eat! <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">d</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">D</add>
+                           </rdg>
+                        </subst>rums!</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">222</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Song of the Banner at Daybreak</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">223</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Rise O Days from your Fathomless Deeps 228</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Virginia—the West</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">230</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">City of Ships</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">The Centenarian's Story</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">231</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Cavalry <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">c</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">C</add>
+                           </rdg>
+                        </subst>rossing a Ford</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">235</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Bivouac on a Mountain-Side</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">An Army Corps on the March</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">236</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">By the Bivouac's <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">f</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">F</add>
+                           </rdg>
+                        </subst>itful <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">f</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">F</add>
+                           </rdg>
+                        </subst>lame "</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Come <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">u</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">U</add>
+                           </rdg>
+                        </subst>p <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">f</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">F</add>
+                           </rdg>
+                        </subst>rom the <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">f</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">F</add>
+                           </rdg>
+                        </subst>ields <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">f</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">F</add>
+                           </rdg>
+                        </subst>urther</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+               </table>
+            </p>
+            <note type="authorial"
+                  place="bottom">177</note>
+
+            <pb facs="duk.00053.009" xml:id="leaf09r" type="recto"/>
+            <note type="authorial"
+                  place="top">10</note>
+
+            <p>
+               <table TEIform="table">
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">
+                        Vigil <subst>
+                              <rdg varSeq="1">
+                                 <del type="edit">s</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add type="edit">S</add>
+                              </rdg>
+                           </subst>trange I <subst>
+                              <rdg varSeq="1">
+                                 <del type="edit">k</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add type="edit">K</add>
+                              </rdg>
+                           </subst>ept on the Field<lb/>
+                        
+                           <subst>
+                              <rdg varSeq="1">
+                                 <del type="edit">o</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add type="edit">O</add>
+                              </rdg>
+                           </subst>ne <subst>
+                              <rdg varSeq="1">
+                                 <del type="edit">n</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add type="edit">N</add>
+                              </rdg>
+                           </subst>ight<lb/>
+                     </cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">238</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">
+                        A March in the <subst>
+                              <rdg varSeq="1">
+                                 <del type="edit">r</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add type="edit">R</add>
+                              </rdg>
+                           </subst>anks <subst>
+                              <rdg varSeq="1">
+                                 <del type="edit">h</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add type="edit">H</add>
+                              </rdg>
+                           </subst>ard-<subst>
+                              <rdg varSeq="1">
+                                 <del type="edit">p</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add type="edit">P</add>
+                              </rdg>
+                           </subst>rest,<lb/>
+                        and the <subst>
+                              <rdg varSeq="1">
+                                 <del type="edit">r</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add type="edit">R</add>
+                              </rdg>
+                           </subst>oad <subst>
+                              <rdg varSeq="1">
+                                 <del type="edit">u</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add type="edit">U</add>
+                              </rdg>
+                           </subst>nknown 239<lb/>
+                     </cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">
+                        A <subst>
+                              <rdg varSeq="1">
+                                 <del type="edit">s</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add type="edit">S</add>
+                              </rdg>
+                           </subst>ight in <subst>
+                              <rdg varSeq="1">
+                                 <del type="edit">c</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add type="edit">C</add>
+                              </rdg>
+                           </subst>amp in the Daybreak<lb/>
+                        
+                           <subst>
+                              <rdg varSeq="1">
+                                 <del type="edit">g</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add type="edit">G</add>
+                              </rdg>
+                           </subst>ray&amp;<subst>
+                              <rdg varSeq="1">
+                                 <del type="edit">d</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add type="edit">D</add>
+                              </rdg>
+                           </subst>im<lb/>
+                     </cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">240</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">As <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">t</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">T</add>
+                           </rdg>
+                        </subst>oilsome I <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">w</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">W</add>
+                           </rdg>
+                        </subst>ander'd Virginia's Woods "</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Not the Pilot</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">241</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">
+                        Year that <subst>
+                              <rdg varSeq="1">
+                                 <del type="edit">t</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add type="edit">T</add>
+                              </rdg>
+                           </subst>rembled and <subst>
+                              <rdg varSeq="1">
+                                 <del type="edit">r</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add type="edit">R</add>
+                              </rdg>
+                           </subst>eel'd<lb/>
+                        
+                           <subst>
+                              <rdg varSeq="1">
+                                 <del type="edit">b</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add type="edit">B</add>
+                              </rdg>
+                           </subst>eneath <subst>
+                              <rdg varSeq="1">
+                                 <del type="edit">m</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add type="edit">M</add>
+                              </rdg>
+                           </subst>e<lb/>
+                     </cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">The Wound-Dresser</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Long, too <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">l</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">L</add>
+                           </rdg>
+                        </subst>ong America</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">244</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Give <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">m</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">M</add>
+                           </rdg>
+                        </subst>e the Splendid Silent Sun "</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Dirge for Two Veterans</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">246</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">
+                        Over the Carriage rose Prophetic<lb/>
+                        a Voice<lb/>
+                     </cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">247</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">I <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">s</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">S</add>
+                           </rdg>
+                        </subst>aw <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">o</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">O</add>
+                           </rdg>
+                        </subst>ld General at <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">b</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">B</add>
+                           </rdg>
+                        </subst>ay</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">The Artilleryman's Vision<space dim="horizontal" extent="3 letters"/>248</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Ethiopia <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">s</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">S</add>
+                           </rdg>
+                        </subst>aluting the Colors</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">249</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Not <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">y</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">Y</add>
+                           </rdg>
+                        </subst>outh <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">p</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">P</add>
+                           </rdg>
+                        </subst>ertains to <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">m</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">M</add>
+                           </rdg>
+                        </subst>e</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Race of Veterans</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">250</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">World <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">t</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">T</add>
+                           </rdg>
+                        </subst>ake <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">g</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">G</add>
+                           </rdg>
+                        </subst>ood <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">n</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">N</add>
+                           </rdg>
+                        </subst>otice</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">O <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">t</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">T</add>
+                           </rdg>
+                        </subst>an-<subst>
+                           <rdg varSeq="1">
+                              <del type="edit">f</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">F</add>
+                           </rdg>
+                        </subst>aced Prairie-Boy</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Look Down <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">f</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">F</add>
+                           </rdg>
+                        </subst>air Moon</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Reconciliation</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+               </table>
+            </p>
+            <note type="authorial" place="inline">200</note>
+
+            <pb facs="duk.00053.010" xml:id="leaf10r" type="recto"/>
+            <note type="authorial"
+                  place="top">11</note>
+            <p>
+               <table TEIform="table">
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">How <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">s</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">S</add>
+                           </rdg>
+                        </subst>olemn as <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">o</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">O</add>
+                           </rdg>
+                        </subst>ne by <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">o</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">O</add>
+                           </rdg>
+                        </subst>ne</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">251</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">
+                        As I <subst>
+                              <rdg varSeq="1">
+                                 <del type="edit">l</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add type="edit">L</add>
+                              </rdg>
+                           </subst>ay with <subst>
+                              <rdg varSeq="1">
+                                 <del type="edit">m</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add type="edit">M</add>
+                              </rdg>
+                           </subst>y <subst>
+                              <rdg varSeq="1">
+                                 <del type="edit">h</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add type="edit">H</add>
+                              </rdg>
+                           </subst>ead in your<lb/>
+                        
+                           <subst>
+                              <rdg varSeq="1">
+                                 <del type="edit">l</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add type="edit">L</add>
+                              </rdg>
+                           </subst>ap <subst>
+                              <rdg varSeq="1">
+                                 <del type="edit">c</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add type="edit">C</add>
+                              </rdg>
+                           </subst>amerado<lb/>
+                     </cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Delicate <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">c</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">C</add>
+                           </rdg>
+                        </subst>luster</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">252</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">To a <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">c</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">C</add>
+                           </rdg>
+                        </subst>ertain <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">c</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">C</add>
+                           </rdg>
+                        </subst>ivilian</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Lo Victress on the Peaks</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Spirit whose <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">w</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">W</add>
+                           </rdg>
+                        </subst>ork is <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">d</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">D</add>
+                           </rdg>
+                        </subst>one</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">253</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Adieu to a Soldier</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Turn O Libertad</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">254</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">To the <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">l</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">L</add>
+                           </rdg>
+                        </subst>eaven'd <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">s</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">S</add>
+                           </rdg>
+                        </subst>oil <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">t</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">T</add>
+                           </rdg>
+                        </subst>hey <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">t</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">T</add>
+                           </rdg>
+                        </subst>rod</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+               </table>
+            </p>
+            <note type="authorial"
+                  place="infralinear">#</note>
+            <l>
+               <add rend="unmarked" place="infralinear">
+                  <space dim="vertical" extent="1 line"/>
+               </add>
+            </l>
+
+            <ab type="subtitle">
+               <subst>
+                  <rdg varSeq="1">
+                     <del rend="erasure">Memor</del>
+                  </rdg>
+                  <rdg varSeq="2">
+                     <add rend="unmarked" place="inline">Memories of President Lincoln</add>
+                  </rdg>
+               </subst>
+            </ab>
+
+            <p>
+               <table TEIform="table">
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">
+                        When Lilacs <subst>
+                              <rdg varSeq="1">
+                                 <del type="edit">l</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add type="edit">L</add>
+                              </rdg>
+                           </subst>ast in the Dooryard<lb/>
+                        
+                           <subst>
+                              <rdg varSeq="1">
+                                 <del type="edit">b</del>
+                              </rdg>
+                              <rdg varSeq="2">
+                                 <add type="edit">B</add>
+                              </rdg>
+                           </subst>loom'd<lb/>
+                     </cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">255</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">O Captain, my Captain</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">262</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Hush'd be the Camps <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">t</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">T</add>
+                           </rdg>
+                        </subst>o-day</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">263</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">This <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">d</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">D</add>
+                           </rdg>
+                        </subst>ust was <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">o</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">O</add>
+                           </rdg>
+                        </subst>nce <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">t</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">T</add>
+                           </rdg>
+                        </subst>he Man</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+               </table>
+            </p>
+            <note type="authorial"
+                  place="infralinear">#</note>
+            <l>
+               <add rend="unmarked" place="infralinear">
+                  <space dim="vertical" extent="1 line"/>
+               </add>
+            </l>
+            <p>
+               <table TEIform="table">
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">By Blue Ontario's <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">s</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">S</add>
+                           </rdg>
+                        </subst>hore<space dim="horizontal" extent="3 letters"/>264</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Reversals</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">276</cell>
+                  </row>
+               </table>
+            </p>
+            <note type="authorial"
+                  place="infralinear">#</note>
+            <l>
+               <add rend="unmarked" place="infralinear">
+                  <space dim="vertical" extent="1 line"/>
+               </add>
+            </l>
+
+            <ab type="subtitle">
+               <del rend="erasure">A</del>Autumn Rivulets
+</ab>
+
+            <p>
+               <table TEIform="table">
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">As <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">c</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">C</add>
+                           </rdg>
+                        </subst>onsequent, <hi rend="underline">etc.</hi>
+                     </cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">277</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">The Return of the Heroes</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">278</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">There was a Child went Forth 282</cell>
+                  </row>
+               </table>
+            </p>
+
+            <note type="authorial"
+                  place="bottom">225</note>
+
+            <pb facs="duk.00053.011" xml:id="leaf11r" type="recto"/>
+
+            <note type="authorial"
+                  place="top">
+               <subst>
+                  <rdg varSeq="2">
+                     <add rend="unmarked" place="inline">12</add>
+                  </rdg>
+                  <rdg varSeq="1">
+                     <del rend="overstrike">283</del>
+                  </rdg>
+               </subst>
+            </note>
+
+            <p>
+               <table TEIform="table">
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Old Ireland</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">
+                        <space dim="horizontal" extent="6 letters"/>284</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">The City Dead-House</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">This Compost</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">285</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">To a Foil'd European Revolutionaire 287</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Unnamed Lands</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">288</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Song of Prudence</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">289</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">The Singer in the Prison</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">292</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Warble for Lilac-<subst>
+                           <rdg varSeq="1">
+                              <del type="edit">t</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">T</add>
+                           </rdg>
+                        </subst>ime</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">293</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Outlines for a Tomb</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">294</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Out <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">f</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">F</add>
+                           </rdg>
+                        </subst>rom <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">b</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">B</add>
+                           </rdg>
+                        </subst>ehind this <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">m</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">M</add>
+                           </rdg>
+                        </subst>ask</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">296</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Vocalism</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">297</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">To Him that was Crucified</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">298</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">You Felons on <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">t</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">T</add>
+                           </rdg>
+                        </subst>rial in Courts</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Laws for Creations</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">299</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">To a Common Prostitute</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">I was <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">l</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">L</add>
+                           </rdg>
+                        </subst>ooking a <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">l</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">L</add>
+                           </rdg>
+                        </subst>ong <subst>
+                           <rdg varSeq="1">
+                              <del rend="overstrike">time</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <del type="edit">
+                                 <add rend="unmarked" place="supralinear">while</add>
+                              </del>
+                           </rdg>
+                           <rdg varSeq="3">
+                              <add type="edit">While</add>
+                           </rdg>
+                        </subst>
+                     </cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">300</cell>
+                  </row>
+                  <!--I HAD TO ENCODE THE ADD/DEL "EDIT" FOR THE WHOLE WORD "WHILE," INSTEAD OF JUST THE W ... IT WOULD OTHERWISE REQUIRE NESTING <subst>S.-->
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Thought</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Miracles</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">301</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Sparkles <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">f</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">F</add>
+                           </rdg>
+                        </subst>rom the Wheel</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">To a Pupil</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">302</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Unfolded <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">o</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">O</add>
+                           </rdg>
+                        </subst>ut of the Folds</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">What am I <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">a</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">A</add>
+                           </rdg>
+                        </subst>fter <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">a</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">A</add>
+                           </rdg>
+                        </subst>ll</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">303</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Kosmos</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+               </table>
+            </p>
+
+            <note type="authorial"
+                  place="bottom">248</note>
+
+            <pb facs="duk.00053.012" xml:id="leaf12r" type="recto"/>
+
+            <note type="authorial"
+                  place="top">13</note>
+
+            <p>
+               <table TEIform="table">
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Others may Praise <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">w</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">W</add>
+                           </rdg>
+                        </subst>hat <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">t</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">T</add>
+                           </rdg>
+                        </subst>hey <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">l</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">L</add>
+                           </rdg>
+                        </subst>ike</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">304</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Who <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">l</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">L</add>
+                           </rdg>
+                        </subst>earns my <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">l</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">L</add>
+                           </rdg>
+                        </subst>esson <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">c</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">C</add>
+                           </rdg>
+                        </subst>omplete</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Tests</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">305</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">The Torch</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">O Star of France</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">306</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">The Ox-Tamer</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">307</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">An Old Man's Thought of School</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">308</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Wandering at Morn</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Italian Music In Dakota</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">309</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">With all thy Gifts</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">The Picture Gallery</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">310</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">The Prairie States</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+               </table>
+            </p>
+            <note type="authorial"
+                  place="infralinear">#</note>
+            <l>
+               <add rend="unmarked" place="infralinear">
+                  <space dim="vertical" extent="1 line"/>
+               </add>
+            </l>
+            <p>
+               <table TEIform="table">
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">
+                        <subst>
+                           <rdg varSeq="1">
+                              <del rend="erasure">The Prair</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add rend="overwrite" place="over">Proud Music of the Storm</add>
+                           </rdg>
+                        </subst>
+                     </cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">310</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Passage to India</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">315</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Prayer of Columbus</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">323</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">The Sleepers</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">325</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Transpositions</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">332</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">To Think of Time</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">333</cell>
+                  </row>
+               </table>
+            </p>
+            <note type="authorial"
+                  place="bottom">269</note>
+
+            <pb facs="duk.00053.013" xml:id="leaf13r" type="recto"/>
+
+            <note type="authorial"
+                  place="top">14</note>
+            <ab type="sub">Whispers of Heavenly Death</ab>
+            <p>
+               <table TEIform="table">
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Darest thou <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">n</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">N</add>
+                           </rdg>
+                        </subst>ow O <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">s</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">S</add>
+                           </rdg>
+                        </subst>oul</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">338</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Whispers of Heavenly Death</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Chanting the Square Deific</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">339</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Of Him I <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">l</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">L</add>
+                           </rdg>
+                        </subst>ove <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">d</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">D</add>
+                           </rdg>
+                        </subst>ay and <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">n</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">N</add>
+                           </rdg>
+                        </subst>ight</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">340</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Yet, yet, ye <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">d</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">D</add>
+                           </rdg>
+                        </subst>owncast <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">h</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">H</add>
+                           </rdg>
+                        </subst>ours</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">341</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">As if a Phantom <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">c</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">C</add>
+                           </rdg>
+                        </subst>aressed <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">m</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">M</add>
+                           </rdg>
+                        </subst>e</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Assurances</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">342</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Quicksand Years</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">That Music <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">a</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">A</add>
+                           </rdg>
+                        </subst>lways <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">r</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">R</add>
+                           </rdg>
+                        </subst>ound <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">m</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">M</add>
+                           </rdg>
+                        </subst>e</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">343</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">What <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">s</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">S</add>
+                           </rdg>
+                        </subst>hip <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">p</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">P</add>
+                           </rdg>
+                        </subst>uzzled at <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">s</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">S</add>
+                           </rdg>
+                        </subst>ea</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">A <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">n</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">N</add>
+                           </rdg>
+                        </subst>oiseless <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">p</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">P</add>
+                           </rdg>
+                        </subst>atient <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">s</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">S</add>
+                           </rdg>
+                        </subst>pider</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">The <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">l</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">L</add>
+                           </rdg>
+                        </subst>ast Invocation</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">344</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">O <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">l</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">L</add>
+                           </rdg>
+                        </subst>iving <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">a</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">A</add>
+                           </rdg>
+                        </subst>lways, <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">a</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">A</add>
+                           </rdg>
+                        </subst>lways <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">d</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">D</add>
+                           </rdg>
+                        </subst>ying</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">As I <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">w</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">W</add>
+                           </rdg>
+                        </subst>atch'd the Ploughman <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">p</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">P</add>
+                           </rdg>
+                        </subst>oughing</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Pensive and Faltering</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">To One <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">s</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">S</add>
+                           </rdg>
+                        </subst>hortly to Die</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">345</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Night on the Prairies</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Thought</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">346</cell>
+                  </row>
+               </table>
+            </p>
+            <note type="authorial"
+                  place="interlinear">#</note>
+            <l>
+               <add rend="unmarked" place="interlinear">
+                  <space dim="vertical" extent="1 line"/>
+               </add>
+            </l>
+            <p>
+               <table TEIform="table">
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Thou Mother with <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">t</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">T</add>
+                           </rdg>
+                        </subst>h<subst>
+                           <rdg varSeq="1">
+                              <del rend="overwrite">ou</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add rend="overwrite" place="over">y</add>
+                           </rdg>
+                        </subst> Equal Brood</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">346</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">A Paumanok Picture</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">351</cell>
+                  </row>
+               </table>
+            </p>
+            <pb facs="duk.00053.014" xml:id="leaf14r" type="recto"/>
+
+            <note type="authorial"
+                  place="top">15</note>
+            <ab type="subtitle">From Noon to Starry Night</ab>
+            <p>
+               <table TEIform="table">
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Thou <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">o</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">O</add>
+                           </rdg>
+                        </subst>rb <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">a</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">A</add>
+                           </rdg>
+                        </subst>loft <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">f</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">F</add>
+                           </rdg>
+                        </subst>ull-<subst>
+                           <rdg varSeq="1">
+                              <del type="edit">d</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">D</add>
+                           </rdg>
+                        </subst>azzling</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">352</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Faces</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">353</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">The Mystic Trumpeter</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">356</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">To a Locomotive In Winter</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">358</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">O Magnet-South</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">359</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Mannahatta</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">360</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">All is Truth</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">361</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">A Riddle Song</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">362</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Excelsior</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">363</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">
+                        <orig reg="Ah">A</orig> Poverties, Wincings, and Sulky Retreats</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">364</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Thoughts</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Mediums</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Weave <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">i</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">I</add>
+                           </rdg>
+                        </subst>n, <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">m</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">M</add>
+                           </rdg>
+                        </subst>y <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">h</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">H</add>
+                           </rdg>
+                        </subst>ardy Life</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">365</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Spain, 1873, '74</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">By <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">b</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">B</add>
+                           </rdg>
+                        </subst>road Potomac's <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">s</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">S</add>
+                           </rdg>
+                        </subst>hore</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">366</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">From far Dakota's <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">c</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">C</add>
+                           </rdg>
+                        </subst>añons</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Old War-Dreams</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">367</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Thick-Sprinkled Bunting</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">What <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">b</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">B</add>
+                           </rdg>
+                        </subst>est I <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">s</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">S</add>
+                           </rdg>
+                        </subst>ee in <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">t</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">T</add>
+                           </rdg>
+                        </subst>hee</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">368</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Spirit that <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">f</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">F</add>
+                           </rdg>
+                        </subst>orm'd <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">t</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">T</add>
+                           </rdg>
+                        </subst>his <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">s</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">S</add>
+                           </rdg>
+                        </subst>cene</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">As I <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">w</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">W</add>
+                           </rdg>
+                        </subst>alk <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">t</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">T</add>
+                           </rdg>
+                        </subst>hese <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">b</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">B</add>
+                           </rdg>
+                        </subst>road <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">m</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">M</add>
+                           </rdg>
+                        </subst>ajestic <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">d</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">D</add>
+                           </rdg>
+                        </subst>ays</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">369</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">A <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">c</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">C</add>
+                           </rdg>
+                        </subst>lear Midnight</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+               </table>
+            </p>
+            <note type="authorial"
+                  place="bottom">#</note>
+            <l>
+               <add rend="unmarked" place="infralinear">
+                  <space dim="vertical" extent="1 line"/>
+               </add>
+            </l>
+            <note type="authorial"
+                  place="bottom">315</note>
+
+            <pb facs="duk.00053.015" xml:id="leaf15r" type="recto"/>
+
+            <note type="authorial"
+                  place="top">16</note>
+            <ab type="subtitle" rend="underline">Songs of Parting</ab>
+            <p>
+               <table TEIform="table">
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">
+                        <add rend="unmarked" place="supralinear">As</add> the <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">t</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">T</add>
+                           </rdg>
+                        </subst>ime <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">d</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">D</add>
+                           </rdg>
+                        </subst>raws <del rend="overstrike">ng</del> 
+                        <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">n</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">N</add>
+                           </rdg>
+                        </subst>igh</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">370</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Years of the Modern</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Ashes of Soliders</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">371</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Thoughts</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">373</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Song at Sunset</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">374</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">As at <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">t</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">T</add>
+                           </rdg>
+                        </subst>hy Portals <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">a</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">A</add>
+                           </rdg>
+                        </subst>lso Death</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">376</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">My Legacy</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Pensive on <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">h</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">H</add>
+                           </rdg>
+                        </subst>er Dead <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">g</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">G</add>
+                           </rdg>
+                        </subst>azing</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">377</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Camps of Green</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">
+                        <subst>
+                           <rdg varSeq="1">
+                              <del rend="overstrike">Bathed in War's perfume</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add rend="unmarked" place="interlinear">The Sobbing of the Bells</add>
+                           </rdg>
+                        </subst>
+                     </cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">378</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">As they <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">d</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">D</add>
+                           </rdg>
+                        </subst>raw to a <subst>
+                           <rdg varSeq="1">
+                              <del type="edit">c</del>
+                           </rdg>
+                           <rdg varSeq="2">
+                              <add type="edit">C</add>
+                           </rdg>
+                        </subst>lose</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">379</cell>
+                  </row>
+
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Joy, Shipmate, Joy</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">The Untold Want</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Portals</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">These Carols</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">Now Finalè to the Shore</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">380</cell>
+                  </row>
+                  <row role="data" TEIform="row">
+                     <cell rend="left" role="data" rows="1" cols="1" TEIform="cell">So long!</cell>
+                     <cell rend="right" role="data" rows="1" cols="1" TEIform="cell">"</cell>
+                  </row>
+               </table>
+            </p>
+
+            <note type="authorial"
+                  place="infralinear">
+               <subst>
+                  <rdg varSeq="1">
+                     <del rend="overwrite">2</del>
+                  </rdg>
+                  <rdg varSeq="2">
+                     <add rend="overwrite" place="over">3</add>
+                  </rdg>
+               </subst>33</note>
+
+            <milestone unit="undeclared" rend="horbar-short-left"/>
+
+
+            <note type="authorial"
+                  place="bottom">
+               <del rend="hashmark">
+                  <p>If convenient I wish some of the proof-readers would look carefully over the sheets of "Leaves of Grass"&amp;revise this list of contents</p>
+               </del>
+            </note>
+
+
+         </div1>
+
+         <!--IMAGES 16 AND 17 ARE FROM OF A PRINTED 1881-82 EDITION OF "LEAVES OF GRASS." BOTH CONTAIN EXCERPTS OF REVIEWS, AND HAVE NOT BEEN MARKED UP BY WHITMAN, SO IT SEEMS THAT THESE DO NOT NEED TO BE TRANSCRIBED. IF THEY DO NEED TO BE INCLUDED, PLEASE LET ME KNOW.-->
+
+         <pb facs="duk.00053.018" xml:id="leaf18r" type="recto"/>
+
+         <note type="authorial"
+               place="top"
+               hand="h1"
+               rend="underline">
+            this will do<lb/>
+            WW<lb/>
+         </note>
+
+         <!--I PUT IN A DIV1 HERE SO THAT THE <P>s WOULD PARSE PROPERLY. I'M FAIRLY SURE THIS DOES REQUIRE A <DIV1> OF SOME SORT ... BUT PROBABLY NOT "TITLE NOTES"?-->
+
+         <div1 type="title notes">
+            <p rend="center">BOSTON</p>
+            <p>JAMES R<del rend="overstrike" hand="h1">.</del> OSGOOD AND COMPANY</p>
+            <p rend="center">1881<subst>
+                  <rdg varSeq="1">
+                     <del rend="overstrike" hand="h1">—2</del>
+                  </rdg>
+                  <rdg varSeq="2">
+                     <add rend="unmarked" place="inline" hand="h1">—82</add>
+                  </rdg>
+               </subst>
+            </p>
+         </div1>
+         <!--IMAGE 19 IS A (SIGNED?) PHOTOGRAPH OF WHITMAN.-->
+
+      </body>
+   </text>
+</TEI>

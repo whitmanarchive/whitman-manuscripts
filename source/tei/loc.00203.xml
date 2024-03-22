@@ -1,14 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
- 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00203">
-    <relations>
-        <work ref="xxx.00339" cert="high">
-            <p>Whitman published "If I Should Need to Name, O Western World" in the Philadelphia <hi rend="italic">Press</hi> on <date when="1884-10-26">October 26, 1884</date>.
-                The poem's title was revised to "Election Day, November, 1884" when it was included
-                in <hi rend="italic">November Boughs</hi>
-                <date when="1888">(1888)</date>.</p>
-        </work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00203">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,6 +18,7 @@
                     <persName xml:id="aj">Andrew Jewell</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
                 </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -40,7 +32,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.00203</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -53,7 +45,7 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.00203</idno></publicationStmt>
             <notesStmt>
                 <note type="project" target="#leaf003r">Accompanying this manuscript is a small scrap
                     of paper, presented here as a third leaf, no doubt intended for the Philadelphia <hi rend="italic">Press</hi>,
@@ -62,18 +54,27 @@
                     The poem's title was revised to "Election Day, November, 1884" when it was included
                     in <hi rend="italic">November Boughs</hi>
                     <date when="1888">(1888)</date>.</note>
+                    <note type="work_relations" target="xxx.00339" cert="high">
+                        <p>Whitman published "If I Should Need to Name, O Western World" in the Philadelphia <hi rend="italic">Press</hi> on <date when="1884-10-26">October 26, 1884</date>.
+                            The poem's title was revised to "Election Day, November, 1884" when it was included
+                            in <hi rend="italic">November Boughs</hi>
+                            <date when="1888">(1888)</date>.</p>
+                    </note>
+                
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <date xml:id="dat1" cert="high" when="1884-10-25">October 25, 1884</date>
                     <title>If I should need to name, O Western World!</title>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2022-06-06" who="#km">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2015-10-18" who="#nhg">added ref link to editorial note</change>
             <change when="2016-07-26" who="#nhg">proofed, added versos</change>
             <change when="2016-03-08" who="#nhg">completed persNames, corrected</change>
@@ -94,7 +95,7 @@
         <body>
             <pb facs="loc.00203.001.jpg" xml:id="leaf001r" type="recto"/>
 
-            <note type="authorial" place="top">follow copy&#8212;punctuation
+            <note type="authorial" place="top">follow copy—punctuation
                 &amp;c</note>
             <lg type="poem">
                 <head type="main" rend="underline">If I should need to name, O Western
@@ -105,29 +106,29 @@
                     <lb/>your powerfulest scene <choice>
 <orig>to-day</orig><reg>today</reg></choice>,
                 </l>
-                <l>'T would not be you, Niagara&#8212;nor you, ye
-                    <lb/>limitless prairies&#8212;nor your huge
+                <l>'T would not be you, Niagara—nor you, ye
+                    <lb/>limitless prairies—nor your huge
                     <lb/>rifts of <choice>
-<orig>ca&#241;ons</orig><reg>canyons</reg></choice>, Colorado,
+<orig>cañons</orig><reg>canyons</reg></choice>, Colorado,
                 </l>
                 <l>Nor you, Yosemite, with all your spasmic
-                    <lb/>geyser&#8209;loops ascending to the skies, <choice>
+                    <lb/>geyser‑loops ascending to the skies, <choice>
 <orig>ap-<lb/>pearing</orig>
 <reg>appearing</reg>
 </choice>
 
                     and disappearing,
                 </l>
-                <l>Nor Oregon's white cones&#8212;nor Huron's belt
-                    <lb/>of mighty lakes&#8212;nor Mississippi's stream:
+                <l>Nor Oregon's white cones—nor Huron's belt
+                    <lb/>of mighty lakes—nor Mississippi's stream:
                 </l>
                 <l>This seething hemisphere's, 
-                                <add place="supralinear" rend="insertion">humanity,</add> as now, I'd name&#8212;
+                                <add place="supralinear" rend="insertion">humanity,</add> as now, I'd name—
                     <lb/>
-<hi rend="underline">the still small voice</hi> preparing&#8212;
+<hi rend="underline">the still small voice</hi> preparing—
                     <lb/>America's choosing day,
                 </l>
-                <l>(The heart of it not in the chosen&#8212;the act
+                <l>(The heart of it not in the chosen—the act
                     <lb/>itself the main, the <del rend="overstrike">great</del>
                         <add rend="unmarked" place="supralinear">quad<gap reason="illegible"/>
 </add>
@@ -138,21 +139,21 @@
                             
                                 <del rend="overwrite" seq="1">n</del><add place="over" rend="overwrite" seq="2">N</add></subst>orth and <subst>
                             
-                                <del rend="overwrite" seq="1">s</del><add place="over" rend="overwrite" seq="2">S</add></subst>outh arous<subst><del rend="overstrike" seq="1">e</del><add place="inline" rend="unmarked" seq="2">'</add></subst>d&#8212;
-                    <lb/>sea&#8209;board and inland&#8212;Texas to Maine,
+                                <del rend="overwrite" seq="1">s</del><add place="over" rend="overwrite" seq="2">S</add></subst>outh arous<subst><del rend="overstrike" seq="1">e</del><add place="inline" rend="unmarked" seq="2">'</add></subst>d—
+                    <lb/>sea‑board and inland—Texas to Maine,
                 </l>
                 <l>The Prairie States, Vermont, Virginia, <choice>
 <orig>Cali-<lb/>fornia</orig><reg>California</reg></choice>,
 
                 </l>
-                <l>The final ballot&#8209;shower from <subst>
+                <l>The final ballot‑shower from <subst>
                             
                                 <del rend="overwrite" seq="1">e</del><add rend="overwrite" place="over" seq="2">E</add></subst>ast to <subst>
                             
-                                <del rend="overwrite" seq="1">w</del><add rend="overwrite" place="over" seq="2">W</add></subst>est&#8212;
+                                <del rend="overwrite" seq="1">w</del><add rend="overwrite" place="over" seq="2">W</add></subst>est—
                     <lb/>the paradox and conflict,
                 </l>
-                <l>The countless snow&#8209;flakes falling&#8212;(a swordless
+                <l>The countless snow‑flakes falling—(a swordless
                     <lb/>conflict,
                 </l>
                 <pb facs="loc.00203.002.jpg" xml:id="leaf001v" type="verso"/>
@@ -161,8 +162,8 @@
                 <l>Yet more than all Rome's wars of old,
                     <lb/>or modern Napoleon's;)
                 </l>
-                <l>Or good or ill <add place="supralinear" rend="insertion">humanity&#8212;</add>&#8212;welcoming the darker odds,
-                    <lb/>the dross, the scene's debris<subst><del rend="overwrite" seq="1">&#8212;</del><add place="over" rend="overwrite" seq="2">:</add>
+                <l>Or good or ill <add place="supralinear" rend="insertion">humanity—</add>—welcoming the darker odds,
+                    <lb/>the dross, the scene's debris<subst><del rend="overwrite" seq="1">—</del><add place="over" rend="overwrite" seq="2">:</add>
                                                     </subst>
 
                 </l>
@@ -172,7 +173,7 @@
                                                         
                                 <add place="supralinear" rend="unmarked" seq="2">serves</add>
                                                     </subst> to <choice>
-<orig>puri-<lb/>fy</orig><reg>purify</reg></choice>&#8212;while the heart pants, life glows;
+<orig>puri-<lb/>fy</orig><reg>purify</reg></choice>—while the heart pants, life glows;
                 </l>
                 <l>These stormy gusts and winds waft precious
                     <lb/>ships,
@@ -191,7 +192,7 @@
             <note type="authorial" place="top"><hi rend="underline">to go in Sunday's paper Oct
                 26</hi></note>
             <note type="authorial" place="top">put in type &amp; send me a proof, by
-                mail&#8212;direct 328 Mickle Street Camden&#8212;(send proofs by Wednesday
+                mail—direct 328 Mickle Street Camden—(send proofs by Wednesday
                 22 if convenient) <unclear reason="faded" resp="#ar" cert="high">I will return
                     immediately</unclear>
 </note>

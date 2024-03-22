@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00019"> 
-   <relations>
-      <work ref="xxx.00893" cert="low">
-         <p>The language and topic of this manuscript resembles language in Whitman's self-authored review of the 1855 <hi rend="italic">Leaves of Grass</hi>, "Walt Whitman and His Poems": "Has not the time arrived for a school of live writing and tuition consistent with the principles of these poems? consistent with the free spirit of this age, and with the American truths of politics? consistent with geology, and astronomy, and phrenology, and human physiology?" and "Not geology, nor mathematics, nor chemistry, nor navigation, nor astronomy, nor anatomy, nor physiology, nor engineering, is more true to itself than Walt Whitman is true to them." The review was published in <hi rend="italic">The United States Review</hi> in September, 1855. It was also part of a series of reviews printed separately and included in some copies of the 1855 edition.</p>
-      </work>
-   </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00019"> 
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -16,6 +12,8 @@
                <resp>Transcription and encoding</resp>
                <persName xml:id="cah">Caitlin Henry</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="as">Ashlyn Stewart</persName>
+               <persName xml:id="km">Kevin McMullen</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -27,7 +25,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>nyp.00019</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,14 +37,16 @@
             <availability>
                <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability> 
-         </publicationStmt>
+         <idno>nyp.00019</idno></publicationStmt>
          <notesStmt>                       
             <note type="project" target="dat1">Whitman probably drafted this manuscript around 1855. Based on the handwriting and the size of the scrap, Edward Grier dates it to the 1850s, though he also notes that an archival notation on the mounting page next to the manuscript dates it to 1870 (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 6:2140). Wording and ideas in the manuscript bear some resemblance to sentences in "Walt Whitman and His Poems," a review Whitman wrote of the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The review was published in <hi rend="italic">The United States Review</hi> in September, 1855. It was also part of a series of reviews printed separately and included in some copies of the 1855 edition.</note>
-            
+               <note type="work_relations" target="xxx.00893" cert="low">
+                  <p>The language and topic of this manuscript resembles language in Whitman's self-authored review of the 1855 <hi rend="italic">Leaves of Grass</hi>, "Walt Whitman and His Poems": "Has not the time arrived for a school of live writing and tuition consistent with the principles of these poems? consistent with the free spirit of this age, and with the American truths of politics? consistent with geology, and astronomy, and phrenology, and human physiology?" and "Not geology, nor mathematics, nor chemistry, nor navigation, nor astronomy, nor anatomy, nor physiology, nor engineering, is more true to itself than Walt Whitman is true to them." The review was published in <hi rend="italic">The United States Review</hi> in September, 1855. It was also part of a series of reviews printed separately and included in some copies of the 1855 edition.</p>
+               </note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>Holograph memoranda and notes, unsigned and undated, written on 27 scraps of paper</title>
                <date cert="low" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date> 
                <idno type="callno">b15520479</idno> <!--MSS Unit ID: 19100; Other local identifier: 175226b; Archives EAD ID: 949125; Universal Unique Identifier (UUID): 4ae6d720-a46c-0130-a047-3c075448cc4b -->
@@ -56,6 +56,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2022-06-17" who="#km">updated relations encoding</change>
+         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2019-06-13">checked, corrected, added relations</change>
          <change who="#cah" when="2019-02-19">transcribed, encoded</change>
       </revisionDesc>

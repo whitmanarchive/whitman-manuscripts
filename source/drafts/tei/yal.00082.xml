@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+ 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="yal.00082">
+    <relations>
+        <work ref="xxx.00601" cert="high">
+            <p>This poem was first printed in 1897 as part of "Old-Age Echoes."</p>
+        </work>
+    </relations>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main" rend="bracketed">While behind all firm and
+                    erect</title>
+                <title level="m" type="sub">a machine readabletranscription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+<persName xml:id="el">Elizabeth Lorang</persName>
+<persName xml:id="lr">Lisa Renfro</persName>
+<persName xml:id="sb">Stacey Berry</persName>
+<persName xml:id="fl">Farrah Lehman</persName>
+<persName xml:id="kp">Kenneth M. Price</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+<persName xml:id="bb">Brett Barney</persName>
+<persName xml:id="aj">Andy Jewell</persName>
+<persName xml:id="kmp">Kenneth Price</persName>
+                </respStmt>
+                <sponsor>The Institute for Advanced Technology in theHumanities</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <sponsor>University of Nebraska-Lincoln</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+                <funder>The United States Department of Education</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2004</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>yal.00082</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address><addrLine>The Institute for Advanced Technology in theHumanities</addrLine><addrLine>Alderman Library</addrLine><addrLine>University of Virginia</addrLine><addrLine>P.O. Box 400115</addrLine><addrLine>Charlottesville, VA 22904-4115</addrLine><addrLine>whitman@jefferson.village.virginia.edu</addrLine></address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">The final lines on the recto resemble poems from
+                    the eary 1880s, "The Pilot in the Mist" and "Thou Mother with Thy Equal Brood,"
+                    which suggests a similar date for this manuscript.</note>
+                <note type="project">The verso contains one of Whitman's many trial titles for the
+                    volume ultimately entitled <hi rend="italic">Specimen Days</hi>.</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>While behind all firm and erect</title>
+                    <date xml:id="dat1" cert="low" notBefore="1880" notAfter="1897">1880-1897</date>
+                    <idno type="callno"> </idno>
+                    <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and
+                        Manuscript Library</orgName>
+                    <note type="project">Transcribed from digital images of the original.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-02-15" who="#nhg">adjusted image names paths</change>
+            <change when="2016-01-08" who="#bb">updated list of staff in titleStmt</change>
+            <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
+            <change when="2006-09-22" who="#el">added extra digit to leaf numbers</change>
+            <change when="2006-05-09" who="#lr">Blessed</change>
+            <change when="2006-02-01" who="#kp">Edited</change>
+            <change when="2006-01-20" who="#sb">Checked</change>
+            <change when="2006-01-12" who="#fl">Encoded</change>
+            <change when="2006-01-12" who="#fl">Transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="manuscript">
+        <body>
+            <pb facs="yal.00082.001.jpg" xml:id="leaf001r" type="recto"/>
+            <lg type="poem">
+                <l>
+                    While behind all firm and
+                    <lb/>erect as ever,
+                </l>
+                <l>Undismay'd amid the rapids&#8212;
+                    <lb/>amid the irresistible
+                    <lb/>and deadly urge,
+                </l>
+                <l>Stands a helmsman with
+                    <lb/>brow elate and <del rend="overstrike">firm</del>
+                    <lb/><del rend="overstrike">hand</del> strong hand.
+                </l>
+            </lg>
+            <pb facs="yal.00082.002.jpg" xml:id="leaf001v" type="verso"/>
+            <div1 type="titlenotes">
+                <delSpan type="hashmark" spanTo="#d2"/>
+                <ab type="title" rend="underline">
+                    <lb/>Specimen
+                    <lb/>Days
+                    <lb/>&amp; Thoughts
+                    <lb/>melanged
+                </ab>
+                <anchor xml:id="d2"/>
+            </div1>
+        </body>
+    </text>
+</TEI>

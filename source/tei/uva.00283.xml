@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00283">
-      <relations>
-         <work ref="xxx.00526" cert="low">
-            <p>The phrasing of the first line in this manuscript is similar to the following line in the preface to the 1855 <hi rend="italic">Leaves of Grass</hi>: "these are called up of the float of the brain of the world to be parts of the greatest poet from his birth out of his mother's womb and from her birth out of her mother's" (1855, p. ix).</p>
-         </work>
-      </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00283">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -17,6 +11,8 @@
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="jr">Joshua Ranger</persName>
+               <persName xml:id="as">Ashlyn Stewart</persName>
+               <persName xml:id="bb">Brett Barney</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -28,7 +24,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>uva.00283</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,13 +36,16 @@
             <availability>
                <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>uva.00283</idno></publicationStmt>
          <notesStmt>
-            <note type="project" target="dat1">This manuscript is distantly similar in topic and wording to language in the preface to the 1855 <hi rend="italic">Leaves of Grass</hi>, suggesting the manuscript may have been written in the early to mid-1850s. In his transcription, Richard Maurice Bucke combines it with three other manuscripts: see <ref target="nyp.00095.html">nyp.00095</ref>, <ref target="nyp.00097.html">nyp.00097</ref>, and <ref target="uva.00134.html">uva.00134</ref> (<hi rend="italic">Notes and Fragments</hi> [London, Ontario: A. Talbot &amp; Co., printers, 1899], 28&#8211;29). Though the subject matter is similar, the manuscripts do not appear to be continuous.</note>
+            <note type="project" target="dat1">This manuscript is distantly similar in topic and wording to language in the preface to the 1855 <hi rend="italic">Leaves of Grass</hi>, suggesting the manuscript may have been written in the early to mid-1850s. In his transcription, Richard Maurice Bucke combines it with three other manuscripts: see <ref target="nyp.00095.html">nyp.00095</ref>, <ref target="nyp.00097.html">nyp.00097</ref>, and <ref target="uva.00134.html">uva.00134</ref> (<hi rend="italic">Notes and Fragments</hi> [London, Ontario: A. Talbot &amp; Co., printers, 1899], 28–29). Though the subject matter is similar, the manuscripts do not appear to be continuous.</note>
+            <note type="work_relations" target="xxx.00526" cert="low">
+            <p>The phrasing of the first line in this manuscript is similar to the following line in the preface to the 1855 <hi rend="italic">Leaves of Grass</hi>: "these are called up of the float of the brain of the world to be parts of the greatest poet from his birth out of his mother's womb and from her birth out of her mother's" (1855, p. ix).</p>
+         </note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>Who wills with his own brain</title>
                <date cert="medium" notBefore="1850" notAfter="1860" xml:id="dat1">Between 1850 and 1860</date>
                <idno type="callno">MSS 3829, Box-folder 1:88</idno>
@@ -61,6 +60,8 @@
          </handNotes>
       </profileDesc>
       <revisionDesc>
+         <change when="2022-06-06" who="#bb">updated relations encoding</change>
+         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2019-10-15">edited note</change>
          <change who="#nhg" when="2018-12-18">checked, corrected, added relations info and updated editorial note</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00268">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main">From wooded Maine</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="li">Leslie Ianno</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2003</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>uva.00268</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="project" target="leaf001v">Verso of manuscript leaf is a letter dated August 14, 1889 and addressed "Dear Sir."</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>Paper of Walt Whitman</title>
+               <idno type="callno">MSS 3829</idno> 
+               <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName> 
+
+               <note type="project">Transcribed from a color print out based on our own digital image of original manuscript.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote scribeRef="#unk" xml:id="h1"><persName xml:id="unk">Unknown</persName></handNote>
+         </handNotes>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#li" when="2003-11-17">Encoded by Kenneth M. Price</change>
+         <change who="#li" when="2003-11-17">Transcribed by Kenneth M. Price</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <pb facs="uva.00268.001.jpg" xml:id="leaf001r" type="recto"/>
+         <note type="editorial" resp="#h1" place="right"><del rend="erasure">18</del></note>
+         <lg type="linegroup">
+
+            <l>
+               <addSpan rend="insertion" place="bottom" to="a1"/>The mystic
+<subst>
+                  <rdg varSeq="1">
+                     <del rend="overstrike"> loot</del>
+                  </rdg>
+                  <rdg varSeq="2">
+                     <add rend="unmarked" place="supralinear">roll</add>
+                  </rdg>
+               </subst>
+               <subst>
+                  <rdg varSeq="1">
+                     <del rend="overstrike"> of</del>
+                  </rdg>
+                  <rdg varSeq="2">
+                     <add rend="unmarked" place="supralinear">from</add>
+                  </rdg>
+               </subst> all America<anchor xml:id="a1"/>
+            </l>
+
+            <l> 
+               From wooded Maine,<del rend="overstrike"> and many a</del>
+               <lb/>
+               New England's farms,<del rend="overstrike">and farm</del>
+               <lb/>
+               fertile Pennsylvania,<lb/>
+            </l>
+
+            <l>
+               The boundless West, the South,<add rend="insertion" place="supralinear">the Carolinas,</add> Texas,<lb/>
+            </l>
+
+         </lg>
+      </body>
+   </text>
+</TEI>

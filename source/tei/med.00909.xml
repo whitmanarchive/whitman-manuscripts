@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00909">
-<relations>
-      <work ref="xxx.00048" cert="low">
-         <p>Phrasing and imagery in this manuscript are reminiscent of phrases and ideas Whitman used in the first poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, ultimately titled "Song of Myself." Compare these lines from that edition: "I lean and loafe at my ease . . . . observing a spear of summer grass" and "Wherever the human heart beats with terrible throes out of its ribs" (1855, pp. 13, 36).</p></work> 
-</relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00909">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +11,10 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="bb">Brett Barney</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>med.00909</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -43,9 +43,11 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>med.00909</idno></publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Because the manuscript has not been located it is difficult to speculate on the circumstances of its composition, but it is possible that it was written in the early 1850s as Whitman was preparing materials for the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The phrasing and imagery are reminiscent of passages in the first poem of the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, suggesting that this manuscript was composed before or early in 1855.</note>             
+                <note type="project" target="#dat1">Because the manuscript has not been located it is difficult to speculate on the circumstances of its composition, but it is possible that it was written in the early 1850s as Whitman was preparing materials for the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The phrasing and imagery are reminiscent of passages in the first poem of the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, suggesting that this manuscript was composed before or early in 1855.</note>  
+                    <note type="work_relations" target="xxx.00048" cert="low">
+                        <p>Phrasing and imagery in this manuscript are reminiscent of phrases and ideas Whitman used in the first poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, ultimately titled "Song of Myself." Compare these lines from that edition: "I lean and loafe at my ease . . . . observing a spear of summer grass" and "Wherever the human heart beats with terrible throes out of its ribs" (1855, pp. 13, 36).</p></note> 
             </notesStmt>
             <sourceDesc>
                 <biblStruct>
@@ -57,12 +59,12 @@
                             <pubPlace>London, Ontario</pubPlace>
                             <publisher>A. Talbot &amp; Co., [printer]</publisher>
                             <date when="1899">1899</date>
-                            <biblScope type="page">20</biblScope>
+                            <biblScope unit="page">20</biblScope>
                          </imprint>
                     </monogr>
                 </biblStruct>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title rend="bracketed">I entertain all the aches</title> 
                     <date xml:id="dat1" notBefore="1850" notAfter="1855" cert="medium">Before or early in 1855</date>
                     <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
@@ -70,6 +72,8 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2022-06-16" who="#km">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-10-17" who="#bb">transcribed, encoded</change>
         </revisionDesc>
     </teiHeader>

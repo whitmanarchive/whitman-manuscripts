@@ -1,12 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00104">
-    <relations>
-        <work ref="xxx.00121" cert="low">
-            <p>The words and topic of this manuscript are similar to the following lines from the poem that would later be titled "Great are the Myths": "Great is the earth, and the way it became what it is, / Do you imagine it is stopped at this? . . . . and the increase abandoned? / Understand then that it goes as far onward from this as this is from the times when it lay in covering waters and gases" (1855, p. 94). The poem went through many revisions through the different editions of <hi rend="italic">Leaves of Grass</hi>, then was permanently dropped in 1881–1882, except the two couplets that became the poem "Youth, Day, Old Age, and Night."</p>
-        </work>
-        <work ref="xxx.00048" cert="low">
-            <p>It is possible this manuscript relates to the following lines, from the poem that would be titled "Song of Myself": "A word of reality . . . . materialism first and last imbueing. / Hurrah for positive science! Long live exact demonstration!" (1855, p. 28), and "Wider and wider they spread, expanding and always expanding, / Outward and outward and forever outward" (1855, p. 51).</p>
-        </work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00104">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,6 +15,7 @@
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -33,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>duk.00104</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -45,13 +39,19 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>duk.00104</idno></publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">This manuscript is written on a scrap of wallpaper. Although it is cast in prose, this may be an early draft of a group of lines, expressing similar thoughts, in "Great Are the Myths," which was first published as the final, untitled, poem of the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. It also bears some resemblance to lines that appeared in the first poem in that edition, eventually titled "Song of Myself." Edward Grier includes an additional line at the end of the manuscript, taken from a transcription in Richard Maurice Bucke's <hi rend="italic">Notes and Fragments</hi> (1899): "That the Egyptian idea of the return of the soul after a certain period of time involved a beautiful [illegible] nature [illegible] mystery [illegible]"  (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi>, ed. Edward Grier [New York, New York University Press, 1984], 1:198). Grier speculates that the end of the manuscript with the additional line may have been clipped off at some point. Based on the handwriting and "references to Egyptology," he dates the manuscript 1855 or earlier.</note>             
+                <note type="project" target="#dat1">This manuscript is written on a scrap of wallpaper. Although it is cast in prose, this may be an early draft of a group of lines, expressing similar thoughts, in "Great Are the Myths," which was first published as the final, untitled, poem of the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. It also bears some resemblance to lines that appeared in the first poem in that edition, eventually titled "Song of Myself." Edward Grier includes an additional line at the end of the manuscript, taken from a transcription in Richard Maurice Bucke's <hi rend="italic">Notes and Fragments</hi> (1899): "That the Egyptian idea of the return of the soul after a certain period of time involved a beautiful [illegible] nature [illegible] mystery [illegible]"  (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi>, ed. Edward Grier [New York, New York University Press, 1984], 1:198). Grier speculates that the end of the manuscript with the additional line may have been clipped off at some point. Based on the handwriting and "references to Egyptology," he dates the manuscript 1855 or earlier.</note>
+                    <note type="work_relations" target="xxx.00121" cert="low">
+                        <p>The words and topic of this manuscript are similar to the following lines from the poem that would later be titled "Great are the Myths": "Great is the earth, and the way it became what it is, / Do you imagine it is stopped at this? . . . . and the increase abandoned? / Understand then that it goes as far onward from this as this is from the times when it lay in covering waters and gases" (1855, p. 94). The poem went through many revisions through the different editions of <hi rend="italic">Leaves of Grass</hi>, then was permanently dropped in 1881–1882, except the two couplets that became the poem "Youth, Day, Old Age, and Night."</p>
+                    </note>
+                    <note type="work_relations" target="xxx.00048" cert="low">
+                        <p>It is possible this manuscript relates to the following lines, from the poem that would be titled "Song of Myself": "A word of reality . . . . materialism first and last imbueing. / Hurrah for positive science! Long live exact demonstration!" (1855, p. 28), and "Wider and wider they spread, expanding and always expanding, / Outward and outward and forever outward" (1855, p. 51).</p>
+                    </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <date cert="medium" notBefore="1845" notAfter="1855">1855 or earlier</date>
                     <title rend="bracketed">poet of Materialism</title>                  
                     <idno type="callno">MS 4to 44</idno>
@@ -60,6 +60,8 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2022-06-02" who="#km">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-08-20" who="#nhg">adjusted note, added corresps</change>
             <change when="2018-09-10" who="#nhg">updated image names</change>
             <change when="2017-10-05" who="#nhg">added relations corresp</change>

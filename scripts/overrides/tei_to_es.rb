@@ -1,12 +1,13 @@
+require_relative "../../../whitman-scripts/scripts/ruby/get_works_info.rb"
 class TeiToEs
 
   ################
   #    XPATHS    #
   ################
 
-  # in the below example, the xpath for "person" is altered
   def override_xpaths
     xpaths = {}
+    xpaths["creator"] =  "/TEI/teiHeader/fileDesc/titleStmt/author"
     xpaths["rights_holder"] = "//publicationStmt/distributor"
     xpaths["source"] = {
       "org" => "//sourceDesc/bibl/orgName",
@@ -34,7 +35,11 @@ class TeiToEs
   # Please see docs/tei_to_es.rb for complete instructions and examples
 
   def category
-    "manuscripts"
+    "Literary Manuscripts"
+  end
+
+  def category2
+    "Literary Manuscripts / Loose Manuscripts"
   end
 
   # TODO check if this is a good assumption to be making
@@ -50,10 +55,10 @@ class TeiToEs
     "en"
   end
 
-  def languages
-    # TODO verify that none of these are multiple languages
-    [ "en" ]
-  end
+  # def languages
+  #   # TODO verify that none of these are multiple languages
+  #   [ "en" ]
+  # end
 
   def person
     []
@@ -65,9 +70,6 @@ class TeiToEs
   def publisher
   end
 
-  def recipient
-  end
-
   def source
     org = get_text(@xpaths["source"]["org"])
     note = get_text(@xpaths["source"]["note"])
@@ -76,20 +78,46 @@ class TeiToEs
                  .join(", ")
   end
 
-  def subcategory
-    # Note: used to be called "transcriptions"
-    "manuscripts"
-  end
-
   def topics
   end
 
   def uri
-    # Note: no "tei" in below URL
-    "#{@options["site_url"]}/manuscripts/transcriptions/#{@filename}.html"
+    "#{@options["site_url"]}/item/#{@filename}.html"
   end
 
   def works
+  end
+
+  def citation
+    # WorksInfo is get_works_info.rb in whitman-scripts repo
+    @works_info = WorksInfo.new(xml, @id, @options["threads"])
+    ids, names = @works_info.get_works_info
+    citations = []
+    if ids && ids.length > 0
+      ids.each_with_index do |id, idx|
+        name = names[idx]
+        if !name
+          puts "#{self.get_id} has bad work ids"
+        end
+        citations << {
+          "id" => id,
+          "title" => name,
+          "role" => "whitman_id"
+        }
+      end
+    end
+    citations
+  end
+
+  def date(before=true)
+    if get_text(@xpaths["date_not_after"])
+      date_not_after
+    else
+      if get_list(@xpaths["date"])
+        datestr = get_list(@xpaths["date"]).first
+        Datura::Helpers.date_standardize(datestr, false)
+      end
+    end
   end
 
 end

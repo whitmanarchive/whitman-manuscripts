@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.05334">
-    <relations>
-        <work ref="xxx.00048" cert="low">
-            <p>Edward Grier notes that this scrap contains ideas similar to those found in what would become section 4 of the poem eventually titled "Song of Myself," the section that begins "Trippers and askers surround me" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 6:2047). However, the idea of a "real life" existing behind the trappings of society is expressed in many places in Whitman's work, so the specific connection to "Song of Myself" is tenuous.</p>
-        </work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05334">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -18,7 +14,9 @@
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -29,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.05334</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,14 +39,17 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.05334</idno></publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Edward Grier notes that this scrap contains ideas similar to those found in what would become section 4 of the poem eventually titled "Song of Myself." But Grier also indicates that the manuscript could be notes for a lecture that Whitman was planning (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 6:2047). In either case, the manuscript likely dates to the 1850s.</note>             
+                <note type="project" target="#dat1">Edward Grier notes that this scrap contains ideas similar to those found in what would become section 4 of the poem eventually titled "Song of Myself." But Grier also indicates that the manuscript could be notes for a lecture that Whitman was planning (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 6:2047). In either case, the manuscript likely dates to the 1850s.</note>     
+                    <note type="work_relations" target="xxx.00048" cert="low">
+                        <p>Edward Grier notes that this scrap contains ideas similar to those found in what would become section 4 of the poem eventually titled "Song of Myself," the section that begins "Trippers and askers surround me" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 6:2047). However, the idea of a "real life" existing behind the trappings of society is expressed in many places in Whitman's work, so the specific connection to "Song of Myself" is tenuous.</p>
+                    </note>
             </notesStmt>
             <sourceDesc>
                 
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title rend="bracketed">For remember that behind all</title>                  
                     <idno type="callno">MSS45443, Box 2, Reels 1-2</idno>
                     <date xml:id="dat1" cert="medium" notBefore="1845" notAfter="1860">Between 1845 and 1860</date>
@@ -58,6 +59,8 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2022-06-16" who="#km">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-10-15" who="#nhg">added inline relations</change>
             <change when="2018-11-01" who="#nhg">edited title</change>
             <change when="2016-05-18" who="#kmp">blessed</change>

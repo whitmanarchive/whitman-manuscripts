@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
- 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="owu.00001">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="owu.00001">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -18,6 +17,7 @@
                     <persName xml:id="aj">Andrew Jewell</persName>
                     <persName xml:id="kmp">Kenneth M. Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
                 </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -31,7 +31,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>owu.00001</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -44,7 +44,7 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>owu.00001</idno></publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">The date is unknown. Whitman used the image
                     of a procession many times in his poetry, including in section 38 of "Song of
@@ -55,8 +55,8 @@
                     Whitman had most reason to employ imagery of marching.</note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>[A procession without halt]</title>
                     <date xml:id="dat1" cert="low" notBefore="1861" notAfter="1870">Between 1861 and 1870</date>
                     <orgName xml:id="owu">The Bayley-Whitman Collection, Ohio Wesleyan University, Delaware,
@@ -67,6 +67,7 @@
         </fileDesc>
 
         <revisionDesc>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-11-28" who="#nhg">revised editorial note</change>
             <change when="2016-09-12" who="#nhg">proofed</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
@@ -103,9 +104,9 @@
                         <lb/>in the <del rend="overstrike"><unclear reason="deletion, illegible" resp="#ap" cert="medium">g</unclear></del> hollows, stretched
                         <lb/>interminably over the plains,
                     </l>
-                    <del rend="overstrike"><l>
+                    <delSpan spanTo="#d1" rend="overstrike"/><l>
                         
-                           No eye so far&#8209;reaching as to
+                           No eye so far‑reaching as to
                             <lb/>see where the <subst>
                                     
                                         <del rend="overstrike" seq="1">last</del>
@@ -114,8 +115,8 @@
                                                                     </subst>
 
                         
-                    </l></del>
-                    <l>No eye that ever saw the starting&#8212;
+                    </l><anchor xml:id="d1"/>
+                    <l>No eye that ever saw the starting—
                         <lb/>no eye that ever <del rend="overstrike">shall</del> need
                         <lb/>wait for the ending
                     </l>

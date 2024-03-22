@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00295">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00295">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -19,7 +17,8 @@
 					<persName xml:id="nhg">Nicole Gray</persName>
 				    <persName xml:id="kmp">Kenneth M. Price</persName>
 				    <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                	<persName xml:id="as">Ashlyn Stewart</persName>
+				</respStmt>
 				<sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
 				<sponsor>University of Iowa</sponsor>
 				<funder>The National Endowment for the Humanities</funder>
@@ -30,7 +29,7 @@
 				</edition>
 			</editionStmt>
 			<publicationStmt>
-				<idno>duk.00295</idno>
+				
 				<distributor>The Walt Whitman Archive</distributor>
 				<address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -42,14 +41,14 @@
 				<availability>
 					<p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
 				</availability>
-			</publicationStmt>
+			<idno>duk.00295</idno></publicationStmt>
 			<notesStmt>
 				<note type="project" target="#dat1">Based on the inclusion of this item with other early manuscripts in Richard Maurice Bucke's <hi rend="italic">Notes and Fragments</hi> (1899), Edward Grier dates it to the 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 4:1558). The handwriting and the paper also would suggest an early date.</note>             
 			</notesStmt>
 			<sourceDesc>
 				
-				<bibl>
-					<author>Walt Whitman</author>
+				<bibl><author xml:id="ww">Whitman, Walt</author>
+					
 					<title rend="bracketed">Preliminary Studies for Poems</title>
 					<date xml:id="dat1" cert="low" notBefore="1845" notAfter="1860">1850s</date>
 					<idno type="callno">MS q 32</idno>
@@ -59,6 +58,7 @@
 			</sourceDesc>
 		</fileDesc>
 		<revisionDesc>
+			<change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-12-16" who="#bb">reconciled with EAD record</change>
             <change when="2016-05-18" who="#kmp">blessed</change>
 			<change when="2016-05-18" who="#nhg">corrected</change>
@@ -75,7 +75,7 @@
 
 <pb xml:id="leaf001r" facs="1012_030.jpg" type="recto"/>
 	
-<p>What we call Literature is but <del rend="overstrike"><unclear reason="illegible" cert="medium" resp="#kc">a</unclear></del> the <subst><del rend="overstrike" seq="1">blind</del> <add rend="unmarked" place="supralinear" seq="2">moist</add></subst> and wobbling cub, <subst><del rend="overstrike" seq="1">new</del> <add rend="unmarked" place="supralinear" seq="2">just</add></subst> born and its eyes not open yet in many days.&#8212;<subst><del rend="overstrike" seq="1">I am</del> <add rend="insertion" place="supralinear" seq="2">You are</add></subst> <subst><del rend="overwrite" seq="1">an</del><add rend="overwrite" place="over" seq="2">a</add></subst> living man, and think; in that alone is a more heightless and fathomless wonder than all the productions of letters and arts in all the <subst><del rend="overstrike" seq="1">years</del> <add rend="insertion" place="supralinear" seq="2">nations and periods</add></subst> of this earth.&#8212;</p>
+<p>What we call Literature is but <del rend="overstrike"><unclear reason="illegible" cert="medium" resp="#kc">a</unclear></del> the <subst><del rend="overstrike" seq="1">blind</del> <add rend="unmarked" place="supralinear" seq="2">moist</add></subst> and wobbling cub, <subst><del rend="overstrike" seq="1">new</del> <add rend="unmarked" place="supralinear" seq="2">just</add></subst> born and its eyes not open yet in many days.—<subst><del rend="overstrike" seq="1">I am</del> <add rend="insertion" place="supralinear" seq="2">You are</add></subst> <subst><del rend="overwrite" seq="1">an</del><add rend="overwrite" place="over" seq="2">a</add></subst> living man, and think; in that alone is a more heightless and fathomless wonder than all the productions of letters and arts in all the <subst><del rend="overstrike" seq="1">years</del> <add rend="insertion" place="supralinear" seq="2">nations and periods</add></subst> of this earth.—</p>
 
 <pb xml:id="leaf001v" facs="duk_am.00249_large.jpg" type="verso"/>
 </body>

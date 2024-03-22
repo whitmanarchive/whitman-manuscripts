@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00038"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+
+    <title level="m" type="main" rend="bracketed">George Fox</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     
+     <persName xml:id="slg">Samantha Gilmore</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2023</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>tex.00038</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- WRITTEN BY EDITORS --></note>
+    <note type="work_relations" target="xxx.00486" cert="high">
+     <p>This manuscript fragment seems to have functioned partly as reading notes and partly as draft material for the "George Fox (and Shakspere)" section of "Notes (such as they are) founded on Elias Hicks." The essay was first published in <hi rend="italic">November Boughs</hi> (1888) and later reprinted in <hi rend="italic">Complete Prose Works</hi> (1892).</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title resp="#wwa">[George Fox]</title>  
+     
+     <date notBefore="1885" notAfter="1890" cert="high">about 1888</date>
+     
+     <idno type="callno"></idno>
+     <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+     
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+<revisionDesc>
+ 
+ <change when="2024-02-28" who="#slg">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="tex.00271.001_large.jpg" type="recto"/>
+   
+   <p>George Fox&#8212;born 1624<metamark function="add" target="#add1">&#8248;</metamark><add xml:id="add1" rend="insertion" place="above">(8 years after the death of Shakspere)</add>&#8212;Lancashire</p>
+   
+   <p>son of a weaver&#8212;G. F. himself a shoemaker</p>
+   
+   <p>was "converted" before the age of 20</p>
+   
+   <p>In the midst of that (17<hi rend="superscript">th</hi> century) George Fox born &#38; flourish'd</p>
+   
+   <p>&#8212;17<hi rend="superscript">th</hi> century&#8212;stormy <metamark function="add" target="#add2">&#8248;</metamark><add xml:id="add2" rend="insertion" place="above"><del rend="overstrike">fitful</del></add> &#38; perturbed,&#8212;the <metamark function="add" target="#add3">&#8248;</metamark><add xml:id="add3" rend="insertion" place="above">foundations of the</add> old, the poetic <add rend="unmarked" place="above">the</add> superstitious, credulous, all broken, the light of the new &#38; of science, hardly yet begun&#8212;a strange, wild, fitful, agitating almost crazy <subst><del rend="unmarked" seq="1">centu</del><add rend="unmarked" place="above" seq="2">time</add></subst>&#8212;a mad, fierce&#8212;crazy time<!--there is a "&#8212;not" here but how to encode? --></p>
+    
+    <p>&#8212;the <metamark function="add" target="#add4">&#8248;</metamark><add xml:id="add4" rend="insertion" place="above">political</add> struggles of the reigns of Charles 1<hi rend="superscript">st</hi>, 2<hi rend="superscript">d</hi> and the protectorate of Cromwell were heated to frenzy least 5 religious struggles</p>
+   
+   <pb xml:id="leaf001v" facs="tex.00038.002_large.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>

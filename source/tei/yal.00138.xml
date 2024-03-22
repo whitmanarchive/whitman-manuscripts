@@ -1,15 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="yal.00138">
-    <relations>
-        <work ref="xxx.00526" cert="low">
-            <p>The ideas expressed in this manuscript are similar to those found in the prose preface to the 1855 <hi rend="italic">Leaves of Grass</hi>. See, for instance, the line: "Other states indicate themselves in their deputies . . . . but the genius of the United States is not best or most in its executives or legislatures, nor in its ambassadors or authors or colleges or churches or parlors, nor even in its newspapers or inventors . . . but always most in the common people" (1855, p. iii).</p>
-        </work>
-        <work ref="xxx.00048" cert="low">
-            <p>The ideas expressed in this manuscript are similar to those found in the poem eventually titled "Song of Myself."</p>
-        </work>
-        <work ref="xxx.00266" cert="low">
-            <p>Wording in this manuscript is similar to the following line in the poem eventually titled "To Think of Time": "What will be will be well—for what is is well" (1855, p. 67).</p>
-        </work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00138">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -24,7 +13,10 @@
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -35,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>yal.00138</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -47,14 +39,23 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>yal.00138</idno></publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Although no specific lines from this manuscript can be directly tied to any of Whitman's published work, the language and ideas are similar to certain sections of the prose preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, as well as to the poem eventually titled "Song of Myself," suggesting that this manuscript may have been written around that time. A note written by Richard Maurice Bucke, one of Whitman's literary executors, dates the manuscript to 1855 or 1856 (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi>, ed. Edward F. Grier [New York: New York University Press, 1984], 1:222).</note>             
+                <note type="project" target="#dat1">Although no specific lines from this manuscript can be directly tied to any of Whitman's published work, the language and ideas are similar to certain sections of the prose preface to the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, as well as to the poem eventually titled "Song of Myself," suggesting that this manuscript may have been written around that time. A note written by Richard Maurice Bucke, one of Whitman's literary executors, dates the manuscript to 1855 or 1856 (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi>, ed. Edward F. Grier [New York: New York University Press, 1984], 1:222).</note>
+                <note type="work_relations" target="xxx.00526" cert="low">
+            <p>The ideas expressed in this manuscript are similar to those found in the prose preface to the 1855 <hi rend="italic">Leaves of Grass</hi>. See, for instance, the line: "Other states indicate themselves in their deputies . . . . but the genius of the United States is not best or most in its executives or legislatures, nor in its ambassadors or authors or colleges or churches or parlors, nor even in its newspapers or inventors . . . but always most in the common people" (1855, p. iii).</p>
+        </note>
+                    <note type="work_relations" target="xxx.00048" cert="low">
+            <p>The ideas expressed in this manuscript are similar to those found in the poem eventually titled "Song of Myself."</p>
+        </note>
+                        <note type="work_relations" target="xxx.00266" cert="low">
+            <p>Wording in this manuscript is similar to the following line in the poem eventually titled "To Think of Time": "What will be will be well—for what is is well" (1855, p. 67).</p>
+        </note>             
             </notesStmt>
             <sourceDesc>
                 
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>["Understand that you can have in your writing..."]</title>                  
                     <idno type="callno">MSS 202, Box 1, Folder 42</idno>
                     <date xml:id="dat1" notBefore="1850" notAfter="1860" cert="medium">1855 or 1856</date>
@@ -69,6 +70,8 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
+            <change when="2022-06-03" who="#bb">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-10-14" who="#nhg">added and edited relations</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2017-02-06" who="#km">corrected WWA title</change>

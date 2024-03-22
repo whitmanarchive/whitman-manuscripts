@@ -1,12 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00883">
-  <relations>
-    <work ref="xxx.00048" cert="high">
-      <p>"Sweet Flag" includes the phrase "polished melons," which is reminiscent of the line "I reach to the leafy lips . . . . I reach to the polished breasts of melons" in the poem that was later titled "Song of Myself" (1855, p. 54). The list on this manuscript includes "Sweet flag," "Sweet fern," and "Calamus," and may be related to another section of the poem that became "Song of Myself," which reads, in part, "Root of washed sweet-flag, timorous pond-snipe, nest of guarded duplicate eggs, it shall be you / ... / Trickling sap of maple, fibre of manly wheat, it shall be you" (1855, p. 30).</p>
-    </work>
-    <work ref="xxx.00264" cert="low">
-      <p>The following jottings on this manuscript may have contributed to the poem eventually titled "The Sleepers": "I am a look / mystic / in a trance/ exaltation." In the version of the poem first published in the 1855 edition of <hi rend="italic">Leaves of Grass</hi> the relevant line reads, "I am a dance . . . . Play up there! the fit is whirling me fast" (p. 71). The passage about "trickle drops" from the "manly maple" (associated in the manuscript with the "tooth of delight" and "tooth prong") may relate to the following passage in the same poem: "The white teeth stay, and the boss-tooth advances in darkness, / And liquor is spilled on lips and bosoms by touching glasses, and the best liquor afterward" (1855, p. 72). These lines were removed from the final version of the poem.</p>
-    </work>
-  </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00883">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -23,7 +16,9 @@
           <persName xml:id="bb">Brett Barney</persName>
           <persName xml:id="aj">Andrew Jewell</persName>
           <persName xml:id="kr">Kati Robertson</persName>
-          <persName xml:id="km">Kevin McMullen</persName></respStmt>
+          <persName xml:id="km">Kevin McMullen</persName>
+          <persName xml:id="as">Ashlyn Stewart</persName>
+        </respStmt>
         <sponsor>Center for Digital Research in the Humanities, University of
           Nebraska-Lincoln</sponsor>
         <sponsor>University of Iowa</sponsor>
@@ -35,7 +30,7 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <idno>duk.00883</idno>
+        
         <distributor>The Walt Whitman Archive</distributor>
         <address>
           <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -47,14 +42,21 @@
         <availability>
           <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
         </availability>
-      </publicationStmt>
+      <idno>duk.00883</idno></publicationStmt>
       <notesStmt>
         <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript, filled with suggestive words and phrases, may have contributed to the first and fourth poems in the volume, eventually titled "Song of Myself" and "The Sleepers," respectively.</note>
+          <note type="work_relations" target="xxx.00048" cert="high">
+            <p>"Sweet Flag" includes the phrase "polished melons," which is reminiscent of the line "I reach to the leafy lips . . . . I reach to the polished breasts of melons" in the poem that was later titled "Song of Myself" (1855, p. 54). The list on this manuscript includes "Sweet flag," "Sweet fern," and "Calamus," and may be related to another section of the poem that became "Song of Myself," which reads, in part, "Root of washed sweet-flag, timorous pond-snipe, nest of guarded duplicate eggs, it shall be you / ... / Trickling sap of maple, fibre of manly wheat, it shall be you" (1855, p. 30).</p>
+          </note>
+          <note type="work_relations" target="xxx.00264" cert="low">
+            <p>The following jottings on this manuscript may have contributed to the poem eventually titled "The Sleepers": "I am a look / mystic / in a trance/ exaltation." In the version of the poem first published in the 1855 edition of <hi rend="italic">Leaves of Grass</hi> the relevant line reads, "I am a dance . . . . Play up there! the fit is whirling me fast" (p. 71). The passage about "trickle drops" from the "manly maple" (associated in the manuscript with the "tooth of delight" and "tooth prong") may relate to the following passage in the same poem: "The white teeth stay, and the boss-tooth advances in darkness, / And liquor is spilled on lips and bosoms by touching glasses, and the best liquor afterward" (1855, p. 72). These lines were removed from the final version of the poem.</p>
+          </note>
+        
       </notesStmt>
       <sourceDesc>
 
-        <bibl>
-          <author>Walt Whitman</author>
+        <bibl><author xml:id="ww">Whitman, Walt</author>
+          
           <title>To be at all—what is better than that?</title>
           <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
           <idno type="callno">MS 2 (Volume 2)</idno>
@@ -66,6 +68,8 @@
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
+      <change when="2022-06-03" who="#km">updated relations encoding</change>
+      <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
       <change when="2019-11-13" who="#bb">edited Sleepers work note</change>
       <change when="2019-11-06" who="#nhg">edited note</change>
       <change when="2018-11-08" who="#nhg">added inline relations information</change>
@@ -94,8 +98,8 @@
       <pb xml:id="leaf001r" facs="duk_nhg.00411_large.jpg" type="recto"/>
 
       
-        <delSpan spanTo="#d4" rend="hashmark"/>
-        <list>
+        
+        <list><delSpan spanTo="#d4" rend="hashmark"/>
           <item xml:id="item01">Sweet flag</item>
           <item>Sweet fern</item>
           <item xml:id="item02">illuminated face</item>

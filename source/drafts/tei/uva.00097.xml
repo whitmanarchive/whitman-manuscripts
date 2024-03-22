@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00097">    
+    <teiHeader>        
+        <fileDesc>            
+            <titleStmt>
+                <title level="m" type="main">I go around</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <name>The Walt Whitman Archive Staff</name>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>            
+            <editionStmt>
+                <edition>
+                    <date>2012</date>
+                </edition>
+            </editionStmt>            
+            <publicationStmt>
+                <idno>uva.00097</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+            </publicationStmt>            
+            <notesStmt>
+                <note type="project" target="#dat1">This manuscript was drafted during the time Whitman visited soldiers in the Washington hospitals, not before January 1863 and not after the end of the Civil War.</note>
+                <note type="project">The manuscript leaf is mounted on a backing sheet, making the verso inaccessible.</note>
+                <note type="project">The following are responsible for particular readings or for changes to this file, as noted: 
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="al">Ashley Lawson</persName>
+                    <persName xml:id="tj">Tim Jackson</persName>
+                </note>
+            </notesStmt>            
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>          
+                    <title>I go around</title> 
+                    <date xml:id="dat1" cert="high" notBefore="1863" notAfter="1865">1863&#8211;1865</date>    
+                    <idno type="callno">MSS 3829</idno>
+                    <idno type="box">Box 1</idno>
+                    <idno type="folder">Folder 45</idno>
+                    <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
+                    <note type="project">Transcribed from digital images of the original.</note>
+                </bibl>
+            </sourceDesc>            
+        </fileDesc>        
+        <revisionDesc>
+            <change when="2012-06-11" who="#el">added note about verso being inaccessible</change>
+            <change when="2012-03-05" who="#al">corrected based on additional review by KP, BB, EL</change>
+            <change when="2011-05-12" who="#el">blessed</change>
+            <change when="2011-01-13" who="#tj">checked and corrected</change>
+            <change when="2010-08-31" who="#al">transcribed and encoded</change>
+        </revisionDesc>        
+    </teiHeader>
+    
+    <text type="manuscript">        
+        <body>            
+            <pb xml:id="leaf001r" facs="uva.00097.001.jpg" type="recto"/>            
+            <p>I go around <subst><del rend="overstrike" seq="1">among these men</del><add place="supralinear" rend="unmarked" seq="2">among these, <add place="supralinear" rend="unmarked">sights,</add> among</add></subst><subst><del rend="overstrike" seq="1">these</del><add place="supralinear" rend="unmarked" seq="2">the</add></subst> crowded hospitals <add place="supralinear" rend="unmarked">doing what I can yet it is a mere drop in the bucket</add><subst><del rend="overwrite" seq="1">&#8212;</del><add rend="overwrite" place="over" seq="2">&#8212;I find</add></subst> many things are attended to, (after a fashion) <subst><del rend="overstrike" seq="1">but</del><add place="supralinear" rend="unmarked" seq="2">&#8212;still</add></subst> the <del rend="overstrike">work I try to do, and have at last found myself <add place="supralinear" rend="insertion">compelled</add>drawn into, is not thought</del> path I follow, I suppose I may say, is my own.  <del rend="overstrike">I go <gap reason="deletion, illegible" extent="1" unit="chars"/></del> The soldiers are mostly Americans, and mostly young men,<del rend="overstrike">&#8212;</del>&#8212; it is strange how affectionate and yet how brave they are <add place="supralinear" rend="insertion">&#8212;I never <subst><del rend="overwrite" seq="1">s</del><add rend="overstrike" place="over" seq="2">c</add></subst>ease admiring &#38; wondering at them&#8212;</add>&#8212; <del rend="overstrike">they love to have some one to</del> <del rend="overstrike">they endure</del> many of them of course endure much agony<add place="supralinear" rend="unmarked">&#8212;<del rend="overstrike">lying there,</del> it is most pitiful</add>&#8212;so <del rend="overstrike">good so</del> <subst><del rend="overstrike" seq="1">handsome</del><add place="supralinear" rend="unmarked" seq="2">manly</add></subst><del rend="overstrike">,</del> so friendless, <add place="supralinear" rend="insertion">so handsome lying there in their cots,</add> I have <del rend="overstrike">the greatest</del> comfort in ministering to them, <del rend="overstrike"><gap reason="deletion, illegible" unit="chars" extent="1"/></del> <add place="supralinear" rend="insertion">especially</add> to their thirst for <subst><del rend="overstrike" seq="1">gentle</del><add place="supralinear" rend="unmarked" seq="2">real</add></subst> friendship</p>            
+            <pb xml:id="leaf001v" type="verso"/>             
+        </body>
+    </text>
+</TEI>
+
+
+
+

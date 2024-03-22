@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
- 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="yal.00009">
-    <relations>
-        <work ref="xxx.00178" cert="high">
-            <p>The lines on this manuscript, apparently from either a late draft or a presentation
-                copy, are from the poem "Rise O Days from Your Fathomless Deeps," first published in
-                    <hi rend="italic">Drum-Taps</hi>
-                <date when="1865">(1865)</date>.</p>
-        </work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00009">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,7 +16,7 @@
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
                     <persName xml:id="stb">Stephen Boykewich</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -39,7 +29,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>yal.00009</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -52,7 +42,7 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>yal.00009</idno></publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">The lines on this manuscript, apparently from either a late draft or a presentation
                     copy, are from the poem "Rise O Days from Your Fathomless Deeps," first published in
@@ -60,10 +50,16 @@
                     <date when="1865">1865</date>, the year he published <hi rend="italic">Drum-Taps</hi> and the year he met
                     Byron Sutherland, a young soldier, whose name is written on the back of the leaf. Sutherland sent the poet a letter from Corry,
                     Pennsylvania in September 1865.</note>
+                <note type="work_relations" target="xxx.00178" cert="high">
+            <p>The lines on this manuscript, apparently from either a late draft or a presentation
+                copy, are from the poem "Rise O Days from Your Fathomless Deeps," first published in
+                    <hi rend="italic">Drum-Taps</hi>
+                <date when="1865">(1865)</date>.</p>
+        </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>I cross'd the Nevadas</title>
                     <date xml:id="dat1" cert="medium" notBefore="1860" notAfter="1865">About 1865</date>
                     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and
@@ -77,6 +73,8 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2022-06-03" who="#bb">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-12-07" who="#nhg">adjusted date to match EAD entry</change>
             <change when="2016-07-26" who="#nhg">proofed</change>
             <change when="2016-01-14" who="#bb">updated list of staff in titleStmt</change>

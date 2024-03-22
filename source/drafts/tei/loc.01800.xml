@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01800">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title level="m" type="main">for Abraham Lincoln</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <name>The Walt Whitman Archive Staff</name>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>
+                    <date>2010</date>
+                </edition>
+            </editionStmt>
+            
+            <publicationStmt>
+                <idno>loc.01800</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+                </availability>
+            </publicationStmt>
+            
+            <notesStmt>
+                <note type="project" target="#dat1"><!-- when was this manuscript written? --></note>
+                <note type="project">The following are responsible for particular readings or for changes to this file, as noted: 
+                    <persName xml:id="al">Ashley Lawson</persName> <persName xml:id="tj">Tim Jackson</persName>
+                </note>
+            </notesStmt>
+            
+            
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>          
+                    <title>for Abraham Lincoln</title> 
+                    <!--     THE DATE INFORMATION IN THE NEXT LINE WILL BE ADDED BY AN EDITOR     -->
+                    <!--<date xml:id="dat1" cert="****" when="/"> </date>-->
+                    
+                    <idno type="callno">HM 94</idno> <!-- find name --> <!-- [TJ] Database reads Feinberg. Unsure. -->
+                    <orgName>The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839-1919, Library of Congress, Washington, DC</orgName>
+                    <note type="project">Transcribed from our own digital image of the original manuscript.</note>
+                </bibl>
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2011-02-18" who="#tj">Checked, corrected, queried</change>
+            <change when="2011-01-24" who="#al">Transcribed and encoded</change>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text type="manuscript">
+        
+        <body>
+            
+            <pb xml:id="leaf001r" facs="loc.01800.002_large.jpg" type="recto"/>
+            
+            <head type="main-authorial" rend="underline">for Abraham Lincoln Ulysses at the banquet of King Alcinous <add place="supralinear" rend="unmarked">?	&#42;</add></head>
+            
+            <ab>8th Book Odyssey <add place="supralinear" rend="unmarked">especially</add> latter part</ab>
+            
+            <ab>Demodocus the divine bard (some think poet for Homer himself) sings of the bloody war between the Greeks &#38; Trojans.&#8212;&#9758; <add place="supralinear" rend="unmarked">&#8212;the old warrior</add>
+                &#8212;Ulysses at the feast betrays himself by <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#al">N</unclear></del> his tears &#38; excitement ("So from the sluices of Ulysses' eyes")<!-- [TJ] This exact wording is in Pope's translation (unsure if in other translations) -->
+                <del rend="overstrike">Alcinous</del> Picture the <add place="supralinear" rend="insertion">lighted hall&#8212;the</add> banquet
+                <subst>
+                    <del rend="overstrike" seq="1">a</del>
+                    <add place="supralinear" rend="unmarked">&#38; <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#al">H</unclear></del></add>
+                </subst>
+                the viands <del rend="overstrike">&#38;</del>&#8212;the crowded guests&#8212;the
+                <subst>
+                    <del rend="overstrike" seq="1">disguised</del>
+                    <add place="supralinear" rend="unmarked">unknown</add>
+                </subst>
+                Odysseus
+            </ab>
+            
+            <pb xml:id="leaf001v" facs="yal.00335.003_large.jpg" type="verso"/> 
+            
+            <!-- Letter to Whitman: transcibe? -->
+            
+            <pb xml:id="leaf002r" facs="loc.01800.004_large.jpg" type="recto"/>
+            <!-- Letter to Whitman: transcibe? -->
+            
+            <pb xml:id="leaf002v" facs="yal.00335.001_large.jpg" type="verso"/>
+            
+            <pb xml:id="leaf003r" facs="loc.01800.007_large.jpg" type="recto"/>
+            
+            <ab>Book 8th Odyssey</ab>
+            <list>
+                <item>Alcinous</item>
+                <item><del rend="overstrike">Demodocus</del></item>
+                <item>Demodocus</item>
+                <item><del rend="overstrike">the Phaeacians</del></item>
+                <item>the Phaeacians</item>
+            </list>
+            
+            <pb xml:id="leaf003v" facs="yal.00335.008_large.jpg" type="verso"/> 
+            
+        </body>
+    </text>
+</TEI>
+
+
+
+

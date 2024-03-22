@@ -1,11 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
- 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00166">
-    <relations>
-        <work ref="xxx.00312" cert="high">
-            <p>"Paumanok" was published first in the New York <hi rend="italic">Herald</hi> on <date when="1888-02-29">February 29, 1888</date>.</p>
-        </work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00166">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,7 +15,7 @@
                     <persName xml:id="nk">Nick Krauter</persName>
                     <persName xml:id="hm">Heather Morton</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -35,7 +28,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>uva.00166</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -48,14 +41,17 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>uva.00166</idno></publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">"Paumanok" was published first in the New York <hi rend="italic">Herald</hi> on <date when="1888-02-29">February 29, 1888</date>. This manuscript was probably written in early
                         <date when="1888">1888</date>, shortly before the poem's publication.</note>
+                <note type="work_relations" target="xxx.00312" cert="high">
+            <p>"Paumanok" was published first in the New York <hi rend="italic">Herald</hi> on <date when="1888-02-29">February 29, 1888</date>.</p>
+                </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>Paumanok</title>
                     <date xml:id="dat1" cert="high" notBefore="1888-01" notAfter="1888-02-29">Early 1888</date>
                     <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of
@@ -66,6 +62,8 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2022-06-06" who="#bb">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-09-08" who="#nhg">proofed, adjusted date attribute content</change>
             <change when="2016-02-09" who="#bb">updated list of staff in titleStmt</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
@@ -94,14 +92,14 @@
                 <l>And one the Atlantic's wind caressing, fierce
                     <lb/>or gentle<subst>
                             
-                        <del rend="overstrike" seq="1">&#8212;and</del>
+                        <del rend="overstrike" seq="1">—and</del>
                                                         
-                        <add place="supralinear" rend="unmarked" seq="2">&#8212;with</add>
+                        <add place="supralinear" rend="unmarked" seq="2">—with</add>
                                                     </subst> mighty hulls dark-gliding
                     <lb/>in the distance:
                 </l>
-                <l>Isle of sweet drinking-water&#8212;healthy air
-                    <lb/>and soil!&#8212;isle of the earth and brine!
+                <l>Isle of sweet drinking-water—healthy air
+                    <lb/>and soil!—isle of the earth and brine!
                 </l>
             </lg>
             <closer>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00208">
+   <relations>
+      <work ref="xxx.00603" cert="absolute">
+         <p>Draft of an unpublished poem which was also titled, in other manuscript drafts, "Last Words" and "The last."</p>
+      </work> 
+   </relations>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main">Recapitulation Words</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="km">Kenneth M. Price</persName>
+               <persName xml:id="fl">Farrah Lehman</persName>
+               <persName xml:id="cf">Chris Forster</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2004</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>loc.00208</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+
+            <note type="project" target="dat1">This manuscript was likely produced about <date when="1889">1889</date>. Another draft, titled "Last Words," is written on the back of an envelope dated <date when="1889-12-08">December 8, 1889</date>.</note>
+
+            <note type="project">The verso is an envelope addressed to W.J. Woodruff, Crawford N.J.</note>                          	
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>Recapitulation</title>
+
+               <date cert="high" value="1889" xml:id="dat1">About 1889</date>
+
+               <orgName xml:id="loc">
+The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.
+</orgName> 
+
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handList>
+            <hand scribe="Farrah Lehman" xml:id="fl"/>
+         </handList>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#km" when="2006-10-05">Edited</change>
+         <change who="#fl" when="2006-09-29">Checked</change>
+         <change who="#cf" when="2004-07-14">Encoded</change>
+         <change who="#cf" when="2004-07-14">Transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <pb facs="loc.00208.001" xml:id="leaf001r" type="recto"/>
+
+         <lg
+              >
+
+<!--NOTE TO BLESSER: ONLY THE FIRST "READING" OF THE TITLE IS UNDERLINED. WILL LABELING THE <HEAD> AUTHORIAL MEAN THAT ALL READINGS/REPLACEMENTS IN THE <HEAD> WILL BE UNDERLINED?-->
+
+            <head type="main-authorial">
+               <subst>
+                  <rdg varSeq="1">
+                     <hi rend="underline">Recapitulation Words</hi>
+                  </rdg>
+
+                  <rdg varSeq="2">
+                     <add place="supralinear" rend="unmarked">
+                        <note type="authorial" place="inline">
+                           <p>?</p>
+                        </note> Finalè Words</add> 
+                  </rdg>
+                  <rdg varSeq="3">
+                     <add place="supralinear" rend="unmarked">
+                        <note type="authorial" place="inline">
+                           <p>?</p>
+                        </note> Last</add> 
+                  </rdg>
+                  <rdg varSeq="4" rend="circled">
+                     <add place="left" rend="unmarked">
+Finalè Words</add> 
+                  </rdg>
+               </subst>
+            </head>
+
+               
+            <l>As to yet one more 
+<subst>
+                  <rdg varSeq="1">lease</rdg>
+                  <rdg varSeq="2">
+                     <add rend="unmarked" place="supralinear">
+                        <note type="authorial" place="inline">?</note>page</add>
+                  </rdg>
+               </subst>
+(doubtless the last,)</l>
+
+            <l>
+               
+                  <subst>
+                     <rdg varSeq="1">Subscribing</rdg>
+                     <rdg varSeq="2">
+                        <add rend="insertion" place="supralinear">Recapitulating <del rend="overstrike">the old strain</del>
+                        </add>
+                     </rdg>
+                  </subst>
+ the same old strain
+<delSpan rend="overstrike"
+                           to="d1"
+                           />—tallying the<lb/>
+               end as at beginning—<anchor xml:id="d1"/> the emotional,<lb/>
+               the moral, the heroic,<lb/>
+            </l>
+
+
+            <l>
+               
+                  <unclear reason="illegible" cert="99%" resp="#fl">By head</unclear> and heart of me—by voice and pen—<lb/>
+
+               <!--A FOLD (NOT A GLUED SEAM) CUTS THROUGH THE WORDS "BY HEAD," WHICH IS WHY I'VE TAGGED IT "UNCLEAR."-->
+               wafted to you<lb/>
+            </l>
+
+            <l>To you here reading<add place="supralinear" rend="insertion">—tallying the end 
+as beginning—</add>—to you America,</l>
+
+            <l>Union, Equality and Love.</l>
+
+         </lg>
+      </body>
+   </text>
+</TEI>

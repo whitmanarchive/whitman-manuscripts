@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00168">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00168">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -17,7 +15,9 @@
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -28,7 +28,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.00168</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,23 +40,24 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.00168</idno></publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">The style of title that Whitman proposes in this manuscript ("Poem of...") resembles that employed in the 1856 edition of <hi rend="italic">Leaves of Grass</hi>, suggesting a composition date around that time. This estimate is in line with that of Edward Grier, who dates the manuscript to before 1860, based on its appearance in Richard Maurice Bucke's <hi rend="italic">Notes and Fragments</hi> (1899) with transcriptions of other early manuscripts (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 4:1323).</note>             
             </notesStmt>
             <sourceDesc>
                 
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title rend="bracketed">in the west</title>                  
                     <idno type="callno">MSS18630, Box 40, Reel 25</idno>
                     <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1860">Between 1850 and 1860</date>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2017-02-02" who="#km">edited date note</change>
             <change when="2016-05-18" who="#kmp">blessed</change>
             <change when="2016-05-09" who="#nhg">checked, corrected</change>
@@ -74,11 +75,11 @@
 
 <ab>in the West</ab>
 <milestone unit="undeclared" rend="horbar-short-center"/>
-<ab>a vision ? (Poem of ? vision&#8212;of future</ab>
+<ab>a vision ? (Poem of ? vision—of future</ab>
     <milestone unit="undeclared" rend="horbar-short-left"/>
-<ab><subst><del rend="overwrite" seq="1">d</del><add rend="overwrite" place="over" seq="2">D</add></subst>epicting the West a hundred years from now&#8212;<subst><del rend="overwrite" seq="1">th</del><add rend="overwrite" place="over" seq="2">two</add></subst> hundred years&#8212;five hundred years&#8212;</ab>
+<ab><subst><del rend="overwrite" seq="1">d</del><add rend="overwrite" place="over" seq="2">D</add></subst>epicting the West a hundred years from now—<subst><del rend="overwrite" seq="1">th</del><add rend="overwrite" place="over" seq="2">two</add></subst> hundred years—five hundred years—</ab>
 
-<ab>(This ought to be a splendid part of the the Poem&#8212;(?Poem of Ohio?)&#8212;it ought to lay in the colors and draw the <del rend="overstrike">lines fo</del> outlines with a <del rend="overstrike">fr</del> large, free, and bold, hand</ab>
+<ab>(This ought to be a splendid part of the the Poem—(?Poem of Ohio?)—it ought to lay in the colors and draw the <del rend="overstrike">lines fo</del> outlines with a <del rend="overstrike">fr</del> large, free, and bold, hand</ab>
 
     <pb xml:id="leaf001v" facs="20060522_0033.jpg" type="verso"/>
 </body>

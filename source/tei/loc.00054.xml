@@ -1,13 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
- 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00054">
-    <relations>
-        <work ref="xxx.00293" cert="high">
-            <p>This manuscript appears to be draft material for the two linegroups Whitman added in
-                    <date when="1871">1871</date>. The added lines, along with the title change,
-                introduce the new imagery of ashes.</p>
-        </work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00054">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,6 +14,8 @@
                     <persName xml:id="nk">Nick Krauter</persName>
                     <persName xml:id="lr">Lisa Renfro</persName>
                     <persName xml:id="ms">Melissa Sinner</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
                 </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -35,7 +29,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.00054</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -48,21 +42,26 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.00054</idno></publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">This manuscript was likely composed around <date notBefore="1870" notAfter="1871">1870&#8211;1871</date>, when Whitman was revising and expanding
+                <note type="project" target="#dat1">This manuscript was likely composed around <date notBefore="1870" notAfter="1871">1870–1871</date>, when Whitman was revising and expanding
                     the poem "Hymn of Dead Soldiers," originally published in <hi rend="italic">Drum-Taps</hi> (<date when="1865">1865</date>), for republication as
                     "Ashes of Soldiers."</note>
+                    <note type="work_relations" target="xxx.00293" cert="high">
+                        <p>This manuscript appears to be draft material for the two linegroups Whitman added in
+                            <date when="1871">1871</date>. The added lines, along with the title change,
+                            introduce the new imagery of ashes.</p>
+                    </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
-                    <date xml:id="dat1" cert="high" notBefore="1870" notAfter="1871">About 1870&#8211;1871</date>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
+                    <date xml:id="dat1" cert="high" notBefore="1870" notAfter="1871">About 1870–1871</date>
                     <title xml:id="LCtitle">Beat! Beat! Drums!</title>
                     <note type="project" target="#LCtitle">Although this manuscript has no relation
                         to "Beat! Beat! Drums!, it has has been mistakenly gathered into a folder
                         bearing this label.</note>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <note type="project">Transcribed from <hi rend="italic">The Walt Whitman Archive I: Whitman Manuscripts at the Library of Congress</hi>, ed. Joel Myerson (New York: Garland, 1993), 1:158. The transcription was then checked against digital images of the original.</note>
                 </bibl>
             </sourceDesc>
@@ -73,6 +72,8 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
+            <change when="2022-06-06" who="#km">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-11-30" who="#nhg">corrected work ID</change>
             <change when="2016-10-18" who="#nhg">corrected</change>
             <change when="2015-05-26" who="#nhg">checked, corrected</change>
@@ -109,7 +110,7 @@
                     <l>Ashes of pine &amp; palmetto
                         <lb/>blended,
                     </l>
-                    <l>Ashes of North and South&#8212;ashes
+                    <l>Ashes of North and South—ashes
                         <lb/>of East &amp; West,
                     </l>
                     <l>Ashes of seaboard &amp; inland
@@ -122,7 +123,7 @@
 <del rend="overstrike">A</del>
                             <subst><del rend="overwrite" seq="1">s</del><add place="over" rend="overwrite" seq="2">S</add></subst>acred aroma &amp; <del rend="overstrike">powd</del>
 
-                        <lb/>powder&#8209;odor &amp; dust
+                        <lb/>powder‑odor &amp; dust
                         <lb/>immortal,
                     </l>
                     <l>curious</l>

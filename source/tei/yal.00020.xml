@@ -1,13 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
- 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="yal.00020">
-    <relations>
-        <work ref="xxx.00310" cert="high">
-            <p>"Sands at Seventy" was the title of a collection of poems that first appeared in <hi rend="italic">November Boughs</hi>
-                <date when="1888">(1888)</date> and was later included as an "annex" to the final
-                printings of <hi rend="italic">Leaves of Grass</hi>.</p>
-        </work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00020">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,7 +17,7 @@
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -39,7 +30,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>yal.00020</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -52,15 +43,20 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>yal.00020</idno></publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">"Sands at Seventy" was the title of a collection of poems that first appeared in <hi rend="italic">November Boughs</hi>
                     <date when="1888">(1888)</date> and was later included as an "annex" to the final
                     printings of <hi rend="italic">Leaves of Grass</hi>. This manuscript was probably written in the <date notBefore="1888" notAfter="1890">late 1880s</date>.</note>
+                <note type="work_relations" target="xxx.00310" cert="high">
+            <p>"Sands at Seventy" was the title of a collection of poems that first appeared in <hi rend="italic">November Boughs</hi>
+                <date when="1888">(1888)</date> and was later included as an "annex" to the final
+                printings of <hi rend="italic">Leaves of Grass</hi>.</p>
+        </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>Sands at Seventy</title>
                     <date xml:id="dat1" cert="high" notBefore="1888-03-06" notAfter="1890">Late 1880s</date>
                     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and
@@ -78,6 +74,8 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
+            <change when="2022-06-03" who="#bb">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-09-20" who="#nhg">proofed</change>
             <change when="2016-01-13" who="#bb">updated list of staff in titleStmt; corrected miscellaneous attribute errors</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>

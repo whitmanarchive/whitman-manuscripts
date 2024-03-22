@@ -1,13 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00029">
-   <relations>
-      <work ref="xxx.00048" cert="low">
-         <p>The ideas and some of the language expressed in this manuscript may correspond to the poem that would later be titled "Song of Myself," in particular the lines: "These are the thoughts of all men in all ages and lands, they are not original with me" and "This is the common air that bathes the globe" (1855, p. 24).</p>
-      </work>
-      <work ref="xxx.00121" cert="low">
-         <p>This manuscript may also relate the following line in the twelfth poem of the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, a poem that was later titled "Great are the Myths": "Great the risen and fallen nations, and their poets, women, sages, inventors, rulers,
-            warriors and priests" (1855, p. 93). The poem went through many revisions through the different editions of <hi rend="italic">Leaves of Grass</hi>, then was permanently dropped in 1881–1882, except the two couplets that became the poem "Youth, Day, Old Age, and Night."</p>
-      </work>
-   </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00029">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -23,6 +15,7 @@
                <persName xml:id="cf">Chris Forster</persName>
                <persName xml:id="kt">Kristen Taylor</persName>
                <persName xml:id="km">Kevin McMullen</persName>
+               <persName xml:id="as">Ashlyn Stewart</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -34,7 +27,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>duk.00029</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -46,14 +39,21 @@
             <availability>
                <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>duk.00029</idno></publicationStmt>
          <notesStmt>
             <note type="project" target="dat1">This manuscript was likely written between <date notBefore="1850" notAfter="1855">1850 and 1855</date> when Whitman was composing his first (1855)
                edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript includes some language similar to wording in the first and final poems in that edition, eventually titled "Song of Myself" and "Great are the Myths."</note>
+               <note type="work_relations" target="xxx.00048" cert="low">
+                  <p>The ideas and some of the language expressed in this manuscript may correspond to the poem that would later be titled "Song of Myself," in particular the lines: "These are the thoughts of all men in all ages and lands, they are not original with me" and "This is the common air that bathes the globe" (1855, p. 24).</p>
+               </note>
+               <note type="work_relations" target="xxx.00121" cert="low">
+                  <p>This manuscript may also relate the following line in the twelfth poem of the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, a poem that was later titled "Great are the Myths": "Great the risen and fallen nations, and their poets, women, sages, inventors, rulers,
+                     warriors and priests" (1855, p. 93). The poem went through many revisions through the different editions of <hi rend="italic">Leaves of Grass</hi>, then was permanently dropped in 1881–1882, except the two couplets that became the poem "Youth, Day, Old Age, and Night."</p>
+               </note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>Remembrances I plant American ground with</title>
                <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
                <idno type="callno">MS 4to 27 (Volume 27)</idno> 
@@ -66,6 +66,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2022-06-02" who="#km">updated relations encoding</change>
+         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2019-10-10">added relation</change>
          <change when="2018-09-10" who="#nhg">updated image names</change>
          <change who="#nhg" when="2017-11-29">updated file, corrected transcription, added relations info</change>

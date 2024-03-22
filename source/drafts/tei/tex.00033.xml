@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="tex.00033">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main">Life</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <editor role="editor">Jeff Hill</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="li">Leslie Ianno</persName>
+               <persName xml:id="jh">Jeff Hill</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>tex.00033</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <author> Walt Whitman </author>
+               <title>The Walt Whitman Collection</title>
+               <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName> 
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="#jh" when="2024-03-05">checked, corrected</change>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#li" when="2003-09-15">encoded</change>
+         <change who="#li" when="2003-09-15">transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="tex.00033.001" xml:id="leaf001r" type="recto"/>
+         <lg>
+            <head type="main-authorial" rend="underline">Life.</head>
+            <delSpan rend="hashmark" to="d1" />
+            <l><del rend="overstrike">The undiscover'd</del></l>
+            <l><del rend="overstrike" seq="1">The</del><add place="above" rend="unmarked" seq="2">Ever the</add>undiscouraged, resolute soul of man;</l>
+            <l>Ever the grappled mystery—ever the same in all <del rend="overstrike" seq="1">known</del> <add place="above" rend="unmarked" seq="2">earth's</add> ages old or new,</l>
+            <l>Ever the eager eyes, hurrahs, the welcome clappy hands <del rend="overstrike" seq="1">and</del> <add place="above" rend="unmarked" seq="2">the</add> loud applause;</l>
+            <l>Ever the busy <add place="above" rend="unmarked">busy</add> curious brain struggling to <hi rend="underline">solve the problem.</hi></l>	               
+            <anchor xml:id="d1"/>
+         </lg>
+      </body>
+   </text>
+</TEI>

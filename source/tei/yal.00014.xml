@@ -1,11 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="yal.00014">
-    <relations>
-        <work ref="xxx.00340" cert="high">
-            <p>Draft of the poem "With Husky-Haughty Lips, O Sea!," first published in <hi rend="italic">Harper's Monthly Magazine</hi> in March 1884.</p>
-        </work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00014">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,7 +16,7 @@
                     <persName xml:id="aj">Andrew Jewell</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -34,31 +27,35 @@
                 <edition><date>2004</date></edition>
             </editionStmt>
             <publicationStmt>
-                <idno>yal.00014</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address><addrLine>The Institute for Advanced Technology in the Humanities</addrLine><addrLine>Alderman Library</addrLine><addrLine>University of Virginia</addrLine><addrLine>P.O. Box 400115</addrLine><addrLine>Charlottesville, VA 22904-4115</addrLine><addrLine>whitman@jefferson.village.virginia.edu</addrLine></address>
                 <availability status="unknown">
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>yal.00014</idno></publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">This manuscript is a draft of the poem "With Husky-Haughty Lips, O Sea!," first published in <hi rend="italic">Harper's Monthly Magazine</hi> in March 1884. The back of the manuscript leaf is
                     letterhead with an illustration of the Sheldon House, Ocean Grove,
                     New Jersey. Whitman visited Ocean Grove, New Jersey, with
                     John Burroughs for a week in late September and early October <date when="1883">1883</date>. This draft was probably composed at the time of the visit or shortly
                     thereafter.</note>
+                <note type="work_relations" target="xxx.00340" cert="high">
+            <p>Draft of the poem "With Husky-Haughty Lips, O Sea!," first published in <hi rend="italic">Harper's Monthly Magazine</hi> in March 1884.</p>
+        </note>
             </notesStmt>
             <sourceDesc>
-                <bibl><author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
                     <title>By Thine Own Lips, O Sea</title>
                     <date xml:id="dat1" cert="high" notBefore="1883-09" notAfter="1884-03">1883</date>
                     <orgName xml:id="yal">Yale Collection of
                         American Literature, Beinecke Rare Book and Manuscript Library</orgName>
-                    <note
-                        type="project">Transcribed from digital images of the original.</note></bibl>
+                    <note type="project">Transcribed from digital images of the original.</note></bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2022-06-03" who="#bb">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-09-26" who="#nhg">tweaked editorial note</change>
             <change when="2016-04-27" who="#nhg">proofed</change>
             <change when="2016-01-14" who="#bb">corrected list of staff in titleStmt</change>
@@ -81,8 +78,7 @@
                 <l>By thine own lips, O Sea,</l>
                 <l><subst>
                         <del rend="overstrike" seq="1">By</del>
-                        <add place="supralinear" rend="unmarked" seq="2">As <del rend="overstrike"
-                                >where</del></add>
+                        <add place="supralinear" rend="unmarked" seq="2">As <del rend="overstrike">where</del></add>
                     </subst> day and night I wander <subst>
                         <del rend="overstrike" seq="1">on</del>
                         <del rend="overstrike" seq="3"><add place="supralinear" rend="unmarked" seq="2">here</add></del>
@@ -90,30 +86,27 @@
                     </subst> the beach</l>
                 <l><subst>
                         <del rend="overstrike" seq="1">To get</del>
-                        <add place="supralinear" rend="unmarked" seq="2"><unclear reason="illegible"
-                                resp="#bb" cert="medium">Counting</unclear></add>
+                        <add place="supralinear" rend="unmarked" seq="2"><unclear reason="illegible" resp="#bb" cert="medium">Counting</unclear></add>
                     </subst> the <subst>
-                        <del rend="overstrike" seq="1">tally of the surf&#8209;suggestions</del>
-                        <add place="supralinear" rend="unmarked" seq="2"><del rend="overstrike"
-                                >wordless</del> utterance of these liquid <del rend="overstrike"
-                                >wordless</del> tongues</add>
+                        <del rend="overstrike" seq="1">tally of the surf‑suggestions</del>
+                        <add place="supralinear" rend="unmarked" seq="2"><del rend="overstrike">wordless</del> utterance of these liquid <del rend="overstrike">wordless</del> tongues</add>
                     </subst></l>
                 <l><del rend="overstrike"><subst>
                             <del rend="overstrike" seq="1">And</del>
                             <add place="supralinear" rend="unmarked" seq="2">To</add>
                         </subst> pass within my soul, which loves the 
                     <lb/>grim, mysterious, wordless</del> story,</l>
-                <del rend="overstrike"><l><subst>
+                <delSpan spanTo="#d1" rend="overstrike"/><l><subst>
                             <del rend="overstrike" seq="1">That</del>
                             <add place="supralinear" rend="unmarked" seq="2">This</add>
-                        </subst> haughty&#8209;husky utterance of the sea&#8212;
-                    <lb/>&#8212;<subst><del rend="overstrike" seq="1">that</del>
+                        </subst> haughty‑husky utterance of the sea—
+                    <lb/>—<subst><del rend="overstrike" seq="1">that</del>
                             <add place="supralinear" rend="unmarked" seq="2">this</add>
-                        </subst> unsubduedness,</l></del>
+                        </subst> unsubduedness,</l><anchor xml:id="d1"/>
                 <l><subst>
                         <del rend="overstrike" seq="1">That</del>
                         <add place="supralinear" rend="unmarked" seq="2">Th<subst><del rend="overwrite" seq="1">is</del><add rend="overwrite" place="over" seq="2">y</add></subst></add>
-                    </subst> cosmic, ever&#8209;latent <del rend="overstrike">voice of</del> power,
+                    </subst> cosmic, ever‑latent <del rend="overstrike">voice of</del> power,
                         <del rend="overstrike">refusal</del></l>
                 <l><subst>
                         <del rend="overstrike" seq="1">With</del>
@@ -126,29 +119,27 @@
                         <del rend="overstrike" seq="3"><add place="supralinear" rend="unmarked" seq="2">the</add></del>
                         <del rend="overstrike" seq="5"><add place="supralinear" rend="insertion" seq="4">these emblems</add></del>
                     </subst>
-                    <lb/>many tears<subst><del rend="overwrite" seq="1">;</del><add place="over" rend="overwrite" seq="2">&#8212;</add></subst>these emblems,</l>
+                    <lb/>many tears<subst><del rend="overwrite" seq="1">;</del><add place="over" rend="overwrite" seq="2">—</add></subst>these emblems,</l>
                 <l>Some vast heart, like a planet's, chained
                     <lb/>and chafing <subst>
                         <del rend="overstrike" seq="1">there</del>
                         <add place="inline" rend="unmarked" seq="2">here,</add>
                     </subst></l>
-                <l>Some primitive right withheld&#8212;some freedom&#8209;lover
-                    <lb/>pent&#8212;some
+                <l>Some primitive right withheld—some freedom‑lover
+                    <lb/>pent—some
                     tyranny;</l>
-                <l>Within, <del rend="overstrike">within</del> and deep, <del rend="overstrike"><add place="supralinear"
-                        rend="insertion">by <unclear reason="deletion illegible" resp="#aj" cert="medium">thee</unclear>
+                <l>Within, <del rend="overstrike">within</del> and deep, <del rend="overstrike"><add place="supralinear" rend="insertion">by <unclear reason="deletion illegible" resp="#aj" cert="medium">thee</unclear>
                     </add></del> by day and night, <add place="supralinear" rend="insertion">by thine own <subst>
                             <del rend="overstrike" seq="1">tongue</del>
                             <add place="supralinear" rend="unmarked" seq="2">lips</add>
                         </subst> O Sea</add><del rend="overstrike">O Sea</del>!</l>
-                <del rend="overstrike"><l><subst>
+                <delSpan spanTo="#d2" rend="overstrike"/><l><subst>
                             <del rend="overstrike" seq="1">Surely some</del>
                             <add place="supralinear" rend="unmarked" seq="2">This</add>
-                        </subst> chanted tale of elemental passion,</l></del>
+                        </subst> chanted tale of elemental passion,</l><anchor xml:id="d2"/>
                 <l>With undertone of muffled lion roar,</l>
                 <l>And skreel of whistling wind, and hiss of spray,</l>
-                <l><subst><del rend="overstrike" seq="1">Th<subst><del rend="overwrite" seq="1">is</del><add
-                                    place="over" rend="overwrite" seq="2">y</add></subst></del>
+                <l><subst><del rend="overstrike" seq="1">Th<subst><del rend="overwrite" seq="1">is</del><add place="over" rend="overwrite" seq="2">y</add></subst></del>
                         
                         <del rend="overstrike" seq="3"><add place="supralinear" rend="unmarked" seq="2">Thy</add></del>
                         <del rend="overstrike" seq="5"><add place="supralinear" rend="unmarked" seq="4">A</add></del>
@@ -158,7 +149,7 @@
                         <del rend="overstrike" seq="1">chanted</del>
                         <add place="supralinear" rend="unmarked" seq="2">chanted</add>
                     </subst> tale of elemental passion,
-                    <lb/>&#8212;<del rend="overstrike">th<subst><del rend="overwrite" seq="1">is</del><add place="over" rend="overwrite" seq="2">y</add>
+                    <lb/>—<del rend="overstrike">th<subst><del rend="overwrite" seq="1">is</del><add place="over" rend="overwrite" seq="2">y</add>
                         </subst> haughty husky utterance</del></l>
                 <l><del rend="overstrike">Th<subst><del rend="overwrite" seq="1">is</del><add place="over" rend="overwrite" seq="2">y</add>
                         </subst> tale of subterranean toil and wrongs</del>
@@ -173,7 +164,7 @@
                 <note type="authorial" place="left">*</note>
                 <l>To pass within my soul the
                     <lb/>wordless lesson</l>
-                <del rend="overstrike"><l>Of all that power means</l></del>
+                <delSpan spanTo="#d3" rend="overstrike"/><l>Of all that power means</l><anchor xml:id="d3"/>
                 <l>Of freedom, action, <space dim="horizontal" extent="9 letters"/> in
                     husky-haughty</l>
             </lg>

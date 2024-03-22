@@ -1,13 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
- 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00107">
-    <relations>
-        <work ref="xxx.00593" cert="high">
-            <p>This manuscript is a rejected linegroup from the poem "Death's Valley," which was
-                published first in <hi rend="italic">Harper's New Monthly Magazine</hi> in <date when="1892-04">April, 1892</date>.</p>
-        </work>
-    </relations>
-    <teiHeader type="text">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00107">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title rend="bracketed" level="m" type="main">Aye, well I know 'tis ghastly to
@@ -24,6 +17,8 @@
                     <persName xml:id="aj">Andrew Jewell</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
                 </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -37,7 +32,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.00107</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -50,25 +45,31 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.00107</idno></publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">This manuscript is a rejected linegroup from the poem "Death's Valley," which was
                     published first in <hi rend="italic">Harper's New Monthly Magazine</hi> in <date when="1892-04">April, 1892</date>. It was probably composed in <date when="1889">1889</date>, shortly after Whitman received a request from H.
                     M. Alden, editor of <hi rend="italic">Harper's</hi>, to write a poem to
                     accompany a painting by George Inness entitled "The Valley of the Shadow of
                     Death."</note>
+                    <note type="work_relations" target="xxx.00593" cert="high">
+                        <p>This manuscript is a rejected linegroup from the poem "Death's Valley," which was
+                            published first in <hi rend="italic">Harper's New Monthly Magazine</hi> in <date when="1892-04">April, 1892</date>.</p>
+                    </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author> Walt Whitman </author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>Death's Valley 1889 A.Ms drafts</title>
                     <date xml:id="dat1" cert="high" notBefore="1889" notAfter="1891">About 1889</date>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2022-06-06" who="#km">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-04-27" who="#nhg">checked, corrected</change>
             <change when="2016-03-08" who="#nhg">updated persNames, adjusted image names</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
@@ -94,7 +95,7 @@
                     </l>
                     <l>Preachers, musicians, poets, painters, always render it,</l>
                     <l>
-                        Philosophs exploit&#8212;the battle&#8209;field, the ship
+                        Philosophs exploit—the battle‑field, the ship
                             at<lb/>
                         sea, the myriad beds, all lands,
                     </l>
@@ -105,7 +106,7 @@
                     <l>Syria's, India's, Egypt's, Greece's, Rome's;</l>
                     <l>
                         Till now for us under our very eyes spreading<lb/>
-                        the same to&#8209;day,
+                        the same to‑day,
                     </l>
                     <l>Grim, ready <del rend="overstrike"><add place="supralinear" rend="insertion">for our eyes,</add></del> for entrance, yours and mine, <del rend="overstrike"><add place="supralinear" rend="insertion">our eyes,</add></del>
 </l>

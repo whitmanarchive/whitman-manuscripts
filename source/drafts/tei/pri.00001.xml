@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pri.00001"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+
+    <title level="m" type="main">As I sit writing here</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     
+     <persName xml:id="slg">Samantha Gilmore</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>pri.00001</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- WRITTEN BY EDITORS --></note>
+    <note type="work_relations" target="xxx.00318" cert="high">
+     <p>This is a draft, with several corrections, of the four-line poem "As I Sit Writing Here," which was published first in the <hi rend="italic">New York Herald</hi>, May 14, 1888. It was reprinted in <hi rend="italic">November Boughs</hi> (1888) and in the "Sands at Seventy" annex of <hi rend="italic">Leaves of Grass</hi> (1891–92).</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title resp="#wwa">As I sit writing here</title>  
+     
+     <date notBefore="1883" notAfter="1888" cert="high">about 1888</date>
+     
+     <idno type="callno">C0140</idno>
+     <orgName xml:id="pru">Manuscripts Division, Department of Rare Books and Special Collections, Princeton University Library </orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+     
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+<revisionDesc>
+ 
+ <change when="2024-02-15" who="#slg">transcribed and encoded</change>
+ 
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="Whitman001.jpg" type="recto"/>
+
+   <lg type="poem">
+    
+   <head rend="underline" type="main">As I sit <subst><del rend="overstrike" seq="1">thinking</del><add place="above" seq="2">writing</add></subst> here</head>
+   
+
+    <l>As I sit <subst><del rend="overstrike" seq="1">thinking</del><add place="above" seq="2">writing</add></subst> here, sick and grown old,</l>
+    <l>Not my least burden is, that dulness, <metamark function="add" target="#a001">&#8248;</metamark><add xml:id="a001" place="above">of the</add> years, querilities,</l>
+    <l>Ungracious glooms, aches, lethargy, constipation, <metamark function="add" target="#a002">&#8248;</metamark><add xml:id="a002" place="above">whimpering,</add> <subst><del rend="overstrike" seq="1">solitude,</del><add rend="underline" seq="2" place="above">ennui,</add></subst></l>
+    <l>May filter in my daily songs.</l>
+   </lg>
+   
+   <signed rend="underline">Walt Whitman</signed>
+   
+   <pb xml:id="leaf001v" facs="Whitman001.002_large.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>

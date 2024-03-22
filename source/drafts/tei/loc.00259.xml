@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00259">
+   <relations>
+      <work ref="xxx.00312" cert="absolute">
+         <p>A signed late draft of "Paumanok," written in ink on a sheet of white paper cut from a larger sheet.</p>
+      </work>
+   </relations>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main">
+Paumanok
+</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <editor role="editor">Matt Cohen</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="km">Kenneth M. Price</persName>
+               <persName xml:id="fl">Farrah Lehman</persName>
+               <persName xml:id="ms">Melody S. Han</persName>
+               <persName xml:id="jh">Jeff Hill</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>loc.00259</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+
+            <note type="project" target="dat1">"Paumanok" was first published in <date when="1888">1888</date> and a note on the verso (in another's hand) reads "<date when="1888-02-18">Feb 18,1888</date>."</note>
+
+            <note type="project">On the verso is the date <date when="1888-02-18">Feb 18, 1888</date> in an unknown hand.</note>
+            <!--THE NOTE ABOVE DOES NOT HAVE A TARGET ATTRIBUTE BECAUSE WE DO NOT HAVE THE IMAGE OF THE VERSO IN THE MS TRACKING DATABASE.-->
+                          	
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>Paumanok</title>
+               <date cert="high" when="1888" xml:id="dat1">About 1888</date>
+
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="#jh" when="2024-01-26">checked, corrected</change>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#km" when="2006-12-07">edited</change>
+         <change who="#fl" when="2006-11-28">checked</change>
+         <change who="#ms" when="2004-04-29">encoded</change>
+         <change who="#ms" when="2004-04-29">transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="loc.00259.001" xml:id="leaf001r" type="recto"/>
+         <lg>
+            <note place="right"
+                  type="authorial"
+                  rend="circled">
+               <p>personal</p>
+            </note>
+
+            <head type="main-authorial" rend="underline">Paumanok.</head>
+
+            <l>Sea‑beauty! stretch'd and basking!</l>
+            <l>One side thy inland ocean laving, broad, with<lb/>
+               copious commerce, steamers, sails,<lb/>
+            </l>
+            <l>And one the Atlantic's wind caressing, fierce or<lb/>
+               gentle—mighty hulls dark‑gliding in<lb/>
+               the distance:<lb/>
+            </l>
+            <l>Isle of sweet brooks of drinking‑water—healthy<lb/>
+               air and soil!<lb/>
+            </l>
+            <l>Isle of the salty shore and breeze and brine!</l>
+            <closer>
+               <signed rend="underline">Walt Whitman</signed>
+            </closer>
+         </lg>
+      </body>
+   </text>
+</TEI>

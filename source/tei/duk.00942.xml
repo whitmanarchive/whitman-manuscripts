@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00942"> 
- <relations>
-  <work ref="xxx.00048" cert="high">
-   <p>Several of the lines of poetry in this manuscript are drafts of lines used in the opening poem of the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, later titled "Song of Myself." The lines match the section of the poem that runs from "And now it seems to me the beautiful uncut hair of graves" through "I pass death with the dying, and birth with the new-washed babe . . . . and am not contained between my hat and boots" (1855, pp. 16-17).</p>
-  </work>
- </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00942"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -22,6 +18,7 @@
      <persName xml:id="km">Kevin McMullen</persName>
      <persName xml:id="nhg">Nicole Gray</persName>
      <persName xml:id="bb">Brett Barney</persName>
+     <persName xml:id="as">Ashlyn Stewart</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -33,7 +30,7 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    <idno>duk.00942</idno>
+    
     <distributor>The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -45,13 +42,16 @@
     <availability>
      <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-   </publicationStmt>
+   <idno>duk.00942</idno></publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript includes drafts of lines used in the first poem in that edition, eventually titled "Song of Myself."</note>             
+    <note type="project" target="#dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The manuscript includes drafts of lines used in the first poem in that edition, eventually titled "Song of Myself."</note>
+     <note type="work_relations" target="xxx.00048" cert="high">
+      <p>Several of the lines of poetry in this manuscript are drafts of lines used in the opening poem of the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, later titled "Song of Myself." The lines match the section of the poem that runs from "And now it seems to me the beautiful uncut hair of graves" through "I pass death with the dying, and birth with the new-washed babe . . . . and am not contained between my hat and boots" (1855, pp. 16-17).</p>
+     </note>
    </notesStmt>
    <sourceDesc>
-    <bibl>
-     <author>Walt Whitman</author>
+    <bibl><author xml:id="ww">Whitman, Walt</author>
+     
      <title>And now it seems the dark, uncut hair of graves</title>       
      <date notBefore="1850-01-01" notAfter="1855-12-31" cert="medium">Between 1850 and 1855</date>
      <idno type="callno">MS 4 to 1</idno>
@@ -64,6 +64,8 @@
    </sourceDesc>
 </fileDesc>
 <revisionDesc>
+ <change when="2022-06-03" who="#km">updated relations encoding</change>
+ <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
  <change when="2019-11-13" who="#bb">tweaked work note</change>
  <change when="2019-06-01" who="#kp">blessed</change>
  <change when="2019-06-01" who="#nhg">corrected editorial note</change>
@@ -90,10 +92,9 @@
    <lg type="poem">
     
     <lg type="linegroup">
-     <del rend="overstrike"><add rend="unmarked" place="top"><l xml:id="l100"><hi rend="underline">In the course of the winding path through the grass</hi></l></add></del>      
-     <metamark function="transpose" place="left">+</metamark>
-     <transpose rend="bracketed" anchored="0">
-     <add rend="unmarked" place="interlinear">
+     <delSpan spanTo="#d3" rend="overstrike"/><addSpan spanTo="#a2" rend="unmarked" place="top"/><l xml:id="l100"><hi rend="underline">In the course of the winding path through the grass</hi></l><anchor xml:id="a2"/><anchor xml:id="d3"/>      
+     <metamark function="unknown" place="left">+</metamark>
+     <addSpan spanTo="#a1" rend="bracketed" place="interlinear"/>
      <l xml:id="l27">And when once <subst><del rend="overstrike" seq="1">spirits go</del> 
       <add rend="unmarked" place="supralinear" seq="2">they went</add></subst> far enough to see<lb/>
       the happiness beyond,</l>
@@ -104,8 +105,8 @@
        <add rend="unmarked" place="supralinear" seq="2">could</add></subst><lb/>
       <subst><add rend="unmarked" place="supralinear" seq="2">draw</add> <del rend="overstrike" seq="1">lure</del></subst> them back, 
        <del rend="overstrike">to the body.</del></l>
-     </add>
-     </transpose>
+     <anchor xml:id="a1"/>
+     
      
      <l xml:id="l01"><subst><del rend="overstrike" seq="1"><gap reason="cut away" atLeast="1" unit="chars"/> grass is</del>
       <add rend="insertion" place="supralinear" seq="2">And now <subst><del rend="overstrike" seq="1">it</del> 
@@ -168,21 +169,29 @@
     <lg type="linegroup">
      <l xml:id="l15"><unclear reason="cut away" resp="#kc" cert="high">And the <gap reason="cut away" atLeast="5" unit="chars"/> <add rend="insertion" place="supralinear"><gap reason="cut away" atLeast="1" unit="chars"/></add></unclear> taken soon out of their laps—</l> 
      
-     <del rend="overstrike"><l>Then even the cinders they left behind them,</l></del> 
+     <delSpan spanTo="#d4" rend="overstrike"/><l>Then even the cinders they left behind them,</l><anchor xml:id="d4"/> 
      
      <l><add rend="unmarked" place="supralinear">and</add> than the <subst><del rend="overstrike" seq="1">parings</del> <add rend="unmarked" place="supralinear" seq="2">cinders</add></subst> and soiled <del rend="overstrike">cl</del> rags they dropped as they <subst><del rend="overstrike" seq="1">went</del> <add rend="unmarked" place="supralinear" seq="2">left us,</add></subst></l>
      
      <l>Even they continue on, and become new live fire, and<lb/>
       plentiful beautiful clothing.</l>
      
-     <add rend="unmarked" place="interlinear"><span rend="bracket-left" xml:id="s3" from="#s3" to="#s4"/><l xml:id="l29">And <del rend="overstrike">that</del> when <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#cah">once</unclear></del> <anchor xml:id="tr02"/><del rend="overstrike">the<add rend="unmarked" place="inline">y</add></del> <subst><del rend="overstrike" seq="1">soul</del> <del rend="overstrike" seq="3"><add rend="insertion" place="supralinear" seq="2">spirit</add></del> <del rend="overstrike" seq="5"><add rend="unmarked" place="supralinear" seq="4">soul</add></del></subst> go<del rend="overstrike">es</del> <add rend="unmarked" place="supralinear">far <unclear reason="illegible" cert="medium" resp="#cah">enough</unclear></add> <del rend="overstrike">into</del> <add rend="unmarked" place="supralinear"><unclear reason="illegible" cert="medium" resp="#cah">to see</unclear></add> the happiness beyond,</l>
+     <addSpan spanTo="#a3" rend="unmarked" place="interlinear"/><span rend="bracket-left" xml:id="s3" from="#s3" to="#s4"/><l xml:id="l29">And <del rend="overstrike">that</del> when <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#cah">once</unclear></del> <seg xml:id="tr06"><del rend="overstrike">the<add rend="unmarked" place="inline">y</add></del> <subst><del rend="overstrike" seq="1">soul</del> <del rend="overstrike" seq="3"><add rend="insertion" place="supralinear" seq="2">spirit</add></del> <del rend="overstrike" seq="5"><add rend="unmarked" place="supralinear" seq="4">soul</add></del></subst> go<del rend="overstrike">es</del> <add rend="unmarked" place="supralinear">far <unclear reason="illegible" cert="medium" resp="#cah">enough</unclear></add> <del rend="overstrike">into</del> <add rend="unmarked" place="supralinear"><unclear reason="illegible" cert="medium" resp="#cah">to see</unclear></add> the happiness beyond,</seg></l>
      
      
      <l xml:id="l30"><del rend="overstrike">And</del> That is the reason <anchor rend="bracket-right" xml:id="s4"/><!-- Possible transpose? Or WW could be referring to the two lines at top of leaf 1, where he recopied these lines --> why no <subst><del rend="overstrike" seq="1">art or cunning can</del> <add rend="unmarked" place="supralinear" seq="2">wit 
         or temptation <subst><del rend="overwrite" seq="1">could</del> <add rend="overwrite" place="over" seq="2">ever</add></subst></add></subst> lure<add rend="unmarked" place="inline">s</add> <subst><del rend="overstrike" seq="1">it</del> <add rend="unmarked" place="supralinear" seq="2">them</add></subst> back <subst><del rend="overstrike" seq="1">to the <add rend="insertion" place="supralinear">cold</add> flesh.—</del> <add rend="unmarked" place="supralinear" seq="2">to the <subst><del rend="overstrike" seq="1">body</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="interlinear" seq="2">body</add></del> <del rend="overstrike" seq="5"><add rend="unmarked" place="supralinear" seq="4">flesh.</add></del> <add rend="unmarked" place="supralinear" seq="6">body.</add></subst></add></subst></l>
-     </add>
+     <anchor xml:id="a3"/>
      
-     <l xml:id="l16">Yet I cannot say, <del rend="overstrike">any more than you,</del> <transpose rend="unmarked" anchored="1" xml:id="tr01" target="#tr02"><del rend="overstrike"><add rend="unmarked" place="supralinear">their spirits went far enough</add></del></transpose> what has become<lb/>
+     <l xml:id="l16"><seg xml:id="tr05">Yet I cannot say, <del rend="overstrike">any more than you,</del></seg> 
+      <listTranspose>
+       <transpose>
+        <ptr target="#tr05"/>
+        <ptr target="#tr06"/>
+        <ptr target="#l30"/>
+       </transpose>
+      </listTranspose>
+      <delSpan spanTo="#d5" rend="overstrike"/><add rend="unmarked" place="supralinear">their spirits went far enough</add><anchor xml:id="d5"/> what has become<lb/>
       of the young <add rend="insertion" place="supralinear">and old</add> men,</l>
      
      <l xml:id="l17">Nor what has become of the women and children</l>

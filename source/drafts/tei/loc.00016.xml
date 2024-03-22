@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00016">
+   <relations>
+      <work ref="xxx.00315" cert="absolute">
+         <p>Written in pencil with corrections and changes in ink, this leaf has trial titles on
+            both sides. Whitman apprently first wrote "Carols at Seventy" as a section title,
+            changed it to "A Carol-Cluster at 69," "A Carol-Cluster at Sixty-Nine," and tried
+            "Carols at nearing Seventy," and "Carols at Sixty-Nine."</p>
+      </work>
+   </relations>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main" rend="bracketed">Carols at Seventy</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <editor role="editor">Matt Cohen</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="ah">Amy Hezel</persName>
+               <persName xml:id="fl">Farrah Lehman</persName>
+               <persName xml:id="kp">Kenneth M. Price</persName>
+               <persName xml:id="lr">Lisa Renfro</persName>
+               <persName xml:id="jh">Jeff Hill</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>loc.00016</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="project" target="dat1">These titles were meant as an annex to the <date when="1888">1888</date> edition of <hi rend="italic">Leaves of Grass</hi>.</note>                          	
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>[Carols at Seventy]</title>
+               <date cert="high" value="1888" xml:id="dat1">About 1888</date>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="#jh" when="2024-03-22">checked, corrected</change>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#ah" when="2003-12-02">encoded</change>
+         <change who="#ah" when="2003-12-02">transcribed</change>
+         <change who="#fl" when="2006-06-19">checked</change>
+         <change who="#kp" when="2006-06-30">edited</change>
+         <change who="#lr" when="2006-08-01">blessed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="loc.00016.001" xml:id="leaf001r" type="recto"/>
+         <div1 type="title notes">
+            <head type="main-derived">Carols at Seventy</head>
+            <ab type="title">Carols at Seventy</ab>
+            <ab type="subtitle">and other Pieces . . . . for</ab>
+            <ab type="subtitle">ANNEX</ab>
+            <ab type="subtitle">to the preceding</ab>
+            <!--I USED <LB>S HERE BECAUSE THE ABOVE IS REALLY JUST ONE SUBTITLE. - FL.-->
+            <milestone unit="undeclared" rend="horbar-full"/>
+            <ab type="title" rend="underline">A Carol‑Cluster at 69</ab>
+            <ab type="subtitle">&amp; other poems . . . . .  for</ab>
+            <ab type="subtitle" rend="underline">ANNEX</ab>
+            <ab type="subtitle">to the preceding</ab>
+         </div1>
+         <!--SAME W/<LB>S HERE. THERE ARE ONLY 2 SUBTITLES ON THIS PAGE.-->
+         <div1 type="title notes">
+            <pb facs="loc.00016.002" xml:id="leaf001v" type="verso"/>
+            <head type="main-derived">Carols at nearing Seventy</head>
+            <note type="authorial" place="top" rend="circled">
+               <p>?Or <hi rend="underline">Carols at Sixty-Nine</hi> &amp;c &amp;c &amp;c.. . . . for <hi rend="underline">Annex</hi> to the preceeding</p>
+            </note>
+            <ab type="title" rend="underline"> <del rend="overstrike">A Carol Cluster at 69</del></ab>
+            <ab type="title" rend="underline">Carols at nearing Seventy</ab>
+            <ab type="subtitle">and other Poems . . . . for</ab>
+            <ab type="subtitle" rend="underline">Annex</ab>
+            <ab type="subtitle">to the Preceding</ab>
+            <note type="authorial" place="bottom">? or simply <hi rend="underline">A Carol at Sixty-Nine</hi>
+            </note>
+         </div1>
+      </body>
+   </text>
+</TEI>

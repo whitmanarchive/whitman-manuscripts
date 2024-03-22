@@ -1,14 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00889">
-    <relations>
-        <work ref="xxx.00266" cert="high">
-            <p><ref target="#q01" xml:id="r01" type="text">This line</ref> is a draft of a line from the third poem of
-                the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of
-                Grass</hi>, ultimately titled "To Think of Time": "The prostitute is not nothing . . . . the mocker of religion is not nothing as he goes" (1855, p. 68). The line does not appear in the final version of the poem.</p>
-        </work>
-        <work ref="xxx.00121" cert="low">
-            <p>The words "<ref target="#q02" xml:id="r02" type="text">attraction of gravity</ref>" in this manuscript appear in two contexts in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. The closest in meaning to its use in this manuscript is in the poem later titled "Great Are the Myths": "It cannot be varied by statutes, any more than love, pride, the attraction of gravity, can" (1855, p. 251). "Great Are the Myths" was ultimately shortened to a few lines and published as "Youth, Day, Old Age, and Night" in the 1881 <hi rend="italic">Leaves of Grass</hi>.</p>
-        </work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00889">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,7 +18,7 @@
                     <persName xml:id="lr">Lisa Renfro</persName>
                     <persName xml:id="hm">Heather Morton</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -40,7 +31,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>duk.00889</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -52,15 +43,23 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>duk.00889</idno></publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">This manuscript was probably written between <date notBefore="1850" notAfter="1855">1850 and 1855</date> when Whitman was composing his first (1855)
                     edition of <hi rend="italic">Leaves of Grass</hi>. It includes a draft of a line from the third poem in
                     that edition, eventually titled "To Think of Time."</note>
+                    <note type="work_relations" target="xxx.00266" cert="high">
+                        <p><ref target="#q01" xml:id="r01" type="text">This line</ref> is a draft of a line from the third poem of
+                            the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of
+                                Grass</hi>, ultimately titled "To Think of Time": "The prostitute is not nothing . . . . the mocker of religion is not nothing as he goes" (1855, p. 68). The line does not appear in the final version of the poem.</p>
+                    </note>
+                    <note type="work_relations" target="xxx.00121" cert="low">
+                        <p>The words "<ref target="#q02" xml:id="r02" type="text">attraction of gravity</ref>" in this manuscript appear in two contexts in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>. The closest in meaning to its use in this manuscript is in the poem later titled "Great Are the Myths": "It cannot be varied by statutes, any more than love, pride, the attraction of gravity, can" (1855, p. 251). "Great Are the Myths" was ultimately shortened to a few lines and published as "Youth, Day, Old Age, and Night" in the 1881 <hi rend="italic">Leaves of Grass</hi>.</p>
+                    </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>You lusty and graceflu [sic] youth! you are great</title>
                     <date xml:id="dat1" cert="high" notBefore="1850" notAfter="1855">Between 1850 and 1855</date>
                     <idno type="callno">MS 4 to 11 (Volume 11)</idno>
@@ -74,7 +73,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2019-11-13" who="#bb">tweaked wording of work note for "Youth, Day, Old Age, and Night"</change>
             <change when="2018-11-01" who="#nhg">edited title, idno</change>
             <change when="2018-09-10" who="#nhg">updated image names</change>
@@ -105,12 +104,12 @@
                 </l>
                 <note place="left" type="authorial" target="#s1">?</note>
                 <span xml:id="s1" rend="bracketed" from="s1" to="s2"/>
-                <del rend="overstrike"><l xml:id="l01">
+                <delSpan spanTo="#d1" rend="overstrike"/><l xml:id="l01">
                         Does the light or heat pick out? Does
                     
                     <lb/>the <seg xml:id="q02">attraction <add place="supralinear" rend="unmarked">o</add> of <add place="supralinear" rend="insertion">gravity</add></seg> pick out?
                     
-                </l></del>
+                </l><anchor xml:id="d1"/>
                 <anchor xml:id="s2"/>
                 <anchor xml:id="d2"/>
                 <milestone unit="undeclared" rend="horbar-full"/>

@@ -1,15 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="pml.00006">
-    <relations>
-        <work ref="xxx.00595" cert="high">
-            <p>This is a draft of a poem unpublished in Whitman's lifetime, "After Certain Disastrous Campaigns." "After Certain Distastrous Campaigns" was
-                published first in <hi rend="italic">The Uncollected Poetry and Prose of Walt
-                    Whitman</hi>, ed. Emory Holloway (Garden City, N.Y.: Doubleday, Page, <date
-                        when="1921">1921</date>).</p>
-        </work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pml.00006">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +17,7 @@
                     <persName xml:id="lr">Lisa Renfro</persName>
                     <persName xml:id="li">Leslie Ianno</persName>
                     <persName xml:id="al">Ashley Lawson</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -41,36 +30,36 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>pml.00006</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address><addrLine>The Institute for Advanced Technology in the Humanities</addrLine><addrLine>Alderman Library</addrLine><addrLine>University of Virginia</addrLine><addrLine>P.O. Box 400115</addrLine><addrLine>Charlottesville, VA 22904-4115</addrLine><addrLine>whitman@jefferson.village.virginia.edu</addrLine></address>
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>pml.00006</idno></publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">According to Sculley Bradley and Harold W.
-                    Blodgett, the "year of repulses may well have been <date when="1862"
-                    >1862</date>, the disastrous campaigns being those of Major General George B.
+                    Blodgett, the "year of repulses may well have been <date when="1862">1862</date>, the disastrous campaigns being those of Major General George B.
                     McClellan, who was halted by General Robert E. Lee until the battle of Antietam,
                         <date when="1862-09-17">September 17, 1862</date>. Or possibly the year may
                     have been <date when="1863">1863</date> when Lee and Jackson pushed northward
-                    until Lee was halted at Gettysburg, <date notBefore="1863-07-01"
-                        notAfter="1863-07-03">July 1&#8211;3</date>" (<hi rend="italic">Leaves of Grass:
+                    until Lee was halted at Gettysburg, <date notBefore="1863-07-01" notAfter="1863-07-03">July 1–3</date>" (<hi rend="italic">Leaves of Grass:
                         Comprehensive Reader's Edition</hi>, ed. Harold W. Blodgett and Sculley
                     Bradley [New York: New York University Press, <date when="1965">1965</date>],
-                    666&#8211;67n).
-                    The manuscript was likely composed between <date notBefore="1862"
-                        notAfter="1865">1862 and 1865</date>, while Whitman was writing his <date
-                        when="1865">1865</date> volume <hi rend="italic">Drum-Taps</hi>.</note>
+                    666–67n).
+                    The manuscript was likely composed between <date notBefore="1862" notAfter="1865">1862 and 1865</date>, while Whitman was writing his <date when="1865">1865</date> volume <hi rend="italic">Drum-Taps</hi>.</note>
                     <note type="project">A poem unpublished in Whitman's lifetime, "After Certain Distastrous Campaigns" was
                         published first in <hi rend="italic">The Uncollected Poetry and Prose of Walt
-                            Whitman</hi>, ed. Emory Holloway (Garden City, N.Y.: Doubleday, Page, <date
-                                when="1921">1921</date>).</note>
+                            Whitman</hi>, ed. Emory Holloway (Garden City, N.Y.: Doubleday, Page, <date when="1921">1921</date>).</note>
+                <note type="work_relations" target="xxx.00595" cert="high">
+            <p>This is a draft of a poem unpublished in Whitman's lifetime, "After Certain Disastrous Campaigns." "After Certain Distastrous Campaigns" was
+                published first in <hi rend="italic">The Uncollected Poetry and Prose of Walt
+                    Whitman</hi>, ed. Emory Holloway (Garden City, N.Y.: Doubleday, Page, <date when="1921">1921</date>).</p>
+        </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>After certain disastrous campaigns</title>
                     <date xml:id="dat1" cert="high" notBefore="1862" notAfter="1865">Between 1862 and 1865</date>
                     <idno type="callno">MA 518 (B)</idno>
@@ -80,6 +69,8 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2022-06-07" who="#bb">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-09-26" who="#nhg">updated project note</change>
             <change when="2016-04-26" who="#nhg">corrected verso image name</change>
             <change when="2012-03-01" who="#al">Corrections made from spreadsheet</change>
@@ -99,34 +90,29 @@
                 <head type="main-authorial">
                     <subst>
                         <del rend="overstrike" seq="1">Answer me, year of repulses</del><lb/>
-                        <add rend="unmarked" place="infralinear" seq="2"><hi rend="underline">After <add rend="insertion"
-                                place="supralinear">certain</add> disastrous campaigns.</hi></add>
+                        <add rend="unmarked" place="infralinear" seq="2"><hi rend="underline">After <add rend="insertion" place="supralinear">certain</add> disastrous campaigns.</hi></add>
                     </subst>
                 </head>
                 <l>Answer me, <del rend="overstrike">traitor!</del> year of<lb/>repulses!</l>
                 <l>How will the poets, <del rend="overstrike">the lecturers</del>
                     <lb/>of ages hence, look back to you,<lb/>&amp; to me also?</l>
-                <l>What themes will they make <del rend="overstrike"><add rend="insertion"
-                            place="supralinear">O year</add></del> out of<lb/>you, O year? (themes
+                <l>What themes will they make <del rend="overstrike"><add rend="insertion" place="supralinear">O year</add></del> out of<lb/>you, O year? (themes
                     for <seg xml:id="w1">ironical</seg>
                         <add rend="unmarked" place="supralinear" xml:id="w2">sarcastic</add>
                         <alt target="#w1 #w2" weights="0.5 0.5"/>
                     <lb/>laughter?)</l>
                 <l>What are the <del rend="overstrike">ballads &amp;</del> proofs to<lb/>be finally
                             <subst><del rend="overstrike" seq="1">made</del>
-                        <add rend="unmarked" place="supralinear" seq="2">shown</add></subst> <del
-                        rend="overstrike">of</del> out of you?</l>
+                        <add rend="unmarked" place="supralinear" seq="2">shown</add></subst> <del rend="overstrike">of</del> out of you?</l>
                 <l>Are they not <del rend="overstrike">indeed</del> to be shown<lb/>with pride, as
                     by <subst><del rend="overstrike" seq="1">poets</del>
                         <add rend="unmarked" place="supralinear" seq="2">bards
                         descended</add></subst> of<lb/><subst><del rend="overstrike" seq="1">mine
                             own</del>
-                        <add rend="unmarked" place="supralinear" seq="2">from me</add></subst>? <del
-                        rend="overstrike">by</del> my children?</l>
+                        <add rend="unmarked" place="supralinear" seq="2">from me</add></subst>? <del rend="overstrike">by</del> my children?</l>
                 <l>Are <subst><del rend="overstrike" seq="1">to be</del>
                         <add rend="unmarked" place="supralinear" seq="2">they</add></subst> really
-                        <del rend="overstrike">of</del> failures? <del rend="overstrike"
-                        >of</del><lb/><add rend="insertion" place="supralinear">are they
+                        <del rend="overstrike">of</del> failures? <del rend="overstrike">of</del><lb/><add rend="insertion" place="supralinear">are they
                         sterile,</add> incompetent yieldings after all?</l>
                 <l>Are they not indeed to be <del rend="overstrike">as</del><lb/>victorious shouts
                     from my<lb/>children?</l>

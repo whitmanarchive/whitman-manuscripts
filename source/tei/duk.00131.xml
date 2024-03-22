@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00131">
-<!--<relations>
-<work ref="xxx.01038"/>
-</relations>-->
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00131">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,6 +16,7 @@
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="kmp">Kenneth M. Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -32,7 +28,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>duk.00131</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,13 +40,13 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>duk.00131</idno></publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">This manuscript probably dates to the early 1860s, as it appears to have been inscribed after the writing on the reverse side of the leaf (duk.00795), which contains draft lines that contributed to poems first published in the 1860&#8211;1861 edition of <hi rend="italic">Leaves of Grass.</hi></note>             
+                <note type="project" target="#dat1">This manuscript probably dates to the early 1860s, as it appears to have been inscribed after the writing on the reverse side of the leaf (duk.00795), which contains draft lines that contributed to poems first published in the 1860–1861 edition of <hi rend="italic">Leaves of Grass.</hi></note>             
             </notesStmt>
             <sourceDesc>                
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>"America needs her own poems, in her own body and spirit"</title>
                     <date xml:id="dat1" cert="medium" notBefore="1860" notAfter="1865">Early 1860s</date>
                     <idno type="callno">MS 12mo 61</idno>
@@ -58,11 +54,12 @@
                     <note type="project">Transcribed from digital images of the original.</note>
                     <relatedItem type="text" xml:id="rel01" target="duk.00795"/>
                     <relatedItem type="document" target="wwa.00025"/>
-                    <note type="project" target="#rel01">On the back of the manuscript are draft lines that contributed both to the poem ultimately titled "Thoughts [Of these years I sing...]" and to "Apostroph," the opening section of "Chants Democratic and Native American." Both poems first appeared in the 1860&#8211;1861 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+                    <note type="project" target="#rel01">On the back of the manuscript are draft lines that contributed both to the poem ultimately titled "Thoughts [Of these years I sing...]" and to "Apostroph," the opening section of "Chants Democratic and Native American." Both poems first appeared in the 1860–1861 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2018-09-10" who="#nhg">updated image names</change>
             <change when="2017-02-10" who="#bb">reconciled with EAD record</change>
             <change when="2016-05-18" who="#kmp">blessed</change>
@@ -79,7 +76,7 @@
         <body>
             <pb xml:id="leaf001r" facs="duk_nhg.01096.jpg" type="recto"/>
             
-            <p>America needs her own poems, <add rend="lasso" place="supralinear">in her own <del rend="overstrike">spirit</del> body and spirit,</add> different from all <subst><del rend="overstrike" seq="1">the rest</del> <add rend="unmarked" place="supralinear" seq="2">hitherto&#8212;freer,</add></subst>, more muscular, <del rend="overstrike" seq="2"><add rend="unmarked" place="supralinear" seq="1">than <subst><del rend="overstrike" seq="1">the</del> <add rend="unmarked" place="inline" seq="2">any</add></subst> hitherto</add></del> <add rend="insertion" place="supralinear">comprehending more,</add> and unspeakably grander.&#8212;Not <del rend="overstrike">the</del> importations, <add rend="lasso" place="supralinear">or any thing in the spirit of the importations</add> aloof and in These States exiles;&#8212;not the superb<del rend="overstrike">,</del> chronicles, faultless, <del rend="overstrike">and</del> rich, perennial <del rend="overstrike"><add rend="insertion" place="supralinear"></add></del> as they are <add rend="lasso" place="supralinear">and deserve to be in their native lands</add> <subst><del rend="overstrike" seq="1">from</del> <add rend="insertion" place="supralinear" seq="2">of the past events and characters of</add></subst> Europe&#8212;<del rend="overstrike">nothing f</del> not the current products of imaginative persons, with tropes, likenesses, piano music, and smooth rhymes<del rend="erasure">&#8212;<unclear reason="erasure" resp="#nhg" cert="low">nor</unclear> of</del></p>
+            <p>America needs her own poems, <add rend="lasso" place="supralinear">in her own <del rend="overstrike">spirit</del> body and spirit,</add> different from all <subst><del rend="overstrike" seq="1">the rest</del> <add rend="unmarked" place="supralinear" seq="2">hitherto—freer,</add></subst>, more muscular, <del rend="overstrike" seq="2"><add rend="unmarked" place="supralinear" seq="1">than <subst><del rend="overstrike" seq="1">the</del> <add rend="unmarked" place="inline" seq="2">any</add></subst> hitherto</add></del> <add rend="insertion" place="supralinear">comprehending more,</add> and unspeakably grander.—Not <del rend="overstrike">the</del> importations, <add rend="lasso" place="supralinear">or any thing in the spirit of the importations</add> aloof and in These States exiles;—not the superb<del rend="overstrike">,</del> chronicles, faultless, <del rend="overstrike">and</del> rich, perennial <del rend="overstrike"><add rend="insertion" place="supralinear"/></del> as they are <add rend="lasso" place="supralinear">and deserve to be in their native lands</add> <subst><del rend="overstrike" seq="1">from</del> <add rend="insertion" place="supralinear" seq="2">of the past events and characters of</add></subst> Europe—<del rend="overstrike">nothing f</del> not the current products of imaginative persons, with tropes, likenesses, piano music, and smooth rhymes<del rend="erasure">—<unclear reason="erasure" resp="#nhg" cert="low">nor</unclear> of</del></p>
             
             <pb xml:id="leaf001v" facs="duk_nhg.01097.jpg" type="verso"/>
             

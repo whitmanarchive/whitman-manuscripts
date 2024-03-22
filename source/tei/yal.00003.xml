@@ -1,11 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
- 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="yal.00003">
-    <relations>
-        <work ref="xxx.00257" cert="high">
-            <p>"Italian Music in Dakota" was published first in the <date notBefore="1881" notAfter="1882">1881&#8211;82</date> edition of <hi rend="italic">Leaves of Grass</hi>.</p>
-        </work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00003">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,7 +16,7 @@
                     <persName xml:id="jro">Jennifer R. Overkamp</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -36,7 +29,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>yal.00003</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -49,15 +42,17 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>yal.00003</idno></publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">"Italian Music in Dakota" was published first in the <date notBefore="1881" notAfter="1882">1881&#8211;82</date> edition of <hi rend="italic">Leaves of Grass</hi>. This manuscript was likely composed between <date notBefore="1879" notAfter="1881">1879 and 1881</date>, after Whitman took a trip to the
+                <note type="project" target="#dat1">"Italian Music in Dakota" was published first in the <date notBefore="1881" notAfter="1882">1881–82</date> edition of <hi rend="italic">Leaves of Grass</hi>. This manuscript was likely composed between <date notBefore="1879" notAfter="1881">1879 and 1881</date>, after Whitman took a trip to the
                     West (though not the Dakota Territory) and before the poem was published.</note>
-               
+                <note type="work_relations" target="xxx.00257" cert="high">
+            <p>"Italian Music in Dakota" was published first in the <date notBefore="1881" notAfter="1882">1881–82</date> edition of <hi rend="italic">Leaves of Grass</hi>.</p>
+        </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>Italian Music in Dakota</title>
                     <date xml:id="dat1" cert="high" notBefore="1879" notAfter="1881">Between 1879 and 1881</date>
                     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and
@@ -72,6 +67,8 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
+            <change when="2022-06-03" who="#bb">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-07-27" who="#nhg">proofed</change>
             <change when="2016-01-14" who="#bb">updated list of staff in titleStmt; corrected miscellaneous attribute errors</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
@@ -94,10 +91,10 @@
                 <head rend="underline" type="main">
 <add place="supralinear" rend="insertion">Italian</add> Music in Dakota</head>
                 <byline rend="underline">By Walt Whitman</byline>
-                <note place="left" type="authorial">small type &#182;</note>
+                <note place="left" type="authorial">small type ¶</note>
                 <epigraph>
                     <p>
-<add place="inline" rend="unmarked">[</add>"The Seventeenth&#8212;the
+<add place="inline" rend="unmarked">[</add>"The Seventeenth—the
                         finest Regimental Band I ever heard."<add rend="unmarked" place="inline">]</add>
 </p>
                 </epigraph>
@@ -106,8 +103,8 @@
                     <l>Through the soft evening air, enwinding all,</l>
                     <l>Rocks, woods, fort, cannon, pacing sentries, <add place="supralinear" rend="insertion">endless wilds,</add>
 </l>
-                    <del rend="overstrike"> <l>Ray'd in the limpid, yellow slanting 
-                            <lb/>sundown,</l></del>
+                    <delSpan spanTo="#d1" rend="overstrike"/> <l>Ray'd in the limpid, yellow slanting 
+                            <lb/>sundown,</l><anchor xml:id="d1"/>
                     <l>
 <subst>
                             
@@ -115,7 +112,7 @@
                                                         
     <add place="supralinear" rend="unmarked" seq="2">In</add>
                                                     </subst> dulcet strains, in flutes' &amp; cornets' notes,</l>
-                    <del rend="overstrike"><add place="interlinear" rend="unmarked"><l>Ray'd in the limpid, yellow, slanting sundown;</l></add></del>
+                    <delSpan spanTo="#d2" rend="overstrike"/><addSpan spanTo="#a1" place="interlinear" rend="unmarked"/><l>Ray'd in the limpid, yellow, slanting sundown;</l><anchor xml:id="a1"/><anchor xml:id="d2"/>
                     <l>Electric, pensive, turbulent, artificial,</l>
                     <pb facs="yal.00003.002.jpg" xml:id="leaf001v" type="verso"/>
                     <note type="archival" resp="#h1" place="top">H.G. 194</note>
@@ -123,22 +120,22 @@
                     <l>(Yet <add place="supralinear" rend="insertion">strangely</add> fitting
                             thee, O <subst>
                                 
-                                <del rend="overwrite" seq="1">n</del><add place="over" rend="overwrite" seq="2">N</add></subst>ature, even here&#8212;<choice>
+                                <del rend="overwrite" seq="1">n</del><add place="over" rend="overwrite" seq="2">N</add></subst>ature, even here—<choice>
                                     <orig>mean-<lb/>ings</orig>
 <reg>meanings</reg>
 </choice>
 
                          unknown before,
                     </l>
-                    <l>Subtler than ever&#8212;more harmony&#8212;as if born
-                        <lb/>here&#8212;related here,
+                    <l>Subtler than ever—more harmony—as if born
+                        <lb/>here—related here,
                     </l>
                     <gap reason="cut away"/>
                     <milestone unit="glued"/>
                     <l>Not to the <choice>
 <sic>citys</sic>
 <corr>city's</corr>
-</choice> frescoed rooms&#8212;not
+</choice> frescoed rooms—not
                             to the
                         <lb/>audience of the opera house,
                     </l>
@@ -150,7 +147,7 @@
 
                     </l>
                     <l>
-<hi rend="underline">Sonnambula's</hi> innocent love&#8212;trios,
+<hi rend="underline">Sonnambula's</hi> innocent love—trios,
                             with 
                         <lb/>
 <hi rend="underline">Norma's</hi> anguish,
@@ -161,7 +158,7 @@
 </choice> c<subst><del rend="overwrite" seq="1"><unclear cert="medium" resp="#aj" reason="illegible">o</unclear></del><add place="over" rend="overwrite" seq="2">h</add></subst>orus Poliuto;)</l>
                     <milestone unit="glued"/>
                     <l>Ray'd in the limpid, yellow slanting sundown,</l>
-                    <l>Music&#8212;Italian music in Dakota.</l>
+                    <l>Music—Italian music in Dakota.</l>
                 </lg>
                 <milestone unit="glued"/>
                 <note place="interlinear" type="authorial" rend="circled">blank line</note>
@@ -180,7 +177,7 @@
                     </l>
                     <l>
 <del rend="erasure">(</del>Acknowledging rapport, however
-                        far&#8209;removed,</l>
+                        far‑removed,</l>
                     <l>
 <del rend="overstrike">(</del>As some old root, or soil of earth,
                             its

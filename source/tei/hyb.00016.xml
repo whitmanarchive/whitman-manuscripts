@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="hyb.00016">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hyb.00016">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main" rend="bracketed">September 11, 12, 13&#8212;1850</title>
+                <title level="m" type="main" rend="bracketed">September 11, 12, 13—1850</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -15,7 +13,9 @@
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -26,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>hyb.00016</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,24 +38,24 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>hyb.00016</idno></publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">This manuscript, consisting of two leaves, features an autobiographical account of Whitman's visit to his birthplace in Huntington, Long Island.  Whitman mentions this visit in "The Old Whitman and Van Velsor Cemeteries," an 1881 recollection published in <hi rend="italic">Specimen Days</hi>. Although Whitman probably wrote the manuscript during or shortly after the visit in September 1850, he returned to it as late as 1883, adding a note at the end of the piece about the death of his stepuncle (see Edward Grier, <hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:4).  At some point, the leaves of the manuscript became separated, and the first leaf wound up at the University of Virginia and the second at Duke University. We have presented them here as one object. </note>
             </notesStmt>
             <sourceDesc>               
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>"Walt Whitman: A description of His Birthplace..."</title>        
                     <idno type="callno">Box 2, Folder 18, #5604</idno>
                     <date xml:id="dat1" notBefore="1850-09-13" notAfter="1883" cert="high">Between 1850 and 1883</date>
                     <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author sameAs="#ww">Whitman, Walt</author>
+                    
                     <title>Mother's family lived...</title>
                     <idno type="callno">MS f 128</idno>
-                    <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &#038; Manuscript Library, Duke University</orgName>
+                    <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
             </sourceDesc>
@@ -69,9 +69,10 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2017-02-08" who="#km">slightly edited wording of date note</change>
-<change when="2016-08-31" who="#nhg">corrected</change>
+            <change when="2016-08-31" who="#nhg">corrected</change>
             <change when="2016-08-30" who="#nhg">checked, corrected</change>
             <change when="2016-08-10" who="#km">checked</change>
             <change when="2014-11-07" who="#nhg">checked, corrected</change>
@@ -84,29 +85,29 @@
             <!-- The first leaf is held at University of Virginia -->
             <pb xml:id="leaf001r" facs="uva.00123.001.jpg" type="recto"/>
             
-            <dateline><date notBefore="1850-09-11" notAfter="1850-09-13"><handShift new="#h1"/>September 11, 12, 13&#8212;1850</date>.</dateline>
+            <dateline><date notBefore="1850-09-11" notAfter="1850-09-13"><handShift new="#h1"/>September 11, 12, 13—1850</date>.</dateline>
             
-            <p>These three days, we have been on a visit, (father and myself,) to West Hills, the old native place.&#8212;We went up in the L. I. RR., and so in the stage to Woodbury&#8212;then on foot, along the turnpike and "across lots" to Colyer's.&#8212;I plumped in the kitchen door.&#8212;Aunt S. <add rend="insertion" place="supralinear">(father's sister)</add> was standing there&#8212;I knew her at once, although it is very many years since I saw her, and she looked very old and bent. (She is <subst><del rend="overstrike" seq="1" hand="#h2">72</del> <add rend="insertion" place="supralinear" seq="2"><handShift new="#h2"/>74</add></subst><handShift new="#h1"/> years old.)&#8212;Hannah <add rend="insertion" place="supralinear">her daughter,</add> came in, after a moment. The<subst><del rend="overwrite" seq="1"><gap reason="illegible" quantity="2" unit="letters"/></del><add rend="overwrite" place="over" seq="2">ir</add></subst> appearance was peculiar; but both H. and Aunt S. made us heartily welcome&#8212;after the latter recovered from a momentary shock and surprise; for she didn't at first know what to think of it.&#8212;</p>
+            <p>These three days, we have been on a visit, (father and myself,) to West Hills, the old native place.—We went up in the L. I. RR., and so in the stage to Woodbury—then on foot, along the turnpike and "across lots" to Colyer's.—I plumped in the kitchen door.—Aunt S. <add rend="insertion" place="supralinear">(father's sister)</add> was standing there—I knew her at once, although it is very many years since I saw her, and she looked very old and bent. (She is <subst><del rend="overstrike" seq="1" hand="#h2">72</del> <add rend="insertion" place="supralinear" seq="2"><handShift new="#h2"/>74</add></subst><handShift new="#h1"/> years old.)—Hannah <add rend="insertion" place="supralinear">her daughter,</add> came in, after a moment. The<subst><del rend="overwrite" seq="1"><gap reason="illegible" quantity="2" unit="letters"/></del><add rend="overwrite" place="over" seq="2">ir</add></subst> appearance was peculiar; but both H. and Aunt S. made us heartily welcome—after the latter recovered from a momentary shock and surprise; for she didn't at first know what to think of it.—</p>
             
-            <p>Richard Colyer died about five years ago.&#8212;Hannah, the widow, is <subst><del rend="overwrite" seq="1">s</del><add rend="overwrite" place="over" seq="2">c</add></subst>ertainly a clever hearted creature; she made us very welcome, and was evidently sincere about it.&#8212;Hard work, losing her husband, and some troubles among her children, have made her a little vaporish, and she complains of bad health.&#8212;</p>
+            <p>Richard Colyer died about five years ago.—Hannah, the widow, is <subst><del rend="overwrite" seq="1">s</del><add rend="overwrite" place="over" seq="2">c</add></subst>ertainly a clever hearted creature; she made us very welcome, and was evidently sincere about it.—Hard work, losing her husband, and some troubles among her children, have made her a little vaporish, and she complains of bad health.—</p>
             
-            <p>Andrew, the eldest son, is a good natured young man, and good-hearted as the world goes.&#8212;He married some three years since, but is separated from his wife.&#8212;His little boy is with him&#8212;being withdrawn from its mother.&#8212;</p>
+            <p>Andrew, the eldest son, is a good natured young man, and good-hearted as the world goes.—He married some three years since, but is separated from his wife.—His little boy is with him—being withdrawn from its mother.—</p>
             
-            <p>Charles, the other son is a boy of 16.&#8212;Harriet married Edgar Hewlett&#8212;he now lives <add rend="insertion" place="supralinear"><handShift new="#h2"/>(he died <date when="1853-09">Sept '53.</date>)</add> <handShift new="#h1"/>in New York&#8212;drives cart.&#8212;Sarah married Lemuel Carll&#8212;he lives on his father's place, at the Hills. <add rend="unmarked" place="supralinear"><handShift new="#h2"/>In the summer of <date when="1851">'51</date>, he bought a farm, <del rend="overstrike" hand="#h2">and</del> at Woodbury and moved on it.</add></p>
+            <p>Charles, the other son is a boy of 16.—Harriet married Edgar Hewlett—he now lives <add rend="insertion" place="supralinear"><handShift new="#h2"/>(he died <date when="1853-09">Sept '53.</date>)</add> <handShift new="#h1"/>in New York—drives cart.—Sarah married Lemuel Carll—he lives on his father's place, at the Hills. <add rend="unmarked" place="supralinear"><handShift new="#h2"/>In the summer of <date when="1851">'51</date>, he bought a farm, <del rend="overstrike" hand="#h2">and</del> at Woodbury and moved on it.</add></p>
             
-            <p><handShift new="#h1"/>Aunt S. is indeed an original.&#8212;She has very little regard for dress; but is craving for money and property.&#8212;She has always shown a masculine, determined mind.&#8212;Soon after her marriage, (<add rend="insertion" place="supralinear">to one</add> Walters,) her husband took to drink; she separated from him, and
+            <p><handShift new="#h1"/>Aunt S. is indeed an original.—She has very little regard for dress; but is craving for money and property.—She has always shown a masculine, determined mind.—Soon after her marriage, (<add rend="insertion" place="supralinear">to one</add> Walters,) her husband took to drink; she separated from him, and
                 
                 <pb xml:id="leaf001v" facs="uva.00123.002.jpg" type="verso"/>
                 
-                would never live with him afterward.&#8212;She had the daughter, Hannah.&#8212;Coming to Brooklyn as house-keeper, after a few years she returned with a singularly large sum of money; she and the daughter and <add rend="insertion" place="supralinear">the latter's husband</add> Richard Colyer settled down in the farm and were industrious and made money.&#8212;</p>
+                would never live with him afterward.—She had the daughter, Hannah.—Coming to Brooklyn as house-keeper, after a few years she returned with a singularly large sum of money; she and the daughter and <add rend="insertion" place="supralinear">the latter's husband</add> Richard Colyer settled down in the farm and were industrious and made money.—</p>
             
-            <p>Walters died some four or five years ago, at the house of his brother, James Walters, the carriage maker, in Brooklyn.&#8212;</p>
+            <p>Walters died some four or five years ago, at the house of his brother, James Walters, the carriage maker, in Brooklyn.—</p>
             
-            <p>West Hills is a romantic and beautiful spot; it is the most hilly and elevated part of Long Island.&#8212;The "high hill" affords an extensive and pleasant view.&#8212;</p>
+            <p>West Hills is a romantic and beautiful spot; it is the most hilly and elevated part of Long Island.—The "high hill" affords an extensive and pleasant view.—</p>
             
             <p>I went down to the old native place, it is indeed a fine situation, and it seemed familiar enough to me, for I remembered every part, just as well as though only a day had passed since the times when I used to scoot around there a youngster</p>
             
-            <p>The old grave yard, on the Hill has some new graves.&#8212;The Whitmans must have been a race of <del rend="overstrike">some</del> note; there are I should say as many as fifty graves there&#8212;and it is only their private family burying ground.&#8212;Besides this, many <add rend="insertion" place="supralinear">others</add> of them must have been buried at Huntington village, for I remember seeing numerous old grave stones that were brought from their graves, at the time of the Revolutionary war&#8212;for the British encamped on the Huntington hill, and took away grave stones for ovens <gap reason="illegible" quantity="1" unit="word"/> and hearths, &#038;c.&#8212;The stones I saw were brought away, lest they might be despoiled, and somehow, when the war passed over, they were never returned.</p>
+            <p>The old grave yard, on the Hill has some new graves.—The Whitmans must have been a race of <del rend="overstrike">some</del> note; there are I should say as many as fifty graves there—and it is only their private family burying ground.—Besides this, many <add rend="insertion" place="supralinear">others</add> of them must have been buried at Huntington village, for I remember seeing numerous old grave stones that were brought from their graves, at the time of the Revolutionary war—for the British encamped on the Huntington hill, and took away grave stones for ovens <gap reason="illegible" quantity="1" unit="word"/> and hearths, &amp;c.—The stones I saw were brought away, lest they might be despoiled, and somehow, when the war passed over, they were never returned.</p>
             
             <p>The Whitmans appear to have been mostly of the Quaker notion, concerning 
                 
@@ -114,23 +115,23 @@
                 <pb xml:id="leaf002r" facs="duk.00205.002.jpg" type="recto"/>
                 
                 
-                tomb stones; for on the old hill, at the native place, among all the numerous graves, there is not one inscribed grave stone, except Mahala Whitman, and I think I have heard that that was put up at the instance of a young man who was to have been married to her.&#8212;</p>
+                tomb stones; for on the old hill, at the native place, among all the numerous graves, there is not one inscribed grave stone, except Mahala Whitman, and I think I have heard that that was put up at the instance of a young man who was to have been married to her.—</p>
             
-            <p>The old house in which my father's grand parents lived, (and their parents <subst><del rend="overstrike" seq="1">probably</del> <add rend="unmarked" place="supralinear" seq="2">before them,</add></subst>) is still partly standing&#8212;a ponderous frame; it is now turned into a carriage house and granary.&#8212;The largest trees near it, that I remember, appear to have been cut down.&#8212;</p>
+            <p>The old house in which my father's grand parents lived, (and their parents <subst><del rend="overstrike" seq="1">probably</del> <add rend="unmarked" place="supralinear" seq="2">before them,</add></subst>) is still partly standing—a ponderous frame; it is now turned into a carriage house and granary.—The largest trees near it, that I remember, appear to have been cut down.—</p>
             
-            <p>The Whitmans were among the earliest settlers of that part of Long Island&#8212;West Hills, township of Huntington, county of Suffolk, New York.&#8212;They must have originally come from <subst><del rend="overwrite" seq="1">the</del><add rend="overwrite" place="over" seq="2">some</add></subst> rural district of England&#8212;a stalwart, massive, heavy, long-lived race.&#8212;They appear to have been always of democratic and heretical tendencies.&#8212;Some of them are yet represented by descendants in New England</p>
+            <p>The Whitmans were among the earliest settlers of that part of Long Island—West Hills, township of Huntington, county of Suffolk, New York.—They must have originally come from <subst><del rend="overwrite" seq="1">the</del><add rend="overwrite" place="over" seq="2">some</add></subst> rural district of England—a stalwart, massive, heavy, long-lived race.—They appear to have been always of democratic and heretical tendencies.—Some of them are yet represented by descendants in New England</p>
             
-            <p>My father's grandfather was quite a large territorial owner in that part of Long Island, and also on the southern shore of the town.&#8212;They all espoused with ardor the side of the "rebellion" in 76.&#8212;</p>
+            <p>My father's grandfather was quite a large territorial owner in that part of Long Island, and also on the southern shore of the town.—They all espoused with ardor the side of the "rebellion" in 76.—</p>
             
-            <p>I remember when a boy hearing grandmother Whitman tell about the times of the revolutionary war.&#8212;The British had full swing over Long Island, and foraged every where, and committed the most horrible excesses&#8212;enough to make one's blood boil even to hear of now.&#8212;My father's father I never saw.&#8212;</p>
+            <p>I remember when a boy hearing grandmother Whitman tell about the times of the revolutionary war.—The British had full swing over Long Island, and foraged every where, and committed the most horrible excesses—enough to make one's blood boil even to hear of now.—My father's father I never saw.—</p>
             
             <pb xml:id="leaf002v" facs="duk.00205.001.jpg" type="verso"/>
             
-            <p>Mother's family lived only two or three miles from West Hills&#8212;on a solitary <del rend="overstrike">but</del> picturesque road, that wound up from Cold Spring Harbor.&#8212;Her father was Major <space dim="horizontal"/> Van Velsor, and her mother's name Naomi Williams.&#8212;<add rend="insertion" place="supralinear"><handShift new="#h2"/>Capt. Williams had his wife, her parents, fine old couple, exceedingly generous&#8212;</add><handShift new="#h1"/> I remember them both <add rend="insertion" place="supralinear"><handShift new="#h3"/>(my mother's parents)</add> <handShift new="#h1"/>very well. She was a mild, gentle, and sweet tempered woman, fond of children&#8212;remarkably generous and hospitable in disposition&#8212;a good wife and mother&#8212;In dress she was rather Quakerish.&#8212;Her mother<add rend="unmarked" place="inline"><handShift new="#h2"/>'s</add> <add rend="lasso" place="supralinear"><handShift new="#h4"/>(my great grandmother's)</add> <add rend="insertion" place="supralinear"><handShift new="#h2"/>maiden name</add> <handShift new="#h1"/>was Mary Woolley, <add rend="unmarked" place="interlinear">and her father Capt: Williams, was owner of a vessel that sailed between New York and Florida.</add> Major Van Velsor was a good specimen of a hearty, solid, fat old gentleman, on good terms with the world, and who liked his ease.&#8212;For over forty years, he drove a stage and market wagon from his farm to Brooklyn ferry, where he used to put up at Smith &#38; Wood's old tavern on the west side of the street, <add rend="insertion" place="supralinear"><handShift new="#h4"/>near Fulton ferry.</add><handShift new="#h1"/>&#8212;He was wonderfully regular in these weekly trips; and in those old fashioned times, people could almost tell the time of day, by his stage passing along the road&#8212;so punctual was he.&#8212;I have been up and down with him many times: I well remember how sick the smell of the lampblack and oil with which the canvass covering of the stage was painted, would make me.&#8212;</p>
+            <p>Mother's family lived only two or three miles from West Hills—on a solitary <del rend="overstrike">but</del> picturesque road, that wound up from Cold Spring Harbor.—Her father was Major <space dim="horizontal"/> Van Velsor, and her mother's name Naomi Williams.—<add rend="insertion" place="supralinear"><handShift new="#h2"/>Capt. Williams had his wife, her parents, fine old couple, exceedingly generous—</add><handShift new="#h1"/> I remember them both <add rend="insertion" place="supralinear"><handShift new="#h3"/>(my mother's parents)</add> <handShift new="#h1"/>very well. She was a mild, gentle, and sweet tempered woman, fond of children—remarkably generous and hospitable in disposition—a good wife and mother—In dress she was rather Quakerish.—Her mother<add rend="unmarked" place="inline"><handShift new="#h2"/>'s</add> <add rend="lasso" place="supralinear"><handShift new="#h4"/>(my great grandmother's)</add> <add rend="insertion" place="supralinear"><handShift new="#h2"/>maiden name</add> <handShift new="#h1"/>was Mary Woolley, <add rend="unmarked" place="interlinear">and her father Capt: Williams, was owner of a vessel that sailed between New York and Florida.</add> Major Van Velsor was a good specimen of a hearty, solid, fat old gentleman, on good terms with the world, and who liked his ease.—For over forty years, he drove a stage and market wagon from his farm to Brooklyn ferry, where he used to put up at Smith &amp; Wood's old tavern on the west side of the street, <add rend="insertion" place="supralinear"><handShift new="#h4"/>near Fulton ferry.</add><handShift new="#h1"/>—He was wonderfully regular in these weekly trips; and in those old fashioned times, people could almost tell the time of day, by his stage passing along the road—so punctual was he.—I have been up and down with him many times: I well remember how sick the smell of the lampblack and oil with which the canvass covering of the stage was painted, would make me.—</p>
             
-            <p>After <add rend="insertion" place="supralinear"><handShift new="#h4"/>my own</add> <handShift new="#h1"/>grandmother died, in <!-- I have a theory on how this substitution went: I think Whitman originally wrote "1826"; then lightly crossed out the "2" in pencil and wrote "?3" above it, also in pencil; then, at a later time, when he was making additions in a darker black ink, he came back and re-wrote the "2" over the original "2," but without crossing out the "?3" That's different than the order that Grier gives, but it seems to make more sense to me. KM -->18<subst><del rend="overstrike" seq="1" hand="#h2">2</del><add rend="unmarked" place="supralinear" seq="2"><handShift new="#h2"/>?3</add><add rend="overwrite" place="over" seq="3"><handShift new="#h4"/>2</add></subst><handShift new="#h1"/>6 the old man married again&#8212;<del rend="overstrike">but did not make a very good investment.&#8212;</del>He had a son, Alonzo, by this second marriage&#8212;now, (Sept. 1850,) in California. He is a good young man, I think, from what I know of him.&#8212;</p>
+            <p>After <add rend="insertion" place="supralinear"><handShift new="#h4"/>my own</add> <handShift new="#h1"/>grandmother died, in <!-- I have a theory on how this substitution went: I think Whitman originally wrote "1826"; then lightly crossed out the "2" in pencil and wrote "?3" above it, also in pencil; then, at a later time, when he was making additions in a darker black ink, he came back and re-wrote the "2" over the original "2," but without crossing out the "?3" That's different than the order that Grier gives, but it seems to make more sense to me. KM -->18<subst><del rend="overstrike" seq="1" hand="#h2">2</del><add rend="unmarked" place="supralinear" seq="2"><handShift new="#h2"/>?3</add><add rend="overwrite" place="over" seq="3"><handShift new="#h4"/>2</add></subst><handShift new="#h1"/>6 the old man married again—<del rend="overstrike">but did not make a very good investment.—</del>He had a son, Alonzo, by this second marriage—now, (Sept. 1850,) in California. He is a good young man, I think, from what I know of him.—</p>
             
-            <add rend="unmarked" place="bottom"><handShift new="#h4"/><p>He <add rend="insertion" place="supralinear">has</add> since returned from California with his "pile." <!--This add was presumably made later, in 1883--><add rend="unmarked" place="infralinear">went into business in New York, and died <del rend="overstrike" hand="#h4">in</del> at Newark, N.J. July 22, 1883</add></p></add>
+            <addSpan spanTo="#a1" rend="unmarked" place="bottom"/><p><handShift new="#h4"/>He <add rend="insertion" place="supralinear">has</add> since returned from California with his "pile." <!--This add was presumably made later, in 1883--><add rend="unmarked" place="infralinear">went into business in New York, and died <del rend="overstrike" hand="#h4">in</del> at Newark, N.J. July 22, 1883</add></p><anchor xml:id="a1"/>
         </body>
     </text>
 </TEI>

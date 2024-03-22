@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00088">
-   <relations>
-      <work ref="xxx.00048" cert="low">
-         <p>Words and imagery from this manuscript are similar to language in the first poem in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, later titled "Song of Myself": "the suns I see and the suns I cannot see are in their place" and "And of the threads that connected the stars—and of wombs, and of the fatherstuff" (1855, pp. 24, 29).</p>
-      </work>
-   </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00088">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -19,6 +15,8 @@
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="jo">John Owen Havard</persName>
                <persName xml:id="cf">Chris Forster</persName>
+               <persName xml:id="as">Ashlyn Stewart</persName>
+               <persName xml:id="km">Kevin McMullen</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -30,7 +28,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>nyp.00088</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -42,13 +40,16 @@
             <availability>
                <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>nyp.00088</idno></publicationStmt>
          <notesStmt>		
             <note type="project" target="dat1">Whitman probably drafted this manuscript between 1850 and 1855, as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. Words and imagery from the manuscript are similar to lines in the first poem of that edition, eventually titled "Song of Myself." The manuscript has been pasted down, so an image of the back of the leaf is unavailable.</note>
+               <note type="work_relations" target="xxx.00048" cert="low">
+                  <p>Words and imagery from this manuscript are similar to language in the first poem in the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, later titled "Song of Myself": "the suns I see and the suns I cannot see are in their place" and "And of the threads that connected the stars—and of wombs, and of the fatherstuff" (1855, pp. 24, 29).</p>
+               </note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>I heat the hot cores within</title>
                <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
                <idno type="callno">b19877231</idno> 
@@ -58,6 +59,8 @@
          </sourceDesc> 
       </fileDesc>
       <revisionDesc>
+         <change when="2022-06-17" who="#km">updated relations encoding</change>
+         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#smb" when="2019-10-19">corrected transcription, updated mss notes</change>
          <change who="#smb" when="2019-03-15">final check, corrected</change>
          <change who="#cah" when="2018-11-06">checked and corrected file, added corresps</change>

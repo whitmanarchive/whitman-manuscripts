@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00523">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title level="m" type="main">Supplement Hours</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="al">Ashley Lawson</persName> <persName xml:id="tj">Tim Jackson</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>
+                    <date>2010</date>
+                </edition>
+            </editionStmt>
+            
+            <publicationStmt>
+                <idno>loc.00523</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>          
+                    <title>First paying</title> 
+                    <!--     THE DATE INFORMATION IN THE NEXT LINE WILL BE ADDED BY AN EDITOR     -->
+                    <!--<date xml:id="dat1" cert="****" when="/"> </date>-->
+                    
+                    <idno type="callno">MSS45443 Box 1</idno>
+                    <orgName>The Thomas Biggs Harned Collection of the Papers of Walt Whitman: A Register of His Papers in the Library of Congress, 1842-1937</orgName>
+                    <note type="project">Transcribed from our own digital image of the original manuscript.</note>
+                    <relatedItem type="text" target="loc.00523"/>
+                    <relatedItem type="document" target="wwa.00136"/>
+                </bibl>
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2016-04-08" who="#nhg">separated verso into separate file</change>
+            <change when="2011-04-20" who="#tj">Checked, corrected</change>
+            <change when="2010-07-15" who="#al">Transcribed and encoded</change>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text type="manuscript">
+        
+        <body>
+            
+   
+           <pb xml:id="leaf001v" facs="loc.02804.002_large.jpg" type="verso"/> 
+            
+            <note type="authorial" place="top">Now</note> 
+            
+           
+               
+                    <lg type="poem">
+                        <head type="main-authorial" rend="underline">Supplement Hours <del rend="overstrike">of a half-Paralytic</del></head> 
+                        <l>Sane <add place="supralinear" rend="insertion"><del rend="overstrike">Now</del> for easy</add> simple
+                            <subst>
+                                <del rend="overstrike" seq="1">easy</del>
+                                <add place="supralinear" rend="insertion" seq="2">culminating</add>
+                            </subst>
+                            hours&#8212;<del rend="overstrike">(after the flush, a lull, a supplement.)</del></l> 
+                        <l><del rend="overstrike">Only the day and night&#8212;only the sun and stars</del></l>
+                        <l><del rend="overstrike"><add place="supralinear" rend="unmarked">? Now for</add></del> Hours of the Indian summer of my life&#8212;(After <add place="supralinear" rend="insertion">the flush,
+                        </add> a lull,</l>
+                        <l><del rend="overstrike">After the flush, a lull&#8212;away</del> <add rend="unmarked" place="inline">Away</add> from Art&#8212;away from books <add place="supralinear" rend="insertion">the lesson learn'd</add></l>
+                        <l><gap reason="torn away" extent="unk"/>Now for the <add place="supralinear" rend="insertion">sun and stars&#8212;now for the</add> Day and Night&#8212;<del rend="overstrike">&#8212;now for the
+                        Sun and Stars!</del></l>
+                        <l><gap reason="torn away" extent="unk"/> Now for the air, the water and the grass!</l>
+                    </lg>
+              
+         
+            <pb xml:id="leaf001r" facs="loc.02804.001_large.jpg" type="recto"/>
+        
+        </body>
+    </text>
+</TEI>
+
+
+
+

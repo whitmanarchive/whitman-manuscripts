@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="bpl.00001">
-    <relations>
-        <work ref="xxx.00236" cert="high">
-            <p>"Out from Behind This Mask" was published first on <date when="1876-02-19">February 19, 1876</date>, in the New York <hi rend="italic">Tribune</hi> and, later that same year, in <hi rend="italic">Two Rivulets</hi>. The poem was written in response to an engraving by William J. Linton based on a photograph of Whitman taken by George C. Potter in about <date notBefore="1870" notAfter="1871">1871</date>.</p>  
-        </work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bpl.00001">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -24,6 +19,8 @@
                     <persName xml:id="jo">Jennifer Overkamp</persName>
                     <persName xml:id="kc">Kirsten Clawson</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
                 </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -37,7 +34,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>bpl.00001</idno> 
+                 
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -50,13 +47,16 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>bpl.00001</idno></publicationStmt>
             <notesStmt>
-                <note type="project" target="dat1">"Out from Behind This Mask" was published first on <date when="1876-02-19">February 19, 1876</date>, in the New York <hi rend="italic">Tribune</hi> and, later that same year, in <hi rend="italic">Two Rivulets</hi>. The poem was written in response to <!--add ref when gallery update is finished-->an engraving by William J. Linton based on a photograph of Whitman taken by George C. Potter in about <date notBefore="1870" notAfter="1871">1871</date>. This manuscript was probably composed in <date when="1876">1876</date>, shortly before the poem was published.</note>                      
+                <note type="project" target="dat1">"Out from Behind This Mask" was published first on <date when="1876-02-19">February 19, 1876</date>, in the New York <hi rend="italic">Tribune</hi> and, later that same year, in <hi rend="italic">Two Rivulets</hi>. The poem was written in response to <!--add ref when gallery update is finished-->an engraving by William J. Linton based on a photograph of Whitman taken by George C. Potter in about <date notBefore="1870" notAfter="1871">1871</date>. This manuscript was probably composed in <date when="1876">1876</date>, shortly before the poem was published.</note>              
+                    <note type="work_relations" target="xxx.00236" cert="high">
+                        <p>"Out from Behind This Mask" was published first on <date when="1876-02-19">February 19, 1876</date>, in the New York <hi rend="italic">Tribune</hi> and, later that same year, in <hi rend="italic">Two Rivulets</hi>. The poem was written in response to an engraving by William J. Linton based on a photograph of Whitman taken by George C. Potter in about <date notBefore="1870" notAfter="1871">1871</date>.</p>  
+                    </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author> 
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                     
                     <title>Out from Behind this Mask</title>
                     <date cert="high" notBefore="1875" notAfter="1876" xml:id="dat1">About 1876</date> 
                     <orgName xml:id="bpl">The Walt Whitman Collection, Boston Public Library</orgName>    
@@ -70,6 +70,8 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
+            <change when="2022-06-02" who="#km">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2017-04-05" who="#nhg">added verso image</change>
             <change when="2016-09-08" who="#nhg">proofed</change>
             <change when="2015-05-05" who="#kc">conversion to P5, checked</change>
@@ -102,37 +104,37 @@
                     <lb/>tain'd in me for me, in you for 
                     <lb/>you, in each for each, 
                 </l>
-                <l>(Tragedies, sorrows, songs&#8212;laughter and 
-                    <lb/>tears&#8212;O heaven! 
+                <l>(Tragedies, sorrows, songs—laughter and 
+                    <lb/>tears—O heaven! 
                 </l>
                 <l>The passionate, teeming play this <choice><orig>cur-</orig><reg>curtain</reg></choice>
                     <lb/>tain hid!) 
                 </l>
                 <l>This glaze of God's serenest, purest sky,</l>
                 <l>This film of Satan's seething pit,</l>
-                <l>This Soul's geography's map&#8212;this <choice><orig>lim-</orig><reg>limitless</reg></choice>
-                    <lb/>itless, small continent&#8212;this <choice><orig>sound-</orig><reg>soundless</reg></choice>
+                <l>This Soul's geography's map—this <choice><orig>lim-</orig><reg>limitless</reg></choice>
+                    <lb/>itless, small continent—this <choice><orig>sound-</orig><reg>soundless</reg></choice>
                     <lb/>less sea; 
                 </l>
                 <l>Out of the folded convolutions of this
                     <lb/>globe, 
                 </l>
                 <l>This subtler astronomic orb than sun
-                    <lb/>or moon&#8212;than Jupiter, Venus, Mars,
+                    <lb/>or moon—than Jupiter, Venus, Mars,
                 </l>
-                <l>This condensation of the Universe&#8212;nay, here
-                    <lb/>the real Universe&#8212;here the <hi rend="underline">Idea</hi>&#8212;all
+                <l>This condensation of the Universe—nay, here
+                    <lb/>the real Universe—here the <hi rend="underline">Idea</hi>—all
                     <lb/>in this mystic handful wrapt;
                 </l>
                 <l>From these to emanate, to you, whoe'er
                     <lb/>you are,
                 </l>
-                <l>These burin'd eyes&#8212;a Look.</l>
+                <l>These burin'd eyes—a Look.</l>
                 <closer>
                     <signed rend="right"><hi rend="underline">Walt Whitman</hi>.</signed>
                 </closer>
             </lg>
-            <pb facs="bpl.00001.002.jpg" xml:id="leaf001v" type="verso" />
+            <pb facs="bpl.00001.002.jpg" xml:id="leaf001v" type="verso"/>
         </body>
     </text>
-</TEI> 
+</TEI>

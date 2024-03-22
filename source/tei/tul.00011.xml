@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="tul.00011">
-    <relations>
-        <work ref="xxx.00048" cert="low"><p>The juxtaposition of gymnastics and saloons in this manuscript may relate to the following line from the poem that would later be titled "Song of Myself": "Through the gymnasium . . . . through the curtained saloon . . . . through the office or public hall" (1855, p. 37).  See also: "Logic and sermons never convince" (p. 33).</p></work>
-        <work ref="xxx.00119" cert="low"><p>This manuscript's reference to "manly exercises" may also relate to the following line in the poem eventually titled "A Song for Occupations": "Billiards and tenpins . . . . the ladders and hanging ropes of the gymnasium, and the
-            manly exercises" (1855, p. 63).</p></work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tul.00011">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,7 +17,7 @@
                     <persName xml:id="nk">Nick Krauter</persName>
                     <persName xml:id="lr">Lisa Renfro</persName>
                     <persName xml:id="kr">Katrina Robertson</persName>
-                </respStmt>
+                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -34,7 +29,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>tul.00011</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -46,13 +41,16 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>tul.00011</idno></publicationStmt>
             <notesStmt>
                 <note type="project" target="dat1">This manuscript was probably written in about 1855. The proposed poem about "a perfect school" is not known to have been published, although words and sentiments that appear in this manuscript also appeared in the poem that was eventually titled "Song of Myself."</note>
+                <note type="work_relations" target="xxx.00048" cert="low"><p>The juxtaposition of gymnastics and saloons in this manuscript may relate to the following line from the poem that would later be titled "Song of Myself": "Through the gymnasium . . . . through the curtained saloon . . . . through the office or public hall" (1855, p. 37).  See also: "Logic and sermons never convince" (p. 33).</p></note>
+                <note type="work_relations" target="xxx.00119" cert="low"><p>This manuscript's reference to "manly exercises" may also relate to the following line in the poem eventually titled "A Song for Occupations": "Billiards and tenpins . . . . the ladders and hanging ropes of the gymnasium, and the
+            manly exercises" (1855, p. 63).</p></note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>The three or four poets are well</title>
                     <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1855">Before or early in 1855</date>
                     <orgName xml:id="tul">Walt Whitman Ephemera, University of Tulsa</orgName>
@@ -64,6 +62,9 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2022-07-07" who="#as">updated transposition encoding</change>
+            <change when="2022-06-06" who="#bb">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2020-02-26" who="#bb">tweaked wording of date note</change>
             <change when="2017-10-24" who="#nhg">added inline relations information</change>
             <change when="2017-03-16" who="#nhg">edited editorial note and added work relations information</change>
@@ -103,18 +104,23 @@
                     <lb/>—large saloons adorned with
                     <lb/>pictures and sculpture—great ideas
                     <lb/>not taught in sermons but imbibed
-                    <lb/>as health is imbibed—<anchor xml:id="t1"/>
+                    <lb/>as health is imbibed—
 
-                    <lb/>—love—love of woman—all manly exercises
+                    <metamark function="transpose" target="#tr01"/><seg xml:id="tr02"><lb/>—love—love of woman—all manly exercises
                     <lb/>—riding, rowing—the greatest persons
                     <lb/>come—the president comes and
                     <lb/>the governors come—political economy
                     <lb/>—the American idea in all its
                     <lb/>amplitude and comprehensiveness—
                     <lb/>—grounds, gardens, flowers, grains—
-                    <lb/>cabinets—<transpose anchored="1" target="#t1">old history
-                            taught—</transpose>
-
+                        <lb/>cabinets—</seg><metamark function="transpose" target="#tr01"/><seg xml:id="tr01">old history
+                            taught—</seg>
+<listTranspose>
+    <transpose>
+        <ptr target="#tr01"/>
+        <ptr target="#tr02"/>
+    </transpose>
+</listTranspose>
                 </ab>
                 <note type="authorial">1833<lb/>
 <hi rend="underline">1776</hi>

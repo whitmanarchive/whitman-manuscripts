@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="upa.00006">
+   <relations>
+      <work ref="xxx.00259" cert="high"><p>These draft lines are similar to lines that appear in a long manuscript poem unpublished in Whitman's lifetime, titled "Pictures." The first several lines of "Pictures" were revised and published as "My Picture-Gallery" in <hi rend="italic">The American</hi> in October 1880. The poem was later published in <hi rend="italic">Leaves of Grass</hi> as part of the "Autumn Rivulets" cluster (1881, p. 310).</p></work>
+   </relations>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main" rend="bracketed">See there is Epicurus</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="bb">Brett Barney</persName>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="cf">Chris Forster</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2004</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno>upa.00006</idno>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="project" target="dat1">This manuscript and another to which it was originally joined ("Poem of Pictures"; uva.00289) are likely related to "Pictures," a long manuscript poem held at the Beinecke Library at Yale University that was probably written in the mid- to late-1850s. uva.00289 is also probably related to "Poem of Salutation," first published in the 1856 edition of <hi rend="italic">Leaves of Grass</hi> and later retitled "Salut au Monde!" Therefore, the date of this manuscript is probably before 1856. Whitman used lines from "Pictures" for the poem "My Picture-Gallery," first published in <hi rend="italic">Leaves of Grass</hi> (1881&#8211;1882).</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>[See there is Epicurus]</title>
+               <date cert="medium" notBefore="1850" notAfter="1856" xml:id="dat1">Between 1850 and 1856</date>
+               <idno type="callno">
+		
+</idno> 
+               <orgName xml:id="upa">Walt Whitman Collection, 1842&#8211;1957, Rare Book &amp; Manuscript Library, University of Pennsylvania</orgName> 
+               <note type="project">Transcribed from digital images of the original.</note>
+               <relatedItem xml:id="rel1" type="text" target="uva.00289"/>
+               <relatedItem type="document" target="wwa.00611"/>
+               <note type="project" target="#rel1">This manuscript was originally continuous with the manuscript "Poem of Pictures" (uva.00289), from which it was later cut, presumably by Whitman.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2017-03-01" who="#bb">revised date and date note to accord with other manuscripts related to "Pictures," especially uva.00289; added relatedItem note to connect this with uva.00289</change>
+         <change who="#bb" when="2019-08-16">checked; revised</change>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#cf" when="2005-08-08">transcribed; encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="upa.00006.001.jpg" xml:id="leaf001r" type="recto"/>
+
+         <lg type="poem">
+
+            <l><subst><del rend="overstrike" seq="1">I see,</del> 
+                     
+                           <del rend="overstrike" seq="3"><add place="supralinear" rend="insertion" seq="2">Behold</add></del> 
+                           <add place="supralinear" rend="unmarked" seq="4">See
+                     <add place="supralinear" rend="insertion">there</add> 
+                     <del rend="overstrike">in</del> is</add></subst> in <del rend="overstrike">Athens,</del> 
+                  <add place="supralinear" rend="insertion">Epicurus&#8212;see</add> the old philosoph<lb/>
+               in <subst>
+                        <del rend="overstrike" seq="1">his</del> 
+                        <add place="supralinear" rend="unmarked" seq="2">a</add> 
+                  </subst><del rend="overstrike"><add place="supralinear" rend="unmarked"><unclear reason="illegible" resp="#bb" cert="low">gr</unclear></add></del>
+porch teaching</l>
+            <l>His physique is <subst>
+                        <del rend="overstrike" seq="1">perfect</del>
+                        <add place="supralinear" rend="unmarked" seq="2"><metamark function="uncertainty">?</metamark> full</add> 
+                  </subst>
+—his voice<lb/>
+                  <del rend="overstrike">is</del> clear and <del rend="overstrike">mu</del> sonorous—<lb/>
+               
+                  <del rend="overstrike">his white hair the s</del> his <choice><orig>phre&#8209;</orig><reg>phrenology</reg></choice><lb/>
+               nology perfect,</l>
+            <l>He calls around <add place="supralinear" rend="unmarked">him</add>, his school of<lb/>
+               young men—he gathers them<lb/>
+               in the street, or <subst>
+                        <del rend="overstrike" seq="1">conducts</del> 
+                        <add place="supralinear" rend="unmarked" seq="2">saunters</add> 
+                  </subst>
+               <lb/>
+                  <add place="supralinear" rend="unmarked">with</add> them along the banks of<lb/>
+               the river, arguing,</l>
+         </lg>
+         <pb facs="upa.00006.002.jpg" xml:id="leaf001v" type="verso"/>
+      </body>
+   </text>
+</TEI>

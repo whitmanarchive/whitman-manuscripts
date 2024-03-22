@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00703">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00703">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -15,6 +13,7 @@
           <persName xml:id="nhg">Nicole Gray</persName>
           <persName xml:id="km">Kevin McMullen</persName>
           <persName xml:id="kmp">Kenneth M. Price</persName>
+          <persName xml:id="as">Ashlyn Stewart</persName>
         </respStmt>
         <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
         <sponsor>University of Iowa</sponsor>
@@ -26,7 +25,7 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <idno>duk.00703</idno>
+        
         <distributor>The Walt Whitman Archive</distributor>
         <address>
           <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,13 +36,13 @@
         </address>
         <availability>
           <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p></availability>
-      </publicationStmt>
+      <idno>duk.00703</idno></publicationStmt>
       <notesStmt>
         <note type="project" target="#dat1">Based on the handwriting, Edward Grier dates this manuscript to the 1850s (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:12). In the Walt Whitman Collection at Duke, this manuscript is bound with three other manuscript leaves and two newspaper clippings, also about members of Whitman's family. It is not clear, however, whether Whitman or a collector bound together the items, which are on different sizes and types of paper and were written at different times.</note>
       </notesStmt>
       <sourceDesc>
-        <bibl>
-          <author>Walt Whitman</author>          
+        <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
           <title>Isaac Joseph Stephen Jesse (my grandfather)...</title>
           <date xml:id="dat1" notBefore="1850" notAfter="1860" cert="medium">Between 1850 and 1860</date>          
           <idno type="callno">MS 120</idno>
@@ -53,8 +52,9 @@
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
+      <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
       <change when="2016-12-01" who="#kmp">blessed</change>
-<change when="2016-08-30" who="#nhg">checked, corrected</change>
+      <change when="2016-08-30" who="#nhg">checked, corrected</change>
       <change when="2016-08-10" who="#km">checked</change>
       <change when="2014-07-17" who="#nhg">transcribed, encoded</change>
     </revisionDesc>
@@ -86,7 +86,7 @@
       
       <ab>Hannah Brush, daughter of Tredwell Brush, &amp; <hi rend="underline"><space dim="horizontal"/></hi> <hi rend="underline">Platt</hi></ab>
       
-      <p>Her parents died when she was quite young, <del rend="overstrike">and</del> she <subst><del rend="overstrike" seq="1">went</del> <add rend="unmarked" place="supralinear" seq="2">was</add></subst> adopted by her aunt Vashti Platt&#8212;This latter must have been mistress of quite an estate, for grandmother related that she has seen fourteen little niggers, belonging to the family, eating their supper at evening, <add rend="insertion" place="supralinear">all at once</add> in the kitchen.</p>
+      <p>Her parents died when she was quite young, <del rend="overstrike">and</del> she <subst><del rend="overstrike" seq="1">went</del> <add rend="unmarked" place="supralinear" seq="2">was</add></subst> adopted by her aunt Vashti Platt—This latter must have been mistress of quite an estate, for grandmother related that she has seen fourteen little niggers, belonging to the family, eating their supper at evening, <add rend="insertion" place="supralinear">all at once</add> in the kitchen.</p>
       
       <p>Tredwell Brush, her brother, died a young man, unmarried.</p>
       

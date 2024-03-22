@@ -1,15 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00251">
-   <relations>
-      <work ref="xxx.00418" cert="high"> 
-         <p>The language, ideas, and structure of this manuscript most closely resemble lines 39-43 in "Debris," a cluster published in the <date when="1860">1860</date> edition of <hi rend="italic">Leaves of Grass</hi>: "I WILL take an egg out of the robin's nest in the orchard, / I will take a branch of gooseberries from the old bush in the garden, and go and preach to the world; / You shall see I will not meet a single heretic or scorner, / You shall see how I stump clergymen, and confound them, / You shall see me showing a scarlet tomato, and a white pebble from the beach" (1860, p. 424).</p>
-      </work>
-      <work ref="xxx.00048" cert="low">
-         <p>Language and ideas from this manuscript appear in other manuscripts that relate to the first poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, ultimately titled "Song of Myself." See in particular the lines: "The supernatural of no account . . . . myself waiting my time to be one of the supremes, / The day getting ready for me when I shall do as much good as the best, and be as prodigious, / Guessing when I am it will not tickle me much to receive puffs out of pulpit or print" (1855, p. 46).</p></work> 
-      <work ref="xxx.00119" cert="low">
-         <p>Based on its similarity to other manuscripts, this manuscript may relate to the following line from the poem eventually titled "A Song for Occupations": "When the sacred vessels or the bits of the eucharist, or the lath and plast, procreate as effectually as the young silversmiths or bakers, or the masons in their overalls" (1855, p. 64).</p>
-      </work> 
-   </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00251">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -23,6 +12,8 @@
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="cf">Chris Forster</persName>
                <persName xml:id="jr">Joshua Ranger</persName>
+               <persName xml:id="as">Ashlyn Stewart</persName>
+               <persName xml:id="bb">Brett Barney</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -34,7 +25,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>uva.00251</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -46,13 +37,22 @@
             <availability>
                <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>uva.00251</idno></publicationStmt>
          <notesStmt>
-            <note type="project" target="dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. In language, ideas, and structure, the manuscript most closely resembles lines 39&#8211;43 in "Debris," a poem published in the <date when="1860">1860</date> edition of <hi rend="italic">Leaves of Grass</hi>. However, the ideas and some of the language are also similar to other early manuscripts that relate to the first and second poems in the 1855 edition of <hi rend="italic">Leaves</hi>, ultimately titled "Song of Myself" and "A Song for Occupations" (see "<ref target="loc.00013.html">Priests</ref>," "<ref target="duk.00051.html">I know as well as</ref>," and "<ref target="duk.00261.html">[Fa]bles, traditions</ref>"). In his transcription of this manuscript, Richard Maurice Bucke combines it with "<ref target="nyp.00102.html">I ask nobody's faith</ref>," but the manuscripts do not appear to be continuous (<hi rend="italic">Notes and Fragments</hi> [London, Ontario: A. Talbot &amp; Co., printers, 1899], 25).</note>
+            <note type="project" target="dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. In language, ideas, and structure, the manuscript most closely resembles lines 39–43 in "Debris," a poem published in the <date when="1860">1860</date> edition of <hi rend="italic">Leaves of Grass</hi>. However, the ideas and some of the language are also similar to other early manuscripts that relate to the first and second poems in the 1855 edition of <hi rend="italic">Leaves</hi>, ultimately titled "Song of Myself" and "A Song for Occupations" (see "<ref target="loc.00013.html">Priests</ref>," "<ref target="duk.00051.html">I know as well as</ref>," and "<ref target="duk.00261.html">[Fa]bles, traditions</ref>"). In his transcription of this manuscript, Richard Maurice Bucke combines it with "<ref target="nyp.00102.html">I ask nobody's faith</ref>," but the manuscripts do not appear to be continuous (<hi rend="italic">Notes and Fragments</hi> [London, Ontario: A. Talbot &amp; Co., printers, 1899], 25).</note>
+            <note type="work_relations" target="xxx.00418" cert="high"> 
+         <p>The language, ideas, and structure of this manuscript most closely resemble lines 39-43 in "Debris," a cluster published in the <date when="1860">1860</date> edition of <hi rend="italic">Leaves of Grass</hi>: "I WILL take an egg out of the robin's nest in the orchard, / I will take a branch of gooseberries from the old bush in the garden, and go and preach to the world; / You shall see I will not meet a single heretic or scorner, / You shall see how I stump clergymen, and confound them, / You shall see me showing a scarlet tomato, and a white pebble from the beach" (1860, p. 424).</p>
+      </note>
+            <note type="work_relations" target="xxx.00048" cert="low">
+         <p>Language and ideas from this manuscript appear in other manuscripts that relate to the first poem in the <date when="1855">1855</date> edition of <hi rend="italic">Leaves of Grass</hi>, ultimately titled "Song of Myself." See in particular the lines: "The supernatural of no account . . . . myself waiting my time to be one of the supremes, / The day getting ready for me when I shall do as much good as the best, and be as prodigious, / Guessing when I am it will not tickle me much to receive puffs out of pulpit or print" (1855, p. 46).</p></note> 
+            <note type="work_relations" target="xxx.00119" cert="low">
+         <p>Based on its similarity to other manuscripts, this manuscript may relate to the following line from the poem eventually titled "A Song for Occupations": "When the sacred vessels or the bits of the eucharist, or the lath and plast, procreate as effectually as the young silversmiths or bakers, or the masons in their overalls" (1855, p. 64).</p>
+      </note> 
+   
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>Do I not prove myself</title>
                <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
                <idno type="callno">MSS 3829, Box-folder 1:88</idno> 
@@ -65,6 +65,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2022-06-06" who="#bb">updated relations encoding</change>
+         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2018-11-27">checked, corrected, added relations</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
          <change who="#cf" when="2004-11-08">Revised</change>
@@ -80,11 +82,11 @@
             <l xml:id="l01">Do I not prove myself?</l>
             <l xml:id="l02">I but <subst><del rend="overstrike" seq="1">show</del> <del rend="overstrike" seq="3"><add rend="insertion" place="supralinear" seq="2">lift</add></del> <add rend="unmarked" place="supralinear">show</add></subst> a scarlet tomato, or a sprig of parsley,<lb/>
             or a paving stone, or some seaweed,</l>
-            <l xml:id="l03">All acknowledge and admire&#8212;savans and synods as<lb/>
+            <l xml:id="l03">All acknowledge and admire—savans and synods as<lb/>
             much as the rest.</l>
             <l xml:id="l04">I meet not one heretic or unbeliever,</l>
             <l xml:id="l05">Could I do as well with the lore of the pulpits?<lb/>
-            &#8212;the whole or any part of it?</l>
+            —the whole or any part of it?</l>
          </lg>
          <pb facs="uva.00251.002.jpg" xml:id="leaf001v" type="verso"/>
       </body>

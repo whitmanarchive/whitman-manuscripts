@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00287">
-   <relations>
-      <work ref="xxx.00048" cert="low">
-         <p>This manuscript may be a continuation of "<ref target="duk.00018.html">There is no word in</ref>," which relates to lines in the 1855 edition of <hi rend="italic">Leaves of Grass</hi> that ultimately became sections 48 and 49 of the poem titled "Song of Myself."</p></work>
-
-      <work ref="xxx.00526" cert="low">
-         <p>Lines 1 and 3 of this manuscript are possibly related to the following passage in the preface to the 1855 <hi rend="italic">Leaves of Grass</hi>: "What do you think is the grandeur of storms and dismemberments
-and the deadliest battles and wrecks and the wildest fury of the elements and the power of the sea and the motion of nature and of the throes of human desires and dignity and hate and love?" (1855, p. vii).</p>
-      </work>
-      <work ref="xxx.00052" cert="low">
-         <p>Lines 1 and 3 of this manuscript are possibly related to lines in the fifth poem of the first edition of <hi rend="italic">Leaves of Grass,</hi> eventually titled "I Sing the Body Electric."</p>
-      </work>
-   </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00287">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -24,6 +12,7 @@ and the deadliest battles and wrecks and the wildest fury of the elements and th
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="kn">Katherine Ngaruiya</persName>
                <persName xml:id="bb">Brett Barney</persName>
+            <persName xml:id="as">Ashlyn Stewart</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -35,7 +24,7 @@ and the deadliest battles and wrecks and the wildest fury of the elements and th
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>uva.00287</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -47,13 +36,23 @@ and the deadliest battles and wrecks and the wildest fury of the elements and th
             <availability>
                <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>uva.00287</idno></publicationStmt>
          <notesStmt>
             <note type="project" target="dat1">Although they are written in free verse, both the conventional nature of these lines and the handwriting suggest an early date of inscription. This draft may be a continuation of "<ref target="duk.00018.html">There is no word in</ref>," suggesting it may relate to the poem eventually titled "Song of Myself." The lines, especially the first and third, also bear some resemblance to a passage of the preface to the 1855 <hi rend="italic">Leaves of Grass</hi> and to lines in what eventually became section 6 of "I Sing the Body Electric."</note>
+            <note type="work_relations" target="xxx.00048" cert="low">
+         <p>This manuscript may be a continuation of "<ref target="duk.00018.html">There is no word in</ref>," which relates to lines in the 1855 edition of <hi rend="italic">Leaves of Grass</hi> that ultimately became sections 48 and 49 of the poem titled "Song of Myself."</p></note>
+
+            <note type="work_relations" target="xxx.00526" cert="low">
+         <p>Lines 1 and 3 of this manuscript are possibly related to the following passage in the preface to the 1855 <hi rend="italic">Leaves of Grass</hi>: "What do you think is the grandeur of storms and dismemberments
+and the deadliest battles and wrecks and the wildest fury of the elements and the power of the sea and the motion of nature and of the throes of human desires and dignity and hate and love?" (1855, p. vii).</p>
+      </note>
+            <note type="work_relations" target="xxx.00052" cert="low">
+         <p>Lines 1 and 3 of this manuscript are possibly related to lines in the fifth poem of the first edition of <hi rend="italic">Leaves of Grass,</hi> eventually titled "I Sing the Body Electric."</p>
+      </note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>Man, before the rage of whose passions</title>
                <date cert="medium" notBefore="1845" notAfter="1855" xml:id="dat1">Before 1855</date>
                <idno type="callno">MSS 3829, Box-folder 1:88</idno> 
@@ -68,6 +67,8 @@ and the deadliest battles and wrecks and the wildest fury of the elements and th
          </handNotes>
       </profileDesc>
       <revisionDesc>
+         <change when="2022-06-06" who="#bb">updated relations encoding</change>
+         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#bb" when="2019-08-08">checked; added line relations</change>
          <change who="#nhg" when="2019-07-24">checked, corrected</change>
          <change who="#nhg" when="2019-01-16">proofed</change>

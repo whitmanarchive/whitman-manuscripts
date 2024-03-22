@@ -1,12 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
- 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="brn.00001">
-    <relations>
-        <work ref="xxx.00218" cert="high">
-            <p>A signed, dated, handwritten copy of "O Captain! My Captain!," which was published
-                first in <date when="1865">1865</date>.</p>
-        </work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="brn.00001">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,6 +16,8 @@
                     <persName xml:id="bb">Brett Barney</persName>
                     <persName xml:id="nk">Nick Krauter</persName>
                     <persName xml:id="hm">Heather Morton</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
                 </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -36,7 +31,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>brn.00001</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -49,7 +44,7 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>brn.00001</idno></publicationStmt>
             <notesStmt>
                 <note type="project" target="dat1">This manuscript is a signed, dated, handwritten copy of "O Captain! My Captain!," which was published
                     first in <date when="1865">1865</date>. The manuscript was recopied by Whitman,
@@ -58,10 +53,14 @@
                     an autograph copy of the poem. The manuscript is stored with a cover letter from Whitman to Hay, which requests payment of $22. A letter from Hay to Whitman dated <ref target="http://www.whitmanarchive.org/biography/correspondence/tei/brn.00007.html"><date when="1887-03-12">March 12,
                         1887</date></ref>, acknowledges receipt of the manuscript and sends
                     a check for thirty dollars in payment. An image of the verso of this manuscript is currently unavailable.</note>
+                    <note type="work_relations" target="xxx.00218" cert="high">
+                        <p>A signed, dated, handwritten copy of "O Captain! My Captain!," which was published
+                            first in <date when="1865">1865</date>.</p>
+                    </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title>O Captain! my Captain!</title>
                     <date xml:id="dat1" cert="high" when="1887-03-09">March 9, 1887</date>
                     <orgName xml:id="brn">John Hay Library, Brown University</orgName>
@@ -70,6 +69,8 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2022-06-02" who="#km">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-09-05" who="#nhg">proofed</change>
             <change when="2016-01-07" who="#nhg">reconciled, removed extra lbs</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
@@ -107,11 +108,11 @@
                 </lg>
                 <lg type="linegroup">
                     <l>O Captain! my Captain! rise up and hear the bells;</l>
-                    <l>Rise up&#8212;for you the flag is flung&#8212;for you the bugle
+                    <l>Rise up—for you the flag is flung—for you the bugle
                         trills,</l>
-                    <l>For you bouquets and ribbon'd wreaths&#8212;for you the
+                    <l>For you bouquets and ribbon'd wreaths—for you the
                             shores
-                        <lb/>a&#8209;crowding,
+                        <lb/>a‑crowding,
                     </l>
                     <l>For you they call, the swaying mass, their eager faces turning,</l>
                     <l rend="indented1">Here, Captain! dear father!</l>

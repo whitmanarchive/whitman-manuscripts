@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00017"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main" rend="bracketed">The real earthly catalogue divine, "complete"</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <editor>Matt Cohen</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="jh">Jeff Hill</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+                    <p>The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>          
+                <idno>loc.00017</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+                <!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK. IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
+                <note type="work_relations" target="xxx." cert="">
+                    <p></p>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author xml:id="ww">Whitman, Walt</author>
+                    <title resp="#wwa">[The real earthly catalogue divine, "complete"]</title>
+                    <!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
+       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. -->
+                    <date notBefore="" notAfter="" cert=""></date>
+                    <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#38;1919, Library of Congress, Washington, D.C.</orgName>
+                    <note>Transcribed from digital images of the original.</note>
+                    <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
+                    <relatedItem type="document" target="wwa.00041"/>
+                    <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+                <handNote medium="red ink" xml:id="h02" resp="#ww"/>
+                <handNote medium="blue ink" xml:id="h03" resp="#ww"/>
+                <handNote medium="pencil" xml:id="h04" resp="#ww"/>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2024-03-22" who="#jh">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="manuscript">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_js." type="recto"/>
+            <p>Sunday&#8212; &#8212;</p>
+            <p>Went</p>
+            <p>This forenoon <del rend="overstrike">(for a [gap])</del> <del rend="overstrike">went</del> to church.  A college professor, Rev. Dr. &#8212; gave us a sermon, <del rend="overstrike" seq="1">on</del> <add rend="insertion" place="above" seq="2">during</add> which I caught <del rend="overstrike">to</del> the above words: but the minister in his "catalogue" <del rend="overstrike">en[gap]</del> included only the good <del rend="overstrike">and</del> things, and entirely ignored what I <del rend="overstrike" seq="1">[gap]</del> <add rend="insertion" place="above" seq="2">name</add> in the following:</p>
+            <p><del rend="ovestrike">Not moral and the good&#8212;not</del></p>
+            <p><del rend="overstrike">Not the light alone but the dark</del></p>
+            <p><del rend="overstrike">Not you alone nor me alone, nor [gap], America's, nor north or south alone</del></p>
+            <p>The immoral and the dark, were not</p>
+            <p>The dying and the sick enclosed in this <add rend="insertion" place="above">huge</add> catalogue,</p>
+            <p>The countless, <add rend="insertion" place="above">(nineteen twentieths)</add> low and evil, savage and crude, were not</p>
+            <p><del rend="overstrike" seq="1">Gaunt,</del> <add rend="insertion" place="above" seq="2">The</add> crazed, prisoners in jails, the bad, the horrible,</p>
+            <p>Venom and filth serpents, <del rend="overstrike" seq="1">ravine,</del> <add rend="insertion" place="above" seq="2">the ravenous sharks,</add> <del rend="overstrike" seq="1">The slime and crawl,</del> <add rend="insertion" place="above" seq="2">the liars, thieves, the dissolute,</add></p>
+            <p>Newts, crawling things in slime and mud</p>
+            <p>The barren soil, the slug and dross and hideos rot, and slime</p>
+            <p>Then inside all [gap]</p>
+            <p>[gap]</p>
+            <pb xml:id="leaf001v" facs="loc_js.00232_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

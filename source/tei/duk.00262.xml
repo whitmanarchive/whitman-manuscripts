@@ -1,15 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00262">
-   <relations>
-      <work ref="xxx.00048" cert="high">
-         <p>The phrase "Dilation or Pride" appears in the first poem of the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, later titled "Song of Myself." With its description of the "mother of causes" as "Goodness or Love," this manuscript may also connect to the lines beginning "Afar down I see the huge first Nothing, the vapor from the nostrils of death, / I know I was even there . . . . I waited unseen and always, / And slept while God carried me through the lethargic mist" (1855, p. 50). Another manuscript draft of these lines begins with the words "Love is the cause of causes." See <ref target="/manuscripts/transcriptions/nyp.00129.html">nyp.00129</ref>.</p>
-      </work>
-      <work ref="xxx.00119" cert="low">
-         <p>This manuscript also bears some resemblance to the following line in the poem eventually titled "A Song for Occupations": "Happiness not in another place, but this place . . not for another hour, but this hour" (1855, p. 64).</p>
-      </work>
-      <work ref="xxx.00114" cert="low">
-         <p>The combination of "Love" and "Dilation or Pride" is also articulated in "Chants Democratic" (No. 4) in the 1860–1861 <hi rend="italic">Leaves of Grass</hi>, later titled "Our Old Feuillage": "Encircling all, vast-darting up and wide, the American Soul, with equal hemispheres, one Love, one Dilation or Pride."</p>
-      </work>
-   </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00262">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,9 +12,11 @@
                <resp>Transcription and encoding</resp>
                <persName xml:id="cah">Caitlin Henry</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
-               <persName xml:id="km">Kenneth M. Price</persName>
+               <persName xml:id="kmp">Kenneth M. Price</persName>
                <persName xml:id="fl">Farrah Lehman</persName>
                <persName xml:id="wh">Whitney Helms</persName>
+               <persName xml:id="as">Ashlyn Stewart</persName>
+               <persName xml:id="km">Kevin McMullen</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -36,7 +28,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>duk.00262</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -48,14 +40,23 @@
             <availability>
                <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>duk.00262</idno></publicationStmt>
          <notesStmt>
             <note type="project" target="dat1">This manuscript was likely written between <date notBefore="1850" notAfter="1855">1850 and 1855</date> when Whitman was composing his first (1855)
-               edition of <hi rend="italic">Leaves of Grass</hi>. Some of the words and phrases in the manuscript appear in the first poem in that edition, eventually titled "Song of Myself." The manuscript also bears some resemblance to a line in the 1855 poem eventually titled "A Song for Occupations."</note>      	
+               edition of <hi rend="italic">Leaves of Grass</hi>. Some of the words and phrases in the manuscript appear in the first poem in that edition, eventually titled "Song of Myself." The manuscript also bears some resemblance to a line in the 1855 poem eventually titled "A Song for Occupations."</note>
+               <note type="work_relations" target="xxx.00048" cert="high">
+                  <p>The phrase "Dilation or Pride" appears in the first poem of the 1855 edition of <hi rend="italic">Leaves of Grass</hi>, later titled "Song of Myself." With its description of the "mother of causes" as "Goodness or Love," this manuscript may also connect to the lines beginning "Afar down I see the huge first Nothing, the vapor from the nostrils of death, / I know I was even there . . . . I waited unseen and always, / And slept while God carried me through the lethargic mist" (1855, p. 50). Another manuscript draft of these lines begins with the words "Love is the cause of causes." See <ref target="/manuscripts/transcriptions/nyp.00129.html">nyp.00129</ref>.</p>
+               </note>
+               <note type="work_relations" target="xxx.00119" cert="low">
+                  <p>This manuscript also bears some resemblance to the following line in the poem eventually titled "A Song for Occupations": "Happiness not in another place, but this place . . not for another hour, but this hour" (1855, p. 64).</p>
+               </note>
+               <note type="work_relations" target="xxx.00114" cert="low">
+                  <p>The combination of "Love" and "Dilation or Pride" is also articulated in "Chants Democratic" (No. 4) in the 1860–1861 <hi rend="italic">Leaves of Grass</hi>, later titled "Our Old Feuillage": "Encircling all, vast-darting up and wide, the American Soul, with equal hemispheres, one Love, one Dilation or Pride."</p>
+               </note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>My Spirit sped back to the times when the earth was fiery mist</title>
                <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
                <idno type="callno">MS 4to 7 (Volume 7)</idno>
@@ -66,11 +67,13 @@
       </fileDesc>
       
       <revisionDesc>
+         <change when="2022-06-03" who="#km">updated relations encoding</change>
+         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#nhg" when="2019-10-10">added relation</change>
          <change who="#nhg" when="2018-10-26">checked, corrected</change>
          <change who="#cah" when="2018-08-30">Updated encoding</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#km" when="2007-04-30">Edited</change>
+         <change who="#kmp" when="2007-04-30">Edited</change>
          <change who="#fl" when="2007-04-03">Checked</change>
          <change who="#wh" when="2007-04-03">Encoded</change>
          <change who="#wh" when="2006-02-07">Transcribed</change>
@@ -111,18 +114,18 @@
             
             <l xml:id="l16">And said <del rend="overstrike">to me</del>, It is well, I am satisfied,</l>
             
-            <add rend="unmarked" place="interlinear"><l xml:id="l17">I behold the causes <add rend="unmarked" place="supralinear">yet.—</add> <del rend="overstrike">just the same</del> <del rend="overstrike"><add rend="unmarked" place="inline">there are</add></del> <del rend="overstrike"><add rend="unmarked" place="inline">eternally fresh—</add></del></l></add>
+            <addSpan spanTo="#a1" rend="unmarked" place="interlinear"/><l xml:id="l17">I behold the causes <add rend="unmarked" place="supralinear">yet.—</add> <del rend="overstrike">just the same</del> <del rend="overstrike"><add rend="unmarked" place="inline">there are</add></del> <del rend="overstrike"><add rend="unmarked" place="inline">eternally fresh—</add></del></l><anchor xml:id="a1"/>
             
             
-            <del rend="overstrike"><l xml:id="l18">I beheld Love also in the darkness,</l></del>
+            <delSpan spanTo="#d1" rend="overstrike"/><l xml:id="l18">I beheld Love also in the darkness,</l><anchor xml:id="d1"/>
             
             <l xml:id="l19">I beheld <subst><del rend="overstrike" seq="1">Goodness</del> <del rend="overstrike" seq="3"><add rend="insertion" place="supralinear" seq="2">Dilation</add></del> <del rend="overstrike" seq="5"><add rend="unmarked" place="supralinear" seq="4">Pride</add></del> <add rend="unmarked" place="supralinear" seq="6">Dilation</add></subst> just the same <subst><del rend="overstrike" seq="1">in the grave.—</del> <add rend="unmarked" place="supralinear" seq="2">afterward,</add></subst>
                <add rend="unmarked" place="inline"><lb/>and concord <del rend="overstrike">just the same</del> <del rend="overstrike">in the grave—</del> <add rend="unmarked" place="infralinear">afterward.—</add></add></l>
-            <add rend="unmarked" place="interlinear"><l xml:id="l20">I behold Love also in the darkness.—</l></add>
+            <addSpan spanTo="#a2" rend="unmarked" place="interlinear"/><l xml:id="l20">I behold Love also in the darkness.—</l><anchor xml:id="a2"/>
             
             <pb facs="duk_nhg.00748.jpg" xml:id="leaf001v" type="verso"/>
             
-            <del rend="overstrike"><l xml:id="l21">Not one of the <unclear reason="illegible" cert="medium" resp="#nhg">heroic guest</unclear></l></del>
+            <delSpan spanTo="#d2" rend="overstrike"/><l xml:id="l21">Not one of the <unclear reason="illegible" cert="medium" resp="#nhg">heroic guest</unclear></l><anchor xml:id="d2"/>
             
          </lg>
       </body>

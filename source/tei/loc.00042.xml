@@ -1,17 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00042">
-   <relations>
-      <work ref="xxx.00048" cert="high">
-         <p>Lines in this draft resemble the following, from the poem eventually titled "Song of Myself": "A word of reality . . . . materialism first and last imbueing. /
-            
-            Hurrah for positive science! Long live exact demonstration! /
-            Fetch stonecrop and mix it with cedar and branches of lilac" (1855, p. 28).</p>
-      </work>
-      <work ref="xxx.00266" cert="high">
-         <p>Lines from this manuscript are also similar to lines that appeared in the poem eventually titled "To Think of Time": "The difference between sin and goodness is no apparition; /
-            The earth is not an echo . . . . man and his life and all the things of his life are well-
-            considered" (1855, p. 67).</p>
-      </work>
-   </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00042">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,6 +17,7 @@
                <persName xml:id="ah">Amy Hezel</persName>
                <persName xml:id="js">Justin St. Clair</persName>
                <persName xml:id="jd">Jean Dickinson</persName>
+               <persName xml:id="as">Ashlyn Stewart</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -40,7 +29,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>loc.00042</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -52,13 +41,24 @@
             <availability>
                <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
             </availability>
-         </publicationStmt>
+         <idno>loc.00042</idno></publicationStmt>
          <notesStmt>
             <note type="project" target="dat1">Whitman probably drafted this manuscript in the early 1850s as he was composing the first (1855) edition of <hi rend="italic">Leaves of Grass</hi>. The lines are similar to lines in the first and third poems in that edition, eventually titled "Song of Myself" and "To Think of Time." Similar draft lines also appear in "<ref target="../notebooks/transcriptions/loc.00141.html">Talbot Wilson</ref>," an early notebook.</note>
+               <note type="work_relations" target="xxx.00048" cert="high">
+                  <p>Lines in this draft resemble the following, from the poem eventually titled "Song of Myself": "A word of reality . . . . materialism first and last imbueing. /
+                     
+                     Hurrah for positive science! Long live exact demonstration! /
+                     Fetch stonecrop and mix it with cedar and branches of lilac" (1855, p. 28).</p>
+               </note>
+               <note type="work_relations" target="xxx.00266" cert="high">
+                  <p>Lines from this manuscript are also similar to lines that appeared in the poem eventually titled "To Think of Time": "The difference between sin and goodness is no apparition; /
+                     The earth is not an echo . . . . man and his life and all the things of his life are well-
+                     considered" (1855, p. 67).</p>
+               </note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>[I say the stars are not echoes]</title>
                <date cert="medium" notBefore="1850" notAfter="1855" xml:id="dat1">Between 1850 and 1855</date>
                <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
@@ -71,6 +71,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2022-06-06" who="#km">updated relations encoding</change>
+         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2019-11-20" who="#bb">tweaked wording of work note</change>
          <change when="2019-06-13" who="#nhg">changed image names, edited relatedItem note</change>
          <change who="#nhg" when="2018-11-30">checked, corrected, added inline relations</change>
@@ -89,9 +91,9 @@
       <body>
          <pb facs="loc_nhg.01200_large.jpg" xml:id="leaf001r" type="recto"/>
          <lg type="linegroup">
-            <del rend="overstrike"><l xml:id="l01"><gap reason="cut away"/><!--possible transposition mark--> <del rend="overstrike">What</del>
-               Nothing <del rend="overstrike">postpones</del> puts off or waits, except man</l></del>
-            <del rend="overstrike"><l xml:id="l02">I am the Poet of Reality;</l></del>
+            <delSpan spanTo="#d1" rend="overstrike"/><l xml:id="l01"><gap reason="cut away"/><!--possible transposition mark--> <del rend="overstrike">What</del>
+               Nothing <del rend="overstrike">postpones</del> puts off or waits, except man</l><anchor xml:id="d1"/>
+            <delSpan spanTo="#d2" rend="overstrike"/><l xml:id="l02">I am the Poet of Reality;</l><anchor xml:id="d2"/>
             <milestone unit="undeclared" rend="horbar-short-left"/>
             <l xml:id="l03"><add place="inline" rend="unmarked">And</add> I say <subst>
                <del rend="overstrike" seq="1">this</del> <add place="supralinear" rend="insertion" seq="2">the</add></subst> <subst><del rend="overstrike" seq="1">earth</del>
@@ -127,7 +129,7 @@
                      <add place="supralinear" rend="unmarked">and exact</add> demonstration <del rend="overstrike"><add place="infralinear" rend="unmarked">and Positive science</add></del></add>
                </subst>
             </l>
-            <del rend="overstrike"><l xml:id="l08">Reality is eternal;</l></del>
+            <delSpan spanTo="#d3" rend="overstrike"/><l xml:id="l08">Reality is eternal;</l><anchor xml:id="d3"/>
             <l xml:id="l09"><add place="inline" rend="unmarked">say that</add>
                <subst>
                   <del rend="overstrike" seq="1">It is just</del>
@@ -147,7 +149,7 @@
             </subst></l>
             <l xml:id="l11">Bring honey‑clover and branches of lilac!</l>
             <l xml:id="l12">These are the <del rend="overstrike"><add place="supralinear" rend="insertion">serene</add></del> Philosophers of Nature,<del rend="erasure">;</del></l>
-            <del rend="overstrike"><l>Every one admirable and serene,</l></del>
+            <delSpan spanTo="#d4" rend="overstrike"/><l>Every one admirable and serene,</l><anchor xml:id="d4"/>
             <l xml:id="l13">Travelling<add place="inline" rend="unmarked">,</add>
                <subst>
                   <del rend="overstrike" seq="1">the earth</del>

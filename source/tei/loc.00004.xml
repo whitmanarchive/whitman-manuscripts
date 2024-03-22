@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
- 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00004">
-    <relations>
-        <work ref="xxx.00376" cert="high"/>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00004">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,6 +19,8 @@
                     <persName xml:id="nk">Nick Krauter</persName>
                     <persName xml:id="lr">Lisa Renfro</persName>
                     <persName xml:id="jsc">Justin St. Clair</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
                 </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -36,7 +34,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.00004</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -47,7 +45,7 @@
 <addrLine>whitman@jefferson.village.virginia.edu</addrLine>
 </address>
                 <availability>
-                    <p>Copyright &#169; 2001 by Ed Folsom and Kenneth M. Price, all rights
+                    <p>Copyright © 2001 by Ed Folsom and Kenneth M. Price, all rights
                         reserved.Items in the Archive may be shared in accordance with the Fair Use
                         provisionsof U.S. copyright law. Redistribution or republication on other
                         terms, inany medium, requires express written consent from the editors and
@@ -56,7 +54,7 @@
                         hasbeen granted by the owners of the originals for this publication
                         only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.00004</idno></publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">Whitman's poem "After the Supper and Talk" was
                     submitted to <hi rend="italic">Harper's</hi> in <date when="1885">1885</date>
@@ -67,13 +65,14 @@
                         Boughs</hi>
                     <date when="1888">(1888)</date> he used "After the Supper and Talk" as the
                     concluding poem in the volume; it was followed by numerous prose pieces.</note>
+                    <note type="work_relations" target="xxx.00376" cert="high"/>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author> Walt Whitman </author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <title> After the Supper and Talk </title>
                     <date xml:id="dat1" cert="medium" notBefore="1884" notAfter="1888">Between 1884 and 1888</date>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <note type="project">Transcribed from <hi rend="italic">The Walt Whitman Archive I: Whitman Manuscripts at the Library of Congress</hi>, ed. Joel Myerson (New York: Garland, 1993), 1:121; 
                         <hi rend="italic">Major American Authors on CD-Rom: Walt Whitman</hi> (Westport, CT:
                         Primary Source Media, 1997). The transcription was then checked against digital images of the original.</note>
@@ -86,6 +85,8 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2022-06-06" who="#km">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-11-30" who="#nhg">added relatedItem information, work ID</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
             <change when="2006-08-02" who="#nk">Added third digit to leaf numbers</change>
@@ -95,7 +96,7 @@
             <change when="2004-04-16" who="#bb">Added encoding regarding verso; validated</change>
             <change when="2003-10-02" who="#bb">Conversion to camel-case</change>
             <change when="2003-05-21" who="#bb">   "="  "='" to printer's hyphens
-                    (&#8209;)</change>
+                    (‑)</change>
             <change when="2003-05-01" who="#bb">deleted spaces before and after em dashes</change>
             <change when="2002-09-09" who="#bb">Blessed</change>
             <change when="2002-08-01" who="#zb">Updated to current practice</change>
@@ -114,7 +115,7 @@
                                                 
                             <add place="supralinear" rend="unmarked" seq="2">To precede </add>
                 </subst>some added Poems at end of a Volume.]</hi></note> <note type="authorial" place="right">small ital</note> <note type="authorial" place="right"><gap reason="illegible"/></note>
-                <l>After the supper and talk&#8212;after the day is done, </l>
+                <l>After the supper and talk—after the day is done, </l>
                 <l>
                     As a friend from friends his final withdrawal <choice>
 <orig>pro-</orig>
@@ -130,7 +131,7 @@
 
                     <lb/>peating, 
                 </l>
-                <l>(So hard for his hand to release those hands&#8212;no 
+                <l>(So hard for his hand to release those hands—no 
                     <lb/>more will they meet, 
                 </l>
                 <l>No more for communion of sorrow and joy, 
@@ -140,29 +141,29 @@
                     <lb/>no more.) 
                 </l>
                 <l>Shunning, postponing <del rend="overstrike">the</del>
-                        severance,&#8212;seeking to 
+                        severance,—seeking to 
                     <lb/>ward off the last word ever so little, 
                 </l>
-                <l>E'en at the exit&#8209;door turning&#8212;charges <choice>
+                <l>E'en at the exit‑door turning—charges <choice>
 <orig>super-</orig>
 <reg>superfluous</reg>
 </choice>
 
-                    <lb/>fluous calling back&#8212;e'en as he <choice>
+                    <lb/>fluous calling back—e'en as he <choice>
 <orig>de-</orig>
 <reg>descends</reg>
 </choice>
 
                     <lb/>scends the steps, 
                 </l>
-                <l>Something to eke out a minute additional&#8212;
-                    <lb/>&#8212;shadows of nightfall deepening, 
+                <l>Something to eke out a minute additional—
+                    <lb/>—shadows of nightfall deepening, 
                 </l>
-                <l>Farewells, messages lessening&#8212;dimmer the
-                    <lb/>forth&#8209;goer's visage and form, 
+                <l>Farewells, messages lessening—dimmer the
+                    <lb/>forth‑goer's visage and form, 
                 </l>
                 <l>Soon to be lost <add place="supralinear" rend="insertion">for aye, </add>in
-                        the darkness&#8212;loth, O 
+                        the darkness—loth, O 
                     <lb/>so loth to depart!
                 </l>
                 <l>Garrulous to the very last. </l>

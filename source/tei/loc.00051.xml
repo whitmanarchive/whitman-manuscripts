@@ -1,14 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
- 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00051">
-    <relations>
-        <work ref="xxx.00175" cert="high">
-            <p>This manuscript is a draft of "Beat! Beat! Drums!" which was first
-                published simultaneously in <hi rend="italic">Harper's Weekly</hi> and the New York
-                    <hi rend="italic">Leader</hi> on <date when="1861-09-28">September 28,
-                    1861</date>.</p>
-        </work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00051">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,6 +21,8 @@
                     <persName xml:id="aj">Andrew Jewell</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
                 </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -43,7 +36,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.00051</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -56,7 +49,7 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.00051</idno></publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1">This manuscript is a draft of "Beat! Beat! Drums!" which was first
                     published simultaneously in <hi rend="italic">Harper's Weekly</hi> and the New York
@@ -64,13 +57,19 @@
                         1861</date>. The manuscript was
                     probably written in the <date notBefore="1861-04" notAfter="1861-09">summer of 1861</date> during
                     the early days of the conflict, shortly before the poem's publication.</note>
+                    <note type="work_relations" target="xxx.00175" cert="high">
+                        <p>This manuscript is a draft of "Beat! Beat! Drums!" which was first
+                            published simultaneously in <hi rend="italic">Harper's Weekly</hi> and the New York
+                            <hi rend="italic">Leader</hi> on <date when="1861-09-28">September 28,
+                                1861</date>.</p>
+                    </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
                     <date xml:id="dat1" cert="high" notBefore="1861-01-01" notAfter="1861-09-28">1861</date>
                     <title>Beat! beat! drums!</title>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <idno type="box">26</idno>
                     <note type="project">Transcribed from <hi rend="italic">The Walt Whitman Archive I: Whitman Manuscripts at the Library of Congress</hi>, ed. Joel Myerson (New York: Garland, 1993), 1:156. The transcription was then checked against digital images of the original.</note>
                     <relatedItem type="text" target="loc.07461" xml:id="rel01"/>
@@ -82,6 +81,8 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2022-06-06" who="#km">updated relations encoding</change>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-09-26" who="#nhg">proofed</change>
             <change when="2016-04-27" who="#nhg">checked, corrected</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
@@ -102,9 +103,9 @@
                 <pb facs="loc.00051.001.jpg" xml:id="leaf001r" type="recto"/>
                 <note place="top" type="authorial">1</note>
                 <lg type="poem">
-                    <l>Beat! beat! drums!&#8212;Blow! bugles! blow!</l>
+                    <l>Beat! beat! drums!—Blow! bugles! blow!</l>
                     <l>
-                      Through the windows&#8212;through every door&#8212;burst <del rend="overstrike">in</del> like a
+                      Through the windows—through every door—burst <del rend="overstrike">in</del> like a
                         <lb/>force of armed men <gap reason="deletion, illegible"/>
 
                     </l>
@@ -117,7 +118,7 @@
                                 <del rend="overstrike" seq="1">any</del>
                                                         
                                 <add place="supralinear" rend="unmarked" seq="2">
-<del rend="overstrike">in</del> quiet&#8212;no</add>
+<del rend="overstrike">in</del> quiet—no</add>
                                                     </subst> happiness <add place="supralinear" rend="insertion">must he have
                             now</add> with his bride;</l>
                     <l>
@@ -140,7 +141,7 @@
                                     <del rend="overstrike" seq="1">strong you beat</del>
                                                                 
                                     <add place="supralinear" rend="unmarked" seq="2">fierce you whirr and
-                                        pound</add></subst>, you drums&#8212;So <del rend="overstrike">long and</del>
+                                        pound</add></subst>, you drums—So <del rend="overstrike">long and</del>
                             shrill you
                         <lb/>bugles blow.
                     </l>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01767">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title level="m" type="main">Mem of War</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <name>The Walt Whitman Archive Staff</name>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>
+                    <date>2010</date>
+                </edition>
+            </editionStmt>
+            
+            <publicationStmt>
+                <idno>loc.01763</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+                </availability>
+            </publicationStmt>
+            
+            <notesStmt>
+                <note type="project" target="#dat1"><!-- when was this manuscript written? --></note>
+                <note type="project">The following are responsible for particular readings or for changes to this file, as noted: 
+                    <persName xml:id="al">Ashley Lawson</persName>  <persName xml:id="tj">Tim Jackson</persName>
+                </note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>          
+                    <title>Mem of War</title> 
+                    <!--     THE DATE INFORMATION IN THE NEXT LINE WILL BE ADDED BY AN EDITOR     -->
+                    <!--<date xml:id="dat1" cert="****" when="/"> </date>-->
+                    
+                    <idno type="callno">HM 94</idno> <!-- find name -->
+                    <orgName>Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
+                    <note type="project">Transcribed from our own digital image of the original manuscript.</note>
+                </bibl>
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2011-02-10" who="#tj">Checked, corrected</change>
+            <change when="2010-12-09" who="#al">Transcribed and encoded</change>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text type="manuscript">
+        
+        <body>
+            
+            <pb xml:id="leaf001r" facs="loc.01767.001_large.jpg" type="recto"/>
+            
+            <head type="main-authorial" rend="underline">Mem of War</head>
+            
+            <ab>June 2 '81</ab>
+            
+            <ab>There are <add place="supralinear" rend="unmarked">buried</add> in the 80 National Military Cemeteries over 300,000 dead soldiers, nearly half of them marked "unknown"</ab>
+            
+            <add rend="pasteon">
+                <add rend="pasteon">Two million three hundred and thirty-five thousand nine hundred and fifty-one patriots voluntarily left their homes, their families and their peaceful
+            pursuits to defend upon battle<gap reason="torn away" extent="unk"/> over the swell-</add><add rend="pasteon">ing wave the <unclear reason="illegible" cert="low" resp="#al">principle
+            </unclear> then submitted to decision under the <gap reason="illegible" extent="unk"/><!-- [TJ] Possibly "dread" for the illegible word? --> arbitrament of war.  Of this vas<gap reason="blank"/> number, 360,000 graves in the national cemeteries mark the number of those
+            killed in battle, and<!-- [TJ] Should "and" begin with a gap? --> dying in hospitals, upon roadsides, in prisons, as the result of wounds, of disease, of hardships, of exposure or of maltreatment.</add>
+                <ab>Gen Logan's speech New York May 31 '86</ab>
+            </add>
+            
+            <pb xml:id="leaf001v" facs="loc.01767.002_large.jpg" type="verso"/> 
+            
+            <del rend="haskmark">
+            <ab><gap reason="pasteover" extent="unk"/> promptness. <anchor xml:id="t97"/>  I have to say <del rend="overstrike"><unclear reason="illegible" cert="medium" resp="#al">thank</unclear></del> <!-- [TJ] Possibly "that" for "thank" --> offer
+                you the <del rend="overstrike">aw</del> <!-- [TJ] Unsure if "aw" is "are"? -->following:</ab>
+                <transpose rend="circled" anchored="true" target="t97">your terms however are not satisfactory to me</transpose>
+            </del>
+            
+        </body>
+    </text>
+</TEI>
+
+
+
+

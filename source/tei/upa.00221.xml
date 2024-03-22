@@ -1,13 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="upa.00221">
-   <relations>
-      <work ref="xxx.00221" cert="high">
-         <p>Most of the lines in this manuscript amount to a poetic rendering of sentences and phrases drawn from the prose preface to the 1855 <hi rend="italic">Leaves of Grass</hi> and constitute a partial draft of the 1856 poem "Poem of Many In One," which eventually became "By Blue Ontario's Shore." A majority of the manuscript lines appeared near the end of the published poem. These include, specifically, versions of the first several lines (through "Its deserts, forests, clearings, log houses, hunters, are you and me"), the line "The perpetual arrivals of immigrants are you and me" and the section of ten lines from "Natural and artificial are you and me" through "Not librety#8212;not to cheer up slawes and horrify despots." The lines "It's ships, whaling, gold-digging are you and me, / Its paved cities, wharves, wealth, avenues, dwellings, are you and me," and "The north, south, east, west, are you and me" were used, greatly altered, in a section of lines that appeared nearer the beginning of "Poem of Many in One."</p>
-      </work>
-      <work ref="xxx.00230" cert="high">
-         <p>The line at the bottom of this manuscript, partially cut away, was drawn from the prose preface to the 1855 <hi rend="italic">Leaves of Grass</hi> and was used in "Liberty Poem for Asia, Africa, Europe, America, Australia, Cuba, and the Archipelagoes of The Sea," published in the 1856 <hi rend="italic">Leaves.</hi> Whitman titled the final version of the poem "To a Foil'd European Revolutionaire."</p>
-      </work>
-   </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="upa.00221">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -24,7 +15,7 @@
                <persName xml:id="jo">John Owen Havard</persName>
                <persName xml:id="cf">Chris Forster</persName>
                <persName xml:id="kt">Kristen Taylor</persName>
-            </respStmt>
+            <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -35,7 +26,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>upa.00221</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -47,19 +38,25 @@
             <availability>
                <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>upa.00221</idno></publicationStmt>
          <notesStmt>
             <note type="project" target="#dat1">Most of the lines in this manuscript amount to a poetic rendering of sentences and phrases drawn from the prose preface to the 1855 <hi rend="italic">Leaves of Grass</hi> and constitute a partial draft of the 1856 poem "Poem of Many In One," which eventually became "By Blue Ontario's Shore." The line at the bottom of this manuscript, partially cut away, was also drawn from the 1855 preface but was used in the 1856 poem "Liberty Poem for Asia, Africa, Europe, America, Australia, Cuba, and the Archipelagoes of The Sea," which Whitman titled, in its final version, "To a Foil'd European Revolutionaire."</note>
+            <note type="work_relations" target="xxx.00221" cert="high">
+         <p>Most of the lines in this manuscript amount to a poetic rendering of sentences and phrases drawn from the prose preface to the 1855 <hi rend="italic">Leaves of Grass</hi> and constitute a partial draft of the 1856 poem "Poem of Many In One," which eventually became "By Blue Ontario's Shore." A majority of the manuscript lines appeared near the end of the published poem. These include, specifically, versions of the first several lines (through "Its deserts, forests, clearings, log houses, hunters, are you and me"), the line "The perpetual arrivals of immigrants are you and me" and the section of ten lines from "Natural and artificial are you and me" through "Not librety#8212;not to cheer up slawes and horrify despots." The lines "It's ships, whaling, gold-digging are you and me, / Its paved cities, wharves, wealth, avenues, dwellings, are you and me," and "The north, south, east, west, are you and me" were used, greatly altered, in a section of lines that appeared nearer the beginning of "Poem of Many in One."</p>
+      </note>
+            <note type="work_relations" target="xxx.00230" cert="high">
+         <p>The line at the bottom of this manuscript, partially cut away, was drawn from the prose preface to the 1855 <hi rend="italic">Leaves of Grass</hi> and was used in "Liberty Poem for Asia, Africa, Europe, America, Australia, Cuba, and the Archipelagoes of The Sea," published in the 1856 <hi rend="italic">Leaves.</hi> Whitman titled the final version of the poem "To a Foil'd European Revolutionaire."</p>
+      </note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>"Sanity and Ensemble" (ms. fragment) [on verso, unidentified ms. fragment], undated. 1 item (1 leaf)</title>
                <date cert="medium" notBefore="1855" notAfter="1856" xml:id="dat1">1855 or 1856</date>
                <idno type="callno">Ms. Coll. 190</idno>
                <idno type="box">2</idno>
                <idno type="folder">57</idno>
-               <orgName xml:id="upa">Walt Whitman Collection, 1842&#8211;1957, Rare Book &amp; Manuscript Library, University of Pennsylvania</orgName> <!-- 
+               <orgName xml:id="upa">Walt Whitman Collection, 1842–1957, Rare Book &amp; Manuscript Library, University of Pennsylvania</orgName> <!-- 
 University of Pennsylvania: Kislak Center for Special Collections, Rare Books and Manuscripts -->
                <note type="project">Transcribed from digital images of the original.</note>
                <relatedItem type="text" xml:id="rel01" target="upa.00005"/>
@@ -69,6 +66,8 @@ University of Pennsylvania: Kislak Center for Special Collections, Rare Books an
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2022-06-06" who="#bb">updated relations encoding</change>
+         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change who="#bb" when="2019-09-23">checked; edited</change>
          <change who="#cah" when="2019-04-03">created new file, updated encoding</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
@@ -88,35 +87,35 @@ University of Pennsylvania: Kislak Center for Special Collections, Rare Books an
                   <lb/>
                   are you and me,
                </l>
-               <del rend="overstrike"><l>The perpetual arrivals of immigrants are you and me,</l></del>
+               <delSpan spanTo="#d1" rend="overstrike"/><l>The perpetual arrivals of immigrants are you and me,</l><anchor xml:id="d1"/>
                <l><subst><del rend="overstrike" seq="1">The</del> <add place="supralinear" rend="unmarked" seq="2">Its</add></subst> young men's manner<del rend="overstrike">'</del>s, speech, dress, friendships<lb/>
                   are you and me,</l>
                   <l><subst><del rend="overstrike" seq="1"><add rend="insertion" place="supralinear">The</add> </del><add place="supralinear" rend="unmarked" seq="2">Its</add></subst> Crimes, <subst><del rend="overstrike" seq="1">enormities</del> <add place="supralinear" rend="unmarked" seq="2">lies,</add></subst> defections, slavery, are you and me,</l>
-                  <l><subst><del rend="overstrike" seq="1">The</del> <add place="supralinear" rend="unmarked" seq="2">Its</add></subst> Congress is you and me&#8212;the officers, capitols, armies,<lb/>
+                  <l><subst><del rend="overstrike" seq="1">The</del> <add place="supralinear" rend="unmarked" seq="2">Its</add></subst> Congress is you and me—the officers, capitols, armies,<lb/>
                   ships, are you and me,</l>
             <l><subst><del rend="overstrike" seq="1">The</del> <add place="supralinear" rend="unmarked" seq="2">Its</add></subst> inventions, science, s<subst><del rend="overwrite" seq="1">h</del><add rend="overwrite" place="over" seq="2">c</add></subst>hools, are you and me,</l>
             <l><subst><del rend="overstrike" seq="1">The</del> <add place="supralinear" rend="unmarked" seq="2">Its</add></subst> deserts, forests, clearings, <subst><del rend="overstrike" seq="1">settlements,</del> <add place="supralinear" rend="unmarked" seq="2">log houses, hunters,</add></subst> are you and me,</l>
-               <add place="interlinear" rend="unmarked">
-                  <l>Its ships, fisheries, whaling, gold&#8209;digging are you and me,</l>
-               </add>
+               <addSpan spanTo="#a1" place="interlinear" rend="unmarked"/>
+                  <l>Its ships, fisheries, whaling, gold‑digging are you and me,</l>
+               <anchor xml:id="a1"/>
             <l><subst><del rend="overstrike" seq="1">The</del> <add place="supralinear" rend="unmarked" seq="2">Its</add></subst> paved cities, wharves, wealth, avenues, dwellings,<lb/>
                   are you and me.</l>
-               <add place="interlinear" rend="unmarked"><l>The perpetual arrivals of immigrants are you and me.</l></add>
+               <addSpan spanTo="#a2" place="interlinear" rend="unmarked"/><l>The perpetual arrivals of immigrants are you and me.</l><anchor xml:id="a2"/>
                <l>The north, south, east, west, are you and me,</l>
                <l>Natural and artificial are you and me,</l>
                <l>Liberty, language, poems, employments, are you and me,</l>
                <l>Failures, successes, births, deaths, are you and me,</l>
-               <l>Past, pres<subst><del rend="overwrite" seq="1">te</del><add rend="overwrite" place="over" seq="2">e</add></subst>nt, future, are <add place="supralinear" rend="insertion">only</add> you and me.&#8212;</l>
+               <l>Past, pres<subst><del rend="overwrite" seq="1">te</del><add rend="overwrite" place="over" seq="2">e</add></subst>nt, future, are <add place="supralinear" rend="insertion">only</add> you and me.—</l>
             </lg>
 
             <lg type="linegroup">
                <l>I swear I <subst><del rend="overstrike" seq="1">will</del> <del rend="overstrike" seq="2"><add rend="unmarked" place="supralinear" seq="2">am</add></del> <add rend="unmarked" place="supralinear" seq="3">can</add></subst>not <del rend="overstrike"><add place="supralinear" rend="insertion">to</add></del> evade any part of myself,</l>
                <l>Not America, nor any attribute of America,</l>
-               <l>Not my body&#8212;not friendship, hospitality, procreation,</l>
-               <l>Not my soul&#8212;not the last explanation of prudence,</l>
+               <l>Not my body—not friendship, hospitality, procreation,</l>
+               <l>Not my soul—not the last explanation of prudence,</l>
                <span rend="bracket-left" xml:id="s1" from="#s1" to="#s2"/>
-               <add place="interlinear" rend="unmarked"><l>Not faith, sin, defiance, nor any of the dispositions <add place="supralinear" rend="unmarked">or duties</add> of myself,</l></add>
-               <l>Not liberty&#8212;not to cheer up slaves and horrify<lb/> 
+               <addSpan spanTo="#a3" place="interlinear" rend="unmarked"/><l>Not faith, sin, defiance, nor any of the dispositions <add place="supralinear" rend="unmarked">or duties</add> of myself,</l><anchor xml:id="a3"/>
+               <l>Not liberty—not to cheer up slaves and horrify<lb/> 
                despots,</l>
                <l><gap reason="cut away" atLeast="8" unit="chars" extent="four or five words"/> the show of the tushes of power and <gap reason="cutaway" atLeast="1" unit="chars" extent="unknown number of words"/></l>
                <anchor xml:id="s2"/>

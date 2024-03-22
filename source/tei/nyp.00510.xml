@@ -1,12 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00510">
-   <relations>
-      <work ref="xxx.00048" cert="high">
-         <p>"<ref target="#q01" xml:id="r01" type="text">The orbed opening of whose mouth</ref>," struck through on this manuscript, is suggestive of a line which appeared in the poem that would be titled "Song of Myself": "The orbic flex of his mouth is pouring and filling me full" (1855, p. 32).</p>
-      </work>
-      <work ref="xxx.00111" cert="high">
-         <p><ref target="#q02" xml:id="r02" type="text">The line</ref> which reads, "Nature is rude at first—but once begun never tires" was used slightly altered in "Song of the Open Road," first published in the 1856 edition of <hi rend="italic">Leaves of Grass</hi>, under the title "Poem of the Road": "The earth never tires! / The earth is rude, silent, incomprehensible at first—nature is rude and incomprehensible at first" (p. 231).</p>
-      </work>
-   </relations>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00510">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,7 +13,10 @@
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="kc">Kirsten Clawson</persName>
                <persName xml:id="jc">Janel Cayer</persName>
-            <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+               <persName xml:id="kmp">Kenneth M. Price</persName>
+               <persName xml:id="as">Ashlyn Stewart</persName>
+               <persName xml:id="km">Kevin McMullen</persName>
+            </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>The National Endowment for the Humanities</funder>
@@ -31,7 +27,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>nyp.00510</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -43,14 +39,20 @@
             <availability>
                <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>nyp.00510</idno></publicationStmt>
          <notesStmt>
             <note type="project" target="#dat1">This draft fragment includes phrases and poetic lines that were revised and used in different editions of <hi rend="italic">Leaves of Grass</hi>. "The orbed opening of whose mouth," struck through on this manuscript, is suggestive of a line that appeared in 1855 in the poem ultimately titled "Song of Myself": "The orbic flex of his mouth is pouring and filling me full." The line "Nature is rude at first—but once begun never tires" was used slightly altered in "Song of the Open Road," first published in the 1856 edition of <hi rend="italic">Leaves of Grass</hi> under the title "Poem of the Road." Edward Grier, drawing from Richard Maurice Bucke's <hi rend="italic">Notes and Fragments</hi> (1899), adds a bracketed conclusion to the last line: "Most works of art [tire. Only the Great Chef d'OEuvres never tire and never dazzle at first.]" (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York: New York University Press, 1984], 1:168). The line does not currently appear on the manuscript.
                 </note>
+               <note type="work_relations" target="xxx.00048" cert="high">
+                  <p>"<ref target="#q01" xml:id="r01" type="text">The orbed opening of whose mouth</ref>," struck through on this manuscript, is suggestive of a line which appeared in the poem that would be titled "Song of Myself": "The orbic flex of his mouth is pouring and filling me full" (1855, p. 32).</p>
+               </note>
+               <note type="work_relations" target="xxx.00111" cert="high">
+                  <p><ref target="#q02" xml:id="r02" type="text">The line</ref> which reads, "Nature is rude at first—but once begun never tires" was used slightly altered in "Song of the Open Road," first published in the 1856 edition of <hi rend="italic">Leaves of Grass</hi>, under the title "Poem of the Road": "The earth never tires! / The earth is rude, silent, incomprehensible at first—nature is rude and incomprehensible at first" (p. 231).</p>
+               </note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
+            <bibl><author xml:id="ww">Whitman, Walt</author>
+               
                <title>[wider than the west]</title>
                <date xml:id="dat1" cert="medium" notBefore="1840" notAfter="1855">Before or early in 1855</date>
                <idno type="callno"/>
@@ -63,6 +65,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2022-06-17" who="#km">updated relations encoding</change>
+         <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
          <change when="2017-10-24" who="#nhg">added inline relations information</change>
          <change when="2017-03-01" who="#kmp">blessed</change>
          <change when="2017-03-08" who="#nhg">edited editorial note, relatedItem and work relations information</change>
@@ -78,7 +82,7 @@
          <pb xml:id="leaf001r" facs="M_1231704.jpg" type="recto"/>
          <ab xml:id="ab01">is wider than the west.—</ab>
          <milestone unit="undeclared" rend="horbar-short-left"/> 
-         <del rend="overstrike"><ab xml:id="q01">The orbed opening of whose mouth—</ab></del>
+         <delSpan spanTo="#d1" rend="overstrike"/><ab xml:id="q01">The orbed opening of whose mouth—</ab><anchor xml:id="d1"/>
          <milestone unit="undeclared" rend="horbar-full"/> 
          <ab xml:id="q02">Nature is rude at first—but once begun never tires</ab>
          <ab>Most works of art <unclear reason="cut away" cert="medium" resp="#kc">tire</unclear> <gap reason="cut away"/></ab>

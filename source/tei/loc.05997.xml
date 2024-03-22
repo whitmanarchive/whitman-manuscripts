@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.05997">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05997">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main" rend="bracketed">Nerve.&#8212;A Frenchman</title>
+                <title level="m" type="main" rend="bracketed">Nerve.—A Frenchman</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -16,7 +14,9 @@
                     <persName xml:id="jc">Janel Cayer</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                <persName xml:id="kmp">Kenneth M. Price</persName></respStmt>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
@@ -27,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.05997</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,14 +39,14 @@
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.05997</idno></publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">This manuscript describes the ascent of a French balloonist from the Brooklyn Military Garden. Whitman leaves out the balloonist's name, but it is likely that he is referring to the ascent of Victor Vardelle on September 19, 1849. A number of announcements of the event had appeared in the <hi rend="italic">Brooklyn Daily Eagle</hi> in the days leading up to the launch, and the launch itself was reported in an unsigned story in the issue of September 20. However, it is highly unlikely that Whitman was the author of that piece; while Whitman had written for the <hi rend="italic">Eagle</hi>, his position at the paper was terminated in January 1848, and none of the specific wording from this manuscript appears in the <hi rend="italic">Eagle</hi> article. At the time of the September 19 balloon launch, Whitman was apparently between jobs; having announced his resignation from the Brooklyn <hi rend="italic">Freeman</hi> on September 11, 1849, he would begin publishing his series "Letters from a Travelling Bachelor" in the <hi rend="italic">New York Sunday Dispatch</hi> in October 1849. No published version of this blurb of Whitman's has been located, but it is almost certain that the date of composition was shortly after the balloon launch, in September 1849. On the verso is a note written by antiquarian bookseller, collector, and Whitman bibliographer Alfred Goldsmith (1881&#8211;1947).</note>             
+                <note type="project" target="#dat1">This manuscript describes the ascent of a French balloonist from the Brooklyn Military Garden. Whitman leaves out the balloonist's name, but it is likely that he is referring to the ascent of Victor Vardelle on September 19, 1849. A number of announcements of the event had appeared in the <hi rend="italic">Brooklyn Daily Eagle</hi> in the days leading up to the launch, and the launch itself was reported in an unsigned story in the issue of September 20. However, it is highly unlikely that Whitman was the author of that piece; while Whitman had written for the <hi rend="italic">Eagle</hi>, his position at the paper was terminated in January 1848, and none of the specific wording from this manuscript appears in the <hi rend="italic">Eagle</hi> article. At the time of the September 19 balloon launch, Whitman was apparently between jobs; having announced his resignation from the Brooklyn <hi rend="italic">Freeman</hi> on September 11, 1849, he would begin publishing his series "Letters from a Travelling Bachelor" in the <hi rend="italic">New York Sunday Dispatch</hi> in October 1849. No published version of this blurb of Whitman's has been located, but it is almost certain that the date of composition was shortly after the balloon launch, in September 1849. On the verso is a note written by antiquarian bookseller, collector, and Whitman bibliographer Alfred Goldsmith (1881–1947).</note>             
             </notesStmt>
             <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>
-                    <title rend="bracketed">Nerve.&#8212;A Frenchman</title>                  
+                <bibl><author xml:id="ww">Whitman, Walt</author>
+                    
+                    <title rend="bracketed">Nerve.—A Frenchman</title>                  
                     <idno type="callno">MSS10694, Box 126</idno>
                     <date xml:id="dat1" cert="medium" notBefore="1849-09-19" notAfter="1849-12-31">1849</date>
                     <orgName xml:id="loc">Institute of Aerospace Sciences Archives, Library of Congress, Washington, D.C.</orgName>
@@ -60,6 +60,7 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
+            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2017-03-01" who="#kmp">blessed</change>
             <change when="2016-09-12" who="#nhg">corrected</change>
             <change when="2016-07-13" who="#nhg">checked, corrected</change>
@@ -74,12 +75,12 @@
             
             <pb xml:id="leaf001r" facs="loc_ej.00696.jpg" type="recto"/>
             
-            <p><hi rend="underline">Nerve</hi>.&#8212;A Frenchman named <space dim="horizontal" extent="9 letters" /><!-- This space is represented with a wavy line in the mss. KM --> a voyager in a balloon <del rend="overstrike">that went</del> from the Military Garden in Brooklyn, rested simply on a narrow triangle with cross pieces of sticks.&#8212;On these, away up in the air <add rend="unmarked" place="supralinear">and even</add> when we could only see him well by the aid of glasses, he would swing down like a monkey, <del rend="overstrike">holding on</del> in that vast emptiness, holding on merely by his hands, and drawing himself up again, and turning somersets as nimbly as a cat.&#8212;</p>
+            <p><hi rend="underline">Nerve</hi>.—A Frenchman named <space dim="horizontal" extent="9 letters"/><!-- This space is represented with a wavy line in the mss. KM --> a voyager in a balloon <del rend="overstrike">that went</del> from the Military Garden in Brooklyn, rested simply on a narrow triangle with cross pieces of sticks.—On these, away up in the air <add rend="unmarked" place="supralinear">and even</add> when we could only see him well by the aid of glasses, he would swing down like a monkey, <del rend="overstrike">holding on</del> in that vast emptiness, holding on merely by his hands, and drawing himself up again, and turning somersets as nimbly as a cat.—</p>
             
             <ab>W</ab>     
             
             <pb xml:id="leaf001v" facs="loc_ej.00697.jpg" type="verso"/>
-            <note type="editorial" resp="#h1" place="top">Whitman mss&#8212;in pencil | This piece of mss. is entirely in the holograph of Walt Whitman. It was written about 1850&#8212;Whitman made other comment on the Brooklyn Military Gardens. These bits were written for the Brooklyn Newspapers, Times, Eagle Star etc&#8212; Alfred F Goldsmith&#8212;June 17&#8211;32</note>
+            <note type="editorial" resp="#h1" place="top">Whitman mss—in pencil | This piece of mss. is entirely in the holograph of Walt Whitman. It was written about 1850—Whitman made other comment on the Brooklyn Military Gardens. These bits were written for the Brooklyn Newspapers, Times, Eagle Star etc— Alfred F Goldsmith—June 17–32</note>
         </body>
     </text>
 </TEI>

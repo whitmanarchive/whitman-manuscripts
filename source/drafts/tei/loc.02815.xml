@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02815">
+
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m" type="main">Rel</title>
+        <title level="m" type="sub">a machine readable transcription</title>
+        <author>Walt Whitman</author>
+        <editor>Kenneth M. Price</editor>
+        <editor>Ed Folsom</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>The Walt Whitman Archive Staff</name>
+        </respStmt>
+        <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+        <sponsor>University of Iowa</sponsor>
+        <funder>The National Endowment for the Humanities</funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2010</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <idno>loc.02815</idno>
+        <distributor>The Walt Whitman Archive</distributor>
+        <address>
+          <addrLine>Center for Digital Research in the Humanities</addrLine>
+          <addrLine>319 Love Library</addrLine>
+          <addrLine>University of Nebraska-Lincoln</addrLine>
+          <addrLine>P.O. Box 884100</addrLine>
+          <addrLine>Lincoln, NE 68588-4100</addrLine>
+        </address>
+        <availability>
+          <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+
+        <note type="project" target="#dat1"><!-- when was this manuscript written? --></note>
+
+        <note type="project">The following are responsible for particular readings or for changes to this file, as noted: 
+       
+          <persName xml:id="tj">Tim Jackson</persName>
+          <persName xml:id="al">Ashley Lawson</persName>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Walt Whitman</author>
+          
+          <title>Rel</title>
+          <!--     THE DATE INFORMATION IN THE NEXT LINE WILL BE ADDED BY AN EDITOR     -->
+          <!--<date xml:id="dat1" cert="****" when="/"> </date>-->
+          
+          <idno type="callno">MS45443</idno>
+          <orgName>The Thomas Biggs Harned Collection of the Papers of Walt Whitman: A Register of His Papers in the Library of Congress, 1842-1937</orgName>
+
+          <note type="project">Transcribed from our own digital image of original manuscript.</note>
+        </bibl>
+
+      </sourceDesc>
+    </fileDesc>
+
+    <revisionDesc>
+      
+      <change when="2011-04-25" who="#al">Checked</change>
+      <change when="2011-04-19" who="#tj">Transcribed and encoded</change>
+    </revisionDesc>
+  </teiHeader>
+
+  <text type="manuscript">
+    <body>
+     
+   
+        <pb xml:id="leaf001r" facs="loc.02815.001_large.jpg" type="recto"/>
+        <head type="main-authorial">Rel</head>
+      
+      <p><del rend="overstrike">Yet</del> A <add rend="insertion" place="supralinear">few</add> words <del rend="overstrike">of pensive</del> in memoriam, <add rend="insertion" place="supralinear">pensive</add> to the stages of religious expression during the <subst><del rend="overstrike" seq="1">last ten or twenty</del> <add rend="unmarked" place="supralinear" seq="2">past</add></subst> thousand<add rend="unmarked" place="inline">s</add> <add rend="unmarked" place="supralinear">of</add> years&#8212;<del rend="overstrike">for to&#8209;day it</del> for, <del rend="overstrike">it</del> the changes <gap reason="illegible" extent="one word"/> all that <unclear reason="illegible" resp="#tj" cert="medium">time</unclear> have been but <subst><del rend="overstrike" seq="1">but</del> <add rend="unmarked" place="supralinear" seq="2">little</add></subst> changes of costumes,&#8212;It is <del rend="overstrike">in</del> America that <add place="supralinear" rend="insertion">makes</add>the radical change involving <del rend="overstrike">a</del> new stages <del rend="overstrike">for ten or twenty</del> many thousand years to come&#8212;</p>
+        <note type="editorial" resp="unk" place="marginbot">555</note>
+        
+        <pb xml:id="leaf001v" facs="loc.02815.002_large.jpg" type="verso"/>
+        
+   
+    </body>
+  </text>
+</TEI>
