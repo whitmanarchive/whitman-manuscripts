@@ -109,4 +109,15 @@ class TeiToEs
     citations
   end
 
+  def date(before=true)
+    if get_text(@xpaths["date_not_after"])
+      date_not_after
+    else
+      if get_list(@xpaths["date"])
+        datestr = get_list(@xpaths["date"]).first
+        Datura::Helpers.date_standardize(datestr, false)
+      end
+    end
+  end
+
 end
