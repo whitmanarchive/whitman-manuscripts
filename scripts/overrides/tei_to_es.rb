@@ -110,15 +110,13 @@ class TeiToEs
   end
 
   def date(before=true)
-    if get_list(@xpaths["date"])
-      datestr = get_list(@xpaths["date"]).first
-    else
-      datestr = nil
-    end
     if get_text(@xpaths["date_not_after"])
       date_not_after
-    elsif datestr && !datestr.empty?
-      Datura::Helpers.date_standardize(datestr, false)
+    else
+      if get_list(@xpaths["date"])
+        datestr = get_list(@xpaths["date"]).first
+        Datura::Helpers.date_standardize(datestr, false)
+      end
     end
   end
 
