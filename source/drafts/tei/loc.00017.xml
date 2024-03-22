@@ -65,21 +65,32 @@
         <profileDesc>
             <handNotes>
                 <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-                <handNote medium="red ink" xml:id="h02" resp="#ww">
+                <handNote medium="red ink" xml:id="h02" resp="#ww"/>
+                <handNote medium="blue ink" xml:id="h03" resp="#ww"/>
+                <handNote medium="pencil" xml:id="h04" resp="#ww"/>
             </handNotes>
         </profileDesc>
         <revisionDesc>
-            <!-- IN THE FOLLOWING <CHANGE> ELEMENT EDIT THE @WHEN TO REFLECT TODAY'S DATE. IF YOU AREN'T JEFF, CHANGE THE INITIALS AFTER THE POUND SIGN IN @WHO -->
-            <change when="2024-01-20" who="#jh">transcribed and encoded</change>
+            <change when="2024-03-22" who="#jh">transcribed and encoded</change>
         </revisionDesc>
     </teiHeader>
     <text type="manuscript">
         <body>
-            <!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-            <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
+            <pb xml:id="leaf001r" facs="loc_js." type="recto"/>
+            <p>Sunday&#8212; &#8212;</p>
+            <p>Went</p>
+            <p>This forenoon <del rend="overstrike">(for a [gap])</del> <del rend="overstrike">went</del> to church.  A college professor, Rev. Dr. &#8212; gave us a sermon, <del rend="overstrike" seq="1">on</del> <add rend="insertion" place="above" seq="2">during</add> which I caught <del rend="overstrike">to</del> the above words: but the minister in his "catalogue" <del rend="overstrike">en[gap]</del> included only the good <del rend="overstrike">and</del> things, and entirely ignored what I <del rend="overstrike" seq="1">[gap]</del> <add rend="insertion" place="above" seq="2">name</add> in the following:</p>
+            <p><del rend="ovestrike">Not moral and the good&#8212;not</del></p>
+            <p><del rend="overstrike">Not the light alone but the dark</del></p>
+            <p><del rend="overstrike">Not you alone nor me alone, nor [gap], America's, nor north or south alone</del></p>
+            <p>The immoral and the dark, were not</p>
+            <p>The dying and the sick enclosed in this <add rend="insertion" place="above">huge</add> catalogue,</p>
+            <p>The countless, <add rend="insertion" place="above">(nineteen twentieths)</add> low and evil, savage and crude, were not</p>
+            <p><del rend="overstrike" seq="1">Gaunt,</del> <add rend="insertion" place="above" seq="2">The</add> crazed, prisoners in jails, the bad, the horrible,</p>
+            <p>Venom and filth serpents, <del rend="overstrike" seq="1">ravine,</del> <add rend="insertion" place="above" seq="2">the ravenous sharks,</add> <del rend="overstrike" seq="1">The slime and crawl,</del> <add rend="insertion" place="above" seq="2">the liars, thieves, the dissolute,</add></p>
+            <p>Newts, crawling things in slime and mud</p>
             <p></p>
-            <!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-            <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+            <pb xml:id="leaf001v" facs="loc_js.00232_large.jpg" type="verso"/>
         </body>
     </text>
 </TEI>
