@@ -15,6 +15,7 @@
             <author>Walt Whitman</author>
             <editor role="editor">Kenneth M. Price</editor>
             <editor role="editor">Ed Folsom</editor>
+            <editor role="editor">Matt Cohen</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
@@ -22,6 +23,7 @@
                <persName xml:id="km">Kenneth M. Price</persName>
                <persName xml:id="fl">Farrah Lehman</persName>
                <persName xml:id="jr">Joshua Ranger</persName>
+               <persName xml:id="jh">Jeff Hill</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -29,7 +31,7 @@
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2004</date>
+               <date>2024</date>
             </edition>
          </editionStmt>
          <publicationStmt>
@@ -68,72 +70,31 @@
          </handList>
       </profileDesc>
       <revisionDesc>
+         <change who="#jh" when="2024-03-25">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#lr" when="2006-08-01">Blessed</change>
-         <change who="#km" when="2006-06-28">Edited</change>
-         <change who="#fl" when="2006-06-28">Checked</change>
-         <change who="#jr" when="2004-07-11">Encoded</change>
-         <change who="#jr" when="2004-07-10">Transcribed</change>
+         <change who="#lr" when="2006-08-01">blessed</change>
+         <change who="#km" when="2006-06-28">edited</change>
+         <change who="#fl" when="2006-06-28">checked</change>
+         <change who="#jr" when="2004-07-11">encoded</change>
+         <change who="#jr" when="2004-07-10">transcribed</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <pb facs="loc.00060.001" xml:id="leaf001r" type="recto"/>
-         <lg
-              >
-            <head type="main-authorial">BRAVO, PARIS <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike" hand="h1">EXHIBITION!</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="supralinear" hand="h1">exposition!</add>
-                  </rdg>
-               </subst>
-            </head>
-            <note type="editorial"
-                  place="top" resp="#ht">
-               <p>See notes, Oct 31, '89</p>
-            </note>	               
-            <l>Add to your show, <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike" hand="h1">dear</del> 
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked"
-                          place="top"
-                          hand="h1"
-                          rend="left">before you close it,</add>
-                  </rdg>
-               </subst>France,</l>
-            <l>
-               With all the rest, visible, concrete, temples, towers, goods, <orig reg="machines">ma-</orig>
-               <lb/> 
-               chines and ores,<lb/>
-            </l>
-            <l>
-               Our sentiment wafted from many million heart-throbs, ethereal<lb/>
-               but solid,<lb/>
-            </l>
-            <l>
-               (We grand-sons and great-grand-sons do not forget your <orig reg="grand-sires">grand-</orig>
-               <lb/>
-               sires,)<lb/>
-            </l>
-            <l>
-               From fifty Nations and nebulous Nations, compacted, sent<lb/>
-               over-sea to-day,<lb/>
-            </l>
+         <lg>
+            <head type="main-authorial">BRAVO, PARIS <del rend="overstrike" hand="h1" seq="1">EXHIBITION!</del> <add rend="unmarked" place="above" hand="h1" seq="2">exposition!</add> </head>
+            <note type="editorial" place="top" resp="#ht"> <p>See notes, Oct 31, '89</p> </note>
+            <l>Add to your show, <del rend="overstrike" hand="h1" seq="1">dear</del> <add rend="unmarked" place="top" hand="h1" rend="left" seq="2">before you close it,</add> France,</l>
+            <l>With all the rest, visible, concrete, temples, towers, goods, machines and ores,</l>
+            <l>Our sentiment wafted from many million heart-throbs, ethereal but solid,</l>
+            <l>(We grand-sons and great-grand-sons do not forget your grand-sires,)</l>
+            <l>From fifty Nations and nebulous Nations, compacted, sent over-sea to-day,</l>
             <l>America's applause, love. memories and good-will.</l>
             <closer>
                <signed>WALT WHITMAN.</signed>
             </closer>
-            <note type="authorial"
-                  place="bottom"
-                  hand="h1">
-               <p>
-                  <hi rend="underline">Harper's Weekly</hi>
-               </p>
-            </note>
+            <note type="authorial" place="bottom" hand="h1"> <p><hi rend="underline">Harper's Weekly</hi></p></note>
          </lg>
       </body>
    </text>
