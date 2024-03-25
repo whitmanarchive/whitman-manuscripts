@@ -8,11 +8,13 @@
             <author>Walt Whitman</author>
             <editor role="editor">Kenneth M. Price</editor>
             <editor role="editor">Ed Folsom</editor>
+            <editor role="editor">Matt Cohen</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="sb">Sandy Byrd</persName>
                <persName xml:id="ph">Peter Henry</persName>
+               <persName xml:id="jh">Jeff Hill</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -20,7 +22,7 @@
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2003</date>
+               <date>2024</date>
             </edition>
          </editionStmt>
          <publicationStmt>
@@ -39,7 +41,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <author> Walt Whitman </author>
+               <author>Walt Whitman</author>
                <title>To the year 1889</title>
                <idno type="callno">MSS18630</idno>
                <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
@@ -48,6 +50,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change who="#jh" when="2024-03-25">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
          <change who="#sb" when="2006-11-14">converted to camel case; checked; revised</change>
          <change who="#ph" when="2002-09-16">encoded</change>
@@ -57,115 +60,20 @@
    <text>
       <body>
          <pb facs="loc.00077.001" xml:id="leaf001r" type="recto"/>
-         <lg
-              >
+         <lg>
             <head type="main-authorial" rend="underline">The the year 1889</head>
-            <lg type="linegroup"
-                 >
-               <l>
-                  Have I no word for thee? <subst>
-                        <rdg varSeq="1">
-                           <del rend="overstrike">some</del> 
-                        </rdg>
-                        <rdg varSeq="2">
-                           <add rend="unmarked" place="supralinear">no</add> 
-                        </rdg>
-                        <rdg varSeq="3">
-                           <add rend="unmarked" place="supralinear">
-                              <note type="authorial" place="inline">?</note> some</add> 
-                        </rdg>
-                     </subst> fierce <del rend="overstrike">strong</del>
-                  <lb/>
-                  yet untold message<lb/>
-               </l>
-               <l>
-                  <del rend="overstrike">Spurning at last</del>
-               </l>
-               <l>
-                  The sleek, <del rend="overstrike">
-                        <add rend="insertion" place="supralinear">affected,</add>
-                     </del> soft, gentle screen <subst>
-                        <rdg varSeq="1">
-                           <del rend="overstrike">I've</del> 
-                        </rdg>
-                        <rdg varSeq="2">
-                           <add rend="unmarked" place="supralinear">I</add> 
-                        </rdg>
-                     </subst> bent<lb/>
-                  
-                     <del rend="overstrike">below</del> behind <subst>
-                        <rdg varSeq="1">
-                           <del rend="overstrike">too</del> 
-                        </rdg>
-                        <rdg varSeq="2">
-                           <add rend="unmarked" place="supralinear">so</add> 
-                        </rdg>
-                     </subst> long, <add rend="insertion" place="supralinear">at last</add> emerging from;<lb/>
-               </l>
-               <l>
-                  Have I no frank confession? what <del rend="overstrike">world</del>
-                  <lb/>
-                  word O <del rend="overstrike">war</del> 
-                     <subst>
-                        <rdg varSeq="1">heart </rdg>
-                        <rdg varSeq="2">
-                           <add rend="unmarked" place="supralinear">soul</add> 
-                        </rdg>
-                     </subst>! O <subst>
-                        <rdg varSeq="1">world </rdg>
-                        <rdg varSeq="2">
-                           <add rend="unmarked" place="supralinear">year</add> 
-                        </rdg>
-                     </subst>!<lb/>
-               </l>
+            <lg type="linegroup">
+               <l>Have I no word for thee? <del rend="overstrike" seq="1">some</del> <add rend="unmarked" place="above" seq="2">no</add> <add rend="unmarked" place="above" seq="3"> <note type="authorial" place="inline">?</note>some</add> fierce <del rend="overstrike">strong</del> yet untold message</l>
+               <l><del rend="overstrike">Spurning at last</del></l>
+               <l>The sleek, <del rend="overstrike"> <add rend="insertion" place="above">affected,</add> </del> soft, gentle screen <del rend="overstrike" seq="1">I've</del> <add rend="unmarked" place="above" seq="2">I</add> bent <del rend="overstrike">below</del> behind <del rend="overstrike" seq="1">too</del> <add rend="unmarked" place="above" seq="2">so</add> long, <add rend="insertion" place="above">at last</add> emerging from;</l>
+               <l>Have I no frank confession? what <del rend="overstrike">world</del> word O <del rend="overstrike" seq="1">war</del> heart <add rend="unmarked" place="above" seq="2">soul</add> ! O <add rend="unmarked" place="above" seq="1">world</add> <add rend="unmarked" place="above" seq="2">year</add> !</l>
             </lg>
-
-            <lg type="linegroup"
-                 >
-               <l>
-                  The <add rend="unmarked" place="supralinear">old</add> 
-                     <del rend="overstrike">affected</del> sugar'd praise I <subst>
-                        <rdg varSeq="1">
-                           <del rend="overstrike">gave</del> 
-                        </rdg>
-                        <rdg varSeq="2">
-                           <add rend="unmarked" place="supralinear">crown'd</add> 
-                        </rdg>
-                     </subst> thee <subst>
-                        <rdg varSeq="1"> 
-                           <del rend="overstrike">long</del> 
-                        </rdg>
-                        <rdg varSeq="2">
-                           <add rend="unmarked" place="supralinear">long</add> 
-                        </rdg>
-                     </subst>
-                  <lb/>
-                  
-                     <subst>
-                        <rdg varSeq="1">
-                           <del rend="overstrike">now</del> 
-                        </rdg>
-                        <rdg varSeq="2">
-                           <add rend="unmarked" place="supralinear">now</add> 
-                        </rdg>
-                     </subst> left, <subst>
-                        <rdg varSeq="1">
-                           <del rend="overstrike">aside</del> 
-                        </rdg>
-                        <rdg varSeq="2">
-                           <del rend="overstrike">
-                              <add rend="unmarked" place="supralinear">off</add>
-                           </del> 
-                        </rdg>
-                     </subst> 
-                     <del rend="overstrike">altogether</del>
-                  <lb/>
-               </l>
-               <l>Nor affectation, year,<add rend="insertion" place="supralinear">for once,</add> for thee or me.</l>
+            <lg type="linegroup">
+               <l>The <add rend="unmarked" place="above">old</add> <del rend="overstrike">affected</del> sugar'd praise I <del rend="overstrike" seq="1">gave</del> <add rend="unmarked" place="above" seq="2">crown'd</add> thee <del rend="overstrike" seq="1">long</del> <add rend="unmarked" place="above" seq="2">long</add> <del rend="overstrike" seq="1">now</del> <add rend="unmarked" place="above" seq="2">now</add> left, <del rend="overstrike" seq="1">aside</del> <del rend="overstrike" seq="2"><add rend="unmarked" place="above">off</add></del> <del rend="overstrike">altogether</del></l>
+               <l>Nor affectation, year,<add rend="insertion" place="above">for once,</add> for thee or me.</l>
             </lg>
-
          </lg>
-
+         <pb facs="loc.00077.002" xml:id="leaf001v" type="verso"/>
       </body>
    </text>
 </TEI>
