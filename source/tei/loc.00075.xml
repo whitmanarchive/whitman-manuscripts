@@ -9,6 +9,7 @@
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
                 <editor>Ed Folsom</editor>
+                <editor>Matt Cohen</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="nk">Nick Krauter</persName>
@@ -17,7 +18,9 @@
                     <persName xml:id="aj">Andrew Jewell</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                    <persName xml:id="jh">Jeff Hill</persName>
+                </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -26,26 +29,24 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <date>2003</date>
+                    <date>2024</date>
                 </edition>
             </editionStmt>
             <publicationStmt>
-                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
-<addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
-<addrLine>Alderman Library</addrLine>
-<addrLine>University of Virginia</addrLine>
-<addrLine>P.O. Box 400115</addrLine>
-<addrLine>Charlottesville, VA 22904-4115</addrLine>
-<addrLine>whitman@jefferson.village.virginia.edu</addrLine>
-</address>
+                    <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
+                    <addrLine>Alderman Library</addrLine>
+                    <addrLine>University of Virginia</addrLine>
+                    <addrLine>P.O. Box 400115</addrLine>
+                    <addrLine>Charlottesville, VA 22904-4115</addrLine>
+                    <addrLine>whitman@jefferson.village.virginia.edu</addrLine>
+                </address>
                 <availability>
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
                 </availability>
             <idno>loc.00075</idno></publicationStmt>
             <notesStmt>
-                
                 <note type="project" target="#dat1">This manuscript is a draft of "<ref target="http://www.whitmanarchive.org/published/periodical/poems/per.00118.html">Continuities</ref>," a poem published first in the New York
                     <hi rend="italic">Herald</hi> on <date when="1888-03-20">March 20,
                         1888</date>. It was likely written around <date notBefore="1887" notAfter="1888">1887 or 1888</date>, shortly before the poem was published.</note>
@@ -54,11 +55,9 @@
                             <hi rend="italic">Herald</hi>, <date when="1888-03-20">March 20,
                                 1888</date>.</p>
                     </note>
-                
             </notesStmt>
             <sourceDesc>
                 <bibl><author xml:id="ww">Whitman, Walt</author>
-                    
                     <date xml:id="dat1" cert="high" notBefore="1887" notAfter="1888">About 1887 or 1888</date>
                     <title>Certainties, Faith, Counterbalances, Alternation</title>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
@@ -74,20 +73,21 @@
         </fileDesc>
         <profileDesc/>
         <revisionDesc>
-            <change when="2022-06-06" who="#km">updated relations encoding</change>
+            <change when="2024-03-25" who="#jh">checked, corrected</change>
+            <change when="2022-06-06" who="#kmp">updated relations encoding</change>
             <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-10-18" who="#nhg">corrected</change>
             <change when="2016-07-19" who="#nhg">checked, corrected transcription and encoding</change>
             <change when="2016-03-04" who="#nhg">completed teiHeader, removed extra line breaks</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
-            <change when="2006-08-02" who="#nk">Added third digit to leaf numbers</change>
-            <change when="2004-12-20" who="#aj">Addition of Date and Work Markup</change>
-            <change when="2004-12-20" who="#kmp">Addition of Date and Work Markup</change>
-            <change when="2003-10-02" who="#bb">Conversion to camel-case</change>
-            <change when="2003-03-04" who="#bb">Blessed</change>
-            <change when="2002-01-01" who="#kmp">Edited</change>
-            <change when="2002-01-01" who="#aj">Checked; revised</change>
-            <change when="2002-01-01" who="#ph">Transcribed; endcoded</change>
+            <change when="2006-08-02" who="#nk">ddded third digit to leaf numbers</change>
+            <change when="2004-12-20" who="#aj">addition of date and work Mmrkup</change>
+            <change when="2004-12-20" who="#kmp">addition of date and work markup</change>
+            <change when="2003-10-02" who="#bb">conversion to camel-case</change>
+            <change when="2003-03-04" who="#bb">blessed</change>
+            <change when="2002-01-01" who="#kmp">edited</change>
+            <change when="2002-01-01" who="#aj">checked, revised</change>
+            <change when="2002-01-01" who="#ph">transcribed, endcoded</change>
         </revisionDesc>
     </teiHeader>
     <text type="manuscript">
@@ -97,46 +97,15 @@
                 <head type="main" rend="underline">Certainties, Faith
                     <lb/>Counterbalances, <lb/>Alternation</head>
                 <lg type="linegroup">
-                    <l>The body <add place="supralinear" rend="insertion">sluggish,</add> old,</l>
-                    <l>The <subst>
-                            
-                                <del rend="overstrike" seq="1">fires in em</del>
-                                                        
-                                <add place="infralinear" rend="unmarked" seq="2">embers left of earlier
-                                    fires</add>
-                                                    </subst>
-</l>
-                    <l>
-                        The frozen winter clods
-                        —<subst><del rend="overstrike" seq="1">but</del>
-                                                                
-                                    <add rend="unmarked" place="supralinear" seq="2">—to them
-                                        the</add></subst>
-                                                            spring
-                        <lb/>shall come
-                    </l>
-                    <l>
-<subst>
-                                
-                                    <del rend="overstrike" seq="1">And <unclear reason="illegible" cert="low" resp="#kmp">heads</unclear></del>
-                                                                
-                                    <add place="supralinear" rend="unmarked" seq="2">With grass</add>
-                                                            </subst> and <del rend="overstrike">leaves</del> flowers and summer
-                        <lb/>
-<del rend="overstrike">branches green</del> fruits and corn
-                        
-                    </l>
+                    <l>The body <add place="above" rend="insertion">sluggish,</add> old,</l>
+                    <l>The <del rend="overstrike" seq="1">fires in em</del> <add place="below" rend="unmarked" seq="2">embers left of earlierfires</add></l>
+                    <l>The frozen winter clods&#8212;—<del rend="overstrike" seq="1">but</del> <add rend="unmarked" place="below" seq="2">&#8212;to them the</add> spring shall come</l>
+                    <l><del rend="overstrike" seq="1">And <unclear reason="illegible" cert="low" resp="#kmp">heads</unclear></del> <add place="above" rend="unmarked" seq="2">With grass</add> and <del rend="overstrike">leaves</del> flowers and summer <del rend="overstrike">branches green</del> fruits and corn</l>
                 </lg>
                 <lg type="linegroup">
-                    <l>The sun <del rend="overstrike">is</del>
-                        <add place="supralinear" rend="insertion">now sinking</add> low in the west
-                            <del rend="overstrike">de</del>
-</l>
+                    <l>The sun <del rend="overstrike">is</del> <add place="above" rend="insertion">now sinking</add> low in the west <del rend="overstrike">de</del></l>
                     <l>Shall rise again to morning and to noon</l>
-                    <l>The light in the eye grows dim—the
-                        <lb/>body <add place="supralinear" rend="unmarked">blood all</add> sluggish,
-                            old
-                    </l>
+                    <l>The light in the eye grows dim&#8212;the body <add place="above" rend="unmarked">blood all</add> sluggish, old</l>
                     <l>Appearances</l>
                 </lg>
             </lg>
