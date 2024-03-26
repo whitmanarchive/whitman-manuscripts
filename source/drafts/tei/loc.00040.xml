@@ -57,7 +57,7 @@
      IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
     
      <note type="work_relations" target="xxx." cert="high">
-      <p>Trial lines for "Sail Out for Good, Eid<!--o with accent-->olon Yacht!," which was published first in 1891. On part of the page is prose that appears to be a journal entry. The rest, though, is dedicated to a draft of the poem, with the title written half-way down the page: "Sail forth O mystic yacht of me." On the verso is written "Walt Whitman, July 30 1890" twice.</p>
+      <p>Trial lines for "Sail Out for Good, Eid&#243;lon Yacht!," which was published first in 1891. On part of the page is prose that appears to be a journal entry. The rest, though, is dedicated to a draft of the poem, with the title written half-way down the page: "Sail forth O mystic yacht of me." On the verso is written "Walt Whitman, July 30 1890" twice.</p>
      </note>
    </notesStmt>
    
@@ -67,13 +67,11 @@
      
      <title>Sail Out for Good, Eidolon Yacht!</title>  
      
-     <date cert="high">1891</date>
+     <date cert="high">about 1890</date>
      
      <idno type="callno">MSS 18630, Box 29: Reel 17-18</idno>
      
-<!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
-      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
-     <orgName xml:id="loc"></orgName>
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
    
@@ -85,28 +83,29 @@
    <handNotes>
     <handNote medium="pencil" xml:id="h01" resp="#ww"/>
     <handNote medium="purple pencil" xml:id="h02" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h03" resp="#ww"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
-<!-- IN THE FOLLOWING <CHANGE> ELEMENT EDIT THE @WHEN TO REFLECT TODAY'S DATE. IF YOU AREN'T JEFF, CHANGE THE INITIALS AFTER THE POUND SIGN IN @WHO -->
- <change when="2024-01-20" who="#jh">transcribed and encoded</change>
+ <change when="2024-03-25" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="P1010388.jpg" type="recto"/>
+   
+   <p hand="#h02">was <add place="above">toted</add> down <subst><del rend="overstrike" seq="1">at</del><add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001" seq="2">to</add></subst> <subst><del rend="overstrike" hand="#h01" seq="2"><add place="above" seq="1">by</add></del><add place="above" hand="#h01" seq="3">in</add></subst> <add place="above">my wheel chair</add> the river side (Delaware) yesterday p m just before 7 and sat these in the <subst><del rend="overstrike" seq="1">waning</del><add place="inline" seq="2"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" seq="3">mild</add></subst> breeze for over an hour. <add place="inline"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" hand="#h01" xml:id="a003">enjoying it all.</add> <del rend="overstrike">Fine sun set&#8211;richest colors silver edgings and sheen.</del> <add place="above" hand="#h01">The light</add> <add place="above">Had been a</add> Gay and cheery <del rend="overstrike" hand="#h01">light</del> all day&#8211; <subst><del rend="overstrike" hand="#h03" seq="1">but</del><add place="above" hand="#h03" seq="2">then</add></subst> the sun<add place="inline" hand="#h03">&#11840;</add>set at <del rend="overstrike">the</del> <subst><del rend="overstrike" hand="#h01" seq="1">last</del><add place="above" hand="#h01" seq="2">close</add></subst> finer than any. Sky and water and breeze tempering every thing, but there in the western edge those <add place="inline" hand="#h03"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" hand="#h03" xml:id="a004">copious</add> richest colors silver edgings and <subst><del rend="overstrike" hand="#h01" seq="1">breaks</del><add place="above" hand="#h01" seq="2">darts</add></subst> of sheen&#8211;<subst rend="overwrite"><del seq="2"><add place="above" seq="1">almost</add></del><add place="above" seq="3">&#8211;spreading</add></subst> over. whelming<add place="inline" hand="#h01">ly.</add><add place="above" hand="#h03">&#8211;</add><add place="inline" hand="#h01"><del rend="overstrike" hand="#h03">Th<subst><del rend="overstrike" seq="1">e</del><add place="above" seq="2">at</add></subst></del> finale of <del rend="overstrike">the</del> <subst><del rend="overstrike" seq="1">so much</del><add place="above" seq="3">the</add><add place="above" seq="2">day's</add></subst> dazzle <del rend="overstrike" hand="#ho3">and</del> vitality and fructification!</add></p>
+   
    <lg type="poem">
-     <l></l>
+     <l>Depart depart for good</l>
      <l></l>
      <l></l>
    </lg>
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+   <pb xml:id="leaf001v" facs="P1010389.jpg" type="verso"/>
    
 </body>
 </text>
