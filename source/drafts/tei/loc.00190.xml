@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>                
-                <title level="m" type="main" rend="bracketed">Lay on the graves of</title>
+                <title level="m" type="main" rend="bracketed">Lay on the graves</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -41,12 +41,10 @@
             </publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
-                
                 <!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
      PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
      IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
      IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
-                
                 <note type="work_relations" target="xxx." cert="">
                     <p></p>
                 </note>
@@ -54,11 +52,10 @@
             <sourceDesc>
                 <bibl>
                     <author xml:id="ww">Whitman, Walt</author>
-                    <title>[Lay on the graves of]</title>                      
+                    <title>[Lay on the graves]</title>                      
                     <!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
        BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
                     <date notBefore="" notAfter="" cert=""></date>
-                    
                     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <note>Transcribed from digital images of the original.</note>
@@ -69,22 +66,13 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <handNotes>
-                <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-                <handNote medium="blue ink" xml:id="h02" resp="#unk"></handNote>
-                <handNote medium="red ink" xml:id="h03" resp="#ww"/>
-            </handNotes>
-        </profileDesc>
         <revisionDesc>
             <change when="2024-03-26" who="#jh">transcribed and encoded</change>
         </revisionDesc>
     </teiHeader>    
     <text type="manuscript">
         <body>
-            
-            <!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-            <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
+            <pb xml:id="leaf001r" facs="20040324_0029.jpg" type="recto"/>
             <lg type="poem">
                 <l><del rend="overstrike" seq="1">Covering</del> <add rend="insertion" place="above">Lay on</add> the graves of all dead soldiers</l>
                 <l>Wreaths of roses and branches of palms,</l>
@@ -98,10 +86,7 @@
                 <l>We jining proud, remembering thankul <add rend="insertion" place="below">sorrows</add></l>
                 <l>[gap]</l>
             </lg>
-            
-            <!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-            <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
-            
+            <pb xml:id="leaf001v" facs="20040324_0030.jpg" type="verso"/>
         </body>
     </text>
 </TEI>
