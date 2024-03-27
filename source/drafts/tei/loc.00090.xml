@@ -1,186 +1,116 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00090">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title level="m" type="main">Funeral Interpolations</title>
-            <title level="m" type="sub">a machine readable transcription</title>
-            <respStmt>
-               <resp>Transcription and encoding</resp>
-               <persName xml:id="nhg">Nicole Gray</persName>
-               <persName xml:id="sb">Sandy Byrd</persName>
-            </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
-            <sponsor>University of Iowa</sponsor>
-            <funder>The National Endowment for the Humanities</funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>
-               <date>2002</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <idno>loc.00090</idno>
-            <distributor>The Walt Whitman Archive</distributor>
-            <address>
-               <addrLine>Center for Digital Research in the Humanities</addrLine>
-               <addrLine>319 Love Library</addrLine>
-               <addrLine>University of Nebraska-Lincoln</addrLine>
-               <addrLine>P.O. Box 884100</addrLine>
-               <addrLine>Lincoln, NE 68588-4100</addrLine>
-            </address>
-            <availability>
-               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc/>
-      </fileDesc>
-      <revisionDesc>
-         <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#sb" when="2006-08-11">converted to camel case</change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00090"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main"> Funeral interpolations</title>
+    <title level="m" type="sub">a hand-written transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="tb">Tara Ballard</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
 
-         <pb facs="loc.00090.001" xml:id="leaf001r" type="recto"/>
-         <lg
-              >
-
-		
-<!--There is a Library of Congress stamp, in red ink, in the upper right quarter of the page-->
-            <head type="main-authorial" rend="underline">Funeral <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">Sounds not in</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="supralinear">Interpolations</add>
-                  </rdg>
-               </subst>
-            </head> 
-
-            <l>
-               <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">Athwart the</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="insertion" place="supralinear">Over and through the</add>
-                  </rdg>
-               </subst> burial chant,</l>
-
-            <l>
-               Organ and solemn service, sermon, <del rend="overstrike">and</del>
-               <lb/>
-               bending priests<lb/>
-            </l>
-
-            <l>
-               <add rend="insertion" place="supralinear">To me </add>Come stealing <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">to me</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="insertion" place="supralinear">interpolation</add>
-                  </rdg>
-               </subst> sounds not <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">in the sermon</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="insertion" place="supralinear">
-                        <del rend="overstrike">here or</del>in the show—</add>
-                  </rdg>
-               </subst>
-            </l>
-
-            <l>
-               <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">But winding</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="insertion" place="supralinear">—plainly to me</add>
-                  </rdg>
-               </subst> through <add rend="insertion" place="supralinear">all </add>
-               <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">the</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="insertion" place="supralinear">the</add>
-                  </rdg>
-               </subst>
-               <del rend="overstrike"> heavy</del> aisle and window<add rend="insertion" place="supralinear">sounding</add>
-            </l>
-
-            <l>
-               Of <add rend="insertion" place="supralinear">
-                     <subst>
-                        <rdg varSeq="1">
-                           <del rend="overstrike">active</del>
-                        </rdg>
-                        <rdg varSeq="2">sudden</rdg>
-                     </subst>
-                  </add> battle's hurry and harsh noise<del rend="overstrike">s</del>—war's, war's<lb/>
-               grim game <add rend="insertion" place="supralinear">to sight and ear</add> in earnest,<lb/>
-            </l>
-
-            <l>
-               The scout <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">brought</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="insertion" place="supralinear">call'd</add>
-                     </rdg>
-                  </subst> up <add rend="insertion" place="supralinear">&amp; forward—</add>—the new-brought word—the<lb/>
-               instantaneous order issued<lb/>
-            </l>
-
-            <l>
-               The rifle crack—the cannon thud—the<lb/>
-               rushing forth of <del rend="overstrike">the</del> companies <add rend="insertion" place="supralinear">from their tents,</add>
-               <lb/>
-            </l>
-
-            <l>
-               The clank of cavalry—the strange celerity<lb/>
-               of <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">the</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="insertion" place="supralinear">forming</add>
-                     </rdg>
-                  </subst> ranks,—the slender bugle-note<lb/>
-            </l>
-
-            <l>
-               The noise of horses' hoofs <add rend="insertion" place="supralinear">departing—saddles arms,</add>—accoutrements. <del rend="overstrike">and</del>
-               <lb/>
-               
-                  <del rend="overstrike">arms</del>
-               <lb/>
-            </l>
-         </lg>
-
-         <note type="authorial">pub'd—paid</note>
-
-         <signed>Walt Whitman</signed>
-
-         <note type="editorial">
-            Given to Percival Mitchell<lb/>
-            by Horace Traubel<lb/>
-            at Camden Dec 18 1904<lb/>
-         </note>
+   <idno>loc.00090</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
+     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
+     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
+     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
+    
+     <note type="work_relations" target="xxx." cert="high">
+      <p>An early draft of the poem "Interpolation Sounds," first published in the <hi rend="italic">New York Herald</hi> on August 12, 1888, under the title "Over and Through the Burial Chant." It was published with the revised title in <hi rend="italic">Good-Bye My Fancy</hi> (1891).</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     
+     <date cert="high">1888</date>
+     
+     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     
+<!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
+      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
+     <orgName xml:id=""></orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
+     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
+     <relatedItem type="document" target="wwa.00041"/>
+     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="blue ink" xml:id="h02" resp="#unk"></handNote>
+    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
  
-         <pb facs="loc.00090.002" xml:id="leaf001v" type="verso"/>
-         <note type="authorial">Sheridan's Funeral</note>
-         <!--This is in Whitman's hand and would show after the leaf had been folded into quarters-->
+<!-- IN THE FOLLOWING <CHANGE> ELEMENT EDIT THE @WHEN TO REFLECT TODAY'S DATE. IF YOU AREN'T JEFF, CHANGE THE INITIALS AFTER THE POUND SIGN IN @WHO -->
+ <change when="2024-01-20" who="#jh">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
 
-
-      </body>
-   </text>
+ <text type="manuscript">
+  <body>
+   
+<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
+   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
+   <lg type="poem">
+     <l></l>
+     <l></l>
+     <l></l>
+   </lg>
+   
+<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
+   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+   
+</body>
+</text>
 </TEI>
