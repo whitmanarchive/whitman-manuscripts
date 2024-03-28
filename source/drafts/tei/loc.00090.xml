@@ -65,15 +65,13 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     <title>Funeral Interpolations</title>  
      
      <date cert="high">1888</date>
      
-     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     <idno type="callno">MSS 77909, Box 1</idno>
      
-<!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
-      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
-     <orgName xml:id=""></orgName>
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
       <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
@@ -85,15 +83,14 @@
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="blue ink" xml:id="h02" resp="#unk"></handNote>
-    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h01" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h02" resp="#ww">
+    <handNote medium="black ink" xml:id="h03" resp="#unk"/></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
-<!-- IN THE FOLLOWING <CHANGE> ELEMENT EDIT THE @WHEN TO REFLECT TODAY'S DATE. IF YOU AREN'T JEFF, CHANGE THE INITIALS AFTER THE POUND SIGN IN @WHO -->
- <change when="2024-01-20" who="#jh">transcribed and encoded</change>
+ <change when="2024-03-28" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -103,9 +100,18 @@
 <!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
    <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
    <lg type="poem">
-     <l></l>
-     <l></l>
-     <l></l>
+    <head rend="underline">Funeral <subst><del rend="overstrike" seq="1">Sounds not in</del><add place="above" seq="2">interpolations</add></subst></head>
+    <l><subst><del rend="overstrike" seq="1">Athwart the</del><add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001" seq="2">Over and through the</add></subst> burial chant</l>
+    <l>Organ and solemn service, sermon, <del rend="overstrike">and</del><lb/>
+          bending priests</l>
+    <l><add place="inline"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">To me</add>Come stealing <subst><del rend="overstrike" seq="1">to me</del><add place="above" seq="2">interpolation</add></subst> sounds not <subst><del rend="overstrike" seq="1">in the service</del><del rend="overstrike" seq="3"><add place="above" seq="2">here or</add></del><add place="above">in The</add><add place="above">show&#8211;</add></subst></l>
+    <l>But windy <add place="inline"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">&#8211;plainly to me</add> through <add place="inline"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">all the</add> <del rend="overstrike">the heavy</del> aisle and window <add place="above">sounding</add></l>
+   <l></l>
+    <l></l>
+    <l></l>
+    <l></l>
+    <l></l>
+    <l></l>
    </lg>
    
 <!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
