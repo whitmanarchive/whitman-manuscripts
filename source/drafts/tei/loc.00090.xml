@@ -7,7 +7,7 @@
   <fileDesc>
    <titleStmt>
     
-    <title level="m" type="main"> Funeral interpolations</title>
+    <title level="m" type="main">Funeral interpolations</title>
     <title level="m" type="sub">a hand-written transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -56,7 +56,7 @@
      IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
      IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
     
-     <note type="work_relations" target="xxx." cert="high">
+     <note type="work_relations" cert="high">
       <p>An early draft of the poem "Interpolation Sounds," first published in the <hi rend="italic">New York Herald</hi> on August 12, 1888, under the title "Over and Through the Burial Chant." It was published with the revised title in <hi rend="italic">Good-Bye My Fancy</hi> (1891).</p>
      </note>
    </notesStmt>
@@ -73,11 +73,8 @@
      
      <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
-     <note>Transcribed from digital images of the original.</note>
-      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
-     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-     <relatedItem type="document" target="wwa."/>
-     <note type="project" target="#rel01">.</note>
+     <note>Transcribed from digital images of the original.</note>     
+     <note type="project" target="#rel01">On the verso are the words "Sheridan's Funeral"; the rest of the page is blank.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
@@ -85,7 +82,7 @@
    <handNotes>
     <handNote medium="pencil" xml:id="h01" resp="#ww"/>
     <handNote medium="black ink" xml:id="h02" resp="#ww">
-    <handNote medium="black ink" xml:id="h03" resp="#unk"/></handNote>
+    <handNote medium="black ink" xml:id="h03" resp="#unk"/><persName xml:id="unk">unknown</persName></handNote><!--May be Horace Traubel?-->
    </handNotes>
   </profileDesc>
 <revisionDesc>
@@ -97,8 +94,7 @@
  <text type="manuscript">
   <body>
    
-<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="loc.00643.001.jpg" type="recto"/>
    <lg type="poem">
     <head rend="underline">Funeral <subst><del rend="overstrike" seq="1">Sounds not in</del><add place="above" seq="2">interpolations</add></subst></head>
     <l><subst><del rend="overstrike" seq="1">Athwart the</del><add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001" seq="2">Over and through the</add></subst> burial chant</l>
@@ -118,8 +114,11 @@
        arms.</del></l>
    </lg>
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+   <note hand="h02" type="authorial">pub'd&#8212;paid</note>
+   
+   <note hand="h03" type="editorial"><l>Given to Percival Mitchell</l><l>by Horace Traubel</l><l>at Camden Dec 18 1904</l></note>
+   
+   <pb xml:id="leaf001v" facs="loc.00643.002.jpg" type="verso"/>
    
 </body>
 </text>
