@@ -31,6 +31,8 @@
    </editionStmt>
    <publicationStmt>
     
+   
+    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -73,6 +75,14 @@
     </bibl>
    </sourceDesc>
 </fileDesc>
+  
+  <profileDesc>
+   <handNotes>
+    <handNote scope="major" xml:id="h01" resp="#unk" medium="printed type"><persName xml:id="unk">unknown</persName></handNote>
+    <handNote scope="minor" xml:id="h02" resp="#ww" medium="black pen"/>
+   </handNotes>
+  </profileDesc>
+  
 <revisionDesc>
  
  <change when="2024-02-28" who="#slg">transcribed and encoded</change>
@@ -82,12 +92,14 @@
  <text type="manuscript">
   <body>
    
+   
    <pb xml:id="leaf001r" facs="tex.00050.001.jpg" type="recto"/>
  
-   <note hand="#ww" type="authorial" place="top"><hi rend="underline">Critic</hi> Jan: 5 '89</note>
+   <note hand="#h02" type="authorial" place="top"><hi rend="underline">Critic</hi> Jan: 5 '89</note>
+   
    
    <lg type="poem">
-   <head type="main">TO THE YEAR 1889.</head>
+    <head type="main"><handShift new="#h01"/>TO THE YEAR 1889.</head>
     <l>Have I no weapon-word for thee&#8212;some message brief and fierce?</l>
      <l>Have I fought out and done indeed the battle? Is there no shot left,</l>
      <l>For all thy affections, lisps, scorns, manifold silliness?</l>
@@ -98,6 +110,7 @@
    </lg>
    
    <ab><hi rend="smallcaps">WALT WHITMAN.</hi></ab>
+    
    
    <pb xml:id="leaf001v" facs="tex.00050.002.jpg" type="verso"/>
    
