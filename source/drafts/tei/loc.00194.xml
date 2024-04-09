@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00194">
    <relations>
       <work ref="xxx.00406" cert="high">
@@ -18,12 +19,14 @@
             <author>Walt Whitman</author>
             <editor role="editor">Kenneth M. Price</editor>
             <editor role="editor">Ed Folsom</editor>
+            <editor role="editor">Matt Cohen</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="km">Kenneth M. Price</persName>
                <persName xml:id="fl">Farrah Lehman</persName>
                <persName xml:id="ms">Melody S. Han</persName>
+               <persName xml:id="jh">Jeff Hill</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -31,7 +34,7 @@
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2003</date>
+               <date>2024</date>
             </edition>
          </editionStmt>
          <publicationStmt>
@@ -57,185 +60,52 @@
                <title>[Each claim, ideal, line]</title>
                <date cert="high" value="1891" xml:id="dat1">About 1891</date>
                <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
-
                <note type="project">Transcribed from digital images of the original.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change who="#jh" when="2024-03-29">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#km" when="2006-10-05">Edited</change>
-         <change who="#fl" when="2006-09-21">Checked</change>
-         <change who="#ms" when="2004-02-29">Encoded</change>
-         <change who="#ms" when="2004-02-29">Transcribed</change>
+         <change who="#km" when="2006-10-05">edited</change>
+         <change who="#fl" when="2006-09-21">checked</change>
+         <change who="#ms" when="2004-02-29">encoded</change>
+         <change who="#ms" when="2004-02-29">transcribed</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-
          <pb facs="loc.00194.001" xml:id="leaf001r" type="recto"/>
-
          <div1 type="multiple poems">
-
-            <lg
-                 >
+            <lg>
                <head type="main-derived">Each claim</head>
-               <lg type="linegroup"
-                    >
-                  <l>
-                     Each claim <add rend="insertion" place="supralinear">ideal</add> line, <subst>
-                           <rdg varSeq="1">
-                              <del rend="overstrike">tenet</del>
-                           </rdg>
-                           <rdg varSeq="2">
-                              <add rend="unmarked" place="supralinear">
-                                 <del rend="overstrike">aspiration,</del>
-                              </add>
-                           </rdg>
-                        </subst> by all <del rend="overstrike">the</del> 
-
-                        <add rend="unmarked" place="supralinear">lines</add> 
-                        <add rend="unmarked" place="supralinear">claims</add> 
-                        <add rend="unmarked" place="supralinear">ideals</add>
-                     <lb/>
-
-                     
-                        <del rend="overstrike">rest</del> temper'd<lb/>
-                  </l>
+               <lg type="linegroup">
+                  <l>Each claim <add rend="insertion" place="supralinear">ideal</add> line, <del rend="overstrike" seq="1">tenet</del> <add rend="unmarked" place="above" seq="2"> <del rend="overstrike">aspiration,</del></add> by all <del rend="overstrike">the</del> <add rend="unmarked" place="above">lines</add> <add rend="unmarked" place="above">claims</add> <add rend="unmarked" place="above">ideals</add> <del rend="overstrike">rest</del> temper'd</l>
                   <l>Each right and wish by other wishes rights</l>
                </lg>
-
-               <lg type="linegroup"
-                    >
-
-                  <l>Not to exclude or take away <add rend="unmarked" place="supralinear">or <subst>
-                           <rdg varSeq="1">
-                              <del rend="overstrike">point</del>
-                           </rdg>
-                           <rdg varSeq="2">
-                              <add rend="unmarked" place="supralinear">pick</add>
-                           </rdg>
-                        </subst> out evils</add> 
-                     <add rend="insertion" place="supralinear">
-                        <hi rend="circled">
-                           from their vast formidable<lb/>
-                           masses<lb/>
-                        </hi>
-                     </add>
-                  </l>
-                  <l>
-                     But add, <del rend="overstrike">
-                           <add rend="unmarked" place="supralinear">and</add>
-                        </del> extend complete, proportionate <add rend="insertion" place="supralinear">the immortal good</add>—
-<delSpan rend="overstrike"
-                                 to="d1"
-                                 />and<lb/>
-                     to develop heroism—<lb/>
-                  </l>
+               <lg type="linegroup">
+                  <l>Not to exclude or take away <add rend="unmarked" place="above">or<del rend="overstrike" seq="1">point</del><add rend="unmarked" place="supralinear" seq="2">pick</add>out evils</add> <add rend="insertion" place="above"><hi rend="circled">from their vast formidable masses</hi></add></l>
+                  <l>But add, <del rend="overstrike"><add rend="unmarked" place="above">and</add></del> extend complete, proportionate <add rend="insertion" place="above">the immortal good</add>&#8212;<delSpan rend="overstrike" to="d1"/>and to develop heroism&#8212;</l>
                   <anchor xml:id="d1"/>
                </lg>
-
-               <lg type="linegroup"
-                    >
-
-                  <note place="left"
-                        type="authorial">?</note>
-                  <l>For <add place="supralinear" rend="unmarked">out door</add> health, the land and sent <add place="supralinear" rend="unmarked">bar</add> 
-                     <subst>
-                        <rdg varSeq="1">
-                           <del rend="overstrike">friendship</del>
-                        </rdg>
-                        <rdg varSeq="2">
-                           <add place="supralinear" rend="unmarked">good will</add>
-                        </rdg>
-                     </subst>
-                  </l>
-                  <l>For America—for <subst>
-                        <rdg varSeq="1">
-                           <del rend="overstrike">all</del>
-                        </rdg>
-                        <rdg varSeq="2">
-                           <add place="supralinear" rend="unmarked">common</add>
-                        </rdg>
-                     </subst> people, all <subst>
-                        <rdg varSeq="1">
-                           <del rend="overstrike">lands</del>
-                        </rdg>
-                        <rdg varSeq="2">
-                           <add place="supralinear" rend="unmarked">lands</add>
-                        </rdg>
-                     </subst>, all the earth</l>
-                  <add rend="unmarked" place="inline">
-                     <l>(Not one nation only—not even America only)</l>
-                  </add>
+               <lg type="linegroup">
+                  <note place="left" type="authorial">?</note>
+                  <l>For <add place="above" rend="unmarked">out door</add> health, the land and sent <add place="abpve" rend="unmarked">bar</add> <del rend="overstrike" seq="1">friendship</del> <add place="supralinear" rend="unmarked" seq="2">good will</add></l>
+                  <l>For America&#8212;for <del rend="overstrike" seq="1">all</del> <add place="above" rend="unmarked" seq="2">common</add> people, all <del rend="overstrike" seq="1">lands</del> <add place="above" rend="unmarked" seq="2">lands</add>, all the earth</l>
+                  <add rend="unmarked" place="inline"><l>(Not one nation only—not even America only)</l></add>
                </lg>
-
             </lg>
-
-            <lg
-                 >
-
+            <lg>
                <head type="main-authorial" rend="underline">These pages past</head>
-
-               <lg type="linegroup"
-                    >
-
-                  <l>Thoughts, <add place="supralinear" rend="insertion">suggestions,</add> aspirations, pictures</l>
-                  <l>Cities and forms—<subst>
-                        <rdg varSeq="1">
-                           <del rend="overstrike">of</del>
-                        </rdg>
-                        <rdg varSeq="2">
-                           <add place="supralinear" rend="unmarked">by</add>
-                        </rdg>
-                     </subst> day and night— <subst>
-                        <rdg varSeq="1">
-                           <del rend="overstrike">of</del>
-                        </rdg>
-                        <rdg varSeq="2">
-                           <add place="supralinear" rend="unmarked">thro'</add>
-                        </rdg>
-                     </subst> peace and war</l>
-                  <add rend="unmarked" place="inline">
-                     <l>Thro' platitudes—thro' commonplace.</l>
-                  </add>
+               <lg type="linegroup">
+                  <l>Thoughts, <add place="above" rend="insertion">suggestions,</add> aspirations, pictures</l>
+                  <l>Cities and forms&#8212;<del rend="overstrike" seq="1">of</del> <add place="above" rend="unmarked" seq="1">by</add> day and night&#8212;<del rend="overstrike" seq="1">of</del> <add place="above" rend="unmarked" seq="2">thro'</add> peace and war</l>
+                  <add rend="unmarked" place="inline"><l>Thro' platitudes&#8212;thro' commonplace.</l></add>
                </lg>
-
-               <lg type="linegroup"
-                    >
+               <lg type="linegroup">
                   <l>I sing of life, yet mind me well of death</l>
-                  <l>(<orig reg="Today">To day</orig> death dogs <subst>
-                        <rdg varSeq="1">
-                           <del rend="overstrike">my</del>
-                        </rdg>
-                        <rdg varSeq="2">
-                           <add place="supralinear" rend="unmarked">
-                              <gap reason="deletion,illegible"/>
-                           </add>
-                        </rdg>
-                     </subst> my steps <add place="supralinear" rend="unmarked">and has for years—</add> my seated <subst>
-                        <rdg varSeq="1">
-                           <del rend="overstrike">form</del>
-                        </rdg>
-                        <rdg varSeq="2">
-                           <add place="supralinear" rend="unmarked">shape</add>
-                        </rdg>
-                     </subst> 
-                     <add place="supralinear" rend="insertion">as here—</add>
-                  </l>
-                  <l>
-                     
-                        <del rend="overstrike">And has for years—)</del> 
-                        <add place="supralinear" rend="unmarked">Death</add>—silent <del rend="overstrike">invisible</del> draws<lb/>
-                     sometimes close <subst>
-                           <rdg varSeq="1">
-                              <del rend="overwrite">)</del>
-                           </rdg>
-                           <rdg varSeq="2">
-                              <add place="inline" rend="overwrite">—</add>
-                           </rdg>
-                        </subst>as face to face)<lb/>
-                  </l>
+                  <l>(<orig reg="Today">To day</orig> death dogs <del rend="overstrike" seq="1">my</del> <add place="above" rend="unmarked" seq="2"><gap reason="deletion,illegible"/></add> my steps <add place="above" rend="unmarked">and has for years&#8212;</add> my seated <del rend="overstrike" seq="1">form</del> <add place="above" rend="unmarked" seq="2">shape</add> <add place="above" rend="insertion">as here&#8212;</add></l>
+                  <l><del rend="overstrike">And has for years&#8212;)</del> <add place="above" rend="unmarked">Death</add>&#8212;silent <del rend="overstrike">invisible</del> draws sometimes close <del rend="overwrite" seq="1">)</del> <add place="inline" rend="overwrite" seq="2">&#8212;</add> as face to face)</l>
                </lg>
             </lg>
          </div1>
