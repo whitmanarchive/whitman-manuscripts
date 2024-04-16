@@ -69,9 +69,7 @@
      <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
-     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-     <relatedItem type="document" target="wwa.00041"/>
+   
      <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
     </bibl>
    </sourceDesc>
@@ -79,30 +77,45 @@
   <profileDesc>
    <handNotes>
     <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="blue ink" xml:id="h02" resp="#unk"></handNote>
-    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h02" resp="#unk"></handNote><!-- add tag for clarification-->
+    <handNote medium="black ink" xml:id="h03" resp="#unk2"/><!-- same -->
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
-<!-- IN THE FOLLOWING <CHANGE> ELEMENT EDIT THE @WHEN TO REFLECT TODAY'S DATE. IF YOU AREN'T JEFF, CHANGE THE INITIALS AFTER THE POUND SIGN IN @WHO -->
- <change when="2024-01-20" who="#jh">transcribed and encoded</change>
+ <change when="2024-04-16" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="20040324_0031.jpg" type="recto"/>
+   
+   <note>(ACC,19,078)</note><!-- add archivist hand-->
+   
    <lg type="poem">
-     <l></l>
-     <l></l>
-     <l></l>
+          <head rend="underline">The dismantled Ship</head>
+     <l>In some  lagoon some <!-- add unclear gap torn details--><lb/>
+          nameless bay.</l>
+     <l>On sluggish waters calm <!-- gap info--><lb/> 
+          muddy, <add place="inline"><metamark function="add"><!--finish--></metamark></add><add place="above">anchor'd</add>near the shore.</l>
+    <l>An old, disabled <subst><del rend="overstrike" seq="1">ship</del><add place="above" seq="2">gray, and</add></subst> batter'd,
+          <add place="inline"><metamark function="add"><!--finish--></metamark></add><add place="above">ships,</add>dismasted, broken,</l>
+    <l>After <subst><del>her</del><add>free</add></subst> voyages all the<lb/>
+          seas of earth, haul'd up<lb/>
+          and hawser'd tight</l>
+    <l>Lies anchor'd rusting,
+          mouldering there.</l>
    </lg>
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+   <note>sent to Herald</note>
+   
+   <note>probably printed in Herald 19th Feb. '88</note>
+   
+   <note hand="archival">4 1/</note>
+   
+   <pb xml:id="leaf001v" facs="20040324_0033.jpg" type="verso"/>
    
 </body>
 </text>
