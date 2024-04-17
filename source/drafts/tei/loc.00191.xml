@@ -70,20 +70,20 @@
      
      <note>Transcribed from digital images of the original.</note>
    
-     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+     <note type="project" target="#rel01">The verso is an unfolded envelope with Whitman's address, postal stamps, and a note: <l>c/o F.B. Samborn</l><l>Concord</l>. Math notations are also present.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
     <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="pencil" xml:id="h02" resp="#unk"></handNote><!-- add tag for clarification-->
-    <handNote medium="black ink" xml:id="h03" resp="#unk2"/><!-- same -->
+    <handNote medium="pencil" xml:id="h02" resp="#unk"><persName xml:id="unk">Unknown</persName></handNote>
+    <handNote medium="black ink" xml:id="h03" resp="#unk2"><persName xml:id="unk2">Unknown 2</persName></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
- <change when="2024-04-16" who="#tb">transcribed and encoded</change>
+ <change when="2024-04-17" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -92,28 +92,28 @@
    
    <pb xml:id="leaf001r" facs="20040324_0031.jpg" type="recto"/>
    
-   <note>(ACC,19,078)</note><!-- add archivist hand-->
+   <note hand="h02" type="archival" place="top">(ACC,19,078)</note>
    
    <lg type="poem">
-          <head rend="underline">The dismantled Ship</head>
-     <l>In some  lagoon some <!-- add unclear gap torn details--><lb/>
+          <head rend="underline">The <gap extent="about one letter" unit="chars" quantity="1" reason="torn away"/>ismantled Ship</head>
+     <l>In some <gap extent="about two letters" unit="chars" quantity="2" reason="torn away"/>ased lagoo<gap extent="about one letter" unit="chars" quantity="1" reason="torn away"/> some<lb/>
           nameless bay.</l>
-     <l>On sluggish waters calm <!-- gap info--><lb/> 
-          muddy, <add place="inline"><metamark function="add"><!--finish--></metamark></add><add place="above">anchor'd</add>near the shore.</l>
-    <l>An old, disabled <subst><del rend="overstrike" seq="1">ship</del><add place="above" seq="2">gray, and</add></subst> batter'd,
-          <add place="inline"><metamark function="add"><!--finish--></metamark></add><add place="above">ships,</add>dismasted, broken,</l>
-    <l>After <subst><del>her</del><add>free</add></subst> voyages all the<lb/>
-          seas of earth, haul'd up<lb/>
-          and hawser'd tight</l>
-    <l>Lies anchor'd rusting,
-          mouldering there.</l>
+     <l>On sluggish waters calm <gap extent="about one letter" unit="chars" quantity="1" reason="torn away"/>nd<lb/> 
+          muddy, <add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">anchor'd</add>near the shore.</l>
+    <l>An old, disabled <subst><del rend="overstrike" seq="1">ship&#11840;</del><add place="above" seq="2">gray, and</add></subst> batter'd,
+          <add place="inline"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">ships,</add>dismasted, broken,</l>
+    <l>After <subst><del rend="overstrike" seq="1">her</del><add place="above" seq="2">free</add></subst> voyages <del><unclear reason="illegible" cert="low" resp="#tb"/></del><add place="above">to</add> all the<lb/>
+          seas of earth, <add place="inline"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">the hulk of her,</add> haul'd up<lb/>
+          <add place="inline"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">at last</add> and hawser'd tight</l>
+    <l>Lies <del>anchor'd</del> rusting,
+     mouldering <subst><del rend="overstrike" seq="1">there.</del><add seq="2">There.</add></subst></l>
    </lg>
    
    <note>sent to Herald</note>
    
    <note>probably printed in Herald 19th Feb. '88</note>
    
-   <note hand="archival">4 1/</note>
+   <note hand="h03" type="archival" place="bottom">4 &#188; &#2192;</note>
    
    <pb xml:id="leaf001v" facs="20040324_0033.jpg" type="verso"/>
    
