@@ -8,7 +8,7 @@
   <fileDesc>
    <titleStmt>
     
-    <title level="m" type="main" rend="bracketed">Funeral Sounds</title>
+    <title level="m" type="main">Funeral Sounds</title>
     <title level="m" type="sub">a hand-written transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -52,11 +52,6 @@
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
-<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
-     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
-     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
-     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
-    
      <note type="work_relations">
       <p><!--need to add--></p>
      </note>
@@ -82,12 +77,12 @@
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h01" resp="#ww"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
- <change when="2024-04-17" who="#tb">transcribed and encoded</change>
+ <change when="2024-04-18" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -105,9 +100,12 @@
         and arms</l>
     <l></l>
     <l>The <subst><del rend="overstrike" seq="1">hurrying</del><del seq="3"><add seq="2">sudden</add></del><add seq="4">battle hurry</add></subst> and the noise&#8212;the
-         common thud&#8212;the war's grim
+     <del>cannon thud&#8212;the</del> war's grim
          game in earnest</l>
-    <l><subst><del></del><add></add></subst></l>
+    <l><subst><del rend="overstrike" seq="2">The rifle <del rend="overstrike" seq="1">r</del> crack</del><add place="above" seq="3">The scout,</add><add place="above" seq="4">Advancing and retreating</add></subst>&#8212; the <subst><del rend="overstrike" seq="1">freshest</del><add place="above" seq="2">new&#11840;brought</add></subst> word&#8212;
+    the rifles <add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">instantaneous</add> order issued</l>
+    <l>The rifel crack&#8212;the cannon thud&#8212; the
+        <add place="above">rapid</add> movement of the companies</l>
    </lg>
    
    <pb xml:id="leaf001v" facs="loc_gk.00012_large.jpg" type="verso"/>
