@@ -50,14 +50,9 @@
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
-    
-<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
-     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
-     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
-     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
-    
-     <note type="work_relations" target="xxx." cert="">
-      <p><!--still to add--></p>
+        
+     <note type="work_relations" target="xxx." cert="high">
+      <p>A draft of a poem later revised and published as "Shakespere-Bacon's Cipher" in 1887.</p>
      </note>
    </notesStmt>
    
@@ -67,7 +62,7 @@
      
      <title>The Mystic Cipher</title>  
      
-     <date notBefore="1842" notAfter="1891" cert="high">undated</date>
+     <date cert="high">1887</date>
      
      <idno type="callno">MSS 18630, Box 27; Reel 16-17</idno>
      
@@ -86,7 +81,7 @@
   </profileDesc>
 <revisionDesc>
  
- <change when="2024-04-18" who="#tb">transcribed and encoded</change>
+ <change when="2024-04-20" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -96,10 +91,16 @@
    <pb xml:id="leaf001r" facs="20051228_0004.jpg" type="recto"/>
    <lg type="poem">
      <head>The Mystic cipher</head>
-     <l></l>
-     <l></l>
+     <note type="subtitle" rend="underline">a hint for scientists</note>
+     <l> in each and all</l>
+     <l>In book, in man,&#8212;in every object.</l>
+     <l><del rend="overstrike">The sl</del></l>
+     <l>Tree, river, star,</l>
+    <l><del rend="overstrike">Part</del> All part of <del rend="overstrike">at</del> each <subst><del>unfold</del><add place="inline"><metamark function="add"></metamark></add><add place="above">the meaning</add><add place="above">after the rest</add></subst> at the last</l>
      <l></l>
    </lg>
+   
+   <note hand="h02" type="editorial">Ms. of Walt Whitman's poem as publ'd in L of G. Fm Mildred &amp; Frank Bain 1911 Horace Traubel</note>
    
    <pb xml:id="leaf001v" facs="loc.00220.002.jpg" type="verso"/>
    
