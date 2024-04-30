@@ -2,17 +2,15 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02813">
-    
     <teiHeader>
-        
         <fileDesc>
-            
             <titleStmt>
                 <title level="m" type="main">the intellectual and emotional</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
                 <editor>Ed Folsom</editor>
+                <editor>Matt Cohen</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <name>The Walt Whitman Archive Staff</name>
@@ -21,13 +19,11 @@
                 <sponsor>University of Iowa</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
             </titleStmt>
-            
             <editionStmt>
                 <edition>
-                    <date>2011</date>
+                    <date>2024</date>
                 </edition>
             </editionStmt>
-            
             <publicationStmt>
                 <idno>loc.02813</idno>
                 <distributor>The Walt Whitman Archive</distributor>
@@ -42,80 +38,39 @@
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
                 </availability>
             </publicationStmt>
-            
             <notesStmt>
                 <note type="project" target="#dat1"><!-- when was this manuscript written? --></note>
                 <note type="project">The following are responsible for particular readings or for changes to this file, as noted: 
-                    <persName xml:id="al">Ashley Lawson</persName> <persName xml:id="tj">Tim Jackson</persName>
+                    <persName xml:id="al">Ashley Lawson</persName>
+                    <persName xml:id="tj">Tim Jackson</persName>
+                    <persName xml:id="jh">Jeff Hill</persName>
                 </note>
             </notesStmt>
-            
-            
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>          
-                    <title>the intellectual and emotional</title> 
-                    <!--     THE DATE INFORMATION IN THE NEXT LINE WILL BE ADDED BY AN EDITOR     -->
-                    <!--<date xml:id="dat1" cert="****" when="/"> </date>-->
-                    
+                    <title>the intellectual and emotional</title>
                     <idno type="callno">MSS45443 Box 1</idno>
-                    <orgName>The Thomas Biggs Harned Collection of the Papers of Walt Whitman: A Register of His Papers in the Library of Congress, 1842-1937 </orgName>
+                    <orgName>The Thomas Biggs Harned Collection of the Papers of Walt Whitman: A Register of His Papers in the Library of Congress, 1842-1937</orgName>
                     <note type="project">Transcribed from our own digital image of the original manuscript.</note>
                 </bibl>
             </sourceDesc>
-            
         </fileDesc>
-        
         <revisionDesc>
-            <change when="2011-04-25" who="#tj">Checked, corrected</change>
-            <change when="2011-04-19" who="#al">Transcribed and encoded</change>
+            <change when="2024-04-30" who="#jh">checked, corrected</change>
+            <change when="2011-04-25" who="#tj">checked, corrected</change>
+            <change when="2011-04-19" who="#al">transcribed and encoded</change>
         </revisionDesc>
-        
     </teiHeader>
-    
     <text type="manuscript">
-        
         <body>
-            
             <pb xml:id="leaf001r" facs="loc.02813.001_large.jpg" type="recto"/>
             <!-- [TJ] Need better image -->
-      
-            
-            <ab>
-                <add place="supralinear" rend="unmarked"><del rend="overstrike">and</del> the</add> <del rend="overstrike">The</del> intellectual and emotional nature, <del rend="overstrike"><gap reason="illegible"
-                    extent="1" unit="chars"/>
-                <subst>
-                    <del rend="overstrike" seq="1">was were</del>
-                    <add place="supralinear" rend="unmarked" seq="2">would <del rend="overstrike"><unclear reason="illegible" cert="medium" resp="#tj">then</unclear></del> <add place="supralinear" rend="unmarked">be</add></add>
-                </subst>
-                    at their best; <del rend="overstrike">and <unclear reason="illegible" cert="low" resp="#al"/>toughest</del> Deaths were always easier <del rend="overstrike">;&#8212;</del>and even
-                    
-                    <milestone unit="undeclared" rend="glued"/>
-                    
-                    <del rend="overstrike">and <subst><del rend="overwrite" seq="1">E</del><add rend="unmarked" place="over" seq="2">e</add></subst>ven</del> medicines would have more effect when given them,</del>
-            </ab>
-            <ab>
-                The <add place="supralinear" rend="insertion">same influences</add> same hour <del rend="overstrike">&#38; the same influences</del> after <del rend="overstrike">one <gap reason="illegible" extent="one 
-                    word"/></del> great battles.  I had once or twice
-                <subst>
-                    <del rend="overstrike" seq="1">such</del>
-                    <add place="supralinear" rend="unmarked" seq="2">the</add>
-                </subst>
-                experiences <add place="supralinear" rend="unmarked">as it</add> on that field covered with
-                <subst>
-                    <del rend="overstrike" seq="1"><gap reason="illegible" extent="one word"/></del>
-                    <add place="supralinear" rend="unmarked" seq="2">dead</add>
-                </subst>
+            <ab><add place="above" rend="unmarked"><del rend="overstrike">and</del> the</add> <del rend="overstrike">The</del> intellectual and emotional nature, <del rend="overstrike"><gap reason="illegible" extent="1" unit="chars"/> <subst><del rend="overstrike" seq="1">was were</del><add place="above" rend="unmarked" seq="2">would <del rend="overstrike"><unclear reason="illegible" cert="medium" resp="#tj">then</unclear></del> <add place="above" rend="unmarked">be</add></add></subst> at their best; <del rend="overstrike">and <unclear reason="illegible" cert="low" resp="#al"/>toughest</del> Deaths were always easier <del rend="overstrike">;&#8212;</del>and even <milestone unit="undeclared" rend="glued"/> <del rend="overstrike">and <subst><del rend="overwrite" seq="1">E</del><add rend="unmarked" place="over" seq="2">e</add></subst>ven</del> medicines would have more effect when given them,</del></ab>
+            <ab>The <add place="above" rend="insertion">same influences</add> same hour <del rend="overstrike">&#38; the same influences</del> after <del rend="overstrike">one <gap reason="illegible" extent="one word"/></del> great battles.  I had once or twice <subst><del rend="overstrike" seq="1">such</del><add place="above" rend="unmarked" seq="2">the</add></subst> experiences <add place="above" rend="unmarked">as it</add> on that field covered with <subst><del rend="overstrike" seq="1"><gap reason="illegible" extent="one word"/></del><add place="above" rend="unmarked" seq="2">dead</add></subst>
             </ab>
    <note resp="unk" place="marginbot">314</note>
-            
-            <pb xml:id="leaf001v" facs="loc.02813.002_large.jpg" type="verso"/> 
-            
-            
+            <pb xml:id="leaf001v" facs="loc.02813.002_large.jpg" type="verso"/>
         </body>
     </text>
 </TEI>
-
-
-
-
