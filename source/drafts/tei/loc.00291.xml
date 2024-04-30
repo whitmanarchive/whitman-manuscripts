@@ -5,7 +5,6 @@
       <!-- PLEASE IGNORE THE REST OF THE RELATIONS SECTION; IT WILL BE    -->
       <!-- BE COMPLETED BY PROJECT EDITORS AFTER YOU'VE CHECKED IN YOUR   -->
       <!-- TRANSCRIPTION.                                                 -->
-      
       <work ref="xxx.00404" cert="absolute">
          <p> </p>
       </work>
@@ -13,20 +12,17 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="m" type="main">
-The endless Catalogue Divine
-		<!-- TITLE GOES HERE. IF IT IS DERIVED FROM THE -->
-		<!-- FIRST LINE, ADD THIS TO THE PREVIOUS TAG:  -->
-		<!-- rend="bracketed"                           --> 
-</title>
+            <title level="m" type="main">The endless Catalogue Divine</title>
             <title level="m" type="sub">a machine readable transcription</title>
             <author>Walt Whitman</author>
             <editor role="editor">Kenneth M. Price</editor>
             <editor role="editor">Ed Folsom</editor>
+            <editor role="editor">Matt Cohen</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="cf">Chris Forster</persName>
+               <persName xml:id="jh">Jeff Hill</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -34,7 +30,7 @@ The endless Catalogue Divine
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2004</date>
+               <date>2024</date>
             </edition>
          </editionStmt>
          <publicationStmt>
@@ -52,27 +48,14 @@ The endless Catalogue Divine
             </availability>
          </publicationStmt>
          <notesStmt>
-
 		<!-- IGNORE THIS PROJECT NOTE.  IT WILL BE FILLED IN BY PROJECT EDITORS. -->
             <note type="project" target="dat1"/>
-
-		          <!-- IF THERE IS VERSO INFORMATION THAT YOU ARE ONLY    -->
-            <!-- DESCRIBING BUT NOT TRANSCRIBING, INSERT THAT HERE. -->
-		          <!-- IF YOUR MANUSCRIPT HAS NO VERSO MATERIAL, OR IF    -->
-		          <!-- YOU ARE TRANSCRIBING THAT MATERIAL, YOU MAY DELETE -->
-		          <!-- THIS NOTE.               				-->
             <note type="project">The verso is blank.</note>                          	
          </notesStmt>
          <sourceDesc>
             <bibl>
                <author>Walt Whitman</author>
-               <title>
-	<!-- TITLE UNDER WHICH THE MS IS HELD AT THE REPOSITORY;	-->
-	<!-- PLEASE CONSULT, WHEN AVAILABLE, THE ONLINE FINDING	  	-->
-	<!-- FINDING AID ON THE WHITMAN ARCHIVE, IN THE "MANUSCRIPTS" 	-->
-	<!-- SECTION OF THE SITE.                                     	-->
-The endless Catalogue Divine
-</title>
+               <title>The endless Catalogue Divine</title>
                <date cert="****" value="/" xml:id="dat1"><!-- DATING INFO; THIS WILL BE INSERTED BY PROJECT EDITORS --></date>
                <idno type="callno">
 	<!-- THE REPOSITORY'S ID CODE FOR THE MATERIAL, IF ANY, CAN BE	     -->
@@ -82,15 +65,9 @@ The endless Catalogue Divine
 	<!-- UNIQUE IDENTIFIERS FOR EACH MANUSCRIPT: HARVARD, BOSTON         -->
 	<!-- PUBLIC LIBRARY, BYU, JOHNS HOPKINS, THE HUNTINGTON, THE MORGAN, -->
 	<!-- RUTGERS, THE AMERICAN ANTIQUARIAN SOCIETY, AND TEMPLE. PLEASE   -->
-	<!-- CONSULT THE ONLINE FINDING AIDS.                                --> 
-		
-</idno> 
-               <orgName xml:id="loc">
-The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.
-</orgName> 
-
-	              <!-- ALTER THE FOLLOWING NOTE IF NECESSARY -->
-
+	<!-- CONSULT THE ONLINE FINDING AIDS.                                --> 		
+               </idno> 
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
                <note type="project">Transcribed from digital images of the original.</note>
             </bibl>
          </sourceDesc>
@@ -101,186 +78,38 @@ The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;191
          </handList>
       </profileDesc>
       <revisionDesc>
+         <change who="#jh" when="2024-04-30">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#cf" when="2004-07-19">Encoded</change>
-         <change who="#cf" when="2004-07-19">Transcribed</change>
+         <change who="#cf" when="2004-07-19">encoded</change>
+         <change who="#cf" when="2004-07-19">transcribed</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-
-		<!-- AGAIN, UNIQUE ID PLUS 3-DIGIT PAGE # IN THE FOLLOWING -->
          <pb facs="loc.00291.001" xml:id="leaf001r" type="recto"/>
-
-		       <!-- IF THE MANUSCRIPT IS SOMETHING OTHER THAN ONE POEM   -->
-		       <!-- (FOR EXAMPLE, "MULTIPLE POEMS" OR "POEM NOTES"), YOU --> 
-		       <!-- MUST INSERT A <div1> HERE WITH THE APPROPRIATE 	  -->
-		       <!-- "type" ATTRIBUTE 					  -->
-
-         <lg
-              >
-
-		<!-- IF NO TITLE IS WRITTEN ON THE MS, ALTER THE "type"   -->
-		<!-- ATTRIBUTE TO READ "main-derived". ONLY INCLUDE THE   -->  
-		<!-- REND ATTRIBUTE IF THE TITLE IS WRITTEN ON THE        -->
-		<!-- MANUSCRIPT AND IS UNDERLINED.  			  -->
-            <head type="main-authorial" rend="underline">
-               <subst>
-                  <rdg varSeq="1">
-                     <del rend="overwrite">The Divine Catalogue‑Scheme</del> 
-                  </rdg>
-                  <rdg varSeq="2">The Endless Catalogue Divine</rdg>
-               </subst>
-            </head>
-
-            <p>
-               <del rend="overstrike">A</del> 
-               <del rend="overstrike">went to</del>
-This forenoon <gap reason="deletion,illegible"/>
-               <del rend="overstrike">Rev. Dr.——</del>,<add place="supralinear" rend="unmarked">the famous <del rend="overstrike">learn'd</del>
-               </add> 
-a college <unclear reason="illegible" cert="90%" resp="#cf">professor</unclear> 
-               <add place="supralinear" rend="insertion">Rev Dr.——</add> gave <gap reason="deletion,illegible"/> fine sermon at <unclear reason="deletion, illegible"
-                        cert="medium" resp="#cf">this</unclear> 
-               <gap reason="illegible"/> church <unclear reason="illegible" cert="medium" resp="#cf">using</unclear> 
-I <unclear reason="illegible" cert="medium" resp="#cf">caught</unclear> the words printed above—but he ignored altogether what <del rend="overstrike">I <unclear reason="deletion, illegible"
-                           cert="medium" resp="#cf">in</unclear>
-               </del> the <unclear reason="illegible" cert="medium" resp="#cf">following</unclear> infers</p>
-
+         <lg>
+            <head type="main-authorial" rend="underline"><subst><rdg varSeq="1"><del rend="overwrite">The Divine Catalogue‑Scheme</del></rdg><rdg varSeq="2">The Endless Catalogue Divine</rdg></subst></head>
+            <p><del rend="overstrike">A</del> <del rend="overstrike">went to</del> This forenoon <gap reason="deletion,illegible"/> <del rend="overstrike">Rev. Dr.&#8212;</del>,<add place="above" rend="unmarked">the famous <del rend="overstrike">learn'd</del></add> a college <unclear reason="illegible" cert="high" resp="#cf">professor</unclear> <add place="above" rend="insertion">Rev Dr.——</add> gave <gap reason="deletion,illegible"/> fine sermon at <unclear reason="deletion, illegible" cert="medium" resp="#cf">this</unclear> <gap reason="illegible"/> church <unclear reason="illegible" cert="medium" resp="#cf">using</unclear> I <unclear reason="illegible" cert="medium" resp="#cf">caught</unclear> the words printed above—but he ignored altogether what <del rend="overstrike">I <unclear reason="deletion, illegible" cert="medium" resp="#cf">in</unclear> </del> the <unclear reason="illegible" cert="medium" resp="#cf">following</unclear> infers</p>
             <l>Not you alone, nor me alone, nor ours</l>
-
-            <l>
-               <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">Not</del> 
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add place="supralinear" rend="unmarked">Nor</add> 
-                  </rdg>
-               </subst>even America</l>
-
-            <l rend="indented1">
-               Nor good alone, nor learn'd<lb/>
-               manner'd, dress'd in cloth <add place="supralinear" rend="unmarked">or</add> silk<lb/>
-            </l>
-
+            <l><subst><rdg varSeq="1"><del rend="overstrike">Not</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">Nor</add></rdg></subst>even America</l>
+            <l rend="indented1">Nor good alone, nor learn'd<lb/>
+               manner'd, dress'd in cloth <add place="above" rend="unmarked">or</add> silk</l>
             <l>All</l>
-
-            <l>Not the light <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">only</del> 
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add place="supralinear" rend="unmarked">alone</add> 
-                  </rdg>
-               </subst>
-but <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">the</del> 
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add place="supralinear" rend="unmarked">dark</add> 
-                  </rdg>
-               </subst>
-            </l>
-
+            <l>Not the light <subst><rdg varSeq="1"><del rend="overstrike">only</del> </rdg><rdg varSeq="2"><add place="above" rend="unmarked">alone</add></rdg></subst> but <subst><rdg varSeq="1"><del rend="overstrike">the</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">dark</add></rdg></subst></l>
             <l>The dying</l>
-
-            <note place="interlinear"
-                  type="authorial">Not</note>
-            <note place="interlinear"
-                  type="authorial">Nor</note>
-            <note place="interlinear"
-                  type="authorial">
-               <gap reason="illegible"/>lleges,</note>
-            <note place="interlinear"
-                  type="authorial">No<gap reason="illegible"/>ly</note>
-
-            <l>
-               The The sick the <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">
-                           <unclear reason="deletion,illegible"
-                                    cert="30%" resp="#cf">suffering</unclear>
-                        </del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="supralinear" rend="unmarked">
-                           <unclear reason="illegible" cert="30%" resp="#cf">oppressed</unclear>
-                        </add> 
-                     </rdg>
-                  </subst>
-the <unclear reason="illegible" cert="30%" resp="#cf">poor</unclear>
-               <lb/>
-               the <gap reason="illegible"/>
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">
-                           <unclear reason="illegible" cert="30%" resp="#cf">
-homely</unclear>
-                        </del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="supralinear" rend="unmarked">and <unclear reason="illegible" cert="medium" resp="#cf">deform'd</unclear>
-                        </add> 
-                     </rdg>
-                  </subst>
-               <lb/>
-            </l>
-
-            <l>The countless <gap reason="illegible"/> of the low <add place="supralinear" rend="unmarked">the <unclear reason="illegible" cert="medium" resp="#cf">evil</unclear>
-               </add>
-            </l>
-
-            <l>
-               <unclear reason="illegible" cert="90%" resp="#cf">I</unclear>ll <del rend="overstrike">
-                  <add place="supralinear" rend="insertion">Ill training</add>
-               </del> 
-               <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">of</del> 
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add place="supralinear" rend="unmarked">both in</add> 
-                  </rdg>
-               </subst>
-genesis <unclear reason="illegible" cert="30%" resp="#cf">
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">all before</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="supralinear" rend="unmarked">and</add> 
-                     </rdg>
-                  </subst>
-birth </unclear> 
-               <gap reason="illegible"/>
-            </l>
-
-            <l>
-               <add place="supralinear" rend="unmarked">
-                  <unclear reason="illegible" cert="medium" resp="#cf">G</unclear>aunt</add> Crazed <del rend="overstrike">
-                  <unclear reason="deletion,illegible"
-                           cert="medium" resp="#cf">be</unclear>
-               </del> in jail, <del rend="overstrike">g<gap reason="illegible"/>
-               </del>
-            </l>
-
-            <l>
-               The innumerable <unclear reason="illegible" cert="medium" resp="#cf">ones</unclear> of <del rend="overstrike">filth</del> venom filth<lb/>
-               ravine, serpents <unclear reason="illegible" cert="25%" resp="#cf">
-                     <del rend="overstrike">newts</del>
-                  </unclear>
-               <lb/>
-            </l>
-
-            <l>Newts, crawling <unclear reason="illegible" cert="medium" resp="#cf">things</unclear>, bred of <add place="supralinear" rend="insertion">slime</add> st<gap reason="illegible"/> 
-               <del rend="overstrike">
-                  <add place="supralinear" rend="unmarked">s<gap reason="illegible"/>
-                  </add>
-               </del>
-            </l>
-
+            <note place="interlinear" type="authorial">Not</note>
+            <note place="interlinear" type="authorial">Nor</note>
+            <note place="interlinear" type="authorial">
+            <gap reason="illegible"/>lleges,</note>
+            <note place="interlinear" type="authorial">No<gap reason="illegible"/>ly</note>
+            <l>The The sick the <subst><rdg varSeq="1"><del rend="overstrike"><unclear reason="deletion,illegible" cert="low" resp="#cf">suffering</unclear></del></rdg><rdg varSeq="2"><add place="above" rend="unmarked"><unclear reason="illegible" cert="low" resp="#cf">oppressed</unclear></add></rdg></subst> the <unclear reason="illegible" cert="low" resp="#cf">poor</unclear><lb/>
+               the <gap reason="illegible"/><subst><rdg varSeq="1"><del rend="overstrike"><unclear reason="illegible" cert="low" resp="#cf">homely</unclear></del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">and <unclear reason="illegible" cert="medium" resp="#cf">deform'd</unclear></add></rdg></subst></l>
+            <l>The countless <gap reason="illegible"/> of the low <add place="above" rend="unmarked">the <unclear reason="illegible" cert="medium" resp="#cf">evil</unclear></add></l>
+            <l><unclear reason="illegible" cert="high" resp="#cf">I</unclear>ll <del rend="overstrike"><add place="above" rend="insertion">Ill training</add></del><subst><rdg varSeq="1"><del rend="overstrike">of</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">both in</add></rdg></subst> genesis <unclear reason="illegible" cert="low" resp="#cf"> <subst><rdg varSeq="1"><del rend="overstrike">all before</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">and</add></rdg></subst> birth </unclear> <gap reason="illegible"/></l>
+            <l><add place="above" rend="unmarked"><unclear reason="illegible" cert="medium" resp="#cf">G</unclear>aunt</add> Crazed <del rend="overstrike"> <unclear reason="deletion,illegible" cert="medium" resp="#cf">be</unclear> </del> in jail, <del rend="overstrike">g<gap reason="illegible"/></del></l>
+            <l>The innumerable <unclear reason="illegible" cert="medium" resp="#cf">ones</unclear> of <del rend="overstrike">filth</del> venom filth<lb/>
+               ravine, serpents <unclear reason="illegible" cert="low" resp="#cf"> <del rend="overstrike">newts</del></unclear></l>
+            <l>Newts, crawling <unclear reason="illegible" cert="medium" resp="#cf">things</unclear>, bred of <add place="above" rend="insertion">slime</add> st<gap reason="illegible"/> <del rend="overstrike"> <add place="above" rend="unmarked">s<gap reason="illegible"/></add></del></l>
          </lg>
       </body>
    </text>
