@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04183"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main">Drift Sands</title>
+    <title level="m" type="sub">a hand-written transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="tb">Tara Ballard</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>loc.04183</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>    
+    
+     <note type="work_relations" target="xxx." cert="high">
+      <p>Draft lines and phrases under the title "Drift Sands." Whitman never published a poem with this title, though this and several other closely related manuscripts seem to constitute working drafts for the couplet "As idly drifting down the ebb, / Such ripples, half-caught voices, echo from the shore," which appears before the final paragraph of "A Backward Glance O'er Travel'd Roads," first published in <hi rend="italic">November Boughs</hi> (1888). Most of "A Backward Glance O'er Travel'd Roads" was drawn from three previously published pieces ("A Backward Glance on My Own Road [1884]," "How I Made a Book" [1886], and "My Book and I" [1887]). The couplet, however, was not part of any of those earlier essays. On the reverse side of the manuscript is a letter to Whitman dated June 8, 1885.</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>Drift Sands</title>  
+     
+     <date cert="high">about 1888</date>
+     
+     <idno type="callno">MSS 45443, Reel 1</idno>
+     
+     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1859–1892, Library of Congress, Washington, D.C.</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+     <relatedItem type="text" xml:id="rel01" target="loc.05125"/>
+     <relatedItem type="document" target="wwa.00704"/>
+     <note type="project" target="#rel01">On the verso is a crossed-out letter from T. H. Bartlett dated 8 June 1885.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2024-05-11" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="loc_jc.00822.jpg" type="recto"/>
+   <lg type="poem">
+     <head>Drift Sands.</head>
+     <l>A half-caught echo from the <add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">twilight</add> shore</l>
+     
+    <l>As we <subst><del rend="overstrike" seq="1">to drift</del><add place="above" seq="2">float</add></subst> idly, <!-- --> <add place="above">in the twilight ebb</add> echoes from the shore</l>
+    <l>Ripples, and</l>
+    
+    <l><add place="above">As</add> Echoes from the shore</l>
+    
+    <l>Ripples and</l>
+    
+    <l><subst><del rend="overstrike" seq="1">Ripples</del><add place="above" seq="2">Edges</add></subst> and glints of sand and <subst><del rend="overstrike" seq="1">echoes</del><add place="above" seq="2">ripples</add></subst> from the shore,</l>
+    <l></l>   
+   </lg>
+   
+   <pb xml:id="leaf001v" facs="loc_jc.00823.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>
