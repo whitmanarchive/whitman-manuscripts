@@ -13,6 +13,7 @@
             <author>Walt Whitman</author>
             <editor role="editor">Kenneth M. Price</editor>
             <editor role="editor">Ed Folsom</editor>
+            <editor role="editor">Matt Cohen</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
@@ -20,6 +21,7 @@
                <persName xml:id="fl">Farrah Lehman</persName>
                <persName xml:id="kmp">Kenneth M. Price</persName>
                <persName xml:id="lr">Lisa Renfro</persName>
+               <persName xml:id="jh">Jeff Hill</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -27,7 +29,7 @@
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2004</date>
+               <date>2024</date>
             </edition>
          </editionStmt>
          <publicationStmt>
@@ -63,10 +65,11 @@
          </handList>
       </profileDesc>
       <revisionDesc>
+         <change who="#jh" when="2024-05-14">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#jr" when="2004-08-13">Encoded</change>
-         <change who="#jr" when="2004-08-08">Transcribed</change>
-         <change who="#fl" when="2006-06-15">Encoded</change>
+         <change who="#jr" when="2004-08-13">encoded</change>
+         <change who="#jr" when="2004-08-08">transcribed</change>
+         <change who="#fl" when="2006-06-15">encoded</change>
          <change who="#kmp" when="2006-06-30">blessed</change>
          <change who="#lr" when="2006-08-01">edited</change>
       </revisionDesc>
@@ -74,106 +77,25 @@
    <text>
       <body>
          <pb facs="loc.00010.001" xml:id="leaf001r" type="recto"/>
-         <lg
-              >
-            <head type="main-authorial">A CHRISTMAS<subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike" hand="h1">-</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="supralinear" hand="h1">
-                        <space dim="horizontal" extent="1 letter"/>
-                     </add>
-                  </rdg>
-               </subst>GREETING<del rend="overstrike" hand="h1">.</del>
-            </head>
+         <lg>
+            <head type="main-authorial">A CHRISTMAS<subst><rdg varSeq="1"><del rend="overstrike" hand="h1">-</del></rdg><rdg varSeq="2"><add rend="unmarked" place="above" hand="h1"><space dim="horizontal" extent="1 letter"/></add></rdg></subst>GREETING<del rend="overstrike" hand="h1">.</del></head>
             <head type="sub">From a Northern Star-Group to a Southern.</head> 
-            <note type="authorial"
-                  place="right"
-                  rend="bracketed"
-                  hand="h1">wider spacing</note>
+            <note type="authorial" place="right" rend="bracketed"hand="h1">wider spacing</note>
             <note type="project">Whitman made comma-like marks between the individual words in the subtitle; these marks have not been recorded in the transcription because their function is unclear. They may be related to his "wider spacing" instruction in the top right margin.</note>
             <l>Welcome, Brazilian brother—thy ample place is ready;</l>
-            <l>
-               A loving hand—a smile from the north—a sunny instant<lb/> 
-               hail!<lb/>
-            </l>
-            <l>
-               (Let the future care for itself, where it reveals its troubles,<lb/>
-               impediment<add rend="insertion" place="right" hand="h1">a</add>s,<lb/>
-            </l> 
-            <add rend="unmarked" place="right" hand="h1">
-               <note type="authorial"
-                     place="right"
-                     rend="circled">impedimentas</note>
-            </add>
-            <l>
-               Ours, ours the present throe, the democratic <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike" hand="h1">cism,</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear" hand="h1">aim,</add>
-                     </rdg>
-                  </subst> the <orig reg="acceptance">accept-</orig>
-               <lb/>
-               ance and the faith<subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike" hand="h1">:</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="left" hand="h1">;</add>
-                     </rdg>
-                  </subst>)<lb/>
-            </l>
-            <l>
-               To thee to-day, our r<subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike" hand="h1">
-                           <gap reason="deletion, illegible"/>
-                        </del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="left" hand="h1">e</add>
-                     </rdg>
-                  </subst>aching a<subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike" hand="h1">i</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear" hand="h1">r</add>
-                     </rdg>
-                  </subst>m, our turning neck—to thee<lb/>
-               from us the expectant eye,<lb/>
-            </l>
-            <l>
-               Thou cluster free! then brilliant lustrous star! thou<add rend="insertion" place="right" hand="h1">,</add> learning<lb/>
-               well,<lb/>
-            </l>
-            <l>The true lesson of a nation's light in the sky<subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike" hand="h1">.</del> 
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="right" hand="h1">,</add>
-                  </rdg>
-               </subst>
-            </l>
-            <l>(More shining than the Cross, more than the <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike" hand="h1">c</del> 
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="right" hand="h1">C</add>
-                  </rdg>
-               </subst>rown<subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike" hand="h1">.</del> 
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="right" hand="h1">,</add>
-                  </rdg>
-               </subst>)</l>
+            <l>A loving hand—a smile from the north—a sunny instant<lb/> 
+               hail!</l>
+            <l>(Let the future care for itself, where it reveals its troubles,<lb/>
+               impediment<add rend="insertion" place="right" hand="h1">a</add>s,</l> 
+            <add rend="unmarked" place="right" hand="h1"><note type="authorial" place="right" rend="circled">impedimentas</note></add>
+            <l>Ours, ours the present throe, the democratic <subst><rdg varSeq="1"><del rend="overstrike" hand="h1">cism,</del></rdg><rdg varSeq="2"><add rend="unmarked" place="above" hand="h1">aim,</add></rdg></subst> the <orig reg="acceptance">accept-</orig><lb/>
+               ance and the faith<subst><rdg varSeq="1"><del rend="overstrike" hand="h1">:</del></rdg><rdg varSeq="2"><add rend="unmarked" place="left" hand="h1">;</add></rdg></subst>)</l>
+            <l>To thee to-day, our r<subst><rdg varSeq="1"><del rend="overstrike" hand="h1"><gap reason="deletion, illegible"/></del></rdg><rdg varSeq="2"><add rend="unmarked" place="left" hand="h1">e</add></rdg></subst>aching a<subst><rdg varSeq="1"><del rend="overstrike" hand="h1">i</del></rdg><rdg varSeq="2"><add rend="unmarked" place="above" hand="h1">r</add></rdg></subst>m, our turning neck—to thee<lb/>
+               from us the expectant eye,</l>
+            <l>Thou cluster free! then brilliant lustrous star! thou<add rend="insertion" place="right" hand="h1">,</add> learning<lb/>
+               well,</l>
+            <l>The true lesson of a nation's light in the sky<subst><rdg varSeq="1"><del rend="overstrike" hand="h1">.</del> </rdg><rdg varSeq="2"><add rend="unmarked" place="right" hand="h1">,</add></rdg></subst></l>
+            <l>(More shining than the Cross, more than the <subst><rdg varSeq="1"><del rend="overstrike" hand="h1">c</del> </rdg><rdg varSeq="2"><add rend="unmarked" place="right" hand="h1">C</add></rdg></subst>rown<subst><rdg varSeq="1"><del rend="overstrike" hand="h1">.</del></rdg><rdg varSeq="2"><add rend="unmarked" place="right" hand="h1">,</add></rdg></subst>)</l>
             <l>The height to be superb humanity.</l>
             <closer>
                <signed>WALT WHITMAN.</signed>
