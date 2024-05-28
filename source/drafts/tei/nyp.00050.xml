@@ -14,10 +14,12 @@
             <author>Walt Whitman</author>
             <editor role="editor">Kenneth M. Price</editor>
             <editor role="editor">Ed Folsom</editor>
+            <editor role="editor">Matt Cohen</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="ll">Liz Lorang</persName>
+               <persName xml:id="jh">Jeff Hill</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -25,8 +27,7 @@
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2004
-</date>
+               <date>2024</date>
             </edition>
          </editionStmt>
          <publicationStmt>
@@ -50,8 +51,7 @@
             <bibl>
                <author>Walt Whitman</author>
                <title/>
-               <date cert="****" value="/" xml:id="dat1">
-</date>
+               <date cert="****" value="/" xml:id="dat1"></date>
                <idno type="callno"/> 
                <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library"</orgName>
                <note type="project">Transcribed from digital images of the original.</note>
@@ -64,155 +64,41 @@
          </handList>
       </profileDesc>
       <revisionDesc>
+         <change who="#jh" when="2024-05-28">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#ll" when="2004-09-13">Encoded</change>
-         <change who="#ll" when="2004-09-13">Transcribed</change>
+         <change who="#ll" when="2004-09-13">encoded</change>
+         <change who="#ll" when="2004-09-13">transcribed</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-
          <pb facs="nyp.0050.001" xml:id="leaf001r" type="recto"/>
-
-         <note place="left"
-               type="authorial"
-               rend="circled">
-            <p>black</p>
-         </note>
-
-         <note place="top"
-               type="authorial"
-               rend="circled">
-            <p>piece by itself</p>
-         </note>
-
-         <note place="top"
-               type="authorial"
-               rend="circled">
-            <p>
-               <del rend="overstrike">finished version</del>
-            </p>
-         </note>
-
-         <lg
-              >
+         <note place="left" type="authorial" rend="circled"><p>black</p></note>
+         <note place="top" type="authorial" rend="circled"><p>piece by itself</p></note>
+         <note place="top" type="authorial" rend="circled"><p><del rend="overstrike">finished version</del></p></note>
+         <lg>
             <head type="main-authorial" rend="underline">You lingering sparse leaves of me.</head>
-
-            <l>
-               You lingering sparse leaves of me on<lb/>
-               bare December boughs,<lb/>
-            </l>
-            <l>
-               And I some well‑shorn tree of field<lb/>
-               or orchard row;<lb/>
-            </l>
-            <l>
-               You tokens <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">late</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <del rend="overstrike">
-                           <add place="supralinear" rend="unmarked">old</add>
-                        </del> 
-                     </rdg>
-                     <rdg varSeq="3">
-                        <del rend="overstrike">
-                           <add place="supralinear" rend="unmarked">different</add>
-                        </del> 
-                     </rdg>
-                     <rdg varSeq="4">
-                        <del rend="overstrike">
-                           <add place="supralinear" rend="unmarked">meagre</add>
-                        </del> 
-                     </rdg>
-                     <rdg varSeq="5">
-                        <add place="supralinear" rend="insertion">diminute</add> 
-                     </rdg>
-                  </subst> and lorn—(<subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">no more</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="supralinear" rend="unmarked">not now</add> 
-                     </rdg>
-                  </subst>
-               <lb/>
-               the verdant May's—<add place="supralinear" rend="insertion">
-                     <subst>
-                        <rdg varSeq="1">
-                           <del rend="overstrike">—no</del> 
-                        </rdg>
-                        <rdg varSeq="2">
-                           <add place="supralinear" rend="unmarked">or</add> 
-                        </rdg>
-                     </subst> July clover bloom,</add> 
-                  <del rend="overstrike">nor crops</del>
-               <lb/>
-               
-                  <add place="inline" rend="unmarked">
-                     <orig reg="nor">n</orig>
-                  </add>or <add place="supralinear" rend="unmarked">—no</add> fruits of August now;)<lb/>
-            </l>
-            <l>
-               You You <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">meagre</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="supralinear" rend="unmarked">pallid</add> 
-                     </rdg>
-                  </subst>little banners, <del rend="overstrike">flaunted</del>
-               <lb/>
-               
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">to the air</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <del rend="overstrike">
-                           <add place="supralinear" rend="unmarked">flaunting yet</add>
-                        </del> 
-                     </rdg>
-                  </subst>—<del rend="overstrike">you</del> remnants valueless—<lb/>
-               you overstay'd of time;<lb/>
-            </l>
-            <l>
-               Yet dear, soul dear, <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">diminute</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="supralinear" rend="unmarked">continued</add> 
-                     </rdg>
-                  </subst>leaves,<lb/>
-               my hardiest and my last.<lb/>
-            </l>
-
+            <l>You lingering sparse leaves of me on<lb/>
+               bare December boughs,</l>
+            <l>And I some well-shorn tree of field<lb/>
+               or orchard row;</l>
+            <l>You tokens <subst><rdg varSeq="1"><del rend="overstrike">late</del></rdg><rdg varSeq="2"><del rend="overstrike"><add place="above" rend="unmarked">old</add></del></rdg><rdg varSeq="3"><del rend="overstrike"><add place="above" rend="unmarked">different</add></del></rdg><rdg varSeq="4"><del rend="overstrike"><add place="above" rend="unmarked">meagre</add></del></rdg><rdg varSeq="5"><add place="above" rend="insertion">diminute</add></rdg></subst> and lorn&#8212;(<subst><rdg varSeq="1"><del rend="overstrike">no more</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">not now</add></rdg></subst><lb/>
+               the verdant May's&#8212;<add place="above" rend="insertion"> <subst><rdg varSeq="1"><del rend="overstrike">&#8212;no</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">or</add></rdg></subst> July clover bloom,</add> <del rend="overstrike">nor crops</del><lb/>
+                  <add place="inline" rend="unmarked"><orig reg="nor">n</orig></add>or <add place="above" rend="unmarked">&#8212;no</add> fruits of August now;)</l>
+            <l>You You <subst><rdg varSeq="1"><del rend="overstrike">meagre</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">pallid</add></rdg></subst>little banners, <del rend="overstrike">flaunted</del><lb/>
+                  <subst><rdg varSeq="1"><del rend="overstrike">to the air</del></rdg><rdg varSeq="2"><del rend="overstrike"><add place="above" rend="unmarked">flaunting yet</add></del></rdg></subst>&#8212;<del rend="overstrike">you</del> remnants valueless&#8212;<lb/>
+               you overstay'd of time;</l>
+            <l>Yet dear, soul dear, <subst><rdg varSeq="1"><del rend="overstrike">diminute</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">continued</add></rdg></subst>leaves,<lb/>
+               my hardiest and my last.</l>
             <closer>
                <signed rend="underline">Walt Whitman</signed>
             </closer>
-
          </lg>
-
          <pb facs="nyp.0050.002" xml:id="leaf001v" type="verso"/>
-
-         <note place="left" resp="#unk"
-               type="editorial">
-            <p>Feldman.3.13.57</p>
-         </note>
-
-         <note place="bottom" resp="#unk"
-               type="editorial">
-            <p>U.Sx</p>
-         </note>
-
+         <note place="left" resp="#unk" type="editorial"><p>Feldman.3.13.57</p></note>
+         <note place="bottom" resp="#unk" type="editorial"><p>U.Sx</p></note>
          <!-- Not sure about "budvd" -->
-         <note place="bottom" resp="#unk"
-               type="editorial">
-            <p>budvd 56</p>
-         </note>
-
+         <note place="bottom" resp="#unk" type="editorial"><p>budvd 56</p></note>
       </body>
    </text>
 </TEI>
