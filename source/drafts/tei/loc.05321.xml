@@ -52,7 +52,7 @@
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
     
-     <note type="work_relations" target="xxx." cert=""><!-- Tara check-->
+     <note type="work_relations" target="xxx." cert="high"><!-- Tara check-->
       <p>This scrap is a draft of Whitman's essay "Five Thousand Poems," first published in <hi rend="italic">The Critic</hi>, number 172, April 16, 1887. It was later reprinted in <hi rend="italic">Democratic Vistas and Other Papers</hi> (London, 1888), and <hi rend="italic">November Boughs</hi> (1888). The language on this leaf appears nearly verbatim in "Five Thousand Poems." On the verso is a partial letter to Whitman from the office of <hi rend="italic">The Critic</hi>.</p>
      </note>
    </notesStmt>
@@ -70,10 +70,9 @@
      <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
-     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-     <relatedItem type="document" target="wwa.00041"/>
-     <note type="project" target="#rel01">On the verso is a partial letter to Whitman from the office of <hi rend="italic">The Critic</hi> dated 30 September 1884.</note>
+     <relatedItem type="text" xml:id="rel01" target="loc.07081"/>
+     <relatedItem type="document" target="wwa.00190"/>
+     <note type="project" target="#rel01">This scrap is a draft of Whitman's essay "Five Thousand Poems," first published in <hi rend="italic">The Critic</hi>, number 172, April 16, 1887. It was later reprinted in <hi rend="italic">Democratic Vistas and Other Papers</hi> (London, 1888), and <hi rend="italic">November Boughs</hi> (1888). The language on this leaf appears nearly verbatim in "Five Thousand Poems." On the verso is a partial letter to Whitman from the office of <hi rend="italic">The Critic</hi>.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
@@ -86,20 +85,19 @@
   </profileDesc>
 <revisionDesc>
  
- <change when="2024-05-22" who="#tb">transcribed and encoded</change>
+ <change when="2024-06-21" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="loc_af.00489_large.jpg" type="recto"/>
 
-   <p>In view of <subst><del rend="overstrike" seq="1">the past,</del><add place="above" seq="2">that progress,</add></subst> and of evolution. The <lb/> religious element <!-- --> important of any, is more indebted to poetry than to all other means and influences combined. In a very profound sense, religion <hi rend="underline">is</hi> the poetry of humanity, and neither could exist without hte other...The</p>
-  
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+   <p>In view of <subst><del rend="overstrike" seq="1">the past,</del><add place="above" seq="2">that progress,</add></subst> and of evolution. The <lb/> religious element <!-- --> important of any, is more indebted to poetry than to all other means and influences combined. In a very profound sense, religion <hi rend="underline">is</hi> the poetry of humanity, <del rend="overstrike" hand="h03">and neither could exist without the other</del>...The.</p>
+   <p><del rend="overstrike">Then, after all is said, and the seemingly unfathomable gaps and <!--contradicts--> pointed out,</del> <del rend="overstrike">the</del> points of union and rapport among all the <del rend="overstrike">distinctive</del> poems, of the world&#8212;however wide the<add>their</add> separations of time and place <!-- --> <del rend="overstrike">curiously so</del> much more <!-- --> rous and weighty than <!-- gap --> of contrast.</p>
+
+   <pb xml:id="leaf001v" facs="loc_aft.00490_large.jpg" type="verso"/>
    
 </body>
 </text>
