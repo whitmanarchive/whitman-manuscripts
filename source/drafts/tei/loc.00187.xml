@@ -7,9 +7,9 @@
   <fileDesc>
    <titleStmt>
     
-<!--  IN THE NEXT LINE, USE THE WHITMAN ARCHIVE ENCODING GUIDELINES TO DECIDE WHAT TITLE TO USE FOR THE MANUSCRIPT. IF WHITMAN TITLED THE MANUSCRIPT, REMOVE "REND='BRACKETED'."  -->
-    <title level="m" type="main" rend="bracketed"></title>
-    <title level="m" type="sub">a machine readable transcription</title>
+    
+    <title level="m" type="main">A Death-Bouquet</title>
+    <title level="m" type="sub">a hand-written transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
@@ -17,8 +17,7 @@
     <respStmt>
      <resp>Transcription and encoding</resp>
      
-<!--  IF YOU AREN'T JEFF, CHANGE THE CONTENT OF THIS NEXT <PERSNAME> ELEMENT AND THE VALUE OF THE @XML:ID   -->
-     <persName xml:id="jh">Jeff Hill</persName>
+     <persName xml:id="tb">Tara Ballard</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -26,7 +25,7 @@
    </titleStmt>
    <editionStmt>
     <edition>
-     <date>2023</date>
+     <date>2024</date>
     </edition>
    </editionStmt>
    <publicationStmt>
@@ -48,18 +47,14 @@
     </availability>
     
 
-   <idno><!--  THE UNIQUE ID GOES HERE, TOO  --></idno>
+   <idno>loc.00187</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
-<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
-     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
-     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
-     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
     
-     <note type="work_relations" target="xxx." cert="">
-      <p></p>
+     <note type="work_relations" cert="high">
+      <p>A five-line draft of a poem, entitled "A Death-Bouquet," which was never published and has an unknown relationship to Whitman's published work. A subtitle reads "Fresh pick'd noon time early January, 1890, By Walt Whitman." These lines bear some relation to Whitman's brief essay of the same name.</p>
      </note>
    </notesStmt>
    
@@ -67,53 +62,48 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     <title>A Death Bouquet</title>  
      
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date notBefore="" notAfter="" cert=""></date>
+
+     <date cert="high">about 1890</date>
      
-     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     <idno type="callno">MSS 18630, Box 26; Reel 16</idno>
      
-<!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
-      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
-     <orgName xml:id=""></orgName>
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
-     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-     <relatedItem type="document" target="wwa.00041"/>
-     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+ 
+     <note type="project" target="#rel01">The verso is blank.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="blue ink" xml:id="h02" resp="#unk"></handNote>
-    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h01" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h02" resp="#ww"></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
-<!-- IN THE FOLLOWING <CHANGE> ELEMENT EDIT THE @WHEN TO REFLECT TODAY'S DATE. IF YOU AREN'T JEFF, CHANGE THE INITIALS AFTER THE POUND SIGN IN @WHO -->
- <change when="2024-01-20" who="#jh">transcribed and encoded</change>
+ <change when="2024-06-24" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="20051227_0005.jpg" type="recto"/>
    <lg type="poem">
-     <l></l>
-     <l></l>
-     <l></l>
+    <head rend="underline" hand="h02">A Death&#11840;B<del rend="overstrike" seq="1">ou</del>quet.<add place="above" seq="2">Bouquet</add></head>
+    <note><l><add></add><add>Fresh&#11840;</add>Pick'd <del rend="overstrike">after</del><del rend="overstrike" seq="2"><add place="above" seq="1">for</add></del>noon <add place="above">time</add> early January, 1890</l><l>By Walt Whitman</l></note>
+     <l>Deep, deep</l>
+     <l>as from the past</l>
+     <l>From <subst><del rend="overstrike" seq="1">death</del><add place="above" seq="2">soldiers'</add></subst> deaths</l>
+     <l>As of soldiers' deaths resuming</l>
+     <l>As soldiers' deaths recall'd</l>
    </lg>
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+   <pb xml:id="leaf001v" facs="loc.00187.002.jpg" type="verso"/>
    
 </body>
 </text>
