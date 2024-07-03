@@ -85,7 +85,7 @@
   </profileDesc>
 <revisionDesc>
  
- <change when="2024-06-28" who="#tb">transcribed and encoded</change>
+ <change when="2024-07-03" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -94,20 +94,28 @@
    
    <pb xml:id="leaf001r" facs="hun.00014.001.jpg" type="recto"/>
    <lg type="poem">
-     <head rend="underline">Fancies at Navesink</head>
-     <l rend="underline">The Pilot in the Mist</l>
-     <l>steaming the northern rapids&#8212;(an old
-         St. Lawrence <subst><del></del><add>memory,</add></subst> <hand></hand></l>
-    <l>A sudden <subst><del>reminiscence</del><add></add></subst><!-- -->flash comes back
+    <head rend="underline">Fancies at Navesink <note hand="h03">&#42; &#42;</note></head>
+     <head rend="underline">The Pilot in the Mist</head>
+     <l>steaming the northern rapids&#8212;(an old<lb/>
+      St. Lawrence <subst><del rend="overstrike" seq="1">remin</del><del rend="overstrike" hand="h02" seq="3"><add place="above" seq="2">memory,</add></del><add place="inline" hand="h02" seq="4">reminiscence</add></subst></l>
+    <l>A sudden <subst><del rend="overstrike" hand="h02" seq="1">reminiscence</del><add place="above" hand="h02" seq="2">memory</add></subst>&#11840;flash comes back<lb/>
          I know not why</l>
-    <l>Here <del rend="overstrike">looking</del> waiting for the surunrise, gazing
-          from this hill*.)</l>
-     <l>Again 'tis first at morning&#8212;a heavy
-          haze contends with </l>
-     <l></l>
-     <l></l>
-     <l></l>
+    <l>Here <del rend="overstrike">looking</del> waiting for the sunrise, gazing<lb/>
+          from this hill<note hand="h03">&#42;</note>.)</l>
+     <l>Again 'tis first at morning&#8212;a heavy<lb/>
+      haze contends with <subst><del rend="overstrike" seq="1">sunrise.</del><add place="above" seq="2">daybreak.</add></subst></l>
+     <l>Again the be slate trembling laboring<lb/>
+         vessel veers me&#8212;we press through<lb/>
+      foam<add place="above" hand="h03">&#11840;dash'd</add> and rocks that almost touch <del rend="overstrike" hand="h03">me</del>;</l>
+    <l>Again I, <subst><del rend="overstrike" seq="1">turning,</del><del rend="overstrike" hand="h03" seq="3"><add place="above" seq="2">? <unclear reason="illegible" cert="low" resp="#tb"/></add></del></subst> mark where aft<lb/>
+          the small thin Indian helmsman</l>
+     <l>Looms in the mist, with brow elate<lb/>
+          and governing hand.</l>
    </lg>
+   
+   <milestone unit="undeclared" rend="horbar_short-left"/>
+   
+   <note>&#42;Navesink&#8212;a <add place="inline" hand="h03"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001" hand="h03">sea&#11840;side</add> mountain, <del rend="overstrike" hand="h03">or high hill,</del> <del rend="overstrike" hand="h02">at the</del> lower entrance of New York Bay.</note>
    
    <note hand="h04" type="archival" place="bottom">536</note>
    
