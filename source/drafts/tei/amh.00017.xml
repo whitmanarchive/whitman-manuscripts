@@ -51,12 +51,8 @@
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
-<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
-     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
-     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
-     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
     
-     <note type="work_relations" target="xxx." cert="">
+     <note type="work_relations" target="xxx.00560" cert="high">
       <p> The first page of a draft essay that was published in the March 1891 issue of <hi rend="italic">The North American Review</hi> under the title "Have We a National Literature?" It was later reprinted in <hi rend="italic">Good-Bye My Fancy</hi> (1891), under the title "American National Literature" before finally appearing in <hi rend="italic">Complete Prose Works</hi> (1892). Whitman's extensive revisions are done in ink and several different colors of pencil, and the two scraps of paper that constitute this manuscript leaf were pasted together by the author to create a single inscribed surface. The whole has been affixed, probably by Horace Traubel, one of Whitman's literary executors, to a backing sheet made of letterhead stationery from the office of "The Artsman." Traubel's note on the backing sheet's lower right corner is dated 1907 and indicates that he presented this item to William Gable.</p>
      </note>
    </notesStmt>
@@ -71,14 +67,10 @@
      
      <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
      
-<!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
-      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
-     <orgName xml:id="amh"></orgName>
+
+     <orgName xml:id="amh">Amherst College Archives and Special Collections</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
-     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-     <relatedItem type="document" target="wwa.00041"/>
      <note type="project" target="#rel01">The verso is blank.</note>
     </bibl>
    </sourceDesc>
@@ -94,7 +86,7 @@
   </profileDesc>
 <revisionDesc>
  
- <change when="2024-07-03" who="#tb">transcribed and encoded</change>
+ <change when="2024-07-05" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -102,10 +94,12 @@
   <body>
    
    <pb xml:id="leaf001r" facs="amh.00017.001_large.jpg" type="recto"/>
-   <p></p>
+   <head rend="underline">National Literature</head>
+   <p>So you want an essay <del rend="overstrike">for</del> about American National Literature (</p>
    
    <milestone unit="undeclared" rend="horbar_short-right"/>
-   <note>a sheet of Walt Whit&#11840;<l>man's manuscript sent to</l><l>Williams </l></note>
+   
+   <note><l>a sheet of Walt Whit&#11840;</l><l>man's manuscript sent to</l><l>William Gable by his</l><l>comrades.</l><l>Horace Traubel</l><l>1907</l></note>
    
    <pb xml:id="leaf001v" facs="amh.00017.002_large.jpg" type="verso"/>
    
