@@ -62,7 +62,7 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>[How strange the scenes]</title>  
+     <title>Fancies at Navesink</title>  
      
      <date cert="high">about 1885</date>
      
@@ -79,30 +79,28 @@
   <profileDesc>
    <handNotes>
     <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="blue ink" xml:id="h02" resp="#unk"></handNote>
-    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
+    <handNote medium="red ink" xml:id="h02" resp="#unk"></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
-<!-- IN THE FOLLOWING <CHANGE> ELEMENT EDIT THE @WHEN TO REFLECT TODAY'S DATE. IF YOU AREN'T JEFF, CHANGE THE INITIALS AFTER THE POUND SIGN IN @WHO -->
- <change when="2024-01-20" who="#jh">transcribed and encoded</change>
+ <change when="2024-07-07" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="loc_jc.00749.jpg" type="recto"/>
    <lg type="poem">
-     <l></l>
-     <l></l>
-     <l></l>
+    <l>How strange the <subst><del rend="overstrike" seq="1">select scenes</del><add place="above" seq="2">scenes ye big</add></subst>, capricious gurgles! <add place="above" hand="h02">&#10003;</add> and dead,</l>
+    <l>How curiously <del rend="overstrike">the</del> <subst><del rend="overstrike" seq="1">long</del><add place="above" seq="2">the</add></subst> past<add place="above">the</add> war, the sick,</l>
+    <l><add place="above">on</add> the battle-field, <subst><del rend="overstrike" seq="1">itself</del><add place="above" seq="2">themselves</add></subst> recalling,</l>
    </lg>
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+   <note hand="h02" type="archival" place="bottom">4</note>
+   
+   <pb xml:id="leaf001v" facs="loc_jc.00751.jpg" type="verso"/>
    
 </body>
 </text>
