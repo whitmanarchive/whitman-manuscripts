@@ -70,40 +70,54 @@
      <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
-     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-     <relatedItem type="document" target="wwa.00041"/>
-     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+
+ 
+     <note type="project" target="#rel01">The verso includes an inventory of payments made to a Mrs. White, as evident in the title written the top of the page. These payments commenced on March 1, 1871, and continue throughout June 1873. The notes are written in both alphabetical and numerical form.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="blue ink" xml:id="h01" resp="#ww"/>
     <handNote medium="blue ink" xml:id="h02" resp="#unk"></handNote>
-    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
-<!-- IN THE FOLLOWING <CHANGE> ELEMENT EDIT THE @WHEN TO REFLECT TODAY'S DATE. IF YOU AREN'T JEFF, CHANGE THE INITIALS AFTER THE POUND SIGN IN @WHO -->
- <change when="2024-01-20" who="#jh">transcribed and encoded</change>
+ <change when="2024-08-02" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="P3010452.jpg" type="recto"/>
    <lg type="poem">
-     <l></l>
-     <l></l>
-     <l></l>
+     <head><del>This journey</del></head>
+    <l><del>Begun in <add place="above">amid my</add> ripen'd youth, and <subst><del rend="overstrike" seq="1">stretching</del><add place="above" seq="2">steadily</add></subst></del><lb/>
+     <del><add place="above">kept</add> on <del rend="overstrike">and on</del>, thro' life</del></l>
+    <l><del>I end it <del><add place="above">them</add></del> <add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">here</add> in old age.</del></l>
+    
+    
+    <l><del rend="overstrike">Delay'd at times, wandering, dallying, brief day</del></l>
+    <l><del>Delaying, dallying, wandering&#8212;,&#8212;never <add place="inline"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">&#8212;even for a <del rend="overstrike">single hour</del></add> <del rend="overstrike">one day</del><lb/>
+     abandon'd</del></l>
    </lg>
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+   
+   <lg type="poem">
+    <head rend="underline">The journey</head>
+    <l>Begun amid my ripen'd youth, and stead-
+        ily kep on thro<add>ughout</add> life,</l>
+    <l>Wandering, <add place="inline"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">Peering</add> dallying, <del>seeking</del>&#8212;war, <del><add place="above">,and</add></del> peace, <add place="inline"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">day, night</add> ab-<lb/>
+     sorbing&#8212;never even for a brief <subst><del rend="overstrike" seq="1">day</del><add place="inline" seq="2">hour</add></subst><lb/>
+         abandoning,</l>
+    <l>I end it <add place="inline"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" xml:id="a005">all</add> here in old age.</l>
+   </lg>
+   
+   <note hand="h02" type="archival" place="bottom">74</note>
+   
+   <pb xml:id="leaf001v" facs="P3010453.jpg" type="verso"/>
    
 </body>
 </text>
