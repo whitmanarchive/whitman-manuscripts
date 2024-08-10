@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04175"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main" rend="bracketed">Out</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="tb">Tara Ballard</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>loc.04175</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+        
+     <note type="work_relations" cert="high">
+      <p>Draft lines for "Fancies at Navesink," first published in <hi rend="italic">The Nineteenth Century</hi> (August 1885).</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>Fancies at Navesink</title>  
+     
+     <date cert="high">about 1885</date>
+     
+     <idno type="callno">MSS 45443, Reel 1</idno>
+     
+     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, Library of Congress, Washington, D.C.</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+     <note type="project" target="#rel01">The verso is blank.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="blue ink" xml:id="h02" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h03" resp="#ww"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2024-08-10" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="loc_js.00123_large.jpg" type="recto"/>
+   <lg type="poem">
+     <l>Out to <gap extent="about ten letters" unit="word" quantity="3" reason="torn away"/></l>
+    <l>What <gap extent="about six letters" unit="word" quantity="1" reason="torn away"/></l>
+     <l>O ebbing tide! what</l>
+     <l>What <subst><del rend="overstrike" seq="1">boughs</del><add place="inline" seq="2">dreams</add></subst> of man<lb/>
+           and wom</l>
+     <l><handShift new="#h02"/>What do you carry you <subst><del rend="overstrike" seq="1">ebbing waters</del><add place="above" seq="2">tide receding</add></subst></l>
+    <l><handShift new="#h01"/>O <subst><del rend="overstrike" seq="1">who</del><add place="inline" seq="2">River</add></subst></l>
+    <l><subst><del rend="overstrike" seq="1">Who Knows</del><add hand="h02">What lives <del rend="overstrike" seq="3">you</del>&#8212;what dreams ye quench&#8212;ye backward, drowsy current</add></subst></l>
+    <l>What mersible works and <del rend="overstrike">j</del> hopes swept<lb/>
+           back, O ebbing tide here ebbing</l>
+     <l><handShift new="#h02"/>What wealth swept out to sea</l>
+     <l><handShift new="#h01"/>What odors of youth</l>
+     <l>What <subst><del rend="overstrike" seq="1">flashing</del><add place="inline" seq="2">freight</add></subst>, what wealth,<lb/>
+           what unhelm'd <add place="above">?</add> ships and boats</l>
+     <l>What&#8212;ruined, lost, carried out to sea<lb/>
+           down on thy</l>
+     <l><add place="above" hand="h03">? Ye</add><subst><del rend="overstrike" seq="1">Thy</del><add place="above" seq="2">Thy</add><add place="above" seq="3">The</add></subst> silent compassionate waters<lb/>
+        burying</l>
+   </lg>
+   
+   <pb xml:id="leaf001v" facs="loc_js.00124_large.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>
