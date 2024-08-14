@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00036"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title level="m" type="main">My 71st Year</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+      <persName xml:id="km">Kevin McMullen</persName>
+      <persName xml:id="bb">Brett Barney</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>tex.00036</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+     <note type="work_relations" target="xxx.00384" cert="high">
+      <p>Corrected proof of "My 71st Year," which appeared in the November 1889 issue of <hi rend="italic">The Century Illustrated Monthly Magazine</hi>.</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>"My 71st Year," proof with additions, 1883?, 1p</title>  
+     
+     <date notBefore="1889-01" notAfter="1889-11" cert="high">1889</date>
+     
+     <idno type="callno">TXRC03-A4</idno>
+     
+     <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="letterpress" xml:id="h01" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
+    <handNote medium="pencil" xml:id="h02" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h03" resp="#unk1"><name xml:id="unk1">Unknown</name></handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ <change when="2024-08-09" who="#km">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="tex.00036.001.jpg" type="recto"/>
+   
+   <lg type="poem">
+    <head>MY 71st YEAR.</head>
+     <l>After surmounting three-score and ten,</l>
+     <l>With all their chances, changes, losses, sorrows,</l>
+     <l>My parents' deaths, the vagaries of my life, the many tearing<lb/> passions of me, <add hand="#h02" place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h02" place="top" rend="marked" xml:id="a001">the war of '63 and '4</add></l>
+    <l>As some old broken soldier, after a long, hot, wearying march,<lb/> or haply after battle,</l>
+    <l>At twilight, hobbling, answering yet to company roll-call<add hand="#h02" place="inline"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a002">,<metamark function="separate" target="#a002">/</metamark></add> <hi rend="italic">Here</hi><add hand="#h02" place="inline"><metamark function="add" target="#a003">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a003">,<metamark function="separate" target="#a003">/</metamark></add><lb/> with vital voice,</l>
+    <l>Reporting yet, saluting yet the Officer over all.</l>
+   </lg>
+   
+   <signed>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</signed>
+   
+   <note type="authorial" place="bottom" hand="#h02"><hi rend="underline">Century</hi> Nov:</note>
+   
+   <note type="archival" place="bottom" hand="#h03"><hi rend="underline">22 B</hi></note>
+   
+   <pb xml:id="leaf001v" facs="tex.00036.002.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>
