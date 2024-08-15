@@ -147,8 +147,14 @@
    
    <pb xml:id="leaf001v" facs="loc_nk.00021_large.jpg" type="verso"/>
    
-   <note type="authorial" place="top" hand="#h02">Henry Curtz printer<lb/> 2d floor 2d street cor: Bridge av<lb/> Camden<lb/> let me see a 2d proof please<lb/>&#9758; WW</note>
-   
+   <note type="authorial" place="top" hand="#h02" xml:id="n001">
+    <ab>Henry Curtz printer</ab>
+    <ab>2d floor 2d street cor: Bridge av Camden</ab>
+    <ab>let me see a 2d proof please</ab> 
+    <ab>WW</ab>
+    <add place="bottom" hand="#h02"><metamark function="emphasize" target="#n001">&#9758;</metamark></add>
+   </note>
+  
 </body>
 </text>
 </TEI>
