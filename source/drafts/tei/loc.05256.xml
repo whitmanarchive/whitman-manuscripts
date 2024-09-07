@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05256"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main" rend="bracketed">But Only pond-babble</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="tb">Tara Ballard</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>loc.05256</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+     <note type="work_relations" cert="high">
+      <p>The notes on the recto are prefatory in nature and reflect the spirit of the preface to Whitman's 1891 <hi rend="italic">Good-Bye My Fancy 2d Annex to Leaves of Grass</hi>. The exact phrase, "the mullein and the bumble-bee" is on page 36 of the section entitled "Gathering the Corn" of <hi rend="italic">Good-Bye My Fancy</hi>. On the verso is a partial letter from Whitman to unknown friends.</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>Only Mulleins and Bumble-Bees</title>  
+     
+     <date cert="high">1890&#38;1891</date>
+     
+     <idno type="callno">MSS 45443, Reel 1</idno>
+     
+     <orgName xml:id="loc">The Thomas B. Harned Collection of the Papers of Walt Whitman, 1864&#38;1891, Library of Congress, Washington, D.C.</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+     <relatedItem type="text" xml:id="rel01" target="loc.04209"/>
+     <relatedItem type="document" target="wwa.00696"/>
+     <note type="project" target="#rel01">The verso contains a partial letter from Whitman to unknown friends.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h02" resp="#ww"></handNote>
+    <handNote medium="blue pencil" xml:id="h03" resp="#unk"/>
+    <handNote medium="blue ink" xml:id="h04" resp="#unk2"></handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2024-09-07" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="loc_af.00303_large.jpg" type="recto"/>
+   
+    <note type="editorial" place="left" hand="#h03">4</note><head><add place="inline" hand="#h02"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" hand="#h02" xml:id="a001">&#182; But Only pond-babble&#8212;</add><hi rend="underline">Only Mulleins &amp; Bumble-Bees</hi><add place="above" hand="#h02">? like</add></head>
+     <byline>Mr Walt Whitman</byline>
+     
+   <p><subst><del rend="overstrike" seq="1"><hi rend="underline">Prefatory&#8248;May 3, 1878</hi>&#8248;</del><add place="above" seq="2"><hi rend="underline">A fair Warning</hi>&#8212;</add></subst> Yes, that's all you are likely to get Reader dear out of <subst><del rend="overstrike" seq="1">these fresco</del><del rend="overstrike" seq="3"><add place="above" seq="2">the following</add></del><add place="above" seq="4">these <del rend="overstrike" seq="2"><add place="below" seq="1"><unclear reason="illegible" cert="low" resp="#tb">songs</unclear></add></del> <add place="inline" hand="#h02"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" hand="#h02" xml:id="a002" seq="5">preface</add> pages</add></subst> paragraphs<add place="inline"><metamark function="add" target="#a003">&#8248;</metamark></add><del rend="overstrike" seq="2"><add place="above" xml:id="a003" seq="1">following&#8212;</add></del>&#8212;only<add place="above" hand="#h02">some</add></p> 
+   
+   <note type="archival" place="bottom" hand="#h04">241</note>
+   
+   <pb xml:id="leaf001v" facs="loc_af.00304_large.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>
