@@ -1,130 +1,133 @@
-<!--ArborText, Inc., 1988-2001, v.4002-->
-<!DOCTYPE TEI.2 PUBLIC "-//UVA::IATH//DTD whitman.dtd (Whitman Archive)//EN">
-<!ENTITY uva.00073.001 SYSTEM "uva.00073.0001.jpg" NDATA jpeg>
-<tei.2 id="uva.00073" type="doc"><relations>
-<!-- RELATIONS STRUCTURE -->
-</relations>
-<teiheader><filedesc><titlestmt>
-<title level="m" type="main">Death's Valley</title>
-<title level="m" type="sub">a machine readable transcription</title>
-<author>Walt Whitman</author>
-<editor>Ken Price</editor>
-<editor>Ed Folsom</editor>
-<respstmt>
-<resp>Transcription and encoding</resp>
-<name>Peter Henry</name>
-</respstmt>
-<sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
-<sponsor>University of Iowa</sponsor>
-<sponsor>University of Nebraska-Lincoln</sponsor>
-<funder>The National Endowment for the Humanities</funder>
-<funder>The United States Department of Education</funder>
-</titlestmt><editionstmt>
-<edition><date>2003</date></edition>
-</editionstmt><publicationstmt>
-<idno>uva.00073</idno>
-<distributor>The Walt Whitman Archive</distributor>
-<address>
-<addrline>The Institute for Advanced Technology in the Humanities</addrline>
-<addrline>Alderman Library</addrline>
-<addrline>University of Virginia</addrline>
-<addrline>P.O. Box 400115</addrline>
-<addrline>Charlottesville, VA 22904-4115</addrline>
-<addrline>whitman@jefferson.village.virginia.edu</addrline>
-</address>
-<availability>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-<p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
-</availability></publicationstmt>
-<sourcedesc>
-<p><!-- PROSE DESCRIPTION OF SOURCE --> 
-<bibl>
-<author>Walt Whitman</author> 
-<title>Death's Valley</title>
-<orgname>Papers of Walt Whitman (MSS 3829), Clifton
-Waller Barrett Library of American Literature, Albert H. Small Special Collections
-Library, University of Virginia</orgname>
-<note type="project">Transcribed from our own digital image of original manuscript</note>
-</bibl> 
-</p>
-<notesstmt>
-<note type="project" target="leaf01v">Verso of manuscript leaf is dated April, 1892 and states the name of the poem and the word "Magazine"; a second copy of the title is written in Whitman's hand
-</note>
-</notesstmt>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00073"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main">Death's Valley</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="kmh">Kenneth Michael Hoover</persName>
+     <persName xml:id="prh">Peter Henry</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
 
-</sourcedesc>
+   <idno>uva.00073</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
+     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
+     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
+     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
+    
+     <note type="work_relations" target="xxx.00593" cert="high">
+      <p></p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>"Death's Valley, (to accompany a picture, by request)," 1892 April</title>  
+     
+     <date when="1889" cert="high"></date>
+     
+     <idno type="callno">3829, ETC., 5604, box 1, folder 28</idno>
+     
+     <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2024-09-09" who="#kmh">transcribed and encoded</change>
+ <change when="2003" who="#prh">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
 
-</filedesc>
-
-<profiledesc><handlist><hand id="ww" scribe="Walt Whitman"><hand id="prh"
-scribe="Peter Henry"></handlist></profiledesc>
-<revisiondesc>
-<change>
-<date></date>
-<respstmt>
-<name></name>
-<resp></resp>
-</respstmt>
-<item></item>
-</change>
-</revisiondesc></teiheader>
-
-<text type="manuscript"><body>
-<pb corresp="uva.00073.001" id="leaf01r" type="recto"><lg1 type="poem">
-<head rend="underline" type="main-authorial">Death's Valley</head>
-<l><note rend="underline" place="interlinear" type="authorial">(To accompany
-a picture, by request)</note> </l>
-<lg2><l>Nay, do not dream designer dark,</l>
-<l>Thou hast portray'd or hit thy theme entire;</l>
-<l><del type="overstrike"><seg>I, who have watch'd by many a death (and haply
-</seg> <seg>soon to know it in myself,)</seg></del></l>
-<l><seg>I, hoverer of late by this dark valley, by</seg><seg>its confines,
-having glimpses of it</seg></l>
-<l><seg>Here enter lists with thee claiming <app><rdg varseq="1"><del type="overstrike">
-a</del></rdg><rdg varseq="2"><add place="supralinear" type="unmarked">my</add></rdg>
-</app> right</seg> <seg>to<app><rdg varseq="1"><add place="supralinear" type="unmarked">
-make</add></rdg><rdg varseq="2"><unclear reason="deletion, illegible" resp="prh"
-cert="75%"><del type="overstrike">limn</del></unclear></rdg></app> a <app>
-<rdg varseq="1"><add place="supralinear" type="unmarked">symbol</add></rdg>
-<rdg varseq="2"><del type="overstrike">picture</del></rdg></app> too.</seg></l>
-</lg2><lg2><l>For I have seen many wounded soliders die,</l>
-<l><seg>After <del type="overstrike">perhaps</del> dread suffering&mdash;<del
-type="overstrike">and</del> have seen their</seg><seg>lives pass off with
-smiles;</seg></l>
-<l><seg>And I have watch'd the death hours of the</seg><seg>old&mdash;and
-seen the infant die,</seg></l>
-<l>The rich with all his nurses and all his doctors,</l>
-<l>And then the poor in meagreness and poverty,</l>
-<l><seg>And I myself for long O Death have breathed</seg><seg>my every breath
-</seg></l>
-<l>Amid the nearness and the silent thought of thee.</l>
-</lg2><lg2><l>And out of these and thee,</l>
-<l>I make a scene a song, brief (not <app><rdg varseq="1"><del type="overstrike">
-for</del></rdg><rdg varseq="2"><add place="supralinear" type="unmarked"><del
-type="overstrike">out of</del></add></rdg></app>fears of thee</l>
-<l><seg>Nor gloom's ravines, nor bleak, nor dark&mdash;for I</seg><seg>do
-not fear thee,</seg></l>
-<l>Nor celebrate the struggle or contortion, or <del type="overstrike">the
-</del> hard-tied knot</l>
-<l><seg><app><rdg varseq="1"><del type="overstrike">But of the</del></rdg>
-<rdg varseq="2"><add place="supralinear" type="unmarked">Of the broad</add></rdg>
-</app>blessed light, and perfect air, writhe mead-</seg><seg>ows, rippling
-tides, and trees and flowers</seg><seg>and grass,</seg></l>
-<l><seg>And the low hum of living breeze&mdash;and in the midst,</seg><seg><del
-type="overstrike">thee, d<gap reason="deletion, illegible"></del>, God's beautiful <add
-place="supralinear" type="insertion">eternal</add>right hand</seg></l>
-<l><seg><app><rdg varseq="1"><del type="overstrike">Thou</del></rdg><rdg varseq="2"><add
-place="supralinear" type="unmarked">Thee,</add></rdg></app>holiest minister
-of Heaven&mdash;<app><rdg varseq="1"><del type="overstrike">thou</del></rdg>
-<rdg varseq="2"><add place="supralinear" type="unmarked">thee,</add></rdg>
-</app>envoy, usherer,</seg><seg>guide at last of all,</seg></l>
-<l>Rich, florid, loosener of the stricture: knot called life,</l>
-<l>Sweet, peaceful, welcome Death.</l>
-</lg2></lg1>
-<p><note rend="circled" place="marginbot" type="authorial">You can put the
-name Walt Whitman either at the top or bottom as you prefer</note></p>
-<signed rend="underline">Walt Whitman</signed>
-<pb corresp="uva.00073.002" id="leaf01v" type="verso">
-
-</body></text>
-</tei.2>
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="uva.00073.001.jpg" type="recto"/>
+   <lg type="poem">
+    <addSpan rend="pasteon" spanTo="#a003"/>
+    <head rend="underline">Death's Valley.</head>
+    <note rend="underline" type="authorial" place="inline">(To accompany a picture, by request.)</note><anchor xml:id="a003"/>
+     <lg type="linegroup"><l>Nay, <addSpan rend="pasteon" spanTo="#a004"/>do not dream designer dark</l>
+     <l>Thou hast portray'd or hit thy theme entire;</l>
+      <l><del rend="overstrike">I, who have watch'd by many a death (and haply <lb/>soon to know it in myself,)</del></l><anchor xml:id="a004"/>
+     <addSpan rend="pasteon" spanTo="#a005"/><l>I, hoverer of late by this dark valley, by <lb/>its confines, having glimpses of it</l>
+     <l>Here enter lists with thee claiming <subst><del rend="overstrike">a</del><add place="above">my</add></subst> right <lb/> to <subst><del rend="overstrike">limn</del><add place="above">make</add></subst> a <subst><del rend="overstrike">picture</del><add place="above">symbol</add></subst> too.</l></lg>
+     <metamark function="emphasize">#</metamark>
+     <lg type="linegroup"><l>For I have seen many wounded soldiers die,</l>
+     <l>After <del rend="overstrike">perhaps</del> dread suffering&#8212;<del rend="overstrike">and</del> have seen their <lb/>lives pass off with smiles;</l>
+     <l>And I have watch'd the death&#11840;hours of the <lb/>old&#8212;and seen the infant die,</l>
+     <l>The rich with all his nurses and his doctors,</l>
+     <l>And then the poor in meagreness and poverty,</l>
+     <l>And I myself for long O Death have breathed <lb/>my every breath</l>
+     <l>Amid the nearness and the silent thought of thee.</l>
+     </lg>
+     <metamark function="emphasize">#</metamark>
+     <lg type="linegroup"><l>And out of these and thee,</l>
+     <l>I make a scene, a song, brief (not <subst><del rend="overstrike">for</del> <del rend="overstrike"><add place="above">out of</add></del></subst> thee,</l>
+     <l>Nor gloom's ravines, nor bleak, nor dark&#8212;for I <lb/>do not fear thee,</l>
+     <l>Nor celebrate the struggle <del rend="overstrike">or</del> contortion, or <del rend="overstrike">the</del> hard&#11840;tied knot</l>
+     <l><subst><del rend="overstrike">But of the</del><add place="above">Of the broad</add></subst> blessed light and perfect air, with <choice><orig>mead-<lb/>ows</orig> <reg>meadows <lb/></reg></choice>, rippling tides, and trees and flowers <lb/>and grass,</l>
+     <l>And the low hum of living breeze&#8212;and in the midst, <lb/><del rend="overstrike">thee di<gap reason="illegible" extent="at least one character" quantity="1" unit="char"/>,</del> God's beautiful <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add xml:id="a001">eternal</add> right hand,</l>
+     <l><subst><del rend="overstrike">Thou,</del><add place="above">Thee,</add></subst> holiest minister of Heaven&#8212;<subst><del rend="overstrike">Thou</del><add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">thee,</add></subst> envoy, usherer, <lb/>guide at last of all,</l>
+     <l>Rich, florid, loosener of the stricture&#11840;knot call'd life,</l>
+     <l>Sweet, peaceful, welcome Death.</l>
+     </lg></lg>
+     <signed rend="right"><hi rend="underline">Walt Whitman</hi></signed>
+   <note type="authorial" place="bottom">You can put the name Walt Whitman either at the top or <lb/>bottom as you prefer</note><anchor xml:id="a005"/>
+   
+   <pb xml:id="leaf001v" facs="uva.00073.002.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>
