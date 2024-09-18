@@ -69,40 +69,47 @@
      <orgName xml:id="nyp">The Oscar Lion Papers, New York Public Library, New York, N.Y.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
-     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-     <relatedItem type="document" target="wwa.00041"/>
-     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+     <note type="project" target="#rel01">The writing on the verso (not in Whitman's hand) makes reference to <hi rend="italic">Good-Bye My Fancy</hi> and to "Sounds of Winter," as well as to a "Putnam 1902 Edition." There is also a postmark dated 18 October 1889, and a reference to Camden, New Jersey, that could be in Whitman's hand. The verso clearly displays the three separate pieces of paper that Whitman combined to draft "Old Age Echoes."</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
-   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
+   <handNotes>
     <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="blue ink" xml:id="h02" resp="#unk"></handNote>
-    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h02" resp="#ww"></handNote>
+    <handNote medium="purple pencil" xml:id="h03" resp="#ww"/>
+    <handNote medium="blue pencil" xml:id="h04" resp="#ww"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
-<!-- IN THE FOLLOWING <CHANGE> ELEMENT EDIT THE @WHEN TO REFLECT TODAY'S DATE. IF YOU AREN'T TARA, CHANGE THE INITIALS AFTER THE POUND SIGN IN @WHO -->
- <change when="2024-01-20" who="#tb">transcribed and encoded</change>
+ <change when="2024-09-18" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="M_1260137u.jpg" type="recto"/>
    <lg type="poem">
-     <l></l>
-     <l></l>
+     <head rend="underline">Old age echoes</head>
+     <byline>By <hi rend="underline">Walt Whitman</hi></byline>
+     <head rend="underline">Sounds of the Winter too.</head>
+     <l><handShift new="#h02"/>Sounds <subst><del rend="overstrike" seq="1">from</del><add place="above" seq="2">of</add></subst> the winter too,</l>
+     <l>Sunshine upon the mountains&#8212;many a<lb/>
+              distant strain</l>
+     <l>From cheery rail-road train<add place="below"><metamark function="add">&#8248;</metamark></add>&#8212;from nearer<lb/>
+              field, barn, house,</l>
+     <l>The whisper<subst><del rend="overstrike" seq="1">'d</del><add place="above" seq="2">ing</add></subst> air&#8212;even the mute crops,<lb/>
+              garner'd apples, corn,</l>
+     <l>Childrens' and womens' homes&#8212;the rhythm of<lb/>
+              farmer and of flail,</l> 
+     <l><handShift new="#h03"/>The old mans gay and garrulous<lb/>
+               </l>
      <l></l>
    </lg>
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+   <pb xml:id="leaf001v" facs="M_1260138u.jpg" type="verso"/>
    
 </body>
 </text>
