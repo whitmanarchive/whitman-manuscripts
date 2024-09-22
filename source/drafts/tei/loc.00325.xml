@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00325"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main">Yonnondio</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="tb">Tara Ballard</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>loc.00325</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+     <note type="work_relations" target="xxx.00350" cert="high">
+      <p>Proof of "Yonnondio," which was published first in 1887, with notes and corrections in Whitman's hand.</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>Yonnondio</title>  
+     
+     <date cert="high">about 1887</date>
+     
+     <idno type="callno">MSS 18630, Box 30; Reel 18-19</idno>
+     
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#38;1919, Library of Congress, Washington, D.C.</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+
+     <note type="project" target="#rel01">The verso is blank.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="letterpress" xml:id="h01" scope="major" resp="#unk"/><handNote xml:id="unk">Unknown</handNote>
+    <handNote medium="blue pencil" xml:id="h02" scope="minor" resp="#ww"></handNote>
+    <handNote medium="pencil" xml:id="h03" scope="minor" resp="#ww"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2024-09-22" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="loc_ew.00218.jpg" type="recto"/>
+   <lg type="poem">
+     <note type="authorial" hand="#h02" place="top">W W.s Nov<add place="inline" hand="#h03">/</add>&#11840; Boughs</note>
+     <note type="authorial" hand="#h02" place="right">44</note>
+     <head>YONNONDIO.</head>
+     <note type="authorial" hand="#h02" place="inline">Brev</note><note type="authorial" hand="#h01" place="inline" rend="bracketed">The sense of the word is <hi rend="italic">lament for the aborigines</hi>. It is an Iroquois term;<add place="inline" hand="#h03">)</add> and has been used for a personal name.</note>
+     <l>A song, a poem of itself&#8212;the word itself a dirge,</l>
+     <l>Amid the wilds, the rocks, the storm and wintry night;</l>
+     <l>To me such misty, strange tableaux the syllables calling up;</l>
+     <l>Yonnondio&#8212;&#8212;I see, far in the west or north, a limitless <choice><orig>ra-<lb/>vine</orig><reg>ravine</reg></choice>,<lb/>
+           with plains and mountains dark</l>
+     <l>I see swarms of stalwart chieftains, medicine-men, and <choice><orig>war-<lb/>riors</orig><reg>warriors</reg></choice>,</l>
+     <l>As flitting by like clouds of ghosts, they pass and are gone<lb/>
+           in the twilight,</l>
+     <l>(Race of the woods, the landscapes free, and the falls!</l>
+     <l>No picture, poem, statement, passing them to the future: )</l>
+     <l>Yonnondio! Yonnondio! &#8212;unlimn'd they disappear;</l>
+     <l>To&#8211;day gives place, and fades&#8212;the cities, farms, factories fade;</l>
+     <l>A muffled sonorous sound, a wailing word is borne through<lb/>
+           the air for a moment,</l>
+     <l>Then blank and gone and still, and utterly lost.</l>
+   </lg>
+   
+              <signed><hi rend="overstrike" hand="#h03">W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi></hi>.</signed>
+   
+   <pb xml:id="leaf001v" facs="loc_nk.00108_large.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>
