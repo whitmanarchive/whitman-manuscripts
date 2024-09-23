@@ -1,295 +1,114 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00159">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title level="m" type="main" rend="bracketed">No birth identity
-		<!-- TITLE GOES HERE. IF IT IS DERIVED FROM THE -->
-		<!-- FIRST LINE, ADD THIS TO THE PREVIOUS TAG:  -->
-		<!-- rend="bracketed"                           --> 
-</title>
-            <title level="m" type="sub">a machine readable transcription</title>
-            <author>Walt Whitman</author>
-            <editor role="editor">Kenneth M. Price</editor>
-            <editor role="editor">Ed Folsom</editor>
-            <respStmt>
-               <resp>Transcription and encoding</resp>
-               <persName xml:id="nhg">Nicole Gray</persName>
-               <persName xml:id="cf">Chris Forster</persName>
-            </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
-            <sponsor>University of Iowa</sponsor>
-            <funder>The National Endowment for the Humanities</funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>
-               <date>2004</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <idno>uva.00159</idno>
-            <distributor>The Walt Whitman Archive</distributor>
-            <address>
-               <addrLine>Center for Digital Research in the Humanities</addrLine>
-               <addrLine>319 Love Library</addrLine>
-               <addrLine>University of Nebraska-Lincoln</addrLine>
-               <addrLine>P.O. Box 884100</addrLine>
-               <addrLine>Lincoln, NE 68588-4100</addrLine>
-            </address>
-            <availability>
-               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
-            </availability>
-         </publicationStmt>
-         <notesStmt>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-		<!-- IGNORE THE FOLLOWING PROJECT NOTE. IT WILL BE FILLED IN BY PROJECT EDITORS. -->
-            <note type="project" target="dat1"/>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00159"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main">Continuities</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="kmh">Kenneth Michael Hoover</persName>
+     <persName xml:id="nhg">Nicole Gray</persName>
+     <persName xml:id="cf">Chris Forster</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
 
-		          <!-- IF THERE IS VERSO INFORMATION THAT YOU ARE ONLY    -->
-            <!-- DESCRIBING BUT NOT TRANSCRIBING, INSERT THAT HERE. -->
-		          <!-- IF YOUR MANUSCRIPT HAS NO VERSO MATERIAL, OR IF    -->
-		          <!-- YOU ARE TRANSCRIBING THAT MATERIAL, YOU MAY DELETE -->
-		          <!-- THIS NOTE.               				  -->
+   <idno>uva.00152</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+   
+  
+     <note type="work_relations" target="xxx.00349" cert="high">
+      <p></p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>"Continuities (No birth-identity)," [ca. 1888,]</title>  
+     
+     <date when="1888" cert="high"></date>
+     
+     <idno type="callno">MSS 3892, etc., 5604, box 1, folder 21</idno>
+     
+     <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>      
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2024-09-18" who="#kmh">Kenneth Michael Hoover</change>
+</revisionDesc>
+ </teiHeader>
 
-         </notesStmt>
-         <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
-               <title>
-	<!-- CANNOT LOCATE THIS MS IN THE UVA EAD. -->
-
-	<!-- TITLE UNDER WHICH THE MS IS HELD AT THE REPOSITORY;	      -->
-	<!-- PLEASE CONSULT, WHEN AVAILABLE, THE ONLINE FINDING	  	-->
-	<!-- FINDING AID ON THE WHITMAN ARCHIVE, IN THE "MANUSCRIPTS" 	-->
-	<!-- SECTION OF THE SITE.                                     	-->
-
-</title>
-               <date cert="****" value="/" xml:id="dat1"><!-- DATING INFO WILL BE INSERTED BY PROJECT EDITORS --></date>
-               <idno type="callno">
-	<!-- THE REPOSITORY'S ID CODE FOR THE MATERIAL, IF ANY, CAN BE	     -->
-	<!-- ENTERED HERE. THE VALUE OF 'TYPE' CAN BE ALTERED TO FIT	     -->
-	<!-- THE TYPE OF ID NUMBER USED; EXAMPLE: MSS 3829.  THIS INFO	     -->
-	<!-- IS ONLY APPROPRIATE FOR THE REPOSITORIES THAT HAVE CREATED        -->
-	<!-- UNIQUE IDENTIFIERS FOR EACH MANUSCRIPT: HARVARD, BOSTON           -->
-	<!-- PUBLIC LIBRARY, BYU, JOHNS HOPKINS, THE HUNTINGTON, THE MORGAN,   -->
-	<!-- RUTGERS, THE AMERICAN ANTIQUARIAN SOCIETY, AND TEMPLE. PLEASE     -->
-	<!-- CONSULT THE ONLINE FINDING AIDS.                                  --> 
-		
-</idno> 
-               <orgName xml:id="uva">
-Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia
-</orgName> 
-
-	              <!-- ALTER THE FOLLOWING NOTE IF NECESSARY -->
-
-               <note type="project">Transcribed from digital images of the original.</note>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <revisionDesc>
-         <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#cf" when="2005-07-15">Encoded</change>
-         <change who="#cf" when="2005-07-15">Transcribed</change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-
-		<!-- AGAIN, UNIQUE ID PLUS 3-DIGIT PAGE # IN THE FOLLOWING -->
-         <pb facs="uva.00159.001" xml:id="leaf001r" type="recto"/>
-
-         <lg
-              >
-
-            <head type="main-authorial" rend="underline">
-               <del rend="overstrike">Alternation's
-<subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike"> Spiritualism</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="supralinear" rend="unmarked">Continuities</add> 
-                     </rdg>
-                     <rdg varSeq="3">
-                        <add place="infralinear" rend="unmarked">Progression</add> 
-                     </rdg>
-                  </subst>
-               </del>
-
-               <del rend="overstrike">
-                  <add place="top" rend="unmarked">The Invisible world</add>
-               </del>
-
-            </head>
-
-            <transpose rend="bracketed" anchored="yes" target="t1">
-               <l>
-                  No birth <add place="supralinear" rend="insertion">
-                        <del rend="overstrike">of time's</del> form,—no</add> identity, <del rend="overstrike">no</del> 
-                     <gap reason="deletion,illegible"/> of the<lb/>
-                  world,<lb/>
-               </l>
-            </transpose>
-
-            <l>
-Nothing is <add place="supralinear" rend="insertion">
-                  <del rend="overstrike">really</del> ever</add> lost or can be <del rend="overstrike">
-                  <add rend="insertion" place="supralinear">ever</add>
-               </del> lost,
-</l>
-
-            <anchor xml:id="t1"/>
-
-            <l>
-               Nor life, nor force, nor <delSpan rend="overstrike"
-                           to="d1"
-                           />aught that<lb/>
-               has advanced;<anchor xml:id="d1"/>
-                  <add place="inline" rend="unmarked">any visible thing</add>
-               <lb/>
-            </l>
-
-            <del rend="overstrike">
-               <l>Spheres</l>
-            </del>
-
-            <l>
-               Appearance <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">does</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="supralinear" rend="unmarked">must</add> 
-                     </rdg>
-                  </subst>
-not foil, <del rend="overstrike">me</del> nor<lb/>
-               shifted sphere<del rend="overstrike">s</del> confuse <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">me</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="supralinear" rend="unmarked">thy brain,</add> 
-                     </rdg>
-                  </subst>
-               <lb/>
-            </l>
-
-            <l>
-Ample are time and space—ample the fields of nature,
-</l>
-
-            <l>
-               The body sluggish, aged cold—the embers<lb/>
-               
-                  <del rend="overstrike">
-                     <gap reason="deletion,illegible"/>
-                  </del> 
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">burnt</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="supralinear" rend="unmarked">left</add> 
-                     </rdg>
-                  </subst>
-from earlier fires<lb/>
-            </l>
-
-            <l>
-               The light in the eye grown dim, shall duly<lb/>
-               
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">
-                           <unclear reason="deletion,illegible"
-                                    cert="medium" resp="#cf">burn</unclear>
-                        </del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <del rend="overstrike">
-                           <add place="supralinear" rend="insertion">burn</add>
-                        </del> 
-                     </rdg>
-                     <rdg varSeq="3">
-                        <add place="supralinear" rend="insertion">
-                           <unclear reason="illegible" cert="medium" resp="#cf">flame</unclear>
-                        </add> 
-                     </rdg>
-                  </subst>
-again;<lb/>
-            </l>
-
-            <l>
-               The sun now low in the west <del rend="overstrike">shall</del>
-               <lb/>
-               rises <del rend="overstrike">again</del> 
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">to</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="supralinear" rend="unmarked">for</add> 
-                     </rdg>
-                  </subst>
-morning<add place="inline" rend="unmarked">s</add> and <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">to</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="infralinear" rend="unmarked">for</add> 
-                     </rdg>
-                  </subst>
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">
-                           <add place="supralinear" rend="unmarked">forever</add>
-                        </del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="supralinear" rend="unmarked">continual</add> 
-                     </rdg>
-                  </subst>
-noon<add place="inline" rend="unmarked">s</add>
-               <lb/>
-            </l>
-
-            <l>
-               
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">The</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="supralinear" rend="unmarked">To</add> 
-                     </rdg>
-                  </subst>
-frozen winter clods ever the<lb/>
-               spring <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">shall come</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="supralinear" rend="unmarked">returns</add> 
-                     </rdg>
-                  </subst>
-               <lb/>
-            </l>
-
-            <l>
-               With grass and flowers and <unclear reason="illegible" cert="medium" resp="#cf">summer</unclear>
-               <lb/>
-               fruits and <unclear reason="illegible" cert="medium" resp="#cf">corn</unclear>
-               <lb/>
-            </l>
-
-            <!-- I'M NOT SURE IF THIS PROSE AT THE BOTTOM OF THE PAGE IS A NOTE OR NOT... -cf -->
-            <note place="inline" type="authorial">[From a talk I had lately with a German spiritualist]</note>
-
-
-            <note place="bottom"
-                  type="authorial"
-                  rend="circled">Sent to H March 17</note>
-         </lg>
-      </body>
-   </text>
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="uva.00159.001.jpg" type="recto"/>
+   <lg type="poem">
+    <head><subst><del rend="overstrike" seq="1"><hi rend="underline">Alternation's</hi></del><del rend="overstrike" seq="3"><add place="inline" rend="underline" seq="2">Spiritualism.</add></del><del rend="overstrike" seq="5"><add rend="underline" place="below" seq="4">Progression</add></del><del rend="overstrike" seq="7"><add place="top" rend="underline" seq="6">The Invisible world</add></del><add place="above" seq="8">Continuities.</add></subst></head>
+     <l>Nothing is <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001"><del rend="overstrike">really</del>ever</add> lost <hi rend="underline">or can</hi> be <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002"><del rend="overstrike">ever</del></add> lost</l>
+     <addSpan place="top" rend="marked"/><l>No birth, <add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><del rend="overstrike"><add place="above" xml:id="a003">of time's</add></del> identity, <subst><del rend="overstrike">no</del><add place="above">form,&#8248;no</add></subst> object of the world,</l><anchor/>
+     <l>Nor life, nor force, nor <del rend="overstrike">aught that<lb/> has advanced;</del><add place="inline">any visible thing</add></l>
+     <l><del rend="overstrike">Spheres</del></l>
+     <l>Appearance <subst><del rend="overstrike">does</del><add place="above">must</add></subst> not foil<add place="below">,</add><del rend="overstrike">me</del> nor<lb/> shifted sphere<del rend="overstrike">s</del> confuse <subst><del rend="overstrike">me</del><add place="above">thy brain.</add></subst></l>
+     <l>Ample are time and space&#8248;ample the fields of nature<add place="below">.</add></l>
+     <l>The body sluggish, aged cold&#8248;the embers<lb/> <subst><del rend="overstrike">bl burnt</del><add place="above">left</add></subst> from earlier fires</l>
+     <l>The light in the eye grown dim, shall duly<lb/> <subst><del rend="overstrike" seq="1">beam</del><del rend="overstrike" seq="4"><add place="above" seq="3">burn</add></del><add place="below" seq="2"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004" seq="5">flame</add></subst> again;</l>
+     <l>The sun now low in the west <del rend="overstrike">shall</del><lb/> rises <del rend="overstrike">again</del><add place="above">for</add><del rend="overstrike">to</del> mornings and <subst><del rend="overstrike">to</del><add place="below">for</add></subst> noons <del rend="overstrike"><add place="above">forever.</add></del><add place="above">, continual</add></l>
+    <l><subst><del rend="overstrike">The</del><add place="above">To</add></subst> frozen winter clods ever the<lb/> spring <subst><del rend="overstrike">shall come</del><add place="above">returns</add></subst></l>
+    <l>With grass and flowers and summer<lb/> fruits and corn</l>
+    <note place="bottom" type="authorial">[From a talk I had lately with a German<lb/> spiritualist]</note>
+    <note place="bottom" type="authorial">sent to H March 17)</note>
+   </lg>
+   
+   <pb xml:id="leaf001v" facs="uva_jc.00046_large.jpg" type="verso"/>
+   
+</body>
+</text>
 </TEI>
