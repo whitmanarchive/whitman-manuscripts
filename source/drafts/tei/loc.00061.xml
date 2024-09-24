@@ -22,6 +22,7 @@
                     <persName xml:id="fl">Farrah Lehman</persName>
                     <persName xml:id="jr">Joshua Ranger</persName>
                     <persName xml:id="jh">Jeff Hill</persName>
+                    <persName xml:id="ew">Emma Whaley</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -68,6 +69,7 @@
             </handList>
         </profileDesc>
         <revisionDesc>
+            <change who="#ew" when="2024-09-24">updated image links</change>
             <change who="#jh" when="2024-03-25">checked, corrected</change>
             <change who="#nhg" when="2016-05-02">converted to P5</change>
             <change who="#lr" when="2006-08-01">blessed</change>
@@ -79,7 +81,7 @@
     </teiHeader>
     <text>
         <body>
-            <pb facs="loc.00061.001" xml:id="leaf001r" type="recto"/>
+            <pb facs="loc_ew.00002.jpg" xml:id="leaf001r" type="recto"/>
             <lg>
                 <head type="main-authorial">BRAVO, PARIS <del rend="overstrike" hand="h1" seq="1">EXHIBITION!</del> <add rend="unmarked" place="above" hand="h1" seq="2">exposition!</add> </head>
                 <note type="editorial" place="top" resp="#ht"> <p>See notes, Oct 31, '89</p> </note>
@@ -94,7 +96,7 @@
                 </closer>
                 <note type="authorial" place="bottom" hand="h1"> <p><hi rend="underline">Harper's Weekly</hi></p></note>
             </lg>
-            <pb facs="loc.00061.002" xml:id="leaf001v" type="verso"/>
+            <pb facs="loc_ew.00005.jpg" xml:id="leaf001v" type="verso"/>
         </body>
     </text>
 </TEI>
