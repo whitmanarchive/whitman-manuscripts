@@ -22,6 +22,7 @@
                <persName xml:id="fl">Farrah Lehman</persName>
                <persName xml:id="ms">Melody S. Han</persName>
                <persName xml:id="jh">Jeff Hill</persName>
+               <persName xml:id="ew">Emma Whaley</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -65,6 +66,7 @@
          </handList>
       </profileDesc>
       <revisionDesc>
+         <change who="#ew" when="2024-09-24">updated image links</change>
          <change who="#jh" when="2024-04-23">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
          <change who="#km" when="2006-10-05">edited</change>
@@ -75,7 +77,7 @@
    </teiHeader>
    <text>
       <body>
-         <pb facs="loc.00195.001" xml:id="leaf001r" type="recto"/>
+         <pb facs="loc_ew.00071.jpg" xml:id="leaf001r" type="recto"/>
          <lg>
             <head type="main-authorial"><subst><rdg varSeq="1"><del rend="overstrike">Swelling and ebbing and hand in hand</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked"><del rend="overstrike">Advancing, retreating,</del></add></rdg><rdg varSeq="3"><add place="inline" rend="unmarked">Ebb and Flood Tides.</add></rdg></subst></head>
             <l><subst><rdg varSeq="1"><del rend="overstrike">Swelling and ebbing</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">Advancing, retreating,</add></rdg></subst> and hand in hand</l>
@@ -86,6 +88,7 @@
             <l><del rend="overstrike">Move forever, <add place="above" rend="unmarked">move,</add> round the circles of the earth,</del></l>
             <l>Moving forever round the circles of the earth.</l>
          </lg>
+         <pb facs="loc_ew.00072.jpg" xml:id="leaf001v" type="verso"/>
       </body>
    </text>
 </TEI>
