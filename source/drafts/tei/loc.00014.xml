@@ -24,6 +24,7 @@
                <persName xml:id="jd">Jean Dickinson</persName>
                <persName xml:id="js">Justin St. Clair</persName>
                <persName xml:id="jh">Jeff Hill</persName>
+               <persName xml:id="ew">Emma Whaley</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -67,6 +68,7 @@
          </handList>
       </profileDesc>
       <revisionDesc>
+         <change who="#ew" when="2024-09-24">updated image links</change>
          <change who="#jh" when="2024-03-19">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
          <change who="#sb" when="2006-11-14">checked; revised</change>
@@ -79,7 +81,7 @@
    </teiHeader>
    <text>
       <body>
-         <pb facs="loc.00014.001" xml:id="leaf001r" type="recto"/>
+         <pb facs="loc_ew.00033.jpg" xml:id="leaf001r" type="recto"/>
          <lg>
             <head type="main-derived">Here fretful, parrot-like and old</head>
             <transpose rend="bracketed" anchored="yes" target="a1">
@@ -92,6 +94,8 @@
                <l>Something <add place="above" rend="unmarked">to us</add> unspeakably pensive in our <del rend="overstrike" seq="1">luck</del> <add place="above" rend="unmarked" seq="2">own age</add> our sorrows—</l>
          <note type="editorial"
                place="bottom" resp="#unk">297-<sic corr="Doubleday">Doubeday</sic> Queries to 70th Year</note>
+         </lg>
+         <pb facs="loc_ew.00034.jpg" xml:id="leaf001v" type="verso"/>
       </body>
    </text>
 </TEI>
