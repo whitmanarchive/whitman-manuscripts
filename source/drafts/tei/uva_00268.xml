@@ -62,9 +62,7 @@
      
      <title>From wooded Maine, ca. 1889</title>  
      
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date notBefore="" notAfter="" cert=""></date>
+     <date notBefore="1889-08-14" notAfter="1890-05" cert="high"></date>
      
      <idno type="callno">MSS 3829, etc., 5604, box 1, folder 88, page 19</idno>
      
@@ -73,37 +71,32 @@
      <note>Transcribed from digital images of the original.</note>
      <relatedItem type="text" xml:id="rel01" target="uva.00563"/>
      <relatedItem type="document" target="wwa.00061"/>
-     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+     <note type="project" target="#rel01">On the Verso is a letter from Sara Stewart McGee Forsyth to Whitman dated 14 August 1889.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
-   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
+   <handNotes>
     <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="blue ink" xml:id="h02" resp="#unk"></handNote>
-    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
-   </handNotes>
+    </handNotes>
   </profileDesc>
 <revisionDesc>
  
-<!-- IN THE FOLLOWING <CHANGE> ELEMENT EDIT THE @WHEN TO REFLECT TODAY'S DATE. IF YOU AREN'T TARA, CHANGE THE INITIALS AFTER THE POUND SIGN IN @WHO -->
- <change when="2024-01-20" who="#tb">transcribed and encoded</change>
+ <change when="2024-09-26" who="#kmh">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
+    <pb xml:id="leaf001r" facs="uva.00268.001.jpg" type="recto"/>
    <lg type="poem">
-     <l></l>
-     <l></l>
-     <l></l>
+     <addSpan rend="marked" place="bottom" spanTo="#a002"/><l>The mystic <subst><del rend="overstrike">loot</del><add place="above">roll</add><del rend="overstrike">of</del><add place="above">from</add></subst> all America</l><anchor xml:id="a002"/>
+     <l>From wooded Maine <del rend="overstrike">and many a</del><lb/> New England's farms, <del rend="overstrike">and farm</del><lb/> fertile Pennsylvania,</l>
+     <l>The boundless West, the South, <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above">the Carolinas</add> Texas,</l>
    </lg>
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+    <pb xml:id="leaf001v" facs="uva.00238.030.jpg" type="verso"/>
    
 </body>
 </text>
