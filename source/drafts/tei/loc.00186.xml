@@ -73,37 +73,60 @@
 
      <relatedItem type="text" xml:id="rel01" target="loc.07384"/>
      <relatedItem type="document" target="wwa.00673"/>
-     <note type="project" target="#rel01">The <!-- To be finished -->.</note>
+     <note type="project" target="#rel01">The verso is blank.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
-   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="blue ink" xml:id="h02" resp="#unk"></handNote>
-    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
-   </handNotes>
+   <handNotes>
+    <handNote medium="letterpress" xml:id="h01" scope="major" resp="#unk"/><handNote xml:id="unk">Unknown</handNote>
+    <handNote medium="pencil" xml:id="h02" scope="minor" resp="#ww"/>
+    <handNote medium="blue pencil" xml:id="h03" scope="minor" resp="#ww"></handNote>
+    <handNote medium="black ink" xml:id="h04" scope="minor" resp="#ww"></handNote>
   </profileDesc>
 <revisionDesc>
  
-<!-- IN THE FOLLOWING <CHANGE> ELEMENT EDIT THE @WHEN TO REFLECT TODAY'S DATE. IF YOU AREN'T TARA, CHANGE THE INITIALS AFTER THE POUND SIGN IN @WHO -->
- <change when="2024-01-20" who="#tb">transcribed and encoded</change>
+ <change when="2024-09-29" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="loc_ew.00185.jpg" type="recto"/>
    <lg type="poem">
-     <l></l>
-     <l></l>
-     <l></l>
+     <note type="authorial" hand="#h02" place="top">Camden Nov 4<lb/>Can you use this in C of 8th<lb/>(if in time) &#8212; the price is <!-- Tara to finish --></note>
+     <milestone unit="undeclared" rend="horbar_short-left"/>
+     <note type="authorial" hand="#h03" place="topright">44</note>
+     <head><hi rend="underline">The Dead Tenor</hi>.</head>
+     <l>As down that stage again,</l>
+     <l>With Spanish hat and plumes, and gait inimitable.</l>
+     <l>Back from the fading lessons of the past, I'd call, I'd tell and<lb/>
+            own,</l>
+     <l>How much from thee! the revelation of the singing voice from<lb/>
+            thee!</l>
+     <l>(So firm&#8212;&#8212;so liquid&#8211;soft&#8212;&#8212;again that tremulous, manly timbre!</l>
+     <l>The perfect singing voice&#8212;&#8212;deepest of all to me the lesson&#8212;trial<lb/>
+             and test of all:)</l>
+     <l>How through those strains distill'd&#8212;how the rapt ears, the soul<lb/>
+             of me, absorbing</l>
+     <l><hi rend="italic">Fernando's</hi> heart, <hi rend="italic">Manrico's</hi> passionate call, <hi rend="italic">Ernani's</hi>, sweet <hi rend="italic"><choice><orig>Gen&#8211;<lb/>nuro's</orig><reg>Genuro's</reg></choice></hi>,</l>
+     <l>I fold thenceforth, or seek to fold, within my chants transmuting,</l>
+     <l>Freedom's and Love's and Faith's unloos'd cantabile,</l>
+     <l>(As perfume's, color's, sunlight's correlation:)</l>
+     <l>From these, for these, with these a hurried line, Italian,</l>
+     <l>A wafted autumn leaf, dropt in the closing grave, the shovell'd<lb/> 
+             earth,</l>
+     <l>To memory of thee.</l>
    </lg>
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+   <signed>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</signed>
+   
+   <note type="authorial" hand="#h02" place="below">November <subst><del rend="overwrite" seq="1">2</del><add place="inline" seq="2">4</add></subst> 1884</note>
+   
+   <note type="authorial" hand="#h02" place="bottom">Brignoli in as The Tenor</note>
+   
+   <pb xml:id="leaf001v" facs="loc.00186.002.jpg" type="verso"/>
    
 </body>
 </text>
