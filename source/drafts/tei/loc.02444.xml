@@ -2,12 +2,12 @@
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02414"> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02444"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
     
-    <title level="m" type="main" rend="bracketed"></title>
+    <title level="m" type="main">To the Sun-Set Breeze</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -17,7 +17,6 @@
      <resp>Transcription and encoding</resp>
      
      <persName xml:id="tb">Tara Ballard</persName>
-     <persName xml:id="ew">Emma Whaley</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -47,14 +46,14 @@
     </availability>
     
 
-   <idno>loc.02414</idno>
+   <idno>loc.02444</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
     
      <note type="work_relations" cert="high">
-      <p>Proof of "Shakspere-Bacon's Cipher," which was published first in 1887.</p>
+      <p>Proof of "To a Sunset Breeze" with notations in Whitman's hand. The poem was first published in 1890.</p>
      </note>
    </notesStmt>
    
@@ -62,11 +61,11 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>Shakespere-Bacon's Cipher</title>  
+     <title>To the Sunset Breeze</title>  
      
-     <date cert="high">about 1887</date>
+     <date cert="high">about 1890</date>
      
-     <idno type="callno">MSS 18630, Box 29; Reel 17-18</idno>
+     <idno type="callno">MISS 18630, Box 30; Reel 18-19</idno>
      
      <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#38;1919, Library of Congress, Washington, D.C.</orgName>
      
@@ -79,11 +78,12 @@
   <profileDesc>
    <handNotes>
     <handNote medium="letterpress" xml:id="h01" scope="major" resp="#unk"/><handNote xml:id="unk">Unknown</handNote>
-    <handNote medium="pencil" xml:id="h02" scope="minor" resp="#ww"></handNote>
+    <handNote medium="black pen" xml:id="h02" scope="minor" resp="#ww"></handNote>
+    <handNote medium="black ink" xml:id="h03" scope="minor" resp="#ww"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
- <change when="2024-09-25" who="#ew">updated image links</change>
+ 
  <change when="2024-09-28" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -93,21 +93,40 @@
    
    <pb xml:id="leaf001r" facs="loc_ew.00365.jpg" type="recto"/>
    <lg type="poem">
-     <head><hi rend="bold">SHAKESPERE-BACON'S CIPHER.</hi></head>
-     <note type="authorial" place="inline">(<hi rend="italic">A Hint to Scientists</hi>.)</note>
-     <l>I doubt it not&#8212;&#8212;then more, far more;</l>
-     <l>In each old song bequeath'd&#8212;in every noble page or text,</l>
-     <l>(Different&#8212;something unreck'd before&#8212;some unsuspected<lb/>
-            a<subst hand="#h02"><del rend="overstrike" seq="1">n</del><add place="left" seq="2">u</add></subst>thor,)</l>
-     <l>In every object, mountain, tree, and star&#8212;in every birth and<lb/>
-            life</l>
-     <l>As part of each&#8212;&#8212;finality of each&#8212;meaning, behind the <choice><orig>os&#8211;<lb/>tent</orig><reg>ostent</reg></choice>,</l>
-     <l>The mystic cipher waits infolded.</l>
+     <note type="authorial" hand="#h02" place="top">see<lb/>notes<lb/>March<lb/>9<lb/>1891</note>
+     <head rend="bold">TO THE SUN&#8211;SET BREEZE</head>
+     <l>Ah, whispering, something again, unseen,</l>
+     <l>Where late this heated day thou enterest at my window, door,</l>
+     <l>Thou, laving, tempering all, cool&#8211;freshing, gently vitalizing</l>
+     <l>Me, old, alone, sick, weak&#8211;down, melted&#8211;worn with sweat;</l>
+     <l>Thou, nestling, folding close and firm yet soft, companion <choice><orig>bet&#8211;<lb/>ter</orig><reg>better</reg></choice><lb/>
+            than talk, book, art,</l>
+     <l>(Thou hast, O Nature! elements! utterance to my heart <choice><orig>be&#8211;<lb/>yond</orig><reg>beyond</reg></choice><lb/>
+            the rest&#8212;and this of them,)</l>
+     <l>So sweet thy primitive taste to breathe within&#8212;thy soothing<lb/>
+            fingers on my face and hands,</l>
+     <l>Thou, messenger&#8211;magical strange bringer to body and spirit of<lb/>
+            me,</l>
+     <l>(Distances balk'd&#8212;occult medicines penetrating me from head<lb/>
+            to foot.)</l>
+     <l>I feel the sky, the prairies vast&#8212;I feel the mighty northern<lb/>
+            lakes,</l>
+     <l>I feel the ocean and the forest&#8212;somehow I feel the globe<lb/>
+            itself swift&#8211;swimming in space;</l>
+     <l>Thou blown from lips so loved, now gone&#8212;haply from <choice><orig>end&#8212;<lb/>less</orig><reg>endless</reg></choice><lb/>
+            store, God&#8211;sent,</l>
+     <l>(For thou art spiritual, Godly, most of all known to my<lb/>
+            sense,)</l>
+     <l>Minister to speak to me, here and now, what word has never<lb/>
+            told, and cannot tell,</l>
+     <l>Art thou not universal concrete's distillation? Law's, all <choice><sic>As&#8211;<lb/></sic><corr></corr></choice><lb/>
+            Astronomy's last refinement?</l>
+     <l>Hast thou no soul? Can I not know, identify thee?</l>
    </lg>
+  
+               <signed hand="#h03">Walt Whitman</signed>
    
-   <signed>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</signed>
-   
-   <pb xml:id="leaf001v" facs="loc_nk.00066_large.jpg" type="verso"/>
+   <pb xml:id="leaf001v" facs="loc.00315.004_large.jpg" type="verso"/>
    
 </body>
 </text>
