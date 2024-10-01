@@ -3,7 +3,7 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
 <!-- PUT THE MANUSCRIPT UNIQUE ID FOR THE VALUE OF @XML:ID IN THE LINE BELOW -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id=""> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tem.00001"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -18,8 +18,7 @@
     <respStmt>
      <resp>Transcription and encoding</resp>
      
-<!--  IF YOU AREN'T TARA, CHANGE THE CONTENT OF THIS NEXT <PERSNAME> ELEMENT AND THE VALUE OF THE @XML:ID   -->
-     <persName xml:id="tb">Tara Ballard</persName>
+     <persName xml:id="ew">Emma Whaley</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -49,7 +48,7 @@
     </availability>
     
 
-   <idno><!--  THE UNIQUE ID GOES HERE, TOO  --></idno>
+   <idno>tem.00001</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
@@ -90,31 +89,41 @@
 </fileDesc>
   <profileDesc>
    <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="blue ink" xml:id="h02" resp="#unk"></handNote>
-    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="pencil" xml:id="h02" resp="#ww" scope="minor"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
-<!-- IN THE FOLLOWING <CHANGE> ELEMENT EDIT THE @WHEN TO REFLECT TODAY'S DATE. IF YOU AREN'T TARA, CHANGE THE INITIALS AFTER THE POUND SIGN IN @WHO -->
- <change when="2024-01-20" who="#tb">transcribed and encoded</change>
+ <change when="2024-10-01" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
+
+   <pb xml:id="leaf001r" facs="tem_bb.00001.jpg" type="recto"/>
    <lg type="poem">
-     <l></l>
-     <l></l>
-     <l></l>
+     <head><hi rend="underline">Shakspere's Cipher</hi></head>
+    <head><hi rend="underline">(a Hint to Scientists)</hi> <add place="right" hand="#h02">ital say <!-- name? -->: shoved to right</add></head>
+     <l>I doubt it not - thou more, far more</l>
+     <l>In each old song bequeath'd - in every</l>
+    <l> noble page as text</l>
+     <l>(Different - something unreck'd before - some un</l>
+    <l>suspected outhor,)</l>
+    <l>In every object, mountain, tree and star - in</l>
+    <l>every bird and life</l>
+    <l>A part of each <!-- things get very messy here --> meaning <!-- more mess --></l>
+    <l><del>after</del><add place="above">behind</add> the ostent</l>
+    <l><del>A</del><add place="above">The</add><del>The</del><add place="right">A</add> mystic cipher is infolded.</l>
+    <signed><hi rend="underlined">Walt Whitman</hi></signed>
    </lg>
+   <p>if convenient let me see a proof before Saturday noon</p>
+   <signed>W W</signed>
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+
+   <pb xml:id="leaf001v" facs="tem_bb.00002.jpg" type="verso"/>
    
 </body>
 </text>
