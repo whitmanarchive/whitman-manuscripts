@@ -20,6 +20,7 @@
                     <persName xml:id="lr">Lisa Renfro</persName>
                     <persName xml:id="as">Ashlyn Stewart</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="ew">Emma Whaley</persName>
                 </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -71,6 +72,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2024-10-01" who="#ew">updated image links</change>
             <change when="2022-06-06" who="#km">updated relations encoding</change>
             <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-02-03" who="#nhg">merged changes from older version, updated editorial note</change>
@@ -91,7 +93,7 @@
     </teiHeader>
     <text type="manuscript">
         <body>
-            <pb facs="loc.00009.001.jpg" xml:id="leaf001r" type="recto"/>
+            <pb facs="loc_ew.00030.jpg" xml:id="leaf001r" type="recto"/>
             <lg type="poem">
                 <lg type="linegroup">
                     <l> By day the distant, <note type="authorial" place="supralinear">?</note> shadowy
@@ -122,7 +124,7 @@
                         <del rend="overstrike">gull</del> hawks and flocks</l>
                 </lg>
             </lg>
-            <pb xml:id="leaf001v" facs="loc.00009.002.jpg" type="verso"/>
+            <pb xml:id="leaf001v" facs="loc_ew.00031.jpg" type="verso"/>
         </body>
     </text>
 </TEI>
