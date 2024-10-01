@@ -14,6 +14,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="jh">Jeff Hill</persName>
+                    <persName xml:id="ew">Emma Whaley</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -74,17 +75,18 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
+            <change when="2024-10-01" who="#ew">updated image links</change>
             <change when="2024-02-13" who="#jh">transcribed and encoded</change>
         </revisionDesc>
     </teiHeader>
     <text type="manuscript">
         <body>
-            <pb xml:id="leaf001r" facs="loc_js.00202_large.jpg" type="recto"/>
+            <pb xml:id="leaf001r" facs="loc_ew.00023.jpg" type="recto"/>
             <lg type="poem">
                 <l>As we float idly <del rend="overstrike">idly</del> <subst><del rend="overstrike" seq="1">on the</del><add place="above" rend="unmarked" seq="2">with<del rend="overstrike">on</del> the</add></subst> <subst><del rend="overstrike" seq="1">twilight</del> <add rend="unmarked" place="above" seq="2" hand="#h03">downward</add></subst> ebb</l>
                 <l><subst><del rend="overstrike" seq="1">Ripples</del><add rend="unmarked" place="above" seq="2">Echoes</add></subst> and glints of sand <subst><del rend="overstrike" seq="1">echeoes from</del><add rend="unmarked" place="above" seq="2">o'er</add></subst> the shore.</l>
             </lg>
-            <pb xml:id="leaf001v" facs="loc_js.00203_large.jpg" type="verso"/>            
+            <pb xml:id="leaf001v" facs="loc_ew.00024.jpg" type="verso"/>            
         </body>
     </text>
 </TEI>
