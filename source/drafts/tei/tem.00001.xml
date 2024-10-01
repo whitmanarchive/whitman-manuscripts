@@ -3,7 +3,7 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
 <!-- PUT THE MANUSCRIPT UNIQUE ID FOR THE VALUE OF @XML:ID IN THE LINE BELOW -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sal.00003"> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id=""> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -18,7 +18,8 @@
     <respStmt>
      <resp>Transcription and encoding</resp>
      
-     <persName xml:id="ew">Emma Whaley</persName>
+<!--  IF YOU AREN'T TARA, CHANGE THE CONTENT OF THIS NEXT <PERSNAME> ELEMENT AND THE VALUE OF THE @XML:ID   -->
+     <persName xml:id="tb">Tara Ballard</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -88,29 +89,32 @@
    </sourceDesc>
 </fileDesc>
   <profileDesc>
-   <handNotes>
-    <handNote medium="pencil" xml:id="h01" resp="#ww" scope="major"/>
-    <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
-    <handNote medium="purple crayon" xml:id="h03" resp="#ww" scope="minor"/>
+   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
+    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="blue ink" xml:id="h02" resp="#unk"></handNote>
+    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
-
- <change when="2024-10-01" who="#ew">transcribed and encoded</change>
+<!-- IN THE FOLLOWING <CHANGE> ELEMENT EDIT THE @WHEN TO REFLECT TODAY'S DATE. IF YOU AREN'T TARA, CHANGE THE INITIALS AFTER THE POUND SIGN IN @WHO -->
+ <change when="2024-01-20" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-   <pb xml:id="leaf001r" facs="sal.00003.001_large.jpg" type="recto"/>
+<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
+   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
+   <lg type="poem">
+     <l></l>
+     <l></l>
+     <l></l>
+   </lg>
    
-   <p>In the main <del rend="overstrike">is</del> I adhere to my positions in <hi rend= "underline">Democratic Vistas,</hi> and especially to my summing-up (brief and crude as it is,) of American literature<add place="above" rend="insertion" hand="#h02">, as far as to-day is concerned.</add></p>
-   <p>In Science and in Journalism the United States have <del rend= "overstrike" hand= "#h02">so far</del> pressed forward to the <add place="above" rend="insertion">glorious</add> front rank <!-- something added here --> of civilized states - in the popular dissemination of <del rend= "overstrike">books</del> printed matter (of a superficial nature. <!-- "perhaps" written over something in h03 --> but that is the indispensable preparatory <!-- "stage" written over something in h01 -->) - have gone far behond and other land <del rend="overstrike"> past on</del> or age.</p>
-   
-
-   <pb xml:id="leaf001v" facs="sal.00003.002_large.jpg" type="verso"/>
+<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
+   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
    
 </body>
 </text>
