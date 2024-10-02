@@ -2,14 +2,14 @@
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-<!-- PUT THE MANUSCRIPT UNIQUE ID FOR THE VALUE OF @XML:ID IN THE LINE BELOW -->
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tem.00001"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
     
-<!--  IN THE NEXT LINE, USE THE WHITMAN ARCHIVE ENCODING GUIDELINES TO DECIDE WHAT TITLE TO USE FOR THE MANUSCRIPT. IF WHITMAN TITLED THE MANUSCRIPT, REMOVE "REND='BRACKETED'."  -->
-    <title level="m" type="main" rend="bracketed"></title>
+
+    <title level="m" type="main">Shakspere's Cipher</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -58,7 +58,7 @@
      IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
      IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
     
-     <note type="work_relations" target="xxx." cert="">
+     <note type="work_relations" target="xxx.00390" cert="high">
       <p></p>
      </note>
    </notesStmt>
@@ -88,14 +88,14 @@
    </sourceDesc>
 </fileDesc>
   <profileDesc>
-   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
-    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
-    <handNote medium="pencil" xml:id="h02" resp="#ww" scope="minor"/>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="sole"/>
+    
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
- <change when="2024-10-01" who="#ew">transcribed and encoded</change>
+ <change when="2024-10-02" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -105,21 +105,21 @@
 
    <pb xml:id="leaf001r" facs="tem_bb.00001.jpg" type="recto"/>
    <lg type="poem">
-     <head><hi rend="underline">Shakspere's Cipher</hi></head>
-    <head><hi rend="underline">(a Hint to Scientists)</hi> <add place="right" hand="#h02">ital say <!-- name? -->: shoved to right</add></head>
-     <l>I doubt it not - thou more, far more</l>
-     <l>In each old song bequeath'd - in every</l>
-    <l> noble page as text</l>
-     <l>(Different - something unreck'd before - some un</l>
-    <l>suspected outhor,)</l>
-    <l>In every object, mountain, tree and star - in</l>
-    <l>every bird and life</l>
-    <l>A part of each <!-- things get very messy here --> meaning <!-- more mess --></l>
-    <l><del>after</del><add place="above">behind</add> the ostent</l>
-    <l><del>A</del><add place="above">The</add><del>The</del><add place="right">A</add> mystic cipher is infolded.</l>
+     <head rend="underline">Shakspere's Cipher</head>
+    <head type="sub" rend="underline">(a Hint to Scientists) <add place="right">ital say Bourg. shoved to right</add></head>
+    <l>I doubt it not&#8212;then more, far more</l>
+    <l>In each old song bequeath'd&#8212;in every</l>
+    <l> noble page or text</l>
+    <l>(Different&#8212;something unreck'd before&#8212;some un</l>
+    <l>suspected author,)</l>
+    <l>In every object, mountain, tree and star&#8212;in</l>
+    <l>every birth and life</l>
+    <l>As part of each <subst><add seq="5" place="below"><metamark function="add" target="#a01">&#8248;</metamark></add><add seq="6" place="above" xml:id="a01">&#8212;finality</add><del seq="1" rend="overstrike">&#8212;intention</del><add seq="2" place="below"><metamark function="add" target="#a02">&#8248;</metamark></add><del seq="4" rend="overstrike"><add seq="3" place="above" xml:id="a02">&#8212;purpose and</add></del></subst> meaning <del rend="overstrike">at <add place="below"><metamark function="add" target="#a03">&#8248;</metamark></add><add place="above" xml:id="a03">the</add> last</del></l>
+    <l><subst><del seq="1" rend="overstrike">after</del><add place="above" seq="2">behind</add></subst> the ostent</l>
+    <l><subst><del seq="1" rend="overstrike">A</del><del seq="3" rend="overstrike"><add place="above" seq="2">The</add></del><add place="right" seq="4">A</add></subst> mystic cipher is infolded.</l>
     <signed><hi rend="underlined">Walt Whitman</hi></signed>
    </lg>
-   <p>if convenient let me see a proof before Saturday noon</p>
+   <note place="bottom" type="authorial">if convenient let me see a proof before Saturday noon</note>
    <signed>W W</signed>
    
 
