@@ -2,14 +2,14 @@
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-<!-- PUT THE MANUSCRIPT UNIQUE ID FOR THE VALUE OF @XML:ID IN THE LINE BELOW -->
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sal.00003"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
     
-<!--  IN THE NEXT LINE, USE THE WHITMAN ARCHIVE ENCODING GUIDELINES TO DECIDE WHAT TITLE TO USE FOR THE MANUSCRIPT. IF WHITMAN TITLED THE MANUSCRIPT, REMOVE "REND='BRACKETED'."  -->
-    <title level="m" type="main" rend="bracketed"></title>
+
+    <title level="m" type="main" rend="bracketed">In the main</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -48,7 +48,7 @@
     </availability>
     
 
-   <idno><!--  THE UNIQUE ID GOES HERE, TOO  --></idno>
+   <idno>sal.00003</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
@@ -58,7 +58,7 @@
      IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
      IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
     
-     <note type="work_relations" target="xxx." cert="">
+     <note type="work_relations" target="xxx.00560" cert="high">
       <p></p>
      </note>
    </notesStmt>
@@ -97,7 +97,7 @@
 <revisionDesc>
  
 
- <change when="2024-10-01" who="#ew">transcribed and encoded</change>
+ <change when="2024-10-02" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -106,9 +106,9 @@
    
    <pb xml:id="leaf001r" facs="sal.00003.001_large.jpg" type="recto"/>
    
-   <p hand="#h03">? at end</p>
-   <p>In the main <del rend="overstrike">is</del> I adhere to my positions in <hi rend= "underline">Democratic Vistas,</hi> and especially to my summing-up (brief and crude as <add place="above">?</add> it is,) of American literature<add place="above" rend="insertion" hand="#h02">, as far as to-day is concerned.</add></p>
-   <p>In Science and in Journalism the United States have <del rend= "overstrike" hand= "#h02">so far</del> pressed forward to the <add place="above" rend="insertion">glorious</add> front rank <!-- something added here --> of civilized states - in the popular dissemination of <del rend= "overstrike">books</del> printed matter (of a superficial nature <add place="above" hand="#h03">perhaps</add> but that is the indispensable preparatory <del rend="overstrike">step</del> <add place="above">stage</add>) - have gone far behond any other land <del rend="overstrike"> past on</del> or age.</p>
+   <note type="authorial" place="top" hand="#h03">? at end</note>
+   <p>In the main <del rend="overstrike">is</del> I adhere to my positions in <hi rend="underline">Democratic Vistas,</hi> and especially to my summing-up (brief and crude as <add place="above">? that</add> it is,) of American literature<add place="above" hand="#h02">, as far as to-day is concerned.</add></p>
+   <p>In Science and in Journalism the United States have <del rend="overstrike" hand="#h02">so far</del> pressed forward to the <add place="above" xml:id="a02"><metamark function="add" target="#a02">&#8248;</metamark>glorious</add> front rank of <add place="below" hand="#h02"><metamark function="add" target="#a01">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a01">advanced</add> civilized states&#8212;in the popular dissemination of <del rend= "overstrike">books</del> printed matter (of a superficial nature <subst hand="#h03" rend="overwrite"><add>perhaps</add> <del>it is true</del></subst>, but that is the indispensable preparatory <subst> <del seq="1" rend="overstrike">step</del> <add place="above" seq="2">stage</add></subst>)&#8212;have gone far beyond any other land <del rend="overstrike"> or past or</del> or age.</p>
    
 
    <pb xml:id="leaf001v" facs="sal.00003.002_large.jpg" type="verso"/>
