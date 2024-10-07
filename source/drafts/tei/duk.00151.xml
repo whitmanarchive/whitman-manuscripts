@@ -82,28 +82,33 @@
    <handNotes>
     <handNote medium="black ink" xml:id="h01" resp="#ww"/>
     <handNote medium="red ink" xml:id="h02" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h03" resp="#ww"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
-<!-- IN THE FOLLOWING <CHANGE> ELEMENT EDIT THE @WHEN TO REFLECT TODAY'S DATE. IF YOU AREN'T TARA, CHANGE THE INITIALS AFTER THE POUND SIGN IN @WHO -->
- <change when="2024-01-20" who="#tb">transcribed and encoded</change>
+ <change when="2024-10-07" who="#kmh">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
-   <lg type="poem">
-     <l></l>
-     <l></l>
-     <l></l>
-   </lg>
+   <pb xml:id="leaf001r" facs="2069_010.jpg" type="recto"/>
+    <note type="authorial" place="top" hand="#h02">follow copy&#8212;punctuation&#38;c&#8212;If possible send me a proof Saturday night&#8212;which I will return Sunday night WW&#8212;Camden New Jersey <milestone rend="horbar-full" unit="undeclared"/></note>
+   <head rend="underline">A Word about Tennyson</head>
+   <p xml:id="e001"><add place="inline" hand="#h03"><metamark function="emphasize" target="#e001">&#182;</metamark></add> Beautiful as the song was, the original "Locksley Hall" of half a century ago <subst><del rend="overstrike">seems</del> <add place="above">was</add></subst> essentially morbid, heart&#11840;broken, finding fault with every thing, especially the fact of money's being made (as it ever must be, and perhaps should be) the <choice><orig>para- <lb/>mount</orig> <reg>paramount</reg></choice> matter in worldly affairs.</p>
+    <p>("Every door is barr'd with gold, and opens but to golden keys.")<note type="authorial" place="right" hand="#h02">smaller type</note></p>
+      <p>First, a father, having fallen in battle, his child, (the singer) <note type="authorial" place="left" hand="#h02">smaller type</note> was left a trampled orphan, and a selfish uncle's ward." Of course love ensues. The <subst><del rend="overstrike">woman</del> <add place="above">woman</add></subst> in the chant or monologue proves a false one; and as far as appears the ideal of Woman, <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add> <add place="above" xml:id="a001">in the poet's reflections,</add> is a false one, at any rate for America. Woman is <hi rend="underline">not</hi> "the lesser man." (The heartis not the brain.) The best of the piece of fifty years since is its concluding line:</p>
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+   <pb xml:id="leaf001v" facs="duk_am.00258_large.jpg" type="verso"/>
+      
+   <pb xml:id="leaf002r" facs="2069_020.jpg" type="recto"/>
+   <note type="authorial" place="top">2</note>
+   <p><note type="authorial" place="left" hand="#h02"><gap reason="cut away" extent="one word"/> type</note> "For the mighty wind arises roaring seaward, and I go."</p>
+    <p><add place="inline" hand="#h03">]</add> Then for <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add> <add place="above">this current</add> 1886-'7, <subst><del rend="overstrike">comes a</del> <add place="above">a just&#11840;out</add></subst> <choice><orig>se- quel</orig><reg>sequel</reg></choice>, which<del rend="overstrike" hand="#h03">,</del> <add place="inline" hand="#h03">(</add> as an apparently authentic summary says<add place="inline" hand="#h03">)</add><del rend="overstrike" hand="#h03">,</del> "<subst hand="#h03" rend="overwrite"><del>r</del><add rend="tripleUnderline">R</add></subst>eviews <addSpan rend="pasteon" spanTo="#a003"/>the life of mankind during the past sixty years, and comes to the conclusion that its boasted progress is of doubtful credit to the world in general and to England in particular. A cynical vein of denunciation of democratic opinions and aspirations runs throughout the poem, in marked contrast with the spirit of <del rend="overstrike">the "Locksley Hall of</del> the poet's youth<add place="inline" xml:id="a004">"</add><add place="below"><metamark target="#a004" function="add">&#8248;</metamark></add> <add place="right"><metamark function="emphasize" target="#a004">"/</metamark></add> Among the most striking lines <add place="below"><metamark function="add" target="#a005">&#8248;</metamark></add> <hi rend="circle" hand="#h03"><add place="left" xml:id="a005" rend="marked">of this sequel</add></hi> are the following:<anchor xml:id="a003"/> <note type="authorial" place="left" hand="#h02">smaller type</note><addSpan rend="pasteon" spanTo="#a006"/><anchor xml:id="a006"/></p>
+    
+   <pb facs="duk_am.00259_large.jpg"
    
 </body>
 </text>
