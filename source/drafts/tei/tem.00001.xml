@@ -53,8 +53,7 @@
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
-<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
-     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
+<!--  
      IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
      IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
     
@@ -95,7 +94,7 @@
   </profileDesc>
 <revisionDesc>
  
- <change when="2024-10-02" who="#ew">transcribed and encoded</change>
+ <change when="2024-10-09" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -104,9 +103,9 @@
    
 
    <pb xml:id="leaf001r" facs="tem_bb.00001.jpg" type="recto"/>
+   <head rend="underline">Shakspere's Cipher</head>
+   <head type="sub" rend="underline">(a Hint to Scientists) <add rend="marked" place="right">ital say Bourg. shoved to right</add></head>
    <lg type="poem">
-     <head rend="underline">Shakspere's Cipher</head>
-    <head type="sub" rend="underline">(a Hint to Scientists) <add place="right">ital say Bourg. shoved to right</add></head>
     <l>I doubt it not&#8212;then more, far more</l>
     <l>In each old song bequeath'd&#8212;in every</l>
     <l> noble page or text</l>
@@ -119,7 +118,7 @@
     <l><subst><del seq="1" rend="overstrike">A</del><del seq="3" rend="overstrike"><add place="above" seq="2">The</add></del><add place="right" seq="4">A</add></subst> mystic cipher is infolded.</l>
     <signed><hi rend="underlined">Walt Whitman</hi></signed>
    </lg>
-   <note place="bottom" type="authorial">if convenient let me see a proof before Saturday noon</note>
+   <note place="bottom" rend="marked" type="authorial">if convenient let me see a proof before Saturday noon</note>
    <signed>W W</signed>
    
 
