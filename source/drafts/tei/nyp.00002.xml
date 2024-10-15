@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00002"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+<!--  IN THE NEXT LINE, USE THE WHITMAN ARCHIVE ENCODING GUIDELINES TO DECIDE WHAT TITLE TO USE FOR THE MANUSCRIPT. IF WHITMAN TITLED THE MANUSCRIPT, REMOVE "REND='BRACKETED'."  -->
+    <title level="m" type="main">Additional Note</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="ew">Emma Whaley</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>nyp.00002</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+  
+
+    
+     <note type="work_relations" target="xxx.00477" cert="medium">
+      <p>A nearly complete draft of an essay Whitman wrote for the English Edition of <hi rend="italic">Specimen Days</hi>. This essay first appeared in 1887 as "Additional Note. Written 1887 for the English Edition." Whitman slightly revised the title, changing it to "Additional Note, 1887, to English Edition 'Specimen Days,'" before including it in <hi rend="italic">Complete Prose Works</hi> (1892).</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>Additional Note written 1887 for the English Edition.</title>  
+     
+
+     <date cert="high">1887</date>
+     
+     <idno type="callno">nyp.ead01</idno>
+     
+
+     <orgName xml:id="nyp">Walt Whitman Literary Manuscripts in The Henry W. and Albert A. Berg Collection of English and American Literature, The New York Public Library</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+      
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="red ink" xml:id="h02" resp="#ww" scope="minor"></handNote>
+    <!-- how to log print? -->
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+
+ <change when="2024-10-15" who="#ew">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
+   <pb xml:id="leaf001r" facs="1169218.jpg" type="recto"/>
+   
+  <note hand="#h02" rend="marked">to be added to ?? form conclusion of Specimen Days following page 200&#8212;??read proof very carefully by copy</note>
+   
+   <head type="title" rend="underline">Additional Note</head>
+   <head type="sub" rend="underline">written 1887 for the English edition,</head>
+   
+   <p>As I write these lines I still continue living in Camden, New Jersey, America. Coming this way from Washington City, on my road to the sea&#11840;shore (and a temporary rest, as I supposed), in the early summer of 1873, I broke down disabled, <del rend="overstrike">here</del>and have <subst><del seq="1" rend="overstrike">remained</del><add seq="2" place="above">dwelt</add></subst> here, <subst><del seq="1" rend="overstrike">for</del><add seq="2" place="above">as</add></subst> my central residence, all the time since&#8212;almost 14 years. In the preceding pages I have described how, during those years, I partially recuperated (in 1876) from my worst paralysis, by going down to Timber Creek, <del rend="overstike">and</del>living close to Nature, and domiciling with my dear friends George and Susan Stafford. From 1877 <del rend="overstrike">to</del>or '8 to '83 or '4 I was well enough to travel around considerably&#8212;journey'd westward to Kansas,<add place="below"><metamark function="add" target="#a01">&#8248;</metamark></add><add place="above" xml:id="a01">leisurely exploring The Prairies,</add> and on to Denver and the Rocky Mountains; another time north to Canada, where I spent most of the summer with my friend Dr Backe, and jaunted along the great lakes, and the St Laurence and Saquenay rivers; another time to Boston, to properly print the final edition of my poems, (I was there over two months, and had "a good time".) I have so brought out the completed "Leaves of Grass" during this period; also "Specimen Days," of which the foregoing is a transcript; collected and re&#8212;edited the "Democratic Vistas" cluster (see companion volume to the present_&#8212;commemorated Abraham Lincoln's death on the<add place="below"><metamark function="add" target="#a02">&#8248;</metamark></add><add place="above" xml:id="a02">successive</add> anniversaries of its occurrence by delivering my lecture on it ten or twelve times; and "put in," through many a monthe and season the aimless and resultless ways of most human lives.</p>
+   
+<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
+   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>
