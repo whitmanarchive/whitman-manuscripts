@@ -1,193 +1,122 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="tex.00067">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title level="m" type="main">Sail out for good Eidólon yacht</title>
-            <title level="m" type="sub">a machine readable transcription</title>
-            <author>Walt Whitman</author>
-            <editor role="editor">Kenneth M. Price</editor>
-            <editor role="editor">Ed Folsom</editor>
-            <respStmt>
-               <resp>Transcription and encoding</resp>
-               <persName xml:id="nhg">Nicole Gray</persName>
-               <persName xml:id="rl">Robert LaCosse</persName>
-            </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
-            <sponsor>University of Iowa</sponsor>
-            <funder>The National Endowment for the Humanities</funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>
-               <date>2004</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <idno>tex.00067</idno>
-            <distributor>The Walt Whitman Archive</distributor>
-            <address>
-               <addrLine>Center for Digital Research in the Humanities</addrLine>
-               <addrLine>319 Love Library</addrLine>
-               <addrLine>University of Nebraska-Lincoln</addrLine>
-               <addrLine>P.O. Box 884100</addrLine>
-               <addrLine>Lincoln, NE 68588-4100</addrLine>
-            </address>
-            <availability>
-               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
-            </availability>
-         </publicationStmt>
-         <notesStmt>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-		<!-- IGNORE THIS PROJECT NOTE.  IT WILL BE FILLED IN BY PROJECT EDITORS. -->
-            <note type="project"/>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00067"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main" rend="bracketed">Sail Out for Good Eid&#243;lon Yacht</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="tb">Tara Ballard</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
 
-		          <!-- IF THERE IS VERSO INFORMATION THAT YOU ARE ONLY    -->
-            <!-- DESCRIBING BUT NOT TRANSCRIBING, INSERT THAT HERE. -->
-		          <!-- IF YOUR MANUSCRIPT HAS NO VERSO MATERIAL, OR IF    -->
-		          <!-- YOU ARE TRANSCRIBING THAT MATERIAL, YOU MAY DELETE -->
-		          <!-- THIS NOTE.               				-->
-            <note type="project">On the verso . . .</note>                          	
-         </notesStmt>
-         <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
-               <title>
-	<!-- TITLE UNDER WHICH THE MS IS HELD AT THE REPOSITORY;	-->
-	<!-- PLEASE CONSULT, WHEN AVAILABLE, THE ONLINE FINDING	  	-->
-	<!-- FINDING AID ON THE WHITMAN ARCHIVE, IN THE "MANUSCRIPTS" 	-->
-	<!-- SECTION OF THE SITE.                                     	-->
+   <idno>tex.00067</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+     <note type="work_relations" cert="high">
+      <p>Heavily revised draft, nine lines, of "Sail Out for Good, Eid&#243;lon Yacht!" which was first published in <hi rend="italic">Lippincott's Magazine</hi> in March 1891. It was reprinted in <hi rend="italic">Good-bye My Fancy</hi> (1891). Whitman's note at the bottom calls the manuscript rough crude outlines and dates it July 25 1890. Included with the manuscript is a three-page letter to Alfred, Lord Tennyson, dated 1878, drafted on the reverse sides of letters from Berry Young and Richard M. Bucke.</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>Sail Out for Good, Eid&#243;lon Yacht</title>  
+     
+     <date cert="high">about 1890</date>
+     
+     <idno type="callno">TXRC03-A4; Container bv6</idno>
+     
+     <orgName xml:id="tex">Walt Whitman Literary Manuscripts in the Walt Whitman Collection, Harry Ransom Humanities Research Center at the University of Texas at Austin</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
 
-</title>
-               <idno type="callno">
-	<!-- THE REPOSITORY'S ID CODE FOR THE MATERIAL, IF ANY, CAN BE	     -->
-	<!-- ENTERED HERE. THE VALUE OF 'TYPE' CAN BE ALTERED TO FIT	     -->
-	<!-- THE TYPE OF ID NUMBER USED; EXAMPLE: MSS 3829.  THIS INFO	     -->
-	<!-- IS ONLY APPROPRIATE FOR THE REPOSITORIES THAT HAVE CREATED      -->
-	<!-- UNIQUE IDENTIFIERS FOR EACH MANUSCRIPT: HARVARD, BOSTON         -->
-	<!-- PUBLIC LIBRARY, BYU, JOHNS HOPKINS, THE HUNTINGTON, THE MORGAN, -->
-	<!-- RUTGERS, THE AMERICAN ANTIQUARIAN SOCIETY, AND TEMPLE. PLEASE   -->
-	<!-- CONSULT THE ONLINE FINDING AIDS.                                --> 
-		
-</idno> 
-               <orgName xml:id="tex">
-	<!-- NAME OF THE REPOSITORY (SEE THE REFERENCE SECTION OF    	-->
-	<!-- THE GUIDELINES FOR THE PREFERRED CITATION); EXAMPLE: 	-->
-	<!-- Clifton Waller Barrett Library of American Literature, 	-->
-	<!-- Albert H. Small Special Collections Library, University 	-->
-	<!-- of Virginia 						-->
-</orgName> 
+     <note type="project" target="#rel01">The verso is blank.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="pencil" xml:id="h01" resp="#ww"/>
+    <handNote medium="purple pencil" xml:id="h02" resp="#ww"></handNote>
+    <handNote medium="black ink" xml:id="h03" resp="#ww"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2024-10-16" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
 
-	              <!-- ALTER THE FOLLOWING NOTE IF NECESSARY -->
-
-               <note type="project">Transcribed from digital images of the original.</note>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <revisionDesc>
-         <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#rl" when="2005-02-01">Encoded</change>
-         <change who="#rl" when="2005-02-01">Transcribed</change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-
-         <pb facs="tex.00067.001" xml:id="leaf001r" type="recto"/>
-
-         <lg
-              >
-
-            <head type="main-authorial" rend="underline">Sail out for good <del rend="overstrike">for aye,</del>
-               <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">O mystic</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="supralinear">
-                        <del rend="overstrike">?</del>Eidólon</add>
-                  </rdg>
-               </subst> yacht <del rend="overstrike">of me.</del>
-            </head>
-	               
-            <l>Heave the anchor short.</l>
-            <l>Raise main-sail and jib—steer forth.</l>
-            <l>
-               O little white-hull'd sloop, now <del rend="overstrike">really</del> speed<lb/> 
-               me <del rend="overstrike">on</del> 
-                  <add rend="insertion" place="supralinear">
-                     <unclear reason="illegible" resp="#rl" cert="medium">really</unclear> on</add> deep waters,<lb/>
-            </l>
-
-            <l>(I will not call it <add rend="unmarked" place="supralinear">?my</add>our concluding voyage.</l>
-            <l>
-               But <add rend="insertion" place="supralinear">
-                     <del rend="overstrike">
-                        <gap reason="deletion, illegible"/>
-                     </del>
-                  </add> outset and sure entrance to the truest,<lb/>
-               best, maturest.)<lb/>
-            </l>
-            <l>
-               Depart! depart from solid earth—no more <orig reg="returning">re-</orig>
-               <lb/>
-               turning to these shores.<lb/>
-            </l>
-
-            <l>Now <add rend="insertion" place="supralinear">
-                  <del rend="overstrike">to <unclear reason="deletion, illegible" resp="#rl"
-                              cert="medium">wend</unclear>
-                  </del>
-               </add> 
-               <del rend="overstrike">henceforth</del> 
-               <add rend="insertion" place="supralinear">
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">now</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">on</add>
-                     </rdg>
-                  </subst> for aye</add> 
-               <del rend="overstrike">on</del> our infinite <add rend="insertion" place="supralinear">
-                  <unclear reason="illegible" resp="#rl" cert="medium">free</unclear>
-               </add> venture <add rend="insertion" place="supralinear">wending.</add>
-            </l>
-
-            <l>
-               Spurning off all known ports, seas, <add rend="insertion" place="supralinear">hausers,</add> 
-                  <orig reg="gravitation">gravi-</orig>
-               <lb/>
-
-               <!--The word that is inserted in the seg above might also be spelled hawser (more contemporary) or hausier (French rendition).  The word refers to a cable or rope used in mooring or towing a ship.-->
-
-               tation.<lb/>
-            </l>
-
-            <l>
-               Sail out for good, <del rend="overstrike">for aye,</del> 
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">O mystic</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">
-                           <del rend="overstrike">?</del>Eidólon</add>
-                     </rdg>
-                  </subst> yacht.<lb/>
-               
-                  <del rend="overstrike">of me.</del>
-               <lb/>
-            </l>
-
-            <note type="authorial"
-                  place="bottom">rough crude outlines</note>
-            <closer>
-               <signed rend="underline">Walt Whitman</signed>
-               <dateline>Camden NJ July 25 1890</dateline>
-            </closer>
-
-
-         </lg>
-      </body>
-   </text>
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="0001134.jpg" type="recto"/>
+   <lg type="poem">
+    <head><hi rend="underline">Sail out for good, <del rend="overstrike">for aye,</del> <subst><del rend="overstrike" seq="1">O mystic</del><add place="above" seq="2"><del rend="overstrike" seq="3">?</del> Eid&#243;lon</add></subst><lb/>yacht. <del rend="overstrike" hand="#h02">of me.</del></hi></head>
+     <l>Heave the anchor short.</l>
+     <l>Raise main&#8211;sail and jib &#8212; steer forth,</l>
+     <l>O little white-hulled sloop, now <del rend="overstrike">really</del> speed<lb/>
+         me <del rend="overstrike" hand="#h02">on</del> <add place="inline" hand="#h02"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" hand="#h02" xml:id="a001">really on</add> deep waters,</l>
+     <l>(I will not call it our<add place="above" hand="#h02">? my</add> concluding voyage,</l>
+     <l>But <add place="inline"><metamark function="add" target="#a002">&#8248;</metamark></add><del rend="overstrike" hand="#h02" seq="2"><add place="above" xml:id="a002" seq="1">real</add></del> outset and sure entrance to the truest,<lb/>
+         best, maturest,)</l>
+     <l>Depart! depart from solid earth &#8212; no more <choice><orig>re&#8211;<lb/>turning</orig><reg>returning</reg></choice><lb/>
+         to these shores,</l>
+    <l>Now <add place="inline"><metamark function="add" target="#a003">&#8248;</metamark></add><del rend="overstrike" seq="2"><add place="above" xml:id="a003" seq="1">to&#11840;ward</add></del> <del rend="overstrike">henceforth</del> <add place="inline"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" rend="marked" seq="1"><subst><del rend="overstrike" seq="2">now</del><add place="above" seq="3">on</add></subst> for aye</add> on our infinite <add place="inline" hand="#h02"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" hand="#h02" xml:id="a004">free</add> venture <add place="inline"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" xml:id="a005"><hi rend="underline">wend</hi>ing</add></l>
+     <l>Spurning all yet known ports, seas, <add place="inline"><metamark function="add" target="#a006">&#8248;</metamark></add><add place="above" xml:id="a006">hawsers,</add> <choice><orig>gravi&#8211;<lb/>tation</orig><reg>gravitation</reg></choice>,</l>
+    <l>Sail out for good, <del rend="overstrike">for aye,</del> <subst><del rend="overstrike" seq="1">O mystic</del><add place="above" seq="2">Eid&#243;lon</add></subst> yacht<lb/>
+       <del rend="overstrike" hand="#h03">of me.</del></l>
+   </lg>
+   
+   <note type="authorial" hand="#h03" place="below">rough crude outlines</note>
+   
+   <signed hand="#h03"><hi rend="underline">Walt Whitman</hi></signed>
+   
+   <note type="authorial" hand="#h03" place="bottom">Camden NJ July 25 1890</note>
+   
+   <pb xml:id="leaf001v" facs="tex.00067.002_large.jpg" type="verso"/>
+   
+</body>
+</text>
 </TEI>
