@@ -2,12 +2,12 @@
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02446"> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02393"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
     
-    <title level="m" type="main">To the Sunset Breeze</title>
+    <title level="m" type="main">Old Age's Ship &amp; Crafty Death's</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -46,14 +46,18 @@
     </availability>
     
 
-   <idno>loc.02446</idno>
+   <idno>loc.02393</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
+<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
+     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
+     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
+     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
     
-     <note type="work_relations" target="xxx.00394" cert="high">
-      <p>Corrected proof slip of "To the Sunset Breeze," mounted on the inside of an opened-up envelope addressed to Whitman. The poem was published in <hi rend="italic">Lippincott's</hi> in December 1890.</p>
+     <note type="work_relations" target="xxx." cert="">
+      <p>Corrected proof of "Old Age's Ship and Crafty Death's" with notations in Whitman's hand.</p>
      </note>
    </notesStmt>
    
@@ -61,23 +65,23 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “To the Sunset Breeze” ( 1890 ); Proof sheets with signed corrections and notations</title>  
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “Old Age's Ship and Crafty Death's” ( 1890 ); Proof sheets with corrections and notations</title>  
      
-     <date notBefore="1842" notAfter="1892" cert="high">1890</date>
+     <date notBefore="1890" notAfter="1891" cert="high">1890</date>
      
-     <idno type="callno">MSS18630, box 30, folder To the Sunset Breeze (1890). Proof Sheets.</idno>
+     <idno type="callno">MSS18639, box 28, folder Old Age's Ship and Crafy Death's (1890). Proof Sheets.</idno>
      
      <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-     
+      
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
-   <handNotes>
-    <handNote medium="letterpress" xml:id="h01" resp="#unk" scope="major"/>
+   <handNotes>    <handNote medium="letterpress" xml:id="h01" resp="#unk" scope="major"/>
     <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
+    <handNote medium="blue crayon" xml:id="h03" resp="#ww" scope="minor"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
@@ -89,33 +93,25 @@
  <text type="manuscript">
   <body>
    
-   <pb xml:id="leaf001r" facs="loc_ew.00367.jpg" type="recto"/>
-   <head type="main">TO THE SUNSET BREEZE.</head>
+   <pb xml:id="leaf001r" facs="loc_ew.00362.jpg" type="recto"/>
+   <head type="main">OLD AGE'S SHIP&amp;CRAFTY DEATH'S.</head>
    <lg type="poem">
-     <l>A<hi rend="smallcaps">H</hi>, whispering, somthing again, unseen,</l>
-     <l>Where late this heated day thou enterest at my window, door,</l>
-     <l>Thou, laving, tempering all, cool-freshing, gently vitalizing</l>
-     <l>Me, old, along, sick, weak-down, melted-worn with sweat;</l>
-     <l>Thou, nestling, folding close and firm yet soft, companion better than talk, book,<lb/>
-        art,</l>
-     <l>(Thou hast, O Nature! elements! utterance to my heart beyond the rest&#8212;and this<lb/>
-        is of them,)</l>
-     <l>So sweet thy primitive tast to breathe within&#8212;thy soothing fingers on my face<lb/>
-        and hands,</l>
-     <l>Thou, messenger-magical strange bringer to body and spirit of me,</l>
-     <l>(Distances balk'd&#8212;occult medicines penetrating me from head to foot<subst hand="#h02"><del rend="overstrike">),</del><add xml:id="a001" place="right">,)<metamark function="separate" target="#a001">/</metamark></add></subst></l>
-     <l>I feel the sky, the prairies vast&#8212;I feel the mighty northern lakes,</l>
-     <l>I feel the ocean and the forest&#8212;somehow I feel the globe itself swift-swimming<lb/>
-        in space;</l>
-     <l>Thou blown from lips so loved, now gone&#8212;haply from endless store, God-sent</l>
-     <l>(For thou art spiritual, <subst hand="#h02"><del seq="1" rend="overstrike">g</del><add seq="2" place="right">G</add></subst>odly, most of all known to my sense,)</l>
-     <l>Minister to speak to me, here and now, what word has never told, and cannot tell,</l>
-     <l>Art thou not universal concrete's distillation? Law's, all Astronomy's <add hand="#h02"><metamark function="add" target="#a002" place="below">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a002">,<metamark function="separate" target="#a002">/</metamark></add> last refine-<lb/>
-        ment?</l>
-     <l>Hast thou no soul? Can I not know, identify thee?</l>
+     <l>From east and west across the horizon's edge,</l>
+     <l>Two mighty masterful vessels sailers steal upon us:</l>
+     <l>But we'll make race a-time upon the seas&#8212;a battle-contest<lb/>
+        yet! bear lively there!</l>
+     <l>(Our joys of strife and derring-do to the last!)</l>
+     <l>Put on the old ship all her power to-day!</l>
+    <l>Crowd <add hand="#h02"><metamark function="add" place="below" target="#a001">&#8248;</metamark></add><add hand="#h02" xml:id="a001" place="left" rend="marked">extra</add> top-gallant<add hand="#h02"><metamark function="add" place="below" target="#a002">&#8248;</metamark></add><add hand="#h02" xml:id="a002" place="right">s<metamark function="separate" target="#a002">/</metamark></add> and royal studding-sails!</l>
+     <l>Out challenge and defiance&#8212;flags and flaunting pennants<lb/>
+        added,</l>
+     <l>As we take to the open&#8212;take to the deepest, freest waters.</l>
    </lg>
+   <signed><del hand="#h03" rend="overstrike">W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi></del></signed>
    
-   <pb xml:id="leaf001v" facs="loc_ew.00368.jpg" type="verso"/>
+   <note type="authorial" place="bottom" hand="#h03">June '89 in MS in Century office<add><metamark function="add" target="#a003" place="below">&#8248;</metamark></add><add place="below" xml:id="a003">belongs to them</add>&#8212;paid&#8212;</note>
+   
+   <pb xml:id="leaf001v" facs="loc_nk.00035_large.jpg" type="verso"/>
    
 </body>
 </text>
