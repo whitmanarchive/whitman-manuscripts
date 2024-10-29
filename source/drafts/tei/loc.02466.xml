@@ -75,7 +75,7 @@
    </sourceDesc>
 </fileDesc>
   <profileDesc>
-   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
+   <handNotes>
     <handNote medium="letterpress" xml:id="h01" resp="#unk" scope="major"/>
     <handNote medium="blue crayon" xml:id="h02" resp="#ww" scope="minor"/>
     <handNote medium="red ink" xml:id="h03" resp="#ww" scope="minor"/>
@@ -83,7 +83,7 @@
   </profileDesc>
 <revisionDesc>
  
- <change when="2024-10-23" who="#ew">transcribed and encoded</change>
+ <change when="2024-10-29" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -92,25 +92,25 @@
    
    <pb xml:id="leaf001r" facs="loc_ew.00369.jpg" type="recto"/>
    <note type="authorial" hand="#h03" rend="marked">June 1885</note>
-   <head><subst><del rend="overstrike" hand="#h02">A RAIN ENIGMA</del><add hand="#h02" rend="underline">The Voice of the Rain</add></subst></head>
+   <head type="main"><subst hand="#h02"><del rend="overstrike">A RAIN ENIGMA</del><add rend="underline">The Voice of the Rain</add></subst></head>
    <lg type="poem">
      <l>And who art thou? said I to the soft&#8212;falling shower,</l>
      <l>Which, strange to tell, gave me an answer, as here translated:</l>
      <l>I am the Poem of Earth, said the <add hand="#h02" place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add rend="marked" hand="#h02" place="right" xml:id="a001">voice of the</add> rain.</l>
      <l><add hand="#h02" place="left">&amp;</add>Eternal I rise<del rend="overstrike" hand="#h02">,</del> impalpabl<subst hand="#h02"><del rend="overstrike" seq="1">y</del><add xml:id="a002" place="below" seq="2">e<metamark function="separate" target="#a002">/</metamark></add></subst> out of the land and the bottomless<lb/>
       sea,</l>
-     <l>Upwared to heaven, whence, vaugely form'd, altogether changed,<lb/>
-     and ye the same<subst hand="#h02"><del rend="overstrike">,</del><add place="right" xml:id="a003"><!-- what's this symbol? --><metamark function="separate" target="#a003">/</metamark></add></subst></l>
+     <l>Upward to heaven, whence, vaugely form'd, altogether changed,<lb/>
+     and ye the same<subst hand="#h02"><del rend="overstrike">.</del><add place="right" xml:id="a003">,<metamark function="separate" target="#a003">/</metamark></add></subst></l>
      <l>I descend to lave the drouths, atomies, dust&#8212;layers of the<lb/>
      globe,</l>
-    <addSpan hand="#h02" place="right" spanTo="#a004"/>
-    <l>And all that <!--???--> out me were seeds only, latent, unborn,</l>
+    <addSpan hand="#h02" place="right" rend="marked" spanTo="#a004"/>
+    <l>And all that <add place="below"><metamark function="add" target="#a008">&#8248;</metamark></add><add rend="marked" place="above" xml:id="a008">in them</add> with out me were seeds only, latent, unborn,</l>
     <anchor xml:id="a004"/>
-    <l>And forever, by day and night, <add hand="#h02" place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add rend="marked" hand="#h02" place="right" xml:id="a005">I</add>give back life to my own<lb/>
+    <l>And forever, by day and night, <add hand="#h02" place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add rend="marked" hand="#h02" place="right" xml:id="a005">I</add> give back life to my own<lb/>
      origin, and make pure and beautify it:</l>
-    <l><add hand="#h02" place="below"><metamark function="add" target="#a006">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a006">(<metamark function="separate" target="#a006"></metamark></add>For song, issuing from its birth&#8212;place, after fulfilment, wan&#8212;<lb/>
+    <l><add hand="#h02" place="below"><metamark function="add" target="#a006">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a006">(<metamark function="separate" target="#a006">/</metamark></add>For song, issuing from its birth&#8212;place, after fulfilment, wan&#8212;<lb/>
      dering,</l>
-    <l>Reck'd or unreck'd, duly with love returns.<add hand="#h02" place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a007">)<metamark function="separate" target="#a007"></metamark></add></l>
+    <l>Reck'd or unreck'd, duly with love returns.<add hand="#h02" place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a007">)<metamark function="separate" target="#a007">/</metamark></add></l>
    </lg>
    <signed>W<hi rend="smallcaps">alt</hi> W<hi rend="smallcaps">hitman</hi></signed>
    
