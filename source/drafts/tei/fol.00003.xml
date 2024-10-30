@@ -62,8 +62,6 @@
      
      <title>What lurks behind Shakspere's historical plays? [manuscript]</title>  
      
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
      <date when="1884" cert="high">1884</date>
      
      <idno type="callno">S.b.89</idno>
@@ -73,10 +71,7 @@
      <orgName xml:id="fol"></orgName>
      
      <note>Transcribed from digital images of the original.</note>
-      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
-     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-     <relatedItem type="document" target="wwa.00041"/>
-     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+     
     </bibl>
    </sourceDesc>
 </fileDesc>
@@ -97,13 +92,9 @@
  <text type="manuscript">
   <body>
    
-<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
-   <lg type="poem">
-     <l></l>
-     <l></l>
-     <l></l>
-   </lg>
+   <pb xml:id="leaf001r" facs="fol.00003.001_large.jpg" type="recto"/>
+   <head rend="underline">What lurks behind Shakspere's <hi rend="tripleUnderline" hand="#h03">h</hi>istorical <hi rend="tripleUnderline" hand="#h03">p</hi>lays?</head>
+   <note type="editorial" place="left" rend="circled" hand="#h03">long primer</note><p xml:id="e001"><add place="inline" hand="#h03"><metamark function="emphasize" target="#e001">&#182;</metamark></add><hi rend="tripleUnderline" hand="#h03">W</hi><retrace hand="#h03" rend="doubleUnderline">e</retrace> all know how much <hi rend="underline" hand="#h01">mythus</hi> there is in the Shakspe<add place="below" hand="#h03"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" hand="#h03" xml:id="a001">a</add>re question as it stands to<retrace hand="#h03">&#11840;</retrace>day. Beneath a few foundations of proved facts are certainly <choice><orig>en- gulfed</orig><reg>engulfed</reg></choice> far more dim and elusive ones of deepest importance&#8212;<choice><orig>tanta- lising</orig><reg>tantalising</reg></choice>, and half suspected&#8212;suggesting explanations that one dare not put in plain statement. But coming at once to the point, <del rend="overstrike" hand="#h01">and summarizing it,</del> the English historical plays are to me <del rend="overstrike" hand="#h03">both</del> the most eminent <del rend="overstrike" hand="#h01">and distinctive</del> <add place="below" hand="#h03"><metamark function="add">&#8248;</metamark></add> as literary and dramatic performances<del rend="overstrike" hand="#h03">,</del> (my <choice><orig>ma&#11840; turest</orig><reg>maturest</reg></choice> judgment confirming the impressions of my early years, that the distinctiveness and glory of <subst hand="#h01"><del rend="overstrike">Shakspere</del><add place="above">the Poet</add></subst> reside, not in <subst hand="#h01"><del rend="overstrike">the</del><add place="above">his</add></subst> vaunted <subst hand="#h01"><del rend="overstrike">plays</del><add place="above" xml:id="a002">dramas</add></subst><add place="below" hand="#h01"><metamark function="add" target="#a002">&#8248;</metamark></add> of the passions<add place="inline" hand="#h03">,</add> but those founded on the contests of English dynasties, and the French wars<del rend="overstrike" hand="#h03">.</del>)<add place="inline" hand="#h03">,</add> and form<retrace hand="#h03">,</retrace> as we <add place="below" hand="#h03"><metamark function="add" target="#a003">&#8248;</metamark></add><subst hand="#h01"><del rend="overstrike">see it today</del><add place="above" xml:id="a003">get <retrace hand="#h03">i</retrace>t all</add></subst>, the chief in a complexity of </p>
    
 <!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
    <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
