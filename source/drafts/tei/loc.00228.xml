@@ -78,13 +78,13 @@
     <handNote medium="letterpress" xml:id="h01" resp="#unk1" scope="major"><name>Unknown 1</name></handNote>
     <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
     <handNote medium="red ink" xml:id="h03" resp="#ww" scope="minor"/>
-    <handNote medium="black ink" xml:id="h04" resp="unk2" scope="minor"><name>Unknown 2</name></handNote>
-    <handNote medium="pencil" xml:id="h05" resp="ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h04" resp="#unk2" scope="minor"><name>Unknown 2</name></handNote>
+    <handNote medium="letterpress" xml:id="h05" resp="#unk3" scope="minor"><name>Unknown 3</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
- <change when="2024-11-05" who="#ew">transcribed and encoded</change>
+ <change when="2024-11-06" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -93,17 +93,22 @@
    
    <pb xml:id="leaf001r" facs="loc_ew.00198.jpg" type="recto"/>
 
-   <note type="editorial" hand="#h04" place="left">proof sent me fin subbincotts <!--?-->&amp;return'd Jan:6 '91&#8212;to go in March number next</note>
-   <note type="authorial" hand="#h03" place="top">a piece "sail out for good"&amp;c to make a flush page<lb/>Let me have another proof withour fair<!-- ? --></note>
-   <note type="authorial" hand="#h05" place="inline"><!-- breeder? -->Please return proof as soon as possible</note>
-   <note type="authorial" hand="#h03" place="inline">remember youth's companion has "Ship Ahoy" " Scribner has the page cluster</note>
+   <note type="authorial" hand="#h02" place="left">proof sent me f'm Lippincotts&amp;return'd Jan:6 '91&#8212;to go in March number next</note>
+   <note type="authorial" hand="#h03" place="top">a piece "sail out for good"&amp;c to make a flush page<lb/>Let me have another proof without fail</note>
+   <note type="editorial" hand="#h04" place="top">Corrector<lb/>Please return proof as soon as possible</note>
+   <note type="authorial" hand="#h03" place="top">remember youth's companion has "Ship Ahoy"<lb/> " Scribner has the page cluster</note>
    
+  <lg type="cluster"> 
    <head type="main">OLD AGE ECHOES.</head>
-   <byline><add hand="#h02"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a001" rend="marked">By <hi rend="underline">Walt Whitman</hi></add></byline>
    
-   <div>   
-    <head type="sub">SOUND<add hand="#h05" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h05" place="left" xml:id="a002">S<metamark function="separate" target="#a002">/</metamark></add> OF THE WINTER.</head>
+   <metamark function="add" target="#a001"><add hand="#h02">&#8248;&#8248;</add></metamark>
+   
+   <byline><add hand="#h02" place="right" xml:id="a001" rend="marked">By <hi rend="underline">Walt Whitman</hi></add></byline>
+   
+     
+    
       <lg type="poem">
+       <head type="sub">SOUND<add hand="#h04" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h05" place="left" xml:id="a002">S<metamark function="separate" target="#a002">/</metamark></add> OF THE WINTER.</head>
        <l>S<hi rend="smallcaps">OUNDS</hi> of the winter too,</l>
        <l>Sunchine upon the mountains&#8212;many a distant strain</l>
        <l>From cheery railroad train&#8212;from nearer field, barn, house,</l>
@@ -114,7 +119,54 @@
        <note type="authorial" hand="#h02" place="left" rend="circled">italic</note>
        <l><hi rend="underline" hand="#h02">Forth from these smowy hairs we too keep up the lilt.</hi></l>
       </lg>
-   </div>
+   
+   
+    
+     <lg type="poem">
+      <head type="sub">THE UNEXPRESS'D.</head>
+      <l>How dare one say it?</l>
+      <l>After the cycles, poems, singers, plays,</l>
+      <l>Vaunted Ionia's, India's&#8212;Homer, Shakespeare&#8212;the long, long times'<lb/>
+         think dotted roads, area<hi rend="overstrike" hand="#h04" xml:id="j001">s</hi><add place="left" hand="#h04"><metamark function="adjust" target="#j001">&#2537;</metamark></add>,</l>
+      <l>The shining clusters and the Milky Ways of stars&#8212;Nature's pulses<lb/>
+         reap'd<subst hand="#h02"><del seq="1" rend="overstrike">.</del><add seq="2" place="left" xml:id="a006">,<metamark function="separate" target="#a006">/</metamark></add></subst></l>
+      <l>All retrospective passions, heros, war, love, adoration,</l>
+      <l>All ages' plummets dropt to their utmost depths,</l>
+      <l>All human lives, throats, wishes, brains&#8212;all experiences' utterance<add hand="#h02" place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a007">;<metamark function="separate" target="#a007"></metamark></add></l>
+      <l>After the countless songs, or long or short, all tongues, all lands,</l>
+      <l>Still something not yet told in posey's voice or print&#8212;something lacking,</l>
+      <l>(Who knows? the best yet unexpress'd and lacking).</l>
+     </lg>
+   
+   
+   <metamark function="add" target="#a010"><add place="right" hand="#h03">take in here</add></metamark>
+   
+  
+    <addSpan rend="pasteon" spanTo="#a008" hand="#h05" xml:id="a010"/>
+    <lg type="poem">
+     <head type="sub" rend="italic">Sail out for good, Eid&#243;lon Yacht!</head>
+     <l>Heave the anchor short!</l>
+     <l>Raise main-sail and jib&#8212;steer forth,</l>
+     <l>O little white-hull'd sloop, now speed on really deep waters,</l>
+     <l>(I will not call it our concluding voyage,</l>
+     <l>But outset and sure entrance to the truest, best, maturest;)</l>
+     <l>Depart, depart from solid earth&#8212;no more returning to these<lb/>
+        shores,</l>
+     <l>Now on for aye our infinite free venture wending,</l>
+     <l>Spurning all yet tried ports, seas, hawsers, densities, gravitation,</l>
+     <l>Sail out for good, eid&#243;lon yacht of me!</l>
+    </lg>
+    <anchor xml:id="a008"/>
+   
+   
+    
+    <lg type="poem">
+     <head type="sub">AFTER THE ARGUMENT.</head>
+     <l>A group of <space dim="horizontal" extent="about six characters"/> <add hand="#h02" place="inspace"><metamark function="add" target="#a009">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a009">little<metamark function="add" target="#a009">&#8248;</metamark></add> children with their ways and chatter flow in,</l>
+     <l>Like welcome rippling water o'er my heated nerves and flesh.</l>
+    </lg>
+  </lg>
+  
       
    <pb xml:id="leaf001v" facs="loc_nk.00017_large.jpg" type="verso"/>
    
