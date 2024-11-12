@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00253"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main" rend="bracketed">Over and through the burial chant</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="ew">Emma Whaley</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>loc.00253</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+     <note type="work_relations" target="xxx.00393" cert="high">
+      <p>Clipped-out copy of "Over and Through the Burial Chant" from the August 12, 1888 issue of the <hi rend="italic">New York Herald</hi>, with notations in Whitman's hand. The poem was later published as "Interpolation Sounds."</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “Over and Through the Burial Chant” ( 1888 ); Printed copy, includes notations</title>  
+     
+     <date when="1888" cert="high"></date>
+     
+     <idno type="callno">MSS18630, box 28, folder Over and Through the Burial Chant (1888). Printed Copy.</idno>
+     
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+    
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="letterpress" xml:id="h01" resp="#unk" scope="major"><name>Unknown</name></handNote>
+    <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+
+ <change when="2024-11-12" who="#ew">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+
+   <pb xml:id="leaf001r" facs="loc_ew.00213.jpg" type="recto"/>
+   
+   <head hand="#h02"><del><unclear reason="illegible" resp="#ew">Fieimasal</unclear></del>Interpelations</head>
+   <lg type="poem">
+     <l>Over and through the burial chant,</l>
+     <l>Organ and solemn service, sermon, bending priests,</l>
+     <l><del hand="#h02" rend="overstrike">To me</del> <subst hand="#h02"><del rend="overwrite">c</del><add rend="overwrite">C</add></subst>ome interpolation sounds not in the show&#8212;<lb/>
+        plainly to me, crowding up the aisle and from<lb/>
+        the window.</l>
+     <l>Of sudden battle's burry and harsh noises&#8212;war's,<lb/>
+        war's grim game to sight and ear in earnest;</l>
+     <l>The scout call'd up and forward&#8212;the General<lb/>
+        mounted and his aides around him&#8212;the new<add hand="#h02" xml:id="a001">&#11840;<metamark function="emphasize" target="#a001">/</metamark></add><lb/>
+        brought word&#8212;the instantaneous order issued;</l>
+     <l>The rifle crack&#8212;the cannon thud&#8212;the rushing forth<lb/>
+        of men from their tents;</l>
+     <l>The clank of cavalry&#8212;the strange celerity of form-<lb/>
+        ing ranks&#8212;the slender bugle note;</l>
+     <l>The sound of horses' hoofs departing&#8212;saddles,<lb/>
+        arms, accoutrements.</l>
+   </lg>
+   <signed><del hand="#h02" rend="overstrike">WALT WHITMAN</del></signed>
+   
+   <note type="authorial" place="left" hand="#h02">Aug 12 '88</note>
+   <note type="authorial" place="bottom" hand="#h02">Herald,)</note>
+   
+
+   <pb xml:id="leaf001v" facs="loc_ew.00214.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>
