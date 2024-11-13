@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03853"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main" rend="bracketed">One main</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="ew">Emma Whaley</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>loc.03953</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+     <note type="work_relations" target="xxx.00401" cert="high">
+      <p>Complicated; draft of "My Book and I," but using revised bits of "A Back Glance on My Own Road" (1884); "My Book and I" later became part of "A Backward Glance O'er Travel'd Roads" EAD record: Clipping, with handwritten revisions, of a passage from "A Backward Glance on My Own Road," which had been published in the January 5, 1884 issue of The Critic. This passage was incorporated into "My Book and I," which was first published in the January 1887 issue of Lippincott's Monthly Magazine. It was also retained when Whitman used these and two other earlier essays ("How 'Leaves of Grass' Was Made" and "How I Made a Book") to fashion "A Backward Glance O'er Travel'd Roads," first published in November Boughs (1888) and reprinted in the so-called deathbed edition of 1891–1892. It is unclear whether this manuscript was created in the processes that produced "My Book and I" or if it dates from the later work to create "A Backward Glance O'er Travel'd Roads."</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: General Correspondence, 1841-1892; Smith, Robert Pearsall, 1883-1890</title>  
+
+     <date notBefore="1883" notAfter="1890" cert="high"></date>
+     
+     <idno type="callno">MSS18630, box 16, folder Smith, Robert Pearsall</idno>
+     
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+     
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="letterpress" xml:id="h01" resp="#unk" scope="major"><name>Unknown</name></handNote>
+    <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h03" resp="#ww" scope="minor"/>
+    <handNote medium="red ink" xml:id="h04" resp="#ww" scope="minor"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2024-11-13" who="#ew">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="loc_ew.00376.jpg" type="recto"/>
+   <note type="authorial" hand="#h03" place="left">&#182;</note>
+   <note type="authorial" hand="#h03" place="top">18</note>
+   <addSpan rend="pasteon" spanTo="#a001"/>
+   <floatingText>
+    <body>
+     <p><subst><del seq="2" hand="#h03" rend="overstrike"><add seq="1" hand="#h02" place="above">The</add></del><del seq="4" hand="#h03" rend="overstrike"><add seq="3" hand="#h03" place="top">For</add></del><add seq="5" hand="#h03" place="top">Thus the</add></subst><del hand="#h02" rend="overstrike">principal</del><add hand="#h02" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h02" place="above" rend="circled" xml:id="a002">One main</add> <del hand="#h02" rend="overstrike">contrast and</del> unlikeness of the<add hand="#h03" place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add hand="#h03" place="above" rend="marked" xml:id="a003">idea and</add> personality behind every page of <subst hand="#h02"><del seq="1" rend="overstrike">'Leaves of Grass,'</del><add seq="2" place="right">my verses</add></subst> compared with the <add hand="#h02" place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add hand="#h02" place="left" rend="marked" xml:id="a005">ideas and</add>personality-sources of established poems, is<add hand="#h02" place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add hand="#h02" place="top" rend="marked" xml:id="a004">as I have said once before</add> <del hand="#h02" rend="overstrike">undoubtedly</del> <add hand="#h03" place="below"><metamark function="add" target="#a009">&#8248;</metamark></add><add hand="#h03" place="right" rend="marked" xml:id="a009">therefore</add>the different realtive <hi hand="#h04" rend="underline"<!-- how to note "roman" on left as attached to this? -->><hi rend="italic">attitude</hi></hi> toward God, toward the<add hand="#h02" place="below"><metamark functiion="add" target="#a006">&#8248;</metamark></add><add hand="#h02" place="right" rend="marked" xml:id="a006">objective</add>universe, toward humanity, and sill more (by reflection, confession, assumption, <subst hand="#h02"><del seq="1" rend="overstrike">etc.</del><add seq="2" place="left">&amp;c</add></subst>) the<add hand="#h04" place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><add hand="#h04" place="right" rend="marked" xml:id="a007">changed</add> attitude of the ego, the one chanting or talking<add hand="#h02" place="below"><metamark function="add" target="#a008">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a008">,<metamark function="emphasize" target="#a008">/</metamark></add> toward himself</p>
+    </body>
+   </floatingText>
+   <anchor xml:id="a001"/>
+   
+   
+   <pb xml:id="leaf001v" facs="loc_jc.00248_large.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>
