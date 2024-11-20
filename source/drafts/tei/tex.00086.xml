@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00086"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main">To get the final lit of songs</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="ew">Emma Whaley</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>tex.00086</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+     <note type="work_relations" target="xxx.00346" cert="high">
+      <p>Manuscript, heavily revised, of "To Get the Final Lilt of Songs," which was first published in the April 16, 1888 issue of the New York <hi rend="italic">Herald</hi> under the title "The Final Lilt of Songs." It was later included, under its final title, in the "Sands at Seventy" annex to the so-called deathbed edition of <hi rend="italic">Leaves of Grass</hi> (1891–92).</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>Sands at Seventy: To Get the Final Lilt of Songs</title>  
+     
+     <date when="1888" cert="high"></date>
+     
+     <idno type="callno">TXRC03-A4, series 1. Works, 1846-1913, undated, box v8</idno>
+     
+     <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+      
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="purple crayon" xml:id="h02" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h03" resp="#ww" scope="minor"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2024-11-20" who="#ew">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="33%20bv8%20To%20Get%20the%20Final%20Front.jpg" type="recto"/>
+   
+   <note type="authorial" hand="#h03" place="top">pub in Herald April 16 '88</note>
+   
+   <head rend="underline"><subst hand="#h02"><del rend="overstrike">Sine qua non</del><add place="above" rend="underline">To go the <subst hand="#h02"><del rend="overstrike">real</del><add place="above">final</add></subst> lilt of songs</add></subst></head>
+   <lg type="poem">
+     <l>To get the <subst><del seq="1" rend="overstrike">real</del><add seq="2" place="above">final</add></subst> lilt of songs,</l>
+     <l>To <subst><del seq="1" rend="overstrike">know</del><add seq="2" place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add seq="3" place="above" xml:id="a001">penetrate <del seq="4" rend="overstrike">and read</del></add></subst> the <add place="above">intimate</add>lore of poets&#8212;to <subst><del seq="1" rend="overstrike">read</del><add seq="2" place="above">know</add></subst><lb/>
+        the mighty ones,</l>
+     <l>Homer and Eschylus, Dante and Shak-<lb/>
+        spere, Tennyson, Emerson,</l>
+     <l>To diagnose the <add hand="#h02" place="above">shifting&#11840;</add>delicate tints<add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a002">&#8212;<del hand="#h02" rend="overstrike">the human soul, its</del> love and pride&#8212;</add>&#8212;to truly<lb/>
+        understand&#8212;<!-- ASK ABT TRANSPOSITION --><del rend="overstrike" hand="#h03"><hi rend="underline">sine qua non</hi></del></l>
+     <l>Old age, and what it brings, <subst><del seq="1" rend="overstrike">and</del><add seq="2" place="above">from</add></subst> all<lb/>
+        its past experiences.</l>
+   </lg>
+   
+   <!-- TRANSPOSITION --> To encompass these then<del rend="overstrike">&#8212;to message all,</del> the utmost scope<add hand="#h01" place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">&#8212;the price&#8212;</add>&#8212;the ?? judgement
+   
+   <pb xml:id="leaf001v" facs="33%20bv8%20To%20Get%20the%20Final%20Back.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>
