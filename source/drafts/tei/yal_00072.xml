@@ -60,12 +60,6 @@
     <note type="work_relations" target="xxx.00330" cert="high">
      <p></p>
     </note>
-    <note type="work_relations" target="xxx.00331" cert="high">
-     <p></p>
-    </note>
-    <note type="work_relations" target="xxx.00332" cert="high">
-     <p></p>
-    </note>
    </notesStmt>
    
    <sourceDesc>
@@ -81,11 +75,7 @@
      <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
-     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-     <relatedItem type="document" target="wwa.00041"/>
-     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
-    </bibl>
+     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
@@ -114,6 +104,7 @@
    <head type="main-authorial" rend="underline">The Pilot in the Mist.</head>
    <note type="authorial" rend="circled" place="right" hand="#h01">say bourgeois caps plain</note>
    <lg type="poem">
+    <note type="work_relations" target="xxx.00331" cert="high"/>
      <l>Steaming the northern rapids&#8212;(an old <lb/>St. Lawrence reminiscence,</l>
      <l>A sudden memory&#11840;flash comes back, I know <lb/>not why,</l>
      <l>Here waiting for the sunrise, gazing from this <lb/>hill;*),</l>
@@ -135,9 +126,10 @@
    <pb xml:id="leaf001v" facs="yal.00072.015_large.jpg" type="verso"/>
    
    <pb xml:id="leaf002r" facs="yal.00072.020.jpg" type="recto"/>
-   <note type="authorial" place="top" hand="#h01">2</note>
+    <note type="authorial" place="top" hand="#h01">2</note>
     <note type="archival" place="left" hand="#h03">1</note>
    <lg type="poem">
+    <note type="work_relations" target="xxx.00332" cert="high"/>
     <head type="main-authorial" rend="doubleUnderline">Had I the Choice.</head>
     <l>Had I the choice to tally greatest bards,</l>
     <l>To limn their portraits, stately, beautiful, and emulate at will,</l>
@@ -164,6 +156,7 @@
    <note type="authorial" place="top" hand="#h01">4</note>
     <note type="archival" hand="#h03" place="left">10</note>
    <lg type="poem">
+    <note type="work_relations" target="xxx.00334" cert="high"/>
     <head type="main-authorial" rend="doubleUnderline">Last of ebb, and daylight waning.</head>
     <l>Last of ebb, and daylight waning.</l>
    </lg>
