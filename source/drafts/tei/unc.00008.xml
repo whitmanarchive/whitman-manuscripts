@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="unc.00008"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main">While not the past forgetting</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="ew">Emma Whaley</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>unc.00008</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+     <note type="work_relations" target="xxx.00361" cert="high">
+      <p>This is a manuscript draft of the poem, "While Not the Past Forgetting." Whitman claimed that the poem was published on May 30, 1888, though no copy of such a version has yet been located. The poem was published in <hi rend="italic">November Boughs</hi> in 1888.</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>Manuscript version of "While Not the Past Forgetting."</title>  
+
+     <date notBefore="1884" notAfter="1888" cert="high"></date>
+     
+     <idno type="callno">Walt Whitman Papers #12010, folder 11</idno>
+     
+     <orgName xml:id="unc">University of North Carolina</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+      
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="pencil" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="blue crayon" xml:id="h02" resp="#ww" scope="minor"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2024-11-26" who="#ew">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="unc.00008.001.jpg" type="recto"/>
+   
+   <note type="authorial" rend="circled" place="top">sent May 25</note>
+   
+   <head rend="underlined">While <subst><del seq="1" rend="overstrike">ne'er</del><add seq="2" place="above">not</add></subst> the past forgetting</head>
+   
+   <lg type="poem">
+     <l><subst><del seq="1" rend="overstrike">We ne'er</del><add seq="2" place="above">While not</add></subst> the past forgetting entire&#8212;</l>
+     <l><subst><del seq="1" rend="overstrike">One day</del><add seq="2" place="above">To day</add></subst>, at least, <subst><del seq="1" rend="overstrike">let passion</del><add seq="2" place="above">contention</add></subst> laid<add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">entire&#8248;</add>&#8212;peace, <add hand="#h02" place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><del rend="overstrike"><add hand="#h02" place="above" xml:id="a003">vital</add></del>bro-<lb/>
+        therhood uprisen</l>
+     <l>For signs reciprocal <subst><del seq="1" rend="overstrike">or</del><add seq="2" place="above">our</add></subst> north<add place="above">ern</add> or southern hands.</l>
+     <l>Lay on the graves of all dead soldiers.</l>
+     <addSpan place="right" rend="marked" spanTo="#a001"/>
+      <l>Not for the past alone&#8212;for future meanings also</l>
+     <anchor xml:id="a001"/>
+     <l>Wreaths of roses and branches of palms.</l>
+   </lg>
+   
+   <pb xml:id="leaf001v" facs="unc.00008.002_large.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>
