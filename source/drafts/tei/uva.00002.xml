@@ -81,7 +81,7 @@
   </profileDesc>
 <revisionDesc>
  
- <change when="2024-11-26" who="#ew">transcribed and encoded</change>
+ <change when="2024-12-03" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -90,12 +90,41 @@
    
    <pb xml:id="leaf001r" facs="uva.00002.001.jpg" type="recto"/>
    
-   <head><del rend="overstrike"><add place="left">As unnamed solders</add><hi rend="underline">Unknown</hi></del></head>
+   <delSpan rend="overstrike" spanTo="#d003"/>
+   <head><add place="left">As <add place="above">unnamed</add> soldiers<add place="below">deaths</add></add><hi rend="underline">Unknown</hi><del rend="overstrike"><add place="right">As an unnamed soldiers' death recalling</add></del></head>
+   <anchor xml:id="d003"/>
    
    <lg type="poem">
-     <l>As I sit <del rend="overstrike"><add place="above">alone</add></del>in <del rend="overstrike">the</del>twilight</l>
-     <l></l>
-     <l></l>
+     <l>As I sit <del rend="overstrike"><add place="above">alone</add></del>in <del rend="overstrike">the</del>twilight<add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">alone</add> by the flicker<lb/>
+        of oak&#11840;flame,</l>
+     <l>Musing on long-past war-<subst><del seq="1" rend="overstrike">days</del><add seq="2" place="above">scenes</add></subst>&#8212;on <subst><del seq="1" rend="overstrike">many</del><del seq="3" rend="overstrike"><add seq="2" place="right">our<lb/>
+        many a</add></del><del seq="5" rend="overstrike"><add seq="4" place="above">our</add></del><add seq="6" place="above">the swarms of</add></subst>dead<add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">and vanquish'd</add> soldiers, <del rend="overstrike">thousands</del>,</l>
+    <delSpan rend="overstrike" spanTo="#d001"/>
+     <l>Belongings, of darkness,</l>
+    <anchor xml:id="d001"/>
+     <l><add place="above">The</add><del rend="overstrike">Intangible,<add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">unidentified</add>the</del> faded out,<add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">the vacant names</add> the <subst><del seq="1" rend="overstrike">vacant</del><add seq="2" place="above">unidented</add></subst> air's<add place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" xml:id="a005">and sea's</add>, the<lb/>
+        <subst><del seq="1" rend="overstrike">never named;</del><add seq="2" place="below">unindented seas</add></subst> unreturne'd <subst><del seq="1" rend="overstrike">after</del><add seq="2" place="above">from</add></subst> battle</l>
+    <delSpan rend="overstrike" spanTo="#d002"/>
+     <l><subst><del seq="1" rend="overstrike">And they</del><del seq="3" rend="overstrike"><add seq="2" place="below">The</add></del><add seq="4" place="above">With</add></subst><subst><del seq="1" rend="overstrike">the</del><add seq="2" place="above">thy</add></subst><subst><del seq="1" rend="overstrike">battle-truce after&#8212;and</del><add seq="2" place="below">truce after the battle</add></subst> and<add place="below"><metamark function="add" target="#a006">&#8248;</metamark></add><add place="above" xml:id="a006">the</add> burial squad,</l>
+    <anchor xml:id="d002"/>
+     <l>With the brief truce after, and grim burial squads, and hasty trench<lb/>
+        <del rend="overstrike">and the hasty trench;</del></l>
+     <l><add place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><add place="above" xml:id="a007">Even</add>(Here in <subst><del seq="1" rend="overstrike">the</del><add seq="2" place="below"><metamark function="add" target="#a008">&#8248;</metamark></add><add seq="3" place="above" xml:id="a008">my room-</add></subst>shadows, in the flickering flames,</l>
+     <l><subst><del seq="1" rend="overstrike">By</del><add seq="2" place="below"><metamark function="add" target="#a009">&#8248;</metamark></add><add seq="3" place="above" xml:id="a009">The</add><add seq="4" place="above">See the</add></subst> ranks <del rend="overstrike">on ranks</del> on&#11840;filing<add place="below"><metamark function="add" target="#a010">&#8248;</metamark></add><add place="above" xml:id="a010">I hear the rhythmic tramp</add> the spectral armies<lb/>
+        moving)</l>
+     <l>The mystic <subst><del seq="1" rend="overstrike">roll</del><add seq="2" place="below"><metamark function="add" target="#a011">&#8248;</metamark></add><add seq="3" place="above" xml:id="a011"><del seq="4" rend="overstrike">ranks and</del> names</add></subst> from all America, North<lb/>
+        South, East, West.</l>
+     <l>From wooded Maine, New England's farms<lb/>
+        from fertile Pennsylvania,</l>
+     <l>The boundless West, the South, the Carolinas,<lb/>
+        Texas,</l>
+     <l>Ye million unwrit names, left blank<add place="below"><metamark function="add" target="#a012">&#8248;</metamark></add><add place="above" xml:id="a012">the war's</add> unknown,<add place="below"><metamark function="add" target="#a013">&#8248;</metamark></add><add place="above" xml:id="a013">or North or South</add></l>
+    <span rend="bracket-left" xml:id="s1" from="#s1" to="#s2"/>
+     <l><subst><del seq="1" rend="overstrike">I put ye</del><add seq="2" place="above">Deep,</add></subst> deep<add place="below"><metamark function="add" target="#a014">&#8248;</metamark></add><add place="above" xml:id="a014">to be</add> to-night within my thought<add place="below"><metamark function="add" target="#a015">&#8248;</metamark></add><add place="above" xml:id="a015">enfolded,</add>recorded,</l>
+     <l>And in these lines,</l>
+     <l>A flash of love&#8212;a special <subst><del seq="1" rend="overstrike">home</del><add seq="2" place="above">word</add></subst> for you&#8212;each<lb/>
+        name recall'd by one from the darkness, and <del rend="overstrike">the</del> ashes.</l>
+    <anchor xml:id="s2"/>
    </lg>
    
    <pb xml:id="leaf001v" facs="uva_jc.00022_large.jpg" type="verso"/>
