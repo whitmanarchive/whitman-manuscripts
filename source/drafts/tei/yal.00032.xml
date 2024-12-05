@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00032"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main">For Queen Victoria's Birthday</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="ew">Emma Whaley</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>yal.00032</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+     <note type="work_relations" target="xxx.00382" cert="medium">
+      <p>This is a typed and corrected proof of "For Queen Victoria's Birthday," first published in the <hi rend="italic">Philadelphia Public Ledger</hi> on May 24, 1890. Whitman later included this poem in <hi rend="italic">Good-Bye My Fancy</hi> (1891).</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>Galley proof, corrected and signed</title>  
+
+     <date notBefore="1890" notAfter="1891" cert="medium"></date>
+     
+     <idno type="callno">YCAL MSS 202, box 3, folder 148</idno>
+     
+     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+      
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="letterpress" xml:id="h01" resp="#unk1" scope="major"><name xml:id="unk1">Unknown</name></handNote>
+    <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h03" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h04" resp="#unk2" scope="minor"><name xml:id="unk2">Unknown</name></handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2024-12-04" who="#ew">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="Whitman46.jpg" type="recto"/>
+
+   <note type="authorial" place="top" hand="#h02">give me a <hi rend="underline">second proof</hi> please&#8212;leave it at dinner-time, if convenient, &amp; I will read it &amp; send it back immediately, so you can print me some slips this afternoon</note>
+   <signed hand="#h02">WW</signed>
+   
+   <pb xml:id="leaf001v" facs="Whitman45.jpg" type="verso"/>
+  
+   <note type="archival" hand="4" place="top">568</note>
+
+   <head type="main">FOR QUEEN VICTORIA'S BIRTHDAY.</head>
+   <head type="sub" rend="italic">An American arbu<subst hand="#h02"><del seq="1" rend="overstrike">t</del><add seq="2" place="left">t</add></subst>us bunch, to be put in a little vase, on the royal breakfast table, May 24th, 1890.</head>
+   
+   <lg type="poem">
+    <l>Lady, accept a birth-day thought<add hand="#h02" place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h02" place="below" xml:id="a001">&#8212;<metamark function="emphasize" target="#a001">/</metamark></add> haply an idle gift and <del hand="#h02" rend="overstrike" xml:id="d001">to-</del><add hand="#h02" place="right"><metamark function="delete" target="#d001">d</metamark></add><lb/>
+       token,</l>
+    <l>Right from the <subst hand="#h02"><del seq="1" rend="overstrike">r</del><add seq="2" place="above">sc</add></subst>ented soil's May-utterance here,</l><note type="authorial" place="right" rend="circled" hand="#h02">scented</note>
+    <l>(Smelling of countless blessings, prayers, and old-time thanks),</l>
+    <l>A bunch of white and pink arbutus, silent, spicy, shy,</l>
+    <l>From Hudson's, Delaware's, or Potomac's woody banks.<add hand="#h02" place="below" rend="marked"><metamark function="add" target="#a002">&#8248;&#8248;</metamark></add></l>
+    <signed hand="#h02" rend="underlined" xml:id="a002">Walt Whitman</signed>
+   </lg>
+   <p>NOTE.&#8212;Very little as we Americans stand this day, with our sixty-five or seventy millions of population, an immense surplus in the treasury, and all that actual power or reserved power (land and sea) so dear to <subst hand="#h02"><del seq="1" rend="overstrike">u</del><add seq="2" place="right">n</add></subst>ations&#8212;very little I say do we <add hand="#h02" place="left"><metamark function="delete" target="#d002">d</metamark></add><del hand="#h02" rend="overstrike" xml:id="d002"><add hand="#h02" place="left" xml:id="a003"><add hand="#h02" place="below"><metamark function="add" target="#a003">&#8248;</metamark></add>I say, recall</add></del>and realize <subst hand="#h02"><del seq="1" rend="overstrike">the</del><add seq="2" place="left" rend="marked">that</add></subst> curious crawling natural shudder when the "Trent affair" promised to bring upon us a war with Great Britain&#8212;followed unquestionably as that war would have<add hand="#h02" place="left">,</add> <subst hand="#h02"><del seq="1" rend="overstrike">been,</del><add seq="2" place="left" rend="marked">by</add></subst> recognition of the Southern Confedera<subst hand="#h02"><del seq="1" rend="overstrike">e</del><add seq="2" place="right">c</add></subst>y from all the leading Eu-ropean nations. It is now certain that all this <subst hand="#h02"><del seq="1" rend="overstrike">quite</del><add seq="2" place="right" rend="marked">then</add></subst> inevitable train of calamity hung on arrogant and peremptory phrases in the prepared and written missive of the British Minister<add hand="#h02" place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a004">,<metamark function="emphasize" target="#a004">/</metamark></add> to America<add hand="#h02" place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a005">,<metamark function="emphasize" target="#a005">/</metamark></add> which the Queen (and Prince Albert latent) posively and promptly cancelled; and which her firm attitude did alone actually erase and leave out, against all the other officia<subst hand="#h02"><del seq="1" rend="overstrike">t</del><add seq="2" place="left" xml:id="a006">l<metamark function="emphasize" target="#a006">/</metamark></add></subst> prestige and Court of St. James<subst hand="#h02"><del seq="1" rend="overstrike">.</del><add seq="2" place="right" rend="marked" xml:id="a007">'s<metamark function="emphasize" target="#a007">/</metamark></add></subst><note type="authorial" hand="#h02" place="right" target="#a007" rend="circled">St. James's.</note> On such minor and personal incidents (so to call them), often depend the great growths and turns of civilization. This moment of a woman and a queen surely swung the grandest oscillation of modern history's pendulum<subst hand="#h02"><del seq="1" rend="overstrike">.</del><add seq="2" place="left" rend="marked" xml:id="a008">,<metamark function="emphasize" target="#a008">/</metamark></add></subst> Many sayings and doings of that period, from foreign potentates and powers<add hand="#h02" place="below"><metamark function="add" target="#a009">&#8248;</metamark></add><add hand="#h02" place="below" xml:id="a009" rend="circled">.</add> might well be drop'd in oblivion by America&#8212;but never <hi rend="italic">this</hi>, if I <subst hand="#h02"><del seq="1" rend="overstrike">e</del><add seq="2" place="below">c</add></subst>ould have my way.</p><signed>W. W.</signed>
+   
+   <note type="authorial" hand="#h03">&#9758;(over)</note>
+   
+</body>
+</text>
+</TEI>
