@@ -92,17 +92,33 @@
  </teiHeader>
 
  <text type="manuscript">
-  <body>
+  
+  <pb xml:id="leaf001r" facs="loc_ew.00152.jpg" type="recto"/>
+  <front>   
+    <titlePage>
+     <addSpan rend="pasteon" spanTo="#a001"/>     
+      <titlePart type="main"><add hand="#h02" place="right" rend="marked"><metamark function="add" target="#j001">these two lines the most pronounced</metamark></add><seg xml:id="j001"><retrace cause="emphasize" hand="#h02">COMPLETE<lb/> PO</retrace>EMS &#38; PROSE<lb/></seg> of<lb/> Walt Whitman</titlePart>
+     <anchor xml:id="a001"/>
    
-   <pb xml:id="leaf001r" facs="loc_ew.00152.jpg" type="recto"/>
-   <addSpan rend="pasteon" spanTo="#a001"/>
-    <p>
-     <title></title>
-    </p>
-   <anchor xml:id="a001"/>
+     <addSpan rend="pasteon" spanTo="#a002"/>
+     <figure>
+      <figDesc>Portrait of Walt Whitman by Jacob Spieler at the Charles H. Spieler Studio, ca. 1876</figDesc>
+     </figure>   
+   <anchor xml:id="a002"/>
    
+   <addSpan rend="pasteon" spanTo="#a003"/>
+   <docEdition>Author's Edition<lb/> <add hand="#h02" place="left" rend="marked"><metamark function="adjust" target="#j002">this to come in one line</metamark></add><seg xml:id="j002">with <hi rend="tripleUnderline" hand="#h02">a</hi>utograph <hi rend="tripleUnderline" hand="#h02">p</hi>ortraits from life, <add place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" xml:id="a005">last</add> <hi rend="tripleUnderline" hand="#h02">r</hi>evisions &#38;c</seg></docEdition>
+   <docDate>1855......1888</docDate>
+   
+   <anchor xml:id="a003"/>
+    </titlePage>
+  </front>
+
+<body>
+   
+   <div/>
    <pb xml:id="leaf001v" facs="loc_ew.00153.jpg" type="verso"/>
-   
+     
 </body>
 </text>
 </TEI>
