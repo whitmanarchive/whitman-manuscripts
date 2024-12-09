@@ -1,504 +1,249 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="yal.00072">
-<relations>
-<work ref="xxx.00330" cert="high">
-<p>This manuscript contains drafts of seven of the eight poems that make up the sequence "Fancies at Navesink," a group first published in the <date when="1885-08">August, 1885</date> issue of <hi rend="italic">Nineteenth Century</hi>. The poems included in this draft are "The Pilot in the Mist," "Had I the Choice," "Last of Ebb, and Daylight Waning," "And Yet Not You Alone," "Proudly the Flood Comes In," "By That Long Scan of Waves," and "Then Last of All."  "You Tides with Ceaseless Swell," the eighth poem in the published group, is not included in this manuscript.</p>
-</work>
-</relations>
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title level="m" type="main">Fancies at Navesink</title>
-<title level="m" type="sub">a machine readable transcription</title>
-<author>Walt Whitman</author>
-<editor>Kenneth M. Price</editor>
-<editor>Ed Folsom</editor>
-<respStmt>
-<resp>Transcription and encoding</resp>
-<name>The Walt Whitman Archive Staff</name>
-</respStmt>
-<sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
-<sponsor>University of Iowa</sponsor>
-<sponsor>University of Nebraska-Lincoln</sponsor>
-<funder>The National Endowment for the Humanities</funder>
-<funder>The United States Department of Education</funder>
-</titleStmt>
-<editionStmt>
-<edition>
-<date>2004</date>
-</edition>
-</editionStmt>
-<publicationStmt>
-<idno>yal.00072</idno>
-<distributor>The Walt Whitman Archive</distributor>
-<address>
-<addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
-<addrLine>Alderman Library</addrLine>
-<addrLine>University of Virginia</addrLine>
-<addrLine>P.O. Box 400115</addrLine>
-<addrLine>Charlottesville, VA 22904-4115</addrLine>
-<addrLine>whitman@jefferson.village.virginia.edu</addrLine>
-</address>
-<availability>
-<p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
-</availability>
-</publicationStmt>
-<notesStmt>
-<note type="project" target="dat1">This manuscript was probably composed shortly before the publication of "Fancies at Navesink" in <date when="1885">1885</date>.</note>
-<note type="project">The note at the top of the first leaf, reading "these six pages all one piece," indicates that one leaf is missing. The missing leaf almost certainly contains a manuscript draft of the third poem in the series, "You Tides with Ceaseless Swell."</note>                      	</notesStmt>
-<sourceDesc>
-<bibl>
-<author> Walt Whitman </author>
-<title>Fancies at Navesink</title>
-<date cert="high" when="1882/1885" xml:id="dat1">Between 1882 and 1885.</date>
-<orgName>Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName> 
-<note type="project">Transcribed from digital images of the original.</note>
-</bibl>
-</sourceDesc>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<!-- <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00072"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main">Fancies at Navesink</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="kmh">Kenneth Michael Hoover</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>yal.00072</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
+     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
+     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
+     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT O00332
+     F, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
+    
+    <note type="work_relations" target="xxx.00330" cert="high">
+     <p></p>
+    </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>Holograph drafts and galley proof of "Fancies at Navesink" (In Series V)</title>  
+     
+     <date when="1885" cert="high">1885</date>
+     
+     <idno type="callno">YCAL MSS 202, box 14, folder 253</idno>
+     
+     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+     </bibl>
+   </sourceDesc>
 </fileDesc>
-<profileDesc>
-<handList>
-<handNote scribe="unknown" xml:id="unk"/>
-</handList>
-</profileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="pencil" xml:id="h01" resp="#ww"/>
+    <handNote medium="red ink" xml:id="h02" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h03" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
+    <handNote medium="black ink" xml:id="h04" resp="#ww"/>
+    <handNote medium="blue pencil" xml:id="h05" resp="ww"/>
+   </handNotes>
+  </profileDesc>
 <revisionDesc>
-<change>
-<date>2004-08-19</date>
-<respStmt>
-<name>Brett Barney</name>
-</respStmt>
-<item>Re-blessed</item>
-</change>
-<change>
-<date>2004-07-29</date>
-<respStmt>
-<name>Andrew Jewell</name>
-</respStmt>
-<item>Added date and work markup</item>
-</change>
-<change>
-<date>2004-03-29</date>
-<respStmt>
-<name>Brett Barney</name>
-</respStmt>
-<item>Blessed</item>
-</change>
-<change>
-<date>2003-08-07</date>
-<respStmt>
-<name>Kenneth M. Price</name>
-</respStmt>
-<item>Edited</item>
-</change>
-<change>
-<date>2003-08-05</date>
-<respStmt>
-<name>Andrew Jewell</name>
-</respStmt>
-<item>Revised; checked</item>
-</change>
-<change>
-<date>2003-02-19</date>
-<respStmt>
-<name>Jennifer Overkamp</name>
-</respStmt>
-<item>Encoded; transcribed</item>
-</change>
-<change>
-<date>2003-02-25</date>
-<respStmt>
-<name>Megan Maher</name>
-</respStmt>
-<item>Encoded; transcribed</item>
-</change>
-<change>
-<date>2003-04-22</date>
-<respStmt>
-<name>Megan Maher</name>
-</respStmt>
-<item>Encoded; transcribed</item>
-</change>
-<change>
-<date>2003-02-25</date>
-<respStmt>
-<name>Matt Miller</name>
-</respStmt>
-<item>Encoded; transcribed</item>
-</change>
-<change>
-<date>2003-02-03</date>
-<respStmt>
-<name>Peter Henry</name>
-</respStmt>
-<item>Encoded; transcribed</item>
-</change>
-<change>
-<date>2003-02-03</date>
-<respStmt>
-<name>Stephen Boykewich</name>
-</respStmt>
-<item>Encoded; transcribed</item>
-</change>
+ 
+ <change when="2024-11-18" who="#kmh">transcribed and encoded</change>
 </revisionDesc>
-</teiHeader>
-<text type="manuscript">
-<body>
-<pb corresp="yal.00072.001" xml:id="leaf01r" type="recto"/>
-<note type="authorial" place="margintop" rend="circled">these six pages all one piece</note>
-<note type="authorial" place="marginleft">May 1885</note>
-<note type="authorial" place="marginright">1885</note>
-<head type="main-authorial" rend="underline">Fancies at Navesink</head>
-<note type="authorial" place="marginright" rend="circled">heavy black the same as usual</note>
-<lg1 type="poem">
-<relations>
-<work entity="xxx.00331" cert="high">
-<p>
-</p>
-</work>
-</relations>
-<note type="editorial" place="marginleft" resp="unk">4</note>
-<head type="main-authorial" rend="underline">The Pilot in the Mist.</head>
-<note type="authorial" place="marginright" rend="circled">say bourgeois caps plain</note>
-<l>
-<seg>Steaming the northern rapids&#8212;(<app>
-<del type="overwrite">
-<gap reason="deletion,illegible"/>
-</del>
-<add place="over" type="overwrite">a</add>
-</app>n old</seg>
-<seg>St. Lawrence reminiscence,</seg>
-</l>
-<l>
-<seg>A sudden memory&#8209;flash comes back, I know</seg>
-<seg>not why,</seg>
-</l>
-<l>
-<seg>Here waiting for the sunrise, gazing from this</seg>
-<seg>hill;<anchor xml:id="n1" rend="asterisk"/>),</seg>
-</l>
-<l>
-<seg>Again 'tis just at morning&#8212;a heavy haze</seg>
-<seg>contends with daybreak,</seg>
-</l>
-<l>
-<seg>Again the trembling, laboring vessel veers</seg>
-<seg>me<app>
-<del type="overstrike">&#8212;we</del> 
-<add place="supralinear" type="unmarked">&#8212;I</add> 
-</app>press through <app>
-<del type="overstrike">foaming</del> 
-<add place="supralinear" type="unmarked">foam&#8209;dash'd</add> 
-</app>rocks</seg>
-<seg>that almost touch<del type="overstrike">;</del> me,</seg>
-</l>
-<l>
-<seg>Again I mark where aft the small thin</seg>
-<seg>Indian helmsman,</seg>
-</l>
-<l>
-<seg>Looms in the mist, with brow elate and </seg>
-<seg>governing hand.</seg>
-</l>
-</lg1>
-<pb corresp="yal.00072.002" xml:id="leaf02r" type="recto"/>
-<note type="editorial" place="marginleft" resp="unk">7</note>
-<lg1 type="poem">
-<relations>
-<work entity="xxx.00332" cert="high">
-<p>
-</p>
-</work>
-</relations>
-<note type="authorial" place="margintop">2</note>
-<head rend="underline" type="main-authorial">Had I the choice.</head>
-<l>Had I the choice to tally greatest bards,</l>
-<l>
-<seg>To limn their portraits, stately, beautiful, and</seg>
-<seg>emulate at will,</seg>
-</l>
-<l>
-<seg>Homer with all his <del type="overstrike">warrr</del> wars and warriors,</seg>
-<seg>Hector, Achilles, Ajax,</seg>
-</l>
-<l>
-<seg>Or <orig reg="Shakespeare's">Shakspere's</orig> woe&#8209;entangled Hamlet, Lear,</seg>
-<seg>Othello&#8212;Tennyson's fair ladies,</seg>
-</l>
-<l>
-<seg>Metre or wit <del type="overstrike">to</del> the best, or choice conceit</seg>
-<seg>to wield <app>
-<del type="overstrike">or</del> 
-<add place="supralinear" type="unmarked">in</add> 
-</app>perfect rhyme, delight</seg>
-<seg>of singers;</seg>
-</l>
-<l>These, these, O sea, all these I'd gladly barter,</l>
-<l>
-<seg>Would you the undulation of one wave, its</seg>
-<seg>trick to me transfer,</seg>
-</l>
-<l>
-<seg>
-<app>
-<del type="overstrike">Could you but</del> 
-<add place="supralinear" type="unmarked">Or</add> 
-</app>breat<app>
-<del type="overwrite">e</del>
-<add place="over" type="overwrite">he</add>
-</app> 
-<add type="insertion" place="supralinear">
-</add>one breath <add place="supralinear" type="insertion">of yours</add> upon this</seg>
-<seg>verse,</seg>
-</l>
-<l>And leave its odor there.</l>
-</lg1>
-<pb corresp="yal.00072.003" xml:id="leaf03r" type="recto"/>
-<note type="editorial" place="marginleft" resp="unk">10</note>
-<lg1 type="poem">
-<relations>
-<work entity="xxx.00334" cert="high">
-<p>
-</p>
-</work>
-</relations>
-<note type="authorial" place="margintop">4</note>
-<head type="main-authorial" rend="underline">Last of ebb, and daylight waning.</head>
-<lg2 type="linegroup">
-<l>Last of ebb, and daylight waning,</l>
-<l>
-<seg>Scented sea&#8209;<app>
-<del type="overstrike">wind</del> 
-<del type="overstrike">
-<add place="supralinear" type="unmarked">brine</add>
-</del> 
-<add place="supralinear" type="insertion">cool</add> 
-</app>landward making, smells of</seg> 
-<seg>sedge and salt incoming,</seg>
-</l>
-<l>
-<seg>With many a half&#8209;caught voice sent up from</seg>
-<seg>the eddies,</seg>
-</l>
-<l>
-<seg>Many a muffled confession&#8212;many a sob</seg>
-<seg>and whisper'd word,</seg>
-</l>
-<l>As of speakers far or hid.</l>
-</lg2>
-<lg2 type="linegroup">
-<l>
-<seg>How they sweep down and out! how they</seg>
-<seg>mutter!</seg>
-</l>
-<l>
-<seg>Poets unnamed&#8212;artists greatest of any, with</seg>
-<seg>
-<app>
-<del type="overstrike">all their</del> 
-<add place="supralinear" type="unmarked">cherish'd</add> 
-</app>lost designs,</seg>
-</l>
-<l>
-<seg>Love unreturn'd&#8212;<add place="supralinear" type="insertion">&#8212;a chorus of</add> age's complaints&#8212;hope's last</seg>
-<seg>words,</seg>
-</l>
-<l>
-<seg>Some suicide's despairing cry, <hi rend="underline">Away to the</hi>
-</seg>
-<seg>
-<hi rend="underline">boundless waste, and never again return.</hi>
-</seg>
-</l>
-</lg2>
-<lg2 type="linegroup">
-<l>On, to oblivion then!</l>
-<l>On, on, and do your part, ye burying, <app>
-<del type="overstrike">ebb!</del> 
-<add place="supralinear" type="insertion">ebbing tide!</add> 
-</app>
-</l>
-<l>On for your time, ye furious debouch&#233;!</l>
-</lg2>
-</lg1>
-<pb corresp="yal.00072.004" xml:id="leaf04r" type="recto"/>
-<note type="editorial" place="marginleft" resp="unk">16</note>
-<lg1 type="poem">
-<relations>
-<work entity="xxx.00335" cert="high">
-<p>
-</p>
-</work>
-</relations>
-<note type="authorial" place="margintop">5</note>
-<head type="main-derived">Nor you alone, twilight and burying</head>
-<l>Nor you alone, twilight and burying <app>
-<del type="overstrike">eddies,</del> 
-<add type="unmarked" place="supralinear">ebb,</add>
-</app>
-</l>
-<l>
-<seg>Nor you, ye lost designs, alone&#8212;nor <orig reg="failures">fail-</orig>
-</seg>
-<seg>ures, aspirations;</seg>
-</l>
-<l>
-<seg>I know, divine deceitful ones, your glamour's</seg>
-<seg>seeming,</seg>
-</l>
-<l>
-<seg>Duly from you, by you, <add type="insertion" place="supralinear">alone,</add> the inborne tides</seg>
-<seg>again&#8212;duly the hinges turning,</seg>
-</l>
-<l>
-<seg>Duly the <del type="overstrike">blended</del> needed <del type="overstrike">blending</del> discord&#8209;parts</seg>
-<seg>offsetting, blending,</seg>
-</l>
-<l>
-<seg>Weaving from you, from Sleep, <del type="overstrike">and</del> Night, <del type="overstrike">from</del>
-</seg>
-<seg>Death itself,</seg>
-</l>
-<l>A rhythmus of Birth eternal.</l>
-</lg1>
-<lg1 type="poem">
-<relations>
-<work entity="xxx.00336" cert="high">
-<p>
-</p>
-</work>
-</relations>
-<head type="main-authorial" rend="underline">Proudly the flood comes in.</head>
-<milestone unit="glued"/>
-<l>
-<seg>Proudly the flood comes in, shouting, foaming,</seg>
-<seg>advancing,</seg>
-</l>
-<l>
-<seg>Long it holds at the high, with bosom</seg>
-<seg>broad outswelling,</seg>
-</l>
-<l>
-<seg>All throbs, dilates&#8212;the farms, woods, streets</seg>
-<seg>of cities&#8212;workmen at <del type="overstrike">their</del> work;</seg>
-</l>
-<l>
-<seg>Mainsails, topsails, jibs, appear in the offing&#8212;</seg>
-<seg>
-<del type="overstrike">
-<add type="unmarked" place="supralinear">the</add>
-</del> steamers<add type="unmarked" place="inline">'</add> 
-<del type="overstrike">with</del> 
-<del type="overstrike">penn</del> 
-<del type="overstrike">
-<add type="unmarked" place="supralinear">with</add>
-</del> pennants of smoke&#8212;</seg>
-<seg>
-<add type="unmarked" place="inline">&#8212;</add>and under the forenoon sun,</seg>
-</l>
-<l>
-<seg>Freighted with human lives, gaily the outward</seg>
-<seg>bound, gaily the inward bound,</seg>
-</l>
-<l>Flaunting from many a spar the flag I love,</l>
-</lg1>
-<pb corresp="yal.00072.005" xml:id="leaf05r" type="recto"/>
-<addSpan type="pasteon" place="over" to="a1"/>
-<note type="editorial" place="marginleft" resp="unk">20</note>
-<lg1 type="poem">
-<relations>
-<work entity="xxx.00337" cert="high">
-<p>
-</p>
-</work>
-</relations>
-<note type="authorial" place="margintop">6</note>
-<head type="main-authorial" rend="underline">By that long <app>
-<del type="overstrike">train</del> 
-<add type="unmarked" place="supralinear">scan</add> 
-</app>of waves.</head>
-<del type="pasteover">
-<gap reason="deletion, illegible"/>
-</del>
-<l>
-<seg>By that long <app>
-<del type="overstrike">train</del> 
-<add type="unmarked" place="supralinear">scan</add> 
-</app>of</seg>
-<anchor xml:id="a1"/>
-<del type="pasteover">
-<gap reason="deletion, illegible"/>
-</del>
-<seg>waves, myself call'd back, resumed</seg>
-<seg>upon myself</seg>
-</l>
-<l>
-<seg>
-<app>
-<del type="overstrike">With</del> 
-<add type="unmarked" place="supralinear">In</add> 
-</app>every crest some undulating light</seg>
-<seg>or shade&#8212;some retrospect,</seg>
-</l>
-<l>
-<seg>Joys, travels, studies&#8212;silent panoramas&#8212;</seg>
-<seg>scenes ephemeral, mournful,</seg>
-</l>
-<l>
-<seg>The long&#8209;past war, the battles, hospital sights,</seg>
-<seg>the wounded and the dead;</seg>
-</l>
-<l>
-<seg>Myself through every by-gone phase&#8212;my</seg>
-<seg>idle youth&#8212;old age at hand</seg>
-</l>
-<l>
-<seg>My three-score years of life summ'd up</seg>
-<seg>
-<add type="unmarked" place="supralinear">and more,</add> and past,</seg>
-</l>
-<l>By any grand ideal tried, <add type="insertion" place="supralinear">
-</add> the whole <add type="insertion" place="supralinear">intentionless</add> a nothing,</l>
-<del type="pasteover">
-<gap reason="deletion, illegible"/>
-</del>
-<addSpan type="pasteon" place="over" to="a2"/>
-<l>
-<seg>And <add type="insertion" place="supralinear">haply</add> yet some drop <del type="overstrike">drops</del> within God's scheme's</seg>
-<seg>ensemble&#8212;some wave, or part of wave,</seg>
-</l>
-<l>Like one of yours, ye multitudinous ocean</l>
-</lg1>
-<lg1 type="poem">
-<relations>
-<work entity="xxx.00338" cert="high">
-<p>
-</p>
-</work>
-</relations>
-<head type="main-authorial" rend="underline">Then <app>
-<del type="overwrite">C</del>
-<add place="over" type="overwrite">L</add>
-</app>ast of all.</head>
-<l>Then last of all, laving these shores, this hill</l>
-<l>Of you O tides, the mystic human meaning:</l>
-<l>
-<seg>Only by law of you, your swell and ebb, enclosing</seg>
-<seg>me the same,</seg>
-</l>
-<anchor xml:id="a2"/>
-<del type="pasteover">
-<gap reason="deletion, illegible"/>
-</del>
-<l>The brain that shapes, the voice that chants this song.</l>
-</lg1>
-<closer>
-<signed>
-<hi rend="underline">Walt Whitman</hi>
-</signed>
-</closer>
-<note type="authorial" place="marginbot" rend="circled">note say in bourgeois</note>
-<note type="authorial" place="marginbot" anchored="yes" target="n1">* Navesink&#8212;a sea-side mountain, lower entrance of New York bay.</note>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="yal.00072.014.jpg" type="recto"/>
+    <note type="authorial" rend="circled" place="top" hand="#h01">these six pages all one piece</note>
+    <note type="authorial" rend="underline" place="left" hand="#h02">May 1885</note>
+    <note type="authorial" place="right" hand="#h02">1885</note>
+   <head type="main-authorial" rend="underline">Fancies at Navesink</head>
+   <note type="authorial" rend="circled" place="right" hand="#h01">heavy black the same as usual</note>
+    <note type="archival" place="left" hand="#h03">4</note>
+   <head type="main-authorial" rend="underline">The Pilot in the Mist.</head>
+   <note type="authorial" rend="circled" place="right" hand="#h01">say bourgeois caps plain</note>
+   <lg type="poem">
+    <note type="work_relations" target="xxx.00331" cert="high"/>
+     <l>Steaming the northern rapids&#8212;(an old<lb/> St. Lawrence reminiscence,</l>
+     <l>A sudden memory&#11840;flash comes back, I know<lb/> not why,</l>
+     <l>Here waiting for the sunrise, gazing from this<lb/> hill;<ref xml:id="r1" target="#n1"><metamark function="link">*</metamark></ref>),</l>
+     <l>Again 'tis just at morning&#8212;a heavy haze<lb/> contends with daybreak,</l>
+     <l>Again the trembling, laboring vessel veers<lb/> me&#8212;
+      <subst>
+       <del rend="overstrike" seq="1">we</del>
+       <add place="above" seq="2">&#8212;I</add>
+      </subst> press through 
+      <subst>
+       <del rend="overstrike" seq="1">foaming</del>
+       <add place="above" seq="2">foam&#11840;dash'd</add>
+      </subst> rocks<lb/> that almost touch me.</l>
+     <l>Again I mark where aft the small thin<lb/> Indian helmsman,</l>
+     <l>Looms in the mist, with brown elate and<lb/> governing hand.</l>
+   </lg>
+   <metamark function="emphasize"><add place="bottom" hand="#h01">#</add></metamark>
+   
+   <pb xml:id="leaf001v" facs="yal.00072.015_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf002r" facs="yal.00072.020.jpg" type="recto"/>
+    <note type="authorial" place="top" hand="#h01">2</note>
+    <note type="archival" place="left" hand="#h03">7</note>
+   <lg type="poem">
+    <note type="work_relations" target="xxx.00332" cert="high"/>
+    <head type="main-authorial" rend="doubleUnderline">Had I the Choice.</head>
+    <l>Had I the choice to tally greatest bards,</l>
+    <l>To limn their portraits, stately, beautiful, and emulate at will,</l>
+    <l>Homer with all his <del rend="overstrike">warrs</del> wars and warriors,<lb/> Hector, Achilles, Ajax,</l>
+    <l>Or Shakspere's woe&#11840;entangled Hamlet, Lear,<lb/> Othello&#8212;Tennyson's fair ladies,</l>
+    <l>Metre or wit <del rend="overstrike">to</del> the best or choice concert<lb/> to wield
+     <subst>
+      <del rend="overstrike" seq="1">or</del>
+      <add place="above" seq="2">in</add>
+     </subst> perfect rhyme, delight<lb/> of singers;</l>
+    <l>These, these, O sea, all these I'd gladly barter,</l>
+    <l>Would you the undulation of one wave, its<lb/> trick to me transfer</l>
+    <l>
+     <subst>
+      <del rend="overstrike" seq="1">Could you but</del>
+      <add place="above" seq="2">Or</add>
+    </subst> breathe <add place="below"><metamark function="add">&#8248;</metamark></add> one breath <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">of yours</add> upon this<lb/> verse,</l>
+    <l>And leave its odor there.</l>
+   </lg>
+   
+   <pb xml:id="leaf002v" facs="yal.00072.021_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf003r" facs="yal.00072.024.jpg" type="recto"/>
+   <note type="authorial" place="top" hand="#h01">4</note>
+    <note type="archival" hand="#h03" place="left">10</note>
+   <lg type="poem">
+    <note type="work_relations" target="xxx.00334" cert="high"/>
+    <head type="main-authorial" rend="doubleUnderline">Last of ebb, and daylight waning.</head>
+     <lg type="linegroup">
+    <l>Last of ebb, and daylight waning.</l>
+    <l>Scented sea&#11840;<add place="above" rend="marked">cool <del rend="overstrike">brine</del></add> <del rend="overstrike">wind</del> landward making, smells of <lb/>sedge and salt incoming.</l>
+    <l>With many a half&#11840;caught voice sent up from<lb/> the eddies,</l>
+    <l>Many a muffled confession&#8212;many a sob<lb/> and whisper'd word,</l>
+    <l>As of speakers far or hid.</l>
+     </lg>
+    <metamark function="emphasize"><add hand="#h01">#</add></metamark>
+     <lg type="linegroup">
+    <l>How they sweep down and out! how they<lb/> mutter!</l>
+    <l>Poets unnamed&#8212;artists greatest of any, with<lb/> <subst><del rend="overstrike" seq="1">all their</del><add place="above" seq="2">cherish'd</add></subst> lost designs,</l>
+    <l>Love unreturn'd&#8212;<add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a002">&#8212;a chorus of</add>age's complaints&#8212;hope's last<lb/> words.</l>
+    <l>Some suicide's despairing cry, <hi rend="underline">Away to the<lb/> boundless waste, and never again return.</hi></l>
+     </lg>
+    <metamark function="emphasize"><add hand="#h01">#</add></metamark>
+     <lg type="linegroup">
+    <l>On to oblivion then!</l>
+    <l>On, on, and do your part, ye burying, <subst><del rend="overstrike" seq="1">ebb!</del><add place="below" seq="2"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" seq="3" xml:id="a003">ebbing tide!</add></subst></l>
+    <l>On for your time, ye furious debouché</l>
+     </lg>
+    <metamark function="emphasize"><add hand="#h01"><subst hand="#h01"><del rend="overstrike">#</del><add>#</add></subst></add></metamark>
+
+   <pb xml:id="leaf003v" facs="yal.00072.025_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf004r" facs="yal.00072.036.jpg" type="recto"/>
+    <note type="archival" place="left" hand="#h03">16</note>
+    <note type="authorial" place="top" hand="#h01">5</note>
+   <lg type="linegroup">
+    <l>Nor you alone, twilight and burying <subst><del rend="overstrike" seq="1">eddies,</del><add place="above">ebb,</add></subst></l>
+    <l>Nor you, ye lost designs, alone&#8212;nor <choice><orig>fail-<lb/>ures</orig><reg>failures<lb/></reg></choice>, aspirations;</l>
+    <l>I know, divine deceitful ones your glamour's <lb/>seeming,</l>
+    <l>Duly from you, by you,<add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">alone,</add> the inborne tides<lb/> again&#8212;duly the hinges turning,</l>
+    <l>Duly the <subst><del rend="overstrike" seq="1">blended</del><add seq="2">needed</add></subst> <del rend="overstrike">blending</del> discord&#11840;parts<lb/> offsetting, blending,</l>
+    <l>Weaving from you, from sleep, <del rend="overstrike">and</del>Night, <del rend="overstrike">from</del><lb/> Death itself,</l>
+    <l>A rhythmus of Birth eternal.</l>
+   </lg>
+   </lg>
+   
+   <lg type="poem">
+    <head type="main-authorial" rend="doubleUnderline">Proudly the flood comes in.</head>
+    <addSpan rend="pasteOn" spanTo="#a005" hand="#h04"/>
+    <l>Proudly the flood comes in, shouting, foaming,<lb/> advancing,</l>
+    <l>Long it holds at the high, with bosom<lb/> broad outswelling,<add hand="#h05">&#8212;</add></l>
+    <l>All throbs, dilates&#8212;the farms, woods, streets<lb/> of cities&#8212;workmen at <del rend="overstrike" hand="#h01">their</del> work;</l>
+    <l>Mainsails, topsails, jibs, appear in the offing&#8212;<lb/><del rend="overstrike" hand="#h05"><add place="above" hand="#h01">the</add></del> steamers<add place="above" hand="#h01">'</add>, <del rend="overstrike" hand="#h01">with</del> <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#kmh">pann</unclear></del> <del rend="overstrike" hand="#h05"><add place="above" hand="#h05">with</add></del> pennants of smoke&#8212;<lb/> <add hand="#h01">&#8212;</add>and under the forenoon sun,</l>
+    <l>Freighted with human lives, gaily the outward<lb/> bound, gaily the inward bound,</l>
+    <l>Flaunting from many a spar the flag I love.</l>
+   </lg>
+    <anchor xml:id="a005"/>
+   
+   <pb xml:id="leaf004v" facs="yal.00072.037_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf005r" facs="yal.00072.044.jpg" type="recto"/>
+    <addSpan rend="pasteon" spanTo="#a006" hand="#h01"/>
+   <note type="archival" place="left" hand="#h03">20</note>
+    <note type="authorial" place="top" hand="#h01">6</note>
+   <lg type="poem">    
+    <head type="main-authorial" rend="doubleUnderline">By that long <subst><del rend="overstrike" seq="1">train</del><add place="above" seq="2">scan</add></subst> of waves.</head>
+    <l>By that long <subst><del rend="overstrike" seq="1">train</del><add place="above" seq="2">scan</add></subst> of<lb/> 
+    <anchor xml:id="a006"/>
+    waves, myself call'd back, resumed <lb/>upon myself,</l>
+    <l><subst hand="#h01"><del rend="overstrike" seq="1">With</del><add place="above" seq="2">In</add></subst> every crest some undulating light <lb/>or shade&#8212;some retrospect,</l>
+    <l>Joys, travels, studies&#8212;silent panoramas&#8212; <lb/>scenes ephemeral, mournful,</l>
+    <l>The long&#11840;past war, the battles, hospital sights, <lb/>the wounded and the dead;</l>
+    <l>Myself through every by-gone phase&#8212;my <lb/>idle youth&#8212;old age at hand</l>
+    <l>My three-score years of life summ'd up <lb/><add place="above" hand="#h01">and more</add> and past,</l>
+    <l>By any grand ideal tried, <add place="below" hand="#h05"><metamark function="add" target="#a007">&#8248;</metamark></add><add place="above" hand="#h05" xml:id="a007" rend="marked">intentionless</add> the whole<add place="below" hand="#h01"><metamark function="add" target="#a007">&#8248;</metamark></add> a nothing<lb/> </l>
+    <addSpan rend="pasteon" spanTo="#a008" hand="#h01"/>
+    <l>And <add place="below"><metamark function="add" target="#a009">&#8248;</metamark></add><add place="above" xml:id="a009">haply</add> yet some drop <del rend="overstrike">drop</del> within God's scheme's <lb/>ensemble&#8212;some wave, or part of wave,</l>
+    <l>Like one of yours, ye multitudinous ocean</l>
+   </lg>
+    <note type="authorial" hand="#h01">#</note>
+   <lg type="poem">
+    <head type="main-authorial" rend="doubleUnderline">Then Last of all.</head>
+    <l>Then last of all, laving these shores, this hill</l>
+    <l>Of you O tides, the mystic human meaning;</l>
+    <l>Only by law of you, your swell and ebb, enclosing <lb/>me the same,</l>
+    <anchor xml:id="a008"/>
+    <l>The brain that shapes, the voice that chants this song.</l>
+    <signed hand="#h01" rend="underline">Walt Whitman</signed>
+    <metamark function="adjust" target="#n1"><add rend="marked">note say in bourgeois</add></metamark>
+    <note type="authorial" hand="#h01" place="bottom" xml:id="n1" target="#r1"><metamark function="link">*</metamark>Navesink&#8212;a sea-side mountain, lower entrance of New York bay.</note>
+   </lg>
+   
 </body>
 </text>
 </TEI>
