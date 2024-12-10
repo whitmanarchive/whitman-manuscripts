@@ -82,7 +82,7 @@
   </profileDesc>
 <revisionDesc>
  
- <change when="2024-11-26" who="#ew">transcribed and encoded</change>
+ <change when="2024-12-10" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -100,15 +100,20 @@
         the mighty ones,</l>
      <l>Homer and Eschylus, Dante and Shak-<lb/>
         spere, Tennyson, Emerson<subst hand="#h03"><del seq="1" rend="overwrite">,</del><add seq="2" rend="overwrite">;</add></subst></l>
-     <l>To diagnose the <add hand="#h02" place="above">shifting&#11840;</add>delicate tints<add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a002">&#8212;<del hand="#h02" rend="overstrike">the human soul, its</del> love and pride&#8212;</add><del hand="#h02" rend="overstrike"><add hand="#h02" place="above">*</add></del>&#8212;to truly<lb/>
-        understand&#8212;<!-- TRANSPOSITION --><del rend="overstrike" hand="#h03"><hi rend="underline">sine qua non,</hi></del></l>
-     <l>Old age, and what it brings, <subst><del seq="1" rend="overstrike">and</del><add seq="2" place="above">from</add></subst> all<lb/>
+     <l>To diagnose the <add hand="#h02" place="above">shifting&#11840;</add>delicate tints<add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a002">&#8212;<del hand="#h02" rend="overstrike">the human soul, its</del> love and pride&#8212;</add><del hand="#h02" rend="overstrike"><add hand="#h02" place="above"><metamark function="transpose">*</metamark></add></del>&#8212;to truly<lb/>
+        understand&#8212;<add><metamark function="transpose" target="#tr05" xml:id="tr04">*</metamark></add><seg xml:id="tr01"><del rend="overstrike" hand="#h03"><hi rend="underline">sine qua non,</hi></del></seg></l>
+     <l xml:id="tr02">Old age, and what it brings, <subst><del seq="1" rend="overstrike">and</del><add seq="2" place="above">from</add></subst> all<lb/>
         its past experiences.</l>
+    <l xml:id="tr03"><add place="bottom" hand="#h02"><del rend="overstrike"><metamark function="transpose">*</metamark></del><metamark function="transpose" xml:id="tr05" target="#tr04">*</metamark>To encompass these,&#8212;<del rend="overstrike">to measure all, the</del><add place="above">their</add> utmost scope<add hand="#h01" place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">&#8212;the price&#8212;</add>&#8212;the <del rend="overstrike"><metamark function="transpose">*</metamark>The</del> last keen faculty,<subst rend="overwrite"><del seq="1">&#8212;</del><add seq="2"><metamark function="add" target="#">&#8248;</metamark></add></subst><add xml:id="a004"><subst hand="#h03"><del seq="1" rend="overstrike">and judgement</del><add seq="2" place="above"><del rend="overstrike">and</del> tally</add></subst><subst hand="#h03"><del seq="1" rend="overstrike">price of them</del><add seq="2" place="above">entrance&#11840;price,</add></subst></add></add></l> 
+    <listTranspose>
+     <transpose>
+      <ptr target="#tr03"/>
+      <ptr target="#tr01"/>
+      <ptr target="#tr02"/>
+     </transpose>
+    </listTranspose>
    </lg>
-   
-   <!-- TRANSPOSITION --> <subst hand="#h02"><del seq="1" rend="overstrike">&#8212;to message all, the</del><add>To encompass these, their</add></subst> utmost scope<add hand="#h01" place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">&#8212;the price&#8212;</add>&#8212;the <subst hand="#h03"><del seq="1" rend="overstrike">and judgement</del><add seq="2"><del seq="3" rend="overstrike">and</del> tally,</add></subst><add hand="#h03" place="right"><subst><del seq="1" rend="overstrike">price of them</del><add seq="2" place="above">entrance&#11840;price,</add></subst></add>
-   
-   <del rend="overstrike">* The</del> last keen factulty,
+ 
    
    <pb xml:id="leaf001v" facs="33%20bv8%20To%20Get%20the%20Final%20Back.jpg" type="verso"/>
    
