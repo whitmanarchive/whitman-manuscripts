@@ -86,11 +86,12 @@
     <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
     <handNote medium="pencil" xml:id="h03" resp="#ww" scope="minor"/>
     <handNote medium="pencil" xml:id="h04" resp="#unk2" scope="minor"><name xml:id="unk2">Unknown</name></handNote>
+    <handNote medium="pencil" xml:id="h05" resp="#unk3" scope="minor"><name xml:id="unk3">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
- <change when="2024-12-10" who="#ew">transcribed and encoded</change>
+ <change when="2024-12-11" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -99,29 +100,33 @@
    
    <pb xml:id="leaf001r" facs="yal.00350.001_large.jpg" type="recto"/>
    
+   <note type="archival" hand="#h05" place="top">576</note>
    <note type="authorial" hand="#h03" place="top">OSLP Century</note>
    <note type="editorial" hand="#h04" place="top">Miss Plyer <hi rend="underline">Wide</hi></note>
    
    <head>OLD AGE'S SHIP &amp; CRAFTY DEATH'S.</head> 
    <note type="authorial" hand="#h03" place="left" target="#a001" rend="marked">Initial</note> 
    <lg type="poem">
-     <l><hi rend="circled" xml:id="a001">F</hi>rom east and west across the horizon's edge,</l>
+     <l><hi rend="circled" xml:id="a001" hand="#h03">F</hi>rom east and west across the horizon's edge,</l>
     <l>Two mighty masterful vessels<add hand="#h04" place="inline">,</add> sailers<add hand="#h04" place="inline">,</add> steal upon us:</l>
      <l>But we'll make race a-time upon the seas&#8212;a battle-contest<lb/>
         yet! bear lively there!</l>
      <l>(Our joys of strife and derring-do to the last!)</l>
      <l>Put on the old ship all her power to-day!</l>
-     <l>Crowd top-gallant and royal studding-sails!</l>
+    <l>Crowd<add hand="#h02" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a002" rend="marked">extra</add> top-gallant<add hand="#h02" place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a003">s<metamark function="emphasize" target="#a003">/</metamark></add> and royal studding-sails!</l><note type="authorial" hand="#h02" place="right" target="#a003" rend="circled">top&#11840;gallants</note>
      <l>Out challenge and defiance&#8212;flags and flaunting pennants<lb/>
         added,</l>
      <l>As we take to the open&#8212;take to the deepest, freest waters.</l>
    </lg>
    <signed>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</signed>
     
+   <note type="authorial" hand="#h03" place="bottom" rend="underline">(over)</note>
    <note type="authorial" hand="#h02" place="bottom">Editor please substitute this, &amp; destroy the first copy</note>
    <signed hand="#h02">WW</signed>
    
    <pb xml:id="leaf001v" facs="yal.00350.002_large.jpg" type="verso"/>
+   
+   <note type="authorial" hand="#h03" place="left" rend="underline">Good bye my fancy</note>
    
 </body>
 </text>
