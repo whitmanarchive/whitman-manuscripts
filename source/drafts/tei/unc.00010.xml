@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="unc.00010"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main" rend="bracketed">With Husky-Haughty Lips, O Sea</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="tb">Tara Ballard</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2025</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>unc.00010</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+     <note type="work_relations" target="xxx.00340" cert="high">
+      <p>This is a manuscript draft of the poem, "With Husky-Haughty Lips, O Sea!," which was first published in <hi rend="italic">Harper's Monthly</hi> in March 1884. Reprinted in the "Sands at Seventy" annex to <hi rend="italic">Leaves of Grass</hi> (1888).</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>With Husky&#11840;Haughty Lips, O Sea</title>  
+     
+     <date cert="high">about 1884</date>
+     
+     <idno type="callno">Folder 8</idno>
+     
+     <orgName xml:id="unc">University of North Carolina at Chapel Hill: Walt Whitman Papers</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+   
+     <note type="project" target="#rel01">The verso includes an unfolded international envelope to Walt Whitman and an illustrated advertisement for the Sheldon House in Ocean Grove, New Jersey.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  
+  <profileDesc>
+   <handNotes>    
+    <handNote medium="black ink1" xml:id="h01" resp="#ww"/>
+    <handNote medium="black ink2" xml:id="h02" resp="#ww">
+     <handNote medium="pencil" xml:id="h03" resp="#unk"/></handNote><handNote xml:id="unk">Unknown</handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2025-01-03" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="unc.00010.001.jpg" type="recto"/>
+   <lg type="poem">
+ <note type="archival" place="top" hand="#h03">26</note>
+     <head rend="underline">With husky&#11840;haughty lips, O sea</head>
+     <l>With husky&#11840;haughty lips O sea,</l>
+     <l>Where day and night I walk thy surf&#11840;beat shore</l>
+     <milestone unit="glued"/>
+     <l>Imaging to my sense thy varied strange suggestions,</l>
+     <l>Thy troops of white&#11840;maned racers urging to the goal,</l>
+    <l>Thy brooding murk and scowl&#8212;thy unloos'd hurricanes<add place="inline" hand="#h02"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" hand="#h02" xml:id="a001" seq="1">The ceaseless curious rapping of thy sands andw aves,&#8212;<del rend="overstrike" hand="#h02" seq="2">thy sudden changes</del></add></l>
+     <l>Thy ample smiling face, dash'd with the sparkling<lb/>
+           dimples of the sun,</l>
+     <l><subst><del rend="overstrike" seq="1">Thy unsubduedness, caprices, wilfulness,</del><add place="above" seq="2">Thy unsubduedness, caprices, wilfulness,</add></subst></l>
+     <l>Great as thou art, thy many tears&#8212;a lack from<lb/>
+           all eternity in thy content,</l>
+     <l>Thy lonely state&#8212;something thou ever seek'st<lb/>
+           and seek'st, yet gainest not;</l>
+     <note></note>
+     <l></l>
+     <l></l>
+     <l></l>
+   </lg>
+   
+   <pb xml:id="leaf001v" facs="unc.00010.002_large.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>
