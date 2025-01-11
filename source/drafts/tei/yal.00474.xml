@@ -7,7 +7,7 @@
   <fileDesc>
    <titleStmt>
     
-    <title level="m" type="main" rend="bracketed">Specimen Days &amp; Thoughts</title>
+    <title level="m" type="main">Specimen Days &amp; Thoughts Melanged</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -61,11 +61,11 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>Specimen Days &amp; Thoughts</title>  
+     <title>Specimen Days &amp; Thoughts Melanged</title>  
      
      <date cert="high"></date>
      
-     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     <idno type="callno">YCAL MSS 202</idno>
      
      <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
      
@@ -77,10 +77,9 @@
    </sourceDesc>
 </fileDesc>
   <profileDesc>
-   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
+   <handNotes>
     <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="blue ink" xml:id="h02" resp="#unk"></handNote>
-    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h02" resp="#unk"/><handNote xml:id="unk">Unknown</handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
@@ -92,16 +91,12 @@
  <text type="manuscript">
   <body>
    
-<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
-   <lg type="poem">
-     <l></l>
-     <l></l>
-     <l></l>
-   </lg>
+   <pb xml:id="leaf001r" facs="YCAL_MSS-13-20.jpg" type="recto"/>
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+   <note type="archival" place="top" hand="#h02"><hi rend="underline">akst.</hi><lb/>&#36;10.&#8275;</note>
+   <p><del rend="overstrike"><hi rend="underline">Specimen<lb/>Days<lb/>&amp; Thoughts<lb/>melanged</hi></del></p>
+   
+   <pb xml:id="leaf001v" facs="YCAL_MSS-13-19.jpg" type="verso"/>
    
 </body>
 </text>
