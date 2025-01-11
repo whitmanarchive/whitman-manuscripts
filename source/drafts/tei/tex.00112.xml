@@ -70,37 +70,33 @@
      
      <note>Transcribed from digital images of the original.</note>
  
-     <note type="project" target="#rel01">The verso is blank.</note>
+     <note type="project" target="#rel01">The verso reflects the front of an envelope addressed to Whitman which was postmarked on 21 January in Philadelphia.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
-   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
+   <handNotes>
     <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="blue ink" xml:id="h02" resp="#unk"></handNote>
-    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
+    <handNote medium="blue pencil" xml:id="h02" resp="#ww"></handNote>
+    <handNote medium="pencil" xml:id="h03" resp="#ww"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
-<!-- IN THE FOLLOWING <CHANGE> ELEMENT EDIT THE @WHEN TO REFLECT TODAY'S DATE. IF YOU AREN'T TARA, CHANGE THE INITIALS AFTER THE POUND SIGN IN @WHO -->
- <change when="2024-01-20" who="#tb">transcribed and encoded</change>
+ <change when="2024-01-10" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
-   <lg type="poem">
-     <l></l>
-     <l></l>
-     <l></l>
-   </lg>
+   <pb xml:id="leaf001r" facs="20%202.6%20Leaf%202%20Front.jpg" type="recto"/><!-- The file name of the jpg in the Tracking Database may need to be updated. TB, 1.10 -->
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+   <note type="authorial" place="top" hand="#h01">names at random</note>
+   <p><handShift new="#h02"/>Sequella to "Specimen Days"</p>
+   <note type="authorial" place="bottom" hand="#h03">? &amp; Collect</note>
+
+   <pb xml:id="leaf001v" facs="tex.00112.002_large.jpg" type="verso"/>
    
 </body>
 </text>
