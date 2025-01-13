@@ -2,14 +2,12 @@
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-<!-- PUT THE MANUSCRIPT UNIQUE ID FOR THE VALUE OF @XML:ID IN THE LINE BELOW -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id=""> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04168"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
     
-<!--  IN THE NEXT LINE, USE THE WHITMAN ARCHIVE ENCODING GUIDELINES TO DECIDE WHAT TITLE TO USE FOR THE MANUSCRIPT. IF WHITMAN TITLED THE MANUSCRIPT, REMOVE "REND='BRACKETED'."  -->
-    <title level="m" type="main" rend="bracketed"></title>
+    <title level="m" type="main" rend="bracketed">What spells do distant stars</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -18,7 +16,6 @@
     <respStmt>
      <resp>Transcription and encoding</resp>
      
-<!--  IF YOU AREN'T TARA, CHANGE THE CONTENT OF THIS NEXT <PERSNAME> ELEMENT AND THE VALUE OF THE @XML:ID   -->
      <persName xml:id="tb">Tara Ballard</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -27,7 +24,7 @@
    </titleStmt>
    <editionStmt>
     <edition>
-     <date>2024</date>
+     <date>2025</date>
     </edition>
    </editionStmt>
    <publicationStmt>
@@ -49,18 +46,14 @@
     </availability>
     
 
-   <idno><!--  THE UNIQUE ID GOES HERE, TOO  --></idno>
+   <idno>loc.04168</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
-<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
-     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
-     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
-     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
     
-     <note type="work_relations" target="xxx." cert="">
-      <p></p>
+     <note type="work_relations" cert="high">
+      <p>Drafts lines of "You Tides with Ceaseless Swell," first published along with seven other poems in <hi rend="italic">The Nineteenth Century</hi> (August 1885), under the general title "Fancies at Navesink." On the verso is correspondence on the letterhead of Bim M. Jordan, Dry Paints, Pine Wood Products.</p>
      </note>
    </notesStmt>
    
@@ -68,53 +61,53 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     <title>Fancies at Navesink</title>  
      
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date notBefore="" notAfter="" cert=""></date>
+     <date cert="high">around 1885</date>
      
-     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     <idno type="callno">mss 45443, reel 1</idno>
      
-<!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
-      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
-     <orgName xml:id=""></orgName>
+     <orgName xml:id="loc"> Walt Whitman Literary Manuscripts in The Thomas Biggs Harned Collection of the Library of Congress</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
-     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-     <relatedItem type="document" target="wwa.00041"/>
-     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+     <relatedItem type="text" xml:id="rel01" target="loc.07065"/>
+     <relatedItem type="document" target="wwa.00595"/>
+     <note type="project" target="#rel01">The verso is made of two pasted together papers; one paper is blank and the other reflects correspondence to Walt Whitman written on the letterhead of Bim M. Jordan, Dry Paints, Pine Wood Products.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
-   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
+   <handNotes>
     <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="blue ink" xml:id="h02" resp="#unk"></handNote>
+    <handNote medium="red ink" xml:id="h02" resp="#unk"/><handNote xml:id="unk">Unknown</handNote>
     <handNote medium="red ink" xml:id="h03" resp="#ww"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
-<!-- IN THE FOLLOWING <CHANGE> ELEMENT EDIT THE @WHEN TO REFLECT TODAY'S DATE. IF YOU AREN'T TARA, CHANGE THE INITIALS AFTER THE POUND SIGN IN @WHO -->
- <change when="2024-01-20" who="#tb">transcribed and encoded</change>
+ <change when="2025-01-13" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="loc_ew.00390.jpg" type="recto"/>
+   <note hand="#h02" type="archival" place="top">5</note>
    <lg type="poem">
-     <l></l>
-     <l></l>
-     <l></l>
+     <l>What ye miracles of all the rest! ye tides do this work.</l>
+     <l>What first senses<add>languages</add> ya out <add>you</add> and calls ye back again.</l>
+    <l><del rend="overstrike"><add place="above">(tr down</add>What <add><unclear rend="illegible" cert="low" resp="#tb"/> space</add> endless, <add place="above"><unclear rend="illegible" cert="low" resp="#tb"/></add> <choice><sic>intermistical</sic><reg>intermystical</reg></choice> <add place="above" seq="1">look again through <del rend="overstrike" hand="#h03" seq="2">boundless</del> space</add> charms to sun and moon?</del></l>
+     <l>What <del rend="overstrike">potent</del> spells do distant <subst><del rend="overstrike" seq="1">suns send to</del><add place="above" seq="2">stars shed on</add></subst></l>
+     <l><!-- Need to address asterisk note --> What <!-- Tara to Finish --> </l>
+     <l>What boundless aggregate, unseen and seen?<lb/>
+           what compact law of all, space entire</l>
+     <l>Holding the universe entire and one, as sailing<lb/>
+           in a ship?</l>
    </lg>
-   
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+   <note hand="#h03" type="authorial" place="bottom">&#9758; the law of you</note>
+   <note hand="#h01" type="authorial" place="bottom">&#42; you mystery of swell<lb/> &amp; ebb.</note>
+   <pb xml:id="leaf001v" facs="loc_ew.00391.jpg" type="verso"/>
    
 </body>
 </text>
