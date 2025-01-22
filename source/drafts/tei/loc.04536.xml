@@ -2,12 +2,12 @@
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04171"> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04536"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
     
-    <title level="m" type="main" rend="bracketed">exult in</title>
+    <title level="m" type="main" rend="bracketed">*current aims</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -46,18 +46,13 @@
     </availability>
     
 
-   <idno>loc.04171</idno>
+   <idno>loc.04536</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
-<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
-     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
-     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
-     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
-    
-     <note type="work_relations" target="xxx.00330" cert="high">
-      <p>Draft lines for "Fancies at Navesink," first published in <hi rend="italic">The Nineteenth Century</hi> (August 1885).</p>
+     <note type="work_relations" target="xxx.00558" cert="high">
+      <p>Three manuscript fragments that contributed to "An Old Man's Rejoinder," which was first published in the August 16, 1890 issue of the Critic and later reprinted in <hi rend="italic">Good-Bye My Fancy</hi> (1891) and <hi rend="italic">Complete Prose Works</hi> (1892). On the reverse of the second manuscript leaf is the end of a letter from Otto L. Levy.</p>
      </note>
    </notesStmt>
    
@@ -65,28 +60,29 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>Thomas Biggs Harned Collection of the Papers of Walt Whitman: Manuscripts, [1859]-[circa 1892]; Poetry; [circa 1885] , "Fancies at Navesink"</title>  
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Notes and Notebooks, 1847-1891; Notes, 1847-1891; Literary; Undated; Cosmic poem</title>  
      
-     <date notBefore="1859" notAfter="1892" cert="medium"></date>
+     <date when="1890" cert="medium"></date>
      
-     <idno type="callno">MSS 45443, reel 1</idno>
-     
-     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842-1937, Library of Congress, Washington, D.C.</orgName>
+     <idno type="callno">MSS 18630, box 29, reel 25</idno>
+
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-      
+     
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
     <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
-    <handNote medium="letterpress" xml:id="h02" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
+    <handNote medium="blue crayon" xml:id="h02" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h03" resp="#ww" scope="minor"/>
+    <handNote medium="red ink" xml:id="h04" resp="#ww" scope="minor"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
-
  <change when="2025-01-22" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -94,21 +90,31 @@
  <text type="manuscript">
   <body>
    
-   <pb xml:id="leaf001r" facs="loc_ew.00392.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="loc_ew.00402.jpg" type="recto"/>
    
-   <lg type="poem fragment">
-    <delSpan rend="overstrike" spanTo="#d001"/> 
-     <l>exult in</l>
-     <l><unclear reason="illegible" resp="#ew">Cities<add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">and</add> <gap reason="illegible" extent="one word"/><add place="above">and</add>words and reviews</unclear></l>
-     <metamark function="delete" target="#d001"><add place="below">delete</add></metamark>
-    <anchor xml:id="d001"/>
-     <l>The human heart in its breast ere<lb/>
-        pounds&#8212;<seg xml:id="w1">Lofts</seg><add place="below" xml:id="w2"><unclear reason="illegible" resp="#ew">bofleur</unclear></add><alt target="#w1 #w2" weights="0.5 0.5"/> the glance of the eye</l>
+   <lg type="poem">
+     <l>As the Bible cauticles<lb/>
+        and</l>
+     <l>as the Homeric</l>
+     <l>as the Daulean</l>
+     <l>and the Shakesperean</l>
+     <l>as Ossian the Highland and <lb/>
+        Irish</l>
+     <l>So I have attempted<lb/>
+        the 19th Century, the Secession War,&amp;<lb/>
+        </l>
+     <l></l>
    </lg>
-   <metamark function="emphasize">#</metamark>
-   <note type="archival" hand="#h02" place="bottom">24</note>
-
-   <pb xml:id="leaf001v" facs="loc_ew.00393.jpg" type="verso"/>
+   
+   <pb xml:id="leaf001v" facs="loc_ad.00769_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf002r" facs="loc_ew.00400.jpg" type="recto"/>
+   
+   <pb xml:id="leaf002v" facs="loc_ew.00401.jpg" type="verso"/>
+   
+   <pb xml:id="leaf003r" facs="loc_ew.00403.jpg" type="recto"/>
+   
+   <pb xml:id="leaf003v" facs="loc_ad.00771_large.jpg" type="verso"/>
    
 </body>
 </text>

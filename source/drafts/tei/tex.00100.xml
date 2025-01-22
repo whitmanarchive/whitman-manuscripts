@@ -2,12 +2,12 @@
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04171"> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00100"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
     
-    <title level="m" type="main" rend="bracketed">exult in</title>
+    <title level="m" type="main" rend="bracketed">Specimen Days and collect Title Page</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -46,7 +46,7 @@
     </availability>
     
 
-   <idno>loc.04171</idno>
+   <idno>tex.00100</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
@@ -56,8 +56,8 @@
      IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
      IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
     
-     <note type="work_relations" target="xxx.00330" cert="high">
-      <p>Draft lines for "Fancies at Navesink," first published in <hi rend="italic">The Nineteenth Century</hi> (August 1885).</p>
+     <note type="work_relations" target="xxx."<!-- none found --> cert="">
+      <p>It talks about Specimen Days but also November Boughs and "Supplement Sands" (and Sequella!) <!-- from catalog, no EAD link in tracking database --></p>
      </note>
    </notesStmt>
    
@@ -65,28 +65,35 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>Thomas Biggs Harned Collection of the Papers of Walt Whitman: Manuscripts, [1859]-[circa 1892]; Poetry; [circa 1885] , "Fancies at Navesink"</title>  
+     <!-- can't for the life of me find this doc in the Texas HRC digital collections -->
      
-     <date notBefore="1859" notAfter="1892" cert="medium"></date>
+     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
      
-     <idno type="callno">MSS 45443, reel 1</idno>
+<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
+       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
+     <date notBefore="" notAfter="" cert=""></date>
      
-     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842-1937, Library of Congress, Washington, D.C.</orgName>
+     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     
+     <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-      
+     
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
     <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
-    <handNote medium="letterpress" xml:id="h02" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
+    <handNote medium="red ink" xml:id="h02" resp="#ww" scope="minor"/>
+    <handNote medium="red crayon" xml:id="h03" resp="#ww" scope="minor"/>
+    <handNote medium="blue crayon" xml:id="h04" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h05" resp="#ww" scope="minor"/>
+    <handNote medium="purple crayon" xml:id="h06" resp="#ww" scope="minor"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
-
  <change when="2025-01-22" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -94,21 +101,26 @@
  <text type="manuscript">
   <body>
    
-   <pb xml:id="leaf001r" facs="loc_ew.00392.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="17a%202.5%20Title%20page%20Front.jpg" type="recto"/>
    
-   <lg type="poem fragment">
-    <delSpan rend="overstrike" spanTo="#d001"/> 
-     <l>exult in</l>
-     <l><unclear reason="illegible" resp="#ew">Cities<add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">and</add> <gap reason="illegible" extent="one word"/><add place="above">and</add>words and reviews</unclear></l>
-     <metamark function="delete" target="#d001"><add place="below">delete</add></metamark>
-    <anchor xml:id="d001"/>
-     <l>The human heart in its breast ere<lb/>
-        pounds&#8212;<seg xml:id="w1">Lofts</seg><add place="below" xml:id="w2"><unclear reason="illegible" resp="#ew">bofleur</unclear></add><alt target="#w1 #w2" weights="0.5 0.5"/> the glance of the eye</l>
+   <lg type="prose">
+     <p>2d Volume</p>
+     <p hand="#h03" rend="underline">November Boughs</p>
+     <p rend="underline">Specimen Days&amp;Collect</p>
+     <p hand="#h02"><hi rend="underline">November Boughs</hi> a melange of verses and prose, from<add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">my</add><add place="above"><metamark function="delete" target="#d001">&#176;</metamark></add><del rend="overstrike" xml:id="d001">69th to</del>68th year</p>
    </lg>
-   <metamark function="emphasize">#</metamark>
-   <note type="archival" hand="#h02" place="bottom">24</note>
-
-   <pb xml:id="leaf001v" facs="loc_ew.00393.jpg" type="verso"/>
+   
+   <pb xml:id="leaf001v" facs="17b%202.5%20Title%20Page%20Back.jpg" type="verso"/>
+   
+   <pb xml:id="leaf002r" facs="17c%202.5%20Title%20Page%20opened.jpg" type="recto"/>
+   
+   <lg type="prose">
+    <p hand="#h05" rend="underline"><del rend="overstrike">A Latter-Day Melange</del></p>
+    <metamark function="emphasize"><add place="below" hand="#h05">&#9757;</add></metamark>
+    <p hand="#h04" rend="underline">Supplement&#11840;Sands</p>
+    <p hand="#h06">? Occasionals</p>
+    <p hand="#h05">? Sands and Sequella</p>
+   </lg>
    
 </body>
 </text>
