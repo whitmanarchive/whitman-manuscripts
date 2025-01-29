@@ -83,7 +83,7 @@
   </profileDesc>
 <revisionDesc>
  
- <change when="2025-01-28" who="#ew">transcribed and encoded</change>
+ <change when="2025-01-29" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -110,9 +110,40 @@
    
    <pb xml:id="leaf004r" facs="uva_jc.00077_large.jpg" type="recto"/>
    
+   <metamark function="transpose" xml:id="tr01" target="tr02"><add place="inline">*</add></metamark><p xml:id="tr03">I am dess??? him from 18 or 19 to 24 or 5 years of age.</p>
+ 
+   <p xml:id="tr04"><add place="below"><metamark function="add" target="#a022">&#8248;</metamark></add><add place="above" xml:id="a022">A singer, fond of <add hand="#h02">"</add>vain songs<add hand="#h02">"</add> as he afterwards calls them</add>A dancer<add place="above">too</add>, <subst><del seq="1" rend="overstrike">fond of</del><del seq="3" rend="overstrike"><add seq="2" place="below">frequently</add></del><add seq="4" place="right">often</add></subst> the county balls. (My grandfather was <subst><del seq="1" rend="overstrike">often</del><del seq="3" rend="overstrike"><add seq="2" place="above">sometimes</add></del><add seq="4" place="above">often</add></subst> with him at these<add place="above">merry makings,</add>, and on <del rend="overstrike">merry</del> sleigh-rides over the <del rend="overstrike">wintery</del> plains.)<add place="inline"><metamark function="transpose" xml:id="tr02" target="tr01">*</metamark></add></p>
+   <milestone unit="glued"/>
+   <delSpan rend="overstrike" spanTo="#d001"/>
+   <p>was quite a singer <del rend="overstrike">and fom Los</del>&#11840;fond of "vain songs" as he afterwards calls them.</p>
+   <milestone unit="glued"/>
+   <p>I am departing him <del rend="overstrike">at</del> <del rend="overstrike">at</del> from 18 to <del rend="overstrike">22 ye</del> 24<add place="above">? or '5</add> years of age. All this is from 17 or 18 to about 24<add place="above">?</add> when he marries</p><note type="authorial" place="inline">He is married at ?</note>
+   <anchor xml:id="d001"/>
+   <p>all this was from <add place="below"><metamark function="add" target="#a023">&#8248;</metamark></add><add place="above" xml:id="a023">the age</add>17 or 18 to <subst><del seq="1" rend="overstrike">24</del><add seq="2" place="above">23 or '4 or '5</add></subst> and <del rend="overstrike">on Long Island, some 30 to 40 miles from</del> NY city</p>
+   
+   <listTranspose>
+    <transpose>
+     <ptr target="#tr04"/>
+     <ptr target="#tr03"/>
+    </transpose>
+   </listTranspose>
+   
    <pb xml:id="leaf004v" facs="uva_jc.00078_large.jpg" type="verso"/>
    
    <pb xml:id="leaf005r" facs="uva_jc.00079_large.jpg" type="recto"/>
+   
+   <addSpan hand="#h04" rend="pasteon" spanTo="#a024"/>
+   <floatingText>
+    <body>
+     <p><add hand="#h01" place="above">Then</add>Years ago,<add hand="#h01" place="below"><metamark function="add" target="#a025">&#8248;</metamark></add><add place="above" rend="marked" hand="#h01" xml:id="a025">in Elias's time</add> among the bay-men&#11840;a strong, wild race, now extinct, or rather entirely changed<del rend="overstrike" hand="#h01">&#11840;a native of Long Island was called a <hi rend="italic">Paumanacker</hi>, or <hi rend="italic">Creole Paumanacker</hi>.</del></p>
+    </body>
+   </floatingText>
+   <anchor xml:id="a024"/>
+   <milestone unit="glued"/>
+   <p>And the long, long beach<del rend="overstrike"><add place="above">stretched</add></del> outside of all<add place="below"><metamark function="add" target="#a026">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a026">bars of 30 miles at a stretch</add> with <subst><del seq="1" rend="overstrike"><unclear reason="illegible" resp="#ew">no</unclear></del><add seq="2" place="above">their</add></subst> old history of <del rend="overstrike">so</del> many wrecks, and storms<add place="below"><metamark function="add" target="#a027">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a027">and tragedies of anguish <del rend="overstrike">&amp; heroism</del> &amp; death</add> <del rend="overstrike">and white sands</del>&#11840;<unclear reason="illegible" resp="#ew">arierd</unclear>, white, beach&#11840;not without its tales of <unclear reason="illegible" resp="#ew">nerves &amp; hero comlus</unclear></p>
+   <milestone unit="glued"/>
+   <note type="authorial" place="inline">(from his 8th to his 2<subst><del rend="overwrite">0</del><add rend="overwrite">1</add></subst>th year)</note>
+   <p>In such scenes, <add place="below"><metamark function="add" target="#a028">&#8248;</metamark></add><add place="above" xml:id="a028">and</add>amid <add place="above"><subst><del seq="1" rend="overstrike">influences</del><add seq="2" place="above">elements</add></subst></add>such hardy and sane<add place="below"><metamark function="add" target="#a029">&#8248;</metamark></add><add place="above" xml:id="a029">&amp; solemn</add> influences, <subst><del seq="1" rend="overstrike">passed Elias's</del><add seq="2" place="above">Elias Hicks <del rend="overstrike">was</del> formed through</add></subst> boyhood and early manhood<subst><del seq="1" rend="overstrike">.</del><add seq="2" place="above">to maturity.</add></subst> Married early</p>
    
    <pb xml:id="leaf005v" facs="uva_jc.00080_large.jpg" type="verso"/>
    
