@@ -80,7 +80,7 @@
   </profileDesc>
 <revisionDesc>
  
- <change when="2025-01-29" who="#ew">transcribed and encoded</change>
+ <change when="2025-01-30" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -104,11 +104,12 @@
    <pb xml:id="leaf001v" facs="loc_ew.00406.jpg" type="verso"/>
     
     <l xml:id="tr01"><metamark function="transpose" xml:id="tr02" target="#tr03">*</metamark>Let them <del rend="overstrike">walk</del> pass</l>
-    <l>Let the phantom walk through<lb/>
+    <l xml:id="tr05">Let the phantom walk through<lb/>
        the roads of thy soul,</l>
-    <l>Call up the <add place="above">? pale</add>great procession</l>
+    <l xml:id="tr06">Call up the <add place="above">? pale</add>great procession</l>
     <l xml:id="tr04"><metamark function="transpose" xml:id="tr03" target="#tr02">*</metamark>Let them <del rend="overstrike">pas</del> <subst><del seq="1" rend="overstrike">walk</del><add seq="2" place="above">pass</add></subst>&#11840;let<lb/>
-       after the <unclear reason="illegible" resp="#ew">coture</unclear> as<lb/>
+    <milestone unit="undeclared" rend="horbar-short-left"/> 
+       after <subst><del rend="overwrite">the</del><add rend="overwrite">the shadows walk through thy very soul</add></subst> <unclear reason="illegible" resp="#ew">coture</unclear> as<lb/>
        1st stanzas (or <unclear reason="illegible" resp="#ew">coif</unclear></l>
     <milestone unit="undeclared" rend="horbar-short-left"/>
     <l>&#11840;the second<lb/>
@@ -117,15 +118,39 @@
     <milestone unit="undeclared" rend="horbar-short-left"/>
     <l>then the poems<lb/>
        appear (are acted)</l>
-   
+   </lg>
+    
+    <listTranspose>
+     <transpose>
+      <ptr target="#tr05"/>
+      <ptr target="#tr06"/>
+      <ptr target="#tr01"/>
+      <ptr target="#tr04"/>
+     </transpose>
+    </listTranspose>
+    
    <pb xml:id="leaf002r" facs="loc_ew.00407.jpg" type="recto"/>
+    
+    <note type="authorial" place="top">Let the last stanzas of the 1st Quarto be the voice of the Genus (but the identiy of that a little veiled, vague) &amp; the words in italic</note>
    
    <pb xml:id="leaf002v" facs="loc_ew.00408.jpg" type="verso"/>
+   
+   <lg>
+    <l>The charm work&#11840;the<lb/>
+       <note type="authorial" place="inline">?</note><space dim="horizontal" extent="seven letters" rend="underline"/></l>
+    <l>Time falls back&#11840;</l>
+    <l>I hear the old<lb/>
+       Egyptian&#11840;the priests<lb/>
+       of <space dim="horizontal" extent="four letters"/> in the temples<lb/>
+       <del rend="overstrike">of</del> of Memphis &amp; Thebes</l>
+    <l>The <subst><del seq="1" rend="overstrike"><unclear reason="illegible" resp="#ew">Musuar</unclear></del><add seq="2" place="above"><unclear reason="illegible" resp="#ew">sugers</unclear></add></subst> sun<lb/>
+       herfore the Pharaos</l>
+   </lg>
    
    <pb xml:id="leaf003r" facs="loc_ew.00409.jpg" type="recto"/>
    
    <pb xml:id="leaf003v" facs="loc_ew.00410.jpg" type="verso"/>
-   </lg>
+   
 </body>
 </text>
 </TEI>
