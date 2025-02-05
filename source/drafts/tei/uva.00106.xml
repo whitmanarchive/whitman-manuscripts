@@ -76,32 +76,36 @@
    </sourceDesc>
 </fileDesc>
   <profileDesc>
-   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="blue ink" xml:id="h02" resp="#unk"></handNote>
-    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
+   <handNotes>
+    <handNote medium="pencil" xml:id="h01" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h02" resp="#unk"></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
-<!-- IN THE FOLLOWING <CHANGE> ELEMENT EDIT THE @WHEN TO REFLECT TODAY'S DATE. IF YOU AREN'T TARA, CHANGE THE INITIALS AFTER THE POUND SIGN IN @WHO -->
- <change when="2024-01-20" who="#tb">transcribed and encoded</change>
+ <change when="2025-02-05" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="uva_es.00099_large.jpg" type="recto"/>
    <lg type="poem">
-     <l></l>
-     <l></l>
-     <l></l>
+    <l>But outset and <subst><del rend="overstrike" seq="1">true outset</del><add place="add" seq="2">sure utterance</add></subst> <subst><del rend="overstrike" seq="1">of them all,</del><add place="above" seq="2">thy truest, best, maturest</add></subst></l>
+    <l>In perfect faith &#8212; <subst><del rend="overstrike" seq="1">in hope and trust</del><add place="above" seq="2">Depart! &#8212;</add></subst> &#8212; <subst><del rend="overstrike" seq="1">hither no more</del><add place="above" seq="2">no more <add place="above" seq="3">returning</add> to these shores</add></subst></l>
+    <l>Now, now <add place="inline" rend="marked"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001" seq="1"><del rend="overstrike" seq="2">return</del> for good</add> upon <del rend="overstrike">now</del> <add place="above">upon</add>thy great divinest venture</l>
+    <l>Sail forth <add place="inline"><metamark function="add" target="#002">&#8248;</metamark></add><add place="above" xml:id="a002">for good</add> O mystic yacht of me</l>
+    
+ 
+    <l><del rend="overstrike">Boundless</del> by <del rend="overstrike" seq="5"><add place="inline"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003" seq="1"><subst><del rend="overstrike" seq="2">the</del><add place="above" rend="marked" seq="3">thy yet</add><add place="above" seq="4">all</add></subst> all <add></add><add>known</add> shores, seas.</add> gravitation</del></l>
+    <l>Spurning all <del rend="overstrike">thy</del> yet known shores, seas, gravitations</l>
    </lg>
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+   <note type="editorial" hand="#h02" place="bottom">Sail Out for good Eid&#243;lon Yacht<lb/>Good Bye My Fancy<lb/>Page 7</note>
+   
+   
+   <pb xml:id="leaf001v" facs="uva.es.00100_large.jpg" type="verso"/>
    
 </body>
 </text>
