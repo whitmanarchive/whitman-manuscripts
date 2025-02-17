@@ -81,7 +81,10 @@
   <profileDesc>
    <handNotes>
     <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="letterpress" xml:id="h02" resp="#unk">Unknown</handNote>
+    <handNote medium="letterpress" xml:id="h02" resp="#unk">Unknown1</handNote>
+    <handNote medium="pencil" xml:id="h03" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h04" resp="#unk">Unknown2</handNote>
+    <handNote medium="black ink" xml:id="h05" resp="#ht">Horace Traubel</handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
@@ -91,19 +94,38 @@
  </teiHeader>
 
  <text type="manuscript">
-  <body>
+  
+   <pb xml:id="leaf001r" facs="loc_ew.00154.jpg" type="recto"/>
+  
+  <front>
+   <titlePage>
+   <note type="authorial" hand="#h01" place="top" rend="circled" xml:id="e001">ab't like this&#8212;I leave however mainly to your taste &amp; judgment&#8212;I want to see proof &amp; &#8211;I want the pressman to keep up as good a <hi rend="underline">strong</hi> color as can be maintain'd without clotting or muddy.<add place="below" hand="#h02"><metamark function="emphasize" target="#e001">&#9757;</metamark></add></note>
    
-<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
-   <lg type="poem">
-     <l></l>
-     <l></l>
-     <l></l>
-   </lg>
+   <addSpan rend="pasteon" spanTo="#a001" hand="#h02"/>
+    <docTitle><titlePart type="main"><add place="left" hand="#h03"><metamark function="emphasize" target="d001">&#977;</metamark></add><del rend="overstrike" hand="#h01"><del rend="overstrike" hand="#h03" xml:id="d001">*</del></del> COMPLETE <del rend="overstrike" hand="#h01" xml:id="d002">*</del><add place="right" hand="#h03"><metamark function="emphasize" target="#d002">&#977;</metamark></add><add place="right" hand="#h04" rend="marked"><metamark function="emphasize" target="#d002">cut out</metamark></add></titlePart>   
+   <anchor xml:id="a001"/>
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+   <figure>
+    <figDesc>A photographic portrait of Walt Whitman.</figDesc>
+   </figure>
    
-</body>
+   <addSpan rend="pasteon" spanTo="#a002" hand="#h02"/>
+    <titlePart type="main">POEMS &amp; PROSE</titlePart>
+    <titlePart type="main">of Walt Whitman</titlePart>
+    <titlePart type="sub">1855 . . . 1888</titlePart>
+    <titlePart type="desc">A<hi rend="smallcaps">UTHENTICATED</hi> &amp; P<hi rend="smallcaps">ERSONAL</hi> B<hi rend="smallcaps">OOK</hi> (<hi rend="italic">handled by W.W.</hi>)...</titlePart>
+    <titlePart type="desc"><hi rend="italic">Portraits from Life...Autograph.</hi></titlePart>
+   <anchor xml:id="a002"/>
+   
+   <note type="authorial" place="bottom" hand="#h04">proof wanted of <gap reason="illegible" extent="one word"/>positions</note>
+   <note type="authorial" place="bottom" hand="#h05">see notes Oct 28, '88</note>
+   </docTitle>
+   </titlePage>
+  </front>
+  <body><p></p></body>
+   
+   <pb xml:id="leaf001v" facs="loc_ew.00155.jpg" type="verso"/>
+   
+
 </text>
 </TEI>
