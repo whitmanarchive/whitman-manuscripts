@@ -57,7 +57,7 @@
      IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
      IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
     
-     <note type="work_relations" target="xxx." cert="">
+     <note type="work_relations" target="xxx.00503" cert="high">
       <p></p>
      </note>
    </notesStmt>
@@ -84,6 +84,7 @@
     <handNote medium="pencil" xml:id="h01" resp="#ww"/>
     <handNote medium="blue pencil" xml:id="h02" resp="#ww"/>
     <handNote medium="black ink" xml:id="h03" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h04" resp="#ht">Horace Traubel</handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
@@ -93,19 +94,27 @@
  </teiHeader>
 
  <text type="manuscript">
-  <body>
    
-<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
    <pb xml:id="leaf001r" facs="loc_ew.00156.jpg" type="recto"/>
-   <lg type="poem">
-     <l></l>
-     <l></l>
-     <l></l>
-   </lg>
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+   <front>
+    <titlePage>
+      <note type="authorial" hand="#h01" place="top">let the big &amp;c letters (as here) overlap the engraving ab't in the proportion as here I want the head to <hi rend="underline">set up</hi> on the page a little</note>
+      <docTitle>
+      <titlePart type="main">COMPLETE</titlePart>
+      <figure><figDesc>A photographic portrait of Walt Whitman.</figDesc></figure>
+      <titlePart type="main">Poems &amp; PROSE</titlePart><note type="authorial" place="right">big line across the whole page</note>
+      <titlePart type="main">of Walt Whitman</titlePart>
+      <titlePart type="sub">1855&#8211;1888</titlePart>
+      <titlePart type="desc"><hi rend="doubleUnderline">Authenticated &amp; Personal Book</hi> (<hi rend="underline">handled</hi></titlePart><note type="authorial" place="right">use the short &amp;</note>
+      <titlePart type="desc"><hi rend="underline">by W W</hi>)...<hi rend="underline">Portraits from Life</hi>...</titlePart>
+      <titlePart type="desc"><hi rend="underline">Autograph</hi>.</titlePart>
+      <note type="editorial" place="bottom" hand="#h04">see notes Oct 22, 1888</note>
+     </docTitle>
+    </titlePage>
+   </front>
    
-</body>
+   <pb xml:id="leaf001v" facs="loc_ew.00157.jpg" type="verso"/>
+   
 </text>
 </TEI>
