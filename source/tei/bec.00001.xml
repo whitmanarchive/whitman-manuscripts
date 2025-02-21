@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bec.00001"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main">Essay on Burns</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="ew">Emma Whaley</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2025</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>bec.00001</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+     <note type="work_relations" target="xxx.00467" cert="high">
+      <p>Fair copy prepared for publication in the <hi rend="italic">North American Review</hi> of November 1886 under the title "Robert Burns as Poet and Person." The leaves that make up this manuscript incorporate parts of a previous version, published in the New York Critic of December 16, 1882. That essay was itself a revision of an essay published in <hi rend="italic">Our Land and Time</hi> and the New York <hi rend="italic">Daily Graphic</hi> on January 25, 1875. The first page of this manuscript bears a note written by James Redpath, the editor of the <hi rend="italic">North American Review</hi> in 1886. Images of the versos are unavailable because the leaves have been mounted and bound in a volume that also includes a frontispiece from the 1860 edition of <hi rend="italic">Leaves of Grass</hi>. A note on the volume's cover reads "Presented by James Redpath, to James Fraser Gluck for the Buffalo Library A. D. 1886."</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>Manuscript of the essay “Robert Burns as poet and person.”</title>  
+
+     <date when="1886" cert="high"></date>
+     
+     <idno type="callno">Z 6621 .B929</idno>
+  
+     <orgName xml:id="bec">Buffalo &amp; Erie County Public Library	</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+      
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="letterpress" xml:id="h02" resp="#unk1" scope="minor"><name xml:id="unk1">Unknown 1</name></handNote>
+    <handNote medium="black ink" xml:id="h03" resp="#unk2" scope="minor"><name xml:id="unk2">Unknown 2</name></handNote>
+    <handNote medium="pencil" xml:id="h04" resp="#ww" scope="minor"/>
+    <handNote medium="red ink" xml:id="h05" resp="#ww" scope="minor"/>
+    <handNote medium="blue crayon" xml:id="h06" resp="#ww" scope="minor"/>
+    <handNote medium="letterpress" xml:id="h07" resp="#unk3" scope="minor"><name xml:id="unk3">Unknown 3</name></handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2025-02-20" who="#ew">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="bec_vm.00028_large.jpg" type="recto"/>
+   
+   <head hand="#h02">ORIGINAL MANUSCRIPT <hi rend="smallcaps">OF</hi> WALT WHITMAN.<lb/>ESSAY ON BURNS.<lb/>PRESENTED BY JAMES REDPATH, TO JAMES FRASER GLUCK FOR THE BUFFALO LIBRARY A. D. 1886.</head>
+   
+   <pb xml:id="leaf001v" facs="bec_vm.00030_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf002r" facs="bec_vm.00029_large.jpg" type="recto"/>
+   
+   <pb xml:id="leaf002v" facs="bec_vm.00002_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf003r" facs="bec_vm.00003_large.jpg" type="recto"/>
+   
+   <note type="editorial" place="left" hand="#h03"><gap reason="illegible" extent="four words"/></note>
+   
+   <head type="sub" rend="underline">Burns as Poet and Person.</head>
+   <milestone unit="glued"/>
+   <p>What the future will decide about Robert Burns and his <del rend="overstrike">pr</del> works&#8212;what <subst><del seq="1" rend="overstrike">position</del><add seq="2" place="above">place</add></subst> will be assigned them on <subst><del seq="1" rend="overstrike">the</del><add seq="2" place="above">that</add></subst> great roster of geniuses and genius <subst><del seq="1" rend="overstrike">that</del><add seq="2" place="above">which</add></subst> can only be finished by the <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">slow but sure</add> balancing of the centuries <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002" rend="marked">with their ample average</add>&#8212;I of course cannot tell. But as we know him, <add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003" rend="marked">from his recorded utterances and</add> after nearly <subst><del seq="1" rend="overstrike">a</del><del seq="3" rend="overstrike"><add seq="2" place="above">one</add></del><add seq="4" place="above">one</add></subst> century, and its diligence of collections, <add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">personal</add> songs, letters, anecdotes, <metamark function="emphasize">#</metamark> presenting the figure of the canny Scotch-man, in <add place="above">a</add> fullness and detail <subst><del seq="1" rend="overstrike">a</del><del seq="3" rend="overstrike"><add seq="2" place="above">of</add></del><add seq="4" place="above">,</add></subst> wonderfully complete<del rend="overstrike">ness</del>, and the lines mainly by his own hand, he <add place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a005">forms to&#11840;day in <subst><del seq="1" rend="overstrike">many</del><add seq="2" place="above">some</add></subst> respects,</add><del rend="overstrike">, a</del><add place="below"><metamark function="add" target="#a005">&#8248;</metamark></add> the most interesting Personality among <del rend="overstrike">the</del> singers. Then
+   
+   <pb xml:id="leaf003v" facs="bec_vm.00013_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf004r" facs="bec_vm.00012_large.jpg" type="recto"/>
+    
+   <note type="authorial" place="top">2</note>
+   
+   there <milestone unit="glued"/>are many things <del rend="overstrike">in</del> <add place="below"><metamark function="add" target="#a006">&#8248;</metamark></add><add place="above" xml:id="a006">in Burns's</add> poems and <del rend="overstrike">personal</del> char-acter <del rend="overstrike">of Robert Burns to</del> that <del rend="overstrike">should</del> specially endear him to America. He was essentially and Republican, <subst><del seq="1" rend="overstrike">and</del><add seq="2" place="above">&#8212;</add></subst>would have been at home <subst><del seq="1" rend="overstrike">in <unclear reason="illegible" resp="#ew">brokey</unclear></del><add seq="2" place="above">in the</add></subst> Western United States and <del rend="overstrike"><gap reason="illegible" extent="one word"/></del> <add place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><add place="above" xml:id="a007">probably</add> become <del rend="overstrike">an</del> eminent <subst><del seq="1" rend="overstrike">man</del><del seq="3" rend="overstrike"><add seq="2" place="above">person</add></del></subst><add place="below"><metamark function="add" target="#a008">&#8248;</metamark></add><add place="above" xml:id="a008">there.</add></p>
+   <milestone unit="glued"/>
+   <p>He <subst><del seq="1" rend="overstrike">was</del><add seq="2" place="above">a</add></subst> <add place="below"><metamark function="add" target="#a009">&#8248;</metamark></add><add place="above" xml:id="a009">was</add> <subst><del seq="1" rend="overstrike">the</del><add seq="2" place="above">an</add></subst> average <add place="below"><metamark function="add" target="#a010">&#8248;</metamark></add><add place="above" xml:id="a010">sample of</add> <del rend="overstrike">decent born young and early&#11840;middle-aged man</del> <add place="below"><metamark function="add" target="#a011">&#8248;</metamark></add><add place="above" xml:id="a011">the</add> good&#11840;natured, warm-blooded, proud-spirited, amative, alinentive, convivial, young and early&#11840;middle-aged man of <subst hand="#h04"><del seq="1" rend="overstrike">our</del><add seq="2" place="above">the</add></subst> <del rend="overstrike">the</del> decent&#11840;born <add place="below"><metamark function="add" target="#a012">&#8248;</metamark></add><add place="above" xml:id="a012">middle</add> <add hand="#h04" place="inline">classes,</add> <del rend="overstrike">races</del><add place="below" hand="#h04"><metamark function="add" target="#a013">&#8248;</metamark></add><add hand="#h04" place="above" xml:id="a013">everywhere and</add> any how. Without the <subst hand="#h04"><del seq="1" rend="overstrike">class</del><add seq="2" place="above">race</add></subst> of which he is a distinct<add hand="#h04" place="below"><metamark function="add" target="#a014">&#8248;</metamark></add><add hand="#h04" place="above" xml:id="a014">ive</add> specimen, <add place="below"><metamark function="add" target="#a015">&#8248;</metamark></add><add place="above" xml:id="a015">(and perhaps his poems are)</add> America and her <add place="below"><metamark function="add" target="#a016">&#8248;</metamark></add><add place="above" xml:id="a016">powerful</add> Democracy could not exist to&#11840;day&#8212;could not project with unparallel'd historic sway into the future.</p>
+   
+   <pb xml:id="leaf004v" facs="bec_vm.00015_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf005r" facs="bec_vm.00014_large.jpg" type="recto"/>
+   
+   <note type="authorial" place="top">3</note>
+   <milestone unit="glued"/>
+   <metamark function="emphasize"><add hand="#h05">&#182;</add></metamark><addSpan hand="#h04" spanTo="#a017"/>
+   <p><subst hand="#h01"><del seq="1" rend="overstrike">The</del><add seq="2" place="above" xml:id="a018">Perhaps the</add></subst> <add hand="#h01" place="below"><metamark function="add" target="#a018">&#8248;</metamark></add><subst><del seq="1" rend="overstrike">ea</del><del seq="3" rend="overstrike"><add seq="2" place="above">general</add></del><add seq="4" place="above">peculiar coloring of the</add></subst> era of Burns, <subst><del seq="1" rend="overstrike">with</del><add seq="2" place="above">in</add></subst> the world's history, biography, and civilization, <del hand="#h01" rend="overstrike"><subst><del seq="1" rend="overstrike">are</del><add seq="2" place="above">is</add></subst> not</del> <add hand="#h01" place="below"><metamark function="add" target="#a019">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a019">needs <subst><del seq="1" rend="overstrike">first</del><add seq="2" place="above">always</add></subst></add> <subst hand="#h01"><del seq="1" rend="overstrike">to be disallowed.</del><add seq="2" place="above"><add place="below"><metamark function="add" target="#a020">&#8248;</metamark></add><add place="above" xml:id="a020">first <del rend="overstrike">of all</del> to be</add>considered.</add></subst> It <subst><del seq="1" rend="overstrike">was</del><add seq="2" place="above" xml:id="a021">included</add></subst> <add place="below" hand="#h01"><metamark function="add" target="#a021">&#8248;</metamark></add> the times of the '76-'83 Revolution in America, <add place="below"><metamark function="add" target="#a022">&#8248;</metamark></add><add place="above" xml:id="a022">of the French Revolution</add> <del hand="#h01" rend="overstrike">and of</del> <del rend="overstrike">great chao</del> <add hand="#h01" place="above"><subst><del seq="1" rend="overstrike">with</del><add seq="2" place="above">and of</add></subst> the</add> <add place="below"><metamark function="add" target="#a023">&#8248;</metamark></add><add place="above" xml:id="a023">unparallel'd</add> chaos&#11840;<del rend="overstrike">and</del> development in <del rend="overstrike">all</del> Europe <delSpan rend="overstrike" spanTo="#d001"/>Great names <add place="below"><metamark function="add" target="#a024">&#8248;</metamark></add><add place="above" xml:id="a024">in every department</add> mark the era; <anchor xml:id="d001"/>and elsewhere<add hand="#h05" place="inline">,</add></p>
+   <metamark function="emphasize"><add hand="#h05" rend="marked">run in</add></metamark><note type="editorial" hand="#h05" place="right"><del rend="overstrike"><gap reason="illegible" extent="six words"/></del></note>
+   <p>In every department<add hand="#h01" place="below">,</add> <add hand="#h01" place="below"><metamark function="add" target="#a025">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a025">shining and strange</add> <del hand="#h01" rend="overstrike">great</del> names<add hand="#h01" place="below">,</add> like stars<add hand="#h01" place="below">,</add> some rising, some in meridian, some declining&#8212;Voltaire, Franklin, Washington, Kant, Goethe, Fulton, Na-poleon, <del hand="#h01" rend="overstrike">Walter Scott,</del> mark the era. <add place="above">And</add> While so much, and of moment fit for the trumpet of the world's fame was being trampled&#8212;<subst hand="#h01"><del seq="1" rend="overstrike">what</del><add seq="2" place="above">that</add></subst> little tragic comedy <add hand="#h01" place="below"><metamark function="add" target="#a026">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a026">of R.B's life and death</add> was going on in a county by place in Scotland!</p>
+   <anchor xml:id="a017"/>
+   
+   <pb xml:id="leaf005v" facs="bec_vm.00017_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf006r" facs="bec_vm.00016_large.jpg" type="recto"/>
+   
+   <note type="authorial" place="top">4</note>
+   
+   <metamark function="emphasize"><add hand="#h05">&#182;</add></metamark><p>Burns's correspondence, generally collected and published since his death,<add place="below"><metamark function="add" target="#a027">&#8248;</metamark></add><add place="above" xml:id="a027">(and <gap reason="illegible" extent="two words"/> in their <gap reason="illegible" extent="one word"/>,)</add> gives wonderful glints into both the amiable and weak (and worse than weak) parts of his portraiture, habits, good and bad luck, ambition and associations. His letters to Mrs. Dunlop, Mrs. McLehose, (Clarinda,) Mr. Thompson, Dr. Moore, Robert Muir, Mr. Cunningham, Miss Margaret Chabmers, Peter Hill, Richard Brown, Mrs. Riddel, Robert Ainsbie, and Robert Graham, afford valuable lights and shades to the outline, and, with numerous others, help to a touch here, and fill&#11840;in there, of poet and poems. There are suspicious, it is true of "The Genteel Letter&#11840;Writer", with scraps and words from "The Manual of French Quo-tations," and in the love&#11840;letters, some hollow nothings, yet we wouldn't on any account lack the letters. A full and true portrait is always what is wanted; veracity at every hazard. Besides, do not we all see by this time that the story of Burns, even for its own sake, requires
+   
+   <pb xml:id="leaf006v" facs="bec_vm.00019_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf007r" facs="bec_vm.00018_large.jpg" type="recto"/>
+   
+   <note type="authorial" place="top">5</note>
+   the record of the whole and several with nothing left out? Completely and <del rend="overstrike">for</del> minutely told, it fullest explains and justifies itself&#8212;(as perhaps almost any life does.) He is very close to the earth</p>
+   <metamark function="emphasize"><add hand="#h05" xml:id="a028">&#182;</add></metamark><metamark function="add" target="#a029"><add hand="#h05" place="below">&#8248;</add></metamark><metamark function="emphasize"><add hand="#h05" rend="marked">run in</add></metamark><p>He picked up his best words and tunes<milestone unit="glued"/>
+    <addSpan hand="#h06" spanTo="#a030"/>
+    <del hand="#h01" rend="overstrike">and tunes</del><add hand="#h01" place="below"><metamark function="add" target="#a031">&#8248;</metamark></add><add place="above" xml:id="a031">di<subst><del rend="overwrite" hand="#h01"><unclear reason="illegible" resp="#ew">le</unclear></del><add hand="#h01" rend="overwrite">re</add></subst>ctly</add> from the Scotch home-singers, <subst><del seq="1" rend="overstrike" hand="#h01">and</del><add seq="2" place="above">but</add></subst> tells <del rend="overstrike">Thomp</del> Thomson they would not pleas his<add hand="#h04" place="below">,</add> I's.<add hand="#h04" place="below">,</add> "learned bugs, adding. "I call them simple&#8212;you would pronounce them silly." <addSpan hand="#h04" spanTo="#a032"/>As before said, the Scotch <subst hand="#h05"><del seq="1" rend="overstrike">dialect</del><add seq="2" place="above">idiom</add></subst> was <add place="below" hand="#h01"><metamark function="add" target="#a033">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a033">undoubtedly</add> his happiest hit<add place="below">. </add> <add hand="#h01">(</add>yet<anchor xml:id="a032"/><milestone unit="glued"/>Dr Moore<add hand="#h01" place="below">,</add> <subst hand="#h01"><del seq="1" rend="overstrike">(</del><add seq="2" place="above">in</add></subst>1789<del hand="#h01" rend="overstrike">)</del> writes to Burns, "If I were to offer an opinon, it would be that in your future productions you should abandon the Scotch stanza and dialect, and adopt the measure and language of modern English poetry."!)</p>
+   <anchor xml:id="a030"/>
+   
+   <pb xml:id="leaf007v" facs="bec_vm.00021_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf008r" facs="bec_vm.00020_large.jpg" type="recto"/>
+   
+   <note type="authorial" place="top">6</note>
+   
+   <metamark function="emphasize"><add hand="#h05">&#182;</add></metamark><addSpan hand="#h07" spanTo="#a034"/>
+   <p>A<hi rend="smallcaps">s the</hi> 12<subst hand="#h01"><del seq="1" rend="overstrike">4</del><add seq="2" place="left" xml:id="a035">8<metamark function="emphasize" target="#a035">/</metamark></add></subst>th birth-anniversary of <subst hand="#h01"><del seq="1" rend="overstrike">Burns</del><add seq="2" place="above" xml:id="a036">the <del rend="overstrike">P</del>poet</add></subst> draws <subst hand="#h05"><del seq="1" rend="overstrike">pretty close,</del><add seq="2" place="right">on,</add></subst> (January, 188<subst hand="#h01"><del seq="1" rend="overstrike">3</del><add seq="2" place="left" xml:id="a037">7<metamark function="emphasize" target="#a037">7</metamark></add></subst>) with its <del hand="#h04" rend="overstrike">ever</del>-increasing club-suppers, vehement celebrations, letters, speeches, and so on, (mostly, as William O'Connor says, from people who would not have noticed R. B. at all during his actual life, nor kept his company, or read his verses, , on any account) it may be opportune to print some <subst hand="#h04"><del seq="1" rend="overstrike">jottings</del><add seq="2" place="right" rend="marked">leisurely&#11840;<gap reason="illegible" extent="two words"/></add></subst> I find in my budget. I take <subst hand="#h04"><del seq="1" rend="overstrike">my</del><add seq="2" place="left" rend="marked">my</add></subst> observation of the Scottish bard <del hand="#h04" rend="overstrike">not so much from the zealous points of view of his clannish and foreign race (for to America, he and all of them, are they not foreigners and clannish enough?) but</del> by considering him as an individual amid the crowded clusters, galaxies of the old world&#8212;and fairly inquiring and suggesting what out of those myriads he too may be to us, to the Western Republic. <add hand="#h01" place="below"><metamark function="add" target="#a038">&#8248;</metamark></add><add hand="#h01" place="right" xml:id="a038" rend="marked"><metamark function="add" target="#a038">&#8248;</metamark>In the first place</add> No poet on record so fully bequeaths <del hand="#h04" rend="overstrike" xml:id="d002">the reminiscence of</del><add hand="#h04" place="left"><metamark function="delete" target="#d002">d</metamark></add> his own personal magnetism,<metamark xml:id="a039" target="#a040">*</metamark> nor
+   <note type="authorial"><metamark xml:id="a040" target="#a039">*</metamark>Probably no man that ever lived&#8212;a friend has made the statement&#8212;was so fondly loved, both by men and women, as Robert Burns. The reason is not hard to find: he had a real heart of flesh and blood beating in his bosom; you cold almost hear it throb. Some one said, that if you had shaken hands with him his hand would have burnt yours. The gods, indeed, made him poetical, but nature had a hand in him first.</note></p>
+   <anchor xml:id="a034"/>
+   
+   <pb xml:id="leaf008v" facs="bec_vm.00023_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf009r" facs="bec_vm.00022_large.jpg" type="recto"/>
+   
+   <pb xml:id="leaf009v" facs="bec_vm.00025_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf010r" facs="bec_vm.00024_large.jpg" type="recto"/>
+   
+   <pb xml:id="leaf010v" facs="bec_vm.00027_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf011r" facs="bec_vm.00005_large.jpg" type="recto"/>
+   
+   <pb xml:id="leaf011v" facs="bec_vm.00026_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf012r" facs="bec_vm.00004_large.jpg" type="recto"/>
+   
+   <pb xml:id="leaf012v" facs="bec_vm.00007_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf013r" facs="bec_vm.00006_large.jpg" type="recto"/>
+   
+   <pb xml:id="leaf013v" facs="bec_vm.00009_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf014r" facs="bec_vm.00008_large.jpg" type="recto"/>
+   
+   <pb xml:id="leaf014v" facs="bec_vm.00011_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf015r" facs="bec_vm.00010_large.jpg" type="recto"/>
+   
+   <pb xml:id="leaf015v" facs="bec_vm.00032_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf016r" facs="bec_vm.00031_large.jpg" type="recto"/>
+   
+   <pb xml:id="leaf016v" facs="bec_vm.00001_large.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>
