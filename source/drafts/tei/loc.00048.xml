@@ -2,12 +2,12 @@
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00046"> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00048"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
     
-    <title level="m" type="main" rend="bracketed">let the big</title>
+    <title level="m" type="main" rend="bracketed">To printer</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -46,17 +46,12 @@
     </availability>
     
 
-   <idno>loc.00046</idno>
+   <idno>loc.00048</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
-<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
-     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
-     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
-     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
-    
-     <note type="work_relations" target="xxx.00503" cert="high">
+    <note type="work_relations" target="xxx.00503" cert="high">
       <p></p>
      </note>
    </notesStmt>
@@ -69,49 +64,52 @@
      
      <date when="1888" cert="high">1888</date>
      
-     <idno type="callno">mss18630, box 19; reel 12</idno>
+     <idno type="callno">mss18630, box 19, reel 12</idno>
      
      <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-      
+      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
+     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
+     <relatedItem type="document" target="wwa.00041"/>
+     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="pencil" xml:id="h01" resp="#ww" scope="major"/>
-    <handNote medium="blue pencil" xml:id="h02" resp="#ww" scope="minor"/>
-    <handNote medium="black ink" xml:id="h03" resp="#ww" scope="minor"/>
-    <handNote medium="black ink" xml:id="h04" resp="#ht" scope="minor">Horace Traubel</handNote>
+    <handNote medium="pencil" xml:id="h01" resp="#ww"/>
+    <handNote medium="blue pencil" xml:id="h02" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h03" resp="#ww"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
- <change when="2025-02-19" who="#kmh">transcribed and encoded</change>
+
+ <change when="2025-02-24" who="#kmh">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
    
-   <pb xml:id="leaf001r" facs="loc_ew.00156.jpg" type="recto"/>
+  <pb xml:id="leaf001r" facs="loc_ew.00186.jpg" type="recto"/>
+  
+  <front>
+   <titlePage>
+    <note type="authorial" place="top" hand="#h01"><hi rend="underline">To printer</hi>&#8212;This is the size of the <gap reason="illegible" extent="one word"/>&#8212;you see the page fo title is a little larger than the <gap reason="illegible" extent="one word"/>&#8212;the picture sample gives you my idea of it all</note>
+    <docTitle>
+     <titlePart type="main">COMPLETE</titlePart>
+     <note type="authorial" place="inspace" rend="circled">Picture here ab't this size the print of the letters top &amp; bottom will have to come over<add place="above" hand="#h03">lap on</add> the picture (no objection to this properly done)</note>
+     <titlePart type="main">POEMS &amp; PROSE</titlePart>
+     <titlePart type="sub">of Walt Whitman<lb/> 1855-1888</titlePart>
+     <titlePart type="desc"><hi rend="doubleUnderline">Authenticated &amp; Personal Book</hi> (hand&#8211;<lb/> dled by W W)...Autograph...Por&#8211;<lb/> traits from Life.<add place="inline" hand="#h01">...</add><del rend="overstrike">1855-1888-'9.</del></titlePart>
+    </docTitle>
+   </titlePage>
+  </front>
+        
+<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
+   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
    
-   <front>
-    <titlePage>
-      <note type="authorial" hand="#h01" place="top">let the big &amp;c letters (as here) overlap the engraving ab't in the proportion as here I want the head to <hi rend="underline">set up</hi> on the page a little</note>
-      <docTitle>
-      <titlePart type="main"><retrace hand="#h03">COMPLETE</retrace></titlePart>
-      <figure><figDesc>A photographic portrait of Walt Whitman.</figDesc></figure>
-      <titlePart type="main">Poems &amp; PROSE</titlePart><note type="authorial" place="right">big line across the whole page</note>
-      <titlePart type="sub">of Walt Whitman<lb/> 1855&#8211;1888</titlePart>
-      <titlePart type="desc"><hi rend="doubleUnderline">Authenticated &amp; Personal Book</hi> (<hi rend="underline">handled</hi><lb/> <hi rend="underline">by W W</hi>)...<hi rend="underline">Portra<lb/> its from Life</hi>...<lb/> <hi rend="underline">Autograph</hi>.</titlePart>
-      <note type="authorial" place="right">use the short &amp;</note>
-      <note type="editorial" place="bottom" hand="#h04">see notes Oct 22, 1888</note>
-     </docTitle>
-    </titlePage>
-   </front>
-   
-   <pb xml:id="leaf001v" facs="loc_ew.00157.jpg" type="verso"/>
-   
+
 </text>
 </TEI>
