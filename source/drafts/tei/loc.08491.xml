@@ -8,7 +8,7 @@
   <fileDesc>
    <titleStmt>
     
-    <title level="m" type="main" rend="bracketed">By Morning</title>
+    <title level="m" type="main" rend="bracketed">y Morning</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -52,12 +52,7 @@
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
-<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
-     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
-     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
-     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
-    
-     <note type="work_relations" target="xxx." cert="">
+     <note type="work_relations" target="xxx.00480" cert="high">
       <p></p>
      </note>
    </notesStmt>
@@ -70,46 +65,38 @@
      
 <!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
        BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date when="1888" cert="high">1888</date>
+     <date when="1887" cert="high">1887</date>
      
-     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     <idno type="callno">loc.08491</idno>
      
-<!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
-      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
-     <orgName xml:id=""></orgName>
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839-1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
-     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-     <relatedItem type="document" target="wwa.00041"/>
+      
      <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
-   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="blue ink" xml:id="h02" resp="#unk"></handNote>
-    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
+   <handNotes>
+    <handNote medium="letterpress" xml:id="h01" resp="#unk1"><name>Unknown1</name></handNote>
+    <handNote medium="blue pencil" xml:id="h02" resp="#unk2"><name>Unknown2</name></handNote>
+    <handNote medium="black ink" xml:id="h03" resp="#ww"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
-<!-- IN THE FOLLOWING <CHANGE> ELEMENT EDIT THE @WHEN TO REFLECT TODAY'S DATE. IF YOU AREN'T TARA, CHANGE THE INITIALS AFTER THE POUND SIGN IN @WHO -->
- <change when="2024-01-20" who="#tb">transcribed and encoded</change>
+ <change when="2025-03-03" who="#kmh">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
-   <lg type="poem">
-     <l></l>
-     <l></l>
-     <l></l>
-   </lg>
+   <pb xml:id="leaf001r" facs="loc_kmh.00001.jpg" type="recto"/>
+   <p>y Morning, June 11&#8212;<del rend="overstrike" hand="#h03">On a sand</del><gap reason="cut away" extent="one word"/><del rend="overstrike" hand="#h03">the St. Clair flats, where we had been stuck for a couple of hours.</del>We pass<del rend="overstrike" hand="#h03">e</del>d down Lake Huron <choice><orig>yester-<lb/> day</orig><reg>yesterday</reg></choice> and last night, and between 4 and 5 o'clock this morning we ran on the "flats," and have been mainly trying, with the aid of a steam <gap reason="cut away" extent="one word"/> and a <choice><orig>lum-<lb/> bering</orig><reg>lumbering</reg></choice> lighter, to get cl<gap reason="cut away" extent="three letters"></gap> again. The day is beautiful and th<gap reason="cut away" extent="four letters"/>er clear and calm. Night before last we stop<del rend="overstrike">ped</del> at Mackinaw, (the island and town,) and I went up on the old fort, one of the <choice><orig>old-<lb/> est</orig><reg>oldest</reg></choice> stations in the Northwest. We expect to get to Buffalo by to-morrow. The tug has fasten<del rend="overstrike" hand="#h03">ed</del> lines to us, but some have been snap<del rend="overstrike" hand="#h03">ped</del> and the others have no effect. We seem to be firmly <choice><orig>imbed-<lb/> ded</orig><reg>imbedded</reg></choice> in the sand. (With the exception of a larger boat and better <choice><orig>accommoda-<lb/> tions</orig><reg>accommodations</reg></choice>, it amounts to about the same thing as a becalmment I underwent on the Mountauk voyage, East Long Island, last summer.)  Later.&#8212;We are off again&#8212;expect to reach Detroit before dinner.</p>
+   <p>We did not stop at Detroit. We are now on Lake Erie, jogging along at a good round pace. A couple of hours since we were on the river above.  <choice><orig>De-<lb/> troit</orig><reg>Detroit</reg></choice> seem<del rend="overstrike" hand="#h03">e</del>d to me a pretty place and thrifty. I especially liked the looks of the Canadian shore opposite and of the little village of Windsor, and, indeed, all along the banks of the river. From the shrubbery and the neat appearance of some of the cottages, I think it must have been settled by the French. While I now write we can see a little distance ahead the scene of the battle between Perry's fleet and the British during the last war with England. The lake looks to me like a fine sheet of water. We are having a beautiful day.</p>
+   <p>June 12.&#8212;We stop<del rend="overstrike" hand="#h03">ped</del> last evening at Cleveland, and though it was dark, I took the opportunity of rambling about the place; went up in the heart of the city and back to what appear<del rend="overstrike" hand="#h03">ed</del> to be the courthouse. The streets are <choice><orig>unusu-<lb/> ally</orig><reg>unusually</reg></choice> wide, and the buildings appear to be substantial and comfortable. We went down through Main street and found, some distance along, several squares of ground very prettily planted with trees and looking attractive enough. Return<del rend="overstrike" hand="#h03">e</del>d to the boat by way of the lighthouse on the hill.</p>
    
 <!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
    <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
