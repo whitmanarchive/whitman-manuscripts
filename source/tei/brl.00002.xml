@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="brl.00002"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main" rend="bracketed">My Book and I</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+
+     <persName xml:id="ew">Emma Whaley</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2025</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>brl.00002</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+     <note type="work_relations" target="xxx.<!-- can't find the xxx on tracking database -->" cert="high">
+      <p>A late-stage draft, with printer's notes, of the essay "My Book and I," which was first published in <hi rend="italic">Lippincott's</hi> in January 1887. Much of this essay appeared, slightly altered, in "A Backward Glance O'er Travel'd Roads," published in <hi rend="italic">November Boughs</hi> in 1888.</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     
+
+     <date notBefore="1886" notAfter="1887" cert="high"></date>
+     
+     <idno type="callno">Ashley MS 5133</idno>
+     
+     <orgName xml:id="brl">By permission of The British Library</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+      
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="letterpress" xml:id="h02" resp="#unk1" scope="minor"><name xml:id="unk1">Unknown</name></handNote>
+    <handNote medium="red ink" xml:id="h03" resp="#ww" scope="minor"/>
+    <handNote medium="letterpress" xml:id="h04" resp="#unk2" scope="minor"><name xml:id="unk2">Unknown</name></handNote>
+    <handNote medium="pencil" xml:id="h05" resp="#unk3" scope="minor"><name xml:id="unk3">Unknown</name></handNote>
+    <handNote medium="black ink" xml:id="h06" resp="#unk4" scope="minor"><name xml:id="unk4">Unknown</name></handNote>
+    <handNote medium="pencil" xml:id="h07" resp="#ww" scope="minor"/>
+    <handNote medium="red crayon" xml:id="h08" resp="#ww" scope="minor"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+
+ <change when="2025-03-06" who="#ew">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+
+   <pb xml:id="leaf001r" facs="brl_ak.00001_large.jpg" type="recto"/>
+   
+   <note type="archival" hand="#h04" place="top">BRIT. MUS.<lb/>ASHLEY LS.<lb/>5133</note>
+   <note type="archival" hand="#h04" place="left">674<lb/>b18</note>
+
+   <pb xml:id="leaf001v" facs="brl_ak.00002_large.jpg" type="verso"/>
+   
+   <note type="archival" place="top" hand="#h05">Ashley. 5133<lb/>unbound</note>
+   
+   <pb xml:id="leaf002r" facs="brl_ak.00003_large.jpg" type="recto"/>
+   
+   <note type="editorial" place="top" hand="#h06">Gibbs</note>
+   <note type="archival" place="right" hand="#h05">1</note>
+   
+   <head rend="underline">My Book and I.</head>
+   
+   <p><hi rend="underline">Perhaps</hi> the best of a song heard, or of any and all true love, or life's fairest episodes, or sailors', or soldiers' trying scenes on land or sea, in the floating <hi rend="underline">r&#233;sum&#233;</hi> of them, or any of them, long afterward, looking at the actualities away back past, with all <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><subst><del seq="1" rend="overstrike">actual</del><add seq="2" place="above" xml:id="a001">their practical</add></subst> excitations gone. How the soul loves to hover over such <subst><del seq="1" rend="overstrike">past experiences!</del><add seq="2" place="above">reminiscences!</add></subst></p>
+   
+   <metamark function="emphasize" target="#a002"><add hand="#h03">&#182;</add></metamark><p xml:id="a002">So here I sit, gossipping in the early candlelight of old age&#8212;I and my book&#8212;casting backward glances over our traveled road. After
+   
+   <pb xml:id="leaf002v" facs="brl_ak.00004_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf003r" facs="brl_ak.00005_large.jpg" type="recto"/>
+   
+    <note type="archival" place="right" hand="#h05">2</note>
+    <note type="authorial" place="top">2</note>
+    
+   completing, as it were, the journey, (a varied jaunt of years, <del rend="overstrike">rather,</del> with many halts and gaps of intervals&#8212;or some lengthened ship-voyage <milestone unit="glued"/> wherein more than once the last hour had apparently arrived, and we seem'd certainly, <del rend="overstrike">gone</del> going down&#8212;yet reaching port in a certain fashion <del rend="overstrike">and</del> through all discomfitures at last_&#8212;After <milestone unit="glued"/><addSpan hand="#h07" spanTo="#a003"/>completing <subst><del seq="1" rend="overstrike">this Book,</del><del seq="3" rend="overstrike"><add seq="2" place="above"><unclear reason="illegible" resp="#ew">learney</unclear></add></del><add seq="4" place="above" xml:id="a004">my poems,</add></subst><add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add> and letting an interval elapse to settle <subst hand="#h08"><del seq="1" rend="overstrike">matters</del><add seq="2" place="above">them</add></subst>, I am curious to review <subst hand="#h01"><del seq="1" rend="overstrike">them</del><add seq="2" place="right">all</add></subst> in the light of their own (<add hand="#h01" place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><subst hand="#h01"><del seq="1" rend="overstrike">strangely, originally</del><add seq="2" place="above" xml:id="a005">at the time</add></subst> unconscious, or mostly unconscious) intentions, with <subst><del seq="1" rend="overstrike">some of the</del><add seq="2" place="above">certain</add></subst> unfoldings of the thirty years they seek to embody. <subst hand="#h01"><del seq="1" rend="overstrike">These Glances</del><add seq="2" place="above">These glances</add></subst> therefore will probably<anchor xml:id="a003"/><milestone unit="glued"/> blend the weft, of first purposes and speculations with the warp of that experience afterward, al<gap reason="illegible" extent="three letters"/>ys bringing strange developements.</p>
+   
+   <pb xml:id="leaf003v" facs="brl_ak.00006_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf004r" facs="brl_ak.00007_large.jpg" type="recto"/>
+   
+   <note type="archival" place="right" hand="#h05">3</note>
+   <note type="authorial" place="top"><del hand="#h05" rend="overstrike">3</del></note>
+   
+   <metamark function="emphasize" target="#a006"><add hand="#h03">&#182;</add></metamark><p xml:id="a006">Result of seven or eight stages and struggles extending through nearly thirty years, <add place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><add place="above" xml:id="a007" rend="marked">O look upon</add> "Leaves of Grass", <add place="below"><metamark function="add" target="#a008">&#8248;</metamark></add><add place="above" xml:id="a008">now,</add> finished <del rend="overstrike">at last</del> to the end of <subst><del seq="1" rend="overstrike">my</del><add seq="2" place="above">its</add></subst> opportunities and powers, as my definitive <hi rend="underline">carte visite</hi> to the coming generations of the New World<ref xml:id="r1" target="#n1"><metamark function="link">*</metamark></ref>, if I may assume to say so. That I have not gained
+   <milestone unit="glued"/>
+   <note type="authorial" hand="#h03" rend="marked">note at bottom smaller type</note>
+    <note type="authorial" xml:id="n1" target="#r1"><metamark function="link">* note</metamark> When Champollion, on his death-bed handed to the printer the <subst><del seq="1" rend="overstrike">revised</del><del seq="3" rend="overstrike" hand="#h03"><add seq="2" hand="#h03" place="above">lost</add></del><add seq="4" hand="#h03" place="above">revised</add></subst> proof of his "Egption Grammar" he said gaily, <del rend="overstrike">"Take care of these"</del> "Be careful of this&#8212;it is my <hi rend="underline">carte de visite</hi> to postera</note>
+    <milestone unit="glued"/>
+   the acceptance of my own time, but have fallen back on fond dreams of the future ("Still lives the song, though Regnar dies,")&#8212;that from a worldly and business point of view, L. of G. has been worse than a failure&#8212;that after thirty years of trial public criticism on the book, and myself as author of it shows marked anger and contempt more than any thing else,&#8212;("I find a solid line of
+   
+   <pb xml:id="leaf004v" facs="brl_ak.00008_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf005r" facs="brl_ak.00009_large.jpg" type="recto"/>
+   
+    <note type="archival" place="right" hand="#h05">4</note>
+    <note type="authorial" place="top"><del hand="#h05" rend="overstrike">4</del></note>
+   
+   enemies to you everywhere"&#8212;letter from W.S.K. Boston, May 28, 1884)&#8212;and that solely for publishing it, I have been the
+   <milestone unit="glued"/>
+   <addSpan hand="#h02" spanTo="#a009"/>
+    object of two or three <del rend="overstrike" hand="#h01">to me</del> pretty serious official buffetings&#8212;is <add hand="#h01" place="below"><metamark function="add" target="#a009">&#8248;</metamark></add><add hand="#h01" place="right" xml:id="a009"><metamark function="add" target="#a009">&#8248;</metamark>all</add> probably no more than I ought to have expected. I had my choice when I commenced. I bid neither for soft eulogies, big money returns, nor the approbation of existing schools and conventions.
+   <anchor xml:id="a009"/>
+    <milestone unit="glued"/>
+    <metamark><add hand="#h03" rend="marked">run in</add></metamark>
+   As fulfilled, or partially fulfilled, the best comfort of the whole business'&#8212;(after<milestone unit="glued"/> a small band of the dearest friends and upholders ever vouchsafed to man or <add place="below"><metamark function="add" target="#a010">&#8248;</metamark></add><subst><add seq="2" place="above" xml:id="a010">cause&#8212;</add><del seq="1" rend="overstrike" hand="#h07">book&#8212;</del></subst>doubtless all the more faithful and uncompromising&#8212;this little phalanx!&#8212;for being so few,) is, that<add place="below"><metamark function="add" target="#a011">&#8248;</metamark></add><add place="above" xml:id="a011" rend="marked">&#8212;unstopp'd and unwork'd by any influence outside the soul within me&#8212;</add>I have had my say entirely my own way, and put it <del rend="overstrike"><add place="above">add</add></del> unerringly on record&#8212;the value there<add place="inline">of</add> to be decided by time.</p>
+   <milestone unit="glued"/>
+   <metamark function="emphasize" target="#a012"><add hand="#h03">&#182;</add></metamark><p xml:id="a012">In calculating that decision, William O'Connor and Dr Bucke are far more peremptory than I am. Behind all else that can be, said I consider L of G. and its theory, <del rend="overstrike">with it as</del> experiemental&#8212;as, in the deepest sense, I consider our American Republic itself to be, with its
+   
+   <pb xml:id="leaf005v" facs="brl_ak.00010_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf006r" facs="brl_ak.00011_large.jpg" type="recto"/>
+   
+    <note type="archival" place="right" hand="#h05">5</note>
+    <note type="authorial" place="top"><del hand="#h05" rend="overstrike">5</del></note>
+    
+   theory. I think I have at least enough of philosophy not to be too <add place="below"><metamark function="add" target="#a013">&#8248;</metamark></add><add place="above" xml:id="a013">absolutely</add> certain of any thing, or any results. In the second place, the volume is a <hi rend="underline">sortie</hi>&#8212;whether to prove triumphant, and <unclear reason="illegible" resp="#ew">congruer</unclear> its <del rend="overstrike">fa</del> field of aim and escape and construction, <subst><del seq="1" rend="overstrike">only</del><add seq="2" place="above" xml:id="a014">nothing less than</add></subst><add place="below"><metamark function="add" target="#a014">&#8248;</metamark></add> a hundred years from now can <add place="below"><metamark function="add" target="#a015">&#8248;</metamark></add><add place="above" xml:id="a015">fully</add> answer. I consider the point that I have positively gained a hearing to far more than make up for any and all other lacks and withholding. Essentially <add place="below"><metamark function="add" target="#a016">&#8248;</metamark></add><add place="above" xml:id="a016" rend="underline">that</add> was from the first, and has remained throughout, the main object. Now <del rend="overstrike">that</del> it is achieved, I am certainly contented to waive any otherwise momentous drawbacks, as of little account.</p>
+
+   <pb xml:id="leaf006v" facs="brl_ak.00012_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf007r" facs="brl_ak.00013_large.jpg" type="recto"/>
+   
+   <note type="archival" place="right" hand="#h05">6</note>
+   <note type="authorial" place="top"><del hand="#h05" rend="overstrike">6</del></note>
+   
+   
+   
+   <pb xml:id="leaf007v" facs="brl_ak.00014_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf008r" facs="brl_ak.00015_large.jpg" type="recto"/>
+   
+   <pb xml:id="leaf008v" facs="brl_ak.00016_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf009r" facs="brl_ak.00017_large.jpg" type="recto"/>
+   
+   <pb xml:id="leaf009v" facs="brl_ak.00018_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf010r" facs="brl_ak.00019_large.jpg" type="recto"/>
+   
+   <pb xml:id="leaf010v" facs="brl_ak.00020_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf011r" facs="brl_ak.00021_large.jpg" type="recto"/>
+   
+   <pb xml:id="leaf011v" facs="brl_ak.00022_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf012r" facs="brl_ak.00023_large.jpg" type="recto"/>
+   
+   <pb xml:id="leaf012v" facs="brl_ak.00024_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf013r" facs="brl_ak.00025_large.jpg" type="recto"/>
+   
+   <pb xml:id="leaf013v" facs="brl_ak.00026_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf014r" facs="brl_ak.00027_large.jpg" type="recto"/>
+   
+   <pb xml:id="leaf014v" facs="brl_ak.00028_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf015r" facs="brl_ak.00029_large.jpg" type="recto"/>
+   
+   <pb xml:id="leaf015v" facs="brl_ak.00030_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf016r" facs="brl_ak.00031_large.jpg" type="recto"/>
+   
+   <pb xml:id="leaf016v" facs="brl_ak.00032_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf017r" facs="brl_ak.00033_large.jpg" type="recto"/>
+   
+   <pb xml:id="leaf017v" facs="brl_ak.00034_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf018r" facs="brl_ak.00035_large.jpg" type="recto"/>
+   
+   <pb xml:id="leaf018v" facs="brl_ak.00036_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf019r" facs="brl_ak.00037_large.jpg" type="recto"/>
+   
+   <pb xml:id="leaf019v" facs="brl_ak.00038_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf020r" facs="brl_ak.00039_large.jpg" type="recto"/>
+   
+   <pb xml:id="leaf020v" facs="brl_ak.00040_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf021r" facs="brl_ak.00041_large.jpg" type="recto"/>
+   
+   <pb xml:id="leaf021v" facs="brl_ak.00042_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf022r" facs="brl_ak.00043_large.jpg" type="recto"/>
+   
+   <pb xml:id="leaf022v" facs="brl_ak.00044_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf023r" facs="brl_ak.00045_large.jpg" type="recto"/>
+   
+   <pb xml:id="leaf023v" facs="brl_ak.00046_large.jpg" type="verso"/>
+   
+   
+</body>
+</text>
+</TEI>
