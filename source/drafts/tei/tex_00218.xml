@@ -2,12 +2,12 @@
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00203"> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05452"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
     
-    <title level="m" type="main" rend="bracketed">While so many kings</title>
+    <title level="m" type="main" rend="bracketed">Good-Bye my Fancy Printer's Notes [lettered pages]</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -24,7 +24,7 @@
    </titleStmt>
    <editionStmt>
     <edition>
-     <date>2025</date>
+     <date>2024</date>
     </edition>
    </editionStmt>
    <publicationStmt>
@@ -46,13 +46,18 @@
     </availability>
     
 
-   <idno>tex.00203</idno>
+   <idno><!--  THE UNIQUE ID GOES HERE, TOO  --></idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
-     <note type="work_relations" target="xxx.00486" cert="high">
-      <p>The phrase "while so many kings" appears in the first paragraph of the piece "NOTES (such as they are) founded on ELIAS HICKS," and the dates 1830 and 1748 (in the top right corner of this ms.) correspond to the birth and death years of E.H., which suggests W.W. was calculating his age at the time of his death.</p>
+<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
+     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
+     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
+     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
+    
+     <note type="work_relations" target="xxx." cert="">
+      <p></p>
      </note>
    </notesStmt>
    
@@ -62,59 +67,51 @@
      
      <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
      
-     <date when="1888">1888</date>
+<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
+       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
+     <date notBefore="" notAfter="" cert=""></date>
      
      <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
      
-     <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+<!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
+      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
+     <orgName xml:id=""></orgName>
      
      <note>Transcribed from digital images of the original.</note>
-      
+      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
+     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
+     <relatedItem type="document" target="wwa.00041"/>
+     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
-   <handNotes>
+   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
     <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="pencil" xml:id="h02" resp="#ww"/>
+    <handNote medium="blue ink" xml:id="h02" resp="#unk"></handNote>
+    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
- <change when="2025-01-27" who="#kmh">transcribed and encoded</change>
+<!-- IN THE FOLLOWING <CHANGE> ELEMENT EDIT THE @WHEN TO REFLECT TODAY'S DATE. IF YOU AREN'T TARA, CHANGE THE INITIALS AFTER THE POUND SIGN IN @WHO -->
+ <change when="2024-01-20" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-   <pb xml:id="leaf001r" facs="tex.00203.001_large.jpg" type="recto"/>
-   
-   <note type="authorial" hand="#h02" place="top">1830<lb/> <hi rend="underline">1748</hi><lb/> 82</note>
-   <lg type="linegroup">
-    <l>&#8212;While <subst><del rend="overstrike">great</del><add place="above">so many</add></subst> kings, generals, <add place="below" hand="#h02"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001" hand="#h02">philosophers</add> poets</l>
-    <l>enter<add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">ing</add> at one side</l>
-    <l><del rend="overstrike">enter</del> cross the stage <del rend="overstrike">p</del> and disappear</l>
-    <l>at the other</l>
+<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
+   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
+   <lg type="poem">
+     <l></l>
+     <l></l>
+     <l></l>
    </lg>
-    <list>
-     <item>R Burns 1759-1796</item>
-     <item>while Mungo Park <add place="below"><metamark function="add" target="#a003"></metamark></add><add place="above" xml:id="a003"><del rend="overstrike">?</del> 1771-1804</add> is travelling in Africa</item>
-     <item>Decatur (1804)</item>
-     <item>Nelson (1798)<lb/> 1805</item>
-     <item><subst><del rend="overstrike">Shelly</del><add place="above">Shelley</add></subst></item>
-     <item>Walter Scott</item>
-     <item>Byron</item>
-     <cb/>
-     <item>Fulton 1807</item>
-     <item>&#8212;the sea-fight of the<lb/> Constitution and the Guerriere<lb/> 1812</item>
-     <item>&#8212;Decatur<del rend="overstrike">e</del> capturing the<lb/> Macedonian (1812)</item>
-     <item>&#8212;Waterloo June 18 1815</item>
-     <item>Hieroglyphics deciphered 1822&#8212;Champollion</item>
-    </list>
    
-   
-   <pb xml:id="leaf001v" facs="tex.00203.002_large.jpg" type="verso"/>
+<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
+   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
    
 </body>
 </text>
