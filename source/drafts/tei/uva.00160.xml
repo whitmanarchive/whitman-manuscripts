@@ -84,7 +84,7 @@
   </profileDesc>
 <revisionDesc>
  
- <change when="2025-03-05" who="#tb">transcribed and encoded</change>
+ <change when="2025-03-08" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -93,9 +93,15 @@
    
    <pb xml:id="leaf001r" facs="uva.00160.001.jpg" type="recto"/>
    <lg type="poem">
-     <l></l>
-     <l></l>
-     <l></l>
+     <note type="authorial" hand="#h02" place="top">sent Herald<lb/>March 8</note>
+     <head hand="#h02">The Dead Emperor</head>
+     <l><handShift new="#h01"/>With bending head and eyes, thou too<lb/>
+           Columbia</l>
+     <l>Less for for the might crown laid low <add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">in sorrow</add> &#8212;<lb/>
+           less for the Emperor</l>
+    <l><subst><del rend="overstrike" seq="1">A</del><add place="above" seq="2">Thy</add></subst> true condolence <subst><del rend="overstrike" seq="1">bringest</del><add place="above" seq="2">sendest</add></subst> <subst><del rend="overstrike" seq="1">mourning</del><add place="above" hand="#h02" seq="2">breathest <unclear reason="illegible" cert="low" resp="#tb">out</unclear></add></subst><lb/>
+          <subst><del rend="overstrike" seq="1">mourning</del><del rend="overstrike" seq="3"><add place="above" seq="2">o'er the seas, afar</add></del><add place="above" hand="#h02" seq="4">many a salt sea mile.</add></subst></l>
+    <l><subst><del rend="overstrike" seq="1">A</del><add place="above" seq="2">mourning a</add></subst> good ole man <add place="above" seq="1">&#8212; the faithful shepherd, <del rend="overstrike" seq="2">&#8212;</del></add>&#8212; a patriot, &#8212; <del rend="overstrike">natural</del></l>
    </lg>
    
    <pb xml:id="leaf001v" facs="uva.00160.002.jpg" type="verso"/>
