@@ -2,12 +2,12 @@
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="<!-- ADD THE UNIQUE ID HERE -->"> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00039"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
     
-    <title level="m" type="main" rend="bracketed">yal.00039</title>
+    <title level="m" type="main">Fancies at Navesink</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -80,12 +80,12 @@
     <handNote medium="pencil" xml:id="h01" resp="#ww"/>
     <handNote medium="blue pencil" xml:id="h02" resp="#ww"></handNote>
     <handNote medium="pencil" xml:id="h03" resp="#unk"/><handNote xml:id="unk">Unknown</handNote>
-    <handNote medium="pencil" xml:id="h04" resp="#unk2"/><handNote xml:id="unk">Unknown2</handNote>
+    <handNote medium="pencil" xml:id="h04" resp="#unk2"/><handNote xml:id="unk2">Unknown2</handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
- <change when="2025-03-12" who="#tb">transcribed and encoded</change>
+ <change when="2025-03-18" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -96,14 +96,20 @@
    <lg type="poem">
      <note type="archival" hand="#h04" place="above">1</note>
      <head hand="#h02"><hi rend="underline">Fancies at Navesink</hi></head>
-     <l>After the Supper and Talk</l>
+     <l><handShift new="#h01"/>After the Supper and Talk</l>
      <l>you lingering sparse leaves of me</l>
      <l>As <add place="inline">published</add> not that granite dead &amp; cold</l>
      <l>You tides with ceaseless swell &amp; ebb</l>
-     <l></l>
-     <l></l>
-     <l></l>
+     <l>2 Lust of ebb &amp; day light waning</l>
+     <l>3 Proudly the flood comes in</l>
+     <l>4 with every heaving wave</l>
+     <l>5 For last of all</l>
+     <l><hi rend="marked">Fancies at Navesink<lb/>
+        The Pilot in the Mist<lb/>
+      <subst><del rend="overstrike" seq="1">Ah not this g</del><add place="above" seq="2">Had I this choice</add></subst></hi></l>
    </lg>
+   
+    <note type="editorial" hand="#h03" place="bottom">(This was pasted on wrapper)</note>
    
    <pb xml:id="leaf001v" facs="yal.00072.009_large.jpg" type="verso"/>
    

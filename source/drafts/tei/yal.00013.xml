@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00013"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main">Funeral Interpolations</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="tb">Tara Ballard</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2025</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>yal.00013</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+<!-- Tara to finish target/xxx -->    
+     <note type="work_relations" target="xxx." cert="high">
+      <p>This is a signed draft of "Funeral Interpolations," a poem published first as "Over and Through the Burial Chant" in the <hi rend="italic">New York Herald</hi> on August 12, 1888, on the occasion of General Philip Henry Sheridan's death (on August 5), and later as "Interpolation Sounds" in <hi rend="italic">Good-Bye My Fancy</hi> (1891).</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>Funeral Interpolations</title>  
+     
+     <date cert="high">August 1888</date>
+     
+     <idno type="callno">box 3</idno>
+     
+     <orgName xml:id="yal">Walt Whitman Literary Manuscripts in The Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+    
+<!-- finish relatedItems Tara -->     
+     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
+     <relatedItem type="document" target="wwa.00041"/>
+     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+    </bibl>
+    
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="pencil" xml:id="h01" resp="#ww"/>
+    <handNote medium="blue pencil" xml:id="h02" resp="#ww"></handNote>
+    <handNote medium="black ink" xml:id="h03" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h04" resp="#unk"/><handNote xml:id="unk">Unknown</handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2025-03-20" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
+   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
+   <lg type="poem">
+    <note type="authorial" place="top" hand="#h01" rend="marked"><del rend="overstrike" hand="#h02">Put this in the day of Sheridan's<lb/> burial ceremonies &#8212; personal</del><add place="inline" hand="#h03">(proofreader please by copy)</add></note>
+     <note type="authorial" place="top" hand="#h02"><hi rend="underline">ad sheridan</hi><lb/><unclear reason="illegible" cert="low" resp="#tb"/> lead</note>
+    <head><add place="above" hand="#h04">533</add><add place="inline" hand="#h03">[</add>Funeral <subst><del rend="overstrike" hand="#h03" seq="1">Sounds not in</del><add place="above" hand="#h03">Interpolations</add></subst></head>
+     <l>Over and through the burial chant<add place="inline" hand="#h03">,</add></l>
+     <l>Organ and solemn service, sermon, bending<lb/>
+            priests</l>
+     <l>To one come <add place="inline" hand="#h02"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" hand="#h03" xml:id="a001">interpolation&#11840;</add><del rend="overstrike" hand="#h02">stealing</del><add place="inline" hand="#h03">&#11840;</add>sounds not in the show &#8212;<lb/>
+      plainly to me <subst><del rend="overstrike" seq="1">all through</del><del rend="overstrike" hand="#h03" seq="3"><add place="above" seq="2">althroughout</add></del></subst> <add place="inline" hand="#h03"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" hand="#h03" xml:id="a002">crowding up</add> the aisle<lb/>
+      and <add place="inline" hand="#h03"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" hand="#h03" xml:id="a003">from the</add> window<add place="inline" hand="#h03">,</add> <del rend="overstrike" hand="#h03">sounding,</del></l>
+     <l>Of sudden battle's hurry and harsh noises &#8212;<lb/>
+        war's, war's grim game to sight and<lb/>
+        ear in earnest,</l>
+     <l>The scout call'd up &#8212; the <hi rend="tripleUnderline">G</hi>eneral <add place="inline" hand="#h03"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" hand="#h03" xml:id="a004">mounted.</add> and his<lb/>
+       aids <add place="inline"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" xml:id="a005">around him &#8212;</add> &#8212; the new&#11840;brought word &#8212; the<lb/>
+       instantaneous order issued;</l>
+     <l>The rifle&#11840;crack &#8212; the cannon thud &#8212;<lb/>
+        rushing &#8211;forth of men from their tents,</l>
+     <l>The clank of cavalry &#8212; the strange celerity<lb/>
+        of forming ranks &#8212; the slender bugle note.</l>
+     <l>The sound of horses's <choice><orig>hoofs</orig><reg>hooves</reg></choice> departing &#8212; saddles<lb/>
+        arms, accoutrements.</l>
+   </lg>
+   
+   <signed rend="tripleUnderline"><hi rend="tripleUnderline" hand="#h02">Walt Whitman</hi></signed>
+     
+    <note type="authorial" hand="#h02" place="bottom">&#35;</note> 
+      
+   <note type="archival" hand="#h04" place="bottom">>H.G 156</note>
+   
+<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
+   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>
