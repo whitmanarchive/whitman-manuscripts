@@ -51,8 +51,7 @@
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
-<!-- Tara to finish target/xxx -->    
-     <note type="work_relations" target="xxx." cert="high">
+     <note type="work_relations" cert="high">
       <p>This is a signed draft of "Funeral Interpolations," a poem published first as "Over and Through the Burial Chant" in the <hi rend="italic">New York Herald</hi> on August 12, 1888, on the occasion of General Philip Henry Sheridan's death (on August 5), and later as "Interpolation Sounds" in <hi rend="italic">Good-Bye My Fancy</hi> (1891).</p>
      </note>
    </notesStmt>
@@ -71,9 +70,6 @@
      
      <note>Transcribed from digital images of the original.</note>
     
-<!-- finish relatedItems Tara -->     
-     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-     <relatedItem type="document" target="wwa.00041"/>
      <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
     </bibl>
     
@@ -89,15 +85,14 @@
   </profileDesc>
 <revisionDesc>
  
- <change when="2025-03-20" who="#tb">transcribed and encoded</change>
+ <change when="2025-04-02" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="Whitman3.jpg" type="recto"/>
    <lg type="poem">
     <note type="authorial" place="top" hand="#h01" rend="marked"><del rend="overstrike" hand="#h02">Put this in the day of Sheridan's<lb/> burial ceremonies &#8212; personal</del><add place="inline" hand="#h03">(proofreader please by copy)</add></note>
      <note type="authorial" place="top" hand="#h02"><hi rend="underline">ad sheridan</hi><lb/><unclear reason="illegible" cert="low" resp="#tb"/> lead</note>
@@ -128,8 +123,7 @@
       
    <note type="archival" hand="#h04" place="bottom">>H.G 156</note>
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+   <pb xml:id="leaf001v" facs="Whitman4.jpg" type="verso"/>
    
 </body>
 </text>
