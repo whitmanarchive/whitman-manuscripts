@@ -1,158 +1,122 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00169">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title level="m" type="main">To Day</title>
-            <title level="m" type="sub">a machine readable transcription</title>
-            <author>Walt Whitman</author>
-            <editor role="editor">Kenneth M. Price</editor>
-            <editor role="editor">Ed Folsom</editor>
-            <respStmt>
-               <resp>Transcription and encoding</resp>
-               <persName xml:id="nhg">Nicole Gray</persName>
-               <persName xml:id="ap">Ashley Price</persName>
-            </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
-            <sponsor>University of Iowa</sponsor>
-            <funder>The National Endowment for the Humanities</funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>
-               <date>2003</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <idno>uva.00169</idno>
-            <distributor>The Walt Whitman Archive</distributor>
-            <address>
-               <addrLine>Center for Digital Research in the Humanities</addrLine>
-               <addrLine>319 Love Library</addrLine>
-               <addrLine>University of Nebraska-Lincoln</addrLine>
-               <addrLine>P.O. Box 884100</addrLine>
-               <addrLine>Lincoln, NE 68588-4100</addrLine>
-            </address>
-            <availability>
-               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <author> Walt Whitman </author>
-               <title>
-	<!-- TITLE UNDER WHICH THE MS IS HELD AT THE REPOSITORY;	-->
-	<!-- EXAMPLE: Papers of Walt Whitman				-->
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-</title>
-               <idno type="callno">
-	<!-- THE REPOSITORY'S ID CODE FOR THE MATERIAL, IF ANY, CAN BE	-->
-	<!-- ENTERED HERE. THE VALUE OF 'TYPE' CAN BE ALTERED TO FIT	-->
-	<!-- THE TYPE OF ID NUMBER USED; EXAMPLE: MSS 3829    		-->
-		
-</idno> 
-               <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName> 
-               <note type="project">Transcribed from digital images of the original.</note>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <revisionDesc>
-         <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#ap" when="2003-05-30">Encoded</change>
-         <change who="#ap" when="2003-05-30">Transcribed</change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00169"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main" rend="bracketed">To Day</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="tb">Tara Ballard</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2025</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
 
-         <pb facs="uva.00169.001" xml:id="leaf001r" type="recto"/>
-         <lg
-              >
-            <head type="main-authorial">To Day</head>
-            <head type="sub">? To Day and Thee</head>
-            <note type="authorial"
-                  place="top"
-                  rend="circled">
-               <p>sent April 21 to</p>
-               <p>Herald</p>
-            </note>
-            <span value="bracketed" xml:id="s1" from="s1" to="s2" TEIform="span"/>
-            <l>
-               The past <add rend="insertion" place="supralinear">entire</add>with all its heroes, histories<lb/>
-               arts,<lb/>
-            </l>
-            <l>
-               
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">All</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">Its <add rend="unmarked" place="supralinear">store</add>
-                           <del rend="overstrike">train</del> of</add> 
-                     </rdg>
-                  </subst>songs, inventions, voyages, teachers,<lb/>
-               
-                  <del rend="overstrike">and</del> books,<lb/>
-            </l>
-            <anchor xml:id="s2"/> 
-            <span value="bracketed" xml:id="s3" from="s3" to="s4" TEIform="span"/>
-            <l>
-               The course of time and nations—Egypt<lb/>
-               
-                  <gap reason="deletion, illegible"/> and <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">Palestine</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">India,</add> 
-                     </rdg>
-                  </subst>
-                  <del rend="overstrike">and</del> Greece, <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">and</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">and</add> 
-                     </rdg>
-                  </subst>
-               <lb/>
-               Rome, <del rend="overstrike">the medieval growths</del>
-               <lb/>
-            </l>
-            <l>
-               The medieval growths, <del rend="overstrike">science,</del> battles for<lb/>
-               liberty, modern science:<lb/>
-            </l>
-            <anchor xml:id="s4"/>
-            <l>
-               <del rend="overstrike">In thee</del>
-            </l>
-            <l>
-               
-                  <del rend="overstrike">All for to-day and thee—<del rend="overstrike">
-                        <add rend="unmarked" place="supralinear">to think of it!</add>
-                     </del>thou art the</del>
-               <lb/>
-               
-                  <del rend="overstrike">heir of all.</del>
-               <lb/>
-            </l>
-            <l>
-               <del rend="overstrike">To think of it!</del>
-            </l>
-            <l>
-               
-                  <del rend="overstrike">To think of it<del rend="overstrike">!</del>
-                     <add rend="unmarked" place="supralinear">!</add>
-                  </del>—All for <add rend="unmarked" place="supralinear">&amp; thee—</add>today—<add rend="unmarked" place="supralinear">—to think of it!—</add>the<lb/>
-               heir <add rend="insertion" place="supralinear">of all concentrated</add>in thee!<lb/>
-            </l>
-            <l>The <add rend="insertion" place="supralinear">appointed</add>winners in the <add rend="insertion" place="supralinear">long=stretch'd</add>game</l>
-            <note type="authorial"
-                  place="bottom">hosioq</note>
+   <idno>uva.00169</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+     <note type="work_relations" target="xxx.00325" cert="high">
+      <p>Manuscript draft of a poem first appearing in print in the New York <hi rend="italic">Herald</hi>, April 23, 1888 entitled "To-day and Thee". A note in the top margin: "sent April 21 to Herald" indicates that the draft was likely completed around the time of publication.</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>To Day</title>  
+     
+     <date cert="high">1887</date>
+     
+     <idno type="callno">box 1, folder 71</idno>
+     
+     <orgName xml:id="uva">Walt Whitman Literary Manuscripts in the Papers of Walt Whitman, Clifton Waller Barrett Library of American Literature, Albert and Shirley Small Special Collections Library, University of Virginia</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+     
+     <note type="project" target="#rel01">The verso is blank.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="pencil" xml:id="h01" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h02" resp="#unk"></handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2025-04-02" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
 
-
-         </lg>
-      </body>
-   </text>
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="uva_es.00391_large.jpg" type="recto"/>
+   
+   <note type="authorial" place="above" hand="#h02" rend="marked">sent April 21 to<lb/> Herald</note>
+   <lg type="poem">
+     <head>To Day <add place="inline">? To&#8211;Day and Thee</add></head>
+     <l>The past <add place="above">entire</add> with all its heroes, historie's<lb/>
+            arts,</l>
+     <l><subst><del rend="overstrike" seq="1">All</del><add place="above" seq="2">Its</add></subst> <del rend="overstrike" seq="2"><add place="above" seq="1">brown</add></del><add place="above" seq="3">store of</add> songs, inventions, voyages, teachers,<lb/>
+            <del rend="overstrike">and</del> books,</l>
+     <l>The course of time and nations &#8212; Egypt <lb/>
+            <del rend="overstrike">as</del> and <subst><del rend="overstrike" seq="1">Palestine</del><add place="above" seq="2">India</add></subst> <del rend="overstrike">and</del> Greece, <add place="above">and</add> <del rend="overstrike">and</del><lb/>
+            Rome, <del rend="overstrike">the medieval growth</del></l>
+     <l>The medieval growth, <del rend="overstrike">science</del> battles for<lb/>
+            liberty, modern <choice><sic>ssience</sic><corr>science</corr></choice>:</l>
+     <l><del rend="overstrike" seq="2"><add place="above" seq="1">In thee</add></del><del rend="overstrike">All for to&#8211;day and thee &#8212; thou art the<lb/>
+            heir of all.</del></l>
+     <l><del rend="overstrike">To think of it!</del></l>
+     <l><del rend="overstrike">To think of it<subst><del rend="overstrike" seq="1">!</del><add place="above" seq="2">!</add></subst> &#8212; &#8212;</del> All for <add place="above">&amp; thee &#8212;</add> to&#8211;day &#8212; the<lb/>
+            heir <add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><del rend="overstrike" seq="2"><add place="above" xml:id="a001" seq="1">of all concentrates</add></del><add place="above">&#8212; to think of it! &#8212;</add> in thee!</l>
+   </lg>
+   
+   <note type="authorial" place="bottom">The <add place="above"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" hand="#h02" xml:id="a002">appointed</add> winners in the <add>long-stretch'd</add> game</note>
+   
+   <note type="authorial" place="bottom" hand="#h01">hosioq</note>
+   
+   <pb xml:id="leaf001v" facs="uva_es.00392_large.jpg" type="verso"/>
+   
+</body>
+</text>
 </TEI>
