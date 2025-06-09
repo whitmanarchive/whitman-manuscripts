@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-loc.04077loc.04077loc.04077<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-<!-- PUT THE MANUSCRIPT UNIQUE ID FOR THE VALUE OF @XML:ID IN THE LINE BELOW -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id=""> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04077"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
     
-<!--  IN THE NEXT LINE, USE THE WHITMAN ARCHIVE ENCODING GUIDELINES TO DECIDE WHAT TITLE TO USE FOR THE MANUSCRIPT. IF WHITMAN TITLED THE MANUSCRIPT, REMOVE "REND='BRACKETED'."  -->
-    <title level="m" type="main" rend="bracketed"></title>
+    <title level="m" type="main" rend="bracketed">The Commonplace</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -18,8 +16,7 @@ loc.04077loc.04077loc.04077<?oxygen RNGSchema="http://digitalhumanities.unl.edu/
     <respStmt>
      <resp>Transcription and encoding</resp>
      
-<!--  IF YOU AREN'T TARA, CHANGE THE CONTENT OF THIS NEXT <PERSNAME> ELEMENT AND THE VALUE OF THE @XML:ID   -->
-     <persName xml:id="tb">Tara Ballard</persName>
+     <persName xml:id="kmh">Kenneth Michael Hoover</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -27,7 +24,7 @@ loc.04077loc.04077loc.04077<?oxygen RNGSchema="http://digitalhumanities.unl.edu/
    </titleStmt>
    <editionStmt>
     <edition>
-     <date>2024</date>
+     <date>2025</date>
     </edition>
    </editionStmt>
    <publicationStmt>
@@ -49,7 +46,7 @@ loc.04077loc.04077loc.04077<?oxygen RNGSchema="http://digitalhumanities.unl.edu/
     </availability>
     
 
-   <idno><!--  THE UNIQUE ID GOES HERE, TOO  --></idno>
+    <idno>loc.04077</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
@@ -59,7 +56,7 @@ loc.04077loc.04077loc.04077<?oxygen RNGSchema="http://digitalhumanities.unl.edu/
      IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
      IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
     
-     <note type="work_relations" target="xxx." cert="">
+     <note type="work_relations" target="xxx.00403" cert="high">
       <p></p>
      </note>
    </notesStmt>
@@ -68,23 +65,16 @@ loc.04077loc.04077loc.04077<?oxygen RNGSchema="http://digitalhumanities.unl.edu/
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     <title>"The Commonplace" (1891); Printed copy</title>
      
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date notBefore="" notAfter="" cert=""></date>
+     <date when="1891">1891</date>
      
-     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     <idno type="callno">mss18630, box 26, reel 16</idno>
      
-<!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
-      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
-     <orgName xml:id=""></orgName>
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839-1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
-     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-     <relatedItem type="document" target="wwa.00041"/>
-     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+      
     </bibl>
    </sourceDesc>
 </fileDesc>
@@ -98,7 +88,7 @@ loc.04077loc.04077loc.04077<?oxygen RNGSchema="http://digitalhumanities.unl.edu/
 <revisionDesc>
  
 <!-- IN THE FOLLOWING <CHANGE> ELEMENT EDIT THE @WHEN TO REFLECT TODAY'S DATE. IF YOU AREN'T TARA, CHANGE THE INITIALS AFTER THE POUND SIGN IN @WHO -->
- <change when="2024-01-20" who="#tb">transcribed and encoded</change>
+ <change when="2025-06-09" who="#kmh">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
