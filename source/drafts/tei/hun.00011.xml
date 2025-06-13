@@ -50,8 +50,7 @@
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
-   
-     <note type="work_relations" target="xxx.00320" cert="high">
+    <note type="work_relations" target="xxx.00320" cert="high">
       <p></p>
      </note>
    </notesStmt>
@@ -60,11 +59,11 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     <title>To my seventieth year</title>  
      
-     <date notBefore="" notAfter="" cert=""></date>
+     <date when="1888" cert="high">1888</date>
      
-     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     <idno type="callno">HM 11207</idno>
      
      <orgName xml:id="hun">The Huntington Library, Art Collections, and Botanical Gardens</orgName>
      
@@ -79,8 +78,7 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
- <change when="2025-06-11" who="#tb">transcribed and encoded</change>
+  <change when="2025-06-11" who="#kmh">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -93,10 +91,27 @@
     <note type="authorial" place="right" rend="circled">personal</note>
     <note type="archival" place="left" hand="#h02"><hi rend="underline">cxxx</hi> 22.50</note>
     <head rend="underline"><add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">Queries</add> To My Seventieth Year.</head>
-     <l></l>
-     <l></l>
-     <l></l>
+     <l>Approaching, nearing, curious,</l>
+     <l>Thou dim <subst><del rend="overstrike" seq="1">half-visible</del><add place="above" seq="2">uncertain</add></subst> spectre, <subst><del rend="overstrike" seq="1">hovering, close,</del><add place="above" seq="2">bringest</add></subst></l>
+     <l><del rend="overstrike">Bringest</del> <subst><del rend="overstrike" seq="1">thou</del><add place="above" seq="2"><metamark function="add" target="#a002">&#8248;</metamark></add><del rend="overstrike" seq="4"><add place="above" xml:id="a002" seq="3">bringest</add></del><add place="above" seq="5">thou</add></subst> life or death? <del rend="overstrike">Wilt stir<lb/> the waters yet?</del></l>
+    <metamark function="group" rend="bracket-left" spanTo="#s001"/>
+     <l><subst><del rend="overstrike" seq="1">Wilt</del><add place="below" seq="2"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" seq="3" xml:id="a003">Or haply</add></subst> cut me short for good&#8212;or <subst><del rend="overstrike" seq="1">leave</del><add place="above" seq="2">leave</add></subst><lb/> me here <subst><del rend="overstrike" seq="1">repeating?</del><add place="above" seq="2">as now?</add></subst></l>
+     <l>(Here, fretful, parrot&#11840;like and old,<lb/> <add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">with crack'd voice</add> harping, <del rend="overstrike">and</del> screeching;)</l>
+    <metamark function="group" rend="bracket-left" spanTo="#s001"/>
+     <l>Strength, weakness, <add place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a005">blindness,</add> more paralysis and <subst><del rend="overstrike" seq="1">heavier?</del><add place="above" seq="2">heavier?</add></subst></l>
+     <l>Or placid skies and sun, and wreaths from<lb/> foreign lands?&#8212;wilt stir the waters yet?</l>
+    <anchor xml:id="s001"/>
+     <l><del rend="overstrike">Passing me <add place="below"><metamark function="add" target="#a006"></metamark></add><add place="above" xml:id="a006">on</add> to <subst><del rend="overstrike" seq="1">further</del><del rend="overstrike" seq="3"><add place="above" seq="2">senile</add></del><del rend="overstrike" seq="5"><add place="above" seq="4">contracting me</add></del></subst> time thro' thy twelve<lb/> months?</del></l>
+    <delSpan rend="overstrike" spanTo="#d001"/>
+     <l>(As we grow old we narrow on <choice><orig>our-<lb/> selves</orig><reg>ourselves<lb/> </reg></choice> concentrating,</l>
+     <l>Something to us unspeakably pensive in<lb/> our own <del rend="overstrike">age</del>, bleakness, sorrs, <add place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><add place="above" xml:id="a007">age,</add>)</l>
+    <addSpan rend="pasteon" spanTo="#a008"/>
+     <l>Or <del rend="overstrike">summary</del> ending all, with unnerv'd<lb/> hand and accent&#8212;immobility indeed,</l>
+     <l>With immobility indeed with buried heart<lb/> and brain<subst><del rend="overstrike" seq="1">?</del><add seq="2">,</add></subst> and hearse and grave.</l>
+    <anchor xml:id="d001"/>
    </lg>
+    <signed rend="underline">Walt Whitman</signed>
+    <anchor xml:id="a008"/>
    
    <pb xml:id="leaf001v" facs="hun.00011.002_large.jpg" type="verso"/>
    
