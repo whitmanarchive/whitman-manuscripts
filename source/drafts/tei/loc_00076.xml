@@ -15,7 +15,9 @@
     <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
+     <persName xml:id="nhg">Nicole Gray</persName>
+     <persName xml:id="sb">Sandy Byrd</persName>
+     <persName xml:id="ph">Peter Henry</persName>
      <persName xml:id="kmh">Kenneth Michael Hoover</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -82,8 +84,11 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
  <change when="2025-07-15" who="#kmh">transcribed and encoded</change>
+ <change who="#nhg" when="2016-05-02">converted to P5</change>
+ <change who="#sb" when="2006">convertd to camel case; checked; revised</change>
+ <change who="#ph" when="2003-08-14">Encoded</change>
+ <change who="#ph" when="2003-08-14">transcribed</change>
 </revisionDesc>
  </teiHeader>
 
@@ -92,7 +97,7 @@
    
    <pb xml:id="leaf001r" facs="loc.00076.001.jpg" type="recto"/>
    <lg type="poem">
-    <head type="main" rend="underline">The Commonplace</head>
+    <head type="main-authorial" rend="underline">The Commonplace</head>
      <l><add place="above">The commonplace I sing</add>How cheap is health! how<lb/> cheap nobility!</l>
      <l>Abstienence, <del rend="overstrike">the open air</del><lb/> no <del rend="overstrike">l</del> falsehood,<lb/> <del rend="overstrike">no</del>lust <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001"><del rend="overstrike">nor</del></add>or gluttony,</l>
      <l>The open air<lb/> freedom<lb/> toleration</l>
