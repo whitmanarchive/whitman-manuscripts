@@ -318,4 +318,23 @@
     </xsl:if>
   </xsl:template>
   
+  <!-- adding an anchor override specific to notebooks and mss for the hashmarks; hopefully this will be limited enough to not inadvertently end the wrong spans (see overrides.xsl) NHG -->
+  <xsl:template match="anchor[@xml:id]">
+    <xsl:variable name="id" select="concat('#',@xml:id)"/>
+    <xsl:choose>
+      <xsl:when test="preceding::delSpan[@spanTo=$id]">
+        <xsl:text disable-output-escaping="yes"><![CDATA[</span>]]></xsl:text>
+      </xsl:when>
+      <xsl:otherwise/>
+    </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="addrLine">
+    <xsl:apply-templates/><br/>
+  </xsl:template>
+  
+  <!-- do not display archival notes for manuscripts -->
+  <xsl:template match="note[@type='archival']"/>
+  
+  
 </xsl:stylesheet>
