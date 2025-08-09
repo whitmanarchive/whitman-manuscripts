@@ -1,108 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="tex.00213">
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00213"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
     
-    <teiHeader>
-        
-        <fileDesc>
-            
-            <titleStmt>
-                <title level="m" type="main">even in the old attack</title>
-                <title level="m" type="sub">a machine readable transcription</title>
-                <author>Walt Whitman</author>
-                <editor>Kenneth M. Price</editor>
-                <editor>Ed Folsom</editor>
-                <respStmt>
-                    <resp>Transcription and encoding</resp>
-                    <name>The Walt Whitman Archive Staff</name>
-                </respStmt>
-                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
-                <sponsor>University of Iowa</sponsor>
-                <funder>The National Endowment for the Humanities</funder>
-            </titleStmt>
-            
-            <editionStmt>
-                <edition>
-                    <date>2010</date>
-                </edition>
-            </editionStmt>
-            
-            <publicationStmt>
-                <idno>tex.00213</idno>
-                <distributor>The Walt Whitman Archive</distributor>
-                <address>
+    <title level="m" type="main" rend="bracketed">even in the old attack</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="tb">Tara Ballard</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2025</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
                     <addrLine>319 Love Library</addrLine>
                     <addrLine>University of Nebraska-Lincoln</addrLine>
                     <addrLine>P.O. Box 884100</addrLine>
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
-                <availability>
-                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
-                </availability>
-            </publicationStmt>
-            
-            <notesStmt>
-                <note type="project" target="#dat1"><!-- when was this manuscript written? --></note>
-                <note type="project">The following are responsible for particular readings or for changes to this file, as noted: 
-                    <persName xml:id="al">Ashley Lawson</persName> <persName xml:id="tj">Tim Jackson</persName>
-                </note>
-            </notesStmt>
-            
-            
-            <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>          
-                    <title>Even in the old attack and 6th or 7th recurrence</title> 
-                    <!--     THE DATE INFORMATION IN THE NEXT LINE WILL BE ADDED BY AN EDITOR     -->
-                    <!--<date xml:id="dat1" cert="****" when="/"> </date>-->
-                    
-                    <idno type="callno">TXRC03-A4</idno> <!-- find name -->
-                    <orgName>The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin </orgName>
-                    <note type="project">Transcribed from our own digital image of the original manuscript.</note>
-                </bibl>
-            </sourceDesc>
-            
-        </fileDesc>
-        
-        <revisionDesc>
-            <change when="2011-03-08" who="#tj">Checked, corrected</change>
-            <change when="2011-01-24" who="#al">Transcribed and encoded</change>
-        </revisionDesc>
-        
-    </teiHeader>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
     
-    <text type="manuscript">
-        
-        <body>
-            
-            <pb xml:id="leaf001r" facs="tex.00213.001_large.jpg" type="recto"/>
-            
-            <head type="main-derived">even in the old attack</head>
-            
-            <ab><gap reason="torn away" extent="unk"/>k of <del rend="overstrike">the</del> my <gap reason="torn away" extent="unk"/> body. <gap reason="torn away" extent="unk"/></ab>
-            
-            <add rend="pasteover" place="over">
-             <ab>
-                even in
-                <subst>
-                    <del rend="overstrike" seq="1">the midst of</del>
-                    <add place="overstrike" rend="unmarked" seq="2">the</add>
-                </subst>
-                 an old <add place="supralinear" rend="unmarked">and <unclear cert="medium" resp="#tj">6th</unclear></add> <gap reason="cut away" extent="unk"/> "war-paralysis"&#8212;<add place="supralinear" rend="unmarked">
-                &#8212;now</add> threatening <add place="supralinear" rend="insertion"><del rend="overstrike"> further </del> my further</add> action head or
-                <gap reason="torn away" extent="unk"/>
-            
-            </ab>
-            </add>
-            
-            <pb xml:id="leaf001v" facs="tex.00213.002_large.jpg" type="verso"/> 
-            
-        </body>
-    </text>
+
+   <idno>tex.00213</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+     <note type="work_relations" target="xxx." cert="high">
+      <p></p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>Even in the old attack and 6th or 7th recurrence</title>  
+     
+<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
+       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
+     <date cert=""></date>
+     
+     <idno type="callno">TXRC03-A4</idno>
+     
+     <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+     
+     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
+     <relatedItem type="document" target="wwa.00041"/>
+     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.<!-- still be added --></note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
+    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="blue ink" xml:id="h02" resp="#unk"></handNote>
+    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2025-08-09" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="tex.00213.001_large.jpg" type="recto"/>
+   <lg type="poem">
+     <l></l>
+     <l></l>
+     <l></l>
+   </lg>
+   
+
+   <pb xml:id="leaf001v" facs="tex.00213.002_large.jpg" type="verso"/>
+   
+</body>
+</text>
 </TEI>
-
-
-
-
