@@ -66,6 +66,7 @@
         </handNotes>
     </profileDesc>
     <revisionDesc>
+        <change when="2025-08-11" who="#nhg">moved xml:id out of delSpan</change>
         <change when="2022-06-06" who="#bb">updated relations encoding</change>
     <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
     <change when="2019-01-28" who="#kmp">corrected, blessed</change>
@@ -85,7 +86,7 @@
     <note type="authorial" place="right">Sleepchaser's.</note>
     
 <lg type="linegroup">
-    <delSpan spanTo="#d1" rend="overstrike" xml:id="l01"/><l>I am a hell‑name and a Curse:</l><anchor xml:id="d1"/>
+    <delSpan spanTo="#d1" rend="overstrike"/><l xml:id="l01">I am a hell‑name and a Curse:</l><anchor xml:id="d1"/>
     
 
     <l xml:id="l02"><del rend="overstrike"><add rend="unmarked" place="inline">The</add></del> <del rend="overstrike"><add rend="unmarked" place="infralinear"><gap reason="illegible"/></add></del> Black Lucifer was not dead;</l>
