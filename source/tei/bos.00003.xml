@@ -8,6 +8,7 @@
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
                 <editor>Ed Folsom</editor>
+                <editor>Matt Cohen</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="nk">Nick Krauter</persName>
@@ -20,6 +21,7 @@
                     <persName xml:id="kc">Kirsten Clawson</persName>
                     <persName xml:id="as">Ashlyn Stewart</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="jh">Jeff Hill</persName>
                 </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -29,11 +31,10 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <date>2004</date>
+                    <date>2024</date>
                 </edition>
             </editionStmt>
             <publicationStmt>
-                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -47,23 +48,17 @@
                     <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
             <idno>bos.00003</idno></publicationStmt>
-            <notesStmt>
-                
+            <notesStmt>                
                 <note type="project" target="dat1">This manuscript is a draft of "Sail Out for Good, Eidólon Yacht!," which was
-                    published first in <hi rend="italic">Lippincott's Magazine</hi> in <date when="1891-03">March, 1891</date>, with "Sounds of the Winter," "The
-                    Unexpress'd," and "After the Argument" under the general title of "Old-Age
-                    Echoes." Whitman probably composed this manuscript shortly
+                    published first in <hi rend="italic">Lippincott's Magazine</hi> in <date when="1891-03">March, 1891</date>, with "Sounds of the Winter," "The Unexpress'd," and "After the Argument" under the general title of "Old-Age Echoes." Whitman probably composed this manuscript shortly
                     before the poem's publication.</note>
                     <note type="work_relations" target="xxx.00380" cert="high">
                         <p>This manuscript is a draft of "Sail Out for Good, Eidólon Yacht!," which was
-                            published first in <hi rend="italic">Lippincott's Magazine</hi> in <date when="1891-03">March, 1891</date>, with "Sounds of the Winter," "The
-                            Unexpress'd," and "After the Argument" under the general title of "Old-Age
-                            Echoes."</p>
+                            published first in <hi rend="italic">Lippincott's Magazine</hi> in <date when="1891-03">March, 1891</date>, with "Sounds of the Winter," "The Unexpress'd," and "After the Argument" under the general title of "Old-Age Echoes."</p>
                     </note>
             </notesStmt>
             <sourceDesc>
                 <bibl><author xml:id="ww">Whitman, Walt</author>
-                    
                     <title>Sail Forth O Mystic Yacht</title>
                     <date xml:id="dat1" cert="high" notBefore="1890-06" notAfter="1891-03">1890 or 1891</date>
                     <orgName xml:id="bos">From the The Alice and Rollo G. Silver Collection in the Special
@@ -82,20 +77,21 @@
             </handNotes>
         </profileDesc>
         <revisionDesc>
+            <change when="2024-05-10" who="#jh">checked, corrected</change>
             <change when="2022-06-02" who="#km">updated relations encoding</change>
             <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-05-19" who="#nhg">checked, corrected</change>
             <change when="2015-05-26" who="#nhg">checked, corrected</change>
             <change when="2015-05-05" who="#kc">conversion to P5, checked</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
-            <change when="2006-08-02" who="#nk"> Added third digit to leaf numbers</change>
-            <change when="2006-02-10" who="#lr"> Added missing period</change>
-            <change when="2004-07-29" who="#aj"> Addition of Date and Work Markup</change>
-            <change when="2004-04-26" who="#bb"> Blessed</change>
-            <change when="2004-02-06" who="#kmp"> Edited</change>
-            <change when="2003-11-24" who="#aj"> Revised, checked</change>
-            <change when="2003-05-16" who="#ap"> Encoded</change>
-            <change when="2003-05-16" who="#ap"> Transcribed</change>
+            <change when="2006-08-02" who="#nk">added third digit to leaf numbers</change>
+            <change when="2006-02-10" who="#lr">added missing period</change>
+            <change when="2004-07-29" who="#aj">addition of date and work markup</change>
+            <change when="2004-04-26" who="#bb">blessed</change>
+            <change when="2004-02-06" who="#kmp">edited</change>
+            <change when="2003-11-24" who="#aj">revised, checked</change>
+            <change when="2003-05-16" who="#ap">encoded</change>
+            <change when="2003-05-16" who="#ap">transcribed</change>
         </revisionDesc>
     </teiHeader>
     <text type="manuscript">
@@ -103,39 +99,24 @@
             <pb facs="bos.00003.001.jpg" xml:id="leaf001r" type="recto"/>
             <note type="archival" place="left" resp="#h1"><hi rend="underline">ntx</hi></note>
             <lg type="poem">
-                <head type="main-authorial" rend="underline">Sail <subst><del rend="overstrike" seq="1">forth</del> <add rend="unmarked" place="supralinear" seq="2">out</add></subst> <add rend="unmarked" place="supralinear">for good <note type="authorial" place="supralinear">?</note> for aye,</add> <note type="authorial" place="supralinear">?</note> O mystic yacht<subst><add place="inline" rend="unmarked" seq="2">!</add> <del rend="overstrike" seq="1">of me</del></subst></head>
-                
+                <head type="main-authorial" rend="underline">Sail <subst><del rend="overstrike" seq="1">forth</del> <add rend="unmarked" place="above" seq="2">out</add></subst> <add rend="unmarked" place="above">for good <note type="authorial" place="above">?</note> for aye,</add> <note type="authorial" place="above">?</note> O mystic yacht<subst><add place="inline" rend="unmarked" seq="2">!</add> <del rend="overstrike" seq="1">of me</del></subst></head>
                 <l>Heave the anchor short,</l>
-                <l>Raise main-sail and jib—steer <subst><del rend="overstrike" seq="1">out</del> <add rend="unmarked" place="supralinear" seq="2">forth, <add rend="unmarked" place="supralinear" seq="3"><note type="authorial" place="supralinear">?</note> for aye</add></add></subst></l>
-                <l>O little white-hull'd sloop,<del rend="overstrike">—</del>now <subst><del rend="overstrike" seq="1">for the</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="supralinear" seq="2">truly to</add></del> <add rend="unmarked" place="supralinear" seq="4"><note type="authorial" place="supralinear">?</note> speed <del rend="overstrike" seq="5">take</del> me <subst><del rend="overstrike" seq="1">truly</del> <add rend="unmarked" place="supralinear" seq="2">really</add></subst></add></subst>
-                    <lb/><subst><add rend="unmarked" place="inline" seq="1">on</add> <del rend="overstrike" seq="3"><add place="supralinear" rend="unmarked" seq="2">to</add></del></subst> deep waters</l>
+                <l>Raise main-sail and jib—steer <subst><del rend="overstrike" seq="1">out</del> <add rend="unmarked" place="above" seq="2">forth, <add rend="unmarked" place="above" seq="3"><note type="authorial" place="above">?</note> for aye</add></add></subst></l>
+                <l>O little white-hull'd sloop,<del rend="overstrike">—</del>now <subst><del rend="overstrike" seq="1">for the</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="above" seq="2">truly to</add></del> <add rend="unmarked" place="above" seq="4"><note type="authorial" place="above">?</note> speed <del rend="overstrike" seq="5">take</del> me <subst><del rend="overstrike" seq="1">truly</del> <add rend="unmarked" place="above" seq="2">really</add></subst></add></subst>
+                    <lb/><subst><add rend="unmarked" place="inline" seq="1">on</add> <del rend="overstrike" seq="3"><add place="above" rend="unmarked" seq="2">to</add></del></subst> deep waters</l>
                 <delSpan spanTo="#d1" rend="overstrike"/><l>Now, now to thy divinest venture</l><anchor xml:id="d1"/>
-                <l>(I will not call it <subst><del rend="overstrike" seq="1">my</del> <add rend="unmarked" place="supralinear" seq="2">our</add></subst> concluding voyage,</l>
+                <l>(I will not call it <subst><del rend="overstrike" seq="1">my</del> <add rend="unmarked" place="above" seq="2">our</add></subst> concluding voyage,</l>
                 <gap reason="illegible" quantity="1" unit="line"/>
                 <milestone unit="glued"/>
-                
                 <l>But outset and sure entrance to the truest,
-                    <lb/>best, maturest,)
-                </l>
-                
-                <l><del rend="overstrike">In perfect faith</del>—Depart <del rend="overstrike"><add place="supralinear" rend="insertion">for good!</add></del>! <add place="supralinear" rend="insertion">depart</add> <add place="supralinear" rend="insertion">from <add rend="unmarked" place="supralinear"> <note type="authorial" place="supralinear">?</note> solid</add> earth—</add>—no more returning
-                    <lb/>to these shores,
-                </l>
-                
-                <l>Now, <subst><add rend="insertion" place="supralinear" seq="2">henceforth starting on</add> <del rend="overstrike" seq="1">now, for good, upon</del></subst> <subst><del rend="overstrike" seq="1">thy</del> <add rend="unmarked" place="supralinear" seq="2">our</add></subst> <del rend="overstrike">great</del> <subst><del rend="overstrike" seq="1">divinest</del> <add rend="unmarked" place="supralinear" seq="2"> <del rend="overstrike" seq="3"><note type="authorial" place="supralinear">?</note></del> infinite</add></subst>
-                    <lb/>venture <subst><del rend="overstrike" seq="1">sail!</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="supralinear" seq="2">sailing,</add></del></subst> <del rend="overstrike"><add rend="unmarked" place="supralinear">starting,</add></del>
-                </l>
-                
-                <l>Spurning all yet known ports, seas, 
-                        <choice>
-                            <orig>grav-</orig>
-                            <reg>gravitation</reg>
-                        </choice>
-                    <lb/>itation
-                </l>
-                
-                <l>Sail <subst><del rend="overstrike" seq="1">forth</del> <add rend="unmarked" place="supralinear" seq="2">out</add></subst>, <subst><del rend="overstrike" seq="2"><add rend="unmarked" place="supralinear" seq="1">in perfect faith</add></del> <add rend="insertion" place="supralinear" seq="3">for good</add> <add rend="unmarked" place="supralinear" seq="4">for aye</add></subst> O mystic yacht of me.</l>
-            </lg>
+                    <lb/>best, maturest,)</l>
+                <l><del rend="overstrike">In perfect faith</del>—Depart <del rend="overstrike"><add place="above" rend="insertion">for good!</add></del>! <add place="above" rend="insertion">depart</add> <add place="above" rend="insertion">from <add rend="unmarked" place="above"> <note type="authorial" place="above">?</note> solid</add> earth—</add>—no more returning
+                    <lb/>to these shores,</l>
+                <l>Now, <subst><add rend="insertion" place="above" seq="2">henceforth starting on</add> <del rend="overstrike" seq="1">now, for good, upon</del></subst> <subst><del rend="overstrike" seq="1">thy</del> <add rend="unmarked" place="above" seq="2">our</add></subst> <del rend="overstrike">great</del> <subst><del rend="overstrike" seq="1">divinest</del> <add rend="unmarked" place="above" seq="2"> <del rend="overstrike" seq="3"><note type="authorial" place="above">?</note></del> infinite</add></subst>
+                    <lb/>venture <subst><del rend="overstrike" seq="1">sail!</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="above" seq="2">sailing,</add></del></subst> <del rend="overstrike"><add rend="unmarked" place="above">starting,</add></del></l>
+                <l>Spurning all yet known ports, seas, <choice><orig>grav&#8212;</orig><reg>gravitation</reg></choice>
+                    <lb/>itation</l>
+                <l>Sail <subst><del rend="overstrike" seq="1">forth</del> <add rend="unmarked" place="above" seq="2">out</add></subst>, <subst><del rend="overstrike" seq="2"><add rend="unmarked" place="above" seq="1">in perfect faith</add></del> <add rend="insertion" place="above" seq="3">for good</add> <add rend="unmarked" place="above" seq="4">for aye</add></subst> O mystic yacht of me.</l></lg>
             <pb facs="bos.00003.002.jpg" xml:id="leaf001v" type="verso"/>
             <note type="editorial" place="top" resp="#h1">Good bye My
                 Fancy | Sail out for Good Etc | Page 7—Good Bye My Fancy</note>

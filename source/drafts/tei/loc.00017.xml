@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main" rend="bracketed">The real earthly catalogue divine, "complete"</title>
+                <title level="m" type="main">The real earthly catalogue divine, "complete"</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -14,6 +14,8 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="jh">Jeff Hill</persName>
+                    <persName xml:id="tb">Tara Ballard</persName>
+                    <persName xml:id="ew">Emma Whaley</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -37,28 +39,31 @@
                     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
                     <p>The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>          
+                
                 <idno>loc.00017</idno>
             </publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
-                <!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK. IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
-                <note type="work_relations" target="xxx." cert="">
-                    <p></p>
+     
+                
+                <note type="work_relations" cert="high">
+                    <p>A draft of a poem published as "The Rounded Catalogue Divine Complete" in 1891, written in ink on a piece of paper to that of "The endless Catalogue Divine" (loc.00291), with a discarded envelope (addressed to Miss Olive Percival, 214 W. 2nd St., Los Angeles, CA) opened out and pasted to the bottom of the piece, and some corrections in both pencil and ink.</p>
                 </note>
             </notesStmt>
             <sourceDesc>
                 <bibl>
                     <author xml:id="ww">Whitman, Walt</author>
-                    <title resp="#wwa">[The real earthly catalogue divine, "complete"]</title>
-                    <!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. -->
-                    <date notBefore="" notAfter="" cert=""></date>
-                    <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+                    
+                    <title resp="#wwa">The Rounded Catalogue Divine Complete</title>
+                    
+                    <date cert="high">about 1891</date>
+                    
+                    <idno type="callno">MSS Box 18630, Box 29; Reel 17-18</idno>
+                    
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#38;1919, Library of Congress, Washington, D.C.</orgName>
+                    
                     <note>Transcribed from digital images of the original.</note>
-                    <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-                    <relatedItem type="document" target="wwa.00041"/>
-                    <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+                    <note type="project" target="#rel01">The verso is blank.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -66,33 +71,58 @@
             <handNotes>
                 <handNote medium="black ink" xml:id="h01" resp="#ww"/>
                 <handNote medium="red ink" xml:id="h02" resp="#ww"/>
-                <handNote medium="blue ink" xml:id="h03" resp="#ww"/>
+                <handNote medium="blue pencil" xml:id="h03" resp="#ww"/>
                 <handNote medium="pencil" xml:id="h04" resp="#ww"/>
             </handNotes>
         </profileDesc>
         <revisionDesc>
-            <change when="2024-03-22" who="#jh">transcribed and encoded</change>
+            <change when="2024-09-24" who="#ew">updated image links</change>
+            <change when="2024-08-31" who="#tb">transcribed and encoded</change>
+            <change when="2024-04-09" who="#jh">transcribed and encoded</change>
         </revisionDesc>
     </teiHeader>
     <text type="manuscript">
         <body>
-            <pb xml:id="leaf001r" facs="loc_js." type="recto"/>
-            <p>Sunday&#8212; &#8212;</p>
-            <p>Went</p>
-            <p>This forenoon <del rend="overstrike">(for a [gap])</del> <del rend="overstrike">went</del> to church.  A college professor, Rev. Dr. &#8212; gave us a sermon, <del rend="overstrike" seq="1">on</del> <add rend="insertion" place="above" seq="2">during</add> which I caught <del rend="overstrike">to</del> the above words: but the minister in his "catalogue" <del rend="overstrike">en[gap]</del> included only the good <del rend="overstrike">and</del> things, and entirely ignored what I <del rend="overstrike" seq="1">[gap]</del> <add rend="insertion" place="above" seq="2">name</add> in the following:</p>
-            <p><del rend="ovestrike">Not moral and the good&#8212;not</del></p>
-            <p><del rend="overstrike">Not the light alone but the dark</del></p>
-            <p><del rend="overstrike">Not you alone nor me alone, nor [gap], America's, nor north or south alone</del></p>
-            <p>The immoral and the dark, were not</p>
-            <p>The dying and the sick enclosed in this <add rend="insertion" place="above">huge</add> catalogue,</p>
-            <p>The countless, <add rend="insertion" place="above">(nineteen twentieths)</add> low and evil, savage and crude, were not</p>
-            <p><del rend="overstrike" seq="1">Gaunt,</del> <add rend="insertion" place="above" seq="2">The</add> crazed, prisoners in jails, the bad, the horrible,</p>
-            <p>Venom and filth serpents, <del rend="overstrike" seq="1">ravine,</del> <add rend="insertion" place="above" seq="2">the ravenous sharks,</add> <del rend="overstrike" seq="1">The slime and crawl,</del> <add rend="insertion" place="above" seq="2">the liars, thieves, the dissolute,</add></p>
-            <p>Newts, crawling things in slime and mud</p>
-            <p>The barren soil, the slug and dross and hideos rot, and slime</p>
-            <p>Then inside all [gap]</p>
-            <p>[gap]</p>
-            <pb xml:id="leaf001v" facs="loc_js.00232_large.jpg" type="verso"/>
+            <pb xml:id="leaf001r" facs="loc_ew.00150.jpg" type="recto"/>
+            
+            <lg type="poem">
+                
+                <head rend="underline">"The <subst><del rend="overstrike" hand="h03" seq="1">endless</del><del rend="overstrike" seq="3"><add place="above" seq="2">boundless</add></del><add place="above" seq="4">?</add></subst> <add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add>real earthly</add> catalogue divine, "complete."</head>
+            
+                <note><add place="inline" hand="h02"><metamark function="add" target="#a002">&#8248;</metamark></add><add rend="underline" place="above" xml:id="a002" hand="h02">Sunday&#8212;&#8212;</add><add place="above">went</add> This <del rend="overstrike" hand="h02"><add place="above" hand="h04">Sunday</add><add place="above" hand="h04">?</add></del> forenoon <del rend="overstrike">(for a rarity)</del> <del rend="overstrike">went</del> to church.  A college professor, Rev: Dr: &#8212; gave us a fine sermon, <del rend="overstrike">on</del><add place="inline"><metamark function="add" target="#a003">&#8248;</metamark></add><add>during</add> which I caught <del rend="overstrike">to</del> the above <add place="inline"><metamark function="add" target="#a004">&#8248;</metamark></add><del rend="overstrike"><add place="above" xml:id="a004">head&#11840;line</add></del> words: but the minister in his "catalogue" <del rend="overstrike">entirely</del> included only the good <del rend="overstrike">and</del> things, and entirely ignored what I <subst><del rend="overstrike" seq="1">handle</del><add place="above" seq="2">name</add></subst> in the following:</note>
+                
+            <l><del rend="ovestrike">Not moral and the good<add place="inline"><metamark function="add" target="#a005">&#8248;</metamark></add><del><add place="above" xml:id="a005">and sound&#8212;</add></del>&#8212;not</del></l>
+            <l><del rend="overstrike">Not the light alone but the dark</del></l>
+            <l><del rend="overstrike">Not you alone nor me alone, nor ours,<lb/> 
+                America's, nor north or south alone</del></l>
+            <l>The immoral and the dark, were not</l>
+            <l>The dying and the <add place="above" rend="underline" hand="h04">diseased</add> sick enclosed in this<lb/> 
+                <add place="inline"><metamark function="add" target="#a006">&#8248;</metamark></add><add place="above" xml:id="a006">huge</add> catalogue, <add place="inline" hand="h03">the hordes in Africa, were not</add></l>
+            <l>The countless, <add place="inline"><metamark function="add" target="#007">&#8248;</metamark></add><add place="above" xml:id="a007">(nineteen twentieths)</add> low and evil, savage and<lb/> 
+                crude, <subst><del rend="overstrike" hand="h04" seq="1">were not</del><add place="above" hand="h03" seq="2">or north or south,</add></subst></l>
+            <l><subst><del rend="overstrike" seq="1">Gaunt,</del><add rend="insertion" place="above" seq="2">The</add></subst> crazed, prisoners in jails, the<lb/> 
+                bad, the horrible,<add place="inline" hand="h03">&#8212;aye, myriad else</add></l>
+            <l>Venom and filth, serpents, <subst><del rend="overstrike" seq="1">ravine,</del><add place="above" seq="2">the ravenous sharks,</add></subst> <del rend="overstrike">The</del><lb/>
+                <subst><del rend="overstrike" seq="1">slime and crawl,</del><add place="above" seq="2">the liars, thieves, the dissolute,</add></subst></l>
+            <l>Newts, crawling things in slime and mud</l>
+            <l>The barren soil, the slug and dross and hideous rot. <add place="below">and slime</add></l>
+             <l><handShift new="h04"/>[<subst><del rend="overstrike" seq="1">Inside the rest</del><add place="above" seq="2">Then inside all</add></subst> the slag, the <unclear reason="illegible" cert="low" resp="#tb">husks forth coloring</unclear> all) <add place="below" seq="1">sucks and soil <del rend="overstrike" seq="2">and del</del></add></l>
+            <l>(A fancy-seed from bardic <subst><del rend="overstrike" hand="h01">guarded</del><add place="above" seq="2">thought</add></subst></l>
+            <l>Buried and hid beneath the <add place="inline"><metamark function="add">&#8248;</metamark></add> mountains <add place="inline" hand="h01">)</add></l>
+            <l>A lustrous <del rend="overstrike">vital</del> sapphire blue eternal-vital <add place="inline" hand="h01">&#128071;</add><lb/>
+                 slumbers ready <add rend="marked" place="inline" hand="h01">what is the part the wicked and the <unclear reason="illegible" cert="low" resp="#tb">loolhes</unclear> one bear within the born <unclear reason="illegible" cert="low" resp="#tb">deep</unclear> scheme</add></l>
+            <l><del rend="overstrike">Inside the rest the slog</del></l>
+                <l><del rend="overstrike">The</del> <add place="inline"><metamark function="add" target="#a008">&#8248;</metamark></add><add place="above" xml:id="a008" seq="1"><del rend="overstrike" seq="2">A</del> The</add> <choice><orig>centre</orig><reg>center</reg></choice> of all <del rend="overstrike">husk</del> (perhaps the Catent<lb/>
+                Deity of all.)<add place="inline">]</add></l>
+            <l><handShift new="h01"/><add place="inline"><metamark function="add" target="#a009">&#8248;</metamark></add><add place="above" xml:id="a009">Unending time</add> Unfolding time, revealing time, <del rend="overstrike">unending time,</del></l>
+            <l><handShift new="h04"/>(A <del rend="overstrike" hand="h01">seed of</del> fancy<add place="inline" hand="h01"><metamark function="add" target="#a010">&#8248;</metamark></add><add place="above" xml:id="a010" hand="h01">&#11840;seed</add> from <del rend="overstrike" seq="2"><add place="above" seq="1">out</add></del> <del rend="overstrike" hand="h01">a</del> bardic thought)</l>
+            <l><handShift new="h01"/>&#8212;<del rend="overstrike">an</del> a faith, cohering all)</l>
+            <l>Time, time, <del rend="overstrike">and time,</del> revealer.</l>
+          
+            </lg>
+            
+            <pb xml:id="leaf001v" facs="loc_ew.00151.jpg" type="verso"/>
+        
         </body>
     </text>
 </TEI>

@@ -1,140 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="tex.00208">
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00208"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
     
-    <teiHeader>
-        
-        <fileDesc>
-            
-            <titleStmt>
-                <title level="m" type="main">The Consciences</title>
-                <title level="m" type="sub">a machine readable transcription</title>
-                <author>Walt Whitman</author>
-                <editor>Kenneth M. Price</editor>
-                <editor>Ed Folsom</editor>
-                <respStmt>
-                    <resp>Transcription and encoding</resp>
-                    <name>The Walt Whitman Archive Staff</name>
-                </respStmt>
-                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
-                <sponsor>University of Iowa</sponsor>
-                <funder>The National Endowment for the Humanities</funder>
-            </titleStmt>
-            
-            <editionStmt>
-                <edition>
-                    <date>2010</date>
-                </edition>
-            </editionStmt>
-            
-            <publicationStmt>
-                <idno>tex.00208</idno>
-                <distributor>The Walt Whitman Archive</distributor>
-                <address>
+    <title level="m" type="main">The Consciences &#8212; the Moral one</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="tb">Tara Ballard</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2025</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
                     <addrLine>319 Love Library</addrLine>
                     <addrLine>University of Nebraska-Lincoln</addrLine>
                     <addrLine>P.O. Box 884100</addrLine>
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
-                <availability>
-                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
-                </availability>
-            </publicationStmt>
-            
-            <notesStmt>
-                <note type="project" target="#dat1"><!-- when was this manuscript written? --></note>
-                <note type="project">The following are responsible for particular readings or for changes to this file, as noted: 
-                    <persName xml:id="al">Ashley Lawson</persName> <persName xml:id="tj">Tim Jackson</persName>
-                </note>
-            </notesStmt>
-            
-            
-            <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>          
-                    <title>The Conscience&#8212;the moral one</title> 
-                    <!--     THE DATE INFORMATION IN THE NEXT LINE WILL BE ADDED BY AN EDITOR     -->
-                    <!--<date xml:id="dat1" cert="****" when="/"> </date>-->
-                    
-                    <idno type="callno">TXRC03-A4 Container 1.3</idno> <!-- find name -->
-                    <orgName>The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
-                    <note type="project">Transcribed from our own digital image of the original manuscript.</note>
-                </bibl>
-            </sourceDesc>
-            
-        </fileDesc>
-        
-        <revisionDesc>
-            <change when="2011-03-09" who="#tj">Checked, corrected</change>
-            <change when="2011-01-25" who="#al">Transcribed and encoded</change>
-        </revisionDesc>
-        
-    </teiHeader>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
     
-    <text type="manuscript">
+
+   <idno>tex.00208</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
         
-        <body>
-            
-            <pb xml:id="leaf001r" facs="tex.00208.001_large.jpg" type="recto"/>
-            
-            <head type="main-authorial" rend="underline">The Consciences&#8212;the Moral one</head>
-            
-            <note type="authorial" place="marginleft">somewhere in <gap reason="cut away" extent="unk"/></note> 
-            <p>
-                 We cannot pronounce too strongly,
-                 <add rend="pasteon" place="margintop">
-                     the <add place="supralinear" rend="insertion">evident</add> need, (these times, These States, <del rend="overstrike">the</del> of <del rend="overstrike">the <unclear reason="illegible" cert="low"
-                         resp="al">civilization</unclear><!-- [TJ] Suggest "realization" as below, but with low cert. --></del> among writers, teachers, lecturers, in fitting ways, from primary lessons upward,) of the 
-                     <subst>
-                         <del rend="overstrike" seq="1">realization and development, among the consciences,</del>
-                         <add place="supralinaer" rend="unmarked" seq="2">promulgation <del rend="overstrike">cultivation</del></add>
-                     </subst>
-                     <add place="supralinear" rend="insertion"><del rend="overstrike">and</del> the bringing to the front again, among the consciences,</add>
-                     <subst>
-                         <del rend="overstrike" seq="1">of</del>
-                         <add place="supralinaer" rend="unmarked" seq="2">&#38; setting up.</add>
-                     </subst>
-                     greatest of all, <del rend="overstrike">yet</del> <del rend="overstrike"><add place="supralinear" rend="unmarked">appropriately</add></del> 
-                     <subst>
-                         <del rend="overstrike" seq="1"><unclear reason="illegible" cert="low" resp="al">most</unclear> utterly neglected, namely the</del>
-                         <add place="supralinaer" rend="unmarked" seq="2">namely the</add>
-                     </subst>
-                     <add place="supralinear" rend="insertion">absolute, uncompromising</add> moral. one.  The intellectual
-                     <subst>
-                         <del rend="overstrike" seq="1">&#38;</del>
-                         <add place="supralinaer" rend="unmarked" seq="2">or</add>
-                     </subst>
-                     critical conscience is amply attended to,&#8212;the esthetic
-                     <subst>
-                         <del rend="overstrike" seq="1">also,</del>
-                         <add place="supralinaer" rend="unmarked" seq="2">is not neglected&#8212;</add>
-                     </subst>
-                     &#8212;the spiritual (
-                     <subst>
-                         <del rend="overstrike" seq="1">often</del>
-                         <del rend="overstrike"><add place="supralinaer" rend="unmarked" seq="2"><unclear reason="illegible" cert="low" resp="#al">in so</unclear></add></del>
-                         <add place="supralinear" rend="unmarked" seq="3"><del rend="overstrike">though</del> in</add>
-                     </subst>
-                     crude &#38; erratic <add place="supralinear" rend="insertion">treatment</add>) <del rend="overstrike">has is not</del> <gap reason="torn away" extent="unk"/> <del rend="overstrike">on the</del>
-                     has its theories, <add place="supralinear" rend="insertion">zealous</add> sutdents, <gap reason="torn away" extent="unk"/><unclear reason="illegible" cert="low" resp="#al">ackers</unclear>. Others
-                     <add place="supralinear" rend="insertion">equally welcome, equally important</add>are not wanting. <gap reason="torn away" extent="unk"/>ut the <add place="supralinear" rend="insertion">purely</add> moral,
-                     <del rend="overstrike">as I have said</del> <add place="supralinear" rend="unmarked"><unclear reason="illegible" cert="low" resp="#tj">instructed</unclear></add> <gap reason="torn away" extent="unk"/> to <unclear reason="illegible" cert="low" resp="#al">such</unclear> <add place="supralinear" rend="insertion"><del 
-                         rend="overstrike">to be</del> as</add> <!-- Is this line impying an insertion of the above text? --> on the current map of <gap 
-                             reason="torn away" extent="unk"/> human <!-- [TJ] Unsure of "human" --><gap reason="torn away" extent="unk"/> <del rend="overstrike">to be</del> and filthy <add place="supralinear" rend="insertion">to be <del rend="overstrike"><unclear reason="illegible"/></del></add> <unclear 
-                                 reason="illegible" cert="medium" resp="#al">designated</unclear> <gap reason="torn away" extent="unk"/> by a <gap reason="torn away" extent="unk"/> ingogni<unclear reason="illegible" cert="medium" 
-                                     resp="#tj">to</unclear> a <subst><del rend="overstrike" seq="1">fearfu</del> <add place="supralinear" rend="insertion" seq="2">dismal</add></subst> 
-                         vacant <unclear reason="illegible" cert="low" resp="#al">patch</unclear> <gap reason="torn away" extent="unk"/>
-                  </add>
-            </p>
-            
-            <pb xml:id="leaf001v" facs="tex.00208.002_large.jpg" type="verso"/> 
-            
-        </body>
-    </text>
+     <note type="work_relations" cert="high">
+      <p>This manuscript fragment regarding the importance of the spiritual aspect of human consciousness is probably part of a draft of "A Lingering Note" in "Notes (such as they are) founded on Elias Hicks." The essay was first published in <hi rend="italic">November Boughs</hi> (1888). The leaf has been pasted to a backing sheet, rendering the verso inaccessible.</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>The Consciences &#8212; the Moral one</title>  
+     
+     <date cert="high">about 1888</date>
+     
+     <idno type="callno">box 1, folder 3</idno>
+     
+     <orgName xml:id="tex">Walt Whitman Literary Manuscripts in the Walt Whitman Collection, Harry Ransom Humanities Research Center at the University of Texas at Austin</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+     
+     <note type="project" target="#rel01">The verso is inaccessible as the paper has been pasted to another sheet.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="pencil" xml:id="h01" scope="major" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h02" resp="#ww"/>
+    <handNote medium="blue pencil" xml:id="h03" resp="#ww"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2025-01-23" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="tex.00208.001_large.jpg" type="recto"/>
+  
+  <head hand="#h02"><hi rend="doubleunderline">The Consciences &#8212; the Moral one</hi></head>
+  
+   <p><handShift new="#h02"/>We cannot pronounce too strongly,
+   <milestone unit="glued"/>
+   <note place="leftmargin" type="authorial" hand="#h03">somewhere in to</note><handShift new="#h01"/> the <add place="inline" hand="#h02"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" hand="#h02" xml:id="a001">evident</add> need, (these times, These States, <del rend="overstrike">the</del> of <del rend="overstrike" hand="#h02">the realization</del> among writers, teachers, lecturers, in fitting ways, from primary lessons upward.) of the <subst><del rend="overstrike" hand="#h02" seq="1">realization</del><add place="add" hand="#h02" seq="2">promulgation</add></subst>, <del rend="overstrike" hand="#h02">and</del> <subst><del rend="overstrike" seq="1">developement</del><del rend="overstrike" hand="#h03" seq="3"><add place="above" seq="2">cultivation</add></del></subst> <del rend="overstrike">among the</del> <del rend="overstrike">consciences</del>, <add place="inline"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003" seq="1"><del rend="overstrike" hand="#h02" seq="2">and</del> the bringing to the front again, among the conciences.</add> <del rend="overstrike">of</del> <add place="above" hand="#h02">&amp; setting up.</add> the greatest of all, <del rend="overstrike">yet apparently,</del> <del rend="overstrike">most utterly neglected</del> <subst><del rend="overstrike" seq="1">namely</del><add place="above" seq="2">namely the</add></subst> the <add place="inline" hand="#h02"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" hand="#h02" xml:id="a002">absolute, uncompromising</add> moral. one. The intellectual <subst><del rend="overstrike" hand="#h02" seq="1">&amp;</del><add place="above" hand="#h02" seq="2">or</add></subst> critical conscience is amply attended to &#8212; the esthetic <subst><del rend="overstrike" hand="#h02" seq="1">also</del><add place="above" hand="#h02" seq="2">is not neglected &#8212;</add></subst> &#8212; the spiritual (<subst><del rend="overstrike" hand="#h02" seq="1">often</del><del rend="overstrike" hand="#h02" seq="3"><add place="above" hand="#h01" seq="2">from</add></del><del rend="overstrike" hand="#h02" seq="5"><add place="above" hand="#h02" seq="4">though</add></del><add place="above" hand="#h02" seq="6">in</add></subst> crude &amp; erratic <add place="inline" hand="#h02"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" hand="#h02" xml:id="a004">treatment</add>) <del rend="overstrike">has is not <gap extent="about three letters" unit="chars" quantity="3" reason="torn away"/> as the</del> has its theories <add place="inline" hand="#h03"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" hand="#h03" xml:id="a005">zealous</add> students, <gap extent="about three letters" unit="chars" quantity="3" reason="torn away"/>. Others <add place="inline"><metamark function="add" target="#a006">&#8248;</metamark></add><add place="above" xml:id="a006">equally welcome, equally important</add> are not wanting. But the <add place="inline" hand="#h02"><metamark function="add" target="#a007">&#8248;</metamark></add><add place="above" hand="#h02" xml:id="a007">purely</add> moral, <del rend="overstrike">as I have said</del> <gap extent="about five letters" unit="chars" quantity="5" reason="torn away"/> to me <del><add place="above" seq="1">to be</add></del> out <add place="above">as</add> the care. It map of human <gap extent="about three letters" unit="chars" quantity="3" reason="torn away"/> to be our fitly <add place="inline"><metamark function="add" target="#a009">&#8248;</metamark></add><add>to be</add> designated by a <subst><del rend="overstrike" seq="1"><unclear reason="illegible" cert="low" resp="#tb">shade</unclear></del><add place="above" seq="2"><unclear reason="illegible" cert="low" resp="#tb"/></add></subst> incognita a <add place="inline" hand="#h02"><metamark function="add" target="#a008">&#8248;</metamark></add><add place="above" hand="#h02" xml:id="a008">fearful<add place="above" hand="#h02">dismal</add></add> vacant patch.  
+   </p>
+   
+   
+   <pb xml:id="leaf001v" facs="<!-- No image available in the Tracking Database as of 1.15.25, TB -->" type="verso"/>
+   
+</body>
+</text>
 </TEI>
-
-
-
-

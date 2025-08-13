@@ -15,12 +15,15 @@
             <author>Walt Whitman</author>
             <editor role="editor">Kenneth M. Price</editor>
             <editor role="editor">Ed Folsom</editor>
+            <editor role="editor">Matt Cohen</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="aj">Andrew Jewell</persName>
                <persName xml:id="km">Kenneth M. Price</persName>
                <persName xml:id="bb">Brett Barney</persName>
+               <persName xml:id="jh">Jeff Hill</persName>
+               <persName xml:id="ew">Emma Whaley</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -28,7 +31,7 @@
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2003</date>
+               <date>2024</date>
             </edition>
          </editionStmt>
          <publicationStmt>
@@ -52,83 +55,52 @@
             <bibl>
                <author>Walt Whitman</author>
                <title>Ah, Not This Granite Dead and Cold</title>
-               <date cert="high"
-                     value="01-1885/02-1885" xml:id="dat1">Early 1885</date>
+               <date cert="high" value="01-1885/02-1885" xml:id="dat1">Early 1885</date>
                <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, Library of Congress, Washington, DC</orgName> 
                <note type="project">Transcribed from digital images of the original.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change who="#ew" when="2024-09-24">updated image links</change>
+         <change who="#jh" when="2024-03-25">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#aj" when="2005-03-09">Addition of Date and Work Markup</change>
-         <change who="#bb" when="2003-10-02">Conversion to camel-case</change>
-         <change who="#bb" when="2003-02-26">Blessed</change>
-         <change who="#km" when="2002">Edited</change>
-         <change who="#bb" when="2002">Checked; revised</change>
-         <change who="#aj" when="2002">Transcribed; encoded</change>
+         <change who="#aj" when="2005-03-09">addition of date and work markup</change>
+         <change who="#bb" when="2003-10-02">conversion to camel-case</change>
+         <change who="#bb" when="2003-02-26">blessed</change>
+         <change who="#km" when="2002">edited</change>
+         <change who="#bb" when="2002">checked, revised</change>
+         <change who="#aj" when="2002">transcribed, encoded</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <pb facs="loc.00067.001" xml:id="leaf001r" type="recto"/>
-         <lg
-              >
+         <pb facs="loc_ew.00055.jpg" xml:id="leaf001r" type="recto"/>
+         <lg>
             <head type="main-authorial">AH, NOT THIS GRANITE DEAD AND COLD.</head>
             <note place="inline" type="authorial">another lead</note>
             <l>Ah, not this granite, dead and cold!</l>
-            <l>
-               Far from its base and shaft expanding—the round zones circling,<lb/>
-               comprehending;<lb/>
-            </l>
-            <l>
-               Thou<add place="left" rend="insertion">, </add>W<hi rend="smallcaps">ASHINGTON</hi>, art all the world's, the continents entire—<lb/>
-               not yours alone, America;<lb/>
-            </l>
+            <l>Far from its base and shaft expanding—the round zones circling,comprehending;</l>
+            <l>Thou <add place="left" rend="insertion">, </add>W<hi rend="smallcaps">ASHINGTON</hi>, art all the world's, the continents entire&#8212;not yours alone, America;</l>
             <l>Europe's as well, in every part, castle of lord or laborer's cot,</l>
-            <l>
-               Or frozen North, or sultry South—the Arab's in his tent—the<lb/>
-               African's; <lb/>
-            </l>
+            <l>Or frozen North, or sultry South&#8212;the Arab's in his tent&#8212;the African's;</l>
             <l>Old Asia's there with venerable smile, seated amid her ruins;</l>
-            <l>
-               (Greets the antique the hero new? 'tis but the same—the heir <lb/>
-               legitimate, <add place="left" rend="insertion">continued</add> 
-                  <subst>
-                     <rdg varSeq="1">
-                        <gap reason="deletion, illegible"/>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="right" rend="insertion">e</add>
-                     </rdg>
-                  </subst>ver,<lb/>
-            </l>
-            <l>The indomitable heart and arm—proofs of the never-broken <subst>
-                  <rdg varSeq="1">
-                     <gap reason="deletion, illegible"/>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add place="right" rend="insertion">l</add>
-                  </rdg>
-               </subst>ine,</l>
-            <l>
-               Courage, alertness, patience, faith the same—e'en in defeat <orig reg="defeated">de-</orig>
-               <lb/>
-               feated not, the same:)<lb/>
-            </l>
+            <l>(Greets the antique the hero new? 'tis but the same&#8212;the heir legitimate, <add place="left" rend="insertion">continued</add> <gap reason="deletion, illegible" seq="1"/> <add place="right" rend="insertion" seq="2">e</add> ver,</l>
+            <l>The indomitable heart and arm—proofs of the never-broken <gap reason="deletion, illegible" seq="1"/> <add place="right" rend="insertion" seq="2">l</add> ine,</l>
+            <l>Courage, alertness, patience, faith the same—e'en in defeat <orig reg="defeated">de-</orig>feated not, the same:)</l>
             <l>Wherever sails a ship, or house is built on land, or day or night,</l>
             <l>Through teeming cities' streets, indoors or out, factories or farms,</l>
             <l>Now, or to come, or past—where patriot wills existed or exist,</l>
             <l>Wherever Freedom, poised by Toleration, swayed by Law,</l>
             <l>Stands or is rising thy true monument.</l>
          </lg>
-         <signed>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>
-         </signed>
+         <signed>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi></signed>
          <dateline>
             <date when="1885-02" calendar="gregorian">
                <hi rend="italic">February, 1885.</hi>
             </date>
          </dateline>
+         <pb facs="loc.00067.002" xml:id="leaf001v" type="verso"/>
       </body>
    </text>
 </TEI>

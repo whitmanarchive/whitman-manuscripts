@@ -2,7 +2,6 @@
 <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="amh.00010">
-
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,6 +10,7 @@
         <author>Walt Whitman</author>
         <editor>Kenneth M. Price</editor>
         <editor>Ed Folsom</editor>
+        <editor>Matt Cohen</editor>
         <respStmt>
           <resp>Transcription and encoding</resp>
             <persName xml:id="unk">unknown</persName>
@@ -18,6 +18,7 @@
             <persName xml:id="al">Ashley Lawson</persName>
             <persName xml:id="el">Elizabeth Lorang</persName>
             <persName xml:id="bb">Brett Barney</persName>
+            <persName xml:id="jh">Jeff Hill</persName>
         </respStmt>
         <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
         <sponsor>University of Iowa</sponsor>
@@ -26,7 +27,7 @@
       </titleStmt>
       <editionStmt>
         <edition>
-          <date>2010</date>
+          <date>2024</date>
         </edition>
       </editionStmt>
       <publicationStmt>
@@ -50,7 +51,6 @@
       <sourceDesc>
         <bibl>
           <author>Walt Whitman</author>
-          
           <title>Army Hospitals and Cases: Memoranda at the Time&#8212;1863&#8211;66</title>
           <date xml:id="dat1" cert="high" when="1888">1888</date>
             <orgName xml:id="amh">Miscellaneous Manuscripts Collection, Amherst College Archives and Special Collections, Amherst College Library</orgName>
@@ -59,15 +59,15 @@
       </sourceDesc>
     </fileDesc>
       <revisionDesc>
+      <change when="2024-05-09" who="#jh">checked, corrected</change>
       <change when="2013-01-17" who="#bb">moved list of persons responsible to titleStmt</change>
       <change when="2010-11-20" who="#el">blessed</change>
-        <change when="2010-11-20" who="#bb">blessed</change>
+      <change when="2010-11-20" who="#bb">blessed</change>
       <change when="2010-11-20" who="#al">checked</change>
       <change when="2010-02-16" who="#tj">encoded</change>
       <change when="2010-02-16" who="#tj">transcribed</change>
     </revisionDesc>
   </teiHeader>
-
   <text type="manuscript">
     <body>
         <pb xml:id="leaf001r" facs="amh.00010.001.jpg" type="recto"/>
@@ -77,10 +77,8 @@
         <head type="main-authorial" rend="underline">Army Hospitals and Cases.</head> 
         <head type="sub" rend="underline">Memoranda at the time&#8212;1863&#8211;'6.</head>
         <byline rend="underline">By Walt Whitman</byline>
-        <note type="authorial" place="left">put brackets at beginning &#38; close of this &#182;</note> <p>[Of <add rend="insertion" place="supralinear">reminiscences of</add> the Secession War, after the rest is said, it remains to give a few <add rend="insertion" place="supralinear">special</add> words&#8212;in some respects the typical words of all, and the most definitive&#8212;of the Army Hospitals, <add rend="insertion" place="supralinear">and samples of those that filled them,</add> of the Killed and wounded in action, and <del rend="overstrike">the cases</del> of <subst><del rend="overstrike" seq="1">those</del> <add rend="unmarked" place="supralinear" seq="2">soldiers</add></subst> who lingered afterward from these wounds, or <subst><del rend="overstrike" seq="1">soldiers</del> <add rend="unmarked" place="supralinear" seq="2">were</add></subst> laid up by disease or prostration. The <add rend="insertion" place="supralinear">general</add> statistics have <add rend="insertion" place="supralinear">perhaps</add> been printed already in this Magazine, but, as introductory to <subst><del rend="overstrike" seq="1">these Hospital</del> <add rend="unmarked" place="supralinear" seq="2">the</add></subst> incidents <add rend="insertion" place="supralinear">I am going to describe</add>, can bear to be briefly stated again. <anchor xml:id="a1"/></p> <note type="authorial" place="right">run in</note>
-      
+        <note type="authorial" place="left">put brackets at beginning &#38; close of this &#182;</note> <p>[Of <add rend="insertion" place="above">reminiscences of</add> the Secession War, after the rest is said, it remains to give a few <add rend="insertion" place="above">special</add> words&#8212;in some respects the typical words of all, and the most definitive&#8212;of the Army Hospitals, <add rend="insertion" place="above">and samples of those that filled them,</add> of the Killed and wounded in action, and <del rend="overstrike">the cases</del> of <subst><del rend="overstrike" seq="1">those</del> <add rend="unmarked" place="above" seq="2">soldiers</add></subst> who lingered afterward from these wounds, or <subst><del rend="overstrike" seq="1">soldiers</del> <add rend="unmarked" place="above" seq="2">were</add></subst> laid up by disease or prostration. The <add rend="insertion" place="above">general</add> statistics have <add rend="insertion" place="above">perhaps</add> been printed already in this Magazine, but, as introductory to <subst><del rend="overstrike" seq="1">these Hospital</del> <add rend="unmarked" place="above" seq="2">the</add></subst> incidents <add rend="insertion" place="above">I am going to describe</add>, can bear to be briefly stated again. <anchor xml:id="a1"/></p> <note type="authorial" place="right">run in</note>      
           <note type="authorial" place="left"><del rend="overstrike">&#182;</del></note> <p><transpose target="#a1" anchored="true">There were over 3,000,000 men, (for all periods of enlistment, large and small) furnished to the Union Army during the war.</transpose></p> 
-      
           <pb xml:id="leaf001v" type="verso"/>
     </body>
   </text>

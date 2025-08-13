@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02445"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main">To the Sun-Set Breeze</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="kmh">Kenneth Michael Hoover</persName>
+     <persName xml:id="ew">Emma Whaley</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>loc.02445</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
+     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
+     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
+     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
+    
+     <note type="work_relations" target="xxx.00394" cert="high">
+      <p></p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection; Literary File, 1841-1919; Poetry, 1842-1892; "To the Sunset Breeze" (1890); Proof sheets with signed corrections and notations</title>  
+     
+     <date notBefore="1889" notAfter="1890-12" cert="high">About 1890</date>
+     
+     <idno type="callno">mss18630, box 30, reel 18-19</idno>
+     
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+   
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="letterpress" xml:id="h01" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h02" resp="#ww"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ <change when="2024-09-25" who="#ew">updated image links</change>
+ <change when="2024-09-04" who="#kmh">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="loc_ew.00366.jpg" type="recto"/>
+   <note hand="#h02" type="authorial" place="top">pub'd in <hi rend="underline">Lippincott's Mag</hi>&#8212;Dec: '90</note>
+   <lg type="poem">
+    <head>TO THE SUN-SET BREEZE.</head>
+     <l>Ah, whispering, something again, unseen,</l>
+     <l>Where late this heated day thou enterest at my window, door,</l>
+     <l>Thou, laving, tempering all, cool-freshing, gently vitalizing</l>
+     <l>Me, old, alone, sick, weak-down, melted-worn with sweat;</l>
+     <l>Thou, nestling, folding close and firm yet soft, companion <choice><orig>bet-<lb/> ter</orig><reg>better<lb/> </reg></choice> than talk, book, art,</l>
+     <l>(Thou hast, O Nature! elements! utterance to my heart <choice><orig>be-<lb/> yond</orig><reg>beyond<lb/> </reg></choice> the rest&#8212;and this is of them,)</l>
+     <l>So sweet they primitive taste to breathe within&#8212;thy soothing<lb/> fingers on my face and hands,</l>
+     <l>Thou, messenger-magical strange bringer to body and spirit of<lb/> me,</l>
+     <l>(Distances balk'd&#8212;occult medicines penetrating me from head<lb/> to foot.)</l>
+     <l>I feel the sky, the prairies vast&#8212;I feel the mighty northern<lb/> lakes,</l>
+     <l>I feel the ocean and the forest&#8212;somehow I feel the globe<lb/> itself swift-swimming in space;</l>
+     <l>Thou blown from lips so loved, now gone&#8212;haply from <choice><orig>end-<lb/> less</orig><reg>endless<lb/> </reg></choice> store, God-sent,</l>
+     <l>(For thou art spiritual, Godly, most of all known to my<lb/> sense,)</l>
+     <l>Minister to speak to me, here and now, what word has never<lb/> told, and cannot tell,</l>
+     <l>Art thou not universal concrete's distillation? Law's, all <choice><sic>As-<lb/> Astronomy's</sic><corr><choice><orig>As-<lb/> tronomy</orig><reg>Astronomy<lb/> </reg></choice></corr></choice> last refinement?</l>
+     <l>Hast thou no soul? Can I not know, identify thee?</l>
+   </lg>
+   <signed hand="#h02" rend="right">Walt Whitman</signed>
+   <note hand="#h02" type="authorial" place="bottom">rejected by "Harper's Monthly as a mere<lb/> improvisation</note>
+   <note hand="#h02" type="authorial" place="bottom">rejected by "Nineteenth Century"</note>
+   
+   <pb xml:id="leaf001v" facs="loc.00315.006_large.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>

@@ -1,277 +1,127 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00156">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title level="m" type="main">
-Broadway		
-</title>
-            <title level="m" type="sub">a machine readable transcription</title>
-            <author>Walt Whitman</author>
-            <editor role="editor">Kenneth M. Price</editor>
-            <editor role="editor">Ed Folsom</editor>
-            <respStmt>
-               <resp>Transcription and encoding</resp>
-               <persName xml:id="nhg">Nicole Gray</persName>
-               <persName xml:id="ah">Amy Hezel</persName>
-               <persName xml:id="lw">Leslee Wright</persName>
-            </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
-            <sponsor>University of Iowa</sponsor>
-            <funder>The National Endowment for the Humanities</funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>
-               <date>2003</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <idno>uva.00156</idno>
-            <distributor>The Walt Whitman Archive</distributor>
-            <address>
-               <addrLine>Center for Digital Research in the Humanities</addrLine>
-               <addrLine>319 Love Library</addrLine>
-               <addrLine>University of Nebraska-Lincoln</addrLine>
-               <addrLine>P.O. Box 884100</addrLine>
-               <addrLine>Lincoln, NE 68588-4100</addrLine>
-            </address>
-            <availability>
-               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <author> Walt Whitman </author>
-               <title>
-Papers of Walt Whitman (MSS 3829)	
-</title>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-               <idno type="callno">
-MSS 3829
-</idno> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00156"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main" rend="bracketed">Broadway</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="tb">Tara Ballard</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2025</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
 
-               <orgName xml:id="uva">
-Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia	
-</orgName> 
+   <idno>uva.00156</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+     <note type="work_relations" target="xxx.00345" cert="high">
+      <p>This manuscript contains a draft version of the poem "Broadway". A note appearing at the top of the page states "Sent Herald March 3—sent again April 9 '88" indicating that this manuscript was likely composed and/or edited around the time of its first publication in the <hi rend="italic">New York Herald</hi>, April 10, 1888.</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>Broadway</title>  
+     
+     <date cert="high">1888</date>
+     
+     <idno type="callno">box 1, folder 13</idno>
+     
+     <orgName xml:id="uva">Walt Whitman Literary Manuscripts in the Papers of Walt Whitman, Clifton Waller Barrett Library of American Literature, Albert and Shirley Small Special Collections Library, University of Virginia</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
 
+     <note type="project" target="#rel01">The verso is blank.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>    
+    <handNote medium="purple pencil" xml:id="h01" scope="major" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h02" scope="minor" resp="#unk"></handNote>
+    <handNote medium="pencil" xml:id="h03" scope="minor" resp="#ww"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2025-02-26" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
 
-               <note type="project">Transcribed from digital images of the original.</note>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <revisionDesc>
-         <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#ah" when="2004-06-10">Checked; revised</change>
-         <change who="#lw" when="2003-06-30">Encoded</change>
-         <change who="#lw" when="2003-06-30">Transcribed</change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-
-
-
-         <pb facs="uva.00156.001" xml:id="leaf001r" type="recto"/>
-
-         <note type="authorial"
-               place="top">
-            <p>Sent to Herald March 3—Sent again April 9 '88</p>
-         </note>
-
-         <lg
-              >
-
-            <head type="main-authorial" rend="underline">
-Broadway.
-</head>
-
-
-            <l>
-               What <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">endless</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">hurrying</add> 
-                     </rdg>
-                  </subst>human tides, or day or <orig reg="glitering">glit-</orig>
-               <lb/>
-
-               <!--This is also a non-standard spelling: <sic corr="glittering">glitering</sic>  I wasn't sure how to convey the wordbreak and the non-standard spelling, or if this is even necessary in addition to the wordbreak-a.h. -->
-
-               tering night!<lb/>
-            </l>
-            <l>
-               
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">
-                           <gap reason="deletion, illegible"/>
-                        </del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="infralinear">
-                           <del rend="overstrike">
-                              <gap reason="deletion, illegible"/>
-                           </del>
-                        </add>
-                     </rdg>
-                     <rdg varSeq="3">
-                        <add rend="unmarked" place="supralinear">
-                           <del rend="overstrike">Within that </del>
-                        </add>
-                     </rdg>
-                  </subst>
-                  <del rend="overstrike">channels nor too narrow nor too wide,</del>
-               <lb/>
-            </l>
-            <l>
-               What passions, evils, <add rend="insertion" place="supralinear">winnings, losses,</add>ardors, swim thy waters!<lb/>
-            </l>
-            <l>
-               What <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">varied</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">whirls of</add> 
-                     </rdg>
-                  </subst>bliss and sorrow stem thee!—what<lb/>
-               looks!<lb/>
-            </l>
-            <l>
-               
-                  <del rend="overstrike">(</del>
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">The</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="insertion" place="supralinear">
-                           <del rend="overstrike">What Such</del>
-                        </add> 
-                     </rdg>
-                     <rdg varSeq="3">
-                        <add rend="unmarked" place="supralinear">What</add> 
-                     </rdg>
-                  </subst>curious questioning glances—<del rend="overstrike">the</del>
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">glows</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">glints</add>
-                     </rdg>
-                  </subst>
-               <lb/>
-               of love,<lb/>
-            </l> 
-            <l>
-               Leer, envy, scorn, <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">disdain</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">contempt,</add> 
-                     </rdg>
-                  </subst>hope, aspiration!<del rend="overstrike">)</del>
-               <lb/>
-            </l>
-            <l>
-               Thou portal—thou arena—thou of the<lb/>
-               
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">endless</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">myriad</add> 
-                     </rdg>
-                  </subst>long-drawn lines and groups<lb/>
-            </l>
-            <l>
-               (Could but thy flagstones, <del rend="overstrike">porches</del>curbs, <add rend="insertion" place="supralinear">facades</add>tell their interminable<lb/>
-               tales)<lb/>
-            </l>
-            <l>
-               Thy windows rich, <add rend="unmarked" place="supralinear">
-                     <unclear reason="illegible" resp="#ah" cert="high">tales;</unclear>
-                  </add>and huge hotels—Thy<lb/>
-               sidewalks wide,<lb/>
-            </l>
-            <l>
-               
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">With</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">Thou of the</add> 
-                     </rdg>
-                  </subst>
-                  <subst>
-                     <rdg varSeq="1">
-                        <add rend="unmarked" place="infralinear">
-                           <del rend="overstrike">myriad</del>
-                        </add>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="infralinear">endless</add>
-                     </rdg>
-                  </subst> sliding, mincing, <del rend="overstrike">skipping</del> shuffling<lb/>
-               feet,<lb/>
-            </l>
-            <l>
-               Thou <del rend="overstrike">
-                     <add rend="insertion" place="supralinear">visor'd</add>
-                  </del> like the <add rend="insertion" place="supralinear">parti-colored</add> world itself—like <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">
-                           <add rend="insertion" place="supralinear">parti-colored</add>
-                        </del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="insertion" place="supralinear">infinite teeming mocking</add> 
-                     </rdg>
-                  </subst>life,<lb/>
-            </l>
-            <l>
-               
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">A visor'd,</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">Thou visor'd,</add> 
-                     </rdg>
-                  </subst>vast, <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">untellable</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">unspeakable</add> 
-                     </rdg>
-                  </subst>show and lesson!<lb/>
-            </l>
-
-
-            <closer>
-               <signed rend="underline">Walt Whitman</signed>
-            </closer>
-
-
-            <l>
-               
-                  <delSpan spanTo="#d1"
-                           
-                           rend="overstrike"/>could but thy flagstones, curbs, facades<lb/>
-               their story tell their tales interminable tales<lb/>
-            </l>
-
-            <anchor xml:id="d1"/>
-
-
-         </lg>
-      </body>
-   </text>
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="uva.00156.001.jpg" type="recto"/>
+   <note type="authorial" place="top" rend="marked" hand="#h02">sent to Herald March 3 &#8212; sent again April 9<lb/>'88</note>
+   <lg type="poem">
+     <head><handShift new="#h01"/><hi rend="underline">Broadway.</hi></head>
+     <l>What <subst><del rend="overstrike" seq="1">endless</del><add place="above" seq="2">hurrying</add></subst> human tides, or day or <choice><orig>glit&#8211;<lb/>tering</orig><reg>glittering</reg></choice><lb/>
+              night!</l>
+     <l><del rend="overstrike" seq="4"><subst><del rend="overstrike" seq="1">There</del><del rend="overstrike" seq="3"><add place="above" seq="2">Within that</add></del></subst> channels nor too narrow nor too wide.</del></l>
+     <l>What passions, evils, <add place="inline" hand="#h02"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001" hand="#h02">winnings, losses,</add> ardors, swim thy waters!</l>
+     <l>What varied bliss and sorrow stem thee! &#8212; what<lb/>
+              looks!</l>
+     <l>(<del rend="overstrike">The</del> <add place="inline"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">What <del rend="overstrike" hand="#h03">such,</del></add><add place="above" hand="#h03">What</add> curious questioning glances &#8212; <del rend="overstrike">the</del> <subst><del rend="overstrike" seq="1">glows</del><add place="above" seq="2">glints</add></subst><lb/>
+              of love,</l>
+     <l>Leer, envy, scorn, <subst><del rend="overstrike" seq="1">disdain</del><add place="above" seq="2">contempt,</add></subst>, hope, aspiration<subst><del rend="overwrite" seq="1">!</del><add place="above" seq="2">!</add></subst><del rend="overstrike" hand="#h03">)</del></l>
+     <l>Thou portal &#8212; thou arena &#8212; thou of the<lb/>
+            <subst><del rend="overstrike" seq="1">endless,</del><add place="above" seq="2">married</add></subst> long&#8211;drawn lines and groups.</l>
+     <l>(could but thy flagstones, <del rend="overstrike" hand="#h02">porches,</del> curbs, <add place="inline" hand="#h02"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003" hand="#h02">fa&#231;ades,</add> tell their interminable<lb/>
+            tales;</l>
+     <l>Thy windows rich, and huge hotels &#8212; thy<lb/>
+            sidewalks wide,</l>
+     <l>With sliding, mincing, skipping, shuffling<lb/>
+           <del rend="overstrike" seq="2"><add place="above" seq="1">myriad</add></del><add place="above" seq="3">endless</add>feet.</l>
+     <l>Thou, <add place="inline"><metamark function="add" target="#a004">&#8248;</metamark></add><del rend="overstrike" seq="2"><add place="above" xml:id="a004" seq="1">visor'd</add></del> like the <add place="inline"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" xml:id="a005">parti&#11840;color'd</add> world itself &#8212; like <add place="inline"><metamark function="add" target="#a006">&#8248;</metamark></add><del rend="overstrike" seq="2"><add place="above" xml:id="a006" seq="1">parti&#11840;color'd</add></del><add place="inline" hand="#h02"><metamark function="add" target="#a007">&#8248;</metamark></add><add place="above" hand="#h02" xml:id="a007">infinite teeming masking</add> life,</l>
+     <l><subst><del rend="overstrike" seq="1">A</del><add place="above" seq="1">Thou</add></subst> <subst><del rend="overstrike" seq="1">varied</del><add place="above" seq="2">visor'd</add></subst>, vast, <subst><del rend="ovesrtrike" seq="1">untellable</del><add place="above" seq="2">unspeakable</add></subst> show and lesson!</l>
+   </lg>
+   
+   <signed><hi rend="underline">Walt Whitman</hi></signed>
+   
+   <note>could but thy flagstones curls, fa&#231;ades<lb/>their story, tell <add place="below">tales</add> their tales interminable</note>
+   
+   <pb xml:id="leaf001v" facs="uva_jc.00042.jpg" type="verso"/>
+   
+</body>
+</text>
 </TEI>

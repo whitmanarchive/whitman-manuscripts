@@ -14,12 +14,15 @@
             <author>Walt Whitman</author>
             <editor role="editor">Kenneth M. Price</editor>
             <editor role="editor">Ed Folsom</editor>
+            <editor role="editor">Matt Cohen</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="km">Kenneth M. Price</persName>
                <persName xml:id="fl">Farrah Lehman</persName>
                <persName xml:id="ms">Melody S. Han</persName>
+               <persName xml:id="jh">Jeff Hill</persName>
+               <persName xml:id="ew">Emma Whaley</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -27,8 +30,7 @@
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2004
-</date>
+               <date>2024</date>
             </edition>
          </editionStmt>
          <publicationStmt>
@@ -64,115 +66,29 @@
          </handList>
       </profileDesc>
       <revisionDesc>
+         <change who="#ew" when="2024-09-24">updated image links</change>
+         <change who="#jh" when="2024-04-23">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#km" when="2006-10-05">Edited</change>
-         <change who="#fl" when="2006-09-22">Checked</change>
-         <change who="#ms" when="2004-03-24">Encoded</change>
-         <change who="#ms" when="2004-03-24">Transcribed</change>
+         <change who="#km" when="2006-10-05">edited</change>
+         <change who="#fl" when="2006-09-22">checked</change>
+         <change who="#ms" when="2004-03-24">encoded</change>
+         <change who="#ms" when="2004-03-24">transcribed</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <pb facs="loc.00195.001" xml:id="leaf001r" type="recto"/>
-         <lg
-              >
-            <head type="main-authorial">
-               <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">Swelling and ebbing and hand in hand</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add place="supralinear" rend="unmarked">
-                        <del rend="overstrike">Advancing, retreating,</del>
-                     </add>
-                  </rdg>
-                  <rdg varSeq="3">
-                     <add place="inline" rend="unmarked">Ebb and Flood Tides.</add>
-                  </rdg>
-               </subst>
-            </head>
-            <l>
-               <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">Swelling and ebbing</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add place="supralinear" rend="unmarked">Advancing, retreating,</add>
-                  </rdg>
-               </subst> and hand in hand</l>
-            <l>
-               <add place="supralinear" rend="insertion">Duly</add> With <add place="supralinear" rend="insertion">
-                  <del rend="hashmark">their</del>
-               </add> 
-               <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">rhythmic</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add place="supralinear" rend="unmarked">turning</add>
-                  </rdg>
-               </subst> steps <add place="supralinear" rend="insertion">and mouths</add> to the <subst>
-                  <rdg varSeq="1">
-                     <del rend="hashmark">left</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add place="supralinear" rend="unmarked">right</add>
-                  </rdg>
-               </subst> or <add place="supralinear" rend="unmarked">the</add> 
-               <subst>
-                  <rdg varSeq="1">
-                     <del rend="hashmark">right</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add place="supralinear" rend="unmarked">left</add>
-                  </rdg>
-               </subst>
-            </l>
-            <l>
-               <gap reason="cut away"/> 
-               <add place="supralinear" rend="unmarked">
-                  <del rend="overstrike">reverting</del>
-               </add> 
-               <subst>
-                  <rdg varSeq="1">
-                     <add place="supralinear" rend="unmarked">
-                        <del rend="overstrike">
-                           <unclear reason="deletion, illegible"
-                                    cert="high" resp="#fl">moving</unclear>
-                        </del>
-                     </add>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add place="supralinear" rend="unmarked">reverting</add>
-                  </rdg>
-               </subst>
-            </l>
-            <l>
-               <del rend="overstrike">With many a laugh</del>
-            </l>
-            <l>
-               
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">The</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="supralinear" rend="unmarked">You</add>
-                     </rdg>
-                  </subst> 
-                  <del rend="overstrike">tides the</del> 
-                  <del rend="overstrike">ceaseless</del> 
-                  <add place="supralinear" rend="unmarked">
-                     <delSpan spanTo="#d1"
-                              rend="overstrike"
-                              />liquid</add> tides like a <anchor xml:id="d1"/> chorus<lb/>
-               of brothers and sisters<lb/>
-            </l>
-            <l>
-               <del rend="overstrike">Move forever, <add place="supralinear" rend="unmarked">move,</add> round the circles of the earth,</del>
-            </l>
+         <pb facs="loc_ew.00071.jpg" xml:id="leaf001r" type="recto"/>
+         <lg>
+            <head type="main-authorial"><subst><rdg varSeq="1"><del rend="overstrike">Swelling and ebbing and hand in hand</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked"><del rend="overstrike">Advancing, retreating,</del></add></rdg><rdg varSeq="3"><add place="inline" rend="unmarked">Ebb and Flood Tides.</add></rdg></subst></head>
+            <l><subst><rdg varSeq="1"><del rend="overstrike">Swelling and ebbing</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">Advancing, retreating,</add></rdg></subst> and hand in hand</l>
+            <l><add place="above" rend="insertion">Duly</add> With <add place="above" rend="insertion"><del rend="hashmark">their</del></add> <subst><rdg varSeq="1"><del rend="overstrike">rhythmic</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">turning</add></rdg></subst> steps <add place="above" rend="insertion">and mouths</add> to the <subst><rdg varSeq="1"><del rend="hashmark">left</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">right</add></rdg></subst> or <add place="above" rend="unmarked">the</add> <subst><rdg varSeq="1"><del rend="hashmark">right</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">left</add></rdg></subst></l>
+            <l><gap reason="cut away"/> <add place="above" rend="unmarked"><del rend="overstrike">reverting</del></add> <subst><rdg varSeq="1"><add place="above" rend="unmarked"><del rend="overstrike"><unclear reason="deletion, illegible" cert="high" resp="#fl">moving</unclear></del></add></rdg><rdg varSeq="2"><add place="above" rend="unmarked">reverting</add></rdg></subst></l>
+            <l><del rend="overstrike">With many a laugh</del></l>
+            <l><subst><rdg varSeq="1"><del rend="overstrike">The</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">You</add></rdg></subst> <del rend="overstrike">tides the</del> <del rend="overstrike">ceaseless</del> <add place="above" rend="unmarked"> <delSpan spanTo="#d1" rend="overstrike"/>liquid</add> tides like a <anchor xml:id="d1"/> chorus<lb/> of brothers and sisters</l>
+            <l><del rend="overstrike">Move forever, <add place="above" rend="unmarked">move,</add> round the circles of the earth,</del></l>
             <l>Moving forever round the circles of the earth.</l>
          </lg>
+         <pb facs="loc_ew.00072.jpg" xml:id="leaf001v" type="verso"/>
       </body>
    </text>
 </TEI>

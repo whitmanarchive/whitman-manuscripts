@@ -14,6 +14,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="jh">Jeff Hill</persName>
+                    <persName xml:id="ew">Emma Whaley</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -69,12 +70,13 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2024-10-01" who="#ew">updated image links</change>
             <change when="2024-02-12" who="#jh">transcribed and encoded</change>
         </revisionDesc>
     </teiHeader>
     <text type="manuscript">
         <body>
-            <pb xml:id="leaf001r" facs="loc_jc.00843.jpg" type="recto"/>
+            <pb xml:id="leaf001r" facs="loc_ew.00021.jpg" type="recto"/>
             <lg type="poem">
                 <l>Ripple and echoes from the</l>
                 <l>Ripple <subst><del rend="overstrike" seq="1">and resume,</del><add rend="unmarked" place="below" seq="2">float</add></subst> and drift upon the shore,<add rend="insertion" place="above">and resume</add></l>
@@ -85,7 +87,7 @@
                 <l>As I sail idly.</l>
             </lg>
             <!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-            <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+            <pb xml:id="leaf001v" facs="loc_ew.00022.jpg" type="verso"/>
         </body>
     </text>
 </TEI>

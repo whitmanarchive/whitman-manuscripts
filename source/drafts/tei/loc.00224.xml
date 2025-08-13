@@ -13,12 +13,15 @@
             <author>Walt Whitman</author>
             <editor role="editor">Kenneth M. Price</editor>
             <editor role="editor">Ed Folsom</editor>
+            <editor role="editor">Matt Cohen</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="km">Kenneth M. Price</persName>
                <persName xml:id="fl">Farrah Lehman</persName>
                <persName xml:id="ms">Melody S. Han</persName>
+               <persName xml:id="jh">Jeff Hill</persName>
+               <persName xml:id="ew">Emma Whaley</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -26,8 +29,7 @@
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2004
-</date>
+               <date>2024</date>
             </edition>
          </editionStmt>
          <publicationStmt>
@@ -52,87 +54,34 @@
             <bibl>
                <author>Walt Whitman</author>
                <title>Not meagre latent boughs alone</title>
-               <date cert="absolute"
-                     value="1887-04-28" xml:id="dat1">April 28, 1887</date>
+               <date cert="absolute" value="1887-04-28" xml:id="dat1">April 28, 1887</date>
                <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839-1919, Library of Congress, Washington, DC</orgName>
                <note type="project">Transcribed from digital images of the original.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change who="#ew" when="2024-09-25">updated image links</change>
+         <change who="#jh" when="2024-04-23">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#km" when="2006-10-23">Edited</change>
-         <change who="#fl" when="2006-10-19">Checked</change>
-         <change who="#ms" when="2004-04-22">Encoded</change>
-         <change who="#ms" when="2004-04-22">Transcribed</change>
+         <change who="#km" when="2006-10-23">edited</change>
+         <change who="#fl" when="2006-10-19">checked</change>
+         <change who="#ms" when="2004-04-22">encoded</change>
+         <change who="#ms" when="2004-04-22">transcribed</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <pb facs="loc.00224.001" xml:id="leaf001r" type="recto"/>
-
-         <lg
-              >
+         <pb facs="loc_ew.00079.jpg" xml:id="leaf001r" type="recto"/>
+         <lg>
             <head type="main-derived" rend="bracketed">Not meagre latent boughs alone</head>
-
-            <del rend="hashmark">
-               <note place="top"
-                     type="authorial">
-                  <p>Camden <date when="1887-04-28">April 28 1887</date>
-                  </p>
-               </note>
-            </del>
-
+            <del rend="hashmark"><note place="top" type="authorial"><p>Camden <date when="1887-04-28">April 28 1887</date></p></note></del>
             <milestone unit="empty" rend="horbar-full"/>
-
-            <l>
-               Not meagre <add place="supralinear" rend="insertion">latent</add> boughs alone, <add place="supralinear" rend="unmarked">O <del rend="overstrike">
-                        <add place="supralinear" rend="insertion">latent</add>
-                     </del> Songs,</add>
-               <lb/>
-               (scaly, <add place="supralinear" rend="insertion">and bare,</add> like eagles'<lb/>
-               talon<subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">g</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="over" rend="overwrite">s,</add>
-                     </rdg>
-                  </subst>)<lb/>
-            </l>
-            <l>
-               But <add place="supralinear" rend="insertion">haply</add> for some <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">better</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <del rend="overstrike">
-                           <add place="supralinear" rend="insertion">coming</add>
-                        </del>
-                     </rdg>
-                     <rdg varSeq="3">
-                        <add place="supralinear" rend="unmarked">sunny</add>
-                     </rdg>
-                  </subst> day,<lb/>
-               
-                  <add place="supralinear" rend="insertion">(who knows?)</add> some future spring—<lb/>
-               some summer <subst>
-                     <rdg varSeq="1">
-                        <del rend="overwrite">,</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="over" rend="overwrite">—</add>
-                     </rdg>
-                  </subst>
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">leaping</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="supralinear" rend="unmarked">—bursting</add>
-                     </rdg>
-                  </subst> forth,<lb/>
-            </l>
+            <l>Not meagre <add place="above" rend="insertion">latent</add> boughs alone, <add place="above" rend="unmarked">O <del rend="overstrike"> <add place="above" rend="insertion">latent</add></del> Songs,</add><lb/>
+               (scaly, <add place="above" rend="insertion">and bare,</add> like eagles'<lb/>
+               talon<subst><rdg varSeq="1"><del rend="overstrike">g</del></rdg><rdg varSeq="2"><add place="over" rend="overwrite">s,</add</rdg></subst>)</l>
+            <l>But <add place="above" rend="insertion">haply</add> for some <subst><rdg varSeq="1"><del rend="overstrike">better</del></rdg><rdg varSeq="2"><del rend="overstrike"><add place="above" rend="insertion">coming</add></del></rdg><rdg varSeq="3"><add place="above" rend="unmarked">sunny</add></rdg></subst> day,<lb/><add place="above" rend="insertion">(who knows?)</add> some future spring&#8212;<lb/>
+               some summer <subst><rdg varSeq="1"><del rend="overwrite">,</del></rdg><rdg varSeq="2"><add place="over" rend="overwrite">&#8212;</add></rdg></subst> <subst><rdg varSeq="1"><del rend="overstrike">leaping</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">&#8212;bursting</add></rdg></subst> forth,</l>
          </lg>
       </body>
    </text>

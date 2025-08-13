@@ -1,287 +1,121 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="tex.00074">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title level="m" type="main" rend="bracketed">anks in old age
-		<!-- TITLE GOES HERE. IF IT IS DERIVED FROM THE -->
-		<!-- FIRST LINE, ADD THIS TO THE PREVIOUS TAG:  -->
-		<!-- rend="bracketed"                           --> 
-</title>
-            <title level="m" type="sub">a machine readable transcription</title>
-            <author>Walt Whitman</author>
-            <editor role="editor">Kenneth M. Price</editor>
-            <editor role="editor">Ed Folsom</editor>
-            <respStmt>
-               <resp>Transcription and encoding</resp>
-               <persName xml:id="nhg">Nicole Gray</persName>
-               <persName xml:id="cf">Chris Forster</persName>
-            </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
-            <sponsor>University of Iowa</sponsor>
-            <funder>The National Endowment for the Humanities</funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>
-               <date>2004</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <idno>tex.00074</idno>
-            <distributor>The Walt Whitman Archive</distributor>
-            <address>
-               <addrLine>Center for Digital Research in the Humanities</addrLine>
-               <addrLine>319 Love Library</addrLine>
-               <addrLine>University of Nebraska-Lincoln</addrLine>
-               <addrLine>P.O. Box 884100</addrLine>
-               <addrLine>Lincoln, NE 68588-4100</addrLine>
-            </address>
-            <availability>
-               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
-            </availability>
-         </publicationStmt>
-         <notesStmt>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-		<!-- IGNORE THE FOLLOWING PROJECT NOTE. IT WILL BE FILLED IN BY PROJECT EDITORS. -->
-            <note type="project" target="dat1"/>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00074"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main" rend="bracketed">anks in old age</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="tb">Tara Ballard</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2025</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
 
-		          <!-- IF THERE IS VERSO INFORMATION THAT YOU ARE ONLY    -->
-            <!-- DESCRIBING BUT NOT TRANSCRIBING, INSERT THAT HERE. -->
-		          <!-- IF YOUR MANUSCRIPT HAS NO VERSO MATERIAL, OR IF    -->
-		          <!-- YOU ARE TRANSCRIBING THAT MATERIAL, YOU MAY DELETE -->
-		          <!-- THIS NOTE.               				  -->
+   <idno>tex.00074</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+     <note type="work_relations" target="xxx.00357" cert="high">
+      <p>Heavily revised draft of approximately seven lines of the poem "Thanks in Old Age," which was first published on 24 November 1887 in the Philadelphia <hi rend="italic">Press</hi>. It was reprinted in the New York <hi rend="italic">World</hi> on 23 November 1890 under the title "Walt Whitman's Thanksgiving" and in the so-called deathbed edition of <hi rend="italic">Leaves of Grass</hi> (1891–92) under its original title. This manuscript has been pasted to a backing sheet and no image of the verso is available.</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>[Thanks in old age]</title>  
+     
+     <date cert="high">about 1887</date>
+     
+     <idno type="callno">Box bv2</idno>
+     
+     <orgName xml:id="tex">Walt Whitman Literary Manuscripts in the Walt Whitman Collection, Harry Ransom Humanities Research Center at the University of Texas at Austin</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
 
-         </notesStmt>
-         <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
-               <!-- HAVEN'T LOCATED HRC EAD. -cf -->
-               <title>
-	<!-- TITLE UNDER WHICH THE MS IS HELD AT THE REPOSITORY;	      -->
-	<!-- PLEASE CONSULT, WHEN AVAILABLE, THE ONLINE FINDING	  	-->
-	<!-- FINDING AID ON THE WHITMAN ARCHIVE, IN THE "MANUSCRIPTS" 	-->
-	<!-- SECTION OF THE SITE.                                     	-->
+     <note type="project" target="#rel01">The verso is inaccesible as the sheet has been pasted to another paper.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="purple pencil" xml:id="h01" scope="major" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h02" scope="minor" resp="#ww"></handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2025-02-02" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
 
-</title>
-               <date cert="****" value="/" xml:id="dat1"><!-- DATING INFO WILL BE INSERTED BY PROJECT EDITORS --></date>
-               <idno type="callno">
-	<!-- THE REPOSITORY'S ID CODE FOR THE MATERIAL, IF ANY, CAN BE	     -->
-	<!-- ENTERED HERE. THE VALUE OF 'TYPE' CAN BE ALTERED TO FIT	     -->
-	<!-- THE TYPE OF ID NUMBER USED; EXAMPLE: MSS 3829.  THIS INFO	     -->
-	<!-- IS ONLY APPROPRIATE FOR THE REPOSITORIES THAT HAVE CREATED        -->
-	<!-- UNIQUE IDENTIFIERS FOR EACH MANUSCRIPT: HARVARD, BOSTON           -->
-	<!-- PUBLIC LIBRARY, BYU, JOHNS HOPKINS, THE HUNTINGTON, THE MORGAN,   -->
-	<!-- RUTGERS, THE AMERICAN ANTIQUARIAN SOCIETY, AND TEMPLE. PLEASE     -->
-	<!-- CONSULT THE ONLINE FINDING AIDS.                                  --> 
-		
-</idno> 
-               <orgName xml:id="tex">
-The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin
-</orgName> 
-
-	              <!-- ALTER THE FOLLOWING NOTE IF NECESSARY -->
-
-               <note type="project">Transcribed from digital images of the original.</note>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-         <handList>
-            <hand scribe="Chris Forster" xml:id="cf"/>
-            <hand scribe="unknown" xml:id="unk"/>
-         </handList>
-      </profileDesc>
-      <revisionDesc>
-         <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#cf" when="2005-07-15">Encoded</change>
-         <change who="#cf" when="2005-07-15">Transcribed</change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-
-		<!-- AGAIN, UNIQUE ID PLUS 3-DIGIT PAGE # IN THE FOLLOWING -->
-         <pb facs="tex.00074.001" xml:id="leaf001r" type="recto"/>
-
-         <lg
-              >
-
-            <head type="main-derived">nks in old age</head>
-
-
-            <note place="top" resp="#unk"
-                  type="editorial">5</note>
-
-            <l>
-               <supplied reason="cut away" source="project" TEIform="supplied">Tha</supplied>nks in old age—than<supplied reason="cut away" source="project" TEIform="supplied">ks</supplied> 
-               <gap reason="cut away"/> I go.—</l>
-
-            <lg type="linegroup"
-                 >
-               <l>
-                  For health the <add place="supralinear" rend="insertion">
-                        <subst>
-                           <rdg varSeq="1">
-                              <del rend="overstrike">summer</del> 
-                           </rdg>
-                           <rdg varSeq="2">
-                              <add place="supralinear" rend="unmarked">midday</add> 
-                           </rdg>
-                        </subst>
-                     </add> sun, the <orig reg="impalpable">im</orig>
-                  <lb/>
-                  palpable air—for <subst>
-                        <rdg varSeq="1">
-                           <del rend="overstrike">merely</del> 
-                        </rdg>
-                        <rdg varSeq="2">
-                           <add place="supralinear" rend="unmarked">life, mere life</add> 
-                        </rdg>
-                     </subst>
-                  <lb/>
-                  
-                     <del rend="overstrike">living</del>
-                  <lb/>
-               </l>
-
-               <l>
-                  For <subst>
-                        <rdg varSeq="1">
-                           <del rend="overstrike">many</del> 
-                        </rdg>
-                        <rdg varSeq="2">
-                           <add place="supralinear" rend="insertion">precious</add> 
-                        </rdg>
-                     </subst>
-memories <add place="supralinear" rend="insertion">
-                        <subst>
-                           <rdg varSeq="1">
-                              <del rend="overstrike">undying</del> 
-                           </rdg>
-                           <rdg varSeq="2">
-                              <add place="supralinear" rend="unmarked">ever lingering</add> 
-                           </rdg>
-                        </subst>
-                     </add>
-(<subst>
-                        <rdg varSeq="1">
-                           <del rend="overstrike">yours</del> 
-                        </rdg>
-                        <rdg varSeq="2">
-                           <add place="supralinear" rend="unmarked">of you</add> 
-                        </rdg>
-                     </subst>
-my<lb/>
-                  mother dear<subst>
-                        <rdg varSeq="1">
-                           <del rend="overstrike">—yours,</del> 
-                        </rdg>
-                        <rdg varSeq="2">
-                           <add place="supralinear" rend="unmarked">—you</add> 
-                        </rdg>
-                     </subst>
-                     <subst>
-                        <rdg varSeq="1">
-                           <del rend="overstrike">my</del> 
-                        </rdg>
-                        <rdg varSeq="2">
-                           <del rend="overstrike">
-                              <add place="supralinear" rend="unmarked">dear</add>
-                           </del> 
-                        </rdg>
-                     </subst>
-father,<lb/>
-                  —<subst>
-                        <rdg varSeq="1">
-                           <del rend="overstrike">yours,</del> 
-                        </rdg>
-                        <rdg varSeq="2">
-                           <add place="supralinear" rend="unmarked">you</add> 
-                        </rdg>
-                     </subst>
-                     <del rend="overstrike">dear friends</del> brothers,<lb/>
-                  sisters, friends;)<lb/>
-               </l>
-            </lg>
-
-            <lg type="linegroup"
-                 >
-
-               <l>For all my days—not those</l>
-               <!-- W HAS HERE DELETED THE BEGINNING OF A LINE, INTENDING, APPARENTLY, THAT THE LINE THEN BE CONNECTED -->
-               <!-- WITH THE ONE PRECEDING IT. -cf -->
-               <l>
-                  
-                     <del rend="overstrike">Not for the days</del> of peace<lb/>
-                  alone—the days of war the<lb/>
-                  same<lb/>
-               </l>
-            </lg>
-
-            <milestone unit="glued"/>
-
-            <lg type="linegroup"
-                 >
-               <l>
-                  For gentle words, caresses <add place="supralinear" rend="insertion">
-                        <subst>
-                           <rdg varSeq="1">
-                              <del rend="overstrike">gifts—</del> 
-                           </rdg>
-                           <rdg varSeq="2">
-                              <add place="supralinear" rend="unmarked">gifts from foreign lands</add> 
-                           </rdg>
-                        </subst>
-                     </add>—<lb/>
-                  
-                     <add place="supralinear" rend="insertion">for shelter</add> wine and meat—for sweet<lb/>
-                  appreciation<lb/>
-               </l>
-
-               <l>
-                  (<subst>
-                        <rdg varSeq="1">
-                           <del rend="overstrike">For yours,</del> 
-                        </rdg>
-                        <rdg varSeq="2">
-                           <add place="supralinear" rend="unmarked">You distant</add> 
-                        </rdg>
-                     </subst>
-                     <subst>
-                        <rdg varSeq="1">
-                           <del rend="overstrike">ye</del> 
-                        </rdg>
-                        <rdg varSeq="2">
-                           <del rend="overstrike">
-                              <add place="supralinear" rend="unmarked">you,</add>
-                           </del>
-                        </rdg>
-                     </subst> 
-                     <subst>
-                        <rdg varSeq="1">
-                           <del rend="overstrike">
-                              <add place="supralinear" rend="insertion">distant</add>
-                           </del>
-                        </rdg>
-                        <rdg varSeq="2">
-                           <add rend="insertion" place="supralinear"> dim</add> 
-                        </rdg>
-                     </subst>
-unknown, <add place="supralinear" rend="insertion">
-                        <add place="inline" rend="unmarked">—</add>countless</add> unnamed,<lb/>
-                  
-                     <add place="supralinear" rend="unmarked">beloved—</add>—we never met and ne'er shall<lb/>
-                  
-                     <gap reason="cut away"/>t——<del rend="overstrike">yet</del> and yet our souls<lb/>
-                  
-                     <gap reason="cut away"/>long, <add place="supralinear" rend="insertion">close and</add> long,<add place="inline" rend="unmarked">)</add> 
-                     <del rend="overstrike">and close;)</del>
-                  <lb/>
-               </l>
-
-            </lg>
-
-         </lg>
-      </body>
-   </text>
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="0001416.jpg" type="recto"/>
+   <lg type="poem">
+     <head hand="#h02"><gap extent="about two letters" unit="chars" quantity="2" reason="torn away"/>anks in old age &#8212; Than<gap extent="about six letters" unit="chars" quantity="6" reason="torn away"/> I go.</head>
+    <l><handShift new="#h01"/> For health the <add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><subst><del rend="overstrike" hand="#h02" seq="2"><add place="above" xml:id="a001" seq="1">summer</add></del><add place="below" hand="#h02" seq="3">midday</add></subst> <metamark function="add">&#8248;</metamark><subst><del rend="overwrite" seq="1">S</del><add place="inline" seq="2">S</add></subst>un the im&#8211;<lb/>
+          palpable air &#8212; more <subst><del rend="overstrike" seq="1">merely</del><add place="above" seq="2">life, more life</add></subst></l>
+    <l>For <subst><del rend="overstrike" seq="1">many</del><del rend="overstrike" seq="3"><add place="above" seq="2">living</add></del></subst> <add place="inline"><metamark function="add" target="#a002">&#8212;</metamark></add><add place="above" xml:id="a002">precious</add> memories <del rend="overstrike" hand="#h02" seq="2"><add place="inline"><metamark function="add" target="#a008">&#8248;</metamark></add><add place="above" xml:id="a008">undying</add></del><add place="inline" rend="marked" hand="#h02"><metamark function="add" target="#a009">&#8248;</metamark></add><add place="above" hand="#h02" xml:id="a009">ever lingering</add> (<subst><del rend="overstrike" hand="#h02" seq="1">yours,</del><add place="above" hand="#h02">of you</add></subst> my<lb/>
+     mother dear &#8212; <subst><del rend="overstrike" hand="#h02" seq="1">yours,</del><add place="above" hand="#h02" seq="2">&#8212;you</add></subst> <subst><del rend="overstrike" seq="1">my</del><del rend="overstrike" seq="3"><add place="above" seq="2">dear</add></del></subst> father,<lb/>
+          &#8212; <subst><del rend="overstrike" hand="#h02" seq="1">yours</del><add place="above" hand="#h02" seq="2">your</add></subst>, <del rend="overstrike">dear friends</del> brothers,<lb/>
+          listen, friends:)</l>
+     <l>For all my days &#8212; not those</l>
+     <l><del rend="overstrike">Not for the days</del> of peace<lb/>
+          alone &#8212; the days of war the<lb/>
+          same</l>
+     <l>For gentle words, caresses <add place="inline" rend="marked"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">gifts from foreign<lb/> <subst><del rend="overstrike" seq="1">gifts</del><add place="inline" seq="2">lands</add></subst> &#8212;</add> &#8212;<lb/>
+          <add place="inline"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">&#8212; for shelter</add> wine and meat &#8212; for sweet<lb/>
+          appreciation</l>
+    <milestone unit="glued"/>
+    <l>(<subst><del rend="overstrike" hand="#h02" seq="1">For yours,</del><add place="above" hand="#h02" seq="2">For distant</add></subst> <subst><del rend="overstrike" seq="1">ye</del><add place="above" seq="2">you</add></subst> <add place="inline" rend="marked" hand="#h02"><metamark function="add" target="#a005">&#8248;</metamark></add><del rend="overstrike" hand="#h02" seq="2"><add place="above" hand="#h02" seq="1">distant</add></del> <add place="above">dim</add>unknown, <add place="inline"><metamark function="add" target="#a006">&#8248;</metamark></add><add place="inline" hand="#h02"><metamark function="add" target="#006">&#8248;</metamark></add><add place="above" hnad="#h02">&#8212; <handShift new="#h01"/>countless</add> unnamed,<lb/>
+          <add place="above" hand="#h02">beloved &#8212;</add>&#8212; we never met, and near shall<lb/>
+          <gap extent="about ten letters" unit="chars" quantity="10" reason="torn away"/>t &#8212; yet and yet our souls<lb/>
+     <gap extent="about twelve letters" unit="chars" quantity="12" reason="torn away"/> long, <add place="inline" hand="#h02"><metamark function="add" target="#a007">&#8248;</metamark></add><add place="above" hand="#h02">close and</add> long<add place="inline" hand="#h02">:)</add> <del rend="overstrike" hand="#h02">and close</del>:)</l>
+     <l></l>
+   </lg>
+   
+   <pb xml:id="leaf001v" facs="<!-- No image in Tracking Database as of 1.23.25, TB" --> type="verso"/>
+   
+</body>
+</text>
 </TEI>

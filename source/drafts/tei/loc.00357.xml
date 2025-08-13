@@ -14,6 +14,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="jh">Jeff Hill</persName>
+                    <persName xml:id="ew">Emma Whaley</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -69,19 +70,20 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2024-09-25" who="#ew">updated image links</change>
             <change when="2024-02-12" who="#jh">transcribed and encoded</change>
         </revisionDesc>
     </teiHeader>    
     <text type="manuscript">
         <body>
-            <pb xml:id="leaf001r" facs="20051228_0129.jpg" type="recto"/>
+            <pb xml:id="leaf001r" facs="loc_ew.00009.jpg" type="recto"/>
             <lg type="poem">
                 <l>You <subst><del rend="overstrike" seq="1">distant</del><add rend="unmarked" place="above" seq="2">neighboring</add></subst> surf&#8212;you mystery of swell and ebb!</l>
                 <l>You <subst><add rend="unmarked" place="above" seq="1">over&#8212;</add><del rend="overstrike" seq="2">over&#8212;</del></subst>hurrying waters, as I muse to me!</l>
                 <l>So much recallingstrangely!</l>
                 <l>With every leave and roll some memory's light and shade,</l>
             </lg>
-            <pb xml:id="leaf001v" facs="20051228_0131.jpg" type="verso"/>
+            <pb xml:id="leaf001v" facs="loc_ew.00010.jpg" type="verso"/>
         </body>
     </text>
 </TEI>

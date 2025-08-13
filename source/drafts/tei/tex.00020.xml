@@ -1,311 +1,134 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="tex.00020">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title level="m" type="main">
-For Queen Victoria's Birthday
-</title>
-            <title level="m" type="sub">a machine readable transcription</title>
-            <author>Walt Whitman</author>
-            <editor role="editor">Kenneth M. Price</editor>
-            <editor role="editor">Ed Folsom</editor>
-            <respStmt>
-               <resp>Transcription and encoding</resp>
-               <persName xml:id="nhg">Nicole Gray</persName>
-               <persName xml:id="ah">Amy Hezel</persName>
-            </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
-            <sponsor>University of Iowa</sponsor>
-            <funder>The National Endowment for the Humanities</funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>
-               <date>2003</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <idno>tex.00020</idno>
-            <distributor>The Walt Whitman Archive</distributor>
-            <address>
-               <addrLine>Center for Digital Research in the Humanities</addrLine>
-               <addrLine>319 Love Library</addrLine>
-               <addrLine>University of Nebraska-Lincoln</addrLine>
-               <addrLine>P.O. Box 884100</addrLine>
-               <addrLine>Lincoln, NE 68588-4100</addrLine>
-            </address>
-            <availability>
-               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
-               <title>
-The Walt Whitman Collection</title>
-               <idno type="callno">               
-</idno> 
-               <orgName xml:id="tex">Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-               <!-- ALTER THE FOLLOWING NOTE IF NECESSARY -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00020"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main" rend="bracketed">For Queen Victoria's Birth&#8211;Day</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="tb">Tara Ballard</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2025</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
 
-               <note type="project">Transcribed from digital images of the original.</note>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <revisionDesc>
-         <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#ah" when="2003-12-10">Encoded</change>
-         <change who="#ah" when="2003-12-10">Transcribed</change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-
-         <pb facs="tex.00020.001" xml:id="leaf001r" type="recto"/>
-
-         <div1 type="poem_notes">
-
-            <lg
-                 >
-
-               <head type="main-authorial" rend="underline">For Queen Victoria's Birth-Day.</head>
-
-               <milestone unit="undeclared" rend="horbar"/>
-
-               <note type="authorial"
-                     place="left"
-                     rend="circled">
-                  <p>
-                     <gap reason="illegible"/> 
-ital</p>
-               </note>
-
-               <l>
-                  
-                     <hi rend="underline">An American arbutus bunch, to be put in a 
-little vase on</hi>
-                  <lb/>
-                  
-                     <hi rend="underline">the royal breakfast table, May</hi> 2
-<subst>
-                        <rdg varSeq="1">
-                           <del rend="overwrite">2</del>
-                        </rdg>
-                        <rdg varSeq="2">
-                           <add rend="overwrite" place="over">4</add>
-                        </rdg>
-                     </subst>
-                     <del rend="overstrike"><!--Looks to me like the comma was not deleted intentionally, but that in writing the "4," Whitman accidentally struck through the comma.-->,</del> 1890.<lb/>
-               </l>
-
-
-               <milestone unit="undeclared" rend="horbar"/>
-
-               <note type="authorial"
-                     place="left"
-                     rend="circled">
-                  <p>the usual pica</p>
-               </note>
-
-               <l>
-                  Lady,<add rend="insertion" place="supralinear">accept</add> a birth-day thought, haply an idle gift and<lb/>
-                  token<lb/>
-               </l>
-
-               <l>Right from the<add rend="insertion" place="supralinear">scented</add> soil's May-utterance here,</l>
-
-               <l>(Smelling of countless blessings, prayers, and old-time thanks,)</l>
-
-               <l>
-                  A bunch of white and pink arbutus, <add rend="insertion" place="supralinear">silent, spicy,</add>
-                     <del rend="overstrike">wild</del> shy, <del rend="overstrike">silent</del>,<lb/>
-                  
-                     <del rend="overstrike">spicy,</del>
-                  <lb/>
-               </l>
+   <idno>tex.00020</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+     <note type="work_relations" target="xxx.00557" cert="high">
+      <p>Lightly revised printer's copy of "For Queen Victoria's Birthday," which was published in <hi rend="italic">Good-Bye My Fancy</hi> in 1891. In the same folder are an uncorrected proof sheet and an envelope, which is inscribed with a note in Whitman's hand, indicating that he presented them together as a gift to an unknown recipient. No images of the proof sheet are available.</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>For Queen Victoria's Birth&#8211;Day</title>  
+     
+     <date cert="high">about 1891</date>
+     
+     <idno type="callno">box 1, folder 5</idno>
+     
+     <orgName xml:id="tex">Walt Whitman Literary Manuscripts in the Walt Whitman Collection, Harry Ransom Humanities Research Center at the University of Texas at Austin</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+     <note type="project" target="#rel01">The verso is blank except for #22&#8212;File "A" which is written in the middle of the page.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="blue ink" xml:id="h02" resp="#ww"></handNote>
+    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
+    <handNote medium="letterpress" xml:id="h04" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
  
-               <l>From Hudson's, Delaware's,<add rend="unmarked" place="supralinear">or</add> Potomac's woody banks,</l>
+ <change when="2025-05-03" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
 
-               <milestone unit="undeclared" rend="horbar"/>
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="0000974.jpg" type="recto"/>
+   <lg type="poem">
+     <head><hi rend="doubleunderline">For Queen Victoria's Birth&#8212;Day.</hi></head>
+     <milestone unit="undeclared" rend="horbar-short-center"/>
+     <note><hi rend="underline">An American arbutus bunch, to be put in a little vase on<lb/> the royal breakfast table. May</hi>24, 1890.</note>
+     <milestone unit="undeclared" rend="horbar-short-center"/>
+     <l>Lady, <add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">accept</add> a birth&#8212;thought, haply an ideal gift and<lb/>
+              token</l>
+     <l>Right from the <add place="inline"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">scented</add> soil's May&#11840;;utterance here,</l>
+     <l>(Smelling of countless, blessings, prayers, and old&#8212;time thanks,)</l>
+    <l>A bunch of white and pink arbutus, <add place="inline"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">silent</add> <subst><del rend="overstrike" seq="1">wild</del><add place="above" seq="2">spicy,</add></subst> shy, <del rend="overstrike">silent</del>,<lb/>
+              <del rend="overstrike">spicy</del>,</l>
+     <l>From Hudson's, Delaware's,<add place="above">or</add> Potomac's woody banks,</l>
+     <milestone unit="undeclared" rend="horbar-short-center"/>
+   </lg>
+    <signed><hi rend="doubleUnderline"><hi rend="bold">Walt</hi> Whitman</hi></signed>
+   
+   <note><p><hi rend="doubleUnderline">Note</hi>.&#8212;<lb/><metamark>&#8248;</metamark> Very little as we <add place="inline"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">Americans</add> stand <del rend="overstrike">to</del> this day, with our sixty five or seventy millions of population, an immense surplus in the treasury, and all that,<add place="above">actual</add> power or <subst><del rend="overstrike" seq="1">latent</del><add place="above" seq="2">reserved</add></subst> power,<add place="inline"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" xml:id="a005">the land <subst><del rend="overstrike" seq="1">or</del><add place="above" seq="2">and</add></subst> sea,</add> so, dear, to nations &#8212; Very little <add place="inline"><metamark function="add" target="#a006">&#8248;</metamark></add><add place="above" xml:id="a006">I say</add> do we <add place="inline"><metamark function="add" target="#a007">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a007">recall and</add> realize <add place="inline"><metamark function="add" target="#a008">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a008">that <del rend="overstrike">our</del></add> <del rend="overstrike">the</del> <add place="inline"><metamark function="add" target="#a009">&#8248;</metamark></add><add place="above" xml:id="a009">curious</add> shudder<add place="above">crawling</add> when <add place="above">national</add> the "Trent affair" promised to bring upon <subst><del rend="overstrike" seq="1">our shoulders</del><add place="above" seq="2">us</add></subst> a war with Great Britain &#8212; followed <del rend="overstrike">certainly</del> <add place="inline"><metamark function="add" target="#a010">&#8248;</metamark></add><add place="above" xml:id="a010">unquestionably! as that war would have been</add> by <del rend="overstrike">official</del> recognition of the Southern Confederacy from all the leading <add place="inline"><metamark function="add" target="#a011">&#8248;</metamark></add><add place="above" xml:id="a011">European</add> nations. It is now certain that all this <add place="inline"><metamark function="add" target="#a012">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a012">quite inevitable to gain of calamity</add> hung on <del rend="overstrike">certain</del> arrogant and peremptory phrases, <del rend="overstrike">official and prepared,</del> in the <add place="inline"><metamark function="add" target="#a013">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a013">prepared and written</add> missive of the British Minister to America which the Queen (and Prince Albert latent) <add place="inline"><metamark function="add" target="#a014">&#8248;</metamark></add><add place="above" xml:id="a014">positively and <choice><sic>propmptly</sic><corr>promptly</corr></choice></add> canceled; and which <del rend="overstrike">by</del> her firm attitude <add place="inline"><metamark function="add" target="#a015">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a015">alone</add> did <add place="inline"><metamark function="add" target="#a016">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a016">actually</add> erase and leave out aginst all the other <subst><del rend="overstrike" seq="1">power</del><add place="above" seq="2">official, prestige</add></subst> and court <add place="inline"><metamark function="add" target="#a017">&#8248;</metamark></add><add place="above" xml:id="a017">of St. James's</add>. On such minor and personal <subst><del rend="overstrike" seq="1">issues</del><add place="above" seq="2">incidents</add></subst> (so to call them) <subst><del rend="overstrike" seq="1">turn</del><add place="above" seq="2">after demand</add></subst> the great <del rend="overstrike" seq="1">issues</del> <add place="inline"><metamark function="add" target="#a018">&#8248;</metamark></add><add place="above" xml:id="a018">growths and turns</add> of civilization. <del rend="overstrike">and history.</del> <subst><del rend="overstrike" seq="1">For or</del><del rend="overstrike" seq="3"><add place="above" seq="2">o</add></del></subst> This <subst><del rend="overstrike" seq="1">goo</del><del rend="overstrike" seq="3"><add place="above" seq="2">noble</add></del></subst> moment of a woman and a queen <del rend="overstrike">have</del> surely swung the grandest oscillation of modern history's pendulum. <subst><del rend="overstrike" seq="1">W. W.</del><add rend="marked" place="above" seq="2">run on</add></subst></p>
+    <p>Many sayings and doings of that period, from <del rend="overstrike">p</del> foreign <choice><orig>po&#8211;<lb/>tentates</orig><reg>potentates</reg></choice> and powers, <subst><del rend="overstrike" seq="1">may</del><add place="above" seq="2">might</add></subst> <subst><del rend="overstrike" seq="1">had better</del><add place="above" seq="2">well</add></subst> be dropp'd in oblivion by America &#8212; but never <hi rend="underline">this</hi>, if I could have my way.</p></note>
+   <signed>W W</signed>
+   
+   <pb xml:id="leaf001v" facs="974verso.jpg" type="verso"/>
+   
+   <pb xml:id="leaf002r" facs="0000975.jpg" type="recto"/>
+   
+   <note>MS autograph</note>
+   
+   <note><hi rend="underline">For Queen Victorias Birthday"</hi><lb/>
+      copy of MS &amp; printer's proof<lb/>
+      with perfect impression<lb/>
+      f'm <hi rend="underline">Walt Whitman</hi><lb/>
+      with best respects &amp; wishes<lb/>
+      June 17 1890</note>
+   
+   <note hand="#h04">WALT WHITMAN,<lb/> C<hi rend="smallcaps">AMDEN</hi>,<lb/> NEW JERSEY.</note> 
 
-               <signed rend="underline">Walt Whitman</signed>
-
-            </lg>
-
-            <note type="authorial"
-                  place="left"
-                  rend="circled">
-               <p>brev, or <gap reason="illegible"/> roman <gap reason="illegible"/>
-               </p>
-            </note>
-
-            <p>
-               <add rend="insertion" place="supralinear">
-                  <hi rend="underline">Note</hi>.—</add> very little, as we<add rend="insertion" place="supralinear">Americans</add> 
-stand <del rend="overstrike">to</del> this day, 
-with our sixty five or seventy millions of population, 
-an immense surplus in the treasury, and all that<add rend="unmarked" place="supralinear">actual</add> power,
-or
-<subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">latent</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="supralinear">reserved</add>
-                  </rdg>
-               </subst> power<add rend="insertion" place="supralinear">
-                  <del rend="overstrike">on</del> land 
-<subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">or</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">and</add>
-                     </rdg>
-                  </subst> sea,</add> so dear to nations— Very little <add rend="insertion" place="supralinear">I say</add> of<!--Could this workd be "do"?--> we <add rend="insertion" place="supralinear">recall and</add>
-realize <add rend="insertion" place="supralinear">th<subst>
-                     <rdg varSeq="1">
-                        <del rend="overwrite">e</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="overwrite" place="over">at</add>
-                     </rdg>
-                  </subst>
-               </add>
-               <del rend="overstrike">our</del> 
-               <del rend="overstrike">the</del> 
-               <add rend="insertion" place="supralinear">curious crawling national</add> shudder when the "Trent affair" promised 
-to bring upon 
-<subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike"> our shoulders</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="supralinear">us</add>
-                  </rdg>
-               </subst> a war with Great Britain— followed <del rend="overstrike">certainly</del>
-               <add rend="insertion" place="supralinear">unquestionably as that war would have been</add> by <del rend="overstrike">official</del> recognition of the Southern
-Confederacy from all the leading <add rend="insertion" place="supralinear">European</add> nations. It is now certain
-<del rend="overstrike"><!--I don't think this is a deletion, merely a smudge mark.-->that</del> all this <add rend="insertion" place="supralinear">quite inevitably began of calamity—</add> hung on <del rend="overstrike">certain</del> arrogant and peremptory
-phrases, <del rend="overstrike">official and prepared,</del> in the<add rend="insertion" place="supralinear">prepared and written</add> missive of the British
-Minister to America, which the Queen (and Prince Albert 
-latent)<add rend="insertion" place="supralinear">positively and <unclear reason="illegible" resp="#ah" cert="medium">propropitly</unclear>
-               </add> cancelled; and which, 
-<del rend="overstrike">by</del> her firm attitude <add rend="insertion" place="supralinear">alone</add> did <add rend="insertion" place="supralinear">actually</add> erase and leave out, against all the other <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike"> power</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="supralinear">official prestige</add>
-                  </rdg>
-               </subst> and court<add rend="insertion" place="supralinear">of St. James's</add>.  On such 
-minor and personal 
-<subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">issues</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="supralinear">incidents</add>
-                  </rdg>
-               </subst> (so to call them) 
-<subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">turn</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="supralinear">often depend</add>
-                  </rdg>
-               </subst> the great
-<del rend="overstrike">issues</del>
-               <add rend="insertion" place="supralinear">growths and turns</add> of civilization.  <del rend="overstrike">and history</del>.  
-<subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">For on</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="supralinear">
-                        <gap reason="deletion, illegible"/>
-                     </add>
-                     <!--I think the illegible text may actually be another deletion: <del rend="overstrike">O</del>-->
-                  </rdg>
-               </subst> 
-               <subst>
-                  <rdg varSeq="1">
-                     <del rend="overwrite">t</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="overwrite" place="over">T</add>
-                  </rdg>
-               </subst>his 
-<subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">goo</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="supralinear">
-                        <del rend="overstrike">noble</del>
-                     </add>
-                  </rdg>
-               </subst> moment 
-of a woman and a queen <del rend="overstrike">have</del> surely swung the grandest 
-oscillation of modern history's pendulum. <del rend="overstrike">W W</del>
-
-               <note type="authorial"
-                     place="supralinear"
-                     rend="circled">run on</note>
-
-Many sayings and doings of that period, from <del rend="overstrike">p</del> foreign <orig reg="potentate's">po-</orig>tentate's and powers, 
-<subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">may</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="supralinear">might</add>
-                  </rdg>
-               </subst> 
-               <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">had better</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="supralinear">well</add>
-                  </rdg>
-               </subst> be dropp'd in oblivion 
-by America — but never <hi rend="underline">this</hi>, if I could have my way.  
-
-
-</p>
-            <signed>W W</signed>
-         </div1>
-
-
-
-         <pb facs="tex.00020.002" xml:id="leaf002r" type="recto"/>
-
-         <div1 type="title notes">
-
-            <note type="authorial"
-                  place="top">MS autograph</note>
-
-            <ab type="title" rend="underline">"For Queen Victorias Birthday"</ab>
-
-            <note type="authorial"
-                  place="interlinear">
-               <p>copy of MS &amp; printer's 
-proof with perfect impression fin</p>
-            </note>
-
-
-            <note type="authorial"
-                  place="interlinear">
-               <p>with best repects &amp; wishes June 17 1890</p>
-            </note>
-
-            <signed rend="underline">Walt Whitman</signed>
-
-         </div1>
-
-      </body>
-   </text>
+   <pb xml:id="leaf002v" facs="975 verso.jpg" type="verso"/>
+   
+</body>
+</text>
 </TEI>

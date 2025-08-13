@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="unc.00014"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main" rend="bracketed">The two songs on this</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="tb">Tara Ballard</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>unc.00014</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+     <note type="work_relations" cert="high">
+      <p>This manuscript contains the footnote for poems "Now Precedent Songs, Farewell" and "An Evening Lull," first published in "Sands at Seventy," an annex of <hi rend="italic">November Boughs</hi> in 1888. According to Horace Traubel, the footnote was written by Whitman on 19 June 1888 (With Walt Whitman in Camden [Boston: Small, Maynard, 1906] 1:353).</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>The two songs on this page</title>  
+     
+     <date cert="high">June 19, 1888</date>
+     
+     <idno type="callno">Collection Number: 12010; Folder 14</idno>
+     
+     <orgName xml:id="unc">Walt Whitman Literary Manuscripts in the Walt Whitman Papers, General and Literary Manuscripts, Wilson Library, The University of North Carolina at Chapel Hill</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+  
+     <note type="project" target="#rel01">The verso is an unfolded envelope with a crossed out address.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="pencil" xml:id="h01" resp="#ww"/>
+    <handNote medium="pencil2" xml:id="h02" resp="#unk"/><handNote xml:id="unk">Unknown</handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2024-10-23" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="unc.00014.001_large.jpg" type="recto"/>
+   
+   <note type="archival" place="top" hand="#h02">37</note>
+   <note type="authorial" place="top" rend="marked">37</note>
+   <note type="authorial" place="top" rend="marked">sm type &#8212; at bottom</note> 
+   <p>*The two songs on this page are <subst><del rend="overstrike" seq="1">written</del><add place="above" seq="2">eked out</add></subst> during an afternoon, June, 1888, in my seventieth year, at a critical spell of illness. Of course no reader and probably no human being at any time will ever have such <del rend="overstrike">passages of</del> phases of emotional and solemn <del rend="overstrike">powers</del> action as these <del rend="overstrike">l</del> involve <del rend="overstrike">to these</del> to me. I feel <add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">in them</add> <del rend="overstrike">the</del> <add place="inline"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">an</add> end and close of <del rend="overstrike">them</del> all. <del rend="overstrike">the</del></p>
+   
+   <signed>W.W.</signed>
+   
+   <pb xml:id="leaf001v" facs="unc.00014.002_large.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>

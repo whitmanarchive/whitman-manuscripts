@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00187"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    
+    <title level="m" type="main">A Death-Bouquet</title>
+    <title level="m" type="sub">a hand-written transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="tb">Tara Ballard</persName>
+     <persName xml:id="ew">Emma Whaley</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>loc.00187</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+     <note type="work_relations" cert="high">
+      <p>A five-line draft of a poem, entitled "A Death-Bouquet," which was never published and has an unknown relationship to Whitman's published work. A subtitle reads "Fresh pick'd noon time early January, 1890, By Walt Whitman." These lines bear some relation to Whitman's brief essay of the same name.</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>A Death Bouquet</title>  
+     
+
+     <date cert="high">about 1890</date>
+     
+     <idno type="callno">MSS 18630, Box 26; Reel 16</idno>
+     
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, Library of Congress, Washington, D.C.</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+ 
+     <note type="project" target="#rel01">The verso is blank.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="pencil" xml:id="h01" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h02" resp="#ww"></handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ <change when="2024-09-24" who="#ew">updated image links</change> 
+ <change when="2024-06-24" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="loc_ew.00189.jpg" type="recto"/>
+   <lg type="poem">
+    <head rend="underline" hand="h02">A Death&#11840;B<del rend="overstrike" seq="1">ou</del>quet.<add place="above" seq="2">Bouquet</add></head>
+    <note><l><add></add><add>Fresh&#11840;</add>Pick'd <del rend="overstrike">after</del><del rend="overstrike" seq="2"><add place="above" seq="1">for</add></del>noon <add place="above">time</add> early January, 1890</l><l>By Walt Whitman</l></note>
+     <l>Deep, deep</l>
+     <l>as from the past</l>
+     <l>From <subst><del rend="overstrike" seq="1">death</del><add place="above" seq="2">soldiers'</add></subst> deaths</l>
+     <l>As of soldiers' deaths resuming</l>
+     <l>As soldiers' deaths recall'd</l>
+   </lg>
+   
+   <pb xml:id="leaf001v" facs="loc_ew.00190.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>

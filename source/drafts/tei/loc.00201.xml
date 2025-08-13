@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00201"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main">"Going Somewhere"</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="ew">Emma Whaley</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>loc.00201</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+     <note type="work_relations" target="xxx.00352" cert="high">
+      <p>Proof of "'Going Somewhere,'" first published in 1887. This proof has corrections and a note in Whitman's hand.</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “Going Somewhere” ( 1887 ); Proof sheets with corrections and notations</title>  
+     
+     <date cert="high">About 1887</date>
+     
+     <idno type="callno">MSS 18630, box 27, folder Going Somewhere (1887). Proof Sheets</idno>
+
+     <orgName xml:id="loc">	The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+     
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="letterpress" xml:id="h01" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
+    <handNote medium="black ink" xml:id="h02" resp="#ww"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2024-11-19" who="#ew">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="loc_ew.00192.jpg" type="recto"/>
+   
+   <head type="main">"GOING SOMEWHERE."</head>
+   <lg type="poem">
+     <l>My science-friend, my noblest woman-friend,</l>
+     <l>(Now buried in an English grave&#8212;and this is a memory-leaf for<lb/>
+        her dear sake,)</l>
+     <l>Ended our talk&#8212;"The sum<add hand="#h02" place="below"><metamark function="add" target="#a001"></metamark></add><add hand="#h02" place="left" xml:id="a001">,<metamark function="separate" target="#a001">/</metamark></add>concluding all we know of old or<lb/>
+        modern learning<subst hand="#h02"><del seq="1" rend="overstrike">&#8212;</del><add seq="2" place="right" xml:id="a002">,<metamark function="separate" target="#a002">/</metamark></add></subst>intuitions deep,</l>
+     <l>"Of all Geologies&#8212;Histories&#8212;of all Astronomy&#8212;of Evolution,<lb/>
+        Metaphysics all,</l>
+     <l>"Is, that we all are onward, onward, speeding slowly, surely<lb/>
+        bettering,</l>
+     <l>"Life, life an endless march, an endless army, (no halt, but<lb/>
+        it is duly over,)</l>
+     <l>"The world, the race, the soul, in space and time the uni-<lb/>
+        verses,</l>
+     <l>"All wisely bound as is befitting them&#8212;all surely going<lb/>
+        somewhere."</l>
+   </lg>
+   
+   <signed>W<hi rend="smallcaps">alt</hi> W<hi rend="smallcaps">hitman.</hi></signed>
+   <signed><del rend="overstrike" hand="#h02" xml:id="d001">Walt Whitman.</del><add hand="#h02" place="left"><metamark function="delete" target="#d001">&#977;</metamark></add></signed>
+   
+   <note type="authorial" hand="#h02" place="bottom">(let me have 30 impressions</note>
+   
+   <pb xml:id="leaf001v" facs="20051227_0042.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>

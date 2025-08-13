@@ -1,159 +1,123 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00158">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title level="m" type="main" rend="underline">
-Carol at nearing Seventy 
-</title>
-            <title level="m" type="sub">a machine readable transcription</title>
-            <author>Walt Whitman</author>
-            <editor role="editor">Kenneth M. Price</editor>
-            <editor role="editor">Ed Folsom</editor>
-            <respStmt>
-               <resp>Transcription and encoding</resp>
-               <persName xml:id="nhg">Nicole Gray</persName>
-               <persName xml:id="mm">Megan Maher</persName>
-            </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
-            <sponsor>University of Iowa</sponsor>
-            <funder>The National Endowment for the Humanities</funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>
-               <date>2003</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <idno>uva.00158</idno>
-            <distributor>The Walt Whitman Archive</distributor>
-            <address>
-               <addrLine>Center for Digital Research in the Humanities</addrLine>
-               <addrLine>319 Love Library</addrLine>
-               <addrLine>University of Nebraska-Lincoln</addrLine>
-               <addrLine>P.O. Box 884100</addrLine>
-               <addrLine>Lincoln, NE 68588-4100</addrLine>
-            </address>
-            <availability>
-               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <author> Walt Whitman </author>
-               <title>
-Carols at nearing Seventy
-</title>
-               <idno type="callno">
-633
-</idno> 
-               <orgName xml:id="uva">
-Valentine-Barrett Library
-</orgName> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00158"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main" rend="bracketed">Carols at nearing Seventy</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="tb">Tara Ballard</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2025</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
 
+   <idno>uva.00158</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+     <note type="work_relations" cert="high">
+      <p>This manuscript contains a draft version of a poem appearing with two alternative titles: "Carols at Nearing Seventy" and "Carols Closing Sixty-Nine". A note at bottom states "Sent to Lippincotts." The poem was first published with the title in the New York <hi rend="italic">Herald</hi>, May 21, 1888. In the same year, this poem appears in the annex <hi rend="italic">Sands at Seventy</hi> under the title "A Carol Closing Sixty-nine".</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>Carols at nearing Seventy</title>  
+     
+     <date cert="high">1887</date>
+     
+     <idno type="callno">box 1, folder 16</idno>
+     
+     <orgName xml:id="uva">Walt Whitman Literary Manuscripts in the Papers of Walt Whitman, Clifton Waller Barrett Library of American Literature, Albert and Shirley Small Special Collections Library, University of Virginia</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+ 
+     <note type="project" target="#rel01">The verso is blank.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>    
+    <handNote medium="black ink" xml:id="h01" scope="major" resp="#ww"/>
+    <handNote medium="blue pencil" xml:id="h02" scope="minor" resp="#unk"></handNote>
+    <handNote medium="purple pencil" xml:id="h03" scope="minor" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h04" scope="minor" resp="#ww"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2025-03-05" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
 
-               <note type="project">Transcribed from digital images of the original.</note>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <revisionDesc>
-         <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#mm" when="2003-07-06">Encoded</change>
-         <change who="#mm" when="2003-07-06">Transcribed</change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-
-	
-
-         <pb facs="uva.00158.001" xml:id="leaf001r" type="recto"/>
-
-         <lg
-              >
-
-            <head type="main-authorial" rend="underline">
-               <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">A</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="supralinear">
-                        <del rend="overstrike">A</del>
-                     </add>
-                  </rdg>
-               </subst> Carols <note type="authorial"
-                     place="supralinear">?at</note> 
-               <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">at</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="supralinear">closing</add>
-                  </rdg>
-               </subst> Sixty-Nine
-</head>
-
-            <l>****help*****</l>
-
-            <l>
-               <del rend="overstrike">Of ye, the lines in joy continuing on the same,</del>
-            </l>
-
-            <l>
-               Of you, my Land—your  rivers, prairies, States—<lb/>
-               
-                  <del rend="overstrike">of</del> you <del rend="overstrike">O</del> mottled Flag! <add rend="unmarked" place="supralinear">I love</add>
-               <lb/>
-            </l>
-
-            <l>
-               Your aggregate retain'd <add rend="insertion"
-                       place="supralinear"
-                       rend="circled">entire</add>—<subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">of</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">Of</add>
-                     </rdg>
-                  </subst> north, south, east and<lb/>
-               west, <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">their</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">your</add>
-                     </rdg>
-                  </subst> items all—none, none deserted;<lb/>
-            </l>
-
-            <l>
-               Of me myself—the <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">merry</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">jovial</add>
-                     </rdg>
-                     <rdg varSeq="3">
-                        <del rend="overstrike">jovial</del>
-                     </rdg>
-                     <rdg varSeq="4">
-                        <add rend="unmarked" place="supralinear">jocund</add>
-                     </rdg>
-                  </subst> heart yet beating in<lb/>
-               my breast,<lb/>
-            </l>
-
-            <l>****help</l>
-
-
-
-
-
-         </lg>
-      </body>
-   </text>
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="uva.00158.001.jpg" type="recto"/>
+   <head><add place="above"><hi rend="underline">Carols at<add place="below">? at</add> nearing Seventy</hi></add><hi rend="underline"><subst><del rend="overstrike" seq="1">A</del><add place="above" hand="#h03" seq="2">A</add></subst> Carols <subst><del rend="overstrike" seq="1">at</del><add place="above" hand="#h03" seq="2">closing</add></subst> Sixty-Nine</hi></head>
+   <lg type="poem">
+    <l><add place="above" hand="#h04">Sands on the shores of seventy &#8212; repetition</add><subst><del rend="overstrike" seq="1">A</del><add place="above" hand="#h03" seq="2">A</add></subst> Carol <subst><del rend="overstrike" hand="#h03" seq="1">at</del><add place="above" hand="#h03" seq="2">closing</add></subst> sixty&#11840;nine <add place="above" seq="1">&#8212; ? old <del rend="overstrike" seq="2">repetitions</del></add><add place="above" seq="3">? celebrations</add> &#8212; <del rend="overstrike" hand="#h03">old</del> <add place="inline" hand="#h03"><metamark function="add" target="#a001">&#8248;</metamark></add><del rend="overstrike" hand="#h02" seq="2"><add place="above" hand="#h03" xml:id="a001" seq="1">the</add></del><del rend="overstrike" hand="#h02" seq="4"><add place="above" hand="#h03" seq="3">the</add></del> <subst><del rend="overstrike" hand="#h02" seq="1">repetitions</del><del rend="overstrike" hand="#h01" seq="3"><add place="above" hand="#h02" seq="2">celebration</add></del></subst>,<lb/>
+            rhapsodies</l>    
+    <l>The<add place="above" hand="#h04">My</add> lines <subst><del rend="overstrike" hand="#h03" seq="1">in</del><del rend="overstrike" hand="#h03" seq="3"><add place="above" hand="#h03" seq="2">of</add></del><add place="above" hand="#h03" seq="4">in</add></subst> joy and <subst><del rend="overstrike" hand="#h02" seq="1">hope</del><add place="above" hand="#h02" seq="2">hope</add></subst><del rend="overstrike" hand="#h02" seq="2"><add place="inline" hand="#h03" seq="1">faith</add></del><del rend="overstrike" hand="#h02" seq="2"><add place="below" hand="#h03" seq="1">faith</add></del><del rend="overstrike" hand="#h03" seq="2"><add place="above" hand="#h03" seq="1">the same</add></del> continuing on the same,</l>
+    <l>Of ye, O God, <hi rend="tripleUnderline">L</hi>ife, <hi rend="tripleUnderline">N</hi>ature, Freedom, Poetry</l>    <l><del rend="overstrike">Of ye, the lines in joy continuing on the same.</del></l>
+    <l>Of you, my <hi rend="tripleUnderline">L</hi>and &#8212; your rivers, prairies, <hi rend="tripleUnderline">S</hi>tates &#8212;<lb/>
+     <del rend="overstrike" hand="#h03">of</del> you, <del rend="overstrike" hand="#h03">O</del> mottled Flag<add place="above" hand="#h02">I love</add>!</l>
+    <l>Your aggregate retain'd <add place="inline" rend="marked" hand="#h4"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">entire</add> &#8212; <subst><del rend="overstrike" seq="1">of</del><add place="above" seq="2">O<add place="inline" hand="#h03" seq="3">f</add></add></subst> north, south, east and<lb/>
+           west, <subst><del rend="overstrike" seq="1">their</del><add place="above" seq="2">your</add></subst> items all &#8212; none, none deserted;</l>
+    <l>Of me myself &#8212; the <subst><del rend="overstrike" hand="#h02" seq="1">merry</del><del rend="overstrike" hand="#h03" seq="3"><add place="above" hand="#h01" seq="2">? jovial</add></del><add place="above" hand="#h02" seq="4">? jocund</add></subst> heart yet beating in<lb/>
+     my breast,</l>  <l><subst><del rend="overstrike" hand="#h03" seq="1">The</del><del rend="overstrike" hand="#h03" seq="3"><add place="above" hand="#h01" seq="2">My</add></del></subst> <add place="inline" hand="#h03"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" hand="#h03" xml:id="a003">(The</add> body <add place="inline" rend="marked" hand="#h03"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" hand="#h03" xml:id="a004">meantime</add> wreck'd, old, poor and paralyzed <add place="above" hand="#h03">&#8212; the</add>&#8248; <subst><del rend="overstrike" hand="#h02" seq="1">the</del><add place="above" hand="#h01" seq="2">of</add></subst><lb/>
+           strange inertials <subst><del rend="overstrike" seq="1">like a pall&#11840;wraps</del><add place="above" seq="2">deeping, falling pall&#11840;like</add></subst> round me:<add place="inline" hand="#h03">)</add></l>
+    <l>Of<add place="above" hand="#h02">The</add> burning fires <add place="inline"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" xml:id="a005" seq="1">not yet <del rend="overstrike" seq="2">exctinct</del> down</add> <add place="below" hand="#h03">? down</add><del rend="overstrike">yet</del> in my sluggish blood,</l>
+    <l><subst><del rend="overstrike" hand="#h02" seq="1">Of</del><del rend="overstrike" hand="#h01" seq="3"><add place="above" hand="#h02" seq="2">The</add></del><add place="above" hand="#h01" seq="4">With</add></subst> undiminish'd faith &#8212; <subst><del rend="overstrike" hand="#h02" seq="1">of many a</del><del rend="overstrike" hand="#h01" seq="3"><add place="above" hand="#h02" seq="2">&#8212; the groups of</add></del><add place="above" hand="#h01" seq="4">and many a</add></subst> loving friend<subst><del rend="overwrite" seq="1">.</del><add place="inline" hand="#h02" seq="2">s</add></subst></l>
+   </lg>
+   
+   <signed><hi rend="underline">Walt Whitman</hi></signed>
+   
+   <note type="authorial" place="bottom" hand="#h04">sent to Lippincotts</note>
+   
+   <note type="authorial" place="bottom" hand="#h03">carols closing sixty&#8211;</note>
+   
+   <pb xml:id="leaf001v" facs="uva.00158.002.jpg" type="verso"/>
+   
+</body>
+</text>
 </TEI>

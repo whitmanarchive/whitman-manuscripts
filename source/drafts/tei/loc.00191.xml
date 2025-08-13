@@ -1,171 +1,123 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00191">
-   <relations>
-      <work ref="xxx.00372" cert="absolute">
-         <p>A draft of "The Dismantled Ship," written on the inside of an opened envelope.</p>
-      </work>
-   </relations>
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title level="m" type="main">The Dismantled Ship
-</title>
-            <title level="m" type="sub">a machine readable transcription</title>
-            <author>Walt Whitman</author>
-            <editor role="editor">Kenneth M. Price</editor>
-            <editor role="editor">Ed Folsom</editor>
-            <respStmt>
-               <resp>Transcription and encoding</resp>
-               <persName xml:id="nhg">Nicole Gray</persName>
-               <persName xml:id="jr">Joshua Ranger</persName>
-               <persName xml:id="fl">Farrah Lehman</persName>
-               <persName xml:id="km">Kenneth M. Price</persName>
-            </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
-            <sponsor>University of Iowa</sponsor>
-            <funder>The National Endowment for the Humanities</funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>
-               <date>2004</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <idno>loc.00191</idno>
-            <distributor>The Walt Whitman Archive</distributor>
-            <address>
-               <addrLine>Center for Digital Research in the Humanities</addrLine>
-               <addrLine>319 Love Library</addrLine>
-               <addrLine>University of Nebraska-Lincoln</addrLine>
-               <addrLine>P.O. Box 884100</addrLine>
-               <addrLine>Lincoln, NE 68588-4100</addrLine>
-            </address>
-            <availability>
-               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
-            </availability>
-         </publicationStmt>
-         <notesStmt>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-            <note type="project" target="dat1">"The Dismantled Ship" was first published in <date when="1888">1888</date>; the year on the postmarks are not discernable.</note>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00191"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main">The Dismantled Ship</title>
+    <title level="m" type="sub">a hand-written transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="tb">Tara Ballard</persName>
+     <persName xml:id="ew">Emma Whaley</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
 
+   <idno>loc.00191</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+        
+     <note type="work_relations" target="xxx.00372" cert="high">
+      <p>A draft of "The Dismantled Ship," first published in 1888, written on the inside of an opened envelope (postmark date unclear). At the bottom of the page in a note in Whitman's hand: "probably printed in Herald 19th Feb. '88."</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>The Dismantled Ship</title>  
+     
+     <date cert="high">1888</date>
+     
+     <idno type="callno">MSS 18630, Box 26; Reel 16</idno>
+     
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+   
+     <note type="project" target="#rel01">The verso is an unfolded envelope with Whitman's address, postal stamps, and a note: <l>c/o F.B. Samborn</l><l>Concord</l>. Math notations are also present.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h02" resp="#unk"><persName xml:id="unk">Unknown</persName></handNote>
+    <handNote medium="black ink" xml:id="h03" resp="#unk2"><persName xml:id="unk2">Unknown 2</persName></handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ <change when="2024-09-24" who="#ew">updated image links</change>
+ <change when="2024-04-17" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
 
-            <note type="project" target="leaf001v">On the verso is the outside of an envelope (poem is written on the inside of the envelope) addressed to "Walt Whitman, Camden, N. J." Envelope has a 2 cent George Washington stamp and is postmarked February 13th (year is not discernable). What was originally the back of the envelope inscribed note, "c/o F.B. Sanborn, Concord", as well as some sums written in purple pencil.</note>                          	
-         </notesStmt>
-         <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
-               <title>
-The Dismantled Ship
-</title>
-               <date cert="high" value="1888" xml:id="dat1">About 1888</date>
-
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
-
-               <note type="project">Transcribed from digital images of the original.</note>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <revisionDesc>
-         <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#jr" when="2004-07-05">Encoded</change>
-         <change who="#jr" when="2004-07-05">Transcribed</change>
-         <change who="#fl" when="2006-09-12">Checked</change>
-         <change who="#km" when="2006-09-14">Edited</change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-
-
-         <pb facs="loc.00191.001" xml:id="leaf001r" type="recto"/>
-
-         <lg
-              >
-
-            <head type="main-authorial" rend="underline">The <supplied reason="cut away"
-                         source="Library of Congress transcription"
-                         TEIform="supplied">Di</supplied>smantled Ship
-</head>
-
-
-	               
-            <l>
-               In some unused lagoon some<lb/> 
-               nameless bay,<lb/>
-            </l>
-
-            <l>
-               On sluggish waters calm and<lb/>
-               muddy, <add rend="insertion" place="supralinear">anchor'd</add> near the shore,<lb/>
-            </l>
-
-            <l>
-               An old disabled <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">ship</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">gray and</add>
-                     </rdg>
-                  </subst> batter'd<lb/>
-               
-                  <add rend="insertion" place="supralinear">ship,</add> dismasted, broken,<lb/>
-            </l>
-
-            <l>
-               After <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">her</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">free</add> 
-                     </rdg>
-                  </subst>
-voyages <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">in</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">to</add>
-                     </rdg>
-                  </subst>
-all the<lb/>
-               seas of earth, <add rend="insertion" place="supralinear">—the hulk of her</add> haul'd up<lb/>
-               
-                  <add rend="insertion" place="supralinear">at last</add> &amp; hawser'd<del rend="overstrike">,</del> tight,<lb/>
-            </l>
-
-            <l>
-               Lies <del rend="overstrike">anchor'd,</del> rusting,<lb/>
-               mouldering <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">there.</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">there.</add>
-                     </rdg>
-                  </subst>
-               <lb/>
-            </l>
-
-            <note type="authorial"
-                  place="left">
-               <p>Sent to Herald</p>
-            </note>
-            <note type="authorial"
-                  place="right"
-                  rend="circled">
-               <p>probably printed in Herald 19th Feb. '88</p>
-            </note>
-            <note type="authorial"
-                  place="bottom">
-               <p>4 1/<gap reason="illegible"/>
-               </p>
-            </note>
-         </lg>
-
-         <pb facs="loc.00191.002" xml:id="leaf001v" type="verso"/>
-
-      </body>
-   </text>
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="loc_ew.00135.jpg" type="recto"/>
+   
+   <note hand="h02" type="archival" place="top">(Acc,19,078)</note>
+   
+   <lg type="poem">
+          <head rend="underline">The <gap extent="about one letter" unit="chars" quantity="1" reason="torn away"/>ismantled Ship</head>
+     <l>In some <unclear reason="illegible" cert="low" resp="#tb">unused</unclear> lagoo<gap extent="about one letter" unit="chars" quantity="1" reason="torn away"/> some<lb/>
+          nameless bay.</l>
+     <l>On sluggish waters calm <gap extent="about one letter" unit="chars" quantity="1" reason="torn away"/>nd<lb/> 
+          muddy, <add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">anchor'd</add>near the shore.</l>
+    <l>An old, disabled <subst><del rend="overstrike" seq="1">ship&#11840;</del><add place="above" seq="2">gray, and</add></subst> batter'd,
+          <add place="inline"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">ships,</add>dismasted, broken,</l>
+    <l>After <subst><del rend="overstrike" seq="1">her</del><add place="above" seq="2">free</add></subst> voyages <del><unclear reason="illegible" cert="low" resp="#tb"/></del><add place="above">to</add> all the<lb/>
+          seas of earth, <add place="inline"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">the hulk of her,</add> haul'd up<lb/>
+          <add place="inline"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">at last</add> and hawser'd tight</l>
+    <l>Lies <del>anchor'd</del> rusting,
+     mouldering <subst><del rend="overstrike" seq="1">there.</del><add seq="2">There.</add></subst></l>
+   </lg>
+   
+   <note><l>sent to</l><l>Herald</l></note>
+   
+   <note><l>probably printed in</l><l>Herald 19th Feb.</l><l>'88</l></note>
+   
+   <note hand="h03" type="archival" place="bottom">4 &#188; &#2192;</note>
+   
+   <pb xml:id="leaf001v" facs="loc_ew.00136.jpg" type="verso"/>
+   
+</body>
+</text>
 </TEI>

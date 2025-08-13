@@ -8,6 +8,7 @@
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
                 <editor>Ed Folsom</editor>
+                <editor>Matt Cohen
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="jsc">Justin St. Clair</persName>
@@ -20,6 +21,8 @@
                     <persName xml:id="bb">Brett Barney</persName>
                     <persName xml:id="as">Ashlyn Stewart</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="jh">Jeff Hill</persName>
+                    <persName xml:id="ew">Emma Whaley</persName>
                 </respStmt>
                 <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -29,11 +32,10 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <date>2004</date>
+                    <date>2024</date>
                 </edition>
             </editionStmt>
             <publicationStmt>
-                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
@@ -48,290 +50,105 @@
                 </availability>
             <idno>loc.00047</idno></publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">This manuscript was probably composed in <date notBefore="1890-09" notAfter="1890-11">autumn, 1890</date>, as is suggested by the postmarks
-                    on the envelopes on which it is written. The poem was revised and published under the title "Old Chants," first in the New
-                    York <hi rend="italic">Truth</hi>, <date when="1891-03-19">March 19,
-                        1891</date>. The order of the manuscript leaves has
-                    been derived from the published poem. The leaves that comprise this manuscript are five opened-up
-                    envelopes and one cancelled letter written to Whitman from J. Harry Schneller,
-                    Jr. The verso envelopes and letter are all dated <date notBefore="1890-09" notAfter="1890-10">September through October, 1890</date>. </note>
+                <note type="project" target="#dat1">This manuscript was probably composed in <date notBefore="1890-09" notAfter="1890-11">autumn, 1890</date>, as is suggested by the postmarks on the envelopes on which it is written. The poem was revised and published under the title "Old Chants," first in the New York <hi rend="italic">Truth</hi>, <date when="1891-03-19">March 19, 1891</date>. The order of the manuscript leaves has been derived from the published poem. The leaves that comprise this manuscript are five opened-up envelopes and one cancelled letter written to Whitman from J. Harry Schneller, Jr. The verso envelopes and letter are all dated <date notBefore="1890-09" notAfter="1890-10">September through October, 1890</date>.</note>
                     <note type="work_relations" target="xxx.00395">
-                        <p>This poem was revised and published under the title "Old Chants," first in the New
-                            York <hi rend="italic">Truth</hi>, <date when="1891-03-19">March 19,
-                                1891</date>.</p>
+                        <p>This poem was revised and published under the title "Old Chants," first in the New York <hi rend="italic">Truth</hi>, <date when="1891-03-19">March 19, 1891</date>.</p>
                     </note>
             </notesStmt>
             <sourceDesc>
                 <bibl><author xml:id="ww">Whitman, Walt</author>
-                    
                     <title>America to Old-World Bards </title>
                     <date xml:id="dat1" cert="high" notBefore="1890-10" notAfter="1891-03">1890 or 1891</date>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
-                    <note type="project">Transcribed from a digital image of the original
-                        manuscript.</note>
+                    <note type="project">Transcribed from a digital image of the original manuscript.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2024-10-01" who="#ew">updated image links</change>
+            <change when="2024-05-20" who="#jh">checked, corrected</change>
             <change when="2022-06-06" who="#km">updated relations encoding</change>
             <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-10-18" who="#nhg">corrected</change>
             <change when="2016-01-29" who="#nhg">merged earlier changes, corrected</change>
             <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
-            <change when="2006-08-02" who="#nk">Added third digit to leaf numbers</change>
-            <change when="2006-02-03" who="#lr">Corrected</change>
-            <change when="2004-07-21" who="#bb">Moved lg1 to include heads</change>
-            <change when="2004-06-24" who="#bb">Blessed</change>
-            <change when="2004-04-13" who="#kmp">Edited</change>
-            <change when="2004-03-06" who="#aj">Revised</change>
-            <change when="2003-10-02" who="#bb">Conversion to camel-case</change>
-            <change when="2003-01-16" who="#kmp">Edited</change>
-            <change when="2002-09-14" who="#kmp">Edited</change>
-            <change when="2002-09-10" who="#aj">Revised; checked</change>
-            <change when="2001-08-22" who="#ms">Encoded</change>
-            <change when="2000-08-22" who="#jsc">Transcribed</change>
+            <change when="2006-08-02" who="#nk">added third digit to leaf numbers</change>
+            <change when="2006-02-03" who="#lr">corrected</change>
+            <change when="2004-07-21" who="#bb">moved lg1 to include heads</change>
+            <change when="2004-06-24" who="#bb">blessed</change>
+            <change when="2004-04-13" who="#kmp">edited</change>
+            <change when="2004-03-06" who="#aj">revised</change>
+            <change when="2003-10-02" who="#bb">conversion to camel-case</change>
+            <change when="2003-01-16" who="#kmp">edited</change>
+            <change when="2002-09-14" who="#kmp">edited</change>
+            <change when="2002-09-10" who="#aj">revised, checked</change>
+            <change when="2001-08-22" who="#ms">encoded</change>
+            <change when="2000-08-22" who="#jsc">transcribed</change>
         </revisionDesc>
     </teiHeader>
     <text type="manuscript">
         <body>
-            <pb facs="loc.00047.001.jpg" xml:id="leaf001r" type="recto"/>
+            <pb facs="loc_ew.00038.jpg" xml:id="leaf001r" type="recto"/>
             <lg type="poem">
                 <head rend="underline" type="main-authorial">America to Old-World Bards</head>
                 <head rend="underline" type="sub">A reminiscence from reading Walter Scott</head>
-                <pb facs="loc.00047.002.jpg" xml:id="leaf001v" type="verso"/>
-                <pb facs="loc.00047.003.jpg" xml:id="leaf002r" type="recto"/>
+                <pb facs="loc_ew.00039.jpg" xml:id="leaf001v" type="verso"/>
+                <pb facs="loc_ew.00040.jpg" xml:id="leaf002r" type="recto"/>
                 <lg type="linegroup">
-                    <l>
-<subst>
-                            
-                                <del rend="overstrike" seq="1">The</del>
-                                                        
-                                <add place="supralinear" rend="unmarked" seq="2">The <del rend="overstrike"><unclear cert="low" resp="#aj" reason="deletion, illegible">Am</unclear></del>
-</add>
-                                                    </subst>
-<subst>
-                            
-                                <del rend="overstrike" seq="1">
-                                    <unclear cert="medium" resp="#aj" reason="deletion, illegible">qu</unclear>
-                                </del>
-                                                        
-                                <del rend="overstrike" seq="3">
-                                    <add place="supralinear" rend="unmarked" seq="2">imported</add>
-                                </del>
-                                                        
-                                <add place="supralinear" rend="unmarked" seq="4">ancient</add>
-                                                    </subst> ballad reciting, ending</l>
-                    <l>Once, <subst>
-                            
-                                <del rend="overstrike" seq="1">America, gazing</del>
-                                                        
-                                <add place="supralinear" rend="unmarked" seq="2">
-<del rend="overstrike">I</del> gazing</add>
-                                                    </subst> toward thee, <add place="supralinear" rend="insertion">Mother of
-                            all,</add>
-</l>
+                    <l><subst><del rend="overstrike" seq="1">The</del><add place="above" rend="unmarked" seq="2">The <del rend="overstrike"><unclear cert="low" resp="#aj" reason="deletion, illegible">Am</unclear></del></add></subst> <subst><del rend="overstrike" seq="1"><unclear cert="medium" resp="#aj" reason="deletion, illegible">qu</unclear></del><del rend="overstrike" seq="3"><add place="above" rend="unmarked" seq="2">imported</add></del><add place="above" rend="unmarked" seq="4">ancient</add></subst> ballad reciting, ending</l>
+                    <l>Once, <subst><del rend="overstrike" seq="1">America, gazing</del><add place="above" rend="unmarked" seq="2"><del rend="overstrike">I</del> gazing</add></subst> toward thee, <add place="above" rend="insertion">Mother of all,</add></l>
                     <l>Musing, seeking as ever the themes of thee,</l>
-                    <l>
-                       
-<hi rend="underline">Thank</hi>
-                            <add place="supralinear" rend="insertion">well</add>
-                            <hi rend="underline">for me</hi>, thou saidst, <hi rend="underline">before thou goest</hi>
-
-                        <lb/>
-                            <hi rend="underline">the old bards</hi>
-                        
-                    </l>
-                    <l><hi rend="underline">Speak</hi>
-                                                                
-                                    <add place="supralinear" rend="unmarked">Name out</add>
-
-                            <del rend="overstrike"><hi rend="underline">the word</hi></del>
-                            <hi rend="underline">for me <del rend="overstrike">acknowledging</del></hi>
-                            <add place="supralinear" rend="unmarked">each</add>
-                        
-                        <lb/>
-                            <subst>
-                                
-                                    <del rend="overstrike" seq="1"><hi rend="underline">ancient</hi></del>
-                                                                                   
-                                    <add place="supralinear" rend="unmarked" seq="2">past gone</add>
-                                                            </subst>
-                            <hi rend="underline">singe<subst><del rend="overwrite" seq="1">rs.</del><add place="over" rend="overwrite" seq="2">r.</add>
-                                                                    </subst>
-</hi>
-                        
-                    </l>
+                    <l><hi rend="underline">Thank</hi> <add place="above" rend="insertion">well</add> <hi rend="underline">for me</hi>, thou saidst, <hi rend="underline">before thou goest</hi><lb/>
+                    <hi rend="underline">the old bards</hi></l>
+                    <l><hi rend="underline">Speak</hi><add place="above" rend="unmarked">Name out</add> <del rend="overstrike"><hi rend="underline">the word</hi></del> <hi rend="underline">for me <del rend="overstrike">acknowledging</del></hi> <add place="above" rend="unmarked">each</add><lb/>
+                    <subst><del rend="overstrike" seq="1"><hi rend="underline">ancient</hi></del><add place="above" rend="unmarked" seq="2">past gone</add></subst> <hi rend="underline">singe<subst><del rend="overwrite" seq="1">rs.</del><add place="over" rend="overwrite" seq="2">r.</add></subst></hi></l>
                     <delSpan spanTo="#d1" rend="overstrike"/>
-                        <l>
-                            <hi rend="underline">I too receive them with perfect hospitality.</hi>
-                        </l>
+                    <l><hi rend="underline">I too receive them with perfect hospitality.</hi></l>
                     <anchor xml:id="d1"/>
-                    <l>Well-pleased, accepting all, <add place="supralinear" rend="insertion">curiously</add> prepared for,</l>
+                    <l>Well-pleased, accepting all, <add place="above" rend="insertion">curiously</add> prepared for,</l>
                 </lg>
-                <pb facs="loc.00047.004.jpg" xml:id="leaf002v" type="verso"/>
-                <pb facs="loc.00047.005.jpg" xml:id="leaf003r" type="recto"/>
+                <pb facs="loc_ew.00041.jpg" xml:id="leaf002v" type="verso"/>
+                <pb facs="loc_ew.00042.jpg" xml:id="leaf003r" type="recto"/>
                 <lg type="linegroup">
                     <l>(Of many de<subst><del rend="overwrite" seq="1">p</del><add place="over" rend="overwrite" seq="2">b</add></subst>ts incalculable</l>
-                    <l>Haply the <add place="supralinear" rend="insertion">New World's</add>
-                            chiefest <subst>
-                                
-                                    <del rend="overstrike" seq="1">debts</del>
-                                                                
-                                    <add place="inline" rend="unmarked" seq="2">debt</add>
-                                                            </subst>
-
-                        <lb/>is to past <subst>
-                                
-                                    <del rend="overstrike" seq="1">poets</del>
-                                                                
-                                    <add place="supralinear" rend="unmarked" seq="2">
-                                        <del rend="overstrike">
-                                            <note type="authorial" place="inline">?</note>
-                                        </del> poems</add></subst>.)
-                    </l>
+                    <l>Haply the <add place="above" rend="insertion">New World's</add> chiefest <subst><del rend="overstrike" seq="1">debts</del><add place="inline" rend="unmarked" seq="2">debt</add></subst><lb/>
+                    is to past <subst><del rend="overstrike" seq="1">poets</del><add place="above" rend="unmarked" seq="2"><del rend="overstrike"><note type="authorial" place="inline">?</note></del> poems</add></subst>.)</l>
                 </lg>
-                <pb facs="loc.00047.006.jpg" xml:id="leaf003v" type="verso"/>
-                <pb facs="loc.00047.007.jpg" xml:id="leaf004r" type="recto"/>
+                <pb facs="loc_ew.00043.jpg" xml:id="leaf003v" type="verso"/>
+                <pb facs="loc_ew.00044.jpg" xml:id="leaf004r" type="recto"/>
                 <lg type="linegroup">
-                    <l>
-                        <subst>
-                            
-                                <del rend="overstrike" seq="1">Unwittingly for thee</del>
-                                                        
-                                <add place="supralinear" rend="unmarked" seq="2">
-                                    <add place="supralinear" rend="insertion">Far back</add> Preluding thee, <add place="supralinear" rend="insertion">America</add> <del rend="overstrike">America</del>,</add>
-                                                    </subst>
-                    </l>
-                    <l>First <del rend="overstrike">
-                                <add place="supralinear" rend="unmarked">Egyp</add>
-                            </del> chants, Egyptian priests and <add place="supralinear" rend="unmarked">those</add> of
-                        <lb/>Ethiopia
-                    </l>
-                    <l>The Hindu epics, <add place="supralinear" rend="unmarked">the
-                                Grecian,</add>
-                            <del rend="overstrike">the</del> Chinese, <del rend="overstrike">and</del>
-                            <del rend="overstrike">the</del>
-
-                        <lb/>Persian,
-                    </l>
-                    <l>The Biblic books and prophets, the <del rend="overstrike">beauteous</del>
-
-                        <lb/>deep idylls of the Nazarene,
-                    </l>
-                    <l>The Iliad, Odyssey, <add place="supralinear" rend="insertion">plots,
-                            doings,</add> wanderings of Eneas,</l>
-                    <l>
-<add place="supralinear" rend="unmarked">Hesiod</add> Eschylus, Sophocles,
-                        Merlin, Arthur,</l>
+                    <l><subst><del rend="overstrike" seq="1">Unwittingly for thee</del><add place="above" rend="unmarked" seq="2"><add place="above" rend="insertion">Far back</add> Preluding thee, <add place="above" rend="insertion">America</add> <del rend="overstrike">America</del>,</add></subst></l>
+                    <l>First <del rend="overstrike"><add place="above" rend="unmarked">Egyp</add></del> chants, Egyptian priests and <add place="above" rend="unmarked">those</add> of<lb/>
+                    Ethiopia</l>
+                    <l>The Hindu epics, <add place="above" rend="unmarked">the Grecian,</add> <del rend="overstrike">the</del> Chinese, <del rend="overstrike">and</del> <del rend="overstrike">the</del><lb/>
+                    Persian,</l>
+                    <l>The Biblic books and prophets, the <del rend="overstrike">beauteous</del><lb/>
+                    deep idylls of the Nazarene,</l>
+                    <l>The Iliad, Odyssey, <add place="above" rend="insertion">plots, doings,</add> wanderings of Eneas,</l>
+                    <l><add place="above" rend="unmarked">Hesiod</add> Eschylus, Sophocles, Merlin, Arthur,</l>
                 </lg>
-                <pb facs="loc.00047.008.jpg" xml:id="leaf004v" type="verso"/>
-                <pb facs="loc.00047.009.jpg" xml:id="leaf005r" type="recto"/>
+                <pb facs="loc_ew.00045.jpg" xml:id="leaf004v" type="verso"/>
+                <pb facs="loc_ew.00046.jpg" xml:id="leaf005r" type="recto"/>
                 <lg type="linegroup">
-                    <l>
-<subst>
-                            
-                                <del rend="overstrike" seq="1">These as a mighty</del>
-                                <del rend="overstrike" seq="3">
-                                    <add place="supralinear" rend="unmarked" seq="2">great</add>
-                                </del>
-                                                        
-                                <add place="supralinear" rend="unmarked" seq="4">As some great shadowy</add>
-                                                    </subst> group, <add place="supralinear" rend="insertion">gathering
-                            around</add>
-</l>
+                    <l><subst><del rend="overstrike" seq="1">These as a mighty</del><del rend="overstrike" seq="3"><add place="above" rend="unmarked" seq="2">great</add></del><add place="above" rend="unmarked" seq="4">As some great shadowy</add></subst> group, <add place="above" rend="insertion">gathering around</add></l>
                     <milestone unit="glued"/>
-                    <l>
-<subst>
-                                
-                                    <del rend="overstrike" seq="1">Launching, long-darting,</del>
-                                                                
-                                    <add place="supralinear" rend="unmarked" seq="2">Darting</add>
-                                                            </subst>
-<del rend="overstrike">m</del>
-                            <subst>
-                                
-                                    <del rend="overstrike" seq="1">a</del>
-                                                                
-                                    <add place="supralinear" rend="unmarked" seq="2">their</add>
-                                                            </subst>mighty
-                        <lb/>
-<subst>
-                                
-                                    <del rend="overstrike" seq="1">many</del>
-                                                                
-                                    <del rend="overstrike" seq="3">
-                                        <add place="supralinear" rend="unmarked" seq="2">crowding</add>
-                                    </del>
-                                                            </subst> masterful eyes <add place="supralinear" rend="insertion">forward</add> at thee
-                    </l>
-                    <l>
-<subst>
-                                
-                                    <del rend="overstrike" seq="1">Thee</del>
-                                                                
-                                    <add place="supralinear" rend="unmarked" seq="2">Thou</add></subst>, with <add place="supralinear" rend="insertion">as now</add>
-                            <subst>
-                                
-                                    <del rend="overstrike" seq="1">thy ben</del>
-                                                                
-                                    <add place="supralinear" rend="unmarked" seq="2">
-<del rend="overstrike">thy</del>
-                                        <add place="supralinear" rend="unmarked">thy</add>
-                                        bending</add>
-                                                            </subst>
-<del rend="overstrike">head <unclear cert="medium" resp="#aj" reason="deletion, illegible">an</unclear>
-</del>
-
-                        <lb/>neck and head
-                        <lb/>with courteous hand &amp; wor<subst><del rend="overwrite" seq="1">k</del><add place="over" rend="overwrite" seq="2">d</add></subst>
-                                                                
-                                    <add place="supralinear" rend="unmarked">word</add>
-                                                            
-
-                        <milestone unit="glued"/>
-                        <lb/>
-                            <del rend="overstrike">
-                                <unclear cert="medium" resp="#aj" reason="cut away">paus</unclear>
-                            </del>
-                        
-                        <lb/>
-                            <del rend="overstrike">pausing</del>
-                        
-                    </l>
-                    <l>
-<subst>
-                                
-                                    <del rend="overstrike" seq="1">Thee</del>
-                                                                
-                                    <add place="supralinear" rend="unmarked" seq="2">Thou,</add>
-                                                            </subst>
-<add place="supralinear" rend="unmarked">as</add> pausing <del rend="overstrike">for</del> a moment, <add rend="insertion" place="supralinear">
-<subst>
-                                    
-                                        <del rend="overstrike" seq="1">bending thine</del>
-                                                                        
-                                        <add place="supralinear" rend="unmarked" seq="2">drop'st thine</add>
-                                                                    </subst> eyes</add>
-
-                        <lb/>
-<subst>
-                                
-                                    <del rend="overstrike" seq="1">observing</del>
-                                                                
-                                    <add place="supralinear" rend="unmarked" seq="2">on</add>
-                                                            </subst>
-                        them, <add place="supralinear" rend="insertion" seq="2">the past</add> enter<subst><del rend="overstrike" seq="1">est</del><add place="supralinear" rend="unmarked" seq="2">ing</add>
-                                                            </subst>
-                            <add place="inline" rend="unmarked">at</add>
-
-                        <lb/>thy entrance-porch.
-                    </l>
+                    <l><subst><del rend="overstrike" seq="1">Launching, long-darting,</del><add place="above" rend="unmarked" seq="2">Darting</add></subst> <del rend="overstrike">m</del> <subst><del rend="overstrike" seq="1">a</del><add place="above" rend="unmarked" seq="2">their</add></subst>mighty<lb/>
+                    <subst><del rend="overstrike" seq="1">many</del> <del rend="overstrike" seq="3"><add place="above" rend="unmarked" seq="2">crowding</add></del></subst> masterful eyes <add place="above" rend="insertion">forward</add> at thee</l>
+                    <l><subst><del rend="overstrike" seq="1">Thee</del><add place="above" rend="unmarked" seq="2">Thou</add></subst>, with <add place="above" rend="insertion">as now</add> <subst><del rend="overstrike" seq="1">thy ben</del><add place="above" rend="unmarked" seq="2">
+<del rend="overstrike">thy</del><add place="above" rend="unmarked">thy</add>bending</add></subst> <del rend="overstrike">head <unclear cert="medium" resp="#aj" reason="deletion, illegible">an</unclear></del><lb/>
+                        neck and head<lb/>
+                        with courteous hand &amp; wor<subst><del rend="overwrite" seq="1">k</del><add place="over" rend="overwrite" seq="2">d</add></subst> <add place="above" rend="unmarked">word</add> <milestone unit="glued"/><lb/>
+                        <del rend="overstrike"><unclear cert="medium" resp="#aj" reason="cut away">paus</unclear></del><lb/>
+                        <del rend="overstrike">pausing</del></l>
+                    <l><subst><del rend="overstrike" seq="1">Thee</del><add place="above" rend="unmarked" seq="2">Thou,</add></subst> <add place="above" rend="unmarked">as</add> pausing <del rend="overstrike">for</del> a moment, <add rend="insertion" place="above"> <subst><del rend="overstrike" seq="1">bending thine</del><add place="above" rend="unmarked" seq="2">drop'st thine</add></subst> eyes</add><lb/>
+                        <subst><del rend="overstrike" seq="1">observing</del><add place="above" rend="unmarked" seq="2">on</add></subst> them, <add place="above" rend="insertion" seq="2">the past</add> enter<subst><del rend="overstrike" seq="1">est</del><add place="above" rend="unmarked" seq="2">ing</add></subst> <add place="inline" rend="unmarked">at</add><lb/>
+                        thy entrance-porch.</l>
                     <delSpan spanTo="#d2" rend="overstrike"/>
                         <l>Preluding thee America</l>
                     <anchor xml:id="d2"/>
                 </lg>
             </lg>
-            <pb facs="loc.00047.010.jpg" xml:id="leaf005v" type="verso"/>
+            <pb facs="loc_ew.00047.jpg" xml:id="leaf005v" type="verso"/>
         </body>
     </text>
 </TEI>

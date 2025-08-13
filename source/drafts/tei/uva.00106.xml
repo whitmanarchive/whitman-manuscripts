@@ -1,182 +1,112 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00106">
-   <relations>
-      <work ref="uva.00106">
-         <p> </p>
-      </work>
-   </relations>
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title level="m" type="main" rend="bracketed">But outset and sure</title>
-            <title level="m" type="sub">a machine readable transcription</title>
-            <author>Walt Whitman</author>
-            <editor role="editor">Kenneth M. Price</editor>
-            <editor role="editor">Ed Folsom</editor>
-            <respStmt>
-               <resp>Transcription and encoding</resp>
-               <persName xml:id="nhg">Nicole Gray</persName>
-               <persName xml:id="rl">Robert LaCosse</persName>
-            </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
-            <sponsor>University of Iowa</sponsor>
-            <funder>The National Endowment for the Humanities</funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>
-               <date>2004</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <idno>uva.00106</idno>
-            <distributor>The Walt Whitman Archive</distributor>
-            <address>
-               <addrLine>Center for Digital Research in the Humanities</addrLine>
-               <addrLine>319 Love Library</addrLine>
-               <addrLine>University of Nebraska-Lincoln</addrLine>
-               <addrLine>P.O. Box 884100</addrLine>
-               <addrLine>Lincoln, NE 68588-4100</addrLine>
-            </address>
-            <availability>
-               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
-            </availability>
-         </publicationStmt>
-         <notesStmt>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-		<!-- IGNORE THIS PROJECT NOTE.  IT WILL BE FILLED IN BY PROJECT EDITORS. -->
-            <note type="project"/>
-  	
-         </notesStmt>
-         <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
-               <title>
-	<!-- TITLE UNDER WHICH THE MS IS HELD AT THE REPOSITORY;	-->
-	<!-- PLEASE CONSULT, WHEN AVAILABLE, THE ONLINE FINDING	  	-->
-	<!-- FINDING AID ON THE WHITMAN ARCHIVE, IN THE "MANUSCRIPTS" 	-->
-	<!-- SECTION OF THE SITE.                                     	-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00106"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main" rend="bracketed">But outset and sure</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="tb">Tara Ballard</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2025</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
 
-</title>
-               <idno type="callno"/> 
-               <orgName xml:id="uva">Valentine-Barrett Library University of Virginia
-</orgName> 
+   <idno>uva.00106</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+     <note type="work_relations" cert="high">
+      <p>This manuscript contains trial verses for the poem "Sail Out for Good, Eidólon Yacht!," first published in the March 1891 issue of <hi rend="italic">Lippincott's Magazine</hi> in a group titled "Old-Age Echoes". The top part of this manuscript has been cut away, leaving the emendations to what would become line 5 of the poem only partly visible. Whitman grouped "Sail Out for Good, Eidólon Yacht!" in his "Second Annex," titled "Good-Bye My Fancy", to the 1891 edition of <hi rend="italic">Leaves of Grass</hi>. The pencil note "Sail Out for good, Eidólon Yacht / Good Bye My Fancy / Page 7" appears in the lower left corner, below two new drafts of the ending lines.</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>[But outset and sure]</title>  
+     
+     <date cert="high">about 1891</date>
+     
+     <idno type="callno">box 1, folder 85</idno>
+     
+     <orgName xml:id="uva">Walt Whitman Literary Manuscripts in the Papers of Walt Whitman, Clifton Waller Barrett Library of American Literature, Albert and Shirley Small Special Collections Library, University of Virginia</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+     
+     <note type="project" target="#rel01">The verso is blank.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="pencil" xml:id="h01" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h02" resp="#unk"></handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2025-02-05" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
 
-               <!-- ALTER THE FOLLOWING NOTE IF NECESSARY -->
-
-               <note type="project">Transcribed from digital images of the original.</note>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <revisionDesc>
-         <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#rl" when="2004-06-25">Encoded</change>
-         <change who="#rl" when="2004-06-25">Transcribed</change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-
-         <pb facs="uva.00106.001" xml:id="leaf001r" type="recto"/>
-
-
-
-         <lg
-              >
-            <lg
-                 >
-               <l>
-                  <span value="bracketed" xml:id="s1" from="s1" to="s2" TEIform="span"/>
-But outset and 
-<subst>
-
-<!--it may be debated if the "there" should be "their"; however, for the time being I have chosen to assume it is a correct spelling and perhaps the illegible gap is "assurance":-->
-
-                     <rdg varSeq="1">
-                        <del rend="overstrike">true outset of them all</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">sure <gap reason="illegible"/>ance <gap reason="deletion, illegible"/>
-                           <gap reason="illegible"/>
-                        </add>
-                     </rdg>
-                  </subst>
-                  <anchor xml:id="s2"/>
-
-                  <!--This word may be an authorial note and it may not be.  Since the rest of the line appears in its own brackets I figured this was enough to justify it as an authorial note.:-->
-
-                  <note type="authorial"
-                        place="right">maturest</note>
-
-               </l>
-
-               <l>In perfect faith—<subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">in hope and trust—</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">Depart!—</add>
-                     </rdg>
-                  </subst>
-
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">hither no more</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">no more <add rend="insertion" place="supralinear">returning</add> to these shores</add>
-                     </rdg>
-                  </subst>
-               </l>
-
-
-               <l>Now, now
-<add rend="insertion" place="supralinear">
-                     <del rend="overstrike">returning</del> for good</add>
- upon <del rend="overstrike">now</del>
-                  <add rend="unmarked" place="supralinear">upon</add>
-thy great divinest venture
-</l>
-
-               <anchor xml:id="t1"/>
-
-               <l>Sail forth <add rend="insertion" place="supralinear">
-                     <del rend="overstrike">for good</del>
-                  </add>
-
-                  <!--There is a picture of what looks like a heart here in the text. Rob decided that this is an intentional space and encoded that as such. Someone should check this over. It's arguable.-->
-                  <note type="authorial" place="inline">
-                     <space dim="horizontal" extent="4"/>
-                  </note>
-
-mystic yacht of me.
-</l>
-            </lg>
-
-            <lg
-                 >
-               <del rend="hashmark">
-
-                  <l>Boundless by <add rend="insertion" place="supralinear">
-                        <del rend="overstrike">
-                           <unclear reason="illegible" resp="#mm" cert="medium">tres</unclear> all</del>
-                        <add rend="insertion" place="supralinear"> thy yet known</add> shores, seas,</add>gravitation.</l>
-               </del>
-
-               <!--This transposed section calls up an error message when I parse it, but I can't determine why.-->
-
-               <transpose rend="bracketed" anchored="yes" target="t1">
-                  <l>Spurning all <del rend="overstrike">thy</del> yet known shores, seas, gravitation</l>
-               </transpose>
-
-            </lg>
-
-            <note type="authorial"
-                  place="bottom">
-
-<!--I couldn't figure out the second word in this note. I encoded it as a gap. Ed? Ken?-->
-
-Sail <gap reason="illegible"/> for good, Eidólon Yacht Good Bye My Fancy Page 7</note>
-         </lg>
-      </body>
-   </text>
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="uva_es.00099_large.jpg" type="recto"/>
+   <lg type="poem">
+    <l>But outset and <subst><del rend="overstrike" seq="1">true outset</del><add place="add" seq="2">sure utterance</add></subst> <subst><del rend="overstrike" seq="1">of them all,</del><add place="above" seq="2">thy truest, best, maturest</add></subst></l>
+    <l>In perfect faith &#8212; <subst><del rend="overstrike" seq="1">in hope and trust</del><add place="above" seq="2">Depart! &#8212;</add></subst> &#8212; <subst><del rend="overstrike" seq="1">hither no more</del><add place="above" seq="2">no more <add place="above" seq="3">returning</add> to these shores</add></subst></l>
+    <l>Now, now <add place="inline" rend="marked"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001" seq="1"><del rend="overstrike" seq="2">return</del> for good</add> upon <del rend="overstrike">now</del> <add place="above">upon</add>thy great divinest venture</l>
+    <l>Sail forth <add place="inline"><metamark function="add" target="#002">&#8248;</metamark></add><add place="above" xml:id="a002">for good</add> O mystic yacht of me</l>
+    
+ 
+    <l><del rend="overstrike">Boundless</del> by <del rend="overstrike" seq="5"><add place="inline"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003" seq="1"><subst><del rend="overstrike" seq="2">the</del><add place="above" rend="marked" seq="3">thy yet</add><add place="above" seq="4">all</add></subst> all <add></add><add>known</add> shores, seas.</add> gravitation</del></l>
+    <l>Spurning all <del rend="overstrike">thy</del> yet known shores, seas, gravitations</l>
+   </lg>
+   
+   <note type="editorial" hand="#h02" place="bottom">Sail Out for good Eid&#243;lon Yacht<lb/>Good Bye My Fancy<lb/>Page 7</note>
+   
+   
+   <pb xml:id="leaf001v" facs="uva.es.00100_large.jpg" type="verso"/>
+   
+</body>
+</text>
 </TEI>

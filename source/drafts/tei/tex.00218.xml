@@ -1,109 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="tex.00218">
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05452"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
     
-    <teiHeader>
-        
-        <fileDesc>
-            
-            <titleStmt>
-                <title level="m" type="main">for Hospital article</title>
-                <title level="m" type="sub">a machine readable transcription</title>
-                <author>Walt Whitman</author>
-                <editor>Kenneth M. Price</editor>
-                <editor>Ed Folsom</editor>
-                <respStmt>
-                    <resp>Transcription and encoding</resp>
-                    <name>The Walt Whitman Archive Staff</name>
-                </respStmt>
-                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
-                <sponsor>University of Iowa</sponsor>
-                <funder>The National Endowment for the Humanities</funder>
-            </titleStmt>
-            
-            <editionStmt>
-                <edition>
-                    <date>2010</date>
-                </edition>
-            </editionStmt>
-            
-            <publicationStmt>
-                <idno>tex.00218</idno>
-                <distributor>The Walt Whitman Archive</distributor>
-                <address>
+    <title level="m" type="main" rend="bracketed">for Hospital article</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+      <persName xml:id="al">Ashley Lawson</persName>
+      <persName xml:id="tj">Tim Jackson</persName>
+      <persName xml:id="kmh">Kenneth Michael Hoover</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2025</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
                     <addrLine>319 Love Library</addrLine>
                     <addrLine>University of Nebraska-Lincoln</addrLine>
                     <addrLine>P.O. Box 884100</addrLine>
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
-                <availability>
-                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
-                </availability>
-            </publicationStmt>
-            
-            <notesStmt>
-                <note type="project" target="#dat1"><!-- when was this manuscript written? --></note>
-                <note type="project">The following are responsible for particular readings or for changes to this file, as noted: 
-                    <persName xml:id="al">Ashley Lawson</persName> <persName xml:id="tj">Tim Jackson</persName>
-                </note>
-            </notesStmt>
-            
-            
-            <sourceDesc>
-                <bibl>
-                    <author>Walt Whitman</author>          
-                    <title>For Hosptial article</title> 
-                    <!--     THE DATE INFORMATION IN THE NEXT LINE WILL BE ADDED BY AN EDITOR     -->
-                    <!--<date xml:id="dat1" cert="****" when="/"> </date>-->
-                    
-                    <idno type="callno">TXRC03-A4</idno> <!-- find name -->
-                    <orgName>The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
-                    <note type="project">Transcribed from our own digital image of the original manuscript.</note>
-                </bibl>
-            </sourceDesc>
-            
-        </fileDesc>
-        
-        <revisionDesc>
-            <change when="2011-03-10" who="#tj">Checked, corrected</change>
-            <change when="2011-01-25" who="#al">Transcribed and encoded</change>
-        </revisionDesc>
-        
-    </teiHeader>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
     
-    <text type="manuscript">
-        
-        <body>
-            
-            <pb xml:id="leaf001r" facs="tex.00218.001_large.jpg" type="recto"/>
-            
-            <head type="main-derived">for Hosptial article</head>
-            
-            
-            <span rend="bracketed" xml:id="s1" from="#s1" to="#s2"/> <label>Specimen Days</label> <!-- [TJ] Check on label -->
-            <list>
-                <item>page 46</item>
-                <item>48-9</item>
-                <item>52-3</item>
-                <item>67</item>
-                <item>68</item>
-                <item>74</item>
-                <item>80-81</item>
-            </list>
-            <anchor xml:id="s2"/> 
-            <ab>Hospital article</ab>
-           
-    
-            <pb xml:id="leaf001v" facs="tex.00218.002_large.jpg" type="verso"/> 
-            
-            <!-- envelope to Whitman.  Transcribe? -->
-            
-        </body>
-    </text>
+
+   <idno>tex.00218</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+   
+     <note type="work_relations" target="xxx.00485" cert="high">
+      <p>Identifies passages from <hi rend="italic">Specimen Days</hi> (1882) intended for reuse in an article called "Last of the War Cases" (1888) published in <hi rend="italic">Century</hi>, which was later reprinted in <hi rend="italic">November Boughs</hi> (1888) and <hi rend="italic">Complete Poems &amp; Prose of Walt Whitman 1855...1888</hi>.</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>for Hospital article</title>  
+     
+     <date when="1888" cert="high">1888</date>
+     
+     <idno type="callno">TXRC03-A4, box 1, folder 5</idno>
+     
+     <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+      
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="pencil" xml:id="h01" resp="#ww"/>
+    <handNote medium="purple crayon" xml:id="h02" resp="#ww"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2025-03-10" who="kmh">Updated and corrected encoding</change>
+ <change when="2011-03-10" who="#tj">Checked, corrected</change>
+ <change when="2011-01-25" who="#al">Transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="tex.00218.001_large.jpg" type="recto"/>
+   
+   <head type="main-derived">for Hosptial article</head>
+   <note type="authorial" place="right" hand="#h01" rend="marked">Specimen Days</note>
+    <list>
+     <item>page 46</item>
+     <item>48-9</item>
+     <item>52-3</item>
+     <item>67</item>
+     <item>68</item>
+     <item>74</item>
+     <item>80-81</item>
+    </list>
+   <note type="authorial" place="bottom" hand="#h02">Hospital article</note>
+   
+
+   <pb xml:id="leaf001v" facs="tex.00218.002_large.jpg" type="verso"/>
+   
+</body>
+</text>
 </TEI>
-
-
-
-

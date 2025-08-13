@@ -1,281 +1,132 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="tex.00053">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title level="m" type="main">To the sunset breeze</title>
-            <title level="m" type="sub">a machine readable transcription</title>
-            <author>Walt Whitman</author>
-            <editor>Kenneth M. Price</editor>
-            <editor>Ed Folsom</editor>
-            <respStmt>
-               <resp>Transcription and encoding</resp>
-               <persName xml:id="nhg">Nicole Gray</persName>
-               <persName xml:id="ah">Amy Hezel</persName>
-            </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
-            <sponsor>University of Iowa</sponsor>
-            <funder>The National Endowment for the Humanities</funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>
-               <date>2002</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <idno>tex.00053</idno>
-            <distributor>The Walt Whitman Archive</distributor>
-            <address>
-               <addrLine>Center for Digital Research in the Humanities</addrLine>
-               <addrLine>319 Love Library</addrLine>
-               <addrLine>University of Nebraska-Lincoln</addrLine>
-               <addrLine>P.O. Box 884100</addrLine>
-               <addrLine>Lincoln, NE 68588-4100</addrLine>
-            </address>
-            <availability>
-               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
-               <title></title>                  
-               <idno type="callno"></idno>
-               <date xml:id="dat1" cert="medium" notBefore="1850" notAfter="1860">Between 1850 and 1860</date>
-               <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
-               <note type="project">Transcribed from <hi rend="italic">The Walt Whitman Archive I: Whitman Manuscripts at the Library of Congress</hi>, ed. Joel Myerson (New York: Garland, 1993), 2:522&#8212;523; <hi rend="italic">Major American Authors on CD-Rom: Walt Whitman</hi> (Westport, CT:
-                  Primary Source Media, 1997). The transcription was then checked against digital images of the original.</note>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <revisionDesc>
-         <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#ah" when="2002-01-01">transcribed, encoded</change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
 
-         <pb facs="tex.00053.001.jpg" xml:id="leaf001r" type="recto"/>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00053"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+ 
+    <title level="m" type="main">To the Sunset Breeze</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="tb">Tara Ballard</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
 
-         <lg>
+   <idno>tex.00053</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+     <note type="work_relations" target="xxx.00394" cert="high">
+      <p>Heavily revised intermediate draft, approximately sixteen lines, of "To the Sun-set Breeze," which was published in <hi rend="italic">Lippincott's Magazine</hi> as "To the Sunset Breeze" in December 1890, in <hi rend="italic">Good-Bye My Fancy</hi> (1891) and, as part of the "Good-Bye my Fancy" annex, in the so-called deathbed edition of <hi rend="italic">Leaves of Grass</hi> (1891–92). </p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>To the Sunset Breeze</title>  
+     
+     <date cert="high">1889</date>
+     
+     <idno type="callno">TXRC03-A4; Container 2.6</idno>
+     
+     <orgName xml:id="tex">Walt Whitman Literary Manuscripts in the Walt Whitman Collection, Harry Ransom Humanities Research Center at the University of Texas at Austin</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
 
-            <note type="authorial"
-                  place="top"
-                  rend="circled">
-              Aug; Sept '89
-            </note>
+     <note type="project" target="#rel01">The verso is blank.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2024-10-16" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
 
-            <head type="main-authorial" rend="underline">To the sunset breeze.</head>
-
-
-            <l>Ah, <add rend="insertion" place="supralinear">whispering</add>
-               <del rend="overstrike">voiceless</del>
-               <add rend="insertion" place="supralinear">something again</add> unseen, 
-<del rend="overstrike">I am waiting for thee,</del>
-            </l>
-
-            <l>
-               Where late this heated day thou enterest<lb/>
-                at my window, door,
-            </l>
-
-            <l>
-               Thou, loving, tempering all, cool-freshing, <del rend="overstrike">once</del>
-               <lb/>
-               
-                  <del rend="overstrike">more</del> gently vitalizing
-            </l>
-
-            <l>
-               Me, <subst>
-                        <del rend="overstrike" seq="1">sick,</del>
-                     
-                        <add rend="unmarked" place="supralinear" seq="2">old,</add>
-                     
-                  </subst>
-alone, <subst>
-                        <del rend="overstrike" seq="1">old,</del>
-                     
-                        <add rend="unmarked" place="supralinear" seq="2">sick,</add>
-                     
-                  </subst>
-weak-<subst><del rend="overstrike" seq="1">worn,</del>
-                     
-                        <add rend="unmarked" place="supralinear" seq="2">-down,</add>
-                     
-                  </subst> 
-melted-worn<lb/>
-               with sweat;
-            </l>
-
-            <l>
-               Thou, <subst>
-                        <del rend="overstrike" seq="1">thou at last for</del>
-                     
-                        <add rend="unmarked" place="supralinear" seq="2">nestling, folding</add>
-                     
-                  </subst>
-                  <add rend="insertion" place="supralinear">close <add rend="insertion" place="supralinear">and firm</add> yet soft,</add>
-                  <del rend="overstrike">soothing close</del>
-                  <choice><orig>compan-</orig><reg>companion</reg></choice>
-               <lb/>
-               ion, better than talk, book, art
-            </l>
-
-            <l>
-               (Thou hast, O Nature! elements! utterances 
-<add rend="insertion" place="supralinear">to my heart</add> beyond<lb/>
-               
-                  <del rend="overstrike">all</del> the rest&#8212;and <del rend="overstrike">haply</del> 
-this is of them,)
-            </l>
-
-            <l>
-               So sweet thy primitive taste to breathe 
-<add rend="insertion" place="supralinear">within&#8212;</add>
-— thy <add rend="insertion" place="supralinear">soothing</add> fingers<lb/>
-               on my face and hands;
-            </l>
-
-            <l>Thou <del rend="overstrike">
-                  <add rend="insertion" place="supralinear">bringer,</add>
-               </del>
-               <del rend="overstrike">wafter</del>
-               <add rend="insertion" place="supralinear">messenger-
-<subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">medicine</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">magical</add>
-                     </rdg>
-                  </subst>
-               </add>
-               <del rend="overstrike">messenger</del>
-               <add rend="insertion" place="supralinear">strange bringer</add> to 
-<del rend="overstrike">the</del> 
-body and spirit<add rend="insertion" place="supralinear">of me,</add>
-            </l>
-
-            <l>
-               
-                  <addSpan rend="insertion" place="left" to="a1"/>(Distances <del rend="overstrike">are</del>
-balk'd — cult medicines penetrat<subst>
-                     <rdg varSeq="1">
-                        <del rend="overwrite">e</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="overwrite" place="over">ing</add>
-                     </rdg>
-                  </subst> me from<lb/>
-               head to foot<lb/>
-            </l>
-            <anchor xml:id="a1"/>
-
-            <l>
-               I feel the sky, the prairies vast <del rend="overstrike">
-                     <add rend="insertion" place="supralinear">from thee —</add>
-                  </del>— I feel the<lb/>
-               mighty northern lakes,<lb/>
-            </l>
-
-            <l>
-               I feel the ocean and the forest in thee — <orig reg="somehow">some-</orig>
-               <lb/>
-               how I feel <del rend="overstrike">itself</del>the globe itself swift-<lb/>
-               swimming <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">in</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">thro'</add>
-                     </rdg>
-                  </subst>space<lb/>
-            </l>
-
-            <l>
-               
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">Thou </del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">Thy</add>
-                     </rdg>
-                  </subst>
-                  <del rend="overstrike">spectral</del>
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">messenger</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <del rend="overstrike">
-                           <add rend="unmarked" place="supralinear">whispering</add>
-                        </del>
-                     </rdg>
-                  </subst>
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">voice</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">soothe</add>
-                     </rdg>
-                  </subst>
-                  <add rend="insertion" place="supralinear">haply</add> from 
-<subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">those</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">lips</add>
-                     </rdg>
-                  </subst> so loved,<lb/>
-               now gone — haply from endless store God-sent,<lb/>
-            </l>
-
-            <l>
-               (For thou art spiritual, Godly, most of all known<lb/>
-               to <del rend="overstrike">me,</del>my sense,)<lb/>
-            </l>
-
-            <l>
-               
-                  <del rend="overstrike">Thou </del>
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overwrite">m</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="overwrite" place="over">M</add>
-                     </rdg>
-                  </subst>
-inister at last to speak <add rend="insertion" place="supralinear">to me</add>
-what <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">voice</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">word</add>
-                     </rdg>
-                  </subst> has never<lb/>
-               told and cannot tell,<lb/>
-            </l>
-
-            <l>
-               Art thou not universal concrete's distillation? Nature's, Law's, Astronomy's<lb/>
-               
-                  <del rend="overstrike">last</del> refinement?<lb/>
-            </l>
-
-            <l>Hast thou no soul? can I not know, identify thee?</l> 
-
-         </lg>
-
-         <signed><hi rend="underline">Walt Whitman</hi></signed>
-
-      </body>
-   </text>
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="0001022.jpg" type="recto"/>
+   
+   <lg type="poem">
+     <note type="authorial" place="top" rend="marked">Aug: Sept<lb/>'89</note>
+     <head><hi rend="underline">To the sunset breeze.</hi></head>
+    <l>Ah, <add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">whispering</add> <del rend="overstrike">voiceless</del> <add place="inline"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a002">something again</add> unseen, <del rend="overstrike">I am waiting for thee,</del></l>
+     <l>Where late this heated day thou enterest<lb/>
+             at my window, door,</l>
+    <l>Thou, laving, tempering all, cool&#11840;freshing, <del rend="overstrike">once</del><lb/>
+             <del rend="overstrike">more</del> gently vitalizing</l>
+     <l>Me, <subst><del rend="overstrike" seq="1">sick</del><add place="above" seq="2">old</add></subst>, alone, <subst><del rend="overstrike" seq="2">old</del><add place="above" seq="2">sick</add></subst>, weak&#11840;<subst><del rend="overstrike" seq="1">worn</del><add place="above" seq="2">&#11840;down,</add></subst>, melted&#11840;worn<lb/>
+             with sweat;</l>
+    <l>Thou, <subst><del rend="overstrike" seq="1">thou all last for</del><add place="above" seq="2">nestling, folding close</add></subst> <add place="inline"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003" rend="marked"><add place="inline"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004" rend="marked">and firm</add> yet soft,</add> <del rend="overstrike">soothing close</del> <choice><orig>compan&#8211;<lb/>ion,</orig><reg>companion,</reg></choice><lb/>
+             better than talk, book, art,</l>
+     <l>(Thou hast, O Nature! elements! utterances <add place="inline"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" xml:id="a005">to my heart</add> beyond<lb/>
+             <del rend="overstrike">all</del> the rest&#8212; and <del rend="overstrike">haply</del> this is of them,)</l>
+     <l>So sweet thy primitive taste to breathe <add place="inline"><metamark function="add" target="#a006">&#8248;</metamark></add><add place="above" xml:id="a006">within &#8212;</add> &#8212; thy <add place="inline"><metamark function="add" target="#a007">&#8248;</metamark></add><add place="above" xml:id="a007">soothing</add> fingers<lb/>
+             on my face and hands;</l>
+    <l>Thou <add place="inline"><metamark function="add" target="#a008">&#8248;</metamark></add><add place="above" xml:id="a008">bringer,</add> <del rend="overstrike">wafter</del>, <add place="inline"><metamark function="add" target="#a009">&#8248;</metamark></add><add place="above" xml:id="a009">messenger&#11840;</add> <subst><del rend="overstrike" seq="1">messenger,</del><del rend="overstrike" seq="3"><add place="above" seq="2">medicine</add></del></subst> <add place="inline"><metamark function="add" target="#a011">&#8248;</metamark></add><add place="left" xml:id="a011" rend="marked">(Distances <del rend="overstrike">are</del> balk'd &#8212; occult medicines penetrating me from<lb/> head to foot)</add> <add place="inline"><metamark function="add" target="#a010">&#8248;</metamark></add><add place="above" xml:id="a010" rend="marked">magical strange bringer</add> to <del rend="overstrike">the</del> body and spirit <add place="inline"><metamark function="add" target="#a012">&#8248;</metamark></add><add place="above" xml:id="a012">,of me,</add></l>
+    <l>I feel the sky, the prairies vast <add place="inline"><metamark function="add" target="#a013">&#8248;</metamark></add><del rend="overstrike" seq="2"><add place="above" xml:id="a013" seq="1">from thee&#8212;</add></del> &#8212; I feel the<lb/>
+             mighty northern lakes,</l>
+     <l>I feel the ocean and the forest in thee&#8212; <choice><orig>some&#8211;<lb/>how</orig><reg>somehow</reg></choice>,<lb/>
+             I feel <del rend="overstrike">itself</del> the globe itself swift&#11840;<lb/>
+             swimming <subst><del rend="overstrike" seq="1">in</del><add place="above" seq="2">thro'</add></subst> space</l>
+    <l><subst><del rend="overstrike" seq="3">Th<subst><del rend="overwrite" seq="1">ou</del><add place="inline" seq="2">y</add></subst></del><add place="above" seq="4">Thy</add></subst> <del rend="overstrike">spectral</del> <subst><del rend="overstrike" seq="1">messenger</del><del rend="overstrike" seq="3"><add place="above" seq="2">whispering</add></del></subst> <subst><del rend="overstrike" seq="1">voice</del><add place="above" seq="2">soothe</add></subst> <add place="inline"><metamark function="add" target="#a014">&#8248;</metamark></add><add place="above" xml:id="a014">haply</add> from <subst><del rend="overstrike" seq="1">those</del><add place="above" seq="2">lips</add></subst> so loud,<lb/>
+             now gone &#8212; haply from endless store God&#11840;sent,</l>
+     <l>(For thou art spiritual, Godly, most of all known<lb/>
+             to <del rend="overstrike">me,</del> my sense,)</l>
+     <l><del rend="overstrike">Thou</del> <subst><del rend="overwrite" seq="1">m</del><add place="inline" seq="2">M</add></subst>inister at last to speak <add place="inline"><metamark function="add" target="#a015">&#8248;</metamark></add><add place="above" xml:id="a015">to me</add> what <subst><del rend="overstrike" seq="1">voice</del><add place="above" seq="2">word</add></subst> has never<lb/>
+             told, and cannot tell.</l>
+    <l><add place="above">Art thou not universal concrete's distillation? Nature's, Law's, Astronomy's<lb/><del rend="overstrike">last</del> refinement?</add>Hast thou no soul? can I not know, identify thee?</l>
+   </lg>
+   
+   <signed><hi rend="underline">Walt Whitman</hi></signed>
+   
+   <pb xml:id="leaf001v" facs="tex_am.00124_large.jpg" type="verso"/>
+   
+</body>
+</text>
 </TEI>

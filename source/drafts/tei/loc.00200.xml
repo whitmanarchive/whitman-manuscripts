@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00200"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main">Funeral Sounds</title>
+    <title level="m" type="sub">a hand-written transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="tb">Tara Ballard</persName>
+     <persName xml:id="ew">Emma Whaley</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>loc.00200</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+     <note type="work_relations">
+      <p>Early draft of poem that was first published as "Over and Through the Burial Chant" in 1888. It was later published with the title "Interpolation Sounds." The poem was written on the occasion of General Philip Sheridan's death in 1888.</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>Funeral Sounds</title>  
+     
+     <date cert="high">1888</date>
+     
+     <idno type="callno">MSS 18630, Box 27; Reel 16-17</idno>
+     
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+  
+     <note type="project" target="#rel01">The verso is blank.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="pencil" xml:id="h01" resp="#ww"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ <change when="2024-09-24" who="#ew">updated image links</change>
+ <change when="2024-04-20" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="loc_ew.00103.jpg" type="recto"/>
+   <lg type="poem">
+     <head>Funeral sounds</head>
+     <l><del rend="overstrike">&#8212;The rattle of the</del></l>
+     <l>The clank of cavalry&#8212;even the saddles, ac&#11840;</l>
+     <l><del><hi rend="underline">A</hi>ccoutrements&#8212;<del rend="overstrike">the</del> horses' hoofs</del></l>
+     <l>the movement swift and firm and heavy,</l>
+     <l>&#8212;horses hoofs&#8212;accoutrements
+        and arms</l>
+    <l></l>
+    <l>The <subst><del rend="overstrike" seq="1">hurrying</del><del seq="3"><add seq="2">sudden</add></del><add seq="4">battle hurry</add></subst> and the noise&#8212;the
+     <del>cannon thud&#8212;the</del> war's grim
+         game in earnest</l>
+    <l><subst><del rend="overstrike" seq="2">The rifle <del rend="overstrike" seq="1">r</del> crack</del><add place="above" seq="3">The scout,</add><add place="above" seq="4">Advancing and retreating</add></subst>&#8212; the <subst><del rend="overstrike" seq="1">freshest</del><add place="above" seq="2">new&#11840;brought</add></subst> word&#8212;
+    the rifles <add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">instantaneous</add> order issued</l>
+    <l>The rifel crack&#8212;the cannon thud&#8212; the
+        <add place="above">rapid</add> movement of the companies</l>
+   </lg>
+   
+   <pb xml:id="leaf001v" facs="loc_gk.00012_large.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>

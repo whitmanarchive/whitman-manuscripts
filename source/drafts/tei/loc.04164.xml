@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04164"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main" rend="bracketed">Souls of the dying float</title>
+    <title level="m" type="sub">a hand-written transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="tb">Tara Ballard</persName>
+     <persName xml:id="ew">Emma Whaley</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>loc.04164</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+     <note type="work_relations" cert="high">
+      <p>Draft lines for "Fancies at Navesink," first published in <hi rend="italic">The Nineteenth Century</hi> (August 1885. The verso of contains draft and trial lines for "Of That Blithe Throat of Thine," first published in <hi rend="italic">Harper's Monthly Magazine</hi> (January 1885).</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>Fancies at Navesink</title>  
+     
+     <date cert="high">about 1885</date>
+     
+     <idno type="callno">MSS 45443, Reel 1</idno>
+     
+     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, Library of Congress, Washington, D.C.</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+
+     <note type="project" target="#rel01">The verso includes drafted content from "Of That Blithe Throat of Thine."</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h02" resp="#ww"/>
+    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h04" resp="#unk"></handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ <change when="2024-09-25" who="#ew">updated image links</change>
+ <change when="2024-08-06" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="loc_ew.00385.jpg" type="recto"/>
+   <lg type="poem">
+     <note type="authorial" place="top" hand="h03">L</note>
+    <l><del rend="overstrike"><add place="inline">F</add></del> Souls of the dying float out with you</l>
+    <l><add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">Chilren and <del rend="overstrike">m</del> maidens and wive</add> Strong men, fighters from battle, wearied,</l>
+    <l>Rocked in the twilight, <add place="inline"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">now</add><del rend="overstrike"><add place="above">out</add></del><add place="above">O wearied</add> calms thy sleep</l>
+    <l><del rend="overstrike">H late</del> Lapp'd in the <del rend="overstrike">wa</del> waters of<lb/>
+     night <add hand="h02">and</add> <subst><del rend="overstrike" hand="h02" seq="1">out</del><del rend="overstrike" hand="h01" seq="3"><add place="above" hand="h01" seq="2">now</add></del></subst> <del rend="overstrike" hand="h02">y</del> the ebb<handShift new="#h02"/>ing tide</l>
+    <l>Born to <subst><del rend="overstrike" seq="1">the</del><add place="above" seq="2">that</add></subst> ocean, the hidden<lb/>
+     <del rend="overstrike" seq="1">measureles</del> <add place="inline"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" seq="2" xml:id="a004">shoreless, <add place="inline" seq="3"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">soundless</add> measureless&#8212;?</add> Ocean with <add place="above">&#8212;</add><add place="above">eternal,</add><lb/>
+       room for all.&#8212;<del rend="overstrike">shoreless,
+        measureless ocean,</del></l>
+    <milestone unit="undeclared" rend="horbar_full"/>
+     <l>Ripples of river and waves of sea</l>
+   </lg>
+   
+   <note hand="h04" type="archival" place="bottom left">36</note>
+   <pb xml:id="leaf001v" facs="loc_ew.00386.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00366"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+
+    <title level="m" type="main">The Journey</title>
+    <title level="m" type="sub">a hand-written transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="tb">Tara Ballard</persName>
+     <persName xml:id="ew">Emma Whaley</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2024</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>loc.00366</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+        
+     <note type="work_relations" cert="high">
+      <p>Two drafts of a poem entitled "This journey." The lines were later incorporated as lines 6, 7, 8, and 9 in "L. of G.'s Purport," first published in 1891. On the verso are notes about "Payments to Mrs. White" between 1871 and 1874.</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>L. of G.'s Purport</title>  
+     
+     <date cert="high">about 1871-1874 and about 1891</date>
+     
+     <idno type="callno">MSS 45443, Reel 1</idno>
+     
+     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, Library of Congress, Washington, D.C.</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+
+ 
+     <note type="project" target="#rel01">The verso includes an inventory of payments made to a Mrs. White, as evident in the title written the top of the page. These payments commenced on March 1, 1871, and continue throughout June 1873. The notes are written in both alphabetical and numerical form.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="blue ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="blue ink" xml:id="h02" resp="#unk"></handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ <change when="2024-09-25" who="#ew">updated image links</change>
+ <change when="2024-08-02" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="loc_ew.00343.jpg" type="recto"/>
+   <lg type="poem">
+     <head><del>This journey</del></head>
+    <l><del>Begun in <add place="above">amid my</add> ripen'd youth, and <subst><del rend="overstrike" seq="1">stretching</del><add place="above" seq="2">steadily</add></subst></del><lb/>
+     <del><add place="above">kept</add> on <del rend="overstrike">and on</del>, thro' life</del></l>
+    <l><del>I end it <del><add place="above">them</add></del> <add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">here</add> in old age.</del></l>
+    
+    
+    <l><del rend="overstrike">Delay'd at times, wandering, dallying, brief day</del></l>
+    <l><del>Delaying, dallying, wandering&#8212;,&#8212;never <add place="inline"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">&#8212;even for a <del rend="overstrike">single hour</del></add> <del rend="overstrike">one day</del><lb/>
+     abandon'd</del></l>
+   </lg>
+   
+   
+   <lg type="poem">
+    <head rend="underline">The journey</head>
+    <l>Begun amid my ripen'd youth, and stead-
+        ily kep on thro<add>ughout</add> life,</l>
+    <l>Wandering, <add place="inline"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">Peering</add> dallying, <del>seeking</del>&#8212;war, <del><add place="above">,and</add></del> peace, <add place="inline"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">day, night</add> ab-<lb/>
+     sorbing&#8212;never even for a brief <subst><del rend="overstrike" seq="1">day</del><add place="inline" seq="2">hour</add></subst><lb/>
+         abandoning,</l>
+    <l>I end it <add place="inline"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" xml:id="a005">all</add> here in old age.</l>
+   </lg>
+   
+   <note hand="h02" type="archival" place="bottom">74</note>
+   
+   <pb xml:id="leaf001v" facs="loc_ew.00344.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>

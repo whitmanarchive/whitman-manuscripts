@@ -117,6 +117,7 @@
       <li><strong>Editorial note: </strong><xsl:apply-templates select="//teiHeader/fileDesc/notesStmt/note[@type='project']"/> </li>
 
       <!-- pulled from notebooks P5 tylesheet and refactored original comment: relatedItem section (updated 4/28/17)-->
+      <!-- note that this differs from similar notebook override in that it checks to see if the file exists before creating a link -->
       <xsl:if test="//sourceDesc//relatedItem">
         <li><strong>Related Item(s): </strong>
           <ul>
@@ -125,24 +126,18 @@
                 <xsl:variable name="note_target"><xsl:text>#</xsl:text><xsl:value-of select="@xml:id"/></xsl:variable>
                 <!-- if there is a note with a matching target, display -->
                 <xsl:apply-templates select="//note[@target=$note_target]"/>
+                <xsl:variable name="uri" select="concat('../../source/tei/',@target,'.xml')"/>
+                <!-- check to see if file exists -->
+                <xsl:if test="doc-available($uri)">
                 <xsl:text> See </xsl:text>
                 <a>
                   <xsl:attribute name="href" select="@target"/>
                   <xsl:value-of select="@target"/>
                 </a>
-                <xsl:text>.</xsl:text></li>
-            </xsl:for-each>
-            
-            <xsl:for-each select="//relatedItem[@type = 'document']">
-              <li>
-                <xsl:text> See </xsl:text>
-                <a>
-                  <xsl:attribute name="href" select="@target"/>
-                  <xsl:value-of select="@target"/>
-                </a>
-                <xsl:text>.</xsl:text>
+                  <xsl:text>.</xsl:text></xsl:if>
               </li>
             </xsl:for-each>
+           
           </ul>          
         </li>
       </xsl:if>
@@ -322,5 +317,24 @@
       </span>
     </xsl:if>
   </xsl:template>
+  
+  <!-- adding an anchor override specific to notebooks and mss for the hashmarks; hopefully this will be limited enough to not inadvertently end the wrong spans (see overrides.xsl) NHG -->
+  <xsl:template match="anchor[@xml:id]">
+    <xsl:variable name="id" select="concat('#',@xml:id)"/>
+    <xsl:choose>
+      <xsl:when test="preceding::delSpan[@spanTo=$id]">
+        <xsl:text disable-output-escaping="yes"><![CDATA[</span>]]></xsl:text>
+      </xsl:when>
+      <xsl:otherwise/>
+    </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="addrLine">
+    <xsl:apply-templates/><br/>
+  </xsl:template>
+  
+  <!-- do not display archival notes for manuscripts -->
+  <xsl:template match="note[@type='archival']"/>
+  
   
 </xsl:stylesheet>
