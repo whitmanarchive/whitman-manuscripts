@@ -2,12 +2,12 @@
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00157"> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00189"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
     
-    <title level="m" type="main" rend="bracketed">A Carol-Cluster at 69</title>
+    <title level="m" type="main" rend="bracketed">Death's Valley</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -46,14 +46,14 @@
     </availability>
     
 
-   <idno>uva.00157</idno>
+   <idno>loc.00189</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
     
-     <note type="work_relations" cert="high">
-      <p>This manuscript contains a draft version of a poem entitled "A Carol-Cluster at 69" which was likely composed and edited around the time of its first publication in the <hi rend="italic">New York Herald</hi> on May 21, 1888. In the same year, this poem appears in the annex <hi rend="italic">Sands at Seventy</hi> under the title "A Carol Closing Sixty-nine".</p>
+     <note type="work_relations" target="xxx.00539" cert="high">
+      <p>A heavily marked-up draft of "Death's Valley," which was first published in <hi rend="italic">Harper's New Monthly Magazine</hi> in 1892.</p>
      </note>
    </notesStmt>
    
@@ -61,45 +61,47 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>A Carol&#8211;Cluster at 69</title>  
+     <title>Death's Valley</title>  
      
-     <date cert="high">1887</date>
+     <date cert="high">about 1889</date>
      
-     <idno type="callno">box 1, folder 15</idno>
+     <idno type="callno">mss18630, box 26; reel 16</idno>
      
-     <orgName xml:id="uva">Walt Whitman Literary Manuscripts in the Papers of Walt Whitman, Clifton Waller Barrett Library of American Literature, Albert and Shirley Small Special Collections Library, University of Virginia</orgName>
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
- 
-     <note type="project" target="#rel01">The verso is blank.</note>
+      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
+     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
+     <relatedItem type="document" target="wwa.00041"/>
+     <note type="project" target="#rel01">The poem was requested by <hi rend="italic">Harper's Magazine</hi> and submitted by Whitman in 1889, but not published until 1892.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
-   <handNotes>    
+   <handNotes>
     <handNote medium="pencil" xml:id="h01" resp="#ww"/>
-    <handNote medium="black ink" xml:id="h02" resp="#ww"></handNote>
+    <handNote medium="black ink" xml:id="h02" resp="#ww"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
- <change when="2025-08-09" who="#tb">transcribed and encoded</change>
+ <change when="2025-08-08" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-   <pb xml:id="leaf001r" facs="uva.00157.001.jpg" type="recto"/>
+<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
+   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
    <lg type="poem">
-    <head><subst><del rend="overstrike" hand="#h02" seq="1"><hi rend="underline">Carols at Seventy</hi></del><add place="above" hand="#h02" seq="2">A Carol&#8211;Cluster at 69.</add></subst></head>
-    <l><add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">A</add> Carol<del rend="overstrike">s</del> at <subst><del rend="overstrike" hand="#h02" seq="1">seventy</del><add place="above" hand="#h02" seq="2">sixty&#11840;nine</add></subst>! <subst><del rend="overstrike" seq="1">hapless</del><del rend="overstrike" hand="#h02" seq="3"><add place="above" seq="2">age's</add></del></subst> <add place="inline" hand="#h02"><metamark function="add" target="#a002">&#8248;</metamark></add><del rend="overstrike" hand="#h02" seq="2"><add place="above" hand="#h02" seq="1">old</add></del> repetitious!<lb/>
-           divine!</l>
+     <l></l>
      <l></l>
      <l></l>
    </lg>
    
-   <pb xml:id="leaf001v" facs="uva_jc.00044.jpg" type="verso"/>
+<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
+   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
    
 </body>
 </text>
