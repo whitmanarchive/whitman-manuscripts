@@ -7,7 +7,7 @@
   <fileDesc>
    <titleStmt>
     
-    <title level="m" type="main" rend="bracketed">I am convinced that</title>
+    <title level="m" type="main" rend="bracketed">Goethe</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -17,6 +17,7 @@
      <resp>Transcription and encoding</resp>
      
      <persName xml:id="kmh">Kenneth Michael Hoover</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -76,7 +77,8 @@
   <profileDesc>
    <handNotes>
     <handNote medium="pencil" xml:id="h01" resp="#ww"/>
-    <handNote medium="letterpress" xml:id="h02" resp="#unk"><name>Unknown</name></handNote>
+    <handNote medium="black ink" xml:id="h02" resp="#ww"/>
+    <handNote medium="letterpress" xml:id="h03" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
@@ -88,15 +90,17 @@
  <text type="manuscript">
   <body>
    
-   <pb xml:id="leaf001r" facs="duk.00178.001.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="2067_010.jpg" type="recto"/>
    <note type="authorial" place="top">Goethe&#8212;from about 1750 to 1832</note>
    <note type="authorial" place="top">Schiller died 1806&#8212;born 1759</note>
-   <p>Goethe is the result of a well&#11840;orders <del rend="overstrike">and</del> polished, learned state, not physical, great, acknowledging <del rend="overstrike">culture and</del> etiquette,&#8212;of moving mainly among gentlemen and ladies of culture, and taking it for granted that there is nothing <subst><del rend="overstrike" seq="1">better</del><add place="above" seq="2"><del rend="overstrike" seq="3">more needed</del></add><add place="above" seq="4"><del rend="overstrike" seq="5">better</del></add><add place="above" seq="6">better</add></subst> than <del rend="overstrike">gentlemen and ladies of</del> culture.&#8212;The
-    
-    <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><subst xml:id="a001"><add place="above" >cultivated</add></subst></p>
+   <p>Goethe is the result of a well&#11840;orders <del rend="overstrike">and</del> polished, learned state, not physical, great, acknowledging <del rend="overstrike">culture and</del> etiquette,&#8212;of moving mainly among gentlemen and ladies of culture, and taking it for granted that there is nothing <subst><del rend="overstrike" seq="1">better</del><add place="above" seq="2"><del rend="overstrike" seq="3">more needed</del></add><add place="above" seq="4"><del rend="overstrike" seq="5">better</del></add><add place="above" seq="6">better</add></subst> than <del rend="overstrike">gentlemen and ladies of</del> culture.&#8212;The <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001"><subst><del rend="overstrike" seq="1">cultivated</del><add place="above">educated</add></subst></add> mind has <del rend="overstrike">almost boundless</del> pleasure in Goethe's works&#8212;many,<add place="below" hand="#h02"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002" hand="#h02">perhaps all</add> of them. Still questions arise: Why do <subst><del rend="overstrike">uncultivated</del><add place="above">uneducated</add></subst> minds also receive pleasure from Goethe?&#8212;Is he really an original creator, or only the noblest of <add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">imitators and</add> compositors? <seg xml:id="alt001">W</seg><add place="above" hand="#h02" xml:id="alt002">C</add><alt target="#alt001 #alt002"/>ould he have written any thing, without the studies of the antiques?&#8212;Is a man or woman invigorated, made <subst><del rend="overstrike" seq="1">p<unclear reason="illegible" cert="high" resp="#km">urer</unclear>,</del><add place="above" seq="2">cleaner,</add></subst> grander</p>
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+   <pb xml:id="leaf001v" facs="2067_011.jpg" type="verso"/>
+   
+   <pb xml:id="leaf002r" facs="2067_020.jpg" type="recto"/>
+   <note type="authorial" place="top">I am convinced that Goethe has not <del rend="overstrike">to me,</del> the indefinable something that is Nature itself&#8212;his Nature is the Nature of school</note>
+   <p>sweeter, by his poems? or more friendly and less suspicious? Has he raised any strong <del rend="overstrike"><gap reason="illegible" extent="one character"/></del> voice for freedom and against tyrants Has he satisfied his reader of immortality?</p>
+   <p>What Goethe was, it <subst><del rend="overstrike" seq="1">was</del><add place="above" seq="2">is</add></subst><add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">doubtless</add> best that he was.&#8212;It is also eligible, without finding any fault with him, to inquire what he was not<add>.</add><add place="above">He could not have been what he was without also being what he was not.</add>&#8212;<add place="above">To</add>The little court of <choice><sic>Wiemar</sic><corr>Weimar</corr></choice></p>
    
 </body>
 </text>
