@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun.00015"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main">You Lingering Sparse Leaves of Me</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+
+     <persName xml:id="ja">JC Andrews</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2025</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>hun.00015</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+     <note type="work_relations" target="xxx." cert="high">
+      <p></p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>[Leaves of grass]</title>  
+     
+
+     <date when="1885" cert="high"></date>
+     
+     <idno type="callno">HM 1193</idno>
+     
+
+     <orgName xml:id="hun">Catalog of the Walt Whitman Literary Manuscripts in The Huntington Library, Art Collections, and Botanical Gardens</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+     
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="letterpress" xml:id="h01" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
+    <handNote medium="pencil" xml:id="h02" resp="#ww" scope="minor"></handNote>
+    <handNote medium="black ink" xml:id="h03" resp="#ww" scope="minor"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+
+ <change when="2025-08-28" who="#ja">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+
+   <pb xml:id="leaf001r" facs="hun.00015.001.jpg" type="recto"/>
+   <note type="authorial" hand="#h02" place="top">Show me a revise of this&#8212;I will call about 12</note>
+   <note type="authorial" hand="#h02" place="top">4/2</note>
+   <head type="main">YOU LINGERING SPARSE LEAVES<lb/> <anchor xml:id="a001"/>OF ME.<add hand="#h02" place="left"><metamark function="add" target="#a001">lead</metamark></add></head>
+   <lg type="poem">
+     <l>You lingering sparse leaves of me on bare December boughs,</l>
+     <l>And I some well-shorn tree of field or orchard-row;</l>
+     <l>You tokens diminute and lorn&#8212;(not now the flush of May.<lb/> nor July clover bloom&#8212;no fruits of August now;)</l>
+    <l>You pallid little banners, remnants valueless &#8212;you overstay'd<lb/> of time,</l>
+    <l><add place="below" hand="#h02"><metamark function="add" target="#a002">&#8248;</metamark></add><subst rend="overstrike" hand="#h02"><del>Yes dear, soul dear, continued leaves, my</del><add xml:id="a002" hand="#h02" rend="marked" place="bottom">Yet my soul: dearest leaves&#8212;the</add></subst>hardiest and <subst rend="overstrike" hand="#h02"><del>my</del><add>the</add></subst><lb/> last.</l>
+   </lg>
+   <byline rend="right">W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</byline>
+   <note type="authorial" hand="#h03" place="margin" rend="underline">May, 1885</note>
+   <pb xml:id="leaf001v" facs="hun.00015.002_large.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>
