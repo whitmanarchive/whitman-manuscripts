@@ -2,13 +2,12 @@
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00142"> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00353"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
     
-    <title level="m" type="main">Shakespere-Bacon's Cipher</title>
-    <title type="sub">(A Hint to Scientists)</title>
+    <title level="m" type="main">Walt Whitman's Last</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -48,13 +47,13 @@
     </availability>
     
 
-   <idno>uva.00142</idno>
+   <idno>uva.00353</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
     
-     <note type="work_relations" target="xxx.00390" cert="high">
+    <note type="work_relations" target="xxx.00866" cert="high">
       <p></p>
      </note>
    </notesStmt>
@@ -63,12 +62,12 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>"Shak[e]spe[a]re-Bacon's Cipher," galley proof, n.d.</title>  
+     <title>"Preface, holograph manuscript, corrected and signed, [ca. 1891]</title>  
      
 
-     <date when="1887" cert="high">About 1887</date>
+     <date when="1891" cert="high">1891</date>
      
-     <idno type="callno">YCAL MSS 202, Series IV, Box: 1, Folder: 47</idno>
+     <idno type="callno">YCAL MSS 202, Series V, Box: 3, Folder: 167</idno>
      
 
      <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
@@ -80,8 +79,9 @@
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="letterpress" xml:id="h01" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
+    <handNote medium="printed type" xml:id="h01" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
     <handNote medium="pencil" xml:id="h02" resp="#ww" scope="minor"/>
+    <handNote medium="black ink" xml:id="h03" resp="#ww" scope="minor"/>
  
    </handNotes>
   </profileDesc>
@@ -95,9 +95,10 @@
   <body>
    
 
-   <pb xml:id="leaf001r" facs="yal.00142.001_large.jpg" type="recto"/>
-   <head type="main">SHAKESPERE-BACON'S CIPHER</head>
-   <head type="sub" place="right">(<hi rend="italic">A Hint to Scientists.</hi>)</head>
+   <pb xml:id="leaf001r" facs="yal.00353.001_large.jpg" type="recto"/>
+   <head type="main">WHALT WHITMAN'S LAST&#8212;GOOD-BYE MY FANCY.</head>
+   
+   
    <lg type="poem">
      <l>I doubt it not&#8212;then more, far more;</l>
      <l>In each old song bequeath'd&#8212;in every noble page or text,</l>
