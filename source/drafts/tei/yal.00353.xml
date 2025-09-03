@@ -82,7 +82,7 @@
     <handNote medium="printed type" xml:id="h01" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
     <handNote medium="pencil" xml:id="h02" resp="#ww" scope="minor"/>
     <handNote medium="black ink" xml:id="h03" resp="#ww" scope="minor"/>
- 
+    <handNote medium="pencil" xml:id="h04" resp="#unk2" scope="minor"><name xml:id="unk2">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
@@ -92,25 +92,26 @@
  </teiHeader>
 
  <text type="manuscript">
-  <body>
+  <body xml:id="j003">
    
 
    <pb xml:id="leaf001r" facs="yal.00353.001_large.jpg" type="recto"/>
-   <head type="main">WHALT WHITMAN'S LAST&#8212;GOOD-BYE MY FANCY.</head>
    
+   <note type="editorial" place="top" hand="#h04">525</note>
    
-   <lg type="poem">
-     <l>I doubt it not&#8212;then more, far more;</l>
-     <l>In each old song bequeath'd&#8212;in every noble page or text,</l>
-    <l>( Different&#8212;something unreck'd before&#8212;some unsuspected<lb/> a<subst hand="#h02"><del rend="overstrike">n</del><add place="left">u</add></subst>thor,)</l>
-     <l>In every object, mountain, tree, and star&#8212;in every birth and<lb/> life,</l>
-     <l>As part of each&#8212;finality of each:&#8212;meaning, behind the <choice><orig>os-<lb/>tent</orig><reg>os<lb/>tent</reg></choice>,</l>
-     <l>The mystic cipher waits infolded.</l>
-   </lg>
-   <byline rend="right">W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</byline>
+   <metamark function="adjust" target="#j003"><add place="top" hand="#h04">Bourgeois</add></metamark>
+   
+   <note type="editorial" place="top" hand="#h04">Robson</note>
+   
+   <head type="main">W<del hand="#h03" rend="overstrike">H</del>ALT WHITMAN'S LAST<add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">*</add><del rend="overstrike" hand="#h03">&#8212;GOOD-BYE MY FANCY</del>.</head>
+   <addSpan hand="#h03" spanTo="#a002"/><metamark function="adjust" target="#j001">&#182;</metamark><head type="sub" xml:id="j001">"Good Bye my Fancy"&#8212;concluding annex to <hi rend="underline">Leaves of Grass</hi></head><anchor xml:id="a002"/>
+   
+   <metamark function="emphasize" target="#e001"><add hand="#h03">&#948;</add></metamark><p xml:id="e001">H. Heine's first principle<del hand="#h03" rend="overstrike" xml:id="d001">s</del><add place="right" hand="#h03"><metamark function="delete" target="d001"></metamark></add> of criticising a book was, <add hand="#h03"><metamark function="delete" target="#d002" place="left">&#948;</metamark></add>what motive<del hand="#h03" rend="overstrike" xml:id="d002">s</del> is the author trying to carry out, or express or accomplish? and the second, Has he achieve<subst><del hand="#h03" rend="overstrike">e</del><add place="right" xml:id="a004">'<metamark function="add" target="#a004">&#711;</metamark></add></subst>d<subst hand="#h03"><del rend="overstrike">them</del><add place="above">it</add></subst>?</p>
+   
+   <metamark function="adjust" target="#j002"><add hand="#h03">&#182;</add></metamark><p xml:id="j002">The theory of <add hand="#h03" place="below"><metamark function="add" target="#a003" place="below">&#8248;</metamark></add><add place="above" hand="#h03" xml:id="a003">my</add>"Leaves of Grass" <subst hand="#h03"><del rend="overstrike">as an utterance or</del><add place="above">a</add></subst> composition of verses <add hand="#h03"><metamark function="emphasize" target="#d003">(</metamark></add><del hand="#h03" rend="overstrike" xml:id="d003">we are authentically informed</del><add hand="#h03"><metamark function="emphasize" target="#d003">)</metamark></add><add hand="#h03" place="left"><metamark function="delete" target="#d003"></metamark></add> has been from first to last, <add place="below" hand="#h03"><metamark function="add" target="#a005">&#8248;</metamark></add><add hand="#h03" place="top" rend="marked">(if I am to give impromptu a hint a hint of the spinal marrow of the business, and sign it with my name,)</add> to thoroughly possess the mind, memory, cognizance of the author himself<add place="below" hand="#h03"><metamark function="add" target="#a005">&#8248;</metamark></add><add hand="#h03" place="left" xml:id="a005">,<metamark function="emphasize" target="#a005">/</metamark></add> with everything beforehand<add place="below" hand="#h03"><metamark function="add" target="#a006">&#8248;</metamark></add><add hand="#h03" place="above" xml:id="a006">&#8212;<metamark function="emphasize" target="#a006">/</metamark></add>a full armory of concrete actualities, observations<add place="below" hand="#h03"><metamark function="add" target="#a007">&#8248;</metamark></add><add hand="#h03" place="above" xml:id="a007">,<metamark function="add" target="#a007">/</metamark></add> humanity, past poems, ballads, facts, technique<add place="below" hand="#h03"><metamark function="add" target="#a008">&#8248;</metamark></add><add hand="#h03" place="left" xml:id="a008">,<metamark function="emphasize" target="#a008">/</metamark></add> war and peace, politics<add place="below" hand="#h03"><metamark function="add" target="#a009">&#8248;</metamark></add><add hand="#h03" place="right" xml:id="a009">,<metamark function="emphasize" target="#a009">/</metamark></add> north and south<add place="below" hand="#h03"><metamark function="add" target="#a010">&#8248;</metamark></add><add hand="#h03" place="right" xml:id="a010">,<metamark function="emphasize" target="#a010">/</metamark></add> east and west, nothing too large or too small, the sciences as far as possible&#8212;and above all <gap reason="deleted" extent="one word"/> <subst><del hand="#h03" rend="overstrike" xml:id="d004">merits</del><add place="left" hand="#h03"><metamark function="delete" target="#d004"></metamark></add><add place="above" hand="#h03">America and</add></subst> the present&#8212;after and out of which the subject of the poem, long or short, has been invariably turned over to his <subst hand="#h03"><del rend="overstrike">e</del><add place="above">E</add></subst>motionality, even Personality, to be shaped thence; and <subst hand="#h03"><del rend="overstrike">thence</del><add place="above">strictly therefore</add></subst>emerges<add place="below" hand="#h03"><metamark function="add" target="#a011">&#8248;</metamark></add><add hand="#h03" place="right" xml:id="a011">,<metamark function="emphasize" target="#a011">/</metamark></add> with all its merits and demirits on its head. Every page of <subst hand="#h03"><del rend="overstrike">Walt Whitman's poetry</del><add place="below">&#8248;<add place="above">my poetic or attempt at poetic utterance</add></add></subst>, therefore smacks of the living physical identity, date, environment, individuality, probably beyond anything known<add place="below" hand="#h03"><metamark function="add" target="#a012">&#8248;</metamark></add><add hand="#h03" place="right" xml:id="a012">,<metamark function="emphasize" target="#a012">/</metamark></add> and in stle often offensive to the conventions.</p>
    
 
-   <pb xml:id="leaf001v" facs="yal.00142.002_large.jpg" type="verso"/>
+   <pb xml:id="leaf001v" facs="y.al.00142.002_large.jpg" type="verso"/>
    
 </body>
 </text>
