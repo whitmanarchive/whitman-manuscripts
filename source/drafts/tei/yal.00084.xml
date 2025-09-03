@@ -15,9 +15,8 @@
     <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
-
-     <persName xml:id="ja">JC Andrews</persName>
+          <persName xml:id="ja">JC Andrews</persName>
+          <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -65,7 +64,7 @@
      <title>"My 71st Year"</title>  
      
 
-     <date when="1889" cert="high"></date>
+     <date when="1889" cert="high"></date><!-- Make sure to also put a "human readable" version of the date within the <date> tag it self. KM -->
      
      <idno type="callno">YCAL MSS 202, Series V</idno>
      
@@ -81,13 +80,12 @@
    <handNotes>
     <handNote medium="letterpress" xml:id="h01" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
     <handNote medium="blue ink" xml:id="h02" resp="#ww" scope="minor"></handNote>
-    <handNote medium="pencil" xml:id="h03" resp="#arc" scope="minor"><name xml:id="arc">Archival</name></handNote>
+    <handNote medium="pencil" xml:id="h03" resp="#arc" scope="minor"><name xml:id="arc">Archival</name></handNote><!-- Close, but not quite. We can talk about this. KM -->
  </handNotes>
    </profileDesc>
 <revisionDesc>
- 
-
- <change when="2025-08-28" who="#ja">transcribed and encoded</change>
+  <change when="2025-09-03" who="#km">proofed</change>
+  <change when="2025-08-28" who="#ja">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -101,7 +99,7 @@
    <lg type="poem">
      <l>After surmounting three-score and ten,</l>
      <l>With all their chances, changes, losses, sorrows,</l>
-     <l>My parents' deaths, the vagaries of my life, the many tearing<lb/> passions of me<add type="authorial" hand="#h02" place="inline">the war of '63 and '4,</add></l>
+     <l>My parents' deaths, the vagaries of my life, the many tearing<lb/> passions of me<add type="authorial" hand="#h02" place="inline">the war of '63 and '4,</add></l><!-- talk about comma placement, no need for "type", the value of "place", rend="marked" and metamark encoding. KM -->
     <l>As some old broken soldier, after a long, hot wearying march,<lb/> or haply after battle,</l>
     <l>At twilight, hobbling, answering yet to company roll-call<add type="authorial" hand="#h02" place="inline">,</add><hi rend="italic">Here</hi><add type="authorial" hand="#h02" place="inline">,</add><lb/> with vital voice,</l>
     <l>Reporting yet, saluting yet the Officer over all.</l>
