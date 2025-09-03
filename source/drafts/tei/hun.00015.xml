@@ -15,9 +15,8 @@
     <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
-
-     <persName xml:id="ja">JC Andrews</persName>
+         <persName xml:id="ja">JC Andrews</persName>
+         <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -53,7 +52,7 @@
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
     
-     <note type="work_relations" target="xxx." cert="high">
+     <note type="work_relations" target="xxx." cert="high"><!-- You can delete this. KM -->
       <p></p>
      </note>
    </notesStmt>
@@ -65,7 +64,7 @@
      <title>[Leaves of grass]</title>  
      
 
-     <date when="1885" cert="high"></date>
+     <date when="1885" cert="high"></date><!-- Remember to put a "human readable" version of the date with in the <date> tags. KM -->
      
      <idno type="callno">HM 1193</idno>
      
@@ -85,29 +84,28 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
-
- <change when="2025-08-28" who="#ja">transcribed and encoded</change>
+  <change when="2025-09-03" who="#km">proofed</change>
+  <change when="2025-08-28" who="#ja">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
-   
 
    <pb xml:id="leaf001r" facs="hun.00015.001.jpg" type="recto"/>
-   <note type="authorial" hand="#h02" place="top">Show me a revise of this&#8212;I will call about 12</note>
+   
+   <note type="authorial" hand="#h02" place="top">Show me a revise of this&#8212;I will call about 12</note><!-- Let's talk about rend="circled". KM -->
    <note type="authorial" hand="#h02" place="top">4/2</note>
-   <head type="main">YOU LINGERING SPARSE LEAVES<lb/> <anchor xml:id="a001"/>OF ME.<add hand="#h02" place="left"><metamark function="add" target="#a001">lead</metamark></add></head>
+   <head type="main">YOU LINGERING SPARSE LEAVES<lb/> <anchor xml:id="a001"/>OF ME.<add hand="#h02" place="left"><metamark function="add" target="#a001">lead</metamark></add></head><!-- Let's talk to Brett about the placement of this. KM -->
    <lg type="poem">
      <l>You lingering sparse leaves of me on bare December boughs,</l>
      <l>And I some well-shorn tree of field or orchard-row;</l>
      <l>You tokens diminute and lorn&#8212;(not now the flush of May.<lb/> nor July clover bloom&#8212;no fruits of August now;)</l>
-    <l>You pallid little banners, remnants valueless &#8212;you overstay'd<lb/> of time,</l>
-    <l><add place="below" hand="#h02"><metamark function="add" target="#a002">&#8248;</metamark></add><subst rend="overstrike" hand="#h02"><del>Yes dear, soul dear, continued leaves, my</del><add xml:id="a002" hand="#h02" rend="marked" place="bottom">Yet my soul: dearest leaves&#8212;the</add></subst>hardiest and <subst rend="overstrike" hand="#h02"><del>my</del><add>the</add></subst><lb/> last.</l>
+    <l>You pallid little banners, remnants valueless&#8212;you overstay'd<lb/> of time,</l>
+    <l><add place="below" hand="#h02"><metamark function="add" target="#a002">&#8248;</metamark></add><subst rend="overstrike" hand="#h02"><del>Yes dear, soul dear, continued leaves, my</del><add xml:id="a002" hand="#h02" rend="marked" place="bottom">Yet my soul: dearest leaves&#8212;the</add></subst><!-- Very close, but a few things to talk about with this <subst>. KM -->hardiest and <subst rend="overstrike" hand="#h02"><del>my</del><add>the</add></subst><!-- Same here. KM --><lb/> last.</l>
    </lg>
    <byline rend="right">W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</byline>
-   <note type="authorial" hand="#h03" place="margin" rend="underline">May, 1885</note>
+   <note type="authorial" hand="#h03" place="margin" rend="underline">May, 1885</note><!-- Value of "place". And maybe "circled" again. KM -->
    <pb xml:id="leaf001v" facs="hun.00015.002_large.jpg" type="verso"/>
    
 </body>
