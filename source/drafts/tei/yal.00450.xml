@@ -2,12 +2,12 @@
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun.00017"> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00450"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
     
-    <title level="m" type="main">You Lingering Sparse Leaves of Me</title>
+    <title level="m" type="main">About 12 last night</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -15,8 +15,8 @@
     <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-          <persName xml:id="ja">JC Andrews</persName>
-          <persName xml:id="km">Kevin McMullen</persName>
+     
+     <persName xml:id="ja">JC Andrews</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -46,7 +46,7 @@
     </availability>
     
 
-   <idno>hun.00017</idno>
+   <idno>yal.00450</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
@@ -61,50 +61,53 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>[Leaves of grass]</title>  
+     <title>November Boughs, holograph fragments, corrected</title>  
      
 
-     <date notBefore="1885" notAfter="1887" cert="high">Between 1885 and 1887</date>
+     <date notBefore="" notAfter="" cert="high"></date>
      
-     <idno type="callno">HM 1193</idno>
+     <idno type="callno">YCAL MSS 202</idno>
      
 
-     <orgName xml:id="hun">Catalog of the Walt Whitman Literary Manuscripts in The Huntington Library, Art Collections, and Botanical Gardens</orgName>
+     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-
+      
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="letterpress" xml:id="h01" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
-    <handNote medium="pencil" xml:id="h02" resp="#ww" scope="minor"/>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="pencil" xml:id="h02" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
-  <change when="2025-09-03" who="#km">proofed</change>
-  <change when="2025-08-27" who="#ja">transcribed and encoded</change>
+ 
+ <change when="2025-09-03" who="#ja">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
-   <pb xml:id="leaf001r" facs="hun.00017.001.jpg" type="recto"/>
-   <note type="authorial" hand="#h02" place="top">? come in last of all in Supplement</note>
-   <note type="authorial" hand="#h02" place="top">4/3</note>
    
-   <head type="main">YOU LINGERING SPARSE LEAVES<lb/> OF ME.</head>
-   
-   <lg type="poem">
-     <l>You lingering sparse leaves of me on bare <seg xml:id="alt001">December</seg><add hand="#h02" place="above"><metamark function="question" target="#q001">?</metamark></add><add hand="#h02" place="above" xml:id="q001">November</add><alt target="#alt001 #q001"/> boughs,</l>
-     <l>And I some well-shown tree of field or orchard-row;</l>
-    <l>You tokens diminute and lorn&#8212;(not now the flush of May<subst rend="overwrite" hand="#h02"><del>.</del><add>&#8212;</add></subst><lb/> no<del rend="overstrike" hand="#h02">r</del> July clover bloom<add hand="#h02">,</add><del rend="overstrike" hand="#h02">&#8212;</del>no fruits of August now;)</l>
-    <l>You pallid little banners, remnants valueless&#8212;you overstay'd<lb/> of time,</l>
-    <l>Yet my soul-dearest leaves&#8212;the hardiest and the last.</l>
-   <byline rend="right">W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN.</hi></byline>
 
-   <pb xml:id="leaf001v" facs="hun.00017.002_large.jpg" type="verso"/>
+   <pb xml:id="leaf001r" facs="yal.00149.005_large.jpg" type="recto"/>
+   <p>
+    About 12 last night I saw the government
+    Dispatch announce Gen Sherman's capture of
+    Savannah &#38; have been reading the particulars
+    to-day. It is a <del rend="overstrike" hand="#h01">good</del> termination to <subst rend="overstrike" hand="#h01"><del>as fine a</del><add>his masterly</add></subst>  
+    <del rend="overstrike" hand="#h01">nobility</del> movement <del rend="overstrike" hand="#h01">as</del> from Altanta <add hand="#h01" place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h01" place="above" rend="marked" xml:id="a001">down through the centre of Georgia.</add> &#38; I rejoice
+    at it. <del rend="overstrike" hand="#h01">Here I</del> For all that I feel rather depressed
+    with the Day.
+    </p>
+   
+
+   <pb xml:id="leaf001v" facs="yal.00149.006_large.jpg" type="verso"/>
+   <p>
+    <note hand="#h02" type="archival">3/151</note>
+   </p>
    
 </body>
 </text>

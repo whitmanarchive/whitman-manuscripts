@@ -2,7 +2,7 @@
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun.00017"> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun.00015"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -15,8 +15,8 @@
     <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-          <persName xml:id="ja">JC Andrews</persName>
-          <persName xml:id="km">Kevin McMullen</persName>
+         <persName xml:id="ja">JC Andrews</persName>
+         <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -46,7 +46,7 @@
     </availability>
     
 
-   <idno>hun.00017</idno>
+   <idno>hun.00015</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
@@ -64,7 +64,7 @@
      <title>[Leaves of grass]</title>  
      
 
-     <date notBefore="1885" notAfter="1887" cert="high">Between 1885 and 1887</date>
+     <date when="1885-05" cert="high">May 1885</date>
      
      <idno type="callno">HM 1193</idno>
      
@@ -72,39 +72,41 @@
      <orgName xml:id="hun">Catalog of the Walt Whitman Literary Manuscripts in The Huntington Library, Art Collections, and Botanical Gardens</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-
+     
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
     <handNote medium="letterpress" xml:id="h01" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
-    <handNote medium="pencil" xml:id="h02" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h02" resp="#ww" scope="minor"></handNote>
+    <handNote medium="black ink" xml:id="h03" resp="#ww" scope="minor"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
   <change when="2025-09-03" who="#km">proofed</change>
-  <change when="2025-08-27" who="#ja">transcribed and encoded</change>
+  <change when="2025-08-28" who="#ja">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
-   <pb xml:id="leaf001r" facs="hun.00017.001.jpg" type="recto"/>
-   <note type="authorial" hand="#h02" place="top">? come in last of all in Supplement</note>
-   <note type="authorial" hand="#h02" place="top">4/3</note>
-   
-   <head type="main">YOU LINGERING SPARSE LEAVES<lb/> OF ME.</head>
-   
-   <lg type="poem">
-     <l>You lingering sparse leaves of me on bare <seg xml:id="alt001">December</seg><add hand="#h02" place="above"><metamark function="question" target="#q001">?</metamark></add><add hand="#h02" place="above" xml:id="q001">November</add><alt target="#alt001 #q001"/> boughs,</l>
-     <l>And I some well-shown tree of field or orchard-row;</l>
-    <l>You tokens diminute and lorn&#8212;(not now the flush of May<subst rend="overwrite" hand="#h02"><del>.</del><add>&#8212;</add></subst><lb/> no<del rend="overstrike" hand="#h02">r</del> July clover bloom<add hand="#h02">,</add><del rend="overstrike" hand="#h02">&#8212;</del>no fruits of August now;)</l>
-    <l>You pallid little banners, remnants valueless&#8212;you overstay'd<lb/> of time,</l>
-    <l>Yet my soul-dearest leaves&#8212;the hardiest and the last.</l>
-   <byline rend="right">W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN.</hi></byline>
 
-   <pb xml:id="leaf001v" facs="hun.00017.002_large.jpg" type="verso"/>
+   <pb xml:id="leaf001r" facs="hun.00015.001.jpg" type="recto"/>
+   
+   <note type="authorial" hand="#h02" place="top" rend="circled">Show me a revise of this&#8212;I will call about 12</note>
+   <note type="authorial" hand="#h02" place="top">4/2</note>
+   <head type="main">YOU LINGERING SPARSE LEAVES<lb/> <anchor xml:id="a001"/>OF ME.</head><metamark function="add" target="#a001"><add hand="#h02" place="left">lead</add></metamark>
+   <lg type="poem">
+     <l>You lingering sparse leaves of me on bare December boughs,</l>
+     <l>And I some well-shorn tree of field or orchard-row;</l>
+     <l>You tokens diminute and lorn&#8212;(not now the flush of May.<lb/> nor July clover bloom&#8212;no fruits of August now;)</l>
+    <l>You pallid little banners, remnants valueless&#8212;you overstay'd<lb/> of time,</l>
+    <l><subst hand="#h02"><del rend="overstrike">Yes dear, soul dear, continued leaves, my</del><add xml:id="a002" rend="marked" place="bottom">Yet my soul: dearest leaves&#8212;the</add></subst><add place="below" hand="#h02"><metamark function="add" target="#a002">&#8248;</metamark></add> hardiest and <subst hand="#h02"><del rend="overstrike">my</del><add>the</add></subst><lb/> last.</l>
+   </lg>
+   <byline rend="right">W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</byline>
+   <note type="authorial" hand="#h03" place="left" rend="circled">May, 1885</note>
+   <pb xml:id="leaf001v" facs="hun.00015.002_large.jpg" type="verso"/>
    
 </body>
 </text>
