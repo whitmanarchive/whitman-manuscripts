@@ -64,7 +64,7 @@
      <title>"My 71st Year"</title>  
      
 
-     <date when="1889" cert="high"></date><!-- Make sure to also put a "human readable" version of the date within the <date> tag it self. KM -->
+     <date when="1889-11" cert="high">November 1889</date>
      
      <idno type="callno">YCAL MSS 202, Series V</idno>
      
@@ -80,7 +80,7 @@
    <handNotes>
     <handNote medium="letterpress" xml:id="h01" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
     <handNote medium="blue ink" xml:id="h02" resp="#ww" scope="minor"></handNote>
-    <handNote medium="pencil" xml:id="h03" resp="#arc" scope="minor"><name xml:id="arc">Archival</name></handNote><!-- Close, but not quite. We can talk about this. KM -->
+    <handNote medium="pencil" xml:id="h03" resp="#unk2" scope="minor"><name xml:id="unk2">Unknown</name></handNote>
  </handNotes>
    </profileDesc>
 <revisionDesc>
@@ -99,7 +99,7 @@
    <lg type="poem">
      <l>After surmounting three-score and ten,</l>
      <l>With all their chances, changes, losses, sorrows,</l>
-     <l>My parents' deaths, the vagaries of my life, the many tearing<lb/> passions of me<add type="authorial" hand="#h02" place="inline">the war of '63 and '4,</add></l><!-- talk about comma placement, no need for "type", the value of "place", rend="marked" and metamark encoding. KM -->
+     <l>My parents' deaths, the vagaries of my life, the many tearing<lb/> passions of me, <add hand="#h02" place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h02" place="above" rend="marked" xml:id="a001">the war of '63 and '4,</add></l>
     <l>As some old broken soldier, after a long, hot wearying march,<lb/> or haply after battle,</l>
     <l>At twilight, hobbling, answering yet to company roll-call<add type="authorial" hand="#h02" place="inline">,</add><hi rend="italic">Here</hi><add type="authorial" hand="#h02" place="inline">,</add><lb/> with vital voice,</l>
     <l>Reporting yet, saluting yet the Officer over all.</l>
