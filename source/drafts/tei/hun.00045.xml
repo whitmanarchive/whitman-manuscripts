@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun.00045"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main" rend="bracketed">A Thought on Shakspere</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="ja">JC Andrews</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2025</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>hun.00045</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+     <note type="work_relations" target="xxx." cert="high">
+      <p></p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     
+<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
+       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
+     <date notBefore="" notAfter="" cert=""></date>
+     
+     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     
+
+     <orgName xml:id="hun">Catalog of the Walt Whitman Literary Manuscripts in The Huntington Library, Art Collections, and Botanical Gardens</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+     >
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="blue pencil" xml:id="h02" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
+    <handNote medium="pencil" xml:id="h03" resp="#unk" scope="minor"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+
+ <change when="2025-09-11" who="#ja">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+
+   <pb xml:id="leaf001r" facs="hun.00045.001_large.jpg" type="recto"/>
+   <note hand="#h03" type="archival" place="top" rend="underline"><del rend="strikethrough">10.00</del></note>
+   <note hand="#h03" type="archival" place="top">V2N</note>
+   <note hand="#h03" type="archival" place="top">9.00</note>
+   <note hand="#h02" type="archival" place="top">1</note>
+   <head type="main" rend="doubleUnderline" hand="#h01">A Thought on <choice><orig>Shak</orig><reg>Shakspere</reg></choice></head>
+   <p>The most Distinctive
+   poems&#8212;the most permanently 
+   rooted and with heartiest reason
+   for being&#8212;the copious cycle
+   of Arthurian <del hand="#h01" rend="strikethrough">chants</del> legends,
+   or the almost equally copious
+   Charlemagne cycle, or the
+   poems of the Cid, <subst hand="#h01"><del rend="strikethrough">the</del><add place="above">or</add></subst> <choice><orig>Scan</orig><reg>Scandinavian</reg></choice>
+   Eddas, or <choice><orig>Nibelun</orig><reg>Nibelungen</reg></choice>,
+   or Chaucer, or Spenser,
+   or Ossian, or Inferno&#8212;probably
+   had their rise in great historic
+   perturbations, which they came
+   in to <del hand="#h01" rend="strikethrough">conf</del> sum up and <choice><orig>con</orig><reg>confirm</reg></choice>,
+   indirectly embodying
+   results to date. However <choice><orig>pre</orig><reg>precious</reg></choice>
+   to "culture" the grandest
+   of those poems,<add hand="#h01"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="h01" place="above" xml:id="a001">it may be said,</add><del hand="#h01" rend="strikethrough">but</del> preserve and
+   typify results offensive to the
+   modern spirit, and long past away.</p>
+   
+
+   <pb xml:id="leaf001v" facs="hun.00045.002_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf002r" facs="hun.00045.003_large.jpg" type="recto"/>
+   <note hand="#h01" type="authorial" place="top">2</note>
+   <note hand="#h02" type="archival" place="top">8</note>
+   <p>To state it briefly and taking
+   the strongest examples, in 
+   Homer lives the ruthless <choice><orig>mil</orig><reg>military</reg></choice>
+   prowess of Greece, and
+   its special god&#11840;descended <choice><orig>dy</orig><reg>dynastic</reg></choice>
+   houses;&#8212;in Shakspere,
+   the "dragon&#11840;rancors and stormy
+   feudal splendor of medieval
+   caste."</p>
+   <p>Poetry, largely considered,
+   is an <del hand="#h01" rend="strikethrough">successive</del> evaluation,
+   sending out improved and <choice><orig>ever-</orig><reg>ever-expanded</reg></choice>
+   types&#8212;in one sense, 
+   the past, even the best of it
+   necessarily giving place, and<add hand="#h01"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a002">of</add>
+   Dying out. For our exciting
+   world, the bases on which
+   all the grand old poems were
+   built have become vacuums
+   &#8212;and even those of many <choice><orig>com</orig><reg>comparatively</reg></choice>
+   modern ones are
+   broken and half&#11840;gone. For
+   us to&#11840;day, nor their own intrinsic
+   value, vast as that is, backs and
+   maintains those poems, but a
+   mountain&#11840;high growth of</p>
+   
+   <pb xml:id="leaf002v" facs="hun.00045.004_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf003r" facs="hun.00045.005_large.jpg" type="recto"/>
+   <note hand="#h01" type="authorial" place="top">3</note>
+   <note hand="h02" type="archival" place="top">9</note>
+   <p>associations, the layers of <choice><orig>suc</orig><reg>successive</reg></choice>
+   ages. Everywhere&#8212;their
+   own lands included, (is there
+   not something terrible in the
+   tenacity with which <subst hand="h01"><del rend="strikethrough">some</del><add place="above">the one</add></subst> book
+   out of millions, holds its grip?)
+   the Homeric and Virgilian works,
+   the interminable ballad&#11840;romances
+   of the middle ages, <del hand="#h01" rend="strikethrough">and even</del> the
+   <subst hand="h01"><del rend="strikethrough">works</del><add place="above">utterances</add></subst> of Dante, Spenser, and
+   others, are upheld by their
+   cumulus&#11840;entrenchment in <choice><orig>schol</orig><reg>scholarship</reg></choice>,
+   and as precious, always
+   welcome, unspeakably valuable
+   reminiscences.</p>
+   <p>Even the one who at present
+    reigns unquestioned&#8212;of <choice><orig>Shak</orig><reg>Shakspere</reg></choice>&#8212;
+   for all he stands for
+   so much in modern <choice><orig>litera</orig><reg>literature</reg></choice>,
+   he stands<add hand="#h01"><metamark function="add" target="#a003">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a003">entirely</add>for the mighty
+   esthetic sceptres of the past,
+   not for the spiritual and <choice><orig>dem</orig><reg>democratic</reg></choice>,
+   the sceptres of the <choice><orig>fu</orig><reg>future</reg></choice>.
+   The inward and outward
+   characteristics of Shakspere
+   are his vast and rich variety</p>
+   
+   <pb xml:id="leaf003v" facs="hun.00045.006_large.jpg" type="verso"/>
+   
+   
+   
+   
+</body>
+</text>
+</TEI>
