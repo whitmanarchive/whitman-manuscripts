@@ -91,14 +91,14 @@
  <text type="letter">
   <body>
    <pb xml:id="leaf001r" facs="loc_sf.00037_large.jpg" type="recto"/>
-   <note type="authorial" hand="#h02" place="top" rend="underline">Copy of Letter sent by Walt Whitman
-   (July 24, 1883) in response to invitation of "Tertio Millennial Anniversary of Citations" of New Mexico</note>
-   <note type="authorial" hand="#h02" place="top">Camden New Jersey July 20 1883</note>
-   <opener><salute hand="#h02">To Messrs: Griffin, Martinez, Prince, and other
+   <addSpan hand="#h02" spanTo="#a001"/><head type="main">Copy of Letter sent by Walt Whitman (July 24, 1883) in response to invitation of "Tertio Millennial Anniversary of <gap reason="torn away" extent="four characters"/>ciation" of New Mexico</head>
+   <milestone unit="undeclared" rend="horbar-full"/>
+   <opener><dateline>Camden New Jersey <date when="1883-07-20">July 20 1883</date></dateline>
+   <salute>To Messrs: Griffin, Martinez, Prince, and other
     gentlemen, at Santa Fé,</salute>
-   <salute hand="#h02">Dear Sirs</salute></opener>
+   <salute>Dear Sirs</salute></opener><anchor xml:id="a001"/>
     <p>Your kind invitation to visit you and deliver a poem for the 333d Anniversary of
-   founding Santa Fe has reached me so late, that I have to deline, with sincere regret. But
+   founding Santa Fe has reached me so late, that I have to decline, with sincere regret. But
    I will say a few words off hand.</p>
     <p>We Americans have yet to really learn our own antecedents, and sort them, to unify
    them. They will be found ampler than has been supposed, and in widely different sources.
@@ -143,10 +143,10 @@
    the Northern and Atlantic regions than you suppose, and they are deeply interested in the
    development of the great Southwestern interior, and in what your festival would arouse to
    public attention.</p>
-   <closer>
+   <addSpan hand="#h02" spanTo="#a002"/><closer>
     <salute rend="right">Very respectfully &amp;c</salute>
     <signed rend="right">Walt Whitman</signed>
-   </closer>
+   </closer><anchor xml:id="a002"/>
    <pb xml:id="leaf001v" facs="loc_sf.00038_large.jpg" type="verso"/>
 </body>
 </text>
