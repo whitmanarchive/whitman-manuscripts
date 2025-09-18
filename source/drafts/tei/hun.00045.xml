@@ -7,7 +7,7 @@
   <fileDesc>
    <titleStmt>
     
-    <title level="m" type="main" rend="bracketed">A Thought on Shakspere</title>
+    <title level="m" type="main">A Thought on Shakspere</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -61,13 +61,12 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     <title>A Thought on Shakespeare</title>  
      
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date notBefore="" notAfter="" cert=""></date>
+
+     <date notBefore="1881" notAfter="1886" cert="high">between 1881 and 1886</date>
      
-     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     <idno type="callno">HM 6712</idno>
      
 
      <orgName xml:id="hun">Catalog of the Walt Whitman Literary Manuscripts in The Huntington Library, Art Collections, and Botanical Gardens</orgName>
@@ -78,7 +77,7 @@
    </sourceDesc>
 </fileDesc>
   <profileDesc>
-   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
+   <handNotes>
     <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
     <handNote medium="blue pencil" xml:id="h02" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
     <handNote medium="pencil" xml:id="h03" resp="#unk" scope="minor"/>
@@ -118,7 +117,7 @@
    indirectly embodying
    results to date. However precious
    to "culture" the grandest
-   of those poems,<add><metamark function="add" target="#a001" place="below">&#8248;</metamark></add> <add hand="h01" place="above" xml:id="a001">it may be said,</add> <del rend="overstrike">but</del> preserve and
+   of those poems,<add><metamark function="add" target="#a001" place="below">&#8248;</metamark></add> <add place="above" xml:id="a001">it may be said,</add> <del rend="overstrike">but</del> preserve and
    typify results offensive to the
    modern spirit, and long past away.</p>
    
@@ -138,11 +137,11 @@
    feudal splendor of medieval
    caste."</p>
    <p>Poetry, largely considered,
-   is an <del hand="#h01" rend="overstrike">successive</del> evaluation,
+   is an <del rend="overstrike">successive</del> evaluation,
    sending out improved and ever-expanded
    types&#8212;in one sense, 
    the past, even the best of it
-   necessarily giving place, and<add hand="#h01"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a002">of</add>
+   necessarily giving place, and
    Dying out. For our exciting
    world, the bases on which
    all the grand old poems were
@@ -168,7 +167,7 @@
    out of millions, holds its grip?)
    the Homeric and Virgilian works,
    the interminable ballad&#11840;romances
-   of the middle ages, <del hand="#h01" rend="overstrike">and even</del> the
+   of the middle ages, <del rend="overstrike">and even</del> the
    <subst><del rend="overstrike" seq="1">works</del><add place="above" seq="2">utterances</add></subst> of Dante, Spenser, and
    others, are upheld by their
    cumulus&#11840;entrenchment in scholarship,
@@ -179,7 +178,7 @@
     reigns unquestioned&#8212;of Shakspere&#8212;
    for all he stands for
    so much in modern literature,
-   he stands<add><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">entirely</add> for the mighty
+   he stands<add><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">entirely</add> for the mighty
    esthetic sceptres of the past,
    not for the spiritual and democratic,
    the sceptres of the future.
@@ -250,13 +249,41 @@
    characters, have the unmistakable
    hue of plays, portraits,
    made for the divertisement
-    <subst><del rend="overstrike" seq="1">and point of view</del><add seq="2"><metamark target="#a004" function="add" place="inline">&#8248;</metamark></add><del seq="4" rend="overstrike"><add place="above" xml:id="a004" seq="3">from the</add></del></subst> only of the elite
-   of the castle,<add place="below">and from its point of view.</add> The comedies
+    <subst><del rend="overstrike" seq="1">and point of view</del><add seq="2"><metamark target="#a003" function="add" place="inline">&#8248;</metamark></add><del seq="4" rend="overstrike"><add place="above" xml:id="a003" seq="3">from the</add></del></subst> only of the elite
+   of the castle, <add><metamark target="#a004" function="add" place="inline">&#8248;</metamark></add><add place="above" xml:id="a004">and from its point of view.</add> The comedies
    are altogether non&#11840;acceptable
    to America and Democracy.</p>
    
    <pb xml:id="leaf005v" facs="hun.00045.010_large.jpg" type="verso"/>
    
+   <pb xml:id="leaf006r" facs="hun.00045.011_large.jpg" type="recto"/>
+   <note hand="#h01" type="authorial" place="top">6</note>
+   <note hand="#h02" type="editorial" place="top">12</note>
+   <p><subst><del rend="overstrike" seq="1">Them</del><add place="above" seq="2">But</add></subst> to the deepest soul,
+   it seems a shame to pick
+   and choose from the riches
+   Shakspere has left us&#8212;to
+   criticize his infinitely royal,
+   multiform quality&#8212;to guage,
+   with optic glasses, the Dazzle
+   of his sun&#11840;like beams.</p>
+   <p>The best poetic utterance,
+   after all, can <subst><del rend="overstrike" seq="1">but</del><add place="above" seq="2">merely</add></subst> hint or
+   remind, often very indirectly,
+   or at distant removes.
+   Aught of real perfection,
+   or the <del rend="overstrike">final</del> solution of
+   any deep problem, or any
+   completed statement of the
+   moral, the true, the beautiful,
+   eludes <del rend="overstrike">the statement of</del>
+   the greatest deftest poet&#8212;flies
+   away like an always uncaug<subst rend="overwrite"><del seq="1">h</del><add seq="2">ht</add></subst>
+   bird.</p>
+   <byline rend="right"><hi rend="tripleUnderline">W</hi><hi rend="doubleUnderline">alt</hi> <hi rend="tripleUnderline">W</hi><hi rend="doubleUnderline">hitman</hi></byline>
+   
+   
+   <pb xml:id="leaf006v" facs="hun.00045.012_large.jpg" type="verso"/>
    
    
    
