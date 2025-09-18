@@ -7,7 +7,7 @@
   <fileDesc>
    <titleStmt>
     
-    <title level="m" type="main">A Prairie Sunset</title>
+    <title level="m" type="main">A Glint Inside of Abraham Lincoln</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -70,22 +70,22 @@
      
      <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
      
-<!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
-      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
-     <orgName xml:id="uva"></orgName>
+
+     <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
      
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="blue ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h02" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
 
- <change when="2025-09-10" who="#ja">transcribed and encoded</change>
+ <change when="2025-09-18" who="#ja">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -93,19 +93,38 @@
   <body>
    
 
-   <pb xml:id="leaf001r" facs="uva.00167.001.jpg" type="recto"/>
-   <note hand="#h01" type="authorial" place="top">sent to Herald March 2</note>
-   <head type="main" hand="#h01" rend="underline">A Prairie Sunset</head>
-   <lg type="poem">
-     <l>Shot gold, maroon and violet, dazzling silver,<lb/> emerald, fawn,</l>
-     <l>The earth's whole amplitude and Nature's<lb/> multiform power consigned for once<lb/> to colors</l>
-     <l>The<add hand="#h01" place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a001">light, the</add> very air <subst hand="#h01" rend="overstrike"><del>diffused in</del><add>possess'd by</add></subst> them<subst hand="#h01" rend="overstrike"><del>,</del><add>&#8212;</add></subst> colors till now<lb/> unknown</l>
-    <l>No limits confines&#8212;not the west <subst hand="#h01" rend="overstrike"><del>the</del><add>ern</add></subst> sky<lb/> alone&#8212;the high meridian&#8212;north<lb/> south, all,</l>
-    <l>Pure colors, varied, fused, and silent, shadows to <lb/> the east.</l>
-   </lg>
+   <pb xml:id="leaf001r" facs="uva_ej.00025_large.jpg" type="recto"/>
+   <head type="main"><hi rend="underline">A glint inside of Abrahm Lincoln's Cabinet</hi>
+   <hi rend="doubleUnderline">appointment<add><metamark target="#a001" function="add">&#8248;</metamark></add><add rend="doubleUnderline" xml:id="a001">before</add>&#8212;one item of many.&#8212;</hi></head>
+   <p><add><metamark target="#a002" function="add" place="inline">&#8248;</metamark></add><add rend="circled" xml:id="a002" place="margin"><note>give head ital.</note></add> 
+    When While it was <unclear reason="illegible" resp="ja">han</unclear> hanging in 
+   suspense who should be appointed Secretary
+   of the Interior, (to take the place of Caleb
+   Smith) the nom choice was very close b
+   between Jim Harlan &amp; Col. Jesse K. Dubois
+   of Illinois. The latter ha many friends.
+   He was competent, he was honest &amp; he
+   was a <hi rend="underline">man</hi>. Mr. Harlan, was pressed
+   in the race, finally<gap reason="illegible" extent="one word"></gap> gain'd the Methodist
+   interest, &amp; got himself to be considered
+   as identified with it, &amp; asked for
+   that powerful body. Bishop Simpson
+   of Philadelphia came on &amp; spoke for
+   him. The President was much perplexed.
+   Col. Col. Dubois's. The reasons for appointing
+   col. Dubois were very strong, almost insuperable,&#8212;
+   yet the argument for Mr. Harlan,
+   under the circumstances, in, 
+   was heavy. Those who pressed him adduced
+   the magnitude of the Methodists as a body,
+   their loyalty more than any other sect.</p>
+
+   <pb xml:id="leaf001v" facs="uva_ej.00026_large.jpg" type="verso"/>
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="uva_jc.00287_large.jpg" type="verso"/>
+   <pb xml:id="leaf002r" facs="uva_ej.00027_large.jpg" type="recto"/>
+   
+   <pb xml:id="leaf002v" facs="uva_ej.00028_large.jpg" type="verso"/>
+   
    
 </body>
 </text>
