@@ -62,13 +62,11 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     <title>A Glint inside of Abraham Lincoln's Appointment - one item of many</title>  
      
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date notBefore="" notAfter="" cert=""></date>
+     <date when="1864-09-22" cert="high">22 August 1865</date>
      
-     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     <idno type="callno">#9778 item 5</idno>
      
 
      <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
@@ -94,34 +92,58 @@
    
 
    <pb xml:id="leaf001r" facs="uva_ej.00025_large.jpg" type="recto"/>
-   <head type="main"><hi rend="underline">A glint inside of Abrahm Lincoln's Cabinet</hi>
-   <hi rend="doubleUnderline">appointment<add><metamark target="#a001" function="add">&#8248;</metamark></add><add rend="doubleUnderline" xml:id="a001">before</add>&#8212;one item of many.&#8212;</hi></head>
-   <p><add><metamark target="#a002" function="add" place="inline">&#8248;</metamark></add><add rend="circled" xml:id="a002" place="margin"><note>give head ital.</note></add> 
-    When While it was <unclear reason="illegible" resp="ja">han</unclear> hanging in 
+   <note type="editorial" hand="#h02" place="top">4</note>
+   <head type="main" rend="underline">A glint inside of Abrahm Lincoln's Cabinet<lb/> appointment<add><metamark target="#a001" function="add">&#8248;</metamark></add><add rend="doubleUnderline" xml:id="a001">before</add>&#8212;one item of many.&#8212;</head>
+   <p><add place="below"><metamark target="#a002" function="add">&#8248;</metamark></add><note xml:id="a002" place="left" rend="circled" type="authorial" hand="#h01">give head ital.</note> 
+    <del rend="overstrike">When</del> While it was <del rend="overstrike">h<gap extent="a few characters" reason="illegible"/></del> hanging in 
    suspense who should be appointed Secretary
-   of the Interior, (to take the place of Caleb
-   Smith) the nom choice was very close b
+   of the Interior, (to take the place of Caleb <note type="editorial" hand="#h02" place="right">?</note>
+   Smith) the <del rend="overstrike">nom</del> choice was very close <del rend="overstrike"><gap extent="one character" reason="illegible"></gap></del>
    between Jim Harlan &amp; Col. Jesse K. Dubois
-   of Illinois. The latter ha many friends.
+   of Illinois. The latter had many friends.
    He was competent, he was honest &amp; he
-   was a <hi rend="underline">man</hi>. Mr. Harlan, was pressed
-   in the race, finally<gap reason="illegible" extent="one word"></gap> gain'd the Methodist
+   was a <hi rend="underline">man</hi>. Mr. Harlan, <del rend="overstrike">was pressed</del>
+   in the race, finally <gap reason="illegible" extent="one word"></gap> <add place="above">gain'd</add> the Methodist
    interest, &amp; got himself to be considered
-   as identified with it, &amp; asked for
+   as identified with it, &amp; <add place="above">his appointment was apparently</add> asked for by
    that powerful body. Bishop Simpson
    of Philadelphia came on &amp; spoke for
-   him. The President was much perplexed.
-   Col. Col. Dubois's. The reasons for appointing
-   col. Dubois were very strong, almost insuperable,&#8212;
-   yet the argument for Mr. Harlan,
-   under the circumstances, in, 
+   <add place="below"><metamark target="#a003" function="add">&#8248;</metamark></add><add xml:id="a003" place="above">the appointment.</add><del rend="overstrike"><gap extent="a few characters" reason="illegible"></gap></del>. The President was much perplexed.
+   <del rend="overstrike">Col. Col. Dubois's</del> The reasons for appointing
+   Col. Dubois were very strong, almost insuperable,&#8212;
+   <del rend="overstrike"><note type="authorial" place="above"><gap extent="a few characters" reason="illegible"></gap></note></del>yet the argument for Mr. Harlan,
+   under the <subst><del rend="overstrike" seq="1">circumstances</del><add place="above" seq="2">adroit position he had placed himself,</add></subst> <del rend="overstrike">in,</del>
    was heavy. Those who pressed him adduced
    the magnitude of the Methodists as a body,
-   their loyalty more than any other sect.</p>
+   their loyalty more <add place="below"><metamark target="#a004" function="add">&#8248;</metamark></add><add place="above" xml:id="a004">general &amp; <del rend="overstrike"><gap extent="one word" reason='illegible'></gap></del>genuine</add> than any other sect,</p>
 
    <pb xml:id="leaf001v" facs="uva_ej.00026_large.jpg" type="verso"/>
    
    <pb xml:id="leaf002r" facs="uva_ej.00027_large.jpg" type="recto"/>
+   <p>that thy represented the West, &amp; had a
+   right to be heard&#8212;That <del rend="overstrike">al<gap extent="a few characters" reason="illegible"></gap></del> all <add><metamark target="#a005" function="add" place="below">&#8248;</metamark></add><add xml:id="a005" place="above">or <gap extent="one word" reason="illegible"></gap> all</add> the <note type="editorial" hand="#h02">2</note>   other great denominations had their
+   representatives in the Heads of the
+   government, that thy as a body <add><metamark target="#a006" function="add" place="below">&#8248;</metamark></add><add xml:id="a006" place="above">&amp; the great secretarian power of the West,</add>
+   formally asked Mr. Harlan's appointment&#8212;
+   that he <subst><del rend="overstrike" seq="1">h<gap extent="two characters" reason="illegible"></gap> had</del><add seq="2">was <del seq="3">for<gap extent="a few characters" reason="illegible"></gap></del> of them, having</add></subst> been a Methodist
+   minister, that it would not
+   do to offend them, but was <subst><del rend="overstrike" seq="1">necessary</del><del rend="overstrike" seq="3"><add place="above" seq="2">best</add></del><add place="above" seq="4">highly necessary</add></subst>
+   to propitiate them.</p>
+   <p>Mr. Lincoln thought deeply over
+    the whole matter. <add place="above">He was <del rend="overstrike">for a while</del> in more than usual tribulation on the subject</add> <add place="below"><metamark target="#a007" function="add">&#8248;</metamark></add><add xml:id="a007" place="top" rend="circled">Let it be enough to say that though Mr. Harlan finally received the <del rend="overstrike">ap</del> Secretaryship,</add> Col. Dubois came
+   as near being appointed <del rend="overstrike">Secretary of the
+   Interior</del> as a man could, &amp; not he.
+   <del rend="overstrike">But the President</del> The discussion was <add place="below"><metamark target="#a008" function="add">&#8248;</metamark></add><add xml:id="a008" place="above">finally</add> made
+   one night about 10 o'clock. Bishop
+   Simpson &amp; other clergymen &amp; <del rend="overstrike">p</del> leading
+   persons in Mr. Harlan's behalf, had
+   been talking long &amp; vehemently with the
+   President. A member of Congress who
+   was pressing Col. Dubois's claims, was in
+   waiting. The President <del rend="overstrike">said</del> had told the Bishop
+   that he would make a decision that
+   evening &amp; that he <del rend="overstrike">would</del> thought it unnecessary</p>
+   
    
    <pb xml:id="leaf002v" facs="uva_ej.00028_large.jpg" type="verso"/>
    
