@@ -2,12 +2,12 @@
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun.00067">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00727">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     
-    <title level="m" type="main" rend="bracketed">Letter Sent by W. W. in Response to Invitation of "Tertio Millenial Anniversary Association" at Santa Fe, New Mexico</title>
+    <title level="m" type="main" rend="bracketed">Your kind invitation to visit you</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -47,7 +47,7 @@
     </availability>
     
 
-   <idno>hun.00067</idno>
+   <idno>duk.00727</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
@@ -62,15 +62,15 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>[ The Spanish Element in our Nationality: letter written for the 333rd anniversary of the founding of Santa Fe, New Mexico: proof sheet with autograph note ]</title>  
+     <title>"Your kind invitation to visit you and deliver a poem for the 333d Anniversary of founding Santa Fe," undated</title>  
      
 
      <date notBefore="1883-07-20" notAfter="1883-08-05" cert="high">Between July 20 and August 5, 1883</date>
      
-     <idno type="callno">HM 6709</idno>
+     <idno type="callno">Box 10, Folder 21</idno>
      
 
-     <orgName xml:id="hun">The Huntington Library, Art Collections, and Botanical Gardens</orgName>
+     <orgName xml:id="duk">Walt Whitman Papers, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
      
      <note>Transcribed from digital images of the original.</note>
      
@@ -81,36 +81,20 @@
    <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
     <handNote medium="letter press" xml:id="h01" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
     <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"></handNote>
-    <handNote medium="purple pencil" xml:id="h03" resp="#ww" scope="minor"/>
-    <handNote medium="pencil" xml:id="h04" scope="minor" resp="#unk"></handNote>
-    
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
 
- <change when="2025-09-15" who="#cm">transcribed and encoded</change>
+ <change when="2025-09-22" who="#cm">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-   <pb xml:id="leaf001r" facs="hun.00042.001_large.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="3022_010.jpg" type="recto"/>
    
-   <note type="editorial" place="top" hand="#h04">ORS</note>
-   
-   <addSpan hand="#h02" spanTo="#a001"/><head hand="#h02" type="main"><del hand="#h03" rend="overstrike">Copy of</del> letter sent by <subst hand="#h03"><del rend="overstrike" seq="1">Walt Whitman</del><add place="above" seq="2">W W</add></subst> in response to invitatation of "Tertio Millenial Anniversary Association" at Santa F&#233;, New Mexico.</head>
-   <milestone unit="undeclared" rend="horbar-full"/>
-   
-   
-   <opener>
-    <dateline>Camden New-Jersey.<date when="1883-07-20">July 20 1883</date></dateline>
-    <salute>To Messrs: Griffin Martinez Prince, &amp; other gentlemen at Santa F&#233;.  </salute>
-    <salute> Dear Sirs:</salute>
-   </opener>
-   
-   <anchor xml:id="a001"/>
    <p>Your kind invitation to visit and deliver a poem for the 333<hi rend="superscript">d</hi> Anniversary of founding Santa Fe has reached me so late, that I have to decline, with sincere regret. But I will say a few words off hand.</p>
    
    <p>We Americans have yet to really learn our own antecedents, and sort them, to unify them. They weill be found ampler than has been supposed, and in widely different sources. Thus far, impresses by New England writers and schoolmasters, we tactitly abandon ourselves to the notion that our United states have been fashioned from the British Islands only, and essentially form a second England only&#8212;which is a very great mistake. Many leading traits for our future national Personality, and some of the best ones, will certainly prove to have originated from other British stock. As it is, the British and German, valuable as they are in the concrete, already threaten excess. Or rather, I should say, they have certainly reached that excess. To day, something outside of them, and no counterbalance them, is seriously needed.</p>
@@ -125,13 +109,9 @@
    
    <p>If i might assume to do so, I would like to send you the most cordial, heartfelt, <del hand="#h02" rend="overstrike">respectful</del> congratulations of your American fellow-countrymen here. You have more friends in the Northern and Atlantic regions than you suppose, and they are deeply interested in the development if the great Southwestern interior, and in what your festival would arouse to public attention.</p>
    
-   <closer>
-   <salute hand="#h02">Very respectfully, &amp;c</salute>
-   <signed hand="#h02">Walt Whitman</signed>
-   </closer>
    
 <!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="hun.00042.002_large.jpg" type="verso"/>
+   <pb xml:id="leaf001v" facs="duk_am.00096_large.jpg" type="verso"/>
    
 </body>
 </text>
