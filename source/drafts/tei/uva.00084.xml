@@ -7,7 +7,7 @@
   <fileDesc>
    <titleStmt>
     
-    <title level="m" type="main" >I suppose one can say</title>
+    <title level="m" type="main">I suppose one can say</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -62,25 +62,25 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     <title>The Bible as Poetry</title>  
      
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date notBefore="" notAfter="" cert=""></date>
+
+     <date notBefore="1880" notAfter="1883" cert="high">1880-1883</date>
      
-     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     <idno type="callno">#3829-i</idno>
      
-<!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
-      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
-     <orgName xml:id=""></orgName>
+
+     <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-      
+     <relatedItem type="text" xml:id="rel01" target="uva.00618"/>
+     <relatedItem type="document" target="wwa.00735"/>
+     <note type="project" target="#rel01">On the verso of this manuscript is a letter from D. W. Zimmerman to Walt Whitman, dated January 13, 1883.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
-   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
+   <handNotes>
     <handNote medium="black ink" xml:id="h01" resp="#ww"/>
     <handNote medium="pencil" xml:id="h02" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
    </handNotes>
@@ -98,22 +98,29 @@
 
    <pb xml:id="leaf001r" facs="uva.00084.001.jpg"/>
    <p>I suppose <subst><del rend="overstrike" seq="1">there can be</del><del rend="overstrike" seq="3"><add place="above" seq="2">at this day</add></del><add place="above" seq="4">one can say</add></subst>
-   nothing <del rend="overstrike"><add place="above"><gap extent="a few characters" reason="illegible"></gap></add></del> new <subst><del rend="overstrike" seq="1">offered</del><del rend="overstrike" seq="3"><add place="above" seq="2">said</add></del></subst> <add place="above">at this day</add> about
+   nothing <del rend="overstrike"><add place="above"><gap extent="a few characters" reason="illegible"/></add></del> new <subst><del rend="overstrike" seq="1">offered</del><del rend="overstrike" seq="3"><add place="above" seq="2">said</add></del></subst> <add place="above">at this day</add> about
    Oriental Poetry&#8212;but <del rend="overstrike">I</del> will
-   <subst><del rend="overstrike" seq="1"><gap extent="four words" reason="illegible"></gap></del><add place="above" seq="2">there ever <del rend="overstrike" seq="3">come a <gap extent="one word" reason="illegible"></gap></del></add><add place="above" seq="4">be</add></subst>time
-   or place&#8212;<del rend="overstrike">no</del> <add place="above">&#8212;<del rend ="overstrike">any</del><seg xml:id="alt001">every</seg><add place="above" xml:id="alt002">any</add><alt target="#alt001" "#alt002"/></add> student, <del rend="overstrike">ambitious</del>
-   to seeking <gap extent="a few characters" reason="illegible"></gap> achievement
-   in of p<gap extent="a few characters" reason="illegible"></gap> the grand art
-   seeking achievement worth
-   mentoring&#8212;without when
-   the old Asiatic poetic
+   <subst><del rend="overstrike" seq="1">know there is no</del><add place="above" seq="2">there ever <del rend="overstrike" seq="3">come a <gap extent="one word" reason="illegible"></gap></del></add><add place="above" seq="4">be</add></subst>time
+   or place&#8212;<del rend="overstrike">no</del> <add place="above">&#8212;<del rend ="overstrike">any</del><seg xml:id="alt001">every</seg><add place="above" xml:id="alt002">any</add><alt target="#alt001 #alt002"/></add> student, <del rend="overstrike">ambitious</del>
+   <del rend="overstrike"><gap extent="two characters" reason="illegible"></gap> seeking <gap extent="a few characters" reason="illegible"></gap> achievement</del>
+   <del rend="overstrike">in</del> of <del rend="overstrike">poet</del> <seg xml:id="tr001">the grand art</seg>
+   <seg xml:id="tr002">seeking achievement<add place="below"><metamark target="#a001" function="add">&#8248;</metamark></add><add place="above" xml:id="a001" rend="marked"><subst><del rend="overstrike" seq="1">of</del><add place="above" seq="2">in</add></subst></add></seg><listTranspose>
+    <transpose>
+     <ptr target="#tr002"/>
+     <ptr target="#tr001"/>
+    </transpose>
+   </listTranspose><del rend="overstrike"> worth
+   mentioning</del>&#8212;<del rend="overstrike">without</del> when
+   <subst><del rend="overstrike" seq="1">the</del><add place="above" seq="2">those</add></subst> old Asiatic <del rend="overstrike">poetic</del>
    bequests are not indispensable?
-   every be student in the
-   grand art, to whom thy will
+   ever <del rend="overstrike">an</del> be <add place="above">modern</add> student in the
+   grand art, <add place="below"><metamark target="#a003" function="add">&#8248;</metamark></add><del rend="overstrike"><add place="above" xml:id="a003">(however modern)</add></del> to whom thy will
    not be more than all
    else in the garnerage
    of the past?</p>
-
+   <note type="editorial" hand="#h02"><gap extent="one word" reason="illegible"/></note>
+   <note type="editorial" hand="#h02">75</note>
+   
    <pb xml:id="leaf001v" facs="uva.00084.002.jpg" type="verso"/>
    
 </body>
