@@ -48,7 +48,7 @@
     </availability>
     
 
-   <idno><!-- ADD THE UNIQUE ID HERE --></idno>
+   <idno>hun.00016</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
@@ -63,13 +63,11 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     <title resp="#wwa">Soon shall the winter's foil be here</title>  
      
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date notBefore="" notAfter="" cert=""></date>
+     <date when="1888" cert="high">about 1888</date>
      
-     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     <idno type="callno">HM 1192</idno>
      
 
      <orgName xml:id="hun">The Huntington Library, Art Collections, and Botanical Gardens</orgName>
@@ -80,10 +78,9 @@
    </sourceDesc>
 </fileDesc>
   <profileDesc>
-   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
+   <handNotes>
     <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="pencil" xml:id="h02" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
-    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h02" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
@@ -106,17 +103,19 @@
      <l>Soon shall the winter's foil be here</l>
      <l>Soon shall these icy ligatures unbind<lb/> and melt&#8212;<retrace cause="illegible">A</retrace> little while</l>
      <l>And air, earth, wave suffused in softness<lb/> bloom and growth&#8212;a thousand forms shall rise</l>
-    <l>up from these frozen clods and chills as from low burial <gap extent="one character" reason="illegible"/> graves.</l>
-    <l>Thine eyes, ears, all thy sense <gap extent="one word" reason="illegible"/><lb/> loftiest attributes&#8212;all that<lb/> takes cognizance of Natural beauty</l>
-    <l>Shall rouse and fill&#8212;thou shal<retrace cause="illegible">t</retrace><lb/> perceive <unclear cert="low">vital</unclear> immortal changes</l>
-    <l>Dandelions, clover, the emerald<lb/> grass, the <gap extent="one word" reason="illegible"/> scents and<lb/> flowers</l>
-    <l>The arbutus under-foot, the<lb/> blossoming plum and cherry</l>
-    <l>The birds <gap extent="one character" reason="illegible"/> the blue bird,<lb/> robin, lark, and thrush<lb/> with songs&#8212;the b<gap extent="one character" reason="illegible"/> flitting<lb/> blue bird</l>
-    <l>For so the immortal</l>
+    <l><del rend="overstrike">up</del> from these <subst><del rend="overstrike" seq="1">frozen</del><add place="above" seq="2">dead</add></subst> clods and chills as from low burial <gap extent="one character" reason="illegible"/> graves.</l>
+    <l>Thine eyes, ears, <subst><del rend="overstrike" seq="1">all thy sense <gap extent="one word" reason="illegible"/></del><add place="above" seq="2">all thy</add></subst><lb/> <subst><del rend="overstrike" seq="1">loftiest</del><add place="above" seq="2">best</add></subst> attributes&#8212;all that<lb/> takes cognizance of Natural beauty</l>
+    <l>Shall rouse and fill&#8212;thou shal<retrace cause="illegible">t</retrace><lb/> perceive<subst><del rend="overstrike" seq="1"><unclear cert="low">vital</unclear> immortal changes</del><add place="above" seq="2">the <del rend="overstrike" seq="3">eternal</del><del rend="overstrike" seq="5"><add place="above" seq="4">annual</add></del><del rend="overstrike" seq="6"> simple</del></add></subst><add place="above"><seg xml:id="alt001">delicate shows</seg></add><add place="below" xml:id="alt002">the simple miracles</add><alt target="#alt001 #alt002"/></l>
+    <l>Dandelions, clover, the emerald<lb/> grass, the <subst><del rend="overstrike" seq="1"><gap extent="one word" reason="illegible"/></del><add seq="2">early</add></subst> scents and<lb/> flowers</l>
+    <l>The arbutus under-foot, <add place="below"><metamark target="#a001" function="add">&#8248;</metamark></add><add place="above" xml:id="a001">The willow's yellow-green,</add> the<lb/> blossoming plum and cherry</l>
+    <l>The <del rend="overstrike">birds <gap extent="one character" reason="illegible"/> the blue bird,</del><lb/> robin, lark, and thrush,<lb/> with songs&#8212;<subst><del rend="overstrike" seq="1">the b<gap extent="one character" reason="illegible"/></del><add place="above" seq="2">the</add></subst> flitting<lb/> blue bird;</l>
+    <l>For <del rend="overstrike">so</del> <add place="below"><metamark target="#a002" function="add">&#8248;</metamark></add><add place="above" xml:id="a002">such the scenes</add>the <subst><del rend="overstrike" seq="1">immortal</del><add place="below" seq="2">annual</add></subst> play<del rend="overstrike" seq="1">goes</del><del rend="overstrike" seq="3"><add place="above" seq="2">comes</add></del><add place="above" seq="4">brings</add> on.</l>
    </lg>
    
 
    <pb xml:id="leaf001v" facs="hun.00016.002.jpg" type="verso"/>
+   
+   <!--This side has one stamp and two postmarks, one from New Jersey and one from New York.-->
    
 </body>
 </text>
