@@ -1,324 +1,123 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="hun.00016">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title level="m" type="main">Soon shall winter's foil be here</title>
-            <title level="m" type="sub">a machine readable transcription</title>
-            <author>Walt Whitman</author>
-            <editor role="editor">Kenneth M. Price</editor>
-            <editor role="editor">Ed Folsom</editor>
-            <respStmt>
-               <resp>Transcription and encoding</resp>
-               <persName xml:id="nhg">Nicole Gray</persName>
-               <persName xml:id="rl">Robert LaCosse</persName>
-            </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
-            <sponsor>University of Iowa</sponsor>
-            <funder>The National Endowment for the Humanities</funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>
-               <date>2004</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <idno>hun.00016</idno>
-            <distributor>The Walt Whitman Archive</distributor>
-            <address>
-               <addrLine>Center for Digital Research in the Humanities</addrLine>
-               <addrLine>319 Love Library</addrLine>
-               <addrLine>University of Nebraska-Lincoln</addrLine>
-               <addrLine>P.O. Box 884100</addrLine>
-               <addrLine>Lincoln, NE 68588-4100</addrLine>
-            </address>
-            <availability>
-               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
-            </availability>
-         </publicationStmt>
-         <notesStmt>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-		<!-- IGNORE THIS PROJECT NOTE.  IT WILL BE FILLED IN BY PROJECT EDITORS. -->
-            <note type="project"/>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun.00016"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main">Soon shall the winter's foil be here</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     <persName xml:id="nhg">Nicole Gray</persName>
+     <persName xml:id="rl">Robert LaCosse</persName>
+     <persName xml:id="ja">JC Andrews</persName>
+     
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2025</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
 
-		          <!-- IF THERE IS VERSO INFORMATION THAT YOU ARE ONLY    -->
-            <!-- DESCRIBING BUT NOT TRANSCRIBING, INSERT THAT HERE. -->
-		          <!-- IF YOUR MANUSCRIPT HAS NO VERSO MATERIAL, OR IF    -->
-		          <!-- YOU ARE TRANSCRIBING THAT MATERIAL, YOU MAY DELETE -->
-		          <!-- THIS NOTE.               				-->
-            <note type="project">On the verso . . .</note>                          	
-         </notesStmt>
-         <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
-               <title>
-	<!-- TITLE UNDER WHICH THE MS IS HELD AT THE REPOSITORY;	-->
-	<!-- PLEASE CONSULT, WHEN AVAILABLE, THE ONLINE FINDING	  	-->
-	<!-- FINDING AID ON THE WHITMAN ARCHIVE, IN THE "MANUSCRIPTS" 	-->
-	<!-- SECTION OF THE SITE.                                     	-->
+   <idno>hun.00016</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+     <note type="work_relations" target="xxx." cert="high">
+      <p></p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title resp="#wwa">Soon shall the winter's foil be here</title>  
+     
+     <date when="1888" cert="high">about 1888</date>
+     
+     <idno type="callno">HM 1192</idno>
+     
 
-</title>
-               <idno type="callno">
-	<!-- THE REPOSITORY'S ID CODE FOR THE MATERIAL, IF ANY, CAN BE	     -->
-	<!-- ENTERED HERE. THE VALUE OF 'TYPE' CAN BE ALTERED TO FIT	     -->
-	<!-- THE TYPE OF ID NUMBER USED; EXAMPLE: MSS 3829.  THIS INFO	     -->
-	<!-- IS ONLY APPROPRIATE FOR THE REPOSITORIES THAT HAVE CREATED      -->
-	<!-- UNIQUE IDENTIFIERS FOR EACH MANUSCRIPT: HARVARD, BOSTON         -->
-	<!-- PUBLIC LIBRARY, BYU, JOHNS HOPKINS, THE HUNTINGTON, THE MORGAN, -->
-	<!-- RUTGERS, THE AMERICAN ANTIQUARIAN SOCIETY, AND TEMPLE. PLEASE   -->
-	<!-- CONSULT THE ONLINE FINDING AIDS.                                --> 
-		
-</idno> 
-               <orgName xml:id="hun">The Huntington Library, Art Collections, and Botanical Gardens</orgName> 
+     <orgName xml:id="hun">The Huntington Library, Art Collections, and Botanical Gardens</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+     
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h02" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ <change who="#ja" when="2025-10-01" >transcribed and encoded</change>
+ <change who="#nhg" when="2016-05-02">converted to P5</change>
+ <change who="#rl" when="2004-08-11">Encoded</change>
+ <change who="#rl" when="2004-08-11">Transcribed</change>
+ 
+</revisionDesc>
+ </teiHeader>
 
-	              <!-- ALTER THE FOLLOWING NOTE IF NECESSARY -->
+ <text type="manuscript">
+  <body>
+   
 
-               <note type="project">Transcribed from digital images of the original.</note>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <revisionDesc>
-         <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#rl" when="2004-08-11">Encoded</change>
-         <change who="#rl" when="2004-08-11">Transcribed</change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
+   <pb xml:id="leaf001r" facs="hun.00016.001.jpg" type="recto"/>
+   <note type="authorial" place="top">(sent to Herald)</note>
+   <head type="main" rend="underline">Soon shall the winter's foil be here</head>
+   <lg type="poem">
+     <l>Soon shall the winter's foil be here</l>
+     <l>Soon shall these icy ligatures unbind<lb/> and melt&#8212;<retrace cause="illegible">A</retrace> little while</l>
+     <l>And air, earth, wave suffused in softness<lb/> bloom and growth&#8212;a thousand forms shall rise</l>
+    <l><del rend="overstrike">up</del> from these <subst><del rend="overstrike" seq="1">frozen</del><add place="above" seq="2">dead</add></subst> clods and chills as from low burial <gap extent="one character" reason="illegible"/> graves.</l>
+    <l>Thine eyes, ears, <subst><del rend="overstrike" seq="1">all thy sense <gap extent="one word" reason="illegible"/></del><add place="above" seq="2">all thy</add></subst><lb/> <subst><del rend="overstrike" seq="1">loftiest</del><add place="above" seq="2">best</add></subst> attributes&#8212;all that<lb/> takes cognizance of Natural beauty</l>
+    <l>Shall rouse and fill&#8212;thou shal<retrace cause="illegible">t</retrace><lb/> perceive<subst><del rend="overstrike" seq="1"><unclear cert="low">vital</unclear> immortal changes</del><add place="above" seq="2">the <del rend="overstrike" seq="3">eternal</del><del rend="overstrike" seq="5"><add place="above" seq="4">annual</add></del><del rend="overstrike" seq="6"> simple</del></add></subst><add place="above"><seg xml:id="alt001">delicate shows</seg></add><add place="below" xml:id="alt002">the simple miracles</add><alt target="#alt001 #alt002"/></l>
+    <l>Dandelions, clover, the emerald<lb/> grass, the <subst><del rend="overstrike" seq="1"><gap extent="one word" reason="illegible"/></del><add seq="2">early</add></subst> scents and<lb/> flowers</l>
+    <l>The arbutus under-foot, <add place="below"><metamark target="#a001" function="add">&#8248;</metamark></add><add place="above" xml:id="a001">The willow's yellow-green,</add> the<lb/> blossoming plum and cherry</l>
+    <l>The <del rend="overstrike">birds <gap extent="one character" reason="illegible"/> the blue bird,</del><lb/> robin, lark, and thrush,<lb/> with songs&#8212;<subst><del rend="overstrike" seq="1">the b<gap extent="one character" reason="illegible"/></del><add place="above" seq="2">the</add></subst> flitting<lb/> blue bird;</l>
+    <l>For <del rend="overstrike">so</del> <add place="below"><metamark target="#a002" function="add">&#8248;</metamark></add><add place="above" xml:id="a002">such the scenes</add>the <subst><del rend="overstrike" seq="1">immortal</del><add place="below" seq="2">annual</add></subst> play<del rend="overstrike" seq="1">goes</del><del rend="overstrike" seq="3"><add place="above" seq="2">comes</add></del><add place="above" seq="4">brings</add> on.</l>
+   </lg>
+   
 
-         <pb facs="hun.00016.001" xml:id="leaf001r" type="recto"/>
-
-         <note type="authorial"
-               place="right">
-            <unclear reason="deletion, illegible" resp="#rl"
-                     cert="90%">sent to Herald</unclear>
-         </note>
-
-         <lg
-              >
-
-            <head type="main-authorial" rend="underline">Soon shall the winter's foil be here</head>
-
-            <l>Soon shall winter's foil be here <add rend="insertion" place="supralinear">
-                  <del rend="overstrike">
-                     <unclear reason="deletion, illegible" resp="#rl"
-                              cert="medium">to there</unclear>
-                  </del>
-               </add>
-            </l>
-
-            <!--ligatures?  Is that right?-->
-
-            <l>
-               Soon shall these icy ligature unbind<lb/> 
-               and melt—<gap reason="deletion, illegible"/> little while<lb/>
-            </l>
-
-            <!--suffused?  also the "shall" looks strikingly like "shull"-->
-
-            <l>
-               And air, earth, wave suffused <add rend="insertion" place="supralinear">shall be</add> in softness<lb/> 
-               bloom and growth—a thousand forms shall rise <gap reason="illegible"/>
-               <lb/>
-               
-                  <add rend="unmarked" place="inline">
-                     <del rend="overstrike">up</del> from these 
-<subst>
-                        <rdg varSeq="1">
-                           <del rend="overstrike">
-                              <unclear reason="deletion, illegible" resp="#rl"
-                                       cert="medium">frozen</unclear>
-                           </del>
-                        </rdg>
-                        <rdg varSeq="2">
-                           <add rend="unmarked" place="supralinear">dead</add>
-                        </rdg>
-                     </subst> 
-                     <gap reason="illegible"/> and chills as from low <gap reason="illegible"/> grave<unclear reason="deletion, illegible" resp="#rl"
-                              cert="high">s</unclear>
-                  </add>
-               <lb/>
-            </l>
-
-            <l>
-               Thine eyes, ears, 
-<subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">all thy sense <gap reason="illegible"/>
-                        </del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">
-                           <del rend="overstrike">all</del> thy</add>
-                     </rdg>
-                  </subst>
-               <lb/> 
-               
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">loftiest</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">
-                           <unclear reason="deletion, illegible" resp="#rl"
-                                    cert="medium">b</unclear>est</add>
-                     </rdg>
-                  </subst> 
-attributes—all that<lb/>
-               takes <unclear reason="deletion, illegible" resp="#rl"
-                           cert="medium">coquisaure</unclear> of Natures <unclear reason="deletion, illegible" resp="#rl"
-                           cert="medium">beauty</unclear>
-               <lb/>
-            </l>
-
-            <!--above in the last segment - coquisaure-->
-
-            <l>
-               Shall <unclear reason="deletion, illegible" resp="#rl"
-                           cert="medium">rouse</unclear> and fill—thou shal
-<subst>
-                     <rdg varSeq="1">
-                        <del rend="overwrite">l</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="overwrite" place="over">t</add> 
-                        <add rend="unmarked" place="infralinear">
-                           <unclear reason="illegible" resp="#rl" cert="medium">delude</unclear>
- shows</add>
-                     </rdg>
-                  </subst>
-               <lb/>
-               perceive 
-<subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">
-                           <gap reason="deletion, illegible"/> immortal <unclear reason="deletion, illegible" resp="#rl"
-                                    cert="high">changes</unclear>
-                        </del>
-                     </rdg>
-                     <rdg varSeq="2">the <del rend="overstrike">eternal<add rend="unmarked" place="supralinear">
-                              <del rend="overstrike">
-                                 <gap reason="deletion, illegible"/> simple</del>
-                           </add>
-                        </del>
-                     </rdg>
-                     <rdg varSeq="3">
-                        <add rend="unmarked" place="infralinear">the simple miracles,</add>
-                     </rdg>
-                  </subst>
-               <lb/>
-            </l>
-
-            <!--the comma after "Dandelions" may be an "!"; however, given the shape of it I doubt it because it does not appear as a crisp straight line as most other "!"'s do-->
-
-            <l>
-               Dandelions, clover, the emerald<lb/>
-               grass, the 
-<subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">
-                           <gap reason="deletion, illegible"/>
-                        </del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">
-                           <unclear reason="illegible" resp="#rl" cert="medium">curly</unclear>
-                        </add>
-                     </rdg>
-                  </subst>
- scents and<lb/>
-               flowers<lb/>
-            </l>
-
-            <!--arbutus?-->
-
-            <l>
-               The <unclear reason="deletion, illegible" resp="#rl"
-                           cert="medium">arbutus</unclear> under foot <add rend="insertion" place="supralinear">the willow<unclear reason="deletion, illegible" resp="#rl"
-                              cert="medium">'s</unclear> yellow‑green,</add> the<lb/>
-               blossoming plum and cherry<lb/>
-            </l>
-
-            <l>
-               The <del rend="overstrike">birds the</del> 
-                  <del rend="overstrike">blue birds,</del>
-               <lb/>
-               robin, lark and <unclear reason="deletion, illegible" resp="#rl"
-                           cert="95%">thrush</unclear>
-               <lb/>
-               with songs—
-<subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">th<gap reason="deletion, illegible"/> b<gap reason="deletion, illegible"/>
-                        </del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">the</add>
-                     </rdg>
-                  </subst> flitting
-<lb/>
-               blue bird<lb/>
-            </l>
-
-            <l>For
-<subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">so</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="insertion" place="supralinear">such the s<gap reason="illegible"/>
-                     </add>
-                  </rdg>
-               </subst> the 
-<subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">
-                        <gap reason="deletion, illegible"/>
-                     </del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="infralinear">annual</add>
-                  </rdg>
-               </subst> 
-               <del rend="overstrike">
-                  <gap reason="deletion, illegible"/>
-               </del> City
-<subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">goes</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="supralinear">
-                        <del rend="overstrike">
-                           <unclear reason="deletion, illegible" resp="#rl"
-                                    cert="medium">comes</unclear>
-                        </del>
-                     </add>
-                  </rdg>
-                  <rdg varSeq="3">
-                     <add rend="unmarked" place="supralinear">brings</add>
-                  </rdg>
-               </subst> on.
-</l>
-
-         </lg>
-
-         <pb facs="hun.00016.002" xml:id="leaf001v" type="verso"/>
-
-         <!--This side has one stamp and two postmarks, one from New Jersey and one from New York.-->
-
-         <del rend="hashmark">
-            <p>Walt Whitman,</p>
-            <p>Camden,</p>
-            <p>New Jersey.</p>
-         </del>
-
-
-         <p>Walt Whitman</p>
-         <p>Camden</p>
-         <p>N.J.</p>
-
-
-      </body>
-   </text>
+   <pb xml:id="leaf001v" facs="hun.00016.002.jpg" type="verso"/>
+   
+   <!--This side has one stamp and two postmarks, one from New Jersey and one from New York.-->
+   
+   
+</body>
+</text>
 </TEI>
