@@ -1,262 +1,145 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00001">
-   <relations>
-      <work ref="xxx.00366" cert="absolute">
-         <p> </p>
-      </work>
-   </relations>
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title level="m" type="main">Orange Buds by Mail from Florida</title>
-            <title level="m" type="sub">a machine readable transcription</title>
-            <author>Walt Whitman</author>
-            <editor role="editor">Kenneth M. Price</editor>
-            <editor role="editor">Ed Folsom</editor>
-            <respStmt>
-               <resp>Transcription and encoding</resp>
-               <persName xml:id="nhg">Nicole Gray</persName>
-               <persName xml:id="bb">Brett Barney</persName>
-               <persName xml:id="cf">Chris Forster</persName>
-               <persName xml:id="kt">Kristen Taylor</persName>
-            </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
-            <sponsor>University of Iowa</sponsor>
-            <funder>The National Endowment for the Humanities</funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>
-               <date>2004</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <idno>uva.00001</idno>
-            <distributor>The Walt Whitman Archive</distributor>
-            <address>
-               <addrLine>Center for Digital Research in the Humanities</addrLine>
-               <addrLine>319 Love Library</addrLine>
-               <addrLine>University of Nebraska-Lincoln</addrLine>
-               <addrLine>P.O. Box 884100</addrLine>
-               <addrLine>Lincoln, NE 68588-4100</addrLine>
-            </address>
-            <availability>
-               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
-            </availability>
-         </publicationStmt>
-         <notesStmt>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-            <note type="project" target="dat1"/>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00001"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main">Orange Buds by Mail from Florida</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="nhg">Nicole Gray</persName>
+     <persName xml:id="bb">Brett Barney</persName>
+     <persName xml:id="cf">Chris Forster</persName>
+     <persName xml:id="kt">Kristen Taylor</persName>
+     <persName xml:id="ja">JC Andrews</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2025</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
 
-            <note type="project">The lines on the first leaf are written on the reverse side of an envelope addressed to Walt Whitman, Camden, New Jersey and constitute a draft of the bracketed prose note that appears with published versions of this poem. The envelope bears a blurred, but illegible postmark. On the verso of the second leaf is a letter, dated June 1, 1887, with letterhead reading, "GLENDINNING, McLEISH &amp; CO., 32 WALTER STREET, Cor. Church St." The letter, signed by "GM Williamson," reads, "Dear Mr Whitman, / I intended that this should have reached you on May 31st but being out of town I was unable to send it. / Please except [sic] the enclosed small remembrance and I hope that you will live to see many springs, summers with [their?] Birds &amp; Blossoms and yourself enjoying good health and prosperity. / I remain yours Truly."</note>                          	
-         </notesStmt>
-         <sourceDesc>
-            <bibl>
-               <author>Walt Whitman</author>
-               <title>Orange Buds by Mail from Florida</title>
-               <date cert="****" value="/" xml:id="dat1"><!-- DATING INFO WILL BE INSERTED BY PROJECT EDITORS --></date>
-               <idno type="callno"/> 
-               <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
-               <note type="project">Transcribed from digital images of the original.</note>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <revisionDesc>
-         <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#bb" when="2016-02-12"/>
-         <change who="#cf" when="2005-07-15">transcribed and encoded second and third leaves</change>
-         <change who="#kt" when="2004-08-28">transcribed and encoded first leaf</change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
+   <idno>uva.00001</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+     <note type="work_relations" target="xxx." cert="high">
+      <p></p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     
+<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
+       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
+     <date notBefore="" notAfter="" cert=""></date>
+     
+     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     
+<!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
+      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
+     <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
+     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
+     <relatedItem type="document" target="wwa.00041"/>
+     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="pencil" xml:id="h01" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h02" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h03" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
+     <handNote medium="pencil" xml:id="h04" resp="#unk"></handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
 
-         <pb facs="uva.00165.003" xml:id="leaf001r" type="recto"/>
+ <change who="#ja" when="2025-10-02" >transcribed and encoded</change>
+ <change who="#nhg" when="2016-05-02">converted to P5</change>
+ <change who="#bb" when="2016-02-12"/>
+ <change who="#cf" when="2005-07-15">transcribed and encoded second and third leaves</change>
+ <change who="#kt" when="2004-08-28">transcribed and encoded first leaf</change>
+</revisionDesc>
+ </teiHeader>
 
-         <head type="main-authorial">Orange Buds by Mail from Florida</head>
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="uva.00165.003.jpg" type="recto"/>
+   <head type="main" rend="underline">Orange Buds by Mail from Florida</head>
+   <p rend="bracketed">Voltaire closed a famous argument by
+   <subst><del rend="overstrike" seq="1">saying</del><add place="above" seq="2">claiming</add></subst> that a ship of war and the
+   grand opera were <del rend="overstrike">the most signal</del>
+   proofs <add place="below"><metamark target="#a001" function="add">&#8248;</metamark></add><add place="above" xml:id="a001">enough</add> of civilization's <add place="below"><metamark target="#a002" function="add">&#8248;</metamark></add><add place="above" xml:id="a002">and France's</add> <del rend="overstrike">height</del>
+   progress his <subst><del rend="overstrike" seq="1">day</del><del rend="overstrike" seq="3"><add place="above" seq="2">time</add></del><add place="below" seq="4" hand="#h02"><metamark target="#a003" function="add">&#8248;</metamark></add><add place="above" seq="4" hand="#h02">day</add></subst></p>
+   <note type="authorial" hand="#h02" rend="circled" place="right">sent to H March 17</note>
 
-         <p>[Voltaire closed a famous argument by 
-<subst>
-               <rdg varSeq="1">
-                  <del rend="overstrike">saying</del> 
-               </rdg>
-               <rdg varSeq="2">
-                  <add place="supralinear" rend="unmarked">claiming</add> 
-               </rdg>
-            </subst>
-that a ship of war and the 
-grand opera were <del rend="overstrike">the most signal</del> 
-proofs <add place="supralinear" rend="insertion">enough</add> of civilization's, 
-<add place="supralinear" rend="insertion">and France's</add> 
-            <del rend="overstrike">heights</del> 
-progress, his <subst>
-               <rdg varSeq="1">
-                  <del rend="overstrike">day</del> 
-               </rdg>
-               <rdg varSeq="2">
-                  <del rend="overstrike">
-                     <add place="supralinear" rend="unmarked">time</add>
-                  </del> 
-               </rdg>
-               <rdg varSeq="3">
-                  <add place="supralinear" rend="insertion">day</add> 
-               </rdg>
-            </subst>]
-</p>
-
-         <note place="right"
-               type="authorial"
-               rend="circled">
-            <p>sent to H 
-March 17</p>
-         </note>
-
-         <pb facs="uva.00165.004" xml:id="leaf001v" type="verso"/>
-         <pb facs="uva.00165.001" xml:id="leaf002r" type="recto"/>
-         <lg
-              >
-
-            <head type="main-authorial" rend="underline">Orange buds by mail</head>
-
-            <l>A lesser proof than <unclear reason="illegible" cert="low" resp="#cf">Keen</unclear> Voltaire's, yet greater,</l>
-
-            <del rend="overstrike">
-               <l>
-Not as the <add place="supralinear" rend="insertion">phrase of</add> Keen Voltaire,
-</l>
-            </del>
-
-            <del rend="overstrike">
-               <l>
-A lesser proof <add place="supralinear" rend="insertion">than his</add> yet greater</l>
-            </del>
-
-            <l>
-               <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">In</del> 
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add place="supralinear" rend="unmarked">To</add> 
-                  </rdg>
-               </subst>
-my <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">poor</del> 
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add place="supralinear" rend="unmarked">plain</add> 
-                  </rdg>
-               </subst>
-northern hut, in <add place="supralinear" rend="insertion">outside</add> clouds and snow,
-</l>
-
-            <l>
-(Proof of <subst>
-                  <rdg varSeq="1">to-day </rdg>
-                  <rdg varSeq="2">
-                     <del rend="overstrike">
-                        <add place="supralinear" rend="unmarked">the <add place="supralinear" rend="insertion">present</add>time</add>
-                     </del> 
-                  </rdg>
-               </subst>
-and thee <add place="supralinear" rend="insertion">thy broad expanse</add> America)
-</l>
-
-            <l>
-               Some three days since on their own<lb/>
-               
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">branches <gap reason="deletion,illegible"/> growing</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="supralinear" rend="unmarked">soil <unclear reason="illegible" cert="medium" resp="#cf">live</unclear> sprouting</add> 
-                     </rdg>
-                  </subst>
-               <lb/>
-            </l>
-
-            <l>
-Now here their sweetness through <subst>
-                  <rdg varSeq="1">my room </rdg>
-                  <rdg varSeq="2">
-                     <del rend="overstrike">
-                        <add place="supralinear" rend="unmarked">the air</add>
-                     </del> 
-                  </rdg>
-               </subst>
-diffusing
-</l>
-
-            <l>
-A bunch of orange buds <add place="supralinear" rend="insertion">by mail</add> from Florida
-</l>
-
-            <l>
-Brought for a thousand miles o'er land and tide
-</l>
-
-         </lg>
-
-         <pb facs="uva.00165.002" xml:id="leaf002v" type="verso"/>
-         <!-- THE VERSO CONTAINS A LETTER, DATED JUNE 1, 1887 ON LETTERHEAD READING, "GLENDINNING, McLEISH & CO., 32 WALKER STREET, Cor Church St.". THE LETTER, SIGNED "GM Williamson," READS, "Dear Mr Whitman, / I intended that this should have reached you on May 31st but being out of town I was unable to send it. / Please except [sic] the enclosed small remembrance and I hope that you will live to see many springs, Summers with <gap?> Birds Blossoms and yourself enjoying good health and prosperity. / I remain yours Truly" -->
-
-         <pb facs="uva.00165.005" xml:id="leaf003r" type="recto"/>
-
-         <lg
-              >
-            <head type="main-derived">A lesser proof than old Voltaire's</head>
-
-            <l>
-               A lesser proof than <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">Keen</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="supralinear" rend="unmarked">old</add> 
-                     </rdg>
-                  </subst>
-Voltaire's, yet<lb/>
-               greater,<lb/>
-            </l>
-
-            <l>
-               Proof of <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">to-day</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="supralinear" rend="unmarked">th<del rend="overwrite">e</del>
-                           <add place="over" rend="overwrite">is</add> present time</add> 
-                     </rdg>
-                  </subst>
-and thee, thy broad expanse,<lb/>
-               America:<lb/>
-            </l>
-
-            <l>
-               To my plain northern hut in outside clouds<lb/>
-               and snow,<lb/>
-            </l>
-
-            <l>
-Brought <add place="supralinear" rend="insertion">safely</add> for a thousand miles oer land and tide,</l>
-
-            <l>
-               Some three days since on their own soil<lb/>
-               live sprouting<lb/>
-            </l>
-
-            <l>
-               Now here <del rend="overstrike">on</del> their sweetness through my room<lb/>
-               unfolding,<lb/>
-            </l>
-
-            <l>A bunch of orange buds by mail from Florida</l>
-
-         </lg>
-         <pb facs="uva_jc.00277_large" xml:id="leaf003v"
-             type="verso"/>
-      </body>
-   </text>
+   <pb xml:id="leaf001v" facs="uva.00165.004.jpg" type="verso"/>
+   <note hand="#h03" place="top">Walt Whitman,
+   Camden,
+   New Jersey.</note>
+   
+   <note hand="#h04" type="archival" place="bottom">b1-7-3829a (81)</note>
+   
+   <pb xml:id="leaf002r" facs="uva.00165.001.jpg" type="recto"/>
+   <lg>
+    <head type="main" rend="underline">Orange buds by mail</head>
+    <l>A lesser proof than <del rend="overstrike"><add place="below">phrase of</add></del> Kan Voltaire's, yet greater</l>
+    <l><del rend="overstrike">Not as the Keen Voltaire,</del></l>
+    <l>A lesser proof <add place="below"><metamark target="#a004" function="add">&#8248;</metamark></add><add place="above" xml:id="a004">than his</add> yet greater</l>
+    <l><subst><del rend="overstrike" seq="1">In</del><add place="above" seq="2">to</add></subst> my <subst><del rend="overstrike" seq="1">poor</del><add place="above" seq="2">plain</add></subst> northern hut in <add place="below"><metamark target="#a005" function="add">&#8248;</metamark></add><add place="above" xml:id="a005">outside</add> clouds and snow</l>
+    <l>Proof of to-day <subst><del rend="overstrike" seq="4"><add place="above" seq="1">the <add place="below" seq="2"><metamark target="#a006" function="add">&#8248;</metamark></add><add place="above" xml:id="a006" seq="3">present</add> time</add></del></subst> and thee America</l>
+    <l>Some three days since on their own<lb/> branches <gap extent="one word" reason="illegible"/> growing</l>
+    <l>Now here their sweetness through my room diffuses</l>
+    <l>A bunch of orange buds from Florida</l>
+    <l>Brought for a thousand miles o'er land and tide</l>
+   </lg>
+   
+   
+   <pb xml:id="leaf002v" facs="uva.00165.002.jpg" type="verso"/>
+   
+</body>
+</text>
 </TEI>
