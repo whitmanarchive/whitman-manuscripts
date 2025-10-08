@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00318"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main" >An Old Man's Rejoinder</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+
+     <persName xml:id="ja">JC Andrews</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2025</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>yal.00318</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+     <note type="work_relations" target="xxx." cert="high">
+      <p></p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     
+<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
+       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
+     <date notBefore="" notAfter="" cert=""></date>
+     
+     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     
+
+     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
+     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
+     <relatedItem type="document" target="wwa.00041"/>
+     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h05" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
+    <handNote medium="blue ink" xml:id="h02" resp="#ww"/>
+    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h04" resp="#ww"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+
+ <change when="2025-10-08" who="#ja">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+
+   <pb xml:id="leaf001r" facs="yal.00318.001_large.jpg" type="recto"/>
+   <head type="main" rend="Underline">An old man's rejoinder.</head>
+   <note type="archival" place="top" hand="#h05">520</note>
+   <p hand="#h04">In the domain <del rend="overstrike" hand="#h04">and</del><add place="below"><metamark target="#a001" function="add">&#8248;</metamark></add><add place="above" xml:id="a001" hand="#h02">of Literature<add hand="#h01" place="inline">,</add></add> loftily considered<add hand="#h01" place="inline">,</add>
+   <retrace cause="emphasis" hand="#h03">(</retrace>an accomplished and veteran critic <add place="below" hand="#h01"><retrace cause="emphasis" hand="#h03"><metamark target="#a002" function="add">&#8248;</metamark></retrace></add><add xml:id="a002" hand="#h01">in his just out work <retrace cause="emphasis" hand="#h03"><metamark target="#a003" function="add">*</metamark></retrace></add> now says<retrace cause="emphasis" hand="#h03">)</retrace>
+   of Literature, "the Kingdom of the Father
+   has passed: the Kingdom of the Son is passing;
+   the Kingdom of the Spirit begins." Leaving</p>
+   
+   <addSpan rend="pasteon" spanTo="#a007"/>
+   <p xml:id="a003">Two new Volumes, <hi rend="Underline" hand="#h03">"Essays Speculative
+   and Suggestive<add place="inline" hand="#h03">,</add>"</hi> by John
+   Addington Symonds. One of the
+   Essays is on "Democratic Art" in
+   which I and my books are <add place="below" hand="#h02"><metamark target="#a004" function="add">&#8248;</metamark></add><add place="above" hand="#h02">largely</add> alluded
+   to and cited and dissected. It is this
+   part of the Vols. that <subst><del rend="overstrike" hand="#h02" seq="1">have given</del><add place="above" hand="#h02" seq="2">has caused</add></subst> off-hand
+   the lines <subst><del rend="overstrike" hand="#h02" seq="1">here printed</del><add hand="#h02" seq="2">above&#8212;</add></subst>&#8212;<add place="inline" hand="#h03">(</add>first
+   thanking Mr S. for his invariable
+   courtesy of <add place="below" hand="#h02"><metamark target="#a005" function="add">&#8248;</metamark></add><add place="above" hand="#h03" xml:id="a005">personal</add>treatment<add hand="#h03" place="inline">)</add>
+   <add><metamark>&#182;</metamark></add>The <subst hand="#h01"><del rend="overstrike" seq="1">books</del><add place="above" seq="2">"Essays"</add></subst> are <add place="below" hand="#h01"><metamark target="#a006" function="add">&#8248;</metamark></add><add place="above" xml:id="a006" hand="#h01">remarkably</add> fine specimens
+   of type, paper and press-work&#8212;
+   Chapman and Hall their English
+   publishers&#8212;and jobb'd here by
+   Scriber, New York.</p><anchor xml:id="a007"/>
+   <metamark rend="marked" place="margin"><add hand="#h03">note in smaller type at bottom of page</add></metamark>
+
+   <pb xml:id="leaf001v" facs="yal.00318.002_large.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>
