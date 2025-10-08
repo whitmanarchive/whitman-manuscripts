@@ -65,23 +65,20 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     <title>"Orange Buds by Mail from Florida," Three variants of the poem</title>  
      
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date notBefore="" notAfter="" cert=""></date>
+
+     <date when="1887" cert="high">1887</date>
      
-     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     <idno type="callno">#3829-a</idno>
      
-<!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
-      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
+
      <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
-     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-     <relatedItem type="document" target="wwa.00041"/>
-     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+     <relatedItem type="text" xml:id="rel01" target="uva.00459"/>
+     <relatedItem type="document" target="wwa.00089"/>
+     <note type="project" target="#rel01">On the verso of the second leaf is a letter from G. M. Williamson to Walt Whitman dated 1 June 1887.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
@@ -90,7 +87,7 @@
     <handNote medium="pencil" xml:id="h01" resp="#ww"/>
     <handNote medium="black ink" xml:id="h02" resp="#ww"/>
     <handNote medium="black ink" xml:id="h03" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
-     <handNote medium="pencil" xml:id="h04" resp="#unk"></handNote>
+     <handNote medium="pencil" xml:id="h04" resp="#unk1"><name xml:id="unk1">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
@@ -109,15 +106,15 @@
    
    <pb xml:id="leaf001r" facs="uva.00165.003.jpg" type="recto"/>
    <head type="main" rend="underline">Orange Buds by Mail from Florida</head>
-   <p rend="bracketed">Voltaire closed a famous argument by
+   <note type="authorial" hand="#h01" place="inline">[Voltaire closed a famous argument by
    <subst><del rend="overstrike" seq="1">saying</del><add place="above" seq="2">claiming</add></subst> that a ship of war and the
    grand opera were <del rend="overstrike">the most signal</del>
    proofs <add place="below"><metamark target="#a001" function="add">&#8248;</metamark></add><add place="above" xml:id="a001">enough</add> of civilization's <add place="below"><metamark target="#a002" function="add">&#8248;</metamark></add><add place="above" xml:id="a002">and France's</add> <del rend="overstrike">height</del>
-   progress his <subst><del rend="overstrike" seq="1">day</del><del rend="overstrike" seq="3"><add place="above" seq="2">time</add></del><add place="below" seq="4" hand="#h02"><metamark target="#a003" function="add">&#8248;</metamark></add><add place="above" seq="4" hand="#h02">day</add></subst></p>
+   progress his <subst><del rend="overstrike" seq="1">day</del><del rend="overstrike" seq="3"><add place="above" seq="2">time</add></del><add place="below" seq="4" hand="#h02"><metamark target="#a003" function="add">&#8248;</metamark></add><add place="above" seq="4" hand="#h02">day</add></subst>]</note>
    <note type="authorial" hand="#h02" rend="circled" place="right">sent to H March 17</note>
 
    <pb xml:id="leaf001v" facs="uva.00165.004.jpg" type="verso"/>
-   <note hand="#h03" place="top">Walt Whitman,
+   <note type="editorial" hand="#h03" place="top">Walt Whitman,
    Camden,
    New Jersey.</note>
    
@@ -126,20 +123,41 @@
    <pb xml:id="leaf002r" facs="uva.00165.001.jpg" type="recto"/>
    <lg>
     <head type="main" rend="underline">Orange buds by mail</head>
-    <l>A lesser proof than <del rend="overstrike"><add place="below">phrase of</add></del> Kan Voltaire's, yet greater</l>
-    <l><del rend="overstrike">Not as the Keen Voltaire,</del></l>
-    <l>A lesser proof <add place="below"><metamark target="#a004" function="add">&#8248;</metamark></add><add place="above" xml:id="a004">than his</add> yet greater</l>
-    <l><subst><del rend="overstrike" seq="1">In</del><add place="above" seq="2">to</add></subst> my <subst><del rend="overstrike" seq="1">poor</del><add place="above" seq="2">plain</add></subst> northern hut in <add place="below"><metamark target="#a005" function="add">&#8248;</metamark></add><add place="above" xml:id="a005">outside</add> clouds and snow</l>
-    <l>Proof of to-day <subst><del rend="overstrike" seq="4"><add place="above" seq="1">the <add place="below" seq="2"><metamark target="#a006" function="add">&#8248;</metamark></add><add place="above" xml:id="a006" seq="3">present</add> time</add></del></subst> and thee America</l>
-    <l>Some three days since on their own<lb/> branches <gap extent="one word" reason="illegible"/> growing</l>
-    <l>Now here their sweetness through my room diffuses</l>
-    <l>A bunch of orange buds from Florida</l>
+    <l>A lesser proof than <del rend="overstrike"><add place="below">phrase of</add></del> Keen Voltaire's, yet greater</l>
+    <l xml:id="tr001"><del rend="overstrike">Not as the Keen Voltaire,</del></l>
+    <l xml:id="tr002"><del rend="overstrike">A lesser proof <add place="below"><metamark target="#a004" function="add">&#8248;</metamark></add><add place="above" xml:id="a004">than his</add> yet greater</del></l>
+    <l xml:id="tr003"><subst><del rend="overstrike" seq="1">In</del><add place="above" seq="2">to</add></subst> my <subst><del rend="overstrike" seq="1">poor</del><add place="above" seq="2">plain</add></subst> northern hut in <add place="below"><metamark target="#a005" function="add">&#8248;</metamark></add><add place="above" xml:id="a005">outside</add> clouds and snow</l>
+    <l xml:id="tr004">Proof of to-day <subst><del rend="overstrike" seq="4"><add place="above" seq="1">the <add place="below" seq="2"><metamark target="#a006" function="add">&#8248;</metamark></add><add place="above" xml:id="a006" seq="3">present</add> time</add></del></subst> and thee <add place="below"><metamark target="#a007" function="add">&#8248;</metamark></add><add place="above" xml:id="a007">thy braod expanse</add> America</l>
+    <listTranspose>
+     <transpose rend="marked">
+      <ptr target="#tr004"/>
+      <ptr target="#tr001"/>
+      <ptr target="#tr002"/>
+      <ptr target="#tr003"/>
+     </transpose>
+    </listTranspose>
+    <l>Some three days since on their own<lb/> <subst><del rend="overstrike" seq="1">branches <gap extent="one word" reason="illegible"/> growing</del><add place="above" seq="2">soil live sprouting</add></subst></l>
+    <l>Now here their sweetness through my room <del rend="overstrike"><add place="above">the air</add></del> diffuses</l>
+    <l>A bunch of orange buds <add place="below"><metamark target="#a008" function="add">&#8248;</metamark></add><add place="above" xml:id="a008">by mail</add> from Florida</l>
     <l>Brought for a thousand miles o'er land and tide</l>
    </lg>
    
    
    <pb xml:id="leaf002v" facs="uva.00165.002.jpg" type="verso"/>
    
+   <pb xml:id="leaf003r" facs="uva.00165.005.jpg" type="recto"/>
+   <lg>
+    <l>A lesser proof than <subst><del rend="overstrike" seq="1">Keen</del><add place="above" seq="2">old</add></subst> Voltaire's, yet<lb/> greater</l>
+    <l>Proof of <subst><del rend="overstrike" seq="1">to-day</del><add place="above" seq="2">this present time</add></subst> and thee, thy broad expanse,<lb/> America:</l>
+    <l>To my plain northern hut in outside clouds<lb/> and snow</l>
+    <l>Brought <add place="below"><metamark target="#a009" function="add">&#8248;</metamark></add><add place="above" xml:id="a009">safely</add> for a thousand miles oer land and tide,</l>
+    <l>Some three days since on their own soil<lb/> live sprouting</l>
+    <l>Now here <del rend="overstrike">on</del> their sweetness through my room<lb/> unfolding</l>
+    <l>A bunch of orange buds by mail from Florida</l>
+   </lg>
+   
+   <pb xml:id="leaf003v" facs="uva_jc.00277_large.jpg" type="verso"/>
+   <note type="archival" hand="#h04" place="bottom">B1-7-3829a(85)</note>
 </body>
 </text>
 </TEI>
