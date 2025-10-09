@@ -1,19 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00164">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00164"> 
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="m" type="main">Old Age's lambent Peaks
-</title>
+            
+            <title level="m" type="main" rend="bracketed">Old Age's lambent Peaks</title>
             <title level="m" type="sub">a machine readable transcription</title>
             <author>Walt Whitman</author>
-            <editor role="editor">Kenneth M. Price</editor>
-            <editor role="editor">Ed Folsom</editor>
+            <editor>Kenneth M. Price</editor>
+            <editor>Ed Folsom</editor>
+            <editor>Matt Cohen</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="nhg">Nicole Gray</persName>
-               <persName xml:id="sb">Sandy Byrd</persName>
-               <persName xml:id="ap">Ashley Price</persName>
+               
+               <persName xml:id="cm">Cynthia Mbagwu</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -21,12 +24,12 @@
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2003</date>
+               <date>2025</date>
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>uva.00164</idno>
-            <distributor>The Walt Whitman Archive</distributor>
+            
+            <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
                <addrLine>319 Love Library</addrLine>
@@ -35,169 +38,82 @@
                <addrLine>Lincoln, NE 68588-4100</addrLine>
             </address>
             <availability>
-               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+               <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+               <p>
+                  The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+                  <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+                  (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
+            
+            
+            <idno>uva.00164</idno>
          </publicationStmt>
+         <notesStmt>
+            <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+            
+            
+            <note type="work_relations" target="xxx.00375" cert="high">
+               <p></p>
+            </note>
+         </notesStmt>
+         
          <sourceDesc>
             <bibl>
-               <author> Walt Whitman </author>
-               <title>
-	<!-- TITLE UNDER WHICH THE MS IS HELD AT THE REPOSITORY;	-->
-	<!-- EXAMPLE: Papers of Walt Whitman				-->
-
-</title>
-               <idno type="callno">
-	<!-- THE REPOSITORY'S ID CODE FOR THE MATERIAL, IF ANY, CAN BE	-->
-	<!-- ENTERED HERE. THE VALUE OF 'TYPE' CAN BE ALTERED TO FIT	-->
-	<!-- THE TYPE OF ID NUMBER USED; EXAMPLE: MSS 3829    		-->
-		
-</idno> 
-               <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName> 
-
-               <note type="project">Transcribed from digital images of the original.</note>
+               <author xml:id="ww">Whitman, Walt</author>
+               
+               <title>Old age's lambent peaks</title>  
+               
+               <date when="1888" cert="high">1888</date>
+               
+               <idno type="callno">MSS 3829 (18 Folders)</idno>
+               
+               <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
+               
+               <note>Transcribed from digital images of the original.</note>
+               
+               <note type="project" target="#rel01">The verso is blank.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+            <handNote medium="pencil" xml:id="h02" resp="#ww"/>
+         </handNotes>
+      </profileDesc>
       <revisionDesc>
-         <change who="#nhg" when="2016-05-02">converted to P5</change>
-         <change who="#sb" when="2006-10-26">converted to camel case, edited,revised</change>
-         <change who="#ap" when="2003-05-30">Encoded</change>
-         <change who="#ap" when="2003-05-30">Transcribed</change>
+         
+         <change when="2025-10-08" who="#cm">transcribed and encoded</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   
+   <text type="manuscript">
+      
       <body>
-
-	
-
-         <pb facs="uva.00164.001" xml:id="leaf001r" type="recto"/>
-         <lg
-              >
-            <note type="authorial"
-                  place="top"
-                  rend="circled">
-               <p>sent to century</p>
-               <p>accepted—paid</p>
-            </note>
-            <head type="main-authorial" rend="underline">Old Age's <del rend="overstrike">
-                  <note type="authorial"
-                        place="supralinear">?</note> its</del> 
-               <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">Mountain</del> 
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="supralinear">lambent</add> 
-                  </rdg>
-               </subst>Peak</head>
-
-            <l>
-               The touch of flame, the illuminating fire, the<lb/>
-               
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">lofty</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">loftiest</add> 
-                     </rdg>
-                  </subst>
-                  <del rend="overstrike">over</del>look at last.<lb/>
-            </l>
-            <l>
-               
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">On</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">O'er</add> 
-                     </rdg>
-                  </subst>city, passion, sea,—<subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">on</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">—o'er</add> 
-                     </rdg>
-                  </subst>prairie, mountain,<lb/>
-               wood—the earth itself;<lb/>
-            </l>
-            <l>
-               The airy, <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">luminous,</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">different,</add> 
-                     </rdg>
-                  </subst>changing hues of all, in<lb/>
-               falling twilight,<lb/>
-            </l>
-            <l>Objects and groups, bearings, faces, reminiscences,</l>
-            <l>
-               The calmer sight—the golden setting, clear<lb/>
-               and broad;<lb/>
-            </l>
-            <l>
-               So much i' the atmosphere, <del rend="overstrike">
-                     <add rend="insertion" place="supralinear">the age,</add>
-                  </del>the points of view,<lb/>
-               the situation<add rend="unmarked" place="inline">s whence we scan.</add>
-               <lb/>
-            </l>
-            <l>
-               Bro't out by them <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">at last</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">alone</add> 
-                     </rdg>
-                  </subst>—so much (perhaps<lb/>
-               the best) unreck'd before,<lb/>
-            </l>
-            <l>
-               The <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">best</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">light</add> 
-                     </rdg>
-                  </subst>indeed <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">on</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <del rend="overstrike">
-                           <add rend="unmarked" place="supralinear">by</add>
-                        </del> 
-                     </rdg>
-                     <rdg varSeq="3">
-                        <add rend="unmarked" place="supralinear">
-                           <note type="authorial" place="inline">?</note>from <del rend="overstrike">
-                              <note type="authorial" place="inline">?</note> of</del>
-                        </add> 
-                     </rdg>
-                  </subst>them—old age's <del rend="overstrike">its</del>
-                  <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">mountain</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">lambent</add> 
-                     </rdg>
-                  </subst>
-               <lb/>
-               peaks<lb/>
-            </l>
-            <signed>
-               <hi rend="underline">Walt Whitman</hi>
-            </signed>
-
-
-
+         
+         <pb xml:id="leaf001r" facs="uva.00164.001.jpg" type="recto"/>
+         
+  <lg>
+  <note type="authorial" place="top" rend="circled">Sent to Century accepted—paid</note>
+            
+  <head type="main" rend="underline">Old Age's <del hand="#h01" rend="overstrike"> its</del> <subst hand="#h01"><del seq="1" rend="overstrike">Mountain</del><add place="above" seq="2">Lambent</add></subst> Peak</head>
+            
+  <l>The touch of flame, the illuminating fire, the<lb/> <subst><del hand="#h01" rend="overstrike" seq="1">lofty</del><add hand="#h02" place="above" seq="2">loftiest</add></subst> <del hand="#h01" rend="overstrike">over</del>look at last.</l>
+  <l><subst hand="#h01"><del rend="overstrike" seq="1">On</del><add seq="2" place="above">O'er</add></subst> city, passion, sea,—<subst hand="#h01"><del rend="overstrike" seq="1">on</del> <add seq="2" place="above">—o'er</add></subst> prairie, mountain,<lb/> wood—the earth itself;</l>
+  <l>The airy, <subst hand="#h01"><del rend="overstrike" seq="1">luminous,</del><add seq="2" place="above">different,</add></subst> changing hues of all, in<lb/> falling twilight,</l>
+  <l>Objects and groups, bearings, faces, reminiscences,</l>
+  <l>The calmer sight—the golden setting, clear<lb/> and broad;</l>
+  <l>So much i' the atmosphere, <add hand="#h01" place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" hand="#h01" xml:id="a001"><del rend="overstrike">the age,</del></add> the points of view,<lb/> the situation<add hand="#h02">s whence we scan.</add></l>
+  <l>Bro't out by them <subst hand="#h01"><del rend="overstrike" seq="1">at last</del><add seq="2" place="above">alone</add></subst>—so much (perhaps<lb/> the best) unreck'd before,</l>
+  <l>The <subst hand="#h02"><del rend="overstrike" seq="1">best</del><add seq="2" place="above">light</add></subst> indeed 
+     <subst><del hand="#h01" rend="overstrike" seq="1">on</del><add hand="#h02" place="above" seq="2"><del hand="#h02" rend="overstrike" seq="3">by</del><add hand="#h02" place="above">? from <del hand="#h02" rend="overstrike">? of</del></add></add></subst> 
+     them—old age's <del rend="overstrike">its</del> <subst hand="#h01"><del rend="overstrike" seq="1">mountain</del><add seq="2" place="above">lambent</add></subst><lb/> peaks.</l>
+     <byline><hi rend="underline">Walt Whitman</hi></byline>
+            
+           
+            
+            
+            
          </lg>
       </body>
    </text>
