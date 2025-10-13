@@ -2,7 +2,7 @@
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00353"> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00334"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -47,13 +47,13 @@
     </availability>
     
 
-   <idno>yal.00353</idno>
+   <idno>yal.00334</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
     
-    <note type="work_relations" target="xxx.00866" cert="high">
+    <note type="work_relations" target="xxx.00589" cert="high">
       <p></p>
      </note>
    </notesStmt>
@@ -62,12 +62,12 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>"Preface, holograph manuscript, corrected and signed, [ca. 1891]</title>  
+     <title>"The Van Velsors," holograph manuscript and clipping, corrected, n.d.</title>  
      
 
-     <date when="1891" cert="high">1891</date>
+     <date when="1873" cert="high">1873</date>
      
-     <idno type="callno">YCAL MSS 202, Series V, Box: 3, Folder: 167</idno>
+     <idno type="callno">YCAL MSS 202, Series V, Box: 3, Folder: 125</idno>
      
 
      <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
@@ -79,24 +79,55 @@
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="printed type" xml:id="h01" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
-    <handNote medium="pencil" xml:id="h02" resp="#ww" scope="minor"/>
-    <handNote medium="black ink" xml:id="h03" resp="#ww" scope="minor"/>
+   
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="printed type" xml:id="h02" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
+    <handNote medium="red ink" xml:id="h03" resp="#ww" scope="minor"/>
     <handNote medium="pencil" xml:id="h04" resp="#unk2" scope="minor"><name xml:id="unk2">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
- <change when="2025-08-27" who="#cm">transcribed and encoded</change>
+ <change when="2025-10-13" who="#cm">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
-  <body xml:id="j003">
+  <body>
+  
    
+   <pb xml:id="leaf001r" facs="yal.00334.001_large.jpg" type="recto"/>
+   
+   <note hand="#h03" type="authorial" place="left">book</note>
+   <note hand="#h03" type="authorial" place="top">3</note>
+   
+   <head><hi rend="underline">The Van Velsor. <del rend="overstrike">The Maternal Side.</del></hi></head>
+   <note hand="#h04" type="archival" place="left">541</note>
+   
+   <addSpan rend="pasteon" hand="#h02" spanTo="#a001"/>
+   <floatingText>
+    <body>
+     <p>The poet<subst  hand="#h01"><del rend="overstrike" seq="1">s'</del><add seq="2" place="above">'s</add></subst> mother, Louisa Van Velsor, <add hand="#h01" place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add hand="#h01" place="left" rend="marked" xml:id="a003">born Sept. 22, 1795,</add> was of Dutch descent, her <add hand="#h02"><metamark function="delete" target="#d001" place="left">&#948;</metamark></add>ancestors<del hand="#h01" rend="overstrike" xml:id="d001">,</del> a race of sea folks and mariners<add hand="#h01">.</add> <del>being genuine Hollanders.</del> The Van Velsors were also passionately fond of <subst hand="#h01"><del rend="overstrike" seq="1">books,</del><add place="left" seq="2">horses</add></subst> and Louisa, when a girl, was a daring and spirited rider. As a woman, she was<add hand="#h01" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><del rend="erasure"><add hand="#h01" place="right">in</add></del><del rend="erasure"><add hand="#h01" place="right">of s</add></del><add hand="#h01" place="right" rend="marked">of marked spiritual and intuitive nature, <del rend="overstrike" hand="#h01">yet</del></add> healthy and strong, possessed of a kind and generous heart, <del hand="#h01" rend="overstrike">and</del> good sense, <retrace cause="emphasize" hand="#h01">,</retrace> <subst hand="#h01"><del rend="overstrike" seq="1">she was</del><add place="above" seq="2">and</add></subst> cheerful and equable in temper<add hand="#h01">.</add>
+     </p>
+    </body>   
+   </floatingText>
+   <anchor xml:id="a001"/>
 
-   <pb xml:id="leaf001r" facs="yal.00353.001_large.jpg" type="recto"/>
    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
    <note type="editorial" place="top" hand="#h04">525</note>
    
    <metamark function="adjust" target="#j003"><add place="top" hand="#h04">Bourgeois</add></metamark>
