@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00353"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main">Walt Whitman's Last</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+
+     <persName xml:id="cm">Cynthia Mbagwu</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2025</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>yal.00353</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+    <note type="work_relations" target="xxx.00866" cert="high">
+      <p></p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>"Preface, holograph manuscript, corrected and signed, [ca. 1891]</title>  
+     
+
+     <date when="1891" cert="high">1891</date>
+     
+     <idno type="callno">YCAL MSS 202, Series V, Box: 3, Folder: 167</idno>
+     
+
+     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+   
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="printed type" xml:id="h01" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
+    <handNote medium="pencil" xml:id="h02" resp="#ww" scope="minor"/>
+    <handNote medium="black ink" xml:id="h03" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h04" resp="#unk2" scope="minor"><name xml:id="unk2">Unknown</name></handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2025-08-27" who="#cm">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body xml:id="j003">
+   
+
+   <pb xml:id="leaf001r" facs="yal.00353.001_large.jpg" type="recto"/>
+   
+   <note type="editorial" place="top" hand="#h04">525</note>
+   
+   <metamark function="adjust" target="#j003"><add place="top" hand="#h04">Bourgeois</add></metamark>
+   
+   <note type="editorial" place="top" hand="#h04">Robson</note>
+   
+   <head type="main">W<del hand="#h03" rend="overstrike">H</del>ALT WHITMAN'S LAST<add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">*</add><del rend="overstrike" hand="#h03">&#8212;GOOD-BYE MY FANCY</del>.</head>
+   <addSpan hand="#h03" spanTo="#a002"/><metamark function="adjust" target="#j001">&#182;</metamark><head type="sub" xml:id="j001">"Good Bye my Fancy"&#8212;concluding annex to <hi rend="underline">Leaves of Grass.</hi></head><metamark function="emphasize" target="#j001">)</metamark><metamark rend="marked"  function="adjust" target="#j001">in one line italic &amp; s c</metamark><anchor xml:id="a002"/>
+   
+   <metamark function="emphasize" target="#e001"><add hand="#h03">&#948;</add></metamark><p xml:id="e001">H. Heine's first principle<del hand="#h03" rend="overstrike" xml:id="d001">s</del><add place="right" hand="#h03"><metamark function="delete" target="d001"></metamark></add> of criticising a book was, <add hand="#h03"><metamark function="delete" target="#d002" place="left">&#948;</metamark></add>what motive<del hand="#h03" rend="overstrike" xml:id="d002">s</del> is the author trying to carry out, or express or accomplish? and the second, Has he achieve<subst><del hand="#h03" rend="overstrike">e</del><add place="right" xml:id="a004">'<metamark function="add" target="#a004">&#711;</metamark></add></subst>d<subst hand="#h03"><del rend="overstrike">them</del><add place="above">it</add></subst>?</p>
+   
+   <metamark function="adjust" target="#j002"><add hand="#h03">&#182;</add></metamark><p xml:id="j002">The theory of <add hand="#h03" place="below"><metamark function="add" target="#a003" place="below">&#8248;</metamark></add><add place="above" hand="#h03" xml:id="a003">my</add>"Leaves of Grass" <subst hand="#h03"><del rend="overstrike">as an utterance or</del><add place="above">a</add></subst> composition of verses <add hand="#h03"><metamark function="emphasize" target="#d003">(</metamark></add><del hand="#h03" rend="overstrike" xml:id="d003">we are authentically informed</del><add hand="#h03"><metamark function="emphasize" target="#d003">)</metamark></add><add hand="#h03" place="left"><metamark function="delete" target="#d003"></metamark></add> has been from first to last, <add place="below" hand="#h03"><metamark function="add" target="#a005">&#8248;</metamark></add><add hand="#h03" place="top" rend="marked">(if I am to give impromptu a hint a hint of the spinal marrow of the business, and sign it with my name,)</add> to thoroughly possess the mind, memory, cognizance of the author himself<add place="below" hand="#h03"><metamark function="add" target="#a005">&#8248;</metamark></add><add hand="#h03" place="left" xml:id="a005">,<metamark function="emphasize" target="#a005">/</metamark></add> with everything beforehand<add place="below" hand="#h03"><metamark function="add" target="#a006">&#8248;</metamark></add><add hand="#h03" place="above" xml:id="a006">&#8212;<metamark function="emphasize" target="#a006">/</metamark></add>a full armory of concrete actualities, observations<add place="below" hand="#h03"><metamark function="add" target="#a007">&#8248;</metamark></add><add hand="#h03" place="above" xml:id="a007">,<metamark function="add" target="#a007">/</metamark></add> humanity, past poems, ballads, facts, technique<add place="below" hand="#h03"><metamark function="add" target="#a008">&#8248;</metamark></add><add hand="#h03" place="left" xml:id="a008">,<metamark function="emphasize" target="#a008">/</metamark></add> war and peace, politics<add place="below" hand="#h03"><metamark function="add" target="#a009">&#8248;</metamark></add><add hand="#h03" place="right" xml:id="a009">,<metamark function="emphasize" target="#a009">/</metamark></add> north and south<add place="below" hand="#h03"><metamark function="add" target="#a010">&#8248;</metamark></add><add hand="#h03" place="right" xml:id="a010">,<metamark function="emphasize" target="#a010">/</metamark></add> east and west, nothing too large or too small, the sciences as far as possible&#8212;and above all <gap reason="deleted" extent="one word"/> <subst><del hand="#h03" rend="overstrike" xml:id="d004">merits</del><add place="left" hand="#h03"><metamark function="delete" target="#d004"></metamark></add><add place="above" hand="#h03">America and</add></subst> the present&#8212;after and out of which the subject of the poem, long or short, has been invariably turned over to his <subst hand="#h03"><del rend="overstrike">e</del><add place="above">E</add></subst>motionality, even Personality, to be shaped thence; and <subst hand="#h03"><del rend="overstrike">thence</del><add place="above">strictly therefore</add></subst>emerges<add place="below" hand="#h03"><metamark function="add" target="#a011">&#8248;</metamark></add><add hand="#h03" place="right" xml:id="a011">,<metamark function="emphasize" target="#a011">/</metamark></add> with all its merits and demirits on its head. Every page of <subst hand="#h03"><del rend="overstrike">Walt Whitman's poetry</del><add place="below">&#8248;<add place="above">my poetic or attempt at poetic utterance</add></add></subst>, therefore smacks of the living physical identity, date, environment, individuality, probably beyond anything known<add place="below" hand="#h03"><metamark function="add" target="#a012">&#8248;</metamark></add><add hand="#h03" place="right" xml:id="a012">,<metamark function="emphasize" target="#a012">/</metamark></add> and in style often offensive to the conventio<subst hand="#h03"><del rend="overstrike" seq="1">u</del><add place="right" xml:id="e002" seq="2">n<metamark function="emphasize" target="#e002">/</metamark></add></subst>s.</p>
+   
+   <metamark function="adjust" target="#j004"><add hand="#h03">&#182;</add></metamark><p xml:id="j004">This new last cluster<subst hand="#h03"><del rend="overstrike">"</del><add place="below">,</add></subst> <add hand="#h03" place="below"><metamark function="add" target="#a013">&#8248;</metamark></add><add hand="#h03" place="above" xml:id="a013">"<metamark function="emphasize" target="#a013">/</metamark></add>Good-Bye my Fancy" follows suit, and yet with a difference. The clef is here changed to its lowest, and the little book is a lot of tremulos about old age, death, and faith. The <subst hand="#h03"><del rend="overstrike" seq="1">physic</del><add place="above" seq="2">physical</add></subst> just lingers<add hand="#h03" place="below"><metamark function="add" target="#a014">&#8248;</metamark></add><add place="right" hand="#h03" xml:id="a014">,<metamark function="emphasize" target="#a014">/</metamark></add> but almost vanishes. <subst hand="#h03"><del rend="overstrike" seq="1">It</del><add place="above" xml:id="a015">The <del hand="#h03" rend="overstrike" seq="3">little</del> book</add></subst><add place="below" seq="2" hand="#h03"><metamark function="add" target="#a015">&#8248;</metamark></add> is garrulous, irascible( like old Lear) and has various breaks and even tricks to avoid monotony. It will have to be ciphered<add place="below" hand="#h03"><metamark function="add" target="#a016">&#8248;</metamark></add><add hand="#h03" place="above" xml:id="a016">and ciphered</add> out long&#8212;and is <add place="below" hand="#h03"><metamark function="add" target="#a017"></metamark>&#8248;</add><add hand="#h03" place="above" xml:id="a017">notably</add> in some respects the most curious part of <add hand="#h03"><metamark function="emphasize" target="#e003"><del hand="#h03" rend="overstrike">(</del></metamark></add><add hand="#h03" place="left"><metamark function="emphasize" target="#e003">stet)</metamark></add><seg xml:id="e003">its author</seg><add place="below" hand="#h03"><metamark function="add" target="#a018">&#8248;</metamark></add><add place="above" hand="#h03" xml:id="a018">,</add><add place="above" hand="#h03"><metamark function="emphasize" target="#a018">/</metamark></add>s<add hand="#h03"><metamark function="emphasize" target="e003"><del hand="#h03" rend="overstrike">)</del></metamark></add><add place="below" hand="#h03"><metamark function="emphasize" target="#e003">. . . . .</metamark></add><del><add place="below" hand="#h03">my</add></del> curious works.</p>
+   
+<signed hand="#h03">Walt Whitman</signed>
+
+<note place="bottom" type="archival" hand="#h04">Ha 154</note>
+   
+   
+  
+  
+   <pb xml:id="leaf001v" facs="yal.00353.002_large.jpg" type="verso"/>
+    <milestone unit="glued"/><note type="authorial" hand="#h03">proof-reader please read strictly by copy punctuation &amp; everything</note>
+   
+</body>
+</text>
+</TEI>
