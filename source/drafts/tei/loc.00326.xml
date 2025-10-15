@@ -92,20 +92,29 @@
   </profileDesc>
 <revisionDesc>
  
-<!-- IN THE FOLLOWING <CHANGE> ELEMENT EDIT THE @WHEN TO REFLECT TODAY'S DATE. IF YOU AREN'T TARA, CHANGE THE INITIALS AFTER THE POUND SIGN IN @WHO -->
- <change when="2024-01-20" who="#tb">transcribed and encoded</change>
+ <change when="2025-10-15" who="#kmh">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
-   <lg type="poem">
-     <l></l>
-     <l></l>
-     <l></l>
+   <pb xml:id="leaf001r" facs="P1010601.jpg" type="recto"/>
+      <head type="main" rend="doubleUnderline" hand="#h01"><hi rend="doubleUnderline" hand="#h03">November Boughs</hi></head>
+    <addSpan rend="pasteon" spanTo="#a001"/>
+     <lg type="poem">
+      <head type="main" hand="#h02"><hi rend="tripleUnderline" hand="#h03">YOU LINGERING SPARSE LEAVES OF ME.</hi></head>
+       <l>You lingering sparse leaves of me on winter-nearing boughs,</l>
+       <l>And I some well-shorn tree of field or orchard-row;</l>
+       <l>You tokens diminute and lorn&#8212;(not now the flush of May,<lb/> nor July clover-bloom&#8212;no grain of August now;)</l>
+       <l>You pallid banner-staves&#8211;&#8211;you pennants valueless&#8212;you over-<lb/>stay'd of time,</l>
+       <l>Yet my soul-dearest leaves&#8211;&#8211;the faithfulest&#8212;hardiest&#8212;last.</l>
+    <anchor xml:id="a001"/>
+     </lg>
+    <addSpan rend="pasteon" spanTo="#a002"/>
+     <lg type="poem">
+      <head type="main" hand="#h02">"GOING SOMEWHERE."</head>
+    <anchor xml:id="a002"/>
    </lg>
    
 <!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
