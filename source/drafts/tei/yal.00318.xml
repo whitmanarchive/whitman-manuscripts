@@ -62,22 +62,27 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     <title>Holograph manuscript, corrected</title>  
      
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date notBefore="" notAfter="" cert=""></date>
+
+     <date when="1890-08" cert="high">August 1890</date>
      
-     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     <idno type="callno">Box 3, folder 112</idno>
      
 
      <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
      
      <note>Transcribed from digital images of the original.</note>
       <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
-     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-     <relatedItem type="document" target="wwa.00041"/>
-     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+     <relatedItem type="text" xml:id="rel01" target="yal.00464"/>
+     <relatedItem type="document" target="wwa.00610"/>
+     <note type="project" target="#rel01">On the verso of the second leaf is a letter from Charles A. Burkhardt to Walt Whitman, dated 21 July 1890.</note>
+     <relatedItem type="text" xml:id="rel02" target="yal.00465"/>
+     <relatedItem type="document" target="wwa.00610"/>
+     <note type="project" target="#rel02">The verso manuscript of the third leaf is made up of 2 letters. One of them has a line through it and has been cut into 2 pieces. These pieces, along with this partial letter, are part of the manuscript.</note>
+     <relatedItem type="text" xml:id="rel03" target="yal.00466"/>
+     <relatedItem type="document" target="wwa.00610"/>
+     <note type="project" target="#rel03"></note>
     </bibl>
    </sourceDesc>
 </fileDesc>
@@ -85,7 +90,7 @@
    <handNotes>
     <handNote medium="black ink" xml:id="h01" resp="#ww"/>
     <handNote medium="pencil" xml:id="h05" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
-    <handNote medium="blue ink" xml:id="h02" resp="#ww"/>
+    <handNote medium="purple pencil" xml:id="h02" resp="#ww"/>
     <handNote medium="red ink" xml:id="h03" resp="#ww"/>
     <handNote medium="pencil" xml:id="h04" resp="#ww"/>
     <handNote medium="blue pencil" xml:id="h06" resp="#unk1"><name xml:id="unk1">Unknown</name></handNote>
@@ -105,14 +110,14 @@
    <pb xml:id="leaf001r" facs="yal.00318.001_large.jpg" type="recto"/>
    <head type="main" rend="Underline">An old man's rejoinder.</head>
    <note type="archival" place="top" hand="#h05">520</note>
-   <p>In the domain <del rend="overstrike" hand="#h04">and</del><add place="below"><metamark target="#a001" function="add">&#8248;</metamark></add><add place="above" xml:id="a001" hand="#h02">of Literature<add hand="#h01" place="inline">,</add></add> loftily considered<add hand="#h01" place="inline">,</add>
+   <p hand="#h04">In the domain <del rend="overstrike" hand="#h04">and</del><add place="below"><metamark target="#a001" function="add">&#8248;</metamark></add><add place="above" xml:id="a001" hand="#h02">of Literature<add hand="#h01" place="inline">,</add></add> loftily considered<add hand="#h01" place="inline">,</add>
    <retrace cause="emphasis" hand="#h03">(</retrace>an accomplished and veteran critic <add place="below" hand="#h01"><retrace cause="emphasis" hand="#h03"><metamark target="#a002" function="add">&#8248;</metamark></retrace></add><add xml:id="a002" hand="#h01">in his just out work <retrace cause="emphasis" hand="#h03"><metamark target="#a003" function="add">*</metamark></retrace></add> now says<retrace cause="emphasis" hand="#h03">)</retrace>
    of Literature, "the Kingdom of the Father
    has passed: the Kingdom of the Son is passing;
    the Kingdom of the Spirit begins." Leaving</p>
    
    <addSpan rend="pasteon" spanTo="#a007"/>
-   <p xml:id="a003">Two new Volumes, <hi rend="Underline" hand="#h03">"Essays Speculative
+   <p xml:id="a003" hand="#h02">Two new Volumes, <hi rend="Underline" hand="#h03">"Essays Speculative
    and Suggestive"<add place="inline" hand="#h03">,</add></hi> by John
    Addington Symonds. One of the
    Essays is on "Democratic Art" in
@@ -121,8 +126,8 @@
    part of the Vols. that <subst><del rend="overstrike" hand="#h02" seq="1">have given</del><add place="above" hand="#h02" seq="2">has caused</add></subst> off-hand
    the lines <subst><del rend="overstrike" hand="#h02" seq="1">here printed</del><add hand="#h02" seq="2">above&#8212;</add></subst>&#8212;<add place="inline" hand="#h03">(</add>first
    thanking Mr S. for his invariable
-   courtesy of <add place="below" hand="#h02"><metamark target="#a005" function="add">&#8248;</metamark></add><add place="above" hand="#h03" xml:id="a005">personal</add>treatment<add hand="#h03" place="inline">)</add>
-   <add><metamark>&#182;</metamark></add>The <subst hand="#h01"><del rend="overstrike" seq="1">books</del><add place="above" seq="2">"Essays"</add></subst> are <add place="below" hand="#h01"><metamark target="#a006" function="add">&#8248;</metamark></add><add place="above" xml:id="a006" hand="#h01">remarkably</add> fine specimens
+   courtesy of <add place="below" hand="#h02"><metamark target="#a005" function="add">&#8248;</metamark></add><add place="above" hand="#h03" xml:id="a005">personal</add>treatment<add hand="#h03" place="inline">)</add></p>
+   <p hand="#h04"><add hand="#h03"><metamark>&#182;</metamark></add>The <subst hand="#h01"><del rend="overstrike" seq="1">books</del><add place="above" seq="2">"Essays"</add></subst> are <add place="below" hand="#h01"><metamark target="#a006" function="add">&#8248;</metamark></add><add place="above" xml:id="a006" hand="#h01">remarkably</add> fine specimens
    of type, paper and press-work&#8212;
    Chapman and Hall their English
    publishers&#8212;and jobb'd here by
@@ -171,10 +176,10 @@
     Century, the thought and fact <add place="below" hand="#h01"><metamark target="#a019" function="add">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a019">and radiation</add> of individuality<add hand="#h01" place="inline">,</add><add place="below" hand="#h01"><metamark target="#a020" function="add">&#8248;</metamark></add><add place="above" hand="#h01" xml:id="a020">of</add> America<add hand="#h01" place="inline">,</add>
    the Secession war, and <add hand="#h01" place="below"><metamark target="#a021" function="add">&#8248;</metamark></add><add place="above" hand="#h01" xml:id="a021">showing the</add> democratic conditions supplanting
    every thing that insults them or impedes their <add place="below" hand="#h01"><metamark target="#a022" function="add">&#8248;</metamark></add><add place="above" xml:id="a022" hand="#h01">aggregate</add> way.
-    <hi>Doubtless my poems illustrate (one of thousands <add place="below" hand="#h01"><metamark target="#a023" function="add">&#8248;</metamark></add><add place="above" xml:id="a023" hand="#h01">novel</add> to come
+   <handShift new="#h02"/>Doubtless my poems illustrate (one of thousands <add place="below" hand="#h01"><metamark target="#a023" function="add">&#8248;</metamark></add><add place="above" xml:id="a023" hand="#h01">novel</add> to come
    for a long period) those conditions; but "democratic art"
    will have to wait long before it is satisfactorily formulated
-   and defined&#8212;if it ever is.</hi></p>
+   and defined&#8212;if it ever is.</p>
    
    <pb xml:id="leaf003v" facs="yal.00318.006_large.jpg" type="verso"/>
    
@@ -269,12 +274,73 @@
    <pb xml:id="leaf006v" facs="yal.00318.013_large.jpg" type="verso"/>
    
    <pb xml:id="leaf007r" facs="yal.00318.014_large.jpg" type="recto"/>
-   <p>Boundless material wealth, free
+   <note hand="#h03" place="above" type="authorial">6</note>
+   <p><add hand="#h01" place="below"><metamark target="#a028" function="add">&#8248;</metamark></add><add place="above" hand="#h01" xml:id="a028">Then the thought at the centre, <add hand="#h01" place="below"><metamark target="#a029" function="add">&#8248;</metamark></add><add place="above" hand="#h01" xml:id="a029" rend="marked"><hi rend="Underline">never</hi> too often <del rend="overstrike"><gap extent="one word" reason="illegible"/></del></add> <del rend="overstrike">ever</del> repeated:</add>Boundless material wealth, free
    political organization, immense
    geographic area, and unprecedented
    "business" and products&#8212;even the most
    active intellect and "culture"&#8212;will not
-   place this Commonweal </p>
+   place this Commonweal of ours on the
+   topmost range of history and humanity<add hand="#h01" place="inline">&#8212;</add><add hand="#h01" place="below"><metamark target="#a030" function="add">&#8248;</metamark></add><add hand="#h01" place="above" rend="marked" xml:id="a030">or any eminence of "democratic art"&#8212;to say nothing <add hand="#h01" place="below"><metamark target="#a031" function="add">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a031">of it</add> pinnacle.</add>
+   Only the production, (and on the most
+   copious scale) <add hand="#h04" place="below"><metamark target="#a032" function="add">&#8248;</metamark></add><del hand="#h01" rend="overstrike"><add place="above" hand="#h03" xml:id="a032">first,</add></del> of loftiest moral, spiritual
+   and heroic <add hand="#h03" place="below"><metamark target="#a033" function="add">&#8248;</metamark></add><add hand="#h03" place="above" xml:id="a033">personal</add>illustrations<add place="below" hand="#h02"><metamark target="#a034" function="add">&#8248;</metamark></add><add place="bottom" hand="#h02" xml:id="a034"><del hand="#h01" rend="overstrike">&#8212;second,</del><add hand="#h01" place="inline">&#8212;</add>a great nature of Literature headed with a Poetry <del rend="overstrike" hand="#h02">than</del> stronger and <del hand="#h02" rend="overstrike">str</del> sweeter than any yet.</add> If there
+   is any such thing as a Kosmic modern
+   and original <subst hand="#h01"><del rend="overstrike" seq="1">poem,</del><add place="above" seq="2">song,</add></subst>, America needs it
+   and is worthy of it</p>
+   <metamark place="bottom"><add hand="#h02">take in</add></metamark>
+   
+   <pb xml:id="leaf007v" facs="yal.00318.015_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf008r" facs="yal.00318.016_large.jpg" type="recto"/>
+   <note hand="#h03" place="above" type="authorial">7</note>
+   <p>In my opinion to-day what is
+    meant <add place="below"><metamark target="#a035" function="add">&#8248;</metamark></add><add place="above" xml:id="a035">through civilized nations everywhere</add> by the great words, <hi rend="tripleUnderline">L</hi>iterature, Art,
+    Religion,&amp;c., with their <add place="below"><metamark target="#a036" function="add">&#8248;</metamark></add><add place="above" xml:id="a036">conventional</add> administerers, stand
+   squarely in the way of what the vitalities
+   of those great words signify, more than they
+   really prepare the soil for them or plant the
+   seeds, or cultivate or garner the crop. My
+   own opinion has long been, <add place="above">that</add> for New World
+   service our ideas of beauty (inherited from
+   the Greeks, and so on to Shakspere&#8212;<hi rend="Underline">query</hi>&#8212;
+    perverted from them?) need to be <add place="below"><metamark target="#a037" function="add">&#8248;</metamark></add><add place="above" xml:id="a037">radically</add> changed and made
+    anew for to-day's purposes and <add place="below"><metamark target="#a038" function="add">&#8248;</metamark></add><add place="above" xml:id="a038">finer</add> standards.
+   But if so, it will all come in due time&#8212;the
+   real change will be an autochthonic,
+   interior, constitutional, even local one, from
+   which our notions of beauty, (lines <del rend="overstrike">of</del> and colors
+   are wondrous lovely, but character is lovelier.)
+   will branch or offshoot.</p>
+   
+   <pb xml:id="leaf008v" facs="yal.00318.017_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf009r" facs="yal.00318.018_large.jpg" type="recto"/>
+   <note hand="#h03" place="above" type="authorial">8</note>
+   <p>So much have I now rattled off,
+   (old age's garrulity) that there is not space
+   for (NOTE: What is going on) the most important and pregnant
+   principal of all, viz: that <hi rend="Underline">Art is <del rend="overstrike">one,</del><add place="above">one,</add></hi>
+    is not partial, <add place="below"><metamark target="#a039" function="add">&#8248;</metamark></add><add place="above" xml:id="a039">but</add> includes all times and forms
+   and sorts&#8212;is not <subst><del rend="overstrike" seq="1">spec</del><add place="above" seq="2">exclusively</add></subst> aristocratic
+   or democratic, or oriental or occidental.
+   My favorite symbol would be a <add place="below"><metamark target="#a040" function="add">&#8248;</metamark></add><add place="above" xml:id="a040">good</add> font
+   of type, where the impeccable long-primer
+   rejects nothing. Or the old Dutch
+   flour-miller who said, "I never bother
+   myself what road the folks come&#8212;I only
+   want good wheat <subst><del rend="overstrike" seq="1">or</del><add place="above" seq="2">and</add></subst> rye."</p>
+   <p>The font is <add place="below"><metamark target="#a041" function="add">&#8248;</metamark></add><add place="above" xml:id="a041">about</add> the same forever<add hand="#h01">.</add> Democratic
+   art <del rend="overstrike" hand="#h01">would</del> <del rend="overstrike" hand="#h02">proceed co</del> result<add hand="#h01">s</add>
+   <subst hand="#h01"><del rend="overstrike" seq="1">from</del><add place="above" seq="2">of</add></subst> the <subst hand="#h02"><del rend="overstrike" seq="1">belief</del><add place="below" seq="2"><metamark target="#a042" function="add">&#8248;</metamark></add><add place="above" xml:id="a042" seq="3">Democratic</add></subst>, developement tinge,
+    true naturality, <add place="below"><metamark target="#a043" function="add">&#8248;</metamark></add><add place="above" xml:id="a043">belief</add> of the one <subst hand="#h01"><del rend="overstrike" seq="1">giving it
+   out</del><add seq="2"><metamark target="#a044" function="add">&#8248;</metamark></add><add place="above" seq="3" xml:id="a044">setting up from it.</add></subst>.</p>
+   <byline rend="doubleUnderline">Walt Whitman</byline>
+   <note place="bottom" hand="#h05">DM</note>
+   <note place="bottom" hand="#h05">c7</note>
+   
+   <pb xml:id="leaf009v" facs="yal.00318.019_large.jpg" type="verso"/>
+   
 </body>
 </text>
 </TEI>
