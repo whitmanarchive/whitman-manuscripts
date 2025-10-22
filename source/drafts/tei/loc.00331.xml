@@ -15,8 +15,11 @@
     <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
-
+     <persName xml:id="nhg">Nicole Gray</persName>
+     <persName xml:id="km">Kenneth M. Price</persName>
+     <persName xml:id="fl">Farrah Lehman</persName>
+     <persName xml:id="hm">Heather Morton</persName>
+     <persName xml:id="ew">Emma Whaley</persName>
      <persName xml:id="ja">JC Andrews</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -62,36 +65,45 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     <title>“A Thought of Columbus”</title>  
      
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date notBefore="" notAfter="" cert=""></date>
+
+     <date when="1892" cert="high">about 1892</date>
      
-     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     <idno type="callno">A Thought of Columbus (1892). A.MS. drafts., Box 29</idno>
      
 
      <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
-     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-     <relatedItem type="document" target="wwa.00041"/>
-     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+      
+     <relatedItem type="text" xml:id="rel01" target="loc.00328"/>
+     <relatedItem type="document" target="wwa.00111"/>
+     <note type="project" target="#rel01">This item contains portions of "A Thought of Columbus" written on multiple envelopes pasted together.</note>
+     <relatedItem type="text" xml:id="rel02" target="loc.07423"/>
+     <relatedItem type="document" target="wwa.00111"/>
+     <note type="project" target="#rel02">This item contains unknown correspondence to Walt Whitman, 12 November 1891 [Partial Letter].</note>
+     <relatedItem type="text" xml:id="rel03" target="loc.07424"/>
+     <relatedItem type="document" target="wwa.00111"/>
+     <note type="project" target="#rel01">This item contains the first part of a partial, repurposed letter, a partial letter that has been cut into pieces and glued back together with others to form the base for a poetry mss on the verso, and portions of "A Thought of Columbus."</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
-   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
+   <handNotes>
     <handNote medium="black ink" xml:id="h01" resp="#ww"/>
     <handNote medium="blue pencil" xml:id="h02" resp="#ww"/>
     <handNote medium="pencil" xml:id="h03" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
-
- <change when="2025-10-16" who="#ja">transcribed and encoded</change>
+ <change when="2025-10-16" who="#ja">Transcribed and Encoded</change>
+ <change who="#ew" when="2024-09-25">updated image links</change>
+ <change who="#nhg" when="2016-05-02">converted to P5</change>
+ <change who="#km" when="2007-03-19">Edited</change>
+ <change who="#fl" when="2007-03-05">Checked</change>
+ <change who="#hm" when="2004-06-25">Encoded</change>
+ <change who="#hm" when="2004-06-25">Transcribed</change>
 </revisionDesc>
  </teiHeader>
 
@@ -101,14 +113,15 @@
 
    <pb xml:id="leaf001r" facs="loc_ej.00712_large.jpg" type="recto"/>
    <lg type="poem">
-     <l>Soul plaudits! o'er the long path,<lb/> welcomes back echoes reverent and<lb/> deep echoes</l>
-     <l>If thou still Knowst thou Know'st, hear<lb/> us, new p<gap extent="a few characters" reason="illegible"/>ts, new people race, arts<lb/> lands</l>
-     <l>One manifold, huge acclaim to thee</l>
-    <l>Voice out as one&#8212;new races, lands, arts<lb/> all to thee</l>
-    <l>O'er the long path, one vast consensus,<lb/> north, south, east west,</l>
-    <l>Soul-plaudits! memories! deep backward reverent<lb/> <unclear cert="low" reason="illegible">memories</unclear> echoes</l>
+    <l><add place="below"><metamark target="#a001" function="add">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a001">Reck'd<del rend="overstrike" hand="#h02"><add>Unwreck'd</add></del> <add place="below"><metamark target="#a002" function="add">&#8248;</metamark></add><add place="above" hand="#h02" xml:id="a002">or unwreck'd</add> the <subst hand="#h02"><del rend="overstrike" seq="1">hour cannot</del><add place="above" seq="2">birth</add></subst><lb/> <subst hand="#h02"><del seq="1" rend="overstrike">can</del><del seq="3" rend="overstrike"><add seq="2" place="above">is</add></del><add place="above"  seq="4">can</add></subst> no longer <del rend="overstrike" hand="#h02">to</del> be postponed</add></l>
+     <l><del rend="overstrike" hand="#h01">Soul plaudits! o'er<del rend="overstrike" hand="#h01"><add place="above" hand="#h01">back</add></del> the long path,<lb/> welcomes back echoes reverent and<lb/> deep <add hand="#h01" place="below"><metamark target="#a003" function="add">&#8248;</metamark></add><add place="above" hand="#h01" xml:id="a003">backward</add> echoes</del></l>
+     <l>If <del rend="overstrike" hand="#h01">thou</del> still <del hand="#h01" rend="overstrike">Knowst</del> thou <subst hand="#h01"><del rend="overstrike" seq="1">Know'st</del><add place="above" seq="2">hear'st</add></subst>, hear<lb/> us, <subst hand="#h01"><del rend="overstrike" seq="1">new p<gap extent="a few characters" reason="illegible"/>ts</del><add place="above" seq="2">our voice</add></subst><del rend="overstrike" hand="#h01">, new people race, arts<lb/> lands</del></l>
+    <l>One manifold, huge acclaim <add place="below"><metamark target="#a004" function="add">&#8248;</metamark></add><add place="above" hand="#h01" xml:id="a004">rounded</add> to thee <add place="below"><metamark target="#a005" function="add">&#8248;</metamark></add><add place="above" hand="#h01" xml:id="a005" rend="marked">&#8212;a world to thee</add></l>
+    <l>Voic<subst hand="#h01"><del rend="overstrike" seq="1">e</del><add place="above" seq="2">ing</add></subst> <subst hand="#h01"><del seq="1">out as one</del><add place="below" seq="2"><metamark target="#a006" function="add">&#8248;</metamark></add><add place="above" hand="#h01" xml:id="a006" seq="3">for once&#8212;</add></subst>&#8212;new races, lands, arts<lb/> <subst hand="#h01"><del rend="overstrike" seq="1">all</del><add place="above" seq="2">all</add></subst> to thee</l>
+    <l>O'er the long path, <add place="below"><metamark target="#a007" function="add">&#8248;</metamark></add><add place="above" hand="#h01" xml:id="a007">to thee</add> one vast consensus,<lb/> north, south, east west,</l>
+    <l>Soul-plaudits! memories! deep backward reverent<lb/> <del rend="overstrike" hand="#h01"><unclear reason="illegible" resp="#ja">memories</unclear></del> echoes</l>
    </lg>
-   
+   <note hand="#h03" type="archival" place="bottom">[5]</note>
 
    <pb xml:id="leaf001v" facs="20051103_0009.jpg" type="verso"/>
    

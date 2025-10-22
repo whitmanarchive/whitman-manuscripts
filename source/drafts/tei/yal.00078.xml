@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00078"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main">As I Sit Writing Here</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+
+     <persName xml:id="ja">JC Andrews</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2025</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>yal.00078</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+     <note type="work_relations" target="xxx." cert="high">
+      <p></p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>"As I Sit Writing Here," holograph manuscript, corrected</title>  
+     
+
+     <date when="1888" cert="high">about 1888</date>
+     
+     <idno type="callno">YCAL MSS 202</idno>
+     
+
+     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+      
+     <relatedItem type="text" xml:id="rel01" target="yal.00475"/>
+     <relatedItem type="document" target="wwa.00042"/>
+     <note type="project" target="#rel01">This item contains correspondence from James Gordon Bennett to Walt Whitman, dated 4 May 1888.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="pencil" xml:id="h01" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h02" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+
+ <change when="2025-10-22" who="#ja">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+
+   <pb xml:id="leaf001r" facs="YCAL_MSS-13-3.jpg" type="recto"/>
+   <note type="archival" place="top" hand="#h02">560</note>
+   <note hand="#h01" place="top"><del rend="overstrike">The obstinate gloomy aches, lethargy, constipation</del></note>
+   <note hand="#h01" place="top">T</note>
+   <head type="main" rend="Underline">As I Sit <subst><del rend="overstrike" seq="1">thinking</del><add place="above" seq="2">writing</add></subst> here</head>
+   <lg type="poem">
+    <l><del rend="overstrike">For one,</del> as I sit <del rend="overstrike">here</del> <subst><del rend="overstrike" seq="1">thinking</del><add place="above" seq="2">writing</add></subst> here <add place="below"><metamark target="#a001" function="add">&#8248;</metamark></add><add place="above" xml:id="a001">sick and</add> grown old, <del rend="overstrike"><add place="below"><metamark target="#a002" function="add">&#8248;</metamark></add><add place="above" xml:id="a002">and sick,</add></del></l>
+     <l>Not my least <subst><del rend="overstrike" seq="1">dread</del><add place="above" seq="2">burden is</add></subst> that <del rend="overstrike" seq="1">the</del><add place="above" seq="2">dulness of the</add> years, querilities,</l>
+    <l><subst><del rend="overstrike" seq="1">The obstinate</del><add place="above" seq="2">The ungracious</add></subst> glooms, aches, lethargy, constipation, <add place="below"><metamark target="#a003" function="add">&#8248;</metamark></add><add place="above" xml:id="a003" rend="marked">whimpering solitudes</add></l>
+    <l><del rend="overstrike"><add><metamark target="#a004" function="add">&#8248;</metamark></add><add place="above" xml:id="a004">as I grow old</add></del> May filter in my daily songs. I fear.</l>
+   </lg>
+   
+
+   <pb xml:id="leaf001v" facs="YCAL_MSS-13-4.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>
