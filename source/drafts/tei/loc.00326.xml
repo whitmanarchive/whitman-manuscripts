@@ -85,8 +85,8 @@
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="letterpress" xml:id="h02" resp="#unk1"><name xml:id="unk1">Unknown 1</name></handNote>
+    <handNote medium="letterpress" xml:id="h01" resp="#unk1"><name xml:id="unk1">Unknown 1</name></handNote>
+    <handNote medium="black ink" xml:id="h02" resp="#ww"/>
     <handNote medium="pencil" xml:id="h03" resp="#unk2"><name xml:id="unk2">Unknown 2</name></handNote>
    </handNotes>
   </profileDesc>
@@ -100,10 +100,11 @@
   <body>
    
    <pb xml:id="leaf001r" facs="P1010601.jpg" type="recto"/>
-      <head type="main" rend="doubleUnderline" hand="#h01"><hi rend="doubleUnderline" hand="#h03">November Boughs</hi></head>
+      
+   <head type="main" rend="doubleUnderline" hand="#h01"><hi rend="doubleUnderline" hand="#h03">November Boughs</hi></head>
     <addSpan rend="pasteon" spanTo="#a001"/>
      <lg type="poem">
-      <head type="main" hand="#h02"><hi rend="tripleUnderline" hand="#h03">YOU LINGERING SPARSE LEAVES OF ME.</hi></head>
+      <head type="sub" hand="#h01"><hi rend="tripleUnderline" hand="#h03">YOU LINGERING SPARSE LEAVES OF ME.</hi></head>
        <l>You lingering sparse leaves of me on winter-nearing boughs,</l>
        <l>And I some well-shorn tree of field or orchard-row;</l>
        <l>You tokens diminute and lorn&#8212;(not now the flush of May,<lb/> nor July clover-bloom&#8212;no grain of August now;)</l>
@@ -113,7 +114,15 @@
      </lg>
     <addSpan rend="pasteon" spanTo="#a002"/>
      <lg type="poem">
-      <head type="main" hand="#h02">"GOING SOMEWHERE."</head>
+      <head type="sub" hand="#h01">"GOING SOMEWHERE."</head>
+       <l>My science-friend, my noblest woman-friend,</l>
+       <l>Now buried in an English grave&#8211;&#8211;and this a memory-leaf for<lb/> her dear sake,)</l>
+       <l>Ended our talk&#8212;"The sum, concluding all we know of old or<lb/> modern learning, intuitions deep,</l>
+       <l>"Of all Geologies&#8211;&#8211;Histories&#8212;of all Astronomy&#8211;&#8211;of Evolution,<lb/> Metaphysics all,</l>
+       <l>"Is, that we all are onward, onward, speeding slowly, surely<lb/> bettering,</l>
+       <l>"Life, life an endless march, an endless army, (no halt, but<lb/> it is duly over,)</l>
+       <l>"The world, the race, the soul, in space and time the <choice><orig>uni-<lb/> verses,</orig><reg>universes, </reg></choice></l>
+       <l>"All <add place="left" hand="#h02"><metamark function="emphasize" target="#e001">&#977;</metamark></add><del rend="overstrike" hand="#h02" xml:id="e001">wisely</del> bound as is befitting them&#8212;all surely going<lb/> somewhere."</l>
     <anchor xml:id="a002"/>
    </lg>
    
