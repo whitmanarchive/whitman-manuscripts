@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00148">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title level="m" type="main">How I made a book</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <name>The Walt Whitman Archive Staff</name>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>
+                    <date>2010</date>
+                </edition>
+            </editionStmt>
+            
+            <publicationStmt>
+                <idno>uva.00148</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            
+            <notesStmt>
+                <note type="project" target="#dat1"><!-- when was this manuscript written? --></note>
+                <note type="project">The following are responsible for particular readings or for changes to this file, as noted: 
+                    <persName xml:id="al">Ashley Lawson</persName> <persName xml:id="tj">Tim Jackson</persName>
+                </note>
+                <note type="project">The following are quoted here: <persName xml:id="jm">John Milton</persName> and <persName xml:id="ht">Hippolyte Taine</persName></note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>          
+                    <title>How I made a book</title> 
+                    <!--     THE DATE INFORMATION IN THE NEXT LINE WILL BE ADDED BY AN EDITOR     -->
+                    <!--<date xml:id="dat1" cert="****" when="/"> </date>-->
+                    
+                    <idno type="callno">MSS 3829 Box 1 Folder 43</idno>
+                    <orgName>Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
+                    <note type="project">Transcribed from our own digital image of the original manuscript.</note>
+                </bibl>
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2011-01-19" who="tj">Checked and corrected remaining part of file (Earlier, I had checked leaves 1-4.) Parsed file.</change>
+            <change when="2010-11-18" who="#al">Corrected with Tim's comments</change>
+            <change when="2010-09-30" who="#al">Transcribed and encoded</change>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text type="manuscript">
+        
+        <body>
+            
+            <pb xml:id="leaf001r" facs="uva.00148.001.jpg" type="recto"/>
+            
+            <note type="authorial" place="margintop" rend="circled">Please keep Copy as perfect as possible and return</note><!-- Is this WW's hand? -->
+            <note type="authorial" place="margintop">1</note><!-- Do I need to denote that this was written over, though it doesn't seem to have been deleted by WW? --><!-- [TJ] Unsure if character is a "1" or an arrow" -->
+            <transpose rend="bracketed" anchored="true" target="t1"><note type="authorial" place="margintop">(<hi rend="underline">Copyright
+                1885</hi>)</note></transpose> 
+            <note type="authorial" place="margintop" rend="circled">follow copy in punctuation, capitalization &#38;c</note>
+            <note type="authorial" place="margintop" rend="circled">55c</note>
+            <note type="authorial" place="margintop">75 <unclear reason="illegible" cert="low" resp="#al">lead</unclear></note> 
+            <note type="authorial" place="margintop" rend="circled">Syndicate</note> 
+            <note type="authorial" place="margintop" rend="circled"><del rend="overstrike">lead all</del></note>             
+            
+            <head type="main-derived"><hi rend="underline">How I made a book <del rend="overstrike"><unclear reason="illegible" cert="low"
+                resp="#al">,</unclear> or tried to.</del></hi></head>
+            <head type="sub">By Walt Whitman</head>
+            <anchor xml:id="t1"/>
+            <note type="authorial" place="margintop"><hi rend="underline">II</hi></note>
+            
+            <p>My friends have more than once suggested&#8212;
+                <subst>
+                    <del rend="overstrike" seq="1">(the</del>
+                    <add place="supralinear" rend="insertion" seq="2">&#8212;(or may-be</add>
+                </subst>
+                <add place="supralinear" rend="insertion">the</add> garrulity of advancing age <del rend="overstrike"><add
+                    place="supralinear" rend="insertion">has is</add></del> <del rend="overstrike">seems indeed</del> <add place="supralinear"
+                        rend="unmarked">is</add> possess<del rend="overstrike">ing</del> me, <del rend="overstrike"><unclear reason="illegible"
+                            cert="low" resp="#al">!</unclear></del>)&#8212;some embryonic facts of "Leaves of Grass," and how I entered upon them.
+                Dr. Bucke has already <add place="supralinear" rend="insertion">fully and fairly</add> described the preparation of my poetic field,
+                with the particular and general ploughing, planting, seeding and occupation of the ground, till everything was fertilized, rooted, and
+                ready
+            
+            <pb xml:id="leaf001v" facs="uva.00148.002.jpg" type="verso"/> 
+                <add place="over" rend="pasteon">to start its own way, for good or bad.  Not until <del rend="overstrike">all</del> after this was all settled did I begin any definite and serious acquaintance, or attempt at acquaintance with</add> poetic literature.  Along in
+                my 16th year I had become possessor of a stout
+                <subst>
+                    <del rend="overstrike" seq="1"><unclear reason="illegible" cert="low" resp="#al">well&#8209;cramm'd</unclear></del>
+                    <add place="supralinear" rend="insertion" seq="2">well&#8209;crammed</add>
+                </subst>,
+                <add place="supralinear" rend="insertion">1000 page</add> octavo volume.  (I have it yet) containing Walter Scott's Poetry entire &#42; 
+                &#8212;<note type="authorial" place="margintop" rend="circled"><del rend="overstrike">note a</del></note><!-- This overstrike is in the same pencil that appears to be a hand other than Whitman's.  Should I make note of this? -->an inexhaustable mine and
+                treasury of poetic study. (especially the endless forests and jungles of notes)&#8212;has been so to me for fifty years, and remains so
+                to this day.</p>
+            
+            <pb xml:id="leaf002r" facs="uva.00148.003.jpg" type="recto"/>
+            
+            <note type="unk" place="margintop">76</note>
+            <p><del rend="overstrike">Years</del><add place="supralinear" rend="unmarked">&#182;</add> <subst><del rend="overwrite">l</del><add
+                place="over"
+                rend="overwrite">L</add></subst>ater, <add place="supralinear" rend="insertion">at intervals,</add> I used to go off, <del
+                    rend="overstrike">at intervals,</del> sometimes for a week at a stretch, down in the country, or to Long&#8209;Island's sea-
+                shores;&#8212; <add place="supralinear" rend="unmarked"><note type="unk" place="supralinear">lead</note></add> there, in the
+                presence of <del rend="overstrike">natural and</del> outdoor influences, I went over thoroughly the Old and New Testaments, and 
+                absorbed (probably to better advantage for me than in any library or indoor room&#8212;it makes such difference <hi rend="underline">
+                where</hi> you read,) Shakspere, Ossian, the best
+                
+            <pb xml:id="leaf002v" facs="uva.00148.004.jpg" type="verso"/> 
+                <add place="over" rend="pasteon">versions I could get of Homer, Eschylus, Sophocles, the old</add> German <unclear reason="illegible"
+                    cert="high" resp="#al">Nibelungen</unclear>, the ancient Hindoo poems, and one or two other masterpieces, Dante's among them.  As
+                it happened, I read the latter mostly in an old wood.  The Iliad, (Buckley's prose version) I read first thoroughly on the peninsula
+                of Orient northeast end of <!-- How (or should) I make note of this mark? -->
+            
+            <pb xml:id="leaf003r" facs="uva.00148.005.jpg" type="recto"/>
+            <!-- How (or should) I make note of this mark? --> Long Island, in a sheltered hollow of rocks and sand, with the sea on each side.  I have
+                <add rend="pasteon" place="over">wonder'd since <note type="unk"
+                    place="supralinear">lead</note> why I was not overwhelm'd by those mighty masters. <note type="unk" place="intralinear">
+                        77</note> Likely, because I read them, as described, in the full presence of
+                    Nature, under the sun, with the far-spreading landscape and vistas or the sea<del rend="overstrike">-surf</del> rolling in.
+                    <del rend="overstrike"><add place="supralinaer" rend="insertion"><unclear reason="illegible" cert="low" resp="#al">
+                    Giving</unclear> myself many intervals</add></del> <add place="infralinear" rend="unmarked"><unclear reason="illegible"
+                        cert="low" resp="#al">giving in</unclear></add>  I <subst><del rend="overstrike" seq="1">read</del><add place="above" 
+                            rend="insertion" seq="2">absorbed</add></subst> very
+                    <del rend="overstrike">lis</del> leisurely, following the mood.  <del rend="overstrike">(</del> May I not say that in me, there, those <subst><del rend="overstrike" seq="1">old
+                        maestros</del><add place="supralinear" rend="unmarked" seq="2"><del rend="overstrike">antique</del> old works</add></subst>
+                    certainly had <hi rend="underline">one</hi> <add place="supralinear" rend="insertion">fully</add> appreciative <add
+                        place="supralinear" rend="unmarked">and exultant</add> modern <subst><del rend="overstrike" seq="1">listener</del><del
+                            rend="overstrike"><add place="supralinear" rend="unmarked" seq="2">absorber</add></del><del rend="overstrike"><add
+                                place="infralinear" seq="3">peruser ?</add></del><add place="infralinear" rend="unmarked" seq="4">peruser</add></subst>?
+                    <del rend="overstrike">)</del>....<note type="authorial" place="supralinear" rend="circled">run in</note> Returning to New York I
+                    alternated with <subst><del rend="overstrike" seq="1">the <unclear reason="illegible" cert="low" resp="#al">musical</unclear>
+                    absorptions</del><add place="supralinear" rend="unmarked" seq="2"><del rend="overstrike">the</del> attendances</add></subst>,
+                    mention'd <add place="supralinear" rend="insertion">by Dr Bucke <!-- [TJ] Note that "Dr Bucke" looks as though it is inked over an earlier writing of "Dr Bucke"? --><del rend="overstrike">in the memoranda</del></add> <del
+                        rend="overstrike">by Dr. B.,</del> especially <del rend="overstrike">with</del> the singing of <add place="supralinear"
+                            rend="insertion">the contralto</add> Alboni</add> <add place="over" rend="pasteon">and the Italian <unclear reason="illegible" unit="chars" extent="1"/> opera generally.
+                            <del rend="overstrike">...</del> All this and these, <del rend="overstrike">I <unclear reason="illegible"
+                              cert="low" resp="#al">say</unclear></del> <!-- [TJ] Suggest "sang" for "say" -->, saturating and imbuing everything before I touch'd pen to paper <del
+                                  rend="overstrike"><unclear reason="illegible" cert="low" resp="#al">&#38;</unclear></del> on my own account
+                                <del rend="overstrike"><gap reason="illegible" extent="punctuation"/></del> &#182;</add></p>
+            
+                <pb xml:id="leaf003v" facs="uva.00148.006.jpg" type="verso"/>
+            <p>&#182; Towards the last I had <add place="supralinear" rend="insertion"><unclear reason="illegible" cert="medium" resp="#al">among
+            </unclear> much else</add> look'd over Edgar Poe's <del rend="overstrike"><add place="supralinear" rend="unmarked">earlier</add></del>
+                poems&#8212;<add place="supralinear" rend="insertion">of whom</add> was not an admirer, tho' I always saw that 
+                <subst>
+                    <del rend="overstrike" seq="1">besides</del>
+                    <add place="supralinear" rend="unmarked" seq="2">beyond</add>
+                </subst> 
+                their <del rend="overstrike">inimitable</del><subst><del rend="overstrike" seq="1">though</del> <del rend="overstrike" seq="2"><add place="supralinear" rend="unmarked">
+                yet</add></del></subst> limited range of <del rend="overstrike">sweet</del>
+                melody, (like perpetual chimes of music bells, ringing from lower <hi rend="underline">b</hi> flat up to <hi rend="underline">g</hi>.)
+                They were expressions, and perhaps never excell'd ones, of certain
+                <subst>
+                    <del rend="overstrike" seq="1">extravagant</del>
+                    <add place="supralinear" rend="unmarked" seq="2">pronounced</add>
+                </subst> 
+                phases of human morbidity.  (The poetic area is very <del rend="overstrike">very</del> spacious&#8212;has <add place="supralinear" rend="insertion">so</add> many mansions!)  But
+                I was repaid in Poe's prose by the idea that <add place="supralinear" rend="insertion">(at any rate for our occasions <add
+                    place="supralinear" rend="insertion">and</add> our day)</add> there can be no such thing, <del rend="overstrike"><add
+                        place="supralinear" rend="insertion">at any rate <add place="supralinear" rend="unmarked">for</add> contemporary</add></del>
+                <del rend="overstrike">for modern purposes,</del> <!-- [TJ] Suggest after "any rate": <subst><del rend="overstrike" seq="1">for modern purposes</del> <del rend="overstrike" seq="2"><add place="supralinear" rend="unmarked">for contemporary></del></subst>  -->as a <hi rend="underline">long</hi> poem. The same thought had been haunting my mind
+                before, but P's argument, though short, work'd the sum out, and proved it to me.</p>
+            <note type="authorial" place="marginbottom">78 lead</note>
+                
+            <pb xml:id="leaf004r" facs="uva.00148.007.jpg" type="recto"/>
+            
+            <del rend="overstrike"><note type="unk" place="margintop">5</note></del>
+            <note type="unk" place="margintop">79 lead</note>
+            
+            <add place="over" rend="pasteon">
+                <p>&#182; Another <del rend="overstrike">point</del> point had an early settlement, <del rend="overstrike">which</del> clear<subst><del 
+                rend="overstrike" seq="1">'d</del><add place="supralinear" rend="unmarked">ing</add></subst> the ground greatly.  I saw, from the time
+                my enterprise and questionings <add place="supralinear" rend="insertion">positively shaped themselves,</add> (how best can I express my
+            own
+                <subst>
+                    <del rend="overstrike" seq="1">days</del>
+                    <add place="supralinear" rend="unmarked" seq="2">era</add>
+                </subst>
+                and surroundings, America, Demoncracy?) <del rend="overstrike">positively shaped themselves</del> that the trunk and centre whence the
+                answer was to radiate, and to which all
+                <subst>
+                    <del rend="overstrike" seq="1">must</del>
+                    <add place="supralinear" rend="unmarked" seq="2">should</add>
+                </subst>
+                return from <add place="supralinear" rend="insertion">straying</add> however far a distance,
+                <subst>
+                    <del rend="overstrike" seq="1">should</del>
+                    <add place="supralinear" rend="unmarked" seq="2">must</add>
+                </subst>
+                be our <!-- [TJ] Could "our" be "an"? --> identical body and soul, or <!-- [TJ] Suggest "a" for "or"? -->Personality&#8212;which personality, after many considerations and ponderings I deliberately settled
+                should be myself <add place="supralinear" rend="insertion">&#8212;indeed could not be any other.</add></p>
+            </add>
+            <p>then the two conflicting forces of a character fitted to our New World&#8212;not only the free and independent "sovereignty of one's self,"
+            but the acknowledge-
+           
+            <pb xml:id="leaf004v" facs="uva.00148.008.jpg" type="verso"/>
+            <add place="over" rend="pasteon">ment of that self as result of the past, and part of
+            <subst>
+                <del rend="overstrike" seq="1">the</del>
+                <add place="supralinear" rend="unmarked" seq="2">its</add>
+            </subst>
+                whole variform social <add place="supralinear" rend="insertion">literary</add> and political product, with the many dominating ties and
+            involvements thereof, (from the past, from our mothers and fathers, and theirs before them) imperatively to
+            be considered and allowed for&#8212;</add> assumed a settled part in my scheme.  I felt strongly, (whether I have shown it, or not.) that
+            to the true and full estimate of the <del rend="overstrike">pr</del> Present, both the Past and the Future are main considerations.
+            </p>
+            
+            <pb xml:id="leaf005r" facs="uva.00148.009.jpg" type="recto"/>
+            <note type="unk" place="margintop" rend="underline">II</note>
+            <note type="unk" place="margintop">80</note>
+            
+            <p>&#182; These, however, and much more, might have gone on, and come to nought (almost positively would have come to nought,) if
+                a sudden, <note type="unk" place="supralinear">lead</note> vast, terrible, direct and indirect stimulus for new and national poetic
+                expression, had not been given to me.  It is certain.
+                <add place="over" rend="pasteon">
+                    I say, <!-- [TJ] Looks like caret for insertion here? -->that <add place="supralinear" rend="insertion">&#8212;although I had made a start before&#8212;</add> only from the
+                    occurrence of the Secession War, and what it show'd me as by flashes of lightning, with the emotional depth it sounded, and
+                    arous'd, (<add place="supralinear" rend="insertion">of course</add> I don't mean in my own heart only.  I saw it just as plainly in
+                    others, in millions)<add place="supralinear" rend="unmarked">&#8212;that</add>&#8212;only from the strong flare and provocation of
+                    <subst>
+                        <del rend="overstrike" seq="1">its</del>
+                        <add place="supralinear" rend="unmarked" seq="2">that war's</add>
+                    </subst>                    
+                    sights and scenes, the final reasons&#8209;for&#8209;being <del rend="overstrike"><add place="supralinear" rend="insertion">and
+                        <unclear reason="illegible" cert="medium" resp="al">authoritative</unclear>endorsement</add></del> of an <del
+                            rend="overstrike"><add place="supralinear" rend="unmarked"><gap reason="illegible" extent="one word"/> at</add></del>
+                    autoch-
+                </add>
+            
+            <pb xml:id="leaf005v" facs="uva.00148.010.jpg" type="verso"/>
+            
+            <note type="unk" place="margintop">81</note>
+            <del rend="overstrike"><note type="unk" place="margintop">7</note></del>
+            <note type="unk" place="margintop">lead</note>
+            
+            thonic song definitely 
+                <subst>
+                <del rend="overstrike" seq="1">appear'd to me</del>
+                <add place="supralinear" rend="insertion" seq="2">came forth</add>
+                </subst>
+                <del rend="overstrike"><add place="supralinear" rend="unmarked">and <unclear reason="illegible" cert="low" resp="tj">displayed</unclear> itself <unclear reason="illegible" cert="low" resp="tj">themselves itself</unclear> to me</add></del>
+                <note type="authorial" place="supralinear" rend="circled">run in</note>
+                I went down to the <add place="supralinear" rend="unmarked"><unclear reason="illegible" cert="low" resp="al">war</unclear></add> field, 
+                <add place="supralinear" rend="insertion">in Virginia</add> (end of 1862,) lived thenceforward in camp,&#8212;saw great battles, and the
+                days and nights afterward&#8212;<del rend="overstrike">partook to the full, from the very midst of them,</del> all the fluctuations,
+                gloom, despair <del rend="overstrike"><add place="supralinear" rend="insertion"><unclear reason="illegible" cert="low"
+                    resp="al">of those</unclear> times&#8212;</add></del>, hopes again arous'd, courage evoked&#8212;death readily risk'd&#8212;<hi
+                        rend="underline">the cause</hi> too&#8212;<del rend="overstrike">of</del><add place="supralinear" rend="insertion">&#8212;along
+                        and filling</add> those
+                <subst>
+                    <del rend="overstrike" seq="1">mighty</del><!-- [TJ] Unsure of reading of "mighty" -->
+                    <add place="supralinear" rend="insertion" seq="2">agonistic</add>
+                </subst>
+                and lurid years <add place="supralinear" rend="insertion">1863-4-'5</add>&#8212;the real parturition years (more than 177<gap reason="illegibl" unit="chars" extent="1"></gap>-'83)
+                
+                <pb xml:id="leaf006r" facs="uva.00148.011.jpg" type="recto"/>
+                
+                of this henceforth <del rend="overstrike">free and</del> homogeneous Union.  Without
+                <subst>
+                    <del rend="overstrike" seq="1"><unclear reason="illegible" cert="low" resp="#al">think</unclear></del>
+                    <del rend="overstrike"><add place="supralinear" rend="insertion" seq="2">the</add></del>
+                </subst>
+                <subst>
+                    <del rend="overstrike" seq="1">struggle of 1861-'65</del>
+                    <add place="supralinear" rend="unmarked" seq="2">those <add place="supralinear" rend="insertion">
+                    three or</add> <del rend="overstrike">four</del> <add place="infralinear" rend="unmarked">three</add> years</add>
+                </subst>
+                <add place="supralinear" rend="insertion">and my experience in them,</add> and all that
+                went along with
+                <subst>
+                    <del rend="overstrike" seq="1">it</del>
+                    <add place="supralinear" rend="insertion" seq="2"><unclear reason="illegible" cert="low" resp="al">those</unclear></add>
+                </subst>
+                and the <add place="supralinear" rend="insertion"><unclear reason="illegible" cert="low" resp="#al">national</unclear></add> victory
+                that ended 
+                <subst>
+                    <del rend="overstrike" seq="1">it</del>
+                    <add place="supralinear" rend="insertion" seq="2"><unclear reason="illegible" cert="low" resp="al">them</unclear></add>
+                </subst>
+                <subst>
+                    <del rend="overstrike" seq="1">the ensuing <add place="supralinear" rend="insertion">poetic</add> volume</del>
+                    <add place="supralinear" rend="unmarked" seq="2">preceding</add>
+                    <add place="supralinear" rend="insertion" seq="3"><unclear reason="illegible" cert="low" resp="al">my Leaves of 
+                    Grass</unclear></add>
+                    <add place="supralinear" rend="unmarked" seq="4"><unclear reason="illegible" cert="low" resp="tj">of Leaves of Grass</unclear></add> <!-- [TJ] Note: Sequence 4 is in pencil -->
+                </subst>
+                <add place="supralinear" rend="insertion">my "Leaves of Grass"</add> (I don't mean its pictures and pieces in "Drum-Taps" only, and
+                parts of its text,<del rend="overstrike">&#8212;</del>but the whole spirit and body, as they <del rend="overstrike"><add 
+                    place="supralinear" rend="insertion">now</add></del> stand)&#8212;
+                <subst>
+                    <del rend="overstrike" seq="1">could</del>
+                    <add place="supralinear" rend="insertion" seq="2">&#8212;would</add>
+                </subst>
+                not now be existing.  I am fain sometimes to think of the book as a whirling wheel,
+                <subst>
+                    <del rend="overstrike" seq="1">and</del>
+                    <add place="supralinear" rend="insertion" seq="2">with</add>
+                </subst>
+                the <del rend="overstrike">Secession</del> War <add place="supralinear" rend="insertion">of 1861-'5 <del rend="overstrike">for
+                </del></add> as the hub on which it all <del rend="overstrike"><add place="supralinear" rend="insertion">rests and</add></del> <del
+                    rend="overstrike">revolves.</del> <del rend="overstrike">and</del> concentrates and revolves&#182;</p> <!-- [TJ] I moved the pilcrow into the <p> to parse. Should the pilcrow be its own paragraph? -->
+                
+            <pb xml:id="leaf006v" facs="uva.00148.012.jpg" type="verso"/>
+            <del rend="overstrike"><note type="unk" place="margintop">8</note></del>
+            <note type="unk" place="margintop">82 lead</note>
+            <p>&#182; But I set out with the intention also of <add place="supralinear" rend="insertion">indicating or</add> hunting <del
+                rend="overstrike">or</del> some point&#8209;characteristics which I since see (though I did not <unclear reason="illegible"
+                    cert="medium" resp="#al">then</unclear>, at least not definitely) were bases and urgings <add place="supralinear" rend="insertion">
+                        toward <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#al">my</unclear></del> <add place="supralinear"
+                            rend="insertion">those</add> "Leaves"</add> from the first.
+            <note type="authorial" place="margintop" rend="circled">run in</note>
+            <!-- How do I indicate the line that seems to be connecting these two paragraphs? -->
+            <!-- [TJ] Can <graphic/> work here? -->
+                
+                The word I myself put primarily for the descrip-
+            
+                <pb xml:id="leaf007r" facs="uva.00148.013.jpg" type="recto"/>
+                tion of them is the word Suggestiveness.  I round and finish little, if any-thing <!-- [TJ] Should "any-thing" be two words? -->; and could not, consistently with my scheme.  The 
+                reader will always have his or her part to do, just as much as I have had mine.  I seek less to state or display any theme or thought,
+                and more to bring you, Reader, into the atmosphere of the theme or thought&#8212;there to pursue your <del rend="overstrike"><unclear
+                    reason="illegible" cert="low" resp="#al">own</unclear></del><!-- [TJ] Suggest this <del> is a blotch. --> flight. </p>
+            
+            <pb xml:id="leaf007v" facs="uva.00148.014.jpg" type="verso"/>
+            
+            <p>closely together by our <!-- [TJ] Unsure if "our" could be "an"? -->internationality of poems, (indeed <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#al">
+            a</unclear></del> one might ask, Has it not been so already?) than by commerce or all the treaties of the diplomats?
+                <add place="over" rend="pasteover">
+                    &#182; Other word&#8209;signs would be Good&#8209;Cheer, Content, and Hope.  The</add>
+                    <add place="marginbot" hand="unk" type="pasteon">chief trait of any give poet is always the spirit he brings to the observation of
+                        humanity and nature&#8212;the mood out of which he contemplates his subjects.  What kind of temper, and what amount of faith, 
+                        report<del rend="overstrike">s</del> these things?  Up to how recent a date is the song carried?  What the equipment and special
+                        raciness of the singer&#8212;what his tinge of coloring?  The last value of artistic expressers past and present&#8212;<del 
+                            rend="overstrike">the</del> Greek aesthetes, Shakespeare, or, in our own day, Tennyson, Victor Hugo, Carlyle, Emerson <del
+                                rend="overstrike">&#8212;</del> is certainly involved in such questions. <anchor xml:id="t2"/> <del rend="overstrike">
+                                In connection,</del> the profoundest service that poems or any other writings can do for their reader, is, (not to
+                        merely satisfy the intellect, or supply something polished and interesting, nor even to depict great passions, or persons, or events, but) to fill him with vigorous and clean manliness,
+                        religiousness, and give him <hi rend="italic">good heart</hi> as a radical possession and habit.  The educated world seems to 
+                        have been growing more and more <del rend="overstrike">ennuied</del> <anchor xml:id="t3"/> for ages, <unclear reason="illegible"
+                            cert="low" resp="#al">leaving</unclear> to our time the inheritance of it all.  Fortunately, there is the original 
+                            inexhaustible fund of <del rend="overstrike">cheeriness,</del> <anchor xml:id="t4"/>  normally resident in the race, forever 
+                            eligible to be appealed to and relied on.</add></p>
+                    
+                    
+                    <transpose rend="circled" anchored="true" target="t2"> I say</transpose>
+                    <transpose rend="circled" anchored="true" target="t3"><hi rend="underline">ennuyed</hi></transpose>
+                    <note type="unk" place="marginleft" rend="circled">stet</note>
+                        
+                    <note type="unk" place="marginright" rend="circled">84</note>
+                    <note type="unk" place="marginright" rend="circled">stet</note>
+                    <note type="unk" place="marginright" rend="circled">run in</note>
+                    <note type="unk" place="marginright" rend="circled">lead</note>
+                    <transpose rend="circled" anchored="true" target="t4">buoyancy,</transpose>
+                 
+           
+            <pb xml:id="leaf008r" facs="uva.00148.015.jpg" type="recto"/>
+            
+            <del rend="overstrike"><note type="unk" place="margintop">10</note></del>
+            <note type="unk" place="margintop">85 lead</note>
+            
+            <p>&#182; Then native American Individuality.  Though certain to come, 
+                <add place="over" rend="pasteon">
+                and on a large scale, the distinctive and ideal type of 
+                    <subst>
+                        <del rend="overstrike" seq="1">American</del>
+                        <add place="supralinear" rend="unmarked" seq="2">Western</add>
+                    </subst>
+                    character&#8212;(as consistent with the <add place="supralinear" rend="insertion">operative</add> <subst><del rend="overstrike" seq="1">business</del> <del rend="overstrike" seq="2"><add rend="unmarked" place="supralinear"><unclear reason="illegible" cert="medium" resp="tj">industrious</unclear></add></del></subst>
+                    <del rend="overstrike">and</del> political <add rend="unmarked" place="supralinear">and</add> <add place="supralinear" rend="insertion">and even money-making</add> features of <del rend="overstrike">
+                    the</del> United States <add place="supralinear" rend="insertion">humanity,</add> in the Nineteenth Century as
+                    <subst>
+                        <del rend="overstrike" seq="1">perfect</del>
+                        <add place="supralinear" rend="unmarked" seq="2">chosen</add>
+                    </subst>
+                    Knights, gentlemen, and warriors were the ideals of the centuries of European feudalism,)&#8212;has not yet appear'd.<del
+                        rend="overstrike">...</del> I have allow'd the stress of my poems from beginning to end to bear upon <add place="supralinear"
+                            rend="insertion">American</add> individuality and assist it, (not only because that is 
+                    <subst>
+                        <del rend="overstrike" seq="1">the</del>
+                        <add place="supralinear" rend="unmarked" seq="2">a</add>
+                    </subst>
+                    great lesson of Nature, amid all her generalizing laws, but)as counterpoise to the levelling tendencies of
+            </add></p>
+
+                <pb xml:id="leaf008v" facs="uva.00148.016.jpg" type="verso"/>
+                <p>
+                <add place="over" rend="pasteon">Democracy&#8212;and for other reasons.</add><add place="over" rend="pasteon"> <!-- [TJ] Is this arrangement of paste-ons correct? I changed earlier placement to allow parsing. --> Defiant of ostensible 
+                literary and other conventions I avowedly chant "the great pride of man in himself," and permit it to be more or less a <hi 
+                    rend="underline">motif</hi> of nearly all my verse.<!-- [TJ] Usure if it is "verses"? -->  I think this pride indispensable to an American,</add>  I think it not
+                    inconsistent with obedience, humility, deference and self&#8209;questioning. <note type="unk" place="marginright">86 lead</note>
+                    Indeed, as I now see, part of my object <add place="over" rend="pasteon">remained throughout, and more decidedly than I was
+                        aware at the time, to <add place="supralinear" rend="insertion">furnish or suggest,</add> <subst><del rend="overstrike" seq="1">
+                        suggest,</del> <del rend="overstrike" seq="2"><add place="supralinear" rend="unmarked"><unclear reason="illegible" cert="medium" 
+                            resp="al">furnish</unclear></add></del></subst> <del rend="overstrike"><add place="supralinear" rend="insertion">(or I <gap 
+                                reason="illegible" extent="unknown"/></add></del> by free cartoon outlinings,
+                    <subst>
+                        <del rend="overstrike" seq="1">that</del>
+                        <add place="supralinear" rend="unmarked" seq="2">a</add>
+                    </subst>
+                    <subst>
+                    <del rend="overstrike" seq="1">individualistic</del>
+                        <add place="supralinear" rend="unmarked" seq="2">special</add>
+                    </subst>
+                    portraiture, the Western man's and woman's definite and typical &#182;</add></p><p>
+                    <add place="over" rend="pasteon">Democracy has been so retarded and jeopardized by powerful personalities</add>
+         
+                <pb xml:id="leaf009r" facs="uva.00148.017.jpg" type="recto"/>
+                    <note type="unk" place="marginright">87 l</note>
+                    that its first instructs are fain to clip, conform, bring in stragglers, and reduce every thing to a dead level.... While the 
+                    ambitious thought of my 
+                    <subst>
+                        <del rend="overstrike" seq="1">book</del>
+                        <add place="supralinear" rend="unmarked" seq="2">song</add>
+                    </subst>
+                    is to help the forming of a great aggregate Nation, it is perhaps altogether through the forming of <add place="supralinaer" 
+                        rend="insertion">myriads of</add> fully develop'd and enclosing individual<subst><del rend="overstrike" seq="1"><gap 
+                            reason="illegible" unit="chars" extent="4"/></del><add place="supralinear" rend="unmarked">s</add></subst>.
+                    Welcome as 
+                    <subst>
+                    <del rend="overstrike" seq="1"><unclear reason="illegible" cert="low" resp="al">modern science</unclear> is</del>
+                    <del rend="overstrike"><add place="supralinear" rend="insertion" seq="2"><gap reason="illegible" extent="one word"></gap></add>
+                    </del>
+                    </subst>
+                    <subst><del rend="overstrike" seq="1">and</del><del rend="overstrike" seq="2"><add rend="unmarked" place="supralinear">with</add></del></subst> <del rend="overstrike">the <unclear reason="illegible" cert="low" resp="al">lit</unclear></del> <add place="supralinear"
+                        rend="insertion">are</add> equality's and fraternity's doctrines,
+                    <subst>
+                        <del rend="overstrike" seq="1">with</del>
+                        <add place="supralinear" rend="unmarked" seq="2">and</add>
+                    </subst>
+                    popular education, a certain liability accompanies <del rend="overstrike">all of</del> them <add place="supralinear"
+                        rend="insertion">all,</add> as we see. <add place="over" rend="pasteon">That primal and interior something in man, in his soul's
+                        <del rend="overstrike">in its</del>abysms, coloring all, and,
+                            <subst>
+                                <del rend="overstrike" seq="1">in their</del>
+                                <del rend="overstrike"><add place="supralinear" rend="unmarked" seq="2">to</add></del>
+                            </subst>
+                            <subst>
+                                <del rend="overstrike" seq="1"><gap reason="cut away" extent="one to two words"/></del>
+                                <del rend="overstrike"><add place="supralinear" rend="unmarked" seq="2">special</add></del>
+                            </subst>
+                            <add place="supralinear" rend="insertion">by exceptional</add> <unclear
+                                reason="illegible" cert="low" resp="al">fruitions</unclear> giving the last
+                          </add>
+                 
+                <pb xml:id="leaf009v" facs="uva.00148.018.jpg" type="verso"/>
+                    
+                    <del rend="overstrike"><note type="unk" place="margintop">12</note></del>
+                    <note type="unk" place="margintop">88 lead</note>
+                    
+                    <add place="over" rend="pasteon">
+                    <gap reason="cut away" extent="unknown"/> majesty, <del rend="overstrike">and fruition</del> to him&#8212;something continually
+                    touch'd upon and attain'd by the old poems, <add place="supralinear" rend="insertion">and ballads of</add> <del rend="overstrike">
+                    and by</del> feudalism, <del rend="overstrike"><add place="supralinear" rend="insertion">and its ballads,</add></del> and 
+                    <subst>
+                        <del rend="overstrike" seq="1">sometimes in glimpses seeming to be</del>
+                        <add place="supralinear" rend="unmarked" seq="2">often</add>
+                    </subst>
+                    the principal foundation of them, <del rend="overstrike">&#8212;</del>modern science and Democracy appear <del rend="overstrike">
+                    to the superficial judgment</del> to be endangering, perhaps eliminating.<del rend="overstrike">...</del>  But that <add
+                        place="supralinear" rend="insertion">appearance</add> is deceptive&#8212;or involves, at most, only a passing stage.  The
+                    <subst>
+                        <del rend="overstrike" seq="1">modern</del>
+                        <add place="supralinear" rend="unmarked" seq="2">new <unclear reason="illegible" cert="low" resp="al">view</unclear><!-- [TJ] Suggest "new" for the illegible word. --></add>
+                    </subst>
+                    influences, upon the whole, are surely preparing the way for grander individualities than ever.  To-day and here, personal force is
+                    behind every thing, just the same.  The times and depictions from the Iliad to Shakespere
+                    </add>
+    
+                <pb xml:id="leaf010r" facs="uva.00148.019.jpg" type="recto"/>
+                    <add place="over" rend="pasteon">
+                        inclusive can happily never <del rend="overstrike">be</del> again <add place="supralinear" rend="unmarked">be</add>
+                        realized&#8212;but the elements of courageous and lofty manhood
+                    </add> <!-- Should I transcribe this connecting line?  How? --> <!-- [TJ] Should the line be represented with a <graph/>? -->
+                    <add place="over" rend="pasteon">
+                    are unchanged.  The <add place="supralinear" rend="insertion">military <add place="supralinear" rend="insertion">and caste
+                    </add> institutes <add place="supralinear" rend="insertion"><gap reason="illegible" extent="one word"></gap></add></add> <subst><del rend="overstrike" seq="1">feudalism</del> <del rend="overstrike" seq="2"><add place="supralinear"
+                        rend="unmarked"><gap reason="illegible" extent="two words"/></add></del></subst> of the Old World furnish'd them in choice and selected
+                        specimens from a few narrow nurseries, and at the expense of the vast majority&#8212;<del rend="overstrike">.</del> <add
+                            place="supralinear" rend="insertion">and almost continual war.</add>  The New and the West are to grow them on the
+                        spacious areas of a hemisphere <add place="supralinear" rend="insertion">in peace,</add>
+                        
+                    </add>    
+                    
+                <pb xml:id="leaf010v" facs="uva.00148.020.jpg" type="verso"/>
+                    
+                    <note type="unk" place="margintop">89 lead</note>
+                    <del rend="overstrike"><note type="unk" place="margintop">13</note></del>
+                   
+                    <!-- [TJ] Note caret for insertion? -->
+                    with ample chances for each, <add place="supralinear" rend="unmarked">and all,</add> and without infringement on others.  Thus the
+                    working&#8209;man and working&#8209;woman were to be in my pages from first to last.  The ranges of heroism and loftiness with which
+                    Greek and feudal poets endow<add place="supralinear" rend="insertion">ed</add> their god&#8209;like or lordly&#8209;born characters	
+                    &#8212;indeed prouder and better&#8209;based and with fuller ranges than those&#8212;I was to endow the democratic averages of 
+                    America's men and women.  I was to show that we, here and to-day, are eligible to the grandest and the best&#8212;   
+                
+                    <pb xml:id="leaf011r" facs="uva.00148.021.jpg" type="recto"/>
+                    
+                    more eligible now than any times of old <add place="supralinear" rend="insertion">were.</add>  I will <add place="supralinear"
+                        rend="insertion">also</add> want my utterances, (I said to myself before beginning) to be <add place="supralinear" 
+                            rend="insertion">in spirit</add> the poems of the morning.  They were founded, and mainly written, in the sunny forenoon
+                    and early mid-day of my life.  I will <add place="supralinear" rend="insertion">want</add> 
+                    <add place="over" rend="pasteon">
+                        them to be the poems of Women entirely as much as Men.  I <del rend="overstrike">had the</del> <add place="supralinear" 
+                            rend="insertion">have</add> <unclear reason="illegible" cert="high" resp="al">wish'd</unclear> to put the</add>
+                        <subst>
+                            <del rend="overstrike" seq="1">true</del>
+                            <del rend="overstrike"><add place="supralinear" rend="unmarked" seq="2">entire</add></del>
+                            <add place="supralinear" rend="insertion" seq="3">complete</add>
+                        </subst>
+                        Union of the States, <add place="supralinear" rend="insertion"><del rend="overstrike"><unclear reason="illegible" cert="low"
+                            resp="al">which one was</unclear></del><!-- [TJ] Suggest for illegible: <del rend="overstrike"><unclear reason="illegible cert="low" resp="tj">in my own way</unclear></del?  --><subst><del rend="overstrike" seq="1">my</del><add place="supralinear" 
+                                rend="unmarked">my</add></subst> song<add place="supralinear" rend="unmarked">s</add> in <del rend="overstrike">my
+                                songs</del>, without
+                        </add>
+                        <add place="over" rend="pasteon">
+                            any partiality whatever.  Henceforth, if they live and are read it must be just as much South as North&#8212;just as much
+                            along the Pacific as Atlantic&#8212;in the valley or the Mississippi in 
+                            <choice>
+                                <orig>Kanada</orig>
+                                <reg>Canada</reg>
+                            </choice><!-- [TJ] Because Whitman spells "Canada" with a "K" elsewhere, (as in "From Paumanok Starting I Fly Like a Bird," should any other information be included in the encoding?  -->
+                            , <add place="supralinear" rend="insertion">up in Maine, down</add> in Texas, and on the shores of Puget Sound. 
+                        </add></p>
+                    
+                <pb xml:id="leaf011v" facs="uva.00148.022.jpg" type="verso"/>
+                <note type="unk" place="margintop" rend="underline">III</note>
+               <p> <add place="over" rend="pasteon">
+                    <note type="unk" place="marginright">90</note>
+                    &#182; <unclear reason="illegible" cert="medium" resp="al">From</unclear> another point of view
+                    <subst>
+                    <del rend="overstrike" seq="1">the following volume</del>
+                    <add place="supralinear" rend="unmarked" seq="2">"Leaves of Grass"</add>
+                    </subst>
+                    is avowedly the song of the Body, and <del rend="overstrike">even</del> of Sex <add place="supralinear" rend="insertion">and
+                        Animality</add>&#8212;though meanings that do not usually go along with those words are behind all,<!-- [TJ] Is the mark after "all" a comma or a semicolon? --> and will duly emerge; 
+                </add>
+                and all are sought to be lifted into a different light and atmosphere
+                <add place="over" rend="pasteon">
+                    Of this <del rend="overstrike">feature</del><!-- [TJ] Should first "feature" be <unclear>? --> feature, <del rend="overstrike">of this</del> <subst><del rend="overstrike" seq="1">trait</del> <del rend="overstrike"><add
+                        place="supralinear" rend="unmarked"><unclear reason="illegible" cert="low" resp="al">part</unclear></add></del></subst>, <add rend="unmarked" place="supralinear">,</add>  
+                <del rend="overstrike">most</del>
+                <add place="supralinear" rend="insertion">intentionally</add>
+                palpable in a few lines I shall only say the <add place="supralinear" rend="insertion">espousing</add> principle of those <add place="supralinear" rend="insertion">few</add> lines
+                so gives <del rend="overstrike">the</del> breath of life to my whole scheme that the bulk of the
+                <subst>
+                    <del rend="overstrike" seq="1">volume</del>
+                    <add place="supralinear" rend="insertion" seq="2">pieces</add>
+                </subst>
+                might as well have been left unwritten, were those lines
+                <subst>
+                    <del rend="overstrike" seq="1">left out</del>
+                    <add place="supralinear" rend="unmarked" seq="2">omitted</add>
+                </subst>
+                . 
+                </add>
+                <note type="unk" place="marginright">lead</note>
+                Difficult as it will be in has become, in my
+                
+               <pb xml:id="leaf012r" facs="uva.00148.023.jpg" type="recto"/>
+                
+                opinion, imperative to achieve a shifted attitude from superior men and women towards the thought and fact of sexuality, as an element 
+                in character, personality, the emotions and a theme in literature.  I am not going to argue
+                <add place="over" rend="pasteon">
+                    <del rend="overstrike">not going to argue</del> the question by itself; it does not stand by itself.  The vitality of it is <add
+                        place="supralinear" rend="insertion">altogether</add> in its relations, <add place="supralinear" rend="insertion">bearings,</add>
+                    significance&#8212;like the 
+                    <subst>
+                        <del rend="overstrike" seq="1">key&#8209;note</del>
+                        <del rend="overstrike"><add place="supralinear" rend="unmarked">?</add></del>
+                        <add place="supralinear" rend="unmarked"><unclear reason="illegible" cert="medium" resp="al">clef</unclear></add>
+                    </subst>
+                    of a symphony.
+                </add>
+              </p>
+              
+              <pb xml:id="leaf012v" facs="uva.00148.024.jpg" type="verso"/>
+                        <p><add place="over" rend="pasteon">
+                        
+                            At last <unclear reason="illegible" cert="medium" resp="al">can</unclear> <unclear reason="illegible" cert="low"
+                                resp="al">alogy</unclear><!-- [TJ] Unsure of illegible word, but could it begin "cancel"? --> the lines <unclear reason="cut away" cert="high" 
+                                resp="al">I</unclear> allude to <add place="supralinear" rend="insertion">and the <del rend="overstrike">in</del> spirit
+                                in which they are spoken.</add> <del rend="overstrike">or <gap reason="illegible" extent="one word"/>
+                                inference</del> permeate all <hi rend="underline">"Leaves of Grass"</hi>, and
+                            <subst>
+                                <del rend="overstrike" seq="1">it</del>
+                                <add place="supralinear" rend="unmarked" seq="2">the <unclear reason="illegible" cert="medium" resp="al">work
+                                </unclear></add>
+                            </subst> <add place="supralinear" rend="unmarked"><unclear reason="illegible" extent="one word"></unclear></add>                            
+                        <del rend="overstrike"><add place="supralinear" rend="insertion">must remain</add></del> must stand or fall with them,        
+                        </add>
+                        as the identified human body and soul must remain as an entirety.  Universal as are certain facts
+                        <note type="unk" place="marginleft">91 <unclear reason="illegible" cert="low" resp="al">led</unclear></note>
+                        <add place="over" rend="pasteon">
+                        and symptoms of communities or individual<add place="inline" rend="unmarked">s</add> <del rend="overstrike">human
+                        identities</del>, <add place="supralinear" rend="insertion">all times</add> there is nothing so rare in modern conventions 
+                            and poetry, <del rend="overstrike"><add place="supralinear" rend="unmarked">&#42;note b <del rend="overstrike">
+                            )<!-- [TJ] Unsure if the preceding character is a closing parenthesis. -->(</del>b)</add></del> as their
+                            <subst>
+                                <del rend="overstrike" seq="1">candid</del>
+                                <add place="supralinear" rend="unmarked" seq="2">normal</add>
+                            </subst>
+                         recognizance.  Literature is always calling in the doctor for consultation and confession, and always giving <del 
+                             rend="overstrike">him</del> evasions <del rend="overstrike"><unclear reason="illegible" cert="low" resp="al">
+                             and</unclear></del> <add place="supralinear" rend="insertion">something</add> suppressions in place of that "heroic
+                            nudity."  <del rend="overstrike"><add place="supralinear" rend="unmarked">&#42;<gap reason="illegible extent two words"/><!-- [TJ] Suggest "bottom" for the illegible word. Also, should this section be encoded as a transposition? -->
+                            of pages</add></del>(<hi rend="underline">Nineteenth Century</hi>: July, 1883) on which only
+                        </add>
+                     
+                    <pb xml:id="leaf013r" facs="uva.00148.025.jpg" type="recto"/>
+                        <add place="over" rend="pasteon">
+                            a genuine diagnosis of serious cases can be built.....<note type="unk" rend="circled" place="supralinear">run in</note> <!-- Should I 
+                            code this line? And should the paragraph end here, or should I assume that he wants them to be read together? --><!-- [TJ] Add </graph>? --> And in
+                            respect to
+                            <subst>
+                                <del rend="overstrike" seq="1">any</del>
+                                <del rend="overstrike"><add place="supralinear" rend="unmarked" seq="2">future</add></del>
+                            </subst>
+                            editions of L. of G. in time to come (if there should be such) I take <del rend="overstrike">this</del> ocassion now to 
+                            confirm those lines with the settled convictions and deliberate
+                        </add>
+                        <add place="over" rend="pasteon">renewals of thirty years, and to 
+                            hereby prohibit, as far as word of mine can do so, any elision of them.
+                            
+                        </add></p>
+                    
+                    <pb xml:id="leaf013v" facs="uva.00148.026.jpg" type="verso"/>
+                        <note type="unk" place="margintop">92 led</note>
+                        <p>
+                        &#182; Then still a purpose enclosing all, and over and beneath all.  Ever since
+                        what might be called thought, or the budding of thought, fairly began in my youthful mind, I had had a desire to attempt some 
+                        worthy record <del rend="overstrike">or utterance</del> of that entire faith and acceptance, (<q who="#jm">"to justify the ways of God to 
+                        man,"</q> is Milton's well&#8209;known and ambitious phrase,) which is the foundation of moral America.  I felt it all as positively
+                        then in my young days as I do now in my old odnes.  To formulate a poem whose every line should directly or indirectly be an 
+                        implicit belief in the wisdom, health, mystery, beauty, of every process, every concrete object, every human or other existence, 
+                        not only considered from the point of view of All, but Each;&#8212;That while I cannot<!-- [TJ] Should we mark what looks like a caret under "All"? --> 
+                    
+                    <pb xml:id="leaf014r" facs="uva.00148.027.jpg" type="recto"/>
+                      <add place="over" rend="pasteon">
+                      understand it, or argue it out, I have not the slightest doubt of a
+                      </add>
+                      clue and purpose in Nature, entire and several; and that invisible spiritual results, just as real and definite as the visible, <!-- Is this a deletion or an ink stain? --> eventuate all concrete life and all materialism, through Time.  The
+                            <subst>
+                                <del rend="overstrike" seq="1">"Leaves"</del>
+                                <add place="supralinear" rend="unmarked" seq="2">book</add>
+                            </subst>
+                            ought to emanate
+                        <add place="over" rend="pasteon">
+                            <note type="unk" place="margintop">93 lead</note>
+                            buoyancy <add place="supralinear" rend="insertion">and</add> gladness,
+                            <subst>
+                                <del rend="overstrike" seq="1">faith</del>
+                                <add place="supralinear" rend="unmarked" seq="2">too</add>
+                            </subst> <!-- [TJ] Unsure if the previous <subst> should just be an <add> followed by a <del>? -->
+                            , for it was grown out of those elements,
+                            <subst>
+                                <del rend="overstrike" seq="1"><gap reason="illegible" extent="one word"/></del>
+                                <add place="supralinear" rend="unmarked" seq="2">and</add>
+                            </subst>                            
+                            has been the <del rend="overstrike">joy and</del> comfort of my life since it was originally commenced.  I should be willing
+                            to <del rend="overstrike">to</del> <unclear reason="illegible" cert="low" resp="al">jaunt</unclear> <del rend="overstrike">
+                            the years</del> <del rend="overstrike"><add place="supralinear" rend="unmarked"><unclear reason="illegible"
+                                cert="low" resp="al">many the</unclear></add></del> <add place="supralinear" rend="insertion">the whole</add> <del
+                                    rend="insertion">of</del>
+                            <subst>
+                                <del rend="overstrike" seq="1">that life</del>
+                                <add place="supralinear" rend="unmarked" seq="2"><del rend="overstrike">my</del> life</add>
+                            </subst>
+                            over again, with all
+                            <subst>
+                                <del rend="overstrike" seq="1">their</del>
+                                <add place="supralinear" rend="unmarked" seq="2">its</add>
+                            </subst>
+                            worldly failures, and serious detriments, deficiencies, and denials, to get the happiness of re&#8209;>traveling
+                            <subst>
+                                <del rend="overstrike" seq="1">those</del>
+                                <add place="supralinear" rend="unmarked" seq="2">that</add>
+                            </subst>
+                            part<del rend="overstrike">s</del> of the <unclear reason="illegible" cert="medium" resp="al">road</unclear>.
+                        </add>
+                        </p>                      
+                        
+                    <pb xml:id="leaf014v" facs="uva.00148.028.jpg" type="verso"/>
+                        <p>
+                        <add place="over" rend="pasteon">
+                        <note type="unk" place="margintop">IV</note>
+                        &#182; One genesis&#8209;motive of the
+                        <subst>
+                            <del rend="overstrike" seq="1">book</del>
+                            <add place="supralinear" rend="unmarked" seq="2">"Leaves"</add>
+                        </subst>
+                        was my conviction, that, founded on limitless concrete physical bases, and resting on materialistic and general worldy 
+                        prosperity, the crowning growth of the United States is to be spiritual and heroic.  To help <del rend="overstrike">favor</del>
+                        start and favor that growth&#8212;or even to call attention to it, or the need 
+                        </add>
+                        of it,&#8212;is the beginning, middle, and final purpose of the poems.  In my plan, the shows and objects of Nature, and the
+                        endlessly shifting play of events and politics, with all the <!-- Transcribe line? -->
+                        <note type="unk" place="marginright">94 led</note>
+                        <add place="over" rend="pasteon">
+                            effusions of literature, are merely mentionable as they serve toward
+                        </add>
+                      
+                    <pb xml:id="leaf015r" facs="uva.00148.029.jpg" type="recto"/>
+                        that
+                        <subst>
+                            <del rend="overstrike" seq="1">training.</del>
+                            <add place="supralinear" rend="unmarked" seq="2">growth.</add>
+                        </subst>
+                        <note type="unk" place="marginright">95 lead</note>
+                        Accordingly, any one man, or any one woman&#8212;perhaps laboring every day with his or her own hands&#8212;is at the head of
+                        all of them, and in himself or herself alone is more than all of them.  I <del rend="overstrike"><add place="supralinear" 
+                            rend="unmarked"><unclear reason="illegible" cert="medium" resp="al">have</unclear></add></del> only chant<del 
+                                rend="overstrike">ed</del> even the United States <add place="supralinear" rend="insertion">themselves</add> so far as
+                        they
+                        <subst>
+                            <del rend="overstrike" seq="1">have a bearing</del>
+                            <add place="supralinear" rend="unmarked" seq="2">bear</add>
+                        </subst>
+                        on such result; <subst><del rend="overstrike" seq="1">T</del><add place="supralinear" rend="unmarked" seq="2">t</add></subst>
+                        hough they have the <add place="supralinear" rend="unmarked">very</add> greatest bearing.  In fact, when really cipher'd out and 
+                        summ'd <del rend="overstrike">up</del> to the last, <hi rend="underline">that</hi> (not
+                        <subst>
+                            <del rend="overstrike" seq="1"><unclear reason="illegible" cert="low" resp="al">merely</unclear></del>
+                            <add place="supralinear" rend="unmarked" seq="2">chiefly</add>
+                        </subst>
+                        <!-- Is this a deletion or ink stain? --> for "good government" in the usual <del rend="overstrike"><unclear reason="illegible"
+                            cert="low" resp="al">su</unclear></del> sense but <del rend="overstrike">for</del> ploughing up in earnest the <add 
+                                place="supralinear" rend="insertion">interminable,</add> <del rend="overstrike">common</del> <add 
+                                    place="supralinear" rend="insertion">average</add> fallows of humanity,) is the justification and main purpose of 
+                        these <del rend="overstrike"><add place="supralinear" rend="unmarked">America</add></del> States.<subst><del rend="overwrite" 
+                            seq="1">...</del><add place="over" rend="overwrite" seq="2">&#182;</add></subst> Isolated advantages in any rank or grace or
+                        fortune&#8212;the direct or indirect threads of all the poetry of the past&#8212;are in my opinion distasteful to the republican
+                        genius, and offer no foundation for its fitting
+                        <subst>
+                            <del rend="overstrike" seq="1">song.</del>
+                            <add place="supralinear" rend="unmarked" seq="2">verse.</add>
+                        </subst>
+                        </p>
+                        <note type="unk" place="marginbottom"><unclear reason="illegible" cert="medium" resp="al">91 lead</unclear></note>
+                        
+                    <pb xml:id="leaf015v" facs="uva.00148.030.jpg" type="verso"/>
+                        <note type="unk" place="margintop"><unclear reason="cut away" cert="low" resp="al">96</unclear></note>
+                        <p>
+                            Established poems, I know, have the very great advantage of chanting the already performed, so full of glories, 
+                            reminiscences, dear to the minds of men.  But my volume is a candidate for the future.  The just&#8209;alluded to
+                            essential, <add place="supralinear" rend="insertion">coming</add> envelopement of <unclear reason="illegible" 
+                                cert="medium" resp="al">America</unclear>, the heroic and spiritual, <add place="supralinear" rend="insertion">though
+                                certain,</add> it considers as so far only outlined or begun&#8212;hardly that.  If my ambition may dwell on the
+                            idea of arousing for those 
+                        
+                    <pb xml:id="leaf016r" facs="uva.00148.031.jpg" type="recto"/>
+                        purposes, a poetry really <add place="supralinear" rend="insertion"><unclear reason="cut away" cert="high" 
+                            resp="al">Western,</unclear></add> original, (I don't care whether it is "artistic," or conforms, or not,) indicating that
+                            development, and tallying the modern, it easily <del rend="overstrike"><unclear reason="illegible" cert="low" 
+                                resp="al">lo</unclear></del> resigns all claim to the eclat of <add place="supralinear" rend="insertion">elaborated
+                                </add> technique or polish or any thing of the kind.  <q who="#ht">"All original art,"</q> says Taine anyhow, <q who="#ht">"is</q>
+                            <note type="unk" place="marginright">97 lead</note>
+                            <add place="over" rend="pasteon">
+                                    <q who="#ht">self-regulated; and no original art can be regulated from without; it carries its own counterpoise, and does not 
+                                    receive it from elsewhere:&#8212;lives on its own blood"</q>&#8212; <!-- How to transcribe this connecting line? -->
+                            <add place="marginbot" rend="insertion"><del rend="overstrike"><unclear reason="illegible" cert="medium" 
+                                resp="al">Probably Lowell's NY Edition one Vol.</unclear></del> (a solace to my frequent bruises and <del 
+                                    rend="overstrike"><unclear reason="illegible" cert="medium" resp="al">my</unclear></del> sulky vanity.)&#182;</add>
+                                                                
+                                </add></p>
+                        <note type="unk" rend="circled" place="marginright">run in all</note>
+                    
+                        <pb xml:id="leaf016v" facs="uva.00148.032.jpg" type="verso"/>
+                        <note type="unk" place="margintop"><del rend="overstrike">20</del></note>
+                        <note type="unk" place="margintop" rend="underline">V</note>
+                        <p>
+                            &#182; Then as the present is perhaps mainly
+                            <subst>
+                                <del rend="overstrike" seq="1">an personal</del>
+                                <add place="supralinear" rend="unmarked">an</add>
+                            </subst>
+                            attempt<!-- [TJ] Suggest <unclear> for "attempt" because of overwriting --> at personal statement or illustration I will allow myself, as further help, to extract <add place="supralinear"
+                                rend="insertion">the following anecdote</add> from a book, "Annals of Old Painters," conned by me in youth;
+                            <note type="unk" place="supralinear" rend="circled">Trim<!-- [TJ] Could "Trim" be "run"? --> in</note>
+                            <del rend="overstrike">this anecdote</del> Rubens, the Flemish <del rend="overstrike">pl</del> painter, in one of his 
+                            wanderings through the galleries of old convents, came across a singular work.  After looking at it thoughtfully for a good 
+                            while, and listening to the cricitisms of his suite of students he said to the latter,
+                        </p> 
+                       
+                            <pb xml:id="leaf017r" facs="uva.00148.033.jpg" type="recto"/>
+                        
+                        <note type="unk" place="margintop"><del rend="overstrike">21</del></note>
+                        <note type="unk" place="margintop">99 led</note>
+                        
+                        <p>
+                            &#182; No one will get at my verses <!-- line? -->
+                            <add place="over" rend="pasteon"><add place="over" rend="pasteon">
+                                who insists upon viewing them as a literary performance, or attempt at such performance, or as aiming mainly toward art
+                                <del rend="overstrike"><restore>or aestheticism</restore></del>I hope to go on record for something different&#8212;something better, if I may dare to say so. 
+                            </add>
+                                <note type="unk" place="marginright" rend="circled">stet</note>
+                                <!-- line? -->
+                                If I rested <hi rend="underline">"Leaves of Grass"</hi> on the usual <del rend="overstrike"><add place="supralinear">
+                                    <unclear reason="illegible" cert="low" resp="al">abstract</unclear> and</add></del> <del rend="overstrike"><unclear
+                                        reason="illegible" cert="low" resp="al">esthetic</unclear></del> claims&#8212;if I did not feel that the deepest
+                                moral, <add place="supralinear" rend="insertion">social,</add> political purposes of America are the underlying
+                                <add place="supralinear" rend="unmarked">?</add>
+                                endeavors at least of my pages&#8212;that the geography and hydrography of this continent, <unclear reason="torn away"
+                                    cert="low" resp="al">the</unclear> Prairies, the St. Lawrence, <unclear reason="torn away" cert="low" 
+                                        resp="al">Ohio</unclear>, the Carolinas, Texas, Missouri, are
+                                <subst>
+                                    <del rend="overstrike" seq="1">the</del>
+                                    <add place="supralinear" rend="unmarked">their</add>
+                                </subst>
+                                real <add place="supralinear" rend="insertion">current and</add> concrete&#8212;<del rend="overstrike">of the following
+                                verses</del>&#8212;I should not dare to have them put in type, and printed <del rend="overstrike">and bound,</del> 
+                                and offer'd for a sale<gap reason="illegible" extent="1" unit="chars"/> <del rend="overstike">)</del>
+                            </add></p>
+                                
+                        <pb xml:id="leaf017v" facs="uva.00148.034.jpg" type="verso"/>
+                        
+                        <note type="unk" place="margintop" rend="circled">run in</note>
+                        <p><add place="over" rend="pasteon">
+                        <!-- line? -->I say no lands or people or circumstances ever existed, so needing a race of singers, and poems differing from 
+                            all others and rigidly their own, as the lands and people and circumstances of our United States need such singers and poems
+                            to&#8209;day, and for the future.  Still further: as long as the States continue to
+                        </add>
+                        <note type="unk" place="infralinear">100 lead</note>
+                        absorb, and be dominated by the poetry of the Old World, and to remain unsupplied with autochthonous song, to express, vitalize,
+                        and give color to, and define, their material and political success, and minister to them distinctively, so long will they stop 
+                        short of first class Nationality and remain defective.
+                        </p>
+                
+        </body>
+    </text>
+</TEI>
+
+
+
+
