@@ -77,6 +77,7 @@
    <handNotes>
     <handNote medium="letter press" xml:id="h01" resp="#unk"></handNote>
     <handNote medium="black ink" xml:id="h02" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h03" resp="#ww"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
@@ -90,7 +91,7 @@
    <pb xml:id="leaf001r" facs="Yale/CD6/Whitman7.jpg" type="recto"/>
    <lg type="poem">
     
-    <note type="authorial" place="top" rend="circled">don't like this head line &#65112;try again</note>
+    <note type="authorial" place="top" rend="circled">don't like this head line &#8211;try again</note>
     
     <head type="main">With Husky,<add place="below" hand="#h02"><metamark target="#a001" function="add">&#8248;</metamark></add><add place="above" hand="#h02"><metamark function="emphasize" target="#a001">/</metamark></add><add hand="#h02" place="above" xml:id="a001">:</add> Haughty Lips, O sea!</head>
     <delSpan rend="overstrike" hand="#h02" spanTo="#d001"/><milestone unit="undeclared" rend="short-center"/><anchor xml:id="d001"/><addSpan hand="#h02" spanTo="#a004"/><metamark function="delete" target="#d001">&#977;</metamark><anchor xml:id="a004"/>
@@ -100,13 +101,23 @@
      <l>Where day and night I wend thy surf-beat shore,</l>
      <l>Imaging to my sense thy varied strange suggestions<del rend="overstrike" hand="#h02">:</del><add place="right" hand="#h02"><metamark function="emphasize" target="#a003">/</metamark></add><add place="right" hand="#h02" xml:id="a003">,</add></l>
     <l>Thy troops of white-maned racers racing to the goal,</l>
-    <l>Thy ample smiling face, dash'd with the sparkling dimples of <lb/> the sun,</l>
+    <l>Thy ample smiling face, dash'd with the sparkling dimples of<lb/> the sun,</l>
     <l>Thy brooding scowl and murk&#8212;thy unloos'd hurricanes,</l>
     <l>Thy unsubdueness, caprices, wilfulness<add place="below" hand="#h02"><metamark function="add">&#8248;</metamark></add><add place="left" hand="#h02"><metamark function="emphasize">#</metamark></add>;</l>
-    <l>Great as thou art above the rest, thy many tears&#8212;a lack <lb/> from all eternity in thy content,</l>
+    <l>Great as thou art above the rest, thy many tears&#8212;a lack<lb/> from all eternity in thy content,</l>
     <l>(Naught but the greatest struggles, wrongs, defe<subst hand="#h02"><del rend="overstrike" seq="1">c</del><add place="above" seq="2">a</add></subst>ts, could make<lb/> thee greatest&#8212;no less could make thee,)</l>
+    <note rend="circled" hand="#h02" type="authorial" place="left">defeats.</note>
     <l>Thy lonely state&#8212;something thou ever seek'st and seek'st, yet<lb/> never gain'st,</l>
-    <l>Surely some right witheld&#8212;some voice</l>
+    <l>Surely some right witheld&#8212;some voice<add place="below" hand="#h02"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" hand="#h02"><metamark function="emphasize" target="#a005"></metamark></add><add place="above" hand="#h02" xml:id="a005">/</add> in huge monotonous<lb/> rage<add place="below" hand="#h02"><metamark function="add" target="#a006">&#8248;</metamark></add><add place="left" hand="#h02"><metamark function="emphasize" target="#a006">/</metamark></add><add place="left" hand="#h02" xml:id="a006">,</add> of freedom-lover,<add hand="#h02"><metamark function="emphasize" target="#e001">/</metamark></add><add place="right" hand="#h02" rend="marked" xml:id="e001">pent,</add></l>
+    <l>Some vast heart, <add hand="#h02" place="left"><metamark function="delete" target="#d002">&#977;</metamark></add><del hand="#h02" rend="overstrike" xml:id="d002">pent</del> like a planet's, chain'd and chafing in<lb/> <add place="left" hand="#h02"><metamark function="delete" target="#d003">&#977;</metamark></add><del hand="#h02" rend="overstrike" xml:id="d003">these</del> breakers,</l>
+    <l>By lengthen'd swell, and spasm, and panting breath<add hand="#h02" place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><del rend="erased"><add place="right" hand="#h02"><metamark function="emhasize" target="#a007">/</metamark></add><add place="right" hand="#h02" xml:id="a007">,</add></del></l>
+    <l>And rhythmic rasping of thy sands and waves,</l>
+    <l>And serpent hiss, and savage peals of laughter,</l>
+    <l>(Sounding, appealing to the sky's deaf ear&#8212;but now<add hand="#h02" place="below"><metamark function="add" target="#a008">&#8248;</metamark></add><add place="right" hand="#h02"><metamark function="emphasize" target="#a008">/</metamark></add><add place="right" hand="#h02" xml:id="a008">,</add> rapport<lb/> for once,</l>
+    <l>A phantom in the night thy confidant for once,)</l>
+    <l>The first and last confession <subst hand="#h03"><del rend="overstrike" seq="1">e</del><add place="right" seq="2">o</add></subst>f the globe,</l>
+    <l>Out<subst hand="#h02"><del rend="overstrike" seq="1">ra</del><add place="left" seq="2">sur</add></subst>ging, muttering<del rend="overstrike" hand="#h02" xml:id="d004">,</del><add place="right" hand="#h02"><metamark function="delete" target="#d004">&#977;</metamark></add> from thy soul's abysms,</l>
+    <note type="authorial" place="left" ></note>
    </lg>
    
 <!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
