@@ -79,11 +79,11 @@
    </sourceDesc>
 </fileDesc>
   <profileDesc>
-   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="blue pencil" xml:id="h02" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
-    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
-    <handNote medium="pencil" xml:id="h04" resp="#unk1"><name xml:id="unk1">Unknown</name></handNote>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="blue pencil" xml:id="h02" resp="#ww" scope="minor"/>
+    <handNote medium="red ink" xml:id="h03" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h04" resp="#ww" scope="minor"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
@@ -99,25 +99,26 @@
   <body>
    
    <pb xml:id="leaf001r" facs="uva.00148.001.jpg" type="recto"/>
-   <note hand="#h04" place="top" type="editorial">Please keep Copy as perfect as possible <hi rend="Underline">and return</hi></note>
+   <note hand="#h04" place="top" type="authorial">Please keep Copy as perfect as possible <hi rend="Underline">and return</hi></note>
    <note hand="#h03" place="top" rend="circled" type="authorial">follow copy in punctuation, capitalization &amp;c</note>
-   <note hand="#h04" place="top" rend="circled" type="editorial">Syndicate</note>
-   <note hand="#h04" place="top" rend="circled" type="editorial">55c</note>
-   <note hand="#h02" place="top" type="editorial">75lead</note>
-   <note hand="#h04" place="top" rend="circled" type="editorial"><del hand="#h02" rend="overstrike">lead all</del></note>
-   <note type="authorial" place="top"><hi rend="underline">II</hi></note>
+   <note hand="#h04" place="top" rend="circled" type="authorial">55c</note>
+   <note hand="#h02" place="top" type="authorial">75lead</note>
+   <note hand="#h04" place="top" rend="circled" type="authorial">Syndicate</note>
+   <addSpan spanTo="#a015" hand="#h04" rend="circled"/><metamark function="adjust"><hi hand="#h02" rend="highlight">lead all</hi></metamark><anchor xml:id="a015"/>
    <head type="main" rend="Underline">How I made a book <unclear reason="illegible" cert="low"
     resp="#ja">,</unclear> or tried to.</head>
    <byline>By Walt Whitman</byline>
-   <note hand="#h01" rend="marked"><add><metamark target="#a001" function="add">&#8248;</metamark></add><add place="above" xml:id="a001">(<hi rend="Underline">Copyright 1885</hi>)</add></note>
+   <addSpan spanTo="#a013"/><metamark target="#a001" function="add">&#8248; &#8248;</metamark><anchor xml:id="a013"/><addSpan place="top" xml:id="a001" spanTo="#a012"/><ab>(<hi rend="Underline">Copyright 1885</hi>)</ab><anchor xml:id="a012"/>
+  <div type="section">
+   <addSpan spanTo="#a014" hand="#h04"/><head type="sub" rend="doubleUnderline">I</head><anchor xml:id="a014"/>
    <p>My friends have more
-    than once suggested&#8212;<subst hand="#h01"><del rend="overstrike" seq="1">(the</del><add seq="2"><metamark target="#a002" function="add">&#8248;</metamark></add><add place="above" xml:id="a002" seq="3">&#8212;(or may-be</add></subst>
-    <add><metamark target="#a003" function="add">&#8248;</metamark></add><add place="above" xml:id="a003">the</add> garrulity of advancing age <subst hand="#h01"><del rend="overstrike" seq="1">seems</del><add seq="2"><metamark target="#a004" function="add">&#8248;</metamark></add><del seq="4"><add place="above" xml:id="a004" seq="3"><seg xml:id="alt001">has</seg> <hi xml:id="alt002">is</hi><alt target="#alt001 #alt002"/></add></del></subst>
-   indeed possessing me,)&#8212;some
+    than once suggested&#8212;<subst><del rend="overstrike" seq="1">(the</del><add seq="2"><metamark target="#a002" function="add">&#8248;</metamark></add><add place="above" xml:id="a002" seq="3">&#8212;(or may-be</add></subst>
+    <add><metamark target="#a003" function="add">&#8248;</metamark></add><add place="above" xml:id="a003">the</add> garrulity of advancing age <subst><del rend="overstrike" seq="1">seems</del><add seq="2"><metamark target="#a004 #a005" function="add">&#8248;</metamark></add><del seq="4"><add xml:id="a004" place="above" seq="3">has</add></del><del seq="6"><add place="above" xml:id="a005" seq="5">is</add></del></subst>
+    <subst><del rend="overstrike" seq="1">indeed</del><add place="above" seq="2">is</add></subst> pos<del hand="#h04">s</del>ess<restore rend="erasure"><del rend="overstrike">ing</del></restore><del rend="erasure"><add place="below"><metamark target="#a006" function="add">&#8248;</metamark></add><add place="above" xml:id="a006">ed</add></del> me,<del rend="overstrike">!</del>)&#8212;some
    embryonic facts of "Leaves of
    Grass," and how I entered
    upon them. Dr. Bucke has
-   already described the preparation
+   already <add hand="#h01"><metamark target="#a007" function="add">&#8248;</metamark></add><add place="above" xml:id="a007">fully and fairly</add> described the preparation
    of my poetic field,
    with the particular ad general
    ploughing, planting,
@@ -125,9 +126,86 @@
    ground till everything was
    fertilized, rooted, and ready</p>
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+   <pb xml:id="leaf001v" facs="uva.00148.002.jpg" type="verso"/>
+   <p>to start its own way, for
+   good or bad. Not until <del rend="overstrike">all</del>
+   after this was all settled
+   did I begin any definite
+   and serious acquaintance, or
+   attempt at acquaintance with
+   poetic literature. Along in
+   my 16th year I had become
+   possessor of a stout <subst><del rend="overstrike" seq="1">well&#11840;cramm'd</del><add place="above" seq="2">well&#11840;crammed</add></subst>
+   <add place="below"><metamark target="#a008" function="add">&#8248;</metamark></add><add place="above" xml:id="a008">1000 page</add> octavo volume. (I have it yet)
+   containing Walter Scott's Poetry
+   entire <metamark function="link" xml:id="e001">*</metamark><add rend="circled"><metamark function="emphasize" target="#e001"><hi hand="#h02">note a</hi></metamark></add>&#8212;an inexhaustable mine
+   and treasury of poetic study, (especially
+   the endless forests and
+   jungles of notes)&#8212;has been so to
+   me for fifty years, and remains
+   so to this day.</p>
    
+   <pb xml:id="leaf002r" facs="uva.00148.003.jpg" type="recto"/>
+   <p><note hand="#h02" place="top">76</note><add>&#182;</add><del rend="overstrike" hand="#h04">Years</del> <del rend="overwrite" hand="#h04">l</del><add hand="#h04">L</add>ater, <add place="below"><metamark target="#a017" function="add">&#8248;</metamark></add><add place="above" xml:id="a017">at intervals,</add> I used to
+   go off, <del rend="overstrike">at intervals</del>, sometimes
+   for a week at a stretch,
+   down in the dountry, or to
+   Long Island's sea-shores;<metamark function="adjust"><hi hand="#h02">lead</hi></metamark>&#8212;there,
+   in the presence of <del hand="#h04" rend="overstrike">natural
+   and</del> outdoor influences. I went
+   over thoroughly the Old and
+   New Testaments and absorbed
+   (probably to better advantage for
+   me than in any library or
+   indoor room&#8212;it makes such
+   difference <hi rend="underline">where</hi> you read,)
+   Shakspere, Ossian, the best</p>
+   
+   <pb xml:id="leaf002v" facs="uva.00148.004.jpg" type="verso"/>
+   <p><addSpan rend="pasteon" spanTo="#a018"/>versions I could get of Homer,
+   Eschylus, Sophocles, the old<anchor xml:id="a018"/>
+   German <unclear reason="illegible"
+    cert="high" resp="#ja">Nibelungen</unclear> the ancient
+   Hindoo poems, and one or two
+   other masterpieces, Dante's among
+   them. As it happened, I read
+   the latter mostly in an old
+   wood. The Iliad, (Buckley's
+   prose version) I read first
+   thoroughly on the peninsula
+   of Orient northeast end of<add hand="#h02"><metamark function="add">&#8248;</metamark></add></p>
+   
+   <pb xml:id="leaf003r" facs="uva.00148.005.jpg" type="recto"/>
+   <p><add hand="#h02"><metamark function="add">&#8248;</metamark></add>Long Island, in a sheltered
+   hollow of rocks and sand,
+   with the sea on each side.
+   I have<addSpan rend="pasteon" spanTo="#a019"/>
+    wonder'd since <metamark function="adjust"><hi hand="#h02">lead</hi></metamark>
+   why I was not overwhelm'd
+   by those mighty-masters.
+   Likely, because I read them, <note hand="#h02" place="margin">76</note>
+   as described, in the full presence
+   of Nature, under the sun,
+   with the far-spreading landscape
+   and vistas or the sea <retrace cause="emphasis" hand="#h01"><del rend="overstrike" hand="#h04">surf</del></retrace>
+   rolling in. <add place="below"><metamark target="#a020" function="add">&#8248;</metamark></add><add></add> I read very
+   le leisurely, following the
+   mood. (May I not say that
+   in me, there, those old maestros
+   certainly had one appreciative
+   modern listener?).... Returning
+   to New York I alternated with
+   the musical absorptions
+   mention'd by Dr. B. especially
+   with the singing of Alboni<anchor xml:id="a019"/>
+    <addSpan rend="pasteon" spanTo="#a020"/>
+    and the Italian opera generally.
+    ...All this and these, I sang,
+    saturating and imbuing everything
+    before I touch'd pen
+    to paper <handShift/> <gap extent="one character" reason="illegible"/> on my own account.
+   </p>
+   </div>
 </body>
 </text>
 </TEI>
