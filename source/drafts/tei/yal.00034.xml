@@ -81,7 +81,7 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- <change when="2025-10-22" who="#tb">transcribed and encoded</change>
+ <change when="2025-10-22" who="#cm">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -93,11 +93,11 @@
     
     <note type="authorial" place="top" rend="circled">don't like this head line &#8211;try again</note>
     
-    <head type="main">With Husky,<add place="below" hand="#h02"><metamark target="#a001" function="add">&#8248;</metamark></add><add place="above" hand="#h02"><metamark function="emphasize" target="#a001">/</metamark></add><add hand="#h02" place="above" xml:id="a001">:</add> Haughty Lips, O sea!</head>
+    <head type="main" rend="italic">With Husky,<add place="below" hand="#h02"><metamark target="#a001" function="add">&#8248;</metamark></add><add place="above" hand="#h02"><metamark function="emphasize" target="#a001">/</metamark></add><add hand="#h02" place="above" xml:id="a001">:</add> Haughty Lips, O sea!</head>
     <delSpan rend="overstrike" hand="#h02" spanTo="#d001"/><milestone unit="undeclared" rend="short-center"/><anchor xml:id="d001"/><addSpan hand="#h02" spanTo="#a004"/><metamark function="delete" target="#d001">&#977;</metamark><anchor xml:id="a004"/>
     
     
-    <l>With husky<del rend="overstike" hand="#h02">,</del><add place="above" hand="#h02"><metamark function="emphasize" target="#a002">/</metamark></add><add hand="#h02" place="above" xml:id="a002">:</add></l>
+    <l>With husky<del rend="overstrike" hand="#h02">,</del><add place="above" hand="#h02"><metamark function="emphasize" target="#a002">/</metamark></add><add hand="#h02" place="above" xml:id="a002">:</add> haughty lips, O sea!</l>
      <l>Where day and night I wend thy surf-beat shore,</l>
      <l>Imaging to my sense thy varied strange suggestions<del rend="overstrike" hand="#h02">:</del><add place="right" hand="#h02"><metamark function="emphasize" target="#a003">/</metamark></add><add place="right" hand="#h02" xml:id="a003">,</add></l>
     <l>Thy troops of white-maned racers racing to the goal,</l>
@@ -117,11 +117,16 @@
     <l>A phantom in the night thy confidant for once,)</l>
     <l>The first and last confession <subst hand="#h03"><del rend="overstrike" seq="1">e</del><add place="right" seq="2">o</add></subst>f the globe,</l>
     <l>Out<subst hand="#h02"><del rend="overstrike" seq="1">ra</del><add place="left" seq="2">sur</add></subst>ging, muttering<del rend="overstrike" hand="#h02" xml:id="d004">,</del><add place="right" hand="#h02"><metamark function="delete" target="#d004">&#977;</metamark></add> from thy soul's abysms,</l>
-    <note type="authorial" place="left" ></note>
+    <note type="authorial" place="left" hand="#a002" rend="circled">outsurging</note>
+    <l>The tale of cosmic elemental passion,</l>
+    <l>Thou t<subst hand="#h02"><del rend="overstrike" seq="1">a</del><add place="left" seq="2">e</add></subst>llest <subst hand="#h02"><del rend="overstrike" seq="1">of</del><add place="below" seq="2">to</add></subst> a kindred soul.</l>
    </lg>
+   <byline rend="right">W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.<add hand="#h02" seq="1"><del rend="overstrike" seq="2" xml:id="d005">&#8212;</del></add><add place="right" hand="#h02"><metamark function="delete" target="#d005">&#977;</metamark></add></byline>
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+
+   <pb xml:id="leaf001v" facs="Yale/CD7/Whitman8.jpg" type="verso"/>
+   <note target="authorial" hand="#h03" rend="circled">9</note>
+   
    
 </body>
 </text>

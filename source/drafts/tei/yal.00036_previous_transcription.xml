@@ -1,21 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00036">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="yal.00036">
+   <relations>
+      <work ref="xxx.00340" cert="high">
+         <p>A proof of "With Husky-Haughty Lips, O Sea!" with corrections in Whitman's hand. The poem was published first in 1884.</p>
+      </work>
+   </relations>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            
-            <title level="m" type="main" rend="bracketed">With Husky Haughty Lips, O Sea!</title>
+            <title level="m" type="main">With Husky, Haughty Lips, O Sea!</title>
             <title level="m" type="sub">a machine readable transcription</title>
             <author>Walt Whitman</author>
-            <editor>Kenneth M. Price</editor>
-            <editor>Ed Folsom</editor>
-            <editor>Matt Cohen</editor>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="cm">Cynthia Mbagwu</persName>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="sb">Stephen Boykewich</persName>
+               <persName xml:id="fl">Farrah Lehman</persName>
+               <persName xml:id="km">Kenneth M. Price</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -23,12 +26,12 @@
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2025</date>
+               <date>2004</date>
             </edition>
          </editionStmt>
          <publicationStmt>
-            
-            <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+            <idno>yal.00036</idno>
+            <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
                <addrLine>319 Love Library</addrLine>
@@ -37,61 +40,84 @@
                <addrLine>Lincoln, NE 68588-4100</addrLine>
             </address>
             <availability>
-               <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
-               <p>
-                  The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
-                  <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
-                  (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
-            
-            
-            <idno>yal.00036</idno>
          </publicationStmt>
          <notesStmt>
             <note type="project" target="dat1">This proof was probably corrected in early <date when="1884">1884</date>, shortly before the poem was published in <hi rend="italic">Harper's Monthly</hi>
             </note>
             <note type="project">Verso is blank but for an encircled number 8, hand unknown.</note>
             <note type="project" target="leaf001v">This document is essentially identical to yal.00034; the typewritten text is the same, and there are few differences between the handwritten corrections.</note>
-            <note type="work_relations" target="xxx.00340" cert="high">
-               <p>A proof of "With Husky-Haughty Lips, O Sea!" with corrections in Whitman's hand. The poem was published first in 1884.</p>
-            </note>
          </notesStmt>
          <sourceDesc>
             <bibl>
                <author>Walt Whitman</author>
-               <title>Galley proof, corrected (2 copies), n.d.</title>
-               <date notBefore="1884" notAfter="1891" cert="high"></date>
-               <idno type="callno">YCAL MSS 202, Series V, Box: 3, Folder: 171</idno>    
-               <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
+               <title>
+With Husky-Haughty Lips, O Sea!
+</title>
+               <date cert="high" value="1884" xml:id="dat1">1884</date>
+               <orgName xml:id="yal">
+Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library									
+</orgName> 
+
                <note type="project">Transcribed from digital images of the original.</note>
+
             </bibl>
          </sourceDesc>
       </fileDesc>
-      
       <profileDesc>
-            <handNotes>
-               <handNote medium="letter press" xml:id="h01" resp="#unk"></handNote>
-               <handNote medium="black ink" xml:id="h02" resp="#ww"/>
-               <handNote medium="pencil" xml:id="h03" resp="#ww"/>
-            </handNotes>      
+         <handList>
+            <hand xml:id="h1" ink="handwritten"/>
+         </handList>
       </profileDesc>
-      
       <revisionDesc>
-         <change who="#cm" when="2025-10-29">transcribed and encoded</change>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#sb" when="2003-03-07">Encoded</change>
+         <change who="#sb" when="2003-03-07">Transcribed</change>
+         <change who="#fl" when="2006-06-05">Checked</change>
+         <change who="#km" when="2006-06-09">Edited</change>
       </revisionDesc>
    </teiHeader>
-   <text type="manuscript">
+   <text>
       <body>
-         <pb xml:id="leaf001r" facs="Yale/CD7/Whitman9.jpg" type="recto"/>
-         <lg type="poem">
-         
-            <note type="authorial" place="top" hand="#h02" rend="underline">don't like this head line try again&#8211;</note>
+         <pb facs="yal.00036.001" xml:id="leaf001r" type="recto"/>
+         <lg
+              >
+            <note type="authorial"
+                  place="top"
+                  hand="h1"
+                  rend="underline">
+               <p>don't like this head line try again—</p>
+            </note>
 
-            <head rend="italic" type="main-authorial">With Husky,<add place="below" hand="#h02"><metamark target="#a001" function="add">&#8248;</metamark></add><add place="above" hand="#h02"><metamark function="emphasize" target="#a001">/</metamark></add><add hand="#h02" place="above" xml:id="a001">:</add> Haughty Lips, O sea!</head>
-   <delSpan rend="overstrike" hand="#h02" spanTo="#d001"/><milestone unit="undeclared" rend="short-center"/><anchor xml:id="d001"/><addSpan hand="#h02" spanTo="#a004"/><metamark function="delete" target="#d001">&#977;</metamark><anchor xml:id="a004"/>
+            <head rend="italic" type="main-authorial">With Husky<subst>
+                  <rdg varSeq="1">
+                     <del rend="overstrike" hand="h1">,</del>
+                  </rdg>
+                  <rdg varSeq="2">
+                     <add rend="insertion" place="supralinear" hand="h1">-</add>
+                  </rdg>
+               </subst>Haughty Lips, O Sea!</head>
 
-            <l>With husky<del rend="overstrike" hand="#h02">,</del><add place="left" hand="#h02"><metamark function="emphasize" target="#a002">/</metamark></add><add hand="#h02" place="left" xml:id="a002">:</add> haughty lips, O <subst hand="#h02"><del rend="overstrike" seq="1">s</del><add place="right" seq="2" rend="marked">S</add></subst>ea!<add hand="#h02" place="below"><metamark function="add">&#8248;</metamark></add><add place="right" hand="#h02"><metamark function="emphasize">#</metamark></add></l>
-            
+            <del rend="overstrike">
+               <milestone unit="undeclared" rend="horbar"/>
+            </del>
+
+            <l>With husky<subst>
+                  <rdg varSeq="1">
+                     <del rend="overstrike" hand="h1">,</del>
+                  </rdg>
+                  <rdg varSeq="2">
+                     <add rend="insertion" place="supralinear" hand="h1">-</add>
+                  </rdg>
+               </subst>haughty lips, O <subst>
+                  <rdg varSeq="1">
+                     <del rend="overstrike" hand="h1">s</del>
+                  </rdg>
+                  <rdg varSeq="2">
+                     <add rend="unmarked" place="right" hand="h1">S</add>
+                  </rdg>
+               </subst>ea!</l>
             <addSpan rend="insertion"
                      place="interlinear"
                      hand="h1"
