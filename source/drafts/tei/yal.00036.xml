@@ -73,6 +73,7 @@
                <handNote medium="letter press" xml:id="h01" resp="#unk"></handNote>
                <handNote medium="black ink" xml:id="h02" resp="#ww"/>
                <handNote medium="pencil" xml:id="h03" resp="#ww"/>
+               <handNote medium="pencil" xml:id="h04" resp="#unk"></handNote>
             </handNotes>      
       </profileDesc>
       
@@ -87,139 +88,47 @@
          
             <note type="authorial" place="top" hand="#h02" rend="underline">don't like this head line try again&#8211;</note>
 
-            <head rend="italic" type="main-authorial">With Husky,<add place="below" hand="#h02"><metamark target="#a001" function="add">&#8248;</metamark></add><add place="above" hand="#h02"><metamark function="emphasize" target="#a001">/</metamark></add><add hand="#h02" place="above" xml:id="a001">:</add> Haughty Lips, O sea!</head>
+            <head rend="italic" type="main-authorial">With Husky,<add place="below" hand="#h02"><metamark target="#a001" function="add">&#8248;</metamark></add><add place="above" hand="#h02"><metamark function="emphasize" target="#a001">/</metamark></add><add hand="#h02" place="above" xml:id="a001">&#11840;</add> Haughty Lips, O sea!</head>
    <delSpan rend="overstrike" hand="#h02" spanTo="#d001"/><milestone unit="undeclared" rend="short-center"/><anchor xml:id="d001"/><addSpan hand="#h02" spanTo="#a004"/><metamark function="delete" target="#d001">&#977;</metamark><anchor xml:id="a004"/>
 
-            <l>With husky<del rend="overstrike" hand="#h02">,</del><add place="left" hand="#h02"><metamark function="emphasize" target="#a002">/</metamark></add><add hand="#h02" place="left" xml:id="a002">:</add> haughty lips, O <subst hand="#h02"><del rend="overstrike" seq="1">s</del><add place="right" seq="2" rend="marked">S</add></subst>ea!<add hand="#h02" place="below"><metamark function="add">&#8248;</metamark></add><add place="right" hand="#h02"><metamark function="emphasize">#</metamark></add></l>
+            <l>With husky<del rend="overstrike" hand="#h02">,</del><add place="left" hand="#h02"><metamark function="emphasize" target="#a002">/</metamark></add><add hand="#h02" place="left" xml:id="a002">&#11840;</add><del rend="closeup"><seg> </seg></del>haughty lips, O <subst hand="#h02"><del rend="overstrike" seq="1">s</del><add place="right" seq="2" rend="marked">S</add></subst>ea!<add hand="#h02" place="below"><metamark function="add">&#8248;</metamark></add><add place="right" hand="#h02"><metamark function="emphasize">#</metamark></add></l>
             
-            <addSpan rend="insertion"
-                     place="interlinear"
-                     hand="h1"
-                     to="a1"/>
-            <space dim="vertical" extent="1 line"/>
-            <anchor xml:id="a1"/>
-            <note type="authorial"
-                  hand="h1"
-                  place="interlinear">#</note>
             <l>Where day and night I wend thy surf-beat shore,</l>
-            <l>Imaging to my sense thy varied strange suggestions<subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike" hand="h1">;</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="right" hand="h1">,</add>
-                  </rdg>
-               </subst>
-            </l>
+            <l>Imaging to my sense thy varied strange suggestions<del rend="overstrike" hand="#h02">;</del><add place="right" hand="#h02"><metamark function="emphasize" target="#a005">/</metamark></add><add place="right" hand="#h02" xml:id="a005">,</add></l>
+           
             <l>Thy troops of white-maned racers racing to the goal,</l>
-            <l>
-               Thy ample, smiling face, dash'd with the sparkling dimples of<lb/>
-               the sun,<lb/>
-            </l>
+            <l>Thy ample, smiling face, dash'd with the sparkling dimples of<lb/> the sun,</l>
             <l>Thy brooding scowl and murk—thy unloos'd hurricanes,</l>
-            <note type="authorial"
-                  place="right"
-                  rend="circled"
-                  hand="h1">
-               <p>defeats</p>
-            </note>
-            <addSpan rend="insertion"
-                     place="interlinear"
-                     hand="h1"
-                     to="a1"/>
-            <space dim="vertical" extent="1 line"/>
-            <anchor xml:id="a1"/>
-            <note type="authorial"
-                  hand="h1"
-                  place="interlinear">#</note>
-            <l>Thy unsubduedness, caprices, wilfulness;</l>
-            <l>
-               Great as thou art above the rest, thy many tears—a lack<lb/> 
-               from all eternity in thy content,<lb/>
-            </l>
-            <l>
-               (Naught but the greatest struggles, wrongs, defe<subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike" hand="h1">c</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear" hand="h1">a</add>
-                     </rdg>
-                  </subst>ts, could make<lb/>
-               thee greatest—no less could make thee,)<lb/>
-            </l>
-            <l>
-               Thy lonely state—something thou ever seek'st and seek'st, yet<lb/>
-               never gain'st,<lb/>
-            </l>
-            <l>
-               Surely some right withheld—some voice<add rend="insertion" place="supralinear" hand="h1">,</add> in huge monotonous<lb/>
-               rage<add rend="insertion" place="left" hand="h1">,</add> of freedom-lover<del rend="overstrike" hand="h1">,</del> 
-                  <add rend="insertion" place="right" hand="h1">pent</add>,<lb/>
-            </l>
-            <l>
-               Some vast heart, <del rend="overstrike" hand="h1">pent</del> like a planet's, chain'd and chafing in<lb/>
-               th<subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike" hand="h1">e</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="left" hand="h1">o</add>
-                     </rdg>
-                  </subst>se breakers,<lb/>
-            </l>
-            <l>By lengthen'd swell, and spasm, and panting breath<add rend="insertion" place="right" hand="h1">,</add>
-            </l>
+            <l>Thy unsubdueness, caprices, wilfulness<add place="below" hand="#h02"><metamark function="add">&#8248;</metamark></add><add place="left" hand="#h02"><metamark function="emphasize">#</metamark></add>;</l>
+            <l>Great as thou art above the rest, thy many tears&#8212;a lack<lb/> from all eternity in thy content,</l>
+            <l>(Naught <hi rend="overline underline" xml:id="j003">but the</hi> <hi rend="overline underline" xml:id="j002">gr</hi>eatest strug<hi rend="overline underline" xml:id="j001">gles</hi>, wrongs, defe<subst hand="#h02"><del rend="overstrike" seq="1">c</del><add place="above" seq="2">a</add></subst>ts, could make<lb/> thee greatest&#8212;no less could<metamark function="adjust" target="#j001 #j002 #j003"><hi rend="underline">&#65077;</hi></metamark> make thee,)</l>
+            <note rend="circled" hand="#h02" type="authorial" place="left">defeats.</note>
+            <l>Thy lonely state&#8212;something thou ever seek'st and seek'st, yet<lb/> never gain'st,</l>
+            <l>Surely some right witheld&#8212;some voice<add place="below" hand="#h02"><metamark function="add" target="#a007">&#8248;</metamark></add><add place="above" hand="#h02"><metamark function="emphasize" target="#a007">/</metamark></add><add place="above" hand="#h02" xml:id="a007">,</add> in huge monotonous<lb/> rage<add place="below" hand="#h02"><metamark function="add" target="#a006">&#8248;</metamark></add><add place="left" hand="#h02"><metamark function="emphasize" target="#a006">/</metamark></add><add place="left" hand="#h02" xml:id="a006">,</add> of freedom-lover<subst hand="#h02"><del rend="overstrike" seq="1">,</del><add place="right" rend="marked" seq="2">pent,</add></subst></l>
+            <l>Some vast heart, <add hand="#h02" place="left" rend="marked"><metamark function="delete" target="#d002">&#977;</metamark></add><del hand="#h02" rend="overstrike" xml:id="d002">pent</del> like a planet's, chain'd and chafing in<lb/> th<del rend="overstrike" hand="#h02">e</del>se <add hand="#h02" place="left"><metamark function="emphasize" target="#e001">/</metamark></add><add hand="#h02" place="left" xml:id="e001">o</add> breakers,</l>
+               
+            <l>By lengthen'd swell, and spasm, and panting breath<add hand="#h02" place="below"><metamark function="add" target="#a008">&#8248;</metamark></add><add place="right" hand="#h02"><metamark function="emphasize" target="#a008">/</metamark></add><add place="right" hand="#h02" xml:id="a008">,</add></l>   
+            
             <l>And rhythmic rasping of thy sands and waves,</l>
             <l>And serpent hiss, and savage peals of laughter,</l>
             <l>And undertones of distant lion roar,</l>
-            <l>
-               (Sounding, appealing to the sky's deaf ear—but now<add rend="insertion" place="right" hand="h1">,</add> rapport<lb/>
-               for once,<lb/>
-            </l>
+            <l>(Sounding, appealing to the sky's deaf ear&#8212;but now<add hand="#h02" place="below"><metamark function="add" target="#a009">&#8248;</metamark></add><add place="right" hand="#h02"><metamark function="emphasize" target="#a009">/</metamark></add><add place="right" hand="#h02" xml:id="a009">,</add> rapport<lb/> for once,</l>
             <l>A phantom in the night thy confidant for once,)</l>
-            <l>The first and last confession <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike" hand="h1">e</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="right" hand="h1">o</add>
-                  </rdg>
-               </subst>f the globe,</l>
-            <l>Out<subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike" hand="h1">ra</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="left" hand="h1">sur</add>
-                  </rdg>
-               </subst>,
-<note type="authorial"
-                     place="left"
-                     rend="circled"
-                     hand="h1">outsurging</note>
- muttering<del rend="overstrike" hand="h1">,</del> from thy soul's abysms,</l>
+            <l>The first and last confession <retrace rend="overstrike" hand="#h02" cause="emphasize"><del rend="overstrike" hand="#h03">e</del></retrace><retrace hand="#h02" cause="emphasize"><add place="right" hand="#h03">o</add></retrace>f the globe,</l>
+            <l>Out<subst hand="#h02"><del rend="overstrike" seq="1">ra</del><add place="left" seq="2">sur</add></subst>ging, muttering<del rend="overstrike" hand="#h02" xml:id="d004">,</del><add place="right" hand="#h02"><metamark function="delete" target="#d004">&#977;</metamark></add> from thy soul's abysms,</l>
+            <note type="authorial" place="left" hand="#a002" rend="circled">outsurging</note>
             <l>The tale of cosmic elemental passion,</l>
-            <l>Thou t<subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike" hand="h1">a</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="left" hand="h1">e</add>
-                  </rdg>
-               </subst>llest <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike" hand="h1">of</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked" place="infralinear" hand="h1">to</add>
-                  </rdg>
-               </subst> a kindred soul.</l>
+            <l>Thou t<subst hand="#h02"><del rend="overstrike" seq="1">a</del><add place="left" seq="2">e</add></subst>llest <del rend="overstrike" hand="#h02">of</del><add place="below" hand="#h02"><metamark function="emphasize" target="#e002">/</metamark></add><add place="below" hand="#h02" xml:id="e002">to</add> a kindred soul.</l>
          </lg>
-         <signed>WALT WHITMAN.</signed>
-         <del rend="overstrike" hand="h1">
-            <add rend="unmarked" place="inline" hand="h1">—</add>
-         </del>
+            <byline rend="right">W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.<add hand="#h02" seq="1"><del rend="overstrike" seq="2" xml:id="d005">&#8212;</del></add><add place="right" hand="#h02"><metamark function="delete" target="#d005">&#977;</metamark></add></byline> 
+         
+         
+         <pb xml:id="leaf001v" facs="Yale/CD7/Whitman10.jpg" type="verso"/>
+         <note type="authorial" hand="#h03" place="top">5</note>
+         <note type="archival" hand="#h04" place="top"><hi rend="underline">$25.-</hi></note>
+         <note type="archival" hand="#h04" place="top">SK</note>
+         <note target="authorial" hand="#h03" rend="circled">8</note>  
+         
       </body>
    </text>
 </TEI>
