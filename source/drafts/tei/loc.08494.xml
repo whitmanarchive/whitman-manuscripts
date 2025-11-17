@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08494"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main" rend="bracketed">To The Sun-Set Breeze</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="sd">Sarah Danielson</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2025</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno><!-- ADD THE UNIQUE ID HERE --></idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+     <note type="work_relations" target="xxx." cert="high">
+      <p></p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     
+<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
+       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
+     <date notBefore="" notAfter="" cert=""></date>
+     
+     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     
+<!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
+      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
+     <orgName xml:id=""></orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
+     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
+     <relatedItem type="document" target="wwa.00041"/>
+     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
+    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="printed type" xml:id="h02" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
+    <handNote medium="pencil" xml:id="h03" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h04" resp="#unk"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2025-11-17" who="#sd">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="loc_ja.00003.jpg" type="recto"/>
+   <note type="authorial" place="top" hand="#h01">please give me thee (<subst hand="#h03"><del rend="overstrike" seq="1">3</del><add place="below" seq="2">4</add></subst>) further impressions of C and D proofs</note>
+   
+   <note type="authorial" place="top" hand="#h03">C</note>
+   
+   <lg type="poem">
+    <head type="main">TO THE SUN-SET BREEZE.</head>
+    <l>A<hi rend="smallcaps">H</hi>, whispering, something again, unseen,</l>
+    <l>Where late this heated day thou enterest at my window, door,</l>
+    <l>Thou, laving, tempering all, cool-freshing, gently vitalizing</l>
+    <l>Me, old, alone, sick, weak-down, melted-word with sweat;</l>
+    <l>Thou, nestling, folding close and firm yet soft, companion <choice><orig>bet-<lb/>ter</orig><reg>better<lb/></reg></choice> than talk, book, art,</l>
+    <l>(Thou hast, O Nature! e<hi hand="#h01" rend="overline underline" xml:id="j001">l</hi><add hand="#h01" place="left"><metamark function="adjust" target="#j001">=</metamark></add>ements! utterance to my heart beyond<lb/> the rest&#8212;and this is of them,)</l>
+    <l>So sweet thy primitive taste to breath<add hand="#h01" place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h03" place="above" rend="marked" xml:id="a001">e</add><add hand="#h01" place="right">e<metamark function="emphasize" target="#a001">/</metamark></add> within&#8212;thy soothing<lb/> fingers on my face and hands,</l>
+    <l>Thou, messenger-magical strange bringer to body and spirit of<lb/> me,</l>
+    <l>(Distances balk'd&#8212;occult medicines penetrating me from head<lb/> to foot<add hand="#h01" xml:id="a002">,</add><add hand="#h01" place="left"><metamark function="add" target="#a002">,/</metamark></add>)</l>
+    <l>I feel the sky, the prairies vast&#8212;I feel the mighty northern<lb/> lakes,</l>
+    <l>I feel the ocean and the forest&#8212;somehow I feel the globe itself<lb/> swift-swimming in space;</l>
+    <l>Thou blown from lips so loved, now gone&#8212;haply from endless<lb/> store, God-sent,</l>
+    <l>(For thou art spiritual, Godly, most of all known to my<lb/> sense,)</l>
+    <l>Minister to speak to me, here and now, what word has never<lb/> told, and cannot tell,</l>
+    <l>Art thou not universal concrete's distillation> Law's, all <choice><orig>As-<lb/>tronomy's</orig><reg>Astronomy's<lb/></reg></choice> last refinement?</l>
+    <l>Hast thou no soul? Can I not know, identify thee?</l>
+   </lg>
+   
+   <lg type="poem">
+    <head type="main">BRAVO, PARIS EXPOSITION!</head>
+    <l>A<hi rend="smallcaps">DD</hi> to your show, before you close it, France,</l>
+    <l>With all the rest, visible, concrete, temples, towers, goods, <choice><orig>ma-<lb/>chines</orig><reg>machines</reg></choice> and ores,</l>
+    <l>Our sentiment wafted from many million heart-throbs, ethereal<lb/> but solid,</l>
+    <l>(We grand-sons and great-grand-sons do not forget your <choice><orig>grand-<lb/>sires</orig><reg>grand-sires</reg></choice>,)</l>
+    <l>From fifty Nations and nebulous Nations, compacted, sent <choice><orig>over-<lb/>sea</orig><reg>oversea</reg></choice> to-day,</l>
+    <l>America's applause, love, memories and good-wil.</l>
+   </lg>
+   
+   <lg type="poem">
+    <head type="main">INTERPOLATION SOUNDS.</head>
+    <note type="authorial">[General Philip Sheridan was buried at the Cathedral, Washington, D. C., August, 1888, with all the pomp, music and ceremonies of the Roman Catholic Service.]</note>
+    <l>O<hi rend="smallcaps">VER</hi> and through the burial chant,</l>
+    <l>Organ and solemn service, sermon, bending priests,</l>
+    <l>To me come interpolation sounds not in the show&#8212;plainly to<lb/> me, crowding up the aisle and from the window,</l>
+    <l>Of sudden battle's hurry and harsh noises&#8212;war's grim game to<lb/> sight and ear in earnest;</l>
+    <l>The scout call'd up and forward&#8212;the general mounted and his<lb/> aids around him&#8212;the new<subst hand="#h01"><del rend="unmarked" seq="1"> </del><add place="below" seq="2"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="right" seq="3">&#11840;<metamark function="emphasize" target="#a003">/</metamark></add></subst>brought word&#8212;the instantaneous<lb/> order issued;</l>
+    <l>The rifle crack&#8212;the cannon thud&#8212;the rushing forth of men<lb/> from their tents;</l>
+    <l>The clank of cavalry&#8212;the strange celerity of forming ranks&#8212;<lb/>the slender bugle note;</l>
+    <l>The sound of horses' hoofs departing&#8212;sadles, arms, <choice><orig>accoutre-<lb/>ments</orig><reg>accoutrements</reg></choice>.</l>
+    <note type="authorial"><p>N<hi rend="smallcaps">OTE</hi>&#8212;C<hi rend="smallcaps">AMDEN</hi>, N. J., August 7, 1888.&#8212;Walt Whitman asks the <hi rend="italics">New York Herald</hi> "to add to his tribute to Sheridan<subst hand="#h01"><del rend="overstrike" seq="1"><gap reason="illegible" extent="one or two characters"/></del><add place="right" xml:id="a004" seq="2">":<metamark function="emphasize" target="#a004">/</metamark></add></subst></p>
+     <p>"In the grand constellation<del rend="overstrike" hand="#h01" xml:id="d001"><gap reason="illegible" extent="one character"/></del><add hand="#h01" place="left"><metamark function="delete" target="#d001">&#977;</metamark></add> of five or six names, under Lincoln's Presidency, that history will bear for ages in her firmament as marking the last life-throbs of secession, and bearing on its dying gasps, Sheridan's will be bright. One consideration rising out of the now dead soldier's example as it passes my mind, is worth taking notice of. If the war had continued any long time these States, in my opinion, would have shown and proved the most conclusive military talents ever evinced by any nation on earth. That they possess<subst hand="#h01"><del rend="overstrike" xml:id="d002" seq="1">e</del><add place="left" seq="2">'<metamark function="emphasize" target="#d002">&#711;</metamark></add></subst>d a rank and file ahead of all other known in points of quality and limitlessness of number are easily admitted. But we have, too, the eligibility of organizing, handling and officering equal to the other. These two, with modern arms, transportation<add hand="#h01" place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add hand="#h01" place="right" xml:id="a005">,<metamark function="emphasize" target="#a005">/</metamark></add> and inventive American genius, would make the United States, with earnestness, not only able to stand the whole world, but conquer that world united against us."</p>
+    </note>
+   </lg>
+   
+   <lg type="poem">
+    <head type="main">OLD CHANTS.</head>
+    <l>A<hi rend="smallcaps">N</hi> ancient song, reciting, ending,</l>
+    <l>Once gazing toward thee, Mother of All,</l>
+    <l>Musing, seeking themes fitted for thee,</l>
+    <l><hi rend="italics">Accept for me</hi>, thou saidst, <hi rend="italics">the elder ballads</hi>,</l>
+    <l><hi rend="italics">And name for me before thou goest each ancient poet</hi>.</l>
+   </lg>
+   
+   <lg type="poem">
+    <l>(Of many debts incalculable,</l>
+    <l>Haply our New World's chiefest debt is to old poems.)</l>
+   </lg>
+   
+   <lg>
+    <l>Ever so far back, preluding thee, America,</l>
+    <l>Old chants, Egyptian priests, and those of Ethiopia,</l>
+    <l>The Hindu epics, the Grecian, Chinese, Persian,</l>
+    <l>The Biblic books and prophets, and deep idyl<del hand="#h01" rend="overstrike" xml:id="d003">l</del><add place="right" hand="#h01"><metamark function="delete" target="#d003">&#977;</metamark></add>s of the <choice><orig>Naza-<lb/>rene,</orig><reg>Nazarene</reg></choice>,</l>
+ 
+   <pb xml:id="leaf002r" facs="loc_ja.00004.jpg" type="recto"/>
+    
+    <note type="authorial" place="top" hand="#h03">D</note>
+    
+    <l>The Illiad, Odyssey, plots, doings, wand<subst hand="#h01"><del rend="overstrike" seq="1"> </del><add place="right" xml:id="a006" seq="2">e<metamark function="emphasize" target="#a006">/</metamark></add></subst>rings of Eneas,</l>
+    <l>Hesiod, Eschylus, Sophocles, Merlin, Arthur,</l>
+    <l>The Cid, Roland at Roncesvalles, the Nubelungen,</l>
+    <l>The troubadours, minstrels, minnesingers, skalds,</l>
+    <l>Chaucer, Dante, flocks of singing birds,</l>
+    <l>The Border Minstrelsy, the bye-gone ballads, feudal tales, essays,<lb/> plays,</l>
+    <l>Shakespere, Schiller, Walter Scott, Tennyson,</l>
+    <l>As some vast wondrous weird dream-presences,</l>
+    <l>The great shadowy groups gathering around,</l>
+    <l>Darting their mighty masterful eyes forward at thee,</l>
+    <l>Thou! with as now thy bending neck and head, with courteous<lb/> hand and word, ascending,</l>
+    <l>Thou! pausing a moment, drooping thine eyes upon them, blent<lb/> with their music,</l>
+    <l>Well pleased, accepting all, curiously prepared for by them,</l>
+    <l>Thou enterest at thy entrance porch.</l>
+   </lg>
+   
+   <lg type="poem">
+    <head type="main">A TWILIGHT SONG.</head>
+    <l>As I sit in twilight late alone by the flickering oak-flame,</l>
+    <l>Musing on long-pass<subst hand="#h01"><del rend="overstrike" seq="1">e</del><add place="left" xml:id="a007" seq="2">'<metamark function="emphasize" target="#a007">&#711;</metamark></add></subst>d war-scenes&#8212;of the countless buried <choice><orig>un-<lb/>known</orig><reg>unknown</reg></choice> soldiers,</l>
+    <l>Of the vacant names, as uninde<hi rend="underline" hand="#h04">nte</hi>d air'<hi rend="underline" hand="#h04">s </hi>and sea'<hi rend="underline" hand="#h04">s</hi>&#8212;the <choice><orig>un-<lb/>return'd</orig><reg>unreturn'd</reg></choice>,</l>
+    <l>The brief truce after battle, with grim burial-squads, and the<lb/> deep-fill'd trenches</l>
+    <l>Of gather'd dead from all America, North, South, East, West,<lb/> whence they came up,</l>
+    <l>From wooded Maine, New-England's farms, from fertile <choice><orig>Penn-<lb/>sylvania</orig><reg>Pennsylvania</reg></choice>, Illinois, Ohio,</l>
+    <l>From the measureless West, Virginia, the South, the Carolinas,<lb/> Texas,</l>
+    <l>(Even here in my room-shadows and half-lights in the noisless<lb/>flickering flames,</l>
+    <l>Again I see the stalwart ranks on-filing, rising&#822;I hear the<lb/> rhythmic tramp of the armies;)</l>
+    <l>You million unwrit names all, all&#8212;you dark bequest from all the<lb/> war,</l>
+    <l>A special verse for you&#8212;a flash of duty long neglected&#821;your<lb/>mystic roll strangely gather'd here,</l>
+    <l>Each name recall'd by me from out the darkness and death's<lb/> ashes,</l>
+    <l>Henceforth to be, deep, deep within my heart recordings, for<lb/> many a future year,</l>
+    <l>Your mystic roll entire of unknown names, or North or<lb/> South,</l>
+    <l>Embalm'd with love in this twilight song.</l>
+   </lg>
+   
+   <lg>
+    <head type="main">OSCEOLA.</head>
+    <note type="authorial"><p>[When I was nearly grown to manhood in Brooklyn, New York, (middle of 1838), I met one of the return'd U. S. Marines from Fort Moultrie, S. C., and had long talks with him,&#8212;learn'd the occurence below describ<subst hand="#h01"><del rend="overstrike" seq="1">'</del><add place="right" xml:id="a008" seq="2">e<metamark function="emphasize" target="#a008">/</metamark></add></subst>d&#821;death of Osceola. The latter was a young, brave, leading Seminole in the Florida war of that time&#8212;was surrender'd to our troops, imprison'd and literally died of "a broken heart," at Fort Moultrie. He sicken'd of his confinement&#8212;the doctor and officers made every allowance and kindness possible for him; then the close:]</p></note>
+    <l>W<hi rend="smallcaps">HEN</hi> his hour for death had come,</l>
+    <l>He slowly rais'd himself from the bed on the floor,</l>
+    <l>Drew on his war-dress, shirt, leggings, and girdled the belt<lb/> around his waist<subst hand="#h01"><del rend="overstrike" seq="1">;</del><add place="right" xml:id="a009" seq="2">,<metamark function="emphasize" target="#a009">/</metamark></add></subst></l>
+    <l>Call'd for vermilion paint (his looking-glass was held before<lb/> him)</l>
+    <l>Painted half his face and neck, his wrists, and backhands.</l>
+    <l>Put the scalp-knife carefully in his belt&#8212;then lying down, resting<lb/> a moment,</l>
+    <l>Rose again, half sitting, smiled, gave in silence his extend'd<lb/> hand to each and all,</l>
+    <l>Sank faintly low to the floor (tightly grasping the tomahawk<lb/> handle)</l>
+    <l>Fix'd his look on wife and little children&#8212;the last:</l>
+    <l>(And here a line in memory of his name and death)</l>
+   </lg>
+   
+   <lg>
+    <head type="main">LONG, LONG HENCE.</head>
+    <l>A<hi rend="smallcaps">FTER</hi> a long, long course, hundreds of years<subst hand="#h01"><del rend="overstrike" seq="1"><gap reason="illegible" extent="one character"/></del><add place="right" xml:id="a011" seq="2">'<metamark target="#a011" function="emphasize">/</metamark></add></subst> denials,</l>
+    <l>Accumulations, rous<subst hand="#h01"><del rend="overstrike" seq="1">e</del><add place="left" xml:id="a010" seq="2">'<metamark target="#a010" function="emphasize">&#711;</metamark></add></subst>d love and joy and thought,</l>
+    <l>Hopes, wishes, aspirations, ponderings, victories, myriads of<lb/> readers,</l>
+    <l>Coating, compassing, covering&#8212;after ages' and ages' <choice><orig>encrus-<lb/>tations</orig><reg>encrustations</reg></choice>,</l>
+    <l>Then only may these songs reach fruition.</l>
+   </lg>
+
+   
+   
+</body>
+</text>
+</TEI>
