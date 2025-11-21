@@ -87,12 +87,13 @@
     <handNote medium="printed type" xml:id="h02" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
     <handNote medium="pencil" xml:id="h03" resp="#ww"/>
     <handNote medium="pencil" xml:id="h04" resp="#unk"/>
-    <handNote medium="blue ink" xml:id="h05" resp="#ww"/>
+    <handNote medium="blue pencil" xml:id="h05" resp="#unk"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
  <change when="2025-11-20" who="#sd">transcribed and encoded</change>
+ <change when="2025-11-21" who="#sd">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -101,42 +102,102 @@
    
    <pb xml:id="leaf001r" facs="loc_ja.00005.jpg" type="recto"/>
    
-   <note type="authorial" place="left" hand="#h01">another proof please<lb/> -<subst hand="#h03"><del rend="overstrike" seq="1">three</del><add place="below" seq="2">4</add></subst> copies</note>
+   <note type="authorial" place="left" hand="#h01" rend="circled">another proof please<lb/> -<subst hand="#h03"><del rend="overstrike" seq="1">three</del><add place="below" seq="2">4</add></subst> copies</note>
    
-   <note type="authorial" place="top" hand="#h03">y</note>
+   <note type="authorial" place="top" hand="#h04">y</note>
    
-   <note type="authorial" place="top" hand="#h03" xml:id="a001">E<metamark place="below" function="emphasize" target="#a001"></metamark></note>
+   <note type="authorial" place="top" hand="#h04" xml:id="a001">E<metamark place="below" function="emphasize" target="#a001">&#711;</metamark></note>
    
-   <note type="authorial" place="left" hand="#h05">4)proofs</note>
+   <note type="authorial" place="left" hand="#h05" rend="circled">4)proofs</note>
    
    <lg type="poem">
-    <head type="main"><del rend="overstrike" hand="#h03">:</del>   THE COMMONPLACE.</head>
-    <anchor xml:id="j002></anchor><addSpan hand="#h01" place="inline" spanTo="#j003"/><metamark function="adjust" target="#j002">-</metamark><metamark place="right" target="#j002">#</metamark><anchor xml:id="j003"/>
-    <l>T<hi rend="smallcaps">HE</hi> commmonplace I sing<subst hand="#h01"><del rend="underline" seq="1">;</del><add seq="2">,</add></subst></l>
+    <head type="main"><del rend="overstrike" hand="#h03">:</del>THE COMMONPLACE.</head> 
+    <l>T<hi rend="smallcaps">HE</hi> commmonplace I sing<anchor rend="marked" xml:id="a004"/><hi rend="overlineunderline" hand="#h01">;</hi><add place="right" hand="#h01"><metamark function="add" target="#a004">#</metamark></add></l>
     <l>How cheap is health! how cheap nobility!</l>
     <l>Abstinence, no falsehood, no gluttony, lust;</l>
-    <l>The open air<del rend="oversrike" hand="#h01" xml:id="d001"> <metamark target="#d001" function="delete" place="left">d</metamark></del><hi rend="underline" hand="#h04" xml:id="j001"> I s<metamark target="#j001" function="emphasize" place="right">&#10003;</metamark></hi>ing, freedom, toleration,</l>
+    <l>The open air<del rend="oversrike" hand="#h01" xml:id="d001"> </del><add place="left" hand="#h01"><metamark target="#d001" function="delete" place="left">&#977;</metamark></add><hi rend="underline" hand="#h04" xml:id="j002"> I s<add><metamark target="#j002" function="unknown" place="right">&#10003;</metamark></add></hi>ing, freedom, toleration,</l>
     <l>(Take here the mainest lesson&#8212;less from books&#8212;less from the<lb/> schools,)</l>
     <l>The common day and night&#8212;the common earth and waters,</l>
     <l>Your farm&#8212;your work, trade, occupation;</l>
     <l>The democratic wisdom underneath, like solid ground for all.</l>
    </lg>
   
-  <lg>
+  <lg type="poem">
    <head type="main">A VOICE FROM DEATH.</head>
-   <note type="authorial">(The Johnstown, Penn<del rend="overstrike" hand="#h01" xml:id="d002">a<metamark target="#d002" function="delete" place="left">d</metamark></del>., cataclysm, May 31, 1889.)</note>
+   <note type="authorial">(The Johnstown, Penn<del rend="overstrike" hand="#h01" xml:id="d002">a</del><add><metamark target="#d002" function="delete" place="left">&#977;</metamark></add>., cataclysm, May 31, 1889.)</note>
+   
+   <lg type="linegroup">
    <l>A <hi rend="smallcaps">VOICE</hi> from Death, solemn and strange, in all his sweep and<lb/> power,</l>
    <l>With sudden, indescribable blow&#8212;towns drown'd&#8212;humanity by<lb/> thousands slain,</l>
    <l>The vaunted work of thrift, goods, dwellings, forge, street, iron<lb/> bridge<subst hand="#h01"><del rend="overstrike" seq="1">.</del><add xml:id="a002">,<metamark target="#a002" function="emphasize" place="left">,/</metamark></add></subst></l>
    <l>Dash'd pell-mell by the blow&#8212;yet usher'd life continuing on,</l>
    <l>(Amid the rest, amid the rushing, whirling, wild debris,</l>
    <l><hi rend="underline" hand="#h01" xml:id="j004">A suffering woman saved</hi>&#8212;a baby safely born!)</l>
-   <anchor/><addSpan hand="#h01" spanTo="#j006"/><metamark function="adjust" target="#j004">#</metamark><anchor xml:id="j006"/>
-   
-  
+   <anchor xml:id="a005"/><addSpan hand="#h01" spanTo="#a006" rend="marked"/><metamark function="add" target="#a005">#</metamark><anchor xml:id="a006"/>
+   <l>Although I come and unannounc<subst hand="#h01"><del rend="overstrike" seq="1">e</del><add place="right" seq="2" xml:id="a003">'<metamark target="#a003" function="emphasize">&#711;</metamark></add></subst>d, in horror and in pang,</l>
+   <l>In pouring flood and fire, and wholesale elemental crash, (this<lb/> voice so solemn, strange,)</l>
+   <l>I too a minister of Deity.</l>
   </lg>
    
+   <lg type="linegroup">
+    <l>Yea, Death, we bow our faces, veil our eyes to thee,</l>
+    <l>We mourn the old, the young untimely drawn to thee,</l>
+    <l>The fair, the strong, the good, the capable,</l>
+    <l>The household wreck'd, the husband and the wife, the engulf'd<lb/> forger in his forge,</l>
+    <l>The corpses in the whelming waters and the mud,</l>
+    <l>The gather'd thousands <subst hand="#h01"><del rend="overstrike" seq="1">in</del><add place="left" xml:id="a007" seq="2">to<metamark target="#a007" function="emphasize">/</metamark></add></subst> their funeral mounds, and thousands<lb/> never found or gather'd.</l>
+   </lg>
    
+   <lg type="linegroup">
+    <l>Then after burying, mourning the dead,</l>
+    <l>(Faithful to them found or unfound, forgetting not, bearing the<lb/> past, here new musing,)</l>
+    <l>A day&#8212;a passing moment or an hour&#212;America itself bends low,</l>
+    <l>Silent, resign'd, submissive.</l>
+   </lg>
+   
+   <lg type="linegroup">
+    <l>War, death, cataclysm like this, America</l>
+    <l>Take deep to thy proud prosperous heart.</l>
+   </lg>
+   
+   <lg type="linegroup">
+    <l>E'en as I chant, lo! out of death, and out of ooze and slime,</l>
+    <l>The blossoms rapidly blooming, sympathy, help, love,</l>
+    <l>From West and East, from South and North and over sea,</l>
+    <l>Its ho<hi rend="underline" hand="#h04" xml:id="u001">t-sp<add place="left"><metamark target="#u001" function="unknown">&#10003;</metamark></add></hi>urr'd hearts and hands humanity to human aid moves<lb/> on;</l>
+    <l>And from within a hought and lesson yet.</l>
+   </lg>
+   
+   <lg type="linegroup">
+    <l>Thou ever-darting globe! through Earth and Air!</l>
+    <l>Thou waters that encompass us!</l>
+    <l>Thou that in all the life and death of us, in action or in sleep!</l>
+    <l>Thou laws invisible that permeat them and all,</l>
+    <l>Thou that in all, and over all, and through and under all,<lb/> incessant!</l>
+    <l>Thou! thou! the vital, universal, giant force resistless, sleepless,<lb/> calm,</l>
+    <l>Holding Humanity as in thy open hand, as some ephemeral toy,</l>
+    <l>How ill to e'er forget thee!</l>
+   </lg>
+   
+   <lg type="linegroup">
+    <l>For I too have forgotten,</l>
+    <l>(Wrapt in these little potencies of progress, politics, culture,<lb/> wealth, inventions, civilization<add place="inline" hand="#h01"><metamark target="#a008" function="add">&#8248;</metamark></add><add place="right" hand="#h01" xml:id="a008">,<metamark target="#a008" function="emphasize">/</metamark></add>)</l>
+    <l>Have lost my recognition of your silent ever-swaying power,<lb/> ye mighty, elemental throes.</l>
+    <l>In which and upon which we float, and every one of us is<lb/> bouy<subst hand="#h01"><del rend="overstrike" seq="1">e</del><add place="left" xml:id="a009">'<metamark target="#a009" function="emphasize">&#711;</metamark></add></subst>d.</l>
+   </lg>
+  </lg>
+   
+   <lg type="poem">
+    <head type="main">FOR QUEEN VICTORIA'S BIRTHDAY.</head>
+    <note type="authorial"><hi rend="italics">An American arbutus bunch<del rend="overstrike" hand="#h01" xml:id="d004">,</del><add place="right" hand="#h01"><metamark target="#d004" function="delete">&#977;</metamark></add> to be put in a little vase<del rend="overstrike" hand="#h01" xml:id="d005">,</del><add place="right" hand="#h01"><metamark target="#d005" function="delete">&#977;</metamark></add> on the royal breakfast table, May 24th, 1890.</hi></note>
+    <l>L<hi rend="smallcaps">ADY</hi>, accept a birth-day thought&#8212;haply an idle gift and token,</l>
+    <l>Rigtly from the scented soil's May-utterance here,</l>
+    <l>(<subst><del rend="overstrike" hand="#h01" seq="1" xml:id="d003">s</del><add place="left" hand="#h04" rend="marked" seq="3"><metamark function="delete" target="#d003">cap</metamark></add><add place="left" hand="#h01" seq="2"><hi rend="tripleUnderline">S</hi></add></subst>melling of countless blessings, prayers, and old-time thanks<subst hand="#h01"><del rend="overstrike" seq="1">)</del><del rend="overstrike" seq="2">.</del><add xml:id="a011" place="right" seq="3">,)*<metamark target="#a011" function="emphasize">/</metamark></add></subst></l>
+    <l>A bunch of white and pink arbutus, silent, spicy, shy,</l>
+    <l>From Hudson's, Deleware's, or Potomac's woody banks.</l>
+    <note type="authorial"><add place="left" hand="#h01" xml:id="a012">*<metamark target="#a012" function="add" place="inline"></metamark></add>N<hi rend="smallcaps">OTE</hi>.&#8212;Very little, as we Americans stand this day, with our sixty-five or seventy millions of population, an immense surplus in<hi rend="underline" hand="#h03"><anchor xml:id="j001"/></hi><add hand="#h04" place="right"><metamark function="adjust"
+     target="#j001">&#8869;</metamark></add>the treasury, and all that actual power or reserve power (land and sea) so dear to nations&#8212;very little I say do we realize that curious crawling national shudder when the "Trent affair" promis'd to bring upon us a war with Great Britain&#8212;follow'd unquestionably<add hand="#h04"><metamark target="#a014" function="add">&#8248;</metamark></add><add hand="#h04" place="left" xml:id="a014">,<metamark target="#a014" function="emphasize">&#711;</metamark></add> as that war would have<del rend="overstrike" hand="#h01" seq="3"><add hand="#h04" seq="1"><metamark target="#a015" function="add">&#8248;</metamark></add><add rend="marked" hand="#h04" place="left" xml:id="a015" seq="2">been<metamark target="#a015" function="exmphasize">?&#711;</metamark></add></del>, by recognition of the Southern Confederacy from all the leading European nations. It is now certain that all this then inevitable train of calamity hung on arrogant and peremptory phrases in the prepar'd and written missive of the British Minister, to America, which the Queen (and Prince Albert latent) positively and promptly cancell'd; and which her firm attitude did alone actually erase and leave out, against all the other official prestige and Court of St. James<del rend="overstrike" hand="#h04" xml:id="d006">'s</del><del rend="overstrike" hand="#h01"><add rend="marked" hand="#h04" place="below"><metamark target="#d006" function="delete">?&#948;</metamark></add></del>.</note>
+   </lg>
    
    
 </body>
