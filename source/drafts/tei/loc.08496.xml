@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08496"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main" rend="bracketed">The Unexpress'd</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="sd">Sarah Danielson</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2025</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>loc.08496</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+     <note type="work_relations" target="xxx." cert="high">
+      <p></p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     
+<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
+       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
+     <date notBefore="" notAfter="" cert=""></date>
+     
+     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     
+<!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
+      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
+     <orgName xml:id=""></orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
+     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
+     <relatedItem type="document" target="wwa.00041"/>
+     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
+    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="printed type" xml:id="h02" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
+    <handNote medium="pencil" xml:id="h03" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h04" resp="#unk"/>
+    <handNote medium="blue pencil" xml:id="h05" resp="#unk"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+ <change when="2025-12-01" who="#sd">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="loc_ja.00007.jpg" type="recto"/>
+   
+   <note type="authorial" place="top" hand="#h01"><subst hand="#h04"><del rend="overstrike" seq="1">three</del><add place="below" seq="2">4</add></subst> copies of these please</note>
+   
+   <note hand="#h04" place="top" rend="marked">G</note>
+   
+   <lg type="poem">
+    <head type="main">THE UNEXPRESS'D<add hand="#h01" place="right" rend="marked" xml:id="a001">.</add><add hand="#h01"><metamark target="#a001" function="add">&#8248;</metamark></add><add hand="#h04" place="above" rend="marked">.</add></head>
+    <l>H<hi rend="smallcaps">OW</hi> dare one say it?</l>
+    <l>After the cycles, poems, singers, plays,</l>
+    <l>Vaunted Ionia's, India's&#8212;Homer, Shakspere&#8212;the long, long<lb/> times' thick dotted roads, areas,</l>
+    <l>The shining clusters and the Milky Ways of stars&#8212;Nature's<lb/> pulses reap'd,</l>
+    <l>All retrospective passions, heroes, war, love, adoration,</l>
+    <l>All ages' plummets dropt to their utmost depths,</l>
+    <l>All human lives, throats, wishes, brains&#8212;all ex<del rend="overstrike" hand="#h01" xml:id="d001">e<add place="right"><metamark target="#d001" function="delete">&#948;</metamark></add></del>periences' <choice><orig>utter-<lb/>ance</orig><reg>utterance</reg></choice>;</l>
+    <l>After the countless songs, or long or short, all tongues, all lands,</l>
+    <l>Still something not yet told in posey's voice or print&#8212;something<lb/> lacking,</l>
+    <l>(Who knows? the best yet unexpress'd and lacking<subst><del rend="overstrike" hand="#h01" seq="1">).</del><add place="right" xml:id="a002" seq="2">.)<metamark target="#a002" function="emphasize">/</metamark></add></subst></l>
+   </lg>
+   
+   <lg type="poem">
+    <head type="main">SOUNDS OF THE WINTER.</head>
+    <l>S<hi rend="smallcaps">OUNDS</hi> of the winter too,</l>
+    <l>Sunshine upon the mountains&#8212;many a distant strain</l>
+    <l>From cheery railroad train&#8212;from nearer field, barn, house</l>
+    <l>The whispering air&#8212;even the mute crops, garner'd apples, corn,</l>
+    <l>Children's and women's tones&#8212;rhythm of many a farmer and<lb/> of flail,</l>
+    <l>An old man's garrulous lips among the rest, <hi rend="italics">Think not what we give<lb/> out yet,</hi></l>
+    <l><hi rend="italics">Forth from these snowy hairs we keep up yet the lilt.</hi></l>
+   </lg>
+   
+   <lg type="poem">
+    <head type="main">"THE ROUNDED CATALOGUE<hi hand="#h04" rend="underline"> </hi>DIVING<hi hand="#h04" rend="underline"> </hi>COMPLETE."</head>
+    
+    
+    <l>T<hi rend="smallcaps">HE</hi> devilish and the dark, the dying and diseas<subst hand="#h01"><del rend="overstrike" seq="1">e</del><add place="right" xml:id="a003" seq="2">'<metamark target="#a003" function="emphasize">&#711;</metamark></add></subst>d,</l>
+    <l>The countless (nineteen-twentieths) low and evil, crude and<lb/> savage,</l>
+    <l>The crazed<add hand="#h01"><metamark target="#a005" function="add">&#8248;</metamark></add><add hand="#h01" place="left" xml:id="a005">,<metamark target="#a005" function="emphasize">/</metamark></add> prisoners in jail, the horrible<add hand="#h01"><metamark target="#a004" function="add">&#8248;</metamark></add><add hand="#h01" place="right" xml:id="a004">,<metamark target="#a004" function="emphasize">/</metamark></add> rank, malignant,</l>
+    <l>Venom and filth, serpents, the ravenous sharks, liars, the <choice><orig>disso-<lb/>lute</orig><reg>dissolute</reg></choice><add hand="#h01"><metamark target="#a006" function="add">&#8248;</metamark></add><add hand="#h01" place="left" xml:id="a006">;<metamark target="#a006" function="emphasize">/</metamark></add></l>
+    <l>(What is the part the wicked and the loath<add hand="#h01"><metamark target="#a007" function="add">&#8248;</metamark></add><add place="right" hand="#h01" xml:id="a007">e<metamark target="#a007" function="emphasize">/</metamark></add>some bar within<lb/> earth's orbic scheme?)</l>
+    <l>Newts, crawling things in slime and mud, poisons,</l>
+    <l>The barren soil, the evil men, the slag and hideous rot.</l>
+   </lg>
+   
+   <lg type="poem">
+    <head type="main">GRAND IS THE SEEN.</head>
+    <l>G<hi rend="smallcaps">RAND</hi> is the seen, the light, to me&#8212;grand are the sky and<lb/> stars,</l>
+    <l>Grand is the earth, and grand are lasting time and space,</l>
+    <l>But grander far the unseen soul of me, comprehending, <choice><orig>endow-<lb/>ing</orig><reg>endowing</reg></choice> all those,</l>
+    <l>Lighting the light, the sky and stars, delving the earth, sailing<lb/> the sea,</l>
+    <l>(What were all those, indeed, without thee, unseen soul? of<lb/> what amount without thee?)</l>
+    <l>More evolutionary, vast, puzzling, O my soul!</l>
+    <l>More multiform far&#8212;more lasting thou than they.</l>
+   </lg>
+   
+   <lg type="poem">
+    <head type="main">A PERSIAN LESSON.</head>
+    <l>For his o'erarching and last lesson the greybeard <hi hand="#h04" rend="underline">s</hi>ufi</l>
+    <l>In the fresh scent of the morning in the open air,</l>
+    <l>On the slope of a teeming Persian rose-garden<add hand="#h01"><metamark target="#a008" function="add">&#8248;</metamark></add><add hand="#h01" place="right" xml:id="a008">,<metamark target="#a008" function="emphasize">/</metamark></add></l>
+    <l>Under an ancient chestnut-tree wide spreading its branches,</l>
+    <l>Spoke to the young priests and students.</l>
+    <l>"Finally my children, to envelop each word, each part of the<lb/> rest,</l>
+    <l>Allah is all, all, all&#8212;is im<hi hand="#h04" rend="underline">m</hi>anent in every life and object,</l>
+    <l>May-be at many and many-a-more removes&#8212;yet Allah, Allah,<lb/> Allah is there.</l>
+    <l>"Has the estray wander'd far? Is the reason-why strangely<lb/> hidden?</l>
+    <l>Would you sound below the restless ocean of the entire world?</l>
+    <l>Would you know the dissatisfaction? the urge and spur of every<lb/> life;</l>
+    <l>The something never st<hi xml:id="j001" hand="#h04" rend="overline underline">ill'<metamark target="#j001" function="adjust">=</metamark></hi>d&#8212;never entirely gone? the invisible<lb/> <hi hand="#h04" rend="underline">n</hi>eed of every seed?</l>
+    <l>"It is the central urge in every atom,</l>
+    <l>(Often unconscious, often evil, vacant, downfallen,)</l>
+    <l>To return to its divine source and origin, however distant,</l>
+    <l>Latent the same in subject and in object, without one exception."</l>
+   </lg>
+   
+   <pb xml:id="leaf002r" facs="loc_ja.00008.jpg" type="recto"/>
+   
+   <note hand="#h04" place="top" rend="marked">H</note>
+   
+   <lg type="poem">
+    <head type="main">MIRAGES.</head>
+    <note type="authorial"><hi rend="italics">(Noted verbatim afer a supper-talk out doors in Nevada with two old miners.)</hi></note>
+    <l>M<hi rend="smallcaps">ORE</hi> experiences and sights, stranger, than you'd think for;</l>
+    <l>Times again, now mostly just after sunrise or before sunset,</l>
+    <l>Sometimes in spring, oftener in autumn<add hand="#h01"><metamark target="#a009" function="add">&#8248;</metamark></add><add hand="#h01" place="right" xml:id="a009">,<metamark target="#a009" function="emphasize">/</metamark></add> perfectly clear weather,<lb/> in plain sight,</l>
+    <l>Camps far or near, the crowded streets of cities and the <choice><orig>shop-<lb/>fronts</orig><reg>shopfronts</reg></choice>,</l>
+    <l>(Account for it or not&#8212;credit or not&#8212;it is all true,</l>
+    <l>And my mate there could tell you the like&#8212;we have often <choice><orig>con-<lb/>fab'd</orig><reg>confab'd</reg></choice> about it,)</l>
+    <l>People and scenes, animals, trees, colors and lines, plain as could<lb/> be,</l>
+    <l>Farms and dooryards of home, paths<del hand="#h01" rend="overstrike" xml:id="d002">,</del><add hand="#h01" place="right"><metamark target="#d002" function="delete">&#948;</metamark></add> border'd with box, lilacs<lb/> in corners,</l>
+    <l>Weddings in churches, thanksgiving dinners, returns of <choice><orig>long-<lb/>absent</orig><reg>longabsent</reg></choice> sons,</l>
+    <l>Glum funerals, the crape-veil<subst hand="#h01"><del rend="overstrike" seq="1">e</del><add place="right" seq="2" xml:id="a010">'<metamark target="#a010" function="emphasize">&#711;</metamark></add></subst>d mother and <add hand="#h01"><metamark target="#a011" function="add">&#8248;</metamark></add><add hand="#h01" place="right" xml:id="a011">the<metamark target="#a011" function="emphasize">&#8248;</metamark></add>daughters,</l>
+    <l>Trials in courts, jury and judge, the accused in the box,</l>
+    <l>Contestants, battles, crowds, bridges, wharves,</l>
+    <l>Now and then mark'd faces of sorrow or joy,</l>
+    <l>(I could pick them out this moment if I saw them again,)</l>
+    <l>Show'd to me just aloft to the right in the sky-edge,</l>
+    <l>Or plainly there to the left on the hill-tops.</l>
+    
+    <lg type="poem">
+     <head type="main">SHIP AHOY!</head>
+     <l>I<hi rend="smallcaps">N</hi> dreams I was a ship<add hand="#h01"><metamark target="#a012" function="add">&#8248;</metamark></add><add hand="#h01" place="left" xml:id="a012">,<metamark target="#a012" function="emphasize">/</metamark></add> and sail'd the boundless seas,</l>
+     <l>Sailing and ever sailing&#8212;all seas and into every port, or out<lb/> upon the offing,</l>
+     <l>Saluting, cheerily ailing each ma<hi hand="#h04" rend="underline" xml:id="j002">t<add place="right"><metamark target="#j002" function="unknown">&#10003;</metamark></add></hi>e, met or pass<subst hand="#h01"><del rend="overstrike" seq="1">e</del><add place="right" seq="2" xml:id="a013">'<metamark target="#a013" function="emphasize">&#711;</metamark></add></subst>d, little or big,</l>
+     <l>"Ship ahoy!" thro' trumpet or by voice, if nothing more<add hand="#h01"><metamark target="#a014" function="add">&#8248;</metamark></add><add hand="#h01" place="right" xml:id="a014">,</add><add hand="#h04" place="right"><metamark target="#a014" function="emphasize">/</metamark></add> some<lb/> friendly merry word at least,</l>
+     <l>For companionship and good will for ever to all and each.</l>
+    </lg>
+   </lg>
+   
+  <lg type="poem">
+   <head type="main">L. OF G<hi rend="underline" hand="#h04">.</hi>'S PURPORT.</head>
+   <lg type="linegroup">
+   <l>N<hi rend="smallcaps">OT</hi> to exclue or demarcate, or pick out evils from their <choice><orig>formid-<lb/>able</orig><reg>formidable</reg></choice> masses (evn to expose them,)</l>
+   <l>But add, fuse, complete, extend&#8212;and celebrate the immortal and<lb/> the good.</l>
+   </lg>
+   
+   <lg type="linegroup">
+   <l>Haughty this song, its words and scope,</l>
+   <l>To span vast realms of space and time,</l>
+   <l>Evolution&#8212;the cumulative&#8212;growths and generations.</l>
+  </lg>
+   
+   <lg type="linegroup">
+    <l>A vague mist hanging 'round half the pages:</l>
+    <l>(Sometimes how strange and clear to the soul,</l>
+    <l>That all these solid things are indeed but apparitions, concepts<lb/> non-realities.)</l>
+   </lg>
+   
+   <lg type="linegroup">
+    <l>Begun in ripen'd youth and steadily pursued,</l>
+    <l>Wandering, peering, dallying with all&#8212;war, peace, day and<lb/>night absorbing,</l>
+    <l>Never even for one brief hour abandoning my task,</l>
+    <l>I end it here in sickness, poverty, and old age.</l>
+   </lg>
+   
+   <lg type="linegroup">
+    <l>I sing of life, yet mind me well of death:</l>
+    <l>To-day shadowy Death dogs my steps, my seated shape, and<lb/> has for years&#8212;</l>
+    <l>Draws sometimes close<del hand="#h01" rend="overstrike" xml:id="d002">r<add place="left"><metamark target="#d002" function="delete">&#948;</metamark></add></del> to me, as face to face.</l>
+   </lg>
+   
+   <note target="authorial"><hi rend="italics"><hi rend="overline underline" hand="#h04" xml:id="j002">For us two, reader dear.<add place="right"><metamark target="#j002" function="emphasize">? &#10003;</metamark></add></hi></hi></note>
+   
+   <lg type="linegroup">
+    <l>Simple, spontaneous, curious, two souls interchanging,</l>
+    <l>With the original testimony for us continued to the last.</l>
+   </lg>
+  </lg>
+ 
+</body>
+</text>
+</TEI>
