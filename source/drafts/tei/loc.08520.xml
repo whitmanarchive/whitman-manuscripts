@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08520"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main" rend="bracketed">Old Poets.</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="sd">Sarah Danielson</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2025</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+     <addrLine>Center for Digital Research in the Humanities</addrLine>
+     <addrLine>319 Love Library</addrLine>
+     <addrLine>University of Nebraska-Lincoln</addrLine>
+     <addrLine>P.O. Box 884100</addrLine>
+     <addrLine>Lincoln, NE 68588-4100</addrLine>
+    </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+    
+    <idno>loc.08520</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+    <note type="work_relations" target="xxx." cert="high">
+     <p></p>
+    </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     
+     <!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
+       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
+     <date notBefore="" notAfter="" cert=""></date>
+     
+     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     
+     <!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
+      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
+     <orgName xml:id=""></orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+     <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
+     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
+     <relatedItem type="document" target="wwa.00041"/>
+     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
+    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="printed type" xml:id="h02" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
+    <handNote medium="pencil" xml:id="h03" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h04" resp="#unk"/>
+    <handNote medium="blue pencil" xml:id="h05" resp="#unk"/>
+   </handNotes>
+  </profileDesc>
+  <revisionDesc>
+   
+   <change when="2026-01-13" who="#sd">transcribed and encoded</change>
+  </revisionDesc>
+ </teiHeader>
+ 
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="loc_cm.00020.jpg" type="recto"/>
+   
+   <note type="authorial" hand="#h01" place="top">all right&#8212;pass under the proof reader's eye &#38; on to casting without showing any more to me</note>
+   
+   <note type="editorial" hand="#h03" place="top">Rev</note>
+   
+   <note type="authorial" hand="#h01" place="top">the remaining top head "Good-Bye my Fancy" over every page</note>
+   
+   <note type="editorial" hand="#h03" place="top" rend="marked">B</note>
+   
+   <head type="main">OLD POETS.</head>
+   
+   <p>
+    P<hi rend="smallcaps">OETRY</hi> (I am clear) is eligible of something far more ripen'd and ample, our lands and pending days, than it has yet produced from any utterance old or new. Modern or new poetry, too, (viewing or challenging it with severe criticism,) is largely a void&#8212;while the very cognizance, or even suspicion of that void, and the need of filling it, proves a certainty of the hidden and waiting supply. Leaving other lands and languages to speak for themselves, we can abruptly but deeply suggest it best from our own&#8212;going first to oversea illustrations, and standing on them. Think of Byron, Burns, Shelley, Keats, (even first-raters, "the brothers of the radiant summit," as William O'Connor calls them,) as having done only their precursory and 'prentice work, and all their best and real poems being left yet un<del rend="overstrike" hand="#h03" xml:id="d001">w</del><add place="left" hand="#h03"><metamark target="#d001" function="delete">X</metamark></add>rought, untouch'd. Is it difficult to imagine ahead of us and them, evolv'd from them, poesy completer far than any they theselves fulfill'd? One has in his eye and mind some very large, very old, entirely sound and vital tree or vine, like certain hardy, ever-fruitful specimens in California and Canada, or down in Mexico, (and indeed in all lands) beyond the chronological records&#8212;illustrations of growth, continuity, power, amplitude and <hi rend="italics">exploitation</hi>, almost beyond statement, but proving fact and possibility, outside of argument. 
+   </p>
+   
+   <p>
+    Perhaps, indeed, the rarest and most blessed quality of transcendent noble poetry&#8212;as of law, and of the profoundest wisdom and aestheticism&#8212;is, (I would suggest,) from the sane, completed, vital, capable old age. The final proof of song or personality is a sort of matured, accreted, superb, evoluted, almost divine, impalpable diffuseness and atmosphere or invisible magnetism, dissolving and embracing all&#8212;and not any special achievement of passion, pride, metrical form, epigram, plot, thought, or what is call'd beauty. The bud of the rose or the half-brown flower is beautiful, of course, but only the perfected bloom or apple or finish'd wheat-head is beyond the rest. Completed fruitage like this comes (in my opinion) to a grand age, in man or woman, through an essentially sound continuated physiology and psychology (both important) and is the culminating glorious aureole of all and several preceding. Like the tree or vine just mention'd,<fw rend="left">(24)</fw><cb/> <fw rend="center"><subst hand="h05"><del rend="overstrike" seq="1">OLD POETS</del><add seq="2" place="above" rend="marked">Good-Bye my Fancy.</add></subst></fw><fw rend="right">25</fw>it stands at last in a beauty, power and productiveness of its own, above all others, and of a sort and style uniting all criticisms, proofs and aherences.
+   </p>
+   
+   <p>
+    Let us diversify the matter a little bit by portraying some of the American poets from our own point of view.
+   </p>
+   
+   <p>
+    Longfellow, reminiscent, polish'd, elegant, with the air of finest conventional library, picture-gallery or parlor, with ladies and gentlemen in them, and plush and rosewood, and ground-glass lamps, and mahogany and ebony furniture, and a silver inkstand and scented satin paper to write on. 
+   </p>
+   
+   <p>
+    Whittier stands for morality (not in any all-accepting philosophic or Hegelian sense, but) filter'd a Pruitanical or Quaker filter&#8212;is incalculably valuable as a genuine utterance, (and the finest,)&#8212;with many local and Yankee and <hi rend="italics">genre</hi> bits&#8212;all hued with anti-slavery coloring&#8212;(the <hi rend="italics">genre</hi> and anti-slavery contributions all precious&#8212;all help.) Whittier's is rather a grand figure, but pretty lean and asectic&#8212;no Greek&#8212;not universal and composite enough (don't try&#8212;don't wish to be) for ideal Americanism. Ideal Americanism would take the Greek spirit and law, and democratize and scientize and (thence) truly Christianize them for the whole, the globe, all history, all ranks and lands, all facts, all good and bad. (Ah this <hi rend="italics">bad</hi>&#8212;this nineteen-twentieths of us all! What a stumbling-block it remains for poets and metaphysicians&#8212;what a chance (the strange, clear-as-ever inscription on the old dug-up tablet) it offers yet for being translated&#8212;what can be its purpose in the God-scheme of this universe, and all?<add hand="#h01"><metamark target="#a001" function="add">&#8242;</metamark></add><add hand="#h01" xml:id="a001" place="left">)<metamark target="#a001" function="emphasize">/</metamark></add>
+   </p>
+   
+   <pb xml:id="leaf001v" facs="loc_cm.00021.jpg" type="verso"/>
+   
+ 
+   
+   
+  </body>
+ </text>
+</TEI>
