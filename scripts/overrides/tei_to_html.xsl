@@ -336,5 +336,22 @@
   <!-- do not display archival notes for manuscripts -->
   <xsl:template match="note[@type='archival']"/>
   
+  <!-- handle authorial notes differently for proof mss -->
+  <xsl:template match="*[@hand][preceding::handNote[@medium='letterpress']]">
+    <xsl:variable name="hand_id" select="substring-after(@hand,'#')"/>
+    <xsl:variable name="hand_resp" select="substring-after(preceding::handNote[@xml:id=$hand_id]/@resp,'#')"/>
+    <span>
+      <xsl:attribute name="class">
+      <xsl:call-template name="add_attributes"/>
+      </xsl:attribute>
+    <xsl:choose>
+      <xsl:when test="$hand_resp = 'ww'">
+        <span class="tei_proof_edit"><xsl:apply-templates/></span>
+      </xsl:when>
+      <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+    </xsl:choose>
+    </span>
+  </xsl:template>
+  
   
 </xsl:stylesheet>
