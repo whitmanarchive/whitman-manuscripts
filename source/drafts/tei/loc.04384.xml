@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04384"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                
+                <title level="m" type="main" rend="bracketed">Some Laggards Yet.</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <editor>Matt Cohen</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    
+                    <persName xml:id="sd">Sarah Danielson</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2025</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+                    <p>
+                        The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+                        <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+                        (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+                
+                
+                <idno>loc.04384</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+                
+                
+                <note type="work_relations" target="xxx." cert="high">
+                    <p></p>
+                </note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <author xml:id="ww">Whitman, Walt</author>
+                    
+                    <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+                    
+                    <!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
+       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
+                    <date notBefore="" notAfter="" cert=""></date>
+                    
+                    <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+                    
+                    <!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
+      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
+                    <orgName xml:id=""></orgName>
+                    
+                    <note>Transcribed from digital images of the original.</note>
+                    <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
+                    <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
+                    <relatedItem type="document" target="wwa.00041"/>
+                    <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
+                <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+                <handNote medium="printed type" xml:id="h02" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
+                <handNote medium="pencil" xml:id="h03" resp="#ww"/>
+                <handNote medium="pencil" xml:id="h04" resp="#unk"/>
+                <handNote medium="blue pencil" xml:id="h05" resp="#unk"/>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc>
+            
+            <change when="2026-01-16" who="#sd">transcribed and encoded</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    
+    <text type="manuscript">
+        <body>
+            
+        <pb xml:id="leaf001r" facs="loc_cm.00022.jpg" type="recto"/>
+           
+        <note type="authorial" hand="#h01" place="top" rend="marked">put these three pages under control of the proof reader to be cast</note>
+            
+        <note type="editorial" hand="#h03" place="top">RW</note>
+            
+       <head type="main">SOME LAGGARDS YET.</head>
+            
+        <div>
+        <head type="main">THE PERFECT HUMAN VOICE.</head>
+            
+        <p>S<hi rend="smallcaps">TATING</hi> it briefly and pointedly I should suggest that the human voice is a cultivation or form'd growth on a fair native foundation. This foundation probably exists in nine cases out of ten. Sometimes nature affords the vocal organ in perfection, or rather I would say near enough to whet one's appreciation and appetite for a voice that might be truly call'd perfection. To me the grand voice is mainly physiological<add hand="#h01" xml:id="a001">&#8248;</add><add place="left" hand="#h01">&#8212;<metamark target="#a001" function="emphasize">/</metamark></add> (by which I by no means ignore the mental help, but wish to keep the emphasis where it belongs.) Emerson says <hi rend="italics">manners</hi> form the representative apex and final charm and captivation of humanity: but he might as well have changed the typicality to voice. </p>
+            
+        <p>Of course there is much taught and written about elocution, the best reading, speaking, etc., but it finally settles down to <hi rend="italics">best</hi> human vocalization<hi hand="#h03" rend="overline underline">.</hi> Beyond all other power and beauty, there is something in the quality and power of the right voice (<hi rend="italics">timbre</hi> the schools call it) that touches the soul, the abysms. It was not for nothing that the Greeks depended, at their highest, on poetry's and wisdom's vocal utterance by <hi rend="italics">tete-a-tete</hi> lectures&#8212;(indeed all the ancients did.)</p>
+            
+        <p>Of celebrated people possessing this wonderful vocal power, patent to me, in former days, I should specify the contralto Alboni, Elias Hicks, Father Taylor, <hi hand="#h03" xml:id="j001" rend="underline">t</hi><add hand="#h03" place="left"><metamark target="#j001" function="adjust">&#967;</metamark></add>he tenor Bettini, Fanny Kemble, and the old actor Booth, and in private life many cases, often women. I sometimes wonder whether the best philosophy and poetry, or something like the best, after all these centuries, perhaps waits to be rous'd out yet, or suggested, by the perfect physiological human voice.</p></div>
+        
+       <div>
+       <head type="main">SHAKSPERE FOR AMERICA.</head>
+            
+       <p>L<hi rend="smallcaps">ET</hi> me send you a supplementary word to that "view" of Shakspere attributed to me, publish'd in your July number,<ref xml:id="r001" target="#n1"><metamark function="link">*</metamark></ref> and 
+               
+       <milestone unit="undeclared" rend="horbar-full"/>
+           
+       <note xml:id="n1" type="authorial" target="#r001" place="bottom" next="#n1.2"><metamark function="link">*</metamark>This bit was in "Poet-lore monthly for September, 1890.</note> 
+           
+       <fw rend="right">(39)</fw><cb/> 
+           
+       <fw rend="left">40</fw><fw rend="center">GOOD-BYE MY FANCY.</fw> so courteously worded by the reviewer (thanks! dear friend.) But you have left out what, perhaps, is the main point, as follows:</p>
+        
+        <p>"Even the one who at present reigns unquestion'd&#8212;of Shakspere&#8212;for all he stands for so much in modern literature, he stands entirely for the mighty &#230;sthetic sceptres of the past, not for the spiritual and democratic, the sceptres of the future." (See pp. 55-59 in "November Bought," and also some of my further notions of Shakspere.)</p>
+            
+        <p>The Old World (Europe and Asia) is the region of the poetry of concrete and real things,&#8212;the past, the &#230;sthetic, palaces, etiquette, the literature of war and love, the mythological gods, and the myths anyhow. But the New World (America) is the region of the future, and its poetry must be spiritual and democratic. Evolution is not the rule in Nature, in Politics, and Inventions only, but in Verse. I know our age is greatly materialistic, but it is greatly spiritual, too, and the future will be, too. Even what we moderns have come to mean by <hi rend="italics">spirituality</hi> (while including what the Hebraic utters, and mainly perhaps all the Greek and other old typical poets, and also the later ones, meant) has so expanded and color'd and vivified the comprehension of the term, that it is quite a different one from the past. The science, the final critic of all, has the casting vote for future poetry.</p>
+        </div>
+            
+        <div>
+        <head type="main">"UNASSAIL<subst hand="#h01"><del rend="overstring" seq="1" xml:id="d001">E</del><add place="left" seq="2">'<metamark target="#d001" function="emphasize">&#711;</metamark></add></subst>D RENOWN."</head>
+        
+        <p>T<hi rend="smallcaps">HE</hi> N. Y. <hi rend="italics">Critic</hi>, Nov<hi rend="overline" hand="#h01"><hi rend="underline" hand="#h03"> </hi></hi>: 24, 1889, propounded a circular to several persons, and giving the responses, says "Walt Whitman's views [as follow<del hand="#h01" rend="overstrike" xml:id="d002">s</del><add place="left" hand="#h01"><metamark target="#d002" function="delete">&#948;</metamark></add>] are, naturally, more radical than those of any other contributor to the discussion":</p>
+        
+            <p>Briefly to answer impromptu your request of Oct:19&#8212;the question whether I think any American poet not now living deserves a place among the thirteen "English inheritors of unassail'd renown" (Chaucer, Spenser, Shakspere, Milton, Dryden, Pope, Gray, Burns, Wordsworth, Coleridge, Byron, Shelley and Keats,)&#8212;and which American poets would be truly worthy, &#38;c. Though to be the <hi rend="italics">deep</hi> of the matter goes down, down beneath. </p>
+        </div>
+            
+        </body>
+    </text>
+</TEI>
