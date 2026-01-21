@@ -85,14 +85,15 @@
             <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
                 <handNote medium="black ink" xml:id="h01" resp="#ww"/>
                 <handNote medium="printed type" xml:id="h02" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
-                <handNote medium="pencil" xml:id="h03" resp="#ww"/>
-                <handNote medium="pencil" xml:id="h04" resp="#unk"/>
+                <handNote medium="pencil" xml:id="h03" resp="#unk"/>
+                <handNote medium="pencil" xml:id="h04" resp="#ww"/>
                 <handNote medium="blue pencil" xml:id="h05" resp="#unk"/>
             </handNotes>
         </profileDesc>
         <revisionDesc>
             
             <change when="2026-01-16" who="#sd">transcribed and encoded</change>
+            <change when="2026-01-21" who="#sd">transcribed and encoded</change>
            
         </revisionDesc>
     </teiHeader>
@@ -105,6 +106,8 @@
            <note type="authorial" hand="#h01" place="top">can be cast under direction proof reader</note>
             
             <note type="editorial" hand="#h03" place="top">RW</note>
+            
+            <note type="editorial" hand="#h03" place="top" rend="underline"><unclear reason="illegible" cert="low" resp="#sd">B</unclear></note>
                         
             <head type="main">A DEATH-BOQUET.</head>
             
