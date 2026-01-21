@@ -85,8 +85,8 @@
             <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
                 <handNote medium="black ink" xml:id="h01" resp="#ww"/>
                 <handNote medium="printed type" xml:id="h02" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
-                <handNote medium="pencil" xml:id="h03" resp="#ww"/>
-                <handNote medium="pencil" xml:id="h04" resp="#unk"/>
+                <handNote medium="pencil" xml:id="h03" resp="#unk"/>
+                <handNote medium="pencil" xml:id="h04" resp="#ww"/>
                 <handNote medium="blue pencil" xml:id="h05" resp="#unk"/>
             </handNotes>
         </profileDesc>
@@ -94,6 +94,7 @@
             
             <change when="2026-01-16" who="#sd">transcribed and encoded</change>
             <change when="2026-01-20" who="#sd">transcribed and encoded</change>
+            <change when="2026-01-21" who="#sd">transcribed and encoded</change>
             
         </revisionDesc>
     </teiHeader>
@@ -106,6 +107,8 @@
         <note type="authorial" hand="#h01" place="top" rend="marked">put these three pages under control of the proof reader to be cast</note>
             
         <note type="editorial" hand="#h03" place="top">RW</note>
+            
+            <note type="editorial" hand="#h03" place="top" rend="underline"><unclear reason="illegible" cert="low" resp="#sd">P</unclear></note>
             
        <head type="main">SOME LAGGARDS YET.</head>
             
@@ -156,7 +159,9 @@ yond valuation. But perhaps that is venturing outside the question. Of the thirt
             
         <note type="authorial">February 24th, 1890. Camden, N. J.</note>
         </div>
-            
+        
+        <note type="editorial" place="right" hand="#h03" rend="marked"><hi rend="underline">Forrest</hi> <unclear reason="illegible" cert="low" resp="#sd">review</unclear></note>
+        
         <div>
         <head type="main">SPLINTERS.</head>
             
