@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08525"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                
+                <title level="m" type="main" rend="bracketed">Good-Bye My Fancy.</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <editor>Matt Cohen</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    
+                    <persName xml:id="sd">Sarah Danielson</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2025</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+                    <p>
+                        The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+                        <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+                        (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+                
+                
+                <idno>loc.08525</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+                
+                
+                <note type="work_relations" target="xxx." cert="high">
+                    <p></p>
+                </note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <author xml:id="ww">Whitman, Walt</author>
+                    
+                    <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+                    
+                    <!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
+       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
+                    <date notBefore="" notAfter="" cert=""></date>
+                    
+                    <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+                    
+                    <!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
+      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
+                    <orgName xml:id=""></orgName>
+                    
+                    <note>Transcribed from digital images of the original.</note>
+                    <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
+                    <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
+                    <relatedItem type="document" target="wwa.00041"/>
+                    <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
+                <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+                <handNote medium="printed type" xml:id="h02" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
+                <handNote medium="pencil" xml:id="h03" resp="#unk"/>
+                <handNote medium="pencil" xml:id="h04" resp="#ww"/>
+                <handNote medium="blue pencil" xml:id="h05" resp="#unk"/>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc>
+            
+            <change when="2026-01-27" who="#sd">transcribed and encoded</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    
+    <text type="manuscript">
+        <body>
+            
+            <pb xml:id="leaf001r" facs="loc_ja.00110.jpg" type="recto"/>
+            
+            <note target="authorial" hand="#h01" place="top"><gap reason="torn away" extent="several words"></gap> under proof<gap reason="torn away" extent="several words"/> so sent to <gap reason="torn away" extent="one word"/></note>
+            
+            <note type="editorial" hand="#h03" place="top" rend="underline"><unclear reason="illegible" cert="low" resp="#sd">P</unclear></note>
+            
+            <note type="editorial" hand="#h03" place="top">RW</note>
+            
+            <fw rend="left">42<add hand="#h03" place="left"><metamark target="#a001" function="unknown">&#10003;</metamark></add></fw> <fw rend="center">GOOD-BYE MY FANCY.<add hand="#h03" place="left" xml:id="j002"><metamark target="#j002" function="unknown">&#10003;</metamark></add></fw>
+            
+            <p><anchor xml:id="j003"/><add hand="#h03" place="left"><metamark target="#j003" function="unknown">&#10003;</metamark></add>the esthetic or intellectual palates&#8212;but if I could arouse from its slumber that eligibility in every soul for its own true exercise! if I could only wield that lever!</p>
+            
+            <p>Out from the well-tended concrete and the physical&#8212;and in them and from them only&#8212;radiate the spiritual and heroic.</p>
+            
+            <p>Undoubtedly many points belonging to this essay&#8212;perhaps of the greatest necessity, fitness and importance to it&#8212;have been left out or forgotten. But the amount of the whole matter&#8212;poems, preface and everything&#8212;is merely to make one of those little punctures or eye-lets the actors possess in the theatre-curtains to look out upon "the house"&#8212;one brief, honest, living glance.</p><div/>
+            
+            <div>
+                <head type="main">HEALTH, (OLD STYLE.)</head>
+                
+                <p>I<hi rend="smallcaps">N</hi> that condition the whole body is elevated to a state by others unknown&#8212;inwardly and outwardly illuminated, purified, made solid, strong, yet buoyant. A singular charm, more than beauty, flickers out of, and over, the face&#8212;a curious transparency beams in the eyes, both in the iris and the white&#8212;the temper partakes also. Nothing that happens&#8212;no event, rencontre, weather<add hand="#h01" xml:id="a001">&#8248;</add><add hand="#h01" place="left">,<metamark target="#a001" function="emphasize">/</metamark></add> etc.&#8212;but it is confronted&#8212;nothing but is subdued into sustenance&#8212;such is the marvellous transformation from the old timorousness and the old process of causes and effects. Sorrows and disappointments cease&#8212;there is no more borrowing trouble in advance. A man realizes the venerable myth&#8212;he is a god walking the earth, he sees new eligibilities, powers and beauties everywhere; he himself has a new eyesight and hearing. The play of the body in motion takes a previously unknown grace. Merely <hi rend="italics">to move</hi> is then a happiness, a pleasure&#8212;to breathe, to see, is also. All the beforehand gratifications, drink, spirits, coffee, grease, stimulants, mixtures, late hours, luxuries, deeds of the night, seem as vexatious dreams,and now the awakening;&#8212;many fall into their natural places, wholesome, conveying diviner joys.</p>
+                
+                <p><anchor xml:id="j004"/><add hand="#h03" place="left" rend="marked"><metamark target="#j003" function="adjust">&#8869;</metamark></add>What I append<add hand="#h01" xml:id="a002">&#8248;</add><add hand="#h01" place="left">&#8212;<metamark target="#a002" function="emphasize">/</metamark></add><add hand="#h03" place="above" rend="marked"><metamark target="#a002" function="emphasize">|</metamark>&#8212;<metamark target="#a002" function="emphasize">|</metamark></add> Health, old style&#8212;I have long treasur'd&#8212;found originally in some scrap-book fifty years ago&#8212;a favorite of mine (but quite a glaring contrast to my present bodily state:)</p>
+                
+                <lg type="poem">
+                    <lg type="linegroup">
+                        <l>O<hi rend="smallcaps">N</hi> a high rock above the vast abyss,<lb/> Whose solid base tumultuous waters lave;</l>
+                        <l>Whose airy high-top balmy breezes kiss,<lb/> Fresh from the white foam of the circling wave&#8212;</l>
+                    </lg>
+                    
+                    <lg type="linegroup">
+                        <l>There ruddy H<hi rend="smallcaps">EALTH</hi>, in rude majestic state,<lb/> His clust'ring forelock combatting the winds&#8212;</l>
+                        <l>Bares to each season's change his breast elate,<lb/> And still fresh vigor from th' encounter finds:</l>
+                    </lg><cb/>
+                    
+                    <fw rend="center">GOOD-BYE MY FANCY.</fw> <fw rend="right">43</fw>
+                    
+                    <lg type="linegroup">
+                        <l>With mighty mind to every fortune braced,<lb/> To every climate each corporeal power,</l>
+                        <l>And high-proof heart, impenetrably cased,<lb/> He mocks the quick transitio<hi hand="#h03" rend="overline underline" xml:id="j005"><hi hand="#h01" rend="underline" xml:id="j006">ns</hi></hi><add hand="#h03" place="right"><metamark target="#j005" function="adjust">=</metamark></add><add hand="#h01" place="left"><metamark target="#j006" function="adjust">=</metamark></add> of the hour.</l>
+                    </lg>
+                    
+                    <lg type="linegroup">
+                        <l>Now could he hug bleak Zembla's bolted snow,<lb/> Now to Arabia's heated deserts turn,</l>
+                        <l>Yet bids the biting blast more fiercely blow,<lb/> The scorching sun without abatement burn.</l>
+                    </lg>
+                    
+                    <lg type="linegroup">
+                        <l>There this bold Outlaw, rising with the morn,<lb/> His sinewy functions fitted for the toil,</l>
+                        <l>Pursues, with tireless steps, the rapturous horn,<lb/> And bears in triumph the shaggy spoil.</l>
+                    </lg>
+                    
+                    
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+</TEI>
