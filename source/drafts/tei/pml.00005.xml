@@ -7,17 +7,15 @@
   <fileDesc>
    <titleStmt>
     
-    <title level="m" type="main" rend="bracketed">Beyond this granite dead and</title>
+    <title level="m" type="main" rend="bracketed">Beyond this granite dead and cold</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
-
-     <persName xml:id="ew">Emma Whaley</persName>
+          <persName xml:id="ew">Emma Whaley</persName>
+          <persName xml:id="bb">Brett Barney</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -25,7 +23,7 @@
    </titleStmt>
    <editionStmt>
     <edition>
-     <date>2024</date>
+     <date>2026</date>
     </edition>
    </editionStmt>
    <publicationStmt>
@@ -46,30 +44,23 @@
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
     
-
    <idno>pml.00005</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+      <note type="project" target="#dat1">The leaf on which this draft appears is comprised, in part, of an envelope on which appears a postmark for February 18, 1885, and it is likely that Whitman wrote it between that date and February 22, when the poem was published in the Philadelphia Press under the title "Ah, Not This Granite Dead and Cold." Because the earliest writing on the leaf was done in pencil, and all of the lines on the envelope scrap are in ink, it is possible that the top part of the manuscript was begun somewhat earlier.</note>
     
-    
-     <note type="work_relations" target="xxx.00310" cert="medium">
-      <p>Draft of the poem originally published as "Ah, Not This Granite Dead and Cold" in the <hi rend="italic">Philadelphia Press</hi> on February 22, 1885. It would later be reprinted as "Washington's Monument, February, 1885" in the "Sands at Seventy" annex to <hi rend="italic">Leaves of Grass</hi> (1888). This draft is written on a piece of paper with an envelope pasted at the bottom, postmarked February 18, 1885.</p>
+     <note type="work_relations" target="xxx.00343" cert="high">
+      <p>This poem was originally published as "Ah, Not This Granite Dead and Cold" in the <hi rend="italic">Philadelphia Press</hi> on February 22, 1885. Whitman later revised it as "Washington's Monument, February, 1885" for the "Sands at Seventy" section of <hi rend="italic">November Boughs</hi> (1888).</p>
      </note>
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
-     
      <title>Washington's monument, February, 1885 : autograph manuscript drafts of the poem, [ca. 1885].</title>  
-     
-     <date when="1885" cert="high"></date>
-     
+     <date when="1885-02" cert="high"></date>
      <idno type="callno">MA 931.1</idno>
-     
      <orgName xml:id="pml">The Pierpont Morgan Library, New York</orgName>
-     
      <note>Transcribed from digital images of the original.</note>
      
     </bibl>
@@ -82,58 +73,60 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
- <change when="2024-11-20" who="#ew">transcribed and encoded</change>
+   <change when="2026-01-27" who="#bb">proofed</change>
+   <change when="2024-11-20" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
-   
    <pb xml:id="leaf001r" facs="pml_nk.00052_large.jpg" type="recto"/>
-   
-   <head type="main" rend="underline"><del rend="overstrike" hand="#h02"><add hand="#h02" place="above">Far, far,</add></del>Beyond the <subst hand="#h02"><del seq="1" rend="overstrike">marble</del><add place="above">granite</add></subst> dead and cold.</head>
+   <head type="main" rend="underline">
+      <del rend="overstrike" hand="#h02">
+         <add hand="#h02" place="above">Far, far,</add></del> Beyond this <subst hand="#h02"><del seq="1" rend="overstrike">marble</del> <add place="above" seq="2">granite</add></subst> dead and cold.</head>
    <lg type="poem">
-     <l><del rend="overstrike" hand="#h02"><add hand="#h02" place="above">Far, far,</add></del>Beyond this <subst hand="#h02"><del seq="1" rend="overstrike">marble</del><add place="above">granite</add></subst> dead and cold</l>
-     <l><subst hand="#h02"><del seq="1" rend="overstrike">Out</del><add seq="2" place="above">far, far</add><del seq="4" hand="#h02" rend="overstrike"><add seq="3" hand="#h01" place="above">out</add></del></subst> from <del rend="overstrike">this</del> base and shaft ere&#8212;<lb/>
-      partly&#8212;the round <subst><del seq="1" rend="overstrike">earth</del><add seq="2" place="above">zones</add></subst> circling.<add place="above">comprehending each &amp; all</add><lb/>
-        <del seq="1" rend="overstrike">comprehendingly</del></l>
-     <l><add hand="#h02">(Thou, <hi rend="underline">Wahshington</hi> art the world's. <hi rend="marked">humanity's, freedom's, law's&#8212;not yours alone America.)</hi></add></l>
-     <delSpan rend="overstrike" spanTo="#d001"/>
-    <l>Each teems city's steets, indoors or<lb/>
-        out factories and farms,</l>
-     <l>Wherein humanity&#8212;not yours alone<lb/>
-        vast stretches of America</l>
-     <anchor xml:id="d001"/>
-    <l><add hand="#h02">(no lurid bane<add place="above"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">exceptional,</add> nor intellect, nor conquest; domination)<lb/>
-        Thy banes <subst><del seq="1" rend="overstrike">though</del><add seq="2" place="above">by</add></subst> deathless waves of <unclear reason="illegible" resp="#ew">eniauation</unclear> <del rend="overstrike">the</del><lb/>
-        <gap reason="illegible" extent="two words"/>the raised consumer ownership <del rend="overstrike">becomes</del></add></l>
-     <l>Europe's, in castle or in laborers<lb/>
+     <l><del rend="overstrike" hand="#h02"><add hand="#h02" place="above">Far, far,</add></del> Beyond this <subst hand="#h02"><del seq="1" rend="overstrike">marble</del> <add place="above">granite</add></subst> dead and cold</l>
+      <metamark><del rend="overstrike" hand="#h01"><add hand="#h01">*</add></del></metamark>
+     <l><subst hand="#h02"><del seq="1" rend="overstrike">Out <add hand="#h01" place="above">out</add></del> <add seq="2" place="above">Far, far</add></subst> from <del rend="overstrike">this</del> base and shaft <choice><orig>ex-<lb/>panding</orig><reg>expanding<lb/></reg></choice>&#8212;the round <subst><del seq="1" rend="overstrike">earth</del> <add seq="2" place="above">zones</add></subst> circling, <add place="above">comprehending each &amp; all</add><lb/>
+        <del rend="overstrike">comprehending</del></l>
+      <metamark>*</metamark>
+     <l>
+     <subst><del rend="overstrike" hand="#h01" seq="1">Each teeming city's steets, indoors or<lb/>
+        out, factories and farms,</del>
+        <add place="above" hand="#h02">(Thou, <hi rend="doubleUnderline">Washington</hi> art the world's, <add rend="marked" place="above">humanity's, freedom's, law's&#8212;</add>&#8212;not yours alone America.)</add></subst>
+     </l>
+     <l><del rend="overstrike">Where'er humanity&#8212;not yours alone<lb/>
+        vast stretches of America</del></l>
+    <l><add hand="#h02">(no lurid fame <add place="above"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">exceptional,</add> nor intellect, nor conquest; domination)</add></l>
+      <l><add hand="#h02">Thy fame <subst><del seq="1" rend="overstrike">through</del> <add seq="2" place="above">by</add></subst> deathless waves of emanation <del rend="overstrike">the</del><lb/>
+         <subst><del rend="overstrike" seq="1"><gap reason="illegible" extent="one or two words"/></del><add seq="2" place="above">the <gap reason="illegible" extent="one word"/></add></subst> common ownership, <del rend="overstrike"><gap reason="illegible" extent="one word"/></del></add></l>
+     <l>Europe's, in castle or in laborer's<lb/>
         cot&#8212;the Arab's in his tent&#8212;<lb/>
-        the African's</l>
-     <l>Old Asia's <subst><del seq="1" rend="overstrike">self</del><add seq="2" place="above">there</add></subst> with venerable<lb/>
+        the African's,</l>
+     <l>Old Asia's <subst><del seq="1" rend="overstrike">self</del> <add seq="2" place="above">there</add></subst> with venerable<lb/>
         smile, seated amid the past,</l>
-     <l>(Greets the antique the hero new? <subst hand="#h02"><del seq="1" rend="overstrike">It is</del><add seq="2" place="above">Tis but</add></subst><lb/>
+     <l>(Greets the antique the hero new? <subst hand="#h02"><del seq="1" rend="overstrike">it is</del><add seq="2" place="above">'tis but</add></subst><lb/>
         the same&#8212;the same eternal<lb/>
         heart and arm<subst hand="#h02"><del seq="1" rend="overstrike">,</del><add seq="2" place="right">&#8212;the heir legitimate,</add></subst></l>
      <l>Courage, alertness, patience, hope, the<lb/>
         same&#8212;e'en in defeat defeated<lb/>
-        not the same,)</l>
-     <l><del rend="overstrike">Wherein the partriot soul exists&#8212;<lb/>
-        now or to come or past</del></l>
-     <l><subst hand="#h02"><del seq="1" rend="overstrike">Each</del><add place="below" seq="2"><metamark function="add" target="#a003">&#8248;</metamark></add><del seq="4" rend="overstrike"><add seq="3" place="above" xml:id="a003">All</add></del><del seq="6" rend="overstrike"><add seq="5" place="above">The</add></del><add seq="7" place="above" rend="marked">Through</add></subst> teeming cit<subst hand="#h02"><del seq="1" rend="overwrite">y</del><add seq="2" rend="overwrite">ies'</add></subst> streets, indoors or our, factories of farms</l>
+        not, the same,)</l>
+     <l><del rend="overstrike">Wheree'r the partriot soul exists&#8212;<lb/>
+        now or to come, or past</del></l>
+      <l><add place="interlinear"><subst hand="#h02"><del seq="1" rend="overstrike">Each</del> <add place="below" seq="2"><metamark function="add" target="#a003">&#8248;</metamark></add><del seq="4" rend="overstrike"><add seq="3" place="above" xml:id="a003">All</add></del> <del seq="6" rend="overstrike"><add seq="5" place="above">The</add></del> <del seq="8" rend="overstrike"><add seq="7" place="above">In</add></del> <add seq="9" place="above" rend="marked">Through</add></subst> teeming cit<subst hand="#h02" rend="overwrite"><del seq="1">y's</del><add seq="2">ies'</add></subst> streets, indoors or out, factories of farms</add></l>
      <l>Wheree'r ship sails, or house is built<lb/>
-        on <hi rend="underline">land</hi> or night or day,</l>
-     <l><del rend="overstrike" hand="#h02"><add hand="#h02" place="above">To my soul's sparse&#8212;</add></del><del hand="#h02" rend="overstrike">Where Washington<add place="above"><unclear reason="illegible" resp="#ew">thihit</unclear></add> <add hand="#h02" place="above">real</add> is <hi rend="underline">not</hi> thy monument?<lb/>
-        <add hand="#h02">There is thou monument</add></del></l>
+        on land, or night or day,</l>
+     <l><add hand="#h02" place="interlinear"><del rend="overstrike" hand="#h02"><unclear reason="illegible" resp="#bb" cert="medium">To my soul's span&#8212;</unclear></del></add></l>
+      <l><del hand="#h02" rend="overstrike">Where Washington <add place="above"><unclear reason="illegible" resp="#ew">this thy</unclear></add> <add hand="#h02" place="above">real</add> is <hi rend="underline">not</hi> thy monument?</del></l>
+     <l><del hand="#h02"><add hand="#h02">There is <subst><del rend="overstrike" seq="1"><unclear reason="illegible" cert="medium" resp="#bb">thy</unclear></del><add place="below" seq="2">another</add></subst> <gap reason="illegible" extent="one character"/> monument</add></del></l>
     <milestone unit="glued"/>
     <addSpan hand="#h02" spanTo="#a001"/>
-     <l>Now, or to come, or past, where<del rend="overstrike">e'r<lb/>
-        the</del> patriot <del rend="overstrike">thought</del> brains<lb/>
-        existed or exists <del rend="overstrike"><unclear reason="illegible" resp="#ew">amid there, all these banners is of there to thee</unclear></del></l>
-     <l>Rising or risen of thee,</l>
-     <l><del rend="overstrike">To my soul's span<lb/>
-        are thy</del><add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">are <del rend="overstrike">countries</del></add> monuments.</l>
+     <l>Now, or to come, or <subst rend="overwrite"><del seq="1"><unclear reason="illegible" resp="#bb" cert="medium">c</unclear></del><add seq="2">p</add></subst>ast, where<del rend="overstrike">e'r</del><lb/>
+        <del resp="overstrike">the</del> patriot <del rend="overstrike">thought</del> brains<lb/>
+        existed or exists&#8212;</l>
+     <l>Rising or risen, of thee, <subst><del rend="overstrike" seq="1">there</del> <del rend="overstrike" seq="3"><add place="above" seq="2">the <unclear reason="illegible" resp="#bb" cert="high">banner</unclear></add></del> <del rend="overstrike" seq="5"><add place="above" seq="4">'mid these, all these,</add></del></subst> <subst><del rend="overstrike">of t to</del> <del rend="overstrike"><add place="above">of</add></del></subst> thee</l>
+     <l><del rend="overstrike">To my soul's span</del><lb/>
+        <del rend="overstrike">are thy</del> <add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">are <del rend="overstrike">countless</del></add> monuments.</l>
     <anchor xml:id="a001"/>
    </lg>
    
