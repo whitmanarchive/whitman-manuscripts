@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08526"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                
+                <title level="m" type="main" rend="bracketed">Good-Bye My Fancy.</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <editor>Matt Cohen</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    
+                    <persName xml:id="sd">Sarah Danielson</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2025</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+                    <p>
+                        The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+                        <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+                        (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+                
+                
+                <idno>loc.08526</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+                
+                
+                <note type="work_relations" target="xxx." cert="high">
+                    <p></p>
+                </note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <author xml:id="ww">Whitman, Walt</author>
+                    
+                    <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+                    
+                    <!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
+       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
+                    <date notBefore="" notAfter="" cert=""></date>
+                    
+                    <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+                    
+                    <!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
+      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
+                    <orgName xml:id=""></orgName>
+                    
+                    <note>Transcribed from digital images of the original.</note>
+                    <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
+                    <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
+                    <relatedItem type="document" target="wwa.00041"/>
+                    <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
+                <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+                <handNote medium="printed type" xml:id="h02" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
+                <handNote medium="pencil" xml:id="h03" resp="#unk"/>
+                <handNote medium="pencil" xml:id="h04" resp="#ww"/>
+                <handNote medium="blue pencil" xml:id="h05" resp="#unk"/>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc>
+            
+            <change when="2026-01-30" who="#sd">transcribed and encoded</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    
+    <text type="manuscript">
+        <body>
+            
+            <pb xml:id="leaf001r" facs="loc_ja.00117.jpg" type="recto"/>
+            
+            <note type="authorial" place="top" hand="#h01">all right&#8212;pass on to proof reader to be cast</note>
+            
+            <note type="editorial" hand="#h03" place="top" rend="underline"><unclear reason="illegible" cert="low" resp="#sd">F</unclear></note>
+            
+            <note type="editorial" place="top" hand="#h03">Rev</note>
+            
+            <fw rend="left" xml:id="j001"><add hand="#h03"><metamark target="#j001" function="unknown">&#10003;</metamark></add>64</fw> <fw rend="center">GOOD-BYE MY FANCY.</fw>
+            
+            <div><p><anchor xml:id="j002"/><add hand="#h03"><metamark target="#j002" function="unknown">&#10003;</metamark></add>but brain normal, and retain my heart's and soul's unmitigated faith not only in their own original literary plans, but in the essential bulk of American humanity east and west, north and south, city and country, through thick and thin, to the last. Nor must I forget, in conclusion, a special, prayerful, thankful God's blessing to my dear firm friends and personal helpers, men and women, home and foreign, old and young.</p></div>
+            
+            <div>
+                <note type="authorial"><hi rend="italics">From the Camden Post, April 19, '91</hi><add hand="#h01">&#8248;</add><add hand="#h01" place="right" rend="marked">.</add></note>
+                <head type="main">OUT IN THE OPEN AGAIN.</head>
+                
+                <p>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi> got out in the mid<add hand="#h01" xml:id="a001">&#8248;</add><add hand="#h01" place="left">=<metamark target="#a001" function="emphasize">/</metamark></add> April sun and warmth of yesterday, propelled in his wheel chair, the first time after four months of imprisonment in his sick room. He had has the worst winter yet, <subst><del rend="overstrike" seq="2" hand="#h03" xml:id="d001">suffering</del><add place="left" seq="1" hand="#h01">mainly</add><add place="left" hand="#h03" seq="3"><metamark target="#d001" function="delete">&#977;</metamark></add></subst> from grippe and gastric troubles, and threaten<subst hand="#h01"><del rend="overstrike" seq="1" xml:id="d002">e</del><add place="left" seq="2">,<metamark target="#d002" function="emphasize">&#711;</metamark></add></subst>d blindness; but keeps good spirits, and has a new little forthcoming book in the printer's hands.</p>
+            </div>
+               
+            
+           
+                         
+        </body>
+    </text>
+</TEI>
