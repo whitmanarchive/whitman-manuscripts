@@ -60,17 +60,13 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     <title></title>  
      
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
      <date notBefore="" notAfter="" cert=""></date>
      
-     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     <idno type="callno"></idno>
      
-<!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
-      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
-     <orgName xml:id=""></orgName>
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839-1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
       <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
@@ -81,32 +77,51 @@
    </sourceDesc>
 </fileDesc>
   <profileDesc>
-   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="blue ink" xml:id="h02" resp="#unk"></handNote>
-    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
+   <handNotes>
+    <handNote medium="letterpress" xml:id="h01" resp="unk"><name xml:id="unk">Unknown</name></handNote>
+    <handNote medium="black ink" xml:id="h02" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h03" resp="#ht"><name xml:id="ht">Horace Traubel</name></handNote>
+    <handNote medium="red ink" xml:id="h04" resp="#ww"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
-<!-- IN THE FOLLOWING <CHANGE> ELEMENT EDIT THE @WHEN TO REFLECT TODAY'S DATE. IF YOU AREN'T TARA, CHANGE THE INITIALS AFTER THE POUND SIGN IN @WHO -->
- <change when="2024-01-20" who="#tb">transcribed and encoded</change>
+ <change when="2026-01-27" who="#kmh">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
-   <lg type="poem">
-     <l></l>
-     <l></l>
-     <l></l>
-   </lg>
-   
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+   <pb xml:id="leaf001r" facs="loc_cm.00001.jpg" type="recto"/>
+    <note type="authorial" place="top">I put all these pages except 28 to be pass'd under the eye of the proof reader, &amp; sent to be cast, without further f'm me<lb/> p 28, as added to, &amp; re-made up, I want to see proof of again<lb/> pull <hi rend="underline">two</hi> impressions please</note>
+    <fw type="header" place="center" rend="ital">GOOD-BYE MY FANCY.</fw>
+    <fw type="pageNumber" place="right">27</fw>
+     <p>me. Browning is lately dead; Bryant, Emerson and Longfellow have not long pass'd away; and yes, Whittier and Tennyson remain, over eighty years old&#8212;the latter having sent out not long since a fresh volume, which the English-speaking Old and New Worlds are yet reading. I have already put on record my notions of T. and his effusions: they are very attractive and flowery to me&#8212;but flowers, too, are at least as profound as anything; and by common consent T. is settled as the poetic cream-skimmer of our age's melody, <hi rend="ital">ennui</hi> and polish&#8212;a verdict in which I agree, and should say that nobody (not even Shakspere) goes deeper in those exquisitely touch'd and half-hidden hints and indirections left like faint perfumes in the crevices of his lines. Of Browning I don't know enough to say much; he must be studied deeply out, too, and quite certainly repays the trouble&#8212;but I am old and indolent, and cannot study (and never did).</p>
+     <p>Grand as to-day's accumulative fund of poetry is, there is certainly something unborn, not yet come forth, different from anything now formulated in any verse, or contributed by the past in any land&#8212;something waited for, craved, hitherto non-express'd. What it will be, and how, no one knows. It will probably have to prove itself by itself and its readers. One thing, it must run through entire humanity (this new word and meaning Solidarity has arisen to us moderns) twining all lands like a divine thread, stringing all beads, pebbles or gold, from God and the soul, and like God's dynamics and sunshine illustrating all and having reference to all. From anything like a cosmical point of view, the entirety of imaginative literature's themes and results as we get them to-day seems painfully narrow. All that has been put in statement, tremendous as it is, what is it compared with the vast fields and values and varieties left unreaped'd? Of our own country, the splendid races North and South, and especially of the Western and Pacific regions, it sometimes seems to me their myriad noblest Homeric and Biblic elements are all untouch'd, left as if ashamed of, and only certain very minor occasional <hi rend="underline">delirium tremens</hi> glints studiously sought and put in print, in short tales, "poetry" or books.</p>
+     <p>I give these speculations, or notions, in all their audacity, for the comfort of thousands&#8212;perhaps a majority of ardent minds, women's and young men's&#8212;who stand in awe and despair before the immensity of suns and stars already in the firmament. Even in the Iliad and Shakspere there is (is there not?) a certain humiliation produced to us by the absorption of them, unless we sound in equality, or above them, the songs due our own democratic era and surroundings, and the full assertion of ourselves. And in vain (such is my opinion) will America seek successfully <cb/><fw type="pageNumber" place="left">28</fw><fw type="header" place="center" rend="ital">GOOD-BYE MY FANCY.</fw> to tune any superb national song unless the heart-strings of the people start it from their own breasts&#8212;to be return'd and echoed there again.</p>
+     <addSpan rend="pasteon" spanTo="#a001"/>
+     <lg type="poem">
+      <head type="sub">SHIP AHOY!</head>
+       <l><choice><orig>I<hi rend="smallCaps">N</hi></orig><reg>In</reg></choice> dreams I was a ship, and sail'd the boundless seas,</l>
+       <l>Sailing and ever sailing&#8212;all seas and into every port, or out<lb/> upon the offing,</l>
+       <l>Saluting, cheerily hailing each mate, met or pass'd, little or big,</l>
+       <l>"Ship ahoy!" thro' trumpet or by voice, if nothing more, some<lb/> friendly merry word at least,</l>
+       <l>For companionship and good will for ever to all and each.can</l>
+     </lg>
+     <anchor xml:id="a001"/>   
+     
+      <lg type="poem">
+       <head type="sub">FOR QUEEN VICTORIA'S BIRTHDAY.</head>
+       <head type="sub" rend="ital">An American arbutus bunch to be put in a little vase on the royal breakfast table, May 24th, 1890.</head>
+        <l>Lady, accept a birth-day thought&#8212;haply an idle gift</l>
+        <l>Right from the scented soil's May-utterance here,</l>
+        <l>(Smelling of countless blessings, prayers, and old-time thanks,)<ref xml:id="r001" target="#n001"><metamark function="link">*</metamark></ref></l>
+        <l>A bunch of white and pink arbutus, silent, spicy, shy,</l>
+        <l>From Hudson's, Delaware's, or Potomac's woody banks.</l>
+        <note type="authorial" target="#r001" place="bottom" xml:id="n001">
+         <metamark function="link" target="#l001">*</metamark>NOTE.&#8212;Very little, as we Americans stand this day, with our sixty-five or seventy millions of population, and immense surplus in the treasury, and all that actual power or reserve power (land and sea) so dear to nations&#8212;very little I say do we realize that curious crawling national shudder when the "Trent affair" promis'd to bring upon us a war with Great Britain&#8212;follow'd unquestionably, as that war would have, by recognition of the Southern Confederacy from all the leading European nations. It is now certain that all this then inevitable train of calamity hung on arrogant and peremptory phrases in the prepar'd and written missive of the British Minister, to America, which the Queen (and Prince Albert latent) positively and promptly cancell'd; and which her firm attitude did alone actually erase and leave out, against all the other official prestige and Court of St. James's. On such minor and personal incidents (so to call them,) often depend the great growths and turns of civilization. This moment of a woman and a queen surely swung the grandest oscillation of modern history's pendullum. Many sayings and doings of that period, from foreign potentates and powers, might well be dropt in oblivion by America&#8212;but never <hi rend="ital">this</hi>, if I could have my way.</note><signed>W. W.</signed>       
+       </lg>
    
 </body>
 </text>
