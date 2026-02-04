@@ -62,13 +62,12 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     <title>How I made a book</title>  
      
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date notBefore="" notAfter="" cert=""></date>
+
+     <date notBefore="1885" notAfter="1886" cert="high">between 1885 and 1886</date>
      
-     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     <idno type="callno">#3829-f</idno>
      
 
      <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
@@ -895,22 +894,49 @@
     or as aiming mainly toward art or aestheticism. I
     hope to go on record for something different&#8212;something
     better, if I may dare to say so.</p></body></floatingText>
-    <p><add place="marginright"><metamark rend="circled" function="adjust">stet</metamark></add>"<hi rend="underline">Leaves of Grass</hi>" on the usual <add place="below"><metamark target="#a164" function="add">&#8248;</metamark></add><add place="above" xml:id="a164"></add>
-    esthetic claims&#8212;if I did not
-    feel that the deepest moral,
+    <p xml:id="d013"><add place="marginright"><metamark rend="circled" function="adjust">stet</metamark></add> If I rested "<hi rend="underline">Leaves of Grass</hi>" on the usual <del rend="overstrike"><add place="below"><metamark target="#a164" function="add">&#8248;</metamark></add><add place="above" xml:id="a164">abstract and</add></del>
+    <del rend="overstrike">esthetic</del> claims&#8212;if I did not
+     feel that the deepest moral, <add place="below"><metamark target="#a165" function="add">&#8248;</metamark></add><add place="above" xml:id="a165">social,</add>
     political purposes of America
     are the underlying endeavors at
     least of my pages&#8212;that the
     geography and hydrography of this
     continent, the Prairies, the St.
     Lawrence, Ohio, the Carolinas,
-    Texas, Missouri, are the real
-    concrete&#8212;of the following verses&#8212;
+    Texas, Missouri, are <subst><del rend="overstrike" seq="1">the</del><add place="above" seq="2">their</add></subst> real
+     <add place="below"><metamark target="#a166" function="add">&#8248;</metamark></add><add place="above" xml:id="a166" hand="#h04">current and</add> concrete&#8212;<del rend="overstrike">of the following verses</del>&#8212;
     I should not dare to have them
-    put it type, and printed and
-    bound, and offered for sale</p>
+    put it type, and printed <del rend="overstrike">and
+    bound</del>, and offered for sale</p>
     <anchor xml:id="a162"/>
     <anchor xml:id="a161"/>
+    
+    <pb xml:id="leaf017v" facs="uva.00148.034.jpg" type="verso"/>
+    <addSpan rend="pasteon" spanTo="#a167"/>
+    <p xml:id="d014"><add place="above" rend="circled"><metamark function="delete" target="#d013 #d014">run in</metamark></add>
+    I say no lands or people
+    or circumstances ever existed,
+    so needing a race of singers,
+    and poems differing from all others
+    and rigidly their own, as the lands
+    and people and circumstances
+    of our United States need such
+    singers and poems to&#11840;day, and
+    for the future. Still further: as
+    long as the States continue to
+     <metamark function="adjust"><hi hand="#h02">100 lead</hi></metamark>
+    absorb, and be dominated by the
+    poetry of the Old World, and to
+    remain unsupplied with autochthonous
+    song, to express,
+    vitalize, and give color to, and
+    define, their material and political
+    success, and minister to
+    them distinctively, so long will
+    they stop short of first class
+    Nationality and remain defective.
+    </p>
+    <anchor xml:id="a167"/>
     </div>
 </body>
 </text>
