@@ -24,7 +24,7 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <date>2025</date>
+                    <date>2026</date>
                 </edition>
             </editionStmt>
             <publicationStmt>
@@ -61,23 +61,18 @@
                 <bibl>
                     <author xml:id="ww">Whitman, Walt</author>
                     
-                    <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+                    <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Oversize, 1844-1952; Literary File; Books; November Boughs ( 1888 ); Proofs; Galley proofs (Container 23)</title>  
                     
-                    <!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-                    <date notBefore="" notAfter="" cert=""></date>
                     
-                    <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+                    <date when="1891">1891</date>
                     
-                    <!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
-      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
-                    <orgName xml:id=""></orgName>
+                    <idno type="callno">mss18630, box OV 4</idno>
+                    
+                   
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     
                     <note>Transcribed from digital images of the original.</note>
-                    <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
-                    <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-                    <relatedItem type="document" target="wwa.00041"/>
-                    <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+                    
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -93,6 +88,7 @@
         <revisionDesc>
             
             <change when="2026-02-05" who="#sd">transcribed and encoded</change>
+            <change when="2026-02-06" who="#sd">transcribed and encoded</change>
             
         </revisionDesc>
     </teiHeader>
@@ -168,9 +164,13 @@
                 
                 ages and texts&#8212;sometimes for such things put in prison, sometimes struck fiercely on the mouth on the spot, or knock'd down, and lying there beaten and bloody&#8212;was of keen wit, ready to any question with the most apropos of answers&#8212;was sometimes press'd for a soldier, (<hi rend="italics">him</hi> for a soldier!)&#8212;was indeed terribly buffeted; but goes, goes, goes&#8212;often sleeping out-doors, under hedges, or hay stacks&#8212;forever taken before justices&#8212;improving such, and all occasions, to <hi rend="italics">bear testimony</hi>, and give good advice&#8212;still enters the "steeple-houses," (as he calls churches,) and though often dragg'd out and whipt till he faints away, and lies like one dead, when he comes-to<del rend="overstrike" hand="#h01" xml:id="d018"> </del><add hand="#h01" place="left"><metamark target="#d018" function="delete">&#948;</metamark></add>&#8212;stands up again, and offering himself all bruis'd and bloody, cries out to his tormenters, "Strike&#8212;strike again, here where you have not yet touch'd! my arms, my head, my cheeks."&#8212;Is at length arrested and sent up to London, confers with the Protector, Cromwell,&#8212;is set at liberty, and holds great meetings in London.</p>
                 
-                <p>Thus going on, there is something in him that fascinates one or two here, and three or four there, until gradually there were others who went about in the same spirit, and by degrees the <subst hand="#h03"><del rend="overstrike" seq="1">s</del><add place="left" seq="2"><hi hand="#h01" rend="tripleUnderline">S</hi></add></subst>ociety of Friends took shape, and stood among the thousand religious sects of the world. Woman also catch the contagion, and go round, often shamefully misused.<del hand="#h01" rend="overstrike" xml:id="d019">&#8212;</del><add hand="#h01" place="right"><metamark target="#d019" function="delete">&#948;</metamark></add>By such contagion these ministerings, by scores, almost hundreds of poor travelling men and women, keep on year after year, through ridicule, whipping, imprisonment, &amp;c.&#8212;some of the Friend-ministers emigrate to New England&#8212;where their treatment makes the blackest part of the early annals of the New World.<del hand="#h01" rend="overstrike" xml:id="d020">&#8212;</del><add hand="#h01" place="right"><metamark target="#d020" function="delete">&#948;</metamark></add></p>
+                <p>Thus going on, there is something in him that fascinates one or two here, and three or four there, until gradually there were others who went about in the same spirit, and by degrees the <subst hand="#h03"><del rend="overstrike" seq="1">s</del><add place="left" seq="2"><hi hand="#h01" rend="tripleUnderline">S</hi></add></subst>ociety of Friends took shape, and stood among the thousand religious sects of the world. Woman also catch the contagion, and go round, often shamefully misused.<del hand="#h01" rend="overstrike" xml:id="d019">&#8212;</del><add hand="#h01" place="right"><metamark target="#d019" function="delete">&#948;</metamark></add> By such contagion these ministerings, by scores, almost hundreds of poor travelling men and women, keep on year after year, through ridicule, whipping, imprisonment, &amp;c.&#8212;some of the Friend-ministers emigrate to New England&#8212;where their treatment makes the blackest part of the early annals of the New World.<del hand="#h01" rend="overstrike" xml:id="d020">&#8212;</del><add hand="#h01" place="right"><metamark target="#d020" function="delete">&#948;</metamark></add></p>
                 
-                <p>George Fox himself visited America, and found a refuge and hearers, and preach'd many times on Long Island, New York State. </p>
+                <p>George Fox himself visited America, and found a refuge and hearers, and preach'd many times on Long Island, New York State. In the village of Oysterbay they will show you the rock on which he stood, (1627,) addressing the multitude, in the open air&#8212;thus rigidly following the fashion of apostolic times.&#8212;(I have heard myself many reminiscences of him.) Flushing also contains (or contain'd&#8212;I have seen them) memorials of Fox, and his son, in two aged white-oak trees, that shaded him while he bore his testimony to people gather'd in the highway.&#8212;Yes, the American Quakers were much persecuted&#8212;almost as much, by a sort of consent of all the other sects, as the Jews were in Europe in the middle ages.<del rend="overstrike" hand="#h01" xml:id="d021">&#8212;</del><add hand="#h01" place="right"><metamark target="#d021" function="delete">&#948;</metamark></add> In New England, the cruelest laws were pass'd, and put in execution against them.<del rend="overstrike" hand="#h01" xml:id="d022">&#8212;</del><add hand="#h01" place="right"><metamark target="#d022" function="delete">&#948;</metamark></add> As said, some were whipt&#8212;women the same as men.<del rend="overstrike" hand="#h01" xml:id="d023">&#8212;</del><add hand="#h01" place="right"><metamark target="#d023" function="delete">&#948;</metamark></add> Some had their ears cut off&#8212;other their tongues pierc'd with hot irons&#8212;others their faces branded.<del rend="overstrilke" hand="#h01" xml:id="d024">&#8212;</del><add hand="#h01" place="left"><metamark target="#d024" function="delete">&#948;</metamark></add> Worse still, a woman and three men had been hang'd, (1660.)&#8212;Public opinion, and the statutes, join'd together, in an odious union, Quakers, Baptists, Roman Catholics and Witches.&#8212;Such a fragmentary sketch of George Fox and his time&#8212;and the advent of 'the Society of Friends' in America.</p>
+            </div>
+            
+            <div>
+                <p>Strange as it may sound, Shakspere and George Fox, (think of them! compare them!) were born and bred of similar stock, in much the same surroundings and station in life&#8212;from the same England&#8212;and at a similar period. One to radiate all of art's, all literature's splendor&#8212;a splendor so dazzling that he himself is almost lost in it, and his contemporaries the same&#8212;his fictitious Othello, Romeo, Hamlet, Lear, as real as any lords of England or Europe then and there&#8212;more real to us, the mind sometimes thinks, than the man Shakspere himself. Then the other&#8212;may we indeed name him the same day? What is poor plain George Fox compared to William Shakspere&#8212;to fancy's lord, imagination's heir? Yet George Fox stands for something too&#8212;a thought&#8212;the thought that wakes in silent hours&#8212;perhaps the deepest, most eternal thought latent in the human soul. This is the thought of God, merged in the thoughts of moral right and the immortality of identity. Great, great is the thought&#8212;aye, greater than all else. When the gorgeous pageant of Art, refulgent in the sunshine, color'd with roses and gold&#8212;with all the richest mere poetry, old or new, (even Shakspere's)&#8212;with all that statute, play, painting, music, architecture, oratory, can effect, ceases to satisfy and please<del rend="overstrike" hand="#h01" xml:id="d025"><unclear reason="illegible" cert="high" resp="#sd"> &#8212;</unclear></del><add hand="#h01" place="right" rend="marked"><metamark target="#d025" function="delete">&#948;</metamark></add> When the eager chase after wealth flags, and beauty itself becomes a loathing&#8212;and when all worldly or carnal or esthetic, or even scientific values, having done their office to the human character, and minister'd their part to its development&#8212;then, if not before, comes forward this over-arching thought, and brings its eligibilities, generations. Most neglected in life of all humanity's attributes, easily cover'd with crust, deluded and abused, rejected, yet the only certain source of what all are seeking, but few or none find&#8212;in it I for myself clearly see the first, the last, the deepest depths and highest heights of art, of literature, and of the purposes of life. I say whoever labors here, makes contributions here, or best of all sets an incarnated example here, of life or death, is dearest to humanity<del rend="overstrike" hand="#h01" xml:id="d026"> </del><add hand="#h01" place="left"><metamark target="#d026" function="delete">&#948;</metamark></add>&#8212;remains after the rest are gone. And here, for these purposes, and up to the light that was in him, the man Elias Hicks&#8212;as the man George Fox had done years before him&#8212;lived long, and died, faithful in life, and faithful in death.</p>
             </div>
         </body>
     </text>
