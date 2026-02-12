@@ -62,13 +62,12 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “Old Salt Kossabone” (1880), signed draft</title>  
      
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date notBefore="" notAfter="" cert=""></date>
+
+     <date notBefore="1887" notAfter="1888" cert="high">between 1887 and 1888</date>
      
-     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     <idno type="callno">mss18630, box 28; reel 17</idno>
      
 
      <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
@@ -81,7 +80,7 @@
   <profileDesc>
    <handNotes>
     <handNote medium="pencil" xml:id="h01" resp="#ww"/>
-    <handNote medium="black ink" xml:id="h02" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
+    <handNote medium="black ink" xml:id="h02" resp="#et"><name xml:id="et">Ellen Terry</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
@@ -105,7 +104,7 @@
     <l>House on a hill with view of bay at hand, and<lb/> distant cape, and stretch to open sea;)</l>
     <l>The last of afternoons, the evening hours, for many<lb/> a year his regular custom.</l>
     <l>In his great chair by the frost window seated,<lb/> (sometimes indeed through half the day.)</l>
-    <l>Wathing the coming, going of the vessels, he<lb/> he to himself&#8212;<hi rend="tripleUnderline">A</hi>nd now the close of all:</l>
+    <l>Watching the coming, going of the vessels, he<lb/> he to himself&#8212;<hi rend="tripleUnderline">A</hi>nd now the close of all:</l>
     <l>One struggling brig one day baffled for long&#8212; <lb/> cross-tides and much wrong&#11840;going.</l>
     <l>At last at night-fall strikes the breeze aright, <lb/> her whole luck veering.</l>
     <l>And swiftly out around the cape, the darkness,<lb/> proudly entering , cleaving, as he watches,</l>
@@ -114,8 +113,12 @@
    </lg>
    <byline rend="underline">Walt Whitman</byline>
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+
+   <pb xml:id="leaf001v" facs="loc.00068.002.jpg" type="verso"/>
+   <note type="archival" hand="#h02" place="bottom">Walt Whitman's Autograph
+    &amp; written lines by him: given me by W.W.&#8212;in America in 18[88]&#8212;
+    <hi rend="underline">Ellen Terry</hi>
+   </note>
    
 </body>
 </text>
