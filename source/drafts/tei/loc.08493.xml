@@ -7,7 +7,7 @@
   <fileDesc>
    <titleStmt>
     
-    <title level="m" type="main" rend="bracketed">Sail Out for Good, Eid&#243;lon Yacht!</title>
+    <title level="m" type="main" rend="bracketed">Sail Out for Good, Eidolon Yacht!</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -24,7 +24,7 @@
    </titleStmt>
    <editionStmt>
     <edition>
-     <date>2025</date>
+     <date>2026</date>
     </edition>
    </editionStmt>
    <publicationStmt>
@@ -61,28 +61,23 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Oversize, 1844-1952; Literary File; Books; Good-Bye My Fancy ( 1891); Proofs; Proof sheets; First set (Container 20)</title>  
      
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date notBefore="" notAfter="" cert=""></date>
+
+     <date when="1891">1891</date>
      
-     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     <idno type="callno">mss18630, box OV 3</idno>
      
-<!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
-      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
-     <orgName xml:id=""></orgName>
+
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
-     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-     <relatedItem type="document" target="wwa.00041"/>
-     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+     
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
-   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
+   <handNotes>
     <handNote medium="black ink" xml:id="h01" resp="#ww"/>
     <handNote medium="printed type" xml:id="h02" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
     <handNote medium="pencil" xml:id="h03" resp="#ww"/>
@@ -94,6 +89,10 @@
  
  <change when="2025-12-02" who="#sd">transcribed and encoded</change>
  <change when="2025-12-09" who="#sd">transcribed and encoded</change>
+ <change when="2026-01-15" who="#sd">transcribed and encoded</change>
+ <change when="2026-01-20" who="#sd">transcribed and encoded</change>
+ <change when="2026-02-06" who="#sd">transcribed and encoded</change>
+ 
 </revisionDesc>
  </teiHeader>
 
@@ -111,7 +110,7 @@
    <note type="authorial" place="left" hand="#h04" rend="marked">2 proofs</note>
    
    <lg type="poem">
-    <head type="main">SAIL OUT FOR GOOD, EID LON YACHT!</head>
+    <head type="main">SAIL OUT FOR GOOD, EID<hi rend="overline underline" hand="#h01" xml:id="j003"> </hi><add hand="#h01" place="left"><metamark target="#j003" function="adjust">=</metamark></add>LON YACHT!</head>
     <l>H<hi rend="smallcaps">EAVE</hi> the anchor short!</l>
     <l>Raise main-sail and jib&#8212;steer forth,</l>
     <l>O little white-hull'd sloop, now speed on really deep waters,</l>
@@ -139,7 +138,7 @@
    
    <lg type="poem">
     <head type="main">GOOD-BYE MY FANCY.</head>
-    <l>G<hi rend="smalcaps">OOD-BYE</hi>* my fancy&8212;(I had a word to say,</l>
+    <l>G<hi rend="smalcaps">OOD-BYE</hi>* my fancy&#8212;(I had a word to say,</l>
     <l>But 'tis no quite the time&#8212;The best of any man's word or say,</l>
     <l>It when its proper place arrives&#8212;and for its meaning,</l>
     <l>I keep mine till the last.)</l>
@@ -158,7 +157,7 @@
     <l>Here, here from wanderings, strayings, lessons, wars, defeats&#8212;<lb/> here at the west a voice triumphant&#8212;justifying all,</l>
     <l>A gladsome pealing cry&#8212;a song for once of utmost pride and<lb/> satisfaction;</l>
     <l>I chant from it the common bulk, the general average horde,<lb/> (the best no sooner than the worst)&#8212;And now I chant old<lb/> age,</l>
-    <l>(My verses, wrtiten first forenoon life, and for the summer's,<lb/> autumn's spread,</l>
+    <l>(My verses, written first forenoon life, and for the summer's,<lb/> autumn's spread,</l>
     <l>I pass to snow-white hairs the same, and give to pulses winter-<lb/> cool'd the same;)</l>
     <l>As here in careless trill, I and my recitatives, with faith and<lb/> love,</l>
     <l>Wafting to other work, to unknown songs, conditions,</l>
@@ -173,6 +172,90 @@
     <l>And some old broken soldier, after a long, hot, wearying march,<lb/> or haply after battle,</l>
     <l>To-day at twilight, hobbling, answering company roll-call, <hi rend="italics">Here</hi>,<lb/> with vital voice,</l>
     <l>Reporting yet, saluting yet the Officer over all.</l>
+   </lg>
+ 
+   <pb xml:id="leaf001r" facs="loc_ja.00002.jpg" type="recto"/>
+   
+   <note type="editorial" place="top" hand="#h03">4</note>
+   
+   <note type="authorial" place="top" hand="#h01">B</note>
+   
+   <lg type="poem">
+    <head type="main">OLD AGE'S SHIP &#38; CRAFTY DEATH'S.</head>
+    <l>F<hi rend="smallcaps">ROM</hi> east and west across the horizon's edge,</l>
+    <l>Two mighty masterful vessels sailers steal upon us:</l>
+    <l>But we'll make race a-time upon the seas&#8212;a battle-contest yet!<lb/> bear lively there!</l>
+    <l>(Our joys of strife and derring-do to the last!)</l>
+    <l>Put on the old ship all her power to-day!</l>
+    <l>Crowd top-sail, top-gallant and royal studding-sails,</l>
+    <l>Out challenge and defiance&#8212;flags and flaunting pennants added,</l>
+    <l>As we take to the open&#8212;take to the deepest, freest waters.</l>
+   </lg>
+   
+   <lg type="poem">
+    <head type="main">TO THE PENDING YEAR.</head>
+    <lg type="linegroup">
+    <l>H<hi rend="smallcaps">AVE</hi> I no weapon-word for thee&#8212;some message brief and<lb/> fierce?</l>
+    <l>(Have I fought out and done indeed the battle?) Is there no shot<lb/> left,</l>
+    <l>For all thy affec<del hand="#h01" rend="overstrike" xml:id="a001">ta<add place="right"><metamark target="#a001" function="delete">&#948;</metamark></add></del>tions, lisps, scorns, manifold silliness?</l>
+    <l>Nor for myself&#8212;my own rebellious self in thee?</l>
+    </lg>
+   
+   <lg type="linegroup">
+    <l>Down, down, proud gorge!&#8212;though choking thee;</l>
+    <l>Thy bearded throat and high-borne forehead to the gutter;</l>
+    <l>Crouch low thy neck to eleemosynary gifts.</l>
+    </lg>
+   </lg>
+   
+   <lg type="poem">
+    <head type="main">THE PALLID WREATH.</head>
+    <l>S<hi rend="small caps">OMEHOW</hi> I cannot let it go yet, funeral though it is,</l>
+    <l>Let it remain back there on its nail suspended,</l>
+    <l>With pink, blue, yellow, all blanch'd, and the white now gray<lb/> and ashy,</l>
+    <l>One wither'd rose put years ago for thee, dear friend;</l>
+    <l>But I do not forget thee. Hast thou then faded?</l>
+    <l>Is the odor exhaled? Are the colors, vitalities, dead?</l>
+    <l>No, while memories subtly play&#8212;the past vivid as ever:</l>
+    <l>For but last night I woke, and in that spectral ring saw thee,</l>
+    <l>Thy smile, eyes, face, calm, silent, loving as ever:</l>
+    <l>So let the wreath hang still awhile within my eye-reach,</l>
+    <l>It is not yet dead to me, nor even pallid.</l>
+   </lg>
+   
+   <lg type="poem">
+    <head type="main">AN ENDED DAY.</head>
+    <l>T<hi rend="smallcaps">HE</hi> soothing sanity and blitheness of completion,</l>
+    <l>The pomp and hurried contest-glare and rush are done;</l>
+    <l>Now triumph! transformation! jubilate!*</l>
+   
+   
+   <note type="authorial">
+    *N<hi rend="smallcaps">OTE</hi>&#8212;<hi rend="italics">Summer country life</hi>&#8212;<hi rend="italics">Several years.</hi>&#8212;In my rambles and ex<subst hand="#h01"><del rend="overstrike" seq="1">lp</del><add place="right" seq="2">pl</add></subst>orations I found a woody place near the creek, where for some reason the birds in happy mood seem'd to resort in unusual numbers. Especially at the beginning of the day, and again at the ending, I was sure to get there the most copious bird-concerts. I repair'd there frequently at sunrise&#8212;and also at sunset, or just before...Once the question arose in me: Which is the best singing, the first or the lattermost? The first always exhilarated and perhaps seem'd more joyous and stronger; but I always felt the sunset or late afternoon sounds more penetrating and sweeter&#8212;seem'd to touch the soul&#8212;often the evening thrushes, two or three of them, responding and perhaps blending. Though I miss'd some of the mornings, I found myself getting to be quite strictly punctual at the evening utterances. 
+   </note>
+   
+   <note type="authorial">
+    <p>
+     A<hi rend="smallcaps">NOTHER NOTE</hi>.&#8212;"He went out with the tide and the sunset," was a phrase I heard from a surgeon describing an old sailor's death under peculiarly gentle conditions.
+    </p>
+    
+   <p>
+    During the Secession War in 1863 and '4, visiting the Army Hospitals around Washington, I form'd the habit, and continued it to the end, whenever the ebb or flood tide began the latter part of the day, of punctually visiting those at that time populous wards of suffering men. Somehow (or I thought so) the effect of the hour was palpable. The badly wounded would get some ease, and would like to talk a little bit, or be talk'd to. Intellectual and emotional natures would be at their best: Deaths were always easier; medicines seem'd to have better effects when given then, and a lulling atmosphere would pervade the wards. 
+   </p>
+   <p>
+    Similar influences, similar circumstances and hours, day-close, after great battles, even with all their horrors. I had more than once the same experience on the fields cover'd with fallen or dead.
+   </p>
+   </note>
+   </lg>
+   
+   <lg type="poem">
+    <head type="main">SHAKSPERE-BACON'S CIPHER.S</head>
+    <l>I <hi rend="smallcaps">DOUBT</hi> it not&#8212;then more, far more;</l>
+    <l>In each old song bequeath'd&#8212;in every noble page or text,</l>
+    <l>(Different&#8212;something unreck'd before&#8212;some unsuspected<lb/> author,)</l>
+    <l>In every object, mountain, tree, and star&#8212;in every birth and<lb/> life,</l>
+    <l>As part of each&#8212;evolv'd from each&#8212;meaning, behind the <choice><reg>ostent</reg><orig>os<lb/>tent</orig></choice>,</l>
+    <l>A mystic cipher waits infolded.</l>
    </lg>
  
 </body>

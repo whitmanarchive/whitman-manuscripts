@@ -6,7 +6,6 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main" rend="bracketed">The following are but casual</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
@@ -15,7 +14,7 @@
     <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
+     <persName xml:id="bb">Brett Barney</persName>
      <persName xml:id="ew">Emma Whaley</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -24,7 +23,7 @@
    </titleStmt>
    <editionStmt>
     <edition>
-     <date>2024</date>
+     <date>2025</date>
     </edition>
    </editionStmt>
    <publicationStmt>
@@ -44,33 +43,25 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
 
    <idno>tex.00216</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">Whitman's conversations with his friend and confidante Horace Traubel in the spring and summer of 1888 evince an unusual and attenuated composition process for this essay, which he considered, at different moments, publishing as a monograph, sending for consideration to <hi rend="italic">Lippincott's Magazine,</hi> or abandoning altogether. It was one of the last pieces that he sent for inclusion in <hi rend="italic">November Boughs</hi> (1888). See <hi rend="italic">With Walt Whitman in Camden</hi>, volumes <ref target="item/med.00001">1</ref> and <ref target="item/med.00002">2</ref>.</note>
     
-     <note type="work_relations" target="xxx.00486" cert="medium">
-      <p>A small scrap on which is written a heavily revised sentence of the "Prefatory Note" in "Notes (such as they are) founded on Elias Hicks," an essay first published in <hi rend="italic">November Boughs</hi> (1888) and later reprinted in <hi rend="italic">Complete Prose Works</hi> (1891–1892).</p>
+     <note type="work_relations" target="xxx.00486" cert="high">
+      <p>This scrap bears a heavily revised sentence that appeared, after further revision, in "Prefatory Note" in "Notes (such as they are) founded on Elias Hicks," an essay first published in <hi rend="italic">November Boughs</hi> (1888) and later reprinted in <hi rend="italic">Complete Prose Works</hi> (1891–1892).</p>
      </note>
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
-     
      <title>"The following are but casual fragments...," manuscript fragment, undated, 1p</title>  
-     
-     <date when="1888" cert="high"></date>
-     
-     <idno type="callno">TXRC03-A4, box 1, folder 5</idno>
-     
-
+     <date when="1888" cert="high" xml:id="dat1">1888</date>
+     <idno type="callno" >TXRC03-A4, box 1, folder 5</idno>
      <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
-     
      <note>Transcribed from digital images of the original.</note>
-     
     </bibl>
    </sourceDesc>
 </fileDesc>
@@ -80,7 +71,7 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-01-21" who="#bb">proofed</change>
  <change when="2024-11-26" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -91,7 +82,7 @@
    <pb xml:id="leaf001r" facs="tex.00216.001_large.jpg" type="recto"/>
    
    <note type="authorial" place="top"><del rend="overstrike">W.W.</del></note> 
-   <p>The following are but <del rend="overstrike"><add place="above">some</add></del> casual fragments <del rend="overstrike">and I allowed them<add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">needed and grieved</add>, to</del><add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a002">to serve and</add> eke out <del rend="overstrike">what to some too</del> lank and blank pages of what I commenced unwittingly two months ago</p>
+   <p>The following are but <del rend="overstrike"><add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">some</add></del> casual fragments <del rend="overstrike">and I allowed them</del> <del rend="overstrike"><add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">needed</add>, to</del> <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a002"><del rend="overstrike">and given</del> to serve and</add> eke out <del rend="overstrike">what</del> <del rend="overstrike">w</del> <del rend="overstrike">some too</del> <add place="above">the</add> lank and blank pages of what I commenced unwittingly two months ago</p>
    
    <pb xml:id="leaf001v" facs="tex.00216.002_large.jpg" type="verso"/>
    

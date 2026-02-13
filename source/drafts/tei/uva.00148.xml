@@ -62,13 +62,12 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     <title>How I made a book</title>  
      
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date notBefore="" notAfter="" cert=""></date>
+
+     <date notBefore="1885" notAfter="1886" cert="high">between 1885 and 1886</date>
      
-     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     <idno type="callno">#3829-f</idno>
      
 
      <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
@@ -100,16 +99,17 @@
   <body>
    
    <pb xml:id="leaf001r" facs="uva.00148.001.jpg" type="recto"/>
-   <note hand="#h04" place="top" type="authorial">Please keep Copy as perfect as possible <hi rend="Underline">and return</hi></note>
+   <addSpan rend="pasteon" spanTo="#a107"/>
+   <note hand="#h04" place="top" type="authorial">Please keep Copy as perfect as possible <hi rend="underline">and return</hi></note>
    <note hand="#h03" place="top" rend="circled" type="authorial">follow copy in punctuation, capitalization &amp;c</note>
    <note hand="#h04" place="top" rend="circled" type="authorial">55c</note>
    <metamark function="adjust"><hi hand="#h02">75lead</hi></metamark>
    <note hand="#h04" place="top" rend="circled" type="authorial">Syndicate</note>
    <addSpan spanTo="#a015" hand="#h04" rend="circled"/><metamark function="adjust"><hi hand="#h02" rend="highlight">lead all</hi></metamark><anchor xml:id="a015"/>
-   <head type="main" rend="Underline">How I made a book <unclear reason="illegible" cert="low"
+   <head type="main" rend="underline">How I made a book <unclear reason="illegible" cert="low"
     resp="#ja">,</unclear> or tried to.</head>
    <byline>By Walt Whitman</byline>
-   <addSpan spanTo="#a013"/><metamark target="#a001" function="add">&#8248; &#8248;</metamark><anchor xml:id="a013"/><addSpan place="top" xml:id="a001" spanTo="#a012"/><ab>(<hi rend="Underline">Copyright 1885</hi>)</ab><anchor xml:id="a012"/>
+   <addSpan spanTo="#a013"/><metamark target="#a001" function="add">&#8248; &#8248;</metamark><anchor xml:id="a013"/><addSpan place="top" xml:id="a001" spanTo="#a012"/><ab>(<hi rend="underline">Copyright 1885</hi>)</ab><anchor xml:id="a012"/>
   <div type="section">
    <addSpan spanTo="#a014" hand="#h04"/><head type="sub" rend="doubleUnderline">I</head><anchor xml:id="a014"/>
    <p>My friends have more
@@ -125,9 +125,10 @@
    ploughing, planting,
    seeding and occupation of the
    ground till everything was
-   fertilized, rooted, and ready</p>
+   fertilized, rooted, and ready</p><anchor xml:id="a107"/>
    
    <pb xml:id="leaf001v" facs="uva.00148.002.jpg" type="verso"/>
+   <addSpan rend="pasteon" spanTo="#a108"/>
    <p>to start its own way, for
    good or bad. Not until <del rend="overstrike">all</del>
    after this was all settled
@@ -139,18 +140,19 @@
    possessor of a stout <subst><del rend="overstrike" seq="1">well&#11840;cramm'd</del><add place="above" seq="2">well&#11840;crammed</add></subst>
    <add place="below"><metamark target="#a008" function="add">&#8248;</metamark></add><add place="above" xml:id="a008">1000 page</add> octavo volume. (I have it yet)
    containing Walter Scott's Poetry
-   entire <metamark function="link" xml:id="e001">*</metamark><add rend="circled"><metamark function="emphasize" target="#e001"><hi hand="#h02">note a</hi></metamark></add>&#8212;an inexhaustable mine
+   entire <metamark function="link" xml:id="e001">*</metamark><del rend="overstrike" hand="#h02"><add rend="circled"><metamark function="emphasize" target="#e001">note a</metamark></add></del>&#8212;an inexhaustable mine
    and treasury of poetic study, (especially
    the endless forests and
    jungles of notes)&#8212;has been so to
    me for fifty years, and remains
-   so to this day.</p>
+   so to this day.</p><anchor xml:id="a108"/>
    
    <pb xml:id="leaf002r" facs="uva.00148.003.jpg" type="recto"/>
+   <addSpan rend="pasteon" spanTo="#a109"/>
    <p><note hand="#h02" place="top">76</note><add>&#182;</add><del rend="overstrike" hand="#h04">Years</del> <del rend="overwrite" hand="#h04">l</del><add hand="#h04">L</add>ater, <add place="below"><metamark target="#a017" function="add">&#8248;</metamark></add><add place="above" xml:id="a017">at intervals,</add> I used to
    go off, <del rend="overstrike">at intervals</del>, sometimes
    for a week at a stretch,
-   down in the dountry, or to
+   down in the country, or to
    Long Island's sea-shores;<metamark function="adjust"><hi hand="#h02">lead</hi></metamark>&#8212;there,
    in the presence of <del hand="#h04" rend="overstrike">natural
    and</del> outdoor influences. I went
@@ -160,10 +162,10 @@
    me than in any library or
    indoor room&#8212;it makes such
    difference <hi rend="underline">where</hi> you read,)
-   Shakspere, Ossian, the best</p>
+   Shakspere, Ossian, the best</p><anchor xml:id="a109"/>
    
    <pb xml:id="leaf002v" facs="uva.00148.004.jpg" type="verso"/>
-   <p><addSpan rend="pasteon" spanTo="#a018"/>versions I could get of Homer,
+   <p><addSpan rend="pasteon" spanTo="#a110"/><addSpan rend="pasteon" spanTo="#a018"/>versions I could get of Homer,
    Eschylus, Sophocles, the old<anchor xml:id="a018"/>
    German <unclear reason="illegible"
     cert="high" resp="#ja">Nibelungen</unclear> the ancient
@@ -174,10 +176,10 @@
    wood. The Iliad, (Buckley's
    prose version) I read first
    thoroughly on the peninsula
-   of Orient northeast end of<add hand="#h02"><metamark function="add">&#8248;</metamark></add></p>
+   of Orient northeast end of<add hand="#h02"><metamark function="add">&#8248;</metamark></add></p><anchor xml:id="a110"/>
    
    <pb xml:id="leaf003r" facs="uva.00148.005.jpg" type="recto"/>
-   <p><add hand="#h02"><metamark function="add">&#8248;</metamark></add>Long Island, in a sheltered
+   <addSpan rend="pasteon" spanTo="#a111"/><p xml:id="d004"><add hand="#h02"><metamark function="add">&#8248;</metamark></add>Long Island, in a sheltered
    hollow of rocks and sand,
    with the sea on each side.
    I have<addSpan rend="pasteon" spanTo="#a019"/>
@@ -194,7 +196,9 @@
    mood. <del rend="overstrike" hand="#h02">(</del>May I not say that
    in me, there, those <del rend="overstrike">old</del><retrace rend="overstrike" hand="#h01" cause="emphasize"><del rend="overstrike" hand="#h04"><add place="above">antique</add></del></retrace> <retrace hand="#h01"><add place="above" hand="#h04">works</add></retrace><add place="above">old</add> <del rend="overstrike">maestros</del>
    certainly had <hi rend="underline">one</hi> <add place="below"><metamark target="#a022" function="add">&#8248;</metamark></add><add place="above" xml:id="a022">fully</add> appreciative
-    <add place="above">and exultant</add> modern <retrace rend="overstrike" cause="emphasize" hand="#h01"><retrace rend="overstrike" cause="emphasize" hand="#h02"><del rend="overstrike" hand="#h04">listener</del></retrace></retrace><del rend="overstrike" hand="#h01"><add place="above" hand="#h04"><retrace hand="#h02" cause="illegible">a</retrace>bsorber</add></del><del hand="#h02"><add place="below" hand="#h02">peruser?</add></del><add place="below" hand="#h01">peruser?</add>?<del rend="overstrike">)</del>.... <add place="above" hand="#h03" rend="circled"><metamark function="adjust">run in</metamark></add>Returning
+    <add place="above">and exultant</add> modern <retrace rend="overstrike" cause="emphasize" hand="#h01"><retrace rend="overstrike" cause="emphasize" hand="#h02"><del rend="overstrike" hand="#h04">listener</del></retrace></retrace><del rend="overstrike" hand="#h01"><add place="above" hand="#h04"><retrace hand="#h02" cause="illegible">a</retrace>bsorber</add></del><del hand="#h02"><add place="below" hand="#h02">peruser?</add></del><add place="below" hand="#h01">peruser?</add>?<del rend="overstrike">)</del>....<add place="above" hand="#h03" rend="circled"><metamark function="delete" target="#d003 #d004">run in</metamark></add></p>
+    
+   <p xml:id="d003">Returning
    to New York I alternated with
    <del rend="overstrike">the musical</del> <del hand="#h02">absorptions</del><add place="above" hand="#h01">the</add><add place="above" hand="#h02">attendances</add>
    mention'd <add place="below" rend="marked"><metamark target="#a023" function="add">&#8248;</metamark></add><add place="above" hand="#h04" xml:id="a023"><retrace hand="#h01" cause="emphasize">by Dr. Bucke</retrace> <retrace rend="overstrike" hand="#h01"><del rend="overstrike" hand="#h04">in the <retrace rend="overstrike" hand="#h03" cause="emphasize">memoranda</retrace></del></retrace></add> <del rend="overstrike" hand="#h04">by <retrace hand="#h03" rend="overstrike" cause="emphasize">Dr.</retrace> B.</del> especially
@@ -204,10 +208,10 @@
     <del rend="overstrike">...</del>All this and these, <retrace hand="#h01" cause="emphasize"><del rend="overstrike" hand="#h04">I sang</del></retrace>,
     saturating and imbuing everything
     before I touch'd pen
-    to paper <handShift/> <gap extent="one character" reason="illegible"></gap> on my own account<del rend="overstrike"><gap extent="punctuation" reason="illegible"/></del><add>&#182;</add><anchor xml:id="a025"/></p>
+    to paper <handShift/> <gap extent="one character" reason="illegible"></gap> on my own account<del rend="overstrike"><gap extent="punctuation" reason="illegible"/></del><add>&#182;</add><anchor xml:id="a025"/></p><anchor xml:id="a111"/>
    
    <pb xml:id="leaf003v" facs="uva.00148.006.jpg" type="verso"/>
-   <p><milestone unit="glued"/><add>&#182;</add>Towards the last I had
+   <addSpan rend="pasteon" spanTo="#a112"/><p><add>&#182;</add>Towards the last I had
    <add place="below"><metamark target="#a026" function="add">&#8248;</metamark></add><add place="above" xml:id="a026" hand="#h04">among much else</add>look'd over Edgar Poe's <del rend="overstrike" hand="#h04"><add hand="#h04" place="above">earlier</add></del> poems&#8212;
    <add place="below" rend="marked" hand="#h04"><metamark target="#a027" function="add">&#8248;</metamark></add><add place="above" xml:id="a027" hand="#h04">of whom</add> was not an admirer tho' I
    always saw that <retrace cause="emphasize" hand="#h01"><del hand="#h02">besides</del></retrace><add place="above" hand="#h02">beyond</add> their
@@ -224,14 +228,15 @@
    But I was repaid in Poe's prose
    by the idea that <add place="below" hand="#h01" rend="marked"><metamark target="#a029" function="add">&#8248;</metamark></add><add place="above" xml:id="a029" hand="#h02">(at any rate for our occasions <add place="below" hand="#h04"><metamark target="#a030" function="add">&#8248;</metamark></add><add place="above" xml:id="a030" hand="#h04">and</add> our day)</add> there can be
     no such thing, <add place="below" hand="#h04"><metamark target="#a031" function="add">&#8248;</metamark></add><add place="above" xml:id="a031" hand="#h04"><retrace hand="#h01"><del rend="overstrike" hand="#h02">at any rate</del></retrace> for <retrace cause="emphasize" hand="#h01"><del rend="overstrike" hand="#h02"><add hand="#h01" place="above">contemporary</add></del></retrace></add> <retrace cause="emphasize" hand="#h04"><del rend="overstrike">for</del></retrace> <del rend="overstrike">modern purposes</del>,
-   as a <hi rend="Underline">long</hi> poem. The
+   as a <hi rend="underline">long</hi> poem. The
    same thought had been haunting
    my mind before, but P's argument,
    though short, work'd the sum
    out, and proved it to me.</p>
-   <metamark function="adjust"><hi hand="#h02">78lead</hi></metamark>
+   <metamark function="adjust"><hi hand="#h02">78lead</hi></metamark><anchor xml:id="a112"/>
    
    <pb xml:id="leaf004r" facs="uva.00148.007.jpg" type="recto"/>
+   <addSpan rend="pasteon" spanTo="#a113"/>
    <note hand="#h03" place="top" type="editorial"><del rend="overstrike" hand="#h02">5</del></note>
    <metamark function="adjust"><hi hand="#h02">79lead</hi></metamark>
    <p><addSpan rend="pasteon" spanTo="#a036"/><add hand="#h03">&#182;</add>Another <del rend="overstrike">point</del> point had an
@@ -256,9 +261,10 @@
    New World&#8212;not only the free
    and independent "sovereignty
    of one's sellf," but the acknowledge-
-   </p>
+   </p><anchor xml:id="a113"/>
    
    <pb xml:id="leaf004v" facs="uva.00148.008.jpg" type="verso"/>
+   <addSpan rend="pasteon" spanTo="#a114"/>
    <p><addSpan rend="pasteon" spanTo="#a037"/>ment of that self as result
    of the past and part of <subst><del rend="overstrike" seq="1">the</del><add place="above" seq="2">its</add></subst>
     whole variform social <add place="below"><metamark target="#a038" function="add">&#8248;</metamark></add><add place="above" xml:id="a038">literary</add> and
@@ -274,10 +280,11 @@
    that to the true and full estimate
    of the <del rend="overstrike">pr</del> <hi rend="tripleUnderline">P</hi>resent, both
    the <hi rend="tripleUnderline">P</hi>ast and the <hi rend="tripleUnderline">F</hi>uture are
-   main considerations.</p>
+   main considerations.</p><anchor xml:id="a114"/>
    </div>
    
    <pb xml:id="leaf005r" facs="uva.00148.009.jpg" type="recto"/>
+   <addSpan rend="pasteon" spanTo="#a115"/>
    <div type="section">
     <addSpan spanTo="#a039" hand="#h04"/><head type="sub" rend="doubleUnderline">II</head><anchor xml:id="a039"/>
     <metamark place="top" function="adjust"><hi hand="#h02">80</hi></metamark>
@@ -289,7 +296,7 @@
     terrible, direct and indirect
     stimulus for new and national
     poetic expression, had not
-    been given to me. It is certain.<anchor xml:id="a040"/>
+    been given to me. It is certain.
      <addSpan rend="pasteon" spanTo="#a041"/>I say, that <add place="below"><metamark target="#a042" function="add" rend="marked">&#8248;</metamark></add><add place="above" xml:id="a042">&#8212;although I had made a start before&#8212;</add> only from the
     occurence of the <hi rend="tripleUnderline">S</hi>ecession <hi rend="tripleUnderline">W</hi>ar,
     and what it show'd <metamark><hi hand="#h04">&#8248;</hi></metamark> me as by
@@ -301,9 +308,10 @@
     millions)<add place="above">&#8212;that</add> &#8212;only from the strong
     flare and provocation of <subst><del rend="overstrike" seq="1">its</del><add place="above" seq="2">that war's</add></subst>
     sights and scenes the final
-    reason<add hand="#h04">s</add>&#8209;for&#8209;being <add place="below"><metamark target="#a044" function="add" rend="marked">&#8248;</metamark></add><del rend="overstrike" hand="#h04"><add place="above" xml:id="a044">and <unclear reason="illegible" resp="#ja" cert="high">authoritative</unclear> endorsement</add></del> <del rend="overstrike"><add place="above" hand="#h04"><gap reason="illegible" extent="one word"/> at</add></del> of an autoch-</p>
+    reason<add hand="#h04">s</add>&#8209;for&#8209;being <add place="below"><metamark target="#a044" function="add" rend="marked">&#8248;</metamark></add><del rend="overstrike" hand="#h04"><add place="above" xml:id="a044">and <unclear reason="illegible" resp="#ja" cert="high">authoritative</unclear> endorsement</add></del> <del rend="overstrike"><add place="above" hand="#h04"><gap reason="illegible" extent="one word"/> at</add></del> of an autoch-<anchor xml:id="a041"/><anchor xml:id="a040"/></p><anchor xml:id="a115"/>
     
     <pb xml:id="leaf005v" facs="uva.00148.010.jpg" type="verso"/>
+    <addSpan rend="pasteon" spanTo="#a116"/>
     <metamark place="top"><hi hand="#h02">81</hi></metamark>
     <note hand="#h03" place="top" type="editorial"><del rend="overstrike" hand="#h02">7</del></note>
     <metamark place="top" function="adjust"><hi hand="#h02">lead</hi></metamark>
@@ -318,12 +326,13 @@
      all the fluctuations, gloom,
      despair, <add place="below"><metamark target="#a048" function="add">&#8248;</metamark></add><add place="above" xml:id="a048">of those times&#8212;</add> hopes again arous'd,
      courage evoked&#8212;death readily
-     risk'd&#8212;<hi rend="Underline">the cause</hi> too&#8212;<del rend="overstrike">of</del> <add place="below"><metamark target="#a049" function="add">&#8248;</metamark></add><add place="above" xml:id="a049">&#8212;along and filling</add> those
+     risk'd&#8212;<hi rend="underline">the cause</hi> too&#8212;<del rend="overstrike">of</del> <add place="below"><metamark target="#a049" function="add">&#8248;</metamark></add><add place="above" xml:id="a049">&#8212;along and filling</add> those
      <subst><del rend="overstrike" seq="1">mighty</del><add place="below" seq="2"><metamark target="#a050" function="add">&#8248;</metamark></add><add place="above" xml:id="a050" hand="#h04" seq="3"><retrace hand="#h01" cause="emphasize" seq="4">agonistic</retrace></add></subst>&#8212;and lurid years &#8212;the real
      parturition years (more than 177<gap reason="illegible" unit="chars" extent="1"></gap>-'83)
-    <anchor xml:id="a045"/></p>
+    <anchor xml:id="a045"/></p><anchor xml:id="a116"/>
     
     <pb xml:id="leaf006r" facs="uva.00148.011.jpg" type="recto"/>
+    <addSpan rend="pasteon" spanTo="#a117"/>
     <p><addSpan rend="pasteon" spanTo="#a051"/>
      of this henceforth <del rend="overstrike" hand="#h04">fre<retrace cause="emphasize" hand="#h01">e</retrace> and</del>
      homogenous Union. Without
@@ -340,24 +349,25 @@
      <subst><del rend="overstrike" seq="1">and</del><add place="above" seq="2">with</add></subst> the <del rend="overstrike"><hi rend="tripleUnderline">S</hi>ecession</del> <hi rend="tripleUnderline">W</hi>ar <add place="below"><metamark target="#a057" function="add">&#8248;</metamark></add><retrace cause="emphasize"><add place="above" xml:id="a057" hand="#h04">of 1861-'5 <del rend="overstrike">for</del></add></retrace> as the
      hub on which it all <add place="below"><metamark target="#a058" function="add">&#8248;</metamark></add><retrace hand="#h01" cause="emphasize"><retrace hand="#h02" cause="emphasize"><del rend="overstrike" hand="#h04"><add place="above" xml:id="a058">rests and</add></del></retrace></retrace> <retrace hand="#h01" cause="emphasize"><del rend="overstrike" hand="#h02">revolves.</del></retrace>
      <add place="bottom" hand="#h04">and concentrates</add> <add hand="#h02" place="bottom">and revolves.</add> <add hand="#h02" place="bottom">&#182;</add>
-    <anchor xml:id="a051"/></p>
+    <anchor xml:id="a051"/></p><anchor xml:id="a117"/>
     
     <pb xml:id="leaf006v" facs="uva.00148.012.jpg" type="verso"/>
+    <addSpan rend="pasteon" spanTo="#a059"/>
     <note hand="#h03" place="top" type="editorial"><del rend="overstrike" hand="#h02">8</del></note>
     <metamark place="top" function="adjust"><hi hand="#h02">82lead</hi></metamark>
-    <p><addSpan rend="pasteon" spanTo="#a059"/>&#182; But I set out with the the
+   <p xml:id="d005">&#182; But I set out with the the
      intention also of <add place="below"><metamark target="#a060" function="add">&#8248;</metamark></add><add place="above" xml:id="a060">indicating or</add> hinting <del rend="overstrike">or</del>
      some point&#11840;characteristics
      which I since see (though I
      did not then, at least not
      definitely) were bases and 
      urgings <add place="below"><metamark target="#a061" function="add">&#8248;</metamark></add><add place="above" xml:id="a061">toward <subst><del rend="overstrike" seq="1">my</del> <add place="below" seq="2"><metamark target="#a062" function="add">&#8248;</metamark></add><add place="above" xml:id="a062" seq="3">those</add></subst> "Leaves"</add> from the first:
-     <metamark place="marginleft" rend="circled" function="adjust">run in</metamark> <hi rend="tripleUnderline">T</hi>he word I myself
-     put primarily for the descrip-
-    <anchor xml:id="a059"/></p>
+     <metamark target="#d005 #d006" rend="circled" function="delete">run in</metamark></p> <p xml:id="d006"><hi rend="tripleUnderline">T</hi>he word I myself
+     put primarily for the descrip-</p>
+    <anchor xml:id="a059"/>
     
     <pb xml:id="leaf007r" facs="uva.00148.013.jpg" type="recto"/>
-    <p><addSpan rend="pasteon" spanTo="#a059"/>
+    <addSpan rend="pasteon" spanTo="#a059"/><p>
      tion of them is the word <hi rend="tripleUnderline">S</hi>uggestiveness.
      I round and finish little if anything;
      and could not, consistently
@@ -371,10 +381,10 @@
      into the atmosphere of the
      theme or thought&#8212;there to
      pursue your own flight.
-    <anchor xml:id="a063"/></p>
+    </p><anchor xml:id="a063"/>
     
     <pb xml:id="leaf007v" facs="uva.00148.014.jpg" type="verso"/>
-    <p><addSpan rend="pasteon" spanTo="#a064"/>
+    <addSpan rend="pasteon" spanTo="#a064"/><p>
      closely together by an 
      internationality of poems, (indeed
      <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#ja">
@@ -386,34 +396,33 @@
      <hi rend="tripleUnderline">G</hi>ood&#11840;<hi rend="tripleUnderline">C</hi>heer, <hi rend="tripleUnderline">C</hi>ontent, and <hi rend="tripleUnderline">H</hi>ope. The
      <addSpan rend="pasteon" spanTo="#a065"/>
      <floatingText><body>
-      <p hand="#h05">chief trait of any give poet is always the spirit he brings to the observation of
+     <p hand="#h05" xml:id="d007">chief trait of any give poet is always the spirit he brings to the observation of
         humanity and <subst><del rend="overstrike" seq="1">n</del><add place="marginright" rend="tripleUnderline" seq="2">N</add></subst>ature&#8212;the mood out of which he contemplates his subjects. What kind of temper, and what amount of faith, 
         report<del rend="overstrike">s</del> these things? Up to how recent a date is the song carried? What the equipment and special
         raciness of the singer&#8212;what his tinge of coloring? The last value of artistic expressers past and present&#8212;<del 
          rend="overstrike">the</del> Greek aesthetes, Shakespeare, or, in our own day, Tennyson, Victor Hugo, Carlyle, Emerson<del
-          rend="overstrike">&#8212;</del> is certainly involved in such questions. <subst><del rend="overstrike" seq="1">
+          rend="overstrike">&#8212;</del> is certainly involved in such questions. <add hand="#h03"><metamark rend="circled" function="delete" target="#d007 #d008">run in</metamark></add></p> <p hand="#h05" xml:id="d008"><subst><del rend="overstrike" seq="1">
            In connection,</del><add place="below" seq="2"><metamark>&#8248;</metamark></add><add place="marginleft" rend="marked" seq="3">I say</add></subst> the profoundest service that poems or any other writings can do for their reader, is, (not to
         merely satisfy the intellect, or supply something polished and interesting, nor even to depict great passions, or persons, or events, but) to fill him with vigorous and clean manliness,
         religiousness, and give him <hi rend="italic">good heart</hi> as a radical possession and habit. The educated world seems to 
-        have been growing more and more <del rend="overstrike" hand="#h03">ennuied</del><add place="below" rend="marked"><metamark>&#8248;</metamark></add><add place="marginleft" rend="underlined"></add> for ages, <unclear reason="illegible"
+        have been growing more and more <del rend="overstrike" hand="#h03">ennuied</del><add place="below" rend="marked"><metamark>&#8248;</metamark></add><add place="marginleft" rend="underline"></add> for ages, <unclear reason="illegible"
          cert="low" resp="#ja">leaving</unclear> to our time the inheritance of it all. Fortunately, there is the original 
         inexhaustible fund of <retrace cause="emphasize"><del rend="overstrike" hand="#h04">cheeriness,</del></retrace><add place="marginright" hand="#h04" rend="marked">buoyancy,</add> normally resident in the race, forever 
         eligible to be appealed to and relied on.</p>
      </body>
      </floatingText>
      <anchor xml:id="a065"/>
-    <anchor xml:id="a064"/>
+    
     <add hand="#h03" place="marginleft"><metamark rend="circled" function="adjust">stet</metamark></add>
     <add hand="#h02" place="marginright"><metamark function="adjust">84</metamark></add>
      <add hand="#h03" place="marginright"><metamark rend="circled" function="adjust">stet</metamark></add>
-     <add hand="#h03" place="marginright"><metamark rend="circled" function="adjust">run in</metamark></add>
      <add hand="#h02" place="marginright"><metamark function="adjust">lead</metamark></add>
-    </p> 
+    </p><anchor xml:id="a064"/>
     
     <pb xml:id="leaf008r" facs="uva.00148.015.jpg" type="recto"/>
-    <note hand="#h03" place="top" type="editorial"><del rend="overstrike" hand="#h02">10</del></note>
+    <addSpan rend="pasteon" spanTo="#a066"/><note hand="#h03" place="top" type="editorial"><del rend="overstrike" hand="#h02">10</del></note>
     <metamark function="adjust"><hi hand="#h02">85lead</hi></metamark>
-    <p><addSpan rend="pasteon" spanTo="#a066"/>&#182;Then native American Individuality. Though certain to come,
+    <p>&#182;Then native American Individuality. Though certain to come,
      <addSpan rend="pasteon" spanTo="#a067"/>
      and on a large scale, the distinctive and ideal type of
      <subst><del rend="overstrike" seq="1">American</del><add place="above" seq="2">Western</add></subst> character&#8212;(as consistent
@@ -434,10 +443,10 @@
      laws, but) as counterpoise
      to the levelling tendencies of
      <anchor xml:id="a067"/>
-    <anchor xml:id="a066"/></p>
+    </p><anchor xml:id="a066"/>
     
     <pb xml:id="leaf008v" facs="uva.00148.016.jpg" type="verso"/>
-    <p><addSpan rend="pasteon" spanTo="#a071"/>
+    <addSpan rend="pasteon" spanTo="#a071"/><p>
      <addSpan rend="pasteon" spanTo="#a072"/>
      Democracy&#8212;and for other reasons.
      Defiant of ostensible literary
@@ -470,11 +479,10 @@
      been so retarded and jeopardized
      by powerful personalities
      <anchor xml:id="a075"/>
-     <anchor xml:id="a073"/>
-    </p>
+    </p><anchor xml:id="a073"/>
     
     <pb xml:id="leaf009r" facs="uva.00148.017.jpg" type="recto"/>
-    <p><addSpan rend="pasteon" spanTo="#a078"/>
+    <addSpan rend="pasteon" spanTo="#a078"/><p>
      <addSpan rend="pasteon" spanTo="#a079"/>
      that its first instructs are fain
      to clip, conform, bring in stragglers<metamark place="marginright"><hi hand="#h02">87l<gap reason="cut away" extent="three characters"/></hi></metamark>
@@ -503,12 +511,13 @@
      <add place="below"><metamark rend="marked" target="#a081" function="add">&#8248;</metamark></add><add place="above" xml:id="a081">by exceptional</add> <unclear
       reason="illegible" cert="high" resp="#ja">fruitions</unclear> giving the last
      <anchor xml:id="a080"/>
-    <anchor xml:id="a078"/></p>
+   </p><anchor xml:id="a078"/>
     
     <pb xml:id="leaf009v" facs="uva.00148.018.jpg" type="verso"/>
+    <addSpan rend="pasteon" spanTo="#a084"/>
     <note hand="#h03" place="top" type="editorial"><del rend="overstrike" hand="#h02">12</del></note>
     <metamark function="adjust"><hi hand="#h02">88led</hi></metamark>
-    <p><addSpan rend="pasteon" spanTo="#a084"/>
+    <p>
      <gap reason="cut away" extent="unknown"/>
      majesty <del rend="overstrike">and fruition</del> to him&#8212;
      something continually touch'd upon
@@ -527,11 +536,10 @@
      force is behind everything, just
      the same. The times and depictions
      from the Iliad to Shakspere
-     <anchor xml:id="a084"/>
-    </p>
+    </p><anchor xml:id="a084"/>
     
     <pb xml:id="leaf010r" facs="uva.00148.019.jpg" type="recto"/>
-    <p><addSpan rend="pasteon" spanTo="#a087"/>
+   <addSpan rend="pasteon" spanTo="#a087"/><p>
     <addSpan rend="pasteon" spanTo="#a088"/>
      inclusive can happily never be
      again realized&#8212;but the elements
@@ -547,11 +555,10 @@
     West are to grow them on the
     spacious areas of a hemisphere.<add place="below"><metamark target="#a093" function="add" rend="marked">&#8248;</metamark></add><add place="above">in peace.</add>
     <anchor xml:id="a089"/>
-    <anchor xml:id="a087"/>
-    </p>
+    </p><anchor xml:id="a087"/>
     
     <pb xml:id="leaf0010v" facs="uva.00148.020.jpg" type="verso"/>
-    <p><addSpan rend="pasteon" spanTo="#a094"/>
+    <addSpan rend="pasteon" spanTo="#a094"/><p>
      <metamark function="adjust"><hi hand="#h02">89</hi></metamark>
     <note hand="#h03" place="top" type="editorial"><del rend="overstrike" hand="#h02">13</del></note>
     <metamark function="adjust"><hi hand="#h02">lead</hi></metamark>
@@ -571,15 +578,366 @@
      women. I was to show that
      we, here and to-day, are eligible
      to the grandest and the best&#8212;
-     <anchor xml:id="a094"/>
-    </p>
+    </p><anchor xml:id="a094"/>
     
     <pb xml:id="leaf011r" facs="uva.00148.021.jpg" type="recto"/>
-
-    
-    
+    <addSpan rend="pasteon" spanTo="#a096"/><p>
+     more eligible now than any
+     times of old <add place="below"><metamark target="#a097" function="add">&#8248;</metamark></add><add place="above" xml:id="a097">were.</add> I will <add place="below"><metamark target="#a099" function="add">&#8248;</metamark></add><add place="above" xml:id="a099">also</add> want my
+     utterances, (I said to myself before
+     beginning) to be <add place="below"><metamark target="#a100" function="add">&#8248;</metamark></add><add place="above" xml:id="a100">in spirit</add> the poems of
+     the morning. They were founded,
+     and mainly written, in the sunny
+     forenoon and early midday of my
+     life. I will <add place="below"><metamark target="#a101" function="add">&#8248;</metamark></add><add place="above" xml:id="a101">want</add> <addSpan rend="pasteon" spanTo="#a098"/> them to be the
+     poems of Women entirely as
+     much as Men. I <subst><del rend="overstrike" seq="1">had the</del><add place="below" seq="2"><metamark target="#a102" function="add">&#8248;</metamark></add><add place="above" xml:id="a102" seq="3">have</add></subst>
+     wish'd to put the <subst><del rend="overstrike" hand="#h04" seq="1">true</del> <add place="below" seq="2"><metamark target="#a103" function="add">&#8248;</metamark></add><add place="above" xml:id="a103" seq="3"><del hand="#h04" seq="4">entire</del> <retrace hand="#h01" seq="5">complete</retrace></add></subst> Union
+     of the States <add place="below"><metamark target="#a104" function="add">&#8248;</metamark></add><add place="above" xml:id="a104"><del rend="overstrike"><unclear reason="illegible" cert="low"
+      resp="#ja">which one was</unclear></del></add> in <subst><del rend="overstrike" seq="1">my songs</del><del rend="overstrike" seq="4"><add place="above" hand="#h04" seq="3">my</add><add place="above" seq="5">my</add></del><add place="above" seq="2">song<retrace cause="emphasize">s</retrace></add></subst>, without
+     any partiality whatever. Henceforth
+     if they live and are read, it must
+     be just as much <hi rend="tripleUnderline">S</hi>outh as <hi rend="tripleUnderline">N</hi>orth&#8212;just
+     as much along the Pacific as Atlantic&#8212;
+     in the vally of the Mississippi in
+     Kanada, <add place="below"><metamark target="#a105" function="add">&#8248;</metamark></add><add place="above" xml:id="a105">up in Maine</add> <add place="above">down</add>in Texas, and on the shores of
+     Puget Sound.
+     <anchor xml:id="a098"/>
+    </p><anchor xml:id="a096"/>
    </div>
    
+   <pb xml:id="leaf011v" facs="uva.00148.022.jpg" type="verso"/>
+   <addSpan rend="pasteon" spanTo="#a118"/>
+   <div type="section">
+   <addSpan spanTo="#a106" hand="#h04"/><head type="sub" rend="doubleUnderline">III</head><anchor xml:id="a106"/>
+    <p><addSpan rend="pasteon" spanTo="#a119"/>&#182; From another point of <note place="marginright" hand="#h02">90</note>
+     view <subst><del rend="overstrike" hand="#h04" seq="1">the following volume</del><add place="above" hand="#h04" seq="2"><add hand="#h01" seq="4">"</add>Leaves of Grass<add hand="#h01" seq="5">"</add></add></subst>
+    is avowed by the song of the
+    <hi rend="tripleUnderline">B</hi>ody, and even of <hi rend="tripleUnderline">S</hi>ex<add place="below" hand="#h04"><metamark target="#a121" function="add">&#8248;</metamark></add><add place="above" hand="#h04" xml:id="a121">and <hi rend="tripleUnderline" hand="#h01"><retrace cause="emphasize">A</retrace></hi>nimality</add>&#8212;though
+    meanings that do not usually
+    go along with those words are
+    behind all and will duly emerge,
+    <anchor xml:id="a119"/>
+    and all are sought to be lifted into
+    a different light and atmosphere
+     <addSpan rend="pasteon" spanTo="#a120"/>
+     Of this <del rend="overstrike">feature</del> feature, <del rend="overstrike">of this
+     trait</del>, <del rend="overstrike"><add place="above">part,</add></del> <del rend="overstrike">most</del> <add place="below"><metamark target="#a122" function="add">&#8248;</metamark></add><add place="above" xml:id="a122">intentionally</add> palpable in a few
+     lines I shall only say the
+     <add place="below"><metamark target="#a123" function="add">&#8248;</metamark></add><add place="above" xml:id="a123">espousing</add> principle of those <add place="below"><metamark target="#a124" function="add">&#8248;</metamark></add><add place="above" xml:id="a124">few</add> lines so gives <metamark function="adjust" place="marginright"><hi hand="#h02">lead</hi></metamark>
+     <del rend="overstrike">the</del> breath of life to my whole
+     scheme that the bulk of the
+     <subst><del seq="1" rend="overstrike">volume</del><add place="above" seq="2">pieces</add></subst> might as well have
+     been left unwritten, were
+     those lines <subst><del seq="1" rend="overstrike">left out</del><add place="above" seq="2">omitted</add></subst>.<anchor xml:id="a120"/>Difficult
+     as it will be it has become in my
+    </p>
+    <anchor xml:id="a118"/>
+    
+    <pb xml:id="leaf012r" facs="uva.00148.023.jpg" type="recto"/>
+    <addSpan rend="pasteon" spanTo="#a125"/>
+    <p>opinion, imperative to achieve a
+    shifted attitude from superior
+    men and women towards the
+    thought and face of sexuality, as
+    an element in character, personality,
+    the emotions, and a theme in literature.
+    I am not going to argue
+    <anchor xml:id="a125"/>
+    <addSpan rend="pasteon" spanTo="#a126"/>
+    <del rend="overstrike">not going to argue</del> the question
+    by itself; it does not stand
+    by itself. The vitality of it
+    is <add place="below"><metamark target="#a127" function="add">&#8248;</metamark></add><add place="above" xml:id="a127" hand="#h04"><retrace hand="#h01" cause="emphasize">altogether</retrace></add> in its relations, <add place="below"><metamark target="#a128" function="add">&#8248;</metamark></add><add place="above" xml:id="a128">bearings,</add> significance&#8212;
+    like the <del rend="overstrike">key&#8209;note</del> <add place="above" hand="#h04">? clef</add> of a symphony.
+    </p>
+    <anchor xml:id="a126"/>
+    
+    <pb xml:id="leaf012v" facs="uva.00148.024.jpg" type="verso"/>
+    <addSpan rend="pasteon" spanTo="#a129"/>
+    <p><addSpan rend="pasteon" spanTo="#a130"/>At last <unclear reason="illegible" cert="high" resp="#ja">analogy</unclear> the lines I
+     allude to <subst><add place="below" seq="2"><metamark target="#a132" function="add">&#8248;</metamark></add><add place="above" xml:id="a132" seq="3">and the in spirit in which they are spoken</add> <del rend="overstrike" seq="1"> or <gap reason="illegible" extent="one word"/> inferences</del></subst> permeate
+    all <hi rend="underline">"Leaves of Grass"</hi> and <subst><del rend="overstrike" seq="1">it</del> <add place="above" seq="2">the work</add></subst>
+    <anchor xml:id="a130"/>
+    as the identified human body and
+    soul <del rend="overstrike"><add place="below" rend="marked"><metamark target="#a133" function="add">&#8248;</metamark></add><add place="above" xml:id="a133">must remain</add></del> must remain as an entirety.
+    Universal as are certain facts
+     <metamark function="adjust"><hi hand="#h02">91 led</hi></metamark>
+    <addSpan rend="pasteon" spanTo="#a131"/>
+     and symptoms of communities
+     or individual<add place="inline" hand="#h04">s</add> <del rend="overstrike">human
+     identities</del>, <add place="below"><metamark target="#a134" function="add">&#8248;</metamark></add><add place="above" xml:id="a134" hand="#h04">all times,</add> there is nothing so rare
+     in modern conventions and
+     poetry,<metamark function="link" xml:id="e002">*</metamark><del rend="overstrike" hand="#h02"><add hand="#h03" place="above"><metamark target="#e002" function="emphasize">note <subst hand="#h03"><add seq="2">b</add><del rend="overstrike" seq="1">A</del><add seq="3">b</add></subst>)</metamark></add></del> as their <subst><del rend="overstrike" seq="1">candid</del><add place="above" seq="2">normal</add></subst> recognizance.
+     Literature is always
+     calling in the doctor for consultation
+     and confession and
+     always giving <del rend="overstrike">him</del> evasions
+     and <add place="below"><metamark target="#a135" function="add">&#8248;</metamark></add><add place="above" xml:id="a135" hand="#h04"><unclear resp="#ja" reason="illegible" cert="low">soothing</unclear></add> suppressions in place of
+     that "heroic nudity." <seg xml:id="t001">(<hi rend="underline">Nineteenth
+      Century</hi>, July 1883)</seg> <del rend="overstrike"><add place="above" hand="#h03"><metamark target="#t001" function="transpose">*bottom of page</metamark></add></del> on which only
+     <anchor xml:id="a131"/>
+    </p>
+    <anchor xml:id="a129"/>
+    
+    <pb xml:id="leaf013r" facs="uva.00148.025.jpg" type="recto"/>
+    <addSpan rend="pasteon" spanTo="#a136"/>
+    <p xml:id="d001"><addSpan rend="pasteon" spanTo="#a137"/>a genuine diagnosis of serious
+     cases can be built. .... <add place="above" hand="#h03" rend="circled"><metamark target="#d001 #d002" function="delete">run in</metamark></add><anchor xml:id="a137"/>
+    </p>
+    <p xml:id="d002">And in respect to any
+    editions of L. of G. in time to
+    come (if there should be such)
+    I take this occasion now to
+    confirm those lines with the
+    settled convictions and deliberate
+     <addSpan rend="pasteon" spanTo="#a138"/>
+     renewals of thirty years, and to
+     hereby prohibit as far as word
+     of mine can do so, any elision
+     of them.&#182;
+     <anchor xml:id="a138"/>
+    </p>
+    <anchor xml:id="a136"/>
+    
+    <pb xml:id="leaf013v" facs="uva.00148.026.jpg" type="verso"/>
+    <addSpan rend="pasteon" spanTo="#a139"/>
+    <metamark function="adjust"><hi hand="#h02">92 led</hi></metamark>
+    <p>&#182; Then still a purpose enclosing
+    all, and over and beneath
+    all. Ever since what might be
+    called thought or the budding of
+    thought, fairly began in my youthful
+    mind, I had had a desire
+    to attempt some worthy record <del rend="overstrike">or
+    utterance</del> of that entire faith and
+    acceptance, ("to justify the ways of
+    God to man," is Milton's well&#11840;known
+    and ambitious phrase,") which is the
+    foundation of moral America.
+    I felt it all as positively then
+    in my young days as I do now
+    in my old ones. To formulate
+    a poem whose every line should
+    directly or indirectly be an implicit
+    belief in the wisdom, health, mystery,
+    beauty, of every process, every
+    concrete object, every human or
+    other existence, not only considered
+    from the point of view of <hi rend="tripleUnderline">A</hi>ll,
+    but <hi rend="tripleUnderline">E</hi>ach;&#8212;That while I cannot</p><anchor xml:id="a139"/>
+    
+    <pb xml:id="leaf014r" facs="uva.00148.027.jpg" type="recto"/>
+    <addSpan rend="pasteon" spanTo="#a140"/>
+    <p>understand it or argue it out, I
+    have not the slightest doubt of a
+    clue and purpose in Nature,
+    entire and several; and that
+    invisible spiritual results, just
+    as real and definite as the visible,
+    eventuate all concrete <hi rend="underline">life</hi>
+    and all materialism, through Time.
+    The "Leaves" ought to emanate
+     <addSpan rend="pasteon" spanTo="#a141"/>
+     bouyancy, <add place="below"><metamark target="#a142" function="add">&#8248;</metamark></add><add place="above" xml:id="a142">and</add> gladness, <subst><del rend="overstrike" seq="1">faith</del><add place="above" seq="2">too</add></subst>, for <metamark function="adjust"><hi hand="#h02">93 lead</hi></metamark>
+     it was grown out of those
+     elements <subst><del rend="overstrike" seq="1">&#8212;</del><add place="above" seq="2"></add></subst> has been the <del rend="overstrike">joy
+     and</del> comfort of my life since
+     it was originally commenced.
+     I should be willing to <del rend="overstrike">to</del> jaunt
+     <subst><del rend="overstrike" seq="1">the</del><del rend="overstrike" seq="3"><add place="above" seq="2">my</add></del></subst> <subst><del rend="overstrike" seq="1">years of that life</del><add place="below" seq="2"><metamark target="#a143" function="add">&#8248;</metamark></add><del rend="overstrike"><add place="above" xml:id="a143" seq="3">the whole <gap extent="two units" reason="illegible" resp="#ja"/> my</add></del> <add place="above" seq="4">life</add></subst> over again,
+     with all <subst><del rend="overstrike" seq="1">their</del><add place="above" seq="2">its</add></subst> worldly failures,
+     and serious detriments, deficiencies,
+     and denials to get the happiness
+     of re&#11840;traveling <subst><del rend="overstrike" seq="1">those</del><add place="above" seq="2">that</add></subst> part<del rend="overstrike">s</del> of
+     the <unclear reason="illegible" cert="low" resp="#ja">road</unclear>.
+     <anchor xml:id="a141"/>
+    </p>
+    <anchor xml:id="a140"/>
+    </div>
+   
+    <pb xml:id="leaf014v" facs="uva.00148.028.jpg" type="verso"/> 
+   <div type="section">
+    <addSpan rend="pasteon" spanTo="#a145"/>
+    <addSpan spanTo="#a144" hand="#h04"/><head type="sub" rend="doubleUnderline">IV</head><anchor xml:id="a144"/>
+    <p>&#182; One genesis&#11840;motive of
+     the book was my conviction,
+     that, founded on limitless concrete
+     physical bases, and resting on
+     materialistic and general worldly
+     prosperity, the crowning growth of
+     the United States is to be spiritual
+     and heroic. To help favor start
+     and favor that growth&#8212;or even
+     to call attention to it, or the need
+     of it,&#8212;is the beginning, middle,
+     and final purpose of the poems.
+     In my plan, the shows and objects
+     of Nature, and the endlessly shifting
+     play of events and politics,
+     with all the <metamark function="adjust"><hi hand="#h02">94 led</hi></metamark>
+     <addSpan rend="pasteon" spanTo="#a146"/>
+     effusion of literature, are merely
+     mentionable as they serve toward
+     <anchor xml:id="a146"/>
+    </p>
+    <anchor xml:id="a145"/>
+    
+    <pb xml:id="leaf015r" facs="uva.00148.029.jpg" type="recto"/>
+    <addSpan rend="pasteon" spanTo="#a147"/>
+    <p>that <subst><del rend="overstrike" seq="1">training</del><add place="above" seq="2">growth</add></subst>. Accordingly, any
+     one man, or any one woman&#8212;<metamark function="adjust"><hi hand="#h02">95 lead</hi></metamark>
+    perhaps laboring every day with
+    his or her own hands&#8212;is at
+    the head of all of them, and in
+    himself or herself alone is more
+    than all of them. I only <del rend="overstrike"><add place="above" hand="#h04"><unclear reason="illegible" cert="low" resp="#ja">have</unclear></add></del> chant
+    even the United States <add place="below"><metamark target="#a148" function="add">&#8248;</metamark></add><add place="above" hand="#h04" xml:id="a148">themselves,</add> so far
+    as they <del rend="overstrike" seq="1">have a bearing</del><add place="above" seq="2">bear</add> on such
+    result; <subst><del rend="overstrike" seq="1">T</del><add place="above" seq="2">t</add></subst>hough they have the
+    <add place="above">very</add> greatest bearing. In fact, when
+    really cipher'd out and summ'd
+    <del rend="overstrike">up</del> to the last, <hi rend="underline">that</hi>, (not <subst><del rend="overstrike" seq="1">merely</del><add place="above" seq="2">chiefly</add></subst>
+    for "good government" in the
+    usual <del rend="overstrike"><gap extent="two units" reason="illegible" resp="#ja"/></del> sense but <del rend="overstrike">for</del> ploughing
+     up in earnest the <subst><add place="below" rend="marked" seq="2"><metamark target="#a149" function="add">&#8248;</metamark></add><add place="above" xml:id="a149" seq="3">interminable,</add> <del rend="overstrike" seq="1">common</del> <add place="below" seq="4"><metamark target="#a150" function="add">&#8248;</metamark></add><add place="above" xml:id="a150" seq="5">average</add></subst> fallows
+    of humanity.) is the justification
+    and main purpose of
+    these <del rend="overstrike"><add place="above" hand="#h04">America</add></del> States....</p>
+    <p>&#182; Isolated advantages
+    in any rank or grace or fortune
+    &#8212;the direct or indirect threads of all
+    the poetry of the past&#8212;are in my opinion
+    distasteful to the republican genius, and
+    offer no foundation for its fitting <subst><del rend="overstrike" seq="1">song.</del><add place="above" seq="2">verse.</add></subst></p>
+    <metamark function="adjust"><hi hand="#h02">91 lead</hi></metamark>
+    <anchor xml:id="a147"/>
+    
+    <pb xml:id="leaf015v" facs="uva.00148.030.jpg" type="verso"/> 
+    <addSpan rend="pasteon" spanTo="#a151"/>
+    <p><metamark function="adjust"><hi hand="#h02">95 lead</hi></metamark>
+    Established poems, I know, have
+    the very great advantage of chanting
+    the already performed, so full
+    of glories, reminiscences, dear to
+    the minds of men. But my
+    volume in a candidate for the
+    future. The just&#11840;alluded to
+    essential, <add place="below"><metamark target="#a152" function="add">&#8248;</metamark></add><add place="above" hand="#h04" xml:id="a152">coming</add> developement of America,
+     the heroic and spiritual, <add place="below"><metamark target="#a153" function="add">&#8248;</metamark></add><add place="above" hand="#h04" xml:id="a153">though certain,</add> it considers
+    as so far only outlined
+    or begun&#8212;hardly that. If
+    my ambition may dwell on
+    the idea of arousing for those</p>
+    <anchor xml:id="a151"/>
+    
+    <pb xml:id="leaf016r" facs="uva.00148.031.jpg" type="recto"/>
+    <addSpan rend="pasteon" spanTo="#a154"/>
+    <p xml:id="d009">purposes, a poetry really <add place="below"><metamark target="#a156" function="add">&#8248;</metamark></add><add place="above" hand="#h04" xml:id="a156">Western,</add> original,
+    (I don't care whether it is "artistic,"
+    or conforms, or not,) indicating
+    that developement, and
+    tallying the modern, it easily
+    <unclear resp="#ja" cert="low" extent="two units" reason="illegible">lo</unclear> resigns all claim to the
+     eclat of <add place="below"><metamark target="#a157" function="add">&#8248;</metamark></add><add place="above" hand="#h04" xml:id="a157">elaborated</add> technique or polish
+    or any thing of the Kind, "All
+    original art," says Taine anyhow, "is
+     <metamark function="adjust"><hi hand="#h02">97 led</hi></metamark>
+     <addSpan rend="pasteon" spanTo="#a155" xml:id="d010"/>
+     self-regulated; and
+     no original art can be regulated
+     from without; it carries
+     its own counterpoise, and does
+     not receive it from elsewhere:
+     &#8212;lives on its own blood"&#8212;
+     <del rend="overstrike"><add place="above">Probably Lowell's NY Edition one Vol.</add></del>
+     <hi hand="#h04">(a solace to my frequent bruises
+     and my sulky vanity.)</hi> <hi hand="#h04">&#182;</hi>
+     <anchor xml:id="a155"/>
+     <add place="bottom" hand="#h03" rend="circled"><metamark function="delete" target="#d009 #d010">run in all</metamark></add>
+    </p>
+    <anchor xml:id="a154"/>
+   </div>
+   
+   
+   <pb xml:id="leaf016v" facs="uva.00148.032.jpg" type="verso"/>
+   <addSpan rend="pasteon" spanTo="#a159"/>
+   <div type="section">
+    <note hand="#h03" place="top" type="editorial"><del rend="overstrike" hand="#h02">20</del></note>
+    <metamark function="adjust"><hi hand="#h02">99 led</hi></metamark>
+    <addSpan spanTo="#a158" hand="#h04"/><head type="sub" rend="doubleUnderline">VI</head><anchor xml:id="a158"/>
+    <p xml:id="d011">&#182; Then as the present is perhaps
+     mainly <subst><del rend="overstrike" seq="1">an</del><add place="above" seq="2">an</add></subst> <del rend="overstrike">personal</del> attempt at
+     personal statement or illustration,
+     I will allow myself as further
+     help, to extract <add place="below"><metamark target="#a160" function="add">&#8248;</metamark></add><add place="above" xml:id="a160">the following anecdote</add> from a book,
+     "Annals of Old Painters," conned
+     by me in youth; <del rend="overstrike">this anecdote,</del><add place="above" rend="circled"><metamark function="delete" target="#d011 #d012">run in</metamark></add></p>
+     <p xml:id="d012">Rubens, the Flemish <del rend="overstrike">pl</del> painter,
+     in one of his wanderings through
+     the galleries of old convents,
+     came across a singular work.
+     After looking at it thoughtfully
+     for a good while, and listening to
+     the criticisms of his suite of
+     students he said to the latter,
+    </p>
+    <anchor xml:id="a159"/>
+    
+    <pb xml:id="leaf017r" facs="uva.00148.033.jpg" type="recto"/>
+    <addSpan rend="pasteon" spanTo="#a161"/>
+    <note hand="#h03" place="top" type="editorial"><del rend="overstrike" hand="#h02">21</del></note>
+    
+    <addSpan rend="pasteon" spanTo="#a162"/>
+    <floatingText><body><p><add place="below" rend="marked"><metamark target="#a163" function="add">&#8248;</metamark></add><add place="above" xml:id="a163">&#182; No one will get at my verses</add> who insists upon viewing
+    them as a literary performance, or attempt at such performance,
+    or as aiming mainly toward art or aestheticism. I
+    hope to go on record for something different&#8212;something
+    better, if I may dare to say so.</p></body></floatingText>
+    <p xml:id="d013"><add place="marginright"><metamark rend="circled" function="adjust">stet</metamark></add> If I rested "<hi rend="underline">Leaves of Grass</hi>" on the usual <del rend="overstrike"><add place="below"><metamark target="#a164" function="add">&#8248;</metamark></add><add place="above" xml:id="a164">abstract and</add></del>
+    <del rend="overstrike">esthetic</del> claims&#8212;if I did not
+     feel that the deepest moral, <add place="below"><metamark target="#a165" function="add">&#8248;</metamark></add><add place="above" xml:id="a165">social,</add>
+    political purposes of America
+    are the underlying endeavors at
+    least of my pages&#8212;that the
+    geography and hydrography of this
+    continent, the Prairies, the St.
+    Lawrence, Ohio, the Carolinas,
+    Texas, Missouri, are <subst><del rend="overstrike" seq="1">the</del><add place="above" seq="2">their</add></subst> real
+     <add place="below"><metamark target="#a166" function="add">&#8248;</metamark></add><add place="above" xml:id="a166" hand="#h04">current and</add> concrete&#8212;<del rend="overstrike">of the following verses</del>&#8212;
+    I should not dare to have them
+    put it type, and printed <del rend="overstrike">and
+    bound</del>, and offered for sale</p>
+    <anchor xml:id="a162"/>
+    <anchor xml:id="a161"/>
+    
+    <pb xml:id="leaf017v" facs="uva.00148.034.jpg" type="verso"/>
+    <addSpan rend="pasteon" spanTo="#a167"/>
+    <p xml:id="d014"><add place="above" rend="circled"><metamark function="delete" target="#d013 #d014">run in</metamark></add>
+    I say no lands or people
+    or circumstances ever existed,
+    so needing a race of singers,
+    and poems differing from all others
+    and rigidly their own, as the lands
+    and people and circumstances
+    of our United States need such
+    singers and poems to&#11840;day, and
+    for the future. Still further: as
+    long as the States continue to
+     <metamark function="adjust"><hi hand="#h02">100 lead</hi></metamark>
+    absorb, and be dominated by the
+    poetry of the Old World, and to
+    remain unsupplied with autochthonous
+    song, to express,
+    vitalize, and give color to, and
+    define, their material and political
+    success, and minister to
+    them distinctively, so long will
+    they stop short of first class
+    Nationality and remain defective.
+    </p>
+    <anchor xml:id="a167"/>
+    </div>
 </body>
 </text>
 </TEI>

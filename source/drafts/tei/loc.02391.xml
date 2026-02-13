@@ -17,6 +17,8 @@
      <resp>Transcription and encoding</resp>
      
      <persName xml:id="ew">Emma Whaley</persName>
+     <persName xml:id="bb">Brett Barney</persName>
+     
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -49,10 +51,10 @@
    <idno>loc.02391</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">A note on another of the several corrected slips of this poem (<ref target="loc.02393">loc.02393</ref>) suggests that Whitman sent a manuscript of the poem to the offices of <hi rend="italic">The Century</hi> in June 1889. The version of the poem printed by the magazine, in February 1890, includes the two minor changes written in ink on this and other proof slips, although the later printings in <hi rend="italic">Good-Bye My Fancy</hi> and <hi rend="italic">Leaves of Grass</hi> do not. Whitman was in the habit of ordering batches of specially printed poem slips that he then "corrected" in small ways and presented as mementos to friends and admirers. This and similar slips do not, therefore, constitute a particular stage in Whitman's composition of the poem as it appeared in <hi rend="italic">Good-Bye My Fancy</hi> or <hi rend="italic">Leaves of Grass.</hi></note>
     
-     <note type="work_relations" target="xxx." cert=""> <!-- NO XXX FOUND IN TRACKER -->
-      <p>Corrected proof of "Old Age's Ship and Crafty Death's" with notations in Whitman's hand.</p>
+     <note type="work_relations" target="xxx.00388" cert="high">
+      <p>Proof slip of "Old Age's Ship and Crafty Death's," with corrections and notations in Whitman's hand. The poem was first published in the February 1890 issue of <hi rend="italic">The Century Illustrated Monthly Magazine</hi>. Whitman subsequently included it in <hi rend="italic">Good-Bye My Fancy</hi> (1891) and in the printing of <hi rend="italic">Leaves of Grass</hi> that he oversaw just before his death.</p>
      </note>
    </notesStmt>
    
@@ -62,7 +64,7 @@
      
      <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “Old Age's Ship and Crafty Death's” ( 1890 ); Proof sheets with corrections and notations</title>  
      
-     <date when="1890" cert="high"></date>
+     <date notBefore="1889" notAfter="1891" cert="high">Between 1889 and 1891</date>
      
      <idno type="callno">MSS18630, box 28, folder Old Age's Ship and Crafty Death's (1890). Proof Sheets.</idno>
  
@@ -76,12 +78,12 @@
   <profileDesc>
    <handNotes>
     <handNote medium="letterpress" xml:id="h01" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
-    <handNote medium="pencil" xml:id="h02" resp="#ww"/>
-    <handNote medium="blue crayon" xml:id="h03" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h02" resp="#ww" scope="minor"/>
+    <handNote medium="purple crayon" xml:id="h03" resp="#ww" scope="minor"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-02-04" who="#bb">proofed</change>
  <change when="2024-11-19" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -99,14 +101,14 @@
         yet! bear lively there!</l>
      <l>(Our joys of strife and derring-do to the last!)</l>
      <l>Put on the old ship all her power to-day!</l>
-     <l>Crowd <add hand="#h02" place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a001" rend="marked">extra</add>top-gallant<add hand="#h02" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a002">s<metamark function="emphasize" target="#a002">/</metamark></add> and royal studding-sails!</l>
+    <l>Crowd <add hand="#h02" place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a001"><metamark function="emphasize" target="#a001">&#8248;</metamark>extra</add> top-gallant <add hand="#h02" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a002">s<metamark function="emphasize" target="#a002">/</metamark></add> and royal studding-sails!</l>
      <l>Out challenge and defiance&#8212;flags and flaunting pennants<lb/>
         added,</l>
      <l>As we take to the open&#8212;take to the deepest, freest waters.</l>
    </lg>
    <signed>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</signed>
    
-   <note type="authorial" place="bottom" hand="#h03">February Century NY 1890</note>
+   <note type="authorial" place="bottom" hand="#h03">February <hi rend="underline">Century</hi> NY 1890</note>
    
    <pb xml:id="leaf001v" facs="loc_nk.00031_large.jpg" type="verso"/>
    
