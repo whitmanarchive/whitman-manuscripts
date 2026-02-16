@@ -9,14 +9,13 @@
     
     <title level="m" type="main">Fancies at Navesink</title>
     <title level="m" type="sub">a machine readable transcription</title>
-    <author>Walt Whitman</author>
+    <author sameAs="#ww">Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
-     <persName xml:id="ew">Emma Whaley</persName>
+       <persName xml:id="ew">Emma Whaley</persName>
+       <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -24,7 +23,7 @@
    </titleStmt>
    <editionStmt>
     <edition>
-     <date>2024</date>
+     <date>2026</date>
     </edition>
    </editionStmt>
    <publicationStmt>
@@ -78,45 +77,49 @@
     <handNote medium="letterpress" xml:id="h01" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
     <handNote medium="pencil" xml:id="h02" resp="#ww" scope="minor"/>
     <handNote medium="black ink" xml:id="h03" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h04" resp="#unk1" scope="minor"><name xml:id="unk1">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
- <change when="2024-11-19" who="#ew">transcribed and encoded</change>
+   <change when="2026-02-13" who="#km">proofed</change>
+   <change when="2024-11-19" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-   <pb xml:id="leaf001r" facs="whitman03.jpg" type="recto"/>
-   
-   <note type="authorial" hand="#h03" rend="underline" place="top">May. 1885</note>
+   <pb xml:id="leaf001r" facs="amh_km.00001.jpg" type="recto"/>
+     
+     <note type="authorial" hand="#h03" rend="underline" place="top">May. 1885</note>
+     
+     <note type="archival" place="top" hand="#h04">35<hi rend="superscript">00</hi><lb/>crxp</note>
+     
    <head type="main">FANCIES AT NAVESINK.</head>
    
    <lg type="poem">
-    <head type="sub">THE PILOT IN THE MIST.</head>
-     <l>Steaming the northern rapids&#8212;(an old <subst hand="#h02"><del seq="1" rend="overstrike">Saint</del><add seq="2" place="right" rend="marked">St.</add></subst> La<subst hand="#h02"><del seq="1" rend="overstrike">u</del><add seq="2" place="right" xml:id="a001">w<metamark function="separate" target="#a001">/</metamark></add></subst>rence reminis-<lb/>
+    <head type="main">THE PILOT IN THE MIST.</head>
+     <l>Steaming the northern rapids&#8212;(an old <subst hand="#h02"><del seq="1" rend="overstrike">Saint</del><add seq="2" place="right" rend="marked">St.</add></subst> La<subst hand="#h02"><del seq="1" rend="overstrike">u</del><add seq="2" place="right" xml:id="a001">w<metamark function="emphasize" target="#a001">/</metamark></add></subst>rence reminis-<lb/>
         cence,</l>
      <l>A sudden memory-flash comes back, I know not why,</l>
      <l>Here waiting for the sunrise, gazing from this hill;<subst hand="#h02"><del seq="1" rend="overstrike">)*</del><add seq="2" place="right">*)</add></subst></l>
      <l>Again 'tis just at morning&#8212;a heavy haze contends with day-<lb/>
         break.</l>
      <l>Again the trembling, laboring vessel veers me&#8212;I press through<lb/>
-        foam-dash'd rocks that almost touch me<subst hand="#h02"><del seq="1" rend="overstrike">;</del><add seq="2" place="right" xml:id="a002">,<metamark function="separate" target="#a002">/</metamark></add></subst></l>
+        foam-dash'd rocks that almost touch me<subst hand="#h02"><del seq="1" rend="overstrike">;</del><add seq="2" place="right" xml:id="a002">,<metamark function="emphasize" target="#a002">/</metamark></add></subst></l>
      <l>Again I mark where aft the small thin Indian helmsman</l>
      <l>Looms in the mist, with brow elate and governing hand.</l>
    </lg>
    
    <lg type="poem">
-    <head type="sub">HAD I THE CHOICE.</head>
-     <l>Had I the choice to tally greatest bards<subst hand="#h02"><del seq="1" rend="overstrike">;</del><add seq="2" place="right" xml:id="a003">,<metamark function="separate" target="#a003">/</metamark></add></subst></l>
+    <head type="main">HAD I THE CHOICE.</head>
+     <l>Had I the choice to tally greatest bards<subst hand="#h02"><del seq="1" rend="overstrike">;</del><add seq="2" place="right" xml:id="a003">,<metamark function="emphasize" target="#a003">/</metamark></add></subst></l>
      <l>To limn their portraits, stately, beautiful, and emulate at will,</l>
      <l>Homer with all his wars and warriors&#8212;Hector, Achilles, Ajax,</l>
      <l>Or Sh<add hand="#h02" place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a004">a</add>kspere's woe-entangled Hamlet, Lear, Othello&#8212;Tenny-<lb/>
         son's fair ladies,</l>
      <l>Metre or wit the best, or choice conceit to wield in perfect<lb/>
-        rhyme, delight of singers<add hand="#h02" place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a005"><metamark function="emphasize">#</metamark></add>;</l>
+        rhyme, delight of singers<add hand="#h02" place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a005"><metamark function="add"><choice><orig>#</orig><reg> </reg></choice></metamark></add>;</l>
      <l>These, these, O sea<subst hand="#h02"><del seq="1" rend="overstrike">.</del><add seq="2" place="left">,</add></subst> all these I'd gladly barter,</l>
      <l>Would you the undulation of one wave, its trick to me<lb/> 
         transfer,</l>
@@ -125,43 +128,42 @@
    </lg>
    
    <lg type="poem">
-    <head type="sub">YOU TIDES WITH CEASELESS SWELL.</head>
+    <head type="main">YOU TIDES WITH CEASELESS SWELL.</head>
     <l>You tides with ceaseless swell! you power that does th<subst hand="#h02"><del seq="1" rend="overstrike">e</del><add seq="2" place="right">is</add></subst><lb/>
        work!</l>
-    <l>You unseen force, centripetal, cent<subst hand="#h02"><del seq="1" rend="overstrike">i</del><add seq="2" place="right">R</add></subst>ifugal, through space<add hand="#h02" place="below"><metamark function="add" target="#a006">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a006">'</add>s spread<subst hand="#h02"><del seq="1" rend="overstrike">!</del><add seq="2" place="right" rend="marked" xml:id="a007">,<metamark function="separate" target="#a007">/</metamark></add></subst></l>
+      <l>You unseen force, centripetal, cent<subst hand="#h02"><del seq="1" rend="overstrike">i</del><add seq="2" place="right">R</add></subst>ifugal, through space<add hand="#h02" place="below"><metamark function="add" target="#a006">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a006">'<metamark function="emphasize" target="#a006">&#711;</metamark></add>s spread<subst hand="#h02"><del seq="1" rend="overstrike">!</del><add seq="2" place="right" rend="marked" xml:id="a007">,<metamark function="emphasize" target="#a007">/</metamark></add></subst></l>
     <l>Rapport of sun, moon, earth, and all the constellations!</l>
     <l>What are the messages by you from distant starts to us? what<lb/>
-       Sirius'<add hand="#h02" place="below"><metamark function="add" target="#a008">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a008"><metamark function="emphasize">#</metamark></add>? what Capella's?</l>
+       Sirius'<add hand="#h02" place="below"><metamark function="add" target="#a008">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a008"><metamark function="add"><choice><orig>#</orig><reg> </reg></choice></metamark></add>? what Capella's?</l>
     <l>What central heart&#8212;and you the pulse&#8212;vivifies all? what<lb/>
        boundless aggregate of all?</l>
     <l>What subtle indirection and significance in you? what clue<lb/>
-       to all in you? what fluid, vast identity<add hand="#h02" place="below"><metamark function="add" target="#a009">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a009">,<metamark function="separate" target="#a009">/</metamark></add></l>
+       to all in you? what fluid, vast identity<add hand="#h02" place="below"><metamark function="add" target="#a009">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a009">,<metamark function="emphasize" target="#a009">/</metamark></add></l>
     <l>Holding the universe with all its parts as one&#8212;as sailing in<lb/>
        a ship?</l>
    </lg>
      
    <lg type="poem">
     <head type="sub">LAST OF EBB, AND DAYLIGHT WANING.</head>
-    <l>Last of ebb, and daylight waning<subst hand="#h02"><del seq="1" rend="overstrike">.</del><add seq="2" place="right" xml:id="a010">,<metamark function="separate" target="#a010">/</metamark></add></subst></l>
-    <l>Scented sea,<add hand="#h02" place="below"><metamark function="emphasize" target="#a011">/</metamark><metamark function="add" target="#a011">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a011"><note type="authorial" rend="circled">sea&#11840;cool</note>&#11840;<metamark function="emphasize" target="#a011">/</metamark></add> cool landward making, smells of sedge and salt<lb/>
+    <l>Last of ebb, and daylight waning<subst hand="#h02"><del seq="1" rend="overstrike">.</del><add seq="2" place="right" xml:id="a010">,<metamark function="emphasize" target="#a010">/</metamark></add></subst></l>
+      <l>Scented sea<subst hand="#h02"><del rend="overstrike" seq="1">,</del><add hand="#h02" place="below" seq="2"><metamark function="add" target="#a012">&#8248;</metamark></add><add place="left" xml:id="a011" seq="2">&#11840;<metamark function="emphasize" target="#a011">/</metamark></add></subst><add hand="#h02" place="left" rend="circled">sea&#11840;cool</add> cool landward making, smells of sedge and salt<lb/>
        incoming</l>
     <l>With many a half-caught voice sent up from the eddies,</l>
     <l>Many a muffled confession&#8212;many a sob and whisper'd word,</l>
     <l>As of speakers far or hid.</l>
-      <note type="authorial" rend="marked" hand="#h02" place="right">two leads</note>
+      <anchor xml:id="a012"/>
+      <metamark function="add" target="#a012"><add place="right" rend="marked" hand="#h02">two leads</add></metamark>
     <l>How they sweep down and out! how they mutter!</l>
-    <l>Poets unnamed&#8212;artists greatest of any, with ch<subst hand="#h02"><del seq="1" rend="overstrike">c</del><add seq="2" place="right" xml:id="a012">e<metamark function="separate" target="#a012">/</metamark></add></subst>rish'd lost<lb/>
+    <l>Poets unnamed&#8212;artists greatest of any, with ch<subst hand="#h02"><del seq="1" rend="overstrike">c</del><add seq="2" place="right" xml:id="a013">e<metamark function="emphasize" target="#a013">/</metamark></add></subst>rish'd lost<lb/>
        designs,</l>
    </lg>
+     <!-- resumse proofing here; also need to do editorial notes in header. KM, 2/13/26 -->
+   <note type="authorial" place="bottom" hand="#h01">* Navesink&#8212;a<!-- ? -->sea-side mountain, lower entrance of New-York bay.</note>
      
-   <signed hand="#h02">Walt Whitman</signed>  
-     
-   <note type="editorial" place="bottom">* Navesink&#8212;a<!-- ? -->sea-side mountain, lower entrance of New-York bay.</note>
+     <signed hand="#h02">Walt Whitman</signed>
      
    <metamark function="emphasize">#</metamark>
-   
-<!--  no image of verso  -->
-   <pb xml:id="leaf001v" facs="?" type="verso"/>
+  
    
 </body>
 </text>
