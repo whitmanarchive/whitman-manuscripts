@@ -48,10 +48,10 @@
    <idno>amh.00003</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+     <note type="project" target="#dat1">This is a corrected proof slip of four poems from "Fancies of Navesink," a group of eight poems first published in <hi rend="italic">The Nineteenth Century</hi> magaazine in August 1885. Whitman had first submitted the poems for publication in <hi rend="italic">Harper's Monthly Magazine</hi> but was turned down by <hi rend="italic">Harper's</hi> editor Henry M. Alden in a <ref target="loc.05931">letter dated May 12, 1885</ref>. A note in Whitman's hand at the top of the slip says "May 1885," so the corrections were almost certainly made at that time; it is not known whether they were made before or after the submission to <hi rend="italic">Harper's</hi>.</note>
     
      <note type="work_relations" target="xxx.00330" cert="high">
-      <p>This is a galley proof of four poems from "Fancies of Navesink," a group of eight poems first published in <hi rend="italic">The Nineteenth Century</hi> in August 1885: ""The Pilot in the Mist,"" ""Had I the Choice,"" ""You Tides With Ceaseless Swell,"" and ""Last of Ebb, and Daylight Waning."" Signed, dated, and heavily annotated by Whitman.</p>
+      <p>This is a corrected proof slip of four poems from "Fancies of Navesink," a group of eight poems first published in <hi rend="italic">The Nineteenth Century</hi> in August 1885: "The Pilot in the Mist," "Had I the Choice," "You Tides With Ceaseless Swell," and "Last of Ebb, and Daylight Waning."</p>
      </note>
    </notesStmt>
    
@@ -61,7 +61,7 @@
      
      <title>Galley proof sheet-"Fancies at Navesink", 1885 May</title>  
      
-     <date when="1885" cert="high">May 1885</date>
+     <date when="1885-05" cert="high">May 1885</date>
      
      <idno type="callno">MA 01012, box 1, folder 21</idno>
      
@@ -102,7 +102,7 @@
      <l>Steaming the northern rapids&#8212;(an old <subst hand="#h02"><del seq="1" rend="overstrike">Saint</del><add seq="2" place="right" rend="marked">St.</add></subst> La<subst hand="#h02"><del seq="1" rend="overstrike">u</del><add seq="2" place="right" xml:id="a001">w<metamark function="emphasize" target="#a001">/</metamark></add></subst>rence reminis-<lb/>
         cence,</l>
      <l>A sudden memory-flash comes back, I know not why,</l>
-     <l>Here waiting for the sunrise, gazing from this hill;<subst hand="#h02"><del seq="1" rend="overstrike">)*</del><add seq="2" place="right">*)</add></subst></l>
+     <l>Here waiting for the sunrise, gazing from this hill;<subst hand="#h02"><del seq="1" rend="overstrike">)<ref xml:id="r1" target="#n1"><metamark function="link">*</metamark></ref></del><add seq="2" place="right">*)</add></subst></l>
      <l>Again 'tis just at morning&#8212;a heavy haze contends with day-<lb/>
         break.</l>
      <l>Again the trembling, laboring vessel veers me&#8212;I press through<lb/>
@@ -157,13 +157,10 @@
     <l>Poets unnamed&#8212;artists greatest of any, with ch<subst hand="#h02"><del seq="1" rend="overstrike">c</del><add seq="2" place="right" xml:id="a013">e<metamark function="emphasize" target="#a013">/</metamark></add></subst>rish'd lost<lb/>
        designs,</l>
    </lg>
-     <!-- resumse proofing here; also need to do editorial notes in header. KM, 2/13/26 -->
-   <note type="authorial" place="bottom" hand="#h01">* Navesink&#8212;a<!-- ? -->sea-side mountain, lower entrance of New-York bay.</note>
+    
+   <note xml:id="n1" type="authorial" target="#r1" place="bottom"><metamark function="link">*</metamark> Navesink&#8212;a<del rend="overstrike" hand="#h02" xml:id="e001"> </del><add hand="#h02" place="below"><metamark function="emphasize" target="#e001"><choice><orig>#</orig><reg> </reg></choice></metamark></add>sea-side mountain, lower entrance of New-York bay.</note>
      
-     <signed hand="#h02">Walt Whitman</signed>
-     
-   <metamark function="emphasize">#</metamark>
-  
+     <signed hand="#h02">Walt Whitman</signed>  
    
 </body>
 </text>
