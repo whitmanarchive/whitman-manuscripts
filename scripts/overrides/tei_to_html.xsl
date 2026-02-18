@@ -337,7 +337,7 @@
   </xsl:template>
   
   <!-- do not display archival notes for manuscripts -->
-  <xsl:template match="note[@type='archival']"/>
+  <xsl:template match="//note[@type='archival']"/>
   
   <!-- handle authorial notes differently for proof mss -->
   <xsl:template match="*[@hand][preceding::handNote[@medium='letterpress']]">
