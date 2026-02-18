@@ -45,23 +45,18 @@
    <idno>loc.00294</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">A corrected proof slip of "Shakspere-Bacon's Cipher," which first appeared in <hi rend="italic">The Cosmopolitan</hi> in October 1887. The corrections were therefore likely made in September or October 1887.</note>
     
-<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
-     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. -->
-    
-     <note type="work_relations" target="xxx." cert="">
-      <p>A corrected proof slip of "Shakspere-Bacon's Cipher." This one has more than the usual correction.</p>
-     </note>
+     <note type="work_relations" target="xxx.00390" cert="high">"Shakespere-Bacon's Cipher" was first published in <hi rend="italic">The Cosmopolitan</hi> in October 1887, and then included in <hi rend="italic">Good-Bye My Fancy</hi> (1891).</note>
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “Shakspere-Bacon's Cipher” ( 1891 ), proof sheets with corrections</title>  
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; "Shakspere-Bacon's Cipher" (1891), proof sheets with corrections</title>  
      
-     <date notBefore="1842" notAfter="1892" cert="medium">1887</date>
+     <date when="1887" cert="high">1887</date>
      
      <idno type="callno">MSS18630, box 29, Shakspere-Bacon's Cipher (1891). Proof Sheets.</idno>
      
@@ -81,7 +76,7 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-02-18" who="#km">proofed</change>
  <change when="2024-10-30" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -89,7 +84,7 @@
  <text type="manuscript">
   <body>
    
-   <pb xml:id="leaf001r" facs="loc_ew.00216.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="loc_nk.00061.jpg" type="recto"/>
    <head type="main">SHAKSPERE-BACON'S CIPHER.</head>
    <head type="sub" rend="italic"><del hand="#h03" rend="overstrike">(A Hint to Scientists.)</del></head>
    
@@ -100,9 +95,9 @@
         a<subst hand="#h04"><del seq="1" rend="overstrike">n</del><add seq="2" place="left">u</add></subst>thor,)</l>
      <l>In every object, mountain, tree, and star&#8212;in every birth and<lb/>
         life,</l>
-     <l>As part of each<subst hand="#h02"><del seq="1" rend="overstrike">&#8212;finality of</del><add seq="2" place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add seq="3" place="above" xml:id="a001">&#8248;evolved from</add></subst> each&#8212;meaning, behind the os-<lb/>
+     <l>As part of each&#8212;<subst hand="#h02"><del seq="1" rend="overstrike">finality of</del><add seq="2" place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add seq="2" place="above" xml:id="a001">&#8248;evolved from</add></subst> each&#8212;meaning, behind the os-<lb/>
         tent,</l>
-     <note type="authorial" hand="#h03" place="left">?A</note> <l><hi rend="underline" hand="#h03">The</hi> mystic cipher waits infolded.</l>
+    <note type="authorial" hand="#h03" place="left">? <hi rend="tripleUnderline">A</hi></note> <l><hi rend="underline" hand="#h03">The</hi> mystic cipher waits infolded.</l>
    </lg>
    <signed>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</signed>
    
