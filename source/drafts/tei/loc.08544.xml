@@ -2,12 +2,12 @@
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="<!-- ADD THE UNIQUE ID HERE -->"> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08544"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
     
-    <title level="m" type="main" rend="bracketed"><!-- ADD THE TITLE HERE--></title>
+    <title level="m" type="main" rend="bracketed">What Lurks Behind Shakspere's Historical Plays?</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -16,8 +16,8 @@
     <respStmt>
      <resp>Transcription and encoding</resp>
      
-<!-- IF YOU ARE NOT TARA, TYPE YOUR FIRST AND LAST NAME BELOW AND UPDATE INITIALS -->
-     <persName xml:id="tb">Tara Ballard</persName>
+     
+     <persName xml:id="cm">Cynthia Mbagwu</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -25,19 +25,19 @@
    </titleStmt>
    <editionStmt>
     <edition>
-     <date>2025</date>
+     <date>2026</date>
     </edition>
    </editionStmt>
    <publicationStmt>
     
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
-                    <addrLine>Center for Digital Research in the Humanities</addrLine>
-                    <addrLine>319 Love Library</addrLine>
-                    <addrLine>University of Nebraska-Lincoln</addrLine>
-                    <addrLine>P.O. Box 884100</addrLine>
-                    <addrLine>Lincoln, NE 68588-4100</addrLine>
-                </address>
+     <addrLine>Center for Digital Research in the Humanities</addrLine>
+     <addrLine>319 Love Library</addrLine>
+     <addrLine>University of Nebraska-Lincoln</addrLine>
+     <addrLine>P.O. Box 884100</addrLine>
+     <addrLine>Lincoln, NE 68588-4100</addrLine>
+    </address>
     <availability>
      <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
      <p>
@@ -46,70 +46,73 @@
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
     
-
-   <idno><!-- ADD THE UNIQUE ID HERE --></idno>
+    
+    <idno>loc.08544</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
     
-     <note type="work_relations" target="xxx." cert="high">
-      <p></p>
-     </note>
+    <note type="work_relations" target="xxx.00460" cert="high">
+     <p></p>
+    </note>
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     <title>November Boughs ( 1888 ); Proofs; Galley proofs (Container 23)</title>  
      
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date notBefore="" notAfter="" cert=""></date>
+     <date notBefore="1844" notAfter="1919" cert="high"></date>
      
-     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     <idno type="callno">mss18630, box OV 4</idno>
      
-<!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
-      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
-     <orgName xml:id=""></orgName>
+     
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
-     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-     <relatedItem type="document" target="wwa.00041"/>
-     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
     </bibl>
    </sourceDesc>
-</fileDesc>
+   
+  </fileDesc>
   <profileDesc>
-   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="blue ink" xml:id="h02" resp="#unk"></handNote>
-    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
+   <handNotes>
+    <handNote medium="printed type" xml:id="h01" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
+    <handNote medium="pencil" xml:id="h02" resp="#unk"/>
+    <handNote medium="pencil" xml:id="h03" resp="#ww"/>
    </handNotes>
   </profileDesc>
-<revisionDesc>
- 
-<!-- IN THE FOLLOWING <CHANGE> ELEMENT EDIT THE @WHEN TO REFLECT TODAY'S DATE. IF YOU AREN'T TARA, CHANGE THE INITIALS AFTER THE POUND SIGN IN @WHO -->
- <change when="2024-01-20" who="#tb">transcribed and encoded</change>
-</revisionDesc>
+  <revisionDesc>
+   
+   
+   <change when="2026-02-17" who="#cm">transcribed and encoded</change>
+  </revisionDesc>
  </teiHeader>
-
+ 
  <text type="manuscript">
   <body>
+   <pb xml:id="leaf001r" facs="loc_ja.00145.jpg" type="recto"/>
    
-<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
-   <lg type="poem">
-     <l></l>
-     <l></l>
-     <l></l>
-   </lg>
+   <fw rend="left">126</fw>
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+   <fw rend="center">ELIAS HICKS.</fw>
    
-</body>
-</text>
+   <q>
+    <floatingText>
+     <body>
+      <p>Third day. I was busied most of this day in common vocations. Spent the evening principally in reading Pau. Found considerable satisfaction in his first epistle to the Corinthians; in which he shows the danger of some setting too high a value on those who were instrumental in bringing them to the knowledge of the truth, without looking through and beyond the instrument, to the great first-cause and Author of every blessing, to whom all the praise and honor are due.</p>
+      <p>Fifth day, 1st of 4th month. At our meeting to-day found it, as usual, a very close steady exercise to keep the mind center'd where it ought to be. What a multitude of intruding thoughts imperceptibly, as it were, steal into the mind, and turn it from its proper object, whenever it relaxes its vigilance in watching against them. Felt a little strength, just as close, to remind Friends of the necessity of a steady preseverance, by a recapitulation of the parable of the unjust judge, showing how men ought to always pray, and not to faint.</p>
+      <p>Sixth day. Nothing material ocurr'd, but a fear least the cares of the world should engross too much of my time.</p>
+      <p>Seventh day. Had an agreeable visit from two ancient friends, whom I have long lov'd. The rest of the day I employ'd in manual labor, mostly in gardening.</p>
+     </body>
+    </floatingText>
+   </q>
+   
+   <p>But we find if we attend to records and details, we shall lay out an endless task. We can briefly say, summarily, that his whole life was a long religious missionary life or method, practicality, sincerity, earnestness, and pure piety&#8212;as near to his time here, as one in Judea, far back&#8212;or in any life, any age.The reader who feels interested must get&#8212;with all its dryness and mere dates, absence of emotionality or literary quality, and whatever abstract attraction ( with even a suspicion of cant, sniffling,) the "Journal of the Life and Religious Labours of Elias Hicks, written by himself," at some Quaker book-store. (It is from this <hi rend="circled">headquarters I have extracted <del rend="overstrike" hand="#h03" xml:id="d001">from</del> the preceding</hi> quotations.)<add place="right" hand="#h03" rend="marked"><metamark function="delete" target="#d001">&#948;</metamark></add> During E. H.'s matured life, continued from fifty to sixty years&#8212;while working steadily, earning his living and paying his way without intermission&#8212;he makes, as previously memorandised, several hundred preaching visits, not only through Long Island, but some of them away into the Middle or Southern States, or north into Canada, or the then far away West&#8212;extending to thousands of miles, or filing several weeks and sometimes months. These religious journeys&#8212;scrupulously accepting in payment only his transportation from place to place, with his own food and shelter, and never receiving a dollar of money for "salary" or preaching&#8212;Elias, through good bodily health and strength, continues till quite the age of eighty. It was thus at one of his latest jaunts in Brooklyn city I saw and heard him. This sight and hearing shall now be described.</p>
+   <p>Elias Hicks was at this period in the latter part (November or December) of 1829. It was the last tour of the many missions</p>
+   
+   
+  </body>
+ </text>
 </TEI>
