@@ -6,16 +6,14 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">The Voice of the Rain</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
+     <persName xml:id="km">Kevin McMullen</persName>
      <persName xml:id="ew">Emma Whaley</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -28,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,16 +41,14 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.02466</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">This proof slip, with notations and corrections in Whitman's hand, is dated "June 1885" at the top. Whitman's daybook indicates that he first sent the poem to <hi rend="italic">Harper's</hi> on June 7, 1885, but that it was rejected (see Walt Whitman, <hi rend="italic">Daybooks and Notebooks</hi>, ed. William White, vol. 2, <hi rend="italic">Daybooks, December 1881–1891</hi> [New York University Press, 1978], 359). It was then accepted by <hi rend="italic">Outing</hi> and published in August 1885. The corrections on this slip therefore likely date to May or early June 1885.</note>
     
     
      <note type="work_relations" target="xxx.00359" cert="high">
-      <p>Proof sheet of the poem "The Voice of the Rain," which was published first in 1885, with notations and corrections in Whitman's hand (including a rejected title and a notation on the verso).</p>
+      <p>This is a corrected proof slip of the poem "The Voice of the Rain," which was first published in <ref target="per.00168"><hi rend="italic">Outing: A Journal of Recreation</hi></ref> in August 1885. It was later included in <hi rend="italic">November Boughs</hi> (1888).</p>
      </note>
    </notesStmt>
    
@@ -63,7 +58,7 @@
      
      <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “The Voice of the Rain” ( 1885 ), proof sheets with corrections and notations</title>  
      
-     <date cert="high">1885</date>
+     <date notBefore="1885-05" notAfter="1885-06-07" cert="high">May or early June 1885</date>
      
      <idno type="callno">MSS18630, box 30, folder The Voice of the Rain (1885). Proof Sheets.</idno>
 
@@ -82,7 +77,7 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-02-18" who="#km">proofed</change>
  <change when="2024-10-30" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -91,28 +86,32 @@
   <body>
    
    <pb xml:id="leaf001r" facs="loc_ew.00369.jpg" type="recto"/>
-   <note type="authorial" hand="#h03" rend="marked">June 1885</note>
-   <head type="main"><subst hand="#h02"><del seq="1" rend="overstrike">A RAIN ENIGMA</del><add seq="2" rend="underline">The Voice of the Rain</add></subst></head>
+   
+   <note type="authorial" hand="#h03" rend="circled">June 1885</note>
+   
+   <head type="main"><subst hand="#h02"><del seq="1" rend="overstrike">A RAIN ENIGMA</del><add seq="2" place="above" rend="underline">The <hi rend="tripleUnderline">V</hi>oice of the Rain</add></subst>.</head>
+   
    <lg type="poem">
-     <l>And who art thou? said I to the soft&#8212;falling shower,</l>
+     <l>And who art thou? said I to the soft-falling shower,</l>
      <l>Which, strange to tell, gave me an answer, as here translated:</l>
      <l>I am the Poem of Earth, said the <add hand="#h02" place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add rend="marked" hand="#h02" place="right" xml:id="a001">voice of the</add> rain.</l>
-     <l><add hand="#h02" place="left">&amp;</add>Eternal I rise<del rend="overstrike" hand="#h02">,</del> impalpabl<subst hand="#h02"><del rend="overstrike" seq="1">y</del><add xml:id="a002" place="below" seq="2">e<metamark function="separate" target="#a002">/</metamark></add></subst> out of the land and the bottomless<lb/>
+    <l>Eternal I rise<del rend="overstrike" hand="#h02" xml:id="d001">,</del><add hand="#h02" place="left"><metamark function="delete" target="#d001">&#948;</metamark></add> impalpabl<subst hand="#h02"><del rend="overstrike" seq="1">y</del><add xml:id="a002" place="below" seq="2">e<metamark function="emphasize" target="#a002">/</metamark></add></subst> out of the land and the bottomless<lb/>
       sea,</l>
      <l>Upward to heaven, whence, vaugely form'd, altogether changed,<lb/>
-     and ye the same<subst hand="#h02"><del seq="1" rend="overstrike">.</del><add seq="2" place="right" xml:id="a003">,<metamark function="separate" target="#a003">/</metamark></add></subst></l>
-     <l>I descend to lave the drouths, atomies, dust&#8212;layers of the<lb/>
+     and yet the same<subst hand="#h02"><del seq="1" rend="overstrike">.</del><add seq="2" place="right" xml:id="a003">,<metamark function="emphasize" target="#a003">/</metamark></add></subst></l>
+     <l>I descend to lave the drouths, atomies, dust-layers of the<lb/>
      globe,</l>
     <addSpan hand="#h02" place="right" rend="marked" spanTo="#a004"/>
     <l>And all that <add place="below"><metamark function="add" target="#a008">&#8248;</metamark></add><add rend="marked" place="above" xml:id="a008">in them</add> with out me were seeds only, latent, unborn,</l>
     <anchor xml:id="a004"/>
     <l>And forever, by day and night, <add hand="#h02" place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add rend="marked" hand="#h02" place="right" xml:id="a005">I</add> give back life to my own<lb/>
      origin, and make pure and beautify it:</l>
-    <l><add hand="#h02" place="below"><metamark function="add" target="#a006">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a006">(<metamark function="separate" target="#a006">/</metamark></add>For song, issuing from its birth-place, after fulfilment, wan-<lb/>
-     dering,</l>
-    <l>Reck'd or unreck'd, duly with love returns.<add hand="#h02" place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a007">)<metamark function="separate" target="#a007">/</metamark></add></l>
+    <l><add hand="#h02" place="below"><metamark function="add" target="#a006">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a006">(<metamark function="emphasize" target="#a006">/</metamark></add>For song, issuing from its birth-place, after fulfilment, <choice><orig>wan-<lb/>
+     dering</orig><reg>wandering<lb/></reg></choice>,</l>
+    <l>Reck'd or unreck'd, duly with love <hi rend="overline underline" hand="#h02">retur</hi>ns.<add hand="#h02" place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a007">)<metamark function="emphasize" target="#a007">/</metamark></add></l>
    </lg>
-   <signed>W<hi rend="smallcaps">alt</hi> W<hi rend="smallcaps">hitman</hi></signed>
+   
+   <signed>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</signed>
    
    <pb xml:id="leaf001v" facs="loc_ew.00370.jpg" type="verso"/>
    
