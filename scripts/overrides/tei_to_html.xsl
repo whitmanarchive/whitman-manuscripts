@@ -114,7 +114,7 @@
         <xsl:text>.</xsl:text>
       </li>
 
-      <li><strong>Editorial note: </strong><xsl:apply-templates select="//teiHeader/fileDesc/notesStmt/note[@type='project']"/> </li>
+      <li><strong>Editorial note: </strong> TEST<xsl:apply-templates select="//teiHeader/fileDesc/notesStmt/note[@type='project']"/> </li>
 
       <!-- pulled from notebooks P5 tylesheet and refactored original comment: relatedItem section (updated 4/28/17)-->
       <!-- note that this differs from similar notebook override in that it checks to see if the file exists before creating a link -->
