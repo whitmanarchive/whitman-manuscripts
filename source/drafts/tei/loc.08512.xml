@@ -53,7 +53,7 @@
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
     
-     <note type="work_relations" target="xxx." cert="high">
+    <note type="work_relations" target="xxx." cert="high">
       <p></p>
      </note>
    </notesStmt>
@@ -64,22 +64,17 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Oversize, 1844-1952; Literary File; Books; Good-Bye My Fancy (1891); Proofs; Proof sheets; First set (Container 20)</title>  
      
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date notBefore="" notAfter="" cert=""></date>
+
+     <date when="1891" cert="high">about 1891</date>
      
-     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     <idno type="callno">mss18630, box OV 3</idno>
      
 
      <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
-     <note>Transcribed from digital images of the original.</note>
-      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
-     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-     <relatedItem type="document" target="wwa.00041"/>
-     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+     
    
      <bibl type="quotation" xml:id="source1">
       <author>Gay, John</author>
@@ -295,6 +290,10 @@
     <note place="bottom" hand="#h04" type="authorial">This to Printer</note>
 
     <pb xml:id="leaf002r" facs="loc_ja.00089.jpg" type="recto"/>
+    
+    <note place="margintop" hand="#h03" type="archival">April 1<subst><del seq="1" rend="overwrite">5</del><add seq="2" rend="overwrite" place="over">6</add></subst> 1891</note>
+    
+    <note place="margintop" hand="#h03"><gap extent="five units" reason="illegible"/></note>
    
     <fw rend="center">GOOD-BYE MY FANCY.</fw>
     
@@ -306,9 +305,9 @@
     probably ahead of anything since. Every theatre had some
     superior voice, and it was comon to give a favorite song
     between the acts. "The Sea" at the bijou Olympic, (Broadway
-    near Grand) was always welcome from a little Englishman named
+    near Grand<add place="below" hand="#h04"><metamark function="add" target="#a008">&#8248;</metamark></add><add place="left" hand="#h04" xml:id="a008">,<metamark target="#a004" function="emphasize">/</metamark></add>) was always welcome from a little Englishman named
     Edwin, a good balladist. At the Bowery the loves of "Sweet
-    William."
+    William<subst hand="#h02"><del rend="overstrike" seq="1">.</del><add place="right" xml:id="a009" seq="2">,<metamark target="#a009" function="emphasize">/</metamark></add></subst>"
      <metamark target="#j001" function="adjust"><add place="right" hand="#h02" rend="marked">smaller type</add></metamark><q source="#source1"><floatingText xml:id="j001"><body><lg type="linegroup"><l>"When on the Downs the fleet was moor'd,"</l></lg></body></floatingText></q>
      always bro't an encore, and sometimes a treble.
     </p>
@@ -336,7 +335,7 @@
     occasions had the invaluable personal talk, correction, illustration
     and guidance of Dr. A himself. He was very kind and
     helpful to me in those studies and examinations; once by appointment,
-    he appear'd in full and exact Turkish (Cairo) custume,
+    he appear'd in full and exact Turkish (Cairo) c<subst hand="#h02"><del rend="overstrike" seq="1">u</del><add place="right" xml:id="a010" seq="2">o<metamark target="#a010" function="emphasize">/</metamark></add></subst>stume,
     which long usage there had made habitual to him.
     </p>
     
@@ -368,18 +367,65 @@
       societies" of those times were held&#8212;especially the
       tumultuous Anti-Slavery ones. I remember hearing Wendell
       Phillips, Emerson, Cassius Clay, John P. Hale, Beecher, Fred
-      Douglas, the Burleighs, Pillsbury and others. Sometimes the
+      Douglas, the Burleighs, <subst hand="#h02"><del rend="overstrike" seq="1">Pillsbury</del><add place="margin-right" seq="2">Garrison,</add></subst> and others. Sometimes the
       Hutchinsons would sing&#8212;very fine. Sometimes there were
       angry rows. A chap named Isaac Rhynders, a fierce politician
       of those days, with a band of robust supporters, would attempt
       to contradict the speakers and break up the meetings. But the
       Anti-Slavery, and Quaker, and Temperance, and Missionary and
-      other conventicles and speakers
+      other conventicles and speakers were tough, tough, and always
+      maintained their ground, ad carried out their programs fully.
+      I went frequently to these meeting May after May&#8212;learn'd
+      much from them&#8212;was sure to be on hand when J.P. Hale or
+      Cash Clay made speeches.
      </p>
-     
     
-   
+    <p>
+     There were also the smaller and handsome halls of the Historical
+     and Athen&#230;um Societies up on Broadway. I very well
+     remember W. C. Bryant lecturing on Hom&#339;opathy in one of
+     them, and attending two or three addresses by R. W. Emerson
+     in the other.
+    </p>
+    
+    <p>
+     There was a series of plays and dramatic <hi rend="italic">genre</hi> characters by a
+     gentleman bill'd as Ranger&#8212;very fine, better tahn merely technical,
+     full of exquisites shades, like the light touches of the violin
+     in the hands of a master. There was the actor Anderson, who
+     brought us Gerald Griffin's "Gisippus," and play'd it to admiration.
+     Among the actors of those times I recall: Cooper,
+     Wallack, Tom Hamblin, Adams (several), Old Gates, Scott, Wm.
+     Sefton, John Sefton, Geo. Jones, Mitchell, Seguin, Old Clarke,
+     Richings, Fisher, H. Placide, T. Placide, Thorne, Ingersoll, Gale
+     (Mazeppa)<del rend="overstrike" xml:id="d004" hand="#h02">,</del><add place="margin-right" hand="#h02"><metamark function="delete" target="#d004" rend="marked">&#977;</metamark></add> Edwin<add place="below" hand="#h02"><metamark function="add" target="#a011">&#8248;</metamark></add><add place="margin-right" hand="#h04" xml:id="a011">,<metamark target="#a011" function="emphasize">/</metamark></add> Horncastle. Some of the women hastily remember'd
+     were: Mrs. Vernon, Mrs. Pritchard, Mrs. McClure, Mary
+     Taylor, Clara Fisher, Mrs. Richardson, Mrs. Flynn. Then the
+     singers, English, Italian and other: Mrs. Wood, Mrs. Seguin,
+     Mrs. Austin, Grisi, La Grange, Steffanone, Bosio, Truffi, Parodi,
+     Vestvali, Bertucca, Jenny Lind, Gazzaniga, Laborde. And the
+     opera men: Bettini, Badiali, marini, Mario, Brignoli, Amodio,
+     Beneventano, and many, many others whose names I do not at
+     this moment recall.
+    </p>
+     
+     <p>
+      In another paper I have described the elder Booth, and the
+      Bowery Theatre of those times. Afterward there was the Chatham.
+      The elder Thorne, Mrs. Thorne, Will and John Sef-
+     </p>
+    
+    <note place="bottom" hand="#h04" type="authorial">This to Printer</note>
+    
    </div>
+  
+  <pb xml:id="leaf002v" facs="loc_ja.00090.jpg" type="verso"/>
+  <note place="top" hand="#h02">
+   Ferguson
+   printer
+   15 n 7th st:
+   Phila:
+  </note>
     
 </body>
 </text>
