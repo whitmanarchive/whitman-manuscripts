@@ -85,6 +85,7 @@
  
  <change when="2025-12-03" who="#kmh">transcribed and encoded</change>
  <change when="2026-02-17" who="#sd">transcribed and encoded</change>
+ <change when="2026-02-18" who="#sd">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -232,9 +233,17 @@
    
    <pb xml:id="leaf003v" facs="loc_gk.00763_large.jpg" type="verso"/>
    
+   <!-- surface 7 would be recto #4, but there is no surface 7 in the tracking database -->
+   
    <pb xml:id="leaf004v" facs="loc_gk.00779_large.jpg" type="verso"/>
    
-   <pb xml:id="leaf004r" facs="loc_ew.00518.jpg" type="recto"/>
+   <pb xml:id="leaf005r" facs="loc_ej.00179_large.jpg" type="recto"/>
+   
+   <!-- Sarah, come back to this spot! You need to encode "MEMORANDA" (surface 9) -->
+   
+   <pb xml:id="leaf005v" facs="loc_gk.00781_large.jpg" type="verso"/>
+   
+   <pb xml:id="leaf006r" facs="loc_ew.00518.jpg" type="recto"/>
    
    <note type="editorial" hand="#h04" place="top">S<del rend="overstrike"><unclear reason="illegible" resp="#sd" cert="medium">everal</unclear></del> additions let in April 1, '91 </note>
    
@@ -288,10 +297,67 @@
     <addSpan rend="pasteon" spanTo="#a009" hand="#h02"/>
     <p>&#182; Certain music<add><metamark target="#a010" function="add">&#8248;</metamark></add><add place="above" xml:id="a010">indeed,</add> especially voluntarily by a good <del rend="overstrike">n</del> player, at twilight&#8212;or idle rambles<add><metamark target="a011" function="add">&#8248;</metamark></add><add place="above" xml:id="a011">alone</add> by the shore, or <subst><del rend="overstrike" seq="1">on</del><add place="above" seq="2">over</add></subst> prairie or on mountain road, for that matter&#8212;favor the right mood. Words are difficult&#8212;even impossible. <subst><del rend="overstrike" seq="1">I have no</del><add place="above" seq="2">No</add></subst> doubt any one will recall ballads or songs or hymns (maybe instrumental performances) that have aroused<add><metamark target="a012" function="add">&#8248;</metamark></add><add place="above" xml:id="a012">so curiously, yet definitely</add> the thought of death, the mystic, the after-realm, as no statement or sermon could&#8212;and brought it hovering near.</p>
     <anchor xml:id="a009"/>
-   
+    
+    <p>A happy (to call it so) and easy death is at least as much a physiological result as a <subst hand="#h04"><del rend="overstrike" seq="1" xml:id="d010">phy</del><add place="left" seq="2"><metamark target="#d010" function="emphasize">/</metamark>psy<metamark target="d010" function="delete">&#948;</metamark></add></subst>schological one. The foundation of it really begins before birth, and is thence directly or indirectly shaped and affected, even constituted, (the ba<hi hand="#h04" rend="underline" xml:id="j007">se s</hi><add hand="#h04" place="left"><metamark target="#j007" function="adjust">?</metamark></add>tomachic) by every thing from that minute till the time of its occurence. And yet here is something (Whittier's "Burning Driftwood") of an opposite coloring:
+    
+    <fw rend="right">(37)</fw><cb/>
+     
+     <fw rend="left">38</fw> <fw rend="center">GOOD-BYE MY FANCY.</fw>
+    
+    <q>
+     <floatingText>
+      <body>
+       <lg type="poem">
+        <l>"I know the solemn monotone<lb/> of waters calling unto me;</l>
+        <l>I know from whence the airs have blown,<lb/> That whisper of the Eternal Sea;</l>
+        <l>As low my fires of driftwood burn,<lb/> I hear that sea's deep sound<hi hand="#h04" rend="overstrike"><hi hand="#h02" rend="underline" xml:id="j008">s</hi></hi><add hand="#h02" place="right"><metamark target="#j008" function="adjust">?</metamark></add> increase,</l>
+        <l>And, fair in sunset light, discern<lb/> Its mirage-lifted Isles of Peace."</l>
+       </lg>
+      </body>
+     </floatingText>
+    </q>
+    </p>
+    
+    <p>Like an invisible breeze after a long and sultry day, death sometimes sets in at last, soothingly and refreshingly, almost vitally. In not a few cases the termination even appears to be a sort of ecstasy. Of course there are painful deaths, but I do not believe such is at all the general rule. Of the many hundreds I myself saw die in the fields and hospitals during the Secession War the cases of mark'd suffering or agony <hi rend="italics">in extremis</hi> were <subst hand="#h04"><del rend="overstrike" seq="1">v</del><add place="right" seq="2">V</add></subst>ery rare. (It is a curious suggestion of immortality that the mental and emotional powers remain to their clearest through all, while the senses of pain and flesh-violition are blunted or even gone,)</p>
+    
+    <p>Then to give the following<add hand="#h04" place="inline"><metamark target="#a014" function="add">&#8248;</metamark></add><add hand="#h04" place="right" xml:id="a014">,<metamark target="#a014" function="emphasize">/</metamark></add> and cease before the thought gets threadbare:
+     
+     <q>
+      <floatingText>
+       <body>
+        <lg type="poem">
+         <l>"Now<add hand="#h04" place="inline"><metamark target="#a015" function="add">&#8248;</metamark></add><add hand="#h04" place="left" xml:id="a015"><metamark target="#a015" function="emphasize">/</metamark>,</add> land and life, final<del rend="overstrike" hand="#h04"><anchor xml:id="j010"/></del><add hand="#h04" place="right" rend="overline"><metamark target="#j010" function="delete">&#948;</metamark></add>, and farewell!</l>
+         <l>Now Voyager depart! (much, much for thee is yet in store;)</l>
+         <l>Often enough hast thou adventur'd o'er the seas,</l>
+         <l>Cautiously cruising, studying the charts,</l>
+         <l>Duly again to port and hawser's tie returning.</l>
+         <l>&#8212;But now obey thy cherish'd, secret wish,</l>
+         <l>Embrace thy friends&#8212;leave all in order;</l>
+         <l>To port and hawser's tie no more returning,</l>
+         <l>Depart upon thy endless cruise, old Sailor!"</l>
+        </lg>
+       </body>
+      </floatingText>
+     </q>
+    </p>
    </div>
    
-   <pb xml:id="leaf005v" facs="loc_gk.00781_large.jpg" type="verso"/>
+   <pb xml:id="leaf006v" facs="loc_ew.00519.jpg" type="verso"/>
+   
+   <div>
+    <addSpan rend="pasteon" spanTo="#a016"/>
+  
+      <q>
+       <floatingText>
+        <body>
+         <gap reason="obscured" extent="several lines"/>
+      <p><hi rend="italics">To the Friends of International Copyright:</hi> A wide-spread impression exists that</p>
+        </body>
+       </floatingText>
+      </q>
+    
+   <anchor xml:id="a016"/>
+   </div>
    
 </body>
 </text>
