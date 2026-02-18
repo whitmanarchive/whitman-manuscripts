@@ -116,7 +116,7 @@
 
       <li><strong>Editorial note: </strong><xsl:apply-templates select="//teiHeader/fileDesc/notesStmt/note[@type='project']"/> </li>
       
-      <!-- Attempting to add a display for work relations notes. KM, 2/18/26 -->
+      <!-- Added a display for work relations notes. Will want to discuss whether we actually want these, and, if so, we we want them separated from the above "Editorial note". KM, 2/18/26 -->
       <li><strong>Relationship to published works: </strong> <xsl:apply-templates select="//teiHeader/fileDesc/notesStmt/note[@type='work_relations']"/></li>
 
       <!-- pulled from notebooks P5 tylesheet and refactored original comment: relatedItem section (updated 4/28/17)-->
