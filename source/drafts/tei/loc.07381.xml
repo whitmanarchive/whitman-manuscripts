@@ -2,12 +2,12 @@
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00213"> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07381"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
     
-    <title level="m" type="main" rend="bracketed">even in the old attack</title>
+    <title level="m" type="main" rend="bracketed">Let me not dare</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -16,7 +16,8 @@
     <respStmt>
      <resp>Transcription and encoding</resp>
      
-     <persName xml:id="tb">Tara Ballard</persName>
+
+     <persName xml:id="ja">JC Andrews</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -46,7 +47,7 @@
     </availability>
     
 
-   <idno>tex.00213</idno>
+   <idno>loc.07381</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
@@ -61,49 +62,67 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>Even in the old attack and 6th or 7th recurrence</title>  
+     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
      
 <!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
        BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date cert=""></date>
+     <date notBefore="" notAfter="" cert=""></date>
      
-     <idno type="callno">TXRC03-A4</idno>
+     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
      
-     <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+<!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
+      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
+     <orgName xml:id=""></orgName>
      
      <note>Transcribed from digital images of the original.</note>
-     
+      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
      <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
      <relatedItem type="document" target="wwa.00041"/>
-     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.<!-- still be added --></note>
+     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
-   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="blue ink" xml:id="h02" resp="#unk"></handNote>
-    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
+   <handNotes>
+    <handNote medium="pencil" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
- <change when="2025-08-09" who="#tb">transcribed and encoded</change>
+
+ <change when="2026-02-18" who="#ja">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-   <pb xml:id="leaf001r" facs="tex.00213.001_large.jpg" type="recto"/>
-   <lg type="poem">
-     <l></l>
-     <l></l>
-     <l></l>
-   </lg>
-   
 
-   <pb xml:id="leaf001v" facs="tex.00213.002_large.jpg" type="verso"/>
+   <pb xml:id="leaf001r" facs="loc_sd.00390.jpg" type="recto"/>
+   
+   <p>
+    <subst><del rend="overstrike" seq="1">I dare not</del><add place="above" seq="2">Let me not dare</add></subst> attempt
+    any statement or definition
+    of Poetry,<del rend="overstrike"><gap extent="two units" reason="illegible"/></del><del rend="overstrike"><gap extent="one unit" reason="illegible"/></del>&#8212;or answering
+    the question <hi rend="tripleUnderline">W</hi>hat it is.
+    Like Religion, Love,
+    Nature, while the terms
+    are indispensable and we
+    give a sufficiently definite
+    meaning to them there
+    probably no defiition
+    that has ever been made
+    sufficiently encloses them,
+    nor any rule possibly
+    made or convention ever so
+    <unclear reason="illegible" resp="#ja" cert="low">obtuse</unclear> but some great
+    exception may resistlessly
+    break through
+    </p>
+   
+<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
+   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
    
 </body>
 </text>
