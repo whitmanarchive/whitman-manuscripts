@@ -2,14 +2,12 @@
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sal.00003"> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08456">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     
-
-    <title level="m" type="main" rend="bracketed">In the main</title>
+    <title level="m" type="main" rend="bracketed">November Boughs</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -18,7 +16,8 @@
     <respStmt>
      <resp>Transcription and encoding</resp>
      
-     <persName xml:id="ew">Emma Whaley</persName>
+
+     <persName xml:id="cm">Cynthia Mbagwu</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -26,7 +25,7 @@
    </titleStmt>
    <editionStmt>
     <edition>
-     <date>2024</date>
+     <date>2026</date>
     </edition>
    </editionStmt>
    <publicationStmt>
@@ -48,15 +47,14 @@
     </availability>
     
 
-   <idno>sal.00003</idno>
+   <idno>loc.08546</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
-
     
-     <note type="work_relations" target="xxx.00560" cert="high">
-      <p>Draft fragment of "American National Literature," first published in <hi rend="italic">Good-Bye My Fancy</hi> (1891). Whitman included this piece of literary criticism in <hi rend="italic">Complete Prose Works</hi> (1892).</p>
+     <note type="work_relations" target="xxx.00460" cert="high">
+      <p></p>
      </note>
    </notesStmt>
    
@@ -64,15 +62,15 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>[In the main I]</title>  
+     <title>November Boughs ( 1888 ); Proofs; Galley proofs (Container 23)</title>  
      
 
-     <date cert="high">about 1891</date>
+     <date notBefore="1844" notAfter="1919" cert="high"></date>
      
-     <idno type="callno">2010.9.262</idno>
+     <idno type="callno">mss18630</idno>
      
 
-     <orgName xml:id="sal">Salisbury House</orgName>
+     <orgName xml:id="loc">he Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
       
@@ -81,29 +79,28 @@
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="pencil" xml:id="h01" resp="#ww" scope="major"/>
-    <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
-    <handNote medium="purple crayon" xml:id="h03" resp="#ww" scope="minor"/>
+    <handNote medium="printed type" xml:id="h01" resp="#unk"></handNote>
+    <handNote medium="black ink" xml:id="h02" resp="#ww"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
 
- <change when="2024-10-23" who="#ew">transcribed and encoded</change>
+ <change when="2026-02-18" who="#cm">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-   <pb xml:id="leaf001r" facs="sal.00003.001_large.jpg" type="recto"/>
-   
-   <note type="authorial" place="top" hand="#h03" rend="marked">? at end</note>
-   <p>In the main <del rend="overstrike">is</del> I adhere to my positions in <hi rend="underline">Democratic Vistas,</hi> and especially to my summing&#11840;up (brief and crude as <add place="above">? that</add> it is,) of American literature<add place="below" hand="#h02"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" hand="#h02" rend="marked" xml:id="a003">, as far as to-day is concerned.</add></p>
-   <p>In Science and in Journalism the United States have<del rend="overstrike" hand="#h02">, so far,</del> pressed forward to the <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">glorious</add> front rank of <add place="below" hand="#h02"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a001">advanced</add> civilized states&#8212;in the popular dissemination of <del rend= "overstrike">books</del> printed matter (of a superficial nature, <subst hand="#h03" rend="overwrite"><add seq="2">perhaps</add><del seq="1">it is true</del></subst>, but that is the indispensable preparatory <subst><del seq="1" rend="overstrike">step</del><add seq="2" place="above">stage</add></subst>)&#8212;have gone far beyond any other land <del rend="overstrike">or past or</del> or age</p>
-   
 
-   <pb xml:id="leaf001v" facs="sal.00003.002_large.jpg" type="verso"/>
+   <pb xml:id="leaf001r" facs="loc_ja.00148.jpg" type="recto"/>
+   
+   <head>november Boughs</head>
+   <note></note>
+   
+<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
+   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
    
 </body>
 </text>
