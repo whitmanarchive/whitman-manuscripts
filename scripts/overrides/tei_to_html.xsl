@@ -337,10 +337,17 @@
   </xsl:template>
   
   <!-- do not display archival notes for manuscripts -->
-  <xsl:template match="//note[@type='archival']"/>
+  <xsl:template match="note[@type='archival']">
+    <span>
+      <xsl:attribute name="class">
+        <xsl:call-template name="add_attributes"/>
+      </xsl:attribute>
+      <xsl:apply-templates/>
+    </span>
+  </xsl:template>
   
   <!-- handle authorial notes differently for proof mss -->
-  <xsl:template match="*[@hand][preceding::handNote[@medium='letterpress']]">
+  <xsl:template match="*[substring-after(@hand,'#') = (preceding::handNote[@resp='#ww']/@xml:id)][preceding::handNote[@medium='letterpress']]">
     <xsl:variable name="hand_id" select="substring-after(@hand,'#')"/>
     <xsl:variable name="hand_resp" select="substring-after(preceding::handNote[@xml:id=$hand_id]/@resp,'#')"/>
     <span>
