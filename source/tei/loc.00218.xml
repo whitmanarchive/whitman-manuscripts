@@ -6,16 +6,14 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">My 71st Year</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
+     <persName xml:id="km">Kevin McMullen</persName>
      <persName xml:id="ew">Emma Whaley</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -28,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,8 +41,6 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.00218</idno>
    </publicationStmt>
    <notesStmt>
@@ -80,7 +75,7 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-02-23" who="#km">proofed</change>
  <change when="2024-11-19" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -92,8 +87,9 @@
    
    <note type="authorial" place="top" hand="#h02" rend="circled">proof</note>
    
-   <head type="main">MY 71<subst hand="#h02"><del seq="1" rend="overstrike">ST</del><add seq="2" place="above" xml:id="a001">st<metamark function="separate" target="#a001">/</metamark><note type="authorial">lower case of ital or something smaller</note></add></subst> YEAR.</head>
    <lg type="poem">
+    <head type="main">MY 71<subst hand="#h02"><del seq="1" rend="overstrike" xml:id="j001">ST</del><add seq="2" place="above" xml:id="a001">st<metamark function="emphasize" target="#a001">/</metamark><metamark function="adjust" target="#j001">lower case or ital or something smaller</metamark></add></subst> YEAR.</head>
+    
      <l>After surmounting three-score and ten,</l>
      <l>With all their chances, changes, losses, sorrows,</l>
      <l>My parents' deaths, the vagaries of my life, the many tearing<lb/>
