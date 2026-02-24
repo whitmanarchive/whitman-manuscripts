@@ -6,16 +6,14 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">"Going Somewhere"</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
+     <persName xml:id="km">Kevin McMullen</persName>
      <persName xml:id="ew">Emma Whaley</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -28,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,8 +41,6 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.00201</idno>
    </publicationStmt>
    <notesStmt>
@@ -60,13 +55,13 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “Going Somewhere” ( 1887 ); Proof sheets with corrections and notations</title>  
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; "Going Somewhere" ( 1887 ); Proof sheets with corrections and notations</title>  
      
      <date cert="high">About 1887</date>
      
      <idno type="callno">MSS 18630, box 27, folder Going Somewhere (1887). Proof Sheets</idno>
 
-     <orgName xml:id="loc">	The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
      
@@ -80,7 +75,7 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-02-23" who="#km">proofed</change>
  <change when="2024-11-19" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -90,31 +85,32 @@
    
    <pb xml:id="leaf001r" facs="loc_ew.00192.jpg" type="recto"/>
    
-   <head type="main">"GOING SOMEWHERE."</head>
    <lg type="poem">
+    <head type="main">"GOING SOMEWHERE."</head>
      <l>My science-friend, my noblest woman-friend,</l>
      <l>(Now buried in an English grave&#8212;and this is a memory-leaf for<lb/>
         her dear sake,)</l>
-     <l>Ended our talk&#8212;"The sum<add hand="#h02" place="below"><metamark function="add" target="#a001"></metamark></add><add hand="#h02" place="left" xml:id="a001">,<metamark function="separate" target="#a001">/</metamark></add>concluding all we know of old or<lb/>
-        modern learning<subst hand="#h02"><del seq="1" rend="overstrike">&#8212;</del><add seq="2" place="right" xml:id="a002">,<metamark function="separate" target="#a002">/</metamark></add></subst>intuitions deep,</l>
+     <l>Ended our talk&#8212;"The sum<add hand="#h02" place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a001">,<metamark function="emphasize" target="#a001">/</metamark></add> concluding all we know of old or<lb/>
+        modern learning<subst hand="#h02"><del seq="1" rend="overstrike">&#8212;</del><add seq="2" place="right" xml:id="a002">, <metamark function="emphasize" target="#a002">/</metamark></add></subst>intuitions deep,</l>
      <l>"Of all Geologies&#8212;Histories&#8212;of all Astronomy&#8212;of Evolution,<lb/>
         Metaphysics all,</l>
      <l>"Is, that we all are onward, onward, speeding slowly, surely<lb/>
         bettering,</l>
      <l>"Life, life an endless march, an endless army, (no halt, but<lb/>
         it is duly over,)</l>
-     <l>"The world, the race, the soul, in space and time the uni-<lb/>
-        verses,</l>
+     <l>"The world, the race, the soul, in space and time the <choice><orig>uni-<lb/>
+        verses</orig><reg>universes<lb/></reg></choice>,</l>
      <l>"All wisely bound as is befitting them&#8212;all surely going<lb/>
         somewhere."</l>
    </lg>
    
-   <signed>W<hi rend="smallcaps">alt</hi> W<hi rend="smallcaps">hitman.</hi></signed>
+   <signed>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</signed>
+   
    <signed><del rend="overstrike" hand="#h02" xml:id="d001">Walt Whitman.</del><add hand="#h02" place="left"><metamark function="delete" target="#d001">&#977;</metamark></add></signed>
    
    <note type="authorial" hand="#h02" place="bottom">(let me have 30 impressions</note>
    
-   <pb xml:id="leaf001v" facs="20051227_0042.jpg" type="verso"/>
+   <pb xml:id="leaf001v" facs="loc_km.00053.jpg" type="verso"/>
    
 </body>
 </text>
