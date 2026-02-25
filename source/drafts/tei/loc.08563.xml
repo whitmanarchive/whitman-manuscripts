@@ -82,6 +82,7 @@
     <handNote medium="letterpress" xml:id="h01" resp="#ww"/>
     <handNote medium="black ink" xml:id="h02" resp="#ww"></handNote>
     <handNote medium="pencil" xml:id="h03" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h04" resp="#unk"><name>Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
@@ -93,32 +94,34 @@
 
  <text type="manuscript">
   <body>
-   
-<note type="authorial" hand="#h03" rend="circled">1</note>
+   <note type="work_relations" target="xxx.00481"/>
+ <div>  
+<note type="collaborative" hand="#h04" rend="circled" place="top">1</note>
+   <note type="collaborative" hand="#h04" place="top"><unclear reason="illegible" resp="#ja" cert="high">George</unclear></note>
    <pb xml:id="leaf001r" facs="loc_ja.00173.jpg" type="recto"/>
    <head type="main">SMALL MEMORANDA.</head>
    <head type="sub" rend="italic">Thousands lost&#8212;here one or two preserv'd.</head>
    <p>
-    <hi rend="smallcaps">ATTORNEY GENERAL's OFFICE</hi>, <hi rend="italic">Washington, Aug. 22, 1865.</hi>&#8212;
+   A <hi rend="smallcaps">TTORNEY</hi> G<hi rend="smallcaps">ENERAL'S</hi> O<hi rend="smallcaps">FFICE</hi>, <hi rend="italic">Washington, Aug. 22, 1865.</hi>&#8212;
     As I write this, about noon, the suite of rooms here s fill'd with
     southerners, standing in squads, or streaming in and out, some
     talking with the Pardon Clerk, some waiting to see the Attorney
     General, others discussing in low tones among themselves. All
     are mainly anxious about their pardons. The famous 13th exception
-    of the President's Amnesty Proclamation of
+    of the President's Amnesty Proclamation of <add place="below" hand="#h04"><metamark function="add" target="#a004">&#8248; &#8248; &#8248;</metamark></add><add place="right" hand="#h04"><metamark function="delete" target="#a004">&#977;</metamark><del rend="overstrike" hand="#h04"><add place="right" hand="#h04" xml:id="a004"><metamark function="add" target="#a004">&#8248;</metamark><hi rend="circled">.</hi> <hi rend="circled">.</hi> <hi rend="circled">.</hi> <hi rend="circled">.</hi> <hi rend="circled">.</hi> <hi rend="circled">.</hi></add></del><metamark function="add" target="#a004">1 dash (3 &amp; 2 m)</metamark></add><add place="right" hand="#h04" rend="marked"><metamark function="question">?</metamark></add><add place="right" hand="#h02" rend="marked"><metamark function="add" target="#a004">5 or 6 em dashes (straight lines) to fill out here</metamark></add>
     makes it necessary that every secessionist, whose property is
     worth $20,000 or over, shall get a special pardon, before he can
     transact any legal purchase, sale, &amp;c. So hundreds and thousands
     of such property owners have either sent up here, for the last two
     months, or have been, or are now coming personally here, to get
     their pardons. They are from Virginia, Georgia, Alabama, Mississippi,
-    North and South Carolina, and every southern state.
+    North and South Carolina, and every southern <subst hand="#h03"><del rend="overstrike" seq="1">s</del><add place="right" rend="tripleUnderline" seq="2">S</add></subst>tate. 
     Some of their written petitions are very adject. Secession
     officers of the rank of Brigadier General, or higher, also need
     these special pardons. They also come here. I see streams of
     the $20,000 men, (and some women,) every day. I talk now
     and then with them, and learn much that is interesting and significant.
-    All the southern women that come are dress'd in deep
+    All the southern women that come <add place="below" hand="#h02" rend="marked"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="right" hand="#h02" xml:id="a001">(some spendid specimens, mothers, &amp;c.</add> are dress'd in deep
     black.
    </p>
    <p>
@@ -131,10 +134,10 @@
    </p>
    <p>
     The crowds that come here make a curious study for me. I
-    get along, very sociably, with any of them&#8212;as I let them do all
-    the talking; only now and then I ask a suggestive question or
-    two.
+    get along, very sociably, with any of them<del rend="overstrike" xml:id="d001" hand="#h02"><unclear reason="illegible" resp="#ja" cert="low">,</unclear></del><add place="left" hand="#h02"><metamark function="delete" target="#d001">&#977;</metamark></add>&#8212;as I let them do all
+    the talking; only now and then I <add place="below" hand="#h02"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="right" hand="#h02" xml:id="a002">have a long confab, or</add> ask a suggestive question or two.
    </p>
+   <note place="left" hand="#h03" type="authorial">105</note>
    <p>
     If the thing continues as at present, the property and wealth
     of the Southern States is going to legally rest, for the future, on
@@ -143,14 +146,79 @@
     make an attempt to restore it.
    </p>
    <p>
-    Washington, Sept. 8, 9, &amp;c., 1865.&#8212;The arrivals, swarms,
-    &amp;., of $20,000 men seeking pardons, still continues with increas'd
+    <hi rend="italic">Washington, Sept.</hi> 8, 9, &amp;c., 1865.&#8212;The arrivals, swarms,
+    &amp;., of <add place="below" hand="#h02"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="right" hand="#h02" xml:id="a003">the</add> $20,000 men seeking pardons, still continue<del rend="overstrike" xml:id="d002" hand="#h02">s</del><add place="right" hand="#h02"><metamark function="delete" target="#d002">&#977;</metamark></add> with increas'd
     numbers and pertinancy. I yesterday (I am a clerk in
     the U.S. Attorney General's office here) made out a long list
     from Alabama, nearly 200, recommended for pardon by the Pro-
    </p>
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+
+   <pb xml:id="leaf002r" facs="loc_ja.00174.jpg" type="recto"/>
+   <p>
+    visional Governor. This list, in the shape of a requisition from
+    the Attorney General, goes to the State Department. There the
+    Pardon Warrants are made out, brought back here, and then sent
+    to the President, where they await his signature. He is signing
+    them very freely of late.
+   </p>
+   <p>
+    The President, indeed, as at present appears, has fix'd his
+    mind on a very generous and forgiving course toward the return'd
+    secessionists. He will not countenance at all the demand
+    of the extreme Philo-African element of the North, to make the
+    right of negro voting at elections a condition and <hi rend="italic">sine quia non</hi>
+    of the reconstruction of the United States south, and of their
+    resmption of the co-equality in the Union.
+   </p>
+   <p>
+    <hi rend="italic">A glint inside of Abraham Lincoln's Cabinet appointment before&#8212;
+    one item of many</hi>.&#8212;While it was hanging in suspense who
+    should be appointed Secretary of the Interior, (to take the place
+    of Caleb Smith) the choice was very close between Mr. Harlan
+    and Col. Jesse K. Dubois, of Illiness. The latter had many
+    friends. He was competent, he was honest, and he was a <hi rend="italic">man</hi>.
+    Mr. Harlan, in the race, finally, gain'd the Methodist interest,
+    and got himself to be consider'd as identified with it, and his
+    appointment was apparently ask'd for by that powerful body.
+    Bishop Simpson, of Philadelphia, came on and spoke for the
+   appointment. The President was much perplex'd. The reasons
+   for appointing Col. Dubois were very strong, almost insuperable,
+   &#8212;yet the argument for Mr. Harlan, under the adroit position
+   he had plac'd himself, was heavy. Those who press'd him
+   accud'd the magnitude of the Methodists as a body, their loyalty
+   more general and genuine than any other sect, that they represented
+   the West, and had a right to be heard&#8212;that all or nearly
+   all the other great denominations had their representatives in the
+   heads of the government, that they as a body and the great
+   sectarian power of the West formally ask'd Mr. Harlan's appointment
+   &#8212; that he was of them, having been a Methodist
+   minister, that it would not do to offend them, but was highly
+   necessary to propitiate them.
+   </p>
+  <p>
+   Mr. Lincoln thought deeply over the whole matter. He was
+   in more than usual tribulation on the subject. Let it be enough
+   to say that though Mr. Harlan finally receiv'd the Secretaryship,
+   Col. Dubois came as near being appointed as a man could, and
+   not be. The decision was finally made one night about 10
+   o'clock. Bishop Simpson and other clergymen and leading persons
+   in Mr. Harlan's behalf, had been talking long and vehemently
+   with the President. A member of Congress who was
+   pressing Col. Dubois's claims, was in waiting. The President
+   had told the Bishop that he would make a decision that evening,
+   and that he thought it unnecessary to be press'd any more on the
+   subject. That night he call'd in the M. C. above alluded to and
+   said to him: "Tell Uncle Jesse that I want to give him this appointment,
+   and yet I cannot. I will do almost anything else in
+   the world for him I am able. I have thought the matter all over,
+   and under the circumstances think the Methodists too goo and
+   too great a body to be slighted. They have stood by the government,
+   and help'd us their very best. I have had no better friends;
+   and as the case stands, I have decided to appoint Mr. Harlan."
+  </p>
+ </div>
+   
+   <pb xml:id="leaf003r" facs="loc_ja.00175.jpg" type="recto"/>
    
 </body>
 </text>
