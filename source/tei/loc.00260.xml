@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00260"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
-    <title level="m" type="main">W W's Nov Boughs</title>
+    <title level="m" type="main">Paumanok</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
+     <persName xml:id="km">Kevin McMullen</persName>
      <persName xml:id="ew">Emma Whaley</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -28,7 +25,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,17 +40,13 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.00260</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
     
-     <note type="work_relations" target="xxx.00312" cert="medium">
-      <p>A small newspaper clipping of "Paumanok" pasted onto a larger sheet of paper, with notes and corrections in Whitman's hand. "Paumanok" was first published in the New York Herald in 1888.</p>
-     </note>
+     <note type="work_relations" target="xxx.00312" cert="medium">A small newspaper clipping of "Paumanok" pasted onto a larger sheet of paper, with notes and corrections in Whitman's hand. "Paumanok" was first published in the New York Herald in 1888.</note>
    </notesStmt>
    
    <sourceDesc>
@@ -84,8 +76,8 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
- <change when="2024-11-19" who="#ew">transcribed and encoded</change>
+  <change when="2026-02-27" who="#km">proofed</change>
+  <change when="2024-11-19" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -99,9 +91,13 @@
    <addSpan rend="pasteon" spanTo="#a001"/>
     <floatingText>
      <body>
-      <head type="main">PAUMANOK.</head>
-      <head type="sub"><del rend="overstrike" hand="#h04">T<hi rend="smallcaps">O THE</hi> E<hi rend="smallcaps">DITOR OF THE</hi> H<hi rend="smallcaps">ERALD</hi></del></head>
-      <lg type="poem">
+      <lg type="poem"> 
+       <head type="main">PAUMANOK.</head>
+       
+      <head type="sub"><del rend="overstrike" hand="#h04" xml:id="d01">T<hi rend="smallcaps">O THE</hi> E<hi rend="smallcaps">DITOR OF THE</hi> H<hi rend="smallcaps">ERALD</hi>:</del></head>
+       
+       <metamark function="delete" target="#d01"><add hand="#h05" place="right">X</add></metamark>
+       
        <l>Sea-beauty! stretch'd and basking!</l>
        <l>One side thy inland ocean laving, broad, with<lb/>
           copious commerce, steamers, sails,</l>
@@ -110,7 +106,7 @@
           distance.</l>
        <l>Isle of sweet brooks of drinking-water&#8212;healthy<lb/>
           air and soil!</l>
-       <l>Isle of salty shore and breeze and brine!</l>
+       <l>Isle of the salty shore and breeze and brine!</l>
       </lg>
      </body>
     </floatingText>
