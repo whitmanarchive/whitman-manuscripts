@@ -7,15 +7,14 @@
   <fileDesc>
    <titleStmt>
     
-    <title level="m" type="main" rend="bracketed">Over and through the burial chant</title>
+    <title level="m" type="main" rend="bracketed">Interpelations</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
+     <persName xml:id="km">Kevin McMullen</persName>
      <persName xml:id="ew">Emma Whaley</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -28,7 +27,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,8 +42,6 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.00253</idno>
    </publicationStmt>
    <notesStmt>
@@ -55,7 +51,6 @@
       <p>Clipped-out copy of "Over and Through the Burial Chant" from the August 12, 1888 issue of the <hi rend="italic">New York Herald</hi>, with notations in Whitman's hand. The poem was later published as "Interpolation Sounds."</p>
      </note>
    </notesStmt>
-   
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
@@ -80,8 +75,7 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
-
+  <change when="2026-02-27" who="#km">proofed</change>
  <change when="2024-11-19" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -91,8 +85,9 @@
 
    <pb xml:id="leaf001r" facs="loc_ew.00213.jpg" type="recto"/>
    
-   <head hand="#h02"><del><unclear reason="illegible" resp="#ew">Fieimasal</unclear></del>Interpelations</head>
    <lg type="poem">
+    <addSpan hand="#h02" spanTo="#a001"/><head><del rend="overstrike" hand="#h02">Funeral</del> Interpelations</head><anchor xml:id="a001"/>
+    
      <l>Over and through the burial chant,</l>
      <l>Organ and solemn service, sermon, bending priests,</l>
      <l><del hand="#h02" rend="overstrike">To me</del> <subst hand="#h02"><del rend="overwrite">c</del><add rend="overwrite">C</add></subst>ome interpolation sounds not in the show&#8212;<lb/>
@@ -101,7 +96,7 @@
      <l>Of sudden battle's hurry and harsh noises&#8212;war's,<lb/>
         war's grim game to sight and ear in earnest;</l>
      <l>The scout call'd up and forward&#8212;the General<lb/>
-        mounted and his aides around him&#8212;the new<add hand="#h02" xml:id="a001">&#11840;<metamark function="emphasize" target="#a001">/</metamark></add><lb/>
+        mounted and his aides around him&#8212;the new<add hand="#h02" xml:id="a002">&#11840;<metamark function="emphasize" target="#a002">/</metamark></add><lb/>
         brought word&#8212;the instantaneous order issued;</l>
      <l>The rifle crack&#8212;the cannon thud&#8212;the rushing forth<lb/>
         of men from their tents;</l>
