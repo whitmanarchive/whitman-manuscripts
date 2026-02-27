@@ -49,8 +49,7 @@
    <notesStmt>
       <note type="project" target="#dat1">The leaf on which this draft appears is comprised, in part, of an envelope on which appears a postmark for February 18, 1885, and it is likely that Whitman wrote it between that date and February 22, when the poem was published in the Philadelphia Press under the title "Ah, Not This Granite Dead and Cold." Because the earliest writing on the leaf was done in pencil, and all of the lines on the envelope scrap are in ink, it is possible that the top part of the manuscript was begun somewhat earlier.</note>
     
-     <note type="work_relations" target="xxx.00343" cert="high">
-      <p>This poem was originally published as "Ah, Not This Granite Dead and Cold" in the <hi rend="italic">Philadelphia Press</hi> on February 22, 1885. Whitman later revised it as "Washington's Monument, February, 1885" for the "Sands at Seventy" section of <hi rend="italic">November Boughs</hi> (1888).</p>
+     <note type="work_relations" target="xxx.00343" cert="high">This poem was originally published as "Ah, Not This Granite Dead and Cold" in the <hi rend="italic">Philadelphia Press</hi> on February 22, 1885. Whitman later revised it as "Washington's Monument, February, 1885" for the "Sands at Seventy" section of <hi rend="italic">November Boughs</hi> (1888).
      </note>
    </notesStmt>
    
@@ -72,7 +71,8 @@
     <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
    </handNotes>
   </profileDesc>
-<revisionDesc>
+    <revisionDesc>
+       <change when="2026-02-27" who="#bb">removed p from work_relations note; moved head inside lg</change>
    <change when="2026-01-27" who="#bb">proofed</change>
    <change when="2024-11-20" who="#ew">transcribed and encoded</change>
 </revisionDesc>
@@ -81,10 +81,10 @@
  <text type="manuscript">
   <body>
    <pb xml:id="leaf001r" facs="pml_nk.00052_large.jpg" type="recto"/>
-   <head type="main" rend="underline">
+   <lg type="poem">
+      <head type="main" rend="underline">
       <del rend="overstrike" hand="#h02">
          <add hand="#h02" place="above">Far, far,</add></del> Beyond this <subst hand="#h02"><del seq="1" rend="overstrike">marble</del> <add place="above" seq="2">granite</add></subst> dead and cold.</head>
-   <lg type="poem">
      <l><del rend="overstrike" hand="#h02"><add hand="#h02" place="above">Far, far,</add></del> Beyond this <subst hand="#h02"><del seq="1" rend="overstrike">marble</del> <add place="above">granite</add></subst> dead and cold</l>
       <metamark function="unknown"><del rend="overstrike" hand="#h01"><add hand="#h01">*</add></del></metamark>
      <l><subst hand="#h02"><del seq="1" rend="overstrike">Out <add hand="#h01" place="above">out</add></del> <add seq="2" place="above">Far, far</add></subst> from <del rend="overstrike">this</del> base and shaft <choice><orig>ex-<lb/>panding</orig><reg>expanding<lb/></reg></choice>&#8212;the round <subst><del seq="1" rend="overstrike">earth</del> <add seq="2" place="above">zones</add></subst> circling, <add place="above">comprehending each &amp; all</add><lb/>
