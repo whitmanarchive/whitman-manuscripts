@@ -6,16 +6,14 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">Of That Blithe Throat of Thine</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
+     <persName xml:id="km">Kevin McMullen</persName>
      <persName xml:id="ew">Emma Whaley</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -24,11 +22,10 @@
    </titleStmt>
    <editionStmt>
     <edition>
-     <date>2024</date>
+     <date>2026</date>
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,15 +41,12 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.00227</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
-     <note type="work_relations" target="xxx.00344" cert="high">
-      <p>This proof is grouped with other copies of proof sheets that represent different stages of the printing. "Of That Blithe Throat of Thine" was published first in January, 1885.</p>
+     <note type="work_relations" target="xxx.00344" cert="high">This proof is grouped with other copies of proof sheets that represent different stages of the printing. "Of That Blithe Throat of Thine" was published first in January, 1885.
      </note>
    </notesStmt>
    
@@ -81,7 +75,7 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-02-27" who="#km">proofed</change>
  <change when="2024-11-19" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -93,19 +87,33 @@
    
    <note type="authorial" hand="#h03" place="top" rend="marked">Camden New Jersey Oct 17 '84</note>
    
-   <head type="main">Of that <subst hand="#h02"><del seq="1" rend="overstrike">b</del><add seq="2" place="above">B</add></subst>lithe Throat of <subst hand="#h02"><del seq="1" rend="overstrike">t</del><add seq="2" place="above">T</add></subst>hine</head>
-   <metamark function="emphasize">#</metamark>
-   <p>[More than 83 degrees north&#8212;about a good days' steaming distance to the Pole by one of our fast oceaners in clear water&#8212;Greely heard the song of a single snow-bird merrily sounding over the desolation.]</p>
-   <metamark function="emphasize">#</metamark>
-   <lg type="poem">
+  <lg type="poem"> 
+   <head type="main">Of that <subst hand="#h02"><del seq="1" rend="overstrike">b</del><add seq="2" place="above" rend="tripleUnderline">B</add></subst>lithe Throat of <subst hand="#h02"><del seq="1" rend="overstrike">t</del><add seq="2" place="above" rend="tripleUnderline">T</add></subst>hine</head>
+   
+   <anchor xml:id="e001"/>
+   
+   <metamark function="emphasize" target="#e001"><add hand="#h02" place="right" rend="marked">#</add></metamark>
+   
+   <epigraph><p>[More than 83 degrees north&#8212;about a good days' steaming distance to the Pole by one of our fast oceaners in clear water&#8212;Greely heard the song of a single snow-bird merrily sounding over the desolation.]</p></epigraph>
+   
+   <anchor xml:id="e002"/>
+   
+   <metamark function="emphasize" target="#e002"><add hand="#h02" place="right" rend="marked">#</add></metamark>
+   
      <l>Of that blithe throat of thine from arctic bleak and blank<add hand="#h02">,</add></l>
      <l>I'll mind the lesson, solitary bird&#8212;let me too welcome chilli<subst hand="#h02"><del seq="1" rend="overstrike">u</del><add seq="2" place="right" xml:id="a001">n<metamark function="emphasize" target="#a001">/</metamark></add></subst>g<lb/>
         drifts<subst hand="#h02"><del seq="1" rend="overstrike">.</del><add seq="2" place="left" xml:id="a002">,<metamark function="emphasize" target="#a002">/</metamark></add></subst></l>
-     <l>E'en the profoundest chill<add hand="#h02" place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a003">,<metamark function="emphasize" target="#a003">/</metamark></add> as now&#8212;a torpid pulse, a brain un-<lb/>
-        nerv'd,</l>
-     <l>Old age land-lock'd within its winter bay&#8212;(cold<subst hand="#h02"><del seq="1" rend="overstrike">.</del><add seq="2" place="right" xml:id="a004">,<metamark function="emphasize" target="#a004">/</metamark></add></subst> cold, O cold!)<lb/>
-        <note type="authorial" hand="#h02">no space</note></l>
-     <l>These snowy hairs, <del hand="#h02" rend="overstrike" xml:id="d001">(</del><metamark function="delete" target="#d001">&#977;</metamark>my feeble arm, my frozen feet,</l>
+     <l>E'en the profoundest chill<add hand="#h02" place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a003">,<metamark function="emphasize" target="#a003">/</metamark></add> as now&#8212;a torpid pulse, a brain <choice><orig>un-<lb/>
+        nerv'd</orig><reg>unnerv'd<lb/></reg></choice>,</l>
+     <l>Old age land-lock'd within its winter bay&#8212;(cold<subst hand="#h02"><del seq="1" rend="overstrike">.</del><add seq="2" place="right" xml:id="a004">,<metamark function="emphasize" target="#a004">/</metamark></add></subst> cold, O cold!)</l>
+   
+      <anchor xml:id="d001"/>
+   
+      <metamark function="delete" target="#d001"><del rend="overstrike" hand="#h02"><add hand="#h02">no space</add></del></metamark>
+   
+     <metamark function="delete" target="#d001"><add hand="#h02" place="left">((</add></metamark>
+   
+     <l>These snowy hairs, <del hand="#h02" rend="overstrike" xml:id="d002">(</del><metamark function="delete" target="#d002">&#977;</metamark>my feeble arm, my frozen feet,</l>
      <l>For them thy faith<add hand="#h02" place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a005">,<metamark function="emphasize" target="#a005">/</metamark></add>thy rule I take, and grave it to the last;</l>
      <l>Not summer's zones alone&#8212;not chants of youth or south's warm<lb/>
         tides alone,</l>
