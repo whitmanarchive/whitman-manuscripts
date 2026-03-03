@@ -3,91 +3,72 @@
 <?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08500"> 
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    
-    <title level="m" type="main">Gathering the Corn</title>
-    <title level="m" type="sub">a machine readable transcription</title>
-    <author>Walt Whitman</author>
-    <editor>Kenneth M. Price</editor>
-    <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
-    <respStmt>
-     <resp>Transcription and encoding</resp>
-     
-     <persName xml:id="kmh">Kenneth Michael Hoover</persName>
-    </respStmt>
-    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
-    <sponsor>University of Iowa</sponsor>
-    <funder>The National Endowment for the Humanities</funder>
-   </titleStmt>
-   <editionStmt>
-    <edition>
-     <date>2026</date>
-    </edition>
-   </editionStmt>
-   <publicationStmt>
-    
-    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
-    <address>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Gathering the Corn</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <editor>Matt Cohen</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="kmh">Kenneth Michael Hoover</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2026</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+                <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
                     <addrLine>319 Love Library</addrLine>
                     <addrLine>University of Nebraska-Lincoln</addrLine>
                     <addrLine>P.O. Box 884100</addrLine>
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
-    <availability>
-     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
-     <p>
-      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
-      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
-      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
-    </availability>
-    
-
-   <idno>loc.08500.xml</idno>
-   </publicationStmt>
-   <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
-    
-<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
-     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
-     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
-     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
-    
-     <note type="work_relations" target="xxx.00561" cert="high">
-      <p></p>
-     </note>
-   </notesStmt>
-   
-   <sourceDesc>
-    <bibl>
-     <author xml:id="ww">Whitman, Walt</author>
-     
-     <title></title>  
-     
-     <date notBefore="" notAfter="" cert=""></date>
-     
-     <idno type="callno"></idno>
-     
-     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839-1919, Library of Congress, Washington, D.C.</orgName>
-     
-     <note>Transcribed from digital images of the original.</note>
-      
-    </bibl>
-   </sourceDesc>
-</fileDesc>
-  <profileDesc>
-   <handNotes>
-    <handNote medium="letterpress" xml:id="h01" resp="#unk1"><name xml:id="unk">Unknown1</name></handNote>
-    <handNote medium="pencil" xml:id="h02" resp="#ww"/>
-    <handNote medium="pencil" xml:id="h03" resp="#ht"><name xml:id="ht">Horace Traubel</name></handNote>
-    <handNote medium="pencil" xml:id="h04" resp="#unk3"><name xml:id="unk3">Unknown3</name></handNote>
-    <handNote medium="black ink" xml:id="h05" resp="#ww"/>
-   </handNotes>
-  </profileDesc>
-<revisionDesc>
+                <availability>
+                    <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners. The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+                <idno>loc.08500</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>    
+                <note type="work_relations" target="xxx.00561" cert="high">
+                    <p>This one is "Gathering the Corn."</p>
+                </note>
+                <note type="work_relations" target="xxx.00562" cert="high">
+                    <p>This one is "A Death Bouqet."</p>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author xml:id="ww">Whitman, Walt</author>
+                    <title></title>
+                    <date notBefore="" notAfter="" cert=""></date>
+                    <idno type="callno"></idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <note>Transcribed from digital images of the original.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote medium="letterpress" xml:id="h01" resp="#unk1"><name xml:id="unk1">Unknown1</name></handNote>
+                <handNote medium="pencil" xml:id="h02" resp="#ww"/>
+                <handNote medium="pencil" xml:id="h03" resp="#ht"><name xml:id="ht">Horace Traubel</name></handNote>
+                <handNote medium="pencil" xml:id="h04" resp="#unk3"><name xml:id="unk3">Unknown3</name></handNote>
+                <handNote medium="black ink" xml:id="h05" resp="#ww"/>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc>
  
  <change when="2026-02-05" who="#kmh">transcribed and encoded</change>
 </revisionDesc>
@@ -100,7 +81,7 @@
    <note type="authorial" hand="#h02" place="top">send revise proofs</note>
    <note type="editorial" hand="#h03" place="left" rend="underline">April 1, 1891</note>   
    <head type="main">GATHERING THE CORN.</head>
-   <p><hi rend="ital">Last of October.</hi>&#8212;Now mellow, crisp Autumn days, bright moonlight nights, and gathering the corn&#8212;"cutting up," as the farmers call it. Now, or of late, all over the country, a certain green and brown-drab eloquence seeming to call out, "You that pretend to give the news, and all that's going, why not give us a notice?" Truly, O fields, as for the notice,</p>
+   <p><hi rend="italic">Last of October.</hi>&#8212;Now mellow, crisp Autumn days, bright moonlight nights, and gathering the corn&#8212;"cutting up," as the farmers call it. Now, or of late, all over the country, a certain green and brown-drab eloquence seeming to call out, "You that pretend to give the news, and all that's going, why not give us a notice?" Truly, O fields, as for the notice,</p>
    <q>
     <floatingText>
      <body>
@@ -111,11 +92,11 @@
    <p>Only we must do it our own way. Leaving the domestic, dietary, and commercial parts of the question (which are enormous, in fact, hardly second to those of any other of our great soil-products), we will just saunter down a lane we know, on an average West Jersey farm, and let the fancy of the hour itemize America's most typical agricultural show and specialty.</p>
    <note type="editorial" hand="#h04" place="left" target="#e001 #e002">&#9758;see copy}obscure</note>
    <p>Gathering the Corn&#8212;the British call it Maize, the old Yankee farmer Indian Corn. The great plumes, the ears well-envelop'd in their husks, the long <hi rend="underline" hand="#h04" xml:id="e001">and poi</hi>nted leaves, in summer, like <choice><orig>gree<hi rend="underline" hand="#h04" xml:id="e002">n purple rib</hi>ands</orig><reg>green purple ribands</reg></choice>, with a yellow stem-line in the middle, all now turn'd dingy; the sturdy stalks, and the rustling in the breeze&#8212;the breeze itself well tempering the sunny noon&#8212;The varied reminiscences recall'd&#8212;the ploughing and planting in spring&#8212;(the whole family in the field, even the little girls and boys dropping seed in the hill)&#8212;the gorgeous sight through July and August&#8212;the walk and observation early in the day&#8212;the cheery call of the robin, and the low whirr of <del rend="overstrike" hand="#h05" xml:id="e003">the</del><add place="left" hand="#h05"><metamark function="emphasize" target="#e003">&#977;</metamark></add> insects in the grass&#8212;the Western husking party, when ripe&#8212;the November moonlight gathering, and the calls, songs, laughter of the young fellows.</p>
-   <p>Not to forget, hereabouts, in the Middle States, the old worm fences<add place="below" hand="#h05" xml:id="e004"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="left" hand="#h05" xml:id="a001">,</add><add place="left" hand="#h05"><metamark function="emphasize" target="#e004">/</metamark></add> with the gray rails and their scabs of moss and lichen&#8212;those old rails, weather beaten, but strong yet<subst hand="#h05"><del rend="overstrike">!</del><add place="right" rend="circled">.</add></subst> Why not come down from literary dignity, and confess we are sitting on one now, under the shade of a great walnut tree? Why not confide that these lines are pencill'd on the edge of a woody bank, with a glistening pond and creek seen through the trees south, and the corn we are writing about close at hand on the north? Why
+   <p>Not to forget, hereabouts, in the Middle States, the old worm fences<add place="below" hand="#h05" xml:id="e004"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="left" hand="#h05" xml:id="a001">,</add><add place="left" hand="#h05"><metamark function="emphasize" target="#e004">/</metamark></add> with the gray rails and their scabs of moss and lichen&#8212;those old rails, weather beaten, but strong yet<subst hand="#h05"><del rend="overstrike" seq="1">!</del><add place="right" rend="circled" seq="2">.</add></subst> Why not come down from literary dignity, and confess we are sitting on one now, under the shade of a great walnut tree? Why not confide that these lines are pencill'd on the edge of a woody bank, with a glistening pond and creek seen through the trees south, and the corn we are writing about close at hand on the north? Why
    <fw type="footer" place="right">(35)</fw>
    <cb/>
    <fw type="head" place="left">36</fw><fw type="head" place="center" rend="ital">GOOD-BYE MY FANCY.</fw>
-   <choice><orig><add place="left" hand="#h04" xml:id="a002" rend="marked">n</add><add place="below" hand="#h04"><metamark function="add" target="#a002">&#8248;</metamark></add>ot</orig><reg>not</reg></choice> put in the delicious scent of the "life everlasting" that <choice><orig>ye<subst hand="#h02"><del rend="overstrike" seq="1" xml:id="e005">f</del><add place="right" rend="marked" seq="2"><metamark function="emphasize" target="#e005">&#948;</metamark></add><add place="above" rend="marked" seq="3">t</add></subst></orig><reg>yet</reg></choice> lingers <choice><orig>s<del hand="#h02" rend="closeup" xml:id="d001"> </del><add place="above" hand="#h02"><metamark function="delete" target="#d001">&#65077;</metamark></add>o</orig><reg>so</reg></choice> profusely in every direction&#8212;the chromatic song <choice><orig>o<add place="right" hand="#h02" rend="marked">f</add></orig><reg>of</reg></choice> the one persevering locust (the insect is scarcer this fall and the past summer than for many years) beginning slowly, rising and swelling to much emphasis, and then abruptly falling&#8212;so appropriate to the scene, so quaint, so racy and suggestive in the warm sunbeams, we could sit here and look and listen for an hour<subst hand="#h05"><del rend="overstrike" seq="1">.</del><add place="right" seq="2" rend="marked" xml:id="e006">?</add><add place="right" seq="3"><metamark function="emphasize" target="#e006">/</metamark></add></subst> Why<del rend="overstrike" hand="#h005">,</del> not even the tiny, turtle-shaped, yellow-back'd, black-spotted <choice><orig>lady<subst><del seq="1"> </del><add place="below" seq="2"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="left" seq="2" xml:id="e007">&#11840;<metamark function="emphasize" target="#e007">/</metamark></add></subst>bug</orig><reg>lady-bug</reg></choice> that has lit on the shirt-sleeve of the arm inditing this? Ending our list with the full-drying grass, the Autumn days themselves,</p>
+   <choice><orig><add place="left" hand="#h04" xml:id="a002" rend="marked">n</add><add place="below" hand="#h04"><metamark function="add" target="#a002">&#8248;</metamark></add>ot</orig><reg>not</reg></choice> put in the delicious scent of the "life everlasting" that <choice><orig>ye<subst hand="#h02"><del rend="overstrike" seq="1" xml:id="e005">f</del><add place="right" rend="marked" seq="2"><metamark function="emphasize" target="#e005">&#948;</metamark></add><add place="above" rend="marked" seq="3">t</add></subst></orig><reg>yet</reg></choice> lingers <choice><orig>s<del hand="#h02" rend="closeup" xml:id="d001"> </del><add place="above" hand="#h02"><metamark function="delete" target="#d001">&#65077;</metamark></add>o</orig><reg>so</reg></choice> profusely in every direction&#8212;the chromatic song <choice><orig>o<add place="right" hand="#h02" rend="marked">f</add></orig><reg>of</reg></choice> the one persevering locust (the insect is scarcer this fall and the past summer than for many years) beginning slowly, rising and swelling to much emphasis, and then abruptly falling&#8212;so appropriate to the scene, so quaint, so racy and suggestive in the warm sunbeams, we could sit here and look and listen for an hour<subst hand="#h05"><del rend="overstrike" seq="1">.</del><add place="right" seq="2" rend="marked" xml:id="e006">?</add><add place="right" seq="3"><metamark function="emphasize" target="#e006">/</metamark></add></subst> Why<del rend="overstrike" hand="#h005">,</del> not even the tiny, turtle-shaped, yellow-back'd, black-spotted <choice><orig>lady<subst><del rend="closeup" seq="1"> </del><add place="below" seq="2"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="left" seq="2" xml:id="e007">&#11840;<metamark function="emphasize" target="#e007">/</metamark></add></subst>bug</orig><reg>lady-bug</reg></choice> that has lit on the shirt-sleeve of the arm inditing this? Ending our list with the full-drying grass, the Autumn days themselves,</p>
    <q>
     <floatingText>
      <body>
@@ -167,7 +148,7 @@
    <fw type="footer" place="right">(37)</fw>
    
    
-   <!-- 
+   <!--  
    ==================================================================
    NOTE TO KENNETH: Talk to Kevin before continuing work on this file
    ==================================================================
@@ -181,7 +162,7 @@
     <note type="work_relations" target="xxx.00562" cert="high"/>
     <head type="main">A DEATH-BOUQUET.</head>
     
-    <note type="authorial" rend="italics">Pick'd Noontime<add hand="#h02" xml:id="a006">&#8248;</add><add hand="#h02" place="left">,<metamark target="#a006" function="emphasize">/</metamark></add> Early January<add hand="#h04" xml:id="a007"><metamark target="#a007" function="emphasize">/</metamark>,</add> 1890.</note>
+    <note type="authorial" rend="italics">Pick'd Noontime<add hand="#h05" xml:id="a006">&#8248;</add><add hand="#h02" place="left">,<metamark target="#a006" function="emphasize">/</metamark></add> Early January<add hand="#h04" xml:id="a007"><metamark target="#a007" function="emphasize">/</metamark>,</add> 1890.</note>
     
     <p>D<hi rend="smallcaps">EATH</hi>&#8212;too great a subject to be treated so&#8212;indeed the greatest subject&#8212;and yet I am giving you but a few random lines about it&#8212;as one writes hurriedly the last part of a letter to catch the closing mail. Only I trust the lines, especially the poetic bits quoted, may leave a lingering odor of spiritual heroism afterward. For I am probably fond of viewing all really great themes indirectly, and by side-ways and suggestions. Certain music from wondrous voices or skillful players&#8212;then poetic glints still more&#8212;put the soul in rapport with death, or toward it. Hear a strain from Tennyson's late "Crossing the Bar":
      
@@ -192,7 +173,7 @@
          <lg type="linegroup">
           <l>"Twilight and evening hell,<lb/> And after that the dark!</l>
           <l>And may there be no sadness of farewell,<lb/> When I Embark;</l>
-         </lg>
+         </lg>ca
          
          <lg type="linegroup">
           <l>"For tho' from out our bourne of Time and Place<lb/> The floods may bear me far,</l>

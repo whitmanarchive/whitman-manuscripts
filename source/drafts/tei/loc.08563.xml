@@ -82,7 +82,7 @@
     <handNote medium="letterpress" xml:id="h01" resp="#ww"/>
     <handNote medium="black ink" xml:id="h02" resp="#ww"></handNote>
     <handNote medium="pencil" xml:id="h03" resp="#ww"/>
-    <handNote medium="pencil" xml:id="h04" resp="#unk"><name>Unknown</name></handNote>
+    <handNote medium="pencil" xml:id="h04" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
@@ -223,11 +223,90 @@
    <div>
    <pb xml:id="leaf003r" facs="loc_ja.00175.jpg" type="recto"/>
     <head type="main">NOTE TO A FRIEND.</head>
-    <
+    <dateline>[Written on the fly-leaf of a copy of "Specimen Days," sent to Peter
+    Doyle, at Washington, June, 1883.]</dateline>
+    
     <p>
-     
+     <add place="left" hand="#h03"></add>
+     Pete, do you remember&#8212;(of course you do&#8212;I do well)&#8212;those
+     great long jovial walks we had at times for years, (1866&#8211;'72) out
+     of Washington City&#8212;often moonlight nights&#8212;'way to "Good
+     Hope";&#8212;or, Sundays, up and down the Potomac shores, one
+     side or the other, sometimes ten miles at a stretch? Or when
+     you work'd on the horse-cars, and I waited for you, coming
+     home late together&#8212;or resting and chatting at the <subst hand="#h02"><del rend="overstrike" seq="1">m</del><add place="right" seq="2" rend="tripleUnderline">M</add></subst>arket, corner
+     7th Street and the Avenue, and eating those nice musk or
+     watermelons? Or during my tedious sickness and first paralysis
+     ('73) how you used to come to my solitary garret-room and make
+     up my bed, and enliven me, and chat for an hour or so&#8212;or perhaps
+     go out and get the medicines Dr. Drinkard had order'd for
+     me&#8212;before you went on duty? . . . . . . . . . Give my love to dear Mrs.
+     and Mr. Nash, and tell them I have not forgotten<subst hand="#h02"><del rend="overstrike" seq="1">,</del><add place="right" seq="2">them,</add></subst> and never will.
     </p>
+    <byline rend="right">W. W.</byline>
    </div>
+   
+   
+   <note type="work_relations" target="xxx.00483"/>
+   <div>
+    <head type="main">WRITTEN IMPROMPTU IN AN ALBUM.</head>
+    <dateline>G<hi rend="smallcaps">ERMANTOWN</hi>, P<hi rend="smallcaps">HILA</hi>., DEC. 25, '83.</dateline>
+    <p>
+     In memory of these merry Christmas days and nights&#8212;to my
+     friends Mr. and Mrs. Williams, Churchie, May, Gurney, and
+     little Aubrey . . . . . . . . . . A heavy snow-storm blocking up everything,
+     and keeping us in. But souls, hearts, thoughts, unloos'd.
+     And so&#8212;one and all, little and big&#8212;hav'n't we had a good
+     time?
+    </p>
+    <byline rend="right">W. W.</byline>
+   </div>
+   
+   <note type="work_relations" target="xxx.00484"/>
+   <div>
+    <note type="collaborative" hand="#h04" rend="circled" place="top">3</note>
+    <dateline rend="italic">From the Philadelphia press, Nov. 27, 1884, (Thanksgiving number.)</dateline>
+    <head type="main" rend="circled">THE PLACE GRATITUDE FILLS IN A FINE CHARACTER.</head>
+    <p xml:id="tr001">
+    <add place="right" hand="#h02"><metamark function="adjust" target="#a015">? set this head in the same (<unclear reason="illegible" resp="#ja" cert="low">2 brev.</unclear>)caps as the above items</metamark></add>
+     <hi rend="italic">Scene.</hi>&#8212;A large family supper party, a night or two ago, with
+     voices and laughter of the young, mellow faces of the old, and a
+     by-and-by pause in the general jovialty. "Now, Mr. Whitman,"
+     spoke up one of the girls, "what have you to say about Thanksgiving?
+     Won't you give us a sermon in advance, to sober us
+     down?" The sage nodded smilingly, look'd a moment at the
+     blaze of the great wood fire, ran his forefinger right and left
+     through the heavy white moustache that might have otherwise
+     impeded his voice, and began: "Thanksgiving goes probably far
+     deeper than you folks suppose. I am not sure but it is the source
+     of the highest poetry&#8212;as in parts of the Bible. Ruskin, indeed,
+     makes the central source of all great art to be praise (gratitude)
+     to the Almighty for life, and the universe with its objects and
+     play of action.
+    </p>
+    <p xml:id="tr002">
+     "We Americans devote and official day to it every year; yet I
+     sometimes fear the real article is almost dead or dying in our self-sufficient,
+     independent Republic. Gratitude, anyhow, has never
+     been made half enough of by the moralists; it is indispensible
+     to a complete characer, man's or woman's&#8212;the disposition to be
+     appreciative, thankful. That is the main matter, the element,
+     inclination&#8212;what geologists call the <hi rend="italic">trend</hi>. Of my own life and
+     writings I estimate the giving thanks part, with what it infers, as
+     essentially the best item. I should say the quality of gratitude
+     rounds the whole emotional nature; I should say love and faith
+     would quite lack vitality without it. There are people&#8212;shall I
+     call them even religious people, as things go?&#8212;who have no such
+     trend to their disposition."
+    </p>
+    <listTranspose>
+     <transpose rend="marked">
+      <ptr target="#tr002"/>
+      <ptr target="#tr001"/>
+     </transpose>
+    </listTranspose>
+   </div>
+   <note type="collaborative" hand="#h04" place="bottom"><unclear reason="illegible" resp="#ja" cert="low">Reline</unclear> all <hi rend="underline">copy</hi> with <hi rend="underline">proof</hi>.</note>
 </body>
 </text>
 </TEI>
