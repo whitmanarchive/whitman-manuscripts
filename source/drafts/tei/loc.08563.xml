@@ -62,13 +62,12 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Oversize, 1844-1952; Literary File; Books; November Boughs (1888); Proofs; Galley proofs (Container 23)</title>  
      
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date notBefore="" notAfter="" cert=""></date>
+
+     <date when="1888" cert="high">About 1888</date>
      
-     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     <idno type="callno">mss18630, box OV 4</idno>
      
 
      <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
@@ -192,7 +191,7 @@
    heads of the government,<add place="below" hand="#h02" rend="marked"><metamark function="add" target="#a012">&#8248;</metamark></add><add place="right" hand="#h02" xml:id="a012">&#8212;<metamark target="#a012" function="emphasize">/</metamark></add> that they as a body and the great
    sectarian power of the West formally ask'd Mr. Harlan's appointment
    &#8212; that he was of them, having been a Methodist
-   minister<subst hand="#h02"><del rend="overstrike" seq="1">,</del><add place="left" xml:id="a013">&#8212;<metamark target="#a013" function="emphasize">/</metamark></add></subst> that it would not do to offend them, but was highly
+   minister<subst hand="#h02"><del rend="overstrike" seq="1">,</del><add place="left" xml:id="a013" seq="2">&#8212;<metamark target="#a013" function="emphasize">/</metamark></add></subst> that it would not do to offend them, but was highly
    necessary to propitiate them.
    </p>
   <p>
@@ -223,11 +222,10 @@
    <div>
    <pb xml:id="leaf003r" facs="loc_ja.00175.jpg" type="recto"/>
     <head type="main">NOTE TO A FRIEND.</head>
-    <dateline>[Written on the fly-leaf of a copy of "Specimen Days," sent to Peter
-    Doyle, at Washington, June, 1883.]</dateline>
+    <epigraph><p>[Written on the fly-leaf of a copy of "Specimen Days," sent to Peter
+    Doyle, at Washington, June, 1883.]</p></epigraph>
     
     <p>
-     <add place="left" hand="#h03"></add>
      Pete, do you remember&#8212;(of course you do&#8212;I do well)&#8212;those
      great long jovial walks we had at times for years, (1866&#8211;'72) out
      of Washington City&#8212;often moonlight nights&#8212;'way to "Good
@@ -265,10 +263,12 @@
    <note type="work_relations" target="xxx.00484"/>
    <div>
     <note type="collaborative" hand="#h04" rend="circled" place="top">3</note>
-    <dateline rend="italic">From the Philadelphia press, Nov. 27, 1884, (Thanksgiving number.)</dateline>
+    <metamark function="add"><add hand="#h04">&#8248;</add></metamark>
+    <note type="collaborative" hand="#h04" place="left">Tr. if necessary</note>
+    <note type="authorial"><hi rend="italic">From the Philadelphia Press, Nov.</hi> 27, 1884, (<hi rend="italic">Thanksgiving number.</hi>)</note>
     <head type="main" rend="circled">THE PLACE GRATITUDE FILLS IN A FINE CHARACTER.</head>
-    <p xml:id="tr001">
-    <add place="right" hand="#h02"><metamark function="adjust" target="#a015">? set this head in the same (<unclear reason="illegible" resp="#ja" cert="low">2 brev.</unclear>)caps as the above items</metamark></add>
+    <p>
+    <add place="right" hand="#h02"><metamark function="adjust" target="#a015">? set this head in the same (<unclear reason="illegible" resp="#ja" cert="low">? brev:</unclear>)caps as the above items</metamark></add>
      <hi rend="italic">Scene.</hi>&#8212;A large family supper party, a night or two ago, with
      voices and laughter of the young, mellow faces of the old, and a
      by-and-by pause in the general jovialty. "Now, Mr. Whitman,"
@@ -284,8 +284,8 @@
      to the Almighty for life, and the universe with its objects and
      play of action.
     </p>
-    <p xml:id="tr002">
-     "We Americans devote and official day to it every year; yet I
+    <p>
+     "We Americans devote an official day to it every year; yet I
      sometimes fear the real article is almost dead or dying in our self-sufficient,
      independent Republic. Gratitude, anyhow, has never
      been made half enough of by the moralists; it is indispensible
@@ -299,14 +299,9 @@
      call them even religious people, as things go?&#8212;who have no such
      trend to their disposition."
     </p>
-    <listTranspose>
-     <transpose rend="marked">
-      <ptr target="#tr002"/>
-      <ptr target="#tr001"/>
-     </transpose>
-    </listTranspose>
+   
    </div>
-   <note type="collaborative" hand="#h04" place="bottom"><unclear reason="illegible" resp="#ja" cert="low">Reline</unclear> all <hi rend="underline">copy</hi> with <hi rend="underline">proof</hi>.</note>
+   <note type="collaborative" hand="#h04" place="bottom"><unclear reason="illegible" resp="#ja" cert="low">Return</unclear> all <hi rend="underline">copy</hi> with <hi rend="underline">proof</hi>.</note>
 </body>
 </text>
 </TEI>
