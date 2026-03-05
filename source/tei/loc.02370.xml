@@ -12,11 +12,10 @@
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
-     <persName xml:id="ew">Emma Whaley</persName>
+      <persName xml:id="km">Kevin McMullen</persName>
+      <persName xml:id="ew">Emma Whaley</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -28,7 +27,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,25 +42,21 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.02370</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">The corrections on this manuscript were not incorporated into the version of the poem that appeared in <hi rend="italic">Harper's</hi>, <hi rend="italic">November Boughs</hi>, or the deathbed edition of <hi rend="italic">Leaves of Grass</hi>, but they were most likely made between late 1884 and 1888. Whitman was in the habit of ordering batches of specially printed poem slips that he then "corrected" in small ways and presented as mementos to friends and admirers. However, while several other similar proof slips are extant, none of them contain these same corrections, which suggests this slip was not intended for that purpose.</note>
     
-     <note type="work_relations" target="xxx.00344" cert="high">
-      <p>This proof is grouped with other copies of proof sheets that represent different stages of the printing. "Of That Blithe Throat of Thine" was published first in January, 1885.</p>
-     </note>
+    <note type="work_relations" target="xxx.00344" cert="high">A corrected proof slip of the poem "Of That Blithe Throat of Thine," which was first published in <hi rend="italic">Harper's Monthly Magazine</hi> in January 1885. The poem was later included in <hi rend="italic">November Boughs</hi> (1888).</note>
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “Of That Blithe Throat of Thine” ( 1884 ); Proof sheets with signed corrections and notations</title>  
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; "Of That Blithe Throat of Thine" ( 1884 ); Proof sheets with signed corrections and notations</title>  
      
-     <date when="1884" cert="high"></date>
+     <date notBefore="1884" notAfter="1888" cert="medium">Between 1884 and 1888</date>
      
      <idno type="callno">MSS18630, box 27, folder Of That Blithe Throat of Thine (1884). Proof Sheets.</idno>
 
@@ -80,7 +74,7 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-03-05" who="#km">proofed</change>
  <change when="2024-11-19" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -90,24 +84,26 @@
    
    <pb xml:id="leaf001r" facs="loc_ew.00359.jpg" type="recto"/>
    
-   <head>Of that Blithe Throat of Thine.</head>
-   <p>[More that <restore xml:id="r001"><subst hand="#h02"><del seq="1" rend="overstrike">83 degrees</del><del seq="3" rend="overstrike"><add seq="2" place="above" xml:id="a001">&#176;83<metamark function="emphasize" target="#a001">/</metamark></add></del></subst></restore><add hand="#h02" place="above"><metamark function="restore" target="#r001">s</metamark></add> north&#8212;about a good day's steaming distance to the Pole by one of our fast oceaners in clear water&#8212;Greely heard the song of a single <del hand="#h02" rend="overstrike" xml:id="d001">snow</del><add hand="#h02" place="left"><metamark function="delete" target="#d001">&#977;</metamark></add>-bird merrily sounding over the desolation.]</p>
    <lg type="poem">
+    <head type="main">Of that Blithe Throat of Thine.</head>
+    
+    <epigraph><p>[More than <restore xml:id="r001"><subst hand="#h02"><del seq="1" rend="overstrike">83 degrees</del><del seq="3" rend="overstrike"><add seq="2" place="above" xml:id="a001"><unclear reason="illegible" cert="low" resp="#km">&#176;</unclear>83<metamark function="emphasize" target="#a001">/</metamark></add></del></subst></restore><add hand="#h02" place="above"><metamark function="restore" target="#r001">s</metamark></add> north&#8212;about a good day's steaming distance to the Pole by one of our fast oceaners in clear water&#8212;Greely heard the song of a single <del hand="#h02" rend="overstrike" xml:id="d001">snow-</del><add hand="#h02" place="left"><metamark function="delete" target="#d001">&#977;</metamark></add>bird merrily sounding over the desolation.]</p></epigraph>
+    
      <l>Of that blithe throat of thine from arctic bleak and blank,</l>
      <l>I'll mind the lesson, solitary bird&#8212;let me too welcome chilling<lb/>
         drifts,</l>
-     <l>E'en the profoundest chill, as now&#8212;a torpid pulse, a brain un-<lb/>
-        nerv'd</l>
+     <l>E'en the profoundest chill, as now&#8212;a torpid pulse, a brain <choice><orig>un-<lb/>
+        nerv'd</orig><reg>unnerv'd<lb/></reg></choice></l>
      <l>Old age land-lock'd within its winter bay&#8212;(cold, cold, O cold!)</l>
-     <l>These snowy hairs, my feeble arm, my frozen feed,</l>
-     <l>For them thy faith, thy ruld I take, and grave it to the last;</l>
+     <l>These snowy hairs, my feeble arm, my frozen feet,</l>
+     <l>For them thy faith, thy rule I take, and grave it to the last;</l>
      <l>Not summer's zones alone&#8212;not chants of youth, or sourth's warm<lb/>
         tides alone,</l>
      <l>But held by sluggish floes, pack'd in the northern ice, the cumulus<lb/>
         of years,</l>
      <l>These with gay heart I also sing.</l>
    </lg>
-   <signed>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi></signed>
+   <signed>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</signed>
    
    <pb xml:id="leaf001v" facs="loc_nk.00012.jpg" type="verso"/>
    
