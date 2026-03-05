@@ -6,16 +6,14 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">Old Age's Ship &amp; Crafty Death's</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
+     <persName xml:id="km">Kevin McMullen</persName>
      <persName xml:id="ew">Emma Whaley</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -28,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,8 +41,6 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>yal.00350</idno>
    </publicationStmt>
    <notesStmt>
@@ -87,10 +82,11 @@
     <handNote medium="pencil" xml:id="h03" resp="#ww" scope="minor"/>
     <handNote medium="pencil" xml:id="h04" resp="#unk2" scope="minor"><name xml:id="unk2">Unknown</name></handNote>
     <handNote medium="pencil" xml:id="h05" resp="#unk3" scope="minor"><name xml:id="unk3">Unknown</name></handNote>
+    <handNote medium="pencil" xml:id="h06" resp="#unk4" scope="minor"><name xml:id="unk4">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-03-05" who="#km">proofed</change>
  <change when="2024-12-11" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -101,13 +97,14 @@
    <pb xml:id="leaf001r" facs="yal.00350.001_large.jpg" type="recto"/>
    
    <note type="archival" hand="#h05" place="top">576</note>
-   <note type="authorial" hand="#h03" place="top">OSLP Century</note>
-   <note type="editorial" hand="#h04" place="top">Miss Plyer <hi rend="underline">Wide</hi></note>
+   <note type="editorial" hand="#h04" place="top">OSLP Century</note>
+   <note type="editorial" hand="#h06" place="top">Miss Plyer</note>
+   <note type="editorial" hand="#h06" place="top" rend="underline">Wide</note>
    
-   <head>OLD AGE'S SHIP &amp; CRAFTY DEATH'S.</head> 
-   <note type="authorial" hand="#h03" place="left" target="#a001" rend="marked">Initial</note> 
    <lg type="poem">
-     <l><hi rend="circled" xml:id="a001" hand="#h03">F</hi>rom east and west across the horizon's edge,</l>
+    <head>OLD AGE'S SHIP &amp; CRAFTY DEATH'S.</head> 
+    
+     <l><hi rend="circled" xml:id="j001" hand="#h03">F</hi><add hand="#h03" place="left" rend="marked"><metamark function="adjust" target="#j001">Initial</metamark></add>rom east and west across the horizon's edge,</l>
     <l>Two mighty masterful vessels<add hand="#h04" place="inline">,</add> sailers<add hand="#h04" place="inline">,</add> steal upon us:</l>
      <l>But we'll make race a-time upon the seas&#8212;a battle-contest<lb/>
         yet! bear lively there!</l>
