@@ -62,13 +62,12 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Oversize, 1844-1952; Literary File; Books; November Boughs (1888); Proofs; Galley proofs (Container 23)</title>  
      
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date notBefore="" notAfter="" cert=""></date>
+
+     <date when="1888" cert="high">About 1888</date>
      
-     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     <idno type="callno">mss18630, box OV 4</idno>
      
 
      <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
@@ -96,7 +95,7 @@
    <note type="work_relations" target="xxx.00484"/>
 <div>
    <pb xml:id="leaf001r" facs="loc_ja.00176.jpg" type="recto"/>
-   <note type="authorial"><hi rend="italic">Erom the Philadelphia Press</hi>, Nov. 27, 1884, <hi rend="italic">(Thanksgiving number.)</hi></note>
+   <note type="authorial"><hi rend="italic"><subst hand="#h03"><del rend="overstrike" seq="1">E</del><add place="left" seq="2">F</add></subst>rom the Philadelphia Press</hi>, Nov. 27, 1884, <hi rend="italic">(Thanksgiving number.)</hi></note>
    <head type="main">THE PLACE GRATITUDE FILLS IN A FINE CHARACTER.</head>
    <p>
     <hi rend="italic">Scene.</hi>&#8212;A large family supper party, a night or two ago, with
@@ -114,6 +113,9 @@
     to the Almighty for life, and the universe with its objects and
     play of action.
    </p>
+ <note place="left" hand="#h02" type="authorial">you know these are set&#8212;
+ put them under the head "Small Memoranda"&#8212;
+ the ending part</note>
    <p>
     "We Americans devote an official day to it every year; yet I
     sometimes fear the real article is almost dead or dying in our self-sufficient,
@@ -127,7 +129,7 @@
     rounds the whole emotional nature; I should say love and faith
     would quite lack vitality without it. There are people&#8212;shall I
     call them even religious people, as things go?&#8212;who have no such
-    trend to their disposition.
+    trend to their disposition.<add place="right" hand="#h02" xml:id="a001">?<metamark target="#a001" function="emphasize">/</metamark></add>
    </p>
  </div>
    <cb/>
