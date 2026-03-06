@@ -6,16 +6,14 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">Old Age's Ship &amp; Crafty Death's</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
+     <persName xml:id="km">Kevin McMullen</persName>
      <persName xml:id="ew">Emma Whaley</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -28,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,21 +41,12 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>yal.00350</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">TEST TEST TEST</note>
     
-<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
-     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
-     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
-     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
-    
-     <note type="work_relations" target="xxx." cert="">
-      <p></p>
-     </note>
+     <note type="work_relations" target="xxx." cert="">TEST TEST TEST</note>
    </notesStmt>
    
    <sourceDesc>
@@ -87,10 +75,11 @@
     <handNote medium="pencil" xml:id="h03" resp="#ww" scope="minor"/>
     <handNote medium="pencil" xml:id="h04" resp="#unk2" scope="minor"><name xml:id="unk2">Unknown</name></handNote>
     <handNote medium="pencil" xml:id="h05" resp="#unk3" scope="minor"><name xml:id="unk3">Unknown</name></handNote>
+    <handNote medium="pencil" xml:id="h06" resp="#unk4" scope="minor"><name xml:id="unk4">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-03-05" who="#km">proofed</change>
  <change when="2024-12-11" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -101,19 +90,20 @@
    <pb xml:id="leaf001r" facs="yal.00350.001_large.jpg" type="recto"/>
    
    <note type="archival" hand="#h05" place="top">576</note>
-   <note type="authorial" hand="#h03" place="top">OSLP Century</note>
-   <note type="editorial" hand="#h04" place="top">Miss Plyer <hi rend="underline">Wide</hi></note>
+   <note type="editorial" hand="#h04" place="top">OSLP Century</note>
+   <note type="editorial" hand="#h06" place="top">Miss Plyer</note>
+   <note type="editorial" hand="#h06" place="top" rend="underline">Wide</note>
    
-   <head>OLD AGE'S SHIP &amp; CRAFTY DEATH'S.</head> 
-   <note type="authorial" hand="#h03" place="left" target="#a001" rend="marked">Initial</note> 
    <lg type="poem">
-     <l><hi rend="circled" xml:id="a001" hand="#h03">F</hi>rom east and west across the horizon's edge,</l>
-    <l>Two mighty masterful vessels<add hand="#h04" place="inline">,</add> sailers<add hand="#h04" place="inline">,</add> steal upon us:</l>
+    <head type="main">OLD AGE'S SHIP &amp; CRAFTY DEATH'S.</head> 
+    
+     <l><hi rend="circled" xml:id="j001" hand="#h03">F</hi><add hand="#h03" place="left" rend="marked"><metamark function="adjust" target="#j001">Initial</metamark></add>rom east and west across the horizon's edge,</l>
+    <l>Two mighty masterful vessels<add hand="#h04">,</add> sailers<add hand="#h04">,</add> steal upon us:</l><!-- Ask Brett what he thinks of these commas (which hand); and if NOT Whitman's hand, what do we think about how those will be displayed? -->
      <l>But we'll make race a-time upon the seas&#8212;a battle-contest<lb/>
         yet! bear lively there!</l>
      <l>(Our joys of strife and derring-do to the last!)</l>
      <l>Put on the old ship all her power to-day!</l>
-    <l>Crowd<add hand="#h02" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a002" rend="marked">extra</add> top-gallant<add hand="#h02" place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a003">s<metamark function="emphasize" target="#a003">/</metamark></add> and royal studding-sails!</l><note type="authorial" hand="#h02" place="right" target="#a003" rend="circled">top&#11840;gallants</note>
+    <l>Crowd <add hand="#h02" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a002" rend="marked">extra</add> top-gallant<add hand="#h02" place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a003">s<metamark function="emphasize" target="#a003">/</metamark></add><add place="right" hand="#h02" rend="circled"><metamark function="emphasize" target="#a003">top&#11840;gallants</metamark></add> and royal studding-sails!</l>
      <l>Out challenge and defiance&#8212;flags and flaunting pennants<lb/>
         added,</l>
      <l>As we take to the open&#8212;take to the deepest, freest waters.</l>
@@ -121,8 +111,8 @@
    <signed>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</signed>
     
    <note type="authorial" hand="#h03" place="bottom" rend="underline">(over)</note>
-   <note type="authorial" hand="#h02" place="bottom">Editor please substitute this, &amp; destroy the first copy</note>
-   <signed hand="#h02">WW</signed>
+   
+   <note type="authorial" hand="#h02" place="bottom">Editor please substitute this, &amp; destroy the first copy WW</note>
    
    <pb xml:id="leaf001v" facs="yal.00350.002_large.jpg" type="verso"/>
    
