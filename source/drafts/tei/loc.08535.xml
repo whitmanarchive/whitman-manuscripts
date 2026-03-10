@@ -48,53 +48,41 @@
    <idno>loc.08535</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
-    
-<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
-     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
-     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
-     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
-    
-     <note type="work_relations" target="xxx." cert="">
-      <p></p>
-     </note>
+    <note type="project" target="#dat1"></note>
+    <note type="work_relations" target="xxx.00468" cert="high">
+     <p></p>
+    </note>
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>Then some reflections</title>  
+     <title>November Boughs (1888); Proofs; Galley proofs</title> 
      
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date notBefore="" notAfter="" cert=""></date>
+     <date when="1888" cert="high">1888</date>
      
-     <idno type="callno">loc.08535</idno>
+     <idno type="callno">mss18639, box OV 4</idno>
      
-<!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
-      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
-     <orgName xml:id=""></orgName>
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
-     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-     <relatedItem type="document" target="wwa.00041"/>
-     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+      
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
-   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="blue ink" xml:id="h02" resp="#unk"></handNote>
-    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
+   <handNotes>
+    <handNote medium="letterpress" xml:id="h01" resp="#unk1"><name xml:id="unk1">Unknown1</name></handNote>
+    <handNote medium="blue crayon" xml:id="h02" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h03" resp="#unk2"><name xml:id="unk2">Unknown2</name></handNote>
+    <handNote medium="purple pencil" xml:id="h04" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h05" resp="#ww"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
-<!-- IN THE FOLLOWING <CHANGE> ELEMENT EDIT THE @WHEN TO REFLECT TODAY'S DATE. IF YOU AREN'T TARA, CHANGE THE INITIALS AFTER THE POUND SIGN IN @WHO -->
- <change when="2024-01-20" who="#tb">transcribed and encoded</change>
+ <change when="2026-03-10" who="#kmh">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -102,11 +90,20 @@
   <body>
    
    <pb xml:id="leaf001r" facs="loc_ja.00136.jpg" type="recto"/>
-    <p>of view. Then som reflections, down to the hard-pan of this sort of thing.</p>
-    <p>The course of progressive politics (democracy) is so certain and resistless, not only in America but in Europe, that we can well afford the warning calls, threats, checks, neutralizings, in imaginative literature, or any department, of such deep-sounding and high-soaring voices as Carlyle's and Tennyson's. Nay, the blindness, excesses, of the prevalent tendency&#8212;the dangers of the urgent trends of our times&#8212;in my opinion, need such voices almost more than any. I should, too, call it a signal instance of democratic humanity's luck that it has such enemies to contend with&#8212;so candid, so fervid, so heroic. But why do I say enemy? Upon the whole is not Tennyson&#8212;and was not Carlyle (like an honest and stern physician)&#8212;the true friend of our age?</p>
-    <p>Let me assume to pass a verdict, or perhaps momentary judgement, for the United States on this poet&#8212;a removed and distant position giving some advantages over a nigh one. What is Tennyson's service to his race, times, and especially to America? First, I should say, his personal character. He is not to be mentioned as a rugged, evolutionary, aboriginal force&#8212;but (and a great lesson is in it) he has been consistent throughout with the native, personal, healthy, patriotic spinal element and promptings of himself. His moral line is local and conventional, but it is vital and genuine. He reflects the upper-crust of his time, its pale of cast of thought&#8212;even its <hi rend="italic">ennui</hi>. Then the simile of my friend John Burroughs is entirely true, 'his glove is a glove of silk, but the hand is a hand of iron.' He shows how one can be a royal laureate, quite elegant and 'aristocratic,' and a little queer and affected, and at the same time perfectly manly and natural. As to his non-democracy, it fits him well, and I like him the better for it. I guess we all like to have (I am sure I do) some one who presents those sides of a thought, or possibility, different from our own&#8212;different, and yet with a sort of home-likeness&#8212;a tartness and contradiction offsetting the theory as we view it, and construed from tastes and proclivities not at all our own.</p>
+   
+   <note type="archival" hand="#h02" place="top">Nov. Boughs 91</note>
+   <note type="collaborative" hand="#h03" place="left">&#10003;To be set</note>
+   <note type="collaborative" place="above" hand="#h03"><unclear reason="illegible" resp="#kmh" cert="low">Clues</unclear></note>
+    
+    <p>of view. Then some reflections, down to the hard-pan of this sort of thing.</p>
+    <note type="collaborative" place="inline" hand="#h03"><unclear reason="illegible" resp="#kmh" cert="low">Timing</unclear></note>
+    <note type="collaborative" place="right" hand="#h03" rend="marked">6</note>
+    <note type="collaborative" place="right" hand="#h03">Campbell</note>
+    <p>The course of progressive politics (democracy) is so certain and resistless, not only in America but in Europe,  that we can well afford the warning calls, threats, checks, neutralizings, in imaginative literature, or any department, of such deep-sounding and high-soaring voices as Carlyle's and Tennyson's. Nay, the blindness, excesses, of the prevalent tendency&#8212;the dangers of the urgent trends of our times&#8212;in my opinion, need such voices almost more than any. I should, too, call it a signal instance of democratic humanity's luck that it has such enemies to contend with&#8212;so candid, so fervid, so heroic. But why do I say enem<subst hand="#h04"><del rend="overstrike" seq="1">y</del><add place="right" seq="2" xml:id="q001">ies<add hand="#h05" seq="3">?</add>/</add></subst>? Upon the whole is not Tennyson&#8212;and was not Carlyle (like an honest and stern physician)&#8212;the true friend of our age?</p>
+   <p>Let me assume to pass a verdict, or perhaps momentary judgement, for the United States on this poet&#8212;a remov<subst hand="#h05"><del rend="overstrike" seq="1">e</del><add place="right" seq="2" xml:id="e001">'<metamark function="emphasize" target="#e001">&#711;</metamark></add></subst>d and distant position giving some advantages over a nigh one. What is Tennyson's service to his race, times, and especially to America? First, I should say,<add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="right" rend="marked">&#8212;or at least not forget&#8212;</add> his personal character. He is not to be mention<subst hand="#h05"><del rend="overstrike" seq="1">e</del><add place="right" seq="2" xml:id="e002">'<metamark function="emphasize" target="#e002">&#711;</metamark></add></subst>d as a rugged, evolutionary, aboriginal force&#8212;but (and a great lesson is in it) he has been consistent throughout with the native, <del rend="overstrike" hand="#h05">personal,</del> healthy, patriotic spinal element and promptings of himself. His moral line is local and conventional, but it is vital and genuine. He reflects the upper-crust of his time, its pale of cast of thought&#8212;even its <hi rend="italic">ennui</hi>. Then the simile of my friend John Burroughs is entirely true, 'his glove is a glove of silk, but the hand is a hand of iron.' He shows how one can be a royal laureate, quite elegant and 'aristocratic,' and a little queer and affected, and at the same time perfectly manly and natural. As to his non-democracy, it fits him well, and I like him the better for it. I guess we all like to have (I am sure I do) some one who presents those sides of a thought, or possibility, different from our own&#8212;different, and yet with a sort of home-likeness&#8212;a tartness and contradiction offsetting the theory as we view it, and construed from tastes and proclivities not at all our own.</p>
     <p>To me, Tennyson shows more than any poet I know (perhaps has been a warning to me) how much there is in finest verbalism. There is such a latent charm in mere words, cunning collocutions, and in the voice ringing them, which he has caught and brought out, beyond all others&#8212;as in the line,
-    <q who="Alfred Tennyson">
+    <add place="left" rend="circled"><metamark function="adjust" target="#j001">brev.</metamark></add>
+    <q who="Alfred Tennyson" xml:id="j001">
      <floatingText>
       <body>
        <lg type="poem">
@@ -118,6 +115,8 @@
      </floatingText>
     </q>
     in 'The Passing of Arthur,' and evidenced in 'The Lady of Shalott,' 'The Deserted House,' and many other pieces.
+    
+    <note type="authorial" place="bottom">71 44 115</note>
 
 
    <pb xml:id="leaf002r" facs="loc_ja.00137.jpg" type="recto"/>
@@ -142,6 +141,8 @@
     <p>Best thanks, anyhow, to Alfred Tennyson&#8212;thanks and appreciation in America's name.</p>
     <signed>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi></signed>
     <milestone unit="undeclared" rend="horbar-short-center"/>
+   
+   
 
 </body>
 </text>
