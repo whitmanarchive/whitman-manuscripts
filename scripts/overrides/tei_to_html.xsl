@@ -363,5 +363,12 @@
     </span>
   </xsl:template>
   
+  <!-- Adding this to match rule in notebooks override file. KM -->
+  <xsl:template match="space">
+    <span class="tei_space">
+      <xsl:text>&#160;&#160;&#160;&#160;&#160;</xsl:text>
+    </span>
+  </xsl:template>
+  
   
 </xsl:stylesheet>
