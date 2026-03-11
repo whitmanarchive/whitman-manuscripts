@@ -346,7 +346,7 @@
     </span>
   </xsl:template>
   
-  <!-- handle authorial notes differently for proof mss -->
+  <!-- handle changes in Whitman's hand differently for proof mss -->
   <xsl:template match="*[substring-after(@hand,'#') = (preceding::handNote[@resp='#ww']/@xml:id)][preceding::handNote[@medium='letterpress']]">
     <xsl:variable name="hand_id" select="substring-after(@hand,'#')"/>
     <xsl:variable name="hand_resp" select="substring-after(preceding::handNote[@xml:id=$hand_id]/@resp,'#')"/>
