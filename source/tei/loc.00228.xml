@@ -6,16 +6,14 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">Old Age Echoes</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
+     <persName xml:id="km">Kevin McMullen</persName>
      <persName xml:id="ew">Emma Whaley</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -28,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,16 +41,12 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
-   <idno>loc.00228</idno>
+    <idno>loc.00228</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
-     <note type="work_relations" target="xxx.00601" cert="high">
-      <p>Proof sheet of "Old Age Echoes" with many corrections written in ink and pencil. "Old Age Echoes" is a general heading for four poems: "Sounds of the Winter," "The Unexpress'd," "Sail Out for Good, Eid&#243;lon Yacht!," and "After the Argument."</p>
-     </note>
+     <note type="work_relations" target="xxx.00601" cert="high">Proof sheet of "Old Age Echoes" with many corrections written in ink and pencil. "Old Age Echoes" is a general heading for four poems: "Sounds of the Winter," "The Unexpress'd," "Sail Out for Good, Eid&#243;lon Yacht!," and "After the Argument."</note>
    </notesStmt>
    
    <sourceDesc>
@@ -75,15 +68,15 @@
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="letterpress" xml:id="h01" resp="#unk1" scope="major"><name>Unknown 1</name></handNote>
+    <handNote medium="letterpress" xml:id="h01" resp="#unk1" scope="major"><name xml:id="unk1">Unknown</name></handNote>
     <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
     <handNote medium="red ink" xml:id="h03" resp="#ww" scope="minor"/>
-    <handNote medium="pencil" xml:id="h04" resp="#unk2" scope="minor"><name>Unknown 2</name></handNote>
-    <handNote medium="letterpress" xml:id="h05" resp="#unk3" scope="minor"><name>Unknown 3</name></handNote>
+    <handNote medium="pencil" xml:id="h04" resp="#unk2" scope="minor"><name xml:id="unk2">Unknown</name></handNote>
+    <handNote medium="letterpress" xml:id="h05" resp="#unk3" scope="minor"><name xml:id="unk3">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-03-11" who="#km">proofed</change>
  <change when="2024-11-06" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -93,22 +86,24 @@
    
    <pb xml:id="leaf001r" facs="loc_ew.00198.jpg" type="recto"/>
 
-   <note type="authorial" hand="#h02" place="left">proof sent me f'm Lippincotts&amp;return'd Jan:6 '91&#8212;to go in March number next</note>
-   <note type="authorial" hand="#h03" place="top">a piece "sail out for good"&amp;c to make a flush page<lb/>Let me have another proof without fail</note>
-   <note type="editorial" hand="#h04" place="top">Corrector<lb/>Please return proof as soon as possible</note>
+   <note type="authorial" hand="#h02" place="left">proof sent me f'm Lippincotts &amp; return'd Jan:6 '91&#8212;to go in March number next</note>
+   
+   <note type="authorial" hand="#h03" place="top">(a piece "sail out for good" &amp;c to make a flush page<lb/> Let me have another proof without fail</note>
+   
+   <note type="collaborative" hand="#h04" place="top">Corrector</note>
+   
+   <note type="collaborative" hand="#h04" place="top">Please return proof as soon as possible</note>
+   
    <note type="authorial" hand="#h03" place="top">remember youth's companion has "Ship Ahoy"<lb/> " Scribner has the page cluster</note>
    
   <lg type="cluster"> 
+   
    <head type="main">OLD AGE ECHOES.</head>
    
-   <metamark function="add" target="#a001"><add hand="#h02">&#8248;&#8248;</add></metamark>
+   <metamark function="add" target="#a001"><add hand="#h02">&#8248; &#8248;</add></metamark><byline><add hand="#h02" place="right" xml:id="a001" rend="marked">By <hi rend="underline">Walt Whitman</hi></add></byline>
    
-   <byline><add hand="#h02" place="right" xml:id="a001" rend="marked">By <hi rend="underline">Walt Whitman</hi></add></byline>
-   
-     
-    
-      <lg type="poem">
-       <head type="sub">SOUND<add hand="#h04" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h05" place="left" xml:id="a002">S<metamark function="separate" target="#a002">/</metamark></add> OF THE WINTER.</head>
+   <lg type="poem">
+       <head type="main">SOUND<add hand="#h04" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h05" place="left" xml:id="a002">S<metamark function="separate" target="#a002">/</metamark></add> OF THE WINTER.</head>
        <l>S<hi rend="smallcaps">OUNDS</hi> of the winter too,</l>
        <l>Sunchine upon the mountains&#8212;many a distant strain</l>
        <l>From cheery railroad train&#8212;from nearer field, barn, house,</l>
@@ -120,10 +115,8 @@
        <l><hi rend="underline" hand="#h02">Forth from these smowy hairs we too keep up the lilt.</hi></l>
       </lg>
    
-   
-    
      <lg type="poem">
-      <head type="sub">THE UNEXPRESS'D.</head>
+      <head type="main">THE UNEXPRESS'D.</head>
       <l>How dare one say it?</l>
       <l>After the cycles, poems, singers, plays,</l>
       <l>Vaunted Ionia's, India's&#8212;Homer, Shakespeare&#8212;the long, long times'<lb/>
@@ -144,7 +137,7 @@
   
     <addSpan rend="pasteon" spanTo="#a008" hand="#h05" xml:id="a010"/>
     <lg type="poem">
-     <head type="sub" rend="italic">Sail out for good, Eid&#243;lon Yacht!</head>
+     <head type="main" rend="italic">Sail out for good, Eid&#243;lon Yacht!</head>
      <l>Heave the anchor short!</l>
      <l>Raise main-sail and jib&#8212;steer forth,</l>
      <l>O little white-hull'd sloop, now speed on really deep waters,</l>
@@ -168,7 +161,7 @@
   </lg>
   
       
-   <pb xml:id="leaf001v" facs="loc_nk.00017_large.jpg" type="verso"/>
+   <pb xml:id="leaf001v" facs="loc_nk.00017.jpg" type="verso"/>
    
 </body>
 </text>
