@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<?oxygen SCHSchema="https://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05623"> 
  <teiHeader>
@@ -54,8 +55,7 @@
     <note type="project" target="#dat1"></note>
     
     
-     <note type="work_relations" target="xxx.00473" cert="high">Much of the language of this note is reproduced in the essay "Five Thousand Poems," first published in <hi rend="italic">The Critic</hi>, April 16, 1887, on page 187, and again in <hi rend="italic">November Boughs</hi> (1888).
-     </note>
+     <note type="work_relations" target="xxx.00473" cert="high">Much of the language of this note is reproduced in the essay "Five Thousand Poems," first published in <hi rend="italic">The Critic</hi>, April 16, 1887, on page 187, and again in <hi rend="italic">November Boughs</hi> (1888).</note>
    </notesStmt>
    
    <sourceDesc>
@@ -80,7 +80,9 @@
     <handNote medium="pencil" xml:id="h01" resp="#ww" scope="major"/>
     <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
     <handNote medium="purple crayon" xml:id="h03" resp="#ww" scope="minor"/>
-    <handNote medium="light blue crayon" xml:id="h04" resp="#ww" scope="minor"/>
+    <handNote medium="blue crayon" xml:id="h04" resp="#ww" scope="minor"/>
+    <handNote medium="blue stamped ink" xml:id="h05" resp="#unk01" scope="minor"><name xml:id="unk01">Unknown</name></handNote>
+    <handNote medium="pencil" xml:id="h06" resp="#unk02" scope="minor"><name xml:id="unk02">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
@@ -94,13 +96,23 @@
    
    <pb xml:id="leaf001r" facs="loc_ew.00580.jpg" type="recto"/>
    
-   <p><del hand="#h02" rend="overstrike"><add hand="#h02">Another point on which</add></del> <del rend="overstrike" hand="#h02"><add  hand="#h02"><unclear reason="illegible" resp="#bb" cert="medium">I</unclear></add></del> <del rend="overstrike" hand="#h02"><add  hand="#h02">d</add></del> <del rend="overstrike" hand="#h02"><add  hand="#h02">which must be admitted</add></del> <del rend="overstrike" hand="#h02">Divergent and</del><subst><del rend="overwrite"><metamark function="question">?</metamark></del><add hand="#h03"><subst hand="#h02"><del type="overwrite">d</del><add>D</add></subst>istinctive</add></subst> 
-    
-    
-    <!-- I LEFT OFF HERE -->
-    
-    <add hand="#h02" place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a001">and without relation</add> as they seem at first sight all<add hand="#h04" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h04" place="above" xml:id="a002">the world's</add> Poets and all<add hand="#h04" place="above">its</add> Poetry,<del rend="overstrike"><add place="above">all vrieties&#8212;</add></del> of <subst><del seq="1" rend="overstrike">all</del><del seq="3" rend="overstrike"><add seq="2" place="above">the</add></del></subst> <delSpan rend="overstrike" spanTo="#d001"/>lands of the globe,<del rend="overstrike"><add place="above">with all varieties&#8212;</add></del> all <subst><del seq="1" rend="overstrike">times</del><add seq="2" place="above">woes</add></subst> from <del rend="overstrike">the</del> primative time on and so on to the <del rend="overstrike">prent</del> present<add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">day&#8212;inclusive&#8212;</add>&#8212;all together, all <del rend="overstrike">themes</del> forms, all subjects, all sizes as long or short&#8212;<anchor xml:id="d001"/><add place="above">the Ariative</add>Oriental, the Greek, <del rend="overstrike">the</del> <add hand="#h02" place="above">Goth</add> what there is of Roman,<add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">&#8212;the oldest myths&#8212;</add> the <del hand="#h03" rend="overstrike">Sea<gap reason="illegible" extent="two words"/> the</del> <del hand="#h02" rend="overstrike">older <unclear reason="illegible" resp="#ew">Feutures</unclear></del><del hand="#h03" rend="overstrike">Walter of A</del> <del hand="#h02" rend="overstrike">or</del> <del rend="overstrike"><space dim="horizontal" extent="5 characters"/><add hand="#h03" place="inspace">the B</add> the P</del> <del hand="#h02" rend="overstrike">from the British Islands</del><milestone unit="glued"/><del hand="#h03" rend="overstrike"><gap reason="illegible" extent="three words"/></del><del rend="overstrike">&#8212;the myths&#8212;of old,</del> the<add hand="#h02" place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a005"><unclear reason="illegible" resp="#ew">undermenable</unclear></add> ballad<del hand="#h02" rend="overstrike">s</del><add hand="#h02" place="below"><metamark function="add" target="#a006">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a006"><del rend="overstrike">back long ago</del>romances</add> of the middle ages, <del rend="overstrike">or of</del> the hymns and <del rend="overstrike">psla</del> psalms of worship,&#8212;the great and innumberable<add hand="#h04" place="right"><gap reason="illegible" extent="two words"/></add><add hand="#h03">&#8212;epics, or <unclear reason="illegible" resp="#ew">Gries</unclear>&#8212;</add><add hand="#h02">&#8212;poems from the British Islands&#8212;the Tectonic, old or new&#8212;</add><milestone unit="glued"/><del hand="#h04" rend="overstrike"><unclear reason="illegible" resp="#ew">Goetts</unclear></del>modern French and British</p>
-   
+   <p><del hand="#h02" rend="overstrike"><add hand="#h02">Another point on which</add></del> <del rend="overstrike" hand="#h02"><add  hand="#h02"><unclear reason="illegible" resp="#bb" cert="medium">I</unclear></add></del> <del rend="overstrike" hand="#h02"><add hand="#h02">d</add></del> <del rend="overstrike" hand="#h02"><add hand="#h02">which must be admitted</add></del> <del rend="overstrike" hand="#h02">Divergent and</del><subst rend="overwrite"><del><metamark function="question">?</metamark></del><add hand="#h03"><subst hand="#h02" rend="overwrite"><del>d</del><add>D</add></subst>istinctive</add></subst> 
+<add hand="#h02" place="inline">
+ <metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a001">and without relation</add>
+    as they seem at first sight all <add hand="#h04" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h04" place="above" xml:id="a002">the world's</add> Poets and all <add hand="#h04" place="above">its</add> Poetry, <del rend="overstrike">of</del> <del rend="overstrike"><add place="above">all varieties&#8212;</add></del> 
+    <del rend="overstrike">all</del> 
+    <del rend="overstrike"><add place="above">the</add></del> <add place="above"><del rend="overstrike">with</del>
+     
+     all varieties&#8212;</add> 
+    <del rend="overstrike">lands of the globe, all <subst><del seq="1" rend="overstrike">times</del> <add seq="2" place="above">uses</add></subst>, from <del rend="overstrike">the</del> primitive times on and <gap reason="illegible" extent="one or two characters"/> on to the <del rend="overstrike">prent</del> present<add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">day inclusive&#8212;</add>&#8212;all tongues, all <del rend="overstrike">themes</del> forms, all subjects, all sizes or long 
+     <del rend="overstrike"><add place="above"><gap reason="illegible" extent="one to three characters"/></add></del> or short&#8212;</del><add place="above">the <del rend="overstrike">Asiatic?</del></add> Oriental, the Greek, <subst><del rend="overstrike" seq="1">the</del>
+      <add hand="#h02" place="above" seq="2">with </add></subst> 
+what there is of Roman, &#8212;<add place="inline"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">&#8212;the oldest myths&#8212;</add> <del hand="#h03" rend="overstrike">the Scandi-navian, the</del> <del hand="#h02" rend="overstrike">older Teutonic<add hand="#h03"></add>,</del> <del hand="#h03" rend="overstrike">Walter of A</del> <del hand="#h02" rend="overstrike">or</del> <del rend="overstrike"><add hand="#h03">the B</add></del> <del rend="overstrike">the P</del> <del hand="#h02" rend="overstrike">from</del> the <del rend="overstrike" hand="#h02">British Islands,</del><milestone unit="glued"/>
+    &#8212;<del hand="#h03" rend="overstrike"><gap reason="illegible" extent="one or two words"/>&#8212;lyric&#8212;</del><del rend="overstrike">&#8212;the <add place="above">oldest</add> myths</del>&#8212;<del rend="overstrike">of old,</del> 
+    the<add hand="#h02" place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a005">interminable</add> ballad<del hand="#h02" rend="overstrike">s</del><add hand="#h02" place="below"><metamark function="add" target="#a006">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a006"><del rend="overstrike"><unclear reason="illegible" resp="#bb" cert="medium">la</unclear> lays and</del> romances</add> of the middle ages<subst><del rend="overstrike" seq="1">,</del><add seq="2">;</add></subst> <del rend="overstrike">or of</del> the hymns and <del rend="overstrike">psla</del> psalms of worship,<add place="above">&#8212;the great</add> <add hand="#h03">&#8212;epics<add hand="#h01">,</add> <del rend="overstrike" hand="#h01">or</del><add hand="#h01" place="below"><metamark function="add" target="#a007">&#8248;</metamark></add> <add place="above" hand="#h01" rend="marked" xml:id="a007">and <del rend="overstrike" hand="#h04">innumerable</del> <add hand="#h04"><unclear reason="illegible" resp="#bb" cert="high">swarms</unclear> of</add></add> lyrics&#8212;</add><add hand="#h02">&#8212;poems from the British Islands&#8212; <add hand="#h01">or</add> the Teutonic, old or new&#8212;</add><milestone unit="glued"/><del hand="#h04" rend="overstrike">Goethe's</del>, <add place="above">or</add> modern French and British</p>
+   <note place="bottom" type="archival" hand="#h06">291B</note>
+   <milestone unit="glued"/>
+   <note place="bottom" type="archival" hand="#h06">291A</note>
    <pb xml:id="leaf001v" facs="loc_nk.00527_large.jpg" type="verso"/>
    
 </body>

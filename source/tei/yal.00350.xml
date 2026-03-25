@@ -6,16 +6,14 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">Old Age's Ship &amp; Crafty Death's</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
+     <persName xml:id="km">Kevin McMullen</persName>
      <persName xml:id="ew">Emma Whaley</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -28,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,21 +41,12 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>yal.00350</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">A note on another of the several corrected proof slips of this poem (<ref target="loc.02393">loc.02393</ref>) suggests that Whitman sent a copy of this poem for printing to the offices of <hi rend="italic">The Century</hi> in June 1889. The note on the present manuscript suggests that this proof was sent to <hi rend="italic">The Century</hi> after that, but before the publication in February 1890, as the version of the poem in the magazine includes the changes on this proof slip. The later printings of this poem in <hi rend="italic">Good-Bye My Fancy</hi> and <hi rend="italic">Leaves of Grass</hi> do not include these changes.</note>
     
-<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
-     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
-     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
-     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
-    
-     <note type="work_relations" target="xxx." cert="">
-      <p></p>
-     </note>
+    <note type="work_relations" target="xxx.00388" cert="high">This is a proof slip of "Old Age's Ship and Crafty Death's," with corrections and notations in Whitman's hand. The poem was first published in the February 1890 issue of <hi rend="italic">The Century Magazine</hi>. Whitman subsequently included it in <hi rend="italic">Good-Bye My Fancy</hi> (1891) and in the printing of <hi rend="italic">Leaves of Grass</hi> that he oversaw just before his death.</note>
    </notesStmt>
    
    <sourceDesc>
@@ -67,13 +55,11 @@
      
      <title>Galley proof, corrected</title>  
      
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date notBefore="" notAfter="" cert=""></date>
+     <date notBefore="1889-06" notAfter="1890-02" cert="high">Between June 1889 and Feruary 1890</date>
      
      <idno type="callno">YCAL MSS 202, box 3, folder 157</idno>
      
-     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
+     <orgName xml:id="yal">Walt Whitman Collection. Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
      
      <note>Transcribed from digital images of the original.</note>
      
@@ -87,10 +73,11 @@
     <handNote medium="pencil" xml:id="h03" resp="#ww" scope="minor"/>
     <handNote medium="pencil" xml:id="h04" resp="#unk2" scope="minor"><name xml:id="unk2">Unknown</name></handNote>
     <handNote medium="pencil" xml:id="h05" resp="#unk3" scope="minor"><name xml:id="unk3">Unknown</name></handNote>
+    <handNote medium="pencil" xml:id="h06" resp="#unk4" scope="minor"><name xml:id="unk4">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-03-05" who="#km">proofed</change>
  <change when="2024-12-11" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -98,35 +85,39 @@
  <text type="manuscript">
   <body>
    
-   <pb xml:id="leaf001r" facs="yal.00350.001_large.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="yal.00350.001.jpg" type="recto"/>
    
    <note type="archival" hand="#h05" place="top">576</note>
-   <note type="authorial" hand="#h03" place="top">OSLP Century</note>
-   <note type="editorial" hand="#h04" place="top">Miss Plyer <hi rend="underline">Wide</hi></note>
    
-   <head>OLD AGE'S SHIP &amp; CRAFTY DEATH'S.</head> 
-   <note type="authorial" hand="#h03" place="left" target="#a001" rend="marked">Initial</note> 
+   <note type="editorial" hand="#h04" place="top">OSLP Century</note>
+   
+   <note type="editorial" hand="#h06" place="top"><unclear reason="illegible" cert="low" resp="#km">Miss Plyer</unclear></note>
+   
+   <note type="editorial" hand="#h06" place="top" rend="underline">Wide</note>
+   
    <lg type="poem">
-     <l><hi rend="circled" xml:id="a001" hand="#h03">F</hi>rom east and west across the horizon's edge,</l>
-    <l>Two mighty masterful vessels<add hand="#h04" place="inline">,</add> sailers<add hand="#h04" place="inline">,</add> steal upon us:</l>
+    <head type="main">OLD AGE'S SHIP &amp; CRAFTY DEATH'S.</head> 
+    
+     <l><hi rend="circled" xml:id="j001" hand="#h03">F</hi><add hand="#h03" place="left" rend="marked"><metamark function="adjust" target="#j001">Initial</metamark></add>rom east and west across the horizon's edge,</l>
+    <l>Two mighty masterful vessels<add hand="#h04">,</add> sailers<add hand="#h04">,</add> steal upon us:</l><!-- Ask Brett what he thinks of these commas (which hand); and if NOT Whitman's hand, what do we think about how those will be displayed? KM -->
      <l>But we'll make race a-time upon the seas&#8212;a battle-contest<lb/>
         yet! bear lively there!</l>
      <l>(Our joys of strife and derring-do to the last!)</l>
      <l>Put on the old ship all her power to-day!</l>
-    <l>Crowd<add hand="#h02" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a002" rend="marked">extra</add> top-gallant<add hand="#h02" place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a003">s<metamark function="emphasize" target="#a003">/</metamark></add> and royal studding-sails!</l><note type="authorial" hand="#h02" place="right" target="#a003" rend="circled">top&#11840;gallants</note>
+    <l>Crowd <add hand="#h02" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a002" rend="marked">extra</add> top-gallant<add hand="#h02" place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a003">s<metamark function="emphasize" target="#a003">/</metamark></add><add place="right" hand="#h02" rend="circled"><metamark function="emphasize" target="#a003">top&#11840;gallants</metamark></add> and royal studding-sails!</l>
      <l>Out challenge and defiance&#8212;flags and flaunting pennants<lb/>
         added,</l>
      <l>As we take to the open&#8212;take to the deepest, freest waters.</l>
    </lg>
    <signed>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</signed>
-    
+   
+   <note type="authorial" hand="#h02" place="bottom">Editor please substitute this, &amp; destroy the first copy WW</note>
+   
    <note type="authorial" hand="#h03" place="bottom" rend="underline">(over)</note>
-   <note type="authorial" hand="#h02" place="bottom">Editor please substitute this, &amp; destroy the first copy</note>
-   <signed hand="#h02">WW</signed>
    
-   <pb xml:id="leaf001v" facs="yal.00350.002_large.jpg" type="verso"/>
+   <pb xml:id="leaf001v" facs="yal.00350.002.jpg" type="verso"/>
    
-   <note type="authorial" hand="#h03" place="left" rend="underline">Good bye my fancy</note>
+   <note type="authorial" hand="#h03" place="left" rend="underline">Good bye my fancy</note><!-- Ask Brett about the hand here. KM -->
    
 </body>
 </text>

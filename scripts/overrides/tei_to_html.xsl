@@ -346,7 +346,7 @@
     </span>
   </xsl:template>
   
-  <!-- handle authorial notes differently for proof mss -->
+  <!-- handle changes in Whitman's hand differently for proof mss -->
   <xsl:template match="*[substring-after(@hand,'#') = (preceding::handNote[@resp='#ww']/@xml:id)][preceding::handNote[@medium='letterpress']]">
     <xsl:variable name="hand_id" select="substring-after(@hand,'#')"/>
     <xsl:variable name="hand_resp" select="substring-after(preceding::handNote[@xml:id=$hand_id]/@resp,'#')"/>
@@ -360,6 +360,13 @@
       </xsl:when>
       <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
     </xsl:choose>
+    </span>
+  </xsl:template>
+  
+  <!-- Adding this to match rule in notebooks override file. KM -->
+  <xsl:template match="space">
+    <span class="tei_space">
+      <xsl:text>&#160;&#160;&#160;&#160;&#160;</xsl:text>
     </span>
   </xsl:template>
   

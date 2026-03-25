@@ -6,16 +6,14 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">Old Age Echoes</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
+     <persName xml:id="km">Kevin McMullen</persName>
      <persName xml:id="ew">Emma Whaley</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -28,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,16 +41,12 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
-   <idno>loc.00228</idno>
+    <idno>loc.00228</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">A note in Whitman's hand at the top of this manuscript states that this corrected proof was sent back to <hi rend="italic">Lippincott's</hi> on January 6, 1891. <ref target="med.00007.166">Horace Traubel notes</ref> that Whitman received a proof of "Old Age Echoes" from <hi rend="italic">Lippincott's</hi> editor Joseph Stoddart on December 19, 1890, and notes that "another poem [was] needed." These corrections, therefore, were made between December 19, 1890, and January 6, 1891.</note>
     
-     <note type="work_relations" target="xxx.00601" cert="high">
-      <p>Proof sheet of "Old Age Echoes" with many corrections written in ink and pencil. "Old Age Echoes" is a general heading for four poems: "Sounds of the Winter," "The Unexpress'd," "Sail Out for Good, Eid&#243;lon Yacht!," and "After the Argument."</p>
-     </note>
+    <note type="work_relations" target="xxx.00601" cert="high">A corrected proof sheet of "Old Age Echoes," a cluster of four poems&#8212;"Sounds of the Winter," "The Unexpress'd," "Sail Out for Good, Eid&#243;lon Yacht!," and "After the Argument"&#8212;that was first published in <hi rend="italic">Lippincott's Magazine</hi> in March 1891. The poems were then included, although no longer part of a single cluster, in <hi rend="italic">Good-Bye My Fancy</hi> later that year.</note>
    </notesStmt>
    
    <sourceDesc>
@@ -62,7 +55,7 @@
      
      <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “Old Age Echoes” ( 1891 ); Proof sheet with signed corrections and notations</title>  
      
-     <date notBefore="1842" notAfter="1892" cert="high">1891</date>
+     <date notBefore="1890-12-19" notAfter="1891-01-06" cert="high">Between December 19, 1890, and January 6, 1891</date>
      
      <idno type="callno">MSS 18630, box 28, folder Old Age Echoes (1891). Proof Sheet</idno>
      
@@ -75,15 +68,16 @@
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="letterpress" xml:id="h01" resp="#unk1" scope="major"><name>Unknown 1</name></handNote>
+    <handNote medium="letterpress" xml:id="h01" resp="#unk1" scope="major"><name xml:id="unk1">Unknown</name></handNote>
     <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
     <handNote medium="red ink" xml:id="h03" resp="#ww" scope="minor"/>
-    <handNote medium="pencil" xml:id="h04" resp="#unk2" scope="minor"><name>Unknown 2</name></handNote>
-    <handNote medium="letterpress" xml:id="h05" resp="#unk3" scope="minor"><name>Unknown 3</name></handNote>
+    <handNote medium="pencil" xml:id="h04" resp="#unk2" scope="minor"><name xml:id="unk2">Unknown</name></handNote>
+    <handNote medium="letterpress" xml:id="h05" resp="#unk3" scope="minor"><name xml:id="unk3">Unknown</name></handNote>
+    <handNote medium="pencil" xml:id="h06" resp="#ww" scope="minor"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-03-11" who="#km">proofed</change>
  <change when="2024-11-06" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -93,58 +87,58 @@
    
    <pb xml:id="leaf001r" facs="loc_ew.00198.jpg" type="recto"/>
 
-   <note type="authorial" hand="#h02" place="left">proof sent me f'm Lippincotts&amp;return'd Jan:6 '91&#8212;to go in March number next</note>
-   <note type="authorial" hand="#h03" place="top">a piece "sail out for good"&amp;c to make a flush page<lb/>Let me have another proof without fail</note>
-   <note type="editorial" hand="#h04" place="top">Corrector<lb/>Please return proof as soon as possible</note>
+   <note type="authorial" hand="#h02" place="left">proof sent me f'm Lippincotts &amp; return'd Jan:6 '91&#8212;to go in March number next</note>
+   
+   <note type="authorial" hand="#h03" place="top">(a piece "sail out for good" &amp;c to make a flush page<lb/> Let me have another proof without fail</note>
+   
+   <note type="collaborative" hand="#h04" place="top">Corrector</note>
+   
+   <note type="collaborative" hand="#h04" place="top">Please return proof as soon as possible</note>
+   
    <note type="authorial" hand="#h03" place="top">remember youth's companion has "Ship Ahoy"<lb/> " Scribner has the page cluster</note>
    
   <lg type="cluster"> 
+   
    <head type="main">OLD AGE ECHOES.</head>
    
-   <metamark function="add" target="#a001"><add hand="#h02">&#8248;&#8248;</add></metamark>
+   <metamark function="add" target="#a001"><add hand="#h02">&#8248; &#8248;</add></metamark><byline><add hand="#h02" place="right" xml:id="a001" rend="marked">By <hi rend="underline">Walt Whitman</hi></add></byline>
    
-   <byline><add hand="#h02" place="right" xml:id="a001" rend="marked">By <hi rend="underline">Walt Whitman</hi></add></byline>
-   
-     
+   <lg type="poem">
+       <head type="main">SOUND<add hand="#h06" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h06" place="left" xml:id="a002" rend="tripleUnderline">S<metamark function="emphasize" target="#a002">/</metamark></add> OF THE WINTER.</head>
     
-      <lg type="poem">
-       <head type="sub">SOUND<add hand="#h04" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h05" place="left" xml:id="a002">S<metamark function="separate" target="#a002">/</metamark></add> OF THE WINTER.</head>
-       <l>S<hi rend="smallcaps">OUNDS</hi> of the winter too,</l>
-       <l>Sunchine upon the mountains&#8212;many a distant strain</l>
+       <l>SOUNDS of the winter too,</l>
+       <l>Sunshine upon the mountains&#8212;many a distant strain</l>
        <l>From cheery railroad train&#8212;from nearer field, barn, house,</l>
        <l>The whispering air&#8212;even the mute crops, garner'd apples, corn,</l>
-       <l>Children's and women's tones&#8212;rhythm of many a farmer <add hand="#h02" place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a003">,<metamark function="seperate" target="#a003"></metamark></add> and of flail,</l>
-       <l>An old man's garrulous lips among the rest<subst hand="#h02"><del seq="1" rend="overstrike">.</del><add seq="2" place="right" rend="marked" xml:id="a004">&#8212;<metamark function="separate" target="#a004">/</metamark></add></subst> <hi rend="underline" hand="#h02">Think not we give out<lb/>
+       <l>Children's and women's tones&#8212;rhythm of many a farmer<add hand="#h02" place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a003">,<metamark function="emphasize" target="#a003">/</metamark></add> and of flail,</l>
+       <l>An old man's garrulous lips among the rest<subst hand="#h02"><del seq="1" rend="overstrike">.</del><add seq="2" place="right" rend="marked" xml:id="a004">&#8212;<metamark function="emphasize" target="#a004">/</metamark></add></subst> <hi rend="underline" hand="#h02" xml:id="j001">Think not we give out<lb/>
           yet,</hi></l>
-       <note type="authorial" hand="#h02" place="left" rend="circled">italic</note>
-       <l><hi rend="underline" hand="#h02">Forth from these smowy hairs we too keep up the lilt.</hi></l>
+       <l><hi rend="underline" hand="#h02" xml:id="j002">Forth from these smowy hairs we too keep up the lilt.</hi><add place="left" hand="#h02" rend="circled"><metamark function="adjust" target="#j001 #j002">italic</metamark></add></l>
       </lg>
    
-   
-    
      <lg type="poem">
-      <head type="sub">THE UNEXPRESS'D.</head>
+      <head type="main">THE UNEXPRESS'D.</head>
       <l>How dare one say it?</l>
       <l>After the cycles, poems, singers, plays,</l>
       <l>Vaunted Ionia's, India's&#8212;Homer, Shakespeare&#8212;the long, long times'<lb/>
-         think dotted roads, area<hi rend="overstrike" hand="#h04" xml:id="j001">s</hi><add place="left" hand="#h04"><metamark function="adjust" target="#j001">&#2537;</metamark></add>,</l>
+         thick dotted roads, area<hi rend="overstrike" hand="#h06" xml:id="j003">s</hi><add place="left" hand="#h06"><metamark function="adjust" target="#j003">&#2537;</metamark></add>,</l>
       <l>The shining clusters and the Milky Ways of stars&#8212;Nature's pulses<lb/>
-         reap'd<subst hand="#h02"><del seq="1" rend="overstrike">.</del><add seq="2" place="left" xml:id="a006">,<metamark function="separate" target="#a006">/</metamark></add></subst></l>
+         reap'd<subst hand="#h02"><del seq="1" rend="overstrike">.</del><add seq="2" place="left" xml:id="a006">,<metamark function="emphasize" target="#a006">/</metamark></add></subst></l>
       <l>All retrospective passions, heros, war, love, adoration,</l>
       <l>All ages' plummets dropt to their utmost depths,</l>
-      <l>All human lives, throats, wishes, brains&#8212;all experiences' utterance<add hand="#h02" place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a007">;<metamark function="separate" target="#a007"></metamark></add></l>
+      <l>All human lives, throats, wishes, brains&#8212;all experiences' utterance<add hand="#h02" place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a007">;<metamark function="emphasize" target="#a007">/</metamark></add></l>
       <l>After the countless songs, or long or short, all tongues, all lands,</l>
       <l>Still something not yet told in posey's voice or print&#8212;something lacking,</l>
       <l>(Who knows? the best yet unexpress'd and lacking).</l>
      </lg>
    
    
-   <metamark function="add" target="#a010"><add place="right" hand="#h03">take in here</add></metamark>
+   <metamark function="add" target="#a010"><add place="right" hand="#h03" rend="marked">take in here</add></metamark>
    
   
     <addSpan rend="pasteon" spanTo="#a008" hand="#h05" xml:id="a010"/>
     <lg type="poem">
-     <head type="sub" rend="italic">Sail out for good, Eid&#243;lon Yacht!</head>
+     <head type="main" rend="italic">Sail out for good, Eid&#243;lon Yacht!</head>
      <l>Heave the anchor short!</l>
      <l>Raise main-sail and jib&#8212;steer forth,</l>
      <l>O little white-hull'd sloop, now speed on really deep waters,</l>
@@ -158,17 +152,14 @@
     </lg>
     <anchor xml:id="a008"/>
    
-   
-    
     <lg type="poem">
-     <head type="sub">AFTER THE ARGUMENT.</head>
-     <l>A group of <space dim="horizontal" extent="about six characters"/> <add hand="#h02" place="inspace"><metamark function="add" target="#a009">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a009">little<metamark function="add" target="#a009">&#8248;</metamark></add> children with their ways and chatter flow in,</l>
+     <head type="main">AFTER THE ARGUMENT.</head>
+     <l>A group of <space dim="horizontal" extent="about six characters"/> <add hand="#h02"><metamark function="add" target="#a009">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a009">little<metamark function="add" target="#a009">&#8248;</metamark></add> children with their ways and chatter flow in,</l>
      <l>Like welcome rippling water o'er my heated nerves and flesh.</l>
     </lg>
   </lg>
   
-      
-   <pb xml:id="leaf001v" facs="loc_nk.00017_large.jpg" type="verso"/>
+   <pb xml:id="leaf001v" facs="loc_nk.00017.jpg" type="verso"/>
    
 </body>
 </text>
