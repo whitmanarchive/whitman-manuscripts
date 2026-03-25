@@ -88,6 +88,7 @@
         <revisionDesc>
            
             <change when="2026-03-24" who="#sd">transcribed and encoded</change>
+            <change when="2026-03-25" who="#sd">transcribed and encoded</change>
             
         </revisionDesc>
     </teiHeader>
@@ -251,20 +252,64 @@
                <head type="main">AS IN A SWOON.</head>
                
                <lg type="poem">
-                   <l>A<hi rend="smallcaps">S</hi> in a swoon, one instant,</l>
+                   <l><add hand="#h02" place="left"><metamark target="#s002" function="adjust">[</metamark><metamark function="group" rend="bracket-left" spanTo="#s002"/></add>A<hi rend="smallcaps">S</hi> in a swoon, one instant,</l>
                    <l>Another sun, ineffable, full-dazzles me,</l>
                    <l>And all the orbs I knew&#8212;and brighter, unknown orbs;</l>
-                   <l>One instant of the future land, Heaven's land.</l>
+                   <l>One instant of the future land, Heaven's land.</l><anchor xml:id="s002"/>
                </lg>
            </div>
             
             <div>
                 <head type="main">L OF G.</head>
                 
-                <metamark target="" function="adjust"><add hand="#h02" place="left" rend="marked">another lead</add></metamark>
+                <metamark target="#j014 #j015" function="adjust"><add hand="#h02" place="left" rend="marked">another lead</add></metamark>
+                
+                <lg type="poem"> 
+                    <lg type="linegroup">
+                        <l>T<hi rend="smallcaps">HOUGHTS</hi>, suggestions, aspirations, pictures,</l>
+                        <l>Cities and farms&#8212;by day and night&#8212;book of peace and war,</l>
+                        <l>Of platitudes and of the commonplace.</l>
+                    </lg>
+                    
+                    <anchor xml:id="j014"/>
+                    
+                    <lg type="linegroup">
+                        <l>For out-door health, the land and sea&#8212;for good will,</l>
+                        <l>For America&#8212;for all the earth, all nations, the common people,</l>
+                        <l>(Not of one nation only&#8212;not America only.)</l>
+                    </lg>
+                    
+                    <anchor xml:id="j015"/>
+                    
+                    <lg type="linegroup">
+                        <l>In it each claim, ideal<add hand="#h02" place="below"><metamark target="#a003" function="add">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a003">,<metamark target="#a003" function="emphasize">/</metamark></add> line, by all lines, claims, ideals, temper'd;</l>
+                        <l>Each right and wish by other wishes, rights.</l>
+                    </lg>
+                </lg>
+            </div>
+            
+            
+            <div>
+                <note type="work_relations" target="xxx.00565" cert="high"/>
+                
+                <head type="main">AFTER THE ARGUMENT.</head>
                 
                 <lg type="poem">
-                    <l>T<hi rend="smallcaps">HOUGHTS</hi>, suggestions, aspirations, pictures,</l>
+                    <l>A <hi rend="smallcaps">GROUP</hi> of little children with their ways and chatter flow in,</l>
+                    <l>Like welcome rippling water o'er my heated nerves and flesh.</l>
+                </lg>
+            </div>
+            
+            
+            <div>
+                <note type="work_relations" target="xxx.00566" cert="high"/>
+                
+                <head type="main">FOR US TWO, READER DEAR.</head>
+                
+                <lg type="poem">
+                    <l><add hand="#h02" place="left"><metamark function="group" rend="bracket-left" spanTo="#s001"/></add>S<hi rend="smallcaps">IMPLE</hi>, spontaneous, curious, two souls interchanging,</l>
+                    <l>With the original testimony for us continued to the last.</l>
+                    <anchor xml:id="s001"/>
                 </lg>
             </div>
             
