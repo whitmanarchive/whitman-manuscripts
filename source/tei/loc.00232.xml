@@ -12,11 +12,10 @@
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
-     <persName xml:id="ew">Emma Whaley</persName>
+         <persName xml:id="km">Kevin McMullen</persName>
+         <persName xml:id="ew">Emma Whaley</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -44,17 +43,13 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.00232</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+      <note type="project" target="#dat1">Horace Traubel notes that Whitman was trying to place a cluster entitled "An Old Man's Recitative" in <hi rend="italic">Arena</hi> in <ref target="med.00007.138">November 1890</ref>. A <ref target="loc.00230">similar proof</ref> containing some of the same poems as the present manuscript and titled "An Old Man's Recitatives" contains a note, in Whitman's hand, that the cluster was submitted to <hi rend="italic">Scribner's</hi> in December 1890 but rejected in January 1891. The note at the top of the present proof indicates yet another attempt to publish this related cluster, seemingly in a different venue; it is not clear whether this attempt was before or after the attempts to <hi rend="italic">Arena</hi> and <hi rend="italic">Scribner's</hi>. The date is therefore sometime between the fall of 1890 and May 1891, when <hi rend="italic">Good-Bye My Fancy</hi> was published.</note>
     
     
-     <note type="work_relations" target="xxx.01170" cert="high">
-      <p>Proof pages of six poems collected under the general title "Old-Age Recitatives." The poems included are: "Old Chants" (1891), "On, On the Same,Ye Jocund Twain!" (1891), "Sail Out for Good, Eid&#243;lon Yacht!" (1891), "L. of G.'s Purport" (only two lines of the twelve-line poem of the same title first published in 1891), "My task" (published as part of "L. of G.'s Purport" in 1891), and "For us two, reader dear" (1891). At the top of the first page is a note to the printer in Whitman's hand.</p>
-     </note>
+      <note type="work_relations" target="xxx.01170" cert="high">Proof pages of six poems collected under the general title "Old-Age Recitatives." Whitman seemingly attempted to publish the cluster in a periodical, as suggested by his note at the top of the page, but no publication under this title is known to exist. However, all of the poems in this proof were published separately or in other configurations, all appearing, in some form, in <hi rend="italic">Good-Bye My Fancy</hi> (1891), and all except for "For us two, reader dear" appeared in some form in the final edition of <hi rend="italic">Leaves of Grass</hi> (1891–92). The poems included in the proof are "Old Chants," "On, On the Same,Ye Jocund Twain!" "Sail Out for Good, Eid&#243;lon Yacht!" "L. of G.'s Purport" (only two lines of the twelve-line poem of the same title first published in <hi rend="italic">Good-Bye My Fancy</hi>), "My task" (published as part of "L. of G.'s Purport"), and "For us two, reader dear."</note>
    </notesStmt>
    
    <sourceDesc>
@@ -63,7 +58,7 @@
      
      <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “Old Age Recitatives” ( 1891 ); Proof sheets with corrections and notations</title>  
      
-     <date notBefore="1842" notAfter="1892" cert="high">1891</date>
+     <date notBefore="1890" notAfter="1891-05" cert="high">1890 to 1891</date>
      
      <idno type="callno">MSS18630, box 28, folder Old Age Recitatives (1891). Proof Sheets.</idno>
      
@@ -76,14 +71,14 @@
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="letterpress" xml:id="h01" resp="#unk" scope="major"><name>Unknown</name></handNote>
+    <handNote medium="letterpress" xml:id="h01" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
     <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
     <handNote medium="blue crayon" xml:id="h03" resp="#ww" scope="minor"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
- <change when="2024-11-05" who="#ew">transcribed and encoded</change>
+   <change when="2026-03-27" who="#km">proofed</change>
+   <change when="2024-11-05" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -92,31 +87,36 @@
    
    <pb xml:id="leaf001r" facs="loc_ew.00203.jpg" type="recto"/>
    
-   <note hand="#h02" type="authorial" place="top">my notion is to put these as the two front<!--?--> pages in the number&#8212;the 2d page to be fill'd out say 2-3ds (or 3-4ths)&#8212;but sure to leave a little blank at bottom&#8212;If neccessary for that, leave out one of the little pieces at bottom of 2d page copy&#8212;or if not enough to make a handsome two pages, I will furnish more copy (I have had them put in type for my own convenience)</note>
+   <note hand="#h02" type="authorial" place="top">my notion is to put these as the two first pages in the number&#8212;the 2d page to be fill'd out say 2-3ds (or 3-4ths)&#8212;but sure to leave a little blank at bottom&#8212;If neccessary for that, leave out one of the little pieces at bottom of 2d page copy&#8212;or if not enough to make a handsome two pages, I will furnish more copy (I have had them put in type for my own convenience) WW</note>
    
    <addSpan rend="pasteon" spanTo="#a001"/>
     <head type="main">OLD-AGE RECITATIVES.</head>
    <byline>B<hi rend="smallcaps">Y</hi> W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</byline>
-   <metamark function="emphasize">#</metamark>
-   <head type="sub">OLD CHANTS.</head>
+     
+   <metamark function="emphasize"><add hand="#h03">#</add></metamark>
+     
    <lg type="poem">
-     <lg type="stanza">
+      <note type="work_relations" target="xxx.00395"/>
+      <head type="main">OLD CHANTS.</head>
+     <lg type="linegroup">
       <l>An ancient song, reciting, ending,</l>
       <l>Once gazing toward thee, Mother of All,</l>
       <l>Musing, seeking themes fitted for thee,</l>
       <l><hi rend="italic">Accept for me</hi>, thou saidst, <hi rend="italic">the elder ballads</hi>,</l>
       <l><hi rend="italic">And name for me before thou goest each ancient poet</hi>.</l>
      </lg>
-     <lg type="stanza"> 
+      
+     <lg type="linegroup"> 
       <l>(Of many debts incalculable,</l>
       <l>Haply our New World's chiefest debt is to old poems.)</l>
      </lg>
-     <lg type="stanza"> 
+      
+     <lg type="linegroup"> 
       <l>Ever so far back, preluding thee, America,</l>
       <l>Old chants, Egyptian priests, and those of Ethiopia,</l>
       <l>The Hindu epics, the Grecian, Chinese, Persian,</l>
-      <l>The Biblic books and prophets, and deep idylls of the Naza,<lb/>
-         rene,</l>
+      <l>The Biblic books and prophets, and deep idylls of the <choice><orig>Naza-<lb/>
+         rene</orig><reg>Narazene<lb/></reg></choice>,</l>
       <l>The Iliad, Odyssey, plots, doings, wanderings of Eneas,</l>
       <l>Hesiod, Eschylus, Sophocles, Merlin, Arthur,</l>
       <l>The Cid, Roland at Roncesvalles, the Nibelungen,</l>
@@ -128,15 +128,15 @@
       <l>As some vast wondrous wierd dream-presences,</l>
       <l>The great shadowy groups gathering around,</l>
       <l>Darting their mighty masterful eyes forward at thee,</l>
-      <l>Thou! with as now thy bending neck and head, with courte-<lb/>
-         ous hand and word, ascending,</l>
+      <l>Thou! with as now thy bending neck and head, with <choice><orig>courte-<lb/>
+         ous</orig><reg>courteous<lb/></reg></choice> hand and word, ascending,</l>
       <l>Thou! pausing a moment, drooping thine eyes upon them,<lb/>
          blent with their music,</l>
       <l>Well pleased, accepting all, curiously prepared for by them,</l>
       <l>Thou enterest at thy entrance porch.</l>
      </lg>
    </lg>
-   <metamark function="emphasize">#</metamark>
+   <metamark function="emphasize"><add hand="#h03">#</add></metamark>
    <anchor xml:id="a001"/>
     
    <pb xml:id="leaf001v" facs="loc_nk.00023_large.jpg" type="verso"/>
@@ -144,27 +144,26 @@
    <pb xml:id="leaf002r" facs="loc_ew.00204.jpg" type="recto"/>
     
     <note type="authorial" hand="#h03" place="top">2</note>
-     
-<lg type="cluster">    
-   
+         
    <addSpan rend="pasteon" spanTo="#a002"/>
     <lg type="poem">
+       <note type="work_relations" target="xxx.00383"/>
        <head type="main">ON, ON THE SAME, YE JOCUND TWAIN!</head>
       <l>On, on the same, ye jocund twain!</l>
       <l>My life and recitative, containing birth, youth, mid-age years.</l>
       <l>Fitful as motley-tongues of flame, inseparably twined and<lb/>
          merged in one&#8212;combining all,</l>
-      <l>My single soul&#8212;aims, confirmations, failures, joys&#8212;nor sin-<lb/>
-         gle soul alone,</l>
-      <l>I chant my nation's crucial stage, (America's, haply humani-<lb/>
-         ty's)&#8212;the trial great, the victory great,</l>
+      <l>My single soul&#8212;aims, confirmations, failures, joys&#8212;nor <choice><orig>sin-<lb/>
+         gle</orig><reg>single<lb/></reg></choice> soul alone,</l>
+      <l>I chant my nation's crucial stage, (America's, haply <choice><orig>humani-<lb/>
+         ty's</orig><reg>humanity's<lb/></reg></choice>)&#8212;the trial great, the victory great,</l>
       <l>A strange <hi rend="italic">eclaircissement</hi> of all the masses past, the eastern<lb/>
          world, the ancient, medieval,</l>
       <l>Here, here from wanderings, strayings, lessons, wars, defeats&#8212;<lb/>
          here at the west a voice triumphant&#8212;justifying all,</l>
       <l>A gladsome pealing cry&#8212;a song for once of utmost pride and<lb/>
          satisfaction;</l>
-      <l>I chant from in the common bulk, the general average horde,<lb/>
+      <l>I chant from it the common bulk, the general average horde,<lb/>
           (the best no sooner than the worst)&#8212;And now I<lb/>
           chant old age,</l>
       <l>(My verses, written first for forenoon life, and for the summer's,<lb/>
@@ -175,14 +174,16 @@
          love,</l>
       <l>Wafting to other work, to unknown songs, conditions,</l>
       <l>On on, ye jocund twain! continue on the same!</l>   
+       <signed><del hand="#h03" rend="overstrike">W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</del></signed>
      </lg>
-    <signed><del hand="#h03" rend="overstrike">W<hi rend="smallcaps">ALT</hi> W<hi rend="overstrike">HITMAN</hi>.</del></signed>
+    
     <anchor xml:id="a002"/>
    
-     <metamark function="emphasize">#</metamark>
+     <metamark function="emphasize"><add hand="#h03">#</add></metamark>
    
      <addSpan rend="pasteon" spanTo="#a003"/>
      <lg type="poem"> 
+        <note type="work_relations" target="xxx.00380"/>
         <head type="main" rend="italic">Sail out for good, Eidolon Yacht!</head>
       <l>Heave the anchor short!</l>
       <l>Raise main-sail and jib&#8212;steer forth,</l>
@@ -192,45 +193,53 @@
       <l>Depart, depart from solid earth&#8212;no more returning to these<lb/>
          shores,</l>
       <l>Now on for aye our infinite free venture wending,</l>
-      <l>Spurning all yet tried ports, seas, hawsers, densities, gravitiation,</l>
+      <l>Spurning all yet tried ports, seas, hawsers, densities, gravitation,</l>
       <l>Sail out for good, eid&#243;lon yacht of me!</l>
      </lg>
+     
+     <metamark function="emphasize"><add hand="#h03">#</add></metamark>
+     
      <anchor xml:id="a003"/>
-   
-     <metamark function="emphasize">#</metamark>
    
      <addSpan rend="pasteon" spanTo="#a004"/>  
      <lg type="poem"> 
+        <note type="work_relations" target="xxx.00406"/>
         <head type="main" rend="italic">L. of G's Purport.</head>
       <l>Not to exclude or demarcate, or pick out evils from their<lb/>
          formidable masses (even to expose them,)</l>
       <l>But add, fuse, complete, extend&#8212;and celebrate the immortal<lb/>
          and the good.</l>
      </lg>
+     
+     <metamark function="emphasize"><add hand="#h03">#</add></metamark>
+     
      <anchor xml:id="a004"/>
-   
-      <metamark function="emphasize">#</metamark>
+     
    
      <addSpan rend="pasteon" spanTo="#a005"/>
      <lg type="poem"> 
+        <note type="work_relations" target="xxx.00406"/>
         <head type="main" rend="italic">My task</head>
       <l>Begun in ripen'd youth and steadily pursued,</l>
       <l>Wandering, peering, dallying with all&#8212;war, peace, day and<lb/>
          night absorbing,</l>
       <l>Never even for one brief hour abandoning my task,</l>
-      <l>I end it here in pverty, sickness, and old age.</l>
+      <l>I end it here in poverty, sickness, and old age.</l>
      </lg>
+     
+     <metamark function="emphasize"><add hand="#h03">#</add></metamark>
+     
      <anchor xml:id="a005"/>
    
-      <metamark function="emphasize">#</metamark>
    
      <addSpan rend="pasteon" spanTo="#a006"/>
      <lg type="poem"> 
+        <note type="work_relations" target="xxx.00566"/>
         <head type="main" rend="italic">For us two, reader dear.</head>
       <l>Simple, spontaneous, curious, two souls interchanging,</l>
       <l>With the original testimony for us continued on to the last.</l>
      </lg>
-     <anchor xml:id="a006"/></lg>
+     <anchor xml:id="a006"/>
   
    <pb xml:id="leaf002v" facs="loc_nk.00025_large.jpg" type="verso"/>
    
