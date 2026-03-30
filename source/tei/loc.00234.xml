@@ -12,10 +12,9 @@
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
+     <persName xml:id="km">Kevin McMullen</persName>
      <persName xml:id="ew">Emma Whaley</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -44,15 +43,12 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.00234</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
-     <note type="work_relations" target="xxx.00388" cert="high">
-      <p>An early draft written in ink, with a correction in blue pencil, of "Old Age's Ship and Crafty Death's," first published in 1890. The draft has the underlined title "Old Age's Ship and crafty Death" half way down the page. One page is written on the back an opened envelope addressed to Whitman and postmarked Scarborough, December 20, 1888.</p>
+     <note type="work_relations" target="xxx.00388" cert="high">An early draft written in ink, with a correction in blue pencil, of "Old Age's Ship and Crafty Death's," first published in 1890. The draft has the underlined title "Old Age's Ship and crafty Death" half way down the page. One page is written on the back an opened envelope addressed to Whitman and postmarked Scarborough, December 20, 1888.
      </note>
    </notesStmt>
    
@@ -81,8 +77,8 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
- <change when="2024-12-11" who="#tb">transcribed and encoded</change>
+ <change when="2026-03-27" who="#km">proofed</change>
+ <change when="2024-12-11" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -92,11 +88,12 @@
    <pb xml:id="leaf001r" facs="loc_ew.00208.jpg" type="recto"/>
    
    <lg type="linegroup">
-     <l><add hand="#h02" place="above"><subst hand="#h01"><del seq="1" rend="overstike">Crowd</del><add seq="2" place="above">Put</add></subst> <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">on the old ship</add><del rend="overstrike">all sail</del> all her <subst><del seq="1" rend="overstrike">sails</del><add seq="2" place="above">power</add></subst></add></l>
-     <l>Crowd top-gallant and royal studding&#11840;sails</l>
+    <l><handShift new="#h02"/><subst hand="#h01"><del rend="overstrike" seq="1">Crowd</del><add place="above" seq="2">Put</add></subst> <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">on the old ship</add> all sail all her <subst><del rend="overstrike" seq="1">sails</del><add place="above" seq="2">power</add></subst></l>
+    
+     <l><handShift new="#h01"/>Crowd top-gallant and royal studding&#11840;sails</l>
      <l>Take to the deep waters</l>
    </lg>
-   
+   <!-- RESUME PROOFING HERE. KM -->
    <lg type="linegroup">
     <l><seg xml:id="w1">We will</seg><add place="above" xml:id="w2">We'll</add> make <del rend="overstrike">a</del> race upon the seas</l>
     <alt target="#w1 #w2" weights="0.5 0.5"/>
@@ -120,7 +117,7 @@
    
    <note type="authorial" hand="#h03" place="top">top-gallant &amp; royal <subst><del seq="1" rend="overstrike">stun-</del><add seq="2" place="above">studding-</add></subst>sails</note>
    
-   <pb xml:id="leaf002v" facs="20051228_0096.jpg" type="verso"/>
+   <pb xml:id="leaf002v" facs="loc_km.00054.jpg" type="verso"/>
    
 </body>
 </text>
