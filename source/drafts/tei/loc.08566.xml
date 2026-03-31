@@ -100,6 +100,18 @@
      <date>1785</date>
     </bibl>
     
+    <bibl xml:id="source4">
+     <author>Burns, Robert</author>
+     <title>"Second Epistle To J. Lapraik"</title>
+     <date>1785</date>
+    </bibl>
+    
+    <bibl xml:id="source5">
+     <author>Alfred, Lord Tennyson</author>
+     <title>"Locksley Hall"</title>
+     <date>1842</date>
+    </bibl>
+    
    </sourceDesc>
 </fileDesc>
   <profileDesc>
@@ -120,7 +132,7 @@
  <text type="manuscript">
   <body>
    
-
+<div>
    <pb xml:id="leaf001r" facs="loc_ja.00186.jpg" type="recto"/>
    <note place="top" type="collaborative" hand="#h03">Gray</note>
    <head type="main">ROBERT BURNS AS POET AND PERSON.</head>
@@ -240,7 +252,7 @@
     fitting appreciation, flows deeply, widely yet?
    </p>
    <p>
-    <note xml:id="n1" type="authorial" target="#r1" place="inline"><metamark function="link">*</metamark>Probably no man that ever lived&#8212;a friend has made the statement&#8212;was
+    <note xml:id="n1" type="authorial" target="#r1" place="bottom"><metamark function="link">*</metamark>Probably no man that ever lived&#8212;a friend has made the statement&#8212;was
     so fondly loved, both by men and women, as Robert Burns. The reason is
     not hard to find: he had a real heart of flesh and blood beating in his bosom;
     you could almost hear it throb. "Some one said, that if you had shaken
@@ -427,7 +439,7 @@
     the soil, sights, and local customs. He often apostrophizes Scotland,
     and is, or would be, enthusiastically patriotic. His country
     
-    <ref xml:id="r2" target="#n2"><metamark function="link">*</metamark></ref>The Dumfries statue of Robert Burns was successfully unveil'd April
+    <note xml:id="n2" type="authorial" target="#r2" place="bottom"><metamark function="link">*</metamark></note>The Dumfries statue of Robert Burns was successfully unveil'd April
     1881 by Lord Roseberry, the occasion having been made national in its character.
     Before the ceremony, a large procession paraded the streets of the
     town, all the trades and societies of that part of Scotland being represented, at
@@ -440,10 +452,10 @@
     song-book, and a rustic flageolet. The costume is taken from the Nasmyth
     portrait, which has been follow'd for the features of the face.
     
-    has lately com<add place="below" hand="#h04"><metamark target="#a001" function="add"></metamark></add><add place="left" hand="#h04" xml:id="a001">m</add>emorated him in a statue. His aim is declaredly
+    has lately com<add place="below" hand="#h04"><metamark target="#a001" function="add"></metamark></add><add place="left" hand="#h04" xml:id="a001">m</add>emorated him in a statue.<add place="below" hand="#h04"><metamark target="#e009" function="add">&#8248;</metamark></add><add place="right" hand="#h04"><ref xml:id="r2" target="#n1"><metamark function="link" xml:id="e009">*</metamark></ref><metamark function="emphasize" target="#e009">/</metamark></add> His aim is declaredly
     to be a 'Rustic Bard.' His poems were all written in youth or
     young manhood, (he was little more than a young man when he
-    died). His collected works in giving everything are nearly one
+    died<subst hand="#h02"><del rend="overstrike" seq="1">).</del><add place="left" xml:id="e010" seq="2">.)<metamark target="#e010" function="emphasize">/</metamark></add></subst> His collected works in giving everything<add place="below" hand="#h02"><metamark target="#e011" function="add">&#8248;</metamark></add><add place="right" hand="#h02" xml:id="e011">,<metamark target="#e011" function="emphasize">/</metamark></add> are nearly one
     half first drafts. His brightest hit is his use of the Scotch patois,
     so full of terms flavor'd like wild fruits or berries. Then I should
     make an allowance to Burns which cannot be made for any other
@@ -452,14 +464,14 @@
     not out of keeping in any comprehensive collection of his works,
     heroically printed, 'following copy,' every piece, every line according
     to originals. Other poets might tremble for such boldness,
-    such rawness. In 'this odd-kind chiel' such points
+    such rawness. In 'this odd <subst><del rend="overstrike" seq="1"><gap extent="one unit" reason="illegible"/></del><add place="right" seq="2">&#11840;<metamark target="#e012" function="emphasize">/</metamark></add></subst> kind chiel' such points <note place="right" type="collaborative" hand="#h02" rend="circled">odd&#11840;kind</note>
     hardly mar the rest. Not only are they in consonance with the
     underlying spirit of the pieces, but complete the full abandon
     and veracity of the farm-fields and the home-brew'd flavor of the
     Scotch vernacular. (Is there not often something in the very
     neglect, unfinish, careless, nudity, slovenly hiatus, coming from
     intrinsic genius, and not 'put on,' that secretly pleases the soul
-    more than the wrought and re-wrought polish of the most perfect
+    more than the wrought and re-wrought<del rend="overstrike" hand="#h02" xml:id="d004"><unclear reason="illegible" resp="#ja" cert="high">,</unclear></del><add place="right" hand="#h02"><metamark target="#d004" function="delete">&#948;</metamark></add> polish of the most perfect
     verse?) Mark the native spice and untranslatable twang in
     the very names of his songs&#8212;"O for ane and twenty, Tam,"
     "John Barleycorn," "Last May a braw Wooer," "Rattlin
@@ -469,7 +481,7 @@
    </p>
    <p>
     The longer and more elaborated poems of Burns are just such
-    as would please a natural but homely taste, and cute but average
+    as would please a natural but homely taste, and cute but ave<subst hand="#h04"><del rend="overstrike" seq="1">ar</del><add place="right" seq="2">ra</add></subst>ge
     intellect, and are inimitable in their way. The "Twa Dogs," (one
     of the best) with the conversation between Cesar and Luath, the
     "Brigs of Ayr," "the Cotter's Saturday Night," "Tam O'Shanter"&#8212;
@@ -493,13 +505,13 @@
     <q source="#source3">
      <floatingText>
       <body><lg type="linegroup">
-       <l>Wee, sleekit, cowrin, tim'rous beastie:"</l>
+       <l>"Wee, sleekit, cowrin, tim'rous beastie:"</l>
       </lg></body>
      </floatingText>
     </q>
     
-    "to a Mountain Daisy," "to a Haggis,"<hi rend="underline" hand="#h04"><anchor xml:id="j002"/></hi><add hand="#h02" place="right"><metamark function="adjust" target="#j002">&#8869; </metamark></add>"to a Louse," "to the
-    Toothache," etc.&#8212;and occasionally to his brother barbs and lady
+    "to a Mountain Daisy," "to a Haggis,"<anchor xml:id="j002"/><add hand="#h04" place="right"><metamark function="adjust" target="#j002" place="right">&#8869;</metamark></add>"to a Louse," "to the
+    Toothache," etc.&#8212;and occasionally to his brother bar<subst hand="#h02"><del rend="overstrike" seq="1">b</del><add place="right" xml:id="e013" seq="2">d<metamark target="#e013" function="emphasize">/</metamark></add></subst>s and lady
     or gentleman patrons, often with strokes of tenderest sensibility,
     idiopathic humor, and genuine poetic imagination&#8212;still oftener
     with shrewd, original, sheeny, steel-flashes of wit, home-spun
@@ -509,10 +521,129 @@
     made to Mourn," "Address to Ruin," a "Bard's Epitaph," &amp;c.
     From such deep-down elements sprout up, in very contrast and
     paradox, those riant utterances of which a superficial reading will
-    not detect the hidden foundtaion. Yet nothing is clearer to me
+    not detect the hidden foundation. Yet nothing is clearer to me
     than the black and desperate background behind those pieces&#8212;as
    </p>
    
+   <pb xml:id="leaf005r" facs="loc_ja.00190.jpg" type="recto"/>
+   <note hand="#h03" type="collaborative" place="top">5</note>
+   <note hand="#h03" type="collaborative" place="top">Campbell</note>
+   <p>
+    I shall now specify them. I find his most characteristic, Nature's
+    masterly touch and luxuriant life-blood, color and heat, not in
+    "Tam O'Shanter," "the Cotter's Saturday Night," "Scots who
+    hae," "Highland Mary," "the Twa Dogs," and the like, but in
+    "the Jolly Beggars," "Rigs of Barley," "Scotch Drink," "the
+    Epistle to John Rankine," "Holy Willie's Prayer," and in
+    "Halloween," (to say nothing of a certain cluster, known still
+    to a small inner circle in Scotland, but, for good reasons, not
+    published anywhere.) In these compositions, especially the first,
+    there is much indelicacy (some editions flatly leave it out), but
+    the composer reigns alone, with handling free and broad and
+    true, and is an artist. You may see and feel the man indirectly
+    in his other verses, all of them, with more or less life-likeness&#8212;
+    but these I have named last call out pronouncedly in his own
+    voice,
+    
+    <q source="#source4">
+    <floatingText>
+     <body><lg type="linegroup">
+      <l>"I, Rob, am here."</l>
+     </lg></body>
+    </floatingText>
+    </q>
+    
+    Finally, in any summing-up of Burns, though so much is to
+    be said in the way of fault-finding, drawing black marks, and
+    doubtless severe literary criticism&#8212;(in the present outpouring I
+    have 'kept myself in,' rather than allow'd any free flow)&#8212;after
+    full retrospect of his works and life, the aforesaid 'odd-kind
+    chiel' remains to my heart and brain as almost the tenderest,
+    manliest, and (even if contradictory) dearest flesh-and-blood
+    figure in all the streams and clusters of by-gone poets.
+   </p>
+ 
+   </div>
+   
+   <note hand="#h03" rend="marked" type="collaborative">Blankout</note>
+   
+   <div>
+    <note type="work_relations" target="xxx.00468" cert="high"/>
+    <head type="main">A WORD ABOUT TENNYSON.</head>
+    <p>
+     B<hi rend="smallcaps">EAUT<subst hand="#h04"><del rend="overstrike" seq="1">S</del><add place="left" rend="doubleUnderline" seq="2">i</add></subst>FUL</hi> as the song was, the original 'Locksley Hall' of
+     half a century ago was essentially morbid, heart-broken, finding
+     fault with everything, especially the fact of money's being made
+     (as it ever must be, and perhaps should be) the paramount matter
+     in worldly affairs.
+     
+     <q source="#source5">
+      <floatingText>
+       <body><lg type="linegroup">
+        <l>Every door is barr'd with gold, and opens but to golden keys.</l>
+       </lg></body>
+      </floatingText>
+     </q>
+     
+     First, a father, having fallen in battle, his child (the singer)
+     
+     <q source="#source5">
+      <floatingText>
+       <body><lg type="linegroup">
+        <l>Was left a trampled orphan, and a selfish uncle's ward.</l>
+       </lg></body>
+      </floatingText>
+     </q>
+     
+     Of course love ensues. The woman in the chant or monologue
+     proves a false one; and as far as appears the ideal of woman, in
+     the poet's reflections, is a false one&#8212;at any rate for America.
+     Woman is <hi rend="italic">not</hi> 'the lesser man.' (The heart is not the brain.)
+     The best of the piece of fifty years since is its concluding line:
+     
+     <q source="#source5">
+      <floatingText>
+       <body><lg type="linegroup">
+        <l>For the mighty wind arises roaring seaward and I go.</l>
+       </lg></body>
+      </floatingText>
+     </q>
+     
+     Then for this current 1886-7, a just-out sequel, which (as an
+     apparently authentic summary says) 'reviews the life of mankind
+     during the past sixty years, and comes to the conclusion that
+     its boasted progress is of doubtful credit to the world in general
+     and to England in particular. A cynical vein of denunciation
+     of democratic opinions and aspirations runs throughout the
+     poem in mark'd contrast with the spirit of the poet's youth.'
+     Among the most striking lines of this sequel are the following:
+     
+     <q source="#source5">
+      <floatingText>
+       <body><lg type="linegroup">
+        <l>Envy wears the mask of love, and, laughing sober fact to scorn,</l>
+        <l>Cries to weakest as to strongest, 'Ye are equals, equal<note hand="#h04" place="right" type="collaborative">born?</note></l>
+        <l>Equal-born! Oh yes, if yonder hill be level with the flat.</l>
+        <l>Charm us, orator, till the lion look no larger than the cat:</l>
+        <l>Till the cat, through that mirage of overheated language, loom</l>
+        <l>Larger than the lion Demo&#8212;end in working its own doom.</l>
+        <l>Tumble Nature heel o'er head, and, yelling with the yelling street,</l>
+        <l>Set the feet above the brain, and swear the brain is in the feet.</l>
+        <l>Bring the old dark ages back, without the faith, without the hope</l>
+        <l>Beneath the State, the Church, the <subst hand="#h02"><del rend="overstrike" seq="1">t</del><add place="right" seq="2"><hi rend="tripleUnderline">T</hi></add></subst>hrone, and roll their runs down the<lb/> slope.</l>
+       </lg></body>
+      </floatingText>
+     </q>
+     
+     I should say that all this is a legitimate consequence of the tone
+     and convictions of the earlier standards and points of view.
+     Then some reflections, down to the hard-pan of this sort of
+     thing.
+    </p>
+    
+    
+    
+   </div>
 </body>
 </text>
 </TEI>
