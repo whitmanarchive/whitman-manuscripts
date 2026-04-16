@@ -6,17 +6,15 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">Now precedent songs, Farewell</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
-     <persName xml:id="ew">Emma Whaley</persName>
+      <persName xml:id="ew">Emma Whaley</persName>
+       <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -28,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,16 +41,12 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>tex.00092</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
-     <note type="work_relations" target="xxx.00373" cert="high">
-      <p>A draft of the poem "Now Precedent Songs, Farewell," which first appeared in <hi rend="italic">November Boughs</hi> (1888) and was reprinted in the 1891–92 printing of <hi rend="italic">Leaves of Grass</hi>.</p>
-     </note>
+     <note type="work_relations" target="xxx.00373" cert="high">A draft of the poem "Now Precedent Songs, Farewell," which first appeared in <hi rend="italic">November Boughs</hi> (1888) and was reprinted in the 1891–92 printing of <hi rend="italic">Leaves of Grass</hi>.</note>
    </notesStmt>
    
    <sourceDesc>
@@ -80,7 +73,7 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+   <change when="2026-04-15" who="#km">proofed</change>
  <change when="2025-01-21" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -89,21 +82,22 @@
   <body>
    
    <pb xml:id="leaf001r" facs="tex_km.00004.jpg" type="recto"/>
-   
-   <head rend="underline">Now precedent songs, Farewell</head>
+     
    <lg type="poem">
-     <l><add hand="#h02" place="inline">Now precedent songs, farewell&#8212;by <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">every</add> name farewell,</add></l>
+      <head type="main" rend="underline">Now precedent songs, Farewell</head>
+      
+     <l><add hand="#h02">Now precedent songs, farewell&#8212;by <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">every</add> name farewell,</add></l>
     <milestone unit="glued"/>
      <l>(Trains <subst><del seq="1" rend="overstrike">like</del><add seq="2" place="above">of</add></subst> a staggering line<lb/>
-        in many a strange procession<add hand="#h02" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a002">waggons,</add></l>
-     <l><subst hand="#h02"><del seq="1" rend="overstrike">Of</del><add seq="2" place="above">From</add></subst> ups and downs&#8212;<subst hand="#h02"><del seq="1" rend="overstrike">of</del><add seq="2" place="above">with</add></subst>intervals&#8212;<subst hand="#h02"><del seq="1" rend="overstrike">of</del><add seq="2" place="above">from</add></subst> elder<lb/>
+        in many a strange procession <add hand="#h02" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a002">waggons,</add></l>
+     <l><subst hand="#h02"><del seq="1" rend="overstrike">Of</del><add seq="2" place="above">From</add></subst> ups and downs&#8212;<subst hand="#h02"><del seq="1" rend="overstrike">of</del><add seq="2" place="above">with</add></subst> intervals&#8212;<subst hand="#h02"><del seq="1" rend="overstrike">of</del><add seq="2" place="above">from</add></subst> elder<lb/>
         years, mid-age, or youth,)</l>
     <milestone unit="glued"/>
-     <l>"In cabin'd ships," or <add hand="#h02" place="inline">"</add>Thee Old Cause<add hand="#h02" place="inline">"</add> or<lb/>
+     <l>"In cabin'd ships," or <add hand="#h02">"</add>Thee Old Cause<add hand="#h02">"</add> or<lb/>
         <del rend="overstrike">calling</del> "Poets to Come"</l>
-     <l>Or "Paumanok," <del rend="overstrike">or</del> "Song of Myself<add hand="#h02" place="inline">,</add>"<lb/>
-        <del rend="overstrike">or</del> "Calamus<add hand="#h02" place="inline">,</add>" or "Adam<add hand="#h02" place="inline">,</add>"</l>
-     <l>Or "Beat! Beat! Drums!" or "to the Leaven'd<lb/>
+     <l>Or "Paumanok," <del rend="overstrike">or</del> "Song of Myself<add hand="#h02">,</add>"<lb/>
+        <del rend="overstrike">or</del> "Calamus<add hand="#h02">,</add>" or "Adam<add hand="#h02">,</add>"</l>
+     <l>Or "Beat! Beat! Drums<subst rend="overwrite"><del>"</del><add>!</add></subst>" or "to the Leaven'd<lb/>
         Soil they Trod,"</l>
      <l>Or "Captain! My Captain!" "Kosmos,"<lb/>
         "Quicksand Years" or "Thoughts."</l>
@@ -113,25 +107,27 @@
    <pb xml:id="leaf002r" facs="tex_km.00006.jpg" type="recto"></pb>
     
     <l>"Thou Mother with <subst hand="#h02"><del seq="1" rend="overstrike">Thou</del><add seq="2" place="above">Thy</add></subst> Equal Brood," and<lb/>
-        many, many more,<add hand="#h02">unspecified,</add></l>
-    <l><subst hand="#h02"><del seq="1" rend="overstrike">Of</del><add seq="2" place="above">From</add></subst> fibre heart<add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">of mine&#8212;</add>&#8212;<subst hand="#h02"><del seq="1" rend="overstrike">of</del><add seq="2" place="above" xml:id="a005">from</add></subst><add hand="#h02" place="below"><metamark function="add" target="#a005">&#8248;</metamark></add> throat and tongue&#8212;(My<lb/>
+        many, many more, <add hand="#h02">unspecified,</add></l>
+    <l><subst hand="#h02"><del seq="1" rend="overstrike">Of</del><add seq="2" place="above">From</add></subst> fibre heart <add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">of mine&#8212;</add>&#8212;<subst hand="#h02"><del seq="1" rend="overstrike">of</del><add seq="2" place="above" xml:id="a005">from</add></subst><add hand="#h02" place="below"><metamark function="add" target="#a005">&#8248;</metamark></add> throat and tongue&#8212;(<hi rend="tripleUnderline">M</hi>y<lb/>
         life's hot pulsing blood</l>
+      
    <milestone unit="glued"/>
-   <addSpan hand="#h02" spanTo="#a003"/>
-    <l>The personal urge and form for me&#8212;not<lb/>
+   
+    <l><handShift new="#h02"/>The personal urge and form for me&#8212;not<lb/>
         merely paper, automatic type and ink,)</l>
     <l>Each song of mine&#8212;each utterance in the<lb/>
        past&#8212;having its long, long history,</l>
     <l>Of life or death, or soldier's wound, of<lb/>
-       country's loss or safety<add hand="#h01" place="inline">,</add></l>
-   <anchor xml:id="a003"/>
+       country's loss or safety<add hand="#h01">,</add></l>
+
    <milestone unit="glued"/>
-    <l><subst hand="#h02"><del seq="1" rend="overstrike">On</del><add seq="2" place="left">Or</add></subst> meditating thought, or soul<lb/>
-       or<add place="below"><metamark function="add" target="#a006">&#8248;</metamark></add><add place="above" xml:id="a006"><unclear reason="illegible" resp="#ew">father'd</unclear></add> sun by day, or star at night,</l>
-    <l>(O heaven! what flash and<add place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><add place="above" xml:id="a007">started</add> endless<lb/>
+      
+    <l><handShift new="#h01"/><subst hand="#h02"><del seq="1" rend="overstrike">On</del><add seq="2" place="left">Or</add></subst> meditating thought, or soul<lb/>
+       or <add place="below"><metamark function="add" target="#a006">&#8248;</metamark></add><add place="above" xml:id="a006"><unclear cert="high" reason="illegible" resp="#km">gather'd</unclear></add> sun by day, or star at night,</l>
+    <l>(O heaven! what flash and <add place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><add place="above" xml:id="a007">started</add> endless<lb/>
        train of all!</l>
-    <l>What wretched shred<add place="below"><metamark function="add" target="#a008">&#8248;</metamark></add><subst xml:id="a008"><del seq="2" rend="overstrike"><add seq="1" place="above">it really</add></del><add seq="3" place="above" rend="marked">compared indeed to that!</add></subst> een<add place="below"><metamark function="add" target="#a009">&#8248;</metamark></add><add place="above" xml:id="a009">at</add> the best<lb/>
-       <subst><del seq="1" rend="overstrike">of all</del><add seq="2" place="above"><del seq="3" rend="overstrike">all</del> of</add><add seq="4" place="inline">all!</add></subst>)</l>
+    <l>What wretched shred <add place="below"><metamark function="add" target="#a008">&#8248;</metamark></add><add place="above" xml:id="a008"><subst><del seq="1" rend="overstrike">it really is,</del><add seq="2" place="above" rend="marked">compared indeed to that!</add></subst></add> <choice><sic>een</sic><corr>e'en</corr></choice> <add place="below"><metamark function="add" target="#a009">&#8248;</metamark></add><add place="above" xml:id="a009">at</add> the best<lb/>
+       <subst><del seq="1" rend="overstrike">of all</del><del seq="3" rend="overstrike"><add seq="2" place="above"><unclear reason="illegible" cert="low" resp="#km">all</unclear></add></del><add place="above"seq="4">of</add><add seq="4" place="inline">all!</add></subst>)</l>
    </lg>
 
    <pb xml:id="leaf002v" facs="tex_km.00007.jpg" type="verso"/>
