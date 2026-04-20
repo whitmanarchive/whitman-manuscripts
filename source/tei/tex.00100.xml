@@ -6,7 +6,7 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title level="m" type="main" rend="bracketed">Specimen Days and collect Title Page</title>
+    <title level="m" type="main" rend="bracketed">2d Volume November Boughs</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -65,7 +65,7 @@
      
      <!-- can't for the life of me find this doc in the Texas HRC digital collections -->
      
-     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     <title>2d Volume November Boughs</title>  
      
 <!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
        BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
@@ -91,7 +91,7 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-04-20" who="#km">proofed</change>
  <change when="2025-01-23" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -101,21 +101,32 @@
    
    <pb xml:id="leaf001r" facs="tex_km.00008.jpg" type="recto"/>
    
-     <p>2d Volume</p>
-     <p hand="#h03" rend="underline">November Boughs</p>
-     <p rend="underline">Specimen Days&amp;Collect</p>
-     <p hand="#h02"><hi rend="underline">November Boughs</hi> a melange of verses and prose, from<add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">my</add><add place="above"><metamark function="delete" target="#d001">&#176;</metamark></add><del rend="overstrike" xml:id="d001">69th to</del>68th year</p>
+     <div>
+      <head>2d Volume</head>
+   
+     <head hand="#h03" rend="underline">November Boughs</head>
+   
+     <head rend="underline">Specimen Days<lb/> &amp; Collect</head>
+   
+     <p hand="#h02"><hi rend="underline">November Boughs</hi><lb/> a melange of verses and prose, from <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">my</add> 6<subst rend="overwrite"><del>1</del><add>2</add></subst><subst><del rend="overstrike" seq="1">st</del><add place="above">dd</add></subst> to 68th year</p>
+     </div>
    
    
    <pb xml:id="leaf001v" facs="tex_km.00009.jpg" type="verso"/>
    
    <pb xml:id="leaf002r" facs="tex_km.00010.jpg" type="recto"/>
    
-    <p hand="#h05" rend="underline"><del rend="overstrike">A Latter-Day Melange</del></p>
-    <metamark function="emphasize"><add place="below" hand="#h05">&#9757;</add></metamark>
-    <p hand="#h04" rend="underline">Supplement&#11840;Sands</p>
-    <p hand="#h06">? Occasionals</p>
-    <p hand="#h05">? Sands and Sequella</p>
+    <div>
+     <head hand="#h05" rend="underline"><del rend="overstrike">A Latter-Day Melange</del></head>
+     
+    <metamark function="emphasize"><add hand="#h05">&#9757;</add></metamark>
+     
+    <head hand="#h04" rend="underline">Supplement&#11840;<lb/>Sands</head>
+     
+    <head hand="#h06">? Occasionals</head>
+     
+    <head hand="#h05">? Sands and Sequella</head>
+    </div>
    
    <pb xml:id="leaf002v" facs="tex_km.00011.jpg" type="verso"/>
   
