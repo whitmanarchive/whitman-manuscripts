@@ -6,7 +6,6 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main" rend="bracketed">*current aims</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
@@ -15,7 +14,7 @@
     <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
+     <persName xml:id="km">Kevin McMullen</persName>
      <persName xml:id="ew">Emma Whaley</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -28,7 +27,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,16 +42,12 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.04536</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
-     <note type="work_relations" target="xxx.00558" cert="high">
-      <p>Three manuscript fragments that contributed to "An Old Man's Rejoinder," which was first published in the August 16, 1890 issue of the Critic and later reprinted in <hi rend="italic">Good-Bye My Fancy</hi> (1891) and <hi rend="italic">Complete Prose Works</hi> (1892). On the reverse of the second manuscript leaf is the end of a letter from Otto L. Levy.</p>
-     </note>
+     <note type="work_relations" target="xxx.00558" cert="high">Three manuscript fragments that contributed to "An Old Man's Rejoinder," which was first published in the August 16, 1890 issue of the Critic and later reprinted in <hi rend="italic">Good-Bye My Fancy</hi> (1891) and <hi rend="italic">Complete Prose Works</hi> (1892). On the reverse of the second manuscript leaf is the end of a letter from Otto L. Levy.</note>
    </notesStmt>
    
    <sourceDesc>
@@ -82,7 +76,7 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-04-22" who="#km">proofed</change>
  <change when="2025-01-23" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -91,7 +85,9 @@
   <body>
    
    <pb xml:id="leaf001r" facs="loc_ew.00402.jpg" type="recto"/>
+   
     <metamark function="transpose" target="#tr04" xml:id="tr03"><add>*</add></metamark>  
+   
      <p hand="#h02"><seg xml:id="tr02">The <add place="above">current aims,</add><subst><del seq="1" rend="overstrike">days</del><add seq="2" place="above">time</add></subst>, lands, <subst><del seq="1" rend="overstrike">general <unclear reason="illegible" resp="#ew">son</unclear></del><add seq="2" place="above">belief, policy&#8212;</add></subst> visible forms and invisible soul, out of which a poem arises&#8212;</seg><metamark function="transpose" target="#tr03">tr</metamark><seg xml:id="tr01" rend="marked"><add place="inline"><metamark function="transpose" target="#tr03" xml:id="tr04">*</metamark></add>No<add place="above">great</add> poem<add hand="#h04" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h04" place="above" xml:id="a002">of any scope</add> can be essentially considered without weighing first</seg></p>
      <p>As the Bible canticles<lb/>
         and <add hand="#h03" place="inline">their days and<add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">spirit and</add> condition&#8212;</add></p>
