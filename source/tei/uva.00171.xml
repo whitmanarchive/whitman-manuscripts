@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00171"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title level="m" type="main">The Wallabout Martyrs</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     <persName xml:id="km">Kevin McMullen</persName>
+     <persName xml:id="ew">Emma Whaley</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2026</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+   <idno>uva.00171</idno>
+   </publicationStmt>
+   <notesStmt>
+     <note type="project" target="#dat1">A note at the bottom of the manuscript states that it was "sent to Herald March 11," indicating the draft was likely completed in early 1888, just before the time of publication. It seems likely that the first and third leaf of this manuscript were at one time pasted to the second leaf, with the first leaf covering the first stanza on the second leaf, leaving just the second stanza and thus creating a complete draft of the poem.</note>
+
+     <note type="work_relations" target="xxx.00321" cert="high">This manuscript contains a draft version of the poem "The Wallabout Martyrs," which was first published in the New York <hi rend="italic">Herald</hi>, March 16, 1888. The poem was then included in <hi rend="italic">November Boughs</hi> (1888), as well as the deathbed edition of <hi rend="italic">Leaves of Grass</hi> (1891–92).</note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>The wallabout martyrs</title>  
+     
+     <date notBefore="1888-01" notAfter="1888-03-16" cert="high">Early 1888</date>
+     
+     <idno type="callno">MSS 3829, box 2, folder 17</idno>
+     
+     <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+      
+     <relatedItem type="text" xml:id="rel01" target="uva.00518"/>
+     <relatedItem type="document" target="wwa.00217"/>
+      <note type="project" target="#rel01">On the verso of the leaves appear scraps of a letter and envelope from Richard Maurice Bucke to Whitman, 6 March 1888.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+     <handNote medium="pencil" xml:id="h02" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
+     <handNote medium="black ink" xml:id="h03" resp="#rmb" scope="minor"><name xml:id="rmb">Richard Maurice Bucke</name></handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ <change when="2026-04-20" who="#km">proofed</change>
+ <change when="2025-01-22" who="#ew">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="uva_km.00002.jpg" type="recto"/>
+    
+    <lg type="poem">
+     <head rend="underline">The Wallabout Martyrs</head>
+     
+     <note type="textual" hand="#h01" place="top">[In Brooklyn in an old vault lie huddled at this moment the undoubtedly authentic remains of <del rend="overstrike">many thousand of</del> the staunchest and earliest <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">Revolutionary</add> patriots, from the British prison-ships and prisons of the <del rend="overstrike">Revolutionary</del> times of 1776&#11840;'83 in and around New York; originally buried<add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">&#8212;many thousands of them&#8212;</add>in trenches in the Wallabout sands.]</note>
+     
+     <note type="editorial" place="right" hand="#h03">
+       <p><del rend="overstrike">Got your postcard</del> <gap reason="cut away" extent="a few words"/> 3d thanks</p>
+       <ab rend="underline">RMB</ab>
+     </note>
+     
+     <note type="archival" hand="#h02" place="right">B1-8-3829a (86)</note>
+      
+      <pb xml:id="leaf001v" facs="uva_km.00004.jpg" type="verso"/>
+      
+      <pb xml:id="leaf002r" facs="uva.00171.003.jpg" type="recto"/>
+      
+
+        <lg type="linegroup">
+          <l>Greater by far to thee than<lb/>
+            tomb of Alexander,</l>
+          <l>More, more than memory of<lb/>
+            Achilles and Ulysses,</l>
+        </lg>
+        
+        <lg type="linegroup">
+          <l>Greater than memory of Achilles<lb/>
+            or Ulysses,</l>
+          <l>More, more by far to thee than<lb/>
+            tomb of Alexander,</l>
+        </lg>
+        
+        <note type="archival" hand="#h02" place="right">B1-8-3829a (86)</note>
+      
+      <pb xml:id="leaf002v" facs="uva.00171.004.jpg" type="verso"/>
+      
+      <pb xml:id="leaf003r" facs="uva_km.00003.jpg" type="recto"/>
+     
+    <l><subst><del rend="overstrike" seq="1">Some</del><add place="above" seq="2">Those</add></subst> cart loads of <add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">old <add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">charnel</add> ashes</add> <del rend="overstrike">dust, mould,</del> scales<lb/>
+       and splints of bones,</l>
+    <l>Once living men&#8212;once resolute<lb/>
+       courage, aspiration, strength</l>
+    <l>The stepping&#11840;stones to thee to-day <add place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" xml:id="a005">and here</add> America.</l>
+   </lg>
+   <signed rend="underline">Walt Whitman</signed>
+    
+   <note type="authorial" place="bottom" hand="#h01">sent to Herald March 11</note>
+    
+    <note type="archival" hand="#h02" place="right">BLP-8-3829a (86)</note>
+    
+   
+   <pb xml:id="leaf003v" facs="uva_km.00005.jpg" type="verso"/>
+   
+   
+
+</body>
+</text>
+</TEI>

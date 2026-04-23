@@ -62,22 +62,18 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Prose, 1841-1892; 1886; “Robert Burns as Poet and Person,” North American Review, galley proofs</title>  
+
+     <date when="1886" cert="high">1886</date>
      
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date notBefore="" notAfter="" cert=""></date>
-     
-     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     <idno type="callno">series: Literary File, 1841-1919
+      mss18630, box 34; reel 22</idno>
      
 
      <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
-     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-     <relatedItem type="document" target="wwa.00041"/>
-     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+      
     </bibl>
     
     <bibl xml:id="source1">
@@ -138,6 +134,13 @@
      <date>1597</date>
     </bibl>
     
+    <bibl xml:id="source10">
+     <author>Homer, translated by Alexander Pope</author>
+     <title>The Odyssey, Book VIII</title>
+     <date>1726</date>
+    </bibl>
+    
+    
    </sourceDesc>
 </fileDesc>
   <profileDesc>
@@ -166,7 +169,7 @@
  
    <p>
     W<hi rend="smallcaps">HAT</hi> the future will decide about Robert Burns and his works&#8212;
-    what place will be assign'd them on that great roster of genuises
+    what place will be assign'd them on that great roster of geniuses
     and genius which can only be finish'd by the slow but sure balancing
     of the centuries with their ample average&#8212;I of course
     cannot tell. But as we know him, from his recorded utterances,
@@ -213,7 +216,7 @@
     and poems. There are suspicions, it is true, of "the Genteel
     Letter-Writer," with scraps and words from "the Manual of
     French Quotations," and, in the love-letters, some hollow mouthings.
-    Yet we wouldn't on any account lack the ltters. A full
+    Yet we wouldn't on any account lack the letters. A full
     and true portrait is always what is wanted; veracity at every
     hazard. Besides, do we not all see by this time that the story of
     Burns, even for its own sake, requires the record of the whole
@@ -1111,20 +1114,680 @@
    
    <div>
     
+    <note type="work_relations" target="xxx.00476" cert="high"/>
+    
+    <pb xml:id="leaf012r" facs="loc_ja.00198.jpg" type="recto"/>
+    
    <head type="main">"SPECIMEN DAYS IN
-   AMERICA,"</head>
+   AMERICA<subst hand="#h04"><del rend="overstrike" seq="1">,</del><add place="right" seq="2" rend="circled">.</add></subst>"</head>
     
     <dateline rend="italic">London Edition, June, 1887.</dateline>
     
     <head type="sub">PREFACE TO THE READER IN THE BRITISH
     ISLANDS.</head>
     
+    <note type="collaborative" hand="#h02" rend="marked">don't like the
+    head&#8212;it is too prominent&#8212;
+    too sprawled</note>
+    
     <p>
      I<hi rend="smallcaps">F</hi> you will only take the following pages, as you do some long
-     and gossippy letter written 
+     and gossippy letter written for you by a relative or friend traveling
+     through distant scenes and incidents, and jotting them down
+     lazily and informally, but ever veraciously (with occasional diversions
+     of critical thought about somebody or something<subst><del rend="overstrike" seq="1">),</del><add place="right" xml:id="e021" seq="2">,<metamark target="#e021" function="emphasize">/</metamark></add></subst> it might
+     remove all formal or literary impediments at once, and bring you
+     and me close together in the spirit in which the jottings were collated
+     to be read. You have had, and have, plenty of public
+     events and facts and general statistics of America;&#8212;in the following
+     book is a common individual New World <hi rend="italic">private life</hi>, its
+     birth and growth, its struggles for a living, its goings and comings
+     and observations (or representative portions of them) amid
+     the United States of America the last thirty or forty years, with
+    
+     <note place="left" hand="#h03">19 1/2
+     next
+     20
+     Gray</note>
+     
+    </p>
+    
+    <pb xml:id="leaf013r" facs="loc_ja.00199.jpg" type="recto"/>
+    
+    <p>
+     their varied war and peace, their local coloring, the unavoidable
+     egotism, and the lights and shades and sights and joys and pains
+     and sympathies common to humanity. Further introductory
+     light may be found in the paragraph, "A Happy Hour's Comman,"
+     and the bottom note belongng to it, at the beginning
+     of the book. I have said in the text that if I were required to
+     give good reason-for-being of "Specimen Days," I should be
+     unable to do so. Let me fondly hope that it has at least the
+     reason and excuse of such off-hand gossippy letter as just alludd
+     to portraying American life-sights and incidents as they actually
+     occurred&#8212;their presentation, making additions as far as it goes,
+     to the simple experience and association of your soul, from a
+     comrade soul;&#8212;and that also, in the volume, as below any page
+     of mine, anywhere, ever remains, for seen or unseen basis-phrase,
+     <hi rend="smallcaps">GOOD-WILL BETWEEN THE COMMON PEOPLE OF ALL</hi>
+     N<hi rend="smallcaps">ATIONS</hi>.
     </p>
     
    </div>
+   
+   <note rend="circled" type="collaborative" hand="#h03">2 L.P blank lines in here only</note>
+   
+   <div>
+    <note type="work_relations" target="xxx.00477" cert="high"/>
+    
+    
+    <note hand="#h03" type="collaborative" place="top">20</note>
+    
+    <note place="left" hand="#h03" type="collaborative">Nance</note>
+    
+    <head type="main">ADDITIONAL NOTE, 1887, TO</head>
+    <head type="sub"><hi rend="italic">English Edition "Specimen Days."</hi></head>
+    <note place="right" hand="#h04" type="collaborative" rend="circled">too large (come after the other &#182;)</note>
+    
+    <p>
+     As I write these lines I still continue living in Camden,
+     New Jersey, America. Coming this way from Washington
+     City, on my road to the sea-shore (and a temporary rest,
+     as I supposed) in the early summer of 1873, I broke down
+     disabled, and have dwelt here, as my central residence, all the
+     time since&#8212;almost 14 years. In the preceding pages I have
+     described how, during those years, I partially recuperated
+     (in 1876) from my worst paralysis by going down to Timber
+     Creek, living close to Nature, and domiciling with my dear
+     friends, George and Susan Stafford. From 1877 or'8 to '83 or
+     '4 I was well enough to travel around, considerably&#8212;journey<subst hand="#h02"><del rend="overstrike" seq="1">e</del><add place="right" seq="2" xml:id="a012">'<metamark target="#a012" function="add">&#711;</metamark></add></subst>d
+     westward to Kansas, leisurely exploring the Prairies, and on to
+     Denver and the Rocky Mountains; another time north to
+     Canada, where I spent most of the summer with my friend Dr. Bucke,
+     and jaunted along the great lakes, and the St<subst hand="#h04"><del rend="overstrike" seq="1"><unclear reason="illegible" cert="low" resp="#ja">,</unclear></del><add place="right" seq="2" rend="circled">.</add></subst> Lawrence
+     and Saguenay rivers; another time to Boston, to properly print
+     the final edition of my poems (I was there over two months, and
+     had a "good time"<subst hand="#h02"><del rend="overstrike" seq="1">).</del><add place="left" seq="2" xml:id="e022">.)<metamark target="#e022" function="emphasize">/</metamark></add></subst> I have so brought out the completed
+     "Leaves of Grass" during this period; also "Specimen Days,"
+     of which the foregoing is a transcript; collected and re-edited
+     the "Democratic Vistas" cluster (see companion volume to
+     the present)&#8212;commemorated Abraham Lincoln's death on the
+     successive anniversaries of its occurrence, by delivering my
+     lecture on it ten or twelve times; and "put in," through many
+     a month and season, the aimless and resultless ways of most
+     human lives.
+    </p>
+    
+    <p>
+     Thus the last 14 years have pass<del rend="overstrike" seq="1">e</del><add place="right" xml:id="a013">'<metamark target="#a013" function="add">&#711;</metamark></add>d. At present (end-days of
+     March<add place="below" hand="#h02"><metamark target="#a014" function="add">&#8248;</metamark></add><add place="left" hand="#h02" xml:id="a014">.)<metamark target="#a014" function="emphasize">/</metamark></add> 1887&#8212;I am nigh entering m 69th year) I find myself
+     continuing on here, quite dilapidated and even wreck'd bodily
+     from the paralysis, &amp;c.&#8212;but in <hi rend="italic">good heart</hi> (to use a Long Island
+     country phrase,) and with about the same mentality as ever.
+     The worst of it is, I have been growing feebler quite rapidly for
+     a year, and now can't walk around&#8212;hardly from one rom
+     to the next. I am forced to stay in-doors and in my big chair
+     nearly all the time We have had a sharp, dreary winter too,
+     and it has pinch<subst hand="#h02"><del rend="overstrike" seq="1">e</del><add place="left" seq="2" xml:id="a015">'<metamark target="#a015" function="add">&#711;</metamark>
+     </add></subst>d me. I am alone most of the time; every
+     week, indeed almost every day, write some&#8212;reminiscences,
+     essays, sketches, for the magazines; and read, or rather I should
+     say dawdle over books and papers a good deal&#8212;spend half the
+     day at that.
+    </p>
+    
+    
+    
+    <p>
+     Nor can I finish this note without putting on record&#8212;wafting
+     over sea from hence&#8212;my deepest thanks to certain friends
+     and helpers (I would specify them all and each by name,
+     but imperative reasons, outside of my own wishes, forbid,)
+     in the British Islands, as well as in America. Dear, even in the
+     abstract, is such flattering unction always no doubt to the soul!
+     Nigher still, if possible, I myself have been, and am to-day
+    </p>
+   </div>
+   
+   <div>
+    
+    <note type="work_relations" target="xxx.00479" cert="high"/>
+    
+    <pb xml:id="leaf014r" facs="loc_ja.00200.jpg" type="recto"/>
+    
+    <note hand="#h03" type="collaborative" place="top">21</note>
+    
+    <note place="top" hand="#h03" type="collaborative">Gray</note>
+    
+    <head type="main">ABRAHAM LINCOLN.</head>
+    
+    <p>G<hi rend="smallcaps">LAD</hi> am I to give&#8212;w<del rend="overstrike" hand="#h04" xml:id="d009">h</del><add place="left" hand="#h04"><metamark target="#d009" function="delete">&#948;</metamark></add><add place="left" rend="circled" hand="#h04">were</add>ere anything better<del rend="overstrike" hand="#h04" xml:id="d010">,</del><add place="right" hand="#h04"><metamark target="#d010" function="delete">&#948;</metamark></add> lacking&#8212;even the
+    most brief and shorn testimony of Abrahm Lincoln. Everything
+    I heard about him authentically, and every time I saw him
+    (and it was my fortune through 1863 to '65 to see, or pass a word
+    with, or watch him, personally, perhaps twenty or thirty times<subst hand="#h04"><del rend="overstrike" seq="1">),</del><add place="right" seq="2" xml:id="e023">,)<metamark target="#e023" function="emphasize">/</metamark></add></subst>
+    added to and anneal'd my respect and love at the moment. And
+    as I dwell on what I myself heard or saw of the mighty Westerner,
+    and blend it with the history and literature of my age, and of
+    what I can get of all ages, and conclude it with his death, it seems
+    like some tragic play, superior to all else I know&#8212;vaster and
+    fierier and mre convulsionary, for this America of ours, than
+    Eschylus or Shakspe<del rend="overstrike" hand="#h04" xml:id="d011">a</del><add place="left" hand="#h04"><metamark target="#d011" function="delete">&#948;</metamark></add>re ever drew for Athens or for England.
+    And then the Moral permeating, underlying all! the Lesson that
+    none so remote<subst hand="#h04"><del rend="overstrike" seq="1">,</del><add place="left" seq="2" xml:id="e024">&#8212;<metamark target="#e024" function="emphasize">/</metamark></add></subst> none so illiterate&#8212;no age, no class&#8212;but may
+    directly or indirectly read!</p>
+    
+    <p>
+     Abraham Lincoln's was realy one of those characters, the best
+     of which is the result of long trains of cause and effect&#8212;needing
+     a certain spaciousness of time, and perhaps even remoteness, to
+     properly enclose them&#8212;having unequal'd influence on the shaping
+     of this Republic (and therefore the world) as to-day, and
+     then far more important in the future. Thus the time has by no
+     means yet come for a thorough measurement of him. Nevertheless,
+     we who live in his era&#8212;who have seen him, and heard him,
+     face to face, and are in the midst of, or just parting from, the
+     strong and strange events which he and we have had to do with,
+     can in some respects bear valuable, perhaps indispensable testimony
+     concerning him.
+    </p>
+    
+    <p>
+     I should first like to give a very fair characteristic likeness
+     of Lincoln, as I saw him and watch'd him one afternoon in Washington,
+     for nearly half an hour, not long before his death. It
+     was as he stood on the balcony on the National Hotel, Pennsylvania
+     Avenue, making a short speech to the crowd in front, on
+     the occasion either of a set of new colors presented to a famous
+     Illinois regiment, or of the daring capture, by the Western men,
+     of some flags from "the enemy," (which latter phrase, by the
+     by, was not used by him at all in his remarks.) How the picture
+     happen'd to be made I do not know, but I bought it a few days
+     afterward in Washington, and it was endors'd by every one to
+     whom I show'd it. Though hundreds of portraits have been
+     made, by painters and photographers (many to pass on, by copies,
+     to future times,) I have never seen one yet that in my opinion
+     deserv'd to be called a perfectly <hi rend="italic">good likeness</hi>; nor do I believe
+     there is really such a one in existence. May I not say too, that,
+     as tehre is no entirely competent an emblematic likeness of
+     Abraham Lincoln in picture or statue, there is not&#8212;perhaps cannot
+     be&#8212;any fully appropriate literary statement or summing-up
+     of him, yet in existence<subst hand="#h04"><del rend="overstrike" seq="1">.</del><add place="left" seq="2" xml:id="e025">?<metamark target="#e025" function="emphasize">/</metamark></add></subst>
+    </p>
+    
+    <p>
+     The best way to estimate the value of Lincoln is to think what
+     the condition of America would be to-day, if he had never lived&#8212;
+     never been President. His nominaton and first election were
+     mainly accidents, experiments. Severely view'd, one cannot
+     think very much of American Political Parties, from the beginning,
+     after <add place="below" hand="#h04"><metamark target="#a016" function="add">&#8248;</metamark></add><add place="right" hand="#h04" xml:id="a016">t<metamark target="#a016" function="emphasize">/</metamark></add>he Revolutionary War, down to the present time.
+     Doubtless, while they have had their uses&#8212;have been and are
+     "the grass on which the cow feeds"&#8212;and indispensable economi<subst hand="#h04"><del rend="overstrike" seq="1">c</del><add place="left" seq="2">e</add></subst>s
+     of growth&#8212;it is undeniable that under flippand names they
+     have merely identified temporary passions, or freaks, or sometimes
+     prejudice, ignorance, or hatred. The only thing like a
+     great and worthy idea vitalizing a party, and making it heroic,
+     was the enthusiasm in '64 for re-electing Abraham Lincoln, and
+    </p>
+    
+    <pb xml:id="leaf015r" facs="loc_ja.00201.jpg" type="recto"/>
+    
+    <note hand="#h03" type="collaborative" place="top">22</note>
+    
+    <note place="top" hand="#h03" type="collaborative">George</note>
+    
+    <p>
+     the reason behind that enthusiasm.
+    </p>
+    
+    <p>
+     How does this man compare with the acknowledg'd "Father
+     of this country"? Washington was model'd on the best Saxon
+     and Franklin of he age of the Stuarts (rooted in the Elizabethan
+     period)&#8212;was essentially a noble Englishman, and ust the kind
+     needed for the occasions and the times of 1776&#8211;'83. Lincoln,
+     underneath his practicality, was far less European, was quite
+     thoroughly Western, original, essantially non-conventional, and
+     had a certain sort of out-door or prairie stamp. One of the best
+     of the late commentators on Shakspere (Professor Dowden<subst hand="#h04"><del rend="overstrike" seq="1">),</del><add place="right" seq="2" xml:id="e026">,)<metamark target="#e026" function="emphasize">/</metamark></add></subst>
+     makes the height and aggregate of his quality as a poet to be,
+     that he thoroughly blended the ideal with the practical or realistic.
+     If this be so, I should say that what Shakspere did in
+     poetic expression, Abraham Lincoln essentially did in his personal
+     and official life. I should say the invisible foundations and
+     vertebra of his character, more than any man's in history, were
+     mystical, abstract, moral and spiritual&#8212;while upon all of them
+     was built, and out of all of them radiated, under the control of
+     the average of circumstances, what the vulgar call <hi rend="italic">horse-sense</hi>,
+     and a life often bent by temporary but most urgent materialistic
+     and political reasons.
+    </p>
+    
+    <p>
+     He seems to have been a man of indomitable firmness (even
+     obstinancy) on rare occasions, involving great points; but he was
+     generally very easy, flexible, tolerant, almost slouchy, respecting
+     minor matters. I note that even those reports and anecdotes
+     intended to level him down, all leave the tinge of a favorable
+     impression of him. As to his religious nature, it seems to me to
+     have certainly been of the amplest, deepest-rooted, loftiest kind.
+    </p>
+    
+    <p>
+     <del rend="overstrike" hand="#h04" xml:id="d012">But I do not care to dwell on the features presented so many
+     times, and that will readily occur to every one in recalling
+     Abraham Lincoln and his era. It is more from the wish&#8212;and
+     it no doubt actuates others&#8212;to bring <add place="below" hand="#h04"><metamark target="#a017" function="add">&#8248;</metamark></add><add place="right" xml:id="a017">,<metamark target="#a017" function="emphasize">/</metamark></add> for our own sake, some
+     record, however incompetent&#8212;some leaf or little wreath to
+     place, as on a grave.</del>
+     <add place="left" hand="#h04"><metamark target="#d012" function="delete">&#948;</metamark></add>
+    </p>
+    
+    <p>
+     Already a new generation begins to tread the stage, since the
+     persons and events of the Secession War. I have more than once
+     fancied to myself the time when the present century has closed<add place="below" hand="#h04"><metamark target="#a018" function="add">&#8248;</metamark></add><add place="right" hand="#h04" xml:id="a018">,<metamark target="#a018" function="emphasize">/</metamark></add>
+     and a new one open'd, and the men and deeds of that contest
+     have become somewhat vague and mythical&#8212;fancied perhaps in
+     some great Western city, or gorup collected together, or public
+     festival, where the days of old, of 1863 and '4 and '5 are discuss'd&#8212;
+     some ancient soldier sitting in the background as the
+     talk goes on, and betraying himself by his emotion and moist
+     eyes&#8212;like the journeying Ithacan at the banquet of King Alcinoüs,
+     when the bard sings the contending warriors<del rend="overstrike" hand="#h04" xml:id="d013">,</del><add place="right" hand="#h04"><metamark target="#d013" function="delete">&#948;</metamark></add> and their
+     battles on the plains of Troy:
+     
+     <q source="#source10">
+      <floatingText>
+       <body><lg type="linegroup">
+        <l>"So from the sluices of Ulysses' eyes,</l>
+        <l>Fast fell the tears, and sighs succeeded sighs."</l>
+       </lg></body>
+      </floatingText>
+     </q>
+    </p>
+    
+    <p>
+     I have fancied, I say, some such venerable relic of this time
+     of ours, preserv'd to the next or still the next generation of
+     America<add place="below" hand="#h04"><metamark target="#a019" function="add">&#8248;</metamark></add><add place="left" hand="#h04" xml:id="a019">,<metamark target="#a019" function="emphasize">/</metamark></add> I have fancied on such occasion, the young men
+     gathering around; the awe, the eager questions<subst hand="#h04"><del rend="overstrike" seq="1">.</del><add place="right" seq="2" xml:id="e027">:<metamark target="#e027" function="emphasize">/</metamark></add></subst> "What! have
+     you seen Abraham Lincoln&#8212;and heard him speak&#8212;and touch'd
+     his hand? Have you, with your own eyes, look'd on Grant, and
+     Lee and Sherman?"
+    </p>
+    
+    <p>
+     Dear to Democracy, to the very last! And among the paradoxes
+     generated by America not the least curious<del rend="overstrike" hand="#h04" xml:id="d014">,</del><add place="right" hand="#h04"><metamark target="#d014" function="delete">&#948;</metamark></add> was that spectacle
+     of all the kings and queens and emperors of the earth,
+     many from remote distances, sending tributes of condolence and
+     sorrow in memory of one rais'd through the commonest average
+     of life&#8212;a rail-splitter and flat-boatman!
+    </p>
+    
+    <p>
+     Consider'd from contemporary points of view&#8212;who knows
+    </p>
+    
+    <pb xml:id="leaf016r" facs="loc_ja.00202.jpg" type="recto"/>
+    
+    <note hand="#h03" type="collaborative" place="top">23</note>
+    
+    <note place="top" hand="#h03" type="collaborative">George</note>
+    
+    <p>
+     what the future may decide?&#8212;and from the points of view of
+     current Democracy and The Union (the only thing like passion
+     or infatuation in the man was the passion for the Union of
+     These States<subst hand="#h04"><del rend="overstrike" seq="1">),</del><add place="left" seq="2" xml:id="e028">,)<metamark target="#e028" function="emphasize">/</metamark></add></subst> Abraham Lincoln seems to me the grandest figure
+     yet, on all the crowded canvas of the Nineteenth Century.
+    </p>
+    
+   </div>
+   
+   <div>
+    
+    <note type="work_relations" target="xxx.00480" cert="high"/>
+    
+    <byline rend="italic">[From the New Orleans Picayune, Jan. 25, 1887.]</byline>
+    
+    <head type="main">NEW ORLEANS IN 1848.</head>
+    
+    <head type="sub">W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi> G<hi rend="smallcaps">OSSIPS</hi> <hi rend="smallcaps">OF</hi> H<hi rend="smallcaps">IS</hi> S<hi rend="smallcaps">OJOURN</hi> H<hi rend="smallcaps">ERE</hi> Y<hi rend="smallcaps">EARS</hi> A<hi rend="smallcaps">GO</hi>
+    <hi rend="smallcaps">AS A</hi> N<hi rend="smallcaps">EWSPAPER</hi> W<hi rend="smallcaps">RITER</hi>. N<hi rend="smallcaps">OTES</hi> <hi rend="smallcaps">OF</hi> H<hi rend="smallcaps">IS</hi> T<hi rend="smallcaps">RIP</hi> U<hi rend="smallcaps">P</hi> <hi rend="smallcaps">THE</hi>
+    M<hi rend="smallcaps">ISSISSIPPI</hi> <hi rend="smallcaps">AND TO</hi> N<hi rend="smallcaps">EW</hi> Y<hi rend="smallcaps">ORK</hi>.</head>
+    
+    <p>
+     A<hi rend="smallcaps">MONG</hi> the letters brought this morning (Camden, New Jersey,
+     Jan. 15, 1887,) by my faithful post offi<subst hand="#h04"><del rend="overstrike" seq="1">e</del><add place="right" seq="2">c<metamark target="#e029" function="emphasize">/</metamark></add></subst>e carrier, J. G., is
+     one as follows:
+     
+     <q>
+      <floatingText>
+       <body>
+        <p>
+         "N<hi rend="smallcaps">EW</hi> O<hi rend="smallcaps">RLEANS</hi>, Jan. 11, '87.&#8212;We have been informed that when you
+     were younger and less famous than now, you were in New Orleans and perhaps
+     have helped on the <hi rend="italic">Picayune</hi>. If you have any remembrance of the
+     <hi rend="italic">Picayune's</hi> young days, or of journalism in New Orleans of that era, and
+     would put it in writing (verse or prose) for the <hi rend="italic">Picayune's</hi> fiftieth year edition,
+     Jan. 25, we shall be please," etc.
+        </p>
+       </body>
+      </floatingText>
+     </q>
+    </p>
+    
+    <p>
+     In response to which: I went down to New Orleans early in
+     1848 to work on a daily newspaper, but it was not the <hi rend="italic">Picayune</hi>,
+     though I saw quite a good deal of the editors of that paper, and
+     knew its personnel and ways. But let me indulge my pen in
+     some gossipy recollections of that time and place, with extracts
+     from my journal up the Mississippi and across the great lakes to
+     the Hudson.
+    </p>
+    
+    <p>
+     Probably the influence most deeply pervading everything at
+     that time through the United States, both in physical facts and
+     in sentiment, was the Mexican war, then just ended. Following
+     a brilliant campaign (in which our troops had march'd to the
+     capital city, Mexico, and taken full possession<del rend="overstrike" seq="1">),</del><add place="right" seq="2" xml:id="e029">.)<metamark target="#e029" function="emphasize">/</metamark></add> we were returning
+     after our victory. From the situation of the country, the
+     city of New Orleans had been our channel and <hi rend="italic">entrepot</hi> for
+     everything, going and returning. It had the best news and war
+     correspondents; it had the most to say<add place="right" hand="#h04" xml:id="e030">,<metamark target="#e030" function="emphasize">/</metamark></add> through its leading
+     papers, the <hi rend="italic">Picayune</hi> and <hi rend="italic">Delta</hi> especially, and its voice was
+     r<add place="below" hand="#h04"><metamark target="#a020" function="add">&#8248;</metamark></add><add place="left" hand="#h04" xml:id="a020">e</add>adiest listen'd to; from it "Chapparal" had gone out, and his
+     army and battle letters were copied everywhere, not only in the
+     United States, but in Europe. Then the social cast and results;
+     no one who has never seen the society of a city under similar
+     circumstances can understand what a strange vivacity and <hi rend="italic">rattle</hi>
+     were given throughout by such a situation. I remember the
+     crowds of soldiers, the gay, young officers, going or coming,
+     the receipt of important news, the many discussions, the returning
+     wounded<add place="below" hand="#h04"><metamark target="#e031" function="add">&#8248;</metamark></add><add place="right" hand="#h04" xml:id="e031">,<metamark target="#e031" function="emphasize">/</metamark></add> and so on.
+    </p>
+    
+    <p>
+     I remember very well seeing Gen. Taylor with his staff and
+     other other officers at the St. Charles Theatre one evening (after talking
+     with them during the day.) There was a short play on the
+     stage, but the principal performance was of Dr. Colyer's troupe
+     of "Model Artists," then in the full tide of their popularity.
+     They gave many fine groups and solo shows. The house was
+     crowded with uniforms and shoulder-straps. Gen. T. himself,
+     if I remember right, was alost the only officer in civilian
+     clothes; he was a jovial, old, rather stout, plain man, with a
+     wrinkled and dark-yellow face, and, in ways and manners,
+     show'd the least of conventional ceremony or etiquette I ever
+     saw; he laugh'd unrestrainedly at everything comical. (He had
+     a great personal resemblance to Fenimore Cooper, the novelist,
+     of New York.) I remember Gen. Pillow and quite a cluster of
+     other militaires also present.
+    </p>
+    
+    <pb xml:id="leaf017r" facs="loc_ja.00203.jpg" type="recto"/>
+    
+    <note hand="#h03" type="collaborative" place="top">24</note>
+    
+    <note place="top" hand="#h03" type="collaborative">Gray</note>
+    
+    
+    <p>
+     One of my choice amusements during my stay in New Orleans
+     was going down to the old French Market, especially of a Sunday
+     morning. The show was a varied and curious one; among the
+     rest, the Indian and negro hucksters with their wares. For there
+     were always fine specimens of Indians, both men and women,
+     young and old. I remember I nearly always on these occasions
+     got a large cup of delicious coffee with a biscuit, for my breakfast,
+     from the immense shining copper kettle of a great Creole
+     mulatto woman (I believe she weigh'd 230 pounds.) I never
+     have had such coffee sicne. About nice drinks, anyhow, my recollection
+     of the "cobblers" (with strawberries and snow on top
+     of the large tumblers<subst hand="#h02"><del rend="overstrike" seq="1">),</del><add place="left" seq="2" xml:id="e032">,)<metamark target="#e032" function="emphasize">/</metamark></add></subst> and also the exquisite wines<add place="below" hand="#h02"><metamark target="#a021" function="add">&#8248;</metamark></add><add place="right" hand="#h02" xml:id="a021">,<metamark target="#a021" function="emphasize">/</metamark></add> and the perfect
+     and mild French brandy, help the regretful reminiscence of
+     my New Orleans experiences of those days. And what splendid
+     and roomy and leisurely bar-rooms! particularly the grand ones
+     of the St. Charles and St. Louis. Bargains, auctions, appointments,
+     business conferences, &amp;c, were generally held in <add place="below" hand="#h02"><metamark target="#a022" function="add">&#8248;</metamark></add><add place="right" hand="#h02" xml:id="a022">the spaces or recesses of</add> these
+     bar-rooms.
+    </p>
+    
+    <p>
+     I used to wander a midday hour or two now and then for amusement
+     on the crowded and bustling levees, on the banks of the
+     river. The diagonally wedg'd-in boats, the stevedores, the piles
+     of cotton and other merchandise, the carts, mules, negroes, etc.,
+     afforded never-ending studies and sights to me. I made acquaintances
+     among the captains, boatmen, or other characters, and often
+     had long talks with them&#8212;sometimes finding a real rough diamond
+     among my chance encounters. Sundays I sometimes went
+     forenoons to the old Catholic Cathedral in the French quarter.
+     I used to walk a good deal in the arrondissement; and I have
+     deeply regretted since that I did not cultivate, while I had such
+     a good opportunity, the chance of better knowledge of French
+     and Spanish Creole New Orleans people. (I have an idea that
+     there is much and of importance about the Latin race contributions
+     to American nationality in the South and Southwest that
+     will never be put <add place="below" hand="#h02"><metamark target="#a023" function="add">&#8248;</metamark></add><add place="right" hand="#h02" xml:id="a023">with sympathetic understanding and tact</add> on record.)
+    </p>
+    
+    <p>
+     Let me say, for better detail, that through several months
+     (1848) I work'd on a new daily paper, <hi rend="italic">The Crescent;</hi> my situation
+     rather a pleasant one. My young brother, Jeff, was with
+     me; and he not only grew very homesick, but the climate of the
+     place, and especially the water, seriously disagreed with him.
+     From this and other reasons (althought I was quite happily fix'd)
+     I made no very long stay in the South. In due time we took
+     passage northward for St. Louis int he "Pride of the West"
+     steamer, which left her wharf just at dusk. My brother was unwell,
+     and lay in his berth from the moment we left till the next
+     morning; he seem'd to me to be in a fever, and I felt alarm'd.
+     However, the next morning he was all right again, much to my
+     relief.
+    </p>
+    
+    <p>
+     Our voyage up the Mississippi was after the same sort as the
+     voyage, some months before, down it. The shores of this great
+     river are very monotonous and dull&#8212;one continuous and rank
+     flat, with the exception of a meagre stretch of bluff, about the
+     neighborhood of Natchesz, Memphis, etc. Fortunately we had
+     good weather, and not a great crowd of passengers, though the
+     berths were all full. The "Pride" jogg'd along pretty well, and
+     put us into St. Louis about noon Saturday. After looking around
+     a little I secured passage on the steamer "Prairie Bird," (to leave
+     late in the afternoon,) bound up the Illinois River to La Salle,
+     where we were to take canal for Chicago. During the day I
+     rambled with my brother over a large portion of the town,
+     search'd afer a refectory, and, after much trouble, succeeded in
+    </p>
+    
+    <pb xml:id="leaf018r" facs="loc_ja.00204.jpg" type="recto"/>
+    
+    <note hand="#h03" type="collaborative" place="top">25</note>
+    
+    <note place="top" hand="#h03" type="collaborative" rend="underline">Gray</note>
+    
+    <p>
+     getting some dinner.
+    </p>
+    
+    <p>
+     Our "Prairie Bird" started out at dark, and a couple of hours
+     after there was a quite a rain and blow, which made them haul in
+     along shore and tie fast. We made but thirty miles the whole
+     night. The boat was excessively crowded with passengers, and
+     had withal so much freight that we could hardly tr around. I
+     slept on the floor, and the night was uncomfortable enough. The
+     Illinois River is spotted with little villages with big names, Marseilles,
+     Naples, etc.; its banks are low, and the vegetation excessively
+     rank. Peoria, some distance up, is a pleasant town; I <note hand="#h03" type="collaborative" place="right" rend="underline">103</note>
+     went over the place; the country back is all rich land, for sale
+     cheap. Three or four miles from P.<add place="below" hand="#h02"><metamark target="#a024" function="add">&#8248;</metamark></add><add place="right" hand="#h02" xml:id="a024">,<metamark target="#a024" function="emphasize">/</metamark></add> land of the first quality can
+     be bought for $3 or $4 an acre. (I am transcribing from my notes
+     written at the time.)
+    </p>
+    <note hand="#h03" type="collaborative" place="left" rend="underline">103</note>
+    
+    <note hand="#h03" type="collaborative" place="left">25 1/2</note>
+    <p>
+     Arriving at La Salle Tuesday morning, we went on board a
+     canal-boat, had a detention by sticking on a mud bar, and then
+     jogg'd along at a slow trot, some seventy of us, on a moderate-sized
+     boat. (If the weather hadn't been rather cool, particularly
+     at night, it would have been insufferable.) Illinois is the most
+     splendid agricultural country I ever saw; the land is of surpassing
+     richness; the place par excellence for farmers. We stopt
+     at various points along the canal, some of them pretty villages.
+    </p>
+    
+    <p>
+     It was 10 o'clock <hi rend="smallcaps">A.M.</hi> when we got in Chicago, too late for
+     the steamer; so we went to an excellent public house, the
+     "American Temperance," and I spent the time that day and till
+     next morning, looking around Chicago.
+    </p>
+    
+    <p>
+     At 9 the next forenoon we started on the "Grffith" (on board
+     of which I am now inditing these memoranda<del rend="overstrike" seq="1">),</del><add place="right" seq="2" xml:id="e033">,)<metamark target="#e033" function="emphasize">/</metamark></add> up the blue waters
+     of Lake Michigan. I was delighted with the appearance of the
+     towns along Wisconsin. At Milwaukee I went on shore, and
+     walk'd around the place. They say the country back is beautiful
+     and rich. (It seems to me that if we should ever remove from
+     Long Island, Wisconsin would be the proper place to come to.)
+     The towns have a remarkable appearance of good living, without
+     any penury or want. The country is so good naturally, and labor
+     is in such demand.
+    </p>
+    
+    <delSpan rend="overstrike" spanTo="#d015" hand="#h04" xml:id="d016"/>
+    <p>
+     On Friday night we pass'd through Mackinaw Straits, north;
+     weather cold, and wind stiff. Saturday we had rather a pleasant
+     passage, although the fog was dense. We steam'd along, however,
+     without interruption, and in the evening it clear'd off beautifully.
+     We ran down the St. Clair River and anchor'd there.
+     Starting at daylight, we soon ran on the St. Clair flats, where we
+     stuck for some four hours or more. The passengers, and much
+     of the freight, were transferr'd to a steam-lighter, and we got off
+     at length. From the captain of the lighter we learn<subst hand="#h02"><del rend="overstrike" seq="1">e</del><add place="left" seq="2" xml:id="a025">'<metamark target="#a025" function="add">&#711;</metamark></add></subst>d that Gen.
+     Taylor had been nominated by the Whig National Convention,
+     at Philadelphia.
+    </p>
+    
+    <p>
+     It doesn't seem much like Sunday, to-day, on board the boat.
+     The passengers are amusing themselves in various ways; or rather
+     trying to amus themselves, for it seems rather dull work with
+     most of them. We have as before a pretty full complement.
+     <add place="right" hand="#h04"><metamark target="#d016" function="delete">&#948;</metamark></add>
+    </p>
+    <anchor xml:id="d015"/>
+    
+    <p>
+     About 5 o'clock <subst hand="#h04"><del rend="overstrike" seq="1">this</del><add place="right" seq="2">one</add></subst> afternoon I heard the cry of "a woman
+     overboard." It proved to be a crazy lady, who had become so
+     from the loss of her son a couple of weeks before. The small
+     boat put off, and succeeded in picking her up, though she had
+     been in the water 15 minutes. She was dead. Her husband was
+     on board. They went off at the next stopping place. While
+     she lay in the water she probably recover'd her reason, as she
+    </p>
+    
+    <pb xml:id="leaf019r" facs="loc_ja.00205.jpg" type="recto"/>
+    
+    <note hand="#h03" type="collaborative" place="top">26</note>
+    
+    <note place="top" hand="#h03" type="collaborative">George</note>
+    
+    <p>
+     toss'd up her arms and lifted her face toward the boat.
+    </p>
+    
+    <p>
+     Sunday Morning, June 11.&#8212;We pass'd down Lake Huron
+     yesterday and last night, and between 4 and 5 o'clock this
+     morning we ran on the "flats," and have been vainly trying,
+     with the aid of a steam tug and a lumbering lighter, to get clear
+     again. The day is beautiful and the water clear and calm.
+     Night before last we stopt at Mackinaw, (the island and town,)
+     and I went up on the old fort, one of the oldest stations in the
+     Northwest. We expect to get to Buffalo by to-morrow. The
+     tug has fasten'd lines to us, but some have been snapt and the
+     others have no effect. We seem to be firmly imbedded in the
+     sand. (With the exception of a larger boat and better accommodations,
+     it amounts to about the same thing as a becalmment
+     I underwent on the Montauk voyage, East Long Island, last
+     summer.) Later.&#8212;We are off again&#8212;expect to reach Detroit
+     before dinner.
+    </p>
+    
+    <p>
+     We did not stop at Detroit. We are now on Lake Erie, jogging
+     along at a good round pace. A couple of hours since we
+     were on the river above. Detroit seem'd to me a pretty place
+     and thrifty. I especially liked the looks of the Canadian shore
+     opposite and of the little village of Windsor, and, indeed, all
+     along the banks of the river. From the shrubbery an dthe neat
+     appearance of some of the cottages, I think it must have been
+     settled by the French. While I now write we can see a little
+     distance ahead the scene of the batter between Perry's fleet and
+     the British during hte last war with England. The lake looks to
+     me a fine sheet of water. We are having a beautiful day.
+    </p>
+    
+    <p>
+     June 12.&#8212;We stopt last evening at Cleveland, and though it
+     was dark, I took the opportunity of rambling about the place;
+     went up in the heart of the city and back o what appear'd to be
+     the court-house. The streets are unusually wide, and the buildings
+     appear to be substantial and comfortable. We went down
+     through Main Street and found, some distance along, several
+     squares of ground very prettily planted with trees and looking
+     attractive enough. Return'd to the boat by way of the lighthouse
+     on the hill.
+    </p>
+    
+    <p>
+     This morning we are making for Buffalo, being, I imagine, a
+     little more than half across Lake Erie. The water is rougher
+     than on Michigan or Huron. (On St. Clair it was smooth as
+     glass.) The day is bright and dry, with a stiff head wind.
+    </p>
+    
+    <p>
+     We arriv'd in Buffalo on Monday evening; spent that night
+     and a portion of next day going round the city exploring. Then
+     got in the cars and went to Niagara; went under the falls&#8212;saw
+     the whirlpool and all the other sights.
+    </p>
+    
+    <p>
+     Tuesday night started for Albany; travel'd all night. From
+     the time daylight afforded us a view of the country all seem'd
+     very rich and well cultivated. Every few miles were large<del rend="overstrike" xml:id="d017" hand="#h03">r</del><add place="right" hand="#h03"><metamark target="#d017" function="delete">&#948;</metamark></add> towns
+     or villages.
+    </p>
+    
+    <p>
+     Wednesday late we arriv'd at Albany. Spent the evening in
+     exploring. There was a political meeting (Hunker) at the capitol,
+     but I pass'd it by. Next morning I started down the Hudson
+     in the <add place="below" hand="#h03"><metamark target="#a026">&#8248;</metamark></add><add place="left" hand="#h03" rend="circled" xml:id="a026">"</add>Alida;<add place="below" hand="#h03"><metamark target="#a027">&#8248;</metamark></add><add place="left" hand="#h03" rend="circled" xml:id="a027">"</add> arriv'd safely in New York that evening.
+    </p>
+    
+    <note hand="#h03" place="bottom">End of article</note>
+   </div>
+   
+   
 </body>
 </text>
 </TEI>

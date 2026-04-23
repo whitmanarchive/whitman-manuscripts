@@ -46,10 +46,9 @@
    <idno>loc.00234</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">One page is written on the back of an opened envelope addressed to Whitman and postmarked "Scarborough," December 20, 1888, meaning that the draft was written some time between then and February 1890, when the poem was first published.</note>
     
-     <note type="work_relations" target="xxx.00388" cert="high">An early draft written in ink, with a correction in blue pencil, of "Old Age's Ship and Crafty Death's," first published in 1890. The draft has the underlined title "Old Age's Ship and crafty Death" half way down the page. One page is written on the back an opened envelope addressed to Whitman and postmarked Scarborough, December 20, 1888.
-     </note>
+    <note type="work_relations" target="xxx.00388" cert="high">An early draft of "Old Age's Ship and Crafty Death's," a poem first published in the February 1890 issue of <hi rend="italic">The Century Magazine</hi>. Whitman subsequently included it in <hi rend="italic">Good-Bye My Fancy</hi> (1891) and in the printing of <hi rend="italic">Leaves of Grass</hi> that he oversaw just before his death.</note>
    </notesStmt>
    
    <sourceDesc>
@@ -58,7 +57,7 @@
      
      <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “Old Age's Ship and Crafty Death's” ( 1890 ); Manuscript draft</title>  
      
-     <date when="1890" cert="high"></date>
+     <date notBefore="1888-12" notAfter="1890-02" cert="high">Between December 1888 and February 1890</date>
      
      <idno type="callno">MSS18630, box 28, reel 17</idno>
      
@@ -93,29 +92,33 @@
      <l><handShift new="#h01"/>Crowd top-gallant and royal studding&#11840;sails</l>
      <l>Take to the deep waters</l>
    </lg>
-   <!-- RESUME PROOFING HERE. KM -->
+
    <lg type="linegroup">
-    <l><seg xml:id="w1">We will</seg><add place="above" xml:id="w2">We'll</add> make <del rend="overstrike">a</del> race upon the seas</l>
-    <alt target="#w1 #w2" weights="0.5 0.5"/>
+    <l><seg xml:id="alt001">We will</seg><add place="above" xml:id="alt002">We'll</add> make <del rend="overstrike">a</del> race upon the seas</l>
+    <alt target="#alt001 #alt002"/>
     <l>We will make a battle&#11840;contest</l>
    </lg>
    
    <lg type="poem">
-    <head rend="underline">Old Age's ship and <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">crafty</add>Death</head>
-     <l><subst><del seq="1" rend="overstrike">Well, let them</del><add seq="2" place="below">From east and west</add></subst><add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003" rend="marked">across the horizon's <subst><del seq="1" rend="overstrike">shading</del><add seq="2" place="above">edge</add></subst>,</add></l>
-     <l>Two <del rend="overstrike">mighty</del> crafty fighters <subst><del seq="1" rend="overstrike">coming</del><add seq="2" place="above"><subst seq="3"><del seq="1" rend="overstrike">nearing</del><del seq="3" rend="overstrike"><add seq="2" place="above">stealing on</add></del><add seq="4" place="above">steal upon</add></subst> us,</add></subst></l>
-     <l><subst><del seq="1" rend="overstrike">Then out</del><add seq="2" place="above" xml:id="a004" rend="marked">Out challenge and</add></subst> defiance, <del rend="overstrike">and</del> <subst><del seq="1" rend="overstrike">our</del><add seq="2" place="above">gayest</add></subst> flags &amp; pennant<unclear reason="illegible" resp="#ew"><add place="above">flag</add></unclear></l>
-     <l>But we'll make race upon the seas&#82128;a battle&#11840;<lb/>
-        contest yet!</l>
+    <head rend="underline">Old Age's ship and <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">Crafty</add> Death</head>
+    
+    <l><del rend="overstrike">Well, let them</del></l>
+     <l>From east and west <add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003" rend="marked">across the horizon's <subst><del seq="1" rend="overstrike">shading</del><add seq="2" place="above">edge</add></subst>,</add></l>
+     <l>Two <del rend="overstrike">mighty</del> crafty fighters <subst><del seq="1" rend="overstrike">coming</del><add seq="2" place="above"><subst><del seq="1" rend="overstrike">nearing</del><del seq="3" rend="overstrike"><add seq="2" place="above">stealing on</add></del><add seq="4" place="above">steal upon</add></subst> us,</add></subst></l>
+    <l><subst><del seq="1" rend="overstrike">Then out</del><add seq="2" place="above" xml:id="a004" rend="marked">Out challenge and</add></subst> defiance, <del rend="overstrike">and</del> <subst><del seq="1" rend="overstrike">our</del><add seq="2" place="above">gayest</add></subst> flags &amp; pennant <add place="above"><unclear reason="illegible" resp="#ew" cert="low">flags</unclear></add></l>
+     <l>But we'll make race upon the seas&#82128;a <choice><orig>battle&#11840;<lb/>
+      contest</orig><reg>battle&#11840;content<lb/></reg></choice> yet!</l>
      <l>(Our joy of strife and derring&#11840;do to the last!)</l>
-     <l><metamark function="add" target="#a004">&#8248;</metamark></l>
+     <metamark function="add" target="#a004">&#8248;</metamark>
    </lg>
    
    <pb xml:id="leaf001v" facs="loc_ew.00209.jpg" type="verso"/>
    
    <pb xml:id="leaf002r" facs="loc_ew.00210.jpg" type="recto"/>
    
-   <note type="authorial" hand="#h03" place="top">top-gallant &amp; royal <subst><del seq="1" rend="overstrike">stun-</del><add seq="2" place="above">studding-</add></subst>sails</note>
+   <lg type="linegroup">
+    <l>top-gallant<lb/> &amp; royal <subst><del seq="1" rend="overstrike">stun-</del><add seq="2" place="above">studding-</add></subst>sails</l>
+   </lg>
    
    <pb xml:id="leaf002v" facs="loc_km.00054.jpg" type="verso"/>
    
