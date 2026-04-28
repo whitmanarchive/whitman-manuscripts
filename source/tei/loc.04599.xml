@@ -6,16 +6,14 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
-    <title level="m" type="main">American to the Old World Bards</title>
+    <title level="m" type="main">America to the Old World Bards</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
+     <persName xml:id="km">Kevin McMullen</persName>
      <persName xml:id="ew">Emma Whaley</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -28,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,16 +41,12 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.04599</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">"Nat Bloom," the name that appears on the recto of the third leaf, was a New York City acquaintance of Whitman from as late as the 1870s, according to Edward Grier (<hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> [New York University Press, 1984] 4: 1405). If that is true, then this constitutes a very early draft of what eventually became "Old Chants," likely written in the 1860s or 70s.</note>
     
-     <note type="work_relations" target="xxx.00395" cert="high">
-      <p>A manuscript containing poetic lines that eventually led to the poem "Old Chants," first published in the New York publication Truth on 19 March 1891 and was later reprinted in <hi rend="italic">Good-Bye My Fancy</hi> (1891). "Nat Bloom," the name that appears on the recto of the third leaf, was a New York City acquaintance of Whitman from as late as the 1870s, according to Edward Grier (Notebooks and Unpublished Prose Manuscripts [New York: New York University Press, 1984] 4: 1405). If that is true, then this constitutes a very early draft of "Old Chants".</p>
-     </note>
+     <note type="work_relations" target="xxx.00395" cert="high">Whitman never published a poem titled "America to the Old World Bards." However, <ref target="loc.00047">another manuscript</ref> contains a draft of a poem with that title, a poem that was eventually published as "Old Chants," first appearing in the New York publication <hi rend="italic">Truth</hi> on March 19, 1891. The poem was later reprinted in <hi rend="italic">Good-Bye My Fancy</hi> (1891). The lines in the present manuscript have very few similarities to the published version of "Old Chants," apart from the reference to Egyptian priests and the general idea of paying homage to poets of the past.</note>
    </notesStmt>
    
    <sourceDesc>
@@ -62,11 +55,11 @@
      
      <title>Notebooks, [1847]-[1885?]; Undated; Notebook pages; 2 of 2</title>  
      
-     <date notBefore="1847" notAfter="1885" cert="high"></date>
+     <date notBefore="1860" notAfter="1879" cert="medium">1860s or 70s</date>
      
      <idno type="callno">MSS 45443, reel 2</idno>
      
-     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842-1937, Library of Congress, Washington, D.C.</orgName>
+     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
       
@@ -79,7 +72,7 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-04-24" who="#km">proofed</change>
  <change when="2025-01-30" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -89,12 +82,15 @@
    
    <pb xml:id="leaf001r" facs="loc_ew.00405.jpg" type="recto"/>
    
-   <head rend="underline">America to the Old World Bards</head>
    <lg type="poem">
-     <l>By thy task for<lb/>
+    
+    <head rend="underline">America to the Old World Bards</head>
+    
+     <l>Be thy task for<lb/>
         once to thank, in<lb/>
         my name, the old<lb/>
         world Bards</l>
+    
      <l>And be thy task<lb/>
         to speak, to in<lb/>
         my name, to<lb/>
@@ -103,48 +99,48 @@
    
    <pb xml:id="leaf001v" facs="loc_ew.00406.jpg" type="verso"/>
     
-    <l xml:id="tr01"><metamark function="transpose" xml:id="tr02" target="#tr03">*</metamark>Let them <del rend="overstrike">walk</del> pass</l>
-    <l xml:id="tr05">Let the phantom walk through<lb/>
-       the roads of thy soul,</l>
-    <l xml:id="tr06">Call up the <add place="above">? pale</add>great procession</l>
-    <l xml:id="tr04"><metamark function="transpose" xml:id="tr03" target="#tr02">*</metamark>Let them <del rend="overstrike">pas</del> <subst><del seq="1" rend="overstrike">walk</del><add seq="2" place="above">pass</add></subst>&#11840;let<lb/>
-    <milestone unit="undeclared" rend="horbar-short-left"/> 
-       after <subst><del rend="overwrite">the</del><add rend="overwrite">the shadows walk through thy very soul</add></subst> <unclear reason="illegible" resp="#ew">coture</unclear> as<lb/>
-       1st stanzas (or <unclear reason="illegible" resp="#ew">coif</unclear></l>
-    <milestone unit="undeclared" rend="horbar-short-left"/>
-    <l>&#11840;the second<lb/>
-       must be a <unclear reason="illegible" resp="#ew">stroy</unclear><lb/>
-       Invocation</l>
-    <milestone unit="undeclared" rend="horbar-short-left"/>
-    <l>then the poems<lb/>
-       appear (are acted)</l>
-   </lg>
+    <l><metamark function="unknown">*</metamark> Let them <del rend="overstrike">walk</del> pass</l>
     
-    <listTranspose>
-     <transpose>
-      <ptr target="#tr05"/>
-      <ptr target="#tr06"/>
-      <ptr target="#tr01"/>
-      <ptr target="#tr04"/>
-     </transpose>
-    </listTranspose>
+    <l>Let the phantoms walk through<lb/>
+       the roads of thy soul,</l>
+    
+    <l>Call up the <add place="above">? pale</add> ? great<lb/> procession</l>
+    
+    <l><metamark function="unknown">*</metamark> Let them <del rend="overstrike">pas</del> <subst><del seq="1" rend="overstrike">walk</del> <add seq="2" place="above">pass</add></subst>&#8212;let<lb/> the shadows walk through thy<lb/> very<lb/> soul</l>   
+   </lg>
+     
+    <milestone unit="undeclared" rend="horbar-short-left"/> 
+    
+       <note type="authorial" hand="#h01">after the above as 1st stanzas (or <unclear reason="illegible" cert="high" resp="#km">canto</unclear>)</note> 
+    
+    <milestone unit="undeclared" rend="horbar-short-left"/>
+    
+    <note type="authorial" hand="#h01">the second must be a strong Invocation</note>
+    
+    <milestone unit="undeclared" rend="horbar-short-left"/>
+        
+    <note type="authorial" hand="#h01">then the poems appear (are acted)</note>
+
     
    <pb xml:id="leaf002r" facs="loc_ew.00407.jpg" type="recto"/>
     
-    <note type="authorial" place="top">Let the last stanzas of the 1st Quarto be the voice of the Genus (but the identiy of that a little veiled, vague) &amp; the words in italic</note>
+    <note type="authorial" hand="#h01">Let the last stanzas of the 1st Canto be the voice of the Genius (but the identiy of that a little veiled, vague) &amp; the words in italic</note>
    
    <pb xml:id="leaf002v" facs="loc_ew.00408.jpg" type="verso"/>
    
    <lg>
-    <l>The charm work&#11840;the<lb/>
-       <note type="authorial" place="inline">?</note><space dim="horizontal" extent="seven letters" rend="underline"/></l>
-    <l>Time falls back&#11840;</l>
+    <l>The charm work&#8212;the<lb/>
+       <note type="authorial" rend="underline" hand="#h01">?</note><space dim="horizontal" extent="seven letters" rend="underline"/></l>
+    
+    <l>Time falls back&#8212;</l>
+    
     <l>I hear the old<lb/>
-       Egyptian&#11840;the priests<lb/>
+       Egyptian&#8212;the priests<lb/>
        of <space dim="horizontal" extent="four letters"/> in the temples<lb/>
        <del rend="overstrike">of</del> of Memphis &amp; Thebes</l>
-    <l>The <subst><del seq="1" rend="overstrike"><unclear reason="illegible" resp="#ew">Musuar</unclear></del><add seq="2" place="above"><unclear reason="illegible" resp="#ew">sugers</unclear></add></subst> sun<lb/>
-       herfore the Pharaos</l>
+    
+    <l>The <subst><del seq="1" rend="overstrike">musicians</del> <add seq="2" place="above">singers</add></subst> <unclear reason="illegible" cert="low" resp="#km">sings</unclear><lb/>
+       before the Pharaos</l>
    </lg>
    
    <pb xml:id="leaf003r" facs="loc_ew.00409.jpg" type="recto"/>
