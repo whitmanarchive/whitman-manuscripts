@@ -86,7 +86,6 @@
    <handNotes>
     <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
     <handNote medium="blue ink" xml:id="h02" resp="#ww" scope="minor"></handNote>
-    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
@@ -102,10 +101,11 @@
    <pb xml:id="leaf001r" facs="loc_ja.00080.jpg" type="recto"/>
    
    <note hand="#h02" place="top" type="collaborative">brevier</note>
-   
+   <note type="collaborative" rend="marked"><del rend="overstrike" hand="#h02">noup</del> caps</note>
+   <note type="collaborative" rend="circled">A at end</note>
    <head type="main" rend="tripleUnderline">
     Last <subst><del rend="overstrike" seq="1">little</del><add place="above" seq="2">saved</add></subst> items
-   <unclear reason="illegible" resp="#ja" cert="low">from</unclear>  a vast batch <subst><add place="below" seq="2"><metamark target="#a001" function="add">&#8284;</metamark></add><add place="above" xml:id="a001" seq="3">left to oblivion.</add> <del rend="overstrike" seq="1">unprinted.</del></subst>
+   <unclear reason="illegible" resp="#ja" cert="low">from</unclear> a vast batch <subst><add place="below" seq="2"><metamark target="#a001" function="add">&#8284;</metamark></add><add place="above" xml:id="a001" seq="3">left to oblivion.</add> <del rend="overstrike" seq="1">unprinted.</del></subst>
    </head>
    
    <note place="left" rend="circled" type="collaborative">ital shove to right</note>
@@ -118,35 +118,76 @@
     the adjunct, and more serviceable to that
     true religion (for of course there is a
     false one and plenty of it.) than all
-    the priests and churches that now exist
+    the priests <add place="below"><metamark target="#a002" function="add">&#8248;</metamark></add><add place="above" xml:id="a002">and creeds</add> and churches that now exist
     or have ever existed&#8212;<hi rend="tripleUnderline">E</hi>ven while
    </p>
    
    <p>
-   Even while the temporary prevalent
-   theory and practice of poetry is merely
-   something ornamental and dainty&#11840;a love-sigh,
+   <del rend="overstrike">Even while</del> the temporary prevalent
+   theory and practice of poetry is merely <add place="below"><metamark target="#a003" function="add">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a003">one&#11840;side and</add>
+   <del rend="overstrike">something</del> ornamental and dainty&#11840;a love-sigh,
    a bit of jewelry, a feudal conceit,
    and ingenious tale or intellectual finesse,
-   adjusted to the low calibre that will always
-   sufficiently generally prevail (the ranges
+   adjusted to the low <add place="below"><metamark target="#a004" function="add">&#8248;</metamark></add><add place="above" xml:id="a004">taste and</add> calibre that will always
+   sufficiently generally prevail (<del rend="overstrike">the</del> ranges
    of stairs necessary to ascend the higher.)
    </p>
    
-   <p>
-    The religious follies, crimes, banalicisms,
-    aggregate and individual, so rife in
+   <p xml:id="a005">
+    
+    <add place="left"><metamark target="#a005" function="adjust" rend="marked circled">#2 leads</metamark></add>
+    
+    The <subst><add place="below" seq="2"><metamark target="#a006" function="add">&#8248;</metamark></add><add place="above" xml:id="a006">sectarian, church, and doctrinal</add><del rend="overstrike" seq="1">religious</del><add place="below" seq="3"><metamark target="#a006" function="add">&#8248;</metamark></add></subst> follies, crimes, banalicisms,
+    aggregate and individual, so rife <del rend="overstrike" seq="1">in</del><add place="below"><metamark target="#a007" function="add">&#8248;</metamark></add><add place="above" xml:id="a007">allthr<unclear resp="#ja" reason="illegible" cert="high">u</unclear></add>
     history, are proofs of the radicialness and
-    universally of this indestructible element
-    of humanity's just as much as any, and
-    are the other side of religion. Just as
-    disease and proves health, and is the
-    other side of it . . . . . The philosophy of
-    Greece taught health and the beauty of life.
+    universally of <subst><del rend="overstrike" seq="1">this</del><add place="above" seq="2">the</add></subst> indestructible element
+    of humanity's <add place="below"><metamark target="#a008" function="add">&#8248;</metamark></add><add place="above" xml:id="a008">Religion</add> just as much as any, and
+    are the other side of <subst><del rend="overstrike" seq="1">religion</del><add place="above" seq="2">it</add></subst>. Just as
+    disease <del rend="overstrike">and</del> proves health, and is the
+    other side of it <add place="above" rend="circled"><metamark function="adjust">3 em leader</metamark></add>. . . . . The philosophy of
+    Greece taught <subst><del rend="overstrike" seq="1">health</del><add place="above" seq="2">normality</add></subst> and the beauty of life.
    </p>
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+
+   <pb xml:id="leaf001v" facs="loc_ja.00081.jpg" type="verso"/>
+   
+   <note type="authorial" rend="tripleUnderline" place="top">Last random items</note>
+   <note type="collaborative" rend="marked" place="above">noup caps</note>
+   
+   <pb xml:id="leaf002r" facs="loc_ja.00082.jpg" type="recto"/>
+   
+   <note place="top" type="collaborative" rend="circled">B at end</note>
+   
+   <p>
+    Christianity teaches how to endure illness
+    and death. I have wonder'd whether a
+    third philosophy fusing both and doing
+    full justice to both, might not be outlined. 
+   </p>
+  
+   <p xml:id="a010"> 
+    
+    <add place="above"><metamark target="#a010" function="adjust" rend="circled">#2 leads</metamark></add>
+    
+    It will not be enough to say that
+    no <subst><del rend="overstrike" seq="1">race</del><add place="above" seq="2">Nation</add></subst> ever achiev'd materialistic, <del rend="overstrike">material</del>
+    political and money-making successes,
+    with general physical comfort as the
+    United States of America have achiev'd
+    them. I know very well that those
+    are the indispensiable foundations&#8212;and precedents&#8212;
+    the sina qua non of the moral
+    and heroic fruitions to come. For if
+    those were all&#8212;if they ended at that&#8212;
+    if nothing more were yielded than so
+    far appears&#8212;a gross prosperity only&#8212;
+    America, tried by highest tests were either
+    a failure&#8212;or has not advanced the standard
+    of humanity a bit further than other
+    nations. Or in other terms, has but inherited
+    and enjoy'd the results of preceding
+    ages and ended at that.
+   </p>
    
 </body>
 </text>
