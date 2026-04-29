@@ -14,6 +14,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="jh">Jeff Hill</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
                 </respStmt>
                 <sponsor>University of Iowa</sponsor>
                 <sponsor>University of Nebraska-Lincoln</sponsor>
@@ -40,15 +41,14 @@
                 <idno>aas.00001</idno>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="dat1"> </note>
-                <note type="work_relations" target="xxx.00556"><p> </p></note>
+                <note type="project" target="dat1">The date written on the manuscript, January 2, 1891, is almost certainly accurate. The letter on the verso is from 24 December 1890, and the poem was published, as drafted, in the 12 March 1891 issue of <hi rend="italic">Youth's Companion</hi>.</note>
+                <note type="work_relations" target="xxx.00556"><p>Following its appearance in <hi rend="italic">Youth's Companion</hi>, this poem was reprinted in the 1891 volume <hi rend="italic">Good-Bye My Fancy</hi>.</p></note>
             </notesStmt>
             <sourceDesc>
                 <bibl>
                     <author xml:id="ww">Whitman, Walt</author>
                     
-<!--                    <title>Thoughts, no. 4 ('Of Ownership')</title>-->
-                    <date xml:id="dat1" cert="high" notBefore="1888" notAfter="1891">Between 1888 and 1891</date>
+                    <date xml:id="dat1" cert="high" when="1891">1891</date>
                     <orgName xml:id="aas">Bolton-Stanwood Family Papers, American Antiquarian Society</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                     <relatedItem xml:id="rel1" type="text" target="aas.00025"/>
@@ -58,27 +58,28 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2026-04-29" who="#bb">proofed</change>
             <change when="2023-10-23" who="#jh">transcribed</change>
         </revisionDesc>
     </teiHeader>
     <text type="manuscript">
         <body>
-            <pb facs="aas.00001.001.jpg" xml:id="leaf001r" type="recto"/>
+            <pb facs="aas_bb.00001.jpg" xml:id="leaf001r" type="recto"/>
             <lg type="poem"> 
-                <head type="main-authorial" rend="underline">Ship ahoy!</head>
+                <head rend="underline">Ship ahoy!</head>
                 <l>In dreams I was a ship, and sail'd the<lb/>
                     boundless seas,</l>
                 <l>Sailing and ever sailing&#8212;all seas, and into every<lb/>
                 port, or out upon the offing,</l>
                 <l>Saluting, cheerily hailing each mate I met, little<lb/>
                 or big,</l>
-                <l>"Ship ahoy!" thro' trumpet or by voice&#8212;<add rend="insertion" place="above">&#8212;from me</add> some friendly<lb/>
+                <l>"Ship ahoy!" thro' trumpet or by voice&#8212;<add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a001">&#8212;from me</add> some friendly<lb/>
                 merry word at least,</l>
                 <l>For companionship and good will to all and each.</l>
             </lg>
             <signed rend="right">Walt Whitman</signed>
             <dateline>Jan: 2 1891</dateline>
-            <pb facs="aas.00001.002.jpg" xml:id="leaf001v" type="verso"/>
+            <pb facs="aas_bb.00002.jpg" xml:id="leaf001v" type="verso"/>
         </body>
     </text>
 </TEI>
