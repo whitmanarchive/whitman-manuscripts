@@ -147,7 +147,9 @@
       
       <!--end relatedItem section-->
       
-      <xsl:if test="//text//note[@type = 'editorial']">
+      <!-- removing the note type = editorial notes from the manuscript metadata box, in order to show it inline instead
+      delete commented out code after late life manuscripts grant ends (september 2026) -->
+     <!-- <xsl:if test="//text//note[@type = 'editorial']">
         <li>
           <strong>Notes written on manuscript: </strong>
           <xsl:for-each select="//text//note[@type = 'editorial']">
@@ -226,7 +228,7 @@
             </xsl:choose>
           </xsl:for-each>
         </li>
-      </xsl:if>
+      </xsl:if>-->
 
       
     </ul>
