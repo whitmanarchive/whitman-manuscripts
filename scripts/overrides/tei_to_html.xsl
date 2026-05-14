@@ -147,7 +147,7 @@
       
       <!--end relatedItem section-->
       
-      <xsl:if test="//text//note[@type = 'editorial']">
+     <!-- <xsl:if test="//text//note[@type = 'editorial']">
         <li>
           <strong>Notes written on manuscript: </strong>
           <xsl:for-each select="//text//note[@type = 'editorial']">
@@ -226,7 +226,7 @@
             </xsl:choose>
           </xsl:for-each>
         </li>
-      </xsl:if>
+      </xsl:if>-->
 
       
     </ul>
