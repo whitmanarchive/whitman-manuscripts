@@ -352,7 +352,24 @@
   <xsl:template match="*[substring-after(@hand,'#') = (preceding::handNote[@resp='#ww']/@xml:id)][preceding::handNote[@medium='letterpress']]">
     <xsl:variable name="hand_id" select="substring-after(@hand,'#')"/>
     <xsl:variable name="hand_resp" select="substring-after(preceding::handNote[@xml:id=$hand_id]/@resp,'#')"/>
-    <xsl:if test="self::del"><xsl:text><del></xsl:text></xsl:if>
+    <!-- TODO: reconsider this and improve it? or move into css? -->
+    <xsl:choose>
+      <xsl:when test="self::del">
+        <del>
+          <span>
+          <xsl:attribute name="class">
+          <xsl:call-template name="add_attributes"/>
+          </xsl:attribute>
+          <xsl:choose>
+          <xsl:when test="$hand_resp = 'ww'">
+          <span class="tei_proof_edit"><xsl:apply-templates/></span>
+          </xsl:when>
+          <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+        </xsl:choose>
+        </span>
+      </del>
+    </xsl:when>
+    <xsl:otherwise>
     <span>
       <xsl:attribute name="class">
       <xsl:call-template name="add_attributes"/>
@@ -364,7 +381,8 @@
       <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
     </xsl:choose>
     </span>
-    <xsl:if test="self::del"><xsl:text></del></xsl:text></xsl:if>
+    </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   <!-- Adding this to match rule in notebooks override file. KM -->
