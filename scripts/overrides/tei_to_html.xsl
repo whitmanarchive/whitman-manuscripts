@@ -373,7 +373,7 @@
   </xsl:template>
 
    <!-- Adding this to del stuff. KM -->
-  <xsl:template match="del">
+  <xsl:template match="//del">
     <del>
       <xsl:apply-templates/>
     </del>
