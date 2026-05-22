@@ -371,6 +371,13 @@
       <xsl:text>&#160;&#160;&#160;&#160;&#160;</xsl:text>
     </span>
   </xsl:template>
+
+   <!-- Adding this to del stuff. KM -->
+  <xsl:template match="del">
+    <del>
+      <xsl:apply-templates/>
+    </del>
+  </xsl:template>
   
   
 </xsl:stylesheet>
