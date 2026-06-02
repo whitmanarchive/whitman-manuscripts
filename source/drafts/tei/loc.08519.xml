@@ -86,7 +86,8 @@
    <handNotes>
     <handNote medium="letterpress" xml:id="h01" resp="#ww" scope="major"/>
     <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
-    <handNote medium="red ink" xml:id="h03" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
+    <handNote medium="pencil" xml:id="h03" resp="#unk1" scope="minor"><name xml:id="unk1">Unknown</name></handNote>
+    <handNote medium="black ink" xml:id="h04" resp="#unk2" scope="minor"><name xml:id="unk2">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
@@ -99,11 +100,25 @@
  <text type="manuscript">
   <body>
    
+   <metamark function="adjust" rend="marked">
+    set up the copy D E and H. <add place="below" hand="#h02"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" hand="#h02" xml:id="a001">sent herewith</add> &amp; fill out this
+    &amp; page 43 and 44
+    &amp; let me have proofs of
+    the pages
+    (I will expand or contract as needed)
+    &#8212;of course the successive
+    page numbers will have
+    to be changes
+   </metamark>
+   
    <fw rend="top left">42</fw>
    <fw rend="top center italic">GOOD-BYE MY FANCY.</fw>
 
    <pb xml:id="leaf001r" facs="loc_ej.00177_large.jpg" type="recto"/>
+   
+   
     <div>
+     
    <p>
     the esthetic or intellectual palates&#8212;but if I could arouse from its
     slumbers that eligibility in every soul for its own true exercise!
@@ -124,7 +139,9 @@
     to look out upon "the house"&#8212;one brief, honest, living
     glance.
    </p>
+     
   </div>
+   
    
    <div>
    
@@ -132,7 +149,9 @@
    
    <head type="main">AFTER AN INTERVAL.</head>
   
-  <lg type="poem">
+  <note place="right" hand="#h03" type="archival" rend="marked"><hi rend="underline">(Nov. 22, 1875 midnight&#8211;Saturn and Mars in conjunction.)</hi></note>
+  
+  <lg type="stanza">
    <l>A<hi rend="smallcaps">FTER</hi> an interval, reading, here in the midnight,</l>
    <l>With the great stars looking on&#8212;all the stars of Orion looking,</l>
    <l>And the silent Pleiades&#8212;and the duo looking of Saturn and<lb/> ruddy Mars;</l>
@@ -143,53 +162,67 @@
     
    </div>
    
+   
    <div>
    
    <note type="work_relations" target="xxx.00567"/>
    
    <head type="main">AS IN A SWOON.</head>
    
-   <lg type="poem">
+   <lg type="stanza">
     <l>A<hi rend="smallcaps">S</hi> in a swoon, one instant,</l>
     <l>Another sun, ineffable, full-dazzles me,</l>
     <l>And all the orbs I knew&#8212;and brighter, unknown orbs;</l>
     <l>One instant of the future land, Heaven's land.</l>
    </lg>
+    
+   </div>
    
+   
+   <div>
+    
+    <head type="main"><gap reason="illegible" resp="#ja" extent="one word"/></head>
+    
    <lg type="stanza">
     <l>T<hi rend="smallcaps">HOUGHTS</hi>, suggestions, aspirations, pictures,</l>
     <l>Cities and farms&#8212;by day and night&#8212;book of peace and war</l>
     <l>Of platitudes and of the commonplace.</l>
    </lg>
     
-   </div>
-   
-   <div>
-   
    <lg type="stanza">
     <l>For out-door health, the land and sea&#8212;for good will,</l>
     <l>For America&#8212;for all the earth, all nations, the common people,</l>
+    <l>(Not of one nation only&#8212;not America only.)</l>
    </lg>
+    
+   </div>
    
-   <lg type="poem">
+   
+   <div>
+    
+    <head type="main">THROUGH <gap reason="illegible" resp="#ja" extent="one word"/>.</head>
+   
+   <lg type="stanza">
     <l>I<hi rend="smallcaps">N</hi> it each claim, ideal line by all lines claims ideals, temper'd</l>
     <l>Each right and wish by other wishes, rights.</l>
    </lg>
    
    </div>
-   
+ 
+ 
    <div>
     
     <note type="work_relations" target="xxx.00565"/>
    
    <head type="main">AFTER THE ARGUMENT.</head>
     
-    <lg type="poem">
+    <lg type="stanza">
      <l>A <hi rend="smallcaps">GROUP</hi> of little children with they ways and chatter flow in,</l>
      <l>Like welcome rippling water o'er my heated nerves and flesh.</l>
     </lg>
     
    </div>
+   
    
    <div>
     
@@ -197,12 +230,13 @@
     
     <head type="main">FOR US TWO, DEAR READER.</head>
     
-    <lg type="poem">
+    <lg type="stanza">
      <l>S<hi rend="smallcaps">IMPLE</hi>, spontaneous, curious two souls interchanging,</l>
      <l>With the original testimony for us continued to the last.</l>
     </lg>
     
    </div>
+   
    
    <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
    
