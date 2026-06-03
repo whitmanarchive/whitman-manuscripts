@@ -88,6 +88,7 @@
     <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
     <handNote medium="pencil" xml:id="h03" resp="#unk1" scope="minor"><name xml:id="unk1">Unknown</name></handNote>
     <handNote medium="black ink" xml:id="h04" resp="#unk2" scope="minor"><name xml:id="unk2">Unknown</name></handNote>
+    <handNote medium="pencil" xml:id="h05" resp="#ww" scope="minor"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
@@ -99,6 +100,7 @@
 
  <text type="manuscript">
   <body>
+   <pb xml:id="leaf001r" facs="loc_ej.00177_large.jpg" type="recto"/>
    
    <metamark function="adjust" rend="marked">
     set up the copy D E and H. <add place="below" hand="#h02"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" hand="#h02" xml:id="a001">sent herewith</add> &amp; fill out this
@@ -113,9 +115,6 @@
    
    <fw rend="top left">42</fw>
    <fw rend="top center italic">GOOD-BYE MY FANCY.</fw>
-
-   <pb xml:id="leaf001r" facs="loc_ej.00177_large.jpg" type="recto"/>
-   
    
     <div>
      
@@ -199,7 +198,7 @@
    
     <lg type="stanza">
     <l>T<hi rend="smallcaps">HOUGHTS</hi>, suggestions, aspirations, pictures,</l>
-    <l>Cities and farms&#8212;by day and night&#8212;book of peace and war</l>
+    <l>Cities and farms&#8212;by day and night&#8212;book of peace and war<add place="below" hand="#h02"><metamark target="#a002" function="add">&#8248;</metamark></add><add place="above" hand="#h02" xml:id="a002">,<metamark target="a002" function="emphasize">/</metamark></add></l>
     <l>Of platitudes and of the commonplace.</l>
    </lg>
     
@@ -214,10 +213,14 @@
    
    <div>
     
-    <head type="main">THROUGH <gap reason="illegible" resp="#ja" extent="one word"/>.</head>
+  <metamark function="emphasize" rend="marked">2leads#</metamark>
+    
+    <del rend="overstrike" xml:id="d002" hand="#h02"><head type="main">THROUGH <gap reason="illegible" resp="#ja" extent="one word"/>.</head></del><add place="right" hand="#h02"><metamark function="delete" target="#d002">&#948;</metamark></add>
+   
+   <metamark target="#e001" function="emphasize" rend="marked">l.c</metamark>
    
    <lg type="stanza">
-    <l>I<hi rend="smallcaps">N</hi> it each claim, ideal line by all lines claims ideals, temper'd</l>
+    <l>I<hi rend="smallcaps" xml:id="e001">N</hi> it each claim, ideal line<add place="below" hand="#h02"><metamark target="#a003" function="add">&#8248;</metamark></add><add place="right" hand="#h02" xml:id="a003">,<metamark target="#a003" function="emphasize">/</metamark></add> by all lines<add place="below" hand="#h02"><metamark target="#a004" function="add">&#8248;</metamark></add><add place="right" hand="#h02" xml:id="a004">,<metamark target="#a004" function="emphasize">/</metamark></add> claims<add place="below" hand="#h02"><metamark target="#a005" function="add">&#8248;</metamark></add><add place="right" hand="#h02" xml:id="a005">,<metamark target="#a005" function="emphasize">/</metamark></add> ideals, temper'd</l>
     <l>Each right and wish by other wishes, rights.</l>
    </lg>
    
@@ -242,7 +245,16 @@
     
     <note type="work_relations" target="xxx.00566"/>
     
-    <head type="main">FOR US TWO, DEAR READER.</head>
+    <head type="main">FOR US TWO, <seg xml:id="tr001">DEAR</seg> <seg xml:id="tr002" rend="circled">READER</seg>.</head> 
+    
+    <metamark function="emphasize" target="#tr001 #tr002" rend="marked">tr</metamark>
+    
+    <listTranspose>
+     <transpose>
+      <ptr target="#tr002"/>
+      <ptr target="#tr001"/>
+     </transpose>
+    </listTranspose>
     
     <lg type="stanza">
      <l>S<hi rend="smallcaps">IMPLE</hi>, spontaneous, curious two souls interchanging,</l>
@@ -251,8 +263,66 @@
     
    </div>
    
+   <metamark function="adjust">Next <unclear reason="illegible" resp="#ja" cert="high">p.</unclear> 45</metamark>
    
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+   <pb xml:id="leaf002r" facs="oc_gk.00772_large.jpg" type="recto"/>
+   
+   <addSpan rend="pasteon" spanTo="#a006"/>
+    
+   <head type="main" rend="underline">Condition of Perfect Health.</head>
+   
+   <p>
+    In that condition the whole body is
+    elevated to a state generally unknown&#8212;
+    inwardly and outwardly illuminated, purified,
+    made solid, strong, yet bouyant. <unclear reason="illegible" resp="#ja" cert="low">I</unclear>
+    A singular charm, more than beauty,
+    flickers out of, and over, the face&#8212;a
+    curious transparency beams in the
+    eyes, both in the iris and the white&#8212;
+    &#8212;Nothing that happens but presents
+    sustenance such is the marvellous
+    transformation from the old process
+    of causes and effects.&#8212;Sorrows and
+    disappointments cease&#8212;there is
+    no more borrowing trouble in advance.
+    A man realizes the old myth&#8212;
+    he is a god walking the earth;
+    he sees new powers and beauties
+    everywhere; he has new faculties,
+    a new eyesight and hearing.&#8212;
+    The play of the body, in motion,
+    has then a previous unknown
+    grace.&#8212;Merely to move is then
+    a pleasure&#8212;to breathe, to see,
+    is also.&#8212;All the
+    see the beforehand gratifications,
+    drink, grease, stimulants, late
+    hours, luxurious seeds of the
+    night, seem as vexatious dreams,
+    &#8212;and now the awakening:&#8212;or
+    else take fall into their natural
+    places, wholesome, <unclear reason="illegible" resp="#ja" cert="low">conveying</unclear> diviner joys
+   </p>  
+   <anchor xml:id="a006"/>
+   
+   <p>
+    &#182;What I append I have treasured&#8212;found
+    in some old scrap-book fifty years ago&#8212;old style&#8212;a
+    favorite of mine (quite a glaring contrast to my
+    present bodily state:)
+    
+    <addSpan rend="pasteon" spanTo="#a002"/>
+    <floatingText>
+     <body>
+      <lg type="stanza">
+       <l>ON a high rock above the vast abyss</l>
+      </lg>
+     </body>
+    </floatingText>
+    <anchor xml:id="a007"/>
+    
+   </p>
    
 </body>
 </text>
