@@ -10,11 +10,11 @@
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
                 <editor>Ed Folsom</editor>
-                <editor>Matt Cohen</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="jh">Jeff Hill</persName>
                     <persName xml:id="ew">Emma Whaley</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -44,32 +44,24 @@
                 <idno>loc.02372</idno>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
-                <!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
-     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
-     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
-     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
-                <note type="work_relations" target="xxx." cert="">
-                    <p></p>
-                </note>
+                <note type="project" target="#dat1">Whitman was in the habit of ordering batches of specially printed poem slips, like this one, which he would sometimes sign or "correct" in small ways and present as mementos to friends and admirers. His signature here was almost certainly written sometime in late 1884 or January 1885</note>
+                
+                <note type="work_relations" target="xxx.00344" cert="high">A proof slip of the poem "Of That Blithe Throat of Thine," which was first published in <hi rend="italic">Harper's Monthly Magazine</hi> in January 1885. The poem was later included in <hi rend="italic">November Boughs</hi> (1888).</note>
             </notesStmt>
             <sourceDesc>
                 <bibl>
                     <author xml:id="ww">Whitman, Walt</author>
                     <title resp="#wwa">Of that Blithe Throat of Thine</title>  
-                    <!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. -->
-                    <date notBefore="" notAfter="" cert="">1884</date>
+      
+                    <date notBefore="1884" notAfter="1885-01-31" cert="high">1884 or early 1885</date>
                     <idno type="callno">Box: 27, Folder: Of that Blithe Throat of Thine (1884) Proof, 20140226_07 Camden New Jersey [in red ink] r</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>                    
                     <note>Transcribed from digital images of the original.</note>
-                    <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-                    <relatedItem type="document" target="wwa.00041"/>
-                    <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2026-06-14" who="#km">proofed</change>
             <change when="2024-09-25" who="#ew">updated image links</change>
             <change when="2024-02-05" who="#jh">transcribed and encoded</change>
         </revisionDesc>
@@ -78,14 +70,17 @@
         <body>
             <pb xml:id="leaf001r" facs="loc_ew.00015.jpg" type="recto"/>
             <lg type="poem">
-                <l>[More than 83 degrees north&#8212;about a good day's steaming distance to the Pole by one of our fast oceaners in clear water&#8212;Greely heard the song of a single snow-bird merrily sounding over the desolation.]</l>
+                <head type="main">Of that Blithe Throat of Thine.</head>
+                
+                <epigraph><p>[More than 83 degrees north&#8212;about a good days' steaming distance to the Pole by one of our fast oceaners in clear water&#8212;Greely heard the song of a single snow-bird merrily sounding over the desolation.]</p></epigraph>
+                
                 <l>Of that blithe throat of thine from arctic bleak and blank,</l>
-                <l>I'll mind the lesson, solitary bird&#8212;let me too welcome chilling drifts,</l>
-                <l>E'en the profoundest chill, as now&#8212;a torpid pulse, a brain unnerv'd,</l>
+                <l>I'll mind the lesson, solitary bird&#8212;let me too welcome chilling<lb/> drifts,</l>
+                <l>E'en the profoundest chill, as now&#8212;a torpid pulse, a brain <choice><orig>un-<lb/>nerv'd,</orig><reg>unnerv'd,</reg></choice></l>
                 <l>Old age land-lock'd within its winter bay&#8212;(cold, cold, O cold!)</l>
                 <l>These snowy hairs, my feeble arm, my frozen feet,</l>
                 <l>For them thy faith, thy rule I take, and grave it to the last;</l>
-                <l>Not summer's zones alone&#8212;not chants of youth, or south's warm tides alone,</l>
+                <l>Not summer's zones alone&#8212;not chants of youth, or south's warm<lb/> tides alone,</l>
                 <l>But held by sluggish floes, pack'd in the northern ice, the cumulus of years,</l>
                 <l>These with gay heart I also sing.</l>
             </lg>
