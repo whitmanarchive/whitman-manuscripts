@@ -10,11 +10,11 @@
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
                 <editor>Ed Folsom</editor>
-                <editor>Matt Cohen</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="jh">Jeff Hill</persName>
                     <persName xml:id="ew">Emma Whaley</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -42,30 +42,27 @@
             </publicationStmt>
             <notesStmt>
                 <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
-                <!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
-     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
-     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
-     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
-                <note type="work_relations" target="xxx." cert="">
-                    <p></p>
-                </note>
+                
+                <note type="work_relations" target="xxx." cert=""></note>
             </notesStmt>
             <sourceDesc>
                 <bibl>
                     <author xml:id="ww">Whitman, Walt</author>
                     <title resp="#wwa">L of G's Purport</title>
-                    <!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. -->
+                    
                     <date notBefore="" notAfter="" cert=""></date>
-                    <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+                    <idno type="callno">mss45443, Manuscripts, [1859]-[circa 1892]; Poetry; [1891]; "L. of G.'s Purport"</idno>
                     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842-1937, Library of Congress, Washington, D.C.</orgName>                    
                     <note>Transcribed from digital images of the original.</note>
-                    <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-                    <relatedItem type="document" target="wwa.00041"/>
-                    <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote medium="black ink" xml:id="h01" resp="#ww" scope="minor"/>
+                <handNote medium="blue stamped ink" xml:id="h02" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
+            </handNotes>
+        </profileDesc>
         <revisionDesc>
             <change when="2024-09-25" who="#ew">updated image links</change>
             <change when="2024-02-09" who="#jh">transcribed and encoded</change>
@@ -73,18 +70,35 @@
     </teiHeader>
     <text type="manuscript">
         <body>
+            
             <pb xml:id="leaf001r" facs="loc_ew.00011.jpg" type="recto"/>
-            <p>37 [Trial titles and early drafts of stanzas one and three of] L. of G.'S PURPORT [1891] [3] p. on 3l. (scrap and two leaves) 9&#189; x 19 to 25 x 20 cm.  Holograph, written and revised in ink on plain paper.</p>
-            <p>On reverse of lined leaf: "payments to Mrs. White" ($298 in room rent over the period Mar. 1, 1871-June 10, 1874).</p>
+            <div>
+            <p>37 [Trial titles and early drafts of stanzas one and three of] L. of G.'S PURPORT [1891] [3] p. on 3l. (scrap and two leaves) 9&#189; x 19 to 25 x 20 cm.  H</p>
             <p>First published in <hi rend="italic">Good-Bye My Fancy</hi> (1891).</p>
-            <p>Not to exclude or take away, or pick out evils from their formidable masses, (even to expose them,)</p>
-            <p>But add, complete, extend, the immortal good.</p>
-            <pb xml:id="leaf001v" facs="P3010450.jpg" type="verso"/>
-            <p>Burkhardt</p>
-            <p>5 Noble Street</p>
-            <p>Greenville</p>
-            <p>New Jersey</p>
-            <pb xml:id="leaf001v" facs="loc_ew.00012.jpg" type="verso"/>
+           
+            
+            <lg type="linegroup">
+                <head type="main" rend="underline"><hi rend="tripleUnderline">L</hi> of G's purport</head>
+                <l>Not to exclude or take away or<lb/> pick out evils from their formed<lb/> able masses, (even to expose them,)</l>
+                <l>But add, complete, extend, the immortal<lb/> good.</l>
+            </lg>
+            
+            <note type="archival" place="bottom" hand="#h02">73</note>
+            </div>
+        
+            
+                <pb xml:id="leaf001v" facs="loc_ew.00012.jpg" type="verso"/>
+            
+            <div>
+                <opener>
+                    <address>
+                        <addrLine><gap reason="cut away" extent="one or two words"/> Burkhardt</addrLine>
+                        <addrLine><gap reason="cut away" extent="one or two characters"/>5 Noble Street</addrLine>
+                        <addrLine>Greenville</addrLine>
+                        <addrLine>New Jersey</addrLine>
+                </address>
+                </opener>
+            </div>
         </body>
     </text>
 </TEI>

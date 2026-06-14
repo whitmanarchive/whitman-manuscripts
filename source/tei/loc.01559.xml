@@ -4,9 +4,7 @@
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01559">
     
     <teiHeader>
-        
         <fileDesc>
-            
             <titleStmt>
                 <title level="m" type="main">"He went ?</title>
                 <title level="m" type="sub">a machine readable transcription</title>
@@ -15,7 +13,10 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <name>The Walt Whitman Archive Staff</name>
+                    <persName xml:id="al">Ashlyn Lawson</persName>
+                    <persName xml:id="tj">Tim Jackson</persName>
+                    <persName xml:id="jh">Jeff Hill</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -66,6 +67,8 @@
         </fileDesc>
         
         <revisionDesc>
+            <change when="2026-06-14" who="#km">proofed</change>
+            <change when="2024-02-12" who="#jh">updated encoding</change>
             <change when="2011-01-25" who="#tj">Checked, queried</change>
             <change when="2010-09-27" who="#al">Transcribed and encoded</change>
         </revisionDesc>
