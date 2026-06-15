@@ -44,27 +44,21 @@
                 <idno>loc.03408</idno>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
-                <!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
-     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
-     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
-     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
-                <note type="work_relations" target="xxx." cert="">
-                    <p></p>
-                </note>
+                <note type="project" target="#dat1">Because this manuscript contains early-stage notes, it is difficult to assign an exact date, but it was likely written in the late 1880s but before November 1890, when "Old Poets" was published.</note>
+                
+                <note type="work_relations" target="xxx.00559" cert="high">The ideas expressed in these lines were used in the essay "Old Poets," first published in the <hi rend="italic">North American Review</hi>in November 1890. It was reprinted under the title, "Old Poets and the New Poetry" in <hi rend="italic">Pall Mall Gazette</hi> (17 November 1890), before it appeared in <hi rend="italic">Good-Bye My Fancy</hi> (1891) and again in <hi rend="italic">Complete Prose Works</hi> (1892).</note>
             </notesStmt>            
             <sourceDesc>
                 <bibl>
                     <author xml:id="ww">Whitman, Walt</author>
                     <title resp="#wwa">Make a piece</title>  
-                    <!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. -->
-                    <date notBefore="" notAfter="" cert=""></date>
-                    <idno type="callno">tag: marginalia, box: 39, folder: 65, Judgments of People</idno>
+                    
+                    <date notBefore="1885" notAfter="1890" cert="medium"> Between 1885 and November 1890</date>
+                    
+                    <idno type="callno">mss18630, box 39; Notes and Notebooks, 1847-1891; Notes, 1847-1891; Literary; Undated; Judgments of people</idno>
+                    
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>                    
                     <note>Transcribed from digital images of the original.</note>
-                    <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-                    <relatedItem type="document" target="wwa.00041"/>
-                    <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -77,7 +71,12 @@
     <text type="manuscript">
         <body>
             <pb xml:id="leaf001r" facs="loc_ew.00016.jpg" type="recto"/>
-            <p>Make a piece (short or larger) on the queer judgments both of communities and ages, and of notable individuals as of Voltaire ab't Shakespeare Byron &#38; Wordsworth ab't the poets &#38; as in Dictionary page 939 when women's [gap] were first attempted to be represented on the English stage by real women, actresses they were angrily hissed off; it was considered indecent, beond allowance, the first persons that carried umbrellas in Europe were mobbed</p>
+            
+            <p>Make a piece (short&#8212;or longer) on the queer judgments both of communities and ages, and of notable individuals as of Voltaire ab't <choice><orig>Shakspere</orig><reg>Shakespeare</reg></choice> Byron &#38; Wordsworth ab't the poets &#38; as in Dictionary page 939</p> 
+            
+            <p>when women's characters were first attempted to be represented on the English stage by real women, actresses they were angrily pissed off; it was considered indecent, beyond allowance,</p> 
+            
+            <p>The first persons that carried umbrellas in Europe were mobbed</p>
             <pb xml:id="leaf001v" facs="loc_nhg.00119.jpg" type="verso"/>      
         </body>
     </text>
