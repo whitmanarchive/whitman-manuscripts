@@ -38,7 +38,7 @@
                 </address>
                 <availability>
                     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
-                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+                    <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
                 </availability>
                 <idno>loc.00190</idno>
             </publicationStmt>
@@ -54,16 +54,17 @@
                     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “Decoration Day” (undated), draft</title>                      
                     
                     <date when="1888" cert="high" xml:id="dat1">1888</date>
-                    <idno type="callno"></idno>
+                    <idno type="callno">mss18630, box 26</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <note>Transcribed from digital images of the original.</note>
-                    
-                    <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-                    <relatedItem type="document" target="wwa.00041"/>
-                    <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote medium="pencil" xml:id="h01" resp="#ww" scope="sole"/>
+            </handNotes>
+        </profileDesc>
         <revisionDesc>
             <change when="2026-06-16" who="#bb">proofed</change>
             <change when="2024-09-24" who="#ew">updated image links</change>
@@ -74,6 +75,7 @@
         <body>
             <pb xml:id="leaf001r" facs="loc_ew.00003.jpg" type="recto"/>
             <lg type="poem">
+                <delSpan spanTo="#d01" rend="hashmark"/>
                 <lg type="linegroup">
                 <l><subst><del rend="overstrike" seq="1">Covering</del> <add place="above" seq="2">Lay on</add></subst> the graves of all dead soldiers</l>
                 <l>Wreaths of roses and branches of palms,</l>
@@ -84,15 +86,24 @@
                 <l><unclear reason="illegible" resp="#bb" cert="low"><del rend="overstrike">For</del></unclear> meanings, indications</l>
                 </lg>
                 <lg type="linegroup">
-                <l><del rend="overstrike">With <space dim="horizontal"/> quell'd and</del></l>
-                <l>All wars, contentions past,</l>
-                <l><del rend="overstrike">Tokens</del> <hi rend="underline">Decoration</hi> Day</l>
-                <l><add rend="insertion" place="above">tokens</add>reciprical over the north and over the south</l>
-                <l>One day <add rend="insertion" place="above">at least</add> hot passions laid&#8212;peace, <add rend="insertion" place="above" seq="1">[gap]</add> <del rend="overstrike" seq="2">[gap]</del> <add rend="insertion" place="above">uprisen</add> brotherhood</l>
-                <l>We joining proud, remembering <add place="above">thankful</add> sorrowing</l>
-                <l>[gap]</l>
+                <l><del rend="overstrike">With <space dim="horizontal" extent="about thirteen characters"/> quell'd and</del></l>
+                <l>All wars, contentions past,<lb/>
+                <floatingText>
+                    <body>
+                        <lg type="poem">
+                        <head type="main">
+                            <subst><del rend="overstrike" seq="1">Tokens</del> <add rend="underline" seq="2">Decoration Day</add></subst>
+                        </head>
+                            <l/>
+                        </lg>
+                    </body>
+                </floatingText>
+                <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">tokens</add> reciprical, over the north, and over the south</l>
+                <l>One day, <add place="above">at least,</add> hot passions laid<del rend="overstrike">,</del>&#8212;peace, <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002"><subst><del rend="overstrike" seq="1">sorrows</del><add place="above" seq="2">&#8212;</add></subst></add>brotherhood <add hand="#h" place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add hand="#h" place="above" xml:id="a003">upris<subst rend="overwrite"><del>en</del><add>ing</add></subst>,</add></l>
+                <l>We joining proud, remembering <add place="above">thankful,</add> sorrowing</l>
                 </lg>
             </lg>
+            <anchor xml:id="d01"/>
             <pb xml:id="leaf001v" facs="loc_ew.00004.jpg" type="verso"/>
         </body>
     </text>
