@@ -44,7 +44,7 @@
                 <idno>loc.04285</idno>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">On the reverse is a letter to Whitman dated November 14, 1884, meaning that the manuscript was written sometime between then and the publication of <hi rend="italic">November Boughs</hi> in the fall of 1888. As these lines bear only a slight resemblance to the final, published lines, </note>
+                <note type="project" target="#dat1">On the reverse is a letter to Whitman dated November 14, 1884, meaning that the manuscript was written sometime between then and the publication of <hi rend="italic">November Boughs</hi> in the fall of 1888. As these lines bear only a slight resemblance to the final, published lines, a more precise dating is difficult.</note>
                 
                 <note type="work_relations" target="xxx." cert="">This manuscript probably contributed to the couplet "As idly drifting down the ebb, / Such ripples, half-caught voices, echo from the shore," which appears before the final paragraph of "A Backward Glance O'er Travel'd Roads," first published in <hi rend="italic">November Boughs</hi> (1888). Most of "A Backward Glance O'er Travel'd Roads" was drawn from three previously published pieces. The couplet, however, was not part of any of those earlier essays.</note>
             </notesStmt>
@@ -52,11 +52,10 @@
                 <bibl>
                     <author xml:id="ww">Whitman, Walt</author>
                     <title resp="#wwa">To the liquid</title>  
-                    <!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. -->
-                    <date notBefore="" notAfter="" cert=""></date>
-                    <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
-                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842-1937, Library of Congress, Washington, D.C.</orgName>                    
+                    <date notBefore="1884-11-14" notAfter="1888" cert="medium">Between November 1884 and fall 1888</date>
+                    <idno type="callno">mss45443; Notes and Memoranda, [1856?]-[Before 1888?]; Undated; Trial titles</idno>
+                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842-1937, Library of Congress, Washington, D.C.</orgName
+                    
                     <note>Transcribed from digital images of the original.</note>
                     <relatedItem type="text" xml:id="rel01" target="loc.07078"/>
                     <relatedItem type="document" target="wwa.00127"/>
