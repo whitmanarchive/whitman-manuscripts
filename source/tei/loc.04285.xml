@@ -10,11 +10,11 @@
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
                 <editor>Ed Folsom</editor>
-                <editor>Matt Cohen</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="jh">Jeff Hill</persName>
                     <persName xml:id="ew">Emma Whaley</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -44,14 +44,9 @@
                 <idno>loc.04285</idno>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
-                <!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
-     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
-     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
-     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
-                <note type="work_relations" target="xxx." cert="">
-                    <p></p>
-                </note>
+                <note type="project" target="#dat1">On the reverse is a letter to Whitman dated November 14, 1884, meaning that the manuscript was written sometime between then and the publication of <hi rend="italic">November Boughs</hi> in the fall of 1888. As these lines bear only a slight resemblance to the final, published lines, </note>
+                
+                <note type="work_relations" target="xxx." cert="">This manuscript probably contributed to the couplet "As idly drifting down the ebb, / Such ripples, half-caught voices, echo from the shore," which appears before the final paragraph of "A Backward Glance O'er Travel'd Roads," first published in <hi rend="italic">November Boughs</hi> (1888). Most of "A Backward Glance O'er Travel'd Roads" was drawn from three previously published pieces. The couplet, however, was not part of any of those earlier essays.</note>
             </notesStmt>
             <sourceDesc>
                 <bibl>
@@ -72,10 +67,11 @@
         <profileDesc>
             <handNotes>
                 <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-                <handNote medium="blue ink" xml:id="h02" resp="#unk">
+                <handNote medium="blue stamped ink" xml:id="h02" resp="#unk"><name xml:id="unk"></name></handNote>
             </handNotes>
         </profileDesc>
         <revisionDesc>
+            <change when="2026-06-19" who="#km">proofed</change>
             <change when="2024-10-01" who="#ew">updated image links</change>
             <change when="2024-03-01" who="#jh">transcribed and encoded</change>
         </revisionDesc>
@@ -83,16 +79,27 @@
     <text type="manuscript">
         <body>
             <pb xml:id="leaf001r" facs="loc_ew.00025.jpg" type="recto"/>
-            <lg type="poem">
-                <l>To the</l>
-                <l>As I sat</l>
-                <l>To the music of ebb-tide ripples softly</l>
-                <l>Alone</l>
-                <l>To the ripples</l>
-                <l><del rend="overstrike">Flo Flo</del></l>
-                <l><del rend="overstrike">Idly floating</del></l>
-                <l>Idly I float</l>
-            </lg>
+            
+                <ab>To the liquid</ab>
+            
+                <ab>To the</ab>
+            
+                <ab>As I sat</ab>
+            
+                <ab>To the music of ebb-tide ripples<lb/> softly</ab>
+            
+                <ab>Alone</ab>
+            
+                <ab>To the ripples</ab>
+            
+                <ab><del rend="overstrike">Flo Flo</del></ab>
+            
+                <ab><del rend="overstrike">Idly floating</del></ab>
+            
+                <ab>Idly I float</ab>
+            
+            <note type="archival" place="bottom" hand="#h02">612</note>
+            
             <pb xml:id="leaf001v" facs="loc_ew.00026.jpg" type="verso"/>
         </body>
     </text>
