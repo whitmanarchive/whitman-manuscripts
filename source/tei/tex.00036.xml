@@ -11,7 +11,6 @@
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
       <persName xml:id="km">Kevin McMullen</persName>
@@ -48,11 +47,9 @@
    <idno>tex.00036</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">The corrections were likely made shortly before the poem's publication, in October or November 1889.</note>
     
-     <note type="work_relations" target="xxx.00384" cert="high">
-      <p>Corrected proof of "My 71st Year," which appeared in the November 1889 issue of <hi rend="italic">The Century Illustrated Monthly Magazine</hi>.</p>
-     </note>
+     <note type="work_relations" target="xxx.00384" cert="high">A corrected proof of "My 71st Year," which appeared in the November 1889 issue of <hi rend="italic">The Century Illustrated Monthly Magazine</hi>.</note>
    </notesStmt>
    
    <sourceDesc>
@@ -61,7 +58,7 @@
      
      <title>"My 71st Year," proof with additions, 1883?, 1p</title>  
      
-     <date notBefore="1889-01" notAfter="1889-11" cert="high">1889</date>
+     <date notBefore="1889-01" notAfter="1889-11" cert="high">October or November 1889</date>
      
      <idno type="callno">TXRC03-A4</idno>
      
@@ -79,6 +76,7 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
+ <change when="2026-06-19" who="#km">proofed</change>
  <change when="2024-08-09" who="#km">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -86,29 +84,15 @@
  <text type="manuscript">
   <body>
    
-   <pb xml:id="leaf001r" facs="tex.00036.001.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="tex_km.00012.jpg" type="recto"/>
    
    <lg type="poem">
     <head>MY 71st YEAR.</head>
      <l>After surmounting three-score and ten,</l>
      <l>With all their chances, changes, losses, sorrows,</l>
-     <l>My parents' deaths, the vagaries of my life, the many tearing<lb/> passions of me, <add hand="#h02" place="inline">
-      <metamark function="add" target="#a001">&#8248;</metamark>
-     </add>
-      <add hand="#h02" place="top" rend="marked" xml:id="a001">the war of '63 and '4</add>
-     </l>
+     <l>My parents' deaths, the vagaries of my life, the many tearing<lb/> passions of me, <add hand="#h02" place="belows"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h02" place="top" rend="marked" xml:id="a001">the war of '63 and '4</add></l>
     <l>As some old broken soldier, after a long, hot, wearying march,<lb/> or haply after battle,</l>
-    <l>At twilight, hobbling, answering yet to company roll-call
-     <add hand="#h02" place="inline">
-      <metamark function="add" target="#a002">&#8248;</metamark>
-     </add>
-     <add hand="#h02" place="right" xml:id="a002">,<metamark function="separate" target="#a002">/</metamark></add> 
-     <hi rend="italic">Here</hi>
-     <add hand="#h02" place="inline">
-      <metamark function="add" target="#a003">&#8248;</metamark>
-     </add>
-     <add hand="#h02" place="right" xml:id="a003">,<metamark function="separate" target="#a003">/</metamark>
-     </add><lb/> with vital voice,</l>
+    <l>At twilight, hobbling, answering yet to company roll-call<add hand="#h02" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a002">,<metamark function="separate" target="#a002">/</metamark></add> <hi rend="italic">Here</hi><add hand="#h02" place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a003">,<metamark function="separate" target="#a003">/</metamark></add><lb/> with vital voice,</l>
     <l>Reporting yet, saluting yet the Officer over all.</l>
    </lg>
    
