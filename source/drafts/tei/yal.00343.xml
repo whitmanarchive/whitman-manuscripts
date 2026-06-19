@@ -74,38 +74,40 @@
       FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
      <orgName xml:id=""></orgName>
      
-     <note>Transcribed from digital images of the original.</note>
-      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
-     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-     <relatedItem type="document" target="wwa.00041"/>
-     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+     
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
-   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="blue ink" xml:id="h02" resp="#unk"></handNote>
-    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
+   <handNotes>
+    <handNote medium="pencil" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
  
 
- <change when="2026-06-18" who="#ja">transcribed and encoded</change>
+ <change when="2026-06-19" who="#ja">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-<!--  EDIT THE VALUE OF @FACS TO CORRESPOND WITH THE NAME OF THE RECTO IMAGE  -->
-   <pb xml:id="leaf001r" facs="duk_nhg.00755_large.jpg" type="recto"/>
-   <lg type="poem">
-     <l></l>
-     <l></l>
-     <l></l>
-   </lg>
+
+   <pb xml:id="leaf001r" facs="yal.00343.001_large.jpg" type="recto"/>
+   <head type="main" hand="#h01" rend="underline">Written Impromptu in an album</head>
+   
+   <p>
+    In memory of these merry Christmas
+    days &amp; nights&#8212;T <unclear reason="illegible" resp="#ja" cert="low">Mr</unclear> My dear
+    friends Mr and Mrs. Williams <gap reason="illegible" extent="one word" resp="#ja"/>
+    Che Churchie, Mary, <unclear reason="illegible" resp="#ja" cert="low">Gurney</unclear>, and little
+    Aubrey&#8212;&#182;A heavy snow storm blocks
+    u everything up u keeps us in&#8212;but
+    souls, hearts, brains, thoughs seem to have
+    been unloos'd&#8212;&amp;
+   </p>
    
 <!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
    <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
