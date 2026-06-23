@@ -60,14 +60,14 @@
      <note>Transcribed from digital images of the original.</note>
      <relatedItem type="text" xml:id="rel01" target="uva.00008"/>
      <relatedItem type="document" target="wwa.00738"/>
-     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
-     
+     <note type="project" target="#rel01">The reverse side of this manuscript leaf has, at the top, a partial draft of "Note at End," which closed <hi rend="italic">Complete Poems and Prose</hi> (1888). The prose draft at the bottom has not been identified.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="pencil" xml:id="h01" resp="#ww" scope="sole"/>
+    <handNote medium="pencil" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="pencil" xml:id="h02" resp="#unk1" scope="minor"><name xml:id="unk1">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
@@ -81,26 +81,34 @@
    
    <pb xml:id="leaf001r" facs="uva.00005.001.jpg" type="recto"/>
    
+   <note type="archival" place="top" rend="underline" hand="#h02">5</note>
    <head rend="underline">"Unknown."</head>
    
    <lg type="poem">
-     <l>A million<add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">hidden</add>names, left blank, unknown</l>
+     <l>A million <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">hidden</add> names, left blank, unknown</l>
      <l>Northern, Southern, East and West,</l>
-     <l>Belonging <subst><del seq="1" rend="overstrike">to the not unsee</del><add seq="2" place="above">as ye are, death's, mystery</add></subst></l>
-     <l><subst><del seq="1" rend="overstrike">Death's, mysterys,</del><add seq="2" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add seq="3" place="above" xml:id="a002">The intangible and faded out,</add></subst> the vacant air's, the<lb/>
-        sands, the unindented sea's</l>
-     <l>I<del rend="overstrike"><add place="above">Yet</add></del> put <subst><del seq="1" rend="overstrike">yet</del><add seq="2" place="inline">ye</add></subst><add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">in my thought and <del rend="overstrike">in</del></add> in these lines</l>
-    <delSpan rend="overstrike" spanTo="#d001"/>
-     <l>As I sit<add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">silent by the flickering oak&#11840;flame</add> in the twilight</l>
-     <l><del rend="overstrike">T</del> Slain<del rend="overstrike">&#11840;</del>buried crumbled soldiers</l>
-     <l>The <add place="above">fill'd</add>trench</l>
-     <l><add place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" xml:id="a005">The truce</add>After the battle, and the burial squads,</l>
-    <anchor xml:id="d001"/>
-     <l>Long past the war and all its<add place="right" xml:id="w1">battle</add><add place="right" xml:id="w2">marks</add><add place="right" xml:id="w3">signs</add><add place="right" xml:id="w4">scenes</add></l>
-      <alt target="#w1 #w2 #w3 #w4" weights="0.25 0.25 0.25 0.25"/>
+    
+     <l>Belonging <subst><del seq="1" rend="overstrike">to the no</del> <del rend="overstrike" seq="3"><add seq="2">unsee</add></del> <add seq="4" place="above">as ye are, death's, mystery's</add></subst></l>
+    
+     <l><subst><del seq="1" rend="overstrike">Death's, mystery's,</del> <add seq="2" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add seq="2" place="above" xml:id="a002">The intangible and faded out,</add></subst> the vacant air's, the<lb/>
+        sands', the unindented sea's,</l>
+    
+     <l><del rend="overstrike"><add place="above">Yet</add></del> I put <del rend="overstrike">yet</del> ye <add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">in my thought and <del rend="overstrike">in</del></add> in these lines</l>
+    
+     
+     <l><del rend="overstrike">As I sit <add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">silent by the flickering oak&#11840;flame</add> in the twilight</del></l>
+    
+     <l><del rend="overstrike">T</del> <del rend="overstrike">Slain <gap reason="illegible" extent="one character"/> buried crumbled soldiers</del></l>
+    
+     <l><del rend="overstrike">The <add place="above">fill'd</add>trench</del></l>
+    
+     <l><del rend="overstrike"><add place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" xml:id="a005">The truce</add> After the battle, and the burial squads,</del></l>
+    
+     <l>Long past the war and all its <add place="above">battle</add> <add place="above">marks</add> <add>signs</add> <add place="below">scenes</add></l>
+      <!--<alt target="#w1 #w2 #w3 #w4" weights="0.25 0.25 0.25 0.25"/>-->
      <l>And many a vacancy f</l>
-     <l>And like a spectral host<add place="above">file by</add>to-night<lb/>
-        the mighty <subst><del seq="1" rend="overstrike">an</del><add seq="2" place="inline">armies</add></subst> file</l>
+    <l>And like <del rend="overstrike">a</del> spectral host <add place="above">file by</add> to-night<lb/>
+        the mighty <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#bb">en</unclear></del> armies file</l>
    </lg>
    
    <pb xml:id="leaf001v" facs="uva.00005.002.jpg" type="verso"/>
