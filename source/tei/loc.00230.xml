@@ -12,11 +12,10 @@
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="tb">Tara Ballard</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -49,12 +48,9 @@
    <idno>loc.00230</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">Based on Whitman's note on a <ref target="loc.00230">related proof slip</ref>, this manuscript likely dates from sometime in 1890.</note>
     
-    
-     <note type="work_relations" target="xxx.01170" cert="high">
-      <p>Proofs of four poems pasted together and collected under the main handwritten title "An Old Man's Recitatives." The poems included are: "Ancient songs reciting" (published as "Old Chants" in 1891), "Grand is the seen" (first published in 1891), "Death dogs my steps" (published as part of "L. of G.'s Purport" in 1891), and "For us two, reader dear," first published in 1891. A note in Whitman's hand in the right margin details failed attempts to publish this grouping in <hi rend="italic">Scribner's</hi>.</p>
-     </note>
+    <note type="work_relations" target="xxx.01170" cert="high">This is a proof slip for a cluster of poems that was seemingly never published in this configuration or under this title, although the poems were all published, in some form, in <hi rend="italic">Good-Bye My Fancy</hi> (1891). The poems included are: "Sail out for good, Eidolon yacht!," "My task" (published as part of "L. of G.'s Purport", "L. of G.'s Purport" (only the first two lines of the poem of the same title published in 1891), "Death dogs my steps" (published as part of "L. of G.'s Purport"), "For us two, reader dear," and "Grand is the seen." On the verso is a note to the printer. <ref target="loc.00230">Another extant proof slip</ref>, titled "An Old Man's Recitatives" and made up of many although not all of the same poems, contains a note in Whitman's hand saying that it was submitted to <hi rend="italic">Scribner's</hi> magazine on December 17, 1890, and rejected.</note>
    </notesStmt>
    
    <sourceDesc>
@@ -67,11 +63,9 @@
      
      <idno type="callno">MSS 18630, Box 28; Reel 17</idno>
      
-     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#38;1919, Library of Congress, Washington, D.C.</orgName>
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-     
-     <note type="project" target="#rel01">The verso is blank.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
@@ -83,7 +77,7 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-06-23" who="#km">proofed</change>
  <change when="2024-09-23" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -92,17 +86,21 @@
   <body>
    
    <pb xml:id="leaf001r" facs="loc_ew.00199.jpg" type="recto"/>
-   <lg type="poem">
-     <note type="authorial" hand="#h02" place="top" rend="marked">intended to make on whole<lb/> page</note>
-     <head hand="#h02" rend="underline"><hi rend="tripleUnderline">An</hi> Old Man's <hi rend="tripleUnderline">R</hi>ecitatives.<lb/> By W<hi rend="doubleUnderline">alt</hi> Whitman</head>
-    <head><subst><del rend="overstrike" hand="#h02" seq="1">OLD CHANTS.</del><add place="above" hand="#h02" seq="1"><hi rend="underline">Ancient songs reciting</hi>.</add></subst></head>
-     <l><del rend="overstrike" hand="#h02" seq="1">An ancient song,</del><add place="inline" hand="#h02"><metamark function="add">&#8248;</metamark></add><add place="above" hand="#h02" seq="2">Ancient songs</add> reciting, ending,</l>
+   
+   <note type="authorial" hand="#h02" place="top" rend="marked">intended to make one whole page</note>
+   
+   <lg type="cluster">
+    
+    <head hand="#h02" rend="underline" type="main"><hi rend="tripleUnderline">An</hi> Old Man's <hi rend="tripleUnderline">R</hi>ecitatives.<lb/> By <hi rend="underline">Walt Whitman</hi></head>
+    
+    <lg type="poem"> 
+    <head type="main"><subst hand="#h02"><del rend="overstrike" seq="1">OLD CHANTS.</del><add place="above" seq="2"><hi rend="underline">Ancient songs reciting</hi>.</add></subst></head>
+     
+     <l><subst hand="#h02"><del rend="overstrike" seq="1">An ancient song,</del><add place="below" seq="2"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" seq="2" xml:id="a002">Ancient songs</add></subst> reciting, ending,</l>
      <l>Once gazing toward thee, Mother of All,</l>
      <l>Musing, seeking themes fitted for thee,</l>
-    <l><hi rend="italic">Accept for me</hi>, thou saidst, <hi rend="italic"><subst><del rend="overstrike" hand="#h02" seq="1">the</del><add place="inline" hand="#h02"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="right" hand="#h02" xml:id="a001"><hi rend="underline">those</hi></add></subst>the elder ballads,</hi></l>
+    <l><hi rend="italic">Accept for me</hi>, thou saidst, <hi rend="italic"><subst hand="#h02"><del rend="overstrike" seq="1">the</del><add place="below" hand="#h02" seq="2"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="right" xml:id="a001" seq="2"><hi rend="underline">those</hi></add></subst> elder ballads,</hi></l>
      <l><hi rend="italic">And name for me before thou goest each ancient poet</hi>.</l>
-    
-     <note type="authorial" hand="#h03" place="margin">Sent to Scribner's Magazine Dec&#11840; 17 &#8211; 1890<lb/>Rejected &amp; sent back Jan&#11840; 23 '91</note>
 
      <l>(Of many debts incalculable,</l>
      <l>Haply our New World's chiefest debt is to old poems.</l>
@@ -127,12 +125,12 @@
      <l>Thou! pausing a moment, drooping thine eyes upon them,<lb/>
                 blent with their music,</l>
      <l>Well pleased, accepting all, curiously prepared for by them,</l>
-     <l>Thy enterest at thy entrance porch.</l>    
-   </lg>
-   
+     <l>Thy enterest at thy entrance porch.</l>   
+    </lg> 
+
    <note type="authorial" hand="#h02" place="center">&#35;</note>
    
-   <lg>
+   <lg type="poem">
      <head rend="bold"><hi rend="italic">Grand is the seen.</hi></head>
      <l>Grand is the seen, the light, to me&#8212;&#8212;grand are the sky and<lb/>
                stars,</l>
@@ -148,7 +146,7 @@
    
    <note type="authorial" hand="#h02" place="center">&#35;</note>
 
-   <lg>
+   <lg type="poem">
     <head><hi rend="italic">Death dogs my steps.</hi></head>
     <l>I sing of life, yet mind me well of death:</l>
     <l>To&#8211;day shadowy Death dogs my steps, and has for years&#8212;</l>
@@ -157,11 +155,15 @@
    
    <note type="authorial" hand="#h02" place="center">&#35;</note>
    
-   <lg>
+   <lg type="poem">
     <head><hi rend="italic">For us two, reader dear.</hi></head>
     <l>Simple, spontaneous, curious, two souls interchanging,</l>
     <l>With the original testimony for us continued on to the last.</l>
    </lg>
+    
+   </lg>
+   
+   <note type="authorial" hand="#h03" place="right">Sent to Scribner's Magazine Dec&#11840; 17 &#8211; 1890<lb/>Rejected &amp; sent back Jan&#11840; 23 '91</note>
    
    <pb xml:id="leaf001v" facs="loc_ew.00200.jpg" type="verso"/>
    
