@@ -1,21 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00229">
-   <relations>
-      <work ref="xxx.00380" cert="absolute">
-         <p>Draft titled "Old Age Recitatives" written on the verso of an envelope and a letter (author unknown) stuck together. Beneath the main title and Whitman's signature is another title, "Sail out for good, Eid&#243;lon yacht!" The text of the poem is identical to the published version of "Sail Out for Good, Eid&#243;lon Yacht!"</p>
-      </work>
-   </relations>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00229"> 
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="m" type="main">
-Old Age Recitatives
-</title>
+            <title level="m" type="main">Old Age Recitatives</title>
             <title level="m" type="sub">a machine readable transcription</title>
             <author>Walt Whitman</author>
             <editor role="editor">Kenneth M. Price</editor>
             <editor role="editor">Ed Folsom</editor>
-            <editor role="editor">Matt Cohen</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
@@ -24,6 +19,7 @@ Old Age Recitatives
                <persName xml:id="jh">John Havard</persName>
                <persName xml:id="jdh">Jeff Hill</persName>
                <persName xml:id="ew">Emma Whaley</persName>
+               <persName xml:id="km">Kevin McMullen</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -35,8 +31,7 @@ Old Age Recitatives
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>loc.00229</idno>
-            <distributor>The Walt Whitman Archive</distributor>
+            <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
                <addrLine>319 Love Library</addrLine>
@@ -45,33 +40,42 @@ Old Age Recitatives
                <addrLine>Lincoln, NE 68588-4100</addrLine>
             </address>
             <availability>
-               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+               <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+               <p>
+                  The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+                  <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+                  (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
+            <idno>loc.00229</idno>
          </publicationStmt>
          <notesStmt>
-
-            <note type="project" target="dat1">This manuscript was likely composed in <date when="1890">1890</date>, as "Sail Out For Good, Eidólon Yacht!" was published in <date when="1891">1891</date>. The envelope on the verso is also postmarked <date when="1890">1890</date>.</note>
-
-            <note type="project">On the verso is an envelope addressed to Whitman, postmarked received in Camden, <date when="1890-01-21">Jan 21, 1890</date>. The envelope is glued to a portion of a letter (author unknown) requesting an autograph.</note>
-                          	
+            <note type="project" target="#dat1">Based on Whitman's note, this manuscript was likely composed in <date when="1890">1890</date>, sometime before or early in November. The envelope on the verso is also postmarked <date when="1890">1890</date>. The envelope is glued to a portion of a letter by an unknown author, requesting an autograph.</note>
+            
+            <note type="work_relations" target="xxx.01170" cert="high">This is seemingly the first page of a draft of a cluster of poems that was seemingly never published under this title. An <ref target="loc.00231">extant proof slip</ref> of the cluster contains the poems "Sail out for good, Eidolon yacht!," "My task" (published as part of "L. of G.'s Purport"), "L. of G.'s Purport" (only the first two lines of the poem of the same title published in 1891), "Death dogs my steps" (published as part of "L. of G.'s Purport"), "For us two, reader dear," and "Grand is the seen." All of these poems were published, in some form, in <hi rend="italic">Good-Bye My Fancy</hi> (1891). As Whitman's note on this manuscript states, he submitted the cluster to <hi rend="italic">Arena</hi> magainze in November 1890 but it was rejected. He would later re-work the cluster and submit it, under the title <ref target="loc.00230">"An Old Man's Recitatives,"</ref> to <hi rend="italic">Scribner's</hi> magazine on December 17, 1890, and it was again rejected.</note>
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <author>Walt Whitman</author>
-               <title>
-Old Age Recitatives
-</title>
-               <date cert="high" value="1890" xml:id="dat1">About 1890</date>
-
-               <orgName xml:id="loc">
-The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.
-</orgName> 
-
-               <note type="project">Transcribed from digital images of the original.</note>
+               <author xml:id="ww">Whitman, Walt</author>
+               
+               <title>Old Age Recitatives</title>  
+               
+               <date cert="high" when="1890">1890</date>
+               
+               <idno type="callno">MSS 18630, Box 28; Reel 17</idno>
+               
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+               
+               <note>Transcribed from digital images of the original.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote medium="black ink" xml:id="h01" scope="sole" resp="#ww"/>
+         </handNotes>
+      </profileDesc>
       <revisionDesc>
+         <change who="#km" when="2026-06-24">proofed</change>
          <change who="#ew" when="2024-09-25">updated image links</change>
          <change who="#jdh" when="2024-01-25">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
@@ -86,40 +90,24 @@ The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;191
 
          <pb facs="loc_ew.00080.jpg" xml:id="leaf001r" type="recto"/>
 
-         <lg>
+         <lg type="cluster">
 
-            <head type="main-authorial" rend="underline">
-Old Age <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">Chants</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add rend="unmarked"
-                          place="supralinear"
-                          rend="underline">Recitatives</add>
-                  </rdg>
-               </subst>
-            </head>
+            <head type="main" rend="underline">Old Age <subst><del rend="overstrike" seq="1">Chants</del><add place="above" rend="underline" seq="2">Recitatives</add></subst></head>
 
-            <byline TEIform="byline">
-               <hi rend="underline">By Walt Whitman</hi>
-            </byline>
+            <byline><hi rend="underline">By Walt Whitman</hi></byline>
 
-            <note type="authorial"
-                  place="right">
-               <p>sent to "Arena" magazine Nov. '90</p>
-               <p>rejected—sent back</p>
-               <p>the editor sent word sneeringly by he already had "a great lot of poetry on hand"</p>
+            <note type="authorial" place="right">sent to "Arena" magazine Nov. '90<lb/>
+               rejected—sent back<lb/>
+               &#8212;the editor sent word sneeringly he already had "a great lot of poetry on hand"
             </note>
 
             <milestone unit="glued"/>
-
-            <head type="sub" rend="underline">
-Sail out for good, Eidólon yacht!
-</head>
+            
+         <lg type="poem">
+            <head type="main" rend="underline">Sail out for good, Eidólon yacht!</head>
 
             <l>Heave the anchor short!</l>
-            <l>Raise main-sail and jib-steer forth,</l>
+            <l>Raise main-sail and jib&#8212;steer forth,</l>
             <l>
                O little white-hull'd sloop, now speed on<lb/>
                really deep waters,<lb/>
@@ -130,17 +118,7 @@ Sail out for good, Eidólon yacht!
                best, maturest;)<lb/>
             </l>
             <l>
-               Depart—depart from <subst>
-                     <rdg varSeq="1">
-                        <del rend="overwrite">
-                           <gap reason="deletion, illegible"/>
-                        </del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="overwrite" place="over">s</add>
-                     </rdg>
-                  </subst>
-olid earth—no more<lb/>
+               Depart&#8212;depart from <subst rend="overwrite"><del><gap extent="one character" reason="illegible"/></del><add>s</add></subst>olid earth&#8212;no more<lb/>
                returning to these shores,<lb/>
             </l>
             <l>
@@ -151,7 +129,7 @@ olid earth—no more<lb/>
                Spurning all yet tried ports, seas, hawsers,<lb/>
                densities, gravitation,<lb/>
             </l>
-            <l>Sail out for good, eidólon yacht of me!</l>
+            <l>Sail out for good, eidólon yacht of me!</l></lg>
          </lg>
 
 
