@@ -48,9 +48,9 @@
    <idno>loc.00230</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1">Based on Whitman's note on a <ref target="loc.00230">related proof slip</ref>, this manuscript likely dates from sometime in 1890.</note>
+    <note type="project" target="#dat1">Based on Whitman's note, this manuscript dates from sometime in November or December 1890.</note>
     
-    <note type="work_relations" target="xxx.01170" cert="high">This is a proof slip for a cluster of poems that was seemingly never published in this configuration or under this title, although the poems were all published, in some form, in <hi rend="italic">Good-Bye My Fancy</hi> (1891). The poems included are: "Sail out for good, Eidolon yacht!," "My task" (published as part of "L. of G.'s Purport", "L. of G.'s Purport" (only the first two lines of the poem of the same title published in 1891), "Death dogs my steps" (published as part of "L. of G.'s Purport"), "For us two, reader dear," and "Grand is the seen." On the verso is a note to the printer. <ref target="loc.00230">Another extant proof slip</ref>, titled "An Old Man's Recitatives" and made up of many although not all of the same poems, contains a note in Whitman's hand saying that it was submitted to <hi rend="italic">Scribner's</hi> magazine on December 17, 1890, and rejected.</note>
+    <note type="work_relations" target="xxx.01170" cert="high">This is a proof slip for a cluster of poems that was seemingly never published in this configuration or under this title, although the poems were all published, in some form, in <hi rend="italic">Good-Bye My Fancy</hi> (1891). The poems included are: "Ancient Songs Reciting" (later retitled "Old Chants"), "Grand is the seen," "Death dogs my steps" (published as part of "L. of G.'s Purport"), and "For us two, reader dear." <ref target="loc.00231">Another extant proof slip</ref>, titled "Old Age Recitatives," contains some although not all of the same poems. Whitman's note on an <ref target="loc.00229">earlier version of that cluster</ref> state that he submitted it to <hi rend="italic">Arena</hi> magainze in November 1890 but that it was rejected. The present proof slip is thus seeminglty a re-worked version of this earlier cluster.</note>
    </notesStmt>
    
    <sourceDesc>
@@ -91,24 +91,32 @@
    
    <lg type="cluster">
     
-    <head hand="#h02" rend="underline" type="main"><hi rend="tripleUnderline">An</hi> Old Man's <hi rend="tripleUnderline">R</hi>ecitatives.<lb/> By <hi rend="underline">Walt Whitman</hi></head>
+    <head hand="#h02" rend="underline" type="main"><hi rend="tripleUnderline">An</hi> Old Man's <hi rend="tripleUnderline">R</hi>ecitatives.<lb/></head> 
+    
+    <milestone unit="glued"/>
+    
+    <byline>By <hi rend="underline">Walt Whitman</hi></byline>
     
     <lg type="poem"> 
     <head type="main"><subst hand="#h02"><del rend="overstrike" seq="1">OLD CHANTS.</del><add place="above" seq="2"><hi rend="underline">Ancient songs reciting</hi>.</add></subst></head>
-     
+     <lg type="linegroup">
      <l><subst hand="#h02"><del rend="overstrike" seq="1">An ancient song,</del><add place="below" seq="2"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" seq="2" xml:id="a002">Ancient songs</add></subst> reciting, ending,</l>
      <l>Once gazing toward thee, Mother of All,</l>
      <l>Musing, seeking themes fitted for thee,</l>
-    <l><hi rend="italic">Accept for me</hi>, thou saidst, <hi rend="italic"><subst hand="#h02"><del rend="overstrike" seq="1">the</del><add place="below" hand="#h02" seq="2"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="right" xml:id="a001" seq="2"><hi rend="underline">those</hi></add></subst> elder ballads,</hi></l><!-- CONTINUE PROOFING HERE. KM -->
+    <l><hi rend="italic">Accept for me</hi>, thou saidst, <hi rend="italic"><subst hand="#h02"><del rend="overstrike" seq="1">the</del><add place="below" hand="#h02" seq="2"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="right" xml:id="a001" seq="2"><hi rend="underline">those</hi></add></subst> elder ballads,</hi></l>
      <l><hi rend="italic">And name for me before thou goest each ancient poet</hi>.</l>
+     </lg>
 
-     <l>(Of many debts incalculable,</l>
+     <lg type="linegroup">
+      <l>(Of many debts incalculable,</l>
      <l>Haply our New World's chiefest debt is to old poems.</l>
-    
-     <l>Ever so far back, preluding thee, America,</l>
+    </lg>
+     
+     <lg type="linegroup">
+      <l>Ever so far back, preluding thee, America,</l>
      <l>Old chants, Egyptian priests, and those of Ethiopia,</l>
      <l>The Hindu epics, the Grecian, Chinese, Persian,</l>
-     <l>The Biblic books and prophets, and deep idylls of the <choice><orig>Naza&#8211;<lb/>rene</orig><reg>Nazarene</reg></choice>,</l>
+     <l>The Biblic books and prophets, and deep idylls of the <choice><orig>Naza-<lb/>rene</orig><reg>Nazarene<lb/></reg></choice>,</l>
      <l>The Iliad, Odyssey, plots, doings, wanderings of Eneas,</l>
      <l>Hesiod, Eschylus, Sophocles, Merlin, Arthur</l>
      <l>The Cid, Roland at Roncesvalles, the Nibelungen,</l>
@@ -120,50 +128,62 @@
      <l>As some vast wondrous wierd dream-presences,</l>
      <l>The great shadowy groups gathering around,</l>
      <l>Darting their mighty masterful eyes forward at thee,</l>
-     <l>Thou! with as now thy bending neck and head, with <choice><orig>courte&#8211;<lb/>ous</orig><reg>courteous</reg></choice><lb/>
+     <l>Thou! with as now thy bending neck and head, with <choice><orig>courte-<lb/>ous</orig><reg>courteous<lb/></reg></choice>
                 hand and word, ascending,</l>
      <l>Thou! pausing a moment, drooping thine eyes upon them,<lb/>
                 blent with their music,</l>
      <l>Well pleased, accepting all, curiously prepared for by them,</l>
-     <l>Thy enterest at thy entrance porch.</l>   
+     <l>Thy enterest at thy entrance porch.</l>  
+     </lg> 
     </lg> 
 
-   <note type="authorial" hand="#h02" place="center">&#35;</note>
+   <metamark function="emphasize"><add hand="#h02">#</add></metamark>
+    
+    <milestone unit="glued"/>
    
    <lg type="poem">
-     <head rend="bold"><hi rend="italic">Grand is the seen.</hi></head>
-     <l>Grand is the seen, the light, to me&#8212;&#8212;grand are the sky and<lb/>
+     <head type="main"><hi rend="italic">Grand is the seen.</hi></head>
+    
+     <l>Grand is the seen, the light, to me&#8212;grand are the sky and<lb/>
                stars,</l>
      <l>Grand is the earth, and grand are lasting time and space,</l>
      <l>And grand their laws, so multiform, puzzling, evolutionary;</l>
-     <l>But grander far the unseen soul of me, comprehending, <choice><orig>en&#8211;<lb/>dowing</orig><reg>endowing</reg></choice><lb/>
-               all those<subst><del rend="overwrite" hand="#h02" seq="1">.</del><add place="inline" hand="#h02" seq="2">,</add></subst></l>
+     <l>But grander far the unseen soul of me, comprehending, <choice><orig>en-<lb/>dowing</orig><reg>endowing<lb/></reg></choice>
+               all those<subst rend="overwrite" hand="#h02"><del>.</del><add>,</add></subst></l>
      <l>Lighting the light, the sky and stars, delving the earth, sailing<lb/>
                the sea,</l>
      <l>More evolutionary, vast, puzzling, O my soul!</l>
      <l>More multiform far&#8212;more lasting thou than they.</l>
    </lg>
    
-   <note type="authorial" hand="#h02" place="center">&#35;</note>
+    <metamark function="emphasize"><add hand="#h02">#</add></metamark>
+    
+    <milestone unit="glued"/>
 
    <lg type="poem">
-    <head><hi rend="italic">Death dogs my steps.</hi></head>
+    <head type="main"><hi rend="italic">Death dogs my steps.</hi></head>
+    
     <l>I sing of life, yet mind me well of death:</l>
-    <l>To&#8211;day shadowy Death dogs my steps, and has for years&#8212;</l>
+    <l>To-day shadowy Death dogs my steps, and has for years&#8212;my<lb/> seated shape,</l>
     <l>Draws sometimes closer to me, as face to face.</l>
    </lg>
+    
+    <milestone unit="glued"/>
    
-   <note type="authorial" hand="#h02" place="center">&#35;</note>
+    <metamark function="emphasize"><add hand="#h02">#</add></metamark>
+   
+    <milestone unit="glued"/>
    
    <lg type="poem">
     <head><hi rend="italic">For us two, reader dear.</hi></head>
+    
     <l>Simple, spontaneous, curious, two souls interchanging,</l>
     <l>With the original testimony for us continued on to the last.</l>
    </lg>
     
    </lg>
    
-   <note type="authorial" hand="#h03" place="right">Sent to Scribner's Magazine Dec&#11840; 17 &#8211; 1890<lb/>Rejected &amp; sent back Jan&#11840; 23 '91</note>
+   <note type="authorial" hand="#h03" place="right">Sent to Scribner's Magazine Dec: 17 &#8211; 1890<lb/> Rejected &amp; sent back Jan: 23 '91</note>
    
    <pb xml:id="leaf001v" facs="loc_ew.00200.jpg" type="verso"/>
    
