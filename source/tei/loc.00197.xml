@@ -2,11 +2,6 @@
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00197">
-   <!--<relations>
-      <work ref="xxx.00398">
-         <p>A two-line draft written in pencil on the back of an envelope from F. Gutekunst's Imperial Photograph Galleries, with a note by Whitman on the verso (envelope front). "[A flash of love]" would later appear in a revised form in "A Twilight Song."</p>
-      </work>
-   </relations>-->
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,6 +20,7 @@ A flash of love
                <persName xml:id="ah">Amy Hezel</persName>
 	            <persName xml:id="jh">Jeff Hill</persName>
                <persName xml:id="ew">Emma Whaley</persName>
+               <persName xml:id="bb">Brett Barney</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -45,32 +41,34 @@ A flash of love
                <addrLine>Lincoln, NE 68588-4100</addrLine>
             </address>
             <availability>
-               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+               <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+               <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
             </availability>
             <idno>loc.00197</idno>
          </publicationStmt>
          <notesStmt>
-
-		
-            <note type="project" target="dat1">The note on the verso indicates that the photograph at some point contained in this envelope was taken in <date when="1889">1889</date>; the poem "A Twilight's Song" was published in <date when="1890">1890</date>. Thus, these lines appear to have been produced between 1889 and 1890.</note>
-
-            <note type="project" target="leaf001v">The verso is an envelope from "F. Gutekunst's Imperial Photograph Galleries." The note in Whitman's hand has been transcribed.</note>                          	
+            <note type="project" target="#dat1">This manuscript must have been produced between 1889 and 1890, as the note written on the reverse indicates that Whitman received the envelope in <date when="1889">1889</date> and the poem to which the line in this manuscript contributed, "A Twilight Song," was published in <date when="1890">1890</date>.</note>
+            <note type="work_relations" target="xxx.00398" cert="high">"A Twilight Song: For unknown buried soldiers, North and South" was first published in the May 1890 issue of <hi rend="italic">Century Illustrated Monthly Magazine</hi>. With minor changes and without the subtitle, it was included in <hi rend="italic">Good-Bye My Fancy</hi> (1891) and in the "Good-Bye My Fancy" annex to <hi rend="italic">Leaves of Grass</hi> (1891-1892).</note>                          	
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <author>Walt Whitman</author>
-               <title>
-[A Twilight Song]
-</title>
-               <!--<date cert="high" value="1889/1890" xml:id="dat1">1889-1890</date>-->
+               <author xml:id="ww">Walt Whitman</author>
+               <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “A Flash of Love” (1889), draft</title>
+               <date notBefore="1889-08" notAfter="1890-02" cert="high">Late 1889 or early 1890</date>
+               <idno type="callno">mss18630, box 27</idno>
                <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.
 </orgName> 
-
                <note type="project">Transcribed from digital images of the original.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote medium="pencil" xml:id="h01" resp="#ww" scope="sole"/>
+         </handNotes>
+      </profileDesc>
       <revisionDesc>
+         <change when="2026-06-25" who="#bb">proofed</change>
          <change who="#ew" when="2024-09-24">updated image links</change>
 	      <change who="#jh" when="2024-01-25">changed, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
@@ -82,50 +80,25 @@ A flash of love
    </teiHeader>
    <text>
       <body>
-
          <pb facs="loc_ew.00073.jpg" xml:id="leaf001r" type="recto"/>
-
-         <div1 type="poem_notes">
-
-            <head type="main-derived">
-A flash of love
-</head>
-
-            <l>
-               A flash of love—
-<subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">an</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">—a special</add> 
-                     </rdg>
-                  </subst>
-hour for 
-<subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">yet</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add rend="unmarked" place="supralinear">you—</add>
-                     </rdg>
-                  </subst>
+         <lg type="poem">
+            <l>A flash of love&#8212;
+               <subst>
+                  <del rend="overstrike" seq="1">an</del>
+                  <add place="above" seq="2">&#8212;a special</add> 
+               </subst>
+               hour for 
+               <subst>
+                  <del rend="overstrike" seq="1">yel</del>
+                  <add place="above" seq="2">you&#8212;</add>
+               </subst>
                <lb/>
-               each name recall'd<add rend="insertion" place="supralinear">by me</add> from the<lb/>
-               darkness<lb/>
-            </l> 
-
-
+               each name recall'd 
+               <add hand="#h01" place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a001">by me</add>
+               from the<lb/>
+               darkness</l> 
             <pb facs="loc_ew.00074.jpg" xml:id="leaf001v" type="verso"/>
-
-            <note type="authorial" place="inline">
-               head &amp;bust W.W.<lb/>
-               taken 1889<lb/>
-               fairly good<lb/>
-            </note>
-
-         </div1>
-
+         </lg>
       </body>
    </text>
 </TEI>

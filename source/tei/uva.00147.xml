@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00147"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title level="m" type="main">As I sit in Twilight, late</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     <persName xml:id="tb">Tara Ballard</persName>
+    <persName xml:id="bb">Brett Barney</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2026</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+    </availability>
+    <idno>uva.00147</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1">An early draft of lines for this poem (uva.00268) is written on the reverse of a letter to Whitman dated 14 August 1889. In his notes of a visit to the poet on 26 February 1890, Horace Traubel writes that Whitman reported "having sent 'A Twilight Song' to the Century." (See <hi rend="italic">With Walt Whitman in Camden</hi> [Carbondale and Edwardsville: Southern Illinois University Press, 1982] 6:311). Therefore, the current manuscript must have been created between these two dates.</note>
+    <note type="work_relations" target="xxx.00398" cert="high">"A Twilight Song: For unknown buried soldiers, North and South" was first published in the May 1890 issue of <hi rend="italic">Century Illustrated Monthly Magazine</hi>. With minor changes and without the subtitle, it was included in <hi rend="italic">Good-Bye My Fancy</hi> (1891) and in the "Good-Bye My Fancy" annex to <hi rend="italic">Leaves of Grass</hi> (1891-1892).
+     </note>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     <title>As I Sit in Twilight, Late, or twilight song, ca. 1865 or 1888</title>  
+     <date notBefore="1889-08" notAfter="1890-02" cert="high">Late 1889 or early 1890</date>
+     <idno type="callno">>MSS 3829, box 1, folder 4, page 1</idno>
+     <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia</orgName>
+     <note>Transcribed from digital images of the original.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="pencil" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="pencil" xml:id="h02" resp="#unk1" scope="minor"><name xml:id="unk1">Unknown</name></handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ <change when="2026-06-25" who="#bb">proofed</change>
+ <change when="2025-02-19" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+ <text type="manuscript">
+  <body>
+   <pb xml:id="leaf001r" facs="uva.00147.001.jpg" type="recto"/>
+   
+   <note type="archival" place="top" hand="#h02" rend="underline">1</note>
+   <lg type="poem">
+     <head rend="underline">As I sit in Twilight, late, <add place="below"><note type="authorial" rend="underline">?</note> a twilight song</add></head>
+     <l>As I sit in twilight, 
+      <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">late,</add> alone by the 
+      <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">flickering</add> oak&#11840;flame,</l>
+    <l>Musing on long&#11840;past war&#11840;scenes, &amp; the countless<lb/>
+            buried unknown soldiers,</l>
+     <l>
+      <subst>
+       <del rend="overstrike" seq="1">The</del>
+       <add place="above" seq="2">of</add>
+      </subst>
+      vacant names, 
+      <subst>
+       <del rend="overstrike" seq="1">the</del> 
+       <add place="above" seq="2">as</add>
+      </subst>
+      unindented air's and<lb/>
+            sea's, the unreturn'd, <del rend="overstrike">from battles</del>,</l>
+     <l>The brief truce after, 
+      <add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">the battle,</add> with <del rend="overstrike">the</del> grim burial squads,<lb/>
+      and <subst><del rend="overstrike" seq="1">hasty</del> <add place="below" seq="2"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004" seq="2">the deep&#11840;fill'd</add></subst> trenches,</l>
+     <addSpan rend="pasteon" spanTo="#a023"/>
+    <l>
+     <subst>
+      <del rend="overstrike" seq="1">The</del>
+      <add place="below" seq="2"><metamark function="add" target="#a024">&#8248;</metamark></add><del rend="overstrike" seq="3"><add place="above" seq="2" xml:id="a024"><gap reason="illegible" extent="one or two characters"></gap></add></del>
+      <del rend="overstrike" seq="5"><add place="above" seq="4">With</add></del>
+      <add place="above" seq="5">Of</add></subst> 
+     <subst><del rend="overstrike" seq="1">serried ranks</del>
+      <add place="above" seq="2">gathered dead</add>
+     </subst> from 
+     <subst>
+      <del rend="overstrike" seq="1">all</del>
+      <add place="above" seq="2">all</add>
+     </subst> 
+     America<del rend="overstrike">'s</del> 
+     <add place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><del rend="overstrike" seq="2"><add place="above" xml:id="a005" seq="1">best,</add></del> 
+     North, South,<lb/>
+     East, West,</l>
+     <l>From wooded Maine, New England's farms, from<lb/>
+           fertile Pennsylvania, Illinois, Ohio,</l>
+     <l>The <add place="below"><metamark function="add" target="#a006">&#8248;</metamark></add><add place="above" xml:id="a006">whole</add> measureless West, <add place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><add place="above" xml:id="a007">Virginia,</add> the South, the Carolinas,<lb/>
+           Texas</l>
+    <anchor xml:id="a023"/>
+    
+    <addSpan rend="pasteon" spanTo="#a025"/>
+     <l>(Even here in my room&#11840;shadows, <add place="below"><metamark function="add" target="#a008">&#8248;</metamark></add><add place="above" xml:id="a008">and half-lights,</add> in the noiseless<lb/>
+           flickering flames,</l>
+    <l>
+     <add place="below"><metamark function="add" target="#a009">&#8248;</metamark></add><add place="above" xml:id="a009">Again</add> I see the ranks on&#11840;filing, 
+     <subst><add place="below" seq="4"><metamark function="add" target="a011">&#8248;</metamark></add><add place="above" xml:id="a011" seq="4">rising</add> <del rend="overstrike" seq="1">advancing&#8212;</del><add place="above" seq="2">coming&#8212;</add></subst>I hear the 
+     <add place="below"><metamark function="add" target="#a010">&#8248;</metamark></add><add place="above" xml:id="a010">rhythmic</add> tramp<lb/>
+          of the <del rend="overstrike">spectral</del> armies,)</l>
+    <anchor xml:id="a025"/>
+    
+    <addSpan rend="pasteon" spanTo="#a026"/>
+     <l>You million unwrit names all, all, 
+      <subst>
+       <del rend="overstrike" seq="1">the</del><add place="above" seq="2">&#8212;you</add></subst> 
+      dark<lb/>
+      bequest, 
+      <subst>
+       <del rend="overstrike" seq="1">the</del>
+       <add place="above" seq="2">you</add></subst> 
+      <del rend="overstrike">wars</del>
+      <add place="below"><metamark function="add" target="#a012">&#8248;</metamark></add><add place="above" xml:id="a012"><del rend="overstrike">pass'd</del> there</add> unknown,</l>
+     <l>A special word to you&#8212;a flash of 
+      <subst><add place="below" seq="2"><metamark function="add" target="#a013">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a013" seq="2">duty, long&#11840;neglected &#8212;</add> <del rend="overstrike" seq="1">love&#8212;</del></subst> your<lb/>
+      <add place="below"><metamark function="add" target="#a014">&#8248;</metamark></add><del rend="overstrike"><add place="above" xml:id="a014">entire</add></del> mystic rolls 
+      <subst><del rend="overstrike" seq="1">strangely</del> 
+       <add place="above" seq="2"></add>
+      </subst> 
+      gather'd for once here</l>
+    <l>Each name <add place="below"><metamark function="add" target="#a015">&#8248;</metamark></add><add place="above" xml:id="a015">strangely</add> recall'd by me <add place="below"><metamark function="add" target="#a016">&#8248;</metamark></add><del rend="overstrike"><add place="above" xml:id="a016">out</add></del> from 
+     <add hand="#h01" place="below"><metamark function="add" target="#a027">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a027">out</add> the darkness and<lb/>
+         death's <subst><del rend="overstrike" seq="1">debris</del> <add seq="2">ashes,</add></subst></l>
+    <l>To be 
+     <add place="below"><metamark function="add" target="#a017">&#8248;</metamark></add><add place="above" xml:id="a017">from</add> 
+     <subst>
+      <del rend="overstrike" seq="1">to&#11840;night</del>
+      <add place="below" seq="2"><metamark function="add" target="#a028">&#8248;</metamark></add><add place="above" seq="2" xml:id="a028">in the twilight <del rend="overstrike">here</del></add></subst> 
+     deep, deep, within my thought <del rend="overstrike">henceforth</del><lb/>
+     record<subst><del rend="overstrike" seq="1">ed</del><add place="above" seq="2">ing</add></subst> 
+     <add place="below"><metamark function="add" target="#a018">&#8248;</metamark></add><add place="above" xml:id="a018">here,</add>&#8212;<add place="above"><metamark function="add">&#182;</metamark></add><subst><del rend="overstrike" seq="1">the</del><add place="above" seq="2">your</add></subst> myriad 
+     <subst>
+      <del rend="overstrike" seq="1">and</del>
+      <add place="below" seq="2">roll of</add></subst> 
+     unknown 
+     <subst>
+      <del rend="overstrike" seq="1">army,</del>
+      <del rend="overstrike" seq="3"><add place="above" seq="2">ranks</add></del>
+      <add place="below" seq="4"><metamark function="add" target="#a019">&#8248;</metamark></add><add place="above" xml:id="a019" seq="4">names</add>
+     </subst> 
+     <del rend="overstrike">or</del><lb/>
+          North or South,</l>
+    <l>
+     <add place="below">
+      <metamark function="add" target="#a020">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a020" seq="1">Henceforth</add>
+     <del rend="overstrike"><add place="above"><gap reason="illegible" extent="about three characters"/> <unclear reason="illegible" cert="medium" resp="#tb">last</unclear></add></del> Embalm'd 
+     <add place="below">
+      <metamark function="add" target="#a021">&#8248;</metamark></add><add place="above" xml:id="a021">with love</add> 
+     in this 
+     <subst>
+      <del rend="overstrike" seq="1">brief</del>
+      <del rend="overstrike" seq="3"><add place="above" seq="2">brief</add></del>
+     </subst>
+     <add place="below"><metamark function="add" target="#a022">&#8248;</metamark></add><add place="above" xml:id="a022">twilight</add> song.</l>
+   </lg>
+   
+   <signed rend="doubleUnderline">Walt Whitman</signed>
+   <anchor xml:id="a026"/>
+   <pb xml:id="leaf001v" facs="uva_jc.00020_large.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>
