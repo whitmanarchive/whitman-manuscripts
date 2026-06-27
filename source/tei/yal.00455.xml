@@ -6,17 +6,15 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">At the Complimentary Dinner, Camden, New Jersey, May 31, 1889</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="kmh">Kenneth Michael Hoover</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -28,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
      <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -49,16 +46,9 @@
     <idno>yal.00455</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">The corrections and note on this slip were almost certainly made sometime in 1889.</note>
     
-    <!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
-     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
-     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
-     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
-    
-    <note type="work_relations" target="xxx.00579" cert="high">
-     <p></p>
-    </note>
+    <note type="work_relations" target="xxx.00579" cert="high">A corrected proof slip of "To Be Present Only," Whitman's response to an invitation to give an address at the complimentary dinner held in honor of his 70th birthday in Camden, New Jersey, on 31 May 1889. Horace Traubel published Whitman's response as "At the Complimentary Dinner, Camden, New Jersey, May 31, 1889 " in <hi rend="italic">Camden's Compliment to Walt Whitman, May 31, 1889: Notes, Addresses, Letters, Telegrams</hi> (Philadelphia: David McKay, 1889). Whitman later collected this response in <hi rend="italic">Complete Prose Works</hi> (1892), under the title "To Be Present Only." Whitman was in the habit of ordering batches of specially printed proof slips that he then "corrected" in small ways and presented as mementos to friends and admirers. The present manuscript seems to be a draft copy of the proof slip that Whitman sent to the printer, from which the gift copies were made. Two of these 25 gift copies are extant, containing identical corrections (see <ref target="yal.00338">yal.00338</ref> and <ref target="yal.00454">yal.00454</ref>).</note>
    </notesStmt>
    
    <sourceDesc>
@@ -67,11 +57,11 @@
      
      <title>"At the Complimentary Dinner, Camden, New Jersey, May 31, 1889," galley proofs, corrected (3 copies)</title>  
      
-     <date notBefore="1889" notAfter="1889" cert="high">1889</date>
+     <date when="1889" cert="high">1889</date>
      
      <idno type="callno">YCAL MSS 202, Box 3, Folder 129</idno>
      
-     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
+     <orgName xml:id="yal">Walt Whitman Collection. Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
      
      <note>Transcribed from digital images of the original.</note>
      
@@ -86,7 +76,7 @@
    </handNotes>
   </profileDesc>
   <revisionDesc>
-   
+   <change when="2026-06-25" who="#km">proofed</change>
    <change when="2024-08-30" who="#kmh">transcribed and encoded</change>
   </revisionDesc>
  </teiHeader>
@@ -94,15 +84,21 @@
  <text type="manuscript">
   <body>
    
-   <pb xml:id="leaf001r" facs="yal.00338.005_large.jpg" type="recto"/>
-   <note hand="#h03" type="archival" place="top">626</note>
-   <note hand="h02" type="authorial" place="top">25 copies good paper</note>
-   <head rend="hi">At the Complimentary Dinner, Camden,<lb/> New Jersey, May 31, 1889.</head>
-   <p>Walt Whitman said:</p>
-   <p>Following the impulse of the spirit, (for I am at least half of Quaker stock) I have obeyed the command to come and look at you, my friends, for a minute, and show myself, face to face; which is probably the best <del rend="overstrike" hand="#h02"><anchor xml:id="j001"/></del><add hand="#h02" place="left"><metamark function="adjust" target="#j001">&#967;</metamark></add>I can do. But I have felt no command to make a speech; and shall not therefore attempt any. All I have felt the imperative conviction to say I have already printed in my books of poems or prose; to which I refer any who may be curious. And so, hail and farewell.</p>
-   <metamark function="delete" target="#d001 #d002"><add hand="#h02" place="left">[</add></metamark><metamark function="delete" xml:id="d002"><add hand="#h02" place="left">[</add></metamark><metamark function="delete" xml:id="d001"><add hand="#h02" place="inline">[</add></metamark><p>Deeply acknowledging this deep compliment<add hand="#h02" place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a001">,<metamark function="emphasize" target="#a001">/</metamark></add> with my best respects and love to you personally&#8212;to Camden&#8212;to New-Jersey, and to all represented here <subst hand="#h02"><del rend="overstrike"><unclear reason="illegible" resp="#kmh" cert="medium">,</unclear></del><add place="left" xml:id="a002">&#8212;<metamark function="emphasize" target="#a002">/</metamark></add></subst>you must excuse me from any word further.</p>
+   <pb xml:id="leaf001r" facs="yal_km.00003.jpg" type="recto"/>
    
-   <pb xml:id="leaf001v" facs="yal.00338.006_large.jpg" type="verso"/>
+   <note hand="#h03" type="archival" place="top">626</note>
+   
+   <note hand="#h02" type="authorial" place="top">25 copies good paper</note>
+   
+   <head><hi rend="italic">At the Complimentary Dinner, Camden,<lb/> New Jersey, May 31, 1889.</hi></head>
+   
+   <p>Walt Whitman said:</p>
+   
+   <p>Following the impulse of the spirit, (for I am at least half of Quaker stock) I have obeyed the command to come and look at you, my friends, for a minute, and show myself, face to face; which is probably the best <del rend="overstrike" hand="#h02"><anchor xml:id="j001"/></del><add hand="#h02" place="left"><metamark function="adjust" target="#j001">&#967;</metamark></add>I can do. But I have felt no command to make a speech; and shall not therefore attempt any. All I have felt the imperative conviction to say I have already printed in my books of poems or prose; to which I refer any who may be curious. And so, hail and farewell.</p>
+   
+   <metamark function="delete" target="#d001 #d002"><add hand="#h02" place="left">[</add></metamark><metamark function="delete" xml:id="d002"><add hand="#h02" place="left">[</add></metamark><metamark function="delete" xml:id="d001"><add hand="#h02">[</add></metamark><p>Deeply acknowledging this deep compliment<add hand="#h02" place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a001">,<metamark function="emphasize" target="#a001">/</metamark></add> with my best respects and love to you personally&#8212;to Camden&#8212;to New-Jersey, and to all represented here<subst hand="#h02"><del rend="overstrike" seq="1"><unclear reason="illegible" resp="#kmh" cert="medium">,</unclear></del><add place="left" xml:id="a002" seq="2">&#8212;<metamark function="emphasize" target="#a002">/</metamark></add></subst>you must excuse me from any word further.</p>
+   
+   <pb xml:id="leaf001v" facs="yal_km.00004.jpg" type="verso"/>
    
   </body>
  </text>

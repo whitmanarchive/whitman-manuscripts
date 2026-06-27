@@ -6,17 +6,15 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">Shakspere-Bacon's Cipher</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="kmh">Kenneth Michael Hoover</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -49,32 +47,18 @@
    <idno>tex.00083</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">This is one of many similar corrected proof slips of this poem. Horace Traubel includes a facsimile of a nearly identical slip in <hi rend="italic">With Walt Whitman in Camden</hi> and notes that although Whitman was in the practice of having poems "set up for private distribution [i.e., to friends and admirers] at the printing office of Henry Curtz," he never gave out the slips until the poems had been published ([Boston: Small, Maynard &amp; Company, 1906] 1:180). As the text of the poem in <hi rend="italic">Good-Bye My Fancy</hi> (1891) bears several alterations not present here, this proof slip probably dates to shortly after the poem's first appearance in 1887. An image of the verso is unavailable.</note>
     
-<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
-     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
-     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
-     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
-    
-     <note type="work_relations" target="xxx.00390" cert="high">
-      <p></p>
-     </note>
+    <note type="work_relations" target="xxx.00390" cert="high">This is a proof slip, with a correction in Whitman's hand, for "Shakspere-Bacon's Cipher," which first appeared in <hi rend="italic">The Cosmopolitan</hi> magazine in October 1887, where it was titled "Shakspere Bacon's Cipher." It was reprinted in <hi rend="italic">Good-Bye My Fancy</hi> (1891) under the title "Shakspere-Bacon's Cipher."</note>
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
-     
-     <title>Shakespeare-Bacon's Cipher, Proofs with handwritten corrections, undated, 1p</title>  
-     
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date notBefore="" notAfter="" cert=""></date>
-     
-     <idno type="callno">TXRC03-A4, bv2</idno>
-     
+     <title>Shakespeare-Bacon's Cipher</title>  
+     <date notBefore="1887" notAfter="1891" cert="high">About 1887</date>
+     <idno type="callno">TXRC03-A4, series 1. Works, 1846-1913, undated, bv2</idno>
      <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
-     
      <note>Transcribed from digital images of the original.</note>
     </bibl>
    </sourceDesc>
@@ -83,33 +67,34 @@
    <handNotes>
     <handNote medium="letterpress" xml:id="h01" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
     <handNote medium="purple crayon" xml:id="h02" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h03" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-06-24" who="#km">proofed</change>
  <change when="2024-08-29" who="#kmh">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
+   <pb xml:id="leaf001r" facs="tex_km.00013.jpg" type="recto"/>
    
-   <pb xml:id="leaf001r" facs="tex.00083.001.jpg" type="recto"/>
+   <note type="archival" place="right" hand="#h03">24</note>
+   
    <lg type="poem">
      <head type="main">SHAKSPERE-BACON'S CIPHER.</head>
      <head type="sub" rend="right">(<hi rend="italic">A Hint to Scientists.</hi>)</head>
     <l>I doubt it not&#8211;&#8211;then more, far more;</l>
     <l>In each old song bequeath'd&#8211;&#8211;in every noble page or text,</l>
-    <l>(Different&#8211;&#8211;something unreck'd before&#8211;&#8211;some unsuspected <lb/> </l>
-    <l>In every object, mountain, tree, and star&#8211;&#8211;in every birth and <lb/> life,</l>
-    <l>As part of each&#8211;&#8211;finality of each&#8211;&#8211;meaning, behind the <choice><orig>os-<lb/> tent</orig><reg>ostent <lb/></reg></choice>,</l>
+    <l>(Different&#8211;&#8211;something unreck'd before&#8211;&#8211;some unsuspected<lb/> a<subst hand="#h02"><del rend="overstrike" seq="1">n</del><add place="left" seq="2">u</add></subst>thor,)</l>
+    <l>In every object, mountain, tree, and star&#8212;in every birth and<lb/> life,</l>
+    <l>As part of each&#8211;&#8211;finality of each&#8212;meaning, behind the <choice><orig>os-<lb/>tent</orig><reg>ostent<lb/></reg></choice>,</l>
     <l>The mystic cipher waits infolded.</l>
    </lg>
    
    <signed rend="right">W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</signed>
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="" type="verso"/>
    
 </body>
 </text>

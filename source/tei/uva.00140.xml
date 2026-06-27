@@ -6,17 +6,15 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">You tides with ceaseless swell</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="kmh">Kenneth Michael Hoover</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -49,16 +47,9 @@
    <idno>uva.00140</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">This manuscript was likely composed in late 1884 or 1885.</note>
     
-<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
-     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
-     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
-     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
-    
-    <note type="work_relations" target="xxx.00333" cert="high">
-      <p></p>
-     </note>
+    <note type="work_relations" target="xxx.00333" cert="high">A draft of "You Tides With Ceaseless Swell," one of eight poems in the "Fancies at Navesink" sequence, which first appeared in print in the August 1885 issue of <hi rend="italic">Nineteenth Century</hi>. The sequence was later reprinted in <hi rend="italic">November Boughs</hi> (1888).</note>
    </notesStmt>
    
    <sourceDesc>
@@ -66,10 +57,8 @@
      <author xml:id="ww">Whitman, Walt</author>
      
      <title>You Tides with Ceaseless Swell</title>  
-     
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date notBefore="" notAfter="" cert=""></date>
+
+     <date notBefore="1884" notAfter="1885" cert="high">1884–1885</date>
      
      <idno type="callno">3829, ETC., 5604, box 2, folder 26</idno>
      
@@ -88,7 +77,7 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-06-24" who="#km">proofed</change>
  <change when="2024-08-28" who="#kmh">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -97,17 +86,23 @@
   <body>
    
    <pb xml:id="leaf001r" facs="uva.00140.001.jpg" type="recto"/>
+   
    <lg type="poem">
-    <head rend="underline">You <del hand="#h02" rend="overstrike"><add place="above" hand="#h02">?ocean</add></del> tides with ceaseless swell <subst hand="#h02"><add place="inline">.</add><del rend="overstrike"><lb/>and ebb.</del></subst></head>     <l>You <del hand="#h02" rend="overstrike"><add place="above" hand="#h02">?ocean</add></del> tides with ceaseless swell <add place="inline" hand="#h03">!</add> <del rend="overstrike" hand="#h03">and</del> <add hand="#h02" place="above">you</add> <lb/> <del hand="#h03" rend="overstrike">ebb!</del> <del hand="#h02" rend="overstrike">you</del> power that does this work!</l>
-     <l>You unseen force, centripetal, <choice><orig>centrif- <lb/> ugal</orig><reg>centrifugal <lb/></reg></choice>, through space's spread <subst hand="#h02"><add place="inline">!</add><del rend="overstrike">entire!</del></subst></l>
-     <l> <subst hand="#h02"><del rend="overstrike">You intermutual chain</del><add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001" rend="marked">Rapport</add></subst> of sun, moon, <lb/> earth, and all the constellations!</l>
-     <l>What are the messages by you from <lb/> distant stars to us? what Sirius'? <lb/> what Capella's?</l>
-    <l>What central heart&#8212;and you the pulse&#8212;<lb/> vivifies all? What boundless <choice><orig>ag- <lb/> gregate</orig><reg>aggregate <lb/></reg></choice> of all?</l>
-     <l>What subtle indirection and significance <lb/> in you? what clue to all in you? <lb/> what fluid vast identity</l>
-    <l>Holding the universe <add place="inline"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a002" rend="marked">with all its parts <del rend="overstrike">entire</del></add> as one&#8212;as sailing <lb/> in a ship?</l>
+    
+    <head rend="underline">You <del hand="#h02" rend="overstrike"><add place="above" hand="#h02">? ocean</add></del> tides with ceaseless swell <subst hand="#h02"><add seq="2">.</add><del rend="overstrike" seq="1"><lb/>and ebb.</del></subst></head>     
+    
+    <l>You <del hand="#h02" rend="overstrike"><add place="above" hand="#h02">? ocean</add></del> tides with ceaseless swell<add hand="#h03">!</add> <del rend="overstrike" hand="#h03">and</del> <add hand="#h02" place="above">you</add><lb/> <del hand="#h02" rend="overstrike"><del hand="#h03" rend="overstrike">ebb!</del> you</del> power that does this work!</l>
+     <l>You unseen force, centripetal, <choice><orig>centrif-<lb/>ugal</orig><reg>centrifugal<lb/></reg></choice>, through space's spread<add hand="#h02">!</add> <del rend="overstrike" hand="#h02">entire!</del></l>
+     <l><subst hand="#h02"><del rend="overstrike" seq="1">You intermutual chain</del><add place="below" seq="2"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001" rend="marked" seq="2">Rapport</add></subst> of sun, moon,<lb/> earth, and all the constellations!</l>
+     <l>What are the messages by you from<lb/> distant stars to us? what Sirius'?<lb/> what Capella's?</l>
+    <l>What central heart&#8212;and you the pulse&#8212;<lb/> vivifies all? What boundless <choice><orig>ag-<lb/>gregate</orig><reg>aggregate<lb/></reg></choice> of all?</l>
+     <l>What subtle indirection and significance<lb/> in you? what clue to all in you?<lb/> what fluid vast identity</l>
+    <l>Holding the universe <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a002" rend="marked">with all its parts <del rend="overstrike">entire</del></add> as one&#8212;as sailing<lb/> in a ship?</l>
    </lg>
    
-   <note hand="#h04" type="archival" place="bottom">1888-9 425</note><note hand="#h04" type="archival" place="bottom" rend="underline">Walt Whitman manuscript</note>
+   <note hand="#h04" type="archival" place="bottom">1888-9 425</note>
+   
+   <note hand="#h04" type="archival" place="bottom" rend="underline">Walt Whitman manuscript</note>
    
    <pb xml:id="leaf001v" facs="uva_jc.00405_large.jpg" type="verso"/>
    

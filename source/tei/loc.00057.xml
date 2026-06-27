@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00057">
-   <relations>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00057">
+   <!--<relations>
       <work ref="xxx.00392" cert="absolute">
          <p>Written in pencil, a signed draft of a poem with a variation in line 1 from the
             printed version.</p>
       </work>
-   </relations>
+   </relations>-->
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -14,7 +17,6 @@
             <author>Walt Whitman</author>
             <editor role="editor">Kenneth M. Price</editor>
             <editor role="editor">Ed Folsom</editor>
-            <editor role="editor">Matt Cohen</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
@@ -25,6 +27,7 @@
                <persName xml:id="jr">Joshua Ranger</persName>
                <persName xml:id="jh">Jeff Hill</persName>
                <persName xml:id="ew">Emma Whaley</persName>
+               <persName xml:id="bb">Brett Barney</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -36,7 +39,6 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>loc.00057</idno>
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -46,35 +48,42 @@
                <addrLine>Lincoln, NE 68588-4100</addrLine>
             </address>
             <availability>
-               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+               <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+               <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
             </availability>
+            <idno>loc.00057</idno>
          </publicationStmt>
          <notesStmt>
-            <note type="project" target="dat1">This manuscript was likely produced around <date when="1889">1889</date>, the year of the poem's publication.</note>
+            <note type="project" target="#dat1">Horace Traubel's notes for his visit to Whitman on 10 June 1889 suggest that the message written on the reverse of this manuscript was addressed to James Gordon Bennett, the editor of the <hi rend="italic">New York Herald</hi>. He reports that a letter to Bennett lay on the table, containing "a poemet&#8212;a little conceit&#8212;suggested by the Exposition," for which Whitman was asking ten dollars. For whatever reason, the poem was not printed in the <hi rend="italic">Herald</hi>. (See <hi rend="italic">With Walt Whitman in Camden</hi> [Carbondale: Southern Illinois University Press, 1964] 5:280).</note>      
+            
+            <note type="work_relations" target="xxx.00392" cert="high">"Bravo, Paris Exposition!" was first published in <hi rend="italic">Harper's Weekly</hi> on 28 September 1889 and reprinted, with a few changes in punctuation, in <hi rend="italic">Good-Bye My Fancy</hi> (1891).</note>
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <author>Walt Whitman</author>
-               <title>Bravo, Paris Exhibition!</title>
-               <date cert="high" value="1889" xml:id="dat1">About 1889</date>
+               <author xml:id="ww">Walt Whitman</author>
+               <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “Bravo. Paris Exposition!” (1889); Manuscript drafts</title>
+               <date cert="high" when="1889" xml:id="dat1">About 1889</date>
+               <idno type="callno">mss18630, box 26</idno>
                <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
                <note type="project">Transcribed from digital images of the original.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <handList>
-            <hand scribe="Chris Forster" xml:id="cf"/>
-         </handList>
+         <handNotes>
+            <handNote medium="pencil" xml:id="h01" resp="#ww" scope="major"/>
+            <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/> 
+         </handNotes>
       </profileDesc>
       <revisionDesc>
+         <change when="2026-06-26" who="#bb">proofed</change>
          <change who="#ew" when="2024-09-24">updated image links</change>
          <change who="#jh" when="2024-01-25">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
          <change who="#lr" when="2006-08-01">Blessed</change>
          <change who="#km" when="2006-07-07">Edited</change>
          <change who="#fl" when="2006-06-27">Checked</change>
-         <change who="#cf" when="2004-0-05">Revised</change>
+         <change who="#cf" when="2004-01-05">Revised</change>
          <change who="#jr" when="2004-07-10">Encoded</change>
          <change who="#jr" when="2004-07-10">Transcribed</change>
       </revisionDesc>
@@ -82,31 +91,25 @@
    <text>
       <body>
          <pb facs="loc_ew.00051.jpg" xml:id="leaf001r" type="recto"/>
-         <lg
-              >
-            <head type="main-authorial" rend="underline">Bravo, Paris Exhibition!</head>	               
+         <lg type="poem">
+            <head type="main" rend="underline">Bravo, Paris Exhibition!</head>	               
             <l>Add to your show, dear France,</l>
-            <l>
-               With all the rest, visible, concrete<lb/> 
+            <l>With all the rest, visible, concrete,<lb/> 
                temples, towers, goods, machines<lb/>
-               and ores,<lb/>
+               and ores,
             </l>
-            <l>
-               Our sentiment wafted from many million<lb/>
-               heart-throbs, ethereal but solid,<lb/>
+            <l>Our sentiment, wafted from many million<lb/>
+               heart-throbs, ethereal but solid,
             </l>
-            <l>
-               (We grand-sons and great-grand-sons<lb/>
-               do not forget your grand-sires.)<lb/>
+            <l>(We grand-sons and great-grand-sons<lb/>
+               do not forget your grand-sires.)
             </l>
-            <l>
-               From fifty Nations and nebulous<lb/>
+            <l>From fifty Nations and nebulous<lb/>
                Nations, compacted, sent<del rend="overstrike">,</del> 
-                  <add rend="insertion" place="supralinear">over-sea</add> to-day,<lb/>
+                  <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a001">oversea</add> to-day,
             </l>
-            <l>
-               America's applause, love, memories<lb/>
-               and good-will.<lb/>
+            <l>America's applause, love, memories<lb/>
+               and good-will.
             </l>
             <closer>
                <signed rend="underline">Walt Whitman</signed>
@@ -114,8 +117,7 @@
          </lg>
          <pb facs="loc_ew.00052.jpg" xml:id="leaf001v" type="verso"/>
          <note type="authorial" place="inline">
-            <p>Can you use this? put it under the "Personal" head like you did a year ago?—The price is <unclear reason="illegible" cert="medium" resp="#cf">$</unclear>10, which please send me by mail here <add rend="unmarked" place="infralinear">If you don't want it</add>
-            </p>
+            <p>Can you use this? put it under the "Personal" head like you did a year ago? &#8212;The price is $10, which please send me by mail here</p> <add place="below" hand="#h02">If you dont want it</add>
          </note>
       </body>
    </text>

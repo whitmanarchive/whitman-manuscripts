@@ -7,17 +7,14 @@
   <fileDesc>
    <titleStmt>
     
-
     <title level="m" type="main" rend="bracketed">With many a voice</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
-     
+     <persName xml:id="bb">Brett Barney</persName>
      <persName xml:id="slg">Samantha Gilmore</persName>
      <persName xml:id="ew">Emma Whaley</persName>
     </respStmt>
@@ -42,69 +39,56 @@
                 </address>
     <availability>
      <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
-     <p>
-      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
-      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
-      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+     <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
     </availability>
-    
-
-   <idno>loc.04155</idno>
+       <idno>loc.04155</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- WRITTEN BY EDITORS --></note>
-    <note type="work_relations" target="xxx.00333" cert="high">
-     <p> Draft lines for "Fancies at Navesink," first published in 1885.</p>
+    <note type="project" target="#dat1">Horace Traubel reprints a letter from Henry M. Alden, dated 12 May 1885, in which the Harper's editor rejects "Fancies at Navesink" as not likely to "make a favorable impression upon our readers" (<hi rend="italic">With Walt Whitman in Camden</hi> [Boston: Small, Maynard &amp; Company, 1906] 1:61). Whitman created his manuscript, then, at some point prior to that date, but more precise dating is difficult, as it represents a very early draft stage and because the many extant "Fancies at Navesink" suggest a longer than usual composition process for those poems.</note>
+    <note type="work_relations" target="xxx.00334" cert="medium">These trial phrases and lines contributed to the poem "Last of Ebb, and Daylight Waning," part of the eight-poem sequence "Fancies at Navesink," first published in the August 1885 issue of <hi rend="italic">Nineteenth Century</hi>.
      </note>
    </notesStmt>
-   
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
-     
      <title resp="#wwa">[With many a voice]</title>  
-     
-     <date notBefore="1880" notAfter="1885" cert="high">about 1885</date>
-     
+     <date notBefore="1880" notAfter="1885" cert="high">About 1885</date>
      <idno type="callno">mss45443</idno>
      <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
-     
      <note>Transcribed from digital images of the original.</note>
-     
     </bibl>
    </sourceDesc>
-</fileDesc>
+  </fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="sole"/>
+   </handNotes>
+  </profileDesc>
 <revisionDesc>
+ <change when="2026-06-22" who="#bb">proofed</change>
  <change when="2024-09-25" who="#ew">updated image links</change>
  <change when="2024-02-20" who="#slg">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
-
  <text type="manuscript">
   <body>
-   
    <pb xml:id="leaf001r" facs="loc_ew.00087.jpg" type="recto"/>
-   
    <lg type="poem">
     
+    <l><del rend="overstrike">The</del></l> 
+    <l>With many a voice</l>
     
-    
-    <l><add rend="unmarked" place="above"><gap reason="overstrike" extent="about two letters" unit="char" quantity="2"/></add> With many a voice</l>
-    
-    <l>With <del rend="overstrike">their</del> many a poem</l>
-    <l><del rend="overstrike">and</del> many a laugh</l>
-    <l>and freedom under the law</l>
-    <l>to him who can learn)</l>
-    <l>And lessons of river and</l>
-    <l>sea-beach day and delight</l>
-    <l>And freedom so wild</l>
-    <l>and <gap reason="overstrike" extent="about four letters" unit="char" quantity="4"/></l>
-    <l>under <gap reason="overstrike" extent="about three letters" unit="char" quantity="3"/></l>
-     
+    <l>With <del rend="overstrike">their</del> many a poem<lb/>
+     <del rend="overstrike">and</del> many a laugh<lb/>
+     and freedom, <add place="above">under the law</add><lb/>
+     to him who who can learn)</l>
+    <l>And lessons of river and<lb/>
+     sea-beach day and night</l>
+    <l>And freedom so wild<lb/>
+     and <del rend="overstrike">b<gap reason="overstrike" extent="about three letters"/></del><lb/>
+     under the</l>
    </lg>
-   
    <pb xml:id="leaf001v" facs="loc_ew.00088.jpg" type="verso"/>
-   
 </body>
 </text>
 </TEI>
