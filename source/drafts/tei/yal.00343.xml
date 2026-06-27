@@ -72,7 +72,7 @@
      
 <!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
       FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
-     <orgName xml:id=""></orgName>
+     <orgName xml:id="yal"></orgName>
      
      
     </bibl>
@@ -82,6 +82,7 @@
    <handNotes>
     <handNote medium="pencil" xml:id="h01" resp="#ww" scope="major"/>
     <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h03" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
@@ -96,18 +97,27 @@
    
 
    <pb xml:id="leaf001r" facs="yal.00343.001_large.jpg" type="recto"/>
-   <head type="main" hand="#h01" rend="underline">Written Impromptu in an album</head>
+   <head type="main" hand="#h02" rend="underline">Written Impromptu in an album</head>
+   
+   <dateline> Dec 26 1883</dateline>
+   <dateline>Germantown</dateline>
+   <dateline><del rend="overstrike">Christmas</del> night</dateline>
    
    <p>
     In memory of these merry Christmas
-    days &amp; nights&#8212;T <unclear reason="illegible" resp="#ja" cert="low">Mr</unclear> My dear
+    days &amp; nights&#8212;<subst><del rend="overstrike" seq="1">T</del><add place="above" hand="#h02" seq="2">To</add></subst> <del rend="overstrike"><unclear reason="illegible" resp="#ja" cert="low">Mr</unclear></del> My dear
     friends Mr and Mrs. Williams <gap reason="illegible" extent="one word" resp="#ja"/>
-    Che Churchie, Mary, <unclear reason="illegible" resp="#ja" cert="low">Gurney</unclear>, and little
-    Aubrey&#8212;&#182;A heavy snow storm blocks
-    u everything up u keeps us in&#8212;but
-    souls, hearts, brains, thoughs seem to have
-    been unloos'd&#8212;&amp;
+    <del rend="overstrike">Che</del> Churchie, Mary, <unclear reason="illegible" resp="#ja" cert="low">Gurney</unclear>, and little
+    <retrace hand="#h02" cause="emphasize">Aubrey</retrace>&#8212;<retrace hand="#h02" cause="emphasize">&#182;</retrace>A heavy snow storm blocking
+    <del rend="overstrike">u</del> everything up <del rend="overstrike">u</del> keeping us <del rend="overstrike"><add place="above"><unclear reason="illegible" resp="#ja" cert="low">all</unclear></add></del> in&#8212;but
+    sou<retrace hand="#h02" cause="emphasize">ls</retrace>, hearts, <del rend="overstrike">brains,</del> thoughts seem to have
+    been unloos'd <add place="above">and gone, and <unclear reason="illegible" resp="#ja" cert="low"><del rend="overstrike">fine</del>dively</unclear></add>&#8212;&amp; <subst><del rend="overstrike" seq="1">while in a <unclear reason="illegible" resp="#ja" cert="low">sooth</unclear>
+    we have all</del><add place="above" seq="2">&#8212;and so</add></subst> have haven't we <del rend="overstrike">all</del> had a
+    good time, <subst><del rend="overstrike" seq="1"><gap reason="illegible" resp="#ja" extent="three words"/></del> <add place="below" seq="2">little &amp; big, <unclear reason="illegible" resp="#ja" cert="low">love</unclear> &amp; all</add></subst>
    </p>
+   
+   <note type="archival" hand="#h03" place="bottom">See page 107</note>
+   <note type="archival" hand="#h03" place="bottom">Nov boughs</note>
    
 <!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
    <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
