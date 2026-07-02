@@ -43,39 +43,26 @@
    <idno>hun.00016</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1">
-     
-<!--  START HERE   -->
-     
-    </note>
-    
-     <note type="work_relations" target="xxx." cert="high">
-      <p></p>
+    <note type="project" target="#dat1">Given its publication date and the fact that one of the envelopes on which the poem is written draft bears postmarks for January 27 and January 28, Whitman probably wrote this manuscript during the last days of January or in February 1888.</note>
+     <note type="work_relations" target="xxx.00360" cert="high">
+      "Soon Shall the Winter's Foil Be Here" was first published in the <hi rend="italic">New York Herald</hi> on February 21, 1888. It was then reprinted in <hi rend="italic">November Boughs</hi> (1888) and <hi rend="italic">Leaves of Grass</hi> (1891&#8211;1892), where it appeared in the "Sands at Seventy" annex.
      </note>
    </notesStmt>
-   
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
-     
      <title resp="#wwa">Soon shall the winter's foil be here</title>  
-     
-     <date when="1888" cert="high">about 1888</date>
-     
+     <date when="1888" cert="high">January or February 1888</date>
      <idno type="callno">HM 1192</idno>
-     
-
      <orgName xml:id="hun">The Huntington Library, Art Collections, and Botanical Gardens</orgName>
-     
-     <note>Transcribed from digital images of the original.</note>
-     
+     <note type="project">Transcribed from digital images of the original.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="black ink" xml:id="h02" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="pencil" xml:id="h02" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
@@ -84,36 +71,34 @@
  <change who="#nhg" when="2016-05-02">converted to P5</change>
  <change who="#rl" when="2004-08-11">Encoded</change>
  <change who="#rl" when="2004-08-11">Transcribed</change>
- 
 </revisionDesc>
  </teiHeader>
-
  <text type="manuscript">
   <body>
-   
-
    <pb xml:id="leaf001r" facs="hun.00016.001.jpg" type="recto"/>
-   <note type="authorial" place="top">(sent to Herald)</note>
-   <head type="main" rend="underline">Soon shall the winter's foil be here</head>
+   <note type="authorial" place="top" rend="circled">sent to Herald</note>
    <lg type="poem">
-     <l>Soon shall the winter's foil be here</l>
-     <l>Soon shall these icy ligatures unbind<lb/> and melt&#8212;<retrace cause="illegible">A</retrace> little while</l>
-     <l>And air, earth, wave suffused in softness<lb/> bloom and growth&#8212;a thousand forms shall rise</l>
-    <l><del rend="overstrike">up</del> from these <subst><del rend="overstrike" seq="1">frozen</del><add place="above" seq="2">dead</add></subst> clods and chills as from low burial <gap extent="one character" reason="illegible"/> graves.</l>
-    <l>Thine eyes, ears, <subst><del rend="overstrike" seq="1">all thy sense <gap extent="one word" reason="illegible"/></del><add place="above" seq="2">all thy</add></subst><lb/> <subst><del rend="overstrike" seq="1">loftiest</del><add place="above" seq="2">best</add></subst> attributes&#8212;all that<lb/> takes cognizance of Natural beauty</l>
-    <l>Shall rouse and fill&#8212;thou shal<retrace cause="illegible">t</retrace><lb/> perceive<subst><del rend="overstrike" seq="1"><unclear cert="low">vital</unclear> immortal changes</del><add place="above" seq="2">the <del rend="overstrike" seq="3">eternal</del><del rend="overstrike" seq="5"><add place="above" seq="4">annual</add></del><del rend="overstrike" seq="6"> simple</del></add></subst><add place="above"><seg xml:id="alt001">delicate shows</seg></add><add place="below" xml:id="alt002">the simple miracles</add><alt target="#alt001 #alt002"/></l>
-    <l>Dandelions, clover, the emerald<lb/> grass, the <subst><del rend="overstrike" seq="1"><gap extent="one word" reason="illegible"/></del><add seq="2">early</add></subst> scents and<lb/> flowers</l>
-    <l>The arbutus under-foot, <add place="below"><metamark target="#a001" function="add">&#8248;</metamark></add><add place="above" xml:id="a001">The willow's yellow-green,</add> the<lb/> blossoming plum and cherry</l>
-    <l>The <del rend="overstrike">birds <gap extent="one character" reason="illegible"/> the blue bird,</del><lb/> robin, lark, and thrush,<lb/> with songs&#8212;<subst><del rend="overstrike" seq="1">the b<gap extent="one character" reason="illegible"/></del><add place="above" seq="2">the</add></subst> flitting<lb/> blue bird;</l>
-    <l>For <del rend="overstrike">so</del> <add place="below"><metamark target="#a002" function="add">&#8248;</metamark></add><add place="above" xml:id="a002">such the scenes</add>the <subst><del rend="overstrike" seq="1">immortal</del><add place="below" seq="2">annual</add></subst> play<del rend="overstrike" seq="1">goes</del><del rend="overstrike" seq="3"><add place="above" seq="2">comes</add></del><add place="above" seq="4">brings</add> on.</l>
+   <head type="main" rend="underline">Soon shall the winter's foil be here</head>
+    <note type="archival" place="inline" hand="#h02"><hi rend="underline">3</hi><lb/>2</note>
+     <l>Soon shall the winter's foil be here <add hand="#h01" place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><del rend="overstrike"><add hand="#h01" place="above" xml:id="a001"><unclear reason="illegible" cert="medium" resp="#bb">to thee</unclear></add></del></l>
+     <l>Soon shall these icy ligatures unbind<lb/> and melt&#8212;<subst rend="overwrite"><del>a</del><add>A</add></subst>
+      little while,</l>
+     <l>And air, earth, wave suffuse<add place="inline">d</add> <add hand="#h01" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a002">shall be</add> in softness,<lb/> bloom and growth;&#8212;a thousand forms shall rise</l>
+    <l><del rend="overstrike">up</del> from these <subst><del rend="overstrike" seq="1">frozen</del> <add place="above" seq="2">dead</add></subst> clods and chills as from low buria<gap extent="one character" reason="cut away"/> graves</l>
+    <l>Thine eyes, ears, <subst><del rend="overstrike" seq="1">all thy sense thy</del> <add place="above" seq="2"><del rend="overstrike">all</del> thy</add></subst><lb/>
+     <subst><del rend="overstrike" seq="1">loftiest</del> <add place="above" seq="2">best</add></subst> attributes&#8212;all that<lb/> takes cognizance of Natural beauty</l>
+    <milestone unit="glued"/>
+    <l>Shall rouse and fill&#8212;thou shal<subst rend="overwrite"><del>l</del><add>t</add></subst><lb/> perceive
+     <subst><del rend="overstrike" seq="1"><unclear cert="high" resp="#bb">vital</unclear> immortal changes</del>
+     <add place="above" seq="2">the <subst><del rend="overstrike" seq="1">eternal</del> <del rend="overstrike" seq="3"><add place="above" seq="2">annual</add></del> <del rend="overstrike" seq="5"><add seq="4">simple</add></del> <add place="above" seq="6">delicate</add></subst> shows</add></subst> <add place="below">the simple miracles,</add></l>
+    <l>Dandelions, clover, the emerald<lb/> grass, the <subst><del rend="overstrike" seq="1"><gap extent="one word" reason="illegible"/></del> <add seq="2">early</add></subst> scents and<lb/> flowers</l>
+    <l>The arbutus under&#11840;foot, 
+     <add place="below"><metamark target="#a003" function="add">&#8248;</metamark></add><add place="above" xml:id="a003">The willow's yellow&#11840;green,</add> the<lb/> blossoming plum and cherry</l>
+    <l>The <del rend="overstrike">birds <gap extent="one character" reason="illegible"/> the blue&#11840;bird,</del><lb/> robin, lark, and thrush,<lb/> with songs,&#8212;<subst><del rend="overstrike" seq="1">the b<gap extent="one character" reason="illegible"/></del> <add place="above" seq="2">the</add></subst> flitting<lb/> blue-bird;</l>
+    <l>For <subst><del rend="overstrike" seq="1">so</del> <add place="below" seq="2"><metamark target="#a004" function="add">&#8248;</metamark></add><add place="above" xml:id="a004" seq="2">such the scenes</add></subst> the <subst><del rend="overstrike" seq="1">immortal</del> <add place="below" seq="2">annual</add></subst> play
+     <subst><del rend="overstrike" seq="1">goes</del> <del rend="overstrike" seq="3"><add place="above" seq="2">comes</add></del> <add place="above" seq="4">brings</add></subst> on.</l>
    </lg>
-   
-
    <pb xml:id="leaf001v" facs="hun.00016.002.jpg" type="verso"/>
-   
-   <!--This side has one stamp and two postmarks, one from New Jersey and one from New York.-->
-                                                                                                                                                                     
-   
 </body>
 </text>
 </TEI>

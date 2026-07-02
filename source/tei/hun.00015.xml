@@ -6,17 +6,16 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">You Lingering Sparse Leaves of Me</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
          <persName xml:id="ja">JC Andrews</persName>
          <persName xml:id="km">Kevin McMullen</persName>
+     <persName xml:id="bb">Brett Barney</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -39,75 +38,58 @@
                 </address>
     <availability>
      <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
-     <p>
-      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
-      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
-      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+     <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
     </availability>
-    
-
    <idno>hun.00015</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
-    
-    
-     <note type="work_relations" target="xxx." cert="high">
-      <p></p>
-     </note>
+    <note type="project" target="#dat1">Whitman's note on this manuscript, "May, 1885," would seem to pinpoint the date of its creation quite precisely. Given the poem's first publication two and a half years later, however, it also seems possible that the note was added later and is in error.</note>
+    <note type="work_relations" target="xxx.00368" cert="high">The handwritten alterations on this proof slip were incorporated into the first publication of "You Lingering Sparse Leaves of Me," in the November 1887 issue of <hi rend="italic">Lippincott's Magazine</hi>. There, the poem was part of a four-poem sequence titled "November Boughs." That grouping was not maintained when the poem was further revised and printed in <hi rend="italic">November Boughs</hi> (1888) and in the "Sands at Seventy" annex to <hi rend="italic">Leaves of Grass</hi> (1891-1892).</note>
    </notesStmt>
-   
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
-     
      <title>[Leaves of grass]</title>  
-     
-
-     <date when="1885-05" cert="high">May 1885</date>
-     
+     <date notBefore="1885-05" notAfter="1887-11" cert="high">Between May 1885 and November 1887</date>
      <idno type="callno">HM 1193</idno>
-     
-
      <orgName xml:id="hun">Catalog of the Walt Whitman Literary Manuscripts in The Huntington Library, Art Collections, and Botanical Gardens</orgName>
-     
      <note>Transcribed from digital images of the original.</note>
-     
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
     <handNote medium="letterpress" xml:id="h01" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
-    <handNote medium="pencil" xml:id="h02" resp="#ww" scope="minor"></handNote>
+    <handNote medium="pencil" xml:id="h02" resp="#ww" scope="minor"/>
     <handNote medium="black ink" xml:id="h03" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h04" resp="#unk1" scope="minor"><name xml:id="unk1">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
-  <change when="2025-09-03" who="#km">proofed</change>
+  <change when="2026-07-01" who="#bb">proofed</change>
+ <change when="2025-09-03" who="#km">proofed</change>
   <change when="2025-08-28" who="#ja">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
-
  <text type="manuscript">
   <body>
-
    <pb xml:id="leaf001r" facs="hun.00015.001.jpg" type="recto"/>
    
    <note type="authorial" hand="#h02" place="top" rend="circled">Show me a revise of this&#8212;I will call about 12</note>
-   <note type="authorial" hand="#h02" place="top">4/2</note>
-   <head type="main">YOU LINGERING SPARSE LEAVES<lb/> <anchor xml:id="a001"/>OF ME.</head><metamark function="add" target="#a001"><add hand="#h02" place="left">lead</add></metamark>
+   <note type="authorial" hand="#h04" place="top">4/2</note>
    <lg type="poem">
+   <head type="main">YOU LINGERING SPARSE LEAVES<lb/> <anchor xml:id="a001"/>OF ME.</head><metamark function="add" target="#a001"><add hand="#h02" place="left">lead</add></metamark>
      <l>You lingering sparse leaves of me on bare December boughs,</l>
      <l>And I some well-shorn tree of field or orchard-row;</l>
-     <l>You tokens diminute and lorn&#8212;(not now the flush of May.<lb/> nor July clover bloom&#8212;no fruits of August now;)</l>
+     <l>You tokens diminute and lorn&#8212;(not now the flush of May,<lb/> nor July clover bloom&#8212;no fruits of August now;)</l>
     <l>You pallid little banners, remnants valueless&#8212;you overstay'd<lb/> of time,</l>
-    <l><subst hand="#h02"><del rend="overstrike" seq="1">Yes dear, soul dear, continued leaves, my</del><add xml:id="a002" rend="marked" place="bottom" seq="2">Yet my soul: dearest leaves&#8212;the</add></subst> <add place="below" hand="#h02"><metamark function="add" target="#a002">&#8248;</metamark></add> hardiest and<subst hand="#h02"><del rend="overstrike">my</del> <add>the</add></subst><lb/> last.</l>
+    <l><subst hand="#h02"><del rend="overstrike" seq="1">Yes dear, soul dear, continued leaves, my</del> <add place="below" hand="#h02" seq="2"><metamark function="add" target="#a002">&#8248;</metamark></add><add xml:id="a002" rend="marked" place="bottom" seq="2">Yet my soul&#11840;dearest leaves&#8212;the</add></subst> hardiest and <subst hand="#h02"><del rend="overstrike">my</del> <add>the</add></subst><lb/> last.</l>
    </lg>
-   <byline rend="right">W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</byline>
+   <closer>
+    <signed rend="right">W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</signed>
+   </closer>
    <note type="authorial" hand="#h03" place="left" rend="circled">May, 1885</note>
    <pb xml:id="leaf001v" facs="hun.00015.002_large.jpg" type="verso"/>
-   
 </body>
 </text>
 </TEI>
