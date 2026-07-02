@@ -6,17 +6,15 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">A Thought on Shakspere</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="ja">JC Andrews</persName>
+     <persName xml:id="bb">Brett Barney</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -28,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,251 +36,94 @@
                 </address>
     <availability>
      <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
-     <p>
-      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
-      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
-      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+     <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
     </availability>
-    
-
    <idno>hun.00045</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
-    
-    
-     <note type="work_relations" target="xxx." cert="high">
-      <p></p>
-     </note>
+    <note type="project" target="#dat1">This manuscript was likely written in 1886, shortly before its publication in <hi rend="italic">The Critic</hi>.</note>
+    <note type="work_relations" target="xxx.00466" cert="high">This short essay was first published as "A Thought on Shakspeare" in <hi rend="italic">The Critic</hi> on 14 August 1886. With variations in the spelling of the title, it later appeared in <hi rend="italic">Democratic Vistas, and Other Papers</hi> (1888) and <hi rend="italic">November Boughs</hi> (1888).</note>
    </notesStmt>
-   
    <sourceDesc>
     <bibl>
-     <author xml:id="ww">Whitman, Walt</author>
-     
+     <author xml:id="ww">Whitman, Walt</author> 
      <title>A Thought on Shakespeare</title>  
-     
-
-     <date notBefore="1881" notAfter="1886" cert="high">between 1881 and 1886</date>
-     
+     <date when="1886" cert="high">1886</date>
      <idno type="callno">HM 6712</idno>
-     
-
      <orgName xml:id="hun">Catalog of the Walt Whitman Literary Manuscripts in The Huntington Library, Art Collections, and Botanical Gardens</orgName>
-     
      <note>Transcribed from digital images of the original.</note>
-     >
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
     <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
-    <handNote medium="blue pencil" xml:id="h02" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
-    <handNote medium="pencil" xml:id="h03" resp="#unk1" scope="minor"/><name xml:id="unk1">Unknown</name>
+    <handNote medium="blue crayon" xml:id="h02" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
+    <handNote medium="pencil" xml:id="h03" resp="#unk1" scope="minor"><name xml:id="unk1">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
-
+ <change when="2026-07-01" who="#bb">proofed</change>
  <change when="2025-09-11" who="#ja">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
-
  <text type="manuscript">
   <body>
+   <pb xml:id="leaf001r" facs="hun_bb.00001.jpg" type="recto"/>
    
-
-   <pb xml:id="leaf001r" facs="hun.00045.001_large.jpg" type="recto"/>
    <note hand="#h03" type="archival" place="top" rend="underline"><del rend="strikethrough">10.00</del></note>
-   <note hand="#h03" type="archival" place="top">V2N</note>
+   <note hand="#h03" type="archival" place="top">V25</note>
    <note hand="#h03" type="archival" place="top">9.00</note>
    <note hand="#h02" type="editorial" place="top">7</note>
-   <head type="main" rend="doubleUnderline">A Thought on Shakspere</head>
-   <p>The most Distinctive
-   poems&#8212;the most permanently 
-   rooted and with heartiest reason
-   for being&#8212;the copious cycle
-   of Arthurian <del rend="overstrike">chants</del> legends,
-   or the almost equally copious
-   Charlemagne cycle, or the
-   poems of the Cid, <subst><del rend="overstrike" seq="1">the</del> <add place="above" seq="2">or</add></subst> Scandinavian
-   Eddas, or Nibelungen,
-   or Chaucer, or Spenser,
-   or Ossian, or Inferno&#8212;probably
-   had their rise in great historic
-   perturbations, which they came
-   in to <del rend="overstrike">conf</del> sum up and confirm,
-   indirectly embodying
-   results to date. However precious
-   to "culture" the grandest
-   of those poems,<add><metamark function="add" target="#a001" place="below">&#8248;</metamark></add> <add place="above" xml:id="a001">it may be said,</add> <del rend="overstrike">but</del> preserve and
-   typify results offensive to the
-   modern spirit, and long past away.</p>
-   
-
-   <pb xml:id="leaf001v" facs="hun.00045.002_large.jpg" type="verso"/>
-   
-   <pb xml:id="leaf002r" facs="hun.00045.003_large.jpg" type="recto"/>
+   <head type="main" rend="tripleUnderline">A Thought on <choice><orig></orig><reg>Shakspere</reg></choice></head>
+   <p>The most Distinctive poems&#8212;the most permanently rooted and with heartiest reason for being&#8212;the copious cycle
+   of Arthurian <del rend="overstrike">chants</del> legends, or the almost equally copious Charlemagne cycle, or the poems of the Cid, <subst><del rend="overstrike" seq="1">the</del> <add place="above" seq="2">or</add></subst> Scandinavian Eddas, or Nibelungen, or Chaucer, or Spenser, or Ossian, or Inferno&#8212;probably had their rise in great historic perturbations, which they came in to <del rend="overstrike">conf</del> sum up and confirm, indirectly embodying results to date. However precious to "culture," the grandest of those poems, <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add> <add place="above" xml:id="a001">it may be said,</add> <del rend="overstrike">but</del> preserve and typify results offensive to the modern spirit, and long past away.
+    
+    <pb xml:id="leaf001v" facs="hun_bb.00002.jpg" type="verso"/>
+    <pb xml:id="leaf002r" facs="hun_bb.00003.jpg" type="recto"/>
+    
    <note hand="#h01" type="authorial" place="top">2</note>
    <note hand="#h02" type="editorial" place="top">8</note>
-   <p>To state it briefly and taking
-   the strongest examples, in 
-   Homer lives the ruthless military
-   prowess of Greece, and
-   its special god&#11840;descended dynastic
-   houses;&#8212;in Shakspere,
-   the "dragon&#11840;rancors and stormy
-   feudal splendor of medieval
-   caste."</p>
-   <p>Poetry, largely considered,
-   is an <del rend="overstrike">successive</del> evaluation,
-   sending out improved and ever-expanded
-   types&#8212;in one sense, 
-   the past, even the best of it
-   necessarily giving place, and
-   Dying out. For our exciting
-   world, the bases on which
-   all the grand old poems were
-   built have become vacuums
-   &#8212;and even those of many comparatively
-   modern ones are
-   broken and half&#11840;gone. For
-   us to&#11840;day, nor their own intrinsic
-   value, vast as that is, backs and
-   maintains those poems, but a
-   mountain&#11840;high growth of</p>
+To state it briefly, and taking the strongest examples, in Homer lives the ruthless military prowess of Greece, and <add hand="#h01" place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a005">of</add> its special god&#11840;descended dynastic houses;&#8212;in Shakspere, the "dragon&#11840;rancors and stormy feudal splendor of medieval caste."</p>
+   <p>Poetry, largely considered, is a<add>n</add> <del rend="overstrike">successive</del> evaluation, sending out improved and ever&#11840;expanded types&#8212;in one sense, the past, even the best of it, necessarily giving place, and dying out. For our existing world, the bases on which all the grand old poems were built have become vacuums&#8212;and even those of many comparatively modern ones are broken and half&#11840;gone. For us to&#11840;day, not their own intrinsic value, vast as that is, backs and maintains those poems, but a mountain&#11840;high growth of
    
-   <pb xml:id="leaf002v" facs="hun.00045.004_large.jpg" type="verso"/>
-   
-   <pb xml:id="leaf003r" facs="hun.00045.005_large.jpg" type="recto"/>
+    <pb xml:id="leaf002v" facs="hun_bb.00004.jpg" type="verso"/>
+    <pb xml:id="leaf003r" facs="hun_bb.00005.jpg" type="recto"/>
+    
    <note hand="#h01" type="authorial" place="top">3</note>
    <note hand="h02" type="editorial" place="top">9</note>
-   <p>associations, the layers of successive
-   ages. Everywhere&#8212;their
-   own lands included, (is there
-   not something terrible in the
-   tenacity with which <subst><del rend="overstrike" seq="1">some</del><add place="above" seq="2">the one</add></subst> book
-   out of millions, holds its grip?)
-   the Homeric and Virgilian works,
-   the interminable ballad&#11840;romances
-   of the middle ages, <del rend="overstrike">and even</del> the
-   <subst><del rend="overstrike" seq="1">works</del><add place="above" seq="2">utterances</add></subst> of Dante, Spenser, and
-   others, are upheld by their
-   cumulus&#11840;entrenchment in scholarship,
-   and as precious, always
-   welcome, unspeakably valuable
-   reminiscences.</p>
-   <p>Even the one who at present
-    reigns unquestioned&#8212;of Shakspere&#8212;
-   for all he stands for
-   so much in modern literature,
-   he stands<add><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">entirely</add> for the mighty
-   esthetic sceptres of the past,
-   not for the spiritual and democratic,
-   the sceptres of the future.
-   The inward and outward
-   characteristics of Shakspere
-   are his vast and rich variety</p>
+associations, the layers of successive ages. Everywhere&#8212;their own lands included, (is there not something terrible in the tenacity with which <subst><del rend="overstrike" seq="1">some</del> <add place="above" seq="2">the one</add></subst> book out of millions, holds its grip?) the Homeric and Virgilian works, the interminable ballad&#11840;romances of the middle ages, <del rend="overstrike">and even</del> the
+   <subst><del rend="overstrike" seq="1">works</del> <add place="above" seq="2">utterances</add></subst> of Dante, Spenser, and others, are upheld by their cumulus&#11840;entrenchment in scholarship, and as precious, always welcome, unspeakably valuable reminiscences.</p>
+   <p>Even the one who at present reigns unquestioned&#8212;of Shakspere&#8212;for all he stands for so much in modern literature, he stands <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">entirely</add> for the mighty esthetic sceptres of the past, not for the spiritual and democratic, the sceptres of the future. The inward and outward characteristics of Shakspere are his vast and rich variety
    
-   <pb xml:id="leaf003v" facs="hun.00045.006_large.jpg" type="verso"/>
-   
-   <pb xml:id="leaf004r" facs="hun.00045.007_large.jpg" type="recto"/>
+    <pb xml:id="leaf003v" facs="hun_bb.00006.jpg" type="verso"/>
+    <pb xml:id="leaf004r" facs="hun_bb.00007.jpg" type="recto"/>
+    
    <note hand="#h01" type="authorial" place="top">4</note>
    <note hand="#h02" type="editorial" place="top">10</note>
-   <p>of <subst><del rend="overstrike" seq="1">characters</del><add place="above" seq="2">persons</add></subst> and themes, with
-   his wondrous delineation of each
-   and all&#8212;not only limitless funds
-   of verbal and pictorial resource,
-   but great excess, superf&#230;tations&#8212;
-   mannerism, like a fine aristocratic
-   perfume, <subst><del rend="overstrike" seq="1">with</del><add place="above" seq="2">holding</add></subst> a touch of
-   musk (Euphues, his mark)&#8212;with
-   boundless sumptuousness and adornment,
-   real velvet and gems, not
-   shoddy nor paste&#8212;but a good
-   deal bombast and fustian&#8212;
-   certainly some terrific mouthing
-   in Shakspere!</p>
-   <p>Superb and inimitable as
-   all is, it is mostly an objective
-   and physiological kind of power
-   and beauty, the soul <subst><del rend="overstrike" seq="1">gets from</del><add place="above" seq="2">finds in</add></subst>
-   Shakspere&#8212;a style supremely
-   grand of the sort, but in my
-   opinion stopping short of the
-   grandest sort at any rate for
-   fulfilling and satisfying modern
-   and scientific and democratic:
-   American purposes. Think, <del rend="overstrike">not</del>
-   not of growths or forests primeval,
-   or Yosemite geysers, or Colorado
-   ravines, but of costly marble
-   palaces, and palace rooms, and</p>
+   of <subst><del rend="overstrike" seq="1">characters</del> <add place="above" seq="2">persons</add></subst> and themes, with
+   his wondrous delineation of each and all&#8212;not only limitless funds of verbal and pictorial resource, but great excess, superf&#339;tation&#8212;mannerism, like a fine, aristocratic perfume, <subst><del rend="overstrike" seq="1">with</del> <add place="above" seq="2">holding</add></subst> a touch of musk (Euphues, his mark)&#8212;with boundless sumptuousness and adornment, real velvet and gems, not shoddy nor paste&#8212;but a good deal of bombast and fustian&#8212;certainly some terrific mouthing in Shakspere!</p>
+   <p>Superb and inimitable as all is, it is mostly an objective and physiological kind of power and beauty, the soul <subst><del rend="overstrike" seq="1">gets from</del> <add place="above" seq="2">finds in</add></subst> Shakspere&#8212;a style supremely grand of the sort, but in my opinion stopping short of the grandest sort, at any rate for fulfilling and satisfying modern and scientific and democratic&#11840;American purposes. Think, <del rend="overstrike">not</del> not of growths as forests primeval, or Yosemite geysers, or Colorado ravines, but of costly marble palaces, and palace rooms, and
+
    
-   
-   <pb xml:id="leaf004v" facs="hun.00045.008_large.jpg" type="verso"/>
-   
-   <pb xml:id="leaf005r" facs="hun.00045.009_large.jpg" type="recto"/>
+    <pb xml:id="leaf004v" facs="hun_bb.00008.jpg" type="verso"/>
+    <pb xml:id="leaf005r" facs="hun_bb.00009.jpg" type="recto"/>
+    
    <note type="authorial" hand="#h01" place="top">5</note>
    <note type="editorial" hand="#h02" place="top">11</note>
-   <p>the noblest fixings and furniture,
-   and noble owners and occupants
-   to correspond&#8212;Think of carefully
-   built gardens from the
-   beautiful but sophisticated
-   gardening art at its best, with
-   walks and bowers and artificial
-   lakes, and appropriate statue
-   groups and the finest roses
-   and lilies and japonicas in
-   plenty&#8212;and you have the tally
-   of Shakspere. The low
-   characters, mechanics, even
-   the loyal henchmen&#8212;all in
-   themselves nothing&#8212;serve as
-   capital foils to the aristocracy.
-   The comedies, exquisite 
-   as they certainly are, bringing
-   in admirably portrayed common
-   characters, have the unmistakable
-   hue of plays, portraits,
-   made for the divertisement
-    <subst><del rend="overstrike" seq="1">and point of view</del><add seq="2"><metamark target="#a003" function="add" place="inline">&#8248;</metamark></add><del seq="4" rend="overstrike"><add place="above" xml:id="a003" seq="3">from the</add></del></subst> only of the elite
-   of the castle, <add><metamark target="#a004" function="add" place="inline">&#8248;</metamark></add><add place="above" xml:id="a004">and from its point of view.</add> The comedies
-   are altogether non&#11840;acceptable
-   to America and Democracy.</p>
+   the noblest fixings and furniture, and noble owners and occupants to correspond&#8212;Think of carefully built gardens from the beautiful but sophisticated gardening art at its best, with walks and bowers and artificial lakes, and appropriate statue groups, and the finest roses and lilies and japonicas in plenty&#8212;and you have the tally of Shakspere. The low characters, mechanics, even the loyal henchmen&#8212;all in themselves nothing&#8212;serve as capital foils to the aristocracy. The comedies, (exquisite  as they certainly are) bringing in admirably portrayed common characters, have the unmistakable hue of plays, portraits, made for the divertisement<del rend="overstrike">, and <add place="below"><metamark target="#a003" function="add">&#8248;</metamark></add><add place="above" xml:id="a003">from the</add> point of view,</del> only of the elite of the castle, <add place="below"><metamark target="#a004" function="add">&#8248;</metamark></add><add place="above" xml:id="a004">and from its point of view.</add> The comedies are altogether non&#11840;acceptable to America and Democracy.</p>
    
-   <pb xml:id="leaf005v" facs="hun.00045.010_large.jpg" type="verso"/>
+   <pb xml:id="leaf005v" facs="hun_bb.00010.jpg" type="verso"/>
+   <pb xml:id="leaf006r" facs="hun_bb.00011.jpg" type="recto"/>
    
-   <pb xml:id="leaf006r" facs="hun.00045.011_large.jpg" type="recto"/>
    <note hand="#h01" type="authorial" place="top">6</note>
    <note hand="#h02" type="editorial" place="top">12</note>
-   <p><subst><del rend="overstrike" seq="1">Them</del><add place="above" seq="2">But</add></subst> to the deepest soul,
-   it seems a shame to pick
-   and choose from the riches
-   Shakspere has left us&#8212;to
-   criticize his infinitely royal,
-   multiform quality&#8212;to guage,
-   with optic glasses, the Dazzle
-   of his sun&#11840;like beams.</p>
-   <p>The best poetic utterance,
-   after all, can <subst><del rend="overstrike" seq="1">but</del><add place="above" seq="2">merely</add></subst> hint or
-   remind, often very indirectly,
-   or at distant removes.
-   Aught of real perfection,
-   or the <del rend="overstrike">final</del> solution of
-   any deep problem, or any
-   completed statement of the
-   moral, the true, the beautiful,
-   eludes <del rend="overstrike">the statement of</del>
-   the greatest deftest poet&#8212;flies
-   away like an always uncaug<subst rend="overwrite"><del seq="1">h</del><add seq="2">ht</add></subst>
-   bird.</p>
-   <byline rend="right"><hi rend="tripleUnderline">W</hi><hi rend="doubleUnderline">alt</hi> <hi rend="tripleUnderline">W</hi><hi rend="doubleUnderline">hitman</hi></byline>
+   <p><subst><del rend="overstrike" seq="1">Then</del> <add place="above" seq="2">But</add></subst> to the deepest soul, it seems a shame to pick and choose from the riches Shakspere has left us&#8212;to criticise his infinitely royal, multiform quality&#8212;to guage, with optic glasses, the dazzle of his sun&#11840;like beams.</p>
+   <p>The best poetic utterance, after all, can <subst><del rend="overstrike" seq="1">but</del> <add place="above" seq="2">merely</add></subst> hint, or remind, often very indirectly, or at distant removes. Aught of real perfection, or the <del rend="overstrike">final</del> solution of any deep problem, or any completed statement of the moral, the true, the beautiful, eludes <del rend="overstrike">the statement of</del> the greatest, deftest poet&#8212;flies away like an always uncaught bird.</p>
+   <byline rend="right">
+    <hi rend="tripleUnderline">W</hi><hi rend="doubleUnderline">alt</hi> <hi rend="tripleUnderline">W</hi><hi rend="doubleUnderline">hitman</hi></byline>
    
-   
-   <pb xml:id="leaf006v" facs="hun.00045.012_large.jpg" type="verso"/>
+   <pb xml:id="leaf006v" facs="hun_bb.00012.jpg" type="verso"/>
    
    
    
