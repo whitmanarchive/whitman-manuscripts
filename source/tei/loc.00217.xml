@@ -6,18 +6,16 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">To My Seventieth Year</title>
     <title level="m" type="sub">a hand-written transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="tb">Tara Ballard</persName>
      <persName xml:id="ew">Emma Whaley</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -29,7 +27,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -45,8 +42,6 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.00217</idno>
    </publicationStmt>
    <notesStmt>
@@ -57,9 +52,7 @@
      IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
      IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
     
-     <note type="work_relations" target="xxx.00320" cert="high">
-      <p>Draft of a poem later revised and published under the title "Queries to My Seventieth Year" in 1888.</p>
-     </note>
+     <note type="work_relations" target="xxx.00320" cert="high">Draft of a poem later revised and published under the title "Queries to My Seventieth Year" in 1888.</note>
    </notesStmt>
    
    <sourceDesc>
@@ -83,10 +76,11 @@
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="pencil" xml:id="h01" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h01" resp="#ww" scope="sole"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
+ <change when="2026-07-03" who="#km">proofed</change>
  <change when="2024-09-24" who="#ew">updated image links</change>
  <change when="2024-03-25" who="#tb">transcribed and encoded</change>
 </revisionDesc>
@@ -96,21 +90,23 @@
   <body>
    
    <pb xml:id="leaf001r" facs="loc_ew.00104.jpg" type="recto"/>
+   
    <lg type="poem">
-    <head rend="underline">: To My Seventieth year</head>
-    <l>Approach <subst><del rend="overstrike" seq="2"><add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001" seq="1">near at hand.</add></del><add place="above" seq="3">nearing</add></subst> curious. <subst><del rend="overstrike" seq="1">dim</del><del rend="overstrike" seq="3"><add place="above" seq="2"><unclear reason="illegible" cert="high" resp="#tb">alone</unclear></add></del><del rend="overstrike" seq="5"><add place="above" seq="4">so</add></del></subst></l>
-    <l><subst><del rend="overstrike" seq="1">As some</del><add place="above" seq="2">Thou dim</add></subst> half-visible <del rend="overstrike">hovering</del> <subst><del rend="overstrike" seq="2"><add place="above" seq="1">closer</add></del></subst> spectre <add place="inline"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">hovering close&#8212;</add><lb/>
-     <subst><del rend="overstrike" seq="1">bearing woe <unclear reason="illegible" cert="low" resp="#tb">&#8212; heal</unclear></del><add place="above" seq="2">&#8212; bring'st thou</add></subst><del rend="overstrike" seq="1">joy or woe?</del><del rend="overstrike" seq="3"><add place="above" seq="2">or</add></del><add place="below" seq="4">me life or death?</add></l>
-    <l><subst><del rend="overstrike" seq="1">Or life or death</del><add place="above" seq="2">Strength, weakness</add></subst></l>
-    <l>Or more paralysis <add place="inline"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">weight</add>and heavier</l>
+    <head type="main"><add place="above">? To</add> <hi rend="underline">My Seventieth year</hi></head>
+    
+    <l>Approaching <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><subst><del rend="overstrike" seq="2"><add place="above" xml:id="a001" seq="1">near at hand.</add></del> <add place="above" seq="3">nearing</add></subst> curious, <del rend="overstrike"><add place="above"><del rend="overstrike"><add place="above">so</add></del> close</add></del> <del rend="overstrike">dim</del></l>
+    <l><subst><del rend="overstrike" seq="1">As some</del> <add place="above" seq="2">Thou dim</add></subst> half-visible <del rend="overstrike">hovering</del> <del rend="overstrike"><add place="above">closing</add></del> spectre, <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002" rend="marked">hovering close&#8212;</add><lb/>
+     <subst><del rend="overstrike" seq="1">bearing woe <unclear reason="illegible" cert="low" resp="#tb">e weal</unclear></del> <add place="above" seq="2">&#8212; bring'st thou</add></subst> <del rend="overstrike">joy <del rend="overstrike"><add place="above">or</add></del> or woe?</del><lb/> me life or death?</l>
+    <l><subst><del rend="overstrike" seq="1">Or life or death</del> <add place="above" seq="2">Strength, weakness</add></subst></l>
+    <l>Or more paralysis <add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">weight</add> and heavier</l>
     <l>Blindness</l>
-    <l>An unnerv'd hand and <subst><del rend="overstrike" seq="1">voice</del><add place="above" seq="2">accent</add></subst>&#8212;<subst><del rend="overstrike" seq="1">a</del><add place="above" seq="2">&#8212;</add></subst> buried heart<lb/>
+    <l>An unnerv'd hand and <subst><del rend="overstrike" seq="1">voice</del> <add place="above" seq="2">accent</add></subst>&#8212;<subst><del rend="overstrike" seq="1">a</del><add place="above" seq="2">&#8212;</add></subst> buried heart<lb/>
                and brain</l>
     <l><del rend="overstrike">Or wreaths from foreign lands</del></l>
     <l>Or bitter tears</l>
-    <l>Or placid skies and sun, <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#tb">h</unclear></del> or wreaths from<lb/>
+    <l>Or placid skies and sun, <del rend="overstrike"><gap reason="illegible" extent="one character"/></del> or wreaths from<lb/>
                foreign lands</l>
-    <l><subst><del rend="overstrike" seq="1">Or</del><del rend="overstrike" seq="3"><add place="above" seq="2">The</add></del><add place="above" seq="4">A</add></subst> summary end of all&#8212;to pass me to<lb/>
+    <l><subst><del rend="overstrike" seq="1">Or</del> <del rend="overstrike" seq="3"><add place="above" seq="2">The</add></del> <add place="above" seq="4">A</add></subst> summary end of all&#8212;to pass me to<lb/>
                                      another year</l>
     <l>Thro' thy twelve months</l>
    </lg>
