@@ -6,18 +6,16 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
-    <title level="m" type="main" rend="bracketed">[Not meager]</title>
+    <title level="m" type="main" rend="bracketed">Not meager</title>
     <title level="m" type="sub">a hand-written transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="tb">Tara Ballard</persName>
      <persName xml:id="ew">Emma Whaley</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -29,7 +27,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -45,21 +42,12 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.00223</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">Whitman has written the date May 2, 1887, at the top, which is likely the date that the manuscript was composed.</note>
     
-<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
-     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
-     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
-     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
-    
-     <note type="work_relations" target="xxx." cert="high">
-      <p>A late draft of "Not Meagre, Latent Boughs Alone" first published in 1887, with Whitman's signature at the bottom and "Camden NJ" and the date, May 2, 1887, written at the top.</p>
-     </note>
+    <note type="work_relations" target="xxx." cert="high">A late draft of "Not Meagre, Latent Boughs Alone," first published in <hi rend="italic">Lippincott's Magazine</hi> in November 1887. It appeared, along with three other poems, as part of a cluster titled "November Boughs." It was later included in Whitman's standalone volume of the same name (1888).</note>
    </notesStmt>
    
    <sourceDesc>
@@ -68,25 +56,23 @@
      
      <title resp="#wwa">[Not meager]</title>  
      
-     <date>2 May 1887</date>
+     <date cert="high" when="1887-05-02">May 2, 1887</date>
      
-      <idno type="callno">MSS 18630, Box 27; Reel 16-17</idno>
+      <idno type="callno">MSS 18630, Box 27</idno>
      
       <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-     <relatedItem type="text" xml:id="rel01" target=""/> <!--None listed in Tracking Database-->
-      <relatedItem type="document" target=""/> <!--None listed in Tracking Database-->
-     <note type="project" target="#rel01">The verso is comprised of two blank pages glued together.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="sole"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
+ <change when="2026-07-03" who="#km">proofed</change>
  <change when="2024-09-25" who="#ew">updated image links</change>
  <change when="2024-03-20" who="#tb">transcribed and encoded</change>
 </revisionDesc>
@@ -99,7 +85,7 @@
    
     <lg type="poem">
    
-     <dateline>Camden NJ May 2 '87</dateline>
+     <note type="authorial" place="top" hand="#h01" rend="circled">Camden NJ<lb/> May 2 '87</note>
      
      <l>Not meager, latent boughs<lb/>
           alone, O songs, (scaly<lb/>
@@ -109,16 +95,16 @@
           day, (who knows?)&#8212;some<lb/>
           future spring, some<lb/>
           summer&#8212;bursting forth.</l>
-     <l><subst><del rend="overstrike" seq="1">Blossoms</del><add place="above" seq="2">To</add></subst> <del rend="overstrike">and</del> verdant<lb/>
-          leaves, and <add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">sheltering</add> shade, <subst><del rend="overstrike" seq="1">and</del><add place="above" seq="2">to</add></subst><lb/>
+     <l><subst><del rend="overstrike" seq="1">Blossoms</del> <add place="above" seq="2">To</add></subst> <del rend="overstrike">and</del> verdant<lb/>
+          leaves, and <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">sheltering</add> shade, <subst><del rend="overstrike" seq="1">and</del><add place="above" seq="2">&#8212;</add></subst><add place="above">to</add><lb/>
           nourishing fruit,</l>
      <l>Apples and grapes&#8212;<del rend="overstrike">roses</del><lb/>
-          <subst><del rend="overstrike" seq="1">and</del><add place="above" seq="2">The</add></subst> stalwart limbs<lb/>
-          of trees <add place="inline"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">emerging</add>&#8212;and fresh</l>
+          <subst><del rend="overstrike" seq="1">and</del> <add place="above" seq="2">&#8212;the</add></subst> stalwart limbs<lb/>
+          of trees <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">emerging&#8212;</add>&#8212;and fresh</l>
      <l><del rend="overstrike">And fresh</del>, free, <del rend="overstrike">perfumed</del>,<lb/>
           open air,</l>
      <l>And love and faith, like<lb/>
-          <add place="inline"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">scented</add> roses blooming.</l>
+          <add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">scented</add> roses blooming.</l>
     </lg>
    
     <signed><hi rend="underline">Walt Whitman</hi></signed>
