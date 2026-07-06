@@ -6,18 +6,16 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">The Mystic Cipher</title>
     <title level="m" type="sub">a hand-written transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="tb">Tara Ballard</persName>
      <persName xml:id="ew">Emma Whaley</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -29,7 +27,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -45,42 +42,38 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.00220</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">This manuscript was likely composed sometime in 1887.</note>
         
-     <note type="work_relations" cert="high">
-      <p>A draft of a poem later revised and published as "Shakespere-Bacon's Cipher" in 1887.</p>
-     </note>
+    <note type="work_relations" cert="high" target="xxx.00390">A draft of a poem which was first published in <hi rend="italic">The Cosmopolitan</hi> in October 1887, under the title "Shakspere-Bacon's Cipher." The poem was then reprinted in <hi rend="italic">Good-Bye My Fancy</hi> (1891).</note>
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>The Mystic Cipher</title>  
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “The Mystic Cipher” ( undated ), draft</title>  
      
-     <date cert="high">1887</date>
+     <date cert="high" notBefore="1887-01" notAfter="1887-10">1887</date>
      
-     <idno type="callno">MSS 18630, Box 27; Reel 16-17</idno>
+     <idno type="callno">MSS 18630, Box 27</idno>
      
      <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-      <note type="project" target="#rel01">The verso is blank.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="black ink" xml:id="h02" resp="#ht"><persName xml:id="ht">Horace Traubel</persName></handNote>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="black ink" xml:id="h02" resp="#ht" scope="minor"><persName xml:id="ht">Horace Traubel</persName></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
+ <change when="2026-07-03" who="#km">proofed</change>
  <change when="2024-09-24" who="#ew">updated image links</change>
  <change when="2024-05-06" who="#tb">transcribed and encoded</change>
 </revisionDesc>
@@ -90,22 +83,25 @@
   <body>
    
    <pb xml:id="leaf001r" facs="loc_ew.00105.jpg" type="recto"/>
+   
    <lg type="poem">
-     <head>The Mystic cipher</head>
-     <note type="subtitle" rend="underline">a hint for scientists</note>
-     <l><subst><del rend="overstrike" seq="1">All <unclear reason="illegible" cert="low" resp="#tb"/></del><add rend="above" seq="2">Doubtless</add></subst> in each and all</l>
-    <l>In book, in man <add rend="above" seq="1">the <add rend="above" seq="2"><unclear reason="illegible" cert="low" resp="#tb"/></add> songs bequeathed&#8212;nor them alone&#8212;</add>,&#8212;in every object.</l>
-     <l><del rend="overstrike">The sl</del></l>
+     <head type="main">The Mystic cipher</head>
+    
+     <head type="sub" rend="underline">a hint for scientists</head>
+    
+     <l><subst><del rend="overstrike" seq="1">Oft <gap reason="illegible" extent="one word"/> think</del> <add rend="above" seq="2">Doubtless</add></subst> in each and all</l>
+    <l>In book, in man <add place="above" rend="marked">in <add place="above">the</add> songs bequeathed&#8212;nor them alone&#8212;</add>,&#8212;in every object,</l>
+     <l><del rend="overstrike">The s</del></l>
      <l>Tree, river, star,</l>
-    <l><del rend="overstrike">Part</del> All part of <del rend="overstrike">at</del> each <subst><del rend="overstrike" seq="1">unfold</del><add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" seq="2">the meaning</add><add place="above" seq="3">after the rest</add></subst> at the last</l>
-     <l>A mystic <add>luring, puzzling</add> cipher in secreted</l>
+    <l><del rend="overstrike">Part</del> All part of <del rend="overstrike"><unclear cert="low" reason="illegible" resp="#tb">ac</unclear></del> each <del rend="overstrike">infold</del> <add place="above"><add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above">after the rest</add> the meaning</add> at the last</l>
+     <l>A mystic <add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">luring, puzzling</add> cipher is secreted</l>
      <l>Which no one yet</l>
-    <l><del rend="overstrike">We</del> Dear prize! <subst><del rend="overstrike" seq="1">well may you rest unknown</del><add rend="above" seq="2">eternal source</add></subst>
-          Centre and spur of science, life, love, hope<lb/>
-          Well may <add place="inline"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above">you</add> rest fore'er unsolved unknown</l>
+    <l><del rend="overstrike">We</del> Dear prize! <subst><del rend="overstrike" seq="1">well may you rest unknown</del> <add place="above" seq="2">eternal source</add></subst></l>
+          <l>Centre and spur of science, life, love, hope</l>
+          <l>Well may <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">you</add> rest fore'er unsolved unknown</l>
    </lg>
    
-   <note place="margin" hand="h02" type="editorial">Ms. of Walt Whitman's poem as publ'd in L of G. Fm Mildred &amp; Frank Bain 1911 Horace Traubel</note>
+   <note place="right" hand="#h02" type="editorial">Ms. of Walt Whitman's poem as publ'd in L of G. For Mildred &amp; Frank Bain 1911 <space dim="horizontal" extent="about five characters"/> Horace Traubel</note>
    
    <pb xml:id="leaf001v" facs="loc.00220.002.jpg" type="verso"/>
    

@@ -6,18 +6,16 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
-    <title level="m" type="main">TWILIGHT</title>
+    <title level="m" type="main">Twilight</title>
     <title level="m" type="sub">a machine readable transcription with hand-written notes</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="tb">Tara Ballard</persName>
      <persName xml:id="ew">Emma Whaley</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -29,7 +27,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -45,49 +42,39 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.00317</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">Whitman has written "June 1889" at the top of this proof, and it is likely that that is when the proof was printed.</note>
     
-<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
-     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
-     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
-     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
-    
-     <note type="work_relations" target="xxx.00367" cert="high">
-      <p>Written in ink, with one line in pencil, are notes on a proof of "Twilight," which is printed on a piece of tan birch bark. The notes, in Whitman's hand, read: "Walt Whitman, June 1889," "on birch bark," and "a curio, on birch bark, Walt Whitman." "Twilight" was first published in 1887.</p>
-     </note>
+     <note type="work_relations" target="xxx.00367" cert="high">A proof of the poem "Twilight," with notes in ink and pencil, printed on a piece of birch bark. The poem was first published in <hi rend="italic">Century Illustrated</hi> magazine in December 1887. It was later reprinted in <hi rend="italic">November Boughs</hi> (1888).</note>
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title resp="#wwa">TWILIGHT.</title>  
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “Twilight” ( 1887 ); Proofs; Proof on birch bark with signed notations</title>  
      
-     <date>1887</date>
+     <date cert="high" when="1889">1889</date>
      
-     <idno type="callno">MSS 18630; Box 30; Reel 18-19</idno>
+     <idno type="callno">MSS 18630; Box 30</idno>
      
       <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-      <relatedItem type="text" xml:id="rel01" target=""/><!--Nothing present in Tracking Database-->
-     <relatedItem type="document" target=""/><!--Nothing present in Tracking Database-->
-     <note type="project" target="#rel01">The verso is a blank birch bark surface.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
-     <handNote medium="black type" xml:id="h01" resp="#ww"/>
-     <handNote medium="black ink" xml:id="h02" resp="#ww"/>
+    <handNote medium="letterpress" xml:id="h01" scope="major" resp="#unk"/><handNote xml:id="unk">Unknown</handNote>
+    <handNote medium="black ink" xml:id="h02" scope="minor" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h03" scope="minor" resp="#ww"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
+ <change when="2026-07-06" who="#km">proofed</change>
  <change when="2024-09-25" who="#ew">updated image links</change>
  <change when="2024-03-20" who="#tb">transcribed and encoded</change>
 </revisionDesc>
@@ -100,20 +87,20 @@
       
     <lg type="poem">
    
-     <signed>Walt Whitman</signed>
-     <dateline>June 1889</dateline>
+     <note type="authorial" place="place" hand="#h02">Walt Whitman<lb/> June 1889</note>
      
-     <head>TWLIGHT.</head>
+     <head type="main">TWLIGHT.</head>
      <l>The soft voluptuous opiate-shades,</l>
      <l>The sun just gone, the eager light&#8212;(I too will soon be<lb/>
               gone</l>
      <l>A haze&#8212;nirwana&#8212;rest and night&#8212;oblivion.</l>
-     <l><name>WALT WHITMAN.</name></l>
    </lg>
    
-   <note>a curio on birch bark</note>
-    
-    <signed>Walt Whitman</signed>
+   <byline>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</byline>
+   
+   <note type="authorial" place="bottom" hand="#h03">birch bark</note>
+   
+   <note type="authorial" place="bottom" hand="#h02">a curio<lb/> on birch bark<lb/> Walt Whitman</note>
    
    <pb xml:id="leaf001v" facs="loc.00317.002_large.jpg" type="verso"/>
    

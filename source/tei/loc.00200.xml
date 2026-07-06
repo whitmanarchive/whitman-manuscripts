@@ -7,18 +7,16 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">Funeral Sounds</title>
     <title level="m" type="sub">a hand-written transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="tb">Tara Ballard</persName>
      <persName xml:id="ew">Emma Whaley</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -30,7 +28,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -46,39 +43,33 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.00200</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">This poem was written to commemorate the death of Sheridan, who died August 5, 1888. This draft was therefore written sometime between then and August 12, when the poem was published.</note>
     
-     <note type="work_relations">
-      <p>Early draft of poem that was first published as "Over and Through the Burial Chant" in 1888. It was later published with the title "Interpolation Sounds." The poem was written on the occasion of General Philip Sheridan's death in 1888.</p>
-     </note>
+    <note type="work_relations" target="xxx.00393" cert="high">An early draft of a poem that first appeared, without a title, in the <hi rend="italic">New York Herald</hi> on August 12, 1888, four days after Whitman's short prose tribute to General Philip K. Sheridan, a Union general during the Civil War. The poem was later published in <hi rend="italic">Good-Bye My Fancy</hi> (1891), under the title "Interpolation Sounds."</note>
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>Funeral Sounds</title>  
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “Funeral Sounds” ( 1888 ), draft (published as “Over and Through the Burial Chant”)</title>  
      
-     <date cert="high">1888</date>
+     <date cert="high" notBefore="1888-08-05" notAfter="1888-08-12">Between August 5 and August 12, 1888</date>
      
-     <idno type="callno">MSS 18630, Box 27; Reel 16-17</idno>
+     <idno type="callno">MSS 18630, Box 27</idno>
      
      <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-  
-     <note type="project" target="#rel01">The verso is blank.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="pencil" xml:id="h01" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h01" resp="#ww" scope="sole"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
@@ -91,21 +82,27 @@
   <body>
    
    <pb xml:id="leaf001r" facs="loc_ew.00103.jpg" type="recto"/>
-   <lg type="poem">
-     <head>Funeral sounds</head>
+   
+   <lg type="linegroup">
+    
+     <head type="main">Funeral sounds</head>
+    
      <l><del rend="overstrike">&#8212;The rattle of the</del></l>
      <l>The clank of cavalry&#8212;even the saddles, ac&#11840;</l>
-     <l><del><hi rend="underline">A</hi>ccoutrements&#8212;<del rend="overstrike">the</del> horses' hoofs</del></l>
+     <l><del rend="overstrike"><hi rend="underline">A</hi>ccoutrements,&#8212;<del rend="overstrike">the</del> horses' hoofs</del></l>
      <l>the movement swift and firm and heavy,</l>
-     <l>&#8212;horses hoofs&#8212;accoutrements
+     <l>&#8212;horses hoofs&#8212;accoutrements<lb/>
         and arms</l>
-    <l></l>
-    <l>The <subst><del rend="overstrike" seq="1">hurrying</del><del seq="3"><add seq="2">sudden</add></del><add seq="4">battle hurry</add></subst> and the noise&#8212;the
-     <del>cannon thud&#8212;the</del> war's grim
-         game in earnest</l>
-    <l><subst><del rend="overstrike" seq="2">The rifle <del rend="overstrike" seq="1">r</del> crack</del><add place="above" seq="3">The scout,</add><add place="above" seq="4">Advancing and retreating</add></subst>&#8212; the <subst><del rend="overstrike" seq="1">freshest</del><add place="above" seq="2">new&#11840;brought</add></subst> word&#8212;
-    the rifles <add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">instantaneous</add> order issued</l>
-    <l>The rifel crack&#8212;the cannon thud&#8212; the
+    
+    <milestone unit="glued"/>
+    
+    <l>The <subst><del rend="overstrike" seq="1">hurrying</del> <add place="above" seq="2"><subst><del rend="overstrike" seq="1">sudden</del><add place="above" seq="2">battle</add></subst> hurry</add></subst> and the noise&#8212;the<lb/> <del rend="overstrike">cannon thud&#8212;the</del> war's grim<lb/> game in earnest</l>
+    
+    <l>Advancing and retreating</l>
+    
+    <l><subst><del rend="overstrike" seq="2">The rifle <del rend="overstrike" seq="1">r</del> crack</del> <add place="above" seq="3">The scout,</add></subst>&#8212; the <subst><del rend="overstrike" seq="1">freshest</del> <add place="above" seq="2">new&#11840;brought</add></subst> word&#8212;<lb/>
+     the <subst><del rend="overstrike" seq="1">rapid</del> <add place="below" seq="2"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001" seq="2">instantaneous</add></subst> order issued</l>
+    <l>The rifel crack&#8212;the cannon thud&#8212; the<lb/>
         <add place="above">rapid</add> movement of the companies</l>
    </lg>
    

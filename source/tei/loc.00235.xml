@@ -11,11 +11,11 @@
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
      <persName xml:id="tb">Tara Ballard</persName>
      <persName xml:id="ew">Emma Whaley</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -27,7 +27,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -48,33 +47,22 @@
    <idno>loc.00235</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">The version of the poem printed by <hi rend="italic">The Century</hi>, in February 1890, includes the two minor changes written on this and other similar proof slips, although the later printings in <hi rend="italic">Good-Bye My Fancy</hi> and <hi rend="italic">Leaves of Grass</hi> do not. Whitman was in the habit of ordering batches of specially printed poem slips that he then "corrected" in small ways and presented as mementos to friends and admirers. This and similar slips do not, therefore, constitute a particular stage in Whitman's composition of the poem as it appeared in <hi rend="italic">Good-Bye My Fancy</hi> or <hi rend="italic">Leaves of Grass.</hi></note>
     
-<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
-     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
-     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
-     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
-    
-     <note type="work_relations" target="xxx.00388" cert="high">
-      <p>Corrected proof of "Old Age's Ship and Crafty Death's" with notations in Whitman's hand.</p>
-     </note>
+    <note type="work_relations" target="xxx.00388" cert="high">This is a proof slip of "Old Age's Ship and Crafty Death's," with corrections and notations in Whitman's hand. The poem was first published in the February 1890 issue of <hi rend="italic">The Century Magazine</hi>. Whitman subsequently included it in <hi rend="italic">Good-Bye My Fancy</hi> (1891) and in the printing of <hi rend="italic">Leaves of Grass</hi> that he oversaw just before his death.</note>
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “Old Age's Ship and Crafty Death's” ( 1890 ); Proof sheets with corrections and notations</title>  
      
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date notBefore="" notAfter="" cert=""></date>
+     <date notBefore="1889" notAfter="1890-02" cert="high">Between 1889 and 1890</date>
      
-     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     <idno type="callno">mss18630, box 28</idno>
      
-<!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
-      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
-     <orgName xml:id="loc"></orgName>
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
     </bibl>
@@ -82,11 +70,12 @@
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="letterpress" xml:id="h01" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
-    <handNote medium="pencil" xml:id="h02" resp="#ww"/>
+    <handNote medium="letterpress" xml:id="h01" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
+    <handNote medium="pencil" xml:id="h02" resp="#ww" scope="minor"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
+ <change when="2026-07-03" who="#km">proofed</change>
  <change when="2024-09-25" who="#ew">updated image links</change>
  <change when="2024-08-15" who="#tb">transcribed and encoded</change>
 </revisionDesc>
@@ -96,14 +85,16 @@
   <body>
    
    <pb xml:id="leaf001r" facs="loc_ew.00211.jpg" type="recto"/>
+   
    <lg type="poem">
-    <head>OLD AGE'S SHIP &amp; CRAFTY DEATH'S.</head>
+    <head type="main">OLD AGE'S SHIP &amp; CRAFTY DEATH'S.</head>
+    
      <l>From east and west across the horizon's edge,</l>
      <l>Two mighty masterful vessels sailers steal upon us:</l>
      <l>But we'll make race a-time upon the seas&#8212;a battle-contest<lb/> yet! bear lively there!</l>
     <l>(Our joys of strife and derring-do to the last!)</l>
     <l>Put on the old ship all her power to-day!</l>
-    <l>Crowd <add place="inline" hand="#h02"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="left" hand="#h02" xml:id="a001">extra</add> top-gallant<add place="inline" hand="#h02"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="right" hand="#h02" xml:id="a002">s<metamark function="emphasize" target="#a002">/</metamark></add> and royal studding-sails!</l>
+    <l>Crowd <add place="below" hand="#h02"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="left" hand="#h02" xml:id="a001">extra</add> top-gallant<add place="below" hand="#h02"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="right" hand="#h02" xml:id="a002">s<metamark function="emphasize" target="#a002">/</metamark></add> and royal studding-sails!</l>
     <l>Out challenge and defiance&#8212;flags and flaunting pennants<lb/> added,</l>
     <l>As we take to the open&#8212;take to the deepest, freest waters.</l>
    </lg>
@@ -112,7 +103,6 @@
    
    <note type="authorial" place="bottom" hand="#h02">February <hi rend="underline">Century</hi></note>
    
-   <!-- The image of the verso (linked below) needs to be rotated. KM, 8/15/24 -->
    <pb xml:id="leaf001v" facs="loc_nk.00027_large.jpg" type="verso"/>
    
 </body>
