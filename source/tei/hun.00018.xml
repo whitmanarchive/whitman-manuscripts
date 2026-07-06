@@ -6,17 +6,14 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">With Husky-Haughty Lips, O Sea!</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
-
+     <persName xml:id="bb">Brett Barney</persName>
      <persName xml:id="ja">JC Andrews</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -29,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -46,31 +42,25 @@
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
     
-
    <idno>hun.00018</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
-    
+    <note type="project" target="#dat1"></note>
     
      <note type="work_relations" target="xxx." cert="high">
-      <p></p>
      </note>
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
-     
      <title>With Husky-Haughty Lips, O Sea!</title>  
      
-
      <date when="1884-03" cert="high">March 1884</date>
      
      <idno type="callno">HM 1193</idno>
      
-
-     <orgName xml:id="hun">Catalog of the Walt Whitman Literary Manuscripts in The Huntington Library, Art Collections, and Botanical Gardens</orgName>
+     <orgName xml:id="hun">The Huntington Library, Art Collections, and Botanical Gardens</orgName>
      
      <note>Transcribed from digital images of the original.</note>
     </bibl>
@@ -85,31 +75,28 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
-
+ <change when="2026-07-02" who="#bb">proofed</change>
  <change when="2025-09-04" who="#ja">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
-
  <text type="manuscript">
   <body>
-   
    <pb xml:id="leaf001r" facs="hun.00018.001.jpg" type="recto"/>
    <note type="authorial" hand="#h02" place="top">Harpers' March '84</note>
-   <head type="main" rend="italic">With Husky-Haughty Lips, O Sea!</head>
-   <note type="archival" hand="#h04" place="below">4/6</note>
    <lg type="poem">
-    <l>With husky<subst hand="#h03"><del>,</del><add place="above" xml:id="e001">&#11840;<metamark function="emphasize" target="#e001">/</metamark></add></subst> haughty lips, O Sea!</l>
+   <head type="main">With Husky-Haughty Lips, O Sea!</head>
+   <note type="archival" hand="#h04" place="below">4/6</note>
+    <l>With husky<subst hand="#h03"><del seq="1">, </del><add place="above" xml:id="e001" seq="2">&#11840;<metamark function="emphasize" target="#e001">/</metamark></add></subst>haughty lips, O Sea!</l>
      <l>Where day and night I wend thy surf-beat shore,</l>
-     <l>Imaging to my sense thy varied strange suggestions</l>
+     <l>Imaging to my sense thy varied strange suggestions,</l>
     <l>Thy troops of white-maned racers racing to the goal,</l>
     <l>Thy ample smiling face, dash'd with the sparkling dimples of<lb/> the sun,</l>
     <l>Thy brooding scowl and murk&#8212;thy unloos'd hurricanes,</l>
     <l>Thy unsubduedness, caprices, wilfulness;</l>
     <l>Great as thou art above the rest, thy many tears&#8212;a lack<lb/> from all eternity in thy content,</l>
-    <l>(Naught but the greatest struggles, wrongs, defeats, could make<lb/> thee greatest&#8212; no less could make thee,)</l>
-    <l>Thy lonely state&#8212;something thou ever seek'st and seek'st, yet <lb/> never gain'st,</l>
-    <l>Surely some right withheld&#8212;some voice, in huge monotonous <lb/> rage, of freedom-lover pent,</l>
+    <l>(Naught but the greatest struggles, wrongs, defeats, could make<lb/> thee greatest&#8212;no less could make thee,)</l>
+    <l>Thy lonely state&#8212;something thou ever seek'st and seek'st, yet<lb/> never gain'st,</l>
+    <l>Surely some right withheld&#8212;some voice, in huge monotonous<lb/> rage, of freedom-lover pent,</l>
     <l>Some vast heart, like a planet's, chain'd and chafing in those<lb/> breakers,</l>
     <l>By lengthen'd swell, and spasm, and panting breath,</l>
     <l>And rhythmic rasping of thy sands and waves,</l>
@@ -122,9 +109,9 @@
     <l>The tale of cosmic elemental passion,</l>
     <l>Thou tellest to a kindred soul.</l>
    </lg>
-   <byline rend="right">W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN.</hi></byline>
-   
-   
-</body>
+   <closer>
+   <signed rend="right">W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN.</hi></signed>
+   </closer>
+  </body>
 </text>
 </TEI>

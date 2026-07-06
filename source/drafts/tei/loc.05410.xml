@@ -72,13 +72,9 @@
      
 <!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
       FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
-     <orgName xml:id=""></orgName>
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
-     <note>Transcribed from digital images of the original.</note>
-      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
-     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-     <relatedItem type="document" target="wwa.00041"/>
-     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+     
     </bibl>
    </sourceDesc>
 </fileDesc>
@@ -102,10 +98,36 @@
 
    <pb xml:id="leaf001r" facs="loc_gk.01388_large.jpg" type="recto"/>
    
-   <p>
-    
-   </p>
+   <head type="main" rend="tripleUnderline">An Indian Bureau Reminiscence</head>
+   <byline rend="underline">By Walt Whitman</byline>
    
+   <p>
+    <subst><del rend="overstrike" seq="1">At</del><add place="above" seq="2">After</add></subst> the close of the <hi rend="tripleUnderline" hand="#h02">S</hi>ecession
+    <hi rend="tripleUnderline" hand="#h02">w</hi>ar in '65 I worked
+    <del rend="overstrike" hand="#h02">for</del> several months, (until Mr.
+    Harlan turned me out for writing
+    "Leaves of Grass,") in the Interior
+    Department at Washington,
+    in the Indian Bureau. Along
+    this time <add place="below" rend="marked"><metamark target="#a001" function="add">&#8248;</metamark></add><add place="above" xml:id="a001">there came to <del rend="overstrike">Washington to</del> see their <hi rend="tripleUnderline">G</hi>reat <hi rend="tripleUnderline">F</hi>ather,</add> an unusual number
+    of <subst><del rend="overstrike" seq="1">Indian</del><add place="above" seq="2">aboriginal</add></subst> visitors delegations
+    for treaties, settlement of lands,<add place="below"><metamark target="#a002" function="add">&#8248;</metamark></add><add place="above" xml:id="a002">&amp;c.,</add>&#8212;
+    <milestone unit="glued"/>
+    <del rend="overstrike" seq="1">groups of <gap reason="illegible" extent="one word" resp="#ja"/></del><add place="above" seq="2">&#8212;some</add> young and middle
+    aged, <subst><del rend="overstrike" seq="1">and some</del><add place="above" seq="2">but mainly</add></subst> old men, from the
+    West, North, and occasionally from
+    the South&#8212;<add place="below" rend="marked"><metamark target="#a003" function="add">&#8248;</metamark></add><add place="above" xml:id="a003">&#8212;several hundreds of them, in parties of from <gap reason="illegible" extent="one word" resp="#ja"/> twenty <gap reason="illegible" extent="one word" resp="#ja"/></add>the most wonderful <subst><del rend="overstrike" seq="1"><gap reason="illegible" extent="one word" resp="#ja"/></del><add place="above" seq="2">proofs</add></subst>
+    of what <hi rend="tripleUnderline">N</hi>ature can produce,
+    <milestone unit="glued"/>
+    (the survival of the fittest, no doubt,
+    <subst><del rend="overstrike" seq="1">and the</del><add place="above" seq="2">all the</add></subst> frailer samples, sorted out,
+    by death)&#8212;how the earth and woods
+    the attrition of storms and elements
+    can train and fashion, and what
+    they can turn out indeed <hi rend="underline">chiefs</hi>,
+    men
+   </p>
+
 <!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
    <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
    
