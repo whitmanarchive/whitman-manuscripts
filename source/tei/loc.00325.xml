@@ -5,18 +5,16 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00325"> 
  <teiHeader>
   <fileDesc>
-   <titleStmt>
-    
+   <titleStmt> 
     <title level="m" type="main">Yonnondio</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="tb">Tara Ballard</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -28,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,33 +41,27 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.00325</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">The notes in Whitman's hand in blue pencil, including the number in the top right, are similar to those that appear on other manuscripts and seem to indicate that this manuscript was used as the copy-text for the printing of <hi rend="italic">November Boughs</hi>. </note>
     
-     <note type="work_relations" target="xxx.00350" cert="high">
-      <p>Proof of "Yonnondio," which was published first in 1887, with notes and corrections in Whitman's hand.</p>
-     </note>
+    <note type="work_relations" target="xxx.00350" cert="high">A proof slip of "Yonnondio," which was first published in the <hi rend="italic">Critic</hi> on November 26, 1887. The poem was later reprinted in <hi rend="italic">November Boughs</hi> (1888).</note>
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>Yonnondio</title>  
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “Yonnonido” ( 1887 ); Proof sheets with corrections and notations</title>  
      
      <date cert="high">about 1887</date>
      
-     <idno type="callno">MSS 18630, Box 30; Reel 18-19</idno>
+     <idno type="callno">MSS 18630, Box 30</idno>
      
-     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#38;1919, Library of Congress, Washington, D.C.</orgName>
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-
-     <note type="project" target="#rel01">The verso is blank.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
@@ -82,7 +73,7 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-07-06" who="#km">proofed</change>
  <change when="2024-09-23" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -91,29 +82,36 @@
   <body>
    
    <pb xml:id="leaf001r" facs="loc_ew.00218.jpg" type="recto"/>
+   
    <lg type="poem">
-     <note type="authorial" hand="#h02" place="top">W W.s Nov<add place="inline" hand="#h03">/</add>&#11840; Boughs</note>
+     <note type="authorial" hand="#h02" place="top">W W's Nov: Boughs</note>
+    
      <note type="authorial" hand="#h02" place="right">44</note>
-     <head>YONNONDIO.</head>
-     <note type="authorial" hand="#h02" place="inline">Brev</note><note type="authorial" hand="#h01" place="inline" rend="bracketed">The sense of the word is <hi rend="italic">lament for the aborigines</hi>. It is an Iroquois term;<add place="inline" hand="#h02">)</add><lb/>and has been used for a personal name.</note>
+    
+     <head type="main">YONNONDIO.</head>
+    
+     <metamark function="adjust" target="#j001"><add hand="#h02">Brev</add></metamark>
+    
+    <note type="textual" xml:id="j001">[The sense of the word is <hi rend="italic">lament for the aborigines</hi>. It is an Iroquois term;<add hand="#h03">)</add><lb/>and has been used for a personal name.]</note>
+    
      <l>A song, a poem of itself&#8212;the word itself a dirge,</l>
      <l>Amid the wilds, the rocks, the storm and wintry night;</l>
      <l>To me such misty, strange tableaux the syllables calling up;</l>
-     <l>Yonnondio&#8212;&#8212;I see, far in the west or north, a limitless <choice><orig>ra-<lb/>vine</orig><reg>ravine</reg></choice>,<lb/>
+     <l>Yonnondio&#8212;I see, far in the west or north, a limitless <choice><orig>ra-<lb/>vine,</orig><reg>ravine,<lb/></reg></choice>
            with plains and mountains dark</l>
-     <l>I see swarms of stalwart chieftains, medicine-men, and <choice><orig>war-<lb/>riors</orig><reg>warriors</reg></choice>,</l>
+     <l>I see swarms of stalwart chieftains, medicine-men, and <choice><orig>war-<lb/>riors,</orig><reg>warriors,</reg></choice></l>
      <l>As flitting by like clouds of ghosts, they pass and are gone<lb/>
            in the twilight,</l>
      <l>(Race of the woods, the landscapes free, and the falls!</l>
-     <l>No picture, poem, statement, passing them to the future: )</l>
-     <l>Yonnondio! Yonnondio! &#8212;unlimn'd they disappear;</l>
-     <l>To&#8211;day gives place, and fades&#8212;the cities, farms, factories fade;</l>
+     <l>No picture, poem, statement, passing them to the future:)</l>
+     <l>Yonnondio! Yonnondio!&#8212;unlimn'd they disappear;</l>
+     <l>To-day gives place, and fades&#8212;the cities, farms, factories fade;</l>
      <l>A muffled sonorous sound, a wailing word is borne through<lb/>
            the air for a moment,</l>
      <l>Then blank and gone and still, and utterly lost.</l>
    </lg>
    
-              <signed><hi rend="overstrike" hand="#h03">W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi></hi>.</signed>
+              <signed><del rend="overstrike" hand="#h03">W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi></del>.</signed>
    
    <pb xml:id="leaf001v" facs="loc_nk.00108_large.jpg" type="verso"/>
    
