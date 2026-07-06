@@ -6,17 +6,15 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">My 71st Year</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="tb">Tara Ballard</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -28,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,34 +41,27 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.00340</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">Numerous similar proof slips are extant. Whitman was in the habit of ordering batches of specially printed poem slips that he then "corrected" in small ways and presented as mementos to friends and admirers. The fact that Whitman notes the date and place of the poem's publication means that that note was made some time after November 1889, likely sometime in late 1889 or early 1890.</note>
     
-    
-     <note type="work_relations" target="xxx.00384" cert="high">
-      <p>Proof sheet of "My 71st Year" with revisions. "My 71st Year" was first published in 1889.</p>
-     </note>
+    <note type="work_relations" target="xxx.00384" cert="high">A corrected proof slip of "My 71st Year," which was first published in <hi rend="italic">The Century Illustrated Monthly Magazine</hi> in November 1889. The poem later appeared in <hi rend="italic">Good-Bye My Fancy</hi> (1891).</note>
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>My 71st Year</title>  
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “My 71st Year” ( 1889 ); Proof sheets with signed corrections and notations</title>  
      
-     <date cert="high">about 1889</date>
+     <date cert="high" notBefore="1889-11" notAfter="1890-06">Late 1889 or early 1890</date>
      
-     <idno type="callno">MSS 18630, Box 27; Reel 16-17</idno>
+     <idno type="callno">MSS 18630, Box 27</idno>
      
-     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#38;1919, Library of Congress, Washington, D.C.</orgName>
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-    
-     <note type="project" target="#rel01">The verso is blank.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
@@ -82,7 +72,7 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-07-06" who="#km">proofed</change>
  <change when="2024-09-28" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -91,15 +81,17 @@
   <body>
    
    <pb xml:id="leaf001r" facs="loc_ew.00219.jpg" type="recto"/>
+   
    <lg type="poem">
-     <head rend="bold">MY 71st YEAR.</head>
-     <l>After surmounting three&#8211;score and ten,</l>
+     <head type="main">MY 71st YEAR.</head>
+    
+     <l>After surmounting three-score and ten,</l>
      <l>With all their chances, changes, losses, sorrows,</l>
      <l>My parents' deaths, the vagaries of my life, the many tearing<lb/>
-            passions of me,<add place="inline" hand="#h02"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="top" rend="marked" hand="#h02" xml:id="a001">the war of '63 and '4,</add></l>
+            passions of me, <add place="below" hand="#h02"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="top" rend="marked" hand="#h02" xml:id="a001">the war of '63 and '4,</add></l>
      <l>As some old broken soldier, after a long, hot, wearying march,<lb/>
             or haply after battle,</l>
-     <l>At twilight, hobbling, answering yet to company roll&#8211;call <hi rend="italic">Here</hi><lb/>
+     <l>At twilight, hobbling, answering yet to company roll-call <hi rend="italic">Here</hi><lb/>
             with vital voice,</l>
      <l>Reporting yet, saluting yet the Officer over all.</l>
    </lg>
