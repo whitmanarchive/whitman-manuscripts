@@ -6,18 +6,16 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">This Journey</title>
-    <title level="m" type="sub">a hand-written transcription</title>
+    <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="tb">Tara Ballard</persName>
      <persName xml:id="ew">Emma Whaley</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -29,7 +27,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -45,44 +42,41 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.00365</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">Whitman was working on his "Old-Age Recitatives" cluster in late 1890, so this manuscript likely dates from around that time, in mid-to-late 1890.</note>
         
-     <note type="work_relations" cert="high">
-      <p> A draft entitled "This Journey" (the manuscript suggests Whitman was also considering the title "My Task"), later incorporated as lines 6, 7, 8, and 9 in "L. of G.'s Purport," first published in 1891. Also on the leaf is an undated, cancelled letter to Whitman from Emma Dirngee.</p>
-     </note>
+     <note type="work_relations" cert="high">A draft of a poem with two possible titles, "This Journey" or "My Task." Whitman included the poem, with the title "My Task," in a cluster of poems that he had printed in proof sheets and attempted to submit for publication in late 1890. The cluster was titled "Old-Age Recitatives" (see <ref target="loc.00231">loc.00231</ref> and <ref target="loc.00232">loc.00232</ref>), but was seemingly never published in that form or under that title. This poem later was incorporated as lines 6, 7, 8, and 9 in "L. of G.'s Purport," first published in <hi rend="italic">Good-Bye My Fancy</hi> in 1891.</note>
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>L. of G.'s Purport</title>  
+     <title>Thomas Biggs Harned Collection of the Papers of Walt Whitman: Manuscripts, [1859]-[circa 1892]; Poetry; [1891]; "L. of G.'s Purport"</title>  
      
-     <date cert="high">about 1891</date>
+     <date cert="high" when="1890">1890</date>
      
-     <idno type="callno">MSS 45443, Reel 1</idno>
+     <idno type="callno">MSS 45443</idno>
      
-     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1859–1892, Library of Congress, Washington, D.C.</orgName>
+     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842–1937, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
      <relatedItem type="text" xml:id="rel01" target="loc.07077"/>
      <relatedItem type="document" target="wwa.00594"/>
-     <note type="project" target="#rel01">The verso is blank.</note>
+     <note type="project" target="#rel01">At the bottom of the leaf is a cancelled, undated letter to Whitman from Emma Dirngee, asking for an autograph.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
     <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="blue ink" xml:id="h02" resp="#ww"></handNote>
+    <handNote medium="blue pencil" xml:id="h02" resp="#ww"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
+ <change when="2026-07-07" who="#km">proofed</change>
  <change when="2024-09-25" who="#ew">updated image links</change>
  <change when="2024-05-11" who="#tb">transcribed and encoded</change>
 </revisionDesc>
@@ -92,17 +86,19 @@
   <body>
    
    <pb xml:id="leaf001r" facs="loc_ew.00112.jpg" type="recto"/>
+   
    <lg type="poem">
-     <head><hi rend="underline">This <add place="above" hand="#h02">My</add> Journey</hi> <add place="above">Task</add></head>
-    <l>Begun amid<add place="above" hand="#h02">in</add> <del rend="overstrike" hand="#h02">my</del> ripen'd youth, and<lb/>
+     <head type="main"><hi rend="underline">This</hi> <add place="above" hand="#h02">My</add> <hi rend="underline">Journey</hi> <add place="above">Task</add></head>
+    
+    <l>Begun amid <add place="above" hand="#h02">in</add> <del rend="overstrike" hand="#h02">my</del> ripen'd youth, and<lb/>
            steadily kept on throughout,</l>
      <l>Wandering, peering, dallying with all&#8212;<lb/>
            war, peace, day, night, absorbing&#8212;<lb/>
-           never even for a brief hour abandoning,<add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">my <unclear reason="illegible" cert="low" resp="#tb"/> last</add></l>
-    <l>I end <subst><del rend="overstrike" seq="1">it here</del><add place="above" seq="2">it here</add></subst> in <add place="inline"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">poverty, sickness and</add> old age.</l>
+           never even for a brief hour abandoning, <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">my <del rend="overstrike">the</del> task</add></l>
+    <l>I end <subst><del rend="overstrike" seq="1">it here</del> <add place="above" seq="2">it here</add></subst> in <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002" rend="marked">poverty, sickness and</add> old age.</l>
    </lg>
    
-   <pb xml:id="leaf001v" facs="20051228_0201.jpg" type="verso"/>
+   <pb xml:id="leaf001v" facs="loc_km.00062.jpg" type="verso"/>
    
 </body>
 </text>
