@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?> 
-<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00051">
    <teiHeader>
       <fileDesc>
@@ -10,7 +11,6 @@
             <author>Walt Whitman</author>
             <editor role="editor">Kenneth M. Price</editor>
             <editor role="editor">Ed Folsom</editor>
-            <editor role="editor">Jeff Hill</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
@@ -37,20 +37,32 @@
                <addrLine>Lincoln, NE 68588-4100</addrLine>
             </address>
             <availability>
-               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+               <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+               <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
             </availability>
             <idno>nyp.00051</idno>
          </publicationStmt>
+         <notesStmt>
+            <note type="project" target="#dat1">The glue stains on this manuscript show that it was formerly pasted over an earlier version of these lines (nyp.00050). In that state, it was likely used to set type for the printing of a proof slip prior to the poem's first publication in 1887.</note>
+            <note type="work_relations" target="xxx.00368" cert="high">"You Lingering Sparse Leaves of Me" was first published in the November 1887 issue of <hi rend="italic">Lippincott's Magazine</hi>. There, the poem was part of a four-poem sequence titled "November Boughs." That grouping was not maintained when the poem was further revised and printed in <hi rend="italic">November Boughs</hi> (1888) and in the "Sands at Seventy" annex to <hi rend="italic">Leaves of Grass</hi> (1891-1892).
+            </note>
+         </notesStmt>
          <sourceDesc>
             <bibl>
-               <author>Walt Whitman</author>
+               <author xml:id="ww">Walt Whitman</author>
                <title resp="#nyp">"You lingering sparse leaves of me." Holograph draft of poem, undated, signed.</title>
-               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library, New York Public Library</orgName> 
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName> 
                <note type="project">Transcribed from digital images of the original.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote medium="pencil" xml:id="h01" resp="#ww" scope="sole"/>
+         </handNotes>
+      </profileDesc>
       <revisionDesc>
+         <change when="2026-07-07" who="#bb">proofed</change>
          <change who="#bb" when="2024-03-08">corrected schema and namespace declarations; moved idno</change>
          <change who="#jh" when="2024-03-08">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
@@ -61,12 +73,11 @@
    <text>
       <body>
          <pb facs="nyp.00051.001.jpg" xml:id="leaf001r" type="recto"/>
-         <lg>
-            <head type="main-derived">You tokens diminute and lorn</head>
-            <l>You tokens diminute and lorn&#8212;(not now the <del rend="overstrike" seq="1">verdant</del> <add rend="unmarked" place="above" seq="2">scents of</add> May, nor July <del rend="overstrike">&#38;</del> clover bloom&#8212;no prints of August now;)</l>
-            <l>You pallid little banners, remnants valueless-you overstay'd of time,</l>
-            <l>You dear, soul dear, continued leaves, my hardest and my last.</l>
-               <signed rend="underline">Walt Whitman</signed>
+         <lg type="poem">
+            <l>You tokens diminute and lorn&#8212;(not<lb/> now the <subst><del rend="overstrike" seq="1">verdant</del> <add place="above" seq="2">scents of</add></subst> Ma<subst rend="overwrite"><del>ys</del><add>y</add></subst>, nor July<lb/> <del rend="overstrike">cl</del> clover bloom&#8212;no fruits of<lb/> August now;)</l>
+            <l>You pallid little banners, remnants<lb/> valueless&#8212;you overstay'd of<lb/> time,</l>
+            <l>You dear, soul dear, continued leaves, my<lb/> hardest and my last.</l>
+               <signed rend="doubleUnderline">Walt Whitman</signed>
          </lg>
       </body>
    </text>
