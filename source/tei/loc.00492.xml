@@ -6,17 +6,15 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">As One by One Withdraw the Lofty Actors</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="tb">Tara Ballard</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -28,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,15 +41,12 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.00492</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
         
-     <note type="work_relations" cert="high">
-      <p>Annotated proof of the thirteen-line poem, "As One by One Withdraw the Lofty Actors," first published in 1885, later published as "Death of General Grant." This proof includes a notation suggesting the printed signature be moved to the left and that three words, "in Harper's Weekly," be inserted.</p>
+     <note type="work_relations" cert="high">Annotated proof of the thirteen-line poem, "As One by One Withdraw the Lofty Actors," first published in 1885, later published as "Death of General Grant." This proof includes a notation suggesting the printed signature be moved to the left and that three words, "in Harper's Weekly," be inserted.
      </note>
    </notesStmt>
    
@@ -60,13 +54,13 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>As One by One withdraw the Lofty Actors</title>  
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “As One by One withdraw the Lofty Actors” ( 1885 ); Proof sheets with signed corrections and notations</title>  
      
      <date cert="high">about 1885</date>
      
-     <idno type="callno">MSS 18630, Box 26; Reel 16</idno>
+     <idno type="callno">MSS 18630, Box 26</idno>
      
-     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#38;1919, Library of Congress, Washington, D.C.</orgName>
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
      
@@ -77,11 +71,11 @@
   <profileDesc>
    <handNotes>    
     <handNote medium="letterpress" xml:id="h01" resp="#unk"/><handNote xml:id="unk">Unknown</handNote>
-    <handNote medium="black ink" xml:id="h02" resp="#ww"></handNote>
+    <handNote medium="black ink" xml:id="h02" resp="#ww"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-07-08" who="#km">proofed</change>
  <change when="2024-09-25" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -91,30 +85,39 @@
    
    <pb xml:id="leaf001r" facs="loc_ew.00345.jpg" type="recto"/>
    <lg type="poem">
-     <head>AS ONE BY ONE WITHDRAW THE<lb/> LOFTY ACTORS.</head>
-     <l>I.</l>
+     <head type="main">AS ONE BY ONE WITHDRAW THE<lb/> LOFTY ACTORS.</head>
+    
+     <lg type="linegroup">
+      
+      <head type="sub" rend="center">I.</head>
      <l>As one by one withdraw the lofty actors</l>
      <l>From that great play on history's stage eterne,</l>
      <l>That lurid, partial act of war and peace&#8212;of old and new<lb/>
               contending,</l>
-     <l>Fought out through wratch, fears, dark dismays, and many a<lb/>
+     <l>Fought out through wrath, fears, dark dismays, and many a<lb/>
               long suspense;</l>
      <l>All past&#8212;and since, in countless graves receding, mellowing,</l>
      <l>Victor's and vanquish'd&#8212;Lincoln's and Lee's&#8212;now thou with<lb/>
-              them</l>
+              them,</l>
      <l>Man of the mighty days&#8212;and equal to the days!</l>
      <l>Thou from the prairies!&#8212;tangled and many-vein'd and hard<lb/>
               has been thy part,</l>
      <l>To admiration has it been enacted!</l>
-     <l>II.</l>
+     </lg>
+    
+    
+    <lg type="linegroup">
+     <head type="sub" rend="center">II.</head>
      <l>And still shall be;&#8212;resume again, thou hero heart!</l>
      <l>Strengthen to firmest day O rosy dawn of hope!</l>
      <l>Thou dirge I started first, to joyful shout reverse!&#8212;and thou<lb/>
               O grave,</l>
      <l>Wait long and long!</l>
+    </lg>
    </lg>
    
-      <note type="authorial" place="inline" hand="#h02">&#91;<milestone unit="undeclared" rend="horbar_full"/></note><signed>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</signed>
+      <note type="authorial" place="bottom" hand="#h02">[<milestone unit="undeclared" rend="horbar_full"/></note><signed>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</signed>
+   
      <note type="authorial" hand="#h02" rend="marked" place="bottom"><hi rend="underline">in Harpers' Weekly</hi></note> 
        
    <pb xml:id="leaf001v" facs="loc.00492.002.jpg" type="verso"/>
