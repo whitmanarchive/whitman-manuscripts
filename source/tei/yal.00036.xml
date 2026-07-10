@@ -57,10 +57,10 @@
       </fileDesc>
       <profileDesc>
             <handNotes>
-               <handNote medium="letter press" xml:id="h01" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
-               <handNote medium="black ink" xml:id="h02" resp="#ww"/>
-               <handNote medium="pencil" xml:id="h03" resp="#ww"/>
-               <handNote medium="pencil" xml:id="h04" resp="#unk1"><name xml:id="unk1">Unknown</name></handNote>
+               <handNote medium="letter press" xml:id="h01" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
+               <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
+               <handNote medium="pencil" xml:id="h03" resp="#ww" scope="minor"/>
+               <handNote medium="pencil" xml:id="h04" resp="#unk1" scope="minor"><name xml:id="unk1">Unknown</name></handNote>
             </handNotes>      
       </profileDesc>
       <revisionDesc>
@@ -118,11 +118,11 @@
          </lg>
          <signed rend="right">W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.<del rend="overstrike" seq="2" xml:id="d005">&#8212;</del><add place="right" hand="#h02"><metamark function="delete" target="#d005">&#948;</metamark></add></signed> 
          
-         <pb xml:id="leaf001v" facs="Yale/CD7/Whitman10.jpg" type="verso"/>
-         <note type="authorial" hand="#h03" place="top">5</note>
+         <pb xml:id="leaf001v" facs="yal_bb.00008.jpg" type="verso"/>
+         <note type="archival" hand="#h04" place="top">5</note>
          <note type="archival" hand="#h04" place="top"><hi rend="underline">$25.-</hi></note>
          <note type="archival" hand="#h04" place="top">SK</note>
-         <note target="authorial" hand="#h03" rend="circled">8</note>  
+         <note target="archival" hand="#h03" place="center" rend="circled">8</note>  
          
       </body>
    </text>
