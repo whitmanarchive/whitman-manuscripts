@@ -6,17 +6,15 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main" rend="bracketed">With Husky-Haughty Lips, O Sea</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="tb">Tara Ballard</persName>
+     <persName xml:id="bb">Brett Barney</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -39,22 +37,13 @@
                 </address>
     <availability>
      <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
-     <p>
-      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
-      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
-      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+     <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
     </availability>
-    
-
    <idno>unc.00010</idno>
    </publicationStmt>
-   <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+   <notesStmt><note type="project" target="#dat1">This manuscript was most likely written in late 1883 or early 1884, shortly before the poem appeared in <hi rend="italic">Harper's</hi>. The cancelled prose on the verso concerns John Burroughs's <hi rend="italic">Notes on Walt Whitman, As Poet and Person</hi>, published in 1867 and again, in an expanded form, in 1871. It is therefore possible, though unlikely, that Whitman had begun drafting the material for "With Husky-Haughty Lips, O Sea!" many years before it was published.</note>
+    <note type="work_relations" target="xxx.00340" cert="high">"With Husky-Haughty Lips, O Sea!" was published first in the March 1884 issue of <hi rend="italic">Harper's Monthly Magazine</hi>. It was reprinted, with the addition of one line, in <hi rend="italic">November Boughs</hi> (1888) and in the "Sands at Seventy" annex to <hi rend="italic">Leaves of Grass</hi> in 1888 and after.</note>
     
-    
-     <note type="work_relations" target="xxx.00340" cert="high">
-      <p>This is a manuscript draft of the poem, "With Husky-Haughty Lips, O Sea!," which was first published in <hi rend="italic">Harper's Monthly</hi> in March 1884. Reprinted in the "Sands at Seventy" annex to <hi rend="italic">Leaves of Grass</hi> (1888).</p>
-     </note>
    </notesStmt>
    
    <sourceDesc>
@@ -79,13 +68,13 @@
   <profileDesc>
    <handNotes>    
     <handNote medium="black ink1" xml:id="h01" scope="major" resp="#ww"/>
-    <handNote medium="black ink2" xml:id="h02" resp="#ww">
-    <handNote medium="pencil" xml:id="h03" resp="#unk"/></handNote><handNote xml:id="unk">Unknown</handNote>
+    <handNote medium="black ink2" xml:id="h02" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h03" resp="#unk"><persName xml:id="unk">Unknown</persName></handNote>
     <handNote medium="pencil" xml:id="h04" resp="#ww"/> 
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-07-13" who="#bb">proofed</change>
  <change when="2025-01-04" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>

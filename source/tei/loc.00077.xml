@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00077">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main">To the year 1889</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="sb">Sandy Byrd</persName>
+               <persName xml:id="ph">Peter Henry</persName>
+               <persName xml:id="jh">Jeff Hill</persName>
+               <persName xml:id="ew">Emma Whaley</persName>
+               <persName xml:id="bb">Brett Barney</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+               <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p> 
+            </availability>
+            <idno>loc.00077</idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="project" target="#dat1">This manuscript was almost certainly written during the days just before or after January 1, 1889.</note>
+            <note type="work_relations" target="xxx.00389" cert="high">This is a draft of the poem "To the Year 1889," first published in the 5 January 1889 issue of <hi rend="italic">The Critic</hi> and later included in <hi rend="italic">Good-Bye My Fancy</hi> (1891) under the title "To the Pending Year."</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author xml:id="ww">Walt Whitman</author>
+               <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “To the Year 1889" ( 1889 ) (published as “To the Pending Year”); Manuscript draft</title>
+               <date notBefore="1888-12-01" notAfter="1889-01-05" cert="high">Late 1888 or early 1889</date>
+               <idno type="callno">mss18630, box 30</idno>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote medium="pencil" xml:id="h01" resp="#ww" scope="sole"/>
+         </handNotes>      
+      </profileDesc>
+      <revisionDesc>
+         <change when="2026-07-10" who="#bb">proofed</change>
+         <change who="#ew" when="2024-09-24">updated image links</change>
+         <change who="#jh" when="2024-03-25">checked, corrected</change>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#sb" when="2006-11-14">converted to camel case; checked; revised</change>
+         <change who="#ph" when="2002-09-16">encoded</change>
+         <change who="#ph" when="2002-09-16">transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="loc_ew.00066.jpg" xml:id="leaf001r" type="recto"/>
+         <lg type="poem">
+            <head type="main" rend="underline">To the year 1889</head>
+            <lg type="linegroup">
+               <l>Have I no word for thee? <subst><del rend="overstrike" seq="1">some</del> <add place="above" seq="2">no</add> <add place="above" seq="3"> <note type="authorial" place="inline">?</note>some</add></subst> fierce <del rend="overstrike">strong</del><lb/> yet untold message</l>
+               <l><del rend="overstrike"><add>Spurning at last</add></del></l>
+               <l>The sleek, <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><del rend="overstrike"><add place="above" xml:id="a001">affected,</add> </del> soft, gentle screen <subst><del rend="overstrike" seq="1">I've</del> <add place="above" seq="2">I</add></subst> bent<lb/> <del rend="overstrike">below</del> behind <subst><del rend="overstrike" seq="1">too</del> <add place="above" seq="2">so</add></subst> long, <add place="below"><metamark function="add" target="#a002"></metamark></add><add place="above" xml:id="a002">at last</add> emerging from;</l>
+               <l>Have I no frank confession? what <del rend="overstrike">world</del><lb/> word O <del rend="overstrike">wor</del> <add place="above">soul</add> heart ! O world <add place="above">year</add>!</l>
+            </lg>
+            <lg type="linegroup">
+               <l>The <add place="above">old</add> <del rend="overstrike">affected</del> sugar'd praise I <subst><del rend="overstrike" seq="1">gave</del> <add place="above" seq="2">crown'd</add></subst> thee <subst><del rend="overstrike" seq="1">long</del> <add place="above" seq="2">long</add></subst><lb/> <subst><del rend="overstrike" seq="1">now</del> <add place="above" seq="2">now</add></subst> left, <subst><del rend="overstrike" seq="1">aside</del> <del rend="overstrike" seq="3"><add place="above" seq="2">off</add></del></subst> <del rend="overstrike">altogether</del></l>
+               <l>Nor affectation, year, <add hand="#h01" place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a003">for once,</add> for thee or me.</l>
+            </lg>
+         </lg>
+         <pb facs="loc.00077.002.jpg" xml:id="leaf001v" type="verso"/>
+      </body>
+   </text>
+</TEI>
