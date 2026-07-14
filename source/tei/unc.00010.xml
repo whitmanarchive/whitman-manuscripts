@@ -60,17 +60,17 @@
      
      <note>Transcribed from digital images of the original.</note>
    
-     <note type="project" target="#rel01">The verso includes an unfolded international envelope to Walt Whitman and an illustrated advertisement for the Sheldon House in Ocean Grove, New Jersey.</note>
+     <note type="project" target="#rel01">The verso includes an unfolded international envelope to Walt Whitman and the stationery letterhead for the Sheldon House in Ocean Grove, New Jersey.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   
   <profileDesc>
    <handNotes>    
-    <handNote medium="black ink1" xml:id="h01" scope="major" resp="#ww"/>
-    <handNote medium="black ink2" xml:id="h02" resp="#ww"/>
-    <handNote medium="pencil" xml:id="h03" resp="#unk"><persName xml:id="unk">Unknown</persName></handNote>
-    <handNote medium="pencil" xml:id="h04" resp="#ww"/> 
+    <handNote medium="black ink" xml:id="h01" scope="major" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h03" resp="#unk" scope="minor"><persName xml:id="unk">Unknown</persName></handNote>
+    <handNote medium="pencil" xml:id="h04" resp="#ww" scope="minor"/> 
    </handNotes>
   </profileDesc>
 <revisionDesc>
@@ -78,23 +78,24 @@
  <change when="2025-01-04" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
-
  <text type="manuscript">
   <body>
    
    <pb xml:id="leaf001r" facs="unc.00010.001.jpg" type="recto"/>
-   <lg type="poem">
  <note type="archival" place="top" hand="#h03">26</note>
+   <lg type="poem">
      <head rend="underline">With husky&#11840;haughty lips, O sea</head>
      <l>With husky&#11840;haughty lips O sea,</l>
      <l>Where day and night I walk thy surf&#11840;beat shore</l>
      <milestone unit="glued"/>
      <l>Imaging to my sense thy varied strange suggestions,</l>
      <l>Thy troops of white&#11840;maned racers urging to the goal,</l>
-    <l>Thy brooding murk and scowl&#8212;thy unloos'd hurricanes<add place="inline" hand="#h02"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" hand="#h02" xml:id="a001" seq="1">The ceaseless curious rapping of thy sands andw aves,&#8212;<del rend="overstrike" hand="#h02" seq="2">thy sudden changes</del></add></l>
-     <l>Thy ample smiling face, dash'd with the sparkling<lb/>
+    <l><add hand="#h02">The ceaseless curious rapping of thy sands and waves,&#8212;<del rend="overstrike" hand="#h02">thy sudden changes</del></add></l>
+    <l>Thy brooding murk and scowl&#8212;thy unloos'd hurricanes<del rend="overstrike">,</del></l>
+    <l>Thy ample smiling face, dash'd with the sparkling<lb/>
            dimples of the sun,</l>
-     <l><subst><del rend="overstrike" seq="1">Thy unsubduedness, caprices, wilfulness,</del><add place="above" seq="2">Thy unsubduedness, caprices, wilfulness,</add></subst></l>
+     <l><add>Thy unsubduedness, caprices, wilfulness,</add></l>
+    <l><del rend="overstrike">Thy unsubduedness, caprices, wilfulness,</del></l>
      <l>Great as thou art, thy many tears&#8212;a lack from<lb/>
            all eternity in thy content,</l>
      <l>Thy lonely state&#8212;something thou ever seek'st<lb/>
