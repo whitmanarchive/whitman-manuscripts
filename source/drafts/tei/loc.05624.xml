@@ -70,8 +70,7 @@
      
      <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
      
-<!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
-      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
+
      <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
@@ -118,17 +117,15 @@
     say, there are dark or almost dark <subst><add place="below" seq="2"><metamark target="#a005" function="add" >&#8248;</metamark></add><add place="above" xml:id="a005" seq="3">unnoticed orbs</add> <del rend="overstrike" seq="1">stars</del></subst>
     and suns, (like the dusky companion
     of Sirius, seven times as large as our
-    own sun) rolling through space, <add place="below" seq="2"><metamark target="#a006" function="add">&#8248;</metamark></add><add place="above" xml:id="a006" seq="3"></add> <del rend="overstrike" seq="1">as</del> real
-    and potent. Only none <unclear reason="illegible" resp="#ja" cert="low">reeks</unclear> of them. In the
-    bright <gap extent="one word" resp="#ja" reason="illegible"/> we gave the sky, they have
-    not even names. Amid the sophistications
-    of <unclear reason="illegible" resp="#ja" cert="high">life</unclear> the soul seems to <gap reason="illegible" resp="#ja" extent="one word"/> yearningly around
-    for such contrasts such cool stable <unclear reason="illegible" resp="#ja" cert="low">offices</unclear>. And
-    now for one <gap reason="illegible" resp="#ja" extent="one word"/>.
+    own sun) rolling through space, <subst><add place="below" seq="2"><metamark target="#a006" function="add">&#8248;</metamark></add><del rend="overstrike" seq="4"><add place="above" xml:id="a006" seq="3"><gap reason="illegible" resp="#ja" extent="five words"/></add></del> <del rend="overstrike" seq="1">as</del></subst> real
+    and potent. <subst><del rend="overstrike" seq="1">Only</del><del rend="overstrike" seq="3"><add place="above" seq="2">But</add></del><add place="below" seq="4"><metamark target="#a007" function="add">&#8248;</metamark></add><add place="above" seq="5" xml:id="a007">Yet</add></subst> none <unclear reason="illegible" resp="#ja" cert="low">reeks</unclear> of them. In the
+    bright <gap extent="one word" resp="#ja" reason="illegible"/> we gave the <subst><add place="below" seq="2" hand="#h03" rend="marked"><metamark target="#a008" function="add">&#8248;</metamark></add><add place="above" xml:id="a008" seq="3"><del rend="overstrike" seq="4">?</del> spreading heavens, and <del rend="overstrike" seq="5">stars</del></add><del rend="overstrike" seq="1">sky</del></subst>, they have
+    not even <add place="above" hand="#h03">a</add> name<del rend="overstrike" hand="#h03">s</del>. Amid <subst><del rend="overstrike" seq="1">the</del><add place="above" seq="2">ceaseless</add></subst> sophistications
+    <del rend="overstrike" seq="1">of</del><add place="below" seq="2"><metamark target="#a009" function="add">&#8248;</metamark></add><add place="above" xml:id="a009">all times</add> <unclear reason="illegible" resp="#ja" cert="high">life</unclear> the soul <add place="above" hand="#h03">would</add> seem<del rend="overstrike" hand="#h03">s</del> to <gap reason="illegible" resp="#ja" extent="one word"/> yearningly around
+    for such contrasts such cool stable <unclear reason="illegible" resp="#ja" cert="low">offices</unclear>. <del rend="overstrike">And
+    now for one <gap reason="illegible" resp="#ja" extent="one word"/>.</del>
    </p>
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
    
 </body>
 </text>
