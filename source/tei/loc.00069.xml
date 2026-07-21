@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00069">
+
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main">Go forth, ye twain</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="ag">Amanda Gailey</persName>
+               <persName xml:id="bb">Brett Barney</persName>
+               <persName xml:id="fl">Farrah Lehman</persName>
+               <persName xml:id="km">Kenneth M. Price</persName>
+               <persName xml:id="jh">Jeff Hill</persName>
+               <persName xml:id="ew">Emma Whaley</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+               <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+            </availability>
+            <idno>loc.00069</idno>
+         </publicationStmt>
+         <notesStmt>
+            
+            <note type="project" target="#dat1">This manuscript was probably composed between 22 March and 10 May 1890, since the letter on the reverse bears the former date and a later draft of the poem (loc.00239) bears a note indicating that it was written on the latter date.</note>                
+            <note type="work_relations" target="xxx.0383" cert="high">"On, On the Same, Ye Jocund Twain!" was first published in <hi rend="italic">Good-Bye My Fancy</hi>, in May 1891. It also appeared shortly thereafter in the 9 June 1891 issue of the magazine <hi rend="italic">Once a Week</hi>.</note>                        	
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author xml:id="ww">Walt Whitman</author>
+               <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “On, on the Same, Ye Jocund Twain!” ( 1891 ); Manuscript drafts</title>
+               <date cert="high" notBefore="1890-03-22" notAfter="1890-05-10" xml:id="dat1">Between March 22 and May 10, 1890.</date>
+               <idno type="callno">mss18630, box 28</idno>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+               <note type="project">Transcribed from digital images of the original.</note>
+               <relatedItem type="text" xml:id="rel01" target="loc.05037"/>
+               <relatedItem type="document" target="wwa.00098"/>
+               <note type="project" target="#rel01">On the reverse is a letter from Albert Johannsen, dated March 22, 1890, requesting Whitman's autograph.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote medium="pencil" xml:id="h01" resp="#ww" scope="major"/>
+            <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
+            <handNote medium="purple crayon" xml:id="h03" resp="#ww" scope="minor"/>
+         </handNotes>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2026-07-20" who="#bb">Removed transcription and encoding of leaves 2 and 3 (created them as loc.00127 and loc.00128, respectively); proofed</change>
+         <change who="#ew" when="2024-09-24">updated image links</change>
+         <change who="#jh" when="2024-05-21">checked, corrected</change>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#bb" when="2005-08-15">revised to a single entity</change>
+         <change who="#fl" when="2006-08-22">checked</change>
+         <change who="#km" when="2006-08-25">edited</change>
+         <change who="#ag" when="2002-10-15">transcribed; encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="loc_ew.00056.jpg" xml:id="leaf001r" type="recto"/>
+         <lg type="linegroup">
+            <l>Such curious, idle meditations</l>
+         </lg>
+         <lg type="poem">
+            <head type="main" rend="underline">Go forth, ye twain.</head>
+            <l>Go forth, ye <subst hand="#h03"><del rend="overstrike" seq="1">shadowy</del> <add place="above" seq="2">fused &amp; ending</add></subst> twain! <del rend="overstrike" hand="#h02">go<lb/> forth my life!</del></l>
+            
+            <l>Go forth, my <add hand="#h02" place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a001">life and</add> book! <add hand="#h02" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a002">my</add> birth, youth,<lb/>
+                  <del rend="overstrike" hand="#h02">my </del> early <subst><del rend="overstrike" seq="1">life,</del> <add place="above" seq="2">years,</add></subst> <del rend="overstrike">connected seasons,</del></l>
+            
+            <l>Fitful as tongues of flame all twined<lb/>
+               inseparable and merged in one,</l>
+            
+            <l><del rend="overstrike">Mid-age&#8212;</del><subst hand="#h01" rend="overwrite"><del>t</del><add>T</add></subst>he war&#8212;the many problems,<lb/>
+                  <add hand="#h01" place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a003">thoughts,</add> <del rend="overstrike">loves of me</del> <add hand="#h02" place="below"> of me</add>&#8212;and with the rest<lb/>
+               old age,</l>
+           
+            <l xml:id="tr001">Flickering, to other seasons, problems,<lb/>
+                  <del rend="overstrike" hand="#h03">ages,</del> <subst><del rend="overstrike" hand="#h02" seq="1">loves.</del> <del rend="overstrike" hand="#h03" seq="3"><add place="above" hand="#h02" seq="2">thoughts.</add></del> <add place="above" hand="#h03" seq="4">ages</add></subst></l>
+            
+            <l xml:id="tr002"><add place="inline" hand="#h03">For all its wanderings,<lb/>
+               (even its <subst hand="#h03"><del rend="overstrike" seq="1">errors</del> <add place="above" seq="2">strayings</add></subst>,)<lb/> strifes <add place="above" hand="#h03">and aims</add>&#8212;where I see<lb/> here embodied,<lb/> gathered,</add></l>
+            
+            <l xml:id="tr003"><handShift new="#h02"/><del rend="overstrike" hand="#h02">With pur</del></l>
+            
+            <l xml:id="tr004"><del rend="overstrike" hand="#h02">Purported with <add place="above" hand="#h02">as</add></del></l>
+            
+               <l xml:id="tr005"><add hand="#h02" place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a004">Aims, <del rend="overstrike">lights</del></add> <subst rend="overwrite" hand="#h02"><del>P</del><add>p</add></subst>urports <subst><del rend="overstrike" seq="1">confirmations,</del> <del rend="overstrike" seq="3"><add place="above" seq="2">texts</add></del></subst> balances,<lb/>
+                  confirmations, lights</l>
+            <listTranspose>
+               <transpose>
+                  <ptr target="#tr004"/>
+                  <ptr target="#tr005"/>
+                  <ptr target="#tr001"/>
+                  <ptr target="#tr002"/>
+                  <ptr target="#tr003"/>
+               </transpose>
+            </listTranspose>
+            <l>A nations knitted tie<lb/>
+               &#8212;a trial <del rend="overstrike" hand="#h02">tough will</del><lb/>
+               great and victory great</l>
+            <l><add place="inline" hand="#h03">Here <subst hand="#h03"><add rend="unmarked" place="above" seq="2">for</add> <del rend="overstrike" seq="1">all</del> </subst>its wanderings, (even its strayings)<lb/>
+               strifes and aims&#8212;;gather'd <subst hand="#h03"><add place="above" seq="2"> at last</add> <del rend="overstrike" seq="1">here</del></subst> triumphant</add></l>
+            <pb facs="loc_ew.00057.jpg" xml:id="leaf001v" type="verso"/> 
+         </lg>
+      </body>
+   </text>
+</TEI>
