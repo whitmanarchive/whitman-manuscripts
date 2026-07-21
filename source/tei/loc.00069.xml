@@ -94,7 +94,7 @@
             <l>Go forth, ye <subst hand="#h03"><del rend="overstrike" seq="1">shadowy</del> <add place="above" seq="2">fused &amp; ending</add></subst> twain! <del rend="overstrike" hand="#h02">go<lb/> forth my life!</del></l>
             
             <l>Go forth, my <add hand="#h02" place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a001">life and</add> book! <add hand="#h02" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a002">my</add> birth, youth,<lb/>
-                  <del rend="overstrike" hand="#h02">my </del> early <subst><del rend="overstrike" seq="1">life,</del> <add place="above">years,</add></subst> <del rend="overstrike">connected seasons,</del></l>
+                  <del rend="overstrike" hand="#h02">my </del> early <subst><del rend="overstrike" seq="1">life,</del> <add place="above" seq="2">years,</add></subst> <del rend="overstrike">connected seasons,</del></l>
             
             <l>Fitful as tongues of flame all twined<lb/>
                inseparable and merged in one,</l>
@@ -102,32 +102,33 @@
             <l><del rend="overstrike">Mid-age&#8212;</del><subst hand="#h01" rend="overwrite"><del>t</del><add>T</add></subst>he war&#8212;the many problems,<lb/>
                   <add hand="#h01" place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a003">thoughts,</add> <del rend="overstrike">loves of me</del> <add hand="#h02" place="below"> of me</add>&#8212;and with the rest<lb/>
                old age,</l>
+           
+            <l xml:id="tr001">Flickering, to other seasons, problems,<lb/>
+                  <del rend="overstrike" hand="#h03">ages,</del> <subst><del rend="overstrike" hand="#h02" seq="1">loves.</del> <del rend="overstrike" hand="#h03" seq="3"><add place="above" hand="#h02" seq="2">thoughts.</add></del> <add place="above" hand="#h03" seq="4">ages</add></subst></l>
             
-<!--            BEGIN HERE -->
+            <l xml:id="tr002"><add place="inline" hand="#h03">For all its wanderings,<lb/>
+               (even its <subst hand="#h03"><del rend="overstrike" seq="1">errors</del> <add place="above" seq="2">strayings</add></subst>,)<lb/> strifes <add place="above" hand="#h03">and aims</add>&#8212;where I see<lb/> here embodied,<lb/> gathered,</add></l>
             
-            <!--<anchor xml:id="t1"/>-->
-            <l>Flickering, to other seasons, problems,<lb/>
-                  <del rend="overstrike">ages</del><subst><rdg varSeq="1"><del rend="overstrike">loves</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked"><del rend="overstrike">thoughts</del></add></rdg></subst> ages</l>
+            <l xml:id="tr003"><handShift new="#h02"/><del rend="overstrike" hand="#h02">With pur</del></l>
             
-            <l>For all its wanderings,<lb/>
-               (even its <subst><rdg varSeq="1"><del rend="overstrike">arrows</del></rdg><rdg varSeq="2"><add rend="unmarked" place="above">strayings</add></rdg></subst> <add rend="unmarked" place="interlinear">and arms)</add><lb/>
-               strifes&#8212;,where I see<lb/>
-               here embodied,<lb/>
-               gathered,</l>
+            <l xml:id="tr004"><del rend="overstrike" hand="#h02">Purported with <add place="above" hand="#h02">as</add></del></l>
             
-            <l><del rend="overstrike">With pur</del></l>
-            <!--"WITH PUR-" AND "PURPORTED WITH" ARE MOST LIKELY VARIANT READINGS, BUT I CAN'T USE AN <subst> HERE BECAUSE OF THE <TRANSPOSE> THAT TAKES PLACE BELOW.-->
-            <transpose anchored="yes" target="t1">
-               <l><subst><rdg varSeq="1"><del rend="overstrike">Purported with</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked"><del rend="overstrike">as</del></add></rdg></subst></l>
-               <l><add rend="insertion" place="above">Aims, <del rend="overstrike">lights</del></add><subst><rdg varSeq="1">Purports<del rend="overstrike">confirmation </del></rdg><rdg varSeq="2"><add place="above" rend="unmarked"><del rend="overstrike">texts</del></add></rdg></subst> balances,<lb/>
-                  confirmation, lights</l>
-            </transpose>
-            <!--RE:THE ABOVE TRANSPOSITION, I'VE ENCODED THE LINES ENCIRCLED BY THE TRANSPOSITION LINE AS THE ONES INTENDED TO BE TRANSPOSED.-->
-            <l>A nations knitted tie,<lb/>
-               —a trial <del rend="overstrike">tough will</del><lb/>
+               <l xml:id="tr005"><add hand="#h02" place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a004">Aims, <del rend="overstrike">lights</del></add> <subst rend="overwrite" hand="#h02"><del>P</del><add>p</add></subst>urports <subst><del rend="overstrike" seq="1">confirmations,</del> <del rend="overstrike" seq="3"><add place="above" seq="2">texts</add></del></subst> balances,<lb/>
+                  confirmations, lights</l>
+            <listTranspose>
+               <transpose>
+                  <ptr target="#tr004"/>
+                  <ptr target="#tr005"/>
+                  <ptr target="#tr001"/>
+                  <ptr target="#tr002"/>
+                  <ptr target="#tr003"/>
+               </transpose>
+            </listTranspose>
+            <l>A nations knitted tie<lb/>
+               &#8212;a trial <del rend="overstrike" hand="#h02">tough will</del><lb/>
                great and victory great</l>
-            <l>Here <subst><rdg varSeq="1"><del rend="overstrike">all</del></rdg><rdg varSeq="2"><add rend="unmarked" place="above">for</add></rdg></subst>its wanderings (even its strangeness)<lb/>
-               strifes and aims&#8212;;gather'd <subst><rdg varSeq="1"><del rend="overstrike">here</del></rdg><rdg varSeq="2"><add rend="unmarked" place="above">at last </add></rdg></subst> <gap reason="illegible"/></l>
+            <l><add place="inline" hand="#h03">Here <subst hand="#h03"><add rend="unmarked" place="above" seq="2">for</add> <del rend="overstrike" seq="1">all</del> </subst>its wanderings, (even its strayings)<lb/>
+               strifes and aims&#8212;;gather'd <subst hand="#h03"><add place="above" seq="2"> at last</add> <del rend="overstrike" seq="1">here</del></subst> triumphant</add></l>
             <pb facs="loc_ew.00057.jpg" xml:id="leaf001v" type="verso"/> 
          </lg>
       </body>
