@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00220"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title level="m" type="main">The Mystic Cipher</title>
+    <title level="m" type="sub">a hand-written transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     <persName xml:id="tb">Tara Ballard</persName>
+     <persName xml:id="ew">Emma Whaley</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2026</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+   <idno>loc.00220</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1">This manuscript was likely composed sometime in 1887.</note>
+        
+    <note type="work_relations" cert="high" target="xxx.00390">A draft of a poem which was first published in <hi rend="italic">The Cosmopolitan</hi> in October 1887, under the title "Shakspere-Bacon's Cipher." The poem was then reprinted in <hi rend="italic">Good-Bye My Fancy</hi> (1891).</note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “The Mystic Cipher” ( undated ), draft</title>  
+     
+     <date cert="high" notBefore="1887-01" notAfter="1887-10">1887</date>
+     
+     <idno type="callno">MSS 18630, Box 27</idno>
+     
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="black ink" xml:id="h02" resp="#ht" scope="minor"><persName xml:id="ht">Horace Traubel</persName></handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ <change when="2026-07-03" who="#km">proofed</change>
+ <change when="2024-09-24" who="#ew">updated image links</change>
+ <change when="2024-05-06" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="loc_ew.00105.jpg" type="recto"/>
+   
+   <lg type="poem">
+     <head type="main">The Mystic cipher</head>
+    
+     <head type="sub" rend="underline">a hint for scientists</head>
+    
+     <l><subst><del rend="overstrike" seq="1">Oft <gap reason="illegible" extent="one word"/> think</del> <add rend="above" seq="2">Doubtless</add></subst> in each and all</l>
+    <l>In book, in man <add place="above" rend="marked">in <add place="above">the</add> songs bequeathed&#8212;nor them alone&#8212;</add>,&#8212;in every object,</l>
+     <l><del rend="overstrike">The s</del></l>
+     <l>Tree, river, star,</l>
+    <l><del rend="overstrike">Part</del> All part of <del rend="overstrike"><unclear cert="low" reason="illegible" resp="#tb">ac</unclear></del> each <del rend="overstrike">infold</del> <add place="above"><add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above">after the rest</add> the meaning</add> at the last</l>
+     <l>A mystic <add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">luring, puzzling</add> cipher is secreted</l>
+     <l>Which no one yet</l>
+    <l><del rend="overstrike">We</del> Dear prize! <subst><del rend="overstrike" seq="1">well may you rest unknown</del> <add place="above" seq="2">eternal source</add></subst></l>
+          <l>Centre and spur of science, life, love, hope</l>
+          <l>Well may <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">you</add> rest fore'er unsolved unknown</l>
+   </lg>
+   
+   <note place="right" hand="#h02" type="editorial">Ms. of Walt Whitman's poem as publ'd in L of G. For Mildred &amp; Frank Bain 1911 <space dim="horizontal" extent="about five characters"/> Horace Traubel</note>
+   
+   <pb xml:id="leaf001v" facs="loc.00220.002.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>

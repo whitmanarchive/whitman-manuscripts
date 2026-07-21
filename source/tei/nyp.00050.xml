@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00050">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main">You lingering sparse leaves of me</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="ll">Liz Lorang</persName>
+               <persName xml:id="jh">Jeff Hill</persName>
+               <persName xml:id="bb">Brett Barney</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+               <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+            </availability>
+            <idno>nyp.00050</idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="project" target="#dat1">This draft was probably prepared for the printing of a proof slip prior to the poem's first publication in 1887, as one of the notes at the top appears to have been written by a person engaged in setting the poem in type. The glue marks on this and another manuscript (nyp.00051) align, indicating that Whitman had written the lines on the latter as a revision of the last three lines in the present manuscript.</note>
+            <note type="work_relations" target="xxx.00368" cert="high">"You Lingering Sparse Leaves of Me" was first published in the November 1887 issue of <hi rend="italic">Lippincott's Magazine</hi>. There, the poem was part of a four-poem sequence titled "November Boughs." That grouping was not maintained when the poem was further revised and printed in <hi rend="italic">November Boughs</hi> (1888) and in the "Sands at Seventy" annex to <hi rend="italic">Leaves of Grass</hi> (1891-1892).
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author xml:id="ww">Walt Whitman</author>
+               <title>"You lingering sparse leaves of me." Holograph draft of poem, undated, signed</title>
+               <date notBefore="1885-05" notAfter="1887-12" cert="high" xml:id="dat1">Between 1885 and 1887</date>
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote medium="black pen" xml:id="h01" resp="#ww" scope="major"/>
+            <handNote medium="pencil" xml:id="h02" resp="#ww" scope="minor"/>
+            <handNote medium="pencil" xml:id="h03" resp="#unk1" scope="minor"><name xml:id="unk1">Unknown</name></handNote>
+         </handNotes>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2026-07-06" who="#bb">proofed</change>
+         <change who="#jh" when="2024-05-28">checked, corrected</change>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#ll" when="2004-09-13">encoded</change>
+         <change who="#ll" when="2004-09-13">transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="nyp.0050.001.jpg" xml:id="leaf001r" type="recto"/>
+         <note place="top" type="authorial" rend="circled" hand="#h02">black</note>
+         <note place="top" type="collaborative" rend="circled" hand="#h03">piece by itself</note>
+         <note place="top" type="authorial" rend="circled"><del rend="overstrike">finished version</del></note>
+         <lg type="poem">
+            <head type="main" rend="underline">You lingering sparse leaves of me.</head>
+            <l>You lingering sparse leaves of me on<lb/>
+               bare December boughs,</l>
+            <l>And I some well&#11840;shorn tree of field<lb/>
+               or orchard row;</l>
+            <l>You tokens 
+               <subst><del rend="overstrike" seq="1" hand="#h01">late</del> <!----> 
+                  <del rend="overstrike" hand="#h02" seq="3"><add hand="#h01" place="above" seq="2">old</add></del> 
+                  <del rend="overstrike" hand="#h02" seq="5"><add place="above" hand="#h02" seq="4">different</add></del>
+                  <del rend="overstrike" hand="#h02" seq="7"><add place="above" hand="#h02" seq="6">meagre</add></del>
+                  <add hand="#h02" place="below" seq="2"><metamark function="add" target="#a001">&#8248;</metamark></add>
+                  <add hand="#h02" place="above" seq="8" xml:id="a001">diminute</add>
+               </subst> and lorn&#8212;(<subst><del rend="overstrike" seq="1">no more</del>
+                  <add place="above" seq="2">not now</add></subst><lb/>
+               the verdant May's,&#8212;<add hand="#h01" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a002" rend="marked"><subst><del rend="overstrike" seq="1" hand="#h01">no<add hand="#h02">r</add></del> <add place="above" seq="2">or</add></subst>
+                  July clover bloom,</add>
+                <del rend="overstrike" hand="#h02">nor crops</del><lb/>
+                  <del rend="overstrike" hand="#h01"><add place="inline" hand="#h02">n</add></del>or <add place="above" hand="#h02">&#8212;no</add> fruits of August now;)</l>
+            <l>You <subst hand="#h02"><del rend="overstrike" seq="1">meagre</del> <add place="above" seq="2">pallid</add></subst> 
+               little banners<add hand="#h02">,</add> <del rend="overstrike" hand="#h02">flaunted</del><lb/>
+               <subst><del rend="overstrike" hand="#h02" seq="1">to the air</del> <add hand="#h01" place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><del rend="overstrike" seq="3" hand="#h02"><add place="above" seq="2" xml:id="a003">flaunting yet&#8212;</add></del></subst>&#8212;<del rend="overstrike">you</del> remnants valueless&#8212;<lb/>
+               you overstay'd of time;</l>
+            <l>Yet dear, soul dear, <subst hand="#h02"><del rend="overstrike" seq="1">diminute</del> <add place="above" seq="2">continued</add></subst> leaves,<lb/>
+               my hardiest and my last.</l>
+               <signed rend="doubleUnderline">Walt Whitman</signed>
+         </lg>
+         <pb facs="nyp.0050.002.jpg" xml:id="leaf001v" type="verso"/>
+      </body>
+   </text>
+</TEI>

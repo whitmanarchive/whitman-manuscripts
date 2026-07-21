@@ -62,31 +62,25 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Oversize, 1844-1952; Literary File; Books; Good-Bye My Fancy (1891); Manuscript draft (Container 20)</title>  
      
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date notBefore="" notAfter="" cert=""></date>
+
+     <date when="1891" cert="high">About 1891</date>
      
-     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     <idno type="callno">mss18630, box OV 2</idno>
      
-<!--  CONSULT THE ENCODING GUIDELINES FOR THE PREFERRED REFERENCE TO THE COLLECTION, WHICH YOU SHOULD PUT AS THE CONTENT OF THE FOLLOWING <ORGNAME>. 
-      FOR THE VALUE OF @XML:ID, USE THE THREE-LETTER REPOSITORY CODE LISTED IN THE ENCODING GUIDELINES. -->
-     <orgName xml:id=""></orgName>
+
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
-     <note>Transcribed from digital images of the original.</note>
-      <!-- THE FOLLOWING INFORMATION ABOUT A RELATED ITEM ON THE MANUSCRIPT IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT, IF APPLICABLE. IF THERE IS NO RELATED ITEM(S), DELETE THE FOLLOWING THREE TAGS (both <relatedItem>s and the <note type="project">)-->
-     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-     <relatedItem type="document" target="wwa.00041"/>
-     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+     
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
     <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
-    <handNote medium="blue ink" xml:id="h02" resp="#ww" scope="minor"></handNote>
-    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
+    <handNote medium="blue pencil" xml:id="h02" resp="#ww" scope="minor"></handNote>
+    <handNote medium="pencil" xml:id="h03" resp="#ww" scope="major"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
@@ -102,10 +96,11 @@
    <pb xml:id="leaf001r" facs="loc_ja.00080.jpg" type="recto"/>
    
    <note hand="#h02" place="top" type="collaborative">brevier</note>
-   
+   <note type="collaborative" rend="marked"><del rend="overstrike" hand="#h02">noup</del> caps</note>
+   <note type="collaborative" rend="circled">A at end</note>
    <head type="main" rend="tripleUnderline">
     Last <subst><del rend="overstrike" seq="1">little</del><add place="above" seq="2">saved</add></subst> items
-   <unclear reason="illegible" resp="#ja" cert="low">from</unclear>  a vast batch <subst><add place="below" seq="2"><metamark target="#a001" function="add">&#8284;</metamark></add><add place="above" xml:id="a001" seq="3">left to oblivion.</add> <del rend="overstrike" seq="1">unprinted.</del></subst>
+   <unclear reason="illegible" resp="#ja" cert="low">from</unclear> a vast batch <subst><add place="below" seq="2"><metamark target="#a001" function="add">&#8284;</metamark></add><add place="above" xml:id="a001" seq="3">left to oblivion.</add> <del rend="overstrike" seq="1">unprinted.</del></subst>
    </head>
    
    <note place="left" rend="circled" type="collaborative">ital shove to right</note>
@@ -118,35 +113,165 @@
     the adjunct, and more serviceable to that
     true religion (for of course there is a
     false one and plenty of it.) than all
-    the priests and churches that now exist
+    the priests <add place="below"><metamark target="#a002" function="add">&#8248;</metamark></add><add place="above" xml:id="a002">and creeds</add> and churches that now exist
     or have ever existed&#8212;<hi rend="tripleUnderline">E</hi>ven while
    </p>
    
    <p>
-   Even while the temporary prevalent
-   theory and practice of poetry is merely
-   something ornamental and dainty&#11840;a love-sigh,
+   <del rend="overstrike">Even while</del> the temporary prevalent
+   theory and practice of poetry is merely <add place="below"><metamark target="#a003" function="add">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a003">one&#11840;side and</add>
+   <del rend="overstrike">something</del> ornamental and dainty&#11840;a love-sigh,
    a bit of jewelry, a feudal conceit,
    and ingenious tale or intellectual finesse,
-   adjusted to the low calibre that will always
-   sufficiently generally prevail (the ranges
+   adjusted to the low <add place="below"><metamark target="#a004" function="add">&#8248;</metamark></add><add place="above" xml:id="a004">taste and</add> calibre that will always
+   sufficiently generally prevail (<del rend="overstrike">the</del> ranges
    of stairs necessary to ascend the higher.)
    </p>
    
-   <p>
-    The religious follies, crimes, banalicisms,
-    aggregate and individual, so rife in
+   <p xml:id="a005">
+    
+    <add place="left"><metamark target="#a005" function="adjust" rend="marked circled">#2 leads</metamark></add>
+    
+    The <subst><add place="below" seq="2"><metamark target="#a006" function="add">&#8248;</metamark></add><add place="above" xml:id="a006">sectarian, church, and doctrinal</add><del rend="overstrike" seq="1">religious</del><add place="below" seq="3"><metamark target="#a006" function="add">&#8248;</metamark></add></subst> follies, crimes, banalicisms,
+    aggregate and individual, so rife <del rend="overstrike" seq="1">in</del><add place="below"><metamark target="#a007" function="add">&#8248;</metamark></add><add place="above" xml:id="a007">allthr<unclear resp="#ja" reason="illegible" cert="high">u</unclear></add>
     history, are proofs of the radicialness and
-    universally of this indestructible element
-    of humanity's just as much as any, and
-    are the other side of religion. Just as
-    disease and proves health, and is the
-    other side of it . . . . . The philosophy of
-    Greece taught health and the beauty of life.
+    universally of <subst><del rend="overstrike" seq="1">this</del><add place="above" seq="2">the</add></subst> indestructible element
+    of humanity's <add place="below"><metamark target="#a008" function="add">&#8248;</metamark></add><add place="above" xml:id="a008">Religion</add> just as much as any, and
+    are the other side of <subst><del rend="overstrike" seq="1">religion</del><add place="above" seq="2">it</add></subst>. Just as
+    disease <del rend="overstrike">and</del> proves health, and is the
+    other side of it <add place="above" rend="circled"><metamark function="adjust">3 em leader</metamark></add>. . . . . The philosophy of
+    Greece taught <subst><del rend="overstrike" seq="1">health</del><add place="above" seq="2">normality</add></subst> and the beauty of life.
    </p>
    
-<!--  EDIT THE VALUE OF THE @FACS TO CORRESPOND WITH THE NAME OF THE VERSO IMAGE  -->
-   <pb xml:id="leaf001v" facs="duk_nhg.00754_large.jpg" type="verso"/>
+
+   <pb xml:id="leaf001v" facs="loc_ja.00081.jpg" type="verso"/>
+   
+   <note type="authorial" rend="tripleUnderline" place="top">Last random items</note>
+   <note type="collaborative" rend="marked" place="above">noup caps</note>
+   
+   <pb xml:id="leaf002r" facs="loc_ja.00082.jpg" type="recto"/>
+   
+   <note place="top" type="collaborative" rend="circled">B at end</note>
+   
+   <p>
+    Christianity teaches how to endure illness
+    and death. I have wonder'd whether a
+    third philosophy fusing both and doing
+    full justice to both, might not be outlined. 
+   </p>
+  
+   <p xml:id="a010"> 
+    
+    <add place="above"><metamark target="#a010" function="adjust" rend="circled">#2 leads</metamark></add>
+    
+    It will not be enough to say that
+    no <subst><del rend="overstrike" seq="1">race</del><add place="above" seq="2">Nation</add></subst> ever achiev'd materialistic, <del rend="overstrike">material</del>
+    political and money-making successes,
+    with general physical comfort <add place="below"><metamark target="#a011" function="add">&#8248;</metamark></add><add place="above" xml:id="a011"><unclear reason="illegible" resp="#ja" cert="low">as bulky</unclear></add>as the
+    United States of America <subst><del rend="overstrike" seq="1">have</del><add place="below" seq="2"><metamark target="#a012" function="add">&#8248;</metamark></add><add place="above" seq="3" xml:id="a012">are to-day</add></subst> achiev<subst><del rend="overstrike" seq="1">'d</del><add place="above" seq="2">ing</add></subst>
+    them. I know very well that those
+    are the indispensiable foundations&#8212;<del rend="overstrike">and precedents</del>&#8212;
+    the <hi rend="underline">sine qua non</hi> of <del rend="overstrike">the</del> moral
+    and heroic <add place="below"><metamark target="#a013" function="add">&#8248;</metamark></add><add xml:id="a013" place="above">(poetic)</add> fruitions to come. For if
+    those <add place="below"><metamark target="#a014" function="add">&#8248;</metamark></add><add place="above" xml:id="a014">pre&#11840;successes</add> were all&#8212;if they ended at that&#8212;
+    if nothing more were yielded than so
+    far appears&#8212;a gross <add place="below"><metamark target="#a015" function="add">&#8248;</metamark></add><add place="above" xml:id="a015">materialistic</add> prosperity only&#8212;
+    America, tried by <del rend="overstrike" seq="1">highest</del><add place="above" seq="2">subtlest</add> tests were <del rend="overstrike">either</del>
+    a failure&#8212;<del rend="overstrike">or</del> has not advanced the standard
+    of humanity a bit further than other
+    nations. Or in <del rend="overstrike" seq="1">other</del><add place="above" seq="2">plain</add> terms, has but inherited
+    and enjoy'd the results of <add place="below"><metamark target="#a016" function="add">&#8248;</metamark></add><add place="above" xml:id="a016">ordinary claims and</add> preceding
+    ages <subst><del rend="overstrike" seq="1">and ended at that.</del><add place="below" seq="2"><metamark target="#a017" function="add">&#8248;</metamark></add><add place="above" seq="3" xml:id="a017">.</add></subst>
+   </p>
+   
+   <pb xml:id="leaf003r" facs="loc_ja.00083.jpg" type="recto"/>
+   
+   <metamark function="adjust" rend="circled">#2 leads</metamark>
+   
+   <metamark function="adjust" rend="circled">C at end</metamark>
+   
+   <p>
+    Nature seem'd to use me
+    a long while&#8212;myself all well, <del rend="overstrike">and</del>
+    able, <add place="below"><metamark target="#a018" function="add">&#8248;</metamark></add><del rend="overstrike"><add place="above" xml:id="a018"><gap reason="illegible" resp="#ja" extent="one word"/></add></del> strong and happy<add place="below"><metamark target="#a019" function="add">&#8248;</metamark></add><add place="above" xml:id="a019">&#8212;</add>to pourtray
+    <del rend="overstrike">happiness</del>, power, <add place="below"><metamark target="#a020" function="add">&#8248;</metamark></add><add place="above" xml:id="a020">freedom.</add> health. But after
+    a while she seems to <subst><del rend="overstrike" seq="1">think</del><add place="below" seq="2"><metamark target="#a021" function="add">&#8248;</metamark></add><add place="above" xml:id="a021" seq="3">fancy, maybe</add></subst> <del rend="overstrike"><add place="above">maybe</add></del> I can
+    see <add place="below"><metamark target="#a022" function="add">&#8248;</metamark></add><add place="above" xml:id="a022">and understand</add> it all better by being <del rend="overstrike">well</del> deprived
+    of <del rend="overstrike">all</del> most of those. <del rend="overstrike">Yet I mus</del>
+   </p>
+   
+   <milestone unit="glued"/>
+   
+   <metamark function="adjust" rend="circled">#2 leads</metamark>
+   
+   <p hand="#h02">
+    <retrace hand="#h01" cause="emphasize"><ref xml:id="r1" target="#n1">*</ref>&#182;</retrace><retrace hand="#h01" cause="illegible">H</retrace>ow difficult it is to add
+    any thing more to <del rend="overstrike" hand="#h01">lou</del> literature&#8212;
+    and how unsatisfactory <del rend="overstrike" hand="#h01">to</del> for any
+    <del rend="overstrike" hand="#h01">profound and</del> earnest spirit to
+    serve merely <del rend="overstrike" hand="#h01">for</del> the amusement of
+    the multitude<retrace cause="emphasize" hand="#h01">!</retrace>!&#8212; <del rend="overstrike">H. Heine</del> <add place="inline" hand="#h01">(</add>It <add place="above">even</add> seems
+    to me <add hand="#h01" place="below"><metamark target="#a023" function="add">&#8248;</metamark></add><add place="above" xml:id="a023" hand="#h01">said H. Heine</add> more invigorating to accomplish
+    something bad than something empty.<add place="inline" hand="#h01">)</add>
+    H. Heine
+   </p>
+   
+   <metamark function="adjust" rend="circled">#2 leads</metamark>
+   
+   <milestone unit="glued"/>
+   
+   <p>
+    <del rend="overstrike" hand="#h01">The highest said</del>
+    <del rend="overstrike" hand="#h01"><add place="above" hand="#h01">highest</add></del>
+    <del rend="overstrike" hand="#h01"><add place="above" hand="#h01">let us</add></del>
+    <add place="above" hand="#h01">&#182;The Highest said: Don't</add>
+    <del rend="overstrike" hand="#h01">Don't you</del> <add place="below" hand="#h01"><metamark target="#a024" function="add">&#8248;</metamark></add><add place="above" hand="#h01" xml:id="a024">let us</add> begin <subst hand="#h01"><del rend="overstrike" seq="1">too</del><add place="above" seq="2">so</add></subst> low<del rend="overstrike" hand="#h01">?</del> <subst><del rend="overstrike" seq="1">don</del><add place="above" seq="2">isn't</add></subst>
+    <subst><del rend="overstrike" hand="#h01" seq="1">your</del><add place="above" seq="2">our</add></subst> range too coarse&#8212; too gross? <add place="right" hand="#h01"><metamark function="adjust">.....<add place="above">3 em leader</add></metamark></add>
+    <add place="below" hand="#h01"><metamark target="#a025" function="add">&#8248;</metamark></add><add place="above" xml:id="a025"><hi rend="underline">The</hi> <hi rend="tripleUnderline" hand="#h01">s</hi>oul answer'd<add place="inline" hand="#h01">:</add> </add>No<add place="inline" hand="#h01">,</add> not when <subst><del rend="overstrike" hand="#h01" seq="1">you</del><add place="above" seq="2">we</add></subst> consider
+    what it <del rend="overstrike">as</del> is all for&#8212;the end <del rend="overstrike">the</del>
+    <subst><del rend="overstrike" hand="#h01" seq="1">whole is for</del><add place="above" seq="2">involved</add></subst> in <hi rend="tripleUnderline" hand="#h01">T</hi>ime and <hi rend="tripleUnderline" hand="#h01">S</hi>pace
+   </p>
+   
+   <metamark function="adjust" rend="circled">2 leads</metamark>
+   
+   <milestone unit="glued"/>
+   
+   <p>
+    <del rend="overstrike" hand="#h01"><note type="authorial"><del rend="overstrike" hand="#h03">for the preface</del>&#8212;</note>
+     
+    <note type="authorial"><subst><del rend="overstrike"  hand="#h03" seq="1">t</del><add place="inline" hand="#h03" seq="2">T</add></subst>oward la<retrace hand="#h03" cause="emphasize">st</retrace></note>
+    <add place="above" hand="#h03">&#182;<unclear reason="illegible" resp="#ja" cert="low">Put</unclear></add>
+    
+    <del rend="overstrike">I th</del> It seems as though I have
+    said enough&#8212;even if&#8212;a fine
+    <add place="below" hand="#h01"><metamark target="#a026" function="add">&#8248;</metamark></add></del><add place="above" xml:id="a026" hand="#h01">&#182;Haven't I given</add>specimen clues if no more<subst hand="#h01"><del rend="overstrike" seq="1">.</del><add place="inline" seq="2"></add></subst> At
+    any rate <retrace cause="emphasize" hand="#h01"><del rend="overstrike">what</del></retrace> I have written
+    <retrace hand="#h01"><del rend="overstrike">has wearied me long</del></retrace> <del rend="overstrike" hand="#h01"><add place="above" hand="#h01"><unclear reason="illegible" resp="#ja" cert="low">is</unclear></add></del> enough to weary
+    <subst><del rend="overstrike" hand="#h01" seq="1">me</del><add place="above" hand="#h03" seq="2">myself</add></subst><retrace hand="#h01" cause="emphasize">&#8212;</retrace>and I will dispatch it to the
+    printer<add place="inline" hand="#h01">s</add><subst hand="#h01"><del rend="overstrike" seq="1">.</del> <add place="below" seq="2"><metamark target="#a027" function="add">&#8248;</metamark></add><add place="above" seq="3" xml:id="a027">and cease.</add></subst> <subst><del rend="overstrike" hand="#h02" seq="1">But</del><del rend="overstrike" hand="#h01" seq="3"><add place="above" hand="#h02" seq="2">Yet</add></del></subst> how much&#8212;how
+    many topics of the greatest point and
+    cogency<subst hand="#h01"><del rend="overstrike" seq="1">&#8212;</del><add place="below" seq="2">,</add></subst>I am leaving untouched!
+   </p>
+   
+   <addSpan spanTo="#a028" hand="#h01" rend="circled"/>
+   
+   <metamark function="adjust" rend="circled">2 leads</metamark>
+   
+   <p>
+    &#182;Essentially my <add place="below" rend="marked"><metamark target="#a029" function="add">&#8248;</metamark></add><add place="above" xml:id="a029">own printed</add> records, all my
+    volumes, are doubtless <add place="below"><metamark target="#a030" function="add">&#8248;</metamark></add><add place="above" xml:id="a030">but</add> off-hand utterance,
+    I'm <del rend="overstrike">my</del> <hi rend="tripleUnderline">P</hi>ersonality <del rend="overstrike">mainly more or
+    less</del> spontaneous following implicitly
+    the <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#ja">outer</unclear> interior invisible</del> inscrutible
+    command <add place="below"><metamark target="#a032" function="add" rend="marked circled">&#8248;</metamark></add><add place="above" xml:id="a032">dominated by that <hi rend="tripleUnderline">P</hi>ersonality, vaguely even if decidedly,</add> and <add place="below"><metamark target="#a031" function="add">&#8248;</metamark></add><add place="above" xml:id="a031">with</add> little or nothing of plan,
+    art, eradition, &amp;e. If I have chosen to
+    hold the reins, the mastery, it has <add place="below"><metamark target="#a033" function="add">&#8248;</metamark></add><add place="above" xml:id="a033">mainly</add> been
+    to give the way, the power, the road, to the
+    invisible steeds. (I wanted to see <add place="below"><metamark target="#a034" function="add">&#8248;</metamark></add><add place="above" xml:id="a034">how</add> a Person
+    of America, the last half of the 19th Century,
+    w'd appear, put <add place="below"><metamark target="#a035" function="add">&#8248;</metamark></add><add place="above" xml:id="a035">quite freely, and fairly</add> in honest type.)
+   </p>
+   <anchor xml:id="a028"/>
    
 </body>
 </text>

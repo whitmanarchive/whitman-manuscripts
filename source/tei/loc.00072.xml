@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00072">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main">Go forth, ye twain</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="bb">Brett Barney</persName>
+               <persName xml:id="kmp">Kenneth M. Price</persName>
+               <persName xml:id="aj">Andrew Jewell</persName>
+               <persName xml:id="hm">Heather Morton</persName>
+               <persName xml:id="ag">Amanda Gailey</persName>
+               <persName xml:id="jh">Jeff Hill</persName>
+               <persName xml:id="ew">Emma Whaley</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+               <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+            </availability>
+            <idno>loc.00072</idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="project" target="dat1">Another draft of this poem (loc.00239), apparently later in composition, is dated May, 1890, so this draft was likely also composed in that year.</note>            <note type="work_relations" target="xxx.0383" cert="high">"On, On the Same, Ye Jocund Twain!" was first published in <hi rend="italic">Good-Bye My Fancy</hi>, in May 1891. It also appeared shortly thereafter in the 9 June 1891 issue of the magazine <hi rend="italic">Once a Week</hi>.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author xml:id="ww">Walt Whitman</author>
+               <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “On, on the Same, Ye Jocund Twain!” ( 1891 ); Manuscript drafts</title>
+               <date cert="high" when="1890-05" xml:id="dat1">About May 1890</date>
+               <idno type="callno">mss18630, box 28</idno>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote medium="purple crayon" xml:id="h01" resp="#ww" scope="major"/>
+            <handNote medium="pencil" xml:id="h02" resp="#ww" scope="minor"/>
+            <handNote medium="black ink" xml:id="h03" resp="#ww" scope="minor"/>
+         </handNotes>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2026-07-16" who="#bb">proofed</change>
+         <change who="#ew" when="2024-09-24">updated image links</change>
+         <change who="#jh" when="2024-05-21">checked, corrected</change>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#bb" when="2005-08-09">blessed</change>
+         <change who="#kmp" when="2004-10-07">edited</change>
+         <change who="#aj" when="2004-09-02">checked, revised</change>
+         <change who="#hm" when="2004-06-19">encoded</change>
+         <change who="#ag" when="2002-12-09">transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="loc_ew.00062.jpg" xml:id="leaf001r" type="recto"/>
+         <delSpan rend="hashmark" spanTo="#d1" hand="#h03"/>
+         <lg>
+            <head type="main" rend="underline">Go forth, ye twain.</head>
+            <l>Go forth, ye <add hand="#h01" place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a001">shadowy</add> twain! Go forth, my life!</l>
+            <l>Go forth, my <add hand="#h02" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a002">book</add> 
+               <subst>
+                  <del rend="overstrike" seq="1">book</del> <del rend="overstrike" seq="3"><add place="above" seq="2"><note place="inline" type="authorial">?</note>songs</add></del></subst>! <subst><del rend="overstrike" seq="1">yo</del> <add place="above" seq="2">birth,</add></subst> youth, my<lb/>
+               early life, connected seasons.</l>
+               <l>
+                  <add place="bottom" rend="marked">
+                     <subst><del rend="overstrike" seq="1">A</del> <add place="above" seq="2"><subst><del rend="overstrike" seq="1">Haply</del> <add place="above" seq="2">Fitful</add></subst> as</add></subst> <del rend="overstrike" hand="#h02">twined</del> <add place="above" hand="#h02">tongues of</add> <del rend="overstrike" hand="#h02">inseperable</del> flame,&#8212;<add place="below" hand="#h02"><metamark function="add" target="#a003">&#8248;</metamark></add><add rend="marked" place="above" xml:id="a003">all twined <add hand="#h02" place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a004">inseperable</add> &amp; merged in one</add> <del rend="overstrike" hand="#h01">many</del> <add hand="#h01" place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><subst><del rend="overstrike" hand="#h02" seq="1"><add hand="#h01" place="above" xml:id="a005">in on</add></del> <add place="above" seq="2"><del rend="overstrike" hand="#h01"><add place="above">all</add></del> <del rend="overstrike" hand="#h02">merged a</del></add></subst></add>
+               </l>
+            <l>Mid-age&#8212;the war&#8212;the many problems, loves<lb/>
+              thoughts <add place="above">of me&#8212;</add>&#8212;<add place="above" rend="marked">and with the rest</add> old age,</l>
+            <l>Flicker<add place="above">ing</add> <del rend="overstrike">you<gap reason="illegible" extent="one or two characters"/> ho<gap reason="illegible" extent="one or two characters"/> th</del> to other <add place="below"><metamark function="add" target="#a006">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a006">seasons, problems,</add> <subst><del rend="overstrike" seq="1">lives &amp;</del> <add place="above" seq="2">ages,</add></subst> loves.</l>
+         </lg>
+         <anchor xml:id="d1"/>
+         <pb facs="loc_ew.00063.jpg" xml:id="leaf001v" type="verso"/>
+         <note type="authorial" place="inline" hand="#h03">to my 2d &amp; last <del rend="overstrike">collation</del> Annex for L of G.</note>
+      </body>
+   </text>
+</TEI>

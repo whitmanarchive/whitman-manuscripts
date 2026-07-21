@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05624"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main" rend="bracketed">I don't know in what</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+
+     <persName xml:id="ja">JC Andrews</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2026</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding and editorial notes were created and/or prepared by the Walt Whitman Archive and are governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+    <idno>loc.05624</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+     <note type="work_relations" target="xxx." cert="high">
+      <p></p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title><!-- IF THE REPOSITORY PROVIDES A TITLE FOR THIS SPECIFIC MANUSCRIPT, ENTER IT HERE, EXACTLY AS IT APPEARS IN THEIR DOCUMENTATION. IF THE REPOSITORY DOES NOT SUPPLY A TITLE, REPEAT THE TITLE USED ABOVE (IN TITLESTMT). IF IT'S BRACKETED, RENDER IT WITH THE BRACKETS (E.G., [The most immense]). IF WE ARE USING OUR OWN TITLE, ADD A "RESP" ATTRIBUTE TO TITLE, WITH A VALUE OF "#wwa" (<title resp="#wwa">)--></title>  
+     
+<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
+       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
+     <date notBefore="" notAfter="" cert=""></date>
+     
+     <idno type="callno"><!--   THE CONTENT HERE SHOULD BE WHATEVER THE REPOSITORY USES AS A LOCATING ID FOR THE MANUSCRIPT OR THE LARGER GROUPING OF MANUSCRIPTS OF WHICH IT IS A COMPONENT. OFTEN, THIS WILL BE A BOX NUMBER AND FOLDER NAME, OR SIMILAR. --></idno>
+     
+
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+      
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="pencil" xml:id="h01" resp="#ww"/>
+    <handNote medium="blue ink" xml:id="h02" resp="#ww"></handNote>
+    <handNote medium="black ink" xml:id="h03" resp="#ww"></handNote>
+    <handNote/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ 
+
+ <change when="2026-07-08" who="#ja">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+
+   <pb xml:id="leaf001r" facs="loc_nk.00530_large.jpg" type="recto"/>
+   
+   <note hand="#h02" type="authorial" place="top">169</note>
+   
+   <note hand="#h02" type="authorial" place="top">Elias Hicks</note>
+   
+   <p>
+    <del rend="overstrike">To conclude</del>
+    &#182;I don't know in what book I
+    once read, (<subst hand="#h02"><del rend="overstrike" seq="1">probably</del><add place="above" seq="2">possibly</add></subst> the remark has
+    been <add place="below"><metamark target="#a001" function="add">&#8248;</metamark></add><del rend="overstrike"><add place="above" xml:id="a001"><unclear reason="illegible" resp="#ja" cert="high">controversially</unclear></add></del> made in books all ages,) that no
+    life ever lived, even the most uneventful,
+    but probed to its centre would be
+    found <add place="below"><metamark target="#a002" function="add">&#8248;</metamark></add><add place="above" xml:id="a002">in itself</add> a subtle<subst><del rend="overstrike" seq="1">r</del><add place="above" seq="2">r</add></subst> drama <del rend="overstrike" seq="1">in itself</del><del rend="overstrike" seq="3"><add place="above" seq="2">far</add></del><add place="above" seq="4">as <gap reason="illegible" extent="one word" resp="#ja"/></add> tha<subst><del rend="overwrite" seq="1">n</del><add place="over" rend="overwrite" seq="2" hand="#h03">t</add></subst>
+    poets <del rend="overstrike" hand="#h02">yet</del> have <add place="above" hand="#h02">ever</add> sung or playwrights fabled.
+    Often, too, in <del rend="overstrike">real</del> size and weight. <subst><del rend="overstrike" seq="1">It</del><add place="above" seq="2">For</add></subst>
+    isn't only the <subst><del rend="overstrike" seq="1">visible</del> <add place="below" seq="2"><metamark target="#a003" function="add">&#8248;</metamark></add><add place="above" seq="3" xml:id="a003"><del rend="overstrike" seq="4">celebrated</del><add place="above" seq="5">palpable</add></add></subst> <del rend="overstrike" seq="1">orbs</del> <add place="below" seq="2"><metamark target="#a004" function="add">&#8248;</metamark></add><add place="above" seq="3" xml:id="a004">stars:</add> astronomers
+    say, there are dark or almost dark <subst><add place="below" seq="2"><metamark target="#a005" function="add" >&#8248;</metamark></add><add place="above" xml:id="a005" seq="3">unnoticed orbs</add> <del rend="overstrike" seq="1">stars</del></subst>
+    and suns, (like the dusky companion
+    of Sirius, seven times as large as our
+    own sun) rolling through space, <subst><add place="below" seq="2"><metamark target="#a006" function="add">&#8248;</metamark></add><del rend="overstrike" seq="4"><add place="above" xml:id="a006" seq="3"><gap reason="illegible" resp="#ja" extent="five words"/></add></del> <del rend="overstrike" seq="1">as</del></subst> real
+    and potent. <subst><del rend="overstrike" seq="1">Only</del><del rend="overstrike" seq="3"><add place="above" seq="2">But</add></del><add place="below" seq="4"><metamark target="#a007" function="add">&#8248;</metamark></add><add place="above" seq="5" xml:id="a007">Yet</add></subst> none <unclear reason="illegible" resp="#ja" cert="low">reeks</unclear> of them. In the
+    bright <gap extent="one word" resp="#ja" reason="illegible"/> we gave the <subst><add place="below" seq="2" hand="#h03" rend="marked"><metamark target="#a008" function="add">&#8248;</metamark></add><add place="above" xml:id="a008" seq="3"><del rend="overstrike" seq="4">?</del> spreading heavens, and <del rend="overstrike" seq="5">stars</del></add><del rend="overstrike" seq="1">sky</del></subst>, they have
+    not even <add place="above" hand="#h03">a</add> name<del rend="overstrike" hand="#h03">s</del>. Amid <subst><del rend="overstrike" seq="1">the</del><add place="above" seq="2">ceaseless</add></subst> sophistications
+    <del rend="overstrike" seq="1">of</del><add place="below" seq="2"><metamark target="#a009" function="add">&#8248;</metamark></add><add place="above" xml:id="a009">all times</add> <unclear reason="illegible" resp="#ja" cert="high">life</unclear> the soul <add place="above" hand="#h03">would</add> seem<del rend="overstrike" hand="#h03">s</del> to <gap reason="illegible" resp="#ja" extent="one word"/> yearningly around
+    for such contrasts such cool stable <unclear reason="illegible" resp="#ja" cert="low">offices</unclear>. <del rend="overstrike">And
+    now for one <gap reason="illegible" resp="#ja" extent="one word"/>.</del>
+   </p>
+   
+   
+</body>
+</text>
+</TEI>

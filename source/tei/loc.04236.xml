@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04236"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main" rend="bracketed">Ripple and echoes from the</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="jh">Jeff Hill</persName>
+                    <persName xml:id="ew">Emma Whaley</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2026</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+                    <p>
+                        The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+                        <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+                        (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                </availability>
+                <idno>loc.04236</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">Since these poetic lines were not present in the earlier essays that eventually contributed to "Backward Glance," they were likely written sometime in 1888, when Whitman was re-working the separate pieces into a single essay for <hi rend="italic">November Boughs</hi>, which was published in the fall of 1888.</note>
+                
+                <note type="work_relations" target="xxx.00410" cert="high">A manuscript containing draft versions of lines that appear before the final paragraph of "A Backward Glance O'er Travel'd Roads" as the couplet "As idly drifting down the ebb, / Such ripples, half-caught voices, echo from the shore." First published in <hi rend="italic">November Boughs</hi> (1888), "A Backward Glance O'er Travel'd Roads" was mostly made up of material from three previously published pieces: "A Backward Glance on My Own Road (1884)," "How I Made a Book" (1886), and "My Book and I" (1887). The couplet, however, was not part of any of those earlier essays.</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author xml:id="ww">Whitman, Walt</author>
+                    <title resp="#wwa">[Ripple and echoes from the]</title>
+                    <date notBefore="1888-01" notAfter="1888-11-30" cert="high">1888</date>                    
+                    <idno type="callno">mss45443; Manuscripts, [1859]-[circa 1892]; Poetry; Undated; "Drift Sands"</idno>                    
+                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842-1937, Library of Congress, Washington, D.C.</orgName>                    
+                    <note>Transcribed from digital images of the original.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote medium="red ink" xml:id="h01" resp="#ww" scope="major"/>
+                <handNote medium="blue stamped ink" xml:id="h02" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2026-06-18" who="#km">proofed</change>
+            <change when="2024-10-01" who="#ew">updated image links</change>
+            <change when="2024-02-12" who="#jh">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="manuscript">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_ew.00021.jpg" type="recto"/>
+            
+            <lg type="linegroup">
+                <l>Ripple and echoes from the</l>
+                <l>Ripple <subst><del rend="overstrike" seq="1">and resumé</del> <add place="below" seq="2">float</add></subst>, and drift upon the shore, <add place="above">and resume</add></l>
+                <l>As I drop down the ebb,</l>
+                <l>And</l>
+            </lg>
+            
+            <lg type="linegroup">
+                <l>As I float <add place="above">sail</add> idly down the twilight ebb.</l>
+                <l>Ripple, and drift upon the <add place="above">sunset</add> shore, and <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">half-caught</add> echoes</l>
+                <l>As I sail idly.</l>
+            </lg>
+            
+            <note type="archival" place="bottom" hand="#h02">95</note>
+            
+            <pb xml:id="leaf001v" facs="loc_ew.00022.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

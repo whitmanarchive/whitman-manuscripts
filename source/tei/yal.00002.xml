@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00002"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title level="m" type="main">With husky-haughty lips, O sea</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     <persName xml:id="kmh">Kenneth Michael Hoover</persName>
+     <persName xml:id="bb">Brett Barney</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2026</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+    </availability>
+   <idno>yal.00002</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1">This manuscript was most likely written in late 1883 or early 1884, shortly before the poem appeared in <hi rend="italic">Harper's</hi>. The cancelled prose on the verso concerns John Burroughs's <hi rend="italic">Notes on Walt Whitman, As Poet and Person</hi>, published in 1867 and again, in an expanded form, in 1871. It is therefore possible, though unlikely, that Whitman had begun drafting the material for "With Husky-Haughty Lips, O Sea!" many years before it was published.</note>
+    <note type="work_relations" target="xxx.00340" cert="high">"With Husky-Haughty Lips, O Sea!" was published first in the March 1884 issue of <hi rend="italic">Harper's Monthly Magazine</hi>. It was reprinted, with the addition of one line, in <hi rend="italic">November Boughs</hi> (1888) and in the "Sands at Seventy" annex to <hi rend="italic">Leaves of Grass</hi> in 1888 and after.</note>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     <title>Drafts, holograph, corrected</title>  
+     <date xml:id="dat1" cert="high" notBefore="1883" notAfter="1884-03">Late 1883 or early 1884</date>
+     <idno type="callno">YCAL MSS 202, Box 3, folder 170</idno>
+     <orgName xml:id="yal">Walt Whitman Collection. Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
+     <note>Transcribed from digital images of the original.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="pencil" xml:id="h02" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h03" resp="#unk" scope="minor"><persName xml:id="unk">Unknown</persName></handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ <change when="2026-07-07" who="#bb">proofed</change>
+ <change when="2025-08-29" who="#kmh">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   <pb xml:id="leaf001r" facs="yal_bb.00003.jpg" type="recto"/>
+   <note type="archival" place="top" hand="#h03">1</note>
+   <lg type="poem">
+    <head type="main" rend="underline">With husky&#11840;<subst rend="overwrite"><del>H</del><add>h</add></subst>aughty lips, O sea.</head>
+     <l>With husky&#11840;haughty lips, O sea,</l>
+     <l>Where day and night <del rend="erasure"><add place="above" hand="#h02"><unclear reason="illegible" resp="#bb" cert="high">by day</unclear></add></del> I <subst><del rend="overstrike" seq="1">walk</del> <add place="above" seq="2">wend</add></subst> thy surf&#11840;beat shore,</l>
+     <l>Imaging <add place="above">Gathering</add> to my sense they varied <del rend="overstrike"><add place="above">gathered</add></del> strange suggestions,</l>
+     <l>Thy troops of white&#11840;maned racers racing to the<lb/> goal.</l>
+    
+    
+     <l><subst><del rend="overstrike" seq="1">The ceaseless curious rasping of thy sands and waves<add hand="#h02" place="below"><metamark function="add" target="#a006">&#8248;</metamark></add><del rend="erasure"><add hand="#h02" place="above" rend="marked" xml:id="a006"><gap reason="illegible" extent="three or four words"></gap></add></del>,</del> <del rend="overstrike" seq="3"><add place="above" seq="2">The rhythmic rasping of thy sands and waves</add></del></subst></l>
+     
+     <l><del rend="overstrike">The brooding <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">scowl and</add> murk<add place="above">&#8212;</add><del rend="overstrike">and scowl</del>&#8212;thy unloos<subst><del rend="overstrike" seq="1">e</del><add place="above" seq="2">'</add></subst>d hurricanes,</del></l>
+    
+     <l>Thy ample smiling face, dash'd with the <del rend="overstrike">smiling</del><lb/> sparkling dimples of the sun,</l>
+     <l><add>Thy brooding scowl and murk&#8212;thy unloos'd hurricanes,</add></l>
+     <l>Thy unsubduedness, caprices, wilfulness;</l>
+    
+     <l>Great as thou art, <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">o'er all, <del rend="overstrike">the rest,</del></add> thy many tears&#8212;a lack from all<lb/> eternity, in thy content, <del rend="overstrike">thy <unclear reason="illegible" resp="#bb" cert="medium">rest</unclear> peace,</del></l>
+    
+    <l><add>(Naught but the greatest <subst><del rend="overstrike" seq="1">deprivations</del> <add place="above" seq="2">struggles</add></subst>, sorrows, wrongs could make thee greatest&#8212;no<lb/> less could make thee.)</add></l>
+    
+     <l>Thy lonely state&#8212;something thou ever seek'st and<lb/>
+    <milestone unit="glued"/>
+     seek'st yet never gain'st,</l>
+    
+     <l><del rend="overstrike">Some right withheld&#8212;thy huge monotonous rage</del></l>
+    
+     <l>
+      <subst>
+       <add place="below" seq="2"><metamark function="add" target="#a007">&#8248;</metamark></add><del rend="overstrike" seq="4"><add place="above" xml:id="a007" rend="marked" seq="3">Some huge monotonous rage</add></del> <add place="below" seq="2">Some right withheld, <del rend="overstrike">resented</del></add> <del rend="overstrike" seq="1">Some tyranny</del></subst>
+      <subst><del rend="overstrike" seq="1">involv'd</del> <add place="above" seq="2">resulted</add></subst>&#8212;<subst><del rend="overstrike" seq="1">some</del> <del rend="overstrike" seq="3"><add place="above" seq="2">the</add></del> <add place="below" seq="4">some</add></subst>
+      
+      <add place="below"><metamark function="add" target="#a008">&#8248;</metamark></add><del rend="overstrike"><add place="above" xml:id="a008">irrepressible</add></del> <del rend="overstrike">voice</del> <add place="below"><metamark function="add" target="#a009">&#8248;</metamark></add><del rend="overstrike"><add place="above" xml:id="a009">irrepressible</add></del> <del rend="overstrike">of</del> <subst><add place="above" seq="1"><del rend="overstrike" seq="2">irrepressible voice in</del> thee</add> <add place="below" seq="3">voice of</add></subst> <choice><orig>free&#11840;<lb/>dom</orig><reg>freedom<lb/></reg></choice>&#11840;lover pent<subst rend="overwrite"><del>;</del><add>&#8212;</add></subst><add>some huge monotonous rage</add></l>
+    
+    
+     <l>By lengthen'd swell and spasm and panting breath,</l>
+    
+     <l><add>And rhythmic rasps of thy sands and waves</add></l>
+    
+     <l>And serpent hiss, and savage peals of laughter, <add>and</add></l>
+    
+     <l><del rend="overstrike">And <subst><del rend="overstrike" seq="1">ceaseless</del> <del rend="overstrike" seq="3"><add place="above" seq="2">feverish</add></del> <add place="below" seq="4"><metamark function="add" target="#a010">&#8248;</metamark></add><add place="above" xml:id="a010" seq="4">rhythmic</add></subst> rasping of thy sands and waves,</del></l>
+    
+     <l><del rend="overstrike">And</del> undertones of distant lion roar,</l>
+    
+     <l>Muttering exhaustless from thy soul's ab</l>
+    
+     <l>(<subst><del rend="overstrike" seq="1">Sounded forever</del> <add place="below" seq="2"><metamark function="add" target="#a011">&#8248;</metamark></add><del rend="overstrike" seq="4"><add place="above" xml:id="a011" seq="3">Sounding <subst><del rend="overstrike" seq="1">and sounded</del> <add place="above" seq="2">unheeded</add></subst></add></del></subst>
+      <add place="below"><metamark function="add" target="#a012">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a012"><del rend="overstrike">Appealing, vainly</del> <subst rend="overwrite"><del>s</del><add>S</add></subst>ounding, <add>appealing</add></add> to the sky's deaf ear&#8212;but <subst><del rend="overstrike" seq="1">here</del> <add place="above" seq="2">now</add></subst><lb/> 
+      rapport <subst><del rend="overstrike" seq="1">at last</del> <add seq="2">for once</add></subst></l>
+    
+     <l>A phantom in the night thy confidant <subst><del rend="overstrike" seq="1">at last</del><add place="above" seq="2">for once</add></subst>,)</l>
+    <l><del rend="overstrike"><subst><del rend="overstrike" seq="1">Muttering,</del> <add place="above" seq="2">By mutter'd</add></subst> 
+     <subst><del rend="overstrike" seq="1">exhaustless</del> <add place="above" seq="2">forever</add></subst>
+      <add place="below"><metamark function="add" target="#a013">&#8248;</metamark></add><add place="above" xml:id="a013">and surging<add>s</add></add> from thy soul's abysms,</del></l>
+    
+     <l><add>The tale of cosmic, elemental passion</add></l>
+     <l>The first and last confession<del rend="erasure">s</del> of the globe,</l>
+     <l><del rend="overstrike">The tale of cosmic elemental passion,</del></l>
+    
+    <l><add><del rend="overstrike">By</del> <subst><del rend="overstrike" seq="1">mutter'd</del> <add place="above" seq="4">out</add></subst>
+     <add hand="#h01" place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add hand="#h01" place="above" rend="marked" xml:id="a005">Thou, muttering</add>
+      surging<add place="above">s</add> 
+     <add place="below"><metamark function="add" target="#a016">&#8248;</metamark></add><del rend="overstrike"><add place="above" xml:id="a016">muttering</add></del> from thy <del rend="overstrike"><add place="above">tireless</add></del> soul's abysms,</add></l>
+     <l><subst><del rend="overstrike" seq="1">Thou tellest</del> <add place="below" seq="2">confidest</add></subst> to a kindred soul,</l>
+   </lg>
+   
+   <delSpan rend="overstrike" spanTo="#d005"/>
+   <lg type="poemnotes" rend="left">
+    <l>Thy ever vexed</l>
+    <l>In wordless eloquence</l>
+    <space dim="vertical" extent="about two lines"/>
+    <l><del rend="overstrike">with husky-haughty</del></l>
+    <l>Thy tale of cosmic elemental passion</l>
+    <l>Muttering and surging from thy soul's abysms,</l>
+    <l>The <del rend="overstrike">tale</del></l>
+    <l><del rend="overstrike">huge monotonous</del></l>
+    <l><del rend="overstrike">Some rage</del></l>
+    <l>Some right withheld<del rend="overstrike">,</del>&#8212;some huge monotonous<lb/> rage,</l>
+   </lg>
+    <anchor xml:id="d005"/>
+   <lg type="linegroup" rend="right">
+    <l><subst><del rend="overstrike" seq="1">Only great trials,</del> <add place="above" seq="2">Naught but the greatest</add></subst><lb/> deprivations, <subst><del rend="overstrike" seq="1">sorrows</del> <add place="above" seq="2">sorrrows,</add></subst><lb/> wrongs,</l>
+    <l>Could make thee<lb/> greatest&#8212;no<lb/> less could make<lb/> thee<add>)</add> <del rend="overstrike">so.)</del></l>
+   </lg>
+   <pb xml:id="leaf001v" facs="yal_bb.00004.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>

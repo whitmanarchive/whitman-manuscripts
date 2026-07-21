@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00071"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title level="m" type="main">On, on the same, ye jocund twain!</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     <persName xml:id="tb">Tara Ballard</persName>
+     <persName xml:id="bb">Brett Barney</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2026</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+    </availability>
+   <idno>tex.00071</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1">Whitman dated a later draft of this poem (loc.00239) "May 10 1890," so the current manuscript must have been written on or before that date.</note>                
+    <note type="work_relations" target="xxx.0383" cert="high">"On, On the Same, Ye Jocund Twain!" was first published in <hi rend="italic">Good-Bye My Fancy</hi>, in May 1891. It also appeared shortly thereafter in the 9 June 1891 issue of the magazine <hi rend="italic">Once a Week</hi>.</note>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     <title>On, on the Same, ye Jocund Twain, Manuscript, undated, 1p</title>  
+     <date notBefore="1890-01-01" notAfter="1890-05-10" cert="high" xml:id="dat1">About May 1890</date>
+     <idno type="callno">TXRC03-A4; Container bv6</idno>
+     <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+     <note>Transcribed from digital images of the original.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" scope="major" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h02" scope="minor" resp="#unk"><persName xml:id="unk">Unknown</persName></handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ <change when="2026-07-14" who="#bb">proofed</change>
+ <change when="2024-10-21" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   <pb xml:id="leaf001r" facs="tex_bb.00009.jpg" type="recto"/>
+     <note type="archival" place="top" rend="circled" hand="#h02">1</note>
+   <lg type="poem">
+    <head rend="underline">On, on <subst><del rend="overstrike" seq="1">awhile,</del> <add place="above" seq="2">the same,</add></subst> ye jocund twain!</head>
+     <l>On, on <subst><del rend="overstrike" seq="1">awhile,</del> <add place="above" seq="2">the same,</add></subst> ye jocund twain!</l>
+    <l>My life and <subst><del rend="overstrike" seq="1">verse,</del> <add place="below" seq="2"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001" seq="2">recitative,</add></subst>
+       combining birth, <del rend="overstrike">and</del> youth,<lb/>
+          <del rend="overstrike">and</del> mid-age years,</l>
+     <l>Fitful as tongues of flame inseparably twined and<lb/>
+      <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">motley&#11840;</add>merged <subst><del rend="overstrike" seq="1">in</del> <add place="above" seq="2">of</add></subst> one;</l>
+     <l>My single soul&#8212;aims, confirmations, <add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a003">failures,</add> <subst><add place="above" seq="2">joys&#8212;</add><del rend="overstrike" seq="1">lights&#8212;</del></subst>nor<lb/>
+           single soul alone,</l>
+    
+     <l>My nation's crucial <subst><del rend="overstrike" seq="1">time</del> <add place="above" seq="2">stage</add></subst> (America's, haply<lb/>
+           humanity's,)&#8212;its trial great and victory great,</l>
+    
+     <l><subst><del rend="overstrike" seq="1">To-day's</del> <add place="below" seq="2"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004" seq="2">My land's</add></subst> <hi rend="underline"><choice><sic>ecclairecissement</sic><corr>éclaircissement</corr></choice></hi> of all the <add place="below"><metamark function="add" target="#a015">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a015">masses</add> past, the<lb/>
+     eastern world, <subst><del rend="overstrike" seq="1">old times,</del> <add place="above" seq="2">ancient,</add></subst> medieval,</l>
+    
+     <l>Here from <del rend="overstrike">their</del> wanderings, strayings, lessons, wars<lb/>
+           &#8212;here at the west at last triumphant!</l>
+    
+     <l>A gladsome pealing cry&#8212;a song of pride and<lb/>
+           satisfaction!</l>
+    
+     <l>I chant the <add place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" xml:id="a005">common</add> bulk, <del rend="overstrike">the</del> <add place="below"><metamark function="add" target="#a006">&#8248;</metamark></add><del rend="overstrike"><add place="above" xml:id="a006">horde,</add></del> <add place="above" rend="marked">the</add> general average <add place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><add place="above" xml:id="a007">horde,</add> (the best<lb/> 
+           no sooner than the worst)&#8212;I chant old age,</l>
+    
+     <l>(My verses, <subst><del rend="overstrike" seq="1">made</del> <del rend="overstrike" seq="3"><add place="above" seq="2">sung</add></del></subst> <add place="below"><metamark function="add" target="#a008">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a008">written <subst><del rend="overstrike" seq="1">out)</del> <add seq="2">first)</add></subst></add> for early life, and <subst><del rend="overstrike" seq="1">through</del> <add place="above" seq="2">for</add></subst><lb/>
+      <del rend="overstrike">mid-span,</del> <add place="below"><metamark function="add" target="#a009">&#8248;</metamark></add><add place="above" xml:id="a009">the</add> summer's, <del rend="overstrike">and</del> autumn's spread,</l>
+    
+     <l>I <subst><del rend="overstrike" seq="1">keep for</del> <add place="above" seq="2">pass to</add></subst> snow-white hairs the same, and give to<lb/>
+           pulses winter&#8212;cool'd the same;)</l>
+    
+     <l><del rend="overstrike"><subst><del rend="overstrike" seq="1">Through peace and war,</del> <add place="above" seq="2">On, on, awhile,</add></subst>
+       ye twain&#8212;through many<lb/>
+      problems, curious idle meditations&#8212;<add place="below"><metamark function="add" target="#a010">&#8248;</metamark></add><add place="above" xml:id="a010">yet,&#8212;</add>and now&#8212;</del></l>
+    
+    <l>And now, <add place="below"><metamark function="add" target="#a011">&#8248;</metamark></add><add place="above" xml:id="a011" rend="marked">in careless chant, <del rend="overstrike">the</del> myself,</add> <del rend="overstrike">old age of me,</del> with <add place="below"><metamark function="add" target="#a012">&#8248;</metamark></add><add place="above" xml:id="a012">faith and</add> love,</l>
+    
+    <l>Waft<subst><del rend="strike" seq="1">ed</del><add place="above" seq="1">ing</add></subst> to <subst><del rend="overstrike" seq="1">to finishing stages</del> <add place="above" seq="2">other work &#8212;</add></subst><del rend="overstrike">changes,</del> 
+     <add place="below"><metamark function="add" target="#a013">&#8248;</metamark></add><add place="above" xml:id="a013" rend="marked">unknown <add place="below"><metamark function="add" target="#a016">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a016">conditions,</add> joys,</add> <del rend="overstrike">just the same,</del></l>
+    
+     <l>On, on, ye jocund twain! <del rend="overstrike">on,</del> <add place="below"><metamark function="add" target="#a014">&#8248;</metamark></add><add place="above" xml:id="a014">continue</add> on, the same!</l>
+   </lg>
+   <signed rend="underline">Walt Whitman</signed>
+   <pb xml:id="leaf001v" facs="tex.00071.002_large.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>

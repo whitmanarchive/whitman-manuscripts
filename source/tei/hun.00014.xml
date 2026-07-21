@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun.00014"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title level="m" type="main">Fancies at Navesink</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor> 
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     <persName xml:id="tb">Tara Ballard</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2026</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+    </availability>
+   <idno>hun.00014</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1">This manuscript was likely composed in late 1884 or early 1885.</note>
+    
+     <note type="work_relations" cert="high" target="xxx.00331">A draft of "Pilot in the Mist," the first in the eight-poem sequence "Fancies at Navesink," first published in the August 1885 issue of <hi rend="italic">Nineteenth Century</hi> and later included in <hi rend="italic">November Boughs</hi> (1888).</note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>Fancies at Navesink, the Pilot in the Mist</title>  
+     
+     <date cert="high" notBefore="1884-10" notAfter="1885-08">Late 1884 or early 1885</date>
+     
+     <idno type="callno">HM 1190</idno>
+     
+     <orgName xml:id="hun">The Huntington Library, Art Collections, and Botanical Gardens</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+     <relatedItem type="text" xml:id="rel01" target="hun.00059"/>
+     <relatedItem type="document" target="wwa.00663"/>
+     <note type="project" target="#rel01">On the verso is a letter to Whitman dated October 3, 1884, from Richard Kaines, requesting information about Martin Farquhar Tupper.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="blue pencil" xml:id="h02" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h03" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h04" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ <change when="2026-07-02" who="#km">proofed</change>
+ <change when="2024-07-03" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="hun.00014.001.jpg" type="recto"/>
+   
+   <lg type="cluster">
+    <head rend="underline" type="main">Fancies at Navesink<add hand="#h03">*</add></head>
+    
+    <milestone unit="glued"/>
+    
+    <lg type="poem">
+     <head rend="underline" type="main">The Pilot in the Mist</head>
+     
+     <milestone unit="glued"/>
+     
+     <l>Steaming the northern rapids&#8212;(an old<lb/>
+      St. Lawrence <subst><del rend="overstrike" seq="1">remin</del><del rend="overstrike" seq="3" hand="#h02"><add place="above" seq="2">memory,</add></del> <add place="above" hand="#h02" seq="4">reminiscence</add></subst></l>
+     <l>A sudden <subst hand="#h02"><del rend="overstrike" seq="1">reminiscence</del><add place="above" seq="2">memory</add></subst>&#11840;flash comes back<lb/> 
+     I know not why</l>
+    <l>Here <del rend="overstrike">looking</del> waiting for the sunrise, gazing<lb/>
+          from this hill<add hand="#h03">*</add>.)</l>
+     
+     <milestone unit="glued"/>
+     
+     <l>Again 'tis first at morning&#8212;a heavy<lb/>
+      haze contends with <subst><del rend="overstrike" seq="1">sunrise,</del><add place="above" seq="2">daybreak,</add></subst></l>
+     <l>Again the <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#tb">br</unclear></del> <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#km">stale</unclear></del> trembling laboring<lb/>
+         vessel veers me&#8212;we press through<lb/>
+      foam<add place="above" hand="#h03">&#11840;dash'd</add> <del rend="overstrike" hand="#h03">and</del> rocks that almost touch<add hand="#h03">,</add> <del rend="overstrike" hand="#h03">me;</del></l>
+    <l>Again I, <subst><del rend="overstrike" hand="#h03" seq="4"><del rend="overstrike" seq="1">turning,</del><del rend="overstrike" hand="#h03" seq="3"><add place="above" seq="2">? fancying,</add></del></del></subst> mark where aft<lb/>
+          the small thin Indian helmsman</l>
+     <l>Looms in the mist, with brow elate<lb/>
+          and governing hand.</l>
+   </lg>
+   
+   <milestone unit="undeclared" rend="horbar-short-left"/>
+   
+   <note type="textual" place="bottom" hand="#h01">* Navesink&#8212;a <add place="below" hand="#h03"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001" hand="#h03">sea&#11840;side</add> mountain, <del rend="overstrike" hand="#h03">or high hill,</del> <del rend="overstrike" hand="#h02">at the</del> lower entrance of New York Bay.</note>
+   </lg>
+   
+   <note hand="#h04" type="archival" place="bottom">536</note>
+   
+   <pb xml:id="leaf001v" facs="hun.00014.002.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>

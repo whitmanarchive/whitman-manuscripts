@@ -147,7 +147,9 @@
       
       <!--end relatedItem section-->
       
-      <xsl:if test="//text//note[@type = 'editorial']">
+      <!-- removing the note type = editorial notes from the manuscript metadata box, in order to show it inline instead
+      delete commented out code after late life manuscripts grant ends (september 2026) -->
+     <!-- <xsl:if test="//text//note[@type = 'editorial']">
         <li>
           <strong>Notes written on manuscript: </strong>
           <xsl:for-each select="//text//note[@type = 'editorial']">
@@ -226,7 +228,7 @@
             </xsl:choose>
           </xsl:for-each>
         </li>
-      </xsl:if>
+      </xsl:if>-->
 
       
     </ul>
@@ -350,6 +352,24 @@
   <xsl:template match="*[substring-after(@hand,'#') = (preceding::handNote[@resp='#ww']/@xml:id)][preceding::handNote[@medium='letterpress']]">
     <xsl:variable name="hand_id" select="substring-after(@hand,'#')"/>
     <xsl:variable name="hand_resp" select="substring-after(preceding::handNote[@xml:id=$hand_id]/@resp,'#')"/>
+    <!-- TODO: reconsider this and improve it? or move into css? -->
+    <xsl:choose>
+      <xsl:when test="self::del">
+        <del>
+          <span>
+          <xsl:attribute name="class">
+          <xsl:call-template name="add_attributes"/>
+          </xsl:attribute>
+          <xsl:choose>
+          <xsl:when test="$hand_resp = 'ww'">
+          <span class="tei_proof_edit"><xsl:apply-templates/></span>
+          </xsl:when>
+          <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+        </xsl:choose>
+        </span>
+      </del>
+    </xsl:when>
+    <xsl:otherwise>
     <span>
       <xsl:attribute name="class">
       <xsl:call-template name="add_attributes"/>
@@ -361,6 +381,8 @@
       <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
     </xsl:choose>
     </span>
+    </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   <!-- Adding this to match rule in notebooks override file. KM -->

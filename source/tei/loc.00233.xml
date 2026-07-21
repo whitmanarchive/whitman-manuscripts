@@ -17,6 +17,8 @@
      <resp>Transcription and encoding</resp>
      
      <persName xml:id="ew">Emma Whaley</persName>
+     <persName xml:id="bb">Brett Barney</persName>
+     
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -49,11 +51,11 @@
    <idno>loc.00233</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">The three poems on this sheet were all first published in periodicals in 1888, the first in the September issue of <hi rend="italic">The Century Magazine</hi>, the second and third in the <hi rend="italic">New York Herald</hi> on 21 May and 16 April, respectively. Whitman was forced to withhold publishing "Old Age's Lambent Peaks" in <hi rend="italic">November Boughs</hi>, since he had sold it to the magazine but it had not yet appeared when he was preparing the poetry section of that volume during the summer months. This corrected proof sheet was apparently prepared, therefore, as part of a separate process, in which Whitman ordered small-run printings of short poems to use as mementos, sometimes adding handwritten signatures and/or minor corrections.</note>
     
     
-     <note type="work_relations" target="xxx.00375" cert="high">
-      <p>An edited proof sheet with three poems: "Old Age's Lambent Peaks," "A Carol Closing Sixty-Nine," "To Get the Final Lilt of Songs," all published first in 1888. In addition to corrections, Whitman has written a note to the printer at the top of the page.</p>
+     <note type="work_relations" target="xxx.00375 xxx.00346 xxx.00315" cert="high">
+      <p>Following its publication in the <hi rend="italic">The Century</hi>, "Old Age's Lambent Peaks" was included in the "Sands at Seventy" annex to <hi rend="italic">Leaves of Grass</hi>. "To Get the Final Lilt of Songs" appeared under the title "The Final Lilt of Songs" in the <hi rend="italic">Herald</hi> and retitled when Whitman republished it in <hi rend="italic">November Boughs</hi> (1888) and in subsequent printings of <hi rend="italic">Leaves of Grass</hi>. "A Carol Closing Sixty-Nine" was also reprinted, unchanged, in <hi rend="italic">November Boughs</hi> and late issues of <hi rend="italic">Leaves of Grass</hi>.</p>
      </note>
    </notesStmt>
    
@@ -63,7 +65,7 @@
      
      <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “Old Age's Lambent Peaks” ( 1888 ); Proof sheets with signed corrections and notations</title>  
      
-     <date notBefore="1841" notAfter="1892" cert="high">1888</date>
+     <date when="1888" cert="high">1888</date>
      
      <idno type="callno">MSS18630, box 28, Old Age's Lambent Peaks (1888). Proof Sheets.</idno>
      
@@ -81,7 +83,7 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-04-23" who="#bb">proofed</change>
  <change when="2024-11-05" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -91,62 +93,62 @@
    
    <pb xml:id="leaf001r" facs="loc_ew.00205.jpg" type="recto"/>
    
-   <note type="authorial" hand="#h02" place="top" rend="circled">20 impressions, (slips like this) <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">on good paper</add>&amp; then take out the name "Walt Whitman" &amp; 5 impressions more</note>
-   <div>
+   <div type="manuscript">
+   <note type="authorial" hand="#h02" place="top" rend="circled">20 impressions, (slips like this) <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">on good paper</add> &amp; then take out the name "Walt Whitman" &amp; 5 impressions more</note>
    <head type="main">OLD AGE'S LAMBENT PEAKS.</head>
    <lg type="poem">
      <l>The touch of flame&#8212;the illuminating fire&#8212;the loftiest look<lb/>
         at last,</l>
      <l>O'er city, passion, sea&#8212;o'er prairie, mountain, wood&#8212;the<lb/>
         earth itself;</l>
-     <l>The airy, different<add hand="#h02" place="below"><metamark function="add" target="#a002">&#8248;</metamark><metamark function="separate" target="#a002">/</metamark></add><add hand="#h02" place="left" xml:id="a002">,<metamark function="separate" target="#a002">/</metamark></add> <subst><del rend="overstrike" hand="#h02"><gap reason="illegible" extent="one character"/></del><add hand="#h02" place="left" xml:id="a015">c<metamark function="separate" target="#a015">/</metamark></add></subst>hanging hues of all, in falling twilight<subst hand="#h02"><del seq="1" rend="overwrite">.</del><add seq="2" rend="overwrite">,</add></subst><add hand="#h02" place="right" xml:id="a003">,<metamark function="separate" target="#a003">/</metamark></add></l>
+     <l>The airy, different<add hand="#h02" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a002">,<metamark function="separate" target="#a002">/</metamark></add> <subst hand="#h02"><del rend="overstrike" seq="1"><gap reason="illegible" extent="one character"/></del><add place="left" seq="2" xml:id="a015">c<metamark function="separate" target="#a015">/</metamark></add></subst>hanging hues of all, in falling twilight<subst hand="#h02" rend="overwrite"><del>.</del><add xml:id="a003">,</add></subst><add hand="#h02" place="right"><metamark function="emphasize" target="#a003">,/</metamark></add></l>
      <l>Objects and groups, bearings, faces, reminiscences;</l>
      <l>The calmer sight&#8212;the golden setting, clear and broad:</l>
-     <l>So much i' the atmosphere, the points of view, the situa-<lb/>
-        tions<subst hand="#h02"><del seq="1" rend="overstrike">,</del><add seq="2" place="left">&amp;</add></subst> whence we scan,</l>
-     <l>Bro't out by them alone&#8212;so much (perhaps the best) un-<lb/>
-        reck'd before;</l>
+    <l>So much i' the atmosphere, the points of view, the <lb/><choice><orig>situa-<lb/>tions</orig> <reg>situations</reg></choice><del seq="1" rend="overstrike" hand="#h02" xml:id="d001">,</del><add seq="2" place="left" hand="#h02"><metamark function="delete" target="#d001">&#948;</metamark></add> whence we scan,</l>
+     <l>Bro't out by them alone&#8212;so much (perhaps the best) <choice><orig>un-<lb/>reck'd</orig> <reg>unreck'd</reg></choice> before;</l>
      <l>The lights indeed from them&#8212;old age's lambent peaks.</l>
-   </lg>
    <signed>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi></signed>
-   </div>
-   
-   <div>
-    <head type="main">A CAROL CLOSING SIXTY-NINE.</head>
+   </lg>
+
    <lg type="poem">
-     <l>A carol closing sixty-nine&#8212;a <hi hand="#h02" rend="underline" xml:id="a004">resume</hi>&#8212;a repition,</l><note type="authorial" hand="#h02" target="#a004" rend="circled" place="right">ital</note>
-     <l>My lines in joy and hope continuing on the same<subst hand="#h02"><del seq="1" rend="overstrike">.</del><add seq="2" place="right" xml:id="a005">,<metamark function="separate" target="#a005">/</metamark></add></subst></l>
-     <l>Of ye<add hand="#h02" place="below"><metamark function="add" target="#a006">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a006">,<metamark function="separate" target="#a006">/</metamark></add> O God, Life, Nature, Freedom, Poetry;</l>
-     <l>Of you<add hand="#h02" place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a007">,<metamark function="separate" target="#a007">/</metamark></add> my Land&#8212;your rivers, prairies, States&#8212;you, mot-<lb/>
-     tled Flag I love<add hand="#h02" place="below"><metamark function="add" target="#a008">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a008">,<metamark function="separate" target="#a008">/</metamark></add></l>
+    <head type="main">A CAROL CLOSING SIXTY-NINE.</head>
+     <l>A carol closing sixty-nine&#8212;a <hi hand="#h02" rend="underline" xml:id="a004">resume</hi>&#8212;a repetition,</l><add place="right" hand="#h02"><metamark rend="circled" function="adjust" target="#a004">ital</metamark></add>
+     <l>My lines in joy and hope continuing on the same<subst hand="#h02"><del seq="1" rend="overstrike">.</del><add seq="2" place="right" xml:id="a005">,<metamark function="emphasize" target="#a005">/</metamark></add></subst></l>
+     <l>Of ye<add hand="#h02" place="below"><metamark function="add" target="#a006">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a006">,<metamark function="emphasize" target="#a006">/</metamark></add> O God, Life, Nature, Freedom, Poetry;</l>
+     <l>Of you<add hand="#h02" place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a007">,<metamark function="emphasize" target="#a007">/</metamark></add> my Land&#8212;your rivers, prairies, States&#8212;you, <choice><orig>mot-<lb/>tled</orig> <reg>mottled</reg></choice> Flag I love<add hand="#h02" place="below"><metamark function="add" target="#a008">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a008">,<metamark function="emphasize" target="#a008">/</metamark></add></l>
      <l>Your aggregate retain'd entire&#8212;Of north, south, east and<lb/>
         west, your items all;</l>
      <l>Of me myself&#8212;the jocund heart yet beating in my breast,</l>
-     <l>The body wreck'd, old, poor and paralyzed&#8212;the strange in-<lb/>
-        ertia falli<subst hand="#h02"><del seq="1" rend="overstrike">u</del><add seq="2" place="left" xml:id="a009">n<metamark function="separate" target="#a009">/</metamark></add></subst>g pall-like round me;</l>
-     <l>The burning fires down in my sluggish blood not yet extinct<subst hand="#h02"><del seq="1" rend="overstrike">.</del><add seq="2" xml:id="a010" place="right">,<metamark function="separate" target="#a010">/</metamark></add></subst></l>
+     <l>The body wreck'd, old, poor and paralyzed&#8212;the strange <choice><orig>in-<lb/>ertia</orig> <reg>inertia</reg></choice> falli<subst hand="#h02"><del seq="1" rend="overstrike">u</del><add seq="2" place="left" xml:id="a009">n<metamark function="emphasize" target="#a009">/</metamark></add></subst>g pall-like round me;</l>
+     <l>The burning fires down in my sluggish blood not yet extinct<subst hand="#h02"><del seq="1" rend="overstrike">.</del><add seq="2" xml:id="a010" place="right">,<metamark function="emphasize" target="#a010">/</metamark></add></subst></l>
      <l>The undiminish'd faith&#8212;the groups of loving friends.</l>
-   </lg>
     <signed>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN.</hi></signed>
-   </div>
-   
-   <div>
-    <head type="main">TO GET THE FINAL LILT OF SONGS.</head>
+   </lg>
+
+
     <lg type="poem">
+    <head type="main">TO GET THE FINAL LILT OF SONGS.</head>
      <l>To get the final lilt of songs,</l>
      <l>To penetrate the inmost lore of poets&#8212;to know the mighty<lb/>
         ones,</l>
-     <l>Jobs, Homer, Eschylus, Dante, Shakspere, Tennyson, Emerson;</l>
-     <l>To diagnose the shift<subst hand="#h02"><del seq="1" rend="overstrike">l</del><add seq="2" place="left" xml:id="a011">i<metamark function="separate" target="#a011">/</metamark></add></subst>ng-delicate tints of love and pride<add hand="#h02" place="below"><metamark function="add" target="#a012">&#8248;</metamark></add><add place="right" rend="marked" xml:id="a012">and doubt</add>&#8212;to<lb/>
+     <l>Job, Homer, Eschylus, Dante, Shakspere, Tennyson, Emerson;</l>
+     <l>To diagnose the shift<subst hand="#h02"><del seq="1" rend="overstrike">l</del><add seq="2" place="left" xml:id="a011">i<metamark function="emphasize" target="#a011">/</metamark></add></subst>ng-delicate tints of love and pride <add hand="#h02" place="below"><metamark function="add" target="#a012">&#8248;</metamark></add><add place="right" rend="marked" xml:id="a012">and doubt</add>&#8212;to<lb/>
         truly understand,</l>
-     <l>To encompass these, the last keen faculty and entrance-pric<subst hand="#h02"><del seq="1" rend="overstrike">c</del><add seq="2" place="right" xml:id="a013">e<metamark function="separate" target="#a013"></metamark></add></subst>,</l>
-     <l>Old age<add hand="#h02" place="below"><metamark function="add" target="#a014">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a014">,<metamark function="separate" target="#a014">/</metamark></add> and what it brings from all its past experiences.</l>
+     <l>To encompass these, the last keen faculty and entrance-pric<subst hand="#h02"><del seq="1" rend="overstrike">c</del><add seq="2" place="right" xml:id="a013">e<metamark function="emphasize" target="#a013"></metamark></add></subst>,</l>
+     <l>Old age<add hand="#h02" place="below"><metamark function="add" target="#a014">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a014">,<metamark function="emphasize" target="#a014">/</metamark></add> and what it brings from all its past experiences.</l>
     </lg>
     <signed>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN.</hi></signed>
+   <pb xml:id="leaf001v" facs="loc_sd.00367.jpg" type="verso"/>
    </div>
    
-   <pb xml:id="leaf001v" facs="loc_sd.00367.jpg" type="verso"/>
-   
+   <div type="envelope">
+    
+    <pb xml:id="leaf002r" facs="loc_ew.00206.jpg" type="recto"/>
+    <note type="authorial" hand="#h02">printer's proofs short poems Walt Whitman 1888 (autographic)</note>
+    
+    <pb xml:id="leaf002v" facs="loc_ew.00207.jpg" type="verso"/>
+    
+   </div>
 </body>
 </text>
 </TEI>

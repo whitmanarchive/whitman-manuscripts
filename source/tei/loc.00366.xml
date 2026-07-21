@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00366"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title level="m" type="main">This Journey</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>    
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     <persName xml:id="tb">Tara Ballard</persName>
+     <persName xml:id="ew">Emma Whaley</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2026</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+   <idno>loc.00366</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1">Whitman was working on his "Old-Age Recitatives" cluster in late 1890, so this manuscript likely dates from mid-to-late 1890.</note>
+    
+    <note type="work_relations" cert="high" target="xxx.00406">Early stage draft lines of a poem titled "This Journey." Whitman included the piece, retitled "My Task," in a cluster of poems that he had printed in proof sheets and submitted for publication in late 1890. The cluster was titled "Old-Age Recitatives" (see <ref target="loc.00231">loc.00231</ref> and <ref target="loc.00232">loc.00232</ref>), but was seemingly never published in that form or under that title. This poem later was incorporated as lines 6, 7, 8, and 9 in "L. of G.'s Purport," first published in <hi rend="italic">Good-Bye My Fancy</hi> in 1891.</note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>Thomas Biggs Harned Collection of the Papers of Walt Whitman: Manuscripts, [1859]-[circa 1892]; Poetry; [1891]; "L. of G.'s Purport"</title>  
+     
+     <date cert="high" when="1890">1890</date>
+     
+     <idno type="callno">MSS 45443</idno>
+     
+     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842–1937, Library of Congress, Washington, D.C.</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="blue crayon" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="blue stamped ink" xml:id="h02" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ <change when="2026-07-07" who="#km">proofed</change>
+ <change when="2024-09-25" who="#ew">updated image links</change>
+ <change when="2024-08-02" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="loc_ew.00343.jpg" type="recto"/>
+  <delSpan rend="hashmark" spanTo="#d001"/>
+   <lg type="linegroup"> 
+     <head type="main">This journey</head>
+    <l>Begun in <add place="above">amid my</add> ripen'd youth, and <subst><del rend="overstrike" seq="1">stretching</del> <add place="above" seq="2">steadily</add></subst><lb/>
+     <add place="above">kept</add> on <del rend="overstrike">and on,</del> thro' life</l>
+    <l>I end it <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001"><del rend="overstrike"><unclear reason="illegible" cert="low" resp="#km">them</unclear></del> here</add> in old age.</l>
+   </lg>
+    
+    <lg type="linegroup">
+    <l><del rend="overstrike">Delay'd at times, wandering, dallying,</del></l>
+     <l>Delaying, dallying, wandering,&#8212;never <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">even for a</add> <subst><del rend="overstrike" seq="1">one day</del> <del rend="overstrike" seq="3"><add place="above" seq="2">single hour</add></del> <add place="above" seq="4">brief day</add></subst><lb/>
+     abandon'd</l>
+   </lg>
+   <anchor xml:id="d001"/>
+   
+   <lg type="poem">
+    <head rend="underline" type="main'">This journey</head>
+    <l>Begun amid my ripen'd youth, and <choice><orig>stead-<lb/>
+        ily</orig><reg>steadily<lb/></reg></choice> kept on thro<add place="above">ughout</add> life,</l>
+    <l>Wandering, <add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">peering,</add> dallying, <del rend="overstrike">seeking</del>&#8212;war <add place="below"><metamark function="add" target="#a006"></metamark></add><del rend="overstrike"><add place="above" xml:id="a006">and</add></del> peace<del rend="overstrike">,</del> <add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004" rend="marked">day, night</add> <choice><orig>ab-<lb/>
+     sorbing</orig><reg>absorbing<lb/></reg></choice>&#8212;never even for a brief <subst><del rend="overstrike" seq="1">day</del> <add seq="2">hour</add></subst><lb/>
+         abandoning,</l>
+    <l>I end it <add place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" xml:id="a005">all</add> here in old age.</l>
+   </lg>
+   
+   <note hand="#h02" type="archival" place="bottom">74</note>
+   
+   <pb xml:id="leaf001v" facs="loc_ew.00344.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>
