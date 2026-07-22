@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08572"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title level="m" type="main" >Note at Beginning</title>
+    <title level="m" type="sub">a hand-written transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     <persName xml:id="tb">Tara Ballard</persName>
+     <persName xml:id="ew">Emma Whaley</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2026</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+   <idno>loc.02147</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1">A note on the verso, in Whitman's hand, gives a date of "Dec '88," but in a <ref target="loc.07465">letter to Richard Maurice Bucke</ref>, dated November 10, 1888, Whitman writes that he has "finished the little beginning &amp; end Notes I spoke of for the big book and sent to the printer." It therefore seems that this manuscript was written sometime in early November of 1888.</note>
+    
+     <note type="work_relations" target="xxx.00968" cert="high">A manuscript draft of "Note at Beginning," which appeared between the title page and the table of contents of Whitman's <hi rend="italic">Complete Poems &amp; Prose</hi> (1888–9). On the other side of the sheet is a deleted manuscript section from the same volume's "Note at End of Complete Poems and Prose."</note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Oversize, 1844-1952; Literary File; Books; Complete Poems and Prose (1888); Manuscript drafts; “Note at Beginning” and “Note at End” (Container 19)</title>  
+     
+     <date cert="high" notBefore="1888-10" notAfter="1888-11-10">Early November 1888</date>
+     
+     <idno type="callno">MSS 18630, Box OV 1</idno>
+     
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="pencil" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
+    <handNote medium="blue pencil" xml:id="h03" resp="#ww" scope="minor"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ <change when="2026-07-22" who="#km">proofed</change>
+ <change when="2025-01-14" who="#tb">edited</change>
+ <change when="2024-09-25" who="#ew">updated image links</change>
+ <change when="2024-05-10" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="loc_ew.00121.jpg" type="recto"/>
+
+     <delSpan rend="hashmark" spanTo="#d001" hand="#h02"/><note hand="#h03" type="authorial" place="right" rend="circled">Walt Whitman's book<lb/>l p close<lb/> to make a<lb/> page</note><anchor xml:id="d001"/>
+   
+    <head type="main"><subst hand="#h02"><del rend="overstrike" seq="1"><hi rend="underline" hand="#h01">Note of Introduction</hi></del> <add rend="above" seq="2"><hi rend="underline">Note at Beginning.</hi></add></subst></head>
+
+     <ab>The following Volume contains</ab>
+   
+     <ab><add hand="#h03"><metamark function="emphasize">&#182;</metamark></add> <hi rend="doubleUnderline">Leaves of Grass<lb/></hi>
+                <hi rend="underline">with the brief Annex,</hi> <hi rend="doubleUnderline">Sands at Seventy,</hi> <hi rend="underline">in Nov:<lb/> Boughs</hi> <note place="right" hand="#h03" type="authorial" rend="marked">sm ital &amp; s c</note></ab>
+   
+   <ab><add hand="#h03"><metamark function="emphasize">&#182;</metamark></add> <hi rend="doubleUnderline">Specimen Days &amp; Collect.....&amp;</hi></ab>
+   
+   <ab><add hand="#h03"><metamark function="emphasize">&#182;</metamark></add> <hi rend="doubleUnderline">November Boughs</hi></ab>
+   
+   <ab><metamark function="emphasize">&#182;</metamark> Revised, corrected, &amp;c., down to date.</ab>
+   
+   <milestone unit="glued"/>
+   
+   <p><metamark function="emphasize">&#182;</metamark> (When I had <del rend="overstrike">started</del> got this Vol. well under way, I was <add place="below" hand="#h02"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" hand="#h02" xml:id="a001">quite suddenly</add> prostrated by illness <add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003"><add hand="#h02">paralysis</add><add place="below" hand="#h02"><metamark function="add" target="#a008">&#8248;</metamark></add><add place="above" hand="#h02" xml:id="a008">&#8212;</add> continued yet<retrace hand="#h02">&#8212;</retrace></add>&#8212;which will have to excuse many faults both of omission and commission in it.)</p>
+   
+   <p hand="#h02"><metamark function="emphasize">&#182;</metamark> But I <subst hand="#h01"><del rend="overstrike" seq="1">will</del> <add rend="above" seq="2">would</add></subst> not let the great and momentous era of these years, these States, slip away without attempting to arrest in a special printed Book (as much in spirit as letter and may&#18840;be for the future more than the present) some few specimens&#8212; &#8212;even vital throbs, breaths&#8212;as representations of it all from my point of view, and right from the midst of it, and at the time.</p>
+   
+   <p><add hand="#h02"><metamark function="emphasize">&#182;</metamark></add> There is a tally <add place="below" hand="#h02"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" hand="#h02"><del rend="overstrike" hand="#h02">and</del>, stamp</add> and stage &#11840;result of periods and Nations, elusive, at second or third hand, <subst hand="#h02"><del rend="overstrike" seq="1">mostly</del> <add place="above" seq="2">often</add></subst> escaping the historian of matter&#11840;of&#11840;fact&#8212;in some sort <subst><del rend="overstrike" seq="1">that</del> <add place="above" seq="2">the</add></subst> Nation's spiritual <add place="below" hand="#h02"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" hand="#h02" xml:id="a005">formative</add> ferment or chaos&#8212;the getting in of its essence, <del rend="overstrike">and</del> <subst><del rend="overstrike" seq="1">shape</del> <add place="above" seq="2">formulating</add></subst> identity&#8212;a law of it, and <del rend="overstrike" hand="#h02">most</del> significant part of its progress. (Of the best of events and facts, even the most important, there are finally not the events and facts only, but something flashing out and fluctuating like <add place="above" hand="#h02">tuft&#11840;</add>flames or eidólons, from all.) My going up and down amidst these years, and the impromptu jottings of their sights and thoughts, of war and peace, have been in accordance <subst hand="#h02"><del rend="overstrike" seq="1">of</del> <add place="above" seq="2">with</add></subst> that law, and probably a result of it . . . . In certain respects, (emotionality, passions, spirituality<add hand="#h02">,</add> the invisible trend,) I therefore launch <add place="below" hand="#h02"><metamark function="add" target="#a006">&#8248;</metamark></add><add place="above" hand="#h02" xml:id="a006">forth)</add> the <add place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><add place="above" xml:id="a007">divisions of the</add> following Book <del rend="overstrike" hand="#h02">forth</del> as not only a <del rend="overstrike">genuine</del> consequent of that period and its influences, but <del rend="overstrike" hand="#h02">even</del> in <subst><del rend="overstrike" seq="1">a</del> <add place="above" seq="2">one</add></subst> sort <del rend="overstrike" hand="#h02">as</del> a History of America, the past 35 years, after the rest and after the adjuncts of that History, have been studied and attended to.</p>
+   
+   <pb xml:id="leaf001v" facs="loc_ew.00116.jpg" type="verso"/>
+   
+   <note type="authorial" place="top" hand="#h03">MS of<lb/> Note Beginning<lb/> Dec '88</note>
+   
+</body>
+</text>
+</TEI>
