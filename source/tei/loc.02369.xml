@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02369"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">Of That Blithe Throat of Thine</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
@@ -15,8 +13,8 @@
     <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
-     <persName xml:id="tb">Tara Ballard</persName>
+      <persName xml:id="tb">Tara Ballard</persName>
+      <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -28,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,45 +41,39 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.02369</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">Since this poem first appeared in January 1885, these corrections must have been made prior to that date, likely in late 1884.</note>
     
     
-     <note type="work_relations" target="xxx.00344" cert="high">
-      <p>This proof is grouped with other copies of proof sheets that represent different stages of the printing. Whitman has also written instructions to the printer on this proof sheet. "Of That Blithe Throat of Thine" was published first in January, 1885.</p>
-     </note>
+     <note type="work_relations" target="xxx.00344" cert="high">A corrected proof slip for "Of that Blithe Throat of Thine," which was first published in <hi rend="italic">Harper's Monthly Magazine</hi> in January 1885. It was then included in <hi rend="italic">November Boughs</hi> (1888). Whitman's note to the printer at the top indicates that he would like 50 proof slips, some printed with his name and some without, likely to hand out as gifts or momentos. Some of these slips are still extant.</note>
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>Of That Blithe Throat of Thine</title>  
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “Of That Blithe Throat of Thine” ( 1884 ); Proof sheets with signed corrections and notations</title>  
      
-     <date cert="high">between 1884&#8211;1888</date>
+     <date cert="high" notBefore="1884" notAfter="1885-01">Late 1884</date>
      
      <idno type="callno">MSS 18630, Box 27; Reel 16-17</idno>
      
-     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#38;1919, Library of Congress, Washington, D.C.</orgName>
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-     
-     <note type="project" target="#rel01">The verso contains another proof of "Of That Blithe Throat of Thine" which has been crossed-out by Whitman's hand.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
     <handNote medium="letterpress" xml:id="h01" scope="major" resp="#unk"/><handNote xml:id="unk">Unknown</handNote>
-    <handNote medium="pencil" xml:id="h02" scope="minor" resp="#ww"></handNote>
+    <handNote medium="pencil" xml:id="h02" scope="minor" resp="#ww"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-07-23" who="#km">proofed</change>
  <change when="2024-09-25" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -91,23 +82,30 @@
   <body>
    
    <pb xml:id="leaf001r" facs="loc_ew.00357.jpg" type="recto"/>
+   
    <lg type="poem">
-    <note type="authorial" hand="#h02" place="top" rend="marked">correct carefully&#8212;then take<lb/> 50 impressions <hi rend="underline">on paper like this.<lb/></hi> (<add place="above">so as</add>to write on) ab't this size&#8212;<lb/> &#8212; <add place="inline">&#9758;</add> 20 as here, <hi rend="underline">with the name</hi>&#8212; then<lb/> <hi rend="underline">take out the name</hi>, (<hi rend="underline">Walt Whitman</hi>)<lb/> &amp; print the other 30&#8212;<lb/> &#8212;(try to give me good impressions<lb/>a good clear job)</note>
-     <head><hi rend="bold">Of that Blithe Throat of Thine</hi></head>
-    <note type="authorial" place="inline">[More than 83 degrees north&#8212;about a good day<subst><del rend="overstrike" hand="#h02">s'</del><add place="right" hand="#h02" xml:id="a001">'s<metamark function="emphasize" target="#a001">/</metamark></add></subst> steaming distance to the Pole<lb/> by one of our fast oceaners in clear water&#8212;Greely heard the song of a single<lb/> snow-bird merrily sounding over the desolation.]</note>
+    <note type="authorial" hand="#h02" place="top" rend="marked">correct carefully&#8212;then take<lb/> 50 impressions <hi rend="underline">on paper like this.<lb/></hi> (<add place="above">so as</add> to write on) ab't this size&#8212;<lb/> &#9758; &#8212;20 as here, <hi rend="underline">with the name</hi>&#8212;then <hi rend="underline">take out the name</hi>, (<hi rend="underline">Walt Whitman</hi>) &amp; print the other 30&#8212;<lb/> &#8212;(try to give me good impressions&#8212;a good clear job)</note>
+    
+     <head type="main">Of that Blithe Throat of Thine.</head>
+    
+    <note type="textual" place="top" hand="#h01">[More than 83 degrees north&#8212;about a good day<subst hand="#h02"><del rend="overstrike" seq="1">s'</del> <add place="right" xml:id="a001" seq="2">'s<metamark function="emphasize" target="#a001">/</metamark></add></subst> steaming distance to the Pole<lb/> by one of our fast oceaners in clear water&#8212;Greely heard the song of a single<lb/> snow-bird merrily sounding over the desolation.]</note>
+    
      <l>Of that blithe throat of thine from arctic bleak and blank,</l>
      <l>I'll mind the lesson, solitary bird&#8212;let me too welcome chilling<lb/>
             drifts</l>
-     <l>E'ven the profoundest chill, as now&#8212;a torpid pulse, a brain <choice><orig>un&#8211;<lb/> nerv'd</orig><reg>unnerv'd</reg></choice>,</l>
+     <l>E'ven the profoundest chill, as now&#8212;a torpid pulse, a brain <choice><orig>un-<lb/>nerv'd</orig><reg>unnerv'd<lb/></reg></choice>,</l>
      <l>Old age land-lock'd within its winter bay&#8212;(cold, cold, O cold!)</l>
      <l>These snowy hairs, my feeble arm, my frozen feet,</l>
-     <l>For them thy faith <add place="inline" hand="#h02"><metamark function="add">&#8248;</metamark></add><add place="left" hand="#h02" xml:id="a002">,<metamark function="emphasize" target="#a002">/</metamark></add> thy rule I take, and grave it to the last;</l>
-     <l>Not summer's zones alone&#8212;not chants of youth <add place="inline" hand="#h02"><metamark function="add">&#8248;</metamark></add><add place="right" hand="#h02" xml:id="a003">,<metamark function="emphasize" target="#a003">/</metamark></add> or south's warm<lb/>
-            tides along,</l>
+     <l>For them thy faith <add place="below" hand="#h02"><metamark function="add">&#8248;</metamark></add><add place="left" hand="#h02" xml:id="a002">,<metamark function="emphasize" target="#a002">/</metamark></add> thy rule I take, and grave it to the last;</l>
+     <l>Not summer's zones alone&#8212;not chants of youth <add place="below" hand="#h02"><metamark function="add">&#8248;</metamark></add><add place="right" hand="#h02" xml:id="a003">,<metamark function="emphasize" target="#a003">/</metamark></add> or south's warm<lb/>
+            tides alone,</l>
      <l>But held by sluggish floes, pack'd in the northern ice, the cumulus<lb/>
             of years,</l>
      <l>These with gay heart I also sing.</l>
    </lg>
+   
+  
+  <signed>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</signed>
    
    <pb xml:id="leaf001v" facs="loc_ew.00358.jpg" type="verso"/>
    
