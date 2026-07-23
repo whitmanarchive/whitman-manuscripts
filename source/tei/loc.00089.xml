@@ -10,13 +10,13 @@
             <author>Walt Whitman</author>
             <editor>Kenneth M. Price</editor>
             <editor>Ed Folsom</editor>
-            <editor>Matt Cohen</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="sb">Sandy Byrd</persName>
                <persName xml:id="jh">Jeff Hill</persName>
                <persName xml:id="ew">Emma Whaley</persName>
+               <persName xml:id="bb">Brett Barney</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -28,7 +28,6 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>loc.00089</idno>
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,12 +37,37 @@
                <addrLine>Lincoln, NE 68588-4100</addrLine>
             </address>
             <availability>
-               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+               <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+               <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
             </availability>
+            <idno>loc.00089</idno>
          </publicationStmt>
-         <sourceDesc/>
+         
+         <notesStmt>
+            <note type="project" target="#dat1">Since this manuscript is titled "Death of Gen. Grant" and does not contain the poem's second stanza, it was probably written in about 1888, despite the note at the bottom (in an unknown hand).</note>
+            
+            <note type="work_relations" target="xxx.00341" cert="high">"Death of General Grant" was first published in Harper's Weekly Magazine on May 16, 1885 under the title "As One by One Withdraw the Lofty Actors." It was later reprinted as "Grant" in the <hi rend="italic">Critic</hi> on August 15, 1885. For its republication in <hi rend="italic">November Boughs</hi> (1888) and in later printings of <hi rend="italic">Leaves of Grass</hi>, Whitman dropped the second (four-line) stanza and retitled the poem "Death of General Grant."</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author xml:id="ww">Walt Whitman</author>
+               <title>Walt Whitman Papers: Literary file; Poetry; "Death of General Grant," signed draft, 1885</title>
+               <date notBefore="1887" notAfter="1889" cert="medium">About 1888</date>
+               <idno type="callno">mss77909, box 1</idno>
+               <orgName xml:id="loc">Walt Whitman Papers (Miscellaneous Manuscript Collection), Library of Congress, Washington, D.C.</orgName>
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
       </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+            <handNote xml:id="h02" resp="#unk" medium="black ink" scope="minor"><persName xml:id="unk">Unknown</persName></handNote>
+            <handNote medium="pencil" xml:id="h03" resp="#ww" scope="minor"/>
+         </handNotes>      
+      </profileDesc>
       <revisionDesc>
+         <change when="2026-07-17" who="#bb">proofed</change>
          <change who="#ew" when="2024-09-24">updated image links</change>
          <change who="#jh" when="2024-02-09">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
@@ -54,21 +78,21 @@
       <body>
          <pb facs="loc_ew.00067.jpg" xml:id="leaf001r" type="recto"/>
          <lg>
-            <head type="main-authorial" rend="underline">Death of General Grant.</head>
+            <head type="main" rend="underline">Death of Gen: Grant.</head>
             <l>As one by one withdraw the lofty actors</l>
             <l>From that great play on history's stage eterne,</l>
-            <l>That lurid, partial act of war and peace&#8212;of old and new contending,</l>
-            <l>Fought out through wrath, fears, dark dismays, and many a long suspense;</l>
-            <l>All past&#8212;and since, in countless graves receding, mellowing,</l>
-            <l>Victor's and vanquish'd&#8212;Lincoln's and Lee's&#8212;now thou with them,</l>
-            <l>Man of the mighty days—and equal the days!</l>
-            <l>Thou from the Prairies!&#8212;tangled and many-vein'd and hard has been thy part,</l>
+            <l>That lurid, partial act of war and peace&#8212; <lb/>of old and new contending,</l>
+            <l>Fought out through wrath, fears, dark <choice><orig>dis-<lb/>mays</orig><reg>dismays<lb/></reg></choice>, and many a long suspense;</l>
+            <l>All past&#8212;and since, in countless graves <lb/>receding, mellowing,</l>
+            <l>Victor's and vanquish'd&#8212;Lincoln's and Lee's&#8212; <lb/>now thou with them,</l>
+            <l>Man of the mighty days&#8212;and equal <lb/>the days!</l>
+            <l>Thou from the Prairies!&#8212;tangled and <lb/>many&#11840;vein'd and hard has been thy part;</l>
             <l>To admiration has it been enacted.</l>
          </lg>
          <signed>Walt Whitman</signed>
-         <note type="authorial" place="bottom">1885 Autograph,</note>
+         <note type="archival" place="bottom" hand="#h02">1885 Autograph,</note>
          <pb facs="loc_ew.00068.jpg" xml:id="leaf001v" type="verso"/>
-         <note type="authorial" place="inline">Walt Whitman's poem<hi rend="underline">Death of Gen.</hi><hi rend="underline">Grant</hi>autograph</note>
+         <note type="authorial" place="top" hand="#h03">Walt Whitman's poem <hi rend="underline">Death of Gen: Grant</hi> autograph</note>
       </body>
    </text>
 </TEI>
