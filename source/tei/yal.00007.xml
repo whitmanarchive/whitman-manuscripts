@@ -16,31 +16,33 @@
                     <persName xml:id="zz">Zane Zimbelman</persName>
                     <persName xml:id="kmp">Kenneth Price</persName>
                     <persName xml:id="bb">Brett Barney</persName>
-                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
-                <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                    <persName xml:id="tb">Tara Ballard</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
-                <sponsor>University of Nebraska-Lincoln</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
-                <funder>The United States Department of Education</funder>
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <date>2004</date>
+                    <date>2026</date>
                 </edition>
             </editionStmt>
             <publicationStmt>
-                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
-<addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
-<addrLine>Alderman Library</addrLine>
-<addrLine>University of Virginia</addrLine>
-<addrLine>P.O. Box 400115</addrLine>
-<addrLine>Charlottesville, VA 22904-4115</addrLine>
-<addrLine>whitman@jefferson.village.virginia.edu</addrLine>
-</address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
                 <availability>
-                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+                    <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+                    <p>
+                        The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+                        <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+                        (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
             <idno>yal.00007</idno></publicationStmt>
             <notesStmt>
@@ -48,30 +50,30 @@
                     1889</date>, in the <hi rend="italic">Critic</hi>. The poem was later retitled
                     "To the Pending Year." This manuscript was probably written near the end
                     of <date when="1888">1888</date> or in the first few days of <date when="1889">1889</date>, shortly before the poem was published.</note>
-                <note type="work_relations" target="xxx.00389" cert="high">
-            <p>"To the Year 1889" was published first on <date when="1889-01-05">January 5,
-                    1889</date>, in the <hi rend="italic">Critic</hi>. The poem was later retitled
-                "To the Pending Year."</p>
-        </note>
+                <note type="work_relations" target="xxx.00389" cert="high">"To the Year 1889" was published first on <date when="1889-01-05">January 5, 1889</date>, in the <hi rend="italic">Critic</hi>. The poem was later retitled "To the Pending Year."</note>
             </notesStmt>
             <sourceDesc>
-                <bibl><author xml:id="ww">Whitman, Walt</author>
-                    
-                    <title>To the Year 1889</title>
+                <bibl>
+                    <author xml:id="ww">Whitman, Walt</author>
+                    <title>"To the Year 1889," Holograph manuscript, corrected and signed</title>
                     <date xml:id="dat1" cert="high" notBefore="1888" notAfter="1889-01">Late 1888 or very early
                         1889</date>
-                    <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and
-                        Manuscript Library</orgName>
+                    <idno type="callno">YCAL MSS 202, Series V, Box: 3, Folder: 164</idno>
+                    <orgName xml:id="yal">Walt Whitman Collection. Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <handNotes>
-                <handNote xml:id="h1" scribeRef="#unk"><persName xml:id="unk">Unknown</persName></handNote>
+                <handNote medium="pencil" xml:id="h01" resp="#ww" scope="major"/>
+                <handNote xml:id="h02" resp="#unk" scope="minor"><persName xml:id="unk">Unknown</persName></handNote>
+                <handNote xml:id="h03" resp="#unk1" scope="minor"><persName xml:id="unk1">Unknown</persName></handNote>
             </handNotes>
         </profileDesc>
         <revisionDesc>
+            <change when="2026-07-23" who="#bb">reconciled and combined older and newer transcription; proofed</change>
+            <change when="2025-03-08" who="#tb">transcribed and encoded (anew)</change>
             <change when="2022-06-03" who="#bb">updated relations encoding</change>
             <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
             <change when="2016-09-26" who="#nhg">proofed</change>
@@ -91,37 +93,29 @@
     <text type="manuscript">
         <body>
             <pb facs="yal.00007.001.jpg" xml:id="leaf001r" type="recto"/>
-            <note place="top" resp="#h1" type="archival">vs 553</note>
+            <note place="top" resp="#h01" type="archival">vs 553</note>
             <lg type="poem">
                 <head type="main" rend="underline">To the year 1889.</head>
+                <milestone unit="glued"/>
                 <lg type="linegroup">
-                    <l>
-                        Have I no <add place="supralinear" rend="insertion">weapon‑</add>word for thee—some message
-                            brief
-                        <lb/>and fierce?
+                    <l>Have I no <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">weapon&#11840;</add>word for thee&#8212;some message brief<lb/> and fierce?
                     </l>
-                    <l>Have I fought out <add place="supralinear" rend="insertion">and
-                                done</add> indeed the battle? <del rend="overstrike">wholly?</del>
-                            is
-                        <lb/>there no shot left,
-                    </l>
-                    <l>For all thy affectations, lisps, scorns, <add place="supralinear" rend="insertion">manifold</add> silliness?</l>
-                    <l>Nor for myself—my own rebellious self <del rend="overstrike"><gap reason="illegible" extent="one letter"/></del> in thee?</l>
+                    <l>Have I fought out <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">and done</add> indeed the battle? <del rend="overstrike">wholly?</del> is<lb/> there no shot left,</l>
+                    <l>For all thy affectations, lisps, scorns, <add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">manifold</add> silliness?</l>
+                    <l>Nor for myself&#8212;my own rebellious self <unclear reason="illegible" resp="#bb" cert="medium">?</unclear> in thee?</l>
                 </lg>
-                <note type="authorial" place="inline">#</note>
-                <note rend="circled" place="inline" type="authorial">two leads</note>
+                <metamark function="emphasize"># <hi rend="circled">two <del rend="overstrike">leads</del></hi></metamark>
                 <lg type="linegroup">
-                    <l>Down, down, proud gorge—tho' choking thee,</l>
-                    <l>Thy bearded throat and high-borne forehead to the
-                        <lb/>gutter,
-                    </l>
+                    <l>Down, down, proud gorge&#8212;tho' choking thee,</l>
+                    <l>Thy bearded throat and high-borne forehead to the <lb/>gutter,</l>
                     <l>Crouch low thy neck to eleemosynary gifts.</l>
                 </lg>
             </lg>
             <signed rend="underline">Walt Whitman</signed>
+            <note type="archival" place="bottom" hand="#h02">65</note>
             <pb facs="yal.00007.002.jpg" xml:id="leaf001v" type="verso"/>
-            <note type="archival" resp="#h1" place="top"><hi rend="underline">Sky</hi> $25.—</note>
-            <note type="archival" resp="#h1" place="bottom">65.</note>
+            <note type="archival" resp="#h02" place="top"><hi rend="underline">Sky</hi> <lb/>$25.-</note>
+            <note type="archival" place="bottom" hand="#h02">65</note>
         </body>
     </text>
 </TEI>
