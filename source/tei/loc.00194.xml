@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00194">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main" rend="bracketed">Each claim, ideal, line</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="km">Kenneth M. Price</persName>
+               <persName xml:id="fl">Farrah Lehman</persName>
+               <persName xml:id="ms">Melody S. Han</persName>
+               <persName xml:id="jh">Jeff Hill</persName>
+               <persName xml:id="ew">Emma Whaley</persName>
+               <persName xml:id="bb">Brett Barney</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+               <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+            </availability>
+            <idno>loc.00194</idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="project" target="dat1">This manuscript was probably produced in late 1890, shortly before Whitman offered the poems, unsuccessfully, to first <hi rend="italic">Arena</hi> and then <hi rend="italic">Scribner's</hi>.</note>
+            <note type="work_relations" cert="high" target="xxx.00406 xxx.00564">These five groups of lines represent early stages of what eventually became two different short poems, "L. of G." and "L. of G.'s Purport," when first published in <hi rend="italic">Good-Bye My Fancy</hi> (1891). In late 1890, however, Whitman had attempted to publish poems containing these lines in other combinations and under different titles. (See editorial note for <ref target="loc.00231">loc.00231</ref>.)</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author xml:id="ww">Walt Whitman</author>
+               <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “My Task” ( 1891 ); Manuscript draft</title>
+               <date cert="high" when="1890" xml:id="dat1">Late 1890</date>
+               <idno type="callno">mss18630, box 27</idno>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote medium="purple crayon" xml:id="h01" resp="#ww" scope="major"/>
+            <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
+         </handNotes>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2026-07-24" who="#bb">proofed</change>
+         <change who="#ew" when="2024-09-24">updated image links</change>
+         <change who="#jh" when="2024-04-09">checked, corrected</change>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#km" when="2006-10-05">edited</change>
+         <change who="#fl" when="2006-09-21">checked</change>
+         <change who="#ms" when="2004-02-29">encoded</change>
+         <change who="#ms" when="2004-02-29">transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="loc_ew.00070.jpg" xml:id="leaf001r" type="recto"/>
+               <lg type="linegroup">
+                  <l>Each claim <add hand="#h01" place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a001">ideal,</add> line, <subst><del rend="overstrike" seq="1">tenet</del> <del rend="overstrike"><add place="above" seq="2">aspiration,</add></del></subst> by all <del rend="overstrike">the</del> <add place="above">ideals </add><add place="above">lines, claims</add>  
+                     <lb/><del rend="overstrike">rest</del> temper'd</l>
+                  <l>Each right and wish by other wishes, rights</l>
+               </lg>
+         
+               <lg type="linegroup">
+                  <l>Not to exclude or take away, <add place="above">or <subst><del rend="overstrike" seq="1">point</del> <add place="above" seq="2">pick</add></subst> out evils</add> <add hand="#h02" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h02" place="above" rend="marked" xml:id="a002">from their vast formidable masses</add></l>
+                  
+                  <l>But add, <del rend="overstrike"><add place="above">and</add></del> extend, complete, proportionate <add hand="#h02" place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a003">the immortal good,</add>&#8212;<del rend="overstrike">and</del> <lb/><del rend="overstrike">to develop heroism.</del></l>               </lg>
+         
+                 <metamark function="question">?</metamark>
+               <lg type="linegroup">
+                  <l>For <add hand="#h01" place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a004">out door</add> health, the land and sea, <add hand="#h01" place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a005">bar</add> <subst><del rend="overstrike" seq="1">friendship</del> <add place="above" seq="2">good will,</add></subst></l>
+                  
+                  <l>For America<subst><del rend="overstrike" seq="1">,</del><add place="above" seq="2">&#8212;</add></subst>for <subst><del rend="overstrike" seq="1">all</del> <add place="above" seq="2">common people,</add></subst> all <subst><del rend="overstrike" seq="1">lands,</del> <add place="above" seq="2">lands,</add></subst> all the earth</l>
+                  <l><add place="inline" hand="#h02">(Not one nation only&#8212;not even America only)</add></l></lg>
+         
+         <metamark function="question">?</metamark>
+                           <lg type="linegroup">
+                  <head type="main-authorial" rend="underline">These pages past</head>
+                  <l>Thoughts, <add hand="#h01" place="below"><metamark function="add" target="#a006">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a006">suggestions,</add> aspirations, pictures</l>
+                  <l>Cities and farms&#8212;<subst><del rend="overstrike" seq="1">of</del> <add place="above" seq="1">by</add></subst> day and night&#8212;<subst><del rend="overstrike" seq="1">of</del> <add place="above" seq="2">thro'</add></subst> peace and war</l>
+                  <l><add place="inline" hand="#h02">Thro' platitudes&#8212;thro' commonplace.</add></l>
+               </lg>
+               <lg type="linegroup">
+                  <l>I sing of life, yet mind me well of death,</l>
+                  <l>(To-day Death dogs <subst><del rend="overstrike" seq="1">my</del> <del rend="overstrike" seq="3"><add place="above" seq="2"><gap reason="illegible" extent="one or two characters"/></add></del></subst> my steps <add hand="#h01" place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a007">and has for years&#8212;</add> my seated <subst><del rend="overstrike" seq="1">form</del> <add place="above" seq="2">shape</add></subst> <add hand="#h02" place="below"><metamark function="add" target="#a008">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a008">as here&#8212;</add></l>
+                  <l><del rend="overstrike">And has, for years&#8212;)</del>&#8212;<add hand="#h02" place="below"><metamark function="add" target="#a009">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a009">Death,</add> silent, <del rend="overstrike">invisible</del> draws <lb/>sometimes close <subst rend="overwrite" hand="#h01"><del>)</del><add>&#8212;</add></subst> as face to face.)</l>
+               </lg>
+         <pb facs="loc_gk.00004_large.jpg" type="verso" xml:id="leaf001v"/>
+      </body>
+   </text>
+</TEI>
