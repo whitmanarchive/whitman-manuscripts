@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<!--  <?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  -->
-
+  <?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fol.00003"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">What lurks behind Shakspere's historical plays?</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="kmh">Kenneth Michael Hoover</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -28,7 +25,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,18 +40,13 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>fol.00003</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
-     <note type="work_relations" target="xxx.00465" cert="high">
-      <p></p>
-     </note>
+     <note type="work_relations" target="xxx.00465" cert="high"></note>
    </notesStmt>
-   
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
@@ -69,7 +60,6 @@
      <orgName xml:id="fol">Folger Shakespeare Library, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-     
     </bibl>
    </sourceDesc>
 </fileDesc>
@@ -83,7 +73,7 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-07-27" who="#km">proofed</change>
  <change when="2024-10-28" who="#kmh">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -92,11 +82,16 @@
   <body>
    
    <pb xml:id="leaf001r" facs="fol.00003.001_large.jpg" type="recto"/>
+   
    <metamark function="adjust" target="#j002"><add place="top" rend="circled" hand="#h03">Pica headline</add></metamark>
+   
    <note type="archival" place="top" hand="#h04">S.b.89</note>
+   
    <note type="authorial" place="top" hand="#h01" rend="circled">follow copy&#8212;punctuation, capitalization &amp;c</note>
+   
    <head rend="underline" xml:id="j002">What lurks behind Shakspere's <hi rend="tripleUnderline" hand="#h03">h</hi>istorical <hi rend="tripleUnderline" hand="#h03">p</hi>lays?</head>
-   <p xml:id="e001"><add place="left" hand="#h03" rend="circled"><metamark function="adjust" target="#e001">long primer</metamark></add><add place="inline" hand="#h03"><metamark function="emphasize" target="#e001">&#182;</metamark></add><hi rend="tripleUnderline" hand="#h03">W</hi><retrace cause="illegible" hand="#h03" rend="doubleUnderline">e</retrace> all know how much <add place="above" hand="#h03" rend="marked"><metamark function="adjust" target="#j003">l.c.</metamark></add><hi rend="underline" hand="#h03"><hi rend="underline" hand="#h01"><seg xml:id="j003">m</seg>ythus</hi></hi> there is in the Shakspe<add place="below" hand="#h03"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" hand="#h03" xml:id="a001">a</add>re question as it stands to<retrace cause="emphasize" hand="#h03">&#11840;</retrace>day. Beneath a few foundations of proved facts are certainly engulfed far more dim and elusive ones of deepest importance&#8212;tantalising, and half suspected&#8212;suggesting explanations that one dare not put in plain statement. But coming at once to the point, <del rend="overstrike" hand="#h01">and summarizing it,</del> the English historical plays are to me <del rend="overstrike" hand="#h03">both</del> the most eminent <del rend="overstrike" hand="#h01">and distinctive</del> <add place="below" hand="#h03"><metamark function="add">&#8248;</metamark></add> as literary and dramatic performances<del rend="overstrike" hand="#h03">,</del> (my maturest judgment confirming the impressions of my early years, that the distinctiveness and glory of <subst hand="#h01"><del rend="overstrike" seq="1">Shakspere</del><add place="above" seq="2">the <hi rend="tripleUnderline">P</hi>oet</add></subst> reside, not in <subst hand="#h01"><del rend="overstrike" seq="1">the</del><add place="above" seq="2">his</add></subst> vaunted <subst hand="#h01"><del rend="overstrike" seq="1">plays</del><add place="below" hand="#h01" seq="2"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002" seq="3">dramas</add></subst> of the passions<add place="inline" hand="#h03">,</add> but those founded on the contests of English dynasties, and the French wars<del rend="overstrike" hand="#h03">,</del>)<add place="inline" hand="#h03">,</add> and form<retrace hand="#h03" cause="emphasize">,</retrace> as we <subst hand="#h01"><del rend="overstrike" seq="1">see it to&#11840;day</del><add place="below" hand="#h03" seq="3"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003" seq="2">get <retrace hand="#h03" cause="illegible">i</retrace>t all</add></subst>, the chief in a complexity of puzzles. <hi rend="tripleUnderline">C</hi>onceived out of the fullest <del rend="overstrike">pulse and</del> heat and pulse of European
+   
+   <p xml:id="e001"><add place="left" hand="#h03" rend="circled"><metamark function="adjust" target="#e001">long primer</metamark></add><add hand="#h03"><metamark function="emphasize" target="#e001">&#182;</metamark></add><hi rend="tripleUnderline" hand="#h03">W</hi><retrace cause="illegible" hand="#h03" rend="doubleUnderline">e</retrace> all know how much <add place="above" hand="#h03" rend="marked"><metamark function="adjust" target="#j003">l.c.</metamark></add><hi rend="underline" hand="#h03"><hi rend="underline" hand="#h01"><seg xml:id="j003">m</seg>ythus</hi></hi> there is in the Shakspe<add place="below" hand="#h03"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" hand="#h03" xml:id="a001">a</add>re question as it stands to<retrace cause="emphasize" hand="#h03">&#11840;</retrace>day. Beneath a few foundations of proved facts are certainly engulfed far more dim and elusive ones of deepest importance&#8212;tantalising, and half suspected&#8212;suggesting explanations that one dare not put in plain statement. But coming at once to the point, <del rend="overstrike" hand="#h01">and summarizing it,</del> the English historical plays are to me <del rend="overstrike" hand="#h03">both</del> the most eminent <del rend="overstrike" hand="#h01">and distinctive</del> <add place="below" hand="#h03"><metamark function="add">&#8248;</metamark></add> as literary and dramatic performances<del rend="overstrike" hand="#h03">,</del> (my maturest judgment confirming the impressions of my early years, that the distinctiveness and glory of <subst hand="#h01"><del rend="overstrike" seq="1">Shakspere</del><add place="above" seq="2">the <hi rend="tripleUnderline">P</hi>oet</add></subst> reside, not in <subst hand="#h01"><del rend="overstrike" seq="1">the</del><add place="above" seq="2">his</add></subst> vaunted <subst hand="#h01"><del rend="overstrike" seq="1">plays</del><add place="below" hand="#h01" seq="2"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002" seq="3">dramas</add></subst> of the passions<add place="inline" hand="#h03">,</add> but those founded on the contests of English dynasties, and the French wars<del rend="overstrike" hand="#h03">,</del>)<add place="inline" hand="#h03">,</add> and form<retrace hand="#h03" cause="emphasize">,</retrace> as we <subst hand="#h01"><del rend="overstrike" seq="1">see it to&#11840;day</del><add place="below" hand="#h03" seq="3"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003" seq="2">get <retrace hand="#h03" cause="illegible">i</retrace>t all</add></subst>, the chief in a complexity of puzzles. <hi rend="tripleUnderline">C</hi>onceived out of the fullest <del rend="overstrike">pulse and</del> heat and pulse of European
    
    <pb xml:id="leaf001v" facs="fol.00003.002_large.jpg" type="verso"/>
    
