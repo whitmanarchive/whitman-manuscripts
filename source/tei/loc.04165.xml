@@ -6,18 +6,16 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main" rend="bracketed">Swelling and ebbing the</title>
-    <title level="m" type="sub">a machine-readable transcription</title>
+    <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="tb">Tara Ballard</persName>
      <persName xml:id="ew">Emma Whaley</persName>
+     <persName xml:id="km">Kevin McMullen</persName> 
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -29,7 +27,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -45,33 +42,28 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.04165</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
     
-     <note type="work_relations" target="xxx." cert="high">
-      <p>Draft titles for "You Tides with Ceaseless Swell," first published along with seven other poems in <hi rend="italic">The Nineteenth Century</hi> (August 1885), under the general title "Fancies at Navesink."</p>
-     </note>
+     <note type="work_relations" target="xxx." cert="high">A manuscript containing draft titles for "You Tides with Ceaseless Swell," first published along with seven other poems in <hi rend="italic">The Nineteenth Century</hi> (August 1885), under the general title "Fancies at Navesink." The poem was later included in <hi rend="italic">November Boughs</hi> (1888).</note>
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>Fancies at Navesink</title>  
+     <title>Thomas Biggs Harned Collection of the Papers of Walt Whitman: Manuscripts, [1859]-[circa 1892]; Poetry; [circa 1885] , "Fancies at Navesink"</title>  
      
      <date cert="high">about 1885</date>
      
      <idno type="callno">MSS 45443, Reel 1</idno>
      
-     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, Library of Congress, Washington, D.C.</orgName>
+     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842–1937, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-     <note type="project" target="#rel01">The verso is a flattened enveloped addressed to Walt Whitman.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
@@ -79,10 +71,11 @@
    <handNotes>
     <handNote medium="black ink" xml:id="h01" resp="#ww"/>
     <handNote medium="pencil" xml:id="h02" resp="#ww"></handNote>
-    <handNote medium="blue ink" xml:id="h03" resp="#unk"></handNote>
+    <handNote medium="blue stamped ink" xml:id="h03" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
+ <change when="2026-07-28" who="#km">proofed</change>
  <change when="2024-09-25" who="#ew">updated image links</change>
  <change when="2024-07-09" who="#tb">transcribed and encoded</change>
 </revisionDesc>
@@ -92,16 +85,26 @@
   <body>
    
    <pb xml:id="leaf001r" facs="loc_ew.00387.jpg" type="recto"/>
-   <lg type="poem">
+   
+   <div>
+    <lg type="linegroup">
      <l>Swelling and ebbing the<lb/>
           <del rend="overstrike">they</del> tides they swing</l>
-     <l><hi rend="underline">You tides, with<lb/>
-          <add rend="underline" place="above">ceaseless</add>swell and ebb.</hi></l>
-     <l>Sea&#11840;Ripples</l>
-     <l>seashore Ripples</l>
    </lg>
+   </div>
+    
+    <milestone unit="glued"/>
+   <div> 
+    
+     <head><hi rend="underline">You tides, with<lb/>
+          <add place="below"><metamark function="add" target="#a001"></metamark></add><add place="above" xml:id="a001">ceaseless</add> swell and ebb.</hi></head>
+    
+     <head>Sea&#11840;Ripples</head>
+    
+     <head>Seashore Ripples</head>   
+   </div>
    
-<note hand="h03" type="archival" place="bottom left">61</note>
+<note hand="#h03" type="archival" place="bottom">61</note>
    
    <pb xml:id="leaf001v" facs="loc_ew.00388.jpg" type="verso"/>
    
