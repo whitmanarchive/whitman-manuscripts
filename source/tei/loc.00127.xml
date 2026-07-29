@@ -3,11 +3,7 @@
 <?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00127">
-    <!--   <relations>
-      <work ref="xxx.00383" cert="high">
-         <p>An early undated draft of "On, on the Same, Ye Jocund Twain!", written on the verso of a letter and two envelopes.</p>
-      </work>
-   </relations>-->
+
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -49,21 +45,23 @@
                 </availability>
                 <idno>loc.00127</idno>
             </publicationStmt>
-            <notesStmt>
-                <note type="project" target="dat1">This manuscript was probably composed about <date when="1890">1890</date>; it is a draft of a poem first published in 1891, and the letter and envelopes on which the draft is written are dated 1890.</note>
-                <note type="project" target="leaf001v">On the verso is a letter from Albert Johansen, dated March 1890, requesting Whitman's autograph.</note>                          	
+            <notesStmt>  
+                
+                <note type="project" target="#dat1">Whitman must have written this manuscript fragment in 1890, sometime between 27 April (the date of the postmark on the reverse) and 10 May (the date written on a <ref target="loc.00239">late draft</ref> of the same poem).</note>                
+                <note type="work_relations" target="xxx.0383" cert="high">The lines on this manuscript contributed to the poem "On, On the Same, Ye Jocund Twain!" which was first published in <hi rend="italic">Good-Bye My Fancy</hi> (1891). The poem also appeared shortly thereafter in the 9 June 1891 issue of <hi rend="italic">Once a Week</hi>.</note>
             </notesStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Go forth, ye twain</title>
-                    <date cert="high" value="1890/1891" xml:id="dat1">About 1891</date>
+                    <date cert="high" notBefore="1890-04-17" notAfter="1890-05-10" xml:id="dat1">April or May 1890</date>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2026-07-29" who="#bb">proofed</change>
             <change when="2026-07-20" who="#bb">created by separating out of loc.00069 (other revisionDesc entries here refer to that file).</change>
             <change who="#ew" when="2024-09-24">updated image links</change>
             <change who="#jh" when="2024-05-21">checked, corrected</change>
@@ -77,8 +75,8 @@
     <text>
         <body>
             
-            <lg>
-                
+            <lg type="poem">
+<!--      BEGIN HERE          -->
                 <pb facs="loc_ew.00058.jpg" xml:id="leaf001r" type="recto"/>
                 <l>Hints arousals interrogations</l>
                 <l>Time's last accumulation<lb/>
