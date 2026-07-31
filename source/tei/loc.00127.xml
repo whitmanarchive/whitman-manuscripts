@@ -52,7 +52,7 @@
             </notesStmt>
             <sourceDesc>
                 <bibl>
-                    <author>Walt Whitman</author>
+                    <author xml:id="ww">Walt Whitman</author>
                     <title>Go forth, ye twain</title>
                     <date cert="high" notBefore="1890-04-17" notAfter="1890-05-10" xml:id="dat1">April or May 1890</date>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
@@ -60,6 +60,11 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote medium="black ink" xml:id="h01" resp="#ww" scope="sole"/>
+            </handNotes>
+        </profileDesc>
         <revisionDesc>
             <change when="2026-07-29" who="#bb">proofed</change>
             <change when="2026-07-20" who="#bb">created by separating out of loc.00069 (other revisionDesc entries here refer to that file).</change>
@@ -74,27 +79,35 @@
     </teiHeader>
     <text>
         <body>
-            
+          <pb facs="loc_ew.00058.jpg" xml:id="leaf001r" type="recto"/>
             <lg type="poem">
-<!--      BEGIN HERE          -->
-                <pb facs="loc_ew.00058.jpg" xml:id="leaf001r" type="recto"/>
+                <lg type="linegroup">
                 <l>Hints arousals interrogations</l>
                 <l>Time's last accumulation<lb/>
-                    and result—;earth's <hi rend="underline">finale</hi></l>
+                    and result&#8212;earth's <hi rend="underline">final&#232;</hi></l>
                 <l>The common average<lb/>
-                    (neither best nor worst)the old,</l>
-                <l>The great eclairecissement of<lb/>
+                    (neither best nor worst) the old,</l>
+                <l xml:id="tr01">The great eclairecissement of<lb/>
                     all the past, all lands,<lb/>
-                    America</l>
-                <l>(<subst><rdg varSeq="1"><del rend="overstrike">There</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">My</add></rdg></subst> <subst><rdg varSeq="1">verses</rdg><rdg varSeq="2"><add place="above" rend="unmarked">?</add></rdg></subst> made in early<lb/>
+                    America</l> 
+                <l xml:id="tr02">(<subst><del rend="overstrike" seq="1">There</del> <add place="above" seq="2">My</add></subst> verses<add place="above"><metamark function="question">?</metamark></add> made in early<lb/>
                     life and through mid-age</l>
-                <l>I <subst><rdg varSeq="1"><del rend="overstrike">give out</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">keep</add></rdg></subst> for <add rend="insertion">snow </add>white hairs and<lb/>
-                    <del rend="overstrike">W</del> pulses cool'd, just, just the<lb/>
+                <l xml:id="tr03">I <subst><del rend="overstrike" seq="1">give</del> <add place="above" seq="2">keep</add></subst> <del rend="overstrike">out</del> for <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">snow</add> white hairs and<lb/>
+                    <del rend="overstrike">th</del> pulses cool'd, just, just the<lb/>
                     same;)</l>
+                    <listTranspose>
+                        <transpose>
+                            <ptr target="#tr02"/>
+                            <ptr target="#tr03"/>
+                            <ptr target="#tr01"/>
+                        </transpose>
+                    </listTranspose>
+                </lg>
+                <lg>
                 <l>A gladsome cry<lb/>
-                    <subst><rdg varSeq="1"><del rend="overstrike">the</del></rdg><rdg varSeq="2"><add rend="unmarked" place="above">a</add></rdg></subst> song of hope and growth</l>
+                    <subst><del rend="overstrike" seq="1">the</del> <add place="above" seq="2">a</add></subst> song of hope and growth</l>
+                </lg>
                 <pb facs="loc_ew.00059.jpg" xml:id="leaf001v" type="verso"/> 
-                <note type="project" target="leaf02v">On the verso is an envelope addressed to Walt Whitman, Camden, New Jersey and postmarked April 27, 1890.</note> 
             </lg>
         </body>
     </text>
