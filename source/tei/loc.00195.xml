@@ -47,29 +47,26 @@
             <idno>loc.00195</idno>
          </publicationStmt>
          <notesStmt>
-            <note type="project" target="dat1">Because of the handwriting and its thematic similarity to the "Fancies at Navesink" sequence, this manuscript appears to have been produced in the <date when="1880/1889">1880s</date>.</note>
+            <note type="project" target="#dat1">This manuscript was likely composed in late 1884 or 1885.</note>
             
-            
-            
-            <note type="project" target="#dat1">Whitman probably wrote this manuscript fragment shortly before May 10, 1890, the date written on a <ref target="loc.00239">late draft</ref> of the poem.</note>                
-            <note type="work_relations" target="xxx.0383" cert="high">The lines on this manuscript contributed to the poem "On, On the Same, Ye Jocund Twain!" which was first published in <hi rend="italic">Good-Bye My Fancy</hi> (1891). The poem also appeared shortly thereafter in the 9 June 1891 issue of <hi rend="italic">Once a Week</hi>.</note>
-            
+            <note type="work_relations" target="xxx.00333" cert="high">This is an early draft of "You Tides With Ceaseless Swell," one of eight poems in the "Fancies at Navesink" sequence, which first appeared in print in the August 1885 issue of <hi rend="italic">Nineteenth Century</hi>. The sequence was later reprinted in <hi rend="italic">November Boughs</hi> (1888).</note>
             
          </notesStmt>
          <sourceDesc>
             <bibl>
                <author xml:id="ww">Walt Whitman</author>
                <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “Ebb and Flood Tides” ( undated ), draft</title>
-               <date cert="low" value="1880/1889" xml:id="dat1">1880-1889</date>
+               <date cert="low" notBefore="1884" notAfter="1885" xml:id="dat1">1884 or 1885</date>
                <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
                <note type="project">Transcribed from digital images of the original.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <handList>
-            <hand scribe="Farrah Lehman" xml:id="fl"/>
-         </handList>
+         <handNotes>
+            <handNote medium="blue crayon" xml:id="h01" resp="#ww" scope="major"/>
+            <handNote medium="pencil" xml:id="h02" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
+         </handNotes>
       </profileDesc>
       <revisionDesc>
          <change when="2026-07-31" who="#bb">proofed</change>
@@ -85,7 +82,9 @@
    <text>
       <body>
          <pb facs="loc_ew.00071.jpg" xml:id="leaf001r" type="recto"/>
-         <lg>
+         <lg type="poem">
+            
+<!-- BEGIN HERE -->
             <head type="main-authorial"><subst><rdg varSeq="1"><del rend="overstrike">Swelling and ebbing and hand in hand</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked"><del rend="overstrike">Advancing, retreating,</del></add></rdg><rdg varSeq="3"><add place="inline" rend="unmarked">Ebb and Flood Tides.</add></rdg></subst></head>
             <l><subst><rdg varSeq="1"><del rend="overstrike">Swelling and ebbing</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">Advancing, retreating,</add></rdg></subst> and hand in hand</l>
             <l><add place="above" rend="insertion">Duly</add> With <add place="above" rend="insertion"><del rend="hashmark">their</del></add> <subst><rdg varSeq="1"><del rend="overstrike">rhythmic</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">turning</add></rdg></subst> steps <add place="above" rend="insertion">and mouths</add> to the <subst><rdg varSeq="1"><del rend="hashmark">left</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">right</add></rdg></subst> or <add place="above" rend="unmarked">the</add> <subst><rdg varSeq="1"><del rend="hashmark">right</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">left</add></rdg></subst></l>
@@ -96,6 +95,7 @@
             <l>Moving forever round the circles of the earth.</l>
          </lg>
          <pb facs="loc_ew.00072.jpg" xml:id="leaf001v" type="verso"/>
+         <note type="archival" place="left" hand="#h02">Manuscript of <hi rend="underline">Walt Whitman</hi></note>
       </body>
    </text>
 </TEI>
