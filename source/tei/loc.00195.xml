@@ -64,8 +64,8 @@
       </fileDesc>
       <profileDesc>
          <handNotes>
-            <handNote medium="blue crayon" xml:id="h01" resp="#ww" scope="major"/>
-            <handNote medium="pencil" xml:id="h02" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
+            <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+            <handNote medium="black ink" xml:id="h02" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
          </handNotes>
       </profileDesc>
       <revisionDesc>
@@ -85,14 +85,20 @@
          <lg type="poem">
             
 <!-- BEGIN HERE -->
-            <head type="main-authorial"><subst><rdg varSeq="1"><del rend="overstrike">Swelling and ebbing and hand in hand</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked"><del rend="overstrike">Advancing, retreating,</del></add></rdg><rdg varSeq="3"><add place="inline" rend="unmarked">Ebb and Flood Tides.</add></rdg></subst></head>
-            <l><subst><rdg varSeq="1"><del rend="overstrike">Swelling and ebbing</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">Advancing, retreating,</add></rdg></subst> and hand in hand</l>
-            <l><add place="above" rend="insertion">Duly</add> With <add place="above" rend="insertion"><del rend="hashmark">their</del></add> <subst><rdg varSeq="1"><del rend="overstrike">rhythmic</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">turning</add></rdg></subst> steps <add place="above" rend="insertion">and mouths</add> to the <subst><rdg varSeq="1"><del rend="hashmark">left</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">right</add></rdg></subst> or <add place="above" rend="unmarked">the</add> <subst><rdg varSeq="1"><del rend="hashmark">right</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">left</add></rdg></subst></l>
-            <l><gap reason="cut away"/> <add place="above" rend="unmarked"><del rend="overstrike">reverting</del></add> <subst><rdg varSeq="1"><add place="above" rend="unmarked"><del rend="overstrike"><unclear reason="deletion, illegible" cert="high" resp="#fl">moving</unclear></del></add></rdg><rdg varSeq="2"><add place="above" rend="unmarked">reverting</add></rdg></subst></l>
+            <head type="main"><subst><del rend="overstrike" seq="1"><hi rend="underline">Swelling and Ebbing and hand in hand.</hi></del> <del rend="overstrike" seq="3"><add place="above" seq="2">Advancing, retreating,</add></del> <add place="above" seq="4">Ebb and Flood Tides.</add></subst></head>
+            
+            <l><subst><del rend="overstrike" seq="1">Swelling and ebbing</del> <add place="above" seq="2">Advancing, retreating,</add></subst> and hand in hand</l>
+            
+            <l><add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">Duly,</add> With <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><del rend="overstrike"><add place="above" xml:id="a002">their</add></del>  <subst><del rend="overstrike" seq="1">rhythmic</del> <add place="above" seq="2">turning</add></subst> steps <add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">and mouths</add> to the <subst><del rend="overstrike" seq="1">left</del> <add place="above" seq="2">right</add></subst> or <subst><del rend="overstrike" seq="1">right</del> <add place="above" seq="2">the left,</add></subst></l>
+            
+            <l><del rend="overstrike"><gap reason="torn away" extent="about three words"/> <add place="above">reverting</add> <add place="above">re</add> <gap reason="torn away" extent="one word"/> <add place="above"><subst><del rend="overstrike" seq="1"><unclear reason="illegible" cert="medium" resp="#bb">many</unclear></del> <add place="above" seq="2">reverting</add></subst></add> <unclear reason="illegible" cert="high" resp="#bb">of the</unclear> <gap reason="illegible" extent="one word"/></del></l>
+            
             <l><del rend="overstrike">With many a laugh</del></l>
-            <l><subst><rdg varSeq="1"><del rend="overstrike">The</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">You</add></rdg></subst> <del rend="overstrike">tides the</del> <del rend="overstrike">ceaseless</del> <add place="above" rend="unmarked"> <delSpan spanTo="#d1" rend="overstrike"/>liquid</add> tides like a <anchor xml:id="d1"/> chorus<lb/> of brothers and sisters</l>
-            <l><del rend="overstrike">Move forever, <add place="above" rend="unmarked">move,</add> round the circles of the earth,</del></l>
-            <l>Moving forever round the circles of the earth.</l>
+            
+            <l><subst><del rend="overstrike" seq="1">The</del> <add place="above" seq="2">You</add></subst> <del rend="overstrike">tides, the</del> <subst><del rend="overstrike" seq="1">ceaseless</del> <del rend="overstrike" seq="3"><add place="above" seq="2"> liquid</add></del></subst> <del rend="overstrike">tides like a</del> chorus<lb/> of brothers and sisters</l>
+            
+            <l><del rend="overstrike">Move forever <add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">move,</add> round the circles of the earth,</del></l>
+            <l>Moving forever round the circles of the earth,</l>
          </lg>
          <pb facs="loc_ew.00072.jpg" xml:id="leaf001v" type="verso"/>
          <note type="archival" place="left" hand="#h02">Manuscript of <hi rend="underline">Walt Whitman</hi></note>
