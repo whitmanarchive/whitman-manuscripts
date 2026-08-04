@@ -41,7 +41,8 @@
     </availability>
    <idno>unc.00010</idno>
    </publicationStmt>
-   <notesStmt><note type="project" target="#dat1">This manuscript was most likely written in late 1883 or early 1884, shortly before the poem appeared in <hi rend="italic">Harper's</hi>. The cancelled prose on the verso concerns John Burroughs's <hi rend="italic">Notes on Walt Whitman, As Poet and Person</hi>, published in 1867 and again, in an expanded form, in 1871. It is therefore possible, though unlikely, that Whitman had begun drafting the material for "With Husky-Haughty Lips, O Sea!" many years before it was published.</note>
+   <notesStmt><note type="project" target="#dat1">The envelope Whitman used in creating this manuscript is postmarked October 1883, so he must have created this manuscript in late 1883 or early 1884.</note>
+ 
     <note type="work_relations" target="xxx.00340" cert="high">"With Husky-Haughty Lips, O Sea!" was published first in the March 1884 issue of <hi rend="italic">Harper's Monthly Magazine</hi>. It was reprinted, with the addition of one line, in <hi rend="italic">November Boughs</hi> (1888) and in the "Sands at Seventy" annex to <hi rend="italic">Leaves of Grass</hi> in 1888 and after.</note>
     
    </notesStmt>
@@ -49,18 +50,11 @@
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
-     
      <title>With Husky&#11840;Haughty Lips, O Sea</title>  
-     
      <date cert="high">about 1884</date>
-     
      <idno type="callno">Folder 8</idno>
-     
      <orgName xml:id="unc">University of North Carolina at Chapel Hill: Walt Whitman Papers</orgName>
-     
      <note>Transcribed from digital images of the original.</note>
-   
-     <note type="project" target="#rel01">The verso includes an unfolded international envelope to Walt Whitman and the stationery letterhead for the Sheldon House in Ocean Grove, New Jersey.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
@@ -86,30 +80,51 @@
    <lg type="poem">
      <head rend="underline">With husky&#11840;haughty lips, O sea</head>
      <l>With husky&#11840;haughty lips O sea,</l>
-     <l>Where day and night I walk thy surf&#11840;beat shore</l>
+     <l>Where day and night I walk thy surf&#11840;beat shore,</l>
+    
      <milestone unit="glued"/>
      <l>Imaging to my sense thy varied strange suggestions,</l>
+    
      <l>Thy troops of white&#11840;maned racers urging to the goal,</l>
-    <l><add hand="#h02">The ceaseless curious rapping of thy sands and waves,&#8212;<del rend="overstrike" hand="#h02">thy sudden changes</del></add></l>
-    <l>Thy brooding murk and scowl&#8212;thy unloos'd hurricanes<del rend="overstrike">,</del></l>
+    
+    <l><add hand="#h02">The ceaseless curious rasping of thy sands and waves,</add></l>
+    
+    <l>Thy brooding murk and scowl&#8212;thy unloos'd hurricanes<add hand="#h02" place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><del rend="overstrike" hand="#h02"><add hand="#h02" place="above" xml:id="a001">&#8212;thy sudden changes</add></del></l>
+    
     <l>Thy ample smiling face, dash'd with the sparkling<lb/>
            dimples of the sun,</l>
-     <l><add>Thy unsubduedness, caprices, wilfulness,</add></l>
-    <l><del rend="overstrike">Thy unsubduedness, caprices, wilfulness,</del></l>
+     <l></l>
+    <l><subst><add place="above" seq="2">Thy unsubduedness, caprices, wilfulness,</add> <del rend="overstrike" seq="1">Thy unsubduedness, caprices, wilfulness,</del></subst></l>
+    
      <l>Great as thou art, thy many tears&#8212;a lack from<lb/>
            all eternity in thy content,</l>
+    
      <l>Thy lonely state&#8212;something thou ever seek'st<lb/>
            and seek'st, yet gainest not;</l>
-     <l><handShift new="#h02"/>&#42;<handShift new="#h04"/><del><unclear reason="erased" cert="low" resp="#tb"/></del></l>
-     <l><handShift new="#h01"/>By lengthen'd swell and spasm and panting breath,</l>
-     <l><del rend="overstrike" hand="#h02" seq="2"><add place="above" hand="#h02" seq="1">And ceaseless curious rasping of the sands and waves,</add></del><subst><del rend="overstrike" hand="#h02" seq="1">And</del><del rend="overstrike" hand="#h02" seq="3"><add place="above" hand="#h02" seq="2">With</add></del></subst><add place="inline" hand="#h02"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002" hand="#h02">And</add> serpent hiss and savage peals of laughter</l>
-     <l><del rend="overstrike" hand="#h02" seq="3"><add place="above" hand="#h02" seq="1">And curious ceaseless <del rend="overstrike" hand="#h02" seq="2">ras</del> curious rasping of thy sands and waves,</add></del>And undertones of <subst><del rend="overstrike" hand="#h02" seq="1">muffled</del><add place="above" hand="#h02" seq="2">distant</add></subst>muffled lion roar</l>
+    
+     <l><del rend="erased"><add hand="#h02"><metamark function="transpose">*</metamark></add> <add hand="#h04">Thy unsubduedness, caprices, wilfulness, <lb/><del rend="overstrike" hand="#h04">muttering from thy soul's abysms, O husky haughty sea</del></add></del></l>
+
+    <l>By lengthen'd swell and spasm and panting breath,</l>
+    
+     <l><del rend="overstrike" hand="#h02"><add hand="#h02">And ceaseless curious rasping of the sands and waves,</add></del></l>
+    
+    <l><subst hand="#h02"><del rend="overstrike" seq="1">And</del> <del rend="overstrike" seq="3"><add place="above" hand="#h02" seq="2">With</add></del> <add place="below" hand="#h02" seq="4"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002" hand="#h02" seq="4">And</add></subst> serpent hiss and savage peals of laughter,</l>
+    
+     <l><del rend="overstrike" hand="#h02"><add place="above" hand="#h02">And curious ceaseless <subst><del rend="overstrike" seq="1">ra</del> <add seq="2">curious</add></subst> rasping of thy sands and waves,</add></del></l>
+    
+      <l>And undertones of <subst hand="#h02"><del rend="overstrike" seq="1">muffled</del><add place="above" seq="2">distant</add></subst> lion roar,</l>
+    
      <milestone unit="glued"/>
+    
      <l>The secret and confession of the globe,</l>
+    
      <milestone unit="glued"/>
-     <l><handShift new="#h02"/>Some tyranny<add place="inline"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">&#8212;some orbic slight</add>&#8212;<subst><del rend="overstrike" seq="1">some primal wrong</del><del rend="overstrike" seq="3"><add place="above" seq="2">right withheld&#8212;</add></del></subst>&#8212;some <add place="inline"><metamark function="add" target="#a004">&#8248;</metamark></add><del rend="overstrike" seq="2"><add place="above" xml:id="a004" seq="1">voice of</add></del><add place="above" seq="3">muffled as</add><lb/>
-            <add place="above">call of</add> freedom&#11840;lover pent</l>
+    
+     <l><handShift new="#h02"/>Some tyranny <add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">&#8212;some orbic slight</add>&#8212;<del rend="overstrike">some</del> <subst><del rend="overstrike" seq="1">primal wrong</del> <del rend="overstrike" seq="3"><add place="above" seq="2">right withheld&#8212;</add></del></subst>&#8212;some <add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><del rend="overstrike"><add place="above" xml:id="a004">voice of</add></del> <add place="above" seq="3">muffled <del rend="overstrike">as</del></add><lb/>
+      <add place="below"><metamark function="add" target="#a006">&#8248;</metamark></add><add place="above" xml:id="a006">call of</add> freedom&#11840;lover pent</l>
      <milestone unit="glued"/>
+    
+<!--    BEGIN HERE .   -->
      <l><del rend="overstrike">Ages and</del><add place="inline"><metamark function="add" target="#a005">&#8248;</metamark></add><del rend="overstrike" seq="2"><add place="above" xml:id="a005" rend="marked" seq="1">Ever and ever</add></del><del rend="overstrike">ages</del> <add place="inline"></add><add>Heedlessly</add> sounding to the <subst><del rend="overstrike" seq="1">world's</del><del rend="overstrike" seq="3"><add place="above" seq="2">? sky's</add></del></subst> deaf ear<del rend="overstrike">s</del></l>
      <l>Still now for once thine import here <subst><del rend="overstrike" seq="1"><unclear reason="illegible" cert="low" resp="#tb"/></del><add place="above" seq="1">unfolding,</add></subst></l>
      <milestone unit="glued"/>

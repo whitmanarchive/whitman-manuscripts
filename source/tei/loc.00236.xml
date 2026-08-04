@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00236"> 
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main">Old Age's Ship &amp; Crafty Death's</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor>Kenneth M. Price</editor>
+            <editor>Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="tb">Tara Ballard</persName>
+               <persName xml:id="ew">Emma Whaley</persName>
+               <persName xml:id="km">Kevin McMullen</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+               <p>
+                  The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+                  <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+                  (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+            </availability>
+            <idno>loc.00236</idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="project" target="#dat1">The version of the poem printed by <hi rend="italic">The Century</hi>, in February 1890, includes the two minor changes written on this and other similar proof slips, although the later printings in <hi rend="italic">Good-Bye My Fancy</hi> and <hi rend="italic">Leaves of Grass</hi> do not. Whitman was in the habit of ordering batches of specially printed poem slips that he then "corrected" in small ways and presented as mementos to friends and admirers. This and similar slips do not, therefore, constitute a particular stage in Whitman's composition of the poem as it appeared in <hi rend="italic">Good-Bye My Fancy</hi> or <hi rend="italic">Leaves of Grass.</hi></note>
+            
+            <note type="work_relations" target="xxx.00388" cert="high">This is a proof slip of "Old Age's Ship and Crafty Death's," with corrections and notations in Whitman's hand. The poem was first published in the February 1890 issue of <hi rend="italic">The Century Magazine</hi>. Whitman subsequently included it in <hi rend="italic">Good-Bye My Fancy</hi> (1891) and in the printing of <hi rend="italic">Leaves of Grass</hi> that he oversaw just before his death.</note>
+         </notesStmt>
+         
+         <sourceDesc>
+            <bibl>
+               <author xml:id="ww">Whitman, Walt</author>
+               
+               <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “Old Age's Ship and Crafty Death's” ( 1890 ); Proof sheets with corrections and notations</title>  
+               
+               <date notBefore="1889" notAfter="1890-02" cert="high">Between 1889 and 1890</date>
+               
+               <idno type="callno">mss18630, box 28</idno>
+               
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+               
+               <note>Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote medium="letterpress" xml:id="h01" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
+            <handNote medium="pencil" xml:id="h02" resp="#ww" scope="minor"/>
+            <handNote medium="black ink" xml:id="h03" resp="#ww" scope="minor"/>
+         </handNotes>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2026-08-04" who="#km">proofed</change>
+         <change when="2024-09-25" who="#ew">updated image links</change>
+         <change when="2024-08-15" who="#tb">transcribed and encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   
+   <text type="manuscript">
+      <body>
+         
+         <pb xml:id="leaf001r" facs="loc_ew.00082.jpg" type="recto"/>
+         
+         <note type="authorial" place="top" hand="#h02">Feb: <hi rend="underline">Century</hi></note>
+         
+         <lg type="poem">
+            <head type="main">OLD AGE'S SHIP &amp; CRAFTY DEATH'S.</head>
+            
+            <l>From east and west across the horizon's edge,</l>
+            <l>Two mighty masterful vessels sailers steal upon us:</l>
+            <l>But we'll make race a-time upon the seas&#8212;a battle-contest<lb/> yet! bear lively there!</l>
+            <l>(Our joys of strife and derring-do to the last!)</l>
+            <l>Put on the old ship all her power to-day!</l>
+            <l>Crowd <add place="below" hand="#h03"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="left" hand="#h03" xml:id="a001" rend="marked">extra</add> top-gallant<add place="below" hand="#h03"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="right" hand="#h03" xml:id="a002">s<metamark function="emphasize" target="#a002">/</metamark></add> and royal studding-sails!</l>
+            <l>Out challenge and defiance&#8212;flags and flaunting pennants<lb/> added,</l>
+            <l>As we take to the open&#8212;take to the deepest, freest waters.</l>
+         </lg>
+         
+         <signed>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</signed>
+         
+         <pb xml:id="leaf001v" facs="loc_nk.00029_large.jpg" type="verso"/>
+         
+      </body>
+   </text>
+</TEI>
