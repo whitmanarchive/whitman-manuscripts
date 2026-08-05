@@ -1,23 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00007">
-   <relations>
-      <work ref="xxx.00396" cert="absolute">
-         <p>Written in ink, with note to the printer in red ink, with the title on a sheet pasted
-            to the sheet containing the poem. The manuscript was apparently intended for the
-            printer, and there are few alterations. The manuscript is signed in full. "A
-            Christmas Greeting" was first published in <hi rend="italic">McClure's
-               Magazine</hi>, <date when="1889-12-25">December 25, 1889</date>.</p>
-      </work>
-   </relations>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00007">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="m" type="main">A Christmas Greeting</title>
             <title level="m" type="sub">a machine readable transcription</title>
             <author>Walt Whitman</author>
-            <editor role="editor">Kenneth M. Price</editor>
-            <editor role="editor">Ed Folsom</editor>
-            <editor role="editor">Matt Cohen</editor>
+            <editor>Kenneth M. Price</editor>
+            <editor>Ed Folsom</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="jh">Jeff Hill</persName>
@@ -25,8 +18,9 @@
                <persName xml:id="lr">Lisa Renfro</persName>
                <persName xml:id="jr">Joshua Ranger</persName>
                <persName xml:id="fl">Farrah Lehman</persName>
-               <persName xml:id="km">Kenneth M. Price</persName>
+               <persName xml:id="kmp">Kenneth M. Price</persName>
                <persName xml:id="ew">Emma Whaley</persName>
+               <persName xml:id="km">Kevin McMullen</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -38,7 +32,6 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>loc.00007</idno>
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -48,89 +41,101 @@
                <addrLine>Lincoln, NE 68588-4100</addrLine>
             </address>
             <availability>
-               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+               <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+               <p>
+                  The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+                  <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+                  (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
+            <idno>loc.00007</idno>
          </publicationStmt>
          <notesStmt>
-            <note type="project" target="dat1">This manuscript was likely written in <date when="1889">1889</date>, shortly before the poem's publication.</note>
+            <note type="project" target="#dat1">This manuscript was likely written in <date when="1889">1889</date>, shortly before the poem's publication in December.</note>
+            
+            <note type="work_relations" target="xxx.00396" cert="high">A clean draft copy, seemingly intended for the printer, of "A Christmas Greeting." Whitman told his associate Horace Traubel on <ref target="med.00006.085">December 9, 1889</ref>, that the poem had been accepted for publication by the McClure newspaper syndicate (after initially being rejected by <hi rend="italic">Harper's</hi>) and that he suspected it would be published around Christmas. The poem appeared in the <hi rend="italic">St. Louis Post-Dispatch</hi> on December 22, 1889, with a note indicating that it was "written for the Sunday Post-Dispatch." It is possible that it also appeared in other papers around that time. Whitman, however, was unaware of its publication, wondering as late as <ref target="med.00006.136">January 29, 1890</ref>, why it had not appeared in the U.S., despite having appeared by that time <ref target="med.00006.135">in a Parisian newspaper</ref>.</note>
+            
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <author>Walt Whitman</author>
+               <author xml:id="ww">Whitman, Walt</author>
+               
                <title>A Christmas Greeting</title>
-               <date cert="high" value="1889" xml:id="dat1">1889.</date>
+               
+               <date cert="high" when="1889" xml:id="dat1">1889</date>
+               
+               <idno type="callno">mss18630, box 28</idno>
+               
                <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+               
                <note type="project">Transcribed from digital images of the original.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+            <handNote medium="pencil" xml:id="h02" resp="#ww" scope="minor"/>
+            <handNote medium="red ink" xml:id="h03" resp="#ww" scope="minor"/>
+         </handNotes>
+      </profileDesc>
       <revisionDesc>
-         <change who="#ew" when="2024-09-24">updated image link<change>
-         <change who="#jh" when="2023-12-15">checked, corrected<change>
+         <change who="#km" when="2026-08-05">updated image link</change>
+         <change who="#ew" when="2024-09-24">updated image link</change>
+         <change who="#jh" when="2023-12-15">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
          <change who="#lr" when="2004-12-20">Addition of Date and Work Markup</change>
          <change who="#jr" when="2004-07-07">Encoded</change>
          <change who="#jr" when="2004-07-06">Transcribed</change>
          <change who="#fl" when="2006-06-14">Checked</change>
-         <change who="#km" when="2006-06-23">Edited</change>
+         <change who="#kmp" when="2006-06-23">Edited</change>
          <change who="#lr" when="2006-08-01">Blessed</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <pb facs="loc_ew.00028.jpg" xml:id="leaf001r" type="recto"/>
-         <lg
-              >
-            <note type="authorial"
-                  place="top"
-                  rend="circled">
-               <p>if convenient let me have proof by noon</p>
-            </note>
-            <note type="authorial"
-                  place="top"
-                  rend="underline">
-               <p>Horace Traubel</p>
-            </note>
-            <head type="main-authorial" rend="underline">A Christmas Greeting</head>
-            <note type="authorial"
-                  place="left"
-                  rend="circled">
-               <p>sm ital</p>
-            </note> 
-            <head type="sub" rend="underline">(from a Northern Star‑Group to a Southern)</head>
-            <milestone unit="glued"/>	               
-            <l>
-               Welcome Brazilian brother—thy ample<lb/>
-               place is ready;<lb/>
-            </l>
-            <l>
-               A loving hand—a smile from the north—<lb/> 
-               a sunny instant hail!<lb/>
-            </l>
-            <l>
-               (Let the future care for itself where<lb/>
-               it reveals its troubles, impedimentas<lb/>
-            </l>
-            <l>
-               Ours, ours, the present throe, the democratic<lb/>
-               aim, the acceptance and the faith;)<lb/>
-            </l>
-            <l>
-               To thee, to-day, our reaching arm, our<lb/>
-               turning neck—to thee from us the<lb/>
-               expectant eye,<lb/>
-            </l>
-            <l>
-               Thou cluster free! thou brilliant, lustrous<lb/>
-               star! thou learning well,<lb/>
-            </l>
-            <l>The true lesson of a Nation's light in the sky,</l>
-            <l>(More shining than the Cross, more than the Crown,)</l>
+         <lg type="poem">
+            <note type="authorial" place="top" rend="circled" hand="#h03">if convenient let me have proof by noon</note>
+            
+            <note type="authorial" place="top" rend="underline" hand="#h02">Horace Traubel</note>
+            
+            <head type="main" rend="underline">A Christmas Greeting</head>
+            
+             
+            
+            <head type="sub" xml:id="j001"><add place="left" hand="#h01"><metamark function="adjust" target="#j001">sm ital)</metamark></add> <hi rend="underline">(from a Northern Star&#11840;Group to a Southern.</hi></head>
+            
+            <milestone unit="glued"/>	 
+            
+            <l>Welcome Brazilian brother&#8212;thy ample<lb/>
+               place is ready;</l>
+            
+            <l>A loving hand&#8212;a smile from the north&#8212;<lb/> 
+               a sunny instant hail!</l>
+            
+            <l>(Let the future care for itself where<lb/>
+               it reveals its troubles, impedimentas,</l>
+            
+            <l>Ours, ours, the present throe, the democratic<lb/>
+               aim, the acceptance and the faith;)</l>
+            
+            <l>To thee, to-day, our reaching arm, our<lb/>
+               turning neck&#8212;to thee from us the<lb/>
+               expectant eye,</l>
+            
+            <l>Thou cluster free! thou brilliant, lustrous<lb/>
+               star! thou learning well,</l>
+            
+            <l>The true lesson of a <hi rend="tripleUnderline">N</hi>ation's light in the sky,</l>
+            
+            <l>(More shining than the <hi rend="tripleUnderline">C</hi>ross, more than the <hi rend="tripleUnderline">C</hi>rown,)</l>
+            
             <l>The height to be superb humanity.</l>
-            <closer>
-               <signed>Walt Whitman</signed>
-            </closer>
          </lg>
+         
+         <signed>Walt Whitman</signed>
+         
+         <pb facs="loc_km.00070.jpg" xml:id="leaf001v" type="verso"/>
       </body>
    </text>
 </TEI>
