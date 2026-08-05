@@ -6,18 +6,16 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">Old Chants</title>
-    <title level="m" type="sub">a machine-readable transcription</title>
+    <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="tb">Tara Ballard</persName>
      <persName xml:id="ew">Emma Whaley</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -29,7 +27,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -45,45 +42,39 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.04598</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">This draft likely dates from late 1890 or early 1891.</note>
         
-     <note type="work_relations" target="xxx.00395" cert="high">
-      <p>A draft of the first five lines of the poem "Old Chants," first published in 1891. The draft shows that Whitman also considered the titles "An Ancient Ballad Reciting" and "An Ancient Song Reciting." The verso is blank.</p>
-     </note>
+     <note type="work_relations" target="xxx.00395" cert="high">A draft of the first five lines of the poem "Old Chants," first published in <hi rend="italic">Truth</hi> magazine on March 19, 1891. The poem was then included in <hi rend="italic">Good-Bye My Fancy</hi> later that same year.</note>
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>Old Chants</title>  
+     <title>Thomas Biggs Harned Collection of the Papers of Walt Whitman: Lincoln Material, [Before 1865?]-[1891]; Poetry manuscripts; [1891] , "Old Chants"</title>  
      
-     <date cert="high">about 1891</date>
+     <date cert="high" notBefore="1890-06" notAfter="1891-03-19">Late 1890 or early 1891</date>
      
-     <idno type="callno">MSS 45443, Reel 4</idno>
+     <idno type="callno">MSS 45443</idno>
      
-     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1859–1892, Library of Congress, Washington, D.C.</orgName>
+     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842–1937, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-     <relatedItem type="text" xml:id="rel01" target="loc.00047"/>
-    
-     <note type="project" target="#rel01">The verso is blank.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
     <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="blue ink" xml:id="h02" resp="#ww"></handNote>
-    <handNote medium="pencil" xml:id="h03" resp="#unk"/>
+    <handNote medium="purple pencil" xml:id="h02" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h03" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
+ <change when="2026-07-30" who="#km">proofed</change>
  <change when="2024-10-01" who="#ew">updated image links</change>
  <change when="2024-05-13" who="#tb">transcribed and encoded</change>
 </revisionDesc>
@@ -93,17 +84,23 @@
   <body>
    
    <pb xml:id="leaf001r" facs="loc_ew.00124.jpg" type="recto"/>
+   
    <lg type="poem">
-     <head rend="underline">An ancient <subst><del rend="overstrike" seq="1">ballad</del><add place="above" seq="2">song</add></subst> reciting.<add place="above" rend="underline">Old chants</add><add place="below" rend="underline">Old chants</add></head>
-    <l><subst><del rend="underline" seq="1">The</del><add place="above" seq="2">An</add></subst> ancient <subst><del rend="overstrike" seq="1">ballad</del><add place="above" seq="2">song</add></subst> reciting, ending,</l>
+     <head type="main"><hi rend="underline">An ancient <subst><del rend="overstrike" seq="1">ballad</del> <add place="above" seq="2">song</add></subst> reciting. <add place="above">Old chants</add> <add place="below" rend="underline">Old chants</add></hi></head>
+    
+    <l><subst><del rend="underline" seq="1">The</del> <add place="above" seq="2">An</add></subst> ancient <subst><del rend="overstrike" seq="1">ballad</del> <add place="above" seq="2">song</add></subst> reciting, ending,</l>
+    
     <l>Once, gazing toward thee, <hi rend="tripleUnderline">M</hi>other of <hi rend="tripleUnderline">A</hi>ll,</l>
+    
     <l>Musing, seeking themes fit<add place="above">ted</add> for thee,</l>
-    <l><hi rend="underline"><subst><del rend="overstrike" seq="1">Thank well</del><del rend="overstrike" seq="3"><add place="above" seq="2">N</add></del><add place="above" seq="4">except</add></subst> for me</hi>, thou saidst, <hi rend="underline">before thou<lb/>
-     <del rend="overstrike" hand="#h02">goest,</del> the <subst><del rend="overstrike" hand="#h02" seq="1">old</del><del rend="overstrike" hand="#h01" seq="3"><add place="above" hand="#h02" seq="2">ancient</add></del><add place="above" hand="#h01" seq="4">elder</add></subst> <subst><del rend="overstrike" seq="1">bards</del><add place="above" seq="2">ballads</add></subst>,</hi></l>
-    <l><hi rend="underline">And name <del rend="overstrike">out</del> for me <add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">before thou goest</add> each <subst><del rend="overstrike" hand="#h02" seq="1">past</del><del rend="overstrike" hand="#h01" seq="3"><add place="above" hand="#h02" seq="2">old</add></del><add place="above" hand="#h01" seq="4">ancient</add></subst> <del rend="overstrike">gone</del> <subst><del rend="overstrike" seq="1">singer.</del><add place="above" seq="2">poet.</add></subst></hi></l>
+    
+    <l><subst><del rend="overstrike" seq="1"><hi rend="underline">Thank well</hi></del> <add place="above" seq="2">Accept</add></subst> <hi rend="underline">for me</hi> thou saidst, <del rend="overstrike" hand="#h02"><hi rend="underline">before thou<lb/>
+     goest,</hi></del> <hi rend="underline">the</hi> <subst><del rend="overstrike" hand="#h02" seq="1"><hi rend="underline">old</hi></del> <del rend="overstrike" hand="#h01" seq="3"><add place="above" hand="#h02" seq="2">ancient</add></del> <add place="above" hand="#h01" seq="4">elder</add></subst> <subst><del rend="overstrike" seq="1"><hi rend="underline">bards</hi></del> <add place="above" seq="2">ballads</add></subst>,</l>
+    
+    <l><hi rend="underline">And name <del rend="overstrike">out</del></hi> <hi rend="underline">for me</hi> <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">before thou goest</add> <hi rend="underline">each</hi> <subst><del rend="overstrike" hand="#h02" seq="1"><hi rend="underline">past</hi></del> <del rend="overstrike" hand="#h01" seq="3"><add place="above" hand="#h02" seq="2">old</add></del> <add place="above" hand="#h01" seq="4">ancient</add></subst> <del rend="overstrike"><hi rend="underline">gone</hi></del> <subst><del rend="overstrike" seq="1"><hi rend="underline">singer.</hi></del> <add place="above" seq="2">poet.</add></subst></l>
    </lg>
    
-   <note type="archival" hand="#h03" place="bottom">8/x</note>
+   <note type="archival" hand="#h03" place="bottom">81x</note>
 
    <pb xml:id="leaf001v" facs="loc_ej.00630_large.jpg" type="verso"/>
    

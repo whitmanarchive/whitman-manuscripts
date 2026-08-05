@@ -3,15 +3,11 @@
 <?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00127">
-    <!--   <relations>
-      <work ref="xxx.00383" cert="high">
-         <p>An early undated draft of "On, on the Same, Ye Jocund Twain!", written on the verso of a letter and two envelopes.</p>
-      </work>
-   </relations>-->
+
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Hints arousals interrogations</title>
+                <title level="m" type="main" rend="bracketed">Hints arousals interrogations</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor role="editor">Kenneth M. Price</editor>
@@ -45,25 +41,34 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+                    <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+                    <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
                 </availability>
                 <idno>loc.00127</idno>
             </publicationStmt>
-            <notesStmt>
-                <note type="project" target="dat1">This manuscript was probably composed about <date when="1890">1890</date>; it is a draft of a poem first published in 1891, and the letter and envelopes on which the draft is written are dated 1890.</note>
-                <note type="project" target="leaf001v">On the verso is a letter from Albert Johansen, dated March 1890, requesting Whitman's autograph.</note>                          	
+            <notesStmt>  
+                
+                <note type="project" target="#dat1">Whitman must have written this manuscript fragment in 1890, sometime between 27 April (the date of the postmark on the reverse) and 10 May (the date written on a <ref target="loc.00239">late draft</ref> of the same poem).</note>                
+                <note type="work_relations" target="xxx.0383" cert="high">The lines on this manuscript contributed to the poem "On, On the Same, Ye Jocund Twain!" which was first published in <hi rend="italic">Good-Bye My Fancy</hi> (1891). The poem also appeared shortly thereafter in the 9 June 1891 issue of <hi rend="italic">Once a Week</hi>.</note>
             </notesStmt>
             <sourceDesc>
                 <bibl>
-                    <author>Walt Whitman</author>
-                    <title>Go forth, ye twain</title>
-                    <date cert="high" value="1890/1891" xml:id="dat1">About 1891</date>
+                    <author xml:id="ww">Walt Whitman</author>
+                    <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “On, on the Same, Ye Jocund Twain!” ( 1891 ); Manuscript drafts</title>
+                    <date cert="high" notBefore="1890-04-17" notAfter="1890-05-10" xml:id="dat1">April or May 1890</date>
+                    <idno type="callno">mss18630, box 28</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote medium="black ink" xml:id="h01" resp="#ww" scope="sole"/>
+            </handNotes>
+        </profileDesc>
         <revisionDesc>
+            <change when="2026-07-29" who="#bb">proofed</change>
             <change when="2026-07-20" who="#bb">created by separating out of loc.00069 (other revisionDesc entries here refer to that file).</change>
             <change who="#ew" when="2024-09-24">updated image links</change>
             <change who="#jh" when="2024-05-21">checked, corrected</change>
@@ -76,27 +81,35 @@
     </teiHeader>
     <text>
         <body>
-            
-            <lg>
-                
-                <pb facs="loc_ew.00058.jpg" xml:id="leaf001r" type="recto"/>
+          <pb facs="loc_ew.00058.jpg" xml:id="leaf001r" type="recto"/>
+            <lg type="poem">
+                <lg type="linegroup">
                 <l>Hints arousals interrogations</l>
                 <l>Time's last accumulation<lb/>
-                    and result—;earth's <hi rend="underline">finale</hi></l>
+                    and result&#8212;earth's <hi rend="underline">final&#232;</hi></l>
                 <l>The common average<lb/>
-                    (neither best nor worst)the old,</l>
-                <l>The great eclairecissement of<lb/>
+                    (neither best nor worst) the old,</l>
+                <l xml:id="tr01">The great eclairecissement of<lb/>
                     all the past, all lands,<lb/>
-                    America</l>
-                <l>(<subst><rdg varSeq="1"><del rend="overstrike">There</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">My</add></rdg></subst> <subst><rdg varSeq="1">verses</rdg><rdg varSeq="2"><add place="above" rend="unmarked">?</add></rdg></subst> made in early<lb/>
+                    America</l> 
+                <l xml:id="tr02">(<subst><del rend="overstrike" seq="1">There</del> <add place="above" seq="2">My</add></subst> verses<add place="above"><metamark function="question">?</metamark></add> made in early<lb/>
                     life and through mid-age</l>
-                <l>I <subst><rdg varSeq="1"><del rend="overstrike">give out</del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">keep</add></rdg></subst> for <add rend="insertion">snow </add>white hairs and<lb/>
-                    <del rend="overstrike">W</del> pulses cool'd, just, just the<lb/>
+                <l xml:id="tr03">I <subst><del rend="overstrike" seq="1">give</del> <add place="above" seq="2">keep</add></subst> <del rend="overstrike">out</del> for <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">snow</add> white hairs and<lb/>
+                    <del rend="overstrike">th</del> pulses cool'd, just, just the<lb/>
                     same;)</l>
+                    <listTranspose>
+                        <transpose>
+                            <ptr target="#tr02"/>
+                            <ptr target="#tr03"/>
+                            <ptr target="#tr01"/>
+                        </transpose>
+                    </listTranspose>
+                </lg>
+                <lg>
                 <l>A gladsome cry<lb/>
-                    <subst><rdg varSeq="1"><del rend="overstrike">the</del></rdg><rdg varSeq="2"><add rend="unmarked" place="above">a</add></rdg></subst> song of hope and growth</l>
+                    <subst><del rend="overstrike" seq="1">the</del> <add place="above" seq="2">a</add></subst> song of hope and growth</l>
+                </lg>
                 <pb facs="loc_ew.00059.jpg" xml:id="leaf001v" type="verso"/> 
-                <note type="project" target="leaf02v">On the verso is an envelope addressed to Walt Whitman, Camden, New Jersey and postmarked April 27, 1890.</note> 
             </lg>
         </body>
     </text>

@@ -6,18 +6,16 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
-    <title level="m" type="main">Death dogs my steps.</title>
+    <title level="m" type="main">Death dogs my steps</title>
     <title level="m" type="sub">a machine-readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="tb">Tara Ballard</persName>
      <persName xml:id="ew">Emma Whaley</persName>
+     <persName xml:id="bb">Brett Barney</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -50,34 +48,23 @@
    <idno>loc.00120</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
-    
-<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
-     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
-     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
-     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
-    
-     <note type="work_relations" target="xxx." cert="high">
-      <p>Draft of "Death Dogs My Steps" written in ink on the inside of a discarded and opened out envelope, addressed to Whitman from England, mailed in London February 21, 1890 and postmarked received in Camden March 3, 1890. The three lines later appeared as part of "L. of G.'s Purport," first published in 1891.</p>
+    <note type="project" target="#dat1">This manuscript dates to sometime between March 1890, the latest postmark on the reverse, and December 1890, when Whitman sent this and other poems to <hi rend="italic">Scribner's</hi> (see <ref target="loc.00230">loc.00230</ref>).</note>
+
+     <note type="work_relations" target="xxx.00406" cert="high">
+      After attempting and failing to publish "Death Dogs My Steps" in a periodical, Whitman combined it with several other short poems as "L. of G.'s Purport," which he included in <hi rend="italic">Good-Bye My Fancy</hi> (1891).
      </note>
    </notesStmt>
-   
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “Death Dogs My Steps” ( 1890 ); Manuscript draft </title>  
+     <date when="1890">1890</date>
      
-     <title resp="#wwa">Death dogs my steps.</title>  
-     
-     <date>1890</date>
-     
-     <idno type="callno">MSS 18630, Box 26; Reel 16</idno>
+     <idno type="callno">MSS 18630, Box 26</idno>
      
      <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-     <relatedItem type="text" xml:id="rel01" target="loc.00827"/>
-     <relatedItem type="document" target="wwa.00622"/>
-     <note type="project" target="#rel01">On the reverse of this envelope is Whitman's postal address.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
@@ -87,6 +74,7 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
+ <change when="2026-07-29" who="#bb">proofed</change>
  <change when="2024-09-24" who="#ew">updated image links</change> 
  <change when="2024-03-18" who="#tb">transcribed and encoded</change>
 </revisionDesc>
@@ -94,19 +82,15 @@
 
  <text type="manuscript">
   <body>
-   
-
    <pb xml:id="leaf001r" facs="loc_ew.00133.jpg" type="recto"/>
    <lg type="poem">
-    <l><title><hi rend="underline">Death dogs my steps.</hi></title></l>
+    <head type="main" rend="underline">Death dogs my steps.</head>
      <l>I sing of life, yet mind me well of death;</l>
      <l>To-day Death dogs my steps, and has for years,<lb/>
                    my seated shape</l>
-     <l>Draws sometimes close to me as face to face.</l>
+     <l>Draws sometimes close <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">to me</add> as face to face.</l>
    </lg>
-   
    <pb xml:id="leaf001v" facs="loc_ew.00134.jpg" type="verso"/>
-
 </body>
 </text>
 </TEI>

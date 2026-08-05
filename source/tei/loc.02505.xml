@@ -6,18 +6,16 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">My 71st Year</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="tb">Tara Ballard</persName>
      <persName xml:id="ew">Emma Whaley</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -29,7 +27,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -45,46 +42,40 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.02505</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">This is one of many similar corrected proof slips of this poem. Horace Traubel notes in <ref target="med.00001.052"><hi rend="italic">With Walt Whitman in Camden</hi></ref> that although Whitman was in the practice of having poems "set up for private distribution [i.e., to friends and admirers] at the printing office of Henry Curtz," he never gave out the slips until the poems had been published ([Boston: Small, Maynard &amp; Company, 1906] 1:180). Traubel's note at the top of this slip, dated <ref target="med.00006.046">October 31, 1889</ref>, indicates that Whitman gave him this slip on that date, but it is possible that the November issue of the <hi rend="italic">Century</hi> was actually published in late October.</note>
     
-    
-     <note type="work_relations" target="xxx.00384" cert="high">
-      <p>Proof sheet of "My 71st Year" with revisions. This proof has a note by Traubel reading "see notes, Oct. 31, 1889." "My 71st Year" was first published in 1889.</p>
-     </note>
+    <note type="work_relations" target="xxx.00384" cert="high">A corrected proof slip of "My 71st Year," which was first published in <hi rend="italic">The Century Illustrated Monthly Magazine</hi> in November 1889. The poem lwas ater reprinted in <hi rend="italic">Good-Bye My Fancy</hi> (1891).</note>
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>My 71st Year</title>  
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “My 71st Year” ( 1889 ); Proof sheets with signed corrections and notations</title>  
      
-     <date cert="high">about 1889</date>
+     <date cert="high" notBefore="1889-11" notAfter="1890">Late 1889 or early 1890</date>
      
-     <idno type="callno">MSS 18640, Box 27; Reel 16-17</idno>
+     <idno type="callno">MSS 18630, Box 27</idno>
      
-     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#38;1919, Library of Congress, Washington, D.C.</orgName>
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-   
-     <note type="project" target="#rel01">The verso is blank.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    
    <handNotes>
-    <handNote medium="letterpress" xml:id="h01" scope="major" resp="#unk"/><handNote xml:id="unk">Unknown</handNote>
-    <handNote medium="black ink" xml:id="h02" scope="minor" resp="#ww"></handNote>
+    <handNote medium="letterpress" xml:id="h01" scope="major" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
+    <handNote medium="black ink" xml:id="h02" scope="minor" resp="#ww"/>
     <handNote medium="black ink" xml:id="h03" scope="minor" resp="#ht"><name xml:id="ht">Horace Traubel</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
+ <change when="2026-07-28" who="#km">proofed</change>
  <change when="2024-09-25" who="#ew">updated image links</change>
  <change when="2024-09-04" who="#tb">transcribed and encoded</change>
 </revisionDesc>
@@ -98,13 +89,14 @@
    <note type="editorial" place="top" hand="#h03">see notes, Oct. 31, 1889</note>
    
    <lg type="poem">
-     <head>MY 71st YEAR.</head>
+     <head type="main">MY 71st YEAR.</head>
+    
      <l>After surmounting three-score and ten,</l>
      <l>With all their chances, changes, losses, sorrows,</l>
      <l>My parents' deaths, the vagaries of my life, the many tearing<lb/>
-           passions of me,<add hand="#h02" place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h02" place="top" rend="marked" xml:id="a001">the war of '63 and '4</add></l>
+           passions of me, <add hand="#h02" place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h02" place="top" rend="marked" xml:id="a001">the war of '63 and '4</add></l>
      <l>As some old broken soldier, after a long, hot, wearying march,<lb/>
-           or haply after battle</l>
+           or haply after battle,</l>
      <l>At twilight, hobbling, answering yet to company roll-call <hi rend="italic">Here</hi><lb/>
            with vital voice,</l>
      <l>Reporting yet, saluting yet the Officer over all.</l>
@@ -112,9 +104,9 @@
    
    <signed>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</signed>
    
-   <note type="authorial" place="bottom" hand="#h02">Century <hi rend="underline">Nov</hi>: '89</note>
+   <note type="authorial" place="bottom" hand="#h02">Century <hi rend="underline">Nov:</hi> '89</note>
    
-   <pb xml:id="leaf001v" facs="20051227_0093.jpg" type="verso"/>
+   <pb xml:id="leaf001v" facs="loc_km.00069.jpg" type="verso"/>
    
 </body>
 </text>
