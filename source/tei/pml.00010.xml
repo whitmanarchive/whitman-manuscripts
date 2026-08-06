@@ -48,7 +48,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <author> Walt Whitman </author>
+               <author xml:id="ww"> Walt Whitman </author>
                <title>Ah, not that granite dead and cold!</title>
                <idno type="callno">540</idno> 
                <orgName xml:id="pml">The Pierpont Morgan Library, New York</orgName>
@@ -81,34 +81,31 @@
             <l>Far <del rend="overstrike" hand="#h02">far</del> from <add place="above" hand="#h02">its</add> base and shaft expanding&#8212;the<lb/>
                round zones circling, comprehending,</l>
             
-            <l>No <add hand="#h02" place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a001">limited</add> lurid fame exceptional 
-               
-               
-<!-- BEGIN HERE -->
-               
-               <add place="above"><gap reason="heavily overstruck"/>for thee</add> <subst><del rend="overwrite">n</del><add rend="overwrite" place="over">N</add></subst>or<subst><del rend="overstrike">monstrous</del><add rend="unmarked" place="above">ribroportious</add></subst>in<lb/>
-               tellest nor conquest domination<lb/></l>
-            <l>Thou <hi rend="underline">Washington</hi> are all the world's <del rend="overstrike"><add rend="insertion" place="above"><gap reason="heavily overstruck, illegible"/></add></del>
-                  <add rend="insertion" place="supralinear">the continent's</add>—not<lb/>
-               yours alone, America<lb/></l>
-            <l>Europe's as well, <anchor xml:id="a1"/>in every <subst><del rend="overstrike"><gap reason="heavily overstruck"/></del><add rend="unmarked" place="supralinear">part,</add></subst><anchor xml:id="a1"/><subst><del rend="overstrike">in castle or in</del><add rend="insertion" place="above">castle of lord or</add></seq></subst> laborer's cot—<lb/><add rend="insertion" place="above"><unclear reason="illegible" resp="#mr" cert="medium">or from north, or sultry south—</unclear></add> The Arab's in his tent— the African's,<lb/></l>
-            <l>Old Asias there with venerable smile seated<lb/>
-               amid her rains,<lb/></l>
-            <l>(Greets the antique the hero new ? 'tis but the<lb/>
-               same—the<subst><seq="1"><del rend="overstrike">undying</del><seq="2"><add rend="unmarked" place="above"><unclear reason="illegible" resp="#mr" cert="medium">indubitable</unclear></add></subst>heart and <del rend="overstrike">h</del>arm—the<lb/>
-               heir legitimate—<subst><seq="1"><del rend="overstrike">the same unbroken</del><seq="2"><add rend="unmarked" place="above">—proofs of the never broken line</add></subst><lb/></l>
-            <l>Courage, alertness, patience, hope, the same—e'en<lb/>
-               in defeat defeated not the same;)<lb/></l>
-            <l>Wher<subst><seq="1"><del rend="overwrite">every</del><seq="2"><add rend="overwrite" place="over">ever</add></subst><add rend="unmarked" place="supralinear">sails by</add> ship, <del rend="overstrike">sails,</del> or house is built on land,<lb/>
-               or night or day,<lb/></l>
-            <l>Through teeming citie's streets, indoors or out,<lb/>
+            <l>No <add hand="#h02" place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a001">limited</add> lurid fame exceptional <add hand="#h01" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><del rend="overstrike" hand="#h02"><add hand="#h01" place="above" rend="marked" xml:id="a002">o<gap reason="illegible" extent="about seven characters"/>d</add></del> <add place="above" hand="#h01">for thee,</add>, <add hand="#h02"><metamark function="add">&#182;</metamark></add><subst rend="overwrite" hand="#h02"><del>n</del><add>N</add></subst>or<subst hand="#h02"><del rend="overstrike" seq="1">monstrous</del> <add place="above" seq="2">disproportional</add></subst> <choice><orig>in-<lb/>tellect</orig><reg>intellect<lb/></reg></choice>, nor conquest's domination<lb/></l>
+            
+            <l>Thou <hi rend="doubleUnderline">Washington</hi> art all the world's, <add hand="#h01" place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a003"><subst hand="#h02"><del rend="overstrike" seq="1">humanitys</del> <add place="above" hand="#h02" seq="2">the continents</add></subst> <add hand="#h01" place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a004">entire</add>&#8212;</add>—not<lb/>
+               yours alone, America,</l>
+            
+            <l>Europe's as well, <add place="above">in every <subst hand="#h02"><del rend="overstrike" seq="1">land</del> <add place="above" seq="2">part</add></subst>,</add> <subst><del rend="overstrike" seq="1">in castle or in</del> <add place="below" seq="2"><metamark function="add" target="#a005"></metamark></add><add place="above" seq="2" xml:id="a005">castle of lord, or</add></subst> laborer's cot&#8212;
+               <lb/><add hand="#h02" place="below"><metamark function="add" target="#a006">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a006">or from north, or sultry south&#8212;</add> the Arab's in his tent&#8212;the African's,</l>
+            <l>Old Asia's there with venerable smile seated<lb/>
+               amid her ruins,</l>
+            <l>(Greets the antique the hero new? 'tis but the<lb/>
+               same&#8212;the <subst><del rend="overstrike" seq="1">undying</del> <add place="above" seq="2">indomitable</add></subst> heart and <del rend="overstrike"><gap reason="illegible" extent="one character"/></del> arm&#8212;the<lb/>
+               heir legitimate<del rend="overstrike">,</del> <subst><del rend="overstrike" seq="1">&#8212;the same unbroken</del> <add place="above" seq="2">&#8212;proofs of the never broken line</add></subst></l>
+            <l>Courage, alertness, pat<subst rend="overwrite"><del>e</del><add>i</add></subst>ence, hope, the same&#8212;e'en<lb/>
+               in defeat defeated not, the same;)<lb/></l>
+            <l>Wher<subst rend="overwrite"><del>e'er</del><add>ever</add></subst>
+               <add hand="#h01" place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a007">sails a</add> ship, <del rend="overstrike">sails,</del> or house is built on land,<lb/>
+               or night or day,</l>
+            <l>Through teeming cities' streets, indoors or out,<lb/>
                factories or farms,<lb/></l>
-            <l>Now or to come or past—wherever patriot<lb/>
-               wills existed or exist<lb/></l>
+            <l>Now or to come or past&#8212;wherever patriot<lb/>
+               wills existed or exist</l>
             <l>Wherever Freedom, poised by Toleration, swayed<lb/>
-               by Law—<add rend="unmarked" place="inline">in them, from them,</add><lb/></l>
-            <l><delSpan spanTo="#d1" rend="overstrike"/>Rising or risen, there's thy true monument,</l>
-            <l>Rises or <anchor xml:id="d1"/><add rend="unmarked" place="infralinear">stands or</add> is rising thy true monument</l></lg>
+               by Law,<add hand="#h02">&#8212;in them, from them,</add></l>
+            <l><del rend="overstrike">Rising or risen, there's thy true monument,</del></l>
+            <l><subst><del rend="overstrike" seq="1">Rises or</del> <add rend="unmarked" place="below" seq="2">stands or</add></subst> is rising thy true monument.</l></lg>
       </body>
    </text>
 </TEI>
