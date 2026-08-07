@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pml.00009"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main" rend="bracketed">Thou, Washington</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="tb">Tara Ballard</persName>
+     <persName xml:id="bb">Brett Barney</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -29,7 +25,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,79 +35,99 @@
                 </address>
     <availability>
      <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
-     <p>
-      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
-      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
-      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+     <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
     </availability>
-    
-
    <idno>pml.00009</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">Whitman probably created this manuscript not long before the dedication of the Washington Monument on February 21, 1885.</note>
+    <note type="work_relations" target="xxx.00343" cert="high">These early draft lines contributed to the poem published as "Ah, Not This Granite Dead and Cold" in the <hi rend="italic">Philadelphia Press</hi> on February 22, 1885. Whitman later made minor revisions and republished the poem under the title "Washington's Monument, February, 1885" in <hi rend="italic">November Boughs</hi> (1888) and in the "Sands at Seventy" annex to <hi rend="italic">Leaves of Grass</hi> (1891&#8211;1892).</note>
     
-     <note type="work_relations" cert="high">
-      <p>An early draft of the poem originally published as "Ah, Not This Granite Dead and Cold" in the <hi rend="italic">Philadelphia Press</hi> on February 22, 1885. It would later be reprinted as "Washington's Monument, February, 1885" in the "Sands at Seventy" annex to <hi rend="italic">Leaves of Grass</hi> (1888). This draft, written on both sides of a thin leaf of paper, is the earliest of the four drafts of this poem held at the Pierpont Morgan Library (the others are pml.00005, pml.00001, and pml.00010).</p>
-     </note>
    </notesStmt>
-   
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
-     
      <title>Washington's Monument, February, 1885</title>  
-     
-     <date cert="high">about 1885</date>
-     
+     <date cert="high">February 1885</date>
      <idno type="callno">Misc American, MA 931</idno>
-     
-     <orgName xml:id="pml">Walt Whitman Literary Manuscripts in The Pierpont Morgan Library, New York</orgName>
-     
+     <orgName xml:id="pml">The Pierpont Morgan Library, New York</orgName>
      <note>Transcribed from digital images of the original.</note>
- 
-     
-     <note type="project" target="#rel01">The verso contains more drafted lines for the poem, "Washington's Monument, February, 1885."</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="pencil" xml:id="h02" resp="#ww"></handNote>
+    <handNote medium="pencil" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-08-07" who="#bb">proofed</change>
  <change when="2024-10-06" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
-   
    <pb xml:id="leaf001r" facs="pml_nk.00053_large.jpg" type="recto"/>
    <lg type="poem">
-     <l>Thou, Washington, art the worlds&#8212; not<lb/>
+    <lg type="linegroup">
+     <l><handShift new="#h02"/>Thou, <hi rend="doubleUnderline">Washington</hi>, art the worlds&#8212;not<lb/>
              yours alone, America.</l>
-     <l><handShift new="#h02"/>Thou art the worlds&#8212; not ours<lb/>
-             alone&#8212;<lb/>
-             Freedom's, humanity's</l>
-    <l><handShift new="#h01"/><del rend="overstrike">Thou, in thy</del></l>
-    <l>Thy death<add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002" seq="1"><del rend="overstrike" seq="2"><unclear reason="illegible" cert="low" resp="#tb"/></del> fame</add> through <add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">deathless</add> waves of emanation,<lb/>
-           the <add place="inline"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">race's</add> common ownership becomes,</l>
-    <l><handShift new="#h02"/>&#42; (Thou, Washington, art not ours<lb/>
-           alone &#8212; freedom's, humanity's<lb/>
+    
+     <l><handShift new="#h01"/>Thou art the worlds&#8212;not ours<lb/>
+             alone&#8212;<add place="below" rend="marked">Freedom's, humanity's</add></l>
+    
+    <l><handShift new="#h02"/><del rend="overstrike">Thou, in thy</del></l>
+    
+    <l>Thy <subst><del rend="overstrike" seq="1">deeds</del> <add place="below" seq="2"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002" seq="2"><del rend="overstrike">&amp;</del> fame</add></subst>, through <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">deathless</add> waves of emanation,<lb/>
+           the <add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">race's</add> common ownership becomes,</l>
+     
+    <l><handShift new="#h01"/><metamark function="transpose">*</metamark> (Thou, Washington, art not ours<lb/>
+           alone&#8212;freedom's, humanity's<lb/>
            law's art thou)</l>
+    </lg>
+    
+    <lg type="linegroup">
     <l>Not here within this</l>
-    <l>There too forever springs his<lb/>
-         <del rend="overstrike">A human tie</del></l>
+    <l>There too forever springs his</l>
+    <l><del rend="overstrike">A human tie</del></l>
     <l><del rend="overstrike">Launching out</del></l>
-    <l><del rend="overstrike">A</del> Not for</l>
-   </lg>
-   
+    <l><del rend="overstrike"><gap reason="illegible" extent="one character"/></del> Not for</l></lg>
+ 
    <pb xml:id="leaf001v" facs="pml_nk.00054_large.jpg" type="verso"/>
-   
+    <lg type="linegroup">
+     <l><del rend="overstrike">Asia</del> Greets the antique the hero new?&#8212;it
+     <lb/>is the same&#8212;<del rend="overstrike"><add place="above"><gap reason="illegible" extent="one character"/></add></del>the same eternal <add place="above">heart and </add> arm</l>
+     <l><del rend="overstrike">With venerable smile Asia</del></l>
+     <l><add><del rend="overstrike">Or</del> Courage, alertness, <add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a004">patience,</add> hope, the same&#8212;e'en in defeat
+      <lb/>defeated not
+     <lb/>the same)</add></l>
+     <l><subst><add place="above" seq="4">Old</add> <del rend="overstrike" seq="1">By</del> <del rend="overstrike" seq="3"><add place="above" seq="2">Or</add></del></subst> Asia's self, with venerable smile, 
+      <lb/>seated amid the past,</l>
+     <l><del rend="overstrike">To <add place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" xml:id="a005">thought</add> Washington</del></l>
+     <l>Where</l>
+     <l><subst><del rend="overstrike" seq="1">From every</del> <add place="above" seq="2">Where'er <del rend="overstrike">lives</del> the</add></subst> patriot <subst><del rend="overstrike" seq="1">souls,</del> <add place="above" seq="2">soul,</add></subst> <del rend="overstrike">, o</del> <add place="above"><del rend="overstrike">&#8212;</del>exists</add> <del rend="overstrike">what</del>
+      <lb/><del rend="overstrike">time</del>, or night or day&#8212;<del rend="overstrike">what</del> or
+      <lb/><subst><del rend="overstrike" seq="1">over</del> <del rend="overstrike" seq="3"><add place="above" seq="2">upon</add></del> <add place="below" seq="4">on</add></subst> land o<subst rend="overwrite"><del>n</del><add>r</add></subst> sea,</l>
+     
+     <l>Where, <hi rend="doubleUnderline">Washington</hi>, is <hi rend="underline">not</hi> thy
+     <lb/>monument?</l>
+    </lg>
+    <delSpan rend="hashmark" spanTo="#d001"/>
+    <lg type="linegroup">
+     <l><del rend="overstrike">No</del></l>
+     <l>Where</l>
+     <l><del rend="overstrike">In souls that</del></l>
+     <l><subst><del rend="overstrike" seq="1">In</del> <del rend="overstrike" seq="3"><add place="above" seq="2">To</add></del></subst> man exemplified, <subst><del rend="overstrike" seq="1">in</del> <del rend="overstrike" seq="3"><add place="above" seq="2">to</add></del></subst> patience
+      <lb/>strength
+      
+     </l>
+    </lg>
+    <anchor xml:id="d001"/>
+    
+    
+   </lg>
 </body>
 </text>
 </TEI>
