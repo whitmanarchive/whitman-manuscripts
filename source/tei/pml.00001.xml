@@ -1,202 +1,144 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pml.00001">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title level="m" type="main">Ah, not this granite dead and cold</title>
-                <title level="m" type="sub">a machine readable transcription</title>
-                <author>Walt Whitman</author>
-                <editor>Kenneth M. Price</editor>
-                <editor>Ed Folsom</editor>
-                <respStmt>
-                    <resp>Transcription and encoding</resp>
-                    <persName xml:id="aj">Andrew Jewell</persName>
-                    <persName xml:id="kmp">Kenneth Price</persName>
-                    <persName xml:id="bb">Brett Barney</persName>
-                    <persName xml:id="nhg">Nicole Gray</persName>
-                    <persName xml:id="nk">Nick Krauter</persName>
-                    <persName xml:id="ag">Amanda Gailey</persName>
-                <persName xml:id="as">Ashlyn Stewart</persName></respStmt>
-                <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
-                <sponsor>University of Iowa</sponsor>
-                <sponsor>University of Nebraska-Lincoln</sponsor>
-                <funder>The National Endowment for the Humanities</funder>
-                <funder>The United States Department of Education</funder>
-            </titleStmt>
-            <editionStmt>
-                <edition>
-                    <date>2003</date>
-                </edition>
-            </editionStmt>
-            <publicationStmt>
-                
-                <distributor>The Walt Whitman Archive</distributor>
-                <address>
-<addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
-<addrLine>Alderman Library</addrLine>
-<addrLine>University of Virginia</addrLine>
-<addrLine>P.O. Box 400115</addrLine>
-<addrLine>Charlottesville, VA 22904-4115</addrLine>
-<addrLine>whitman@jefferson.village.virginia.edu</addrLine>
-</address>
-                <availability>
-                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
-                </availability>
-            <idno>pml.00001</idno></publicationStmt>
-            <notesStmt>
-                <note type="project" target="#dat1">"Ah, Not This Granite Dead and Cold" was published first on <date when="1885-02-22">February 22, 1885</date>, in the Philadelphia <hi rend="italic">Press</hi>. The
-                    poem was ultimately titled "Washington's Monument, February 22, 1885." This manuscript was probably written in <date notBefore="1885-02-18" notAfter="1885-02-22">February 1885</date>, shortly before the poem was published. The verso image of this manuscript is currently unavailable.</note>
-                <note type="work_relations" target="xxx.00343" cert="high">
-            <p>"Ah, Not This Granite Dead and Cold" was published first on <date when="1885-02-22">February 22, 1885</date>, in the Philadelphia <hi rend="italic">Press</hi>. The
-                poem was ultimately titled "Washington's Monument, February 22, 1885."</p>
-        </note>
-            </notesStmt>
-            <sourceDesc>
-                <bibl><author xml:id="ww">Whitman, Walt</author>
-                    
-                    <title>Ah, not this granite dead and cold</title>
-                    <date xml:id="dat1" cert="medium" notBefore="1885-02-18" notAfter="1885-02-22">February 1885</date>
-                    <idno type="callno">MA 627</idno>
-                    <orgName xml:id="pml">The Pierpont Morgan Library, New York</orgName>
-                    <note type="project">Transcribed from digital images of the original.</note>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <revisionDesc>
-            <change when="2022-07-07" who="#as">updated transposition encoding</change>
-            <change when="2022-06-07" who="#bb">updated relations encoding</change>
-            <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
-            <change when="2016-12-01" who="#nhg">corrected</change>
-            <change when="2016-11-28" who="#nhg">removed schema declaration, updated date</change>
-            <change when="2016-09-26" who="#nhg">proofed</change>
-            <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
-            <change when="2006-08-04" who="#nk">Added third digit to leaf numbers</change>
-            <change when="2005-05-18" who="#bb">Added to and corrected restore elements</change>
-            <change when="2005-03-09" who="#aj">Added Date and Work Markup</change>
-            <change when="2005-03-09" who="#kmp">Added Date and Work Markup</change>
-            <change when="2003-10-02" who="#bb">Converted to camel-case</change>
-            <change when="2003-09-25" who="#bb">Blessed</change>
-            <change when="2003-01-01" who="#kmp">Edited</change>
-            <change when="2003-04-16" who="#aj">Checked; revised</change>
-            <change when="2002-08-15" who="#ag">Transcribed; encoded</change>
-        </revisionDesc>
-    </teiHeader>
-    <text type="manuscript">
-        <body>
-            <pb facs="pml.00001.001.jpg" xml:id="leaf001r" type="recto"/>
-            <lg type="poem">
-                <head type="main-authorial" rend="underline">
-<subst>
-                        
-                            <del rend="overstrike" seq="1">Beyond this</del>
-                                                
-                            <add rend="unmarked" place="supralinear" seq="2">Ah, not this</add>
-                                            </subst> granite dead and cold.</head>
-                <l>
-<subst>
-                        
-                            <del rend="overstrike" seq="1">Beyond this</del>
-                                                
-                            <add rend="unmarked" place="supralinear" seq="2">Ah not th<del rend="overwrite">e</del><add place="over" rend="overwrite">is</add>
-</add>
-                                            </subst>granite dead and cold, </l>
-                <l>Far<restore rend="dotted" type="del"><del rend="overstrike">,</del>
-                        </restore>
-<subst>
-                            
-                                <!--<restore rend="dotted" type="del" seq="1">-->
-                                    <del rend="overstrike" seq="1">far</del>
-                                <!--</restore>-->
-                                                        
-                                <add rend="unmarked" place="supralinear" seq="2">far</add>
-                                                    </subst>from <del rend="overstrike"><add rend="unmarked" place="supralinear">this</add>
-                        </del> base and shaft expanding—the<lb/>
-                    round zones circling, comprehending,
-                </l>
-                    
-                <addSpan spanTo="#a1" rend="unmarked" place="interlinear"/>
-                        <l>No lurid fame exceptional, nor monstrous intellect, nor <add rend="unmarked" place="supralinear">conquest's</add> dominations
-                                <add place="supralinear" rend="unmarked">c</add></l>
-                        
-                    <anchor xml:id="a1"/>
-                
-                <l xml:id="tr05">Thou, <hi rend="underline">Washington</hi>, ar<subst><del rend="overwrite" seq="1">e</del><add rend="overwrite" place="over" seq="2">t</add>
-                                                    </subst>
-                        <add rend="insertion" place="supralinear">all</add> the world's, <subst>
-                            
-                                <del rend="overstrike" seq="1">humanity's</del>
-                                                        
-                                <add rend="unmarked" place="supralinear" seq="2">
-                                    <del rend="overstrike">freedom's</del>
-                                </add>
-                                                    </subst>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
-                    <lb/>
-<del rend="overstrike">Freedom's, Law's,</del> —not yours alone,
-                        America
-                </l>
-                <metamark function="transpose" place="left" target="#tr03 #tr04"/>
-                <span xml:id="s1" rend="bracketed" from="s1" to="s2"/>
-                <delSpan spanTo="#d1" rend="overstrike"/>
-                    <l xml:id="tr03">Thy fame, (no lurid fame exceptional, <add rend="unmarked" place="supralinear">for the</add> nor<lb/>
-                        intellect, nor conquest's domination,)
-                    </l>
-                    <l xml:id="tr04">By deathless waves of emanation the race's<lb/>
-                        common ownership, 
-                    </l>
-                <listTranspose>
-                    <transpose>
-                        <ptr target="#tr03"/>
-                        <ptr target="#tr04"/>
-                        <ptr target="#tr05"/>
-                    </transpose>
-                </listTranspose>
-                <anchor xml:id="d1"/>
-                <anchor xml:id="s2"/>
-                <l>Europe's<del rend="overstrike">,</del>
-                        <add rend="insertion" place="supralinear">as well,</add> in castle or in
-                            <del rend="overstrike">cot</del> laborer's cot—the<lb/>
-                    Arab's in his tent—the African's,
-                </l>
-                <l>Old Asia's there with venerable smile seated<lb/>
-                    amid the past,
-                </l>
-                <l>(Greets the antique the hero new? 'tis but the <lb/>
-                    same—the eternal heart and arm—the<lb/>
-                    heir legitimate
-                </l>
-                <l>Courage, alertness, patience, hope, the same—<lb/>
-                    e'en in defeat defeated not, the same;<del rend="overstrike">)</del>
 
-                </l>
-                <delSpan spanTo="#d2" rend="overstrike"/><l>
-                    
-                    <add rend="unmarked" place="interlinear">
-                        No lurid fame exceptional, nor monstrous intellect, nor conquest's
-                            domination;)
-                    </add>
-                    
-                </l><anchor xml:id="d2"/>
-                <l>Through teeming cities' streets, indoors or out,<lb/>
-                    factories or farms,
-                </l>
-                <l>Where'er ship sails, or house is built on land,<lb/>
-                    or night or day,
-                </l>
-                <l>Now, or to come, or past—where patriot<lb/>
-<del rend="overstrike">bra</del> wills existed or exist
-                </l>
-                <l>
-                    <add rend="unmarked" place="interlinear">
-                    Wherever Freedom, pois'd by toleration, sway'd by Law,
-                    </add>
-                </l>
-                <l>Rising or risen,<subst>
-                        
-                            <del rend="overstrike" seq="1">of thee are monuments</del>
-                                                
-                            <add rend="unmarked" place="infralinear" seq="2">there <del rend="overstrike">are</del>
-                                <add rend="unmarked" place="supralinear">is</add> thy monumen<del rend="overwrite">ts</del><add rend="overwrite" place="over">t</add></add></subst>.</l>
-            </lg>
-        </body>
-    </text>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pml.00001"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    
+    <title level="m" type="main">Ah, Not This Granite Dead and Cold</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <editor>Matt Cohen</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     
+     <persName xml:id="tb">Tara Ballard</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2026</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+    
+
+   <idno>pml.00001</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+     <note type="work_relations" cert="high">
+      <p>Draft of the poem originally published as "Ah, Not This Granite Dead and Cold" in the <hi rend="italic">Philadelphia Press</hi> on February 22, 1885. It would later be reprinted as "Washington's Monument, February, 1885" in the "Sands at Seventy" annex to <hi rend="italic">Leaves of Grass</hi> (1888). This is a later draft than pml.00005 and pml.00009. An image of the verso is currently unavailable.</p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>Ah, Not This Granite Dead and Cold</title>  
+     
+     <date cert="high">February 1885</date>
+     
+     <idno type="callno">Misc American, MA 627</idno>
+     
+     <orgName xml:id="pml">Walt Whitman Literary Manuscripts in The Pierpont Morgan Library, New York</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+    
+     <note type="project" target="#rel01">No image of the verso is available.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h02" resp="#ww"></handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ <change when="2026-08-07" who="#bb">reconciled and combined old file with Tara's newly encoded one; proofed</change>
+ <change when="2024-10-03" who="#tb">transcribed and encoded</change>
+ <change when="2022-07-07" who="#as">updated transposition encoding</change>
+ <change when="2022-06-07" who="#bb">updated relations encoding</change>
+ <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+ <change when="2016-12-01" who="#nhg">corrected</change>
+ <change when="2016-11-28" who="#nhg">removed schema declaration, updated date</change>
+ <change when="2016-09-26" who="#nhg">proofed</change>
+ <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
+ <change when="2006-08-04" who="#nk">Added third digit to leaf numbers</change>
+ <change when="2005-05-18" who="#bb">Added to and corrected restore elements</change>
+ <change when="2005-03-09" who="#aj">Added Date and Work Markup</change>
+ <change when="2005-03-09" who="#kmp">Added Date and Work Markup</change>
+ <change when="2003-10-02" who="#bb">Converted to camel-case</change>
+ <change when="2003-09-25" who="#bb">Blessed</change>
+ <change when="2003-01-01" who="#kmp">Edited</change>
+ <change when="2003-04-16" who="#aj">Checked; revised</change>
+ <change when="2002-08-15" who="#ag">Transcribed; encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="pml_nk.00056_large.jpg" type="recto"/>
+   <lg type="poem">
+    <head><hi rend="underline"><subst><del rend="overstrike" hand="#h02" seq="1">Beyond this</del><add place="above" hand="#h02" seq="2">Ah, not <subst><del rend="overwrite" hand="#h02" seq="3">the</del><add place="inline" hand="#h02" seq="4">this</add></subst></add></subst> granite dead and cold.</hi></head>
+     <l><subst><del rend="overstrike" hand="#h02" seq="1">Beyond this</del><add place="above" hand="#h02" seq="2">Ah not this</add></subst> granite dead and cold,</l>
+    <l><choice><sic>Har</sic><corr>How</corr></choice>How <subst><del rend="overstrike" hand="#h02" seq="1">far</del><add place="above" hand="#h02" seq="2">far</add></subst> from <del rend="overstrike" hand="#h02" seq="2"><add place="above" hand="#h02" seq="1">this</add></del> base and shaft expanding &#8212; the<lb/> 
+            round zones circling, comprehending, <add place="inline" hand="#h02">c</add></l>
+     <l>Thou, <hi rend="doubleunderline">Washington</hi>, art <add place="inline" hand="#h02"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" hand="#h02" xml:id="a001">all</add> the world's, <del rend="overstrike" hand="#h02">humanity's,<lb/>
+            Freedom's Law's</del> &#8212; not yours alone, America</l>
+    <l><add place="above" hand="#h02" rend="marked" seq="1">No lurid fame exceptional, nor <unclear reason="illegible" cert="low" resp="#tb">monstrous</unclear> intellect, nor <del rend="overstrike" hand="#h02" seq="2">freedom's</del><add place="above" hand="#h02" seq="3">conquest's</add> domination,</add><del rend="overstrike" hand="#h02">Thy fame, (no lurid fame exceptional <del rend="overstrike" hand="#h02" seq="2"><add place="above" hand="#h02" seq="1">for the</add></del> nor<lb/>
+            intellect, nor conquest's domination,)</del></l>
+     <l><del rend="overstrike" hand="#h02">>By deathless waves of emanation the race's<lb/>
+            common ownership,</del></l>
+     <l>Europe's, <add place="inline"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" hand="#h02" xml:id="a002">as well,</add> in castle or in <del rend="overstrike">cot</del> laborer's cot &#8212; the<lb/>
+            Arab's in his tent &#8212; the African's.</l>
+     <l>Old Asia's there with venerable smile seated<lb/>
+            amid the past,</l>
+     <l>(Greets the antique the hero new? 'tis but the<lb/>
+            same &#8212; the eternal heart and arm &#8212; the<lb/>
+            heir legitimate,</l>
+     <l>Courage, alertness, patience, hope, the same &#8212;<lb/>
+            e'en in defeat defeated not, the same;<subst><del rend="overwrite" hand="#h02" seq="1">)</del><add place="inline" hand="#h02" seq="2">&#8212;</add></subst></l>
+    <l><del rend="overstrike" hand="#h02" seq="2"><add place="above" hand="#h02" seq="1">No lurid fame exceptional, nor monstrous intellect, nor conquest's domination;)</add></del>Through teeming, cities' streets, indoors or out,<lb/>
+           factories or farms,</l>
+     <l>Where'er ship sails or house is built on land,<lb/>
+           or night or day,</l>
+     <l>Now, or to come, or past &#8212; where patriot<lb/>
+           <del rend="overstrike">for a</del> wills existed or exist</l>
+    <l><add place="above" hand="#h02">Wherever Freedom <unclear reason="illegible" cert="low" resp="#tb">pers'd</unclear> by toleration, <unclear reason="illegible" cert="low" resp="#tb">swan'd</unclear> by Law,</add>Rising or risen, <subst><del rend="overstrike" hand="#h02" seq="1">of thee are monuments.<add place="below" hand="#h02" seq="1">there <subst><del rend="overstrike" hand="#h02" seq="2">are</del><add place="above" hand="#h02" seq="3">is</add></subst> thy monuments</add></del></subst></l>
+   </lg>
+   
+   <pb xml:id="leaf001v" facs="" type="verso"/><!--No image available in tracking database of verso. TB, 10.2.24-->
+   
+</body>
+</text>
 </TEI>
