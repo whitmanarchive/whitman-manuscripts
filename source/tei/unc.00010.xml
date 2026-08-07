@@ -41,7 +41,7 @@
     </availability>
    <idno>unc.00010</idno>
    </publicationStmt>
-   <notesStmt><note type="project" target="#dat1">The envelope Whitman used in creating this manuscript is postmarked October 1883, so he must have created this manuscript in late 1883 or early 1884.</note>
+   <notesStmt><note type="project" target="#dat1">The envelope Whitman used as part of the writing surface for this manuscript is postmarked October 1883, so he must have written it in late 1883 or early 1884.</note>
  
     <note type="work_relations" target="xxx.00340" cert="high">"With Husky-Haughty Lips, O Sea!" was published first in the March 1884 issue of <hi rend="italic">Harper's Monthly Magazine</hi>. It was reprinted, with the addition of one line, in <hi rend="italic">November Boughs</hi> (1888) and in the "Sands at Seventy" annex to <hi rend="italic">Leaves of Grass</hi> in 1888 and after.</note>
     
@@ -94,7 +94,8 @@
     <l>Thy ample smiling face, dash'd with the sparkling<lb/>
            dimples of the sun,</l>
      <l></l>
-    <l><subst><add place="above" seq="2">Thy unsubduedness, caprices, wilfulness,</add> <del rend="overstrike" seq="1">Thy unsubduedness, caprices, wilfulness,</del></subst></l>
+    <l><add>Thy unsubduedness, caprices, wilfulness,</add></l> 
+    <l><del rend="overstrike">Thy unsubduedness, caprices, wilfulness,</del></l>
     
      <l>Great as thou art, thy many tears&#8212;a lack from<lb/>
            all eternity in thy content,</l>
@@ -112,7 +113,7 @@
     
      <l><del rend="overstrike" hand="#h02"><add place="above" hand="#h02">And curious ceaseless <subst><del rend="overstrike" seq="1">ra</del> <add seq="2">curious</add></subst> rasping of thy sands and waves,</add></del></l>
     
-      <l>And undertones of <subst hand="#h02"><del rend="overstrike" seq="1">muffled</del><add place="above" seq="2">distant</add></subst> lion roar,</l>
+      <l>And undertones of <subst hand="#h02"><del rend="overstrike" seq="1">muffled</del> <add place="above" seq="2">distant</add></subst> lion roar,</l>
     
      <milestone unit="glued"/>
     
@@ -124,19 +125,22 @@
       <add place="below"><metamark function="add" target="#a006">&#8248;</metamark></add><add place="above" xml:id="a006">call of</add> freedom&#11840;lover pent</l>
      <milestone unit="glued"/>
     
-<!--    BEGIN HERE .   -->
-     <l><del rend="overstrike">Ages and</del><add place="inline"><metamark function="add" target="#a005">&#8248;</metamark></add><del rend="overstrike" seq="2"><add place="above" xml:id="a005" rend="marked" seq="1">Ever and ever</add></del><del rend="overstrike">ages</del> <add place="inline"></add><add>Heedlessly</add> sounding to the <subst><del rend="overstrike" seq="1">world's</del><del rend="overstrike" seq="3"><add place="above" seq="2">? sky's</add></del></subst> deaf ear<del rend="overstrike">s</del></l>
-     <l>Still now for once thine import here <subst><del rend="overstrike" seq="1"><unclear reason="illegible" cert="low" resp="#tb"/></del><add place="above" seq="1">unfolding,</add></subst></l>
+    <l><del rend="overstrike"><subst><del rend="overstrike" seq="1">Ages and <add place="above">unheeded</add></del> <add place="below" seq="2"><metamark function="add" target="#a005">&#8248;</metamark></add> <add place="above" rend="marked" xml:id="a005" seq="2">Ever and ever</add></subst> ages</del> <add place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><add place="above" xml:id="a007">Heedlessly</add> sounding to the <del rend="overstrike" seq="1">world's <add place="above"><metamark function="question">?</metamark>sky's</add></del> deaf ear<del rend="overstrike"><add>s</add></del></l>
+    
+     <l>Till now for once thine import here <subst><del rend="overstrike" seq="1">vouchsafing,</del> <add place="above" seq="1">unfolding;</add></subst></l>
+    
      <milestone unit="glued"/>
-     <l><del rend="overstrike" hand="#h02">The tale of cosmic elemental passion</del></l>
-     <l><del rend="overstrike">Thou tellest to a kindred soul.</del></l>
-     <l>Surging and mattering from thy soul's</l>
-     <l><handShift new="#h02"/>The late of cosmic elemental passion</l>
+    
+     <l><del rend="overstrike">The tale of cosmic elemental passion</del></l>
+     <l><del rend="overstrike">Thou tellest to a kindred soul,</del></l>
+     <l>Surging and muttering from thy soul's
+     <lb/>abysms,</l>
+     <l><add hand="#h02">The tale of cosmic elemental passion</add></l>
      <l>Thou tellest to a kindred soul,</l>
-     <l>&#42;</l>
+     <l><metamark function="transpose">*</metamark></l>
     <milestone unit="glued"/>
    </lg>
-   <note type="authorial" place="bottom"><l>chafe</l><l>chafing</l></note>
+   <note type="authorial" place="bottom">chafe <lb/>chafing</note>
    
    <pb xml:id="leaf001v" facs="unc.00010.002_large.jpg" type="verso"/>
    
