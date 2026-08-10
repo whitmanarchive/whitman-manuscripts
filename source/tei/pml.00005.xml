@@ -72,8 +72,9 @@
    </handNotes>
   </profileDesc>
     <revisionDesc>
+      <change when="2026-08-10" who="#bb">supplied missing @seq values, etc.</change>
        <change when="2026-02-27" who="#bb">removed p from work_relations note; moved head inside lg</change>
-   <change when="2026-01-27" who="#bb">proofed</change>
+      <change when="2026-01-27" who="#bb">proofed</change>
    <change when="2024-11-20" who="#ew">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -85,7 +86,7 @@
       <head type="main" rend="underline">
       <del rend="overstrike" hand="#h02">
          <add hand="#h02" place="above">Far, far,</add></del> Beyond this <subst hand="#h02"><del seq="1" rend="overstrike">marble</del> <add place="above" seq="2">granite</add></subst> dead and cold.</head>
-     <l><del rend="overstrike" hand="#h02"><add hand="#h02" place="above">Far, far,</add></del> Beyond this <subst hand="#h02"><del seq="1" rend="overstrike">marble</del> <add place="above">granite</add></subst> dead and cold</l>
+     <l><del rend="overstrike" hand="#h02"><add hand="#h02" place="above">Far, far,</add></del> Beyond this <subst hand="#h02"><del seq="1" rend="overstrike">marble</del> <add place="above" seq="2">granite</add></subst> dead and cold</l>
       <metamark function="unknown"><del rend="overstrike" hand="#h01"><add hand="#h01">*</add></del></metamark>
      <l><subst hand="#h02"><del seq="1" rend="overstrike">Out <add hand="#h01" place="above">out</add></del> <add seq="2" place="above">Far, far</add></subst> from <del rend="overstrike">this</del> base and shaft <choice><orig>ex-<lb/>panding</orig><reg>expanding<lb/></reg></choice>&#8212;the round <subst><del seq="1" rend="overstrike">earth</del> <add seq="2" place="above">zones</add></subst> circling, <add place="above">comprehending each &amp; all</add><lb/>
         <del rend="overstrike">comprehending</del></l>
@@ -93,7 +94,7 @@
      <l>
      <subst><del rend="overstrike" hand="#h01" seq="1">Each teeming city's steets, indoors or<lb/>
         out, factories and farms,</del>
-        <add place="above" hand="#h02">(Thou, <hi rend="doubleUnderline">Washington</hi> art the world's, <add rend="marked" place="above">humanity's, freedom's, law's&#8212;</add>&#8212;not yours alone America.)</add></subst>
+        <add place="above" hand="#h02" seq="2">(Thou, <hi rend="doubleUnderline">Washington</hi> art the world's, <add rend="marked" place="above">humanity's, freedom's, law's&#8212;</add>&#8212;not yours alone America.)</add></subst>
      </l>
      <l><del rend="overstrike">Where'er humanity&#8212;not yours alone<lb/>
         vast stretches of America</del></l>
@@ -117,14 +118,14 @@
      <l>Wheree'r ship sails, or house is built<lb/>
         on land, or night or day,</l>
      <l><add hand="#h02" place="interlinear"><del rend="overstrike" hand="#h02"><unclear reason="illegible" resp="#bb" cert="medium">To my soul's span&#8212;</unclear></del></add></l>
-      <l><del hand="#h02" rend="overstrike">Where Washington <add place="above"><unclear reason="illegible" resp="#ew">this thy</unclear></add> <add hand="#h02" place="above">real</add> is <hi rend="underline">not</hi> thy monument?</del></l>
-     <l><del hand="#h02"><add hand="#h02">There is <subst><del rend="overstrike" seq="1"><unclear reason="illegible" cert="medium" resp="#bb">thy</unclear></del><add place="below" seq="2">another</add></subst> <gap reason="illegible" extent="one character"/> monument</add></del></l>
+      <l><del hand="#h02" rend="overstrike">Where Washington <add place="above"><unclear reason="illegible" resp="#ew" cert="low">this thy</unclear></add> <add hand="#h02" place="above">real</add> is <hi rend="underline">not</hi> thy monument?</del></l>
+     <l><del hand="#h02" rend="overstrike"><add hand="#h02">There is <subst><del rend="overstrike" seq="1"><unclear reason="illegible" cert="medium" resp="#bb">thy</unclear></del><add place="below" seq="2">another</add></subst> <gap reason="illegible" extent="one character"/> monument</add></del></l>
     <milestone unit="glued"/>
     <addSpan hand="#h02" spanTo="#a001"/>
      <l>Now, or to come, or <subst rend="overwrite"><del seq="1"><unclear reason="illegible" resp="#bb" cert="medium">c</unclear></del><add seq="2">p</add></subst>ast, where<del rend="overstrike">e'r</del><lb/>
-        <del resp="overstrike">the</del> patriot <del rend="overstrike">thought</del> brains<lb/>
+        <del rend="overstrike">the</del> patriot <del rend="overstrike">thought</del> brains<lb/>
         existed or exists&#8212;</l>
-     <l>Rising or risen, of thee, <subst><del rend="overstrike" seq="1">there</del> <del rend="overstrike" seq="3"><add place="above" seq="2">the <unclear reason="illegible" resp="#bb" cert="high">banner</unclear></add></del> <del rend="overstrike" seq="5"><add place="above" seq="4">'mid these, all these,</add></del></subst> <subst><del rend="overstrike">of t to</del> <del rend="overstrike"><add place="above">of</add></del></subst> thee</l>
+     <l>Rising or risen, of thee, <subst><del rend="overstrike" seq="1">there</del> <del rend="overstrike" seq="3"><add place="above" seq="2">the <unclear reason="illegible" resp="#bb" cert="high">banner</unclear></add></del> <del rend="overstrike" seq="5"><add place="above" seq="4">'mid these, all these,</add></del></subst> <subst><del rend="overstrike" seq="1">of t to</del> <del rend="overstrike" seq="3"><add place="above" seq="2">of</add></del></subst> thee</l>
      <l><del rend="overstrike">To my soul's span</del><lb/>
         <del rend="overstrike">are thy</del> <add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">are <del rend="overstrike">countless</del></add> monuments.</l>
     <anchor xml:id="a001"/>
