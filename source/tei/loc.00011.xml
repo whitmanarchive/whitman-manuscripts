@@ -7,16 +7,15 @@
   <fileDesc>
    <titleStmt>
     
-    <title level="m" type="main">Greeting from a Northern Star&#8211;Group to a Southern</title>
+    <title level="m" type="main">Greeting from a Northern Star-Group to a Southern</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="tb">Tara Ballard</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -28,7 +27,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,34 +42,28 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.00011</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">The corrections on this proof were likely made in late 1889, shortly before the poem's publication in December.</note>
     
+    <note type="work_relations" target="xxx.00396" cert="high">A corrected proof slip of "A Christmas Greeting." Whitman told his associate Horace Traubel on <ref target="med.00006.085">December 9, 1889</ref>, that the poem had been accepted for publication by the McClure newspaper syndicate (after initially being rejected by <hi rend="italic">Harper's</hi>) and that he suspected it would be published around Christmas. The poem appeared in the <hi rend="italic">St. Louis Post-Dispatch</hi> on December 22, 1889, with a note indicating that it was "written for the Sunday Post-Dispatch." It is possible that it also appeared in other papers around that time. Whitman, however, was unaware of its publication, wondering as late as <ref target="med.00006.136">January 29, 1890</ref>, why it had not appeared in the U.S., despite having appeared by that time <ref target="med.00006.135">in a Parisian newspaper</ref>.</note>
     
-     <note type="work_relations" cert="high">
-      <p>A proof with three emendations and a notation by Horace Traubel: "See notes 1/29/90."</p>
-     </note>
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>Greeting from a Northern Star&#8211;Group to a Southern</title>  
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “A Christmas Greeting” ( 1889 ); Proof sheets with corrections</title>  
      
-     <date cert="high">1889</date>
+     <date cert="high" when="1889" xml:id="dat1">Late 1889</date>
      
-     <idno type="callno">mss 18630, box 26; reel 16</idno>
+     <idno type="callno">mss 18630, box 26</idno>
      
      <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-  
-     <note type="project" target="#rel01">The verso is blank.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
@@ -84,7 +76,7 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-08-11" who="#km">proofed</change>
  <change when="2024-01-20" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -97,20 +89,29 @@
    <note type="editorial" place="top" hand="#h04">see note 1/29/90</note>
 
    <lg type="poem">
-    <head><del rend="overstrike" hand="#h03" seq="2">A <del rend="overstrike" hand="#h02" seq="1">CHRISTMAS</del></del> GREETING<lb/> <add hand="#h02" place="inline"><metamark function="combine">&#8625;</metamark></add> <hi rend="italic">From a Northern Star&#8211;Group to a Southern.</hi></head>
-     <l>Welcome, Brazilian brother &#8212; thy ample place is ready;</l>
-     <l>A loving hand &#8212; a smile from the north &#8212; a sunny instant<lb/>
+    <head type="main"><del rend="overstrike" hand="#h03">A <del rend="overstrike" hand="#h02">CHRISTMAS</del></del> GREETING<lb/> <add hand="#h02" place="inline"><metamark function="combine">&#8625;</metamark></add> <hi rend="italic">From a Northern Star-Group to a Southern.</hi></head>
+    
+     <l>Welcome, Brazilian brother&#8212;thy ample place is ready;</l>
+    
+     <l>A loving hand&#8212;a smile from the north&#8212;a sunny instant<lb/>
             hail!</l>
+    
      <l>(Let the future care for itself, where it reveals its troubles,<lb/>
             impedimentas,</l>
-     <l>Ours, ours the <del rend="overstrike" hand="#h03">present throe, the</del> democratic aim, the <choice><orig>accept&#8211;<lb/>ance</orig><reg>acceptance</reg></choice><lb/>
+    
+     <l>Ours, ours the <del rend="overstrike" hand="#h03">present throe, the</del> democratic aim, the <choice><orig>accept-<lb/>ance</orig><reg>acceptance<lb/></reg></choice>
             and the faith;)</l>
-     <l>To thee to&#8211;day, our reaching arm, our turning neck &#8212; to thee<lb/>
+    
+     <l>To thee to-day, our reaching arm, our turning neck&#8212;to thee<lb/>
             from us the expectant eye,</l>
+    
      <l>Thou cluster free! thou brilliant lustrous star! thou, learning<lb/>
             well,</l>
+    
      <l>The true lesson of a nation's light in the sky,</l>
+    
      <l>(More shining than the Cross, more than the Crown,)</l>
+    
      <l>The height to be superb humanity.</l>
    </lg>
                           <signed>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</signed>
