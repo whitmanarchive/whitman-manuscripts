@@ -12,7 +12,6 @@
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
           <persName xml:id="ja">JC Andrews</persName>
@@ -28,7 +27,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,32 +42,25 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>yal.00084</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">This is one of many similar corrected proof slips of this poem. Horace Traubel notes in <ref target="med.00001.052"><hi rend="italic">With Walt Whitman in Camden</hi></ref> that although Whitman was in the practice of having poems "set up for private distribution [i.e., to friends and admirers] at the printing office of Henry Curtz," he never gave out the slips until the poems had been published ([Boston: Small, Maynard &amp; Company, 1906] 1:180). This proof slip therefore probably dates to shortly after the poem's first appearance in November 1889.</note>
     
-    
-     <note type="work_relations" target="xxx." cert="high">
-      <p></p>
-     </note>
+    <note type="work_relations" target="xxx.00384" cert="high">A corrected proof slip of "My 71st Year," which was first published in <hi rend="italic">The Century Illustrated Monthly Magazine</hi> in November 1889. The poem lwas ater reprinted in <hi rend="italic">Good-Bye My Fancy</hi> (1891).</note>
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>"My 71st Year"</title>  
+     <title>"My 71st Year," Galley proof, corrected, 1889 Nov</title>  
      
-
      <date when="1889-11" cert="high">November 1889</date>
      
      <idno type="callno">YCAL MSS 202, Series V</idno>
      
-
-     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
+     <orgName xml:id="yal">Walt Whitman Collection. Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
      
      <note>Transcribed from digital images of the original.</note>
   
@@ -79,11 +70,12 @@
   <profileDesc>
    <handNotes>
     <handNote medium="letterpress" xml:id="h01" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
-    <handNote medium="blue ink" xml:id="h02" resp="#ww" scope="minor"></handNote>
+    <handNote medium="blue ink" xml:id="h02" resp="#ww" scope="minor"/>
     <handNote medium="pencil" xml:id="h03" resp="#unk2" scope="minor"><name xml:id="unk2">Unknown</name></handNote>
  </handNotes>
    </profileDesc>
 <revisionDesc>
+ <change when="2026-08-12" who="#km">further proofing</change>
   <change when="2025-09-03" who="#km">proofed</change>
   <change when="2025-08-28" who="#ja">transcribed and encoded</change>
 </revisionDesc>
@@ -91,25 +83,28 @@
 
  <text type="manuscript">
   <body>
-   
 
-   <pb xml:id="leaf001r" facs="YCAL_MSS-13-17.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="yal_km.00005.jpg" type="recto"/>
+   
    <note type="archival" hand="#h03" place="top">610</note>
-   <head type="main">MY 71<hi rend="smallcaps">ST</hi> YEAR.</head>
+   
    <lg type="poem">
+    <head type="main">MY 71<hi rend="smallcaps">ST</hi> YEAR.</head>
      <l>After surmounting three-score and ten,</l>
      <l>With all their chances, changes, losses, sorrows,</l>
      <l>My parents' deaths, the vagaries of my life, the many tearing<lb/> passions of me, <add hand="#h02" place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h02" place="above" rend="marked" xml:id="a001">the war of '63 and '4,</add></l>
     <l>As some old broken soldier, after a long, hot wearying march,<lb/> or haply after battle,</l>
-    <l>At twilight, hobbling, answering yet to company roll-call<add type="authorial" hand="#h02" place="inline">,</add> <hi rend="italic">Here</hi> <add type="authorial" hand="#h02" place="inline">,</add><lb/> with vital voice,</l>
+    <l>At twilight, hobbling, answering yet to company roll-call<add hand="#h02">,</add> <hi rend="italic">Here</hi><add hand="#h02">,</add><lb/> with vital voice,</l>
     <l>Reporting yet, saluting yet the Officer over all.</l>
    </lg>
    <byline rend="right">W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</byline>
+   
    <note type="authorial" hand="#h02" place="bottom">Century</note>
+   
    <note type="authorial" hand="#h02" place="bottom">Nov. '89</note>
    
 
-   <pb xml:id="leaf001v" facs="YCAL_MSS-13-18.jpg" type="verso"/>
+   <pb xml:id="leaf001v" facs="yal_km.00006.jpg" type="verso"/>
    
 </body>
 </text>
