@@ -6,20 +6,16 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
-
     <title level="m" type="main" rend="bracketed">What potent spells do</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
-     
      <persName xml:id="slg">Samantha Gilmore</persName>
      <persName xml:id="ew">Emma Whaley</persName>
+     <persName xml:id="bb">Brett Barney</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -31,7 +27,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -42,63 +37,44 @@
                 </address>
     <availability>
      <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
-     <p>
-      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
-      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
-      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+     <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
     </availability>
-    
-
    <idno>loc.05103</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- WRITTEN BY EDITORS --></note>
+    <note type="project" target="#dat1">On the reverse is a partial postmark for 1884, so this manuscript must date to late 1884 or sometime before August in 1885.</note>
     <note type="work_relations" target="xxx.00333" cert="high">
-      <p>This is a draft line for "You Tides with Ceaseless Swell," first published along with seven other poems in <hi rend="italic">The Nineteenth Century</hi> (August 1885), under the general title "Fancies at Navesink."</p>
+     <p>This is a draft line for "You Tides with Ceaseless Swell," first published along with seven other poems in the August 1885 issue of <hi rend="italic">Nineteenth Century</hi> under the collective title "Fancies at Navesink." The sequence was later reprinted in <hi rend="italic">November Boughs</hi> (1888). </p>
      </note>
    </notesStmt>
-   
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
-     
-     <title resp="#wwa">[What potent spells do]</title>  
-     
-     <date notBefore="1880" notAfter="1885" cert="high">about 1885</date>
-     
+     <title>Thomas Biggs Harned Collection of the Papers of Walt Whitman: Manuscripts, [1859]-[circa 1892]; Poetry; [circa 1885] , "Fancies at Navesink"</title>  
+     <date notBefore="1884" notAfter="1885-08" cert="high">Late 1884 or 1885</date>
      <idno type="callno">mss45443</idno>
      <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
-     
      <note>Transcribed from digital images of the original.</note>
-     
     </bibl>
    </sourceDesc>
 </fileDesc>
 <revisionDesc>
+ <change when="2026-08-12" who="#bb">proofed</change>
  <change when="2024-10-01" who="#ew">updated image links</change>
  <change when="2024-02-06" who="#slg">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
-
  <text type="manuscript">
   <body>
-   
    <pb xml:id="leaf001r" facs="loc_ew.00091.jpg" type="recto"/>
-   
    <lg type="poem">
     
-    <metamark function="unknown">*</metamark>
     
-     <l>What <gap reason="overstrike" extent="about two letters" unit="char" quantity="2"/> potent spells <metamark function="add" target="#gap1">&#8248;</metamark><gap xml:id="gap1" reason="cutaway" extent="unknown"/> <subst><del rend="overstrike" seq="1">from</del> <del rend="overstrike" seq="2"><add rend="unmarked" place="above">the</add></del> <add rend="unmarked" place="above" seq="3">do</add></subst></l>
-    
-    <l>distant <subst><del rend="overstrike" seq="1">suns</del> <del rend="overstrike" seq="2"><add rend="unmarked" place="above">worlds</add></del> <add rend="unmarked" place="above" seq="3">stars</add></subst> <subst><del rend="overstrike" seq="1">upon</del> <add rend="unmarked" place="above" seq="2">send to</add></subst> you?</l>
-    
-     <l>What Sirius'? What Autares?</l>
-   
+     <l><metamark function="unknown">*</metamark>What <del rend="overstrike"><gap reason="illegible" extent="two characters"/></del> potent spells <metamark function="add" target="#a001">&#8248;</metamark><add place="above" xml:id="a001"><gap xml:id="gap1" reason="cutaway" extent="unknown"/></add> <subst><del rend="overstrike" seq="1">from</del> <del rend="overstrike" seq="3"><add place="above" seq="2">the</add></del> <add place="above" seq="4">do</add></subst><lb/>
+      distant <subst><del rend="overstrike" seq="1">suns</del> <del rend="overstrike" seq="3"><add rend="unmarked" place="above" seq="2">worlds</add></del> <add rend="unmarked" place="above" seq="4">stars</add></subst> <subst><del rend="overstrike" seq="1">upon</del> <add rend="unmarked" place="above" seq="2">send to</add></subst> you?<lb/>
+      what Sirius? what Autares?</l>
    </lg>
-   
    <pb xml:id="leaf001v" facs="loc_ew.00092.jpg" type="verso"/>
-   
 </body>
 </text>
 </TEI>
