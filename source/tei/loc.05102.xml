@@ -6,18 +6,16 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main" rend="bracketed">firm strong</title>
     <title level="m" type="sub">a machine-readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="tb">Tara Ballard</persName>
      <persName xml:id="ew">Emma Whaley</persName>
+     <persName xml:id="bb">Brett Barney</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -40,69 +38,62 @@
                 </address>
     <availability>
      <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
-     <p>
-      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
-      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
-      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+     <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
     </availability>
     
-
    <idno>loc.05102</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
-    
-    
-     <note type="work_relations" cert="high">
-      <p>Draft lines of "You Tides with Ceaseless Swell," first published along with seven other poems in <hi rend="italic">The Nineteenth Century</hi> (August 1885), under the general title "Fancies at Navesink."</p>
+    <note type="project" target="#dat1"></note>
+    <note type="work_relations" target="xxx.00333" cert="high">These draft lines contributed to the poem "You Tides with Ceaseless Swell," first published with seven other poems in the August 1885 issue of <hi rend="italic">Nineteenth Century</hi> under the collective title "Fancies at Navesink." The sequence was later reprinted in <hi rend="italic">November Boughs</hi> (1888).
      </note>
+    
+    <note type="project" target="#dat1">This manuscript was probably created in late 1884 or in 1885.</note>
+    
    </notesStmt>
-   
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
-     
-     <title>Fancies at Navesink</title>  
-     
-     <date cert="high">about 1885</date>
-     
-     <idno type="callno">MSS 45443, Reel 1</idno>
-     
-     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, Library of Congress, Washington, D.C.</orgName>
-     
+     <title>Thomas Biggs Harned Collection of the Papers of Walt Whitman: Manuscripts, [1859]-[circa 1892]; Poetry; [circa 1885] , "Fancies at Navesink"</title>  
+     <date notBefore="1884" notAfter="1885-08" cert="high">Late 1884 or 1885</date>
+     <idno type="callno">MSS 45443</idno>
+     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
      <note>Transcribed from digital images of the original.</note>
-
-     <note type="project" target="#rel01">The verso contains the following words: "? or simply <hi rend="italic">The Tides</hi>."</note>
+     <relatedItem xml:id="rel1" type="text" target="loc.08489"/>
+     <relatedItem type="document" target="wwa.00741"/>
+     <note type="project" target="#rel01">On the reverse is what appears to be a trial title for the poem "You Tides with Ceaseless Swell."</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="sole"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
+ <change when="2026-08-13" who="#bb">proofed</change>
  <change when="2024-10-01" who="#ew">updated image links</change>
  <change when="2024-08-06" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
-
  <text type="manuscript">
   <body>
-   
    <pb xml:id="leaf001r" facs="loc_ew.00411.jpg" type="recto"/>
    <lg type="poem">
-     <l><gap extent="about ten letters" unit="words" quantity="3" reason="torn away"/></l>
-     <l>firm <add place="inline">strong</add></l>
+    <lg type="linegroup">
+     <l><gap extent="about ten characters" reason="torn away"/>
+     <lb/>firm <add place="above">strong</add></l>
      <l>Lofty the glance of the<lb/> 
            eye</l>
-     <l><hi rend="underline">A vast in</hi></l>
+    </lg>
+    <lg type="linegroup">
+     <l><del rend="overstrike">A vast in</del></l>
      <l>Some mighty invisible<lb/>
-          spirit is <del rend="overstrike">j</del> moving<lb/>
+          spirit is <del rend="overstrike">f</del> moving<lb/>
           swiftly overhead</l>
-     <l><unclear reason="illegible" cert="low" resp="#tb"/> in</l>
+     <l>&amp; in</l>
+    </lg>
    </lg>
-   
    <pb xml:id="leaf001v" facs="loc_ew.00412.jpg" type="verso"/>
    
 </body>
