@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07604"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title level="m" type="main">Copy of letter from Walt Whitman to Tertio Millennial Anniversary, 20 July 1883</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     <persName xml:id="ja">JC Andrews</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2026</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+   <idno>loc.07604</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    
+    
+     <note type="work_relations" target="xxx." cert="high">
+      <p></p>
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Oversize, 1844-1952; Miscellany; Santa Fe tertio-millennial anniversary, 1883 (Container 50)</title>  
+     
+     <date when="1883-07" cert="high">July 1883</date>
+     
+     <idno type="callno">mss18630, box OV 22</idno>
+     
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="letterpress" xml:id="h01" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
+    <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
+    <handNote medium="blue pencil" xml:id="h03" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h04" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h05" resp="#unk1" scope="major"><name xml:id="unk1">Unknown</name></handNote>
+    <handNote medium="pencil" xml:id="h06" resp="#unk2" scope="major"><name xml:id="unk2">Unknown</name></handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ <change when="2026-08-14" who="#km">created file; transcribed/encoded, based off of transcription/metadata of loc.07608</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   <pb xml:id="leaf001r" facs="loc_km.00076.jpg" type="recto"/>
+   
+   
+    <p>If I might assume to do so, I would like to send you the most cordial, hertfelt, <del hand="#h02" rend="overstrike">respectful</del> congratulations of your American fellow-countrymen here. You have more friends in
+   the Northern and Atlantic regions than you suppose, and they are deeply interested in the
+   development of the great Southwestern interior, and in what your festival would arouse to
+   public attention.</p>
+   
+   <note type="authorial" hand="#h03" place="right">25 B Nov<gap reason="cut away" extent="unknown"/></note>
+   
+   <note type="archival" hand="#h05" place="right">R<gap reason="cut away" extent="unknown"/></note>
+   
+   <closer>
+    <salute hand="#h02">Very respectfully, &amp;c</salute>
+    <signed hand="#h02"><hi rend="doubleUnderline" hand="#h03">Walt Whitman</hi></signed>
+   </closer>
+   
+   <note type="authorial" hand="#h03" rend="circled">IIII</note>
+   
+   <note type="editorial" hand="#h06">Don't print? Don't print?</note>
+   
+   <note type="authorial" place="bottom" hand="#h04" rend="circled">Dear D&#8212;You can make any use you like of the above&#8212;I meant it for the public <unclear reason="illegible" cert="low" resp="#km">a</unclear><gap reason="cut away" extent="unknown"/><lb/> WW</note>
+   
+   <pb xml:id="leaf001v" facs="loc_sf.00028_large.jpg" type="verso"/>
+</body>
+</text>
+</TEI>
