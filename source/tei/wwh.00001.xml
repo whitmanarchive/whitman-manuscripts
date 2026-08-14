@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wwh.00001"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title level="m" type="main">You tides with ceaseless swell and ebb</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     <persName xml:id="bb">Brett Barney</persName>
+     <persName xml:id="tb">Tara Ballard</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2026</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+    </availability>
+   <idno>wwh.00001</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1">Whitman created the writing surface for this manuscript by pasting together fragments of several letters written to him, one of which is dated January 8, 1884. This manuscript, then, must have been inscribed after that date and before the poem's publication in 1885. </note>
+    <note type="work_relations" target="xxx.00333" cert="high">Writing on the verso (which is made up of fragments of several letters, dated between 1871–1884) indicates that the manuscript was probably created sometime in or after 1884. "You Tides With Ceaseless Swell" is one of eight poems in the "Fancies at Navesink" sequence, which first appeared in print in the August 1885 issue of <hi rend="italic">Nineteenth Century</hi>.
+     This is a draft of "You Tides With Ceaseless Swell," first published in the August 1885 issue of <hi rend="italic">Nineteenth Century</hi> as part of the eight-poem sequence "Fancies at Navesink." The poems were later reprinted in <hi rend="italic">November Boughs</hi> (1888).
+     </note>    
+    
+   </notesStmt>
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     <title>You Tides with Ceaseless Swell and Ebb</title>  
+     <date notBefore="1884-01-08" notAfter="1885-08" cert="high">1884 or 1885</date>
+     <orgName xml:id="wwh">Walt Whitman Poetry Manuscripts at The Walt Whitman House in Camden</orgName>
+     <note>Transcribed from digital images of the original.</note>
+     <relatedItem type="text" xml:id="rel01" target="wwh.00025 wwh.00026 www.00027"/>
+     <relatedItem type="document" target="wwa.00096"/>
+     <note type="project" target="#rel01">Three of the five letter fragments on the reverse are included in our edition of Whiwman's correspondence: <ref target="wwh.00025">wwh.00025</ref>, <ref target="wwh.00026">wwh.00026</ref>, and <ref target="wwh.00027">wwh.00027</ref>.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="pencil" xml:id="h02" resp="#ww" scope="minor"/>
+    <!--<handNote medium="purple crayon" xml:id="h03" resp="#ww" scope="minor"/>-->
+    <handNote medium="black ink" xml:id="h04" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ <change when="2026-08-14" who="#bb">proofed</change>
+ <change when="2025-04-29" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+ <text type="manuscript">
+  <body>
+   <pb xml:id="leaf001r" facs="wwh.00001.001.jpg" type="recto"/>
+   <lg type="poem">
+     <head rend="underline">You tides with ceaseless swell <lb/>and ebb.</head>
+     <milestone unit="glued"/>
+     <note type="archival" place="left" hand="#h04">P/p. 1/30/18 <hi rend="underline">Mr</hi></note>
+    
+     <l><handShift new="#h02"/>You tides with ceaseless swell and<lb/>
+             ebb! you <subst><del rend="overstrike" seq="1">law</del> <add place="above" seq="2">power</add></subst> that does this work!</l>
+     <l>You <subst><del rend="overstrike" seq="1">unseen</del> <add place="above" seq="2">unseen</add></subst> force, centripetal, centrifugal,<lb/>
+             through space's spread, <add hand="#h02" place="below"><metamark function="add" target="#a006">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a006">entire, !</add> to <del rend="overstrike">you systole,</del>
+             <lb/><del rend="overstrike">diastole!</del></l>
+     <milestone unit="glued"/>
+     <l><handShift new="#h01"/><subst><del rend="overstrike" seq="1">What</del> <del rend="overstrike" seq="3"><add place="above" seq="2"><gap reason="illegible" extent="about three characters"/></add></del></subst> <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">you</add> intermutual<add hand="#h02">,</add> <del rend="overstrike" seq="2"><add place="above" hand="#h02" seq="1">unseen</add></del> chain<del rend="overstrike" hand="#h01">s</del> of<lb/>
+              sun, <del rend="overstrike">and</del> moon, <del rend="overstrike">and</del> earth, and<lb/>
+              all the <del rend="overstrike">myriad</del> <subst><del rend="overstrike" seq="1">stars?</del> <del rend="overstrike" seq="3"><add place="above" seq="2">brother worlds of space?</add></del> <add place="below" seq="4">constellations!</add></subst></l>
+    
+     <milestone unit="glued"/>
+     <l>What <add hand="#h01" place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><add hand="#h01" place="above" rend="marked" xml:id="a007"><subst><del rend="overstrike" seq="1">are</del> <del rend="overtrike" hand="#h02">the</del> <add seq="2">are the</add></subst></add> messages <subst><del rend="overstrike" seq="1">by</del> <del rend="overstrike" hand="#h01"><add place="above" seq="2" hand="#h02"><gap reason="illegible" extent="two words"/></add></del></subst> <add hand="#h02" place="below"><metamark function="add" target="#a008">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a008">through you</add> 
+       <del rend="overstrike">you</del> <del rend="overstrike"><add place="above"><metamark function="question">?</metamark> it</add></del> <subst><del rend="overstrike" seq="1">it</del> <del rend="overstrike" seq="3"><add place="above" seq="2">you</add></del> </subst> from<lb/>
+              distant <subst><del rend="overstrike" seq="1">worlds</del> <add place="add" seq="2">stars,</add></subst> to us <add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><del rend="overstrike" hand="#h02" seq="3"><add place="above" xml:id="a003">through you?</add></del>? What<lb/>
+              Sirius'? What Capella's?</l>
+    
+     <milestone unit="glued"/>
+    
+    <l>What <add place="below"><metamark function="add" target="#a009">&#8248;</metamark></add> <add place="above" xml:id="a009"><subst><del rend="overstrike" seq="1">s<gap reason="illegible" extent="three or four characters"/></del> <add place="above" seq="2">central</add></subst></add> heart <add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><del rend="overstrike"><add place="above" xml:id="a004">within&#8212;</add></del>&#8212;and you the <del rend="overstrike"><add place="above">beating</add></del> pulse <del rend="overstrike" hand="#h02"><add place="above">sent forth&#8212;</add></del><add hand="#h02">&#8212;</add><lb/>
+           vivifies all? What boundless<lb/>
+          <add hand="#h02">clue?</add> aggregate of <subst><del rend="overstrike" hand="#h02" seq="1">all</del> <add place="below" seq="2"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" seq="2" xml:id="a005">and clue to all</add></subst> <add hand="#h01" place="below"><metamark function="add" target="#a010">&#8248;</metamark></add><del rend="overstrike" hand="#h02"><add hand="#h01" place="above" xml:id="a010">in you</add></del><del rend="overstrike" hand="#h02">?</del> <del rend="overstrike"><add hand="#h02"><unclear reason="illegible" resp="#bb" cert="medium">unseen</unclear> and seen?</add></del></l>
+    
+     <milestone unit="glued"/>
+    
+     <l><del rend="overstrike" hand="#h02">What clue to <subst><del rend="overstrike" seq="1">all the</del> <add place="above" seq="2">every</add></subst> force that<lb/>
+      acts through <add hand="#h02" place="below"><metamark function="add" target="#a011">&#8248;</metamark></add><del rend="overstrike" hand="#h02"><add hand="#h02" place="above" rend="marked" xml:id="a011">limitless</add></del> space <add hand="#h02" place="below"><metamark function="add" target="#a012">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a012">spread <del rend="overstrike" hand="#h02">of</del></add> <del rend="overstrike" hand="#h02">entire</del><add place="above" hand="#h02">&#8212;</add> <del rend="overstrike" hand="#h02">&#8212;</del> centripetal,<lb/>
+           centrifugal?</del></l>
+    
+     <milestone unit="glued"/>
+    
+     <l>What <subst><del rend="overstrike" seq="1">liquid</del> <add place="above" seq="2">subtle</add></subst> <del rend="overstrike"><gap reason="illegible" extent="two characters"/></del> indirection<lb/>
+            and significance?<add place="above">in you?</add> What <add hand="#h02">fluid</add><lb/>
+           <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002"><subst><del rend="overstrike" hand="#h02" seq="1">subtle</del> <del rend="overstrike" hand="#h02" seq="3"><add place="above" seq="2">liquid</add></del></subst></add> vast identity,</l>
+    
+     <milestone unit="glued"/>
+    
+     <l>Holding the universe <subst><del rend="overstrike" seq="1">entire and</del> <add place="above" seq="2">as</add></subst> one<del rend="overstrike">,</del><lb/>
+           &#8212;as sailing in a ship?</l>
+   </lg>
+   
+   <pb xml:id="leaf001v" facs="wwh.00001.002.jpg" type="verso"/>
+   
+</body>
+</text>
+</TEI>
