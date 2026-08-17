@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00006">
-   <relations>
-      <work ref="xxx.00000">
-         <p>Holograph poem, 1p, undated. This manuscript does not appear to be related to any of Whitman's published poems.</p>
-      </work>
-   </relations>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00006">
+
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -14,7 +12,6 @@
             <author>Walt Whitman</author>
             <editor role="editor">Kenneth M. Price</editor>
             <editor role="editor">Ed Folsom</editor>
-            <editor role="editor">Matt Cohen</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
@@ -22,6 +19,7 @@
                <persName xml:id="fl">Farrah Lehman</persName>
                <persName xml:id="kmp">Kenneth M. Price</persName>
                <persName xml:id="jh">Jeff Hill</persName>
+               <persName xml:id="bb">Brett Barney</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -33,7 +31,6 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>nyp.00006</idno>
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -43,17 +40,20 @@
                <addrLine>Lincoln, NE 68588-4100</addrLine>
             </address>
             <availability>
-               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+               <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+               <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
             </availability>
+            <idno>nyp.00006</idno>
          </publicationStmt>
          <notesStmt>
-            <note type="project" target="dat1">The manuscript is undated, part of a collection that ranges from <date when="1854-1891">1854 to 1891</date>.</note>
-            <note type="project">On the verso there is nothing but a small NYPL stamp which was obviously put on by the respository.</note>                          	
+            <note type="project" target="dat1">Whitman's note on an earlier draft of this poem (<ref target="uva.00120">uva.00120</ref>) indicates that he sent the poem to the <hi rend="italic">New York Herald</hi> on March 8, 1888, although the emperor of the title, Wilhelm I of Germany, did not die until March 9. This manuscript almost certainly dates to February or March 1888.</note>
+            <note type="work_relations" target="xxx.00370" cert="high">"The Dead Emperor" was published in the 10 May 1888 issue of the <hi rend="italic">New York Herald</hi> and was reprinted later that year in <hi rend="italic">November Boughs</hi>.
+            </note>                    	
          </notesStmt>
          <sourceDesc>
             <bibl>
                <author xml:id="ww">Walt Whitman</author>
-               <title>The Dead Emperor</title>
+               <title>"The Dead Emperor." Holograph poem, undated, signed</title>
                <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName> 
                <note type="project">Transcribed from digital images of the original.</note>
             </bibl>
@@ -62,11 +62,13 @@
       <profileDesc>
          <handNotes>
             <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-            <handNote medium="pencil" xml:id="h02" resp="#ww"/>
-             <handNote medium="pencil" xml:id="h03" resp="#unk"><persName xml:id="unk">Unknown</persName></handNote>
+            <handNote medium="purple pencil" xml:id="h02" resp="#ww"/>
+            <handNote medium="pencil" xml:id="h03" resp="#unk"><persName xml:id="unk">Unknown</persName></handNote>
+            <handNote medium="black stamped ink" xml:id="h04" resp="#unk2"><persName xml:id="unk2">Unknown</persName></handNote>
          </handNotes>
       </profileDesc>
       <revisionDesc>
+         <change when="2026-08-17" who="#bb">proofed</change>
          <change who="#jh" when="2024-03-01">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
          <change who="#rl" when="2004-07-08">encoded</change>
@@ -77,23 +79,20 @@
    </teiHeader>
    <text>
       <body>
-         <pb facs="nyp.00006.001" xml:id="leaf001r" type="recto"/>
-         <lg>
-            <note type="authorial"
-                  place="top">
-               <add rend="unmarked" place="inline">follow copy strictly</add>
-            </note>
-            <note type="authorial"
-                  place="right">personal</note>
-            <head type="main-authorial" rend="underline">The Dead Emperor.</head>
-            <l>Today with bending head and eyes, thou too, Columbia,</l>
-            <l>Less for the mighty crown laid low in sorrow&#8212;less for the Emperor,</l>
-            <l>Thy true consolence breathest, sendest.<del rend="overstrike" seq="1">far,</del><add rend="unmarked" place="above" seq="2">out,</add> o'er many a salt sea mile,</l>
-            <l>Mourning <del rend="overstrike" seq="1">the</del><add rend="unmarked" place="above" seq="2">a</add> good old man&#8212;<del rend="overstrike" seq="1">the</del><add rend="unmarked" place="above" seq="2">a</add> faith-ful shepherd, patriot,</l>
+         <pb facs="nyp_bb.00003.jpg" xml:id="leaf001r" type="recto"/>
+            <note type="authorial" place="top" hand="#h02">follow copy strictly</note>
+            <note type="authorial" place="right" rend="circled" hand="#h01">personal</note>
+         <lg type="poem">
+            <head type="main" rend="underline">The Dead Emperor.</head>
+            <l>Today with bending head and eyes, thou <lb/>too, Columbia,</l>
+            <l>Less for the mighty crown laid low in <lb/>sorrow&#8212;less for the Emperor,</l>
+            <l>Thy true consolence breathest, sendest <lb/><subst><del rend="overstrike" seq="1">far,</del> <add place="above" seq="2">out,</add></subst> o'er many a salt sea mile,</l>
+            <l>Mourning <subst><del rend="overstrike" seq="1">the</del> <add place="above" seq="2">a</add></subst> good old man&#8212;<subst><del rend="overstrike" seq="1">the</del> <add place="above" seq="2">a</add></subst> <choice><orig>faith-<lb/>ful</orig><reg>faithful<lb/></reg></choice> shepherd, patriot.</l>
                <signed rend="underline">Walt Whitman</signed>
-            <note hand="#h03" rend="underline" type="archival"
-               place="battom">mqxo</note>
          </lg>
+            <note hand="#h03" rend="underline" type="archival" place="bottom">mqxo</note>
+         <pb facs="nyp_bb.00004.jpg" xml:id="leaf001v" type="verso"/>
+         <note type="archival" hand="#h04" place="bottom">NYPL</note>
       </body>
    </text>
 </TEI>
