@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02813">
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02813">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -10,10 +11,13 @@
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
                 <editor>Ed Folsom</editor>
-                <editor>Matt Cohen</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <name>The Walt Whitman Archive Staff</name>
+                    <persName xml:id="al">Ashley Lawson</persName>
+                    <persName xml:id="tj">Tim Jackson</persName>
+                    <persName xml:id="jh">Jeff Hill</persName>
+                    <persName xml:id="ew">Emma Whaley</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -25,7 +29,6 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.02813</idno>
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -35,29 +38,36 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+                    <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+                    <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
                 </availability>
+                <idno>loc.02813</idno>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1"><!-- when was this manuscript written? --></note>
-                <note type="project">The following are responsible for particular readings or for changes to this file, as noted: 
-                    <persName xml:id="al">Ashley Lawson</persName>
-                    <persName xml:id="tj">Tim Jackson</persName>
-                    <persName xml:id="jh">Jeff Hill</persName>
-                    <persName xml:id="ew">Emma Whaley</persName>
+                <note type="project" target="#dat1">This manuscript probably dates to sometime between the publication of <hi rend="italic">November Boughs</hi> in 1888 and early 1891, when the finished poem appeared.</note>
+                <note type="work_relations" target="xxx.00387" cert="high">
+                    This is a partial draft of one of the two footnotes that Whitman wrote to accompany the short poem "An Ended Day," which was first published in <hi rend="italic">Good-Bye My Fancy</hi> (1891).
                 </note>
             </notesStmt>
             <sourceDesc>
                 <bibl>
-                    <author>Walt Whitman</author>          
-                    <title>the intellectual and emotional</title>
-                    <idno type="callno">MSS45443 Box 1</idno>
-                    <orgName>The Thomas Biggs Harned Collection of the Papers of Walt Whitman: A Register of His Papers in the Library of Congress, 1842-1937</orgName>
+                    <author xml:id="ww">Walt Whitman</author>          
+                    <title>Thomas Biggs Harned Collection of the Papers of Walt Whitman: Notes and Memoranda, [1856?]-[Before 1888?]; [1865 or before] , war and hospital notes and memoranda</title> 
+                    <date notBefore="1888" notAfter="1889-05" cert="high">Between 1888 and 1891</date>
+                    <idno type="callno">MSS45443, box 1, folder 44</idno>
+                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
                     <note type="project">Transcribed from our own digital image of the original manuscript.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+                <handNote medium="blue stamped ink" xml:id="h02" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
+            </handNotes>
+        </profileDesc>
         <revisionDesc>
+            <change when="2026-08-17" who="#bb">proofed</change>
             <change when="2024-09-25" who="#ew">updated image links</change>
             <change when="2024-04-30" who="#jh">checked, corrected</change>
             <change when="2011-04-25" who="#tj">checked, corrected</change>
@@ -67,11 +77,11 @@
     <text type="manuscript">
         <body>
             <pb xml:id="leaf001r" facs="loc_ew.00086.jpg" type="recto"/>
-            <!-- [TJ] Need better image -->
-            <ab><add place="above" rend="unmarked"><del rend="overstrike">and</del> the</add> <del rend="overstrike">The</del> intellectual and emotional nature, <del rend="overstrike"><gap reason="illegible" extent="1" unit="chars"/> <subst><del rend="overstrike" seq="1">was were</del><add place="above" rend="unmarked" seq="2">would <del rend="overstrike"><unclear reason="illegible" cert="medium" resp="#tj">then</unclear></del> <add place="above" rend="unmarked">be</add></add></subst> at their best; <del rend="overstrike">and <unclear reason="illegible" cert="low" resp="#al"/>toughest</del> Deaths were always easier <del rend="overstrike">;&#8212;</del>and even <milestone unit="undeclared" rend="glued"/> <del rend="overstrike">and <subst><del rend="overwrite" seq="1">E</del><add rend="unmarked" place="over" seq="2">e</add></subst>ven</del> medicines would have more effect when given them,</del></ab>
-            <ab>The <add place="above" rend="insertion">same influences</add> same hour <del rend="overstrike">&#38; the same influences</del> after <del rend="overstrike">one <gap reason="illegible" extent="one word"/></del> great battles.  I had once or twice <subst><del rend="overstrike" seq="1">such</del><add place="above" rend="unmarked" seq="2">the</add></subst> experiences <add place="above" rend="unmarked">as it</add> on that field covered with <subst><del rend="overstrike" seq="1"><gap reason="illegible" extent="one word"/></del><add place="above" rend="unmarked" seq="2">dead</add></subst>
-            </ab>
-   <note resp="unk" place="marginbot">314</note>
+            <p><subst><del rend="overstrike" seq="1">The</del> <add place="above" seq="2"><del rend="overstrike">and</del> the</add></subst> intellectual and emotional nature, <del rend="overstrike"><gap reason="illegible" extent="one or two characters" resp="#bb"/></del> <subst><del rend="overstrike" seq="1">was</del> <add place="above" rend="unmarked" seq="4">would</add> <del rend="overstrike" seq="3"><add seq="2">were</add></del></subst> <del rend="overstrike"><add place="above"><unclear reason="illegible" cert="medium" resp="#tj">then</unclear></add></del> <add place="above">be</add> at their best; <del rend="overstrike">and highest</del> Deaths were always easier <subst rend="overwrite"><add>;</add><del rend="overstrike">&#8212;</del></subst> and even 
+                <milestone unit="glued"/> <del rend="overstrike">and</del> <del rend="overstrike"><subst rend="overwrite"><del>E</del><add>e</add></subst>ven</del> medicines would have more effect when given then.</p>
+            <p>The <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">same influences</add> same hour <del rend="overstrike">&#38; the same influences</del> after <del rend="overstrike">one <gap reason="illegible" extent="three or four characters" resp="#bb"/></del> great battles.  I had once or twice <subst><del rend="overstrike" seq="1">such</del> <add place="above" seq="2">the</add></subst> experience<del rend="overstrike">s</del> <add place="above" rend="unmarked">of it</add> on the field covered with <subst><del rend="overstrike" seq="1"><gap reason="illegible" extent="one word"/></del> <add place="above" seq="2">dead</add></subst>
+            </p>
+   <note type="archival" place="bottom" hand="#h02">314</note>
             <pb xml:id="leaf001v" facs="loc.02813.002_large.jpg" type="verso"/>
         </body>
     </text>
