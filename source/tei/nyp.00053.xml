@@ -47,18 +47,12 @@
          <notesStmt>
             <note type="project" target="dat1">The manuscript is undated, but an overstruck note in Whitman's hand indicates that the poem may have been published in <date when="1888">January 1888</date>.</note>
             
+<!-- START HERE. NB: WHITMAN'S two notes at the top make for difficulty dating this thing. The integrated guide doesn't show other MSS, and the "Poems in Periodicals" section doesn't really give many helpful clues. The note there, does, however, point out a bunch of changes between the periodical printing and the later book printing. One of those changes ("recognition" for "parturition" shows up here, but nothing else to indicate that this might have been written after the newspaper printing. -->
             
-            
-            <note type="project" target="#dat1">Whitman's note at the top of this draft indicates that he sent the poem to the <hi rend="italic">New York Herald</hi> on March 8, 1888, although the emperor of the title, William I of Germany, did not die until March 9. The letter fragment on the back is dated 17 January 1888, so Whitman must have written this manuscript sometime between late January and early March 1888.</note>
-            <note type="work_relations" target="xxx.00370" cert="high">
-               <p>"The Dead Emperor" was published in the 10 May 1888 issue of the <hi rend="italic">New York Herald</hi> and was reprinted later that year in <hi rend="italic">November Boughs</hi>.</p>
+            <note type="project" target="#dat1">Heavily revised draft of the poem "To Those Who've Fail'd." The poem was published in the New York Herald on 27 January 1888 and later reprinted in the "Sands at Seventy" annex to Leaves of Grass (1888).</note>
+            <note type="work_relations" target="xxx.00314" cert="high">This manuscript is a signed draft of "To Those Who've Failed," initially entitled
+               "Laurels and Palms."
             </note>
-<!--            <relations>
-               <work ref="xxx.00314" cert="absolute">
-                  <p>This manuscript is a signed draft of "To Those Who've Failed," initially entitled
-                     "Laurels and Palms."</p>
-               </work>
-            </relations>-->
             
          </notesStmt>
          <sourceDesc>
@@ -93,7 +87,7 @@
    </teiHeader>
    <text>
       <body>
-         <pb facs="nyp.00053.001" xml:id="leaf001r" type="recto"/>
+         <pb facs="nyp.00053.001_large.jpg" xml:id="leaf001r" type="recto"/>
          <lg
               >
             <note place="top"
@@ -188,6 +182,7 @@
                   type="authorial"
                   rend="circled">put in Herald</note>
          </lg>
+         <pb facs="nyp.00053.002_large.jpg" xml:id="leaf001v" type="verso"/>
       </body>
    </text>
 </TEI>
