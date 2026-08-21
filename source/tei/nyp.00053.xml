@@ -110,38 +110,18 @@
             
             <l><subst><del rend="overstrike" hand="#h02" seq="1">Poets and</del> <add place="above" hand="#h02" seq="2">To <add hand="#h01" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a002"><subst hand="#h03"><del rend="overstrike" seq="1">many a</del> <add place="above" seq="2">every <del rend="overstrike">s</del></add></subst></add> song<del rend="overstrike" hand="#h01">s</del> and</add></subst> <subst hand="#h02"><del rend="overstrike" seq="1">poems</del> <add place="above" seq="2">picture<del rend="overstrike" hand="#h01">s</del></add></subst> 
                
-<!-- BEGIN HERE -->
-               
-               without <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">parturition</del> 
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add place="supralinear" rend="unmarked">
-                        <unclear reason="illegible" cert="medium" resp="#cf">recognition</unclear>
-                     </add> 
-                  </rdg>
-               </subst>;<add place="supralinear" rend="insertion">—<add place="supralinear" rend="insertion">I'd rear</add> a <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">laurel'd</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="supralinear" rend="unmarked">laurel‑cover'd</add> 
-                     </rdg>
-                  </subst>monument</add>
-            </l>
+               without <subst hand="#h03">
+                     <del rend="overstrike" seq="1">parturition</del> 
+                     <add place="above" seq="2">recognition</add></subst><add hand="#h02" place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add hand="#h02" place="above" rend="marked" xml:id="a003">&#8212;<add hand="#h01" place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a004">I'd rear</add> a <subst><del rend="overstrike" seq="1">laurel'd</del> <add place="above" seq="2">laurel&#11840;cover'd</add></subst> monument</add>;</l>
             <l>
-               <add place="supralinear" rend="insertion">High, high above the rest—</add>To all, cut off before their time,</l>
+               <add hand="#h02" place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" xml:id="a005">High, high above the rest&#8212;</add>To all, cut off before their time,</l>
             <l>Possess'd by some great spirit of fire,</l>
             <l>Quench'd by an early death.</l>
-            <closer>
                <signed>Walt Whitman</signed>
-            </closer>
-            <note place="bottom"
-                  type="authorial"
-                  rend="circled">put in Herald</note>
          </lg>
+         <note place="bottom" type="authorial" rend="circled" hand="#h02">put in Herald</note>
          <pb facs="nyp.00053.002_large.jpg" xml:id="leaf001v" type="verso"/>
+         <note type="archival" hand="#h05" place="center">NYPL</note>
       </body>
    </text>
 </TEI>
