@@ -19,6 +19,7 @@
                <persName xml:id="fl">Farrah Lehman</persName>
                <persName xml:id="km">Kenneth M. Price</persName>
                <persName xml:id="lr">Lisa Renfro</persName>
+               <persName xml:id="bb">Brett Barney</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -45,22 +46,14 @@
             <idno>nyp.00053</idno>
          </publicationStmt>
          <notesStmt>
-            <note type="project" target="dat1">The manuscript is undated, but an overstruck note in Whitman's hand indicates that the poem may have been published in <date when="1888">January 1888</date>.</note>
-            
-<!-- START HERE. NB: WHITMAN'S two notes at the top make for difficulty dating this thing. The integrated guide doesn't show other MSS, and the "Poems in Periodicals" section doesn't really give many helpful clues. The note there, does, however, point out a bunch of changes between the periodical printing and the later book printing. One of those changes ("recognition" for "parturition" shows up here, but nothing else to indicate that this might have been written after the newspaper printing. -->
-            
-            <note type="project" target="#dat1">Heavily revised draft of the poem "To Those Who've Fail'd." The poem was published in the New York Herald on 27 January 1888 and later reprinted in the "Sands at Seventy" annex to Leaves of Grass (1888).</note>
-            <note type="work_relations" target="xxx.00314" cert="high">This manuscript is a signed draft of "To Those Who've Failed," initially entitled
-               "Laurels and Palms."
-            </note>
-            
+            <note type="project" target="#dat1">Whitman's notes on this manuscript provide useful but puzzling information regarding the timeframe in which it was written. The note at the upper right suggests that Whitman sent  a finished version of the poem to the <hi rend="italic">New York Herald</hi> on 21 April 1887, over nine months before it was published there.</note>
+            <note type="work_relations" target="xxx.00314" cert="high">"To Those Who've Fail'd" first appeared in print in the 27 January 1888 issue of the <hi rend="italic">New York Herald</hi>. Whitman included a revised version in <hi rend="italic">November Boughs</hi> (1888) and in the "Sands at Seventy" annex to later printings of <hi rend="italic">Leaves of Grass</hi>.</note>
          </notesStmt>
          <sourceDesc>
             <bibl>
                <author xml:id="ww">Walt Whitman</author>
-               <title>"Laurels and Palms" altered to "To Those Who've Failed." Holograph
-                  poem, undated.</title>
-               <date cert="low" when="1888" xml:id="dat1">About 1888.</date> 
+               <title>"Laurels and Palms" altered to "To Those Who've Failed." Holograph poem, undated.</title>
+               <date cert="high" notBefore="1887-03" notAfter="1888-01-27" xml:id="dat1">Between April 1887 and January 1888</date> 
                <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName> 
                <note type="project">Transcribed from digital images of the original.</note>
             </bibl>
@@ -76,6 +69,7 @@
          </handNotes>
       </profileDesc>
       <revisionDesc>
+         <change when="2026-08-20" who="#bb">proofed</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
          <change who="#jh" when="2005-06-21">Proofread</change>
          <change who="#cf" when="2005-06-02">Encoded</change>
@@ -88,101 +82,42 @@
    <text>
       <body>
          <pb facs="nyp.00053.001_large.jpg" xml:id="leaf001r" type="recto"/>
-         <lg
-              >
-            <note place="top"
-                  type="authorial">? A laurel wreath</note>
-            <head type="main-authorial" rend="underline">
-               <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">Laurels and Palms.</del> 
-                  </rdg>
-                  <rdg varSeq="2">
-                     <del rend="overstrike">
-                        <add place="supralinear" rend="unmarked">Laurels and Wreaths</add>
-                     </del> 
-                  </rdg>
-                  <rdg varSeq="3">
-                     <del rend="overstrike">
-                        <add place="supralinear" rend="unmarked">To those who<add place="supralinear" rend="unmarked">'ve</add> fail'd</add>
-                     </del> 
-                  </rdg>
-                  <rdg varSeq="4">
-                     <del rend="overstrike">
-                        <add place="supralinear" rend="unmarked">Palm-wraiths</add>
-                     </del> 
-                  </rdg>
-                  <rdg varSeq="5">
-                     <add place="infralinear" rend="unmarked">To those who've fail'd</add>
-                  </rdg>
-               </subst>
+         <note place="left" type="authorial" rend="circled">Sent to Herald April 21</note>
+         <note place="right" type="authorial"><del rend="overstrike">? I believe (but am not sure) pub in <hi rend="underline">Herald</hi> late in Jan '88</del></note>
+         <lg type="poem">
+            
+               <delSpan hand="#h01" rend="hashmark" spanTo="#d001"/>
+            <head type="main">
+                     <del rend="overstrike" hand="#h02"><hi rend="underline">Laurels and Palms.</hi></del> 
+                     <add place="above" hand="#h03">Laurels and Wreaths</add> 
+                     <del rend="overstrike" hand="#h03"><add place="above" hand="#h02">To those who<add place="above">'ve</add> fail'd</add></del> 
+               <del rend="overstrike" hand="#h03"><add place="above" hand="#h02"><metamark function="question">?</metamark>Palm&#11840;wraiths</add></del>
+               <add place="above" hand="#h04"><metamark function="question">?</metamark>A laurel wreath</add>
             </head>
-            <note place="left"
-                  type="authorial"
-                  rend="circled">Sent to Herald April 21</note>
-            <del rend="hashmark">
-               <note place="right"
-                     type="authorial">? I believe (but am not sure) pub in <hi rend="underline">Herald</hi> late in Jan '88</note>
-            </del>
-            <l>To those who<add place="supralinear" rend="unmarked">'ve</add> fail'd, <add place="inline" rend="unmarked">in aspiration <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">great</del>
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="supralinear" rend="unmarked">vast</add>
-                     </rdg>
-                  </subst>,</add>
+               <anchor xml:id="d001"/> 
+              <head type="main"><add rend="underline" hand="#h01">To those who've fail'd</add></head>
+            
+            <l>To those who<add place="above" hand="#h02">'ve</add> fail'd, <add hand="#h02">in aspiration <subst hand="#h02"><del rend="overstrike" seq="1">great</del> <add place="above" seq="2">vast</add></subst>,</add>
+            </l>
+            <l>To unnam'd soldiers fallen in front,<lb/>
+               on the lead,
             </l>
             <l>
-               To unnam'd soldiers fallen in front,<lb/>
-               on the lead,<lb/>
+               To calm, devoted engineers <add hand="#h01" place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a001">&#8212;to over&#11840;ardent travelers&#8212;</add>—<add place="above">&#8212;to</add> pilots on<lb/>
+               their ships,
             </l>
+            <l><subst><del rend="overstrike" hand="#h02" seq="1">Poets and</del> <add place="above" hand="#h02" seq="2">To <add hand="#h01" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a002"><subst hand="#h03"><del rend="overstrike" seq="1">many a</del> <add place="above" seq="2">every <del rend="overstrike">s</del></add></subst></add> song<del rend="overstrike" hand="#h01">s</del> and</add></subst> <subst hand="#h02"><del rend="overstrike" seq="1">poems</del> <add place="above" seq="2">picture<del rend="overstrike" hand="#h01">s</del></add></subst> without <subst hand="#h03">
+                     <del rend="overstrike" seq="1">parturition</del> 
+                     <add place="above" seq="2">recognition</add></subst><add hand="#h02" place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add hand="#h02" place="above" rend="marked" xml:id="a003">&#8212;<add hand="#h01" place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add hand="#h01" place="above" xml:id="a004">I'd rear</add> a <subst><del rend="overstrike" seq="1">laurel'd</del> <add place="above" seq="2">laurel&#11840;cover'd</add></subst> monument</add>;</l>
             <l>
-               To calm, devoted engineers <add place="supralinear" rend="insertion">—to over‑ardent travelers—</add>—<add place="supralinear" rend="unmarked">—to</add> pilots on<lb/>
-               their ships,<lb/>
-            </l>
-            <l>
-               <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">Poets and poems</del>
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add place="supralinear" rend="unmarked">To <add place="supralinear" rend="insertion">
-                           <del rend="overstrike">many a</del> 
-                           <add place="supralinear" rend="unmarked">every <del rend="overstrike">s</del>
-                           </add>
-                        </add> song<del rend="overstrike">s</del> and pictures</add> 
-                  </rdg>
-               </subst>without <subst>
-                  <rdg varSeq="1">
-                     <del rend="overstrike">parturition</del> 
-                  </rdg>
-                  <rdg varSeq="2">
-                     <add place="supralinear" rend="unmarked">
-                        <unclear reason="illegible" cert="medium" resp="#cf">recognition</unclear>
-                     </add> 
-                  </rdg>
-               </subst>;<add place="supralinear" rend="insertion">—<add place="supralinear" rend="insertion">I'd rear</add> a <subst>
-                     <rdg varSeq="1">
-                        <del rend="overstrike">laurel'd</del> 
-                     </rdg>
-                     <rdg varSeq="2">
-                        <add place="supralinear" rend="unmarked">laurel‑cover'd</add> 
-                     </rdg>
-                  </subst>monument</add>
-            </l>
-            <l>
-               <add place="supralinear" rend="insertion">High, high above the rest—</add>To all, cut off before their time,</l>
+               <add hand="#h02" place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" xml:id="a005">High, high above the rest&#8212;</add>To all, cut off before their time,</l>
             <l>Possess'd by some great spirit of fire,</l>
             <l>Quench'd by an early death.</l>
-            <closer>
-               <signed>Walt Whitman</signed>
-            </closer>
-            <note place="bottom"
-                  type="authorial"
-                  rend="circled">put in Herald</note>
+               <signed rend="right">Walt Whitman</signed>
          </lg>
+         <note place="bottom" type="authorial" rend="circled" hand="#h02">put in Herald</note>
          <pb facs="nyp.00053.002_large.jpg" xml:id="leaf001v" type="verso"/>
+         <note type="archival" hand="#h05" place="center">NYPL</note>
       </body>
    </text>
 </TEI>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00090"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title level="m" type="main">Funeral interpolations</title>
+    <title level="m" type="sub">a machine-readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     <persName xml:id="tb">Tara Ballard</persName>
+     <persName xml:id="ew">Emma Whaley</persName>
+     <persName xml:id="bb">Brett Barney</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2026</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+    </availability>
+   <idno>loc.00090</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1">This manuscript was almost certainly created sometime between August 5, 1888, the date of Sheridan's death, and August 12, 1888, when it was printed in the <hi rend="italic">Herald</hi>.</note>
+    <note type="work_relations" target="xxx.00393" cert="high">This poem was first published, without title, in the 12 August 1888 issue of the <hi rend="italic">New York Herald</hi>, at the head of the paper's coverage of General Philip Sheridan's funeral. For its reprinting in <hi rend="italic">Good-Bye My Fancy</hi> (1891), Whitman restored the title and added both a headnote and a footnoote.</note>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     <title>"Funeral Interpolations," signed draft, circa 1888</title>  
+     <date notBefore="1888-08-05" notAfter="1888-08-12" cert="high">between August 5 and August 12, 1888</date>
+     <idno type="callno">MSS 77909, box 1</idno>
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+     <note>Transcribed from digital images of the original.</note>     
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="pencil" xml:id="h01" scope="major" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h02" scope="minor" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h03" scope="minor" resp="#ht"><persName xml:id="ht">Horace Traubel</persName></handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ <change when="2026-08-21" who="#bb">proofed</change>
+ <change when="2024-09-24" who="#ew">updated image links</change>
+ <change when="2024-04-01" who="#tb">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+ <text type="manuscript">
+  <body>
+   <pb xml:id="leaf001r" facs="loc_bb.00067.jpg" type="recto"/>
+   <lg type="poem">
+    <head rend="underline">Funeral <subst><del rend="overstrike" seq="1">Sounds not in</del> <add place="above" seq="2">interpolations</add></subst></head>
+    
+    <l><subst><del rend="overstrike" seq="1">Athwart the</del> <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001" seq="2">Over and through the</add></subst> burial chant</l>
+    
+    <l>Organ and solemn service, sermon, <del rend="overstrike">and</del><lb/>
+          bending priests</l>
+    
+    <l><add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">To me</add> Come stealing <del rend="overstrike">to me</del> <add place="above">interpolation</add> sounds not <subst><del rend="overstrike" seq="1">in the service</del> <add place="above" seq="2"><del rend="overstrike">here or</del> in the show&#8211;</add></subst></l>
+    
+    <l><del rend="overstrike">But winding</del> <add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">&#8212;plainly to me</add> through <add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a004">all the</add> <del rend="overstrike">the heavy</del> aisle and window <add place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" xml:id="a005">sounding</add></l>
+    
+    <l>Of <add place="below"><metamark function="add" target="#a006">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a006" seq="1"><del rend="overstrike" seq="2">active</del> sudden</add> battle<add>'s</add> hurry, and harsh noise<del rend="overstrike">s</del>&#8212; war's, war's
+       <lb/>grim game <add place="below"><metamark function="add" target="#a008">&#8248;</metamark></add><add place="above" xml:id="a008">to sight and ear</add> in earnest</l>
+    
+    <l>The scout <subst><del rend="overstrike" seq="1">brought</del> <add place="above" seq="2">call'd</add></subst> up <add place="above" rend="marked">&amp; forward&#8212;</add>&#8212;the new-brought word&#8212;the
+       <lb/>instantaneous order issued</l>
+    
+    <l>The rifle&#11840;crack&#8212;the cannon thud&#8212;the
+       <lb/>rushing forth of <del rend="overstrike">the</del> companies <add place="below"><metamark function="add" target="#a009">&#8248;</metamark></add><add>from their tents,</add></l>
+    <l>The clank of cavalry&#8212;the strange celerity
+       <lb/>of <subst><del rend="overstrike" seq="1">the</del> <add place="above" seq="2">forming</add></subst> ranks,<add>&#8212;the slender bugle-note</add></l>
+    <l>The noise of horses' hoofs <add place="below"><metamark function="add" target="#a010">&#8248;</metamark></add><add place="above" xml:id="a010">departing&#8212;saddles, arms,</add>&#8212;accoutrements. <del rend="overstrike">and</del>
+       <lb/><del rend="overstrike">arms.</del></l>
+    <signed rend="right" hand="#h02">Walt Whitman</signed>
+   </lg>
+   <note type="authorial" place="bottom" hand="h02">pub'd&#8212;paid</note>
+   <note hand="h03" type="editorial">Given to Percival Mitchell by Horace Traubel at Camden Dec 18 1904</note>
+   
+   <pb xml:id="leaf001v" facs="loc_bb.00066.jpg" type="verso"/>
+   <note type="authorial" place="left" hand="#h01">Sheridan's Funeral</note>
+</body>
+</text>
+</TEI>

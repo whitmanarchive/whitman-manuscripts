@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00059">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main">Interpolation Sounds</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="jh">John Havard</persName>
+               <persName xml:id="fl">Farrah Lehman</persName>
+               <persName xml:id="km">Kenneth M. Price</persName>
+               <persName xml:id="lr">Lisa Renfro</persName>
+               <persName xml:id="jh2">Jeff Hill</persName>
+               <persName xml:id="bb">Brett Barney</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+               <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+            </availability>
+            <idno>nyp.00059</idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="project" target="#dat1">It is possible that this manuscript was created in the days between the death of Sheridan on August 5, 1888, and the poem's publication on August 12, 1888. However, its unusually clean appearance and the existence of a different manuscript that seems obviously to have served as the printer's copy (see <ref target="yal.00013">yal.00013</ref>) suggest that Whitman wrote out the present manuscript sometime after its initial publication, as a gift or at the request of an admirer.</note>
+            <note type="work_relations" target="xxx.00393" cert="high">This poem was first published, without title, in the 12 August 1888 issue of the <hi rend="italic">New York Herald</hi>, at the head of the paper's coverage of General Philip Sheridan's funeral. For its reprinting in <hi rend="italic">Good-Bye My Fancy</hi> (1891), Whitman restored the title and added both a headnote and a footnoote.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>"Interpolation Sounds." Holograph poem, undated, signed</title>
+               <date cert="high" notBefore="1888-08-05" notAfter="1891" xml:id="dat1">after August 5, 1888</date>
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2026-08-21" who="#bb">proofed</change>
+         <change who="#jh2" when="2024-02-27">checked, corrected</change>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#jh" when="2005-06-04">encoded</change>
+         <change who="#jh" when="2005-06-04">transcribed</change>
+         <change who="#fl" when="2006-06-08">checked</change>
+         <change who="#km" when="2006-06-16">edited</change>
+         <change who="#lr" when="2006-08-01">blessed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="nyp_bb.00005.jpg" xml:id="leaf001r" type="recto"/>
+         <lg>
+            <head type="main" rend="underline">Interpolation Sounds.</head>
+            <l>Over and through the burial chant,</l>
+            <l>Organ and solemn service, sermon, bending priests,</l>
+            <l>To me come interpolation sounds not in the show&#8212;<lb/>
+               plainly to me crowding up the aisle, and<lb/>
+               from the window,</l>
+            <l>Of sudden battle's hurry and harsh noises&#8212;war's,<lb/>
+               war's grim game to sight and ear in earnest;</l>
+            <l>The scout call'd up and forward&#8212;the General mounted,<lb/>
+               and his aides around him&#8212;the new&#11840;brought<lb/>
+               word&#8212;the instantaneous order issued,</l>
+            <l>The rifle crack&#8212;the cannon thud&#8212;the rushing<lb/>
+               forth of men from their tents,</l>
+            <l>The clank of cavalry&#8212;the strange celerity of<lb/>
+               forming ranks&#8212;the slender bugle note,</l>
+            <l>The sound of horses' hoofs departing&#8212;saddles,<lb/>
+               arms, accoutrements.</l>
+               <signed>Walt Whitman</signed>
+         </lg>
+         <pb facs="nyp_bb.00006.jpg" xml:id="leaf001v" type="verso"/>
+      </body>
+   </text>
+</TEI>

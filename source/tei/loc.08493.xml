@@ -6,17 +6,15 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main" rend="bracketed">Sail Out for Good, Eidolon Yacht!</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="sd">Sarah Danielson</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -28,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,17 +41,12 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.08493</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
-    
-     <note type="work_relations" target="xxx." cert="high">
-      <p></p>
-     </note>
+     <note type="work_relations" target="xxx.00377" cert="high">A partial galley proof</note>
    </notesStmt>
    
    <sourceDesc>
@@ -62,31 +54,28 @@
      <author xml:id="ww">Whitman, Walt</author>
      
      <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Oversize, 1844-1952; Literary File; Books; Good-Bye My Fancy ( 1891); Proofs; Proof sheets; First set (Container 20)</title>  
-     
 
      <date when="1891">1891</date>
      
      <idno type="callno">mss18630, box OV 3</idno>
      
-
      <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-     
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="minor"/>
     <handNote medium="printed type" xml:id="h02" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
-    <handNote medium="pencil" xml:id="h03" resp="#ww"/>
-    <handNote medium="pencil" xml:id="h04" resp="#unk"/>
-    <handNote medium="blue pencil" xml:id="h05" resp="#unk"/>
+    <handNote medium="pencil" xml:id="h03" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h04" resp="#unk" scope="minor"/>
+    <handNote medium="blue pencil" xml:id="h05" resp="#unk" scope="minor"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-08-20" who="#km">proofed</change>
  <change when="2025-12-02" who="#sd">transcribed and encoded</change>
  <change when="2025-12-09" who="#sd">transcribed and encoded</change>
  <change when="2026-01-15" who="#sd">transcribed and encoded</change>
@@ -101,28 +90,31 @@
    
    <pb xml:id="leaf001r" facs="loc_ja.00001.jpg" type="recto"/>
    
- <note type="authorial" place="top" hand="#h01" rend="marked">please give me another proof these two A and B</note>
+   <note type="authorial" place="top" hand="#h01">(please give me another proof these two A and B</note>
    
    <note type="authorial" place="top" hand="#h04">4</note>
    
    <note type="authorial" place="top" hand="#h01">A</note>
    
-   <note type="authorial" place="left" hand="#h04" rend="marked">2 proofs</note>
+   <note type="authorial" place="left" hand="#h04" rend="circled">2 proofs</note>
    
    <lg type="poem">
+    <note type="work_relations" target="xxx.00380" cert="high"/>
     <head type="main">SAIL OUT FOR GOOD, EID<hi rend="overline underline" hand="#h01" xml:id="j003"> </hi><add hand="#h01" place="left"><metamark target="#j003" function="adjust">=</metamark></add>LON YACHT!</head>
+    
     <l>H<hi rend="smallcaps">EAVE</hi> the anchor short!</l>
     <l>Raise main-sail and jib&#8212;steer forth,</l>
     <l>O little white-hull'd sloop, now speed on really deep waters,</l>
     <l>(I will not call it our concluding voyage,</l>
     <l>But outset and sure entrance to the truest, best, maturest;)</l>
-    <l>Depart, depart from solid earth&#8212;no more returning to these<lb/> shores</l>
+    <l>Depart, depart from solid earth&#8212;no more returning to these<lb/> shores,</l>
     <l>Now on for aye our infinite free venture wending,</l>
     <l>Spurning all yet tried ports, seas, hawsers, densities, gravitation,</l>
     <l>Said out for good, eid&#333;lon yacht of me!</l>
    </lg>
    
    <lg type="poem">
+    <note type="work_relations" target="xxx.00381" cert="high"/>
     <head type="main">LINGERING LAST DROPS.</head>
     <lg type="linegroup">
      <l>A<hi rend="smallcaps">ND</hi> whence and why come you?</l>
@@ -137,50 +129,56 @@
    </lg>
    
    <lg type="poem">
+    <note type="work_relations" target="xxx.00382" cert="high"/>
     <head type="main">GOOD-BYE MY FANCY.</head>
-    <l>G<hi rend="smalcaps">OOD-BYE</hi>* my fancy&#8212;(I had a word to say,</l>
-    <l>But 'tis no quite the time&#8212;The best of any man's word or say,</l>
-    <l>It when its proper place arrives&#8212;and for its meaning,</l>
+    <l>G<hi rend="smallcaps">OOD-BYE</hi>* my fancy&#8212;(I had a word to say,</l>
+    <l>But 'tis not quite the time&#8212;The best of any man's word or say,</l>
+    <l>Is when its proper place arrives&#8212;and for its meaning,</l>
     <l>I keep mine till the last.)</l>
     
-    <note type="authorial">*Behind a Good-bye there lurks much of the salutation of aother beginning&#8212;to me, Development, Continuity, Immortality, Transformation, are the chiefest life-meanings of Nature and Humanity, and are the <hi rend="italics">sine qua non</hi> of all facts, and each fact.</note>
+    <note type="textual">*Behind a Good-bye there lurks much of the salutation of another beginning&#8212;to me, Development, Continuity, Immortality, Transformation, are the chiefest life-meanings of Nature and Humanity, and are the <hi rend="italic">sine qua non</hi> of all facts, and each fact.</note>
    </lg>
    
    <lg type="poem">
+    <note type="work_relations" target="xxx.00383" cert="high"/>
     <head type="main">ON, ON THE SAME, YE JOCUND TWAIN!</head>
-    <l>O<hi rend="smallcaps">N</hi>, on the same, ye jocund train!</l>
+    <l>O<hi rend="smallcaps">N</hi>, on the same, ye jocund twain!</l>
     <l>My life and recitative, containing birth, youth, mid-age years,</l>
     <l>Fitful as motley-tongues of flame, inseparably twined and merged<lb/> in one&#8212;combining all,</l>
     <l>My single soul&#8212;aims, confirmations, failures, joys&#8212;Nor single<lb/> soul alone,</l>
-    <l>I chant my nation's crucial stage, (America's, haply humanity's)<lb/> &#8212;the trial great, the victory great,</l>
-    <l>A strange <hi rend="italics">eclaircissement</hi> of all the masses past, the eastern<lb/> world, the ancient, medieval,</l>
-    <l>Here, here from wanderings, strayings, lessons, wars, defeats&#8212;<lb/> here at the west a voice triumphant&#8212;justifying all,</l>
+    <l>I chant my nation's crucial stage, (America's, haply humanity's)<lb/>&#8212;the trial great, the victory great,</l>
+    <l>A strange <hi rend="italic">eclaircissement</hi> of all the masses past, the eastern<lb/> world, the ancient, medieval,</l>
+    <l>Here, here from wanderings, strayings, lessons, wars, defeats&#8212;<lb/>here at the west a voice triumphant&#8212;justifying all,</l>
     <l>A gladsome pealing cry&#8212;a song for once of utmost pride and<lb/> satisfaction;</l>
     <l>I chant from it the common bulk, the general average horde,<lb/> (the best no sooner than the worst)&#8212;And now I chant old<lb/> age,</l>
-    <l>(My verses, written first forenoon life, and for the summer's,<lb/> autumn's spread,</l>
-    <l>I pass to snow-white hairs the same, and give to pulses winter-<lb/> cool'd the same;)</l>
+    <l>(My verses, written first for forenoon life, and for the summer's,<lb/> autumn's spread,</l>
+    <l>I pass to snow-white hairs the same, and give to pulses winter-<lb/>cool'd the same;)</l>
     <l>As here in careless trill, I and my recitatives, with faith and<lb/> love,</l>
     <l>Wafting to other work, to unknown songs, conditions,</l>
     <l>On, on, ye jocund twain! continue on the same!</l>
    </lg>
    
    <lg type="poem">
+    <note type="work_relations" target="xxx.00384" cert="high"/>
     <head type="main">MY 71ST YEAR.</head>
-    <l>A<hi rend="italics">FTER</hi> surmounting three-score and ten,</l>
+    <l>A<hi rend="smallcaps">FTER</hi> surmounting three-score and ten,</l>
     <l>With all their chances, changes, losses, sorrows,</l>
-    <l>My parents' deaths, the vagaries of my life, the many tearing<lb/> passions of me, the war of '63 and '4.</l>
-    <l>And some old broken soldier, after a long, hot, wearying march,<lb/> or haply after battle,</l>
-    <l>To-day at twilight, hobbling, answering company roll-call, <hi rend="italics">Here</hi>,<lb/> with vital voice,</l>
+    <l>My parents' deaths, the vagaries of my life, the many tearing<lb/> passions of me, the war of '63 and '4,</l>
+    <l>As some old broken soldier, after a long, hot, wearying march,<lb/> or haply after battle,</l>
+    <l>To-day at twilight, hobbling, answering company roll-call, <hi rend="italic">Here</hi>,<lb/> with vital voice,</l>
     <l>Reporting yet, saluting yet the Officer over all.</l>
    </lg>
+   
+   <pb xml:id="leaf001v" type="verso"/>
  
-   <pb xml:id="leaf001r" facs="loc_ja.00002.jpg" type="recto"/>
+   <pb xml:id="leaf002r" facs="loc_ja.00002.jpg" type="recto"/>
    
    <note type="editorial" place="top" hand="#h03">4</note>
    
    <note type="authorial" place="top" hand="#h01">B</note>
    
    <lg type="poem">
+    <note type="work_relations" target="xxx.00388" cert="high"/>
     <head type="main">OLD AGE'S SHIP &#38; CRAFTY DEATH'S.</head>
     <l>F<hi rend="smallcaps">ROM</hi> east and west across the horizon's edge,</l>
     <l>Two mighty masterful vessels sailers steal upon us:</l>
@@ -193,11 +191,12 @@
    </lg>
    
    <lg type="poem">
+    <note type="work_relations" target="xxx.00389" cert="high"/>
     <head type="main">TO THE PENDING YEAR.</head>
     <lg type="linegroup">
     <l>H<hi rend="smallcaps">AVE</hi> I no weapon-word for thee&#8212;some message brief and<lb/> fierce?</l>
     <l>(Have I fought out and done indeed the battle?) Is there no shot<lb/> left,</l>
-    <l>For all thy affec<del hand="#h01" rend="overstrike" xml:id="a001">ta<add place="right"><metamark target="#a001" function="delete">&#948;</metamark></add></del>tions, lisps, scorns, manifold silliness?</l>
+    <l>For all thy affec<del hand="#h01" rend="overstrike" xml:id="a001">ta</del><add place="right" hand="#h01"><metamark target="#a001" function="delete">&#948;</metamark></add>tions, lisps, scorns, manifold silliness?</l>
     <l>Nor for myself&#8212;my own rebellious self in thee?</l>
     </lg>
    
@@ -209,8 +208,9 @@
    </lg>
    
    <lg type="poem">
+    <note type="work_relations" target="xxx.00386" cert="high"/>
     <head type="main">THE PALLID WREATH.</head>
-    <l>S<hi rend="small caps">OMEHOW</hi> I cannot let it go yet, funeral though it is,</l>
+    <l>S<hi rend="smallcaps">OMEHOW</hi> I cannot let it go yet, funeral though it is,</l>
     <l>Let it remain back there on its nail suspended,</l>
     <l>With pink, blue, yellow, all blanch'd, and the white now gray<lb/> and ashy,</l>
     <l>One wither'd rose put years ago for thee, dear friend;</l>
@@ -224,39 +224,38 @@
    </lg>
    
    <lg type="poem">
+    <note type="work_relations" target="xxx.00387" cert="high"/>
     <head type="main">AN ENDED DAY.</head>
     <l>T<hi rend="smallcaps">HE</hi> soothing sanity and blitheness of completion,</l>
     <l>The pomp and hurried contest-glare and rush are done;</l>
     <l>Now triumph! transformation! jubilate!*</l>
    
    
-   <note type="authorial">
-    *N<hi rend="smallcaps">OTE</hi>&#8212;<hi rend="italics">Summer country life</hi>&#8212;<hi rend="italics">Several years.</hi>&#8212;In my rambles and ex<subst hand="#h01"><del rend="overstrike" seq="1">lp</del><add place="right" seq="2">pl</add></subst>orations I found a woody place near the creek, where for some reason the birds in happy mood seem'd to resort in unusual numbers. Especially at the beginning of the day, and again at the ending, I was sure to get there the most copious bird-concerts. I repair'd there frequently at sunrise&#8212;and also at sunset, or just before...Once the question arose in me: Which is the best singing, the first or the lattermost? The first always exhilarated and perhaps seem'd more joyous and stronger; but I always felt the sunset or late afternoon sounds more penetrating and sweeter&#8212;seem'd to touch the soul&#8212;often the evening thrushes, two or three of them, responding and perhaps blending. Though I miss'd some of the mornings, I found myself getting to be quite strictly punctual at the evening utterances. 
+   <note type="textual">
+    *N<hi rend="smallcaps">OTE</hi>&#8212;<hi rend="italic">Summer country life</hi>&#8212;<hi rend="italic">Several years.</hi>&#8212;In my rambles and ex<subst hand="#h01"><del rend="overstrike" seq="1">lp</del><add place="right" seq="2">pl</add></subst>orations I found a woody place near the creek, where for some reason the birds in happy mood seem'd to resort in unusual numbers. Especially at the beginning of the day, and again at the ending, I was sure to get there the most copious bird-concerts. I repair'd there frequently at sunrise&#8212;and also at sunset, or just before . . . Once the question arose in me: Which is the best singing, the first or the lattermost? The first always exhilarated and perhaps seem'd more joyous and stronger; but I always felt the sunset or late afternoon sounds more penetrating and sweeter&#8212;seem'd to touch the soul&#8212;often the evening thrushes, two or three of them, responding and perhaps blending. Though I miss'd some of the mornings, I found myself getting to be quite strictly punctual at the evening utterances. 
    </note>
    
-   <note type="authorial">
-    <p>
-     A<hi rend="smallcaps">NOTHER NOTE</hi>.&#8212;"He went out with the tide and the sunset," was a phrase I heard from a surgeon describing an old sailor's death under peculiarly gentle conditions.
-    </p>
+   <note type="textual">
+    <p>A<hi rend="smallcaps">NOTHER NOTE</hi>.&#8212;"He went out with the tide and the sunset," was a phrase I heard from a surgeon describing an old sailor's death under peculiarly gentle conditions.</p>
     
-   <p>
-    During the Secession War in 1863 and '4, visiting the Army Hospitals around Washington, I form'd the habit, and continued it to the end, whenever the ebb or flood tide began the latter part of the day, of punctually visiting those at that time populous wards of suffering men. Somehow (or I thought so) the effect of the hour was palpable. The badly wounded would get some ease, and would like to talk a little bit, or be talk'd to. Intellectual and emotional natures would be at their best: Deaths were always easier; medicines seem'd to have better effects when given then, and a lulling atmosphere would pervade the wards. 
-   </p>
-   <p>
-    Similar influences, similar circumstances and hours, day-close, after great battles, even with all their horrors. I had more than once the same experience on the fields cover'd with fallen or dead.
-   </p>
+   <p>During the Secession War in 1863 and '4, visiting the Army Hospitals around Washington, I form'd the habit, and continued it to the end, whenever the ebb or flood tide began the latter part of the day, of punctually visiting those at that time populous wards of suffering men. Somehow (or I thought so) the effect of the hour was palpable. The badly wounded would get some ease, and would like to talk a little bit, or be talk'd to. Intellectual and emotional natures would be at their best: Deaths were always easier; medicines seem'd to have better effects when given then, and a lulling atmosphere would pervade the wards.</p>
+    
+   <p>Similar influences, similar circumstances and hours, day-close, after great battles, even with all their horrors. I had more than once the same experience on the fields cover'd with fallen or dead.</p>
    </note>
    </lg>
    
    <lg type="poem">
-    <head type="main">SHAKSPERE-BACON'S CIPHER.S</head>
+    <note type="work_relations" target="xxx.00390" cert="high"/>
+    <head type="main">SHAKSPERE-BACON'S CIPHER.</head>
     <l>I <hi rend="smallcaps">DOUBT</hi> it not&#8212;then more, far more;</l>
     <l>In each old song bequeath'd&#8212;in every noble page or text,</l>
     <l>(Different&#8212;something unreck'd before&#8212;some unsuspected<lb/> author,)</l>
     <l>In every object, mountain, tree, and star&#8212;in every birth and<lb/> life,</l>
-    <l>As part of each&#8212;evolv'd from each&#8212;meaning, behind the <choice><reg>ostent</reg><orig>os<lb/>tent</orig></choice>,</l>
+    <l>As part of each&#8212;evolv'd from each&#8212;meaning, behind the <choice><orig>os-<lb/>tent</orig><reg>ostent<lb/></reg></choice>,</l>
     <l>A mystic cipher waits infolded.</l>
    </lg>
+   
+   <pb xml:id="leaf002v" type="verso"/>
  
 </body>
 </text>
