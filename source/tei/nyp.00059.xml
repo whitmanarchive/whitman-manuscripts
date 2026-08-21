@@ -1,12 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00059">
-   <relations>
-      <work ref="xxx.00393" cert="absolute">
-         <p>This manuscript, a tribute to General Philip Sheridan, is a signed, but undated,
-            holograph poem. The unusually clean nature of this manuscript suggests that it may
-            have been a gift copy.</p>
-      </work>
-   </relations>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00059">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -15,7 +11,6 @@
             <author>Walt Whitman</author>
             <editor role="editor">Kenneth M. Price</editor>
             <editor role="editor">Ed Folsom</editor>
-            <editor role="editor">Matt Cohen</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
@@ -23,7 +18,8 @@
                <persName xml:id="fl">Farrah Lehman</persName>
                <persName xml:id="km">Kenneth M. Price</persName>
                <persName xml:id="lr">Lisa Renfro</persName>
-               <persName xml:id="jh">Jeff Hill</persName>
+               <persName xml:id="jh2">Jeff Hill</persName>
+               <persName xml:id="bb">Brett Barney</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -35,7 +31,6 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>nyp.00059</idno>
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -47,22 +42,25 @@
             <availability>
                <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
             </availability>
+            <idno>nyp.00059</idno>
          </publicationStmt>
          <notesStmt>
-            <note type="project" target="dat1">This manuscript is undated, but must have been composed between <date when="1888/1891">1888, the year of General Sheridan's death, and 1891</date>, the year that "Interpolation Sounds" appeared in <hi rend="italic">Leaves of Grass</hi>.</note>
+            <note type="project" target="#dat1">It is possible that this manuscript was created in the days between the death of General Philip Sheridan on August 5, 1888, and the poem's publication on August 12, 1888. However, its unusually clean appearance and the existence of a different manuscript that seems obviously to have served as the printer's copy (see <ref target="yal.00013">yal.00013</ref>) suggest that Whitman wrote the present manuscript out sometime after its initial publication, as a gift or at the request of an admirer.</note>
+            <note type="work_relations" target="xxx.00393" cert="high">This poem first appeared, without title, in the 12 August 1888 issue of the <hi rend="italic">New York Herald</hi>, at the head of the paper's coverage of Sheridan's funeral. For its reprinting in <hi rend="italic">Good-Bye My Fancy</hi> (1891), Whitman restored the title and added both a headnote and a footnoote.</note>
          </notesStmt>
          <sourceDesc>
             <bibl>
                <author>Walt Whitman</author>
-               <title>Interpolation Sounds</title>
-               <date cert="high" value="1888/1891" xml:id="dat1">About 1888</date>
+               <title>"Interpolation Sounds." Holograph poem, undated, signed</title>
+               <date cert="high" notBefore="1888-08-05" notAfter="1891" xml:id="dat1">after August 5, 1888</date>
                <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
                <note type="project">Transcribed from digital images of the original.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change who="#jh" when="2024-02-27">checked, corrected</change>
+         <change when="2026-08-21" who="#bb">proofed</change>
+         <change who="#jh2" when="2024-02-27">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
          <change who="#jh" when="2005-06-04">encoded</change>
          <change who="#jh" when="2005-06-04">transcribed</change>
@@ -73,29 +71,28 @@
    </teiHeader>
    <text>
       <body>
-         <pb facs="nyp.00059.001" xml:id="leaf001r" type="recto"/>
+         <pb facs="nyp_bb.00005.jpg" xml:id="leaf001r" type="recto"/>
          <lg>
-            <head type="main-authorial" rend="underline">Interpolation Sounds.</head>
+            <head type="main" rend="underline">Interpolation Sounds.</head>
             <l>Over and through the burial chant,</l>
             <l>Organ and solemn service, sermon, bending priests,</l>
-            <l>To me come interpolation sounds not in the show—<lb/>
+            <l>To me come interpolation sounds not in the show&#8212;<lb/>
                plainly to me crowding up the aisle, and<lb/>
-               from the window,<lb/></l>
-            <l>Of sudden battle's hurry and harsh noises—war's,<lb/>
-               war's grim game to sight and ear in earnest;<lb/></l>
-            <l>The scout call'd up and forward—the General mounted,<lb/>
-               and his aides around him.<subst><add rend="unmarked" place="inline">—</add></subst>the new‑brought<lb/>
-               ward—the instantaneous order issued,<lb/></l>
-            <l>The rifle crack—the cannon thud—the rushing<lb/>
-               forth of men from their tents,<lb/></l>
-            <l>The clank of cavalry—the strange celerity of<lb/>
-               forming ranks—the slender bugle note,<lb/></l>
-            <l>The sound of horses' hoofs departing—saddles,<lb/>
-               arms, accoutrements,<lb/></l>
-            <closer>
+               from the window,</l>
+            <l>Of sudden battle's hurry and harsh noises&#8212;war's,<lb/>
+               war's grim game to sight and ear in earnest;</l>
+            <l>The scout call'd up and forward&#8212;the General mounted,<lb/>
+               and his aides around him&#8212;the new&#11840;brought<lb/>
+               word&#8212;the instantaneous order issued,</l>
+            <l>The rifle crack&#8212;the cannon thud&#8212;the rushing<lb/>
+               forth of men from their tents,</l>
+            <l>The clank of cavalry&#8212;the strange celerity of<lb/>
+               forming ranks&#8212;the slender bugle note,<lb/></l>
+            <l>The sound of horses' hoofs departing&#8212;saddles,<lb/>
+               arms, accoutrements.</l>
                <signed>Walt Whitman</signed>
-            </closer>
          </lg>
+         <pb facs="nyp_bb.00006.jpg" xml:id="leaf001v" type="verso"/>
       </body>
    </text>
 </TEI>
