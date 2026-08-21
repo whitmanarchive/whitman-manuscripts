@@ -85,16 +85,18 @@
          <note place="left" type="authorial" rend="circled">Sent to Herald April 21</note>
          <note place="right" type="authorial"><del rend="overstrike">? I believe (but am not sure) pub in <hi rend="underline">Herald</hi> late in Jan '88</del></note>
          <lg type="poem">
-            <delSpan hand="#h01" rend="hashmark" spanTo="#d001"/>
+            
             
             <head type="main">
+               <delSpan hand="#h01" rend="hashmark" spanTo="#d001"/>
                      <del rend="overstrike" hand="#h02"><hi rend="underline">Laurels and Palms.</hi></del> 
                      <add place="above" hand="#h03">Laurels and Wreaths</add> 
                      <del rend="overstrike" hand="#h03"><add place="above" hand="#h02">To those who<add place="above">'ve</add> fail'd</add></del> 
                <del rend="overstrike" hand="#h03"><add place="above" hand="#h02"><metamark function="question">?</metamark>Palm&#11840;wraiths</add></del>
                <add place="above" hand="#h04"><metamark function="question">?</metamark>A laurel wreath</add>
+            </head>
                <anchor xml:id="d001"/> 
-              <add place="below" rend="underline" hand="#h01">To those who've fail'd</add></head>
+              <head type="main"><add rend="underline" hand="#h01">To those who've fail'd</add></head>
             
             <l>To those who<add place="above" hand="#h02">'ve</add> fail'd, <add hand="#h02">in aspiration <subst hand="#h02"><del rend="overstrike" seq="1">great</del> <add place="above" seq="2">vast</add></subst>,</add>
             </l>
