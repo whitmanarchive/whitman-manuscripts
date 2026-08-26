@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="tex.00033">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00033">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -8,12 +9,12 @@
             <author>Walt Whitman</author>
             <editor role="editor">Kenneth M. Price</editor>
             <editor role="editor">Ed Folsom</editor>
-            <editor role="editor">Jeff Hill</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="li">Leslie Ianno</persName>
                <persName xml:id="jh">Jeff Hill</persName>
+               <persName xml:id="bb">Brett Barney</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -25,7 +26,6 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>tex.00033</idno>
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -35,19 +35,35 @@
                <addrLine>Lincoln, NE 68588-4100</addrLine>
             </address>
             <availability>
-               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>. Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+               <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+               <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
             </availability>
+            <idno>tex.00033</idno>
          </publicationStmt>
+         <notesStmt>
+            <note type="project" target="#dat1">This manuscript probably dates to the first weeks of April 1888, shortly before the poem's publication in the <hi rend="italic">Herald</hi>. Whitman was, at this time, under contract to the newspaper for ten pieces every month (see <hi rend="italic">With Walt Whitman in Camden</hi> [Boston: Small, Maynard &amp; Company, 1906] <ref target="med.00001.019">1:41&#8211;42</ref>).
+           </note>
+            <note type="work_relations" target="xxx.00351">"Life" was first published in the <hi rend="italic">New York Herald</hi> on April 15, 1888. <hi rend="italic">November Boughs</hi>.</note>
+         </notesStmt>
          <sourceDesc>
             <bibl>
-               <author> Walt Whitman </author>
-               <title>The Walt Whitman Collection</title>
+               <author xml:id="ww">Walt Whitman </author>
+               <title>"Life," note, undated, 1p </title>
+               <date notBefore="1888-01-01" notAfter="1888-04-15" cert="high" xml:id="dat1">April 1888</date>
+               <idno type="callno">TXRC03-A4, Series I, box 2, folder 1</idno>
                <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName> 
                <note type="project">Transcribed from digital images of the original.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote medium="pencil" xml:id="h01" resp="#ww" scope="major"/>
+            <handNote medium="pencil" xml:id="h02" resp="#unk2" scope="minor"><name xml:id="unk2">Unknown</name></handNote>
+         </handNotes>
+      </profileDesc>
       <revisionDesc>
+         <change when="2026-08-26" who="#bb">proofed</change>
          <change who="#jh" when="2024-03-05">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
          <change who="#li" when="2003-09-15">encoded</change>
@@ -56,17 +72,18 @@
    </teiHeader>
    <text>
       <body>
-         <pb facs="tex.00033.001" xml:id="leaf001r" type="recto"/>
-         <lg>
-            <head type="main-authorial" rend="underline">Life.</head>
-            <delSpan rend="hashmark" to="d1" />
+         <pb facs="tex_bb.00011.jpg" xml:id="leaf001r" type="recto"/>
+            <delSpan rend="hashmark" spanTo="#d001" />
+         <lg type="poem">
+            <head type="main" rend="underline">Life.</head>
             <l><del rend="overstrike">The undiscover'd</del></l>
-            <l><del rend="overstrike" seq="1">The</del><add place="above" rend="unmarked" seq="2">Ever the</add>undiscouraged, resolute soul of man;</l>
-            <l>Ever the grappled mystery—ever the same in all <del rend="overstrike" seq="1">known</del> <add place="above" rend="unmarked" seq="2">earth's</add> ages old or new,</l>
-            <l>Ever the eager eyes, hurrahs, the welcome clappy hands <del rend="overstrike" seq="1">and</del> <add place="above" rend="unmarked" seq="2">the</add> loud applause;</l>
-            <l>Ever the busy <add place="above" rend="unmarked">busy</add> curious brain struggling to <hi rend="underline">solve the problem.</hi></l>	               
-            <anchor xml:id="d1"/>
+            <l><subst><del rend="overstrike" seq="1">The</del> <add place="above" seq="2">Ever the</add></subst> undiscouraged resolute soul of man;</l>
+            <l>Ever the grappled mystery&#8212;ever the same <lb/>in all <subst><del rend="overstrike" seq="1">known</del> <add place="above" seq="2">earth's</add></subst> ages old or new,</l>
+            <l>Ever the eager eyes, hurrahs, the welcome clapping <lb/>hands, <subst><del rend="overstrike" seq="1">and</del> <add place="above" seq="2">the</add></subst> loud applause;</l>
+            <l>Ever the busy <add place="above" rend="unmarked">busy</add> curious brain struggling to <lb/><hi rend="underline">solve the problem.</hi></l>	               
+            <anchor xml:id="d001"/>
          </lg>
+         <note type="archival" place="right" hand="#h02" rend="underline">June 8, '88</note>
       </body>
    </text>
 </TEI>
