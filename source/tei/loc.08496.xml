@@ -45,7 +45,7 @@
    <notesStmt>
     <note type="project" target="#dat1">Whitman started receiving sets of first galley proofs of the poetry section of <hi rend="italic">Good-Bye My Fancy</hi> on or after February 28, 1891. He seems to have returned them, also in batches, by March 8, meaning that the corrections on the present proof were made sometime between those dates. The previous grouping of proof pages can be viewed <ref target="loc.08495">here</ref>; the next grouping of pages can be viewed <ref target="loc.08497">here</ref>. Images of the versos are not currently available.</note>
     
-    <note type="work_relations" target="xxx.00377" cert="high">Two corrected galley proof pages of <hi rend="italic">Good-Bye My Fancy</hi>, a collection of poetry and prose published in 1891. This set of proof pages contains a portion of the opening poetry section from that volume.</note>
+    <note type="work_relations" target="xxx.00377" cert="high">Two corrected galley proof pages of <hi rend="italic">Good-Bye My Fancy</hi>, a collection of poetry and prose published in 1891. This set of galleys contains a portion of the opening poetry section from that volume.</note>
    </notesStmt>
    
    <sourceDesc>
@@ -240,7 +240,9 @@
     <l>Wandering, peering, dallying with all&#8212;war, peace, day and<lb/>night absorbing,</l>
    </lg>
    
-   <lg type="linegroup"> <anchor xml:id="j005"/><addSpan hand="#h01" place="left" spanTo="#a021"/><metamark function="adjust" target="#j005">(</metamark><anchor xml:id="a021"/>
+   <anchor xml:id="j005"/><metamark function="adjust" target="#j005"><add hand="#h01" place="left">( <space dim="horizontal" extent="several characters"/> (</add></metamark>
+   
+   <lg type="linegroup">
     <l>Never even for one brief hour abandoning my task,</l>
     <l>I end it here in sickness, poverty, and old age.</l>
    </lg>
@@ -248,10 +250,10 @@
    <lg type="linegroup">
     <l>I sing of life, yet mind me well of death:</l>
     <l>To-day shadowy Death dogs my steps, my seated shape, and<lb/> has for years&#8212;</l>
-    <l>Draws sometimes close<del hand="#h01" rend="overstrike" xml:id="d003">r<add place="left"><metamark target="#d003" function="delete">&#948;</metamark></add></del> to me, as face to face.</l>
+    <l>Draws sometimes close<del hand="#h01" rend="overstrike" xml:id="d003"><hi rend="underline" hand="#h04">r</hi></del><add place="left" hand="#h01"><metamark target="#d003" function="delete">&#948;</metamark></add> to me, as face to face.</l>
    </lg>
    
-   <note target="authorial"><hi rend="italics"><hi rend="overline underline" hand="#h04" xml:id="j003">For us two, reader dear.<add place="right"><metamark target="#j003" function="emphasize">? &#10003;</metamark></add></hi></hi></note>
+   <head type="sub"><hi rend="italics"><hi rend="overline underline" hand="#h04" xml:id="j003">For us two, reader dear.<add place="right"><metamark target="#j003" function="emphasize">? &#10003;</metamark></add></hi></hi></head>
    
    <lg type="linegroup">
     <l>Simple, spontaneous, curious, two souls interchanging,</l>
