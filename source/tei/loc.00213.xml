@@ -45,20 +45,20 @@
    <idno>loc.00213</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">Whitman's note at the top of the leaf indicates that he sent the poem to the <hi rend="italic">Herald</hi> on May 19, suggesting that this manuscript was written sometime before that date, likely in late April or early May 1888.</note>
     
-     <note type="work_relations" target="xxx.00358" cert="high"></note>
+     <note type="work_relations" target="xxx.00358" cert="high">The manuscript is a draft of the poem "Life and Death," which was first published in the <hi rend="italic">New York Herald</hi> on May 23, 1888. Whitman also included it <hi rend="italic">November Boughs</hi> later that year.</note>
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title resp="#wwa">Life and Death</title>  
+     <title resp="#wwa">Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “Life and Death” ( 1888 ), draft</title>  
      
-     <date>1888</date>
+     <date notBefore="1888-04" notAfter="1888-05-19" cert="high" xml:id="dat1">Late April or early May 1888</date>
      
-     <idno type="callno">MSS 18630, Box 27; Reel 16-17</idno>
+     <idno type="callno">MSS 18630, Box 27</idno>
      
       <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
@@ -90,15 +90,22 @@
     <head type="main" rend="underline">Life and Death</head>
     
      <l>The two old <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">simple</add> problems ever</l>
-     <l><del rend="overstrike">For</del> <del rend="overstrike">Ever</del> intertwined</l>
-     <l><subst><del rend="overstrike" seq="1">For</del> <add place="above" seq="2">By</add></subst> <del rend="overstrike">as</del> each successive age <del rend="overstrike">pass'd on</del><lb/>
+     <l><del rend="overstrike">For</del> <del rend="overstrike"><subst rend="overwrite"><del>e</del><add>E</add></subst>ver</del> intertwined</l>
+     <l xml:id="tr01"><subst><del rend="overstrike" seq="1">For</del> <add place="above" seq="2">By</add></subst> <del rend="overstrike">as</del> each successive age <del rend="overstrike">pass'd on</del><lb/>
                insoluble, pass'd on,</l>
-     <l>To ours to-day&#8212;and we pass on, the same</l>
+     <l xml:id="tr02">To ours to-day&#8212;and we pass on, the same</l>
    </lg>
    
    <lg type="linegroup">
-    <l><add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">close home,</add> Elusive, <del rend="overstrike">simple</del>, present, <add place="above">baffled,</add> grappled, <del rend="unmarked">foil'd</del> <del rend="overstrike"><add place="above">baffled,</add></del></l>
+    <l xml:id="tr03"><add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">close home,</add> Elusive, <del rend="overstrike">simple</del>, present, <add place="above">baffled,</add> grappled, <del rend="unmarked">foil'd</del> <del rend="overstrike"><add place="above">baffled,</add></del></l>
    </lg>
+   <listTranspose>
+    <transpose>
+     <ptr target="#tr03"/>
+     <ptr target="#tr01"/>
+     <ptr target="#tr02"/>
+    </transpose>
+   </listTranspose>
    
    
    <pb xml:id="leaf001v" facs="loc_ew.00145.jpg" type="verso"/>
