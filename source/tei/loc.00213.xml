@@ -6,18 +6,16 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">Life and Death</title>
     <title level="m" type="sub">a machine-readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="tb">Tara Ballard</persName>
      <persName xml:id="ew">Emma Whaley</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -29,7 +27,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -45,8 +42,6 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.00213</idno>
    </publicationStmt>
    <notesStmt>
@@ -75,18 +70,17 @@
       <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-     <relatedItem type="text" xml:id="rel01" target=""/>
-     <relatedItem type="document" target=""/>
-     <note type="project" target="#rel01">The verso contains a note written by an unknown hand; the note reads "Original Manuscript of a Poem by Walt Whitman".</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="pencil" xml:id="h01" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="pencil" xml:id="h02" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
+ <change when="2026-08-28" who="#km">proofed</change>
  <change when="2024-09-24" who="#ew">updated image links</change>
  <change when="2024-03-06" who="#tb">transcribed and encoded</change>
 </revisionDesc>
@@ -97,11 +91,12 @@
    
    <pb xml:id="leaf001r" facs="loc_ew.00144.jpg" type="recto"/>
    
-   <note>sent H May 19 pub'd</note>
+   <note type="authorial" place="top" hand="#h01">sent H May 19 pub'd</note>
    
    <lg type="poem">
-    <l><title><hi rend="underline">Life and Death</hi></title></l>
-     <l>The two old <add rend="insertion" place="above">simple</add> problems ever</l>
+    <head type="main" rend="underline">Life and Death</head>
+    
+     <l>The two old <add place="below"><metamark function="add" ></metamark></add> problems ever</l>
      <l><del rend="overstrike">For</del> <del rend="overstrike">Ever</del> intertwined</l>
      <l><subst><del rend="unmarked" seq="1">For</del><add rend="unmarked" place="above" seq="2">By</add></subst> <del rend="overstrike">as</del> each successive age <del rend="overstrike">pass'd on</del><lb/>
                insoluble, pass'd on,</l>
