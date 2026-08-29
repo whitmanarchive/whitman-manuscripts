@@ -6,19 +6,18 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">The Commonplace</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
      <persName xml:id="nhg">Nicole Gray</persName>
      <persName xml:id="sb">Sandy Byrd</persName>
      <persName xml:id="ph">Peter Henry</persName>
      <persName xml:id="kmh">Kenneth Michael Hoover</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -30,7 +29,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -46,23 +44,20 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.00076</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
 
-     <note type="work_relations" target="xxx.00403" cert="high">
-      <p></p>
-     </note>
+     <note type="work_relations" target="xxx.00403" cert="high"></note>
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>"The Commonplace"</title>  
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “The Commonplace” ( 1891 ); Manuscript draft
+     </title>  
      
      <date when="1890" cert="high">1890</date>
      
@@ -72,18 +67,19 @@
      
      <note>Transcribed from digital images of the original.</note>
       
-     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-     <relatedItem type="document" target="wwa.00041"/>
-     <note type="project" target="#rel01">The poetry drafted on the back of this manuscript leaf is for "Osceola," a poem published first in Munyon's Magazine and then folded into Good-Bye my Fancy.</note>
+     <relatedItem type="text" xml:id="rel01" target="loc.08492"/>
+     <relatedItem type="document" target="wwa.00734"/>
+     <note type="project" target="#rel01">The poetry drafted on the back of this manuscript leaf is for "Osceola," a poem first published in <hi rend="italic">Munyon's Magazine</hi> and then included in <hi rend="italic">Good-Bye my Fancy</hi> (1891).</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="sole"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
+ <change when="2026-08-28" who="#km">proofed</change>
  <change when="2025-07-15" who="#kmh">transcribed and encoded</change>
  <change who="#nhg" when="2016-05-02">converted to P5</change>
  <change who="#sb" when="2006">convertd to camel case; checked; revised</change>
@@ -95,20 +91,21 @@
  <text type="manuscript">
   <body>
    
-   <pb xml:id="leaf001r" facs="loc.00076.001.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="loc_km.00081.jpg" type="recto"/>
    <lg type="poem">
-    <head type="main-authorial" rend="underline">The Commonplace</head>
-     <l><add place="above">The commonplace I sing</add>How cheap is health! how<lb/> cheap nobility!</l>
-     <l>Abstienence, <del rend="overstrike">the open air</del><lb/> no <del rend="overstrike">l</del> falsehood,<lb/> <del rend="overstrike">no</del>lust <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001"><del rend="overstrike">nor</del></add>or gluttony,</l>
+    <head type="main" rend="underline">The Commonplace</head>
+     
+    <l><add place="above">The commonplace I sing</add> How cheap is health! how<lb/> cheap nobility!</l>
+     <l>Abstienence, <del rend="overstrike">the open air</del><lb/> no <del rend="overstrike">l</del> falsehood,<lb/> <del rend="overstrike">no</del> lust <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001"><del rend="overstrike">nor</del></add> or gluttony,</l>
      <l>The open air<lb/> freedom<lb/> toleration</l>
-     <l>(Take the first mainest lesson&#8212;less<lb/> <del rend="overstrike">Less</del> <subst><del rend="overstrike" seq="1">in</del><add place="above">from</add></subst> the looks, less <subst><del rend="overstrike" seq="1">in</del><add place="above">from</add></subst> the schools)</l>
-     <l>The day and <add place="below">the</add> night, the immortal<lb/> earth and the<lb/> waters</l>
+     <l>(Take the first mainest lesson&#8212;less<lb/> <del rend="overstrike">Less</del> <subst><del rend="overstrike" seq="1">in</del> <add place="above" seq="2">from</add></subst> the books, less <subst><del rend="overstrike" seq="1">in</del> <add place="above" seq="2">from</add></subst> the schools)</l>
+     <!-- RESUME PROOFING HERE. KM --><l>The <add place="above">day and the night</add>, the <add place="above">the immortal</add><lb/> earth and the<lb/> waters</l>
      <l>, <del rend="overstrike">desire, the<lb/> commonplace,</del></l>
      <l>Your <subst><del rend="overstrike">trade,</del><add place="above">farm,</add></subst> your work <del rend="overstrike">or</del> trade<lb/> <del rend="overstrike">or</del> occupation</l>
      <l>The <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">democratic</add> wisdom underneath <del rend="overstrike">the standing<lb/> ground,</del> like solid <subst><del rend="overstrike">earth below</del><add place="above">ground for all</add></subst>.</l>
    </lg>
    
-   <pb xml:id="leaf001v" facs="loc.00076.002.jpg" type="verso"/>
+   <pb xml:id="leaf001v" facs="loc_km.00082.jpg" type="verso"/>
    
 </body>
 </text>
