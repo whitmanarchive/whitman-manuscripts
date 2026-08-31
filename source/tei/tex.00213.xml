@@ -6,17 +6,15 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main" rend="bracketed">even in the old attack</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="tb">Tara Ballard</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -28,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,50 +41,37 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>tex.00213</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">The draft is written on what was apparently a book wrapper. The printed text on the inside of the wrapper is from the <hi rend="italic">Seventh Annual Report of the Dante Society</hi>, which was dated May 15, 1888. The manuscript was therefore composed sometime after that date but before late July 1888, when Whitman seemingly finished writing the essay on Hicks.</note>
     
     
-     <note type="work_relations" target="xxx." cert="high">
-      <p></p>
-     </note>
-   </notesStmt>
+    <note type="work_relations" target="xxx.00486" cert="high">A corrected draft of a phrase that appears at the end of the "Prefatory Note" section of "Notes (such as they are) founded on Elias Hicks," an essay first published in <hi rend="italic">November Boughs</hi> (1888) and later reprinted in <hi rend="italic">Complete Prose Works</hi> (1891–1892).</note></notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>Even in the old attack and 6th or 7th recurrence</title>  
+     <title>"Even in the old attack and 6th or 7th recurrence…," note, undated, 1p</title>  
      
-<!--   USE THE <DATE> BELOW TO PROVIDE INFORRMATION ABOUT WHEN THE MANUSCRIPT WAS PROBABLY WRITTEN. THE CONTENT OF THE ELEMENT SHOULD BE A HUMAN-READABLE PHRASE. IF YOU DON'T HAVE A GOOD GUESS, LEAVE EVERYTHING HERE BLANK. IF THE MANUSCRIPT HAPPENS TO BE DATED SPECIFICALLY, DELETE
-       BOTH @NOTBEFORE AND @NOTAFTER AND ADD, INSTEAD, @WHEN WITH THE APPROPRIATE VALUE. "CERT" ALWAYS STAYS. -->
-     <date cert=""></date>
+     <date cert="high" xml:id="dat1" notBefore="1888-05-15" notAfter="1888-07-31">Between May and late July 1888</date>
      
-     <idno type="callno">TXRC03-A4</idno>
+     <idno type="callno">TXRC03-A4, container 1.4</idno>
      
      <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-     
-     <relatedItem type="text" xml:id="rel01" target="duk.00003"/>
-     <relatedItem type="document" target="wwa.00041"/>
-     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.<!-- still be added --></note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
-   <handNotes><!-- THE FOLLOWING INFORMATION ABOUT HANDS IS SAMPLE ENCODING AND SHOULD BE UPDATED WITH THE INFORMATION FOR YOUR SPECIFIC MANUSCRIPT. -->
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="blue ink" xml:id="h02" resp="#unk"></handNote>
-    <handNote medium="red ink" xml:id="h03" resp="#ww"/>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="sole"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-08-31" who="#km">proofed</change>
  <change when="2025-08-09" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -96,11 +80,8 @@
   <body>
    
    <pb xml:id="leaf001r" facs="tex.00213.001_large.jpg" type="recto"/>
-   <lg type="poem">
-     <l></l>
-     <l></l>
-     <l></l>
-   </lg>
+   
+   <p>even in <subst><del rend="overstrike" seq="1">the midst of</del> <add place="above" seq="2">the</add></subst> <del rend="overstrike">an</del> old attack of <del rend="overstrike">the</del> <add place="above">and 6th o<gap reason="cut away" extent="several words"/> </add> my "war-paralysis"&#8212;<add place="above">&#8212;now</add> threatening <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001"><del rend="overstrike">further</del> my further</add> action head or body</p>
    
 
    <pb xml:id="leaf001v" facs="tex.00213.002_large.jpg" type="verso"/>
