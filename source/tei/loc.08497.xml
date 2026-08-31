@@ -6,18 +6,15 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                
                 <title level="m" type="main" rend="bracketed">Good-Bye My Fancy</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
                 <editor>Ed Folsom</editor>
-                <editor>Matt Cohen</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    
                     <persName xml:id="sd">Sarah Danielson</persName>
-                    
+                    <persName xml:id="km">Kevin McMullen</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -29,7 +26,6 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                
                 <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -45,23 +41,19 @@
                         <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                         (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-                
-                
                 <idno>loc.08497</idno>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+                <note type="project" target="#dat1">Whitman started receiving sets of first galley proofs of the poetry section of <hi rend="italic">Good-Bye My Fancy</hi> on or after February 28, 1891. He seems to have returned them, also in batches, by March 8, meaning that the corrections on the present proof were made sometime between those dates. The previous grouping of proof pages can be viewed <ref target="loc.08496">here</ref>; the next grouping of pages can be viewed <ref target="loc.08497">here</ref>. Images of the versos are not currently available.</note><!-- REVISE THIS FURTHER AT END. KM -->
                 
-                <note type="work_relations" target="xxx.00459" cert="high">
-                    <p></p>
-                </note>
+                <note type="work_relations" target="xxx.00377" cert="high">Corrected galley proofs of the opening poetry section of <hi rend="italic">Good-Bye My Fancy</hi>, a collection of poetry and prose published in 1891.</note>
             </notesStmt>
             
             <sourceDesc>
                 <bibl>
                     <author xml:id="ww">Whitman, Walt</author>
                     
-                    <title>Image 5 of Walt Whitman Papers in the Charles E. Feinberg Collection: Oversize, 1844-1952; Literary File; Books; Good-Bye My Fancy ( 1891); Proofs; Proof sheets; Miscellany (Container 20)</title>
+                    <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Oversize, 1844-1952; Literary File; Books; Good-Bye My Fancy ( 1891); Proofs; Proof sheets; Miscellany (Container 20)</title>
                     
                     <date when="1891" cert="high">1891</date>
                     
@@ -70,7 +62,6 @@
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839-1919, Library of Congress, Washington, D.C.</orgName>
                     
                     <note>Transcribed from digital images of the original.</note>
-                    
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -79,14 +70,14 @@
                 <handNote medium="letterpress" xml:id="h01" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
                 <handNote medium="black ink" xml:id="h02" resp="#ww"/>
                 <handNote medium="pencil" xml:id="h03" resp="#ww"/>
-                <handNote medium="pencil" xml:id="h04" resp="#unk"/>
+                <handNote medium="pencil" xml:id="h04" resp="#unk1"><name xml:id="unk1">Unknown</name></handNote>
                 <handNote medium="blue pencil" xml:id="h05" resp="#unk"/>
                 <handNote medium="red pencil" xml:id="h06" resp="#unk"/>
                 <handNote medium="red ink" xml:id="h07" resp="#ww"/>
             </handNotes>
         </profileDesc>
         <revisionDesc>
-            
+            <change when="2026-08-31" who="#km">proofed</change>
             <change when="2026-04-09" who="#sd">transcribed and encoded</change>
             <change when="2026-04-14" who="#sd">transcribed and encoded</change>
             <change when="2026-04-15" who="#sd">transcribed and encoded</change>
@@ -97,7 +88,7 @@
         </revisionDesc>
     </teiHeader>
     
-    <text type="manuscript">
+    <text type="manuscript" subtype="proof">
         <body>
             
             <pb xml:id="leaf001r" facs="loc_ja.00009.jpg" type="recto"/>
@@ -108,22 +99,18 @@
             
             <note type="collaborative" hand="#h05" place="top">A</note>
             
-            <note type="collaborative" hand="#h04" place="top">(A)</note>
+            <note type="collaborative" hand="#h04" place="top" rend="cirlced">A</note>
             
-            <head type="main" hand="#h02" xml:id="j002"><hi rend="underline">Good-Bye my Fancy</hi></head><metamark target="#j002" function="adjust" rend="underline"><add hand="#h04" place="left" rend="marked">Pica Celtic-No. 2</add></metamark>
+            <head type="main" hand="#h02" xml:id="j002"><hi rend="underline">Good-Bye my Fancy</hi></head><metamark target="#j002" function="adjust" rend="underline"><add hand="#h04" place="left" rend="marked">Pica Celtic&#8212;No. 2</add></metamark>
             
  
             <note type="authorial" hand="#h07" place="left" rend="marked" target="#s003 #s004 #s005">for 7<hi rend="superscript">th</hi> page</note>
-                        
-                <div xml:id="s003">
                     
                     <metamark target="#s003" function="unknown"><add hand="#h04" place="right">&#10003;</add></metamark>
                     
-                    <note type="work_relations" target="xxx.00380" cert="high"/>
-                    
-                    <lg type="poem">
-                        
-                    <head type="main">SAIL OUT FOR GOOD, EID<subst hand="#h04"><del rend="overstrike" seq="1"><hi hand="#h02" rend="underline" xml:id="j001"><seg/></hi></del><add place="above" rend="marked" seq="2">&#243;</add></subst><add hand="#h02" place="right"><metamark target="#j001" function="adjust">=</metamark></add>LON YACHT!</head>
+                    <lg type="poem" xml:id="s003">
+                        <note type="work_relations" target="xxx.00380" cert="high"/>
+                    <head type="main">SAIL OUT FOR GOOD, EID<subst hand="#h04"><del rend="overstrike" seq="1"><hi hand="#h02" rend="underline" xml:id="j001"> </hi></del><add place="above" rend="marked" seq="2">&#243;</add></subst><add hand="#h02" place="right"><metamark target="#j001" function="adjust">=</metamark></add>LON YACHT!</head>
                                       
                         <l>H<hi rend="smallcaps">EAVE</hi> the anchor short!</l>
                         <l>Raise main-sail and jib&#8212;steer forth,</l>
@@ -135,17 +122,11 @@
                         <l>Spurning all yet tried ports, seas, hawsers, densities, gravitation,</l>
                         <l>Sail out for good, eid&#243;lon yacht of me!</l>
                     </lg>
-                </div>
-            
-            
-            <div xml:id="s004">
                 
                 <metamark target="#s004" function="unknown"><add hand="#h04" place="left">&#10003;</add></metamark>
-                
-                <note type="work_relations" target="xxx.00381" cert="high"/>
-                
-                <lg type="poem">
-                    
+            
+                <lg type="poem" xml:id="s004">
+                    <note type="work_relations" target="xxx.00381" cert="high"/>
                     <head type="main">LINGERING LAST DROPS.</head>
                                 
                     <lg type="linegroup">
@@ -159,37 +140,30 @@
                         <l>To make the passing shower's concluding drops.</l>
                     </lg>
                 </lg>
-            </div>
-   
-   
-            <div xml:id="s005">
                 
                 <metamark target="#s005" function="unknown"><add hand="#h04" place="right">&#10003;</add></metamark>
                 
-               <lg type="poem"> 
+               <lg type="poem" xml:id="s005"> 
                    
                 <head type="main">GOOD-BYE MY FANCY.</head>               
                 
-                    <l>G<hi rend="smallcaps">OOD</hi>-<hi rend="smallcaps">BYE</hi><ref xml:id="r1" target="#n1"><metamark function="link">*</metamark></ref> my fancy&#8212;(I had a word to say,</l>
+                    <l>G<hi rend="smallcaps">OOD</hi>-<hi rend="smallcaps">BYE</hi>* my fancy&#8212;(I had a word to say,</l>
                     <l>But 'tis not quite the time&#8212;The best of any man's word or say</l>
                     <l>Is when its proper place arrives&#8212;and for its meaning,</l>
                     <l>I keep mine till the last.)</l>
-                </lg>
-                
-                <note xml:id="n1" type="authorial" target="#r1" place="bottom" next="#n1.2"><metamark function="link">*</metamark>Behind a Good-bye there lurks much of the salutation of another beginning&#8212;to me, Development, Continuity, Immortality, Transformation, are the chiefest life-meanings of Nature and Humanity, and are the <hi rend="italic">sine qua non</hi> of all facts, and each fact.</note>  
-            
-                <anchor xml:id="a001"/><metamark target="a001 #a003" function="add"><add hand="#h02" place="below" rend="marked">&#8248;</add></metamark>
+                   
+                <note type="textual">
+                    <p>*Behind a Good-bye there lurks much of the salutation of another beginning&#8212;to me, Development, Continuity, Immortality, Transformation, are the chiefest life-meanings of Nature and Humanity, and are the <hi rend="italic">sine qua non</hi> of all facts, and each fact.</p>
+               <metamark target="#a003" function="add"><add hand="#h02" place="below" rend="marked">&#8248;</add></metamark>
                 
                 <addSpan spanTo="#a002" rend="pasteon" hand="#h02" place="right" xml:id="a003"/>
                 
                 <metamark target="#a001" function="add"><add place="top" rend="circled">added &#182; to note&#8212;sm type</add></metamark>
                 
-                <p><add place="inline"><metamark target="#a003" function="adjust">&#183;</metamark></add>Why do folks dwell so fondly on the last words, advice, appearance, of the departing? Those last words are not samples of the best, which involve vitality at its full, and balance, and perfect control and scope. But they are valuable beyond measure to confirm and endorse the varied train, <del rend="overstrike">and</del> facts, <add place="below"><metamark target="a004" function="add">&#8248;</metamark></add><add place="above" xml:id="a004"><del rend="overstrike"><gap reason="illegible" extent="one word"/></del>theories</add> and faith <del rend="overstrike">and the order</del> of the whole preceding life.</p>
-                
-                <anchor xml:id="a002"/>
-                
-             </div>   
- 
+                <p xml:id="j005"><metamark target="#j005" function="adjust">&#183;</metamark> Why do folks dwell so fondly on the last words, advice, appearance, of the departing? Those last words are not samples of the best, which involve vitality at its full, and balance, and perfect control and scope. But they are valuable beyond measure to confirm and endorse the varied train, <del rend="overstrike">and</del> facts, <add place="below"><metamark target="a004" function="add">&#8248;</metamark></add><add place="above" xml:id="a004"><del rend="overstrike"><gap reason="illegible" extent="one word"/></del> theories</add> and faith <del rend="overstrike">and the order</del> of the whole preceding life.</p>
+                <anchor xml:id="a002"/>   
+                </note>   
+               </lg>
       
             <note type="authorial" hand="#h07" place="left" rend="marked" target="#s006 #s007">8<hi rend="superscript">th</hi> page</note>
             
