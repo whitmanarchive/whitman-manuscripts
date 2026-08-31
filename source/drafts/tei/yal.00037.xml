@@ -6,18 +6,22 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
-
     <title level="m" type="main">Osceola</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
+     <persName xml:id="nhg">Nicole Gray</persName>
+     <persName xml:id="nk">Nick Krauter</persName>
+     <persName xml:id="stb">Stephen Boykewich</persName>
+     <persName xml:id="aj">Andy Jewell</persName>
+     <persName xml:id="kmp">Kenneth Price</persName>
+     <persName xml:id="bb">Brett Barney</persName>
+     <persName xml:id="as">Ashlyn Stewart</persName>
      <persName xml:id="kmh">Kenneth Michael Hoover</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -29,7 +33,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -45,16 +48,12 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>yal.00037</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
     
-     <note type="work_relations" target="xxx.00400" cert="high">
-      <p></p>
-     </note>
+     <note type="work_relations" target="xxx.00400" cert="high"></note>
    </notesStmt>
    
    <sourceDesc>
@@ -85,6 +84,20 @@
 <revisionDesc>
  
  <change when="2025-08-25" who="#kmh">transcribed and encoded</change>
+ <change when="2022-06-03" who="#bb">updated relations encoding</change>
+ <change when="2022-04-14" who="#as">regularized name for infrastructure</change>
+ <change when="2016-09-08" who="#nhg">proofed</change>
+ <change when="2016-01-13" who="#bb">updated list of staff in titleStmt; corrected miscellaneous attribute errors</change>
+ <change when="2015-05-06" who="#nhg">converted, added schematron declaration</change>
+ <change when="2006-08-04" who="#nk">Added third digit to leaf numbers</change>
+ <change when="2006-03-03" who="#bb">Removed unnecessary p tag from note. Again!</change>
+ <change when="2005-01-26" who="#aj">Addition of Date and Work Markup</change>
+ <change when="2005-01-26" who="#kmp">Addition of Date and Work Markup</change>
+ <change when="2004-07-09" who="#bb">Removed unnecessary p tags from notes</change>
+ <change when="2003-02-16" who="#bb">Blessed</change>
+ <change when="2003-08-07" who="#kmp">Edited</change>
+ <change when="2003-07-31" who="#aj">Checked; revised</change>
+ <change when="2003-03-15" who="#stb">Transcribed; encoded</change>
 </revisionDesc>
  </teiHeader>
 
