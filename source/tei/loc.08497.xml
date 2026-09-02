@@ -6,18 +6,15 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                
                 <title level="m" type="main" rend="bracketed">Good-Bye My Fancy</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
                 <editor>Ed Folsom</editor>
-                <editor>Matt Cohen</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    
                     <persName xml:id="sd">Sarah Danielson</persName>
-                    
+                    <persName xml:id="km">Kevin McMullen</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -29,7 +26,6 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                
                 <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -45,23 +41,19 @@
                         <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                         (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-                
-                
                 <idno>loc.08497</idno>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+                <note type="project" target="#dat1">Whitman started receiving sets of first galley proofs of the poetry section of <hi rend="italic">Good-Bye My Fancy</hi> on or after February 28, 1891. He seems to have returned them, also in batches, by March 8, meaning that the corrections on the present proof were made sometime between those dates. The previous grouping of proof pages can be viewed <ref target="loc.08496">here</ref>; the next grouping of pages can be viewed <ref target="loc.08497">here</ref>. Images of the versos are not currently available.</note><!-- REVISE THIS FURTHER AT END. KM -->
                 
-                <note type="work_relations" target="xxx.00459" cert="high">
-                    <p></p>
-                </note>
+                <note type="work_relations" target="xxx.00377" cert="high">Corrected galley proofs of the opening poetry section of <hi rend="italic">Good-Bye My Fancy</hi>, a collection of poetry and prose published in 1891.</note>
             </notesStmt>
             
             <sourceDesc>
                 <bibl>
                     <author xml:id="ww">Whitman, Walt</author>
                     
-                    <title>Image 5 of Walt Whitman Papers in the Charles E. Feinberg Collection: Oversize, 1844-1952; Literary File; Books; Good-Bye My Fancy ( 1891); Proofs; Proof sheets; Miscellany (Container 20)</title>
+                    <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Oversize, 1844-1952; Literary File; Books; Good-Bye My Fancy ( 1891); Proofs; Proof sheets; Miscellany (Container 20)</title>
                     
                     <date when="1891" cert="high">1891</date>
                     
@@ -70,7 +62,6 @@
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839-1919, Library of Congress, Washington, D.C.</orgName>
                     
                     <note>Transcribed from digital images of the original.</note>
-                    
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -79,14 +70,14 @@
                 <handNote medium="letterpress" xml:id="h01" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
                 <handNote medium="black ink" xml:id="h02" resp="#ww"/>
                 <handNote medium="pencil" xml:id="h03" resp="#ww"/>
-                <handNote medium="pencil" xml:id="h04" resp="#unk"/>
+                <handNote medium="pencil" xml:id="h04" resp="#unk1"><name xml:id="unk1">Unknown</name></handNote>
                 <handNote medium="blue pencil" xml:id="h05" resp="#unk"/>
                 <handNote medium="red pencil" xml:id="h06" resp="#unk"/>
                 <handNote medium="red ink" xml:id="h07" resp="#ww"/>
             </handNotes>
         </profileDesc>
         <revisionDesc>
-            
+            <change when="2026-08-31" who="#km">proofed</change>
             <change when="2026-04-09" who="#sd">transcribed and encoded</change>
             <change when="2026-04-14" who="#sd">transcribed and encoded</change>
             <change when="2026-04-15" who="#sd">transcribed and encoded</change>
@@ -97,7 +88,7 @@
         </revisionDesc>
     </teiHeader>
     
-    <text type="manuscript">
+    <text type="manuscript" subtype="proof">
         <body>
             
             <pb xml:id="leaf001r" facs="loc_ja.00009.jpg" type="recto"/>
@@ -108,22 +99,20 @@
             
             <note type="collaborative" hand="#h05" place="top">A</note>
             
-            <note type="collaborative" hand="#h04" place="top">(A)</note>
+            <note type="collaborative" hand="#h04" place="top" rend="cirlced">A</note>
             
-            <head type="main" hand="#h02" xml:id="j002"><hi rend="underline">Good-Bye my Fancy</hi></head><metamark target="#j002" function="adjust" rend="underline"><add hand="#h04" place="left" rend="marked">Pica Celtic-No. 2</add></metamark>
+            <head type="main" hand="#h02" xml:id="j002"><hi rend="underline">Good-Bye my Fancy</hi></head>
+            
+            <metamark target="#j002" function="adjust" rend="underline"><add hand="#h04" place="left" rend="marked">Pica Celtic&#8212;No. 2</add></metamark>
             
  
             <note type="authorial" hand="#h07" place="left" rend="marked" target="#s003 #s004 #s005">for 7<hi rend="superscript">th</hi> page</note>
-                        
-                <div xml:id="s003">
                     
                     <metamark target="#s003" function="unknown"><add hand="#h04" place="right">&#10003;</add></metamark>
                     
-                    <note type="work_relations" target="xxx.00380" cert="high"/>
-                    
-                    <lg type="poem">
-                        
-                    <head type="main">SAIL OUT FOR GOOD, EID<subst hand="#h04"><del rend="overstrike" seq="1"><hi hand="#h02" rend="underline" xml:id="j001"><seg/></hi></del><add place="above" rend="marked" seq="2">&#243;</add></subst><add hand="#h02" place="right"><metamark target="#j001" function="adjust">=</metamark></add>LON YACHT!</head>
+                    <lg type="poem" xml:id="s003">
+                        <note type="work_relations" target="xxx.00380" cert="high"/>
+                        <head type="main">SAIL OUT FOR GOOD, EID<subst hand="#h04"><del rend="overstrike" seq="1"><hi hand="#h02" rend="underline" xml:id="j001"> </hi></del><add place="above" rend="marked" seq="2">&#211;</add></subst><add hand="#h02" place="right"><metamark target="#j001" function="adjust">=</metamark></add>LON YACHT!</head>
                                       
                         <l>H<hi rend="smallcaps">EAVE</hi> the anchor short!</l>
                         <l>Raise main-sail and jib&#8212;steer forth,</l>
@@ -135,17 +124,11 @@
                         <l>Spurning all yet tried ports, seas, hawsers, densities, gravitation,</l>
                         <l>Sail out for good, eid&#243;lon yacht of me!</l>
                     </lg>
-                </div>
-            
-            
-            <div xml:id="s004">
                 
                 <metamark target="#s004" function="unknown"><add hand="#h04" place="left">&#10003;</add></metamark>
-                
-                <note type="work_relations" target="xxx.00381" cert="high"/>
-                
-                <lg type="poem">
-                    
+            
+                <lg type="poem" xml:id="s004">
+                    <note type="work_relations" target="xxx.00381" cert="high"/>
                     <head type="main">LINGERING LAST DROPS.</head>
                                 
                     <lg type="linegroup">
@@ -159,92 +142,76 @@
                         <l>To make the passing shower's concluding drops.</l>
                     </lg>
                 </lg>
-            </div>
-   
-   
-            <div xml:id="s005">
                 
                 <metamark target="#s005" function="unknown"><add hand="#h04" place="right">&#10003;</add></metamark>
                 
-               <lg type="poem"> 
+               <lg type="poem" xml:id="s005"> 
                    
                 <head type="main">GOOD-BYE MY FANCY.</head>               
                 
-                    <l>G<hi rend="smallcaps">OOD</hi>-<hi rend="smallcaps">BYE</hi><ref xml:id="r1" target="#n1"><metamark function="link">*</metamark></ref> my fancy&#8212;(I had a word to say,</l>
+                    <l>G<hi rend="smallcaps">OOD</hi>-<hi rend="smallcaps">BYE</hi>* my fancy&#8212;(I had a word to say,</l>
                     <l>But 'tis not quite the time&#8212;The best of any man's word or say</l>
                     <l>Is when its proper place arrives&#8212;and for its meaning,</l>
                     <l>I keep mine till the last.)</l>
-                </lg>
-                
-                <note xml:id="n1" type="authorial" target="#r1" place="bottom" next="#n1.2"><metamark function="link">*</metamark>Behind a Good-bye there lurks much of the salutation of another beginning&#8212;to me, Development, Continuity, Immortality, Transformation, are the chiefest life-meanings of Nature and Humanity, and are the <hi rend="italic">sine qua non</hi> of all facts, and each fact.</note>  
-            
-                <anchor xml:id="a001"/><metamark target="a001 #a003" function="add"><add hand="#h02" place="below" rend="marked">&#8248;</add></metamark>
+                   
+                <note type="textual">
+                    <p>*Behind a Good-bye there lurks much of the salutation of another beginning&#8212;to me, Development, Continuity, Immortality, Transformation, are the chiefest life-meanings of Nature and Humanity, and are the <hi rend="italic">sine qua non</hi> of all facts, and each fact.</p>
+               <metamark target="#a003" function="add"><add hand="#h02" place="below" rend="marked">&#8248;</add></metamark>
                 
                 <addSpan spanTo="#a002" rend="pasteon" hand="#h02" place="right" xml:id="a003"/>
                 
                 <metamark target="#a001" function="add"><add place="top" rend="circled">added &#182; to note&#8212;sm type</add></metamark>
                 
-                <p><add place="inline"><metamark target="#a003" function="adjust">&#183;</metamark></add>Why do folks dwell so fondly on the last words, advice, appearance, of the departing? Those last words are not samples of the best, which involve vitality at its full, and balance, and perfect control and scope. But they are valuable beyond measure to confirm and endorse the varied train, <del rend="overstrike">and</del> facts, <add place="below"><metamark target="a004" function="add">&#8248;</metamark></add><add place="above" xml:id="a004"><del rend="overstrike"><gap reason="illegible" extent="one word"/></del>theories</add> and faith <del rend="overstrike">and the order</del> of the whole preceding life.</p>
-                
-                <anchor xml:id="a002"/>
-                
-             </div>   
- 
+                    <p xml:id="j005"><metamark target="#j005" function="adjust">&#182;</metamark> Why do folks dwell so fondly on the last words, advice, appearance, of the departing? Those last words are not samples of the best, which involve vitality at its full, and balance, and perfect control and scope. But they are valuable beyond measure to confirm and endorse the varied train, <del rend="overstrike">and</del> facts, <add place="below"><metamark target="a004" function="add">&#8248;</metamark></add><add place="above" xml:id="a004"><del rend="overstrike"><gap reason="illegible" extent="one word"/></del> theories</add> and faith <del rend="overstrike">and the order</del> of the whole preceding life.</p>
+                <anchor xml:id="a002"/>   
+                </note>   
+               </lg>
       
             <note type="authorial" hand="#h07" place="left" rend="marked" target="#s006 #s007">8<hi rend="superscript">th</hi> page</note>
             
-            <div xml:id="s006">
-                
                 <metamark target="#s006" function="unknown"><add hand="#h04" place="left">&#10003;</add></metamark>
-                    
-                <note type="work_relations" target="xxx.00383" cert="high"/>
-                    
-                    <lg type="poem">
-                        
+            
+                    <lg type="poem" xml:id="s006">
+                         <note type="work_relations" target="xxx.00383" cert="high"/>
                     <head type="main">ON, ON THE SAME, YE JOCUND TWAIN!</head>
-                    
+
                         <l>O<hi rend="smallcaps">N</hi>, on the same, ye jocund twain!</l>
                         <l>My life and recitative, containing birth, youth, mid-age years,</l>
                         <l>Fitful as motley-tongues of flame, inseparably twined and merged<lb/> in one&#8212;combining all,</l>
                         <l>My single soul&#8212;aims, confirmations, failures, joys&#8212;Nor single<lb/> soul alone,</l>
-                        <l>I chant my nation's crucial stage, (America's, haply humanity's)<lb/> &#8212;the trial great, the victory great,</l>
+                        <l>I chant my nation's crucial stage, (America's, haply humanity's)<lb/>&#8212;the trial great, the victory great,</l>
                         <l>A strange <hi rend="italic">eclaircissement</hi> of all the masses past, the eastern<lb/> world, the ancient, medieval,</l>
                         <l>Here, here from wanderings, strayings, lessons, wars, defeats&#8212;<lb/> here at the west a voice triumphant&#8212;justifying all,</l>
                         <l>A gladsome pealing cry&#8212;a song for once of utmost pride and<lb/> satisfaction;</l>
                         <l>I chant from it the common bulk, the general average horde,<lb/> (the best no sooner than the worst)&#8212;And now I chant old<lb/> age,</l>
                         <l>(My verses, written first for forenoon life, and for the summer's,<lb/> autumn's spread,</l>
-                        <l>I pass to snow-white hairs the same, and give to pulses <choice><orig>winter-<lb/> cool'd</orig><reg>winter-cool'd</reg></choice> the same;)</l>
-                        <l>As here in careless trill, I and my recitatives, with faith and<lb/> live,</l>
-                        <l>Wafting to other work, to unknown songs, condition,</l>
+                        <l>I pass to snow-white hairs the same, and give to pulses <choice><orig>winter-<lb/>cool'd</orig><reg>winter-cool'd<lb/></reg></choice> the same;)</l>
+                        <l>As here in careless trill, I and my recitatives, with faith and<lb/> love,</l>
+                        <l>Wafting to other work, to unknown songs, conditions,</l>
                         <l>On, on, ye jocund twain! continue on the same!</l>
                     </lg>
-                </div>
-            
-            <div xml:id="s007">
                 
                 <metamark target="#s007" function="unknown"><add hand="#h04" place="left">&#10003;</add></metamark>
-                    
-                <note type="work_relations" target="xxx.00384" cert="high"/>
                                         
-                    <lg type="poem">
-                        
+                    <lg type="poem" xml:id="s007">
+                         <note type="work_relations" target="xxx.00384" cert="high"/>
                         <head type="main">MY 71ST YEAR.</head>
                     
                         <l>A<hi rend="smallcaps">FTER</hi> surmounting three-score and ten,</l>
                         <l>With all their chances, changes, losses, sorrows,</l>
-                        <l>My parents' deaths, the vagaries of my life, the many tearing<lb/> passions of me, the war of  '63 and '4.</l>
+                        <l>My parents' deaths, the vagaries of my life, the many tearing<lb/> passions of me, the war of  '63 and '4,</l>
                         <l>As some old broken soldier, after a long, hot, wearying march,<lb/> or haply after battle,</l>
                         <l>To-day at twilight, hobbling, answering company roll-call, <hi rend="italic">Here</hi>,<lb/> with vital voice,</l>
                         <l>Reporting yet, saluting yet the Officer over all.</l>
                     </lg>
-                </div>
+             
 
 
-            <note type="authorial" hand="#h07" place="bottom" target="#s045">take in the 5 lines "Apparitions" on <subst hand="#h04"><del rend="overstrike" seq="1">G</del><add place="below" rend="marked" seq="2"><hi rend="tripleUnderline">H</hi></add></subst> to make of this page 8</note>
+            <note type="authorial" hand="#h07" place="bottom" target="#s045">take in the 5 lines "Apparitions" on <subst hand="#h04"><del rend="overstrike" seq="1">G</del> <add place="below" rend="marked" seq="2"><hi rend="tripleUnderline">H</hi></add></subst> to make of this page 8</note>
            
-            <note type="collaboraitve" hand="#h04" place="bottom">Poems with notes at front of page</note>
+            <note type="collaborative" hand="#h04" place="bottom">Poems with notes at foot of pages</note>
             
-            <note type="editorial" hand="#h04" place="bottom">To F. B. &amp;b.</note>
+            <note type="collaborative" hand="#h04" place="bottom">To F. B. &amp; Co.</note>
             
             
             
@@ -256,14 +223,10 @@
             
             <note type="collaborative" hand="#h04" place="top" rend="circled">B</note>
             
-            <div xml:id="s008">
-                
                 <metamark target="#s008" function="unknown"><add hand="#h04" place="right">&#10003;</add></metamark>
-                
-                <note type="work_relations" target="xxx.00388" cert="high"/>
                                  
-                <lg type="poem">
-                    
+                <lg type="poem" xml:id="s008">
+                    <note type="work_relations" target="xxx.00388" cert="high"/>
                     <head type="main">OLD AGE'S SHIP &amp; CRAFTY DEATH'S.</head>
                
                     <l>F<hi rend="smallcaps">ROM</hi> east and west across the horizon's edge,</l>
@@ -275,16 +238,11 @@
                     <l>Out challenge and defiance&#8212;flags and flaunting pennants added,</l>
                     <l>As we take to the open&#8212;take to the deepest, freest waters.</l>
                 </lg>
-            </div>
-            
-            <div xml:id="s009">
                 
                 <metamark target="#s009" function="unknown"><add hand="#h04" place="right">&#10003; &#1003;</add></metamark>
-                
-                <note type="work_relations" target="xxx.00389" cert="high"/>
                               
-                <lg type="poem">
-                    
+                <lg type="poem" xml:id="s009">
+                      <note type="work_relations" target="xxx.00389" cert="high"/>
                     <head type="main">TO THE PENDING YEAR.</head>
                 
                     <lg type="linegroup">
@@ -299,18 +257,15 @@
                         <l>Thy bearded throat and high-borne forehead to the gutter;</l>
                         <l>Crouch low thy neck to eleemosynary gifts.</l>
                     </lg>    
-                </lg>                
-            </div>
+                </lg>       
             
-            <div>
-                <note type="work_relations" target="xxx.00386" cert="high"/>
-                
                 <lg type="poem">
-                
+                 <note type="work_relations" target="xxx.00386" cert="high"/>
                 <head type="main">THE PALLID WREATH.</head>
                               
                     <l>S<hi rend="smallcaps">OMEHOW</hi> I cannot let it go yet, funeral though it is,</l>
                     <l>Let it remain back there on its nail suspended,</l>
+                    <l>With pink, blue, yellow, all blanch'd, and the white now gray<lb/> and ashy,</l>
                     <l>One wither'd rose put years ago for thee, dear friend;</l>
                     <l>But I do not forget thee. Hast thou then faded?</l>
                     <l>Is the odor exhaled? Are the colors, vitalities, dead?</l>
@@ -320,84 +275,69 @@
                     <l>So let the wreath hang still awhile within my eye-reach,</l>
                     <l>It is not yet dead to me, nor even pallid.</l>
                 </lg>
-            </div>      
-            
-            
-            <div xml:id="s010">
-                
+                            
                 <metamark target="#s010" function="unknown"><add hand="#h04" place="right">&#10003;</add></metamark>
                 
-                <note type="work_relations" target="xxx.00387" cert="high"/>
+                
                 
                 <note type="authorial" hand="#h07" place="left" rend="marked" target="#s010">let this come at the bottom of the page</note>
                 
-                <lg type="poem">
-                    
+                <lg type="poem" xml:id="s010">
+                    <note type="work_relations" target="xxx.00387" cert="high"/>
                     <head type="main">AT ENDED DAY.</head>
                 
                     <l>T<hi rend="smallcaps">HE</hi> soothing sanity and blitheness of completion,</l>
                     <l>The pomp and hurried contest-glare and rush are done;</l>
-                    <l>Now triumph! transformation! jubilate!<ref xml:id="r2" target="#n1"><metamark function="link">*</metamark></ref></l>
-                </lg>
+                    <l>Now triumph! transformation! jubilate! *</l>
                 
-                <note xml:id="n2" type="authorial" target="#r2" place="bottom" next="#n1.2">
+                
+                <note type="textual">*N<hi rend="smallcaps">OTE</hi>&#8212;<hi rend="italic">Summer country life</hi>&#8212;<hi rend="italic">Several years</hi>.&#8212;In my rambles and explorations I found a woody place near the creek, where for some reason the birds in happy mood seem'd to resort in unusual numbers. Especially at the beginning of the day, and again at the ending, I was sure to get there the most copious bird-concerts. I repair'd there frequently at sunrise&#8212;and also at sunset, or just before . . . Once the question arose in me: Which is the best singing, the first or the lattermost? The first always exhilarated and perhaps seem'd more joyous and stronger; but I always felt the sunset or late afternoon sounds more penetrating and sweeter&#8212;seem'd to touch the soul&#8212;often the evening thrushes, two or three of them, responding and perhaps blending. Though I miss'd some of the mornings, I found myself getting to be quite strictly punctual at the evening utterances.</note>
+            
+            <note type="textual">
+                    <p>A<hi rend="smallcaps">NOTHER</hi> N<hi rend="smallcaps">OTE</hi>.&#8212;"He went out with the tide and the sunset," was a phrase I heard from a surgeon describing an old sailor's death under peculiarly gentle conditions.</p>
                     
-                    <p><metamark function="link">*</metamark>N<hi rend="smallcaps">OTE</hi>&#8212;<hi rend="italic">Summer country life</hi>&#8212;<hi rend="italic">Several years</hi>.&#8212;In my rambles and explorations I found a woody place near the creek, where for some reason the birds in happy mood seem'd to resort in unusual numbers. Especially at the beginning of the day, and again at the ending, I was sure to get there the most copious bird-concerts. I repair'd there frequently at sunrise&#8212;and also at sunset, or just before...Once the question arose in me: Which is the best singing, the first or the lattermost? The first always exhilarated and perhaps seem'd more joyous and stronger; but I always felt the sunset or late afternoon sounds more penetrating and sweeter&#8212;seem'd to touch the soul&#8212;often the evening thrushes, two or three of them, responding and perhaps blending. Though I miss'd some of the mornings, I found myself getting to be quite strictly punctual at the evening utterances.</p>
-                    
-                    <p>A<hi rend="smallcaps">NOTHER</hi> N<hi rend="smallcaps">OTE</hi>.&#8212;"He went out with the tide and the sunset," was a phrase I heard from a surgeon describing an old sailor's death under peculiarly gentle conditions."</p>
-                    
-                    <p>During the Secession War 1863 and '4, visiting the Army Hospitals around Washington, I form'd the habit, and continued it to the end, whenever the ebb, or flood tide began the latter part of the day, of punctually visiting those at that time populous wards of suffering men. Somehow (or I thought so) the effect of the hour was palpable. The badly wounded would get some ease, and would like to talk a little, or be talk'd to. Intellectual and emotional natures would be at their best: Deaths were always easier; medicines seem'd to have better effect when given then, and a lulling atmosphere would pervade the wards.</p>
+                    <p>During the Secession War 1863 and '4, visiting the Army Hospitals around Washington, I form'd the habit, and continued it to the end, whenever the ebb or flood tide began the latter part of the day, of punctually visiting those at that time populous wards of suffering men. Somehow (or I thought so) the effect of the hour was palpable. The badly wounded would get some ease, and would like to talk a little, or be talk'd to. Intellectual and emotional natures would be at their best: Deaths were always easier; medicines seem'd to have better effect when given then, and a lulling atmosphere would pervade the wards.</p>
                     
                     <p>Similar influences, similar circumstances and hours, day-close, after great battles, even with all their horrors. I had more than once the same experience on the fields cover'd with fallen or dead.</p>
                 </note>
-                
-            </div>        
-       
-       
-            <div xml:id="s012">
-                
+               </lg> 
+            
                 <metamark target="#s012" function="unknown"><add hand="#h04" place="right">&#10003;</add></metamark>
-                
-                <note type="work_relations" target="xxx.00390" cert="high"/>
-                
-                <lg type="poem">
-                    
+            
+                <lg type="poem" xml:id="s012">
+                    <note type="work_relations" target="xxx.00390" cert="high"/>
                     <head type="main">SHAKSPERE-BACON'S CIPHER.</head>                
                 
                     <l>I <hi rend="smallcaps">DOUBT</hi> it not&#8212;then more, far more;</l>
                     <l>In each old song bequeath'd&#8212;in every noble page or text,</l>
                     <l>(Different&#8212;something unreck'd before&#8212;some unsuspected<lb/> author,)</l>
                     <l>In every object, mountain, tree, and star&#8212;in every birth and<lb/> life,</l>
-                    <l>As part of each&#8212;evolv'd from each&#8212;meaning, behind the <choice><orig>os-<lb/> tent</orig><reg>ostent</reg></choice>,</l>
+                    <l>As part of each&#8212;evolv'd from each&#8212;meaning, behind the <choice><orig>os-<lb/>tent,</orig><reg>ostent,</reg></choice></l>
                     <l>A mystic cipher waits infolded.</l>
                 </lg>
-            </div>
-            
-            <note type="editorial" hand="#h04" place="bottom">To F. B. Bro</note>
             
             
+            <note type="collaborative" hand="#h04" place="bottom">To F. B. &amp; Co.</note>
+            
+            <pb xml:id="leaf002v" type="verso"/>
             
             <pb xml:id="leaf003r" facs="loc_ja.00012.jpg" type="recto"/>
             
             <note type="collaborative" hand="#h04" place="top" rend="circled">C</note>
-            
-            <div xml:id="s013">
-                
+
                 <metamark target="#s013" function="unknown"><add hand="#h04" place="right">&#10003;</add></metamark>
-                
-                <note type="work_relations" target="xxx.00394" cert="high"/>
                 
                 <note type="authorial" hand="#h07" place="left" rend="marked" target="#s013">let this come top page</note>
                 
-                <lg type="poem">
-                    
+                <lg type="poem" xml:id="s013">
+                    <note type="work_relations" target="xxx.00394" cert="high"/>
                     <head type="main">TO THE SUN-SET BREEZE.</head>               
                 
                     <l>A<hi rend="smallcaps">H</hi>, whispering, something agian, unseen,</l>
                     <l>Where late this heated day thou enterest at my window, door,</l>
                     <l>Thou, laving, tempering all, cool-freshing, gently vitalizing</l>
                     <l>Me, old, alone, sick, weak-down, melted-worn with sweat;</l>
-                    <l>Thou, nestling, folded close and firm yet soft, companion <choice><orig>bet-<lb/> ter</orig><reg>better</reg></choice> than talk, book, art,</l>
+                    <l>Thou, nestling, folded close and firm yet soft, companion <choice><orig>bet-<lb/>ter</orig><reg>better<lb/></reg></choice> than talk, book, art,</l>
                     <l>(Thou hast, O Nature! elements! utterance to my heart beyond<lb/> the rest&#8212;and this is of them,)</l>
                     <l>So sweet thy primitive taste to breathe within&#8212;thy soothing<lb/> fingers on my face and hands,</l>
                     <l>Thou, messenger-magical strange bringer to body and spirit of<lb/> me,</l>
@@ -407,45 +347,31 @@
                     <l>Thou blown from the lips so loved, now gone&#8212;haply from endless<lb/> store, God-sent,</l>
                     <l>(For thou art spiritual, Godly, most of all known to my<lb/> sense,)</l>
                     <l>Minister to speak to me, here and now, what word has never<lb/> told and cannot tell,</l>
-                    <l>Art thou not universal concrete's distillation? Law's, all <choice><orig>As-<lb/> tronomy's</orig><reg>Astronomy's</reg></choice> last refinement?</l>
+                    <l>Art thou not universal concrete's distillation? Law's, all <choice><orig>As-<lb/>tronomy's</orig><reg>Astronomy's<lb/></reg></choice> last refinement?</l>
                     <l>Hast thou no soul? Can I not know, identify thee?</l>
                 </lg>
-
-           </div>
-      
-      
-            <div xml:id="s015">
                 
                 <metamark target="#s015" function="unknown"><add hand="#h04" place="right">&#10003;</add></metamark>
-                
-                <note type="work_relations" target="xxx.00392" cert="high"/>
-                
-                <lg type="poem">
-                    
+            
+                <lg type="poem" xml:id="s015">
+                    <note type="work_relations" target="xxx.00392" cert="high"/>
                     <head type="main">BRAVO, PARIS EXPOSITION!</head>
                                
                     <l>A<hi rend="smallcaps">DD</hi> to your show, before you close it, France,</l>
-                    <l>With all the rest, visible, concrete, temples, towers, goods, <choice><orig>ma-<lb/> chines</orig><reg>machines</reg></choice>, and ores,</l>
+                    <l>With all the rest, visible, concrete, temples, towers, goods, <choice><orig>ma-<lb/>chines</orig><reg>machines<lb/></reg></choice>, and ores,</l>
                     <l>Our sentiment wafted from many million heart-throbs, ethereal<lb/> but solid,</l>
-                    <l>(We grand-sons and great-grand-sons do not forget your <choice><orig>grand-<lb/> sires</orig><reg>grand-sires</reg></choice>,)</l>
-                    <l>From fifty Nations and nebulous Nations, compacted, sent <choice><orig>over-<lb/> sea</orig><reg>oversea</reg></choice> to-day,</l>
+                    <l>(We grand-sons and great-grand-sons do not forget your <choice><orig>grand-<lb/>sires,)</orig><reg>grand-sires,)</reg></choice></l>
+                    <l>From fifty Nations and nebulous Nations, compacted, sent <choice><orig>over-<lb/>sea</orig><reg>oversea<lb/></reg></choice> to-day,</l>
                     <l>America's applause, love, memories and good-will.</l>
                 </lg>
-               
-           </div> 
             
-            
-            <div xml:id="s016">
-                
                 <metamark target="#s016" function="unknown"><add hand="#h04" place="right">&#10003;</add></metamark>
-                
-                <note type="work_relations" target="xxx.00396" cert="high"/>
-                
-                <lg type="poem">
-                    
+            
+                <lg type="poem" xml:id="s016">
+                    <note type="work_relations" target="xxx.00396" cert="high"/>
                     <head type="main">INTERPOLATION SOUNDS.</head>
                 
-                <note type="authorial">[General Philip Sheridan was buried at the Cathedral, Washington, D. C., August, 1888, with all the pomp, music and ceremonies of the Roman Catholic service.]</note>
+                <note type="textual">[General Philip Sheridan was buried at the Cathedral, Washington, D. C., August, 1888, with all the pomp, music and ceremonies of the Roman Catholic service.]</note>
                                 
                     <l>O<hi rend="smallcaps">VER</hi> and through the burial chant,</l>
                     <l>Organ and solemn service, sermon, bending priests,</l>
@@ -453,26 +379,21 @@
                     <l>Of sudden battle's hurry and harsh noises&#8212;war's grim game to<lb/> sight and ear in earnest;</l>
                     <l>The scout call'd up and forward&#8212;the general mounted and his<lb/> aids around him&#8212;the new-brought word&#8212;the instantaneous<lb/> order issued;</l>
                     <l>The rifle crack&#8212;the cannon thud&#8212;the rushing forth of men<lb/> from their tents;</l>
-                    <l>The clank of cavalry&#8212;the strange celerity of forming ranks&#8212;<lb/> the slender bugle note;</l>
-                    <l>The sound of horses' hoofs departing&#8212;saddles, arms, <choice><orig>accoutre-<lb/> ments</orig><reg>accoutrements</reg></choice>.</l>
+                    <l>The clank of cavalry&#8212;the strange celerity of forming ranks&#8212;<lb/>the slender bugle note;</l>
+                    <l>The sound of horses' hoofs departing&#8212;saddles, arms, <choice><orig>accoutre-<lb/>ments.</orig><reg>accoutrements.</reg></choice></l>
+            
+                
+                <note type="textual">
+                    <p>N<hi rend="smallcaps">OTE</hi>&#8212;C<hi rend="smallcaps">AMDEN</hi>, N. J., August 7, 1888.&#8212;Walt Whitman asks the <hi rend="italic">New York Herald</hi> "to add his tribute to Sheridan<hi hand="#h04" rend="circled" xml:id="j003">:</hi>"<add hand="#h04" place="below" rend="marked"><metamark target="#j003" function="adjust">&#8248;</metamark></add> <add hand="#h04" place="right"><metamark target="#j003" function="question">&#10003;</metamark></add></p>
+                    
+                    <p>"In the grand constellation of five or six names, under Lincoln's Presidency, that history will bear for ages in her firmaments as marking the last life-throbs of secession, and beaming on its dying gasps, Sheridan's will be bright. One consideration rising out of the now dead soldier's example as it passes my mind, is worth taking notice of. If the war had continued any long time these States, in my opinion, would have shown and proved the most conclusive military talents ever evinced by any nation on earth. That they possess'd a rank and file ahead of all other known in points of quality and limitlessness of number are easily admitted. But we have, too, the eligibility of organizing, handling and officering equal to the other. These two, with modern arms, transportation, and inventive American genius, would make the United States, with earnestness, not only able to stand the whole world, but conquer that world united against us."</p>
+                </note>
                 </lg>
                 
-                <note type="authorial">
-                    <p>N<hi rend="smallcaps">OTE</hi>&#8212;C<hi rend="smallcaps">AMDEN</hi>, N. J., August 7, 1888.&#8212;Walt Whitman asks the <hi rend="italic">New York Herald</hi> "to add his tribute to Sheridan<hi hand="#h04" rend="circled" xml:id="j003">:</hi>"<add hand="#h04" place="below" rend="marked"><metamark target="#j003" function="adjust">&#8248;</metamark></add><add hand="#h04" place="right"><metamark target="#j003" function="unknown">&#10003;</metamark></add></p>
-                    
-                    <p>"In the grand constellation of five or six names, under Lincoln's Presidency, that history will bear for ages in her firmaments as marking the last life-throbs of secession, and beaming on its dying gasps, Sheridan's will be bright. One consideration rising out of the now dead soldier's example as it passes my mind, is worth taking notice of. If the war had continued any long time these States, in my opinion, would have shown and proved the most conclusive military talents ever evinced by any nation on earth. That they possess'd a rank and file ahead of all other known in points of quality and limitlessness of number are easily admitted. But we have, too, the eligibility of organizing, handling and officering equal to the other. These two, with modern arms transportation, and inventive American genius, would make the United States, with earnestness, not only able to stand the whole world, but conquer that world united against us."</p>
-                </note>
-            </div>
-            
-            
-            <div xml:id="s017">
-                
                 <metamark target="#s017" function="unknown"><add hand="#h04" place="right">&#10003;</add></metamark>
-                
-                <note type="work_relations" target="xxx.00395" cert="high"/>
-                
-                <lg type="poem">
-                    
+            
+                <lg type="poem" xml:id="s017">
+                    <note type="work_relations" target="xxx.00395" cert="high"/>
                     <head type="main">OLD CHANTS.</head>                
                 
                     <lg type="linegroup">
@@ -492,12 +413,13 @@
                         <l>Ever so far back, preluding thee, America,</l>
                         <l>Old chants, Egyptian priests, and those of Ethiopia,</l>
                         <l>The Hindu epics, the Grecian, Chinese, Persian,</l>
-                        <l>The Biblic books and prophets, and deep id<hi hand="#h04" rend="underline">yls</hi> of the <choice><orig>Naza-<lb/> rene</orig><reg>Nazarene</reg></choice></l>
-                    
-           <note type="editorial" hand="#h04" place="bottom">To F. B. Bro</note>
+                        <l>The Biblic books and prophets, and deep id<hi hand="#h04" rend="underline">yls</hi> of the <choice><orig>Naza-<lb/>rene,</orig><reg>Nazarene,</reg></choice></l>
                     
                     
+           <note type="collaborative" hand="#h04" place="bottom">To F. B. &amp; Co</note>
                     
+                    <!-- CONTINUE PROOFING HERE. KM -->
+           <pb xml:id="leaf003v" type="verso"/>         
                     
                     
            <pb xml:id="leaf004r" facs="loc_ja.00013.jpg" type="recto"/> 
@@ -531,7 +453,7 @@
                
                 </lg>
 
-            </div><anchor xml:id="s018"/>
+            <anchor xml:id="s018"/>
             
             
             <div xml:id="s020">
