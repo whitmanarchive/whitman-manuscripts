@@ -6,17 +6,15 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
-    <title level="m" type="main" rend="bracketed">let the big</title>
+    <title level="m" type="main">Complete Poems &amp; Prose</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="kmh">Kenneth Michael Hoover</persName>
+     <persName xml:id="bb">Brett Barney</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -28,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,69 +36,49 @@
                 </address>
     <availability>
      <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
-     <p>
-      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
-      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
-      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+     <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
     </availability>
-    
-
    <idno>loc.00046</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
-    
-<!--  THIS NEXT ELEMENT, <NOTE>, IS FOR CONNECTING THE MANUSCRIPT TO THE PUBLISHED WORK TO WHICH IT CONTRIBUTED. IF YOU KNOW WHAT THAT WORK IS (OR CAN FIGURE IT OUT), 
-     PUT THE APPROPRIATE WORK ID AS THE VALUE OF @TARGET (CONSULT THE TRACKING DATABASE TO GET THE WORK ID) AND CHOOSE FROM "LOW," "MEDIUM," OR "HIGH" AS THE VALUE OF @CERT. 
-     IN THE <P> THAT FOLLOWS THE <NOTE>, HAVE A CRACK AT EXPLAINING THE EVIDENCE YOU HAVE FOR CONNECTING THIS MANUSCRIPT TO THE WORK.
-     IF YOU CAN'T FIGURE OUT WHAT WORK THIS MANUSCRIPT IS A DRAFT OF, SKIP THESE TWO ELEMENTS AND AN EDITOR WILL FILL IT IN LATER. -->
-    
-     <note type="work_relations" target="xxx.00503" cert="high">
-      <p></p>
-     </note>
+    <note type="project" target="#dat1">As his note in the bottom right corner indicates, Horace Traubel recorded the existence of this particular item during his visit to Whitman on October 28, 1888 (see <ref target="med.00002.106">med.00002.106</ref>).</note>
+<!--  BEGIN HERE.   NB: THIS NOTE ABOVE NEEDS TO BE REVISED (IT'S JUST THE ONE COPIED FROM LOC.00045). TRAUBEL'S NOTE ON THIS MS SEEMS TO BE POINTING TO A CONVERSATION THAT STARTED ON OCT. 21 (P. 513 OF V.2) AND WENT INTO THE FIRST BIT OF OCT. 22 (P. 515), WHERE HE SAYS THAT "W. GAE ME HIS ORIGINAL PENCIL DESIGN AND A SECOND DESIGN MADE ON A COPY OF THE REJECTED PORTRAIT."  -->
+    <note type="work_relations" target="xxx.00503" cert="high">This mock-up represents a late stage of Whitman's work on the title page for <hi rend="italic">Complete Poems &amp; Prose</hi>, which he self-published near the end of 1888.</note>
    </notesStmt>
-   
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
-     
      <title>Complete Poems and Prose (1888); Manuscript Drafts; Title page</title>  
-     
      <date when="1888" cert="high">1888</date>
-     
      <idno type="callno">mss18630, box 19; reel 12</idno>
-     
      <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
-     
      <note>Transcribed from digital images of the original.</note>
-      
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="pencil" xml:id="h01" resp="#ww" scope="major"/>
-    <handNote medium="blue pencil" xml:id="h02" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h01" resp="#ww" scope="minor"/>
+    <handNote medium="blue pencil" xml:id="h02" resp="#ww" scope="major"/>
     <handNote medium="black ink" xml:id="h03" resp="#ww" scope="minor"/>
-    <handNote medium="black ink" xml:id="h04" resp="#ht" scope="minor">Horace Traubel</handNote>
+    <handNote medium="black ink" xml:id="h04" resp="#ht" scope="minor"><name xml:id="ht">Horace Traubel</name></handNote>
    </handNotes>
   </profileDesc>
-<revisionDesc>
- 
+<revisionDesc> 
+ <change when="2026-09-02" who="#bb">proofed</change>
  <change when="2025-02-19" who="#kmh">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
-
  <text type="manuscript">
    
    <pb xml:id="leaf001r" facs="loc_ew.00156.jpg" type="recto"/>
    
    <front>
     <titlePage>
-      <note type="authorial" hand="#h01" place="top">let the big &amp;c letters (as here) overlap the engraving ab't in the proportion as here I want the head to <hi rend="underline">set up</hi> on the page a little</note>
+      <note type="authorial" hand="#h01" place="top"><p>let the big &amp;c letters (as here) overlap the engraving ab't in the proportion as here</p> <p>I want the head to <hi rend="underline">set up</hi> on the page a little</p></note>
       <docTitle>
       <titlePart type="main"><retrace hand="#h03">COMPLETE</retrace></titlePart>
-      <figure><figDesc>A photographic portrait of Walt Whitman.</figDesc></figure>
+       <figure><figDesc>a halftone, oval reproduction of a photograph of Walt Whitman by Jacob Spieler</figDesc></figure>
       <titlePart type="main">Poems &amp; PROSE<lb/> of Walt Whitman<lb/> 1855&#8211;1888</titlePart><note type="authorial" place="right">big line across the whole page</note>
       <titlePart type="desc"><hi rend="doubleUnderline">Authenticated &amp; Personal Book</hi> (<hi rend="underline">handled</hi><lb/> <hi rend="underline">by W W</hi>)...<hi rend="underline">Portra<lb/> its from Life</hi>...<lb/> <hi rend="underline">Autograph</hi>.</titlePart>
       <note type="authorial" place="right">use the short &amp;</note>
