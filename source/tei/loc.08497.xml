@@ -922,17 +922,13 @@
                     <l>"Ship ahoy!" thro' trumpet or by voice, if nothing more, some<lb/> friendly merry word at least,</l>
                     <l>For companionship and good will for ever to all and each.</l>
                 </lg>
-            
-                <metamark target="#s041" function="unknown"><add hand="#h05" place="left">&#10003;</add></metamark>
-            
-                <metamark target="#s041" function="unknown"><add hand="#h04" place="right">&#10003;</add></metamark>
                 
                 <note type="authorial" hand="#h07" place="left" rend="marked" target="#s041">I can give headings &amp;<gap reason="cut away" extent="three characters"/> these &#182;'s to fill out the pages when they w'd fill well</note>
                 
                 <lg type="poem" xml:id="s041">
                     <note type="work_relations" target="xxx.00406" cert="high"/>
                     <head type="main">L. OF G.'S PURPORT.</head>
-                    <!-- CONTINUE PROOFING HERE. KM -->
+\
                     <lg type="linegroup">
                         <l>N<hi rend="smallcaps">OT</hi> to exclude or demarcate, or pick out evils from their <choice><orig>formid-<lb/>able</orig><reg>formidable<lb/></reg></choice> masses (even to expose them,)</l>
                         <l>But add, fuse, complete, extend&#8212;and celebrate the immortal and<lb/> the good.</l>
@@ -945,11 +941,11 @@
                     </lg>
                     
                     
-                    <lg type="linegroup" xml:id="s045">
+                    <lg type="linegroup" xml:id="s045" rend="circled">
                         
                         <note type="work_relations" target="xxx.00385" cert="high"/>
                         
-                        <addSpan spanTo="#a007" rend="circled"/><head type="main" hand="#h02" place="left" rend="doubleUnderline"><hi hand="#h04" rend="underline">Apparitions</hi></head><anchor xml:id="a007"/>
+                        <head type="main" rend="doubleUnderline"><add rend="circled" hand="#h02" place="left" ><hi hand="#h04" rend="underline">Apparitions</hi></add></head>
                         
                         <l>A vague mist hanging 'round half the pages:</l>
                         <l>(Sometimes how strange and clear to the soul,</l>
@@ -970,31 +966,32 @@
                         <l>I end it here in sickness, poverty, and old age.</l>
                     </lg>
                     
+                    <metamark target="#s041" function="unknown"><add hand="#h05" place="left">&#10003;</add></metamark>
+                    
+                    <metamark target="#s041" function="unknown"><add hand="#h04" place="right">&#10003;</add></metamark>
+                    
                     <lg type="linegroup">
                         <l>I sing of life, yet mind me well of death:</l>
                         <l>To-day shadowy Death dogs my steps, my seated shape, and<lb/> has for years&#8212;</l>
                         <l>Draws sometimes close to me, as face to face.</l>
-                        <l rend="center"><hi rend="italic">For us two, reader dear.</hi></l>
-                        <l>Simple, spontaneous, curious, two souls interchanging,</l>
-                        <l>With the original testimony for us continued to the last.</l>
                     </lg>
                 </lg>
-                
             
+                 <lg type="poem">
+                     <note type="work_relations" target="xxx.00566" cert="high"/>
+                     <head type="main" place="center"><hi rend="italic">For us two, reader dear.</hi></head>
+                     <l>Simple, spontaneous, curious, two souls interchanging,</l>
+                     <l>With the original testimony for us continued to the last.</l>
+                 </lg>
             
-            
-            <div xml:id="s046">
-                
-                <metamark target="#s046" function="unknown"><add hand="#h04" place="right">&#10003;</add></metamark>
-                
                 <metamark target="#s046" function="unknown"><add hand="#h05" place="left">&#10003;</add></metamark>
+            
+                <metamark target="#s046" function="unknown"><add hand="#h04" place="right">&#10003;</add></metamark>
+            
+                <note type="authorial" hand="#h07" place="right" rend="marked" target="#s046">this to be the last page<lb/>&#8212;an even number'd page</note>
                 
-                <note type="work_relations" target="xxx.00459" cert="medium"/>
-                
-                <note type="authorial" hand="#h07" place="right" rend="marked" target="#s046">this to be the last page-and even number'd page</note>
-                
-                <lg type="poem">
-                    
+                <lg type="poem" xml:id="s046">
+                     <note type="work_relations" target="xxx.00459" cert="medium"/>
                     <head type="main">GOOD-BYE MY FANCY!</head>
                     
                     <lg type="linegroup">
@@ -1022,16 +1019,13 @@
                         <l>Then if we die we die together, (yes, we'll remain one,)</l>
                         <l>If we go anywhere we'll go together to meet what happens,</l>
                         <l>May-be we'll be better off and blither, and learn something,</l>
-                        <l>May-be it is yourself now really ushering me<add hand="#h04"><metamark function="unknown">|</metamark></add> to<add hand="#h04"><metamark function="unknown">|</metamark></add> the true songs,<lb/> (who knows?)</l>
+                        <l>May-be it is yourself now really ushering me<add hand="#h04"><metamark function="adjust">|</metamark></add> to<add hand="#h04"><metamark function="unknown">|</metamark></add> the true songs,<lb/> (who knows?)</l>
                         <l>May-be it is you the mortal knob really undoing, turning&#8212;so<lb/> now finally,</l>
                         <l>Good-bye&#8212;and hail! my Fancy.</l>
                     </lg>
                 </lg>
-                
-            </div>
             
-            
-            <note type="editorial" hand="#h04" place="bottom">To F. B.</note>
+            <note type="collaborative" hand="#h04" place="bottom">To F. B.</note>
            
         </body>
     </text>
