@@ -37,20 +37,20 @@
     <availability>
      <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
      <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
-    </availability>
-   <idno>loc.00046</idno>
+              </availability>
+             <idno>loc.00046</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1">As his note in the bottom right corner indicates, Horace Traubel recorded the existence of this particular item during his visit to Whitman on October 28, 1888 (see <ref target="med.00002.106">med.00002.106</ref>).</note>
-<!--  BEGIN HERE.   NB: THIS NOTE ABOVE NEEDS TO BE REVISED (IT'S JUST THE ONE COPIED FROM LOC.00045). TRAUBEL'S NOTE ON THIS MS SEEMS TO BE POINTING TO A CONVERSATION THAT STARTED ON OCT. 21 (P. 513 OF V.2) AND WENT INTO THE FIRST BIT OF OCT. 22 (P. 515), WHERE HE SAYS THAT "W. GAE ME HIS ORIGINAL PENCIL DESIGN AND A SECOND DESIGN MADE ON A COPY OF THE REJECTED PORTRAIT."  -->
-    <note type="work_relations" target="xxx.00503" cert="high">This mock-up represents a late stage of Whitman's work on the title page for <hi rend="italic">Complete Poems &amp; Prose</hi>, which he self-published near the end of 1888.</note>
+    <note type="project" target="#dat1">As Horace Traubel's notation in the bottom right corner indicates, this document is the title page "design made on a copy of the rejected portrait" mentioned in Horace Traubel's record of his visit to Whitman on October 28, 1888 (see <ref target="med.00002.100">med.00002.100</ref>).</note>
+
+    <note type="work_relations" target="xxx.00503" cert="high">This is an early mock-up of the title page for <hi rend="italic">Complete Poems &amp; Prose</hi>, which Whitman self-published near the end of 1888.</note>
    </notesStmt>
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      <title>Complete Poems and Prose (1888); Manuscript Drafts; Title page</title>  
      <date when="1888" cert="high">1888</date>
-     <idno type="callno">mss18630, box 19; reel 12</idno>
+     <idno type="callno">mss18630, box 19</idno>
      <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      <note>Transcribed from digital images of the original.</note>
     </bibl>
@@ -62,6 +62,7 @@
     <handNote medium="blue pencil" xml:id="h02" resp="#ww" scope="major"/>
     <handNote medium="black ink" xml:id="h03" resp="#ww" scope="minor"/>
     <handNote medium="black ink" xml:id="h04" resp="#ht" scope="minor"><name xml:id="ht">Horace Traubel</name></handNote>
+    <handNote medium="pencil" xml:id="h05" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc> 
@@ -77,19 +78,19 @@
     <titlePage>
       <note type="authorial" hand="#h01" place="top"><p>let the big &amp;c letters (as here) overlap the engraving ab't in the proportion as here</p> <p>I want the head to <hi rend="underline">set up</hi> on the page a little</p></note>
       <docTitle>
-      <titlePart type="main"><retrace hand="#h03">COMPLETE</retrace></titlePart>
+      <titlePart type="main" ><retrace hand="#h03"><seg hand="#h01">COMPLETE</seg></retrace></titlePart>
        <figure><figDesc>a halftone, oval reproduction of a photograph of Walt Whitman by Jacob Spieler</figDesc></figure>
-      <titlePart type="main">Poems &amp; PROSE<lb/> of Walt Whitman<lb/> 1855&#8211;1888</titlePart><note type="authorial" place="right">big line across the whole page</note>
-      <titlePart type="desc"><hi rend="doubleUnderline">Authenticated &amp; Personal Book</hi> (<hi rend="underline">handled</hi><lb/> <hi rend="underline">by W W</hi>)...<hi rend="underline">Portra<lb/> its from Life</hi>...<lb/> <hi rend="underline">Autograph</hi>.</titlePart>
-      <note type="authorial" place="right">use the short &amp;</note>
-      <note type="editorial" place="bottom" hand="#h04">see notes Oct 22, 1888</note>
+      <titlePart type="main"><seg hand="#h02">POEMS &amp; PROSE <lb/>of Walt Whitman<lb/> 1855&#8211;1888</seg></titlePart><note type="authorial" hand="#h01" place="right">big line across the whole page</note>
+      <titlePart type="sub"><seg hand="#h02"><hi rend="doubleUnderline">Authenticated &amp; Personal Book</hi> (<hi rend="underline">handled</hi> <lb/><hi rend="underline">by W W</hi>) . . . <hi rend="underline">Portraits from Life</hi> . . . <lb/><hi rend="underline">Autograph</hi>.</seg></titlePart>
+      <note type="authorial" place="right" hand="#h01">use the short &amp;</note>
+      <note type="editorial" place="bottom" hand="#h04">see notes Oct 22 1888</note>
      </docTitle>
     </titlePage>
    </front>
-  
-  <body><p></p></body>
-   
    <pb xml:id="leaf001v" facs="loc_ew.00157.jpg" type="verso"/>
-   
+   <body>
+    <ab/>
+    <note type="archival" place="bottom" hand="#h05">2-92-218. 5D</note>
+   </body>
 </text>
 </TEI>
