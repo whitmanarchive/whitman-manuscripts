@@ -44,7 +44,7 @@
                 <idno>loc.08497</idno>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1">Whitman started receiving sets of first galley proofs of the poetry section of <hi rend="italic">Good-Bye My Fancy</hi> on or after February 28, 1891. He seems to have returned them, also in batches, by March 8, meaning that the corrections on the present proof were made sometime between those dates. The previous grouping of proof pages can be viewed <ref target="loc.08496">here</ref>; the next grouping of pages can be viewed <ref target="loc.08497">here</ref>. Images of the versos are not currently available.</note><!-- REVISE THIS FURTHER AT END. KM -->
+                <note type="project" target="#dat1">Whitman started receiving sets of first galley proofs of the poetry section of <hi rend="italic">Good-Bye My Fancy</hi> on or after February 28, 1891, sending in corrections several pages at a time. Sometime in early March he received the present, second set of galleys of the poetry section, meaning that the corrections here were made sometime in early March 1891. The previous grouping of proof pages on which Whitman worked can be viewed <ref target="loc.08496">here</ref>; the next grouping of pages can be viewed <ref target="loc.08501">here</ref>. Other than for the first leaf, images of the versos are not currently available.</note>
                 
                 <note type="work_relations" target="xxx.00377" cert="high">Corrected galley proofs of the opening poetry section of <hi rend="italic">Good-Bye My Fancy</hi>, a collection of poetry and prose published in 1891.</note>
             </notesStmt>
@@ -55,7 +55,7 @@
                     
                     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Oversize, 1844-1952; Literary File; Books; Good-Bye My Fancy ( 1891); Proofs; Proof sheets; Miscellany (Container 20)</title>
                     
-                    <date when="1891" cert="high">1891</date>
+                    <date notBefore="1891-02-28" notAfter="1891-03-15" cert="high" xml:id="dat1">Early March 1891</date>
                     
                     <idno type="callno">mss18630, box OV 3</idno>
                     
@@ -554,7 +554,7 @@
                     <note type="work_relations" target="xxx.00401" cert="high"/>
                     <head type="main">A VOICE FROM DEATH.</head>
                 
-                <note type="textual" rend="small">(The Johnstown, Penn., cataclysm, May 31, 1889.)</note>                                  
+                <head type="sub" rend="small">(The Johnstown, Penn., cataclysm, May 31, 1889.)</head>                                  
                     
                     <lg type="linegroup">
                         <l>A <hi rend="smallcaps">VOICE</hi> from Death, solemn and strange, in all his sweep and<lb/> power,</l>
@@ -628,7 +628,7 @@
                     <note type="work_relation" target="xxx.00557" cert="high"/>
                     <head type="main">FOR QUEEN VICTORIA'S BIRTHDAY.</head>
                 
-                <note type="textual" rend="small"><hi rend="italic">An American arbutus to be put in a little vase on the royal breakfast table, May 24th, 1890.</hi></note>               
+                <head type="sub" rend="small"><hi rend="italic">An American arbutus to be put in a little vase on the royal breakfast table, May 24th, 1890.</hi></head>               
                 
                     <l>L<hi rend="smallcaps">ADY</hi>, accept a birth-day thought&#8212;haply an idle gift and token,</l>
                     <l>Right from the scented soil's May-utterance here,</l>
@@ -657,7 +657,7 @@
                     <note type="work_relations" target="xxx.00396" cert="high"/>
                     <head type="main" xml:id="s028">A CHRISTMAS GREETING.</head>
                 
-                    <note type="textual" rend="small"><hi rend="italic">From a Northern Star-Group to a Southern. 1889-'90.</hi></note>
+                    <head type="sub" rend="small"><hi rend="italic">From a Northern Star-Group to a Southern. 1889-'90.</hi></head>
                                 
                     <l>W<hi rend="smallcaps">ELCOME</hi>, Brazilian brother&#8212;thy ample place is ready;</l>
                     <l>A loving hand&#8212;a smile from the north&#8212;a sunny instant hail!</l>
@@ -695,7 +695,7 @@
                     <note type="work_relations" target="xxx.00593" cert="high"/>
                     <head type="main">DEATH'S VALLEY.</head>   
                     
-                    <note type="textual" rend="small"><hi rend="italic">To Accompany a Picture. By Request.</hi></note>
+                    <head type="sub" rend="small"><hi rend="italic">To Accompany a Picture. By Request.</hi></head>
                     
                     <lg type="linegroup">
                         <l>N<hi rend="smallcaps">AY</hi>, do not dream, designer dark,</l>
@@ -836,13 +836,12 @@
                 <metamark target="#s037" function="unknown"><add hand="#h04" place="right">&#10003;</add></metamark>
                 
                 <metamark target="#s037" function="unknown"><add hand="#h04" place="right">&#10003;</add></metamark>
-                
-                <lg type="linegroup" xml:id="s037">
+
+                <lg type="poem" xml:id="s037">
                     <note type="work_relations" target="xxx.00402" cert="high"/>
                     <head type="main">A PERSIAN LESSON.</head>
                 
-                    <lg type="poem">
-                                      
+                    <lg type="linegroup">
                         <l>F<hi rend="smallcaps">OR</hi> his o'erarching and last lesson the greybeard sufi,</l>
                         <l>In the fresh scent of the morning in the open air,</l>
                         <l>On the slope of a teeming Persian rose-garden,</l>
@@ -851,7 +850,7 @@
                     </lg>
                     
                     <lg type="linegroup">
-                        <l>"Finally my children, the envelope each word, each part of the<lb/> rest,</l>
+                        <l>"Finally my children, to envelop each word, each part of the<lb/> rest,</l>
                         <l>Allah is all, all, all&#8212;is immanent in every life and object,</l>
                         <l>May-be at many and many-a-more removes&#8212;yet Allah, Allah,<lb/> Allah is there.</l>
                     </lg>
@@ -873,58 +872,48 @@
                 
             
             
-            <note type="editorial" hand="#h04" place="bottom">To F. B.</note>
+            <note type="collaborative" hand="#h04" place="bottom">To F. B.</note>
             
-            
+            <pb xml:id="leaf007v" type="verso"/>
             
             <pb xml:id="leaf008r" facs="loc_ja.00017.jpg" type="recto"/>
             
             <note type="collaborative" hand="#h04" place="top" rend="circled">H</note>
             
-            <div xml:id="s038">
-                
-                <metamark target="#s038" function="unknown"><add hand="#h04" place="right">&#10003;</add></metamark>
-                
-                <metamark target="#s038" function="unknown"><add hand="#h05" place="left">&#10003;</add></metamark>
-                
-            <note type="work_relations" target="xxx.00405" cert="high"/>
+            <metamark target="#s038" function="unknown"><add hand="#h05" place="left">&#10003;</add></metamark>
             
-            <lg type="poem">
-                
+                <metamark target="#s038" function="unknown"><add hand="#h04" place="right">&#10003;</add></metamark>            
+            
+            <lg type="poem" xml:id="s038">
+                <note type="work_relations" target="xxx.00405" cert="high"/>
                 <head type="main">MIRAGES.</head>
                 
-                <note type="authorial" rend="italic">(Noted verbatim after a supper-talk out doors in Nevada with two old miners.)</note>                
+                <head type="sub" rend="small">(<hi rend="italic">Noted verbatim after a supper-talk out doors in Nevada with two old miners.</hi>)</head>   
+                
                     <l>M<hi rend="smallcaps">ORE</hi> experiences and sights, stranger, than you'd think for;</l>
                     <l>Times again, now mostly just after sunrise or before sunset,</l>
                     <l>Sometimes in spring, oftener in autumn, perfectly clear weather,<lb/> in plain sight,</l>
-                    <l>Camps far or near, the crowded streets of cities and the <choice><orig>shop-<lb/> fronts</orig><reg>shopfronts</reg></choice>,</l>
+                    <l>Camps far or near, the crowded streets of cities and the shop-<lb/>fronts,</l>
                     <l>(Account for it or not&#8212;credit or not&#8212;it is all true,</l>
-                    <l>And my mate there could tell you the like&#8212;we have often <choice><orig>con-<lb/> fab'd</orig><reg>confab'd</reg></choice> about it,)</l>
+                    <l>And my mate there could tell you the like&#8212;we have often <choice><orig>con-<lb/>fab'd</orig><reg>confab'd<lb/></reg></choice> about it,)</l>
                     <l>People and scenes, animals, trees, colors and lines, plain as could<lb/> be,</l>
                     <l>Farms and dooryards of home, paths border'd with box, lilacs<lb/> in corners,</l>
-                    <l>Weddings in churches, thanksgiving dinners, returns of <choice><orig>long<hi hand="#h02" rend="underline">-</hi><lb/> absent</orig><reg>long-absent</reg></choice> sons,</l>
+                    <l>Weddings in churches, thanksgiving dinners, returns of long-<lb/>absent sons,</l>
                     <l>Glum funerals, the crape-veil'd mother and the daughters,</l>
                     <l>Trials in courts, jury and judge, the accused in the box,</l>
                     <l>Contestants, battles, crowds, bridges, wharves,</l>
-                    <l>Now and then mark'd faces or sorrow or joy,</l>
+                    <l>Now and then mark'd faces of sorrow or joy,</l>
                     <l>(I could pick them out this moment if I saw them again,)</l>
                     <l>Show'd to me just aloft to the right in the sky-edge,</l>
                     <l>Or plainly there to the left on the hill-tops.</l>
                 </lg>
-            
-            </div>
-            
-            
-            <div xml:id="s039">
+
+                <note type="authorial" hand="#h07" place="left" target="#s039" rend="marked">set this on on the galley<lb/> leave it out of the make up</note>
                 
-                <note type="work_relations" target="xxx.00556" cert="high"/>
+                <note type="collaborative" hand="#h04" place="right" rend="circled" target="#s039">taken out</note>
                 
-                <note type="authorial" hand="#h07" place="left" target="#s039" rend="marked">set this on on the galley leave it out of the make up</note>
-                
-                <note type="collaborative" hand="#h04" place="right" rend="marked" target="#s039">taken out</note>
-                
-                <lg type="poem">
-                    
+                <lg type="poem" xml:id="s039">
+                    <note type="work_relations" target="xxx.00556" cert="high"/>
                     <head type="main">SHIP AHOY!</head>
                     
                     <l>I<hi rend="smallcaps">N</hi> dreams I was a ship, and sail'd the boundless seas,</l>
@@ -934,25 +923,14 @@
                     <l>For companionship and good will for ever to all and each.</l>
                 </lg>
                 
-            </div>
-            
-            
-            <div xml:id="s041">
+                <note type="authorial" hand="#h07" place="left" rend="marked" target="#s041">I can give headings &amp;<gap reason="cut away" extent="three characters"/> these &#182;'s to fill out the pages when they w'd fill well</note>
                 
-                <metamark target="#s041" function="unknown"><add hand="#h04" place="right">&#10003;</add></metamark>
-                
-                <metamark target="#s041" function="unknown"><add hand="#h05" place="left">&#10003;</add></metamark>
-                
-                <note type="work_relations" target="xxx.00406" cert="high"/>
-                
-                <note type="authorial" hand="#h07" place="left" rend="marked" target="#s041">I can give headings to these &#182;'s to fill out the pages when they w'd fill well</note>
-                
-                <lg type="poem">
-                    
+                <lg type="poem" xml:id="s041">
+                    <note type="work_relations" target="xxx.00406" cert="high"/>
                     <head type="main">L. OF G.'S PURPORT.</head>
-                    
+
                     <lg type="linegroup">
-                        <l>N<hi rend="smallcaps">OT</hi> to exclude or demarcate, or pick out evils from their <choice><orig>formid-<lb/> able</orig><reg>formidable</reg></choice> masses (even to expose them,)</l>
+                        <l>N<hi rend="smallcaps">OT</hi> to exclude or demarcate, or pick out evils from their <choice><orig>formid-<lb/>able</orig><reg>formidable<lb/></reg></choice> masses (even to expose them,)</l>
                         <l>But add, fuse, complete, extend&#8212;and celebrate the immortal and<lb/> the good.</l>
                     </lg>
                     
@@ -963,11 +941,11 @@
                     </lg>
                     
                     
-                    <lg type="linegroup" xml:id="s045">
+                    <lg type="linegroup" xml:id="s045" rend="circled">
                         
                         <note type="work_relations" target="xxx.00385" cert="high"/>
                         
-                        <addSpan spanTo="#a007" rend="circled"/><head type="main" hand="#h02" place="left" rend="doubleUnderline"><hi hand="#h04" rend="underline">Apparitions</hi></head><anchor xml:id="a007"/>
+                        <head type="main" rend="doubleUnderline"><add rend="circled" hand="#h02" place="left" ><hi hand="#h04" rend="underline">Apparitions</hi></add></head>
                         
                         <l>A vague mist hanging 'round half the pages:</l>
                         <l>(Sometimes how strange and clear to the soul,</l>
@@ -988,31 +966,32 @@
                         <l>I end it here in sickness, poverty, and old age.</l>
                     </lg>
                     
+                    <metamark target="#s041" function="unknown"><add hand="#h05" place="left">&#10003;</add></metamark>
+                    
+                    <metamark target="#s041" function="unknown"><add hand="#h04" place="right">&#10003;</add></metamark>
+                    
                     <lg type="linegroup">
                         <l>I sing of life, yet mind me well of death:</l>
                         <l>To-day shadowy Death dogs my steps, my seated shape, and<lb/> has for years&#8212;</l>
                         <l>Draws sometimes close to me, as face to face.</l>
-                        <l rend="center"><hi rend="italic">For us two, reader dear.</hi></l>
-                        <l>Simple, spontaneous, curious, two souls interchanging,</l>
-                        <l>With the original testimony for us continued to the last.</l>
                     </lg>
                 </lg>
-                
-            </div>
             
+                 <lg type="poem">
+                     <note type="work_relations" target="xxx.00566" cert="high"/>
+                     <head type="main" place="center"><hi rend="italic">For us two, reader dear.</hi></head>
+                     <l>Simple, spontaneous, curious, two souls interchanging,</l>
+                     <l>With the original testimony for us continued to the last.</l>
+                 </lg>
             
-            <div xml:id="s046">
-                
-                <metamark target="#s046" function="unknown"><add hand="#h04" place="right">&#10003;</add></metamark>
-                
                 <metamark target="#s046" function="unknown"><add hand="#h05" place="left">&#10003;</add></metamark>
+            
+                <metamark target="#s046" function="unknown"><add hand="#h04" place="right">&#10003;</add></metamark>
+            
+                <note type="authorial" hand="#h07" place="left" rend="marked" target="#s046">this to be the last page<lb/>&#8212;an even number'd page</note>
                 
-                <note type="work_relations" target="xxx.00459" cert="medium"/>
-                
-                <note type="authorial" hand="#h07" place="right" rend="marked" target="#s046">this to be the last page-and even number'd page</note>
-                
-                <lg type="poem">
-                    
+                <lg type="poem" xml:id="s046">
+                     <note type="work_relations" target="xxx.00459" cert="medium"/>
                     <head type="main">GOOD-BYE MY FANCY!</head>
                     
                     <lg type="linegroup">
@@ -1040,16 +1019,13 @@
                         <l>Then if we die we die together, (yes, we'll remain one,)</l>
                         <l>If we go anywhere we'll go together to meet what happens,</l>
                         <l>May-be we'll be better off and blither, and learn something,</l>
-                        <l>May-be it is yourself now really ushering me<add hand="#h04"><metamark function="unknown">|</metamark></add> to<add hand="#h04"><metamark function="unknown">|</metamark></add> the true songs,<lb/> (who knows?)</l>
+                        <l>May-be it is yourself now really ushering me<add hand="#h04"><metamark function="adjust">|</metamark></add> to<add hand="#h04"><metamark function="unknown">|</metamark></add> the true songs,<lb/> (who knows?)</l>
                         <l>May-be it is you the mortal knob really undoing, turning&#8212;so<lb/> now finally,</l>
                         <l>Good-bye&#8212;and hail! my Fancy.</l>
                     </lg>
                 </lg>
-                
-            </div>
             
-            
-            <note type="editorial" hand="#h04" place="bottom">To F. B.</note>
+            <note type="collaborative" hand="#h04" place="bottom">To F. B.</note>
            
         </body>
     </text>
