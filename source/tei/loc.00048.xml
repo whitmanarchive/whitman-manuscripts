@@ -6,17 +6,15 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
-    <title level="m" type="main" rend="bracketed">To printer</title>
+    <title level="m" type="main" rend="bracketed">Complete Poems &amp; Prose</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="kmh">Kenneth Michael Hoover</persName>
+     <persName xml:id="bb">Brett Barney</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -39,37 +37,31 @@
                 </address>
     <availability>
      <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
-     <p>
-      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
-      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
-      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+     <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
     </availability>
-    
-
    <idno>loc.00048</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1"></note>
     
     <note type="work_relations" target="xxx.00503" cert="high">
-      <p></p>
+
      </note>
+    
+<!--    <note type="project" target="#dat1">As Horace Traubel's notation in the bottom right corner indicates, this document is the title page "design made on a copy of the rejected portrait" mentioned in Horace Traubel's record of his visit to Whitman on October 28, 1888 (see <ref target="med.00002.100">med.00002.100</ref>).</note>
+    <note type="work_relations" target="xxx.00503" cert="high">This is an early mock-up of the title page for <hi rend="italic">Complete Poems &amp; Prose</hi>, which Whitman self-published near the end of 1888.</note>-->
+    
+    
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
-     
      <title>Complete Poems and Prose (1888); Manuscript Drafts; Title page</title>  
-     
      <date when="1888" cert="high">1888</date>
-     
-     <idno type="callno">mss18630, box 19, reel 12</idno>
-     
+     <idno type="callno">mss18630, box 19</idno>
      <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
-     
      <note>Transcribed from digital images of the original.</note>
-      
     </bibl>
    </sourceDesc>
 </fileDesc>
@@ -83,8 +75,7 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
-
+ <change when="2026-09-10" who="#bb">proofed</change>
  <change when="2025-02-24" who="#kmh">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
