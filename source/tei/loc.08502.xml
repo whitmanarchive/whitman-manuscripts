@@ -6,18 +6,15 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
-       <title level="m" type="main" rend="bracketed">You Can Make up All the following</title>
+       <title level="m" type="main" rend="bracketed">You can make up all</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
-     <persName xml:id="sd">Sarah Danielson</persName>
-        
+        <persName xml:id="sd">Sarah Danielson</persName>
+        <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -29,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -45,16 +41,12 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.08502</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
    
-    <note type="work_relations" target="xxx.00459" cert="high">
-      <p></p>
-     </note>
+    <note type="work_relations" target="xxx.00459" cert="high"></note>
    </notesStmt>
    
    <sourceDesc>
@@ -78,12 +70,12 @@
    <handNotes>
     <handNote medium="letterpress" xml:id="h01" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
     <handNote medium="black ink" xml:id="h02" resp="#ww"/>
-    <handNote medium="pencil" xml:id="h03" resp="#ww"/>
-    <handNote medium="pencil" xml:id="h04" resp="#unk"/>
+    <handNote medium="pencil" xml:id="h03" resp="#unk1"><name xml:id="unk1">Unknown</name></handNote>
+    <handNote medium="pencil" xml:id="h04" resp="#ht"><name xml:id="ht">Horace Traubel</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-09-10" who="#km">proofed</change>
  <change when="2026-02-19" who="#sd">transcribed and encoded</change>
  <change when="2026-02-25" who="#sd">transcribed and encoded</change>
  <change when="2026-02-26" who="#sd">transcribed and encoded</change>
@@ -96,18 +88,18 @@
    
       <pb xml:id="leaf001r" facs="loc_cm.00006.jpg" type="recto"/>
    
+   <note type="authorial" hand="#h02" place="top" rend="marked">you can make up all the following&#8212;run in the <add place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><add place="above" xml:id="a007">next <subst><del rend="overstrike" seq="1">three</del> <add seq="2">four</add></subst></add> pieces&#8212;&amp; I will give you something to make out the even-number'd page if necessary</note>
+   
       <note type="editorial" hand="#h04" place="top">April 3 1891</note>
       
-      <note type="editorial" hand="#h04" place="top">Jr</note>
+      <note type="collaborative" hand="#h03" place="top"><unclear reason="illegible" cert="high" resp="#sd">Jr</unclear></note>
       
-      <note type="editorial" hand="#h04" place="top">40</note>
-      
-      <note type="authorial" hand="#h02" place="top" rend="marked">you can make up all the following - run in <subst><del rend="overstrike" seq="1">next</del><add place="above" seq="2">next <subst><del rend="overstrike" seq="3">three</del><add seq="4">four</add></subst></add></subst> pieces - &amp; I will give you something to make at the even number page if necessary</note>
-      
-      <div>
+      <note type="collaborative" hand="#h03" place="top">40</note>
+   
+      <div type="essay">
        <note type="work_relations" target="xxx.00568" cert="high"/>
        
-       <head type="main"><hi rend="overline underline" hand="#h02" xml:id="j001">THE</hi><hi rend="underline" hand="#h04"><add hand="#h02" place="left"><metamark target="#j001" function="adjust">brev or <del rend="overstrike" hand="#h04">min</del> o s sm caps like the poems</metamark></add></hi> HUMAN VOICE.</head>
+       <head type="main"><hi rend="overline underline" hand="#h02" xml:id="j001">THE</hi><hi rend="underline" hand="#h04"><add hand="#h02" place="left"><metamark target="#j001" function="adjust">brev or <del rend="overstrike" hand="#h04">min</del> o s <del rend="overstrike">sm</del> caps like the poems</metamark></add></hi> HUMAN VOICE.</head>
       
       <p>S<hi rend="smallcaps">TATING</hi> it briefly and pointedly I should suggest that the human voice is a cultivation or form'd growth on a fair native foundation. This foundation probably exists in nine cases out of ten. Sometimes nature affords the vocal organ in perfection, or rather I would say near enough to when one's appreciation and appetite for a voice that might be truly call'd perfection. To me the grand voice is mainly physiological (by which I by no means ignore the mental help, but wish to keep the emphasis where it belongs.) Emerson says <hi rend="italics">manners</hi> form the representative apex and final charm and captivation of humanity: but he might as well have changed the typicality to voice.</p>
       
