@@ -8,16 +8,15 @@
   <fileDesc>
    <titleStmt>
     
-    <title level="m" type="main" rend="bracketed">y Morning</title>
+    <title level="m" type="main" rend="bracketed">ay Morning</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="kmh">Kenneth Michael Hoover</persName>
+     <persName xml:id="bb">Brett Barney</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -29,7 +28,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,58 +38,43 @@
                 </address>
     <availability>
      <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
-     <p>
-      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
-      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
-      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+     <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
     </availability>
-    
-
    <idno>loc.08491</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
-    
-     <note type="work_relations" target="xxx.00480" cert="high">
-      <p></p>
-     </note>
+    <note type="project" target="#dat1">The clipping is taken from the New Orleans <hi rend="italic">Picayune</hi> of 25 January 1887, so Whitman must have written his edits sometime after that date and before 26 July 1888, when Horace Traubel noted that Whitman had "complete[d] the copy for" <hi rend="italic">November Boughs</hi>.</note>
+    <note type="work_relations" target="xxx.00480" cert="high">Whitman used this clipping, taken from the original publication of "New Orleans in 1848" in the New Orleans <hi rend="italic">Picayune</hi>, to create "copy" for the typsetters preparing for the essay's reprinting in <hi rend="italic">November Boughs</hi> (1888).</note>
    </notesStmt>
-   
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
-     
      <title>November Boughs (1888); Newspaper clippings with corrections and notations</title>  
-     
-     <date when="1888" cert="high">1888</date>
-     
-     <idno type="callno">loc.08491</idno>
-     
-     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839-1919, Library of Congress, Washington, D.C.</orgName>
-     
+     <date notBefore="1887-01-25" notAfter="1888-07-26" cert="high">Between January 1887 and July 1888</date>
+     <idno type="callno">mss18630, box 23</idno>
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      <note>Transcribed from digital images of the original.</note>
-      
-     <note type="project" target="#rel01">The prose drafted on the back of these and several other related manuscript leaves includes ideas and phrases that resemble those used in "Unnamed Lands," a poem published first in the 1860 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="letterpress" xml:id="h01" resp="#unk1"><name>Unknown1</name></handNote>
-    <handNote medium="blue pencil" xml:id="h02" resp="#ww"/>
-    <handNote medium="black ink" xml:id="h03" resp="#ww"/>
-    <handNote medium="pencil" xml:id="h04" resp="#unk3"><name>Unknown3</name></handNote>
+    <handNote medium="letterpress" xml:id="h01" resp="#unk1" scope="major"><name xml:id="unk1">Unknown1</name></handNote>
+    <handNote medium="blue pencil" xml:id="h02" resp="#ww" scope="minor"/>
+    <handNote medium="black ink" xml:id="h03" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h04" resp="#unk2" scope="minor"><name xml:id="unk2">Unknown2</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-09-10" who="#bb">proofed</change>
  <change when="2025-03-03" who="#kmh">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
-
  <text type="manuscript">
   <body>
-   
+
+<!-- BEGIN HERE -->
+
    <pb xml:id="leaf001r" facs="loc_kmh.00001.jpg" type="recto"/>
    <note type="editorial" place="left" hand="#h04">George &#10003;</note>
    <note type="authorial" place="top" hand="#h02">136</note>
