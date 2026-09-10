@@ -26,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -42,15 +41,9 @@
    <idno>loc.00048</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"></note>
+    <note type="project" target="#dat1">Horace Traubel's note on the reverse contains an obviously erroneous reference to April, 1888, well before Whitman began work on <hi rend="italic">Complete Poems &amp; Prose</hi>. In his notes from October 22, Traubel says that Whitman gave him "his original pencil design" of the title page, an apparent reference to the present document (see <ref target="med.00002.100">med.00002.100</ref>).</note>
     
-    <note type="work_relations" target="xxx.00503" cert="high">
-
-     </note>
-    
-<!--    <note type="project" target="#dat1">As Horace Traubel's notation in the bottom right corner indicates, this document is the title page "design made on a copy of the rejected portrait" mentioned in Horace Traubel's record of his visit to Whitman on October 28, 1888 (see <ref target="med.00002.100">med.00002.100</ref>).</note>
-    <note type="work_relations" target="xxx.00503" cert="high">This is an early mock-up of the title page for <hi rend="italic">Complete Poems &amp; Prose</hi>, which Whitman self-published near the end of 1888.</note>-->
-    
+    <note type="work_relations" target="xxx.00503" cert="high">This is a preliminary sketch of the title page for <hi rend="italic">Complete Poems &amp; Prose</hi>, which Whitman self-published near the end of 1888.</note>
     
    </notesStmt>
    
@@ -67,11 +60,11 @@
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="pencil" xml:id="h01" resp="#ww"/>
-    <handNote medium="blue pencil" xml:id="h02" resp="#ww"/>
-    <handNote medium="black ink" xml:id="h03" resp="#ww"/>
-    <handNote medium="pencil" xml:id="h04" resp="#ht"><name xml:id="ht">Horace Traubel</name></handNote>
-    <handNote medium="pencil" xml:id="h05" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
+    <handNote medium="pencil" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="blue pencil" xml:id="h02" resp="#ww" scope="minor"/>
+    <handNote medium="black ink" xml:id="h03" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h04" resp="#ht" scope="minor"><name xml:id="ht">Horace Traubel</name></handNote>
+    <handNote medium="pencil" xml:id="h05" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
@@ -79,31 +72,31 @@
  <change when="2025-02-24" who="#kmh">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
-
  <text type="manuscript">
-   
   <pb xml:id="leaf001r" facs="loc_ew.00186.jpg" type="recto"/>
   
   <front>
    <titlePage>
-    <note type="authorial" place="top" hand="#h01"><hi rend="underline">To printer</hi>&#8212;This is the size of the <gap reason="illegible" extent="one word"/>&#8212;you see the page fo title is a little larger than the <gap reason="illegible" extent="one word"/>&#8212;the picture sample gives you my idea of it all</note>
+    <note type="authorial" place="top" hand="#h01"><hi rend="underline">To printer</hi>&#8212;This is the size of the <unclear reason="illegible" resp="#bb" cert="medium">leaf</unclear>&#8212;you see the page for title is a little larger than the text&#8212;the picture sample gives you my idea of it all</note>
     <docTitle>
      <titlePart type="main">COMPLETE</titlePart>
-     <note type="authorial" place="inspace" rend="circled">Picture here ab't this size the print of the letters top &amp; bottom will have to come over<add place="above" hand="#h03">lap on</add> the picture (no objection to this properly done)</note>
-     <titlePart type="main">POEMS &amp; PROSE<lb/> of Walt Whitman<lb/> 1855-1888</titlePart>
-     <titlePart type="desc"><hi rend="doubleUnderline">Authenticated &amp; Personal Book</hi> (hand&#8211;<lb/> dled by W W)...Autograph...Por&#8211;<lb/> traits from Life.<add place="inline" hand="#h01">...</add><del rend="overstrike">1855-1888-'9.</del></titlePart>
+     <note type="authorial" place="center" rend="circled">Picture here ab't this size the print of the letters top &amp; bottom will have to come over <add place="above" hand="#h03">lap on</add> the picture (no objection to this properly done)</note>
+     <titlePart type="main">POEMS &amp; PROSE<lb/> of Walt Whitman<lb/> 1855&#8211;1888</titlePart>
+     <titlePart type="sub"><seg hand="#h03"><hi rend="doubleUnderline">Authenticated &amp; Personal Book</hi> (<choice><orig>han-<lb/>dled</orig><reg>handled<lb/></reg></choice> by W W) ... Autograph ... <hi rend="underline" hand="#h01"><choice><orig>Por-<lb/>traits</orig><reg>Portraits<lb/></reg></choice> from Life.</hi> <add place="inline" hand="#h01">...</add> <del rend="overstrike">1855&#8211;1888&#8211;'9.</del></seg></titlePart>
     </docTitle>
-    <note type="authorial" place="bottom" hand="#h01"><hi rend="underline">To Printer</hi>&#8212;How would it do to put these bottom lines in say 5 p ital &amp; sc in hanging indention? &#8212;But you try <gap reason="illegible" extent="three words"/> generally) with your own <gap reason="illegible" extent="one word"/> taste</note>
+    <note type="authorial" place="bottom" hand="#h01"><hi rend="underline">To Printer</hi>&#8212;How would it do to put these bottom lines in say 5 p ital &amp; sc in hanging indention? &#8212;But you try <gap reason="illegible" extent="about five characters"/> (<gap reason="illegible" extent="three or four words"/> generally) with your own independent taste</note>
    </titlePage>
   </front>
-  
-  <body><p></p></body>
+  <pb xml:id="leaf001v" facs="loc_ew.00187.jpg" type="verso"/>
+  <body><ab/>
+    
+  <note type="archival" place="bottom" hand="#h05">2-92-218. 5A</note>
+  <note type="editorial" place="bottom" hand="#h04">see notes April 21 &amp; 22 1888</note>
+  </body>
         
 
-  <pb xml:id="leaf001v" facs="loc_ew.00187.jpg" type="verso"/>
   
-  <note type="archival" place="bottom" hand="#h05">2-92-218.5A</note>
-  <note type="editorial" place="bottom" hand="#h04">see notes April 21 &amp; 22 1888</note>
+
    
 
 </text>
