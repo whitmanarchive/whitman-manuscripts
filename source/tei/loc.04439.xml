@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04439"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main" rend="bracketed">2d Annex</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="tb">Tara Ballard</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -28,7 +25,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,32 +40,27 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.04439</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">The postmarks on the verso of this manuscript are dated August 1889, and it was in those months (the summer and fall of 1889) that Whitman was first conceiving of what he called "the annex to the annex" of <hi rend="italic">Leaves of Grass</hi> (the first annex being "Sands at Seventy," the poems that had appeared in <hi rend="italic">November Boughs</hi> in 1888). This manuscript was therefore likely composed in 1889 or 1890.</note>
         
-     <note type="work_relations" cert="high">
-      <p><!-- No note in Integrated Catalog as of 1.14.25, TB--></p>
-     </note>
+     <note type="work_relations" cert="low" target="xxx.00459">This manuscript, written on the back of an envelope, is possibly an early trial title for the volume that would become <hi rend="italic">Good-Bye My Fancy</hi> (1891). The subtitle for that volume was <hi rend="italic">2d Annex to Leaves of Grass</hi>.</note>
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>[2d Annex]</title>  
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Books, 1855-1919; Leaves of Grass; 1889 edition; Label</title>  
      
      <date cert="high">1889</date>
      
-     <idno type="callno">mss 18630, box 22; reel 13-14</idno>
+     <idno type="callno">mss 18630, box 22</idno>
      
      <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839-1919, Library of Congress, Washington, DC.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-       <note type="project" target="#rel01">The verso consists of an unfolded envelope addressed to Walt Whitman and postmarked from New York on August 30, 1889.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
@@ -79,7 +70,7 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-09-15" who="#km">proofed</change>
  <change when="2025-01-14" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -87,12 +78,15 @@
  <text type="manuscript">
   <body>
    
-   <pb xml:id="leaf001r" facs="loc_js.00613_large.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="loc_km.00083.jpg" type="recto"/>
   
-   <p>2d Annex</p>
-   <p><hi rend="underline">Old Age <add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">poemets</add> resuscitations, gossip, &amp;c:</hi></p>
+   <head type="main">2d Annex</head>
    
-   <pb xml:id="leaf001v" facs="loc_js.00614_large.jpg" type="verso"/>
+   <head type="sub"><hi rend="underline">Old Age <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">poemets</add> resuscitations, gossip, &amp;c:</hi></head>
+   
+   <ab/><!-- To create valid TEI -->
+   
+   <pb xml:id="leaf001v" facs="loc_km.00084.jpg" type="verso"/>
    
 </body>
 </text>
