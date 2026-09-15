@@ -6,17 +6,15 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main" rend="bracketed">While the great composers Beethoven</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="tb">Tara Ballard</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -28,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,17 +41,13 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>tex.00204</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">Whitman planned to write an essay about Elias Hicks for many years. While finishing preparations for the printing of <hi rend="italic">November Boughs</hi>, Whitman told Horace Traubel, "Some of these bits were written as many as thirty years ago. Some of them I have written within the past year. They are a miscellaneous lot but they all belong in the same stream" (see Traubel, <ref target="med.00002.012"><hi rend="italic">With Walt Whitman in Camden</hi>, 2:42</ref>). It is therefore difficult to determine the exact date of the present manuscript, although the handwriting suggests a date in the 1870s or 1880s.</note>
     
 
-     <note type="work_relations" cert="high">
-      <p>This manuscript fragment is an early draft of material Whitman used in the introductory paragraph of "Notes (such as they are) founded on Elias Hicks," an essay that was first published in <hi rend="italic">November Boughs</hi> (1888) and later reprinted in <hi rend="italic">Complete Prose Works</hi> (1892). The leaf has been pasted to a backing sheet, rendering the verso inaccessible.</p>
-     </note>
+     <note type="work_relations" cert="high">This manuscript fragment is an early draft of material Whitman used in the first paragraph of "Notes (such as they are) founded on Elias Hicks," an essay that was first published in <hi rend="italic">November Boughs</hi> (1888) and later reprinted in <hi rend="italic">Complete Prose Works</hi> (1892). The leaf has been pasted to a backing sheet, rendering the verso inaccessible.</note>
    </notesStmt>
    
    <sourceDesc>
@@ -63,15 +56,13 @@
      
      <title>[While the great composers Beethoven]</title>  
      
-     <date cert="high">about 1888</date>
+     <date cert="high" notBefore="1870" notAfter="1888" xml:id="dat1">1870s or 1880s</date>
      
      <idno type="callno">TXRC03-A4; 6 boxes</idno>
      
      <orgName xml:id="tex">Walt Whitman Literary Manuscripts in the Walt Whitman Collection, Harry Ransom Humanities Research Center at the University of Texas at Austin</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-   
-     <note type="project" target="#rel01">The verso is unknown as the page has been pasted to another sheet of paper.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
@@ -81,7 +72,7 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-09-15" who="#km">proofed</change>
  <change when="2025-01-12" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -89,13 +80,21 @@
  <text type="manuscript">
   <body>
    
-   <pb xml:id="leaf001r" facs="tex.00204.001_large.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="tex_km.00014.jpg" type="recto"/>
  
    <p>While the great composers Beethoven &#8211; (1770&#8211;1827)</p>
+   <list>
+    <item rend="center">Handel (1684&#8211;1758)</item>
+    <item rend="center">Haydn 1732&#8211;1809</item>
+    <item rend="center">Bellini 1808 1835</item>
+    <item rend="center">Rossini 1792&#8211;<add place="above">ab't ?</add> 1870</item>
+    <item rend="center">Mozart 1756&#8211;1792</item>
+    <item rend="center">Weber 1786&#8211;1826</item>
+   </list>
    <p><hi rend="center">Handel (1684&#8211;1758)</hi></p>
    <p><hi rend="center">Haydn 1732&#8211;1809</hi></p>
    <p><hi rend="center">Bellini 1808 1835</hi></p>
-   <p><hi rend="center">Rossini 1792&#8211;<add place="above">ab't</add>1870</hi></p>
+   <p><hi rend="center">Rossini 1792&#8211;<add place="above">ab't ?</add>1870</hi></p>
    <p><hi rend="center">Mozart 1756&#8211;1792</hi></p>
    <p><hi rend="center">Weber 1786&#8211;1826</hi></p>
    
@@ -111,7 +110,7 @@
      Wieland 1774<lb/>
      Herder "</p>
    
-   <pb xml:id="leaf001v" facs="<!-- No file in Tracking Database -->" type="verso"/>
+   <pb xml:id="leaf001v" type="verso"/>
    
 </body>
 </text>
