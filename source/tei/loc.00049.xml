@@ -6,16 +6,13 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main" rend="bracketed">The head is generally satisfactory</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="tb">Tara Ballard</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -28,7 +25,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,45 +40,37 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.00049</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">Horace Traubel's pencilled note, at the bottom, dates this manuscript to October 14, 1888, which is likely accurate.</note>
         
-     <note type="work_relations" cert="high">
-      <p><!-- Not seeing a note in the Integrated Catalog, 12.20.24 --></p>
-     </note>
+     <note type="work_relations" cert="high" target="xxx.00503">This note, in Whitman's hand, describes the engraving on the title page of <hi rend="italic">Complete Poems &amp; Prose</hi> (1888); see <ref target="loc.00046">loc.00046</ref>.</note>
    </notesStmt>
-   
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>Complete Poems and Prose</title>  
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Books, 1855-1919; Complete Poems and Prose ( 1888 ); Manuscript drafts; Title page</title>  
      
-     <date cert="high">1888</date>
+     <date cert="high" when="1888-10-14" xml:id="dat1">October 14, 1888</date>
      
-     <idno type="callno">mss 18630, box 19: reel 12</idno>
+     <idno type="callno">mss 18630, box 19</idno>
      
      <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-     
-     <note type="project" target="#rel01">The verso is blank.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
-  
   <profileDesc>
    <handNotes>
     <handNote medium="pencil" xml:id="h01" resp="#ww"/>
-    <handNote medium="pencil" xml:id="h02" resp="#unk"/><handNote xml:id="unk">N. L. T.</handNote>
+    <handNote medium="pencil" xml:id="h02" resp="#ht"><name xml:id="ht">Horace Traubel</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-09-15" who="#km">proofed</change>
  <change when="2024-12-20" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -90,12 +78,13 @@
  <text type="manuscript">
   <body>
    
-   <pb xml:id="leaf001r" facs="loc.00049.001.jpg" type="recto"/>
-   <p>The head is generally satisfactory &amp; even fine&#8212;the main <hi rend="underline">mar</hi> is "<hi rend="underline">the top&#8211;knot &amp; Romeo Italian curls</hi>" (as a cynical person here calls it all) at the crest of the head &amp; toward the forehead&#8212;Can this <add place="above">be</add> <hi rend="underline">combed out</hi> (so to speak) more in consonance with the copy? &#8212;<hi rend="underline">Some hair should be left there brushed back</hi>&#8212;but <hi rend="underline">not</hi> in a top knot or Italian curls&#8212;which are not now &amp; never were <add place="above">worn</add> in that way&#8212;If remedied, corrected, <hi rend="underline">it should be done with great delicacy</hi>&#8212;not to spoil it as existing. WW leaves it to you muchly&#8212;&amp; thanks you all for the taste &amp; care &amp; success already achieved</p>   
+   <pb xml:id="leaf001r" facs="loc_km.00085.jpg" type="recto"/>
    
-   <note hand="#h02" type="editorial" place="bottom" rend="marked">Written<lb/>by Walt Whitman &#125; Oct. 14, 1888<lb/>See notes that date<lb/>N. L. T..</note>
+   <p>The head is generally satisfactory &amp; even fine&#8212;the main <hi rend="underline">mar</hi> is <hi rend="underline">"the top-knot &amp; Romeo Italian curls"</hi> (as a cynical person here calls it all) at the crest of the head &amp; toward the forehead&#8212;Can this <add place="above">be</add> <hi rend="underline">combed out</hi> (so to speak) more in consonance with the copy? &#8212;<hi rend="underline">Some hair should be left there brushed back</hi>&#8212;but <hi rend="underline">not</hi> in a top knot or Italian curls&#8212;which are not now &amp; never were <add place="above">worn</add> there in that way&#8212;If remedied, corrected, <hi rend="underline">it should be done with great delicacy</hi>&#8212;not to spoil it as existing. WW leaves it to you muchly&#8212;&amp; thanks you all for the taste &amp; care &amp; success already achieved</p>   
    
-   <pb xml:id="leaf001v" facs="loc.00049.002.jpg" type="verso"/>
+   <note hand="#h02" type="editorial" place="bottom" rend="marked">Written<lb/> by Walt Whitman &#125; Oct. 14, 1888<lb/> See notes that date<lb/> H. L. T..</note>
+   
+   <pb xml:id="leaf001v" facs="loc_km.00086.jpg" type="verso"/>
    
 </body>
 </text>
