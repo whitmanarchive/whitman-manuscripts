@@ -6,17 +6,15 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
-    <title level="m" type="main">To My Seventieth Year</title>
+    <title level="m" type="main">Queries To My Seventieth Year</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="kmh">Kenneth Michael Hoover</persName>
+     <persName xml:id="bb">Brett Barney</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -28,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,46 +36,37 @@
                 </address>
     <availability>
      <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
-     <p>
-      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
-      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
-      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+     <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
     </availability>
-    
-
    <idno>hun.00011</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
-    <note type="work_relations" target="xxx.00320" cert="high">
-      <p></p>
-     </note>
+    <note type="project" target="#dat1">This manuscript was likely composed in early 1888.</note>
+    <note type="work_relations" target="xxx.00320" cert="high">"Queries to My Seventieth Year" was first published in the 2 May 2 1888 issue of the <hi rend="italic">New York Herald</hi> and included in <hi rend="italic">November Boughs</hi> later that year.
+    </note>
+    
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
-     
      <title>To my seventieth year</title>  
-     
      <date when="1888" cert="high">1888</date>
-     
      <idno type="callno">HM 11207</idno>
-     
      <orgName xml:id="hun">The Huntington Library, Art Collections, and Botanical Gardens</orgName>
-     
      <note>Transcribed from digital images of the original.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="pencil" xml:id="h01" resp="#ww"/>
-    <handNote medium="pencil" xml:id="h02" resp="#unk"><name>Unknown</name></handNote>
+    <handNote medium="pencil" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="pencil" xml:id="h02" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
-  <change when="2025-06-11" who="#kmh">transcribed and encoded</change>
+  <change when="2026-09-15" who="#bb">proofed</change>
+ <change when="2025-06-11" who="#kmh">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
@@ -86,14 +74,17 @@
   <body>
    
    <pb xml:id="leaf001r" facs="hun.00011.001.jpg" type="recto"/>
-   <lg type="poem">
     <note type="authorial" place="top" rend="circled">follow copy punctuation &amp;c strictly</note>
-    <note type="authorial" place="right" rend="circled">personal</note>
-    <note type="archival" place="left" hand="#h02"><hi rend="underline">cxxx</hi> 22.50</note>
-    <head rend="underline"><add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">Queries</add> To My Seventieth Year.</head>
+    <note type="authorial" place="top" rend="circled">Personal</note>
+    <note type="archival" place="left" hand="#h02"><hi rend="underline">cxxx</hi><lb/>22.50</note>
+   <lg type="poem">
+    <head type="main" rend="underline"><add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">Queries</add> To My Seventieth Year.</head>
      <l>Approaching, nearing, curious,</l>
-     <l>Thou dim <subst><del rend="overstrike" seq="1">half-visible</del><add place="above" seq="2">uncertain</add></subst> spectre, <subst><del rend="overstrike" seq="1">hovering, close,</del><add place="above" seq="2">bringest</add></subst></l>
-     <l><del rend="overstrike">Bringest</del> <subst><del rend="overstrike" seq="1">thou</del><add place="above" seq="2"><metamark function="add" target="#a002">&#8248;</metamark></add><del rend="overstrike" seq="4"><add place="above" xml:id="a002" seq="3">bringest</add></del><add place="above" seq="5">thou</add></subst> life or death? <del rend="overstrike">Wilt stir<lb/> the waters yet?</del></l>
+     <l>Thou dim <subst><del rend="overstrike" seq="1">half-visible</del> <add place="above" seq="2">uncertain</add></subst> spectre, <subst><del rend="overstrike" seq="1">hovering, close,</del> <add place="above" seq="2">bringest</add></subst></l>
+    <l><del rend="overstrike">Bringest</del> <subst><add place="above" seq="2"><metamark function="add" target="#a002">&#8248;</metamark></add><del rend="overstrike" seq="3"><add place="above" xml:id="a002" seq="2">bringest</add></del> <del rend="overstrike" seq="1">thou</del> <add place="above" seq="2">thou</add></subst> life or death? <del rend="overstrike">Wilt stir <lb/>the waters yet?</del></l>
+    
+<!--  BEGIN HERE; I'LL BE DOING A TRANSPOSE FOR THESE NEXT FOUR LINES.   -->
+    
     <metamark function="group" rend="bracket-left" spanTo="#s001"/>
      <l><subst><del rend="overstrike" seq="1">Wilt</del><add place="below" seq="2"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" seq="3" xml:id="a003">Or haply</add></subst> cut me short for good&#8212;or <subst><del rend="overstrike" seq="1">leave</del><add place="above" seq="2">leave</add></subst><lb/> me here <subst><del rend="overstrike" seq="1">repeating?</del><add place="above" seq="2">as now?</add></subst></l>
      <l>(Here, fretful, parrot&#11840;like and old,<lb/> <add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">with crack'd voice</add> harping, <del rend="overstrike">and</del> screeching;)</l>
