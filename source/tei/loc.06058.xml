@@ -6,20 +6,16 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
-
     <title level="m" type="main" rend="bracketed">The Hicksite separation appears</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
-     
      <persName xml:id="slg">Samantha Gilmore</persName>
      <persName xml:id="ew">Emma Whaley</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -31,7 +27,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -47,26 +42,24 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.06058</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- WRITTEN BY EDITORS --></note>
-    <note type="work_relations" target="xxx.00486" cert="high">
-     <p>The information on this small scrap was used for a note, headed "Note.—The Separation," included in the essay "Notes (such as they are) founded on Elias Hicks." This essay was first published in <hi rend="italic">November Boughs</hi> (1888) and later reprinted in <hi rend="italic">Complete Prose Works</hi> (1892). Whitman planned to write an essay about Elias Hicks for many years. While finishing preparations for the printing of <hi rend="italic">November Boughs</hi>, Whitman told Horace Traubel, "Some of these bits were written as many as thirty years ago. Some of them I have written within the past year. They are a miscellaneous lot but they all belong in the same stream." (See Traubel, <hi rend="italic">With Walt Whitman in Camden</hi>, 2: 42.) The present manuscript is stored together with many other manuscripts on the topics of Elias Hicks and Quakerism. Those that directly contributed to the published essay are described separately. Those whose relationship to the published essay are unclear are not included at this stage of our work.</p>
-     </note>
+    <note type="project" target="#dat1">Whitman planned to write an essay about Elias Hicks for many years. While finishing preparations for the printing of <hi rend="italic">November Boughs</hi>, Whitman told Horace Traubel, "Some of these bits were written as many as thirty years ago. Some of them I have written within the past year. They are a miscellaneous lot but they all belong in the same stream." (See Traubel, <ref target="med.00002.012"><hi rend="italic">With Walt Whitman in Camden</hi></ref>, 2: 42). It is therefore difficult to determine the exact date of the present manuscript, although the handwriting suggests a date in the 1870s or 1880s.</note>
+    
+    <note type="work_relations" target="xxx.00486" cert="high">The information on this small scrap was used for a note, headed "Note.&#8212;The Separation," included in the essay "Notes (such as they are) founded on Elias Hicks." This essay was first published in <hi rend="italic">November Boughs</hi> (1888) and later reprinted in <hi rend="italic">Complete Prose Works</hi> (1892).</note>
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title resp="#wwa">[The Hicksite separation appears]</title>  
+     <title resp="#wwa">Walt Whitman Papers in the Charles E. Feinberg Collection: Oversize, 1844-1952; Literary File; Prose; 1888 , “Elias Hicks” (Container 34)</title>  
      
-     <date notBefore="1880" notAfter="1890" cert="high">about 1888</date>
+     <date notBefore="1870" notAfter="1888" cert="low" xml:id="dat1">1870s or 1880s</date>
      
      <idno type="callno">mss45443</idno>
+     
      <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
@@ -74,7 +67,13 @@
     </bibl>
    </sourceDesc>
 </fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="sole"/>
+   </handNotes>
+  </profileDesc>
 <revisionDesc>
+ <change when="2026-09-16" who="#km">proofed</change>
  <change when="2024-10-01" who="#ew">updated image links</change>
  <change when="2024-02-15" who="#slg">transcribed and encoded</change>
 </revisionDesc>
