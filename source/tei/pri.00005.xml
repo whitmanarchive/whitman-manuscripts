@@ -6,17 +6,15 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main" rend="bracketed">Had been simmering inside</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="tb">Tara Ballard</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -28,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,16 +41,12 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>pri.00005</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">On the verso of this manuscript is a letter addressed to Whitman, dated 19 June 1889. Based on the date of this incoming letter and the date "Some Personal and Old&#8211;Age Jottings" was first published, this manuscript must have been composed between 1889&#8211;1891.</note>
         
-     <note type="work_relations" cert="high">
-      <p>Draft of "Some Personal and Old&#8211;Age Jottings," first published in the March 1891 issue of <hi rend="italic">Lippincott's Magazine</hi> under the title, "Some Personal and Old&#8211;Age Memoranda." This prose piece remained largely unchanged between its first printing in <hi rend="italic">Lippincott's</hi> and its appearance in <hi rend="italic">Complete Prose</hi> (1892). However, the version published in <hi rend="italic">Lippincott's</hi> includes a transcription of Ralph Waldo Emerson's 21 July 1855 letter in praise of <hi rend="italic">Leaves of Grass</hi>, along with a short commentary on Emerson's relationship to Whitman&#8212;both of which Whitman did not include in <hi rend="italic">Complete Prose</hi>. On the verso of this manuscript is a letter addressed to Whitman, dated 19 June 1889. Based on the date of this incoming letter and the date "Some Personal and Old&#8211;Age Jottings" was first published, this manuscript must have been composed between 1889&#8211;1891.</p>
-     </note>
+     <note type="work_relations" cert="high" target="xxx.00589">Draft of "Some Personal and Old-Age Jottings," first published in the March 1891 issue of <hi rend="italic">Lippincott's Magazine</hi> under the title, "Some Personal and Old-Age Memoranda." It was then included, largely unchanged, in <hi rend="italic">Good-Bye My Fancy</hi> (1891).</note>
    </notesStmt>
    
    <sourceDesc>
@@ -62,11 +55,11 @@
      
      <title>[Had been simmering inside]</title>  
      
-     <date cert="high">1889&#8211;1891</date>
+     <date cert="high" notBefore="1889" notAfter="1891" xml:id="dat1">Between 1889 and 1891</date>
      
-     <idno type="callno">Box 10, Folder 87</idno>
+     <idno type="callno"><!-- Awaiting Princeton's answer to fill this in. Kevin wrote to them on 9/16/26. --></idno>
      
-     <orgName xml:id="pri">Walt Whitman Literary Manuscripts in the Manuscripts Division, Department of Rare Books and Special Collections, Princeton University Library</orgName>
+     <orgName xml:id="pri">Walt Whitman Literary Manuscripts in the Manuscripts Division, Department of Rare Books and Special Collections, Princeton University Library</orgName><!-- Need to confirm this location; see note above. -->
      
      <note>Transcribed from digital images of the original.</note>
 
@@ -79,11 +72,11 @@
   
   <profileDesc>
    <handNotes>
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="sole"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-09-16" who="#km">proofed</change>
  <change when="2024-10-06" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -91,11 +84,11 @@
  <text type="manuscript">
   <body>
    
-   <pb xml:id="leaf001r" facs="pri.00005.001_large.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="pri_km.00001.jpg" type="recto"/>
    
-   <p><del rend="overstrike" seq="2"><add place="above" seq="1">The</add></del> Had been simmering <subst><del rend="overstrike" seq="1">within</del><add place="above" seq="2">inside</add></subst> for six or seven years &#8212; broke out <add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">during those</add> <del rend="overstrike">its</del> times <add place="inline"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">temporarily</add> and then <subst><del rend="overstrike" seq="1">recuperated</del><add place="above" seq="2">went over</add></subst>. But now a serious attack beyond all cure. Dr. D. my Washington physician, <add place="inline"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">(and a good one, to whom I pay respect and faith yet)</add> said it was <del rend="overstrike">from</del> <unclear reason="illegible" cert="low" resp="#tb"/> <add place="inline"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">the result of</add> too extreme bodily and emotional strain <add place="inline"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a005">continued at Washington and 'down in front'</add> in 186<subst><del rend="overstrike" seq="1">1</del><add place="inline" seq="2">2</add></subst>, '63, '4, and '5, <subst><del rend="overstrike" seq="1">but</del><add place="above" seq="2">Though</add></subst> I doubt if <del rend="overstrike">ever</del> a heartier stronger healthier physique ever lived from 1840 to '70. My greatest call (Quaker) to go around &amp; do <subst><del rend="overstrike" seq="1">all</del><add place="above" seq="2">what</add></subst> I could among the <add place="inline"><metamark function="add" target="#a006">&#8248;</metamark></add><add place="above" xml:id="a006">suffering</add> sick and wounded was that I seem'd to be <hi rend="underline">so well</hi>. I considered myself in vulnerable</p>
+   <p><del rend="overstrike" seq="2"><add place="above" seq="1">The</add></del> Had been simmering <subst><del rend="overstrike" seq="1">within</del> <add place="above" seq="2">inside</add></subst> for six or seven years&#8212;broke out <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">during those</add> <del rend="overstrike">at</del> times <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">temporarily</add> and then <subst><del rend="overstrike" seq="1">recuperated</del> <add place="above" seq="2">went over</add></subst>. But now a serious attack, beyond all cure. Dr. D., my Washington physician, <add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">(and a good one, to whom I pay respect and faith yet)</add> said it was <del rend="overstrike">from</del> <del rend="overstrike"><gap reason="illegible" extent="one character"/></del> <add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">the result of</add> too extreme bodily and emotional strain <add place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a005">continued at Washington and 'down in front'</add> in 186<subst><del rend="overstrike" seq="1">1</del><add seq="2">2</add></subst>, '63, '4, and '5, <subst><del rend="overstrike" seq="1">But</del> <del rend="overstrike" seq="3"><add place="above" seq="2"><unclear cert="low" reason="illegible" resp="#km">The</unclear></add></del></subst> I doubt if <del rend="overstrike">ever</del> a heartier, stronger healthier physique ever lived from 1840 to '70. My greatest call (Quaker) to go around &amp; do <subst><del rend="overstrike" seq="1">all</del> <add place="above" seq="2">what</add></subst> I could among the <add place="below"><metamark function="add" target="#a006">&#8248;</metamark></add><add place="above" xml:id="a006">suffering</add> sick and wounded was that I seem'd to be <hi rend="underline">so well</hi>. I considered myself invulnerable</p>
    
-   <pb xml:id="leaf001v" facs="pri.00005.002_large.jpg" type="verso"/>
+   <pb xml:id="leaf001v" facs="pri_km.00002.jpg" type="verso"/>
    
 </body>
 </text>
