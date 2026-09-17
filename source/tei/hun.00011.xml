@@ -83,25 +83,33 @@
      <l>Thou dim <subst><del rend="overstrike" seq="1">half-visible</del> <add place="above" seq="2">uncertain</add></subst> spectre, <subst><del rend="overstrike" seq="1">hovering, close,</del> <add place="above" seq="2">bringest</add></subst></l>
     <l><del rend="overstrike">Bringest</del> <subst><add place="above" seq="2"><metamark function="add" target="#a002">&#8248;</metamark></add><del rend="overstrike" seq="3"><add place="above" xml:id="a002" seq="2">bringest</add></del> <del rend="overstrike" seq="1">thou</del> <add place="above" seq="2">thou</add></subst> life or death? <del rend="overstrike">Wilt stir <lb/>the waters yet?</del></l>
     
-<!--  BEGIN HERE; I'LL BE DOING A TRANSPOSE FOR THESE NEXT FOUR LINES.   -->
+     <l xml:id="tr001"><subst><del rend="overstrike" seq="1">Wilt</del> <add place="below" seq="2"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" seq="2" xml:id="a003">Or haply</add></subst> cut me short for good&#8212;or <subst><del rend="overstrike" seq="1">leave</del> <add place="above" seq="2">leave</add></subst> <lb/>me here <subst><del rend="overstrike" seq="1">repeating?</del> <add place="above" seq="2">as now?</add></subst></l>
+     <l xml:id="tr002">(Here, fretful, parrot&#11840;like and old,<lb/> <add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">with crack'd voice</add> harping, <del rend="overstrike">and</del> screeching;)</l>
     
     <metamark function="group" rend="bracket-left" spanTo="#s001"/>
-     <l><subst><del rend="overstrike" seq="1">Wilt</del><add place="below" seq="2"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" seq="3" xml:id="a003">Or haply</add></subst> cut me short for good&#8212;or <subst><del rend="overstrike" seq="1">leave</del><add place="above" seq="2">leave</add></subst><lb/> me here <subst><del rend="overstrike" seq="1">repeating?</del><add place="above" seq="2">as now?</add></subst></l>
-     <l>(Here, fretful, parrot&#11840;like and old,<lb/> <add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">with crack'd voice</add> harping, <del rend="overstrike">and</del> screeching;)</l>
-    <metamark function="group" rend="bracket-left" spanTo="#s001"/>
-     <l>Strength, weakness, <add place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a005">blindness,</add> more paralysis and <subst><del rend="overstrike" seq="1">heavier?</del><add place="above" seq="2">heavier?</add></subst></l>
-     <l>Or placid skies and sun, and wreaths from<lb/> foreign lands?&#8212;wilt stir the waters yet?</l>
+    
+     <l xml:id="tr003">Strength, weakness, <add place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" rend="marked" xml:id="a005">blindness,</add> more paralysis and <subst><del rend="overstrike" seq="1">heavier?</del> <add place="above" seq="2">heavier?</add></subst></l>
+    <l xml:id="tr004">Or placid skies and sun, and wreaths from<lb/> foreign lands?<add>&#8212;wilt stir the waters yet?</add></l>
+    <listTranspose>
+     <transpose>
+      <ptr target="#tr003"/>
+      <ptr target="#tr004"/>
+      <ptr target="#tr001"/>
+      <ptr target="#tr002"/>
+     </transpose>
+    </listTranspose>
     <anchor xml:id="s001"/>
-     <l><del rend="overstrike">Passing me <add place="below"><metamark function="add" target="#a006"></metamark></add><add place="above" xml:id="a006">on</add> to <subst><del rend="overstrike" seq="1">further</del><del rend="overstrike" seq="3"><add place="above" seq="2">senile</add></del><del rend="overstrike" seq="5"><add place="above" seq="4">contracting me</add></del></subst> time thro' thy twelve<lb/> months?</del></l>
+    <l><del rend="overstrike">Passing me <add place="below"><metamark function="add" target="#a006">&#8248;</metamark></add><add place="above" xml:id="a006">on</add> to <subst><del rend="overstrike" seq="1">further</del> <del rend="overstrike" seq="3"><add place="above" seq="2">senile</add></del> <add place="above" seq="4">contracting me</add></subst> time thro' thy twelve</del> <lb/>months?</l>
     <delSpan rend="overstrike" spanTo="#d001"/>
      <l>(As we grow old we narrow on <choice><orig>our-<lb/> selves</orig><reg>ourselves<lb/> </reg></choice> concentrating,</l>
-     <l>Something to us unspeakably pensive in<lb/> our own <del rend="overstrike">age</del>, bleakness, sorrs, <add place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><add place="above" xml:id="a007">age,</add>)</l>
+     <l>Something to us unspeakably pensive in <lb/>our own <del rend="overstrike">age</del>, bleakness, sorrows, <add place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><add place="above" xml:id="a007">age,</add>)</l>
+    <delSpan rend="pasted over" spanTo="#a008"/><gap reason="deleted" extent="one or more lines"/>
     <addSpan rend="pasteon" spanTo="#a008"/>
-     <l>Or <del rend="overstrike">summary</del> ending all, with unnerv'd<lb/> hand and accent&#8212;immobility indeed,</l>
-     <l>With immobility indeed with buried heart<lb/> and brain<subst><del rend="overstrike" seq="1">?</del><add seq="2">,</add></subst> and hearse and grave.</l>
+     <l>Or <del rend="overstrike">summary</del> ending all, with unnerv'd <lb/>hand and accent<del rend="overstrike">,</del>&#8212;immobility indeed,</l>
+    <l>With immobility indeed&#8212;with buried heart <lb/>and brain<subst><del rend="overstrike" seq="1">?</del><add seq="2">,</add></subst> and hearse and grave.</l>
     <anchor xml:id="d001"/>
-   </lg>
     <signed rend="underline">Walt Whitman</signed>
+   </lg>
     <anchor xml:id="a008"/>
    
    <pb xml:id="leaf001v" facs="hun.00011.002_large.jpg" type="verso"/>
