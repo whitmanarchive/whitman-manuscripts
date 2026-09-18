@@ -349,7 +349,7 @@
   </xsl:template>
   
   <!-- handle changes in Whitman's hand differently for proof mss -->
-  <xsl:template match="*[substring-after(@hand,'#') = (preceding::handNote[@resp='#ww']/@xml:id)][preceding::handNote[@medium='letterpress']]">
+  <xsl:template match="*[substring-after(@hand,'#') = (preceding::handNote[@resp='#ww']/@xml:id)][ancestor::text[@subtype='proof']]">
     <xsl:variable name="hand_id" select="substring-after(@hand,'#')"/>
     <xsl:variable name="hand_resp" select="substring-after(preceding::handNote[@xml:id=$hand_id]/@resp,'#')"/>
     <!-- TODO: reconsider this and improve it? or move into css? -->
