@@ -54,7 +54,6 @@
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      <title>"Mannahatta" (1888), newspaper clipping with corrections and notations</title>  
-     
      <date when="1888" cert="high" xml:id="dat1">1888</date>
      
      <idno type="callno">mss18630, box 27; reel 16-17</idno>
@@ -83,16 +82,17 @@
  <text type="manuscript">
   <body>
    <pb xml:id="leaf001r" facs="loc_ew.00193.jpg" type="recto"/>
-   <note place="top" type="authorial" hand="#h02" rend="underline">Nov Boughs</note>
+   <note place="top" type="authorial" hand="#h02" rend="underline">Nov: Boughs</note>
+   <addSpan rend="pasteon" spanTo="#a002"/>
    <lg type="poem">
-    <head>MANNAHATTA.</head>
+    <head type="main">MANNAHATTA.</head>
      <l>My city's fit and noble name resumed,</l>
-     <l>Choice aboriginal name, with marvellous beauty,<lb/> meaning</l>
-     <l><hi rend="underline" hand="#h04" xml:id="j001">A rocky founded island<add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><subst hand="#h03"><del rend="implied">,</del><add place="left" xml:id="a001">&#8212;shores,</add></subst> where every gayly dash<lb/> the coming, going, hurrying sea waves.</hi><add place="right" hand="#h04" rend="circle"><metamark function="adjust" target="#j001">ital</metamark></add></l>
+     <l>Choice aboriginal name, with marvellous beauty, <lb/>meaning</l>
+     <l><hi rend="underline" hand="#h04" xml:id="j001">A rocky founded island,<add place="below" hand="#h03"><metamark function="add" target="#a001">&#8248;</metamark></add> <add place="left" xml:id="a001">&#8212;shores,</add> where ever gayly dash <lb/>the coming, going, hurrying sea waves.</hi><add place="right" hand="#h04" rend="circled"><metamark function="adjust" target="#j001">ital</metamark></add></l>
    </lg>
-   <note type="authorial" hand="#h05"><del rend="overstrike" hand="#h02">pub in Herald Feb 27 '88</del></note>
-   
-   <pb xml:id="leaf001v" facs="20051227_0084.jpg" type="verso"/>
+   <anchor xml:id="a002"/>
+   <note type="authorial" place="bottom" hand="#h05"><del rend="overstrike" hand="#h02">pub in Herald Feb 27 '88</del></note>
+   <pb xml:id="leaf001v" facs="loc_bb.00068.jpg" type="verso"/>
    
 </body>
 </text>
