@@ -16,6 +16,7 @@
      <persName xml:id="tb">Tara Ballard</persName>
      <persName xml:id="ew">Emma Whaley</persName>
      <persName xml:id="km">Kevin McMullen</persName>
+     <persName xml:id="bb">Brett Barney</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -75,13 +76,14 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
+ <change when="2026-09-18" who="#bb">added subtype to text element</change>
  <change when="2026-07-03" who="#km">proofed</change>
  <change when="2024-09-25" who="#ew">updated image links</change>
  <change when="2024-08-15" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
- <text type="manuscript">
+ <text type="manuscript" subtype="proof">
   <body>
    
    <pb xml:id="leaf001r" facs="loc_ew.00211.jpg" type="recto"/>
