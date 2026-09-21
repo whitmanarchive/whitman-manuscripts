@@ -6,8 +6,6 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
-
     <title level="m" type="main">America</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
@@ -16,9 +14,8 @@
     <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
-     
      <persName xml:id="slg">Samantha Gilmore</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -30,7 +27,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -46,15 +42,12 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>pri.00002</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- WRITTEN BY EDITORS --></note>
-    <note type="work_relations" target="xxx.00323" cert="high">
-     <p>This is a lightly corrected and signed draft, six lines, of "America," a poem published first in the <hi rend="italic">New York Herald</hi> on March 12, 1888. It was reprinted in <hi rend="italic">November Boughs</hi> (1888) and in the "Sands at Seventy" annex of <hi rend="italic">Leaves of Grass</hi> (1891–92). The manuscript is written on the reverse of a letter fragment from an unknown correspondent, dated January 27, 1888.</p>
-     </note>
+    <note type="project" target="#dat1">The letter on the verso of this manuscript is dated January 27, 1888. The manuscript was therefore written sometime between that date and March 12, when the poem was published.</note>
+    
+    <note type="work_relations" target="xxx.00323" cert="high">This is a lightly corrected and signed draft of "America," a poem first published in the <hi rend="italic">New York Herald</hi> on March 12, 1888. It was reprinted in <hi rend="italic">November Boughs</hi> (1888) and in the "Sands at Seventy" annex of <hi rend="italic">Leaves of Grass</hi> (1891–92).</note>
    </notesStmt>
    
    <sourceDesc>
@@ -66,17 +59,25 @@
      <date notBefore="1880" notAfter="1890" cert="high">about 1888</date>
      
      <idno type="callno">C0140</idno>
+     
      <orgName xml:id="pru">Manuscripts Division, Department of Rare Books and Special Collections, Princeton University Library </orgName>
      
      <note>Transcribed from digital images of the original.</note>
-     
+     <relatedItem type="text" xml:id="rel01" target="pri.00041"/>
+     <relatedItem type="document" target="wwa.00732"/>
+     <note type="project" target="#rel01">The manuscript is written on the reverse of a letter fragment from an unknown correspondent.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="pencil" xml:id="h02" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
+   </handNotes>
+  </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-09-21" who="#km">proofed</change>
  <change when="2024-02-15" who="#slg">transcribed and encoded</change>
- 
 </revisionDesc>
  </teiHeader>
 
@@ -88,22 +89,22 @@
    <head type="main"><hi rend="underline">America</hi></head>
    
    <lg type="poem">
-    <l>Centre of equal daughters,equal sons,</l>
-    <l>All, all alike endear'd, grown, ungrown, <gap reason="overstrike" extent="about two letters" unit="char" quantity="2"/> young or old,</l>
-    <l>Strong, ample, fair, enduring, <metamark function="add" target="#add1">&#8248;</metamark><add xml:id="add1" rend="insertion" place="above">capable,</add> rich,</l>
-    <l>Perennial with the earth, with Freedom, Law and Love,</l>
+    <l>Centre of equal daughters, equal sons,</l>
+    <l>All, all alike endear'd, grown, ungrown,<lb/> <del rend="overstrike">s</del> young or old,</l>
+    <l>Strong, ample, fair, enduring, <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add xml:id="a001" place="above">capable,</add> rich,</l>
+    <l>Perennial with the earth, with Freedom,<lb/> Law and Love,</l>
     <l>A grand, sane, towering, seated Mother,</l>
     <l>Chair'd in the adamant of Time.</l>
    </lg>
    
-   <p>Walt Whitman</p>
+   <signed>Walt Whitman</signed>
    
-   <ab><subst><del rend="overstrike" seq="1">sent to</del> <add rend="unmarked" place="above" seq="2">pub in</add></subst> Herald</ab>
-   
-   
+   <note type="authorial" place="bottom" hand="#h01"><subst><del rend="overstrike" seq="1">sent to</del> <add place="above" seq="2">pub in</add></subst> Herald</note>   
    
    
    <pb xml:id="leaf001v" facs="Whitman003.002_large.jpg" type="verso"/>
+   
+   <note type="archival" place="right" hand="#h02">AM 82-34</note>
    
 </body>
 </text>
