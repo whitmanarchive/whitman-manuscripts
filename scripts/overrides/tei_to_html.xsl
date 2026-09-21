@@ -330,6 +330,9 @@
       <xsl:when test="preceding::delSpan[@spanTo=$id]">
         <xsl:text disable-output-escaping="yes"><![CDATA[</span>]]></xsl:text>
       </xsl:when>
+      <xsl:when test="preceding::addSpan[@spanTo=$id]">
+        <ms-endpaste data-ms-id="{@xml:id}"><xsl:comment/></ms-endpaste>
+      </xsl:when>
       <xsl:otherwise/>
     </xsl:choose>
   </xsl:template>
@@ -392,5 +395,9 @@
     </span>
   </xsl:template>
   
+  <!-- Added for paste-ons in manuscripts. -->
+  <xsl:template match="addSpan[@rend='pasteon']">
+    <ms-startpaste data-ms-id="{substring-after(@spanTo,'#')}"><xsl:comment/></ms-startpaste>
+  </xsl:template>
   
 </xsl:stylesheet>
