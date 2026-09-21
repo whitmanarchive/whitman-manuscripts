@@ -11,10 +11,10 @@
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
      <persName xml:id="slg">Samantha Gilmore</persName>
+     <persName xml:id="tb">Tara Ballard</persName>
      <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -46,9 +46,8 @@
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- WRITTEN BY EDITORS --></note>
-    <note type="work_relations" target="xxx.00352" cert="high">
-     <p>This is a signed draft, with several corrections and instructions to the printer, of "'Going Somewhere'," which was published in <hi rend="italic">Lippincott's Magazine</hi> in November 1887. It was reprinted in <hi rend="italic">November Boughs</hi> (1888) and in the "Sands at Seventy" annex of <hi rend="italic">Leaves of Grass</hi> (1891–92).</p>
-     </note>
+    
+    <note type="work_relations" target="xxx.00352" cert="high">This is a signed draft, with several corrections and instructions to the printer, of "'Going Somewhere'," which was published in <hi rend="italic">Lippincott's Magazine</hi> in November 1887. It was reprinted in <hi rend="italic">November Boughs</hi> (1888) and in the "Sands at Seventy" annex of <hi rend="italic">Leaves of Grass</hi> (1891–92).</note>
    </notesStmt>
    
    <sourceDesc>
@@ -60,17 +59,23 @@
      <date notBefore="1882" notAfter="1887" cert="high">1887</date>
      
      <idno type="callno">C0140</idno>
+     
      <orgName xml:id="pru">Manuscripts Division, Department of Rare Books and Special Collections, Princeton University Library </orgName>
      
      <note>Transcribed from digital images of the original.</note>
-     
     </bibl>
    </sourceDesc>
 </fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="pencil" xml:id="h02" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
+   </handNotes>
+  </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-09-21" who="#km">proofed</change>
+ <change when="2025" who="#tb">finished transcribing, encoding</change>
  <change when="2024-02-15" who="#slg">transcribed and encoded</change>
- 
 </revisionDesc>
  </teiHeader>
 
@@ -79,7 +84,7 @@
    
    <pb xml:id="leaf001r" facs="Whitman005.jpg" type="recto"/>
    
-   <note type="authorial" place="top"><hi rend="underline">Printer</hi> Please set this up in the usual way usual type &#38; let me see a proof this evening or to-morrow morning</note>
+   <note type="authorial" place="top" hand="#h01"><hi rend="underline">Printer</hi> Please set this up in the usual way usual type &#38; let me see a proof this evening or to-morrow morning</note>
    
    <milestone unit="undeclared" rend="horbar-full"/>
    
@@ -90,28 +95,30 @@
 
     <l>My science&#11840;friend, my noblest woman&#11840;friend,</l>
     
-    <l>(Now buried in an English grave&#8212;and this a memory&#11840;leaf for <subst><del rend="overstrike" seq="1">love's</del><add place="above" seq="2">her</add></subst> dear sake,)</l>
+    <l>(Now buried in an English grave&#8212;and this a memory&#11840;leaf for <subst><del rend="overstrike" seq="1">love's</del> <add place="above" seq="2">her</add></subst> dear sake,)</l>
     
-    <l>Ended our talk&#8212;"The sum, concluding all we know, of old or modern learning, intuitions deep,</l>
+    <l>Ended our talk&#8212;"The sum, concluding all<lb/> we know, of old or modern learning,<lb/> intuitions deep,</l>
     
-    <l>"Of all <del rend="overstrike">the Histories,</del> Geologies, <metamark function="add" target="#a001">&#8248;</metamark><add xml:id="a001" place="above">Histories&#8212;</add>&#8212;of all <choice><orig>As&#11840;<lb/>tronomy</orig><reg>Astronomy<lb/></reg></choice>&#8212;of Evolution, Metaphysics all,</l>
+    <l>"Of all <del rend="overstrike">the Histories,</del> Geologies, <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add xml:id="a001" place="above">Histories&#8212;</add>&#8212;of all <choice><orig>As-<lb/>tronomy</orig><reg>Astronomy<lb/></reg></choice>&#8212;of Evolution, Metaphysics all,</l>
     
-    <l>"Is, that we <metamark function="add" target="#a002">&#8248;</metamark><add xml:id="a002" place="above">all</add> are <subst><del rend="overstrike" seq="1">bounding</del><add place="above" seq="2" xml:id="a006">onward, onward,</add></subst><add place="inline"><metamark function="add" target="#a006">&#8248;</metamark></add> speeding slowly,<lb/> surely bettering,</l>
+    <l>"Is, that we <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add xml:id="a002" place="above">all</add> are <subst><del rend="overstrike" seq="1">bounding</del> <add place="above" seq="2" xml:id="a006">onward, onward,</add></subst><add place="inline"><add place="below"><metamark function="add" target="#a006">&#8248;</metamark></add></add> speeding slowly,<lb/> surely bettering,</l>
     
-    <l>"Life, life an endless march, an endless<lb/> army, <add place="inline">(no halt, but it is duly over,)</add></l>
+    <l>"Life, life an endless march, an endless<lb/> army, <add>(no halt, but it is duly over,)</add></l>
     
-    <l>"The world, the race, the soul,<add place="inline"><metamark function="add" target="#a003">&#8248;</metamark></add><add xml:id="a003" place="above">in space and time</add> the universes,</l>
+    <l>"The world, the race, the soul, <add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add xml:id="a003" place="above">in space and time</add> the universes,</l>
     
-    <l>"All <add place="inline"><metamark function="add" target="#a004">&#8248;</metamark></add><add xml:id="a004" place="above">wisely</add> <del rend="overstrike">onward</del> bound <add place="inline"><metamark function="add" target="#a005">&#8248;</metamark></add><add xml:id="a005" place="above">as is befitting them&#8212;</add>&#8212;all surely going<lb/> somewhere."</l>
+    <l>"All <add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add xml:id="a004" place="above">wisely</add> <del rend="overstrike">onward</del> bound <add place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add xml:id="a005" place="above">as is befitting them&#8212;</add>&#8212;all surely going<lb/> somewhere."</l>
     
    </lg>
    
    
-   <signed rend="underline">Walt Whitman</signed>
+   <signed rend="underline"><hi rend="underline">Walt Whitman</hi></signed>
    
-   <note type="archival" place="bottom">6&#188;&#2192;</note>
+   <note type="archival" place="bottom" hand="#h02">6&#188;&#2192;</note>
    
    <pb xml:id="leaf001v" facs="pri.00003.002_large.jpg" type="verso"/>
+   
+   <note type="archival" place="top" hand="#h02">AM 82-34</note>
    
 </body>
 </text>
