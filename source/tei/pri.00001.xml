@@ -41,15 +41,12 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>pri.00001</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- WRITTEN BY EDITORS --></note>
-    <note type="work_relations" target="xxx.00318" cert="high">
-     <p>This is a draft, with several corrections, of the four-line poem "As I Sit Writing Here," which was published first in the <hi rend="italic">New York Herald</hi>, May 14, 1888. It was reprinted in <hi rend="italic">November Boughs</hi> (1888) and in the "Sands at Seventy" annex of <hi rend="italic">Leaves of Grass</hi> (1891–92).</p>
-     </note>
+    <note type="project" target="#dat1">This appears to be a fairly late stage draft, likely written sometime in early 1888.</note>
+    
+    <note type="work_relations" target="xxx.00318" cert="high">This is a draft, with several corrections, of the four-line poem "As I Sit Writing Here," which was first published in the <hi rend="italic">New York Herald</hi> on May 14, 1888. It was reprinted in <hi rend="italic">November Boughs</hi> (1888) and in the "Sands at Seventy" annex of <hi rend="italic">Leaves of Grass</hi> (1891–92).</note>
    </notesStmt>
    
    <sourceDesc>
@@ -58,18 +55,23 @@
      
      <title resp="#wwa">As I sit writing here</title>  
      
-     <date notBefore="1883" notAfter="1888" cert="high">about 1888</date>
+     <date notBefore="1888-01" notAfter="1888-05-14" cert="high">Early 1888</date>
      
      <idno type="callno">C0140</idno>
+     
      <orgName xml:id="pru">Manuscripts Division, Department of Rare Books and Special Collections, Princeton University Library </orgName>
      
      <note>Transcribed from digital images of the original.</note>
-     
     </bibl>
    </sourceDesc>
 </fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black crayon" xml:id="h01" resp="#ww" scope="sole"/>
+   </handNotes>
+  </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-09-21" who="#km">proofed</change>
  <change when="2024-02-15" who="#slg">transcribed and encoded</change>
  
 </revisionDesc>
@@ -82,12 +84,12 @@
 
    <lg type="poem">
     
-   <head rend="underline" type="main">As I sit <subst><del rend="overstrike" seq="1">thinking</del><add place="above" seq="2">writing</add></subst> here</head>
+   <head rend="underline" type="main">As I sit <subst><del rend="overstrike" seq="1">thinking</del> <add place="above" seq="2">writing</add></subst> here</head>
    
 
-    <l>As I sit <subst><del rend="overstrike" seq="1">thinking</del><add place="above" seq="2">writing</add></subst> here, sick and grown old,</l>
-    <l>Not my least burden is, that dulness, <metamark function="add" target="#a001">&#8248;</metamark><add xml:id="a001" place="above">of the</add> years, querilities,</l>
-    <l>Ungracious glooms, aches, lethargy, constipation, <metamark function="add" target="#a002">&#8248;</metamark><add xml:id="a002" place="above">whimpering,</add> <subst><del rend="overstrike" seq="1">solitude,</del><add rend="underline" seq="2" place="above">ennui,</add></subst></l>
+    <l>As I sit <subst><del rend="overstrike" seq="1">thinking</del> <add place="above" seq="2">writing</add></subst> here, sick and grown old,</l>
+    <l>Not my least burden is, that dulness, <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add xml:id="a001" place="above">of the</add> years,<lb/> querilities,</l>
+    <l>Ungracious glooms, aches, lethargy, constipation,<lb/> <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add xml:id="a002" place="above">whimpering,</add> <subst><del rend="overstrike" seq="1">solitude,</del> <add rend="underline" seq="2" place="above">ennui,</add></subst></l>
     <l>May filter in my daily songs.</l>
    </lg>
    
