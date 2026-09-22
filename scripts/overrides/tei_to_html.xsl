@@ -327,8 +327,15 @@
   <xsl:template match="anchor[@xml:id]">
     <xsl:variable name="id" select="concat('#',@xml:id)"/>
     <xsl:choose>
+      <!-- Adjusted the following for addSpans and delSpans in manuscripts. Note that this display is handled with JavaScript -->
       <xsl:when test="preceding::delSpan[@spanTo=$id]">
-        <xsl:text disable-output-escaping="yes"><![CDATA[</span>]]></xsl:text>
+        <ms-enddel data-ms-id="{@xml:id}"><xsl:comment/></ms-enddel>
+      </xsl:when>
+      <xsl:when test="preceding::addSpan[@spanTo=$id][@rend='pasteon']">
+        <ms-endpaste data-ms-id="{@xml:id}"><xsl:comment/></ms-endpaste>
+      </xsl:when>
+      <xsl:when test="preceding::addSpan[@spanTo=$id][@hand]">
+        <ms-endhand data-ms-id="{@xml:id}"><xsl:comment/></ms-endhand>
       </xsl:when>
       <xsl:otherwise/>
     </xsl:choose>
@@ -369,6 +376,9 @@
         </span>
       </del>
     </xsl:when>
+      <xsl:when test="self::addSpan">
+        <ms-starthand data-ms-id="{substring-after(@spanTo,'#')}"><xsl:comment/></ms-starthand>
+      </xsl:when>
     <xsl:otherwise>
     <span>
       <xsl:attribute name="class">
@@ -392,5 +402,14 @@
     </span>
   </xsl:template>
   
+  <!-- Added for paste-ons in manuscripts. Note that this display is handled with JavaScript -->
+  <xsl:template match="addSpan[@rend='pasteon']">
+    <ms-startpaste data-ms-id="{substring-after(@spanTo,'#')}"><xsl:comment/></ms-startpaste>
+  </xsl:template>
+  
+  <!-- Added for delSpans in manuscripts. Note that this display is handled with JavaScript -->
+  <xsl:template match="delSpan[@rend='hashmark']">
+    <ms-startdel data-ms-id="{substring-after(@spanTo,'#')}"><xsl:comment/></ms-startdel>
+  </xsl:template>
   
 </xsl:stylesheet>
