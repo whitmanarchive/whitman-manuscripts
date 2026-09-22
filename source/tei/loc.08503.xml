@@ -6,18 +6,15 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
-       <title level="m" type="main" rend="bracketed">Good-Bye My Fancy.</title>
+       <title level="m" type="main" rend="bracketed">Some Laggards Yet</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
-     <persName xml:id="sd">Sarah Danielson</persName>
-        
+        <persName xml:id="sd">Sarah Danielson</persName>
+        <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -29,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -45,16 +41,12 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.08503</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
    
-    <note type="work_relations" target="xxx.00459" cert="high">
-      <p></p>
-     </note>
+    <note type="work_relations" target="xxx.00459" cert="high"><!-- WRITE THIS --></note>
    </notesStmt>
    
    <sourceDesc>
@@ -70,43 +62,45 @@
      <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839-1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-      
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="letterpress" xml:id="h01" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
-    <handNote medium="black ink" xml:id="h02" resp="#ww"/>
-    <handNote medium="pencil" xml:id="h03" resp="#ww"/>
-    <handNote medium="pencil" xml:id="h04" resp="#unk"/>
+    <handNote medium="letterpress" xml:id="h01" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
+    <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h03" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h04" resp="#unk1" scope="minor"><name xml:id="unk1">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
- <change when="2026-02-19" who="#sd">transcribed and encoded</change>
+    <change when="2026-09-22" who="#km">proofed</change>
+    <change when="2026-02-19" who="#sd">transcribed and encoded</change>
     <change when="2026-02-24" who="#sd">transcribed and encoded</change>
     <change when="2026-02-26" who="#sd">transcribed and encoded</change>
- 
 </revisionDesc>
  </teiHeader>
 
  <text type="manuscript">
   <body>
    
-      <pb xml:id="leaf001r" facs="loc_ja.00056.jpg" type="recto"/>
+      <pb xml:id="leaf001r" facs="loc_ew.00520.jpg" type="recto"/>
       
-      <note type="editorial" hand="#h04" place="top">3e-</note>
+      <note type="collaborative" hand="#h04" place="top">3e-</note>
       
-      <note type="editorial" hand="#h04" place="top">F</note>
+      <note target="authorial" hand="#h02" place="top">wish to see revises of all these pp: f'm 39 on</note>
       
-      <note target="authorial" hand="#h02" place="top">wait to see revises of all these pp: f'm 39 on</note>
+      <note target="authorial" hand="#h02" place="top" rend="circled">in making up have a little less space under the little head-lines &amp; a little more over</note>
       
-      <note target="authorial" hand="#h02" place="top" rend="marked">in making w<gap reason="torn away" extent="two characters"/> have a little <gap reason="torn away" extent="one word"/> space under the little head lines &amp; a little more over</note>
+      <note type="collaborative" hand="#h04" place="top">&#10003;</note>
       
-      <addSpan spanTo="#a103" hand="#h02" rend="marked"/><metamark place="below" target="#a104" function="add">&#8248;<add place="above" rend="tripleUnderline" xml:id="a104">Some laggards yet.<metamark place="above" target="#a104" function="adjust" rend="marked">big head</metamark><metamark place="below" target="#a104" function="add">&#8248;</metamark></add></metamark>
+      <metamark target="#a104" function="add"><add hand="#h02" rend="marked">&#8248;</add></metamark>
       
-      <div>
+      <div type="section">
+          <note type="work_relations" target="xxx.00563" cert="high"/>
+      <head type="main"><add hand="#h02" place="below"><metamark function="add" target="#a014">&#8248;</metamark></add><add place="above" hand="#h02" rend="doubleUnderline">Some laggards yet.</add><add place="above" hand="#h02" rend="cirlced"><metamark function="adjust" target="#a014">big head</metamark></add></head>
+      
+      <div type="essay">
           <note type="work_relations" target="xxx.00568" cert="high"/>
           <head type="main">THE<add place="below" hand="#h02"><metamark target="#a105" function="add">&#8248;</metamark></add><add place="left" hand="#h02" xml:id="a105" rend="tripleUnderline">perfect<metamark target="#a105" function="add" place="below">&#8248;</metamark></add> HUMAN VOICE.</head>
           
@@ -567,6 +561,8 @@
       </div>
       
       <anchor xml:id="a132"/>
+          
+      </div>
       
       
       <pb xml:id="leaf008v" facs="loc_ja.00066.jpg" type="verso"/>
