@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tem.00002"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title level="m" type="main">Old Chants</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     <persName xml:id="slg">Samantha Gilmore</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2026</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+   <idno>tem.00002</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1">A note on the verso, in Whitman's hand, indicates that this was intended to be sent to the printer Henry Curtz. The manuscript also contains markings in Whitman's hand clearly intended for the printer, concerning the formatting of the text. This suggests that the manuscript was composed not long before the poem's publication, likely in early 1891.</note>
+    
+    <note type="work_relations" target="xxx.00395" cert="high">This manuscript, composed of three scraps pasted together, is a draft of "Old Chants," which was first published in <hi rend="italic">Truth</hi> (March 19, 1891), and was then reprinted in <hi rend="italic">Good-Bye My Fancy</hi> (1891). The note at the bottom of the recto is in the hand of Horace Traubel.</note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title resp="#wwa">Old Chants</title>  
+     
+     <date notBefore="1891-01" notAfter="1891-03-19" cert="high" xml:id="dat1">Early 1891</date>
+     
+     <idno type="callno">Mss. 2517</idno>
+     
+     <orgName xml:id="tem">Rare Books and Manuscripts, Special Collections, Temple University Libraries, Temple University</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="black ink" xml:id="h02" resp="#ht" scope="minor"><name xml:id="ht">Horace Traubel</name></handNote>
+    <handNote medium="purple pencil" xml:id="h03" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h04" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ <change when="2026-09-21" who="#km">proofed</change>
+ <change when="2024-02-20" who="#slg">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="tem_bb.00003.jpg" type="recto"/>
+   
+   <head type="main" rend="underline">Old Chants.</head>
+   
+   <lg type="poem">
+    <lg type="linegroup">
+     <l>An ancient song reciting, ending,</l>
+    <l>Once, gazing toward thee, <hi rend="tripleUnderline">M</hi>other of <hi rend="tripleUnderline">A</hi>ll,</l>
+    <l>Musing, seeking themes fitted for thee,</l>
+    <l><hi rend="underline">Accept for me,</hi> thou saidst, <hi rend="underline">the elder ballads,</hi></l>
+    <l><hi rend="underline">And name for me before thou goest each ancient<lb/> poet.</hi></l>
+    </lg>
+    
+    <metamark function="emphasize"><add hand="#h03">#</add></metamark>
+    
+    <milestone unit="glued"/>
+    
+    <lg type="linegroup">
+    <l>(Of <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add xml:id="a001" place="above">many</add> debts incalculable,</l>
+    <l>Haply <subst><del rend="overstrike" seq="1" hand="#h01">the</del> <add place="above" seq="2" hand="#h03">our</add></subst> New World's chiefest debt is to the<lb/> old poems.)</l>
+    </lg>
+    
+    <metamark function="emphasize"><add hand="#h03">#</add></metamark>
+    
+    <lg type="linegroup">
+     <l>Ever so far back, preluding thee, America,</l>
+    <l><subst><del rend="overstrike" seq="1">First</del> <add place="above" seq="2">Old</add></subst> Chants, Egyptian priests and those of Ethiopia,</l>
+    <l>The Hindu epics, the Grecian, Chinese, Persian,</l>
+    <l>The Biblic books and prophets, the deeps idylls of<lb/> the Nazarene,</l>
+    <l>The Iliad, Odyssey, plots, doings, wanderings<lb/> of Eneas,</l>
+    <l>Hesiod, Eschylus, Sophocles, Merlin, Arthur,</l>
+    <l>The Cid, Roland at Roncesvalles, the Nibelungen,</l>
+    <l>The troubadours, minstrels, minnesingers, skalds,</l>
+    <l>Chaucer, Dante, flocks of singing birds,</l>
+    <l>The Border Minstrelsy, the bye-gone ballads, feudal<lb/> tales, essays, plays,</l>
+    <l>Shakspere, Schiller, Walter Scott, Tennyson,</l>
+     <l>As some vast wondrous <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add xml:id="a002" place="above"><choice><sic>wierd</sic><corr>weird</corr></choice></add> dream&#11840;presences,</l>
+     <milestone unit="glued"/>
+    <l>Some great shadowy group gathering around</l>
+    <l>Darting their mighty masterful eyes forward<lb/> at thee,</l>
+    <l>Thou! with as now thy bending neck and<lb/> head, with courteous hand and word, <add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add xml:id="a003" rend="insertion" place="above">ascending,</add></l>
+    <l>Thou! pausing a moment, drooping thine<lb/> eyes upon them, <add place="above"><del rend="overstrike">as</del> blent with their music,</add></l>
+     <l><add>Well pleased, accepting all, curiously prepared for,</add></l>
+     <l>Thou enterest at thy entrance porch.</l>
+    </lg>
+   </lg>
+   
+   <note type="editorial" hand="#h02" place="bottom">Given by Walt Whitman to me and then by me to Will Innes, 1905.<lb/> Horace Traubel</note>
+   
+   <pb xml:id="leaf001v" facs="tem_bb.00004.jpg" type="verso"/>
+   
+   <note type="archival" place="top" hand="#h04">Mss. #2517</note>
+   
+   <note type="authorial" hand="#h03">Henry Curtz<lb/> printer<lb/> Cor: Bridge Av: &amp; 2d<lb/> Camden</note>
+   
+   <note type="archival" place="bottom" hand="#h04">1250</note>
+   
+   <note type="archival" place="bottom" hand="#h04"><gap reason="illegible" extent="one word"/> 69</note>
+   
+</body>
+</text>
+</TEI>
