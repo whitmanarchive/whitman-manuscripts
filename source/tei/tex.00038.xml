@@ -6,19 +6,15 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
-
     <title level="m" type="main" rend="bracketed">George Fox</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
-     
      <persName xml:id="slg">Samantha Gilmore</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -30,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -46,15 +41,12 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>tex.00038</idno>
    </publicationStmt>
    <notesStmt>
     <note type="project" target="#dat1"><!-- WRITTEN BY EDITORS --></note>
-    <note type="work_relations" target="xxx.00486" cert="high">
-     <p>This manuscript fragment seems to have functioned partly as reading notes and partly as draft material for the "George Fox (and Shakspere)" section of "Notes (such as they are) founded on Elias Hicks." The essay was first published in <hi rend="italic">November Boughs</hi> (1888) and later reprinted in <hi rend="italic">Complete Prose Works</hi> (1892).</p>
-     </note>
+    
+    <note type="work_relations" target="xxx.00486" cert="high">This manuscript fragment seems to have functioned partly as reading notes and partly as draft material for the "George Fox (and Shakspere)" section of "Notes (such as they are) founded on Elias Hicks." The essay was first published in <hi rend="italic">November Boughs</hi> (1888) and later reprinted in <hi rend="italic">Complete Prose Works</hi> (1892).</note>
    </notesStmt>
    
    <sourceDesc>
@@ -66,6 +58,7 @@
      <date notBefore="1885" notAfter="1890" cert="high">about 1888</date>
      
      <idno type="callno"></idno>
+     
      <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
      
      <note>Transcribed from digital images of the original.</note>
@@ -73,8 +66,14 @@
     </bibl>
    </sourceDesc>
 </fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="pencil" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
+   </handNotes>
+  </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-09-21" who="#km">proofed</change>
  <change when="2024-02-28" who="#slg">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -82,19 +81,21 @@
  <text type="manuscript">
   <body>
    
-   <pb xml:id="leaf001r" facs="tex.00271.001_large.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="tex_km.00015.jpg" type="recto"/>
    
-   <p>George Fox&#8212;born 1624<metamark function="add" target="#add1">&#8248;</metamark><add xml:id="add1" rend="insertion" place="above">(8 years after the death of Shakspere)</add>&#8212;Lancashire</p>
+   <ab>George Fox&#8212;born 1624<add place="below" hand="#h02"><metamark function="add" target="#a001">&#8248;</metamark></add><add xml:id="a001" place="above">(8 years after the death of Shakspere)</add>&#8212;Lancashire</ab>
    
-   <p>son of a weaver&#8212;G. F. himself a shoemaker</p>
+   <ab>son of a weaver&#8212;G. F. himself a shoemaker</ab>
    
-   <p>was "converted" before the age of 20</p>
+   <ab>was "converted" before the age of 20</ab>
    
-   <p>In the midst of that (17<hi rend="superscript">th</hi> century) George Fox born &#38; flourish'd</p>
+   <ab hand="#h02">In the midst of that (17<hi rend="superscript">th</hi> century) George Fox born &#38; flourish'd</ab>
    
-   <p>&#8212;17<hi rend="superscript">th</hi> century&#8212;stormy <metamark function="add" target="#add2">&#8248;</metamark><add xml:id="add2" rend="insertion" place="above"><del rend="overstrike">fitful</del></add> &#38; perturbed,&#8212;the <metamark function="add" target="#add3">&#8248;</metamark><add xml:id="add3" rend="insertion" place="above">foundations of the</add> old, the poetic <add rend="unmarked" place="above">the</add> superstitious, credulous, all broken, the light of the new &#38; of science, hardly yet begun&#8212;a strange, wild, fitful, agitating almost crazy <subst><del rend="unmarked" seq="1">centu</del><add rend="unmarked" place="above" seq="2">time</add></subst>&#8212;a mad, fierce&#8212;crazy time<!--there is a "&#8212;not" here but how to encode? --></p>
+   <ab>&#8212;17<hi rend="superscript">th</hi> century&#8212;stormy <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><del rend="overstrike"><add xml:id="a002" place="above">fitful</add></del> &#38; perturbed,&#8212;the <add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add xml:id="a003" place="above">foundations of the</add> old, the poetic <add place="above">the</add> superstitious, credulous, all broken, the light of the new, &#38; of science, hardly yet begun&#8212;a strange, wild, fitful, agitating almost crazy centu <add place="above">time</add>&#8212;a mad, fierce, crazy time <metamark function="question">?</metamark></ab>
+   
+   <ab>&#8212;not</ab>
     
-    <p>&#8212;the <metamark function="add" target="#add4">&#8248;</metamark><add xml:id="add4" rend="insertion" place="above">political</add> struggles of the reigns of Charles 1<hi rend="superscript">st</hi>, 2<hi rend="superscript">d</hi> and the protectorate of Cromwell were heated to frenzy least 5 religious struggles</p>
+    <p>&#8212;the <add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add xml:id="a004" place="above">political</add> struggles of the reigns of Charles 1<hi rend="superscript">st</hi>, 2<hi rend="superscript">d</hi> &amp; and the protectorate of Cromwell were heated to frenzy hea<subst rend="overwrite"><del>d</del><add>t</add></subst> by religious struggles</p>
    
    <pb xml:id="leaf001v" facs="tex.00038.002_large.jpg" type="verso"/>
    
