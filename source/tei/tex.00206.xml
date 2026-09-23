@@ -6,19 +6,15 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
-
-    <title level="m" type="main" rend="bracketed">Seems to me I may</title>
+    <title level="m" type="main">Note at End</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
-     
      <persName xml:id="slg">Samantha Gilmore</persName>
+     <persName xml:id="bb">Brett Barney</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -41,53 +37,57 @@
                 </address>
     <availability>
      <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
-     <p>
-      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
-      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
-      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+     <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
     </availability>
-    
-
    <idno>tex.00206</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- WRITTEN BY EDITORS --></note>
-    <note type="work_relations" target="xxx.00934" cert="high">
-     <p>This is a partial draft of "Note at End of Complete Poems and Prose," which was published in <hi rend="italic">Complete Poems &#38; Prose</hi> (1888) and not reprinted during Whitman's lifetime. No image of the manuscript's verso is available.</p>
-     </note>
+    
+    <note type="project" target="#dat1">Horace Traubel's notes regarding his visits to Whitman in 1888 provide very specific information about Whitman's writing process for the "Note at End." He writes that on November 10 he showed Whitman a proof of both the prefatory and end notes. Seeing that each one fit on a single page, Whitman resolved to "lengthen the Note at End a bit so as to carry it over to the next full page." This he apparently did the next day, producing the present document for Traubel to deliver to the printer, Ferguson, on the morning of November 12. (See Traubel, <ref target="med.00003"><hi rend="italic">With Walt Whitman in Camden</hi></ref>, 3:66, 80)</note>
+    <note type="work_relations" target="xxx.00934" cert="high">This is a corrected and revised proof of "Note at End of Complete Poems and Prose," which was published in <hi rend="italic">Complete Poems &#38; Prose</hi> (1888). It was reprinted during Whitman's lifetime.</note>
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
-     
-     <title resp="#wwa">[Seems to me I may]</title>  
-     
-     <date notBefore="1880" notAfter="1890" cert="high">about 1884</date>
-     
-     <idno type="callno"></idno>
+     <title>Complete Poems and Prose of Walt Whitman, Manuscript fragment, undated;	Proof sheet with corrections, undated</title>  
+     <date notBefore="1888-11-10" notAfter="1888-11-12" cert="high" xml:id="dat1">November 11, 1888</date>
+     <idno type="callno">TXRC03-A4, series 1. Works, 1846-1913, undated, box 1, folder 3</idno>
      <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
-     
      <note>Transcribed from digital images of the original.</note>
-     
     </bibl>
    </sourceDesc>
-</fileDesc>
+  </fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="letterpress" xml:id="h01" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
+    <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h03" resp="#unk2" scope="minor"><name xml:id="unk2">Unknown</name></handNote>
+   </handNotes>
+  </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-09-18" who="#bb">transcribed and encoded proof part; proofed entirety</change>
  <change when="2024-02-21" who="#slg">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
- <text type="manuscript">
+ <text type="manuscript" subtype="proof">
   <body>
+   <pb xml:id="leaf001r" facs="tex.00205.001_large.jpg" type="recto"/>
+   <note type="authorial" rend="circled" place="top" hand="#h02">please put this in as mark'd&#8212;&amp;<supplied reason="torn away" source="#bb">send</supplied> me proof to-night&#8212;I want it to make two pages.</note>
+   <note type="collaborative" hand="#h03" place="left">Vance</note>
+   <head type="main">NOTE AT END<del rend="overstrike" hand="#h02" xml:id="d001">.</del></head><metamark function="delete" target="#d001"><add hand="#h02">&#948;</add></metamark>
+   <head type="sub"><add hand="#h02" place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add hand="#h02" place="right" rend="underline" xml:id="a001">of Complete Poems &amp; Prose</add></head><metamark function="adjust"><add place="right" rend="circled" hand="#h02">line in it<supplied source="#bb">al</supplied> shoved to the right</add></metamark>
+   <delSpan spanTo="#d002" rend="overstrike" hand="#h02" xml:id="d003"/>
+   <milestone unit="undeclared" rend="horbar-short-center"/>   
+   <anchor xml:id="d002"/><metamark function="delete"><add place="right" hand="#h02">&#948;</add></metamark>
+   <p>As I conclude&#8212;and (to get typographical correctness,) after running my eyes diligently through the three big divisions of the preceding volume&#8212;the interrogative wonder<add hand="#h02" place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a002">&#11840;</add></p>
    
-   <pb xml:id="leaf001r" facs="tex.00206.001_large.jpg" type="recto"/>
+   
+   
    
    <p>Seems to me I may dare to claim a deep native tap-root for <subst><del rend="overstrike" seq="1">my</del><add place="above" rend="unmarked" seq="2">the</add></subst> book too, in some sort. I cam on the stage <metamark function="add" target="#add1">&#8248;</metamark><add xml:id="add1" rend="insertion" place="above">too late</add> for personally knowing much of even the lingering Revolutionary worthies&#8212;the men of '76&#8212;yet as a little boy I have been press'd tightly and lovingly to the breast of Lafayette (Brooklyn, 1825) and have talked with old Aaron Burr and also with those who knew Washington and his surroundings and with original Jeffersonians, and more than one very old soldier and sailor. And in my own day and maturity my eyes have seen and ears heard, Lincoln, Grant and Emerson, and my hands <metamark function="add" target="#add2">&#8248;</metamark><add xml:id="add2" rend="insertion" place="above">have</add> been grasp'd by their hands. Though in a different field and range from most of theirs, I give the foregoing pages as perfectly legitimate resultant, evolutionary, and consistent with them <metamark function="add" target="#add3">&#8248;</metamark><add xml:id="add3" rend="insertion" place="above">If <gap reason="overstrike" extent="about three letters" unit="char" quantity="3"/> these lines should ever reach some reader of a far <subst><del rend="overstrike" seq="1"><gap reason="overstrike" extent="about two letters" unit="char" quantity="2"/></del><add rend="unmarked" place="in line" seq="2">off</add></subst> future age, let him take them as a missive sent from Abraham Lincoln's fateful agent</add>....Repeating parrot: like what in the preceding divisions has been already said and must serve as a great reason: why of this whole book&#8212;1<hi rend="superscript">st</hi>. That in the main part <subst><del rend="overstrike" seq="1">of</del><add rend="marked" place="above" seq="2">about</add></subst> pronounc'd events and shows (poems and persons also) is the point of view from which they are view'd and estimated&#8212;and 2<hi rend="superscript">d</hi>. That I <subst><del rend="overstrike" seq="1">will</del><add rend="unmarked" place="above" seq="2">can</add></subst> not let <subst><del rend="overstrike" seq="1">the</del><add rend="unmarked" place="above" seq="2">my</add></subst> momentous, stormy, peculiar Era of peace and war, these States, these years, <del rend="overstrike">to</del> slip away without arresting <del rend="overstrike">it</del> some of its specimen events&#8212;even its vital breaths&#8212;to be portrayed and inscribed from out of the midst of it <subst><del rend="overstrike" seq="1">in</del><add rend="unmarked" place="above" seq="2">from</add></subst> its own days and nights&#8212;<del rend="overstrike"><gap reason="overstrike" extent="about two letters" unit="char" quantity="2"/></del>not so much <subst><del rend="overstrike" seq="1">for</del><add rend="unmarked" place="above" seq="1">in</add></subst> themselves..(statistically and descriptively our times <subst><del rend="overstrike" seq="1">seem</del><add rend="unmarked" place="above" seq="2">are copiously</add></subst> noted and memorandered with an industrial zeal)&#8212;but to give from them, here their flame:like results in imaginative and spiritual suggestiveness <metamark function="add" target="#add5">&#8248;</metamark><add xml:id="add5" rend="insertion" place="above">as things present themselves to me, at any rate,</add> from the point of view alluded to.</p>
-   
-
-   
-</body>
+   </body>
+  <pb type="verso" facs="tex_bb.00016.jpg" xml:id="leaf001v"/>
 </text>
 </TEI>
