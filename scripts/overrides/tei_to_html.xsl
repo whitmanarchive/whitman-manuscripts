@@ -408,8 +408,8 @@
   </xsl:template>
   
   <!-- Added for delSpans in manuscripts. Note that this display is handled with JavaScript -->
-  <xsl:template match="delSpan[@rend='hashmark']">
-    <ms-startdel data-ms-id="{substring-after(@spanTo,'#')}"><xsl:comment/></ms-startdel>
+  <xsl:template match="delSpan">
+    <ms-startdel data-ms-id="{substring-after(@spanTo,'#')}" rend="{@rend}"><xsl:comment/></ms-startdel>
   </xsl:template>
   
 </xsl:stylesheet>
