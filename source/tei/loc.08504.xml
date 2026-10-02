@@ -6,8 +6,7 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
-       <title level="m" type="main" rend="bracketed">Make These up in pp</title>
+       <title level="m" type="main" rend="bracketed">To be present only</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
@@ -15,9 +14,8 @@
     <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="sd">Sarah Danielson</persName>
-        
+        <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -29,7 +27,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -45,8 +42,6 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.08504</idno>
    </publicationStmt>
    <notesStmt>
@@ -63,7 +58,7 @@
      
         <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Oversize, 1844-1952; Literary File; Books; Good-Bye My Fancy ( 1891); Proofs; Proof sheets; First set (Container 20)</title>
      
-     <date when="1891" cert="high">1891</date>
+     <date when="1891" cert="high" xml:id="dat1">1891</date><!-- UPDATE THIS -->
      
         <idno type="callno">mss18630, box OV 3</idno>
      
@@ -76,18 +71,16 @@
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="letterpress" xml:id="h01" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
-    <handNote medium="black ink" xml:id="h02" resp="#ww"/>
-    <handNote medium="pencil" xml:id="h03" resp="#ww"/>
-    <handNote medium="pencil" xml:id="h04" resp="#unk"/>
+        <handNote medium="letterpress" xml:id="h01" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
+        <handNote medium="black ink" xml:id="h02" resp="#ww"/>
+        <handNote medium="pencil" xml:id="h03" resp="#unk"/>
+        <handNote medium="black ink" xml:id="h04" resp="#ht"><name xml:id="ht">Horace Traubel</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
- <change when="2026-03-02" who="#sd">transcribed and encoded</change>
+    <change when="2026-10-02" who="#km">proofed</change>
+    <change when="2026-03-02" who="#sd">transcribed and encoded</change>
     <change when="2026-03-03" who="#sd">transcribed and encoded</change>
-   
- 
 </revisionDesc>
  </teiHeader>
 
@@ -98,33 +91,32 @@
       
       <note type="authorial" hand="#h02" place="top">make these up in pp: and let me see proofs</note>
       
-      <note type="editorial" hand="#h04" rend="overline underline" place="top">April 4 1891</note>
+      <note type="editorial" hand="#h04" rend="overline underline" place="top">April 4<lb/> 1891</note>
       
-      <note type="editorial" hand="#h04" place="top">Forrest</note>
+      <note type="collaborative" hand="#h03" place="top">Forrest</note>
       
-      <note type="collaborative" hand="#h04" place="top" rend="marked">D</note>
+      <note type="collaborative" hand="#h03" place="top" rend="circled">D</note>
       
-      <div>
+      <div type="essay">
           <note type="work_relations" target="xxx.00579" cert="high"/>
           
-          <anchor xml:id="a001"/>
-          <metamark target="#a001" function="add"><add hand="#h02" place="below">&#8248;</add></metamark>
-          <addSpan spanTo="#a002" hand="#h02" place="above"/><head type="sub" xml:id="j001" rend="tripleUnderline">To be present only.</head><metamark target="#j001" function="adjust"><add rend="marked" place="above">nonp. caps o s</add></metamark><anchor xml:id="a002"/>
+          <metamark target="#j001" function="add"><add hand="#h02">&#8248;</add></metamark>
           
-          <note type="authorial"><hi rend="italic">At the Complimentary Dinner, Camden, New Jersey, May 31, 1889</hi>.&#8212;Walt Whitman said:</note>
+          <head type="main" xml:id="j001" rend="tripleUnderline"><add hand="#h02" place="above">To be present only. <metamark target="#j001" function="adjust">nonp. caps <unclear reason="illegible" cert="medium" resp="#km">o s</unclear></metamark></add></head>
+          
+          <p><hi rend="italic">At the Complimentary Dinner, Camden, New Jersey, May 31, 1889</hi>.&#8212;Walt Whitman said:</p>
           
           <p>My friends, though announced to give an address, there is no such intention. Following the impulse of the spirit, (for I am at least half of Quaker stock) I have obey'd the command to come and look at you for a minute, and show myself, face to face; which is probably the best I can do. But I have felt no command to make a speech; and shall not therefore attempt any. All I have felt the imperative conviction to say I have already printed in my books of poems or prose; to which I refer any who may be curious. And so, hail and farewell. Deeply acknowledging this deep compliment, with my best respects and love to you personally&#8212;to Camden&#8212;to New-Jersey, and to all represented here&#8212;you must excuse me from any word further.</p>
       </div>
       
       
-      <div>
+      <div type="essay">
           <note type="work_relations" target="xxx.00580" cert="high"/>
           
-          <note type="authorial"><hi rend="italic">F'm Pall-Mall Gazette, London, England, Feb. 8, 1890.</hi></note>
+          <note type="textual"><hi rend="italic">F'm Pall-Mall Gazette, London, England, Feb. 8, 1890.</hi></note>
           
-          <anchor xml:id="a003"/>
-          <metamark target="#a003" function="add"><add hand="#h02" place="right">&#8248;</add></metamark>
-          <addSpan spanTo="#a004" hand="#h02" place="above"/><head type="sub" xml:id="j002" rend="tripleUnderline">"Intestinal agitation"</head><metamark target="#j002" function="adjust"><add rend="marked" place="above">nonp caps</add></metamark><anchor xml:id="a004"/>
+          <metamark target="#j002" function="add"><add hand="#h02">&#8248;</add></metamark>
+          <head type="main" xml:id="j002" rend="tripleUnderline">"Intestinal agitation" <add place="above" hand="#h02"><metamark target="#j002" function="adjust">nonp caps</metamark></add></head> 
           
           <p>Mr. Ernest Rhys has just receiv'd an interesting letter from Walt Whitman<add hand="#h02" place="below"><metamark target="a005" function="add">&#8248;</metamark></add><add place="left" hand="#h02" xml:id="a005">,<metamark target="#a005" function="emphasize">/</metamark></add> dated "Camden, January 22, 1890." The following is an extract from it:<del rend="overstrike" hand="#h02" xml:id="d001">&#8212;</del><add hand="#h02" place="right"><metamark target="#d001" function="delete">&#948;</metamark></add></p>
           
@@ -149,18 +141,18 @@
      
       </div>
       
-      <note type="collaborative" hand="#h04" place="left">Do not forget to leave proofs at 6th &amp; Market for me this p.m. I depend upon this. Thankful</note>
+      <note type="collaborative" hand="#h03" place="left">Do not forget to leave proofs at 6th &amp; Market for me this p.m. I depend upon this. Thankful</note>
       
-      <note type="editorial" hand="#h04" place="bottom">To F. B</note>
+      <note type="editorial" hand="#h03" place="bottom">To F. B</note>
       
       
       <pb xml:id="leaf002r" facs="loc_cm.00012.jpg" type="recto"/>
       
-      <note type="editorial" hand="#h04" place="top"><hi rend="overline underline">April 4 1891</hi></note>
+      <note type="editorial" hand="#h03" place="top"><hi rend="overline underline">April 4 1891</hi></note>
       
-      <note type="editorial" hand="#h04" place="top">F</note>
+      <note type="editorial" hand="#h03" place="top">F</note>
       
-      <note type="collaborative" hand="#h04" place="top"><hi rend="marked">E</hi></note>
+      <note type="collaborative" hand="#h03" place="top"><hi rend="marked">E</hi></note>
       
       <div>
           <note type="work_relations" target="xxx.00582" cert="high"/>
@@ -169,7 +161,7 @@
           
           <note type="authorial" rend="italics"><hi rend="circled" hand="#h02" xml:id="j003">From the Camden Post, N. J., June 2, 1890.</hi><add place="right" hand="#h02" rend="marked"><metamark target="#j003" function="adjust">tr the line to top</metamark></add></note>
           
-          <p><hi rend="italic">He attends and makes a speech at the celebration of Walt Whiman's birthday</hi>.<add hand="#h02" place="below"><metamark target="#a007" function="add">&#8248;</metamark></add><add hand="#h04" place="left" xml:id="a007"><metamark target="#a007" function="emphasize">|</metamark>&#8212;<metamark target="#a007" function="emphasize">|</metamark></add> Walt Whitman is now in his seventy-second year. His younger friends, literary and personal, men and women, gave him a complimentary supper last Saturday night, to note the close of his seventy-first year, and the late curious and unquestionable "boom" of the old man's wide-spreading popularity<add hand="#h02" place="below"><metamark target="#a008" function="add">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a008">,<metamark target="#a008" function="emphasize">/</metamark></add> and that of his "Leaves of Grass." There were fifty or sixty in the room, mostly young, but some old<add hand="#h02" place="below"><metamark target="#a009" function="add">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a009">,<metamark target="#a009" function="emphasize">/</metamark></add> or beginning to be. The great feature was Ingersoll's utterance. It was probably, in its way, the most admirable specimen of modern oratory hitherto delivered in the English language, immense as such praise may sound. It was 40 to 50 minutes long, altogether without notes, in a good voice, low enough and not too low, style easy, rather colloquial (over and over again saying "you" to Whitman who sat opposite,) sometimes markedly impassion<subst hand="#h02"><del rend="overstrike" seq="1" xml:id="d002">e</del><add place="right" seq="2">'<metamark target="#d002" function="emphasize">&#711;</metamark></add></subst>d, once or twice humorous&#8212;amid his whole speech, from interior fires and volition, pulsating and swaying like a first-class Andalusian dancer.</p>
+          <p><hi rend="italic">He attends and makes a speech at the celebration of Walt Whiman's birthday</hi>.<add hand="#h02" place="below"><metamark target="#a007" function="add">&#8248;</metamark></add><add hand="#h03" place="left" xml:id="a007"><metamark target="#a007" function="emphasize">|</metamark>&#8212;<metamark target="#a007" function="emphasize">|</metamark></add> Walt Whitman is now in his seventy-second year. His younger friends, literary and personal, men and women, gave him a complimentary supper last Saturday night, to note the close of his seventy-first year, and the late curious and unquestionable "boom" of the old man's wide-spreading popularity<add hand="#h02" place="below"><metamark target="#a008" function="add">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a008">,<metamark target="#a008" function="emphasize">/</metamark></add> and that of his "Leaves of Grass." There were fifty or sixty in the room, mostly young, but some old<add hand="#h02" place="below"><metamark target="#a009" function="add">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a009">,<metamark target="#a009" function="emphasize">/</metamark></add> or beginning to be. The great feature was Ingersoll's utterance. It was probably, in its way, the most admirable specimen of modern oratory hitherto delivered in the English language, immense as such praise may sound. It was 40 to 50 minutes long, altogether without notes, in a good voice, low enough and not too low, style easy, rather colloquial (over and over again saying "you" to Whitman who sat opposite,) sometimes markedly impassion<subst hand="#h02"><del rend="overstrike" seq="1" xml:id="d002">e</del><add place="right" seq="2">'<metamark target="#d002" function="emphasize">&#711;</metamark></add></subst>d, once or twice humorous&#8212;amid his whole speech, from interior fires and volition, pulsating and swaying like a first-class Andalusian dancer.</p>
           
           <p>And such a critical dissection, and flattering summary! The Whitmanites for the first time in their lives were fully satisfied; and that is saying a good deal, for they have not put their claims low, by a long shot. Indeed it was a tremendous talk<subst hand="#h02"><del rend="overstrike" seq="1" xml:id="d003">,</del><add place="right" seq="2">;<metamark target="#d003" function="emphasize">/</metamark></add></subst> Physically and mentally Ingersoll (he had been working all day in New York, talking in court and in his office,) is now at his best, like mellow<subst hand="#h02"><del rend="overstrike" xml:id="d004" seq="1">e</del><add place="left" seq="2">'<metamark target="#d004" function="emphasize">/</metamark></add></subst>d wine<add hand="#h02" place="below"><metamark target="#a010" function="add">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a010">,<metamark target="#a010" function="emphasize">/</metamark></add> or a just ripe apple; to the artist-sense, too, looks at his best&#8212;not merely like a bequeath'd Roman bust or fine smooth marble Cicero-head, or even Greek Plato; for he is modern and vital and vein'd and American, and (far more than the age knows,) justifies us all.</p>
           
@@ -180,9 +172,9 @@
           <p>Colonel Ingersoll repeated his former argument in reply.</p>
       </div>
       
-      <note type="editorial" hand="#h04" place="bottom">2</note>
+      <note type="editorial" hand="#h03" place="bottom">2</note>
       
-      <note type="editorial" hand="#h04" place="bottom">To F. B</note>
+      <note type="editorial" hand="#h03" place="bottom">To F. B</note>
       
       
       <pb xml:id="leaf001v" facs="loc_cm.00013.jpg" type="verso"/>
