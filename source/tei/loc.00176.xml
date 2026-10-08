@@ -6,18 +6,15 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main">Twenty Years</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
-
      <persName xml:id="ja">JC Andrews</persName>
+    <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -29,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -45,8 +41,6 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.00176</idno>
    </publicationStmt>
    <notesStmt>
@@ -63,13 +57,11 @@
      <author xml:id="ww">Whitman, Walt</author>
      
      <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “After Twenty Years” ( 1887 ), proof sheets with corrections and notation (published as “Twenty Years”)</title>  
-     
 
      <date when="1888" cert="high">About 1888</date>
      
      <idno type="callno">mss18630, box 26; reel 16</idno>
      
-
      <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
@@ -84,21 +76,21 @@
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
-
+ <change when="2026-10-08" who="#km">proofed</change>
  <change when="2025-08-27" who="#ja">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
- <text type="manuscript">
+ <text type="manuscript" subtype="proof">
   <body>
-   
-
-   <pb xml:id="leaf001r" facs="20070301_0015.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="loc_bb.00062.jpg" type="recto"/>
    <note type="authorial" hand="#h02" place="top" rend="underline">From the English Magazine of Art</note>
-   <head type="main"><del rend="overstrike" hand="#h02">AFTER</del> TWENTY YEARS.</head>
+   
+   
    <lg type="poem">
-     <l>D<hi rend="smallcaps">OWN</hi> on the ancient wharf, the sand, I sit, with a <choice><orig>new-<lb/>comer</orig><reg>new<lb/>comer</reg></choice> chatting:</l>
+    <head type="main"><del rend="overstrike" hand="#h02">AFTER</del> TWENTY YEARS.</head>
+    
+     <l>Down on the ancient wharf, the sand, I sit, with a <choice><orig>new-<lb/>comer</orig><reg>newcomer<lb/></reg></choice> chatting:</l>
      <l>He shipp'd as green-hand boy, and sail'd away, (took some<lb/> sudden, vehement notion;)</l>
      <l>Since, twenty years and more have circled round and round,</l>
     <l>While he the globe was circling round and round,&#8212;and now<lb/> returns:</l>
@@ -107,14 +99,14 @@
     <l>The little boat that scull'd him from the sloop, now held<lb/> in leash I see,</l>
     <l>I hear the slapping waves, the restless keel, the rocking in<lb/> the sand,</l>
     <l>I see the sailor kit, the canvas bag, the great box bound<lb/> with brass,</l>
-    <l>I scan the face all berry-brown and bearded&#8212;the stout-<lb/> strong frame,</l>
+    <l>I scan the face all berry-brown and bearded&#8212;the stout-<lb/>strong frame,</l>
     <l>Dress'd in its russet suit of good Scotch cloth:</l>
     <l>(Then what the told-out story of those twenty years? what<lb/> of the future?)</l>
    </lg>
    <byline rend="right">W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</byline>
    
 
-   <pb xml:id="leaf001v" facs="20070301_0016.jpg" type="verso"/>
+   <pb xml:id="leaf001v" facs="loc_km.00087.jpg" type="verso"/>
    
 </body>
 </text>
