@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+
 <?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00056"> 
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main" rend="underline">Carols Closing Sixty&#11840;Nine</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="kmh">Kenneth Michael Hoover</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -28,7 +27,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,16 +42,12 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>duk.00056</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">This manuscript was likely composed sometime in late 1887 or 1888, prior to the publication of <hi rend="italic">November Boughs</hi> in late October or early November of 1888.</note>
     
-     <note type="work_relations" target="xxx.00310" cert="high">
-      <p>Draft title page for poems that appeared under the heading "Sands at Seventy"</p>
-     </note>
+    <note type="work_relations" target="xxx.00310" cert="high">A manuscript of trial titles. Whitman eventually settled on the title "Sands at Seventy," which he gave to the opening poetry section of his 1888 volume of poetry and prose entitled <hi rend="italic">November Boughs</hi>.</note>
    </notesStmt>
    
    <sourceDesc>
@@ -62,7 +56,7 @@
      
      <title>Carols closing Sixty-Nine</title>  
      
-     <date notBefore="1887" notAfter="1888" cert="high">Late 1887 or early 1888</date>
+     <date notBefore="1887" notAfter="1888-11" cert="high">Late 1887 or early 1888</date>
      
      <idno type="callno">MS q 20</idno>
      
@@ -82,6 +76,7 @@
    </handNotes>
   </profileDesc>
 <revisionDesc> 
+ <change when="2026-10-08" who="#km">proofed</change>
  <change when="2025-08-27" who="#kmh">transcribed and encoded</change>
  <change who="#nhg" when="2016-05-02">converted to P5</change>
  <change who="#km" when="2007-04-30">Edited</change>
@@ -96,47 +91,55 @@
    
    <pb xml:id="leaf001r" facs="Pa040110.jpg" type="recto"/>
    
-   <metamark function="markAsUsed" spanTo="#m001"/>   
+   <delSpan rend="hashmark" spanTo="#d001"/>   
     
-    <div type="title">
-     <ab type="head" rend="underline" hand="#h01">Carols closing Sixty&#11840;Nine</ab>
-     <ab type="subhead" hand="#h01">&amp;c &amp;c <del rend="overstrike">and other</del> for<lb/> Annex&#8211;Leaves<lb/> to the preceding</ab>
-    </div>
+     <head type="main" rend="underline" hand="#h01">Carols closing Sixty&#11840;Nine</head> 
+   
+     <head type="sub" hand="#h01">&amp;c &amp;c <del rend="overstrike">and other</del> for<lb/> Annex&#8211;Leaves<lb/> to the preceding</head>
     
-    <div type="title">
-     <ab type="head" rend="underline" hand="#h02"><del rend="overstrike" hand="#h01">Halcyon Days</del></ab>
-     <ab type="subhead" hand="#h02"><del rend="overstrike" hand="#h01">and other Pieces (1884</del> <del rend="overstrike">to</del> '8)<lb/> <hi rend="underline">Annex:</hi><lb/> to the preceding</ab>
-    </div>
+    
+     <head type="main" rend="underline" hand="#h02"><del rend="overstrike" hand="#h01">Halcyon Days</del></head>
    
-    <div type="title">
-     <ab type="head" rend="underline" hand="#h01">Carols at Candle&#11840;Light</ab>
-     <ab type="subhead" hand="#h01">&amp;c&amp;...for<lb/> Leaves</ab>
-    </div>
+     <head type="sub" hand="#h02"><del rend="overstrike" hand="#h01">and other Pieces (1884</del> <del rend="overstrike">to</del> '8)</head> 
+    
+    
+     <head type="main" rend="underline" hand="#h01">Carols at Candle&#11840;Light</head>
+     <head type="sub" hand="#h01">&amp;c&amp;...for</head>
    
-    <div type="title">
-     <ab type="head" rend="underline" hand="#h03">Sands on the Shores of Seventy</ab>
-    </div>
+     <head type="main" rend="underline" hand="#h03">Sands on the Shores of Seventy</head>
    
-    <milestone unit="empty" rend="horbar-full"/>
-    <div type="title">
-     <ab type="head" rend="underline" hand="#h03">Carols at entering Seventy</ab>
-     <note type="authorial" place="inline" hand="#h03">&#9758;</note>
-    </div> 
-    <milestone unit="empty" rend="horbar-full"/>
+   <head type="main" rend="underline" hand="#h02">Annex&#11840;<lb/> <handShift new="#h01"/>Leaves<lb/> <handShift new="#h02"/>to the preceding</head>
+    
    
-    <div type="title">
-     <ab type="head" rend="underline" hand="#h01">Carols at Candle&#8211;Light</ab>
-     <ab type="subhead" hand="#h01">&amp;c &amp;c<lb/> <del rend="overstrike">and other Pieces</del>.....for<lb/> ANNEX: LEAVES<lb/> to the Preceding</ab>
-    </div>
+    <milestone unit="undeclared" rend="horbar-full"/>
    
-   <anchor xml:id="m001"/>
+   
+     <head type="main" rend="underline" hand="#h03">Carols at entering Seventy</head>
+   
+     <note type="authorial" hand="#h03">&#9758;</note>
+     
+    <milestone unit="undeclared" rend="horbar-full"/>
+   
+    
+   <head type="main" rend="underline" hand="#h01">Carols at Candle&#11840;Light</head>
+   
+     <head type="sub" hand="#h01">&amp;c &amp;c<lb/> <del rend="overstrike">and other Pieces</del>.....for</head>
+   
+   <head type="main" hand="#h01">ANNEX&#11840;<lb/>LEAVES</head>
+   
+   <head type="sub" hand="#h01">to the Preceding</head>
+    
+   
+   <anchor xml:id="d001"/>
    
    <pb xml:id="leaf001v" facs="Pa040111.jpg" type="verso"/>
    
-    <div type="title">
-     <ab type="head" rend="tripleUnderline" hand="#h04">Sands at Seventy</ab>
-     <ab type="subhead" hand="#h04"><del rend="overstrike" hand="#h02">for <hi rend="tripleUnderline">Annex</hi> to the preceding</del></ab>
-    </div>
+     <head type="main" rend="tripleUnderline" hand="#h04">Sands at Seventy</head>
+   
+     <head type="sub" hand="#h04"><del rend="overstrike" hand="#h02">for <hi rend="tripleUnderline">Annex</hi> to the preceding</del></head>
+   
+   <ab/>
+    
    
 </body>
 </text>
