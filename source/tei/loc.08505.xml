@@ -13,9 +13,8 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <!-- CONTINUE PROOFING HERE. KM -->
                     <persName xml:id="sd">Sarah Danielson</persName>
-                    
+                    <persName xml:id="km">Kevin McMullen</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -27,7 +26,6 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                
                 <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -43,12 +41,10 @@
                         <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                         (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
                 </availability>
-                
-                
                 <idno>loc.08505</idno>
             </publicationStmt>
             <notesStmt>
-                <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+                <note type="project" target="#dat1">Images of the versos are currently unavailable.</note>
                 
                 <note type="work_relations" target="xxx.00459" cert="high">
                     <p></p>
@@ -68,32 +64,29 @@
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839-1919, Library of Congress, Washington, D.C.</orgName>
                     
                     <note>Transcribed from digital images of the original.</note>
-                    
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <handNotes>
-                <handNote medium="letterpress" xml:id="h01" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
-                <handNote medium="black ink" xml:id="h02" resp="#ww"/>
-                <handNote medium="pencil" xml:id="h03" resp="#ww"/>
-                <handNote medium="pencil" xml:id="h04" resp="#unk"/>
+                <handNote medium="letterpress" xml:id="h01" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
+                <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
+                <handNote medium="pencil" xml:id="h03" resp="#ww" scope="minor"/>
+                <handNote medium="pencil" xml:id="h04" resp="#unk1" scope="minor"><name xml:id="unk1">Unknown</name></handNote>
                 <handNote medium="blue pencil" xml:id="h05" resp="#unk"/>
                 <handNote medium="red pencil" xml:id="h06" resp="#unk"/>
             </handNotes>
         </profileDesc>
         <revisionDesc>
-            
+            <change when="2026-10-09" who="#km">proofed</change>
             <change when="2026-03-03" who="#sd">transcribed and encoded</change>
             <change when="2026-03-05" who="#sd">transcribed and encoded</change>
             <change when="2026-03-12" who="#sd">transcribed and encoded</change>
             <change when="2026-03-26" who="#sd">transcribed and encoded</change>
-            
-            
         </revisionDesc>
     </teiHeader>
     
-    <text type="manuscript">
+    <text type="manuscript" subtype="proof">
         <body>
             
             <pb xml:id="leaf001r" facs="loc_ja.00067.jpg" type="recto"/>
@@ -110,53 +103,56 @@
             
             <addSpan rend="pasteon" spanTo="#a001"/>
             
-            <note type="editorial" hand="#h04" place="left" rend="underline">Forrest</note>
+            <note type="collaborative" hand="#h04" place="left" rend="underline">Forrest</note>
             
-            <head type="main" xml:id="j001">SOME PERSONAL AND OLD-AGE <subst hand="#h02"><del rend="overstrike" seq="1"><hi rend="overline underline">MEMORANDA</hi></del><add place="right" rend="underline" seq="2">jottings</add></subst>.<add hand="#h04" place="above"><note type="collaborative" target="#j001">Brev</note></add><add hand="#h02" place="above"><metamark target="#j001" function="adjust">nonp caps <del rend="overstrike">cap head&#8212;same as poems</del></metamark></add></head>
+            <head type="main" xml:id="j001">SOME PERSONAL AND OLD-AGE <subst hand="#h02"><del rend="overstrike" seq="1"><hi rend="overline underline">MEMORANDA</hi></del> <add place="right" rend="underline" seq="2">jottings</add></subst>. <add hand="#h02" place="above"><metamark target="#j001" function="adjust"><subst hand="#h04"><add place="left" seq="2">Brev</add> <del rend="overstrike" seq="1">nonp</del></subst> caps <del rend="overstrike">cap head&#8212;same as poems</del></metamark></add></head>
             
-            <note type="authorial" rend="center"><del hand="#h05" rend="overstrike">BY WALT WHITMAN</del></note>
+            <byline><del hand="#h05" rend="overstrike">BY WALT WHITMAN.</del></byline>
             
-            <p>ANYTHING like unmitigated acceptance of my <hi rend="italic">Leaves of Grass</hi> <subst hand="#h02"><del rend="overstrike" seq="1">O<unclear reason="illegible" resp="#sd" cert="low">K</unclear> prossion</del><add place="above" seq="2">look,</add></subst>, and heart-felt response to it, in a popular however faint degree <del hand="#h02" rend="overstrike">(though a big certificate came early from Emerson,<ref xml:id="r1" target="#n1"><metamark function="link">*</metamark></ref>)</del> bubbled</p>
+            <p>ANYTHING like unmitigated acceptance of my <hi rend="italic">Leaves of Grass</hi> <subst hand="#h02"><del rend="overstrike" seq="1">expression</del> <add place="above" seq="2">book,</add></subst>, and heart-felt response to it, in a popular however faint degree <del hand="#h02" rend="overstrike">(though a big certificate came early from Emerson,*)</del> bubbled
             
             <anchor xml:id="a001"/>
             
             
             
-            <delSpan hand="#h02" rend="overstrike" spanTo="#d002" xml:id="d003"/>
+            <delSpan hand="#h02" rend="hashmark" spanTo="#d002" xml:id="d003"/>
             
-            <metamark target="#d003" function="delete"><add hand="#h02" place="right">&#948;</add></metamark>
-            
-            <delSpan hand="#h04" rend="overstrike" spanTo="#d002"/>
-            
+            <delSpan hand="#h04" rend="hashmark" spanTo="#d002"/>
+                
             <addSpan rend="pasteon" spanTo="#a002" xml:id="a004"/>
             
             <metamark function="group" rend="overline underline" spanTo="#s001"/>
+                
+                <metamark target="#d003" function="delete"><add hand="#h02" place="right">&#948;</add></metamark>
             
-            <metamark target="#a004" function="adjust"><del hand="#h02" rend="overstrike"><add place="right" hand="#h02" rend="marked">sm type note at bottom</add></del></metamark>
+            <note type="textual" rend="small"><p>*This letter, and its publication, may be worth a note. Here it is verbatim:</p>
             
-            <note type="authorial">*This letter, and its publication, may be worth a note. Here it is verbatim:</note>
+            <p rend="right">C<hi rend="smallcaps">ONCORD, Mass'tts, 21 July, 1855.</hi></p>
             
-            <note type="authorial" rend="left">C<hi rend="smallcaps">ONCORD, MASS'TTS, 21 JULY, 1855.</hi></note>
-            
-            <note xml:id="n1" type="authorial" target="#r1" place="bottom" next="#n1.2">
-            
-                <p><metamark function="link">*</metamark>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>&#8212;D<hi rend="smallcaps">EAR</hi> S<hi rend="smallcaps">IR</hi>, I am not blind to the worth of the wonderful give of "L<hi rend="smallcaps">EAVES OF</hi> G<hi rend="smallcaps">RASS</hi>." I find it the most extraordinary piece of wit and wisdom that America has yet contributed. I am very happy in reading it, as great power makes us happy. It meets the demand I am always making of what seemed the sterile and stingy nature, as if too much handiwork, or too much lymph in the temperament, were making our western wits fat and mean.</p>
+                <p>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>&#8212;D<hi rend="smallcaps">EAR</hi> S<hi rend="smallcaps">IR</hi>, I am not blind to the worth of the wonderful give of "L<hi rend="smallcaps">EAVES OF</hi> G<hi rend="smallcaps">RASS</hi>." I find it the most extraordinary piece of wit and wisdom that America has yet contributed. I am very happy in reading it, as great power makes us happy. It meets the demand I am always making of what seemed the sterile and stingy nature, as if too much handiwork, or too much lymph in the temperament, were making our western wits fat and mean.</p>
             
             <p>I give you joy of your free and brave thought. I have great joy in it. I find incomparable things said incomparably well, as they must be. I find the courage of treatment which so delights us, and which large perception only can inspire.</p>
             
             <p>I greet you at the beginning of a great career, which yet must have had a long foreground somewhere, for such a start. I rubbed my eyes a little, to see if this sunbeam were no illusion, but the solid sense of the book is a sober certainty. It has the best merits, namely, of fortifying and encouraging.</p>
             
-                <p>I did not know until I last night saw the book advertised in a newspaper that I could trust the name as real and available for a post-office. I wish to see my benefactor, and have felt much like striking my tasks and visiting New-York to pay you my respects. <hi rend="right">R. W. E<hi rend="smallcaps">MERSON</hi></hi></p></note>
+                <p>I did not know until I last night saw the book advertised in a newspaper that I could trust the name as real and available for a post-office. I wish to see my benefactor, and have felt much like striking my tasks and visiting New-York to pay you my respects.</p> 
+                
+                <p rend="right">R. W. E<hi rend="smallcaps">MERSON</hi>.</p>
+            </note>
             
             <anchor xml:id="s001"/>
             
-            <p><add place="above" hand="#h02">*</add> I met Chas, A. Dana (he was always friendly to me&#8212;he was then managing editor of the <hi rend="italic">Tribune</hi>) in the street in New York, where he had a confab, and he requested <subst hand="#h02"><del rend="overstrike" seq="1">the</del><add place="left" rend="marked" seq="2">Emerson's</add></subst> letter<add place="below" hand="#h02"><metamark target="a003" function="add">&#8248;</metamark></add><del rend="overstrike" hand="#h02"><add place="left" hand="#h02" rend="marked">this "certificate,"</add></del> to print, but I refused. Some time after, at a second request of Dana, and knowing he was a friend of Mr. <subst hand="#h02"><del rend="overstrike" seq="1">Emerson</del><add place="right" seq="2">E.</add></subst>, I consented. The following from a newspaper of Aug. 1890, contains an authentic and further explanation of the general matter:</p>
+            <metamark target="#a004" function="adjust"><del hand="#h02" rend="overstrike"><add place="right" hand="#h02" rend="circled">sm type note at bottom</add></del></metamark>
+            
+            <note type="textual" rend="small">
+                <p><add place="above" hand="#h02">*</add> I met Chas, A. Dana (he was always friendly to me&#8212;he was then managing editor of the <hi rend="italic">Tribune</hi>) in the street in New York, where we had a confab, and he requested <subst hand="#h02"><del rend="overstrike" seq="1">the</del> <add place="left" rend="marked" seq="2">Emerson's</add></subst> letter <add place="below" hand="#h02"><metamark target="a003" function="add">&#8248;</metamark></add><del rend="overstrike" hand="#h02"><add place="left" hand="#h02" rend="marked">this "certificate,"</add></del>  to print, but I refused. Some time after, at a second request of Dana, and knowing he was a friend of Mr. <subst hand="#h02"><del rend="overstrike" seq="1">Emerson</del> <add place="right" seq="2">E.</add></subst>, I consented. The following from a newspaper of Aug. 1890, contains an authentic and further explanation of the general matter:</p>
             
             <p>"A person named Woodbury says in a just published book that R. W. Emerson told him how Walt Whitman appeared at a dinner party, in New York, coatless, in his shirt sleeves. Of course and certainly Walt Whitman did <hi rend="italic">not</hi> so appear, and quite as certainly, of course, Emerson never said anything of the sort. The extreme friendliness of a few critics toward Walt Whitman is met by the <hi rend="italic">extremer</hi> malignance and made-up falsehoods of other critics. One of the latter printed in a New York weekly that Whitman always wore an open red flannel shirt. Another story was that the Washington, D. C., police 'run him out' from that town for shamelessly living with an improper female. In a book of Edward Emerson's, a foul account of his father's opinion of Walt Whitman is sneaked in by a foot note. The true fact is, R. W. Emerson had a firm and deep attachment to Whitman from first to last, as person and poet, which Emerson's family and several of his conventional literary friends tried their best in vain to dislodge. As Frank Sanborn relates, Emerson was fond of looking at matters from different sides, but he early put on record, that to his mind, 'Leaves of Grass' was 'the greatest show of wit and poetry that America had yet contributed,' and to his mind he steadily adhered throughout."</p>
+            </note>
+                
+                <metamark target="#d003" function="delete"><add hand="#h02" place="left">&#948;</add></metamark>
             
             <anchor xml:id="a002"/>
-            
-            <metamark target="#d003" function="delete"><add hand="#h02" place="left">&#948;</add></metamark>
             
             <anchor xml:id="d002"/>
             
@@ -164,11 +160,11 @@
             
             <addSpan rend="pasteon" spanTo="#a005"/>
             
-            <p>forth as a fresh spring out from the ground <gap reason="torn away" extent="one word"/> England in 1876. The time was a critical and turning point in m<gap reason="torn away" extent="two words" xml:id="a008"/>l<add place="right" hand="2" corresp="#a008">my personal</add> and literary life. Let me revert to my memorandum book, <gap reason="torn away" extent="one word" xml:id="a009"/><add hand="#h02" place="right" corresp="#a009">Camden</add>, New Jersey that year, fill'd with addresses, receipts, purchases, &amp;c., of the two-volume<add hand="#h02" place="inline">s</add> <del hand="#h02" rend="overstrike">work</del>, pub'd then by myself<add hand="#h02" place="below"><metamark target="#a006" function="add">&#8248;</metamark></add><add place="left" hand="#h02" xml:id="a006">&#8212;<metamark target="#a006" function="emphasize">/</metamark></add> the <hi rend="italic">Leaves</hi>, and the <hi rend="italic">Two Rivulets</hi>&#8212;some home customers for them, but mostly from the British Islands. I was paralyzed from the Secession war, poor, in debt, was expecting death, (the doctors <del hand="#h02" rend="overstrike">candidly</del> put four chances out of five against me)&#8212;and I had the books printed during the lingering interim to occupy the tediousness of glum days and nights. Curiously, the sale abroad proved prompt<add hand="#h02" place="below"><metamark target="#a007" function="add">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a007">,<metamark target="#a007" function="emphasize">/</metamark></add> and what one might call copious; the names came in lists and the money with them, by foreign mail. The price was $10 a set. Both the cash and the emotional cheer were deep medicines; many paid double or treble price, (Tennyson and Ruskin did) and many sent kind and eulogistic letters; ladies, clergymen, social leaders, persons of rank, and high officials. Those blessed gales from the British Islands probably (certainly) saved me. Here are some of the
+            forth as a fresh spring out from the ground <gap reason="torn away" extent="one word"/> England in 1876. The time was a critical and turning point in m<gap reason="torn away" extent="two words" xml:id="a008"/>l <add place="right" hand="2" corresp="#a008">my personal</add> and literary life. Let me revert to my memorandum book, <gap reason="torn away" extent="one word" xml:id="a009"/> <add hand="#h02" place="right" corresp="#a009">Camden</add>, New Jersey that year, fill'd with addresses, receipts, purchases, &amp;c., of the two-volume<add hand="#h02">s</add> <del hand="#h02" rend="overstrike">work</del>, pub'd then by myself<add hand="#h02" place="below"><metamark target="#a006" function="add">&#8248;</metamark></add><add place="left" hand="#h02" xml:id="a006">&#8212;<metamark target="#a006" function="emphasize">/</metamark></add> the <hi rend="italic">Leaves</hi>, and the <hi rend="italic">Two Rivulets</hi>&#8212;some home customers for them, but mostly from the British Islands. I was paralyzed from the Secession war, poor, in debt, was expecting death, (the doctors <subst hand="#h02"><del rend="overstrike" seq="1">candidly</del> <add place="left" seq="2" xml:id="a027">seriously<metamark function="add" target="#a027">&#8248;</metamark></add></subst> put four chances out of five against me)&#8212;and I had the books printed during the lingering interim to occupy the tediousness of glum days and nights. Curiously, the sale abroad proved prompt<add hand="#h02" place="below"><metamark target="#a007" function="add">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a007">,<metamark target="#a007" function="emphasize">/</metamark></add> and what one might call copious; the names came in lists and the money with them, by foreign mail. The price was $10 a set. Both the cash and the emotional cheer were deep medicines; many paid double or treble price, (Tennyson and Ruskin did) and many sent kind and eulogistic letters; ladies, clergymen, social leaders, persons of rank, and high officials. Those blessed gales from the British Islands probably (certainly) saved me. Here are some of the
             
             <anchor xml:id="a005"/>
             
-            
+                <pb xml:id="leaf001v" type="verso"/>
             
             <pb xml:id="leaf002r" facs="loc_ja.00068.jpg" type="recto"/>
             
