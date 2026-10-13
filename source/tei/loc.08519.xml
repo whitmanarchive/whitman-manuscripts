@@ -6,18 +6,15 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main" rend="bracketed">Set up the Copy D E</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
-
      <persName xml:id="ja">JC Andrews</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -29,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -45,17 +41,13 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.08519</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">Images of the versos are currently unavailable.</note>
     
     
-     <note type="work_relations" target="xxx." cert="high">
-      <p></p>
-     </note>
+     <note type="work_relations" target="xxx." cert="high"></note>
    </notesStmt>
    
    <sourceDesc>
@@ -72,31 +64,31 @@
 
      <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
-     
+     <note>Transcribed from digital images of the original.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="letterpress" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="letterpress" xml:id="h01" resp="#unk" scope="major"><name xml:id="unk">Unknown</name></handNote>
     <handNote medium="black ink" xml:id="h02" resp="#ww" scope="minor"/>
     <handNote medium="pencil" xml:id="h03" resp="#unk1" scope="minor"><name xml:id="unk1">Unknown</name></handNote>
     <handNote medium="black ink" xml:id="h04" resp="#unk2" scope="minor"><name xml:id="unk2">Unknown</name></handNote>
     <handNote medium="pencil" xml:id="h05" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h06" resp="#unk2" scope="minor"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
-
+ <change when="2026-10-12" who="#km">proofed</change>
  <change when="2026-04-30" who="#ja">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
 
- <text type="manuscript">
+ <text type="manuscript" subtype="proof">
   <body>
-   <pb xml:id="leaf001r" facs="loc_ej.00177_large.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="loc_ew.00516.jpg" type="recto"/>
    
-   <metamark function="adjust" rend="marked">
+   <note type="authorial" place="top" hand="#h02">
     set up the copy D E and H. <add place="below" hand="#h02"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" hand="#h02" xml:id="a001">sent herewith</add> &amp; fill out this
     &amp; page 43 and 44
     &amp; let me have proofs of
@@ -104,13 +96,15 @@
     (I will expand or contract as needed)
     &#8212;of course the successive
     page numbers will have
-    to be changes
-   </metamark>
+    to be changed
+   </note>
    
-   <fw rend="top left">42</fw>
-   <fw rend="top center italic">GOOD-BYE MY FANCY.</fw>
+   <note type="collaborative" place="top" hand="#h03">Forrest</note>
    
-    <div>
+   <fw><seg rend="left">42</seg> <seg rend="center">GOOD-BYE MY FANCY.</seg></fw>
+   
+    <div type="section">
+     <div type="essay">
      
    <p>
     the esthetic or intellectual palates&#8212;but if I could arouse from its
@@ -119,8 +113,8 @@
    </p>
    
    <p>
-    Out from the well-tended concrete and the physicall&#8212;and in
-    them and <subst hand="#h02"><del rend="overstrike" seq="1">of</del><add place="left" seq="2">from</add></subst> them only&#8212;radiate the spiritual and heroic.
+    Out from the well-tended concrete and the physical&#8212;and in
+    them and <subst hand="#h02"><del rend="overstrike" seq="1">of</del> <add place="left" seq="2">from</add></subst> them only&#8212;radiate the spiritual and heroic.
    </p>
    
    <p>
@@ -134,108 +128,77 @@
    </p>
      
   </div>
+    </div>
    
    
-   <div>
-   
+   <div type="section">
+    
+  <lg type="poem">
    <note type="work_relations" target="xxx.00455"/>
-   
    <head type="main">AFTER AN INTERVAL.</head>
-  
-  <note place="right" hand="#h03" type="archival" rend="marked"><hi rend="underline">(Nov. 22, 1875 midnight&#8211;Saturn and Mars in conjunction.)</hi></note>
-  
-  <lg type="stanza">
+   
+   <head type="sub"><add place="right" hand="#h06" xml:id="j001"><hi rend="underline">(Nov. 22, 1875, midnight&#8211;Saturn and Mars in conjunction.)</hi></add> <add place="right" hand="#h03"><metamark function="adjust" target="#j001">small ital</metamark></add></head>
+   
    <l>A<hi rend="smallcaps">FTER</hi> an interval, reading, here in the midnight,</l>
    <l>With the great stars looking on&#8212;all the stars of Orion looking,</l>
    <l>And the silent Pleiades&#8212;and the duo looking of Saturn and<lb/> ruddy Mars;</l>
    <l>Pondering, reading my own songs, after a long interval, (sorrow<lb/> and death familiar now,)</l>
    <l>Ere closing the book, what pride! what joy! to find them,</l>
-     
-   <note place="left" hand="#h04" rend="marked">
-     Standing so well
-     the test of death &amp;
-     night!
-    </note>
-   
-   <metamark function="adjust" rend="marked">
-    &#9759;
-    send me copy
-    there seems to
-    be an out here
-   </metamark>
-   
+   <note type="authorial" place="right" hand="#h02">&#9759; <del rend="overstrike" hand="#h06">send me copy<lb/> there seems to be an out here</del></note>
+   <l><add hand="#h04" place="left" rend="marked">Standing so well the test of death &amp; night!</add></l>   
    <l>And the duo of Saturn and Mars!</l>
   </lg>
+   
+   
+   <lg type="poem">
+    <note type="work_relations" target="xxx.00567"/>
+    <head type="main">AS IN A SWOON.</head>
     
-   </div>
-   
-   
-   <div>
-   
-   <note type="work_relations" target="xxx.00567"/>
-   
-   <head type="main">AS IN A SWOON.</head>
-   
-   <lg type="stanza">
     <l>A<hi rend="smallcaps">S</hi> in a swoon, one instant,</l>
     <l>Another sun, ineffable, full-dazzles me,</l>
     <l>And all the orbs I knew&#8212;and brighter, unknown orbs;</l>
     <l>One instant of the future land, Heaven's land.</l>
    </lg>
     
-   </div>
-   
-   
-   <div>
     
-    <subst><del rend="overstrike" xml:id="d001" hand="#h02" seq="1"><head type="main"><gap reason="illegible" resp="#ja" extent="one word"/></head></del><del rend="overstrike" hand="#h02" seq="3"><add place="right" hand="#h02" seq="2"><metamark function="delete" target="#d001">&#948;</metamark></add></del><add place="above" hand="#h02" seq="4">stet</add><add place="below" hand="#h02" seq="5">. . . . . .</add></subst>
-   
-    <lg type="stanza">
-    <l>T<hi rend="smallcaps">HOUGHTS</hi>, suggestions, aspirations, pictures,</l>
-    <l>Cities and farms&#8212;by day and night&#8212;book of peace and war<add place="below" hand="#h02"><metamark target="#a002" function="add">&#8248;</metamark></add><add place="above" hand="#h02" xml:id="a002">,<metamark target="a002" function="emphasize">/</metamark></add></l>
-    <l>Of platitudes and of the commonplace.</l>
-   </lg>
+    <lg type="poem">
+     <note type="work_relations" target="xxx.00564"/>
+     <head type="main"><add place="above" hand="#h02"><metamark function="restore" target="#r001" xml:id="r002">stet</metamark></add> <restore xml:id="r001"><del rend="overstrike" xml:id="d001" hand="#h02"><hi rend="dotted" hand="#h02" corresp="#r002">L. OF G.</hi></del></restore> <del rend="overstrike" hand="#h02"><add place="right" hand="#h02"><metamark function="delete" target="#d001">&#948;</metamark></add></del></head>
+     
+    <lg type="linegroup">
+       <l>T<hi rend="smallcaps">HOUGHTS</hi>, suggestions, aspirations, pictures,</l>
+       <l>Cities and farms&#8212;by day and night&#8212;book of peace and war<add place="below" hand="#h02"><metamark target="#a002" function="add">&#8248;</metamark></add><add place="right" hand="#h02" xml:id="a002">,<metamark target="a002" function="emphasize">/</metamark></add></l>
+       <l>Of platitudes and of the commonplace.</l>
+    </lg>
     
-   <lg type="stanza">
+   <lg type="linegroup">
     <l>For out-door health, the land and sea&#8212;for good will,</l>
     <l>For America&#8212;for all the earth, all nations, the common people,</l>
     <l>(Not of one nation only&#8212;not America only.)</l>
    </lg>
+   </lg>
     
-   </div>
-   
-   
-   <div>
+  <metamark function="emphasize"><add hand="#h03" rend="marked">2 leads #</add></metamark>
     
-  <metamark function="emphasize" rend="marked">2leads#</metamark>
+   <lg type="poem"> 
+    <note type="work_relations" target="xxx.00564"/>
+    <head type="main"><del rend="overstrike" xml:id="d002" hand="#h02">THROUGH L. OF G.</del> <add place="right" hand="#h02"><metamark function="delete" target="#d002">&#948;</metamark></add></head>   
     
-    <del rend="overstrike" xml:id="d002" hand="#h02"><head type="main">THROUGH <gap reason="illegible" resp="#ja" extent="one word"/>.</head></del><add place="right" hand="#h02"><metamark function="delete" target="#d002">&#948;</metamark></add>
+    <!-- RESUME PROOFING HERE. KM -->
    
-   <metamark target="#e001" function="emphasize" rend="marked">l.c</metamark>
-   
-   <lg type="stanza">
-    <l>I<hi rend="smallcaps" xml:id="e001">N</hi> it each claim, ideal line<add place="below" hand="#h02"><metamark target="#a003" function="add">&#8248;</metamark></add><add place="right" hand="#h02" xml:id="a003">,<metamark target="#a003" function="emphasize">/</metamark></add> by all lines<add place="below" hand="#h02"><metamark target="#a004" function="add">&#8248;</metamark></add><add place="right" hand="#h02" xml:id="a004">,<metamark target="#a004" function="emphasize">/</metamark></add> claims<add place="below" hand="#h02"><metamark target="#a005" function="add">&#8248;</metamark></add><add place="right" hand="#h02" xml:id="a005">,<metamark target="#a005" function="emphasize">/</metamark></add> ideals, temper'd</l>
+    <l>I<hi rend="smallcaps" xml:id="e001">N</hi><add hand="#h03" place="left" rend="marked"><metamark target="#e001" function="emphasize">l.c</metamark></add> it each claim, ideal line<add place="below" hand="#h02"><metamark target="#a003" function="add">&#8248;</metamark></add><add place="right" hand="#h02" xml:id="a003">,<metamark target="#a003" function="emphasize">/</metamark></add> by all lines<add place="below" hand="#h02"><metamark target="#a004" function="add">&#8248;</metamark></add><add place="right" hand="#h02" xml:id="a004">,<metamark target="#a004" function="emphasize">/</metamark></add> claims<add place="below" hand="#h02"><metamark target="#a005" function="add">&#8248;</metamark></add><add place="right" hand="#h02" xml:id="a005">,<metamark target="#a005" function="emphasize">/</metamark></add> ideals, temper'd</l>
     <l>Each right and wish by other wishes, rights.</l>
    </lg>
-   
-   </div>
- 
- 
-   <div>
     
     <note type="work_relations" target="xxx.00565"/>
    
    <head type="main">AFTER THE ARGUMENT.</head>
     
-    <lg type="stanza">
+    <lg type="poem">
      <l>A <hi rend="smallcaps">GROUP</hi> of little children with they ways and chatter flow in,</l>
      <l>Like welcome rippling water o'er my heated nerves and flesh.</l>
     </lg>
-    
-   </div>
-   
-   
-   <div>
+
     
     <note type="work_relations" target="xxx.00566"/>
     
