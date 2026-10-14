@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04417"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title level="m" type="main">Good-Bye My Fancy</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     <persName xml:id="km">Kevin McMullen</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2026</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+    <availability>
+     <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+     <p>
+      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+    </availability>
+   <idno>loc.04417</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+        
+     <note type="work_relations" target="xxx.00459" cert="high"></note><!-- THIS NEEDS UPDATING. KM -->
+   </notesStmt>
+   
+   <sourceDesc><!-- THIS ALL NEEDS UPDATING. KM -->
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     
+     <title>Good-Bye My Fancy</title>  
+     
+     <date cert="high">1891</date>
+     
+     <idno type="callno">mss 18630, box 20; reel 12</idno>
+     
+     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+     
+     <note>Transcribed from digital images of the original.</note>
+
+     <note type="project" target="#rel01">The verso is comprised of an unfolded envelope to Whitman and two other pasted pages.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="pencil" xml:id="h02" resp="#ww" scope="minor"/>
+   </handNotes>
+  </profileDesc>
+<revisionDesc>
+ <change when="2026-10-14" who="#km">transcribed and encoded</change>
+</revisionDesc>
+ </teiHeader>
+
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="loc_ew.00415.jpg" type="recto"/>
+   
+   <note type="authorial" hand="#h01">
+    <address>
+      <addrLine>Ferguson Bros. &amp; Co:</addrLine>
+      <addrLine>Printers</addrLine>
+      <addrLine>15 north 7th street</addrLine>
+      <addrLine>Philadelphia</addrLine>
+    </address>
+   </note>
+   
+   <note type="authorial" hand="#h01">Copy (pp: 3 to 42 inclusive)</note>
+   
+   <note type="authorial" hand="#h01"><hi rend="underline">Good&#11840;Bye my Fancy</hi></note>
+   
+   <note type="authorial" hand="#h01">
+    <address>
+     <addrLine>Walt Whitman</addrLine>
+     <addrLine>328 Mickle street</addrLine>
+     <addrLine>Camden NJ</addrLine>
+    </address>
+   </note>
+   
+   <pb xml:id="leaf001v" type="verso"/>
+   
+   <pb xml:id="leaf002r" facs="loc_km.00090.jpg" type="recto"/>
+   
+   <div type="letter">
+    <opener>
+    <address>
+     <addrLine>328 Mickle street</addrLine>
+     <addrLine>Camden New Jersey</addrLine>
+    </address>
+   </opener>
+   
+   <p>My notion w'd be for you to put two compositors (among y'r best ones) on this, &amp; <hi rend="underline">set it all up complete</hi> <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">pp: 3 to 42</add> &#8212;&amp; let me have the galley proofs complete, (I sh'd say <hi rend="underline">five</hi> possibly <hi rend="underline">six</hi> galleys)&#8212;&#8212;&#8212;</p>
+   
+   <p>The measure is to be exactly the same as in "Nov. Boughs" set up by you <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">the additional pp: are to go in with the other book, bound in it</add> &#8212;long primer&#8212;asbefore Horace Traubel is to manage &amp;c: the same as myself.</p>
+   
+   <closer>
+    <signed>Walt Whitman</signed>
+   </closer>
+   
+   <postscript><p>pass this of course to Mr Myrick</p></postscript>
+   </div>
+   
+   <pb xml:id="leaf002v" type="verso"/>
+   
+   <pb xml:id="leaf003r" facs="loc_kmh.00011.jpg" type="recto"/>
+   
+  <div type="section"> 
+   <note type="authorial" place="top" hand="#h01">3</note>
+   
+   <note type="authorial" place="top" hand="#h01">long primer close</note>
+   
+   <addSpan rend="pasteon" spanTo="#a003"/>
+  <div type="essay">
+   <head type="main" rend="underline">Preface Note to 2d Annex,</head>
+   <head type="sub" rend="underline">concluding L of G&#8212;1891</head>
+   
+   <milestone unit="glued"/>
+   
+   <p><hi rend="tripleUnderline" hand="#h02">Had</hi> I not better withhold (in this old age and paralysis of me)<milestone unit="glued"/> such little tags and fringe-dots (maybe specks, stains,) as follow a long dusty journey and witness it afterward? I have <add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">probably</add> not been <add place="below"><metamark function="add" target="#a005">&#8248;</metamark></add><add place="above" xml:id="a005">enough</add> afraid of <del rend="overstrike">such</del> <add place="below"><metamark function="add" target="#a006">&#8248;</metamark></add><add place="above" xml:id="a006">careless touches,</add> from the first, <add place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><add place="above" xml:id="a007">and am not now&#8212;</add>&#8212;nor of parrot-like repetitions,&#8212;<del rend="overstrike">as I grow older</del>&#8212;nor <del rend="overstrike">even</del> platitudes and the commonplace. (Perhaps I am too democratic for <subst><del rend="overstrike" seq="1">that</del> <add place="below" seq="2"><metamark function="add" target="#a008">&#8248;</metamark></add><add place="above" seq="2" xml:id="a008">such avoidances.)</add></subst> Besides, is not the verse&#11840;field, as originally plann'd by my theory, </p>
+   
+  </div>
+   
+   
+   
+   <anchor xml:id="a003"/>
+   </div>
+   
+</body>
+</text>
+</TEI>
