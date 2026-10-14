@@ -70,6 +70,7 @@
     <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
     <handNote medium="pencil" xml:id="h02" resp="#ww" scope="minor"/>
     <handNote medium="red ink" xml:id="h03" resp="#ww" scope="minor"/>
+    <handNote medium="letterpress" xml:id="h04" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
@@ -216,8 +217,40 @@
    
    <pb xml:id="leaf007r" facs="loc_kmh.00015.jpg" type="recto"/>
    
-   
-   
+   <div type="section">
+    
+    <note type="authorial" place="top" hand="#h02">7</note>
+    
+    <metamark function="adjust"><add hand="#h02">long primer<lb/> same as formerly</add></metamark>
+    
+    
+    <addSpan rend="pasteon" spanTo="#a049" hand="#h04"/>
+    
+    <metamark function="adjust"><add hand="#h02">same style of type for head-lines<lb/> plain caps<lb/> o s</add></metamark>
+    
+      <lg type="poem">
+       <note type="work_relations" target="xxx.00380"/>
+       <head type="main"><del rend="overstrike" hand="#h01">OLD-AGE RECITATIVES.</del></head>
+       
+       <byline><del rend="overstrike" hand="#h01">By W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</del></byline>
+       
+       <head type="main"><hi rend="italic">Sail out for good, Eidólon Yacht!</hi></head>
+       
+       <l>H<hi rend="smallcaps">EAVE</hi> the anchor short!</l>
+       <l>Raise main-sail and jib—steer forth,</l>
+       <l>O little white-hull'd sloop, now speed on really deep waters,</l>
+       <l>(I will not call it our concluding voyage,</l>
+       <l>But outset and sure entrance to the truest, best, maturest;)</l>
+       <l>Depart, depart from solid earth—no more returning to these  <lb/>shores,</l>
+       <l>Now on for aye our infinite free venture wending,</l>
+       <l>Spurning all yet tried ports, seas, hawsers, densities, gravitation,</l>
+       <l>Sail out for good, eidólon yacht of me!</l>
+      </lg>
+    <anchor xml:id="a049"/>
+    
+    
+    
+   </div>
    
    </div>
    
