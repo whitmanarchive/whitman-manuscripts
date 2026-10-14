@@ -6,17 +6,15 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main" rend="bracketed">or Halcyon Days</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="tb">Tara Ballard</persName>
+     <persName xml:id="bb">Brett Barney</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -39,35 +37,22 @@
                 </address>
     <availability>
      <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
-     <p>
-      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
-      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
-      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+     <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
     </availability>
-    
-
-   <idno>nyp.00043</idno>
+    <idno>nyp.00043</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">Whitman appears to have written some of the material on this leaf in 1886 and some of it later, perhaps after the publication of <hi rend="italic">November Boughs</hi> in 1888.</note>
         
-     <note type="work_relations" cert="high">
-      <p>Draft for a title page, beginning "or Halycon days," with a note at the head "for title page to supplement of L of G not Nov. Boughs." The verso appears to have been a previous title page draft for "Fancies at Navesink." "Halcyon Days" first appeared in the New York <hi rend="italic">Herald</hi> on 29 January 1888, and was reprinted in the "Sands at Seventy Annex" to <hi rend="italic">Leaves of Grass</hi> (1888).</p>
-     </note>
+    <note type="work_relations" target="xxx.00460" cert="high">This manuscript contains several different draft title pages for a contemplated collection of material to be composed, seemingly, of poetry and prose that Whitman had written since the publication of <hi rend="italic">Specimen Days &amp; Collect</hi> in 1882. The most obvious manifestation of that idea is <hi rend="italic">November Boughs</hi> (1888). The present manuscript bears indications (especially in his note at the top that refers specifically to <hi rend="italic">November Boughs</hi>) that Whitman might have continued to entertain ideas for publishing another "annex" or "supplement" to <hi rend="italic">Leaves of Grass</hi> under one of the titles here.</note>
    </notesStmt>
-   
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
-     
-     <title>[or Halcyon Days]</title>  
-     
-     <date cert="high">around 1888</date>
-     
-     <idno type="callno">NYPL Catalog ID (B-Number): b15520479; MSS Unit ID: 19100</idno>
-     
-     <orgName xml:id="nyp">The Walt Whitman Papers, 1819&#8211;1892, New York Public Library, New York, N.Y.</orgName>
-     
+     <title>"or Halcyon days." Holograph draft for title page, undated, unsigned.</title>  
+     <date notBefore="1886" notAfter="1891" cert="high" xml:id="dat1">Between 1886 and 1891</date>
+     <idno type="UUID">cbaca720-253d-0130-3fda-58d385a7b928</idno>
+     <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
      <note>Transcribed from digital images of the original.</note>
      <note type="project" target="#rel01">The verso appears to have been a previous title page draft for "Fancies at Navesink."</note>
     </bibl>
@@ -75,38 +60,34 @@
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="pencil" xml:id="h02" resp="#unk"></handNote>
-    <handNote medium="pencil" xml:id="h03" resp="#ww"/>
-    <handNote medium="blue pencil" xml:id="h04" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="pencil" xml:id="h02" resp="#unk" scope="minor"><persName xml:id="unk">Unknown</persName></handNote>
+    <handNote medium="stamped black ink" xml:id="h03" scope="minor" resp="#unk2"><persName xml:id="unk2">Unknown</persName></handNote>
+    <handNote medium="purple pencil" xml:id="h04" resp="#ww"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-10-13" who="#bb">proofed</change>
  <change when="2024-09-11" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
-
  <text type="manuscript">
   <body>
-   
-   <pb xml:id="leaf001r" facs="M_1238205.jpg" type="recto"/>
-   
-   <note type="archival" place="top" hand="#h02">OYD<lb/>Mss.206</note>
-   <note type="authorial" place="top" hand="#h02">xcb<lb/>800<lb/>165<add place="inline">10<hi rend="underlin">00</hi></add></note>
-   <note type="authorial" place="top" hand="#h03" rend="marked">for title page to supplement of L of G <hi rend="underline">not</hi> <del rend="overstrike" hand="#h01">in</del> Nov. Boughs</note>
-
-   <p><add place="above">or</add><hi rend="underline">Halcyon Days</hi><lb/>and other pieces<lb/>for <hi rend="tripleunderline">Annex</hi> to the <add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above">Leaves of Grass</add> preceding<lb/>
+   <pb xml:id="leaf001r" facs="nyp_bb.00009.jpg" type="recto"/>
+   <note type="archival" place="top" hand="#h02">OYD Mss. 206</note>
+   <note type="authorial" place="top" hand="#h02"><hi rend="underline">xcb</hi><lb/><del rend="erasure"><gap reason="illegible" extent="two to six characters"/></del> 10<hi rend="underline">00</hi></note>
+   <note type="authorial" place="top" hand="#h04" rend="circled">for title page to supplement of L of G <hi rend="underline">not</hi> <del rend="overstrike" hand="#h01">in</del> Nov. Boughs</note>
+<div>
+   <head>or <hi rend="underline">Halcyon Days</hi> <lb/>and other pieces <lb/>for <hi rend="tripleUnderline">Annex</hi> to <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above">Leaves of Grass</add> the preceding</head><lb/></div>
    <milestone unit="undeclared" rend="horbar-full"/>
-   <hi rend="tripleunderline">Fancies at Navesink</hi><lb/>and <del rend="overstrike">some</del> other <subst><del rend="overstrike" seq="1">utterances</del><add place="above" seq="2">? pieces <del rend="overstrike" seq="3">of</del></add></subst> 1883 &#11840; <subst><del rend="overstrike" seq="1">'86,</del><add place="above" seq="2">to '87,</add></subst> <subst><del rend="overstrike" seq="1">for</del><add place="above" seq="2">for</add></subst> <del rend="overstrike" seq="2"><add place="above" hand="#h04" seq="1">not</add></del><lb/>
-    <milestone unit="undeclared" rend="short-right"/>
-    <hi rend="tripleunderline">Supplement</hi><add place="above" hand="#h03">? Annex at 69</add><add place="right" rend="marked">biggest line in title</add><lb/>
-    to <subst><del rend="overstrike"><del rend="overstrike" hand="#h04">the preceding</del></del><add place="above" hand="#h04">? Leaves of Grass</add></subst>.
-   </p>
-
-
+   <div>
+    <head type="main" rend="tripleUnderline">Fancies at Navesink</head> <head type="sub">and <del rend="overstrike">some</del> other <subst><del rend="overstrike" seq="1">utterances</del> <add place="above" seq="2"><metamark function="question">?</metamark> pieces, <del rend="overstrike" seq="3">of</del></add></subst> 1883<del rend="overstrike">&#11840;</del><subst><del rend="overstrike" seq="1">'86</del> <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002" seq="2">to '87,</add></subst> <subst><del rend="overstrike" hand="#h04" seq="1">for</del> <del rend="overstrike" hand="#h01" seq="3"><add place="above" hand="#h04" seq="2">making</add></del><add place="above" hand="#h01" seq="4">for</add></subst></head>
+    <head type="main"><add place="above" hand="#h04" xml:id="a003"><metamark function="question">?</metamark> Annex at 69</add></head><metamark function="adjust" target="#a003"><add place="right" rend="circled" hand="#h01">biggest line in title</add></metamark>
+    <head type="main" rend="tripleunderline">Supplement</head>
+    <head type="sub">to <subst><del rend="overstrike" hand="#h01" seq="3"><del rend="overstrike" hand="#h04" seq="1">the preceding</del></del> <add place="above" hand="#h04" seq="2"><metamark function="question">?</metamark> Leaves of Grass</add></subst>.</head>
+   </div>
    <pb xml:id="leaf001v" facs="M_1238206.jpg" type="verso"/>
-   
+<!-- START HERE. I NEED TO ADD THE VERSO STUFF  -->
  </body>
 </text>
 </TEI>
