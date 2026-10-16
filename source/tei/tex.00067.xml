@@ -6,17 +6,15 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
     <title level="m" type="main" rend="bracketed">Sail Out for Good Eid&#243;lon Yacht</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="tb">Tara Ballard</persName>
+     <persName xml:id="bb">Brett Barney</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -28,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,59 +36,41 @@
                 </address>
     <availability>
      <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
-     <p>
-      The text encoding was created and/or prepared by the Walt Whitman Archive and is governed by a
-      <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
-      (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
+     <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
     </availability>
-    
-
    <idno>tex.00067</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
-    
-    
-     <note type="work_relations" cert="high">
-      <p>Heavily revised draft, nine lines, of "Sail Out for Good, Eid&#243;lon Yacht!" which was first published in <hi rend="italic">Lippincott's Magazine</hi> in March 1891. It was reprinted in <hi rend="italic">Good-bye My Fancy</hi> (1891). Whitman's note at the bottom calls the manuscript rough crude outlines and dates it July 25 1890. Included with the manuscript is a three-page letter to Alfred, Lord Tennyson, dated 1878, drafted on the reverse sides of letters from Berry Young and Richard M. Bucke.</p>
-     </note>
+    <note type="project" target="#dat1">The date written at the bottom of this manuscript indicates that Whitman had begun drafting the poem at least by mid-summer, several months before he submitted it for publication. For further details about his attempts to sell this and other poems to magazines, see the editorial note for <ref target="loc.00229">loc.00229</ref>.</note>
+     <note type="work_relations" cert="high">"Sail Out for Good, Eid&#243;lon Yacht" was first published in the March 1891 issue of <hi rend="italic">Lippincott's Magazine</hi>, in a group of poems collectively titled "Old-Age Echoes." It was later included in <hi rend="italic">Good-Bye My Fancy</hi> (1891).</note>
    </notesStmt>
-   
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
-     
      <title>Sail Out for Good, Eid&#243;lon Yacht</title>  
-     
-     <date cert="high">about 1890</date>
-     
+     <date notBefore="1890-01-01" notAfter="1890-07-25" cert="high" xml:id="dat1">1890</date>
      <idno type="callno">TXRC03-A4; Container bv6</idno>
-     
-     <orgName xml:id="tex">Walt Whitman Literary Manuscripts in the Walt Whitman Collection, Harry Ransom Humanities Research Center at the University of Texas at Austin</orgName>
-     
+     <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
      <note>Transcribed from digital images of the original.</note>
-
-     <note type="project" target="#rel01">The verso is blank.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="pencil" xml:id="h01" resp="#ww"/>
-    <handNote medium="purple pencil" xml:id="h02" resp="#ww"></handNote>
-    <handNote medium="black ink" xml:id="h03" resp="#ww"/>
+    <handNote medium="pencil" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="purple pencil" xml:id="h02" resp="#ww" scope="minor"/>
+    <handNote medium="black ink" xml:id="h03" resp="#ww" scope="minor"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-10-16" who="#bb">proofed</change>
  <change when="2024-10-16" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
-
  <text type="manuscript">
   <body>
    
-   <pb xml:id="leaf001r" facs="0001134.jpg" type="recto"/>
+   <pb xml:id="leaf001r" facs="tex_bb.00021.jpg" type="recto"/>
    <lg type="poem">
     <head><hi rend="underline">Sail out for good, <del rend="overstrike">for aye,</del> <subst><del rend="overstrike" seq="1">O mystic</del><add place="above" seq="2"><del rend="overstrike" seq="3">?</del> Eid&#243;lon</add></subst><lb/>yacht. <del rend="overstrike" hand="#h02">of me.</del></hi></head>
      <l>Heave the anchor short.</l>
