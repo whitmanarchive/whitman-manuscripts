@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?> 
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00008">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main">A North Star</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor role="editor">Kenneth M. Price</editor>
+            <editor role="editor">Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="jr">Joshua Ranger</persName>
+               <persName xml:id="fl">Farrah Lehman</persName>
+               <persName xml:id="km">Kenneth M. Price</persName>
+               <persName xml:id="lr">Lisa Renfro</persName>
+               <persName xml:id="jh">Jeff Hill</persName>
+               <persName xml:id="ew">Emma Whaley</persName>
+               <persName xml:id="km">Kevin McMullen</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>The National Endowment for the Humanities</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+            </availability>
+            <idno>loc.00008</idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="project" target="#dat1">This manuscript was likely written in the second half of <date when="1889">1889</date>, in the months before the poem's publication in December.</note>
+            
+            <note type="work_relations" target="xxx.00396" cert="high">A draft of a poem that was later revised and published as "A Christmas Greeting." Whitman told his associate Horace Traubel on <ref target="med.00006.085">December 9, 1889</ref>, that the poem had been accepted for publication by the McClure newspaper syndicate (after initially being rejected by <hi rend="italic">Harper's</hi>) and that he suspected it would be published around Christmas. The poem appeared in the <hi rend="italic">St. Louis Post-Dispatch</hi> on December 22, 1889, with a note indicating that it was "written for the Sunday Post-Dispatch." It is possible that it also appeared in other papers around that time. Whitman, however, was unaware of its publication, wondering as late as <ref target="med.00006.136">January 29, 1890</ref>, why it had not appeared in the U.S., despite having appeared by that time <ref target="med.00006.135">in a Parisian newspaper</ref>. The poem was later included in <hi rend="italic">Good-Bye My Fancy</hi> (1891).</note>
+            
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author xml:id="ww">Walt Whitman</author>
+               <title>A North Star</title>
+               <date cert="high" when="1889" xml:id="dat1">1889</date>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+               <note type="project">Transcribed from digital images of the original.</note>
+            </bibl>
+            
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote medium="pencil" xml:id="h01" resp="#ww" scope="sole"/>
+         </handNotes>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2026-10-26" who="#km">proofed</change>
+         <change who="#ew" when="2024-09-24">updated image link</change>
+         <change who="#jh" when="2024-03-15">checked, corrected</change>
+         <change who="#nhg" when="2016-05-02">converted to P5</change>
+         <change who="#jr" when="2004-08-12">encoded</change>
+         <change who="#jr" when="2004-08-08">transcribed</change>
+         <change who="#fl" when="2006-06-15">checked</change>
+         <change who="#km" when="2006-06-30">edited</change>
+         <change who="#lr" when="2006-08-01">blessed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="loc_ew.00029.jpg" xml:id="leaf001r" type="recto"/>
+         <lg type="poem">
+            <head type="main" rend="underline">A North Star <gap reason="torn away"/> South</head>
+            
+            <l>Welcome <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">Brazilian</add> brother—thy <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">ample</add> place is ready;</l>
+            <l><del rend="overstrike">A shouting cheer to thee from the north</del></l>
+            <l>A <subst><del rend="overstrike" seq="1">ready</del> <add place="above" seq="2">loving</add></subst> hand—a smile <add place="below"><metamark function="add" target="#a003">&#8248;</metamark></add><add place="above" xml:id="a003">from the north&#8212;</add>—a sunny <add place="below"><metamark function="add" target="#a004">&#8248;</metamark></add><add place="above" xml:id="a004">instant</add> Hail!</l>
+            <l>(Let the future <subst><del rend="overstrike" seq="1">look</del> <add place="above" seq="2">care</add></subst> for itself where it <subst><add place="below"><metamark function="add" target="#a005">&#8248;</metamark> </add><del rend="overstrike" seq="1">uses</del> <add place="above" seq="2" xml:id="a005">reveals its</add></subst><lb/> troubles, impedimentas</l>
+            <l>Be <add place="below"><metamark function="add" target="#a006">&#8248;</metamark></add><del rend="overstrike"><add place="above" xml:id="a006">always</add></del> ours the present throe, the <add place="below"><metamark function="add" target="#a007">&#8248;</metamark></add><add place="above" xml:id="a007">democratic</add> aim, the <add place="below"><metamark function="add" target="#a008">&#8248;</metamark></add><add place="above" xml:id="a008">acceptance and the</add> faith)</l>
+            <l><del rend="overstrike"><add place="below"><metamark function="add" target="#a009">&#8248;</metamark></add><add place="above" xml:id="a009">To day from <unclear reason="illegible" cert="low" resp="#km">as</unclear></add></del> To thee <add place="below"><metamark function="add" target="#a010">&#8248;</metamark></add><add place="above" xml:id="a010">to day our</add> <del rend="overstrike">the</del> reaching arm, <subst><del rend="overstrike" seq="1">the expectant eye,</del> <add place="above" seq="2">our <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#km">p</unclear></del> turning neck,</add></subst>—<del rend="overstrike"><gap reason="illegible" extent="one character"/></del> to thee <add place="below"><metamark function="add" target="#a011">&#8248;</metamark></add><add place="above" xml:id="a011">from us,</add> the expectant eye,</l>
+            
+            <milestone unit="glued"/>
+            
+            <l>Thou cluster free<subst rend="overwrite"><del>&#8212;</del><add>!</add></subst> thou <add place="below"><metamark function="add" target="#a012">&#8248;</metamark></add><add place="above" xml:id="a012">brilliant</add> lustrous star!<subst><del rend="overstrike" seq="1">—learn</del> <del rend="overstrike" seq="3"><add place="above" seq="2">—first learning</add></del> <del rend="overstrike" seq="5"><add place="above" seq="4">will</add></del> <add place="above" seq="6">learning well,</add></subst> then, <add place="below"><metamark function="add" target="#a013">&#8248;</metamark></add><add place="above" xml:id="a013" rend="marked">for good</add></l>
+            <l>The <subst><del rend="overstrike" seq="1">last</del> <add place="above" seq="2">true</add></subst> lesson of a Nation's light in the sky</l>
+            <l>(More shining than the Cross, more than the Crown,)</l>
+            <l><subst><del rend="overstrike" seq="1">Summit</del> <add place="above" seq="2"><metamark function="add" target="#a014">&#8248;</metamark></add><add place="above" xml:id="a014" seq="2">Its height</add></subst> of all <add place="below"><metamark function="add" target="#a015">&#8248;</metamark></add><add place="above" xml:id="a015"><subst><del rend="overstrike" seq="1">will</del> <add place="above" seq="2">to</add></subst> be</add> superb humanity.</l>
+         </lg>
+         
+         <pb facs="loc_km.00091.jpg" xml:id="leaf001v" type="verso"/>
+      </body>
+   </text>
+</TEI>
