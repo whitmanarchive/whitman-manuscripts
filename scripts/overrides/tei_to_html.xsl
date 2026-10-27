@@ -359,7 +359,7 @@
   <xsl:template match="add[not(@place = ('above','below','over'))]">
     <xsl:choose>
       <!-- treat adds that are NOT in Whitman's hand differently -->
-      <xsl:when test="@hand and substring-after(@hand,'#') != (preceding::handNote[@resp='#ww']/@xml:id)">
+      <xsl:when test="@hand and not(substring-after(@hand,'#') = preceding::handNote[@resp='#ww']/@xml:id)">
         <span>
           <xsl:attribute name="class">
           <xsl:call-template name="add_attributes"/>
@@ -368,6 +368,15 @@
         <xsl:apply-templates/>
        </span>
     </xsl:when>
+      <xsl:when test="parent::subst and not(substring-after(parent::subst/@hand,'#') = preceding::handNote[@resp='#ww']/@xml:id)">
+        <span>
+          <xsl:attribute name="class">
+            <xsl:call-template name="add_attributes"/>
+            <xsl:text> tei_add_non_ww_hand</xsl:text>
+          </xsl:attribute>
+          <xsl:apply-templates/>
+        </span>
+      </xsl:when>
     <xsl:otherwise>
     <span>
       <xsl:attribute name="class">
