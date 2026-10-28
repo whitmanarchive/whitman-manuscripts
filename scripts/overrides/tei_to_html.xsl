@@ -345,7 +345,7 @@
     <xsl:apply-templates/><br/>
   </xsl:template>
   
-  <!-- do not display archival notes for manuscripts -->
+  <!-- display archival notes for manuscripts -->
   <xsl:template match="note[@type='archival']">
     <span>
       <xsl:attribute name="class">
@@ -355,41 +355,35 @@
     </span>
   </xsl:template>
   
-  <!-- handle changes in Whitman's hand differently for proof mss -->
-  <xsl:template match="*[substring-after(@hand,'#') = (preceding::handNote[@resp='#ww']/@xml:id)][ancestor::text[@subtype='proof']]">
-    <xsl:variable name="hand_id" select="substring-after(@hand,'#')"/>
-    <xsl:variable name="hand_resp" select="substring-after(preceding::handNote[@xml:id=$hand_id]/@resp,'#')"/>
-    <!-- TODO: reconsider this and improve it? or move into css? -->
+  <!-- style adds with @place for manuscripts -->
+  <xsl:template match="add[not(@place = ('above','below','over'))]">
     <xsl:choose>
-      <xsl:when test="self::del">
-        <del>
-          <span>
+      <!-- treat adds that are NOT in Whitman's hand differently -->
+      <xsl:when test="@hand and not(substring-after(@hand,'#') = preceding::handNote[@resp='#ww']/@xml:id)">
+        <span>
           <xsl:attribute name="class">
           <xsl:call-template name="add_attributes"/>
-          </xsl:attribute>
-          <xsl:choose>
-          <xsl:when test="$hand_resp = 'ww'">
-          <span class="tei_proof_edit"><xsl:apply-templates/></span>
-          </xsl:when>
-          <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
-        </xsl:choose>
-        </span>
-      </del>
+          <xsl:text> tei_add_non_ww_hand</xsl:text>
+        </xsl:attribute>
+        <xsl:apply-templates/>
+       </span>
     </xsl:when>
-      <xsl:when test="self::addSpan">
-        <ms-starthand data-ms-id="{substring-after(@spanTo,'#')}"><xsl:comment/></ms-starthand>
+      <xsl:when test="parent::subst and not(substring-after(parent::subst/@hand,'#') = preceding::handNote[@resp='#ww']/@xml:id)">
+        <span>
+          <xsl:attribute name="class">
+            <xsl:call-template name="add_attributes"/>
+            <xsl:text> tei_add_non_ww_hand</xsl:text>
+          </xsl:attribute>
+          <xsl:apply-templates/>
+        </span>
       </xsl:when>
     <xsl:otherwise>
     <span>
       <xsl:attribute name="class">
-      <xsl:call-template name="add_attributes"/>
+        <xsl:call-template name="add_attributes"/>
+        <xsl:text> tei_proof_edit</xsl:text>
       </xsl:attribute>
-    <xsl:choose>
-      <xsl:when test="$hand_resp = 'ww'">
-        <span class="tei_proof_edit"><xsl:apply-templates/></span>
-      </xsl:when>
-      <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
-    </xsl:choose>
+      <xsl:apply-templates/>
     </span>
     </xsl:otherwise>
     </xsl:choose>
