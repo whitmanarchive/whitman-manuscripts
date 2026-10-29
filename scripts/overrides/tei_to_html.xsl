@@ -368,7 +368,7 @@
         <xsl:apply-templates/>
        </span>
     </xsl:when>
-      <xsl:when test="parent::subst and not(substring-after(parent::subst/@hand,'#') = preceding::handNote[@resp='#ww']/@xml:id)">
+      <xsl:when test="parent::subst/@hand and not(substring-after(parent::subst/@hand,'#') = preceding::handNote[@resp='#ww']/@xml:id)">
         <span>
           <xsl:attribute name="class">
             <xsl:call-template name="add_attributes"/>
