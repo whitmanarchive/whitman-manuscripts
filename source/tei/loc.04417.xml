@@ -1411,8 +1411,63 @@
      <anchor xml:id="d006"/>
      
      <anchor xml:id="a180"/>
-    
+     
+     <pb xml:id="leaf041v" facs="loc_gk.00663.jpg" type="verso"/>
+     
+     <pb xml:id="leaf042r" facs="loc_km.00092.jpg" type="recto"/>
+     
+     <note type="authorial" place="top" hand="#h01"><subst><add seq="2">41</add> <del rend="overstrike" seq="1">40</del></subst></note>
+     
+     <addSpan rend="pasteon" spanTo="#a183" hand="#h04"/>
+     
+     <metamark function="emphasize"><add hand="#h01">#</add></metamark>
+      
+      <lg type="linegroup">
+       <head type="main" rend="italic"><del rend="overstrike" hand="#h01">My task</del></head>
+       
+      <l>Begun in ripen'd youth and steadily pursued,</l>
+       <l>Wandering, peering, dallying with all&#8212;war, peace, day and<lb/> night absorbing,</l>
+       <l>Never even for one brief hour abandoning my task,</l>
+       <l>I end it here in <seg xml:id="tr001">poverty,</seg> <seg xml:id="tr002">sickness,</seg><listTranspose>
+        <transpose rend="marked">
+         <ptr target="#tr002"/>
+         <ptr target="#tr001"/>
+        </transpose>
+       </listTranspose><add hand="#h01" place="left"><metamark function="transpose" target="#tr001 #tr002">tr/</metamark></add> and old age.</l>
+      </lg>
+      
+      <anchor xml:id="a183"/>
+     
+     <metamark function="emphasize"><add hand="#h01">#</add></metamark>
+      
+      <addSpan rend="pasteon" spanTo="#a184" hand="#h01"/>
+      
+      <lg type="linegroup">
+       <head type="main" rend="italic"><del rend="overstrike" hand="#h01">Death dogs my steps.</del></head>
+       
+       <l>I sing of life, yet mind me well of death:</l>
+       <l>To-day shadowy Death dogs my steps, <add hand="#h01" place="below"><metamark function="transpose" target="#tr004">&#8248;</metamark></add><seg xml:id="tr003">and has for years</seg>&#8212;<seg xml:id="tr004">my<lb/> seated shape,</seg><listTranspose>
+        <transpose>
+         <ptr target="#tr004"/>
+         <ptr target="#tr003"/>
+        </transpose>
+       </listTranspose><add hand="#h01" place="right"><metamark function="transpose" target="#tr003 #tr004">tr</metamark></add></l>
+       <l>Draws sometimes closer to me, as face to face.</l>
+      </lg>
     </lg>
+     
+     <metamark function="emphasize"><add hand="#h01">#</add></metamark>
+     
+     <lg type="poem">
+      <note type="work_relations" target="xxx.00566"></note>
+      <head type="main" rend="italic">For us two, reader dear.</head>
+      <l>Simple, spontaneous, curious, two souls interchanging,</l>
+      <l>With the original testimony for us continued <del hand="#h01" rend="overstrike">on</del> to the last.</l>
+     </lg>
+    
+    <milestone unit="glued"/>
+      
+      <anchor xml:id="a184"/>
     
      
      
