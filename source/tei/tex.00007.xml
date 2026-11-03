@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00007"> 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title level="m" type="main">As One by One Withdraw the Lofty Actors</title>
+    <title level="m" type="sub">a machine readable transcription</title>
+    <author>Walt Whitman</author>
+    <editor>Kenneth M. Price</editor>
+    <editor>Ed Folsom</editor>
+    <respStmt>
+     <resp>Transcription and encoding</resp>
+     <persName xml:id="tb">Tara Ballard</persName>
+     <persName xml:id="bb">Brett Barney</persName>
+    </respStmt>
+    <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+    <sponsor>University of Iowa</sponsor>
+    <funder>The National Endowment for the Humanities</funder>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     <date>2026</date>
+    </edition>
+   </editionStmt>
+   <publicationStmt>
+    <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
+    <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+           <availability>
+                   <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+                   <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+    </availability>
+   <idno>tex.00007</idno>
+   </publicationStmt>
+   <notesStmt>
+    <note type="project" target="#dat1">This manuscript seems to comprise draft material and notes written at several different times. The note at the top, in red, is to Henry Curtz, a jobber printer that Whitman often commissioned to print "slips" of poems for various purposes. Several such slips of this poem exist, so it seems likely that the present manuscript is the copy from which the type for these was set&#8212;sometime after the poem's initial publication but before Whitman decided to remove the second section.</note>
+    
+     <note type="work_relations" cert="high">When first published in the 16 May 1885 issue of <hi rend="italic">Harper's Weekly</hi>, this poem was titled "As One by One Withdraw the Lofty Actors." Under the title "Grant," it was reprinted in the 15 August 1885 issue of the <hi rend="italic">Critic</hi>. Whitman then removed the second section, retitled the poem "Death of General Grant," and included it in <hi rend="italic">November Boughs</hi> (1888).
+     </note>
+   </notesStmt>
+   
+   <sourceDesc>
+    <bibl>
+     <author xml:id="ww">Whitman, Walt</author>
+     <title>"As One by One Withdraw the Lofty Actors"; Manuscript with corrections, undated, 1p</title>  
+     <date notBefore="1885-08" notAfter="1888-05" cert="high" xml:id="dat1">Between 1885 and 1888</date>
+     <idno type="callno">TXRC03-A4; Container 1.1</idno>
+            <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+     <note>Transcribed from digital images of the original.</note>
+     <note type="project" target="#rel01">The verso shows part of an unfolded envelope addressed to Whitman.</note>
+    </bibl>
+   </sourceDesc>
+</fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="red ink" xml:id="h02" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h03" resp="#ww" scope="minor"/>
+   </handNotes>
+  </profileDesc>
+         <revisionDesc>
+        <change when="2026-11-02" who="#bb">proofed</change>
+        <change when="2024-10-08" who="#tb">transcribed and encoded</change>
+         </revisionDesc>
+ </teiHeader>
+ <text type="manuscript">
+  <body>
+   
+   <pb xml:id="leaf001r" facs="0000958.jpg" type="recto"/>
+     <note type="authorial" place="top" hand="#h02" rend="circled"><del rend="hashmark">Mr Kurtz set this up in the usual way, &amp; let me see a proof say by noon please.</del></note>
+   <lg type="poem"> 
+     <head><hi rend="underline">As one by one withdraw the <lb/>lofty actors.</hi></head>
+     <note type="authorial" place="inline" hand="#h02" rend="circled">April &amp; May 1885</note>
+           <lg type="section">
+                   <head type="main" hand="#h03">1</head>
+     <l>As one by one withdraw the lofty actors</l>
+     <l>From that great play on <hi rend="tripleUnderline">H</hi>istory's stage eterne,</l>
+     <l>That lurid partial act of war and peace&#8212;of<lb/>
+             old and new contending,</l>
+     <l>Fought out through wrath, <del rend="overstrike">and</del> fears, <del rend="overstrike">and</del><lb/>
+             dark dismays, and many a long suspense,</l>
+     <l><subst><del rend="overstrike" seq="1">Now</del> <add place="above" seq="2">All</add></subst> past&#8212;and since, in countless graves <choice><orig>re-<lb/>ceding,</orig><reg>receding,<lb/></reg></choice>
+             mellowing,</l>
+     <l>Victor's and vanquished&#8212;Lincoln's and Lee's&#8212;<lb/>
+             now <hi rend="tripleUnderline"><subst rend="overwrite"><del>t</del><add>T</add></subst></hi>hou with them,</l>
+     <l>Man of the mighty days&#8212;and equal to<lb/>
+             the days!</l>
+     <l>Thou <subst><del rend="overstrike" seq="1">of</del> <add place="above" seq="2">from</add></subst> the prairies!&#8212;<subst><del rend="overstrike" seq="1">curious</del> <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" seq="2" xml:id="a001">tangled and many-vein'd</add></subst> and hard has
+             <lb/>been thy part,</l>
+     <l>To admiration has it been enacted.</l>
+           </lg>
+     <note type="authorial" place="left" hand="#h02" rend="circled">as finally printed in Harper's Weekly</note>
+           <note type="authorial" place="right" hand="#h02" rend="circled">finally pub. in <hi rend="underline">Harper's Weekly</hi> May 16 1885</note>
+           
+    <lg type="section">
+            <head type="main" hand="#h03">2</head>
+            <l><handShift new="#h03"/> And still <subst><del rend="overstrike" seq="1">shall</del> <del rend="overstrike" seq="3"><add place="above" seq="2">may</add></del> <add place="above" seq="4">shall</add></subst>  be;&#8212;resume <add place="below"><metamark function="add" target="#a002">&#8248;</metamark></add><add place="above" xml:id="a002">again,</add> thou
+             <lb/>hero heart!</l>
+     <l>Strengthen to firmest day, O rosy
+             <lb/>dawn of hope!</l>
+     <l>Thou dirge, I started first, <del rend="overstrike">th</del> to
+      <lb/><subst><del rend="overstrike" seq="1">spirit of gladness turn</del> <add place="above" seq="2">joyful shout reverse&#8212;</add></subst>&#8212;and
+             <lb/>thou, O grave</l>
+     <l>Wait long and long!</l></lg>
+   </lg>
+          <signed><retrace cause="emphasize" hand="#h01" rend="doubleUnderline">Walt Whitman</retrace><hi rend="doubleUnderline"></hi></signed>
+   
+   <pb xml:id="leaf001v" facs="tex_am.00006_large.jpg" type="verso"/>
+          
+          <note type="authorial" place="right" hand="#h03">118</note>
+          <note type="authorial" place="right" hand="#h03">99</note>
+</body>
+</text>
+</TEI>
