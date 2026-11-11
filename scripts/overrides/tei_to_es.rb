@@ -1,4 +1,5 @@
 require_relative "../../../whitman-scripts/scripts/ruby/get_works_info.rb"
+require_relative "../../../whitman-scripts/scripts/archive-wide/overrides.rb"
 class TeiToEs
 
   ################
