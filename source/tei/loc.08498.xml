@@ -77,6 +77,7 @@
                 <handNote medium="red ink" xml:id="h07" resp="#ww"/>
                 <handNote medium="blue pencil" xml:id="h08" resp="#ww"/>
                 <handNote medium="purple pencil" xml:id="h09" resp="#ww"/>
+                <handNote medium="blue typed ink" xml:id="h10" resp="#ww"/>
             </handNotes>
         </profileDesc>
         <revisionDesc>
@@ -468,30 +469,29 @@
             
             <note type="authorial" hand="#h02" place="top">56</note>
             
-            <!-- RESUME PROOFING HERE. KM -->
+            <addSpan rend="pasteon" hand="#h10" spanTo="#a182"/>
             
-            <milestone unit="glued"/>
-            
-            <note type="authorial" hand="#h02" place="top"><del rend="overstrike">Sent to Franklin File 1285 Broadway, New York January '90 (paid &#8224;10)</del></note>
+            <note type="authorial" hand="#h02" place="top"><del rend="overstrike" hand="#h02">Sent to Franklin File 1285 Broadway, New York January '90 (paid &#8224;10)</del></note>
             
             <note type="collaborative" hand="#h05" place="left" rend="underline">Forrest</note>
             
-            <div>
-                
+            <div type="essay">
             <note type="work_relations" target="xxx.00562" cert="high"/>
                 
            <head type="main"><hi hand="#h02" rend="underline">A <hi hand="#h02" rend="doubleUnderline">D</hi>EATH-<hi hand="#h02" rend="doubleUnderline">B</hi>OUQUET</hi></head>
                 
-           <note type="authorial" rend="center"><hi hand="#h02" rend="underline"><del hand="#h02" rend="overstrike">Fresh</del> Pick'd Noontime Early January <hi hand="#h02" rend="overline underline" xml:id="j009">1890</hi></hi><add hand="#h02" place="right"><metamark target="#j009" function="adjust">one line sm: ital</metamark></add></note>
+           <head type="sub" rend="center" xml:id="j009"><hi hand="#h02" rend="underline"><del hand="#h02" rend="overstrike">Fresh</del> Pick'd Noontime Early January 1890</hi> <add hand="#h02" place="right"><metamark target="#j009" function="adjust">one line sm: ital</metamark></add></head>
             
-           <note type="authorial" rend="center"><del hand="#h02" rend="overstrike">By Walt Whitman</del></note> 
+           <byline><del hand="#h02" rend="overstrike">By Walt Whitman</del></byline> 
                 
-                <p>Death -- too great a subject to be treated so -- indeed the greatest subject -- and yet I am giving you but a few random lines<del hand="#h02" rend="overstrike">, <unclear reason="illegible" resp="#sd" cert="medium">collections,</unclear></del> about it<subst hand="#h02"><del rend="overstrike" seq="1" xml:id="d088">,</del><add place="right" seq="2">&#8212;<metamark target="#d088" function="emphasize">/</metamark></add></subst> as one writes hurriedly the last part of a letter to catch the closing mail. Only I trust the lines, especially the poetic bits quoted<add hand="#h02" place="below"><metamark target="#a024" function="add">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a024">,<metamark target="#a024" function="emphasize">/</metamark></add> may leave a lingering odor of spiritual heroism afterward. For I am probably fond of viewing all really great themes indirectly<add hand="#h02" place="below"><metamark target="#a025" function="add">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a025">,<metamark target="#a025" function="emphasize">/</metamark></add> and by side-ways and suggestions. Certain music from wondrous voices or skillful players -- the<subst hand="#h02"><del rend="overstrike" seq="1">r</del><add place="above" seq="2">n</add></subst> poetic giants still more<add hand="#h02" place="below"><metamark target="#a026" function="add">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a026">&#8212;<metamark target="#a026" function="emphasize">&#8248;/</metamark></add> put the soul in rapport with death, on toward it. Here a strain from Tennyson's late "Crossing the Bar":</p>
+                <p>Death -- too great a subject to be treated so -- indeed the greatest subject -- and yet I am giving you but a few random lines<del hand="#h02" rend="overstrike">, <unclear reason="illegible" resp="#sd" cert="high">collections,</unclear></del> about it<subst hand="#h02"><del rend="overstrike" seq="1" xml:id="d088">,</del> <add place="right" seq="2">&#8212;<metamark target="#d088" function="emphasize">/</metamark></add></subst> as one writes hurriedly the last part of a letter to catch the closing mail. Only I trust the lines, especially the poetic bits quoted<add hand="#h02" place="below"><metamark target="#a024" function="add">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a024">,<metamark target="#a024" function="emphasize">/</metamark></add> may leave a lingering odor of spiritual heroism afterward. For I am probably fond of viewing all really great themes indirectly<add hand="#h02" place="below"><metamark target="#a025" function="add">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a025">,<metamark target="#a025" function="emphasize">/</metamark></add> and by side-ways and suggestions. Certain music from wondrous voices or skillful players -- the<subst hand="#h02"><del rend="overstrike" seq="1">r</del><add place="above" seq="2">n</add></subst> poetic giants still more<add hand="#h02" place="below"><metamark target="#a026" function="add">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a026">&#8212;<metamark target="#a026" function="emphasize">&#8248;/</metamark></add> put the soul in rapport with death, on toward it. Here a strain from Tennyson's late "Crossing the Bar":</p>
                 
-                <q>
+                
+                <metamark function="adjust" target="#j039"><add hand="#h02" place="left" rend="marked">smaller type</add></metamark>
+                
+                <q xml:id="j039">
                     <floatingText>
                         <body>
-                            <lg type="poem">
                                 <lg type="linegroup">
                                     <l>"Twilight and evening bell<add hand="#h02" place="below"><metamark target="#a027" function="add">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a027">,<metamark target="#a027" function="emphasize">/</metamark></add><lb/> And after that the dark!</l>
                                     <l>And may there be no sadness of farewell<add hand="#h02" place="below"><metamark target="#a028" function="add">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a028">,<metamark target="#a028" function="emphasize">/</metamark></add><lb/> When I embark;</l>
@@ -501,37 +501,40 @@
                                     <l>For tho' from out our bourne of Time and Place<lb/> The floods may bear me far,</l>
                                     <l>I hope to see my <subst hand="#h02"><del rend="overstrike" seq="1">p</del><add place="right" rend="tripleUnderline" seq="2">P</add></subst>ilot face to face<lb/> When I have crost the bar."</l>
                                 </lg>
-                            </lg>
                         </body>
                     </floatingText>
                 </q>
                 
                 
                 <p>Am I starting the sail-craft of poets in line? Here then a
-                
-                
-           <pb xml:id="leaf015r" facs="loc_ja.00032.jpg" type="recto"/>
+                    
+                    <anchor xml:id="a182"/>
+                    
+                    
+                    <pb xml:id="leaf014v" type="verso"/>
+                    
+                    <pb xml:id="leaf015r" facs="loc_ja.00032.jpg" type="recto"/>
                     
            <note type="authorial" hand="#h02" place="top">57</note>
                     
-           <milestone unit="glued"/>        
+           <addSpan rend="pasteon" hand="#h10" spanTo="#a183"/>        
                 
-                qua<subst hand="#h02"><del rend="overstrike" seq="1">rt</del><add place="above" seq="2">tr</add></subst>ain of Phrynichus long ago to one of old Athens's favorites:</p>
+                qua<subst hand="#h02"><del rend="overstrike" seq="1">rt</del><add place="above" seq="2">tr</add></subst>ain of Phrynichus long ago to one of old Athens's favorites:
                 
-                <q>
+                <q xml:id="j040">
                     <floatingText>
                         <body>
-                            <metamark spanTo="#j010" rend="bracket-right"/><metamark target="#j010" function="adjust"><add hand="#h02" place="right">smaller type</add></metamark>
                             <lg type="linegroup">
                                 <l><add hand="#h02" place="below"><metamark target="#a029" function="add">&#8248;</metamark></add><add hand="#h02" place="left" xml:id="a029">"<metamark target="#a029" function="emphasize">/</metamark></add>Thrice-happy Sophocles! in good old age,</l>
                                 <l>Bless'd as a man, and as a craftsman bless'd,</l>
                                 <l>He died; his many tragedies were fair,</l>
                                 <l>And fair his end, nor knew he any sorrow.<add hand="#h02" place="below"><metamark target="#a030" function="add">&#8248;</metamark></add><add hand="#h02" place="right" xml:id="a030">"<metamark target="#a030" function="emphasize">/</metamark></add></l>
                             </lg>
-                            <anchor xml:id="j010"/>
                         </body>
                     </floatingText>
                 </q>
+                    <metamark target="#j040" function="adjust"><add hand="#h02" place="right">smaller type</add></metamark>
+                </p>
                 
                 <p>A happy (to call it so) and easy death is at least as much a physiological result as a psychological one. The foundation of it really begins before birth, and is thence directly or indirectly shaped and affected, even constituted,<add hand="#h02" place="below"><metamark target="#a031" function="add">&#8248;</metamark></add><add hand="#h02" place="above" xml:id="a031">(the base stomachic)</add> by every thing from that minute till the time of its occurrence. And yet here is something (Whittier's "Burning Driftwood") of an opposite coloring:</p>
                 
@@ -551,6 +554,8 @@
                 </q>
                 
                 <p>Like an invisible breeze after a long and sultry day, death sometimes sets in at last, soothingly and refreshingly, almost vitally. In not a few cases the termination even appears to be a sort of ecstasy. Of course there are painful deaths, But I do
+                    
+                    <anchor xml:id="a183"/>
                 
                 
              <pb xml:id="leaf016r" facs="loc_ja.00033.jpg" type="recto"/>
