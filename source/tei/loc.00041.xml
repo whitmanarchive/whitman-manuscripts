@@ -1,19 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00041">
-    <relations>
-        <work ref="xxx.00380" cert="absolute">
-            <p>Note regarding "Sail Out for Good, Eidolon Yacht!". Written on this small white sheet are the title of the poem and trial phrases for what appears to be a subtitle.</p>
-        </work>
-    </relations>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00041">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="m" type="main">Sail out for good Eidolon yacht</title>
+             <title level="m" type="main">Sail Out for good Eidólon Yacht</title>
             <title level="m" type="sub">a machine readable transcription</title>
             <author>Walt Whitman</author>
             <editor role="editor">Kenneth M. Price</editor>
             <editor role="editor">Ed Folsom</editor>
-            <editor role="editor">Matt Cohen</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="nhg">Nicole Gray</persName>
@@ -24,6 +21,7 @@
                <persName xml:id="lr">Lisa Renfro</persName>
                <persName xml:id="jh">Jeff Hill</persName>
                <persName xml:id="ew">Emma Whaley</persName>
+               <persName xml:id="bb">Brett Barney</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -35,7 +33,6 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>loc.00041</idno>
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,24 +41,37 @@
                <addrLine>P.O. Box 884100</addrLine>
                <addrLine>Lincoln, NE 68588-4100</addrLine>
             </address>
-            <availability>
-               <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+             <availability>
+                 <p>The text of the original document is in the public domain. Subject to certain exceptions, public domain works may be freely copied or used in the creation of derivative works without permission, or authorization, of the former copyright owners.</p>
+                 <p>The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
             </availability>
+            <idno>loc.00041</idno>
          </publicationStmt>
          <notesStmt>
-                <note type="project" target="dat1">This manuscript was likely produced between <date when="1890/1891">1890 and 1891</date>; the drafts that accompany this page are dated <date when="1890">1890</date>, and the poem itself was published in <date when="1891">1891</date>.</note>
+                <note type="project" target="dat1">This manuscript was likely produced in 1890 or early in 1891.</note>
+             <note type="work_relations" target="xxx.01170" cert="low">This title draft is possibly an earlier version of "Old-Age Recitatives" or "An Old Man's Recitatives," titles that Whitman used in 1890 for groups of poems that he submitted, unsuccessfully, for publication in <hi rend="italic">Arena</hi> and <hi rend="italic">Scribner's</hi> magazines, respectively (see <ref target="loc.00229">loc.00229</ref> and <ref target="loc.00230">loc.00230</ref>.</note>
+             <note type="work_relations" target="xxx.00377" cert="low">Alternatively, this manuscript might represent an early version of the title used for main section of poetry in <hi rend="italic">Good-Bye My Fancy</hi> (1891)&#8212;a section which Whitman ultimately decided to title, confusingly, "Good-By my Fancy." It also appeared under that title when it was reprinted (as a "second annex") in the 1891&#8211;1892 printing of <hi rend="italic">Leaves of Grass</hi>.</note>
+             <note type="work_relations" target="xxx.00380" cert="high"/>
             </notesStmt>
          <sourceDesc>
             <bibl>
-                    <author>Walt Whitman</author>
-                    <title>Sail out for Good Eidolon yacht</title>
-                    <date cert="high" value="1890/1891" xml:id="dat1">1890 or 1891</date>
+                    <author xml:id="ww">Walt Whitman</author>
+                <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Poetry, 1842-1892; “Sail Out for Good, Eidolon Yacht!” ( 1891 ); Manuscript drafts and notes</title>
+                    <date cert="high" notBefore="1890" notAfter="1891" xml:id="dat1">1890 or 1891</date>
+                     <idno type="callno">mss18630, box 29</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
                     <note type="project">Transcribed from digital images of the original.</note>
                 </bibl>
          </sourceDesc>
       </fileDesc>
+       <profileDesc>
+           <handNotes>
+               <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+               <handNote medium="pencil" xml:id="h02" resp="#ww" scope="minor"/>
+           </handNotes>
+       </profileDesc>
       <revisionDesc>
+         <change when="2026-11-12" who="#bb">proofed header; redid trascription and encoding of body from ground up</change>
          <change who="#ew" when="2024-09-24">updated image links</change>
          <change who="#jh" when="2024-05-20">checked, corrected</change>
          <change who="#nhg" when="2016-05-02">converted to P5</change>
@@ -72,21 +82,20 @@
          <change who="#lr" when="2006-08-01">blessed</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+    
+   
+    <text type="manuscript">
       <body>
           <pb facs="loc_ew.00037.jpg" xml:id="leaf001r" type="recto"/>
-            <div1 type="title notes">
-                <head type="main-derived" rend="underline">Sail out for good<lb/>
-                    Eidolon yacht</head>
-                <delSpan rend="hashmark" to="d1"/>
-                <ab type="subtitle">&amp; other<lb/>
-                    <subst><rdg varSeq="1"><del rend="overstrike"><hi rend="underline">poemets</hi></del></rdg><rdg varSeq="2"><add place="above" rend="unmarked">songs</add></rdg></subst> <add rend="unmarked" place="inline">with <add rend="unmarked" place="above">?</add><sic corr="Appendix">Apendix</sic></add> <del><add place="interlinear" rend="unmarked">—or as last</add></del>
-                    <hi rend="underline">to taper off Leaves of Grass</hi>
-                    <anchor xml:id="d1"/>
-                    <!--THERE WERE BASICALLY TWO OPTIONS REGARDING <subst> STRUCTURES HERE. I CHOSE TO ENCODE EACH ATTEMPT AT A SUBTITLE AS A SEPARATE <AB> RATHER THAN A <RDG>, BECAUSE THERE WERE MORE VARIANT READINGS INSIDE THE SUBTITLES. - FL-->
-                    <subst><rdg varSeq="1">&amp; other Songlets, <del rend="overstrike">with Appendix</del></rdg><rdg varSeq="2"><del rend="overstrike"><add place="above" rend="unmarked"><gap reason="deletion, illegible"/></add></del> <del rend="overstrike">&#8212;as last drops of a passing shower.</del>&#8212;<del rend="overstrike">or as</del> totaper off Leaves of Grass.</rdg></subst>
-                </ab>
-            </div1>
+            
+                <head type="main" rend="underline">Sail out for good<lb/>
+                    Eidol&#243;n Yacht</head>
+          <head type="sub"><del rend="hashmark"><hi rend="underline">&amp; other</hi> <subst><del rend="overstrike" seq="1"><hi rend="underline">Poemets</hi></del> <add place="above" seq="2">songs</add></subst> <add hand="#h02">with<metamark function="question">?</metamark> Appendix</add> <lb/><add place="above" hand="#h02">&#8212;or <del rend="overstrike">as</del> last</add> <hi rend="underline">to taper off</hi> <hi rend="doubleUnderline">Leaves of Grass</hi>
+          </del>
+          </head>
+          <head type="sub">&amp; other Songlets, <del rend="overstrike">with Appendix <add place="above">s</add></del> <lb/><del rend="overstrike">&#8212;as last drops of a passing shower.</del> <lb/>&#8212;<del rend="overstrike">or as</del> to taper off Leaves of Grass.</head>
+          <ab/><!-- to create valid TEI -->
+                
         </body>
    </text>
 </TEI>
