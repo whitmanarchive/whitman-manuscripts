@@ -6,20 +6,16 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
-
     <title level="m" type="main" rend="bracketed">Echoes of Ebb Tide</title>
     <title level="m" type="sub">a machine-readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
-
      <persName xml:id="tb">Tara Ballard</persName>
      <persName xml:id="ew">Emma Whaley</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -31,7 +27,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -52,12 +47,9 @@
    <idno>loc.04172</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">This manuscript was likely composed in the early 1880s, sometime before August 1885.</note>
     
-    
-     <note type="work_relations" cert="high">
-      <p>Draft lines for "Fancies at Navesink," first published in <hi rend="italic">The Nineteenth Century</hi> (1885).</p>
-     </note>
+     <note type="work_relations" cert="high" target="xxx.00334">A manuscript containing what appear to be trial titles, most likely for the poem that was eventually titled "Last of Ebb, and Daylight Waning." <ref target="loc.04174">Another manuscript</ref> contains a draft of a poem titled "Ebb-tide whisperings" (one of the title proposed here), and is clearly an early draft of "Last of Ebb." The poem was first published in <hi rend="italic">Nineteenth Century</hi> magazine in August 1885, as part of a cluster of poems titled "Fancies at Navesink." The cluster, including this poem, then appeared in <hi rend="italic">November Boughs</hi> (1888).</note>
    </notesStmt>
    
    <sourceDesc>
@@ -66,28 +58,25 @@
      
      <title>Fancies at Navesink</title>  
      
-     <date cert="high">about 1885</date>
+     <date cert="high" notBefore="1880" notAfter="1885-08">Early 1880s (before August 1885)</date>
      
      <idno type="callno">MSS 45443, Reel 1</idno>
-     
 
-     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, Library of Congress, Washington, D.C.</orgName>
+     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842–1937, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
- 
-     <note type="project" target="#rel01">The verso contains more drafted phrases, including "Turn of the tide" and "And" written twice.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="red ink" xml:id="h02" resp="#ww"/>
-    <handNote medium="blue ink" xml:id="h03" resp="#unk"></handNote>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="minor"/>
+    <handNote medium="red ink" xml:id="h02" resp="#ww" scope="major"/>
+    <handNote medium="blue stamped ink" xml:id="h03" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-11-18" who="#km">proofed</change>
  <change when="2024-09-25" who="#ew">updated image links</change>
  <change when="2024-08-05" who="#tb">transcribed and encoded</change>
 </revisionDesc>
@@ -97,15 +86,20 @@
   <body>
    
    <pb xml:id="leaf001r" facs="loc_ew.00394.jpg" type="recto"/>
-   <lg type="poem">
-     <l>Echoes of Ebb Tide</l>
-     <l><handShift new="#h02"/><hi rend="underline">Ebb Tide<lb/>
-      whisperings</hi></l>
-   </lg>
    
-   <note hand="h03" type="achirval" place="bottom left">28</note>
+   <head type="main" hand="#h01">Echoes of Ebb Tide</head>
+   
+   <head type="main" hand="#h02"><hi rend="underline">Ebb-Tide<lb/> Whisperings</hi></head>
+   
+   <ab/>
+   
+   <note hand="#h03" type="achirval" place="bottom left">28</note>
    
    <pb xml:id="leaf001v" facs="loc_ew.00395.jpg" type="verso"/>
+   
+   <ab>Turn of the tide</ab>
+   
+   <ab hand="#h01"><del rend="overstrike">And</del> <del rend="overstrike">And</del></ab>
    
 </body>
 </text>
