@@ -45,7 +45,7 @@
    <idno>loc.04183</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>    
+    <note type="project" target="#dat1">This manuscript was composed sometime after June 8, 1885, but before the publication of <hi rend="italic">November Boughs</hi> in 1888.</note>    
     
      <note type="work_relations" target="xxx.00410" cert="high">Draft lines and phrases under the title "Drift Sands." Whitman never published a poem with this title, though this and several other closely related manuscripts seem to constitute working drafts for the couplet "As idly drifting down the ebb, / Such ripples, half-caught voices, echo from the shore," which appears before the final paragraph of "A Backward Glance O'er Travel'd Roads," first published in <hi rend="italic">November Boughs</hi> (1888). Most of "A Backward Glance O'er Travel'd Roads" was drawn from three previously published pieces ("A Backward Glance on My Own Road [1884]," "How I Made a Book" [1886], and "My Book and I" [1887]). The couplet, however, was not part of any of those earlier essays. On the reverse side of the manuscript is a letter to Whitman dated June 8, 1885.</note>
    </notesStmt>
@@ -56,7 +56,7 @@
      
      <title>Thomas Biggs Harned Collection of the Papers of Walt Whitman: Manuscripts, [1859]-[circa 1892]; Poetry; Undated; "Drift Sands"</title>  
      
-     <date cert="high">about 1888</date>
+     <date cert="high" notBefore="1885-06-08" notAfter="1888" xml:id="dat1">Between 1885 and 1888</date>
      
      <idno type="callno">MSS 45443</idno>
      
@@ -65,16 +65,18 @@
      <note>Transcribed from digital images of the original.</note>
      <relatedItem type="text" xml:id="rel01" target="loc.05125"/>
      <relatedItem type="document" target="wwa.00704"/>
-     <note type="project" target="#rel01">On the verso is a crossed-out letter from T. H. Bartlett dated 8 June 1885.</note>
+     <note type="project" target="#rel01">On the verso is a struck-through letter from T. H. Bartlett dated 8 June 1885.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="blue stamped ink" xml:id="h02" resp="#unk" scope="minor"><name xml:id="unk">Unknown</name></handNote>
    </handNotes>
   </profileDesc>
 <revisionDesc>
+ <change when="2026-11-18" who="#km">proofed</change>
  <change when="2024-10-01" who="#ew">updated image links</change>
  <change when="2024-05-13" who="#tb">transcribed and encoded</change>
 </revisionDesc>
@@ -85,19 +87,19 @@
    
    <pb xml:id="leaf001r" facs="loc_ew.00122.jpg" type="recto"/>
    <lg type="poem">
-     <head>Drift Sands.</head>
-     <l>A half-caught echo from the <add place="inline"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">twilight</add> shore</l>
+     <head type="main">Drift Sands.</head>
+     <l>As half-caught echo from the <add place="below"><metamark function="add" target="#a001">&#8248;</metamark></add><add place="above" xml:id="a001">twilight</add> shore</l>
      
      
-    <l>As we <subst><del rend="overstrike" seq="1">to drift</del><add place="above" seq="2">float</add></subst> idly, <subst><del rend="overstrike" seq="1"><unclear reason="illegible" cert="low" resp="#tb"/></del> <add place="above">in the twilight ebb</add></subst> echoes from the shore</l>
+    <l>As we <subst><del rend="overstrike" seq="1"><unclear reason="illegible" cert="low" resp="#km">t</unclear> drift</del> <add place="above" seq="2">float</add></subst> idly, <del rend="overstrike">glint</del> <add place="above">in the twilight ebb</add> echoes from the shore</l>
     <l>Ripples, and</l>
     
     <l><add place="above">As</add> Echoes from the shore</l> 
     
     <l>Ripples and</l>
     
-    <l><subst><del rend="overstrike" seq="1">Ripples</del><add place="above" seq="2">Edges</add></subst> and glints of sand and <subst><del rend="overstrike" seq="1">echoes</del><add place="above" seq="2">ripples</add></subst> from the shore,</l>
-    <l><gap extent="about four letters" unit="chars" quantity="4" reason="torn away"/> we float idly on.</l>   
+    <l><subst><del rend="overstrike" seq="1">Ripples</del> <add place="above" seq="2">Edges</add></subst> and glints of sand and <subst><del rend="overstrike" seq="1">echoes</del> <add place="above" seq="2">ripples</add></subst> from the shore,</l>
+    <l><gap extent="about four characters" reason="torn away"/> As we float idly on.</l>   
    </lg>
    
    <pb xml:id="leaf001v" facs="loc_ew.00123.jpg" type="verso"/>
