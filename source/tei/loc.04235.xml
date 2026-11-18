@@ -44,7 +44,7 @@
    <idno>loc.04235</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">This manuscript was likely composed around 1888.</note>
         
      <note type="work_relations" cert="high" target="xxx.00410">Manuscript scrap containing two trial titles and two poetic lines, with corrections. Although Whitman never published a poem with either of these titles, this and several other closely related manuscripts seem to constitute working drafts for the couplet "As idly drifting down the ebb, / Such ripples, half-caught voices, echo from the shore," which appears before the final paragraph of "A Backward Glance O'er Travel'd Roads," first published in <hi rend="italic">November Boughs</hi> (1888). Most of "A Backward Glance O'er Travel'd Roads" was drawn from three previously published pieces ("A Backward Glance on My Own Road [1884]," "How I Made a Book" [1886], and "My Book and I" [1887]). The couplet, however, was not part of any of those earlier essays.</note>
    </notesStmt>
@@ -55,7 +55,7 @@
      
      <title>Thomas Biggs Harned Collection of the Papers of Walt Whitman: Manuscripts, [1859]-[circa 1892]; Poetry; Undated; "Drift Sands"</title>  
      
-     <date cert="high">about 1888</date>
+     <date cert="high" when="1888" xml:id="dat1">About 1888</date>
      
      <idno type="callno">MSS 45443, Reel 1</idno>
      
@@ -85,14 +85,18 @@
    
    <pb xml:id="leaf001r" facs="loc_ew.00398.jpg" type="recto"/>
    <lg type="poem">
-     <head rend="underline" type="main">Notes and Flanges.&#8212;No.1.</head>
+     <head rend="underline" type="main">Notes and Flanges.&#8212;No. 1.</head>
     
-    <l>"Ripple,and <subst><del rend="overstrike" hand="h02" seq="1">broken</del><del rend="overstrike" hand="h01" seq="3"><add place="above" hand="h02" seq="2">passing</add></del><add place="above" hand="h01" seq="4">passing</add></subst> run, and <subst><del rend="overstrike" hand="h02" seq="1">passing</del><add place="above" hand="h02" seq="2"><del rend="overstrike" hand="h01" seq="3">just</del>-caught</add><add place="above" hand="h01" seq="4">half-</add></subst> glimpse</l>
+    <l>"Ripple, and <subst><del rend="overstrike" hand="#h02" seq="1">broken</del> <del rend="overstrike" hand="#h01" seq="3"><add place="above" hand="#h02" seq="2">passing</add></del> <add place="above" hand="#h01" seq="4">passing</add></subst> run, and <subst><del rend="overstrike" hand="#h02" seq="1">passing</del> <add place="above" hand="#h02" seq="2"><del rend="overstrike" hand="#h01" seq="3">just</del> <add place="above" hand="h01" seq="4">half&#11840;</add>-caught</add></subst> glimpse</l>
      <l>As we sail idly."</l>
-    <l><handShift new="#h03"/><hi rend="underline">Ripples and glints.&#8212;No.&#8212;</hi></l>
    </lg>
-
-    <note hand="h04" type="archival" place="bottom left">94</note>
+   
+   <lg type="linegroup">
+    <head rend="underline" hand="#h03" type="main">Ripples and glints.&#8212;No.&#8212;</head>
+    <l/>
+   </lg>
+   
+    <note hand="#h04" type="archival" place="bottom">94</note>
    
    <pb xml:id="leaf001v" facs="loc_ew.00399.jpg" type="verso"/>
    
