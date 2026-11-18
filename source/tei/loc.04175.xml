@@ -6,18 +6,16 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
-    <title level="m" type="main" rend="bracketed">Out</title>
+    <title level="m" type="main" rend="bracketed">Out to</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="tb">Tara Ballard</persName>
      <persName xml:id="ew">Emma Whaley</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -29,7 +27,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -45,43 +42,39 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.04175</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">This manuscript was likely composed in the early 1880s, sometime before August 1885.</note>
         
-     <note type="work_relations" cert="high">
-      <p>Draft lines for "Fancies at Navesink," first published in <hi rend="italic">The Nineteenth Century</hi> (August 1885).</p>
-     </note>
+    <note type="work_relations" cert="high" target="xxx.00334">These draft lines contain slight similarities to the poem "Last of Ebb, and Daylight Waning." The poem was first published in <hi rend="italic">Nineteenth Century</hi> magazine in August 1885, as part of a cluster of poems titled "Fancies at Navesink." The cluster, including this poem, then appeared in <hi rend="italic">November Boughs</hi> (1888).</note>
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>Fancies at Navesink</title>  
+     <title>Thomas Biggs Harned Collection of the Papers of Walt Whitman: Manuscripts, [1859]-[circa 1892]; Poetry; [circa 1885] , "Fancies at Navesink"</title>  
      
-     <date cert="high">about 1885</date>
+     <date cert="high" notBefore="1880" notAfter="1885-08">Early 1880s (before August 1885)</date>
      
      <idno type="callno">MSS 45443, Reel 1</idno>
      
-     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, Library of Congress, Washington, D.C.</orgName>
+     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842–1937, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-     <note type="project" target="#rel01">The verso is blank.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
   <profileDesc>
    <handNotes>
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
-    <handNote medium="blue ink" xml:id="h02" resp="#ww"/>
-    <handNote medium="pencil" xml:id="h03" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="blue ink" xml:id="h02" resp="#ww" scope="minor"/>
+    <handNote medium="pencil" xml:id="h03" resp="#ww" scope="minor"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
+ <change when="2026-11-18" who="#km">proofed</change>
  <change when="2024-10-01" who="#ew">updated image links</change>
  <change when="2024-08-10" who="#tb">transcribed and encoded</change>
 </revisionDesc>
@@ -92,24 +85,25 @@
    
    <pb xml:id="leaf001r" facs="loc_ew.00396.jpg" type="recto"/>
    <lg type="poem">
-     <l>Out to <gap extent="about ten letters" unit="word" quantity="3" reason="torn away"/></l>
+    
+     <l>Out to <gap extent="about ten letters" reason="torn away"/></l>
     <l>What <gap extent="about six letters" unit="word" quantity="1" reason="torn away"/></l>
      <l>O ebbing tide! what</l>
-     <l>What <subst><del rend="overstrike" seq="1">boughs</del><add place="inline" seq="2">dreams</add></subst> of man<lb/>
+     <l>What <del rend="overstrike">boughs</del> dreams of man<lb/>
            and wom</l>
-     <l><handShift new="#h02"/>What do you carry you <subst><del rend="overstrike" seq="1">ebbing waters</del><add place="above" seq="2">tide receding</add></subst></l>
-    <l><handShift new="#h01"/>O <subst><del rend="overstrike" seq="1">who</del><add place="inline" seq="2">River</add></subst></l>
-    <l><subst><del rend="overstrike" seq="1">Who Knows</del><add hand="h02">What lives <del rend="overstrike" seq="3">you</del>&#8212;what dreams ye quench&#8212;ye backward, drowsy current</add></subst></l>
-    <l>What mersible works and <del rend="overstrike">j</del> hopes swept<lb/>
-           back, O ebbing tide here ebbing</l>
-     <l><handShift new="#h02"/>What wealth swept out to sea</l>
-     <l><handShift new="#h01"/>What odors of youth</l>
-     <l>What <subst><del rend="overstrike" seq="1">flashing</del><add place="inline" seq="2">freight</add></subst>, what wealth,<lb/>
-           what unhelm'd <add place="above">?</add> ships and boats</l>
-     <l>What&#8212;ruined, lost, carried out to sea<lb/>
+     <l><add hand="#h02">What do you carry you <subst><del rend="overstrike" seq="1">ebbing waters</del> <add place="above" seq="2">tide receding</add></subst></add></l>
+    <l>O <del rend="overstrike"><gap reason="illegible" extent="three characters"/></del> River</l>
+    <l><del rend="overstrike">Who Knows</del> <add hand="h02">What lives <del rend="overstrike">ye</del>&#8212;what dreams ye quench&#8212;ye<lb/> backward, <unclear reason="illegible" cert="low" resp="#km">drowning</unclear> curre<gap reason="torn away" extent="two characters"/></add></l>
+    <l>What invisible wrecks and <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#km">p</unclear></del> hopes swe<gap reason="torn away" extent="two characters"/><lb/>
+           back O tide here ebbing</l>
+     <l><add hand="#h02">What wealth swept out to sea</add></l>
+     <l>What odors of youth</l>
+     <l>What <del rend="overstrike">flashing</del> freight, what wealth,<lb/>
+           what unhelm'd <add place="above"><metamark function="question">?</metamark></add> ships and boats</l>
+     <l>What &#8212; ruined, lost, carried out to sea<lb/>
            down on thy</l>
-     <l><add place="above" hand="h03">? Ye</add><subst><del rend="overstrike" seq="1">Thy</del><add place="above" seq="2">Thy</add><add place="above" seq="3">The</add></subst> silent compassionate waters<lb/>
-        burying</l>
+    <l><add place="above" hand="h03"><metamark function="question">?</metamark> Ye</add> <subst><del rend="overstrike" seq="1"><unclear reason="illegible" cert="high" resp="#km">Thou</unclear></del> <add place="above" seq="2">Thy <add place="above" seq="3">The</add></add></subst> silent compassionate waters<lb/>
+        buryin<gap reason="torn away" extent="one character"/></l>
    </lg>
    
    <pb xml:id="leaf001v" facs="loc_js.00124_large.jpg" type="verso"/>
