@@ -6,18 +6,15 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
-
-    <title level="m" type="main">Good-Bye My Fancy</title>
+    <title level="m" type="main">Good-Bye my Fancy</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
      <persName xml:id="tb">Tara Ballard</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -29,7 +26,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -45,44 +41,36 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.04419</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- THE CONTENTS OF THIS NOTE WILL BE WRITTEN BY EDITORS AT A LATER STAGE OF THE PROCESS --></note>
+    <note type="project" target="#dat1">The manuscript is written on the reverse of an envelope that is postmarked Feb 22, 1890. The manuscript was therefore composed some time after that date but before the publication of <hi rend="italic">Good-Bye My Fancy</hi> in May 1891.</note>
         
-     <note type="work_relations" target="xxx.00459" cert="high">
-      <p><!-- No information included in Integrated Catalog as of 1.4.25, TB. --></p>
-     </note>
+     <note type="work_relations" target="xxx.00459" cert="high">A manuscript containing a draft title and subtitles for the volume ultimately published as <hi rend="italic">Good-Bye My Fancy</hi> (1891).</note>
    </notesStmt>
-   
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title>Good-Bye My Fancy</title>  
+     <title>Walt Whitman Papers in the Charles E. Feinberg Collection: Literary File, 1841-1919; Books, 1855-1919; Good-Bye My Fancy ( 1891 ); Title page layout</title>  
      
-     <date cert="high">1891</date>
+     <date cert="high" notBefore="1890-02-22" notAfter="1891-05" xml:id="dat1">1890 or 1891</date>
      
-     <idno type="callno">mss 18630, box 20; reel 12</idno>
+     <idno type="callno">mss 18630, box 20</idno>
      
      <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-
-     <note type="project" target="#rel01">The verso is comprised of an unfolded envelope to Whitman and two other pasted pages.</note>
     </bibl>
    </sourceDesc>
 </fileDesc>
-  
   <profileDesc>
    <handNotes>
-    <handNote medium="black ink" xml:id="h01" resp="#ww"/>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="sole"/>
    </handNotes>
   </profileDesc>
 <revisionDesc>
- 
+ <change when="2026-11-20" who="#km">proofed</change>
  <change when="2025-01-05" who="#tb">transcribed and encoded</change>
 </revisionDesc>
  </teiHeader>
@@ -92,10 +80,13 @@
    
    <pb xml:id="leaf001r" facs="loc_js.00561.jpg" type="recto"/>
    
-   <head><l><hi rend="tripleunderline">Good&#11840;Bye my</hi><hi rend="underline">Fancy</hi></l>
-    <l><hi rend="underline">And other Songlets, to taper off Leaves of Grass</hi></l>
-    <l><hi rend="underline">And other songlets</hi></l>
-    <l><hi rend="underline">To Taper off Leaves of Grass</hi></l></head>
+   <head type="main"><hi rend="tripleUnderline">Good&#11840;Bye my</hi> <hi rend="underline">Fancy</hi></head>
+   
+   <head type="sub" rend="underline">And other Songlets, to taper off Leaves of Grass</head>
+   
+   <head type="sub" rend="underline">And other Songlets<lb/> to taper off Leaves of Grass</head>
+    
+    <ab/><!-- to create valid TEI -->
    
    <pb xml:id="leaf001v" facs="loc_js.00562.jpg" type="verso"/>
    
