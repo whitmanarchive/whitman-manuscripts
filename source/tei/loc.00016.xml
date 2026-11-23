@@ -1,13 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> <?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
+<?oxygen SCHSchema="http://whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00016">
-   <relations>
-      <work ref="xxx.00315" cert="absolute">
-         <p>Written in pencil with corrections and changes in ink, this leaf has trial titles on
-            both sides. Whitman apprently first wrote "Carols at Seventy" as a section title,
-            changed it to "A Carol-Cluster at 69," "A Carol-Cluster at Sixty-Nine," and tried
-            "Carols at nearing Seventy," and "Carols at Sixty-Nine."</p>
-      </work>
-   </relations>
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -51,14 +45,23 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note type="project" target="dat1">These titles were meant as an annex to the <date when="1888">1888</date> edition of <hi rend="italic">Leaves of Grass</hi>.</note>                          	
+            <note type="project" target="dat1">These titles were meant as an annex to the <date when="1888">1888</date> edition of <hi rend="italic">Leaves of Grass</hi>.</note>     
+            
+               <note type="work_relations" target="xxx.00315" cert="high">Written in pencil with corrections and changes in ink, this leaf has trial titles on
+                     both sides. Whitman apprently first wrote "Carols at Seventy" as a section title,
+                     changed it to "A Carol-Cluster at 69," "A Carol-Cluster at Sixty-Nine," and tried
+                     "Carols at nearing Seventy," and "Carols at Sixty-Nine."</note>
          </notesStmt>
          <sourceDesc>
             <bibl>
                <author>Walt Whitman</author>
+               
                <title>[Carols at Seventy]</title>
+               
                <date cert="high" value="1888" xml:id="dat1">About 1888</date>
+               
                <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+               
                <note type="project">Transcribed from digital images of the original.</note>
             </bibl>
          </sourceDesc>
