@@ -6,20 +6,16 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    
-
     <title level="m" type="main" rend="bracketed">What burnt-out lives</title>
     <title level="m" type="sub">a machine readable transcription</title>
     <author>Walt Whitman</author>
     <editor>Kenneth M. Price</editor>
     <editor>Ed Folsom</editor>
-    <editor>Matt Cohen</editor>
     <respStmt>
      <resp>Transcription and encoding</resp>
-     
-     
      <persName xml:id="slg">Samantha Gilmore</persName>
      <persName xml:id="ew">Emma Whaley</persName>
+     <persName xml:id="km">Kevin McMullen</persName>
     </respStmt>
     <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
     <sponsor>University of Iowa</sponsor>
@@ -31,7 +27,6 @@
     </edition>
    </editionStmt>
    <publicationStmt>
-    
     <distributor xml:id="wwa">The Walt Whitman Archive</distributor>
     <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -47,34 +42,38 @@
       <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
       (CC BY 4.0). Permission to reproduce the graphic images of the original item has been granted by the owners of the original for this publication only.</p>
     </availability>
-    
-
    <idno>loc.04157</idno>
    </publicationStmt>
    <notesStmt>
-    <note type="project" target="#dat1"><!-- WRITTEN BY EDITORS --></note>
-    <note type="work_relations" target="xxx.00333" cert="high">
-     <p>These are draft lines for "Fancies at Navesink," first published in <hi rend="italic">The Nineteenth Century</hi> (August 1885).</p>
-     </note>
+    <note type="project" target="#dat1">"Fancies at Navesink," including the poem "Last of Ebb," was first published in <hi rend="italic">The Nineteenth Century</hi> magazine in August 1885, meaning that this mansucript was written sometime prior to that date, likely in the early 1880s.</note>
+    
+    <note type="work_relations" cert="high" target="xxx.00334">These draft lines contain vague similarities to several of the poems in the "Fancies at Navesink" cluster of <hi rend="italic">November Boughs</hi> (1888), particularly "Last of Ebb, and Daylight Waning."</note>
    </notesStmt>
    
    <sourceDesc>
     <bibl>
      <author xml:id="ww">Whitman, Walt</author>
      
-     <title resp="#wwa">[What burn-out lives]</title>  
+     <title>Thomas Biggs Harned Collection of the Papers of Walt Whitman: Manuscripts, [1859]-[circa 1892]; Poetry; [circa 1885] , "Fancies at Navesink"</title>  
      
-     <date notBefore="1880" notAfter="1885" cert="high">about 1885</date>
+     <date notBefore="1880" notAfter="1885" cert="high" xml:id="dat1">Early 1880s</date>
      
-     <idno type="callno">mss45443</idno>
+     <idno type="callno">MSS 45443</idno>
+     
      <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
      
      <note>Transcribed from digital images of the original.</note>
-     
     </bibl>
    </sourceDesc>
 </fileDesc>
+  <profileDesc>
+   <handNotes>
+    <handNote medium="black ink" xml:id="h01" resp="#ww" scope="major"/>
+    <handNote medium="blue stamped ink" xml:id="h02" resp="#unk1" scope="minor"><name xml:id="unk1">Unknown</name></handNote>
+   </handNotes>
+  </profileDesc>
 <revisionDesc>
+ <change when="2026-11-25" who="#km">proofed</change>
  <change when="2024-09-25" who="#ew">updated image links</change>
  <change when="2024-02-20" who="#slg">transcribed and encoded</change>
 </revisionDesc>
@@ -85,13 +84,11 @@
    
    <pb xml:id="leaf001r" facs="loc_ew.00089.jpg" type="recto"/>
    
-   <lg type="poem">
-    
-    
-    
-    <l>What <metamark function="add" target="#add1">&#8248;</metamark><add xml:id="add1" rend="insertion" place="above"><subst><del rend="overstrike" seq="1">What and that</del><add rend="unmarked" seq="2" place="above">burnt:out</add></subst></add> lives <subst><del rend="overstrike" seq="1">swept back</del><add rend="unmarked" seq="2" place="above"><gap reason="overstrike" extent="about three letters" unit="char" quantity="3"/><unclear cert="low" reason="illegible" resp="#slg">quench</unclear></add></subst> &#38; O drown'g tide</l>
-     
+   <lg type="linegroup">
+    <l>What <metamark function="add" target="#add1">&#8248;</metamark><add xml:id="add1" place="above"><subst><del rend="overstrike" seq="1">What and that</del> <add seq="2">burnt&#11840;out</add></subst></add> lives <subst><del rend="overstrike" seq="1">swept back</del> <del rend="overstrike" seq="3"><add seq="2" place="above">ye quench</add></del></subst> &#38; O drowning tide</l>
    </lg>
+   
+   <note type="archival" hand="#h02" place="bottom">41</note>
    
    <pb xml:id="leaf001v" facs="loc_ew.00090.jpg" type="verso"/>
    
